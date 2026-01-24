@@ -1,0 +1,19 @@
+{
+  "name": "Символ Пустоты",
+  "icon": "bloodmagic:voidsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Символ $(item)Void$(), когда вы нажимаете [$(k:use)], глядя на любую жидкость, уничтожит ее, затратив 50LP за блок. Хорошо подходит для очистки надоедливых потоков лавы без утомительного размещения и разрушения отдельных блоков."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Пустотный реагент",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_void",
+      "array.heading": "Символ Пустоты",
+      "array.recipe": "bloodmagic:array/voidsigil",
+      "array.text": "$(курсив)Лучше, чем Swiffer®!"
+    }
+  ]
+}

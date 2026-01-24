@@ -1,0 +1,21 @@
+{
+  "name": "Anointments",
+  "icon": "bloodmagic:melee_anointment",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Anointments$() — это, по сути, $(item)зелья$() для ваших инструментов, оружия и даже ваших $(l:bloodmagic:demon_will/demonic_items/explosive_charges)зарядов$(). Нажав [$(k:use)] с помощью $(item)anointment$() в одной руке, он будет применен к предмету в другой руке, если это возможно. Не все помазки работают на всей технике! $(br2)В отличие от $(item)potions$(), $(item)aintments$() не рассчитаны по времени; скорее, они постепенно стираются по мере использования вашего инструмента или оружия."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Наполненный сланцем флакон",
+      "recipe": "bloodmagic:alchemytable/slate_vial",
+      "text": "Прочный флакон, в котором могут содержаться смеси, которые иначе невозможно было бы удержать."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Its also possible to apply an $(item)anointment$() to an applicable item using a smithing table. This is particularly useful for two-handed weapons or $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/crippled_arm)other situations where you might find yourself not having enough hands$(). The $(item)anointment$() takes the role of a smithing template in this process."
+    }
+  ]
+}

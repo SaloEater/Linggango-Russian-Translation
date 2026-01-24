@@ -1,0 +1,24 @@
+{
+  "name": "Путь в Бесконечный мир",
+  "icon": "bloodmagic:ingot_hellforged",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Бесконечное царство",
+      "multiblock_id": "bloodmagic:standard_dungeon",
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) для упрощения сборки."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "standard_dungeon",
+      "text_overrides": [
+        [
+          "Царство Демонов",
+          "thing"
+        ]
+      ],
+      "text": "Остерегайтесь, Царство Демонов очень опасно. Приходите подготовленными!"
+    }
+  ]
+}

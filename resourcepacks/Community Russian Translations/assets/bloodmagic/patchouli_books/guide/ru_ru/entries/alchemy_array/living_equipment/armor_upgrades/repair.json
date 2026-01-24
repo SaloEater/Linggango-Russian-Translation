@@ -1,0 +1,15 @@
+{
+  "name": "Repair",
+  "icon": "minecraft:anvil",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: ремонтирует случайную часть изношенной брони каждые 100 тиков. $(br2)Обучение: ремонт вашего нагрудника (на наковальне, с помощью чар $(thing)Mending$() и т. д.). $(br2)Максимальный уровень: 1"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:repair"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Ритуал регенерации",
+  "icon": "minecraft:golden_apple",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал регенерации",
+      "multiblock_id": "bloodmagic:regeneration",
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "regeneration"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "regeneration",
+      "page_type": "corrosive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "regeneration",
+      "page_type": "heal"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "regeneration",
+      "page_type": "vampire",
+      "text": "Требуется $(corrosive)Corrosive Will$()."
+    }
+  ]
+}

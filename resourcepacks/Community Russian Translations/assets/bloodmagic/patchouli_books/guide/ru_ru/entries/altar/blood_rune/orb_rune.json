@@ -1,0 +1,25 @@
+{
+  "name": "Руна Сферы",
+  "icon": "bloodmagic:orbcapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна Сферы$() увеличивает емкость $(item)Кровавой сферы$(), находящейся внутри Алтаря, на +2% аддитивно за каждую руну, пока она находится внутри Алтаря."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_orb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_orb_2",
+      "text": "С некоторыми $(item)Нетеритовыми отходами$() и некоторыми $(item)Замысловатыми частями адской кузни$(), добытыми из $(l:bloodmagic:dungeons/endless_realm)Demon Realm$(), вы можете удвоить силу своей $(item)Руны Сферы$(), увеличивая емкость сферы на добавку +4% за каждую руну."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/orb_rune",
+      "text": "Если вы передумаете, вы можете отменить рецепт в ARC."
+    }
+  ]
+}

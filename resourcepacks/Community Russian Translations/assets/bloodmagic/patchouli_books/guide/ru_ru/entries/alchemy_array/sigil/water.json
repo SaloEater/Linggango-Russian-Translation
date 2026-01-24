@@ -1,0 +1,35 @@
+{
+  "name": "Символ Воды",
+  "icon": "bloodmagic:watersigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Water Sigil$() — довольно простой символ. Когда вы нажимаете [$(k:use)], глядя на блок, вы можете истощить 100LP из своей $(l:bloodmagic:altar/soul_network)Soul Network$(/l), чтобы разместить источник воды в мире. Если LP недостаточно, это приведет к потере вашего здоровья. Создано с использованием $(item)Водного реагента$() и $(item)Чистого планшета.$()"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Водный реагент",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_water",
+      "array.heading": "Символ Воды",
+      "array.recipe": "bloodmagic:array/watersigil",
+      "array.text": "$(курсив)Бесконечная вода, кто-нибудь?"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/water_sigil1.png",
+        "bloodmagic:images/entries/sigil/water_sigil2.png"
+      ],
+      "title": "Массив Водных Символов",
+      "border": true,
+      "text": "Символ Воды рядом с его набором для изготовления и его основным назначением."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ведро с водой",
+      "recipe": "bloodmagic:alchemytable/sigil_water_bucket",
+      "text": "Более того, его можно использовать в $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$() для автоматизации производства $(water)Ведер с водой$(). Сигил в этом рецепте не расходуется."
+    }
+  ]
+}

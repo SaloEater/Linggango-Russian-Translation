@@ -1,0 +1,29 @@
+{
+  "name": "Мгновенный урон",
+  "icon": "minecraft:iron_sword",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Instant Damage$() наносит цели 6 единиц $(thing)Magic Damage$() за уровень. Если целью является $(thing)Undead$(), вместо этого они будут исцелены на 6 очков за уровень.$(br2)Оно сделано из зелья либо $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/instant_health)Instant Health$(), либо $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/poison)Poison$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Урон от здоровья",
+      "a.recipe": "bloodmagic:flask/health_to_harm",
+      "b.heading": "Урон от яда",
+      "b.recipe": "bloodmagic:flask/poison_to_harm",
+      "c.heading": "Мгновенный урон II",
+      "c.recipe": "bloodmagic:flask/potency_harm"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() может еще больше улучшить ваши зелья."
+    },
+    {
+      "type": "bloodmagic:crafting_flask",
+      "heading": "Мгновенный урон III",
+      "recipe": "bloodmagic:flask/potency_average_harm"
+    }
+  ]
+}

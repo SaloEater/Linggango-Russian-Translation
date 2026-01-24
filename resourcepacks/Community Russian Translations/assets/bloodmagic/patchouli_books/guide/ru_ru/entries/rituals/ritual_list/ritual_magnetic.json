@@ -1,0 +1,32 @@
+{
+  "name": "Ритуал Магнетизма",
+  "icon": "minecraft:iron_ore",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал Магнетизма",
+      "multiblock_id": "bloodmagic:magnetism",
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) для упрощения сборки."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "magnetism"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "По умолчанию $()Ритуал Магнетизма$() ищет руду до коренной породы в радиусе 3 блоков от $(item)Мастера Ритуального Камня$(). Это можно увеличить, поместив дорогой блок непосредственно под MRS следующим образом: $(br)$(li)$(item)Block of Iron$() — 7 блоков. $(li)$(item)Блок золота$() - 15 блоков. $(li)$(item)Блок Алмаза$() — 31 блок."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "magnetism",
+      "page_type": "placementRange",
+      "text_overrides": [
+        [
+          "ores",
+          "item"
+        ]
+      ]
+    }
+  ]
+}

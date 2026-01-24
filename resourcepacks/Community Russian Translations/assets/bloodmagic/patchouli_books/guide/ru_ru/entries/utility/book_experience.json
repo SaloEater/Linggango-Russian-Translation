@@ -1,0 +1,20 @@
+{
+  "name": "Фолиант Перитии",
+  "icon": "bloodmagic:experiencebook",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Фолиант Перитии$() позволяет вам безопасно хранить свой $(thing)опыт$(). $(br2)нажатие [$(k:sneak)] и [$(k:use)] с фолиантом в руке сохраняет $(thing)один уровень XP$(). Нажатие [$(k:use)] $(thing) возвращает уровень $(). Удерживайте [$(k:use)] для $(thing)сохранения/извлечения нескольких уровней$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:experience_tome"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Поскольку у вас установлен $(thing)Curios API$(), вы можете использовать $(item)Фолиант Перитии$() в качестве талисмана. Если вы хотите носить больше сувениров одновременно, рассмотрите возможность использования $(l:bloodmagic:alchemy_array/sigil/holding)Sigil of Holding$() или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$() для вашего $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живая броня$()."
+    }
+  ]
+}

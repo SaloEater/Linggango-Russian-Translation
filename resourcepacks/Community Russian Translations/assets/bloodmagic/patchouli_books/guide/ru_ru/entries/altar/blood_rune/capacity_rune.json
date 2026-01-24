@@ -1,0 +1,25 @@
+{
+  "name": "Руна потенциала",
+  "icon": "bloodmagic:altarcapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна ёмкости$() увеличивает вместимость $(l:bloodmagic:altar/blood_altar)Кровавого алтаря$(/l) на добавку +20% за каждую руну."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_capacity"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_capacity_2",
+      "text": "Имея $(item)Нетеритовый мусор$() и $(item)Замысловатые детали адской кузни$(), добытые из $(l:bloodmagic:dungeons/endless_realm)Demon Realm$(), вы можете удвоить силу своей $(item)Руны емкости$(), увеличив вместимость $(l:bloodmagic:altar/blood_altar)Кровавого алтаря$(/l) на добавка +40% за руну."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/capacity",
+      "text": "Если вы передумаете, вы можете отменить рецепт в ARC."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Руна скорости",
+  "icon": "bloodmagic:speedrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Speed Rune$() увеличивает все крафтовые операции на Кровавом Алтаре. Скорость крафта (и скорость, с которой прогресс теряется, когда он пуст) увеличивается на добавку +20% за каждую руну."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_speed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_speed_2",
+      "text": "С некоторыми $(item)Нетеритовыми отходами$() и некоторыми $(item)Замысловатыми частями адской кузни$(), добытыми из $(l:bloodmagic:dungeons/endless_realm)Demon Realm$(), вы можете удвоить силу своей $(item)Speed ​​Rune$(), увеличивая скорость крафта на +40% за каждую руну."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/speed",
+      "text": "Если вы передумаете, вы можете отменить рецепт в ARC."
+    }
+  ]
+}

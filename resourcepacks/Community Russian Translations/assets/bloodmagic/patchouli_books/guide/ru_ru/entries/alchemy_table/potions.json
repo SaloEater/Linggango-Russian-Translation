@@ -1,0 +1,109 @@
+{
+  "name": "Создание зелий",
+  "icon": "bloodmagic:alchemy_flask",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Основы $(thing)Potion Crafting$() известны всем и каждому по всей стране. Даже обычные клирики и ведьмы хорошо разбираются в основах пивоварения — возьмите горсть полуредких ингредиентов, смешайте их в правильных пропорциях и употребите результат (зажав нос, если необходимо) или бросьте его в своих врагов."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Однако добавление $(blood)Life Essence$() и откровенно изобретательной сангвинации позволило вам ускорить практику. $(br2)Наделив обычные $(item)Стеклянные бутылки$() своими способностями, вы сможете удерживать гораздо больше, чем один глоток жидкости, а с помощью различных $(item)Катализаторов$() вы выяснили, как объединить несколько эффектов в одной колбе, не смешивая их и не сводя на нет."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Алхимическая настойка",
+      "recipe": "bloodmagic:altar/alchemy_flask",
+      "text": "Прочная фляга, гораздо более вместительная, чем любая жалкая бутылочка!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Конечно, бутылка, какой бы продвинутой она ни была, практически бесполезна, если ее чем-то наполнить. $(br2)Наряду со всеми обычными хорошо известными $(thing)Эффектами$(), такими как $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/water_breathing)Водное дыхание$(), $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/regeneration)Регенерация$(), или $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Night Vision$(), мы также усовершенствовали множество других, более специализированных рецептов, таких как $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Flight$(), $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/obsidian_cloak)Обсидиановый плащ$() или даже $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/passive)Passive$(). Эти и многие другие зелья описаны далее в книге."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:alchemy_flask",
+      "text": "После того, как вы израсходовали любую алхимическую колбу, просто промойте ее и наполните водой, чтобы получить новую колбу, готовую к использованию."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "У флаконов также есть эквиваленты $(thing)Splash$() и $(thing)Lingering Potions$(), см. на обороте. $(br2)$(thing)Затяжные зелья$() можно объединить с 8 $(l:bloodmagic:demon_will/demonic_items/throwing_daggers#amethyst_throwing_dagger)Аметистовыми метательными кинжалами$() в $(item)Алхимической реакционной камере$(), чтобы создать $(item)Аметистовые метательные кинжалы с наконечниками$(). На любое существо, пораженное одним из этих кинжалов, будут перенесены эффекты зелья."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Брызговая алхимическая колба",
+      "a.recipe": "bloodmagic:flask/flask_splash",
+      "b.heading": "Затяжной алхимический настой",
+      "b.recipe": "bloodmagic:flask/flask_lingering"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Возможно, вы помните, как я упоминал о возможности создания нескольких $(thing)effects$() в одном $(item)Flask$(). К счастью, этот процесс не может быть проще. Просто приготовьте зелье и используйте полученную колбу вместо пустой при втором заваривании. Например, если вы сделали флакон из $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Bounce$(), а затем взяли этот флакон и использовали его в качестве ингредиента во флаконе $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Ночного видения$(), вы получите флакон на 8 доз, который дает вам $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Bounce$() и $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Night Vision$() с каждым глотком!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Далее у нас есть $(item)Catalysts$(). Существует несколько типов катализаторов с разными эффектами, поэтому давайте начнем с трех самых простых — $(item)Simple Catalyst$(), $(item)Small Power Catalyst$() и $(item)Small Longening Catalyst$(). Из них первый является самым простым — он обеспечивает основу почти для каждого алхимического зелья, так же, как $(item)Death Wart$() делает стандартные зелья."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Простой катализатор",
+      "recipe": "bloodmagic:alchemytable/simple_catalyst",
+      "text": "Хорошая база практически для любого эффекта. Запасайтесь, вам понадобится много таких."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Катализатор малой мощности",
+      "recipe": "bloodmagic:alchemytable/mundane_power",
+      "text": "Катализаторы силы увеличивают эффективность самого верхнего эффекта внутри флакона, одновременно уменьшая продолжительность эффекта. Это примерно аналогично $(item)Glowstone$() в более стандартных зельях. Если последний примененный эффект не может принять катализатор, он попытается усилить второй сверху и так далее."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Малый катализатор удлинения",
+      "recipe": "bloodmagic:alchemytable/mundane_lengthening",
+      "text": "Катализаторы удлинения увеличивают продолжительность самого верхнего эффекта внутри флакона. Это примерно аналогично $(item)Redstone$() в более стандартных зельях. Если последний примененный эффект не может принять катализатор, он попытается усилить второй сверху и так далее."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Комбинированный катализатор",
+      "recipe": "bloodmagic:alchemytable/combinational",
+      "text": "$(item)Комбинированные катализаторы$() немного более нишевы — они берут два определенных эффекта и синтезируют из них третий, связанный эффект. Например, настой с $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)Suspended$() и $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)Levitation$() при сварке с этим катализатором создаст Настой с $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Flight$()."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Слабый наполнитель",
+      "recipe": "bloodmagic:alchemytable/weak_filling",
+      "text": "Наполнители можно использовать для обновления содержимого флакона за счет потери некоторых эффектов — слабый наполнитель может сохранить только самый верхний эффект на флаконе. Если вы хотите сохранить другой эффект, рассмотрите возможность использования $(item)Simple Cycling Catalyst.$()"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Простой велосипедный катализатор",
+      "recipe": "bloodmagic:alchemytable/cycling_catalyst",
+      "text": "Циклический катализатор можно использовать для изменения порядка эффектов внутри флакона и, таким образом, изменения эффекта, изменяемого другим катализатором или агентом."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Создание зелий 201",
+      "anchor": "average_potions",
+      "text": "Если вам недостаточно зелий, которые вы создали до сих пор, то, возможно, вам нужно немного изучить их? С помощью $(item)Glow berry$(), $(item)Cobbled Deepslate$() и небольшого количества $(l:bloodmagic:dungeons/demonite)Hellforged Sand$() вы можете значительно увеличить продолжительность и мощность своих флаконов."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Усиленный катализатор",
+      "recipe": "bloodmagic:alchemytable/strengthened_catalyst",
+      "text": "Более мощная основа для более мощных катализаторов."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Стандартное удлинение",
+      "recipe": "bloodmagic:alchemytable/average_lengthening",
+      "text": "Стандартный катализатор удлинения увеличит продолжительность самого верхнего эффекта с 3:00 до 21:20. Умножьте это на 8 доз, которые дает каждая колба, и это будет чертовски долго!"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Стандартный силовой катализатор",
+      "recipe": "bloodmagic:alchemytable/average_power",
+      "text": "Катализатор стандартной мощности — это усовершенствованная версия катализатора малой мощности, позволяющая получить эффекты зелий до уровня III в вашей колбе, сокращая при этом продолжительность действия до 45 секунд на одну дозу."
+    }
+  ]
+}

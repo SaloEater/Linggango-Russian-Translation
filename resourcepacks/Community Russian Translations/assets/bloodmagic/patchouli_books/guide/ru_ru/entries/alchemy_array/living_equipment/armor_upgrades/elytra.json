@@ -1,0 +1,17 @@
+{
+  "name": "Elytra",
+  "icon": "minecraft:elytra",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Добавляет надкрылья к вашей живой броне. Вместо обучения необходимо создать $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Upgrade Tome$(). $(br2)Эти надкрылья поглощают прочность нагрудника, но со скоростью вдвое меньшей, чем у обычных надкрылий. $(br2)А еще он выглядит довольно аккуратно."
+    },
+    {
+      "type": "bloodmagic:crafting_upgrade_array",
+      "a.heading": "Надкрылья Томе",
+      "a.recipe": "bloodmagic:array/living_elytra_upgrade",
+      "b.upgrade": "bloodmagic:elytra"
+    }
+  ]
+}

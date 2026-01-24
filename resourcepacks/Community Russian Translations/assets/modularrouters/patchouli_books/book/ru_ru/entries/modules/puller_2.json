@@ -1,0 +1,20 @@
+{
+  "name": "Модуль Захвата Mk2",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:puller_module_2",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Работает так же, как $(l:modules/puller_1)Захват Mk1/$, но может забирать предметы из инвентарей, которые не находятся рядом.$(p)Инвентарь может находиться на расстоянии до 12 блоков (до 24 с помощью $(l:augments/range_up)Усилителей Дальности/$); прямая видимость $(italic)не/$ требуется."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Чтобы выбрать целевой инвентарь, $(thing)Shift+Правый клик/$ по блоку с модулем Puller Mk2 в руках. Вы получите сообщение о подтверждении.$(li)Если держать Puller Mk2 с установленной целью, целевой блок будет подсвечен."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:puller_module_2",
+      "recipe2": "modularrouters:puller_module_2_x4"
+    }
+  ]
+}

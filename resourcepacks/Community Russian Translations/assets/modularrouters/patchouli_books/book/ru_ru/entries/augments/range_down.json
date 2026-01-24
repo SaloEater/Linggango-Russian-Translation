@@ -1,0 +1,17 @@
+{
+  "name": "Усилитель уменьшения дальности",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:range_down_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот усилитель можно добавить в любой модуль, который имеет дальность действия (Отправитель $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$, Захват $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$, Экструдер $(l:modules/extruder_1)Mk1/$ / $(l:modules/extruder_2)Mk2/$, $(l:modules/fluid_2)Жидкость Mk2/$, $(l:modules/vacuum)Вакуум/$).$(p)Его можно ставить несколько раз; каждый усилитель уменьшает дальность модуля на один блок.$(p)Это, вероятно, полезно только вместе с $(l:modules/vacuum)Модулем Вакуум/$, чтобы контролировать область сканирования предметов."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:range_down_augment",
+      "recipe2": "modularrouters:range_down_from_up"
+    }
+  ]
+}
+

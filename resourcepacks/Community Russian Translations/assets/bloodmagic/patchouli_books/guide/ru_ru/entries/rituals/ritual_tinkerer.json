@@ -1,0 +1,24 @@
+{
+  "name": "Ритуальный мастер",
+  "icon": "bloodmagic:ritualtinkerer",
+  "category": "bloodmagic:rituals",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Ritual Tinkerer$() — это незаменимый инструмент для продвинутых сангвиантов, которые ищут все, что можно получить от своих $(thing)Rituals$(). Он имеет три основных режима, как описано на обороте. Вы можете переключаться между ними, нажимая [$(k:sneak)] и [$(k:use)]."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_reader"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Информация: Описывает функцию $(thing)Ritual$(), аналогичную $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(). $(li)Set Will Consumed: сообщает $(thing)Ritual$(), какие виды $(raw)Demon Will$() (если есть) потреблять из $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$(). Укажите это, добавив $(item)Demon Will Crystals$() на свою горячую панель, по одному для каждого типа $(raw)will$(), который вы хотите, чтобы $(thing)Ritual$() потреблял. Дополнительную информацию о влиянии $(raw)Demon Will$() на $(thing)Rituals$() можно найти на соответствующей странице каждого $(thing)Ritual$() в этой книге."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Define Area: указывает зону, в которой должен работать $(thing)Ritual$(), и отображает текущую зону. Если можно указать несколько зон, нажатие [$(k:sneak)] и [$(k:use)] на $(item)Master Ritual Stone$() будет циклически переключаться между ними. Некоторые $(thing)Rituals$() могут быть расширены далеко за пределы их областей по умолчанию, но имейте в виду, что это увеличит стоимость $(blood)LP$() до соответствия..."
+    }
+  ]
+}

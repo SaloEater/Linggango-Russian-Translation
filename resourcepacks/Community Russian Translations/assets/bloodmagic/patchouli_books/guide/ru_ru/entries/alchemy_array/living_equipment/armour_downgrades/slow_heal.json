@@ -1,0 +1,16 @@
+{
+  "name": "Diseased",
+  "icon": "minecraft:ghast_tear",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Снижает эффективность всех источников исцеления. Максимум составляет 80%, поэтому источник, который обычно исцеляет 10 сердец, излечит только 2."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/slow_heal",
+      "b.upgrade": "bloodmagic:slow_heal"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Модуль Захвата Mk1",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:puller_module_1",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот модуль пытается забрать первый подходящий предмет из соседнего инвентаря в направлении, заданном в настройках модуля ($(l:intro/modules#direction)configured direction/$), и поместить его в буфер маршрутизатора. Если буфер полон или содержит предмет, который не может сложиться ни с одним предметом из инвентаря, ничего не будет забрано."
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:puller_module_1"
+    }
+  ]
+}
+

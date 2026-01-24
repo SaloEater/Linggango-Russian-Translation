@@ -1,0 +1,55 @@
+{
+  "name": "Аспекты Воли Демона",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:steadfastdemoncrystal": 2,
+    "bloodmagic:corrosivedemoncrystal": 2,
+    "bloodmagic:destructivedemoncrystal": 2,
+    "bloodmagic:vengefuldemoncrystal": 2,
+    "bloodmagic:steadfastcrystal": 2,
+    "bloodmagic:corrosivecrystal": 2,
+    "bloodmagic:destructivecrystal": 2,
+    "bloodmagic:vengefulcrystal": 2,
+    "bloodmagic:basemonstersoul_vengeful": 2,
+    "bloodmagic:basemonstersoul_corrosive": 2,
+    "bloodmagic:basemonstersoul_steadfast": 2,
+    "bloodmagic:basemonstersoul_destructive": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Выпустить $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() в атмосферу было определенно отличной идеей. Он не только оказался наиболее полезным для расширения возможностей $(item)Rituals$(), но вы также успешно сконденсировали его в $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Кристальный кластер$() и задаетесь вопросом, на что обратить свой взгляд дальше. $(br2)Эти $(item)Кристаллы$() кажутся вам какими-то... противоречивыми. Определенный $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)Ritual$() может помочь привести их в более чистые формы..."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/will_splitting.png"
+      ],
+      "title": "Аспекты воли",
+      "border": true,
+      "text": "Ритуал $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)Резонанс Граненого Кристалла$() в действии."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Теперь у нас есть $(item)Crystalized Will$() в четырех новых пикантных вкусах! на $(water)Руне Воды$() у нас есть $(steadfast)Стойкая Воля$(), на $(air)Руне Воздуха$() мы получаем $(destructive)Разрушительная Воля$(), на $(fire)Руне Огня$() появляется $(vengeful)Мстительная Воля$(), а на $(earth)Руне Земли$() мы находим $(corrosive)Коррозионная Воля.$() $(br2)Эти различные новые типы Воли могут быть сожжены в $(item)Demon Crucible$() так же, как и Чистая Воля, и оттуда могут быть использованы в различных Ритуалах для достижения великолепного и захватывающего эффекта."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "sentient_aspects",
+      "text": "Однако они также меняют поведение ваших Разумных инструментов, делая их более мощными.$(br) $(li)$(raw)Raw Will$(): Увеличивает урон. $(corrosive)$(li)Corrosive Will$(): Атаки имеют шанс отравить или иссушить ваших врагов, в остальном то же самое, что и $(raw)Raw$(). $(vengeful)$(li)Vengeful Will$(): увеличивает урон, но не так сильно, как $(raw)Raw$(). Увеличивает скорость атаки. Дает усиление скорости передвижения, которое увеличивается с увеличением уровня Воли."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(steadfast)$(li)Steadfast Will$(): увеличивает урон (но не так сильно, как $(raw)Raw$()) и дает поглощение после убийства. $(destructive)$(li)Разрушительная воля$(): увеличивает урон больше, чем любой другой тип воли, но снижает скорость атаки."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Вы можете задаться вопросом: «Как мне привести это завещание в удобную для использования форму?» Что ж, ответ прост. Просто поместите ПУСТОЙ $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() в $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Кузницу Адского Пламени$() в тот же кусок, что и $(item)Демонический Тигель$(), а затем накормите Демонический Тигель Кристаллами Воли нужного аспекта. Ваш $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() наполнится этим аспектом воли. Вы можете изменить тип использования $(raw)Sentient Tools$(), нажав [$(k:use)], удерживая их."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Обратите внимание, что ваш $(item)Sentient Tools$() примет вид самого большого количества $(raw)Will$() в вашем инвентаре. Если вы носите с собой 10 $(corrosive)Corrosive Will$() в одном $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() и 1000 $(raw)Raw Will$() в другом, то ваш меч останется $(raw)Raw$(). $(br2)$(l:bloodmagic:demon_will/will_manipulation/soul_forge)Hellfire Forge$() может принимать любой вид $(raw)will$() для крафта, так что не беспокойтесь о необходимости совмещать несколько типов воли с разными $(item)Tartaric Gems$()."
+    }
+  ]
+}

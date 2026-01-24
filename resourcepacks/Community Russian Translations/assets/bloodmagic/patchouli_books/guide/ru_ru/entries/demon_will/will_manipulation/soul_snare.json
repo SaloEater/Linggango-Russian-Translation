@@ -1,0 +1,27 @@
+{
+  "name": "Ваша первая воля",
+  "icon": "bloodmagic:soulsnare",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Душевная ловушка",
+      "recipe": "bloodmagic:altar/soul_snare",
+      "text": "$(item)Soul Snares$() — это ваши ворота в $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() часть $(blood)Blood Magic$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Использовать $(item)Snare$() достаточно просто — создайте их большое количество и бросьте во враждебных $(thing)мобов$(). Вокруг них появятся эффекты белых частиц; тогда пришло время заняться убийством. После смерти из них выпадет $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$(). Прежде чем вы спросите, да, зачарование «Мародерство» увеличит количество выпадающих $(raw)Will$(). Собрав парочку, вы можете приступить к созданию $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Разумного меча$() и $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарового камня$() — их можно будет собирать. $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() намного проще."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/snare_particles.png"
+      ],
+      "title": "Ловушка на скелете",
+      "border": true,
+      "text": "Скелет с белыми частицами после попадания в ловушку."
+    }
+  ]
+}
