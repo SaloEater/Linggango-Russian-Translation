@@ -1,0 +1,42 @@
+name: Create Release with 7z Archive
+
+jobs:
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Prepare build structure
+        run: |
+          mkdir -p build_temp
+          cp -r config build_temp/
+          cp -r kubejs build_temp/
+          mkdir -p build_temp/resourcepacks
+
+          echo "📦 files to build:"
+          ls -la build_temp/
+
+      - name: Create resource pack zip
+        run: |
+          cd "resourcepacks/Community RussianTranslations"
+          zip -r ../../build_temp/resourcepacks/Community_RussianTranslations.zip .
+          cd ../..
+
+      - name: Create 7z archive
+        uses: edgarrc/action-7z@v1
+        with:
+          args: 7z a -t7z -mx=9 CommunityRussianTranslation.7z ./build_temp/* -r
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: 1.0
+          name: Release 1.0
+          body: |
+            ${{ github.event.inputs.description }}
+          files: CommunityRussianTranslation.7z
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
