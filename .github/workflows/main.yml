@@ -3,12 +3,9 @@ name: Create Release with 7z Archive
 on: push
 
 jobs:
-  build:
-    permissions: write-all # this is the FIX
-    runs-on: ubuntu-latest
-
   release:
     name: Create Release
+    permissions: write-all # this is the FIX
     runs-on: ubuntu-latest
 
     steps:
