@@ -1,6 +1,8 @@
 name: Create Release with 7z Archive
 
 on:
+  workflow_dispatch:
+    inputs:
 
 jobs:
   release:
