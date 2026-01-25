@@ -2,7 +2,6 @@ name: Create Release with 7z Archive
 
 on:
   workflow_dispatch:
-    inputs:
 
 jobs:
   release:
@@ -25,7 +24,7 @@ jobs:
 
       - name: Create resource pack zip
         run: |
-          cd "resourcepacks/Community RussianTranslations"
+          cd "resourcepacks/Community Russian Translations"
           zip -r ../../build_temp/resourcepacks/Community_RussianTranslations.zip .
           cd ../..
 
