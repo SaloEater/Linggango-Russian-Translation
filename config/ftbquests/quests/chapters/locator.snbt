@@ -1,0 +1,373 @@
+{
+	autofocus_id: "2221E29251E78540"
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "netheritetier"
+	default_repeatable_quest: true
+	filename: "locator"
+	group: "24697C49C2A3ADAA"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/compass"
+		}
+	}
+	id: "748F08D7D0EB4534"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: ["ftbquests.chapter.locator.image.hovertext1"]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -0.5d
+		y: -2.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "03A428597377BA31"
+			rewards: [{
+				command: "/locate structure block_factorys_bosses:sandworm_nest"
+				elevate_perms: true
+				id: "5D2768DF8ED8BD6A"
+				title: "{ftbquests.chapter.locator.quest262379042948758065.reward.6712449079002578282.title}"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "7FEF956635655FA8"
+				item: { Count: 5, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest262379042948758065.title}"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "7C92148F901BC755"
+			rewards: [{
+				command: "/locate structure terramity:sword_shrine"
+				elevate_perms: true
+				id: "3CBDEEF71206826A"
+				title: "{ftbquests.chapter.locator.quest8976259614133438293.reward.4376917157800739434.title}"
+				type: "command"
+			}]
+			tasks: [{
+				count: 5L
+				id: "1FF5A34E8F4F5A0A"
+				item: { Count: 5, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest8976259614133438293.title}"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "09AAF962D291AAF8"
+			rewards: [{
+				command: "/locate structure mythsandlegends:graveyard"
+				elevate_perms: true
+				id: "50EBD587CC00754F"
+				title: "{ftbquests.chapter.locator.quest696643295217036024.reward.5830988921781122383.title}"
+				type: "command"
+			}]
+			tasks: [{
+				count: 2L
+				id: "03A28994D328DAB9"
+				item: { Count: 2, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest696643295217036024.title}"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "4B68F4E8EDCC51A4"
+			rewards: [{
+				command: "/locate structure block_factorys_bosses:dragon_tower"
+				elevate_perms: true
+				id: "6F211982E0477F1D"
+				title: "{ftbquests.chapter.locator.quest5433862231681683876.reward.8007709662340677405.title}"
+				type: "command"
+			}]
+			tasks: [{
+				count: 2L
+				id: "51AB65FA62C1CC3A"
+				item: { Count: 2, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest5433862231681683876.title}"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"{ftbquests.chapter.locator.quest2459495989588231488.description1}"
+				""
+				"{ftbquests.chapter.locator.quest2459495989588231488.description2}"
+				""
+				"{ftbquests.chapter.locator.quest2459495989588231488.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2221E29251E78540"
+			shape: "square"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.locator.quest2459495989588231488.subtitle}"
+			tasks: [{
+				id: "4EC98E9DDC234F0D"
+				title: "{ftbquests.chapter.locator.quest2459495989588231488.task.5677225613931532045.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.locator.quest2459495989588231488.title}"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "27E7F8F02A4ED69E"
+			rewards: [{
+				command: "/locate structure terramity:trial_spire"
+				elevate_perms: true
+				id: "12668C3C1FADC30D"
+				title: "{ftbquests.chapter.locator.quest2875540597485000350.reward.1325901330164597517.title}"
+				type: "command"
+			}]
+			tasks: [{
+				count: 8L
+				id: "4128C9FF172AF2DA"
+				item: { Count: 8, id: "terramity:ruby" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest2875540597485000350.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "5F4A5CFD1BDA2DAF"
+			rewards: [{
+				command: "/locate structure bosses_of_mass_destruction:gauntlet_arena"
+				elevate_perms: true
+				id: "574915220E41CE47"
+				title: "{ftbquests.chapter.locator.quest6866402824043507119.reward.6289581590611873351.title}"
+				type: "command"
+			}]
+			subtitle: "{ftbquests.chapter.locator.quest6866402824043507119.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "636ABC0C42FABBFD"
+				item: { Count: 2, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest6866402824043507119.title}"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "56DD14296BC7B068"
+			rewards: [{
+				command: "/locate structure minecraft:fortress"
+				elevate_perms: true
+				id: "04A355B0BB603F2A"
+				title: "{ftbquests.chapter.locator.quest6259181225249321064.reward.334205014901800746.title}"
+				type: "command"
+			}]
+			subtitle: "{ftbquests.chapter.locator.quest6259181225249321064.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "29AD27F30FA477E3"
+				item: { Count: 4, id: "terramity:ruby" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest6259181225249321064.title}"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "59DE95EEFF65D48F"
+			rewards: [{
+				command: "/locate structure terramity:chthonic_cathedral"
+				elevate_perms: true
+				id: "08F45DBC5DDD6FE3"
+				title: "{ftbquests.chapter.locator.quest6475778167924970639.reward.645243710230851555.title}"
+				type: "command"
+			}]
+			subtitle: "{ftbquests.chapter.locator.quest6475778167924970639.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "6DA6640123A37918"
+				item: { Count: 2, id: "terramity:black_matter" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest6475778167924970639.title}"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "3B03B77C3C31CFE5"
+			rewards: [{
+				command: "/locate structure companions:companions_monkey_temple"
+				elevate_perms: true
+				id: "3D12FE7ACEAF272C"
+				title: "{ftbquests.chapter.locator.quest4252444217381605349.reward.4400859589301446444.title}"
+				type: "command"
+			}]
+			tasks: [{
+				count: 6L
+				id: "3E632EC9480DCC48"
+				item: { Count: 6, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest4252444217381605349.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "66AD148133FC1229"
+			rewards: [{
+				command: "/locate structure companions:companions_teddytower"
+				elevate_perms: true
+				id: "4A4E129F22ADE6ED"
+				title: "{ftbquests.chapter.locator.quest7398592307995087401.reward.5354237481681020653.title}"
+				type: "command"
+			}]
+			tasks: [{
+				count: 12L
+				id: "557CC60809B217B4"
+				item: { Count: 12, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest7398592307995087401.title}"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "182CFF40F4C0EAB7"
+			rewards: [{
+				command: "/locate structure companions:companions_factory"
+				elevate_perms: true
+				id: "7231613FEF3A10D9"
+				title: "{ftbquests.chapter.locator.quest1742047810334812855.reward.8228464921407000793.title}"
+				type: "command"
+			}]
+			tasks: [{
+				count: 2L
+				id: "021C8C588EFB5DEA"
+				item: { Count: 2, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest1742047810334812855.title}"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "7D1085AFE3A332B1"
+			rewards: [{
+				command: "/locate structure companions:companions_tent"
+				elevate_perms: true
+				id: "6AD14686ED494AC8"
+				title: "{ftbquests.chapter.locator.quest9011849844853256881.reward.7697010783473453768.title}"
+				type: "command"
+			}]
+			subtitle: "{ftbquests.chapter.locator.quest9011849844853256881.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "4E0C165520BE5B9B"
+				item: "companions:nether_coin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest9011849844853256881.title}"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "3B380BCE89B7ECB6"
+			rewards: [{
+				command: "/locate structure companions:companions_babayaga"
+				elevate_perms: true
+				id: "1558DD1C8A7BD5B4"
+				title: "{ftbquests.chapter.locator.quest4267173628635245750.reward.1538222387399218612.title}"
+				type: "command"
+			}]
+			tasks: [{
+				count: 8L
+				id: "5A6B65DAEFDFA013"
+				item: { Count: 8, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest4267173628635245750.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "34804479F4207A1F"
+			rewards: [{
+				command: "/locate structure terramity:court_of_gnomes"
+				elevate_perms: true
+				id: "050B19C06AB1F009"
+				title: "{ftbquests.chapter.locator.quest3783098977568717343.reward.363412509147918345.title}"
+				type: "command"
+			}]
+			tasks: [{
+				count: 10L
+				id: "4C7425636206C9E1"
+				item: { Count: 10, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest3783098977568717343.title}"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "350B8CDF55B4CE20"
+			rewards: [{
+				command: "/locate structure dungeons_revival:redstone_mines"
+				elevate_perms: true
+				id: "4584696709EFCB5F"
+				silent: true
+				title: "{ftbquests.chapter.locator.quest3822303599597506080.reward.5009244576812092255.title}"
+				type: "command"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5C83BF41EEF9FC95"
+				item: { Count: 2, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest3822303599597506080.title}"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "5369DF065AAD2401"
+			rewards: [{
+				command: "/locate structure born_in_chaos_v1:infernal_pumpkin"
+				elevate_perms: true
+				id: "46DA5F04F2D3B0B7"
+				title: "{ftbquests.chapter.locator.quest6010580396086731777.reward.5105497602436346039.title}"
+				type: "command"
+			}]
+			tasks: [{
+				count: 5L
+				id: "12F1EEFBE68B23F8"
+				item: { Count: 5, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.locator.quest6010580396086731777.title}"
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	title: "{ftbquests.chapter.locator.title}"
+}

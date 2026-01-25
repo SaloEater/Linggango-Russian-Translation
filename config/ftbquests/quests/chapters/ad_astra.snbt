@@ -1,0 +1,1245 @@
+{
+	autofocus_id: "4E025FD00E0DA74E"
+	default_hide_dependency_lines: false
+	default_min_width: 200
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "3C6437AAADAFC5CB"
+	icon: "ad_astra:nasa_workbench"
+	id: "23C745DE2EC55937"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: ["ftbquests.chapter.ad_astra.image.hovertext1"]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -10.5d
+		y: 1.0d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.ad_astra.quest5621160632105412430.description1}"
+				""
+				"{ftbquests.chapter.ad_astra.quest5621160632105412430.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "ad_astra:astrodux"
+				}
+			}
+			id: "4E025FD00E0DA74E"
+			rewards: [
+				{
+					id: "4CEAAB6427098B38"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "5F3CE7C0131055E1"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "ad_astra:astrodux"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.ad_astra.quest5621160632105412430.subtitle}"
+			tasks: [{
+				id: "603223292C61164D"
+				title: "{ftbquests.chapter.ad_astra.quest5621160632105412430.task.6931641436221806157.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.ad_astra.quest5621160632105412430.title}"
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E025FD00E0DA74E"]
+			description: ["{ftbquests.chapter.ad_astra.quest8480653114544231656.description1}"]
+			id: "75B1551343B814E8"
+			rewards: [
+				{
+					id: "03574F0E4AF57B4A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 3
+					id: "14956832EE0862AB"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E1BA564395D53A3"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.ad_astra.quest8480653114544231656.subtitle}"
+			tasks: [{
+				id: "777510366EEACA34"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75B1551343B814E8"]
+			description: ["{ftbquests.chapter.ad_astra.quest7584038983859521032.description1}"]
+			id: "693FEB461BA94608"
+			rewards: [
+				{
+					id: "10D22C122DC6B0F8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "762D83325BF67217"
+					item: "ad_astra:iron_plate"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7181E58CA5308572"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.ad_astra.quest7584038983859521032.subtitle}"
+			tasks: [{
+				id: "3B5A996B9E78817C"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["693FEB461BA94608"]
+			id: "7FF0470777F8CC3C"
+			rewards: [
+				{
+					id: "5D00E9EBAA533278"
+					item: "minecraft:iron_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6DBD38423BC1D123"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38C3A6A44BBC0E29"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.ad_astra.quest9218946534630542396.subtitle}"
+			tasks: [{
+				id: "172B76A789093708"
+				item: "ad_astra:iron_plate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FF0470777F8CC3C"]
+			description: ["{ftbquests.chapter.ad_astra.quest7900217238340654387.description1}"]
+			icon: "ad_astra:etrionic_blast_furnace"
+			id: "6DA335B89BB65533"
+			rewards: [
+				{
+					count: 2
+					id: "05FD774906E873AE"
+					item: "ad_astra:steel_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "444A424D9FCEF485"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.ad_astra.quest7900217238340654387.subtitle}"
+			tasks: [{
+				id: "076F1C3EDB747CD8"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6DA335B89BB65533"]
+			id: "7F0F6B4757F47E39"
+			rewards: [
+				{
+					id: "7896DA1C3EA26493"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "19C062B517DC0D22"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AA5FBCFDD01BDE5"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.ad_astra.quest9155654521629998649.subtitle}"
+			tasks: [{
+				id: "6B5B04033ABE241B"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F0F6B4757F47E39"]
+			id: "44D2C28F85FA39F2"
+			rewards: [
+				{
+					id: "35DE8A530FDC8276"
+					item: "ad_astra:iron_plate"
+					type: "item"
+				}
+				{
+					id: "23298D0CB9ACA9C6"
+					type: "xp"
+					xp: 27
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45697B9A2899D47A"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.ad_astra.quest4959240061372217842.subtitle}"
+			tasks: [{
+				id: "0E3EE653E46DC476"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44D2C28F85FA39F2"]
+			id: "5E9C27913050904A"
+			rewards: [
+				{
+					id: "79469D67D96CA848"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "5CD5C3F4B3C06D47"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E68B78763F30771"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.ad_astra.quest6817367440466415690.subtitle}"
+			tasks: [{
+				id: "57EEFDC82A170BCF"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["693FEB461BA94608"]
+			description: ["{ftbquests.chapter.ad_astra.quest2214214428612391613.description1}"]
+			id: "1EBA784A99FC72BD"
+			rewards: [
+				{
+					count: 3
+					id: "59BF8E411CA80B47"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "0B72D3125F5B85EB"
+					type: "xp"
+					xp: 40
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CD8A5EB07ED55B8"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.ad_astra.quest2214214428612391613.subtitle}"
+			tasks: [{
+				id: "14F64030341BAE8E"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["693FEB461BA94608"]
+			description: ["{ftbquests.chapter.ad_astra.quest6340583286304154769.description1}"]
+			id: "57FE46E7B0F02491"
+			rewards: [
+				{
+					id: "4DBCDD35069D30BE"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "34604B8DDFE064CF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "190FB7A0B828824B"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.ad_astra.quest6340583286304154769.subtitle}"
+			tasks: [{
+				id: "45FED6C5089EDC58"
+				item: "ad_astra:water_pump"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E9C27913050904A"]
+			description: ["{ftbquests.chapter.ad_astra.quest2154117783827953667.description1}"]
+			icon: "ad_astra:oxygen_loader"
+			id: "1DE4F6B61D6AB803"
+			rewards: [
+				{
+					count: 2
+					id: "40B929714E429F41"
+					item: "ad_astra:steel_plate"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "238E29CA7A89F7AB"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.ad_astra.quest2154117783827953667.subtitle}"
+			tasks: [{
+				id: "71FDD99841B83D40"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["693FEB461BA94608"]
+			description: ["{ftbquests.chapter.ad_astra.quest2538569010427455233.description1}"]
+			id: "233ACF10A857E701"
+			rewards: [
+				{
+					id: "58AB6182E550A8B4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "5A358E14D08A05F5"
+					item: "ad_astra:steel_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B6D4C689A55819E"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.ad_astra.quest2538569010427455233.subtitle}"
+			tasks: [{
+				id: "7512FBC3B432D610"
+				item: "ad_astra:steel_cable"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1DE4F6B61D6AB803"]
+			description: ["{ftbquests.chapter.ad_astra.quest7789978524695569115.description1}"]
+			id: "6C1B9031F466A2DB"
+			rewards: [
+				{
+					count: 2
+					id: "14006E33038B0735"
+					item: "ad_astra:desh_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "762D2F26A31397EC"
+					table_id: 445308102027193144L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.ad_astra.quest7789978524695569115.subtitle}"
+			tasks: [{
+				id: "1A6E2900AF00364A"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1DE4F6B61D6AB803"]
+			description: ["{ftbquests.chapter.ad_astra.quest975678840685843035.description1}"]
+			id: "0D8A4EBC79F1D25B"
+			rewards: [
+				{
+					id: "51EBC235E5B26480"
+					item: "ad_astra:gas_tank"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40EF7FD8295F2899"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.ad_astra.quest975678840685843035.subtitle}"
+			tasks: [{
+				id: "1455AD4023A00915"
+				item: "ad_astra:large_gas_tank"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["693FEB461BA94608"]
+			description: ["{ftbquests.chapter.ad_astra.quest321032653100213348.description1}"]
+			id: "0474897F4156E464"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BD8B1BB7A2A28B7"
+				table_id: 445308102027193144L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.ad_astra.quest321032653100213348.subtitle}"
+			tasks: [{
+				id: "79B94C4AE5A6BEA7"
+				item: "ad_astra:gravity_normalizer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["693FEB461BA94608"]
+			id: "2BDAD2C854609E39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57B1E6178AAEA0A0"
+				table_id: 445308102027193144L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.ad_astra.quest3160069846404734521.subtitle}"
+			tasks: [{
+				id: "1FB8A0387FD24ACD"
+				item: "ad_astra:energizer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["693FEB461BA94608"]
+			description: ["{ftbquests.chapter.ad_astra.quest5700411986951703933.description1}"]
+			icon: {
+				Count: 1
+				id: "ad_astra:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4F1BEE8003A28D7D"
+			rewards: [
+				{
+					id: "7D48341C4170401B"
+					item: "ad_astra:oxygen_bucket"
+					type: "item"
+				}
+				{
+					id: "11703902DCFF9952"
+					type: "xp"
+					xp: 40
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43A72C54658C6725"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.ad_astra.quest5700411986951703933.subtitle}"
+			tasks: [
+				{
+					id: "22C343E423ED6258"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21B25F2848986180"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E773CB00713267E"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49188F5443FDB564"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.ad_astra.quest5700411986951703933.title}"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44D2C28F85FA39F2"]
+			id: "31044607DB30E35E"
+			rewards: [
+				{
+					id: "0222972FAFCBF0D0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "511181ECEBBC463C"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.ad_astra.quest3532025007321441118.subtitle}"
+			tasks: [{
+				id: "6A1EF22785E653B6"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31044607DB30E35E"]
+			description: [
+				"{ftbquests.chapter.ad_astra.quest2886100959440543397.description1}"
+				""
+				"{ftbquests.chapter.ad_astra.quest2886100959440543397.description2}"
+			]
+			icon: "ad_astra:tier_1_rocket"
+			id: "280D7D88095E1EA5"
+			rewards: [
+				{
+					id: "446433315FF1F448"
+					item: "ad_astra:fuel_bucket"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "094B953301E0870A"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.ad_astra.quest2886100959440543397.subtitle}"
+			tasks: [
+				{
+					id: "57215434E76D1CEB"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "435AECA7D3D40DAE"
+					item: "ad_astra:steel_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "78FF56A925809CB6"
+					item: "ad_astra:rocket_fin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "75C9810D204A8C41"
+					item: "ad_astra:steel_tank"
+					type: "item"
+				}
+				{
+					id: "04B34EF16B1FE31F"
+					item: "ad_astra:steel_engine"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.ad_astra.quest2886100959440543397.title}"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["280D7D88095E1EA5"]
+			id: "72A36A4B23F76CC9"
+			rewards: [
+				{
+					count: 2
+					id: "05330BDAAD43388C"
+					item: "ad_astra:steel_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B63CA884B1B2501"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.ad_astra.quest8260563012486130889.subtitle}"
+			tasks: [{
+				id: "20018B5948B4D375"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72A36A4B23F76CC9"]
+			description: [
+				""
+				"{ftbquests.chapter.ad_astra.quest224567582763249181.image0}"
+			]
+			id: "031DD306D6ABEE1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7910D853DE79EF18"
+				table_id: 6055536159364489858L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.1d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "11A1C0549C41A1E8"
+				title: "{ftbquests.chapter.ad_astra.quest224567582763249181.task.1270508039526523368.title}"
+				type: "dimension"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["280D7D88095E1EA5"]
+			description: ["{ftbquests.chapter.ad_astra.quest4659979092162865989.description1}"]
+			id: "40AB924B711D6B45"
+			rewards: [
+				{
+					id: "007DAECD32246695"
+					item: "ad_astra:desh_block"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "39E89B65FCF2BFDF"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58B2DB40BD3CBEEC"
+					table_id: 445308102027193144L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.ad_astra.quest4659979092162865989.subtitle}"
+			tasks: [{
+				id: "4B7A2D46A0FBA69C"
+				item: "ad_astra:tier_2_rocket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["031DD306D6ABEE1D"]
+			description: [
+				""
+				"{ftbquests.chapter.ad_astra.quest4062724754053371216.image0}"
+			]
+			id: "3861B2A379899550"
+			rewards: [
+				{
+					count: 2
+					id: "4913FF7D62838171"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "2E8E6668A13AB94E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F2F48C3758CBFE7"
+					table_id: 445308102027193144L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.1d
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "1424E543AB3B0E8E"
+				title: "{ftbquests.chapter.ad_astra.quest4062724754053371216.task.1451537058718486158.title}"
+				type: "dimension"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3861B2A379899550"]
+			id: "298FA6FE1A5221F4"
+			rewards: [
+				{
+					count: 2
+					id: "563A49A14674A02B"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					id: "17CD4AB53B592B9A"
+					type: "xp"
+					xp: 40
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FE4D4F25C168357"
+					table_id: 445308102027193144L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.ad_astra.quest2994795887518163444.subtitle}"
+			tasks: [{
+				id: "78259E1F662481C7"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.ad_astra.quest2994795887518163444.title}"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["298FA6FE1A5221F4"]
+			icon: {
+				Count: 1
+				id: "ad_astra:netherite_space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "70D651407EF7C30E"
+			rewards: [
+				{
+					count: 2
+					id: "04B8811B62C1EF11"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "1077246F670A8C7D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C85D5E0DB59960A"
+					table_id: 445308102027193144L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.ad_astra.quest8130775514713932558.subtitle}"
+			tasks: [
+				{
+					id: "16379B28D2EBD19A"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C89229173F6661A"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BD92CE5E6DB1DFE"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02175D78F4E9866A"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.ad_astra.quest8130775514713932558.title}"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6A1EF22785E653B6"
+				"40AB924B711D6B45"
+			]
+			id: "79A3C40CF517F2AF"
+			rewards: [
+				{
+					id: "0D662CFF0D342191"
+					item: {
+						Count: 1
+						id: "ad_astra:large_gas_tank"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 3000L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "35A517B84082D396"
+					item: "ad_astra:ostrum_block"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40DFDAC31107A46E"
+					table_id: 1689189294310584705L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.1d
+			tasks: [{
+				id: "6732626504E6F9EA"
+				item: "ad_astra:tier_3_rocket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6A1EF22785E653B6"
+				"79A3C40CF517F2AF"
+			]
+			id: "31F6E4F36B807673"
+			rewards: [
+				{
+					id: "065D1096CFF181AA"
+					item: "ad_astra:calorite_block"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "433875D50D5519EC"
+					table_id: 1689189294310584705L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.ad_astra.quest3600316686261057139.subtitle}"
+			tasks: [{
+				id: "46E098CBD54C0535"
+				item: "ad_astra:tier_4_rocket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70D651407EF7C30E"]
+			icon: {
+				Count: 1
+				id: "ad_astra:jet_suit_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "12EE36341BCEC6B9"
+			rewards: [
+				{
+					id: "02B4830D5C5E0C84"
+					item: "ad_astra:calorite_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5596ECD6AFB78359"
+					table_id: 1689189294310584705L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.ad_astra.quest1364087334572574393.subtitle}"
+			tasks: [
+				{
+					id: "38E1584B840B6E33"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66A45C6084EAA482"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42ABC1F90A3DAF68"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "505E23D19AADD270"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6732626504E6F9EA"
+				"79A3C40CF517F2AF"
+			]
+			description: [
+				""
+				"{ftbquests.chapter.ad_astra.quest2021003190009600539.image0}"
+			]
+			id: "1C0C0BB18E741A1B"
+			rewards: [
+				{
+					id: "30327F7758519644"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+				{
+					id: "1E5570D3716EC2B9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0643869329AD6FE2"
+					table_id: 1689189294310584705L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.1d
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "1074DB6F8AD62F3B"
+				title: "{ftbquests.chapter.ad_astra.quest2021003190009600539.task.1185813874022428475.title}"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6732626504E6F9EA"
+				"79A3C40CF517F2AF"
+			]
+			description: [
+				""
+				"{ftbquests.chapter.ad_astra.quest1999869509567651493.image0}"
+			]
+			id: "1BC0F6B922EA1EA5"
+			rewards: [
+				{
+					count: 4
+					id: "61BB3A24EA72936A"
+					item: "minecraft:magma_cream"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "6C192A91C49FAE17"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "161B8D2604336D4B"
+					table_id: 1689189294310584705L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.1d
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:mercury_globe"
+				id: "215AC7BD954DD618"
+				title: "{ftbquests.chapter.ad_astra.quest1999869509567651493.task.2403452968223233560.title}"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"46E098CBD54C0535"
+				"31F6E4F36B807673"
+			]
+			description: [
+				""
+				"{ftbquests.chapter.ad_astra.quest71385324918598515.image0}"
+			]
+			id: "00FD9C9325F2EB73"
+			min_width: 200
+			rewards: [
+				{
+					count: 10
+					id: "0C2538DDE7F3A090"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					id: "21AA56A3C2130501"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F6967932F2E7B40"
+					table_id: 1689189294310584705L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.1d
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "5536489175AD46AE"
+				title: "{ftbquests.chapter.ad_astra.quest71385324918598515.task.6140174931547997870.title}"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1DE4F6B61D6AB803"]
+			description: ["{ftbquests.chapter.ad_astra.quest9160628431327194661.description1}"]
+			icon: "ad_astra_giselle_addon:oxygen_can"
+			id: "7F211705F099EE25"
+			rewards: [
+				{
+					id: "06366FF9337AE775"
+					item: "ad_astra:ostrum_plate"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28109DF4B2D8B847"
+					table_id: 6055536159364489858L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.ad_astra.quest9160628431327194661.subtitle}"
+			tasks: [
+				{
+					id: "18AD41D4B22EC3C4"
+					item: "ad_astra_giselle_addon:oxygen_can"
+					type: "item"
+				}
+				{
+					id: "132F54CB0B47E3D3"
+					item: "ad_astra_giselle_addon:netherite_oxygen_can"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.ad_astra.quest9160628431327194661.title}"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C0C0BB18E741A1B"]
+			icon: "ad_astra:calorite_ingot"
+			id: "10662DA60CE72609"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "788EE570CFA4D2B1"
+				table_id: 1689189294310584705L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.ad_astra.quest1181682143435630089.subtitle}"
+			tasks: [{
+				id: "1FEABC39D62F10AF"
+				item: { Count: 16, id: "ad_astra:calorite_ingot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+	]
+	title: "{ftbquests.chapter.ad_astra.title}"
+}

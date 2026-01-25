@@ -1,0 +1,426 @@
+{
+	always_invisible: true
+	autofocus_id: "6F7899ABC0D10B78"
+	default_hide_dependency_lines: false
+	default_quest_shape: "goldtier"
+	filename: "monster_expansion"
+	group: "52FA8429D8BF5933"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "monsterexpansion:item/skrythe_frill"
+		}
+	}
+	id: "33CBF3BDE2169B72"
+	images: [
+		{
+			dependency: "3B09CA29DBAA33EE"
+			height: 2.0d
+			image: "terramity:block/hexing_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependency: "2F523AC5C091B184"
+			height: 2.0d
+			image: "terramity:block/hexing_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.monster_expansion.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependency: "6C3268057C114181"
+			height: 2.0d
+			image: "terramity:block/hexing_circle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "placebo:textures/wings/spooky.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "placebo:textures/wings/bone.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "placebo:textures/wings/space.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "customtextures:textures/monsterexpansionlogo.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:models/alchemyarrays/wiparray"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -4.0d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.monster_expansion.quest8032338898368662392.description1}"
+				""
+				"{ftbquests.chapter.monster_expansion.quest8032338898368662392.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "monsterexpansion:item/skrythe_fang"
+				}
+			}
+			icon_scale: 1.2d
+			id: "6F7899ABC0D10B78"
+			shape: "square"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.monster_expansion.quest8032338898368662392.subtitle}"
+			tasks: [{
+				id: "046D1FF5A30C633A"
+				title: "{ftbquests.chapter.monster_expansion.quest8032338898368662392.task.318946288476119866.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.monster_expansion.quest8032338898368662392.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F7899ABC0D10B78"]
+			description: [
+				"{ftbquests.chapter.monster_expansion.quest5463164983043949106.description1}"
+				""
+				"{ftbquests.chapter.monster_expansion.quest5463164983043949106.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "monsterexpansion:item/skrythe_chestplate"
+				}
+			}
+			id: "4BD10F9B63B00232"
+			rewards: [{
+				id: "38628FB4690BCBE0"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.monster_expansion.quest5463164983043949106.subtitle}"
+			tasks: [{
+				id: "69357B1307C0873A"
+				title: "{ftbquests.chapter.monster_expansion.quest5463164983043949106.task.7581100869412751162.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.monster_expansion.quest5463164983043949106.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BD10F9B63B00232"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "terramity:item/blood_contract"
+				}
+			}
+			icon_scale: 1.3d
+			id: "3B09CA29DBAA33EE"
+			shape: "none"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.monster_expansion.quest4254153604155978734.subtitle}"
+			tasks: [{
+				id: "253C9DEA1B9F3C31"
+				title: "{ftbquests.chapter.monster_expansion.quest4254153604155978734.task.2683193106817301553.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.monster_expansion.quest4254153604155978734.title}"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B09CA29DBAA33EE"]
+			hide_until_deps_complete: true
+			icon_scale: 1.5d
+			id: "3B22E67A9AA93061"
+			rewards: [{
+				auto: "enabled"
+				command: "/summon monsterexpansion:skrythe"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "monsterexpansion:item/skrythe_frill"
+					}
+				}
+				id: "364F62CF188A50CE"
+				silent: true
+				title: "{ftbquests.chapter.monster_expansion.quest4261221611701088353.reward.3913455242817720526.title}"
+				type: "command"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.monster_expansion.quest4261221611701088353.subtitle}"
+			tasks: [{
+				elapsedTime: 20L
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "forbidden_arcanus:block/black_hole_aura_0"
+					}
+				}
+				id: "23473EA68FE212E1"
+				title: "{ftbquests.chapter.monster_expansion.quest4261221611701088353.task.2542069399773385441.title}"
+				type: "questsadditions:time"
+			}]
+			title: "{ftbquests.chapter.monster_expansion.quest4261221611701088353.title}"
+			x: 5.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6F7899ABC0D10B78"]
+			description: [
+				"{ftbquests.chapter.monster_expansion.quest3970255105240142853.description1}"
+				""
+				"{ftbquests.chapter.monster_expansion.quest3970255105240142853.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "monsterexpansion:item/rhyza_chestplate"
+				}
+			}
+			id: "37192DFB9F851405"
+			rewards: [{
+				id: "04427B551F6ABD67"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.monster_expansion.quest3970255105240142853.subtitle}"
+			tasks: [{
+				id: "780407D730F928D2"
+				title: "{ftbquests.chapter.monster_expansion.quest3970255105240142853.task.8648045805279193298.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.monster_expansion.quest3970255105240142853.title}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37192DFB9F851405"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 0
+					}
+				}
+				id: "terramity:blood_contract"
+				tag: {
+					Inventory: {
+						Items: [ ]
+						Size: 0
+					}
+				}
+			}
+			icon_scale: 1.3d
+			id: "2F523AC5C091B184"
+			shape: "none"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.monster_expansion.quest3409852488886628740.subtitle}"
+			tasks: [{
+				id: "64C707F2E2A397C0"
+				title: "{ftbquests.chapter.monster_expansion.quest3409852488886628740.task.7261781663924066240.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.monster_expansion.quest3409852488886628740.title}"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F523AC5C091B184"]
+			hide_until_deps_complete: true
+			icon_scale: 1.5d
+			id: "27856DEB8BE770B8"
+			rewards: [{
+				auto: "enabled"
+				command: "/summon monsterexpansion:rhyza"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "monsterexpansion:item/rhyza_gleam_core"
+					}
+				}
+				id: "65E034DCBB14CE41"
+				silent: true
+				title: "{ftbquests.chapter.monster_expansion.quest2847803197813649592.reward.7340925515250060865.title}"
+				type: "command"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.monster_expansion.quest2847803197813649592.subtitle}"
+			tasks: [{
+				elapsedTime: 20L
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "forbidden_arcanus:block/black_hole_aura_0"
+					}
+				}
+				id: "4334D454D73CD1E0"
+				title: "{ftbquests.chapter.monster_expansion.quest2847803197813649592.task.4842728960183554528.title}"
+				type: "questsadditions:time"
+			}]
+			x: -5.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6F7899ABC0D10B78"]
+			description: [
+				"{ftbquests.chapter.monster_expansion.quest5963485746923692318.description1}"
+				""
+				"{ftbquests.chapter.monster_expansion.quest5963485746923692318.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "monsterexpansion:item/kobeko_leivekilth_chestplate"
+				}
+			}
+			icon_scale: 1.2d
+			id: "52C28EB0E07DE11E"
+			rewards: [{
+				id: "17F97537B3D4CA6D"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.monster_expansion.quest5963485746923692318.subtitle}"
+			tasks: [{
+				id: "3B78B0ECBF70E05B"
+				title: "{ftbquests.chapter.monster_expansion.quest5963485746923692318.task.4285369576313643099.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.monster_expansion.quest5963485746923692318.title}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52C28EB0E07DE11E"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "terramity:item/blood_contract"
+				}
+			}
+			icon_scale: 1.3d
+			id: "6C3268057C114181"
+			shape: "none"
+			size: 1.4d
+			tasks: [{
+				id: "548B489B6A34E69C"
+				title: "{ftbquests.chapter.monster_expansion.quest7796408277697380737.task.6092042753287710364.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.monster_expansion.quest7796408277697380737.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C3268057C114181"]
+			hide_until_deps_complete: true
+			icon_scale: 1.5d
+			id: "221974DC6CE57E13"
+			rewards: [{
+				auto: "enabled"
+				command: "/summon monsterexpansion:leivekilth"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "monsterexpansion:item/leivekilth_tail"
+					}
+				}
+				id: "026C8B830F969A30"
+				silent: true
+				title: "{ftbquests.chapter.monster_expansion.quest2457123561775922707.reward.174667880579111472.title}"
+				type: "command"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.monster_expansion.quest2457123561775922707.subtitle}"
+			tasks: [{
+				elapsedTime: 20L
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "forbidden_arcanus:block/black_hole_aura_0"
+					}
+				}
+				id: "2F7A7127394903E1"
+				title: "{ftbquests.chapter.monster_expansion.quest2457123561775922707.task.3421171280220062689.title}"
+				type: "questsadditions:time"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.monster_expansion.subtitle0}"]
+	title: "{ftbquests.chapter.monster_expansion.title}"
+}

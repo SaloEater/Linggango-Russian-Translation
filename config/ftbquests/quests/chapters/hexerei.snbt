@@ -1,0 +1,1045 @@
+{
+	autofocus_id: "12B5E3921B42CAE6"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "hexerei"
+	group: "20D67F7F184680D5"
+	icon: {
+		Count: 1
+		id: "hexerei:book_of_shadows"
+		tag: { }
+	}
+	id: "56256745DAEAFE55"
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.hexerei.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 5.0d
+			image: "customtextures:textures/hexereilogo.png"
+			order: -25
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:item/witch_helmet"
+			rotation: -31.0d
+			width: 1.0d
+			x: -0.9766047714929442d
+			y: -3.232221170628854d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.hexerei.quest1348233880129424102.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest1348233880129424102.description2}"
+				""
+				"{ftbquests.chapter.hexerei.quest1348233880129424102.description3}"
+				""
+				"{ftbquests.chapter.hexerei.quest1348233880129424102.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "hexerei:book_of_shadows"
+				tag: { }
+			}
+			id: "12B5E3921B42CAE6"
+			rewards: [
+				{
+					id: "34938A35554334D2"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "242708A682C8F9DF"
+					item: "hexerei:reading_glasses"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.hexerei.quest1348233880129424102.subtitle}"
+			tasks: [
+				{
+					id: "40A53100E5B456A3"
+					item: {
+						Count: 1
+						id: "hexerei:book_of_shadows"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3F8CBD8DC2936B86"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "hexerei:book_of_shadows_altar"
+								}
+								{
+									Count: 1b
+									id: "hexerei:willow_altar"
+								}
+								{
+									Count: 1b
+									id: "hexerei:witch_hazel_altar"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.hexerei.quest1348233880129424102.task.4579243337681431430.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.hexerei.quest1348233880129424102.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12B5E3921B42CAE6"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest2492212649180133513.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest2492212649180133513.description2}"
+				""
+				"{ftbquests.chapter.hexerei.quest2492212649180133513.description3}"
+				""
+				"{ftbquests.chapter.hexerei.quest2492212649180133513.description4}"
+				""
+				"{ftbquests.chapter.hexerei.quest2492212649180133513.description5}"
+				""
+				"{ftbquests.chapter.hexerei.quest2492212649180133513.description6}"
+				""
+				"{ftbquests.chapter.hexerei.quest2492212649180133513.description7}"
+			]
+			id: "22961E333B1DF889"
+			rewards: [{
+				id: "705AADF8DCEF0516"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.hexerei.quest2492212649180133513.subtitle}"
+			tasks: [{
+				id: "0475A5D30ED833B0"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22961E333B1DF889"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest735404217776990482.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest735404217776990482.description2}"
+			]
+			id: "0A34AE3D5EEBE912"
+			rewards: [{
+				id: "3B8230776BF5F273"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest735404217776990482.subtitle}"
+			tasks: [{
+				id: "44F67F98AE994BCE"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22961E333B1DF889"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest8098318233148222258.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest8098318233148222258.description2}"
+			]
+			icon_scale: 1.3d
+			id: "70630186BCDE6B32"
+			rewards: [{
+				id: "21F22BFCC8CD2327"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest8098318233148222258.subtitle}"
+			tasks: [{
+				id: "33B2C6BBDD25A027"
+				item: "hexerei:candle_dipper"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22961E333B1DF889"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest4015074705367038060.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest4015074705367038060.description2}"
+				""
+				"{ftbquests.chapter.hexerei.quest4015074705367038060.description3}"
+				""
+				"{ftbquests.chapter.hexerei.quest4015074705367038060.description4}"
+			]
+			icon_scale: 1.2d
+			id: "37B8692BF80EF86C"
+			rewards: [{
+				id: "219D1764BB748087"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.hexerei.quest4015074705367038060.subtitle}"
+			tasks: [{
+				id: "07D837C87A5F0212"
+				item: "hexerei:coffer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22961E333B1DF889"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest6062984128705691969.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest6062984128705691969.description2}"
+				""
+				"{ftbquests.chapter.hexerei.quest6062984128705691969.description3}"
+			]
+			icon_scale: 1.2d
+			id: "54240BF126558141"
+			rewards: [{
+				id: "6B81948FD3A42443"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest6062984128705691969.subtitle}"
+			tasks: [{
+				id: "3C62989745E91EAA"
+				item: {
+					Count: 1
+					id: "hexerei:herb_jar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22961E333B1DF889"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest8222473535018834480.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest8222473535018834480.description2}"
+				""
+				"{ftbquests.chapter.hexerei.quest8222473535018834480.description3}"
+				""
+				""
+				"{ftbquests.chapter.hexerei.quest8222473535018834480.description4}"
+			]
+			icon_scale: 1.3d
+			id: "721C181D95D91A30"
+			rewards: [{
+				id: "18F120EFC6BB7BF7"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "goldtier"
+			subtitle: "{ftbquests.chapter.hexerei.quest8222473535018834480.subtitle}"
+			tasks: [{
+				id: "52D6577C3BE7F1FC"
+				item: "hexerei:sage_burning_plate"
+				type: "item"
+			}]
+			x: 2.4285714285714377d
+			y: -0.08571428571428896d
+		}
+		{
+			dependencies: ["4805702405DED118"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest29318518087437448.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest29318518087437448.description2}"
+			]
+			icon_scale: 1.2d
+			id: "006829096FF14C88"
+			rewards: [{
+				id: "2A787B87E47C32CF"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest29318518087437448.subtitle}"
+			tasks: [{
+				id: "11B501E6315242F9"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: 4.571428571428569d
+			y: 2.5142857142857054d
+		}
+		{
+			dependencies: ["22961E333B1DF889"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest5189677445633986840.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest5189677445633986840.description2}"
+				""
+				"{ftbquests.chapter.hexerei.quest5189677445633986840.description3}"
+				""
+				""
+				"{ftbquests.chapter.hexerei.quest5189677445633986840.description4}"
+				""
+				"{ftbquests.chapter.hexerei.quest5189677445633986840.description5}"
+				""
+				"{ftbquests.chapter.hexerei.quest5189677445633986840.description6}"
+				""
+				"{ftbquests.chapter.hexerei.quest5189677445633986840.description7}"
+			]
+			icon_scale: 1.5d
+			id: "4805702405DED118"
+			rewards: [{
+				id: "7F94CEEB7DD63044"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.hexerei.quest5189677445633986840.subtitle}"
+			tasks: [{
+				id: "5F4620E99C034C0B"
+				item: "hexerei:candle"
+				type: "item"
+			}]
+			x: 2.4285714285714306d
+			y: 2.5142857142857054d
+		}
+		{
+			dependencies: ["4805702405DED118"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest5072677071844758845.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest5072677071844758845.description2}"
+			]
+			icon_scale: 1.5d
+			id: "4665C4EBAF93553D"
+			rewards: [{
+				id: "7B58CD5D9BBBECFF"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest5072677071844758845.subtitle}"
+			tasks: [{
+				id: "7ED1989843BB1A53"
+				item: "hexerei:candelabra"
+				type: "item"
+			}]
+			x: 3.8000000000000043d
+			y: 3.942857142857136d
+		}
+		{
+			dependencies: ["22961E333B1DF889"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest8346667928608424645.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest8346667928608424645.description2}"
+			]
+			icon_scale: 1.5d
+			id: "73D552422ED9C2C5"
+			rewards: [{
+				id: "3DAFC19093EA2D99"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest8346667928608424645.subtitle}"
+			tasks: [{
+				id: "744F463CDD129451"
+				item: "hexerei:crystal_ball"
+				type: "item"
+			}]
+			x: -1.6285714285714263d
+			y: 3.3142857142857096d
+		}
+		{
+			dependencies: ["22961E333B1DF889"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest7802459436024173649.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest7802459436024173649.description2}"
+			]
+			id: "6C47E784929D9451"
+			rewards: [{
+				id: "2CEC33A28663EE9C"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest7802459436024173649.subtitle}"
+			tasks: [{
+				id: "534866D2F3E2D806"
+				item: "hexerei:dowsing_rod"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22961E333B1DF889"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest7051305355729590693.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest7051305355729590693.description2}"
+			]
+			id: "61DB44DC931259A5"
+			rewards: [{
+				id: "0770CD9D2F9D205E"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.hexerei.quest7051305355729590693.subtitle}"
+			tasks: [{
+				id: "35E5D61B028D6859"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["61DB44DC931259A5"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest6505589876005601917.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest6505589876005601917.description2}"
+				""
+				"{ftbquests.chapter.hexerei.quest6505589876005601917.description3}"
+				""
+				"{ftbquests.chapter.hexerei.quest6505589876005601917.description4}"
+				""
+				"{ftbquests.chapter.hexerei.quest6505589876005601917.description5}"
+				""
+				"{ftbquests.chapter.hexerei.quest6505589876005601917.description6}"
+			]
+			id: "5A487F862DB1027D"
+			rewards: [{
+				id: "3F14F066D5AE0B64"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest6505589876005601917.subtitle}"
+			tasks: [{
+				id: "0BA2CD4026ECD91C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:mahogany_broom"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "hexerei:willow_broom"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_broom"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.hexerei.quest6505589876005601917.title}"
+			x: 1.1530612244897753d
+			y: 5.051020408163282d
+		}
+		{
+			dependencies: ["5A487F862DB1027D"]
+			id: "5DA4AE7C804427F4"
+			rewards: [{
+				id: "681EE769E3DC7CA3"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "goldtier"
+			subtitle: "{ftbquests.chapter.hexerei.quest6747709991458973684.subtitle}"
+			tasks: [{
+				id: "475900585C926BCC"
+				item: "hexerei:gold_rings"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5A487F862DB1027D"]
+			id: "5EB99BDB0E110977"
+			rewards: [{
+				id: "0446CA3CE54D2AF5"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "goldtier"
+			subtitle: "{ftbquests.chapter.hexerei.quest6825658075392838007.subtitle}"
+			tasks: [{
+				id: "71FE95597F3B6492"
+				item: {
+					Count: 1
+					id: "hexerei:broom_keychain"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.6857142857142833d
+			y: 4.4857142857142875d
+		}
+		{
+			dependencies: ["5A487F862DB1027D"]
+			description: ["{ftbquests.chapter.hexerei.quest1857426508139819742.description1}"]
+			id: "19C6E7916E1172DE"
+			rewards: [{
+				id: "212E637F1172CB41"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest1857426508139819742.subtitle}"
+			tasks: [{
+				id: "61D408127FD045C1"
+				item: {
+					Count: 1
+					id: "hexerei:broom_netherite_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5A487F862DB1027D"]
+			description: ["{ftbquests.chapter.hexerei.quest1202335803352987495.description1}"]
+			id: "10AF8E0AFB96B767"
+			rewards: [{
+				id: "57C591AF4050FE82"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest1202335803352987495.subtitle}"
+			tasks: [{
+				id: "3F095C78D89E0388"
+				item: {
+					Count: 1
+					id: "hexerei:broom_waterproof_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A487F862DB1027D"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest8594330654251824304.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest8594330654251824304.description2}"
+			]
+			id: "7745323200EE34B0"
+			rewards: [{
+				id: "0B647107A9AB0FD1"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest8594330654251824304.subtitle}"
+			tasks: [{
+				id: "7344395F38B75A1D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:small_satchel"
+							}
+							{
+								Count: 1b
+								id: "hexerei:medium_satchel"
+							}
+							{
+								Count: 1b
+								id: "hexerei:large_satchel"
+							}
+							{
+								Count: 1b
+								id: "hexerei:ender_satchel"
+							}
+							{
+								Count: 1b
+								id: "hexerei:replacer_satchel"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.hexerei.quest8594330654251824304.task.8305826693914253853.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.hexerei.quest8594330654251824304.title}"
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5A487F862DB1027D"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest4939850004843929578.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest4939850004843929578.description2}"
+				""
+				"{ftbquests.chapter.hexerei.quest4939850004843929578.description3}"
+			]
+			id: "448DDF682E6F1FEA"
+			rewards: [{
+				id: "19BB553CE908CCDE"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest4939850004843929578.subtitle}"
+			tasks: [{
+				id: "2ACC479420AFEC37"
+				item: {
+					Count: 1
+					id: "hexerei:broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["448DDF682E6F1FEA"]
+			description: ["{ftbquests.chapter.hexerei.quest850057677790858466.description1}"]
+			id: "0BCC02F443514CE2"
+			rewards: [{
+				id: "387289780BF2EDBA"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest850057677790858466.subtitle}"
+			tasks: [{
+				id: "446B2213FABAB76B"
+				item: {
+					Count: 1
+					id: "hexerei:moon_dust_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5A487F862DB1027D"]
+			description: ["{ftbquests.chapter.hexerei.quest470876557455760471.description1}"]
+			id: "0688E3BBF4359C57"
+			rewards: [{
+				id: "7D5EAF6F750929E1"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest470876557455760471.subtitle}"
+			tasks: [{
+				id: "0BA6A3C8E2385249"
+				item: "hexerei:broom_seat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22961E333B1DF889"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest6718144066266399740.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest6718144066266399740.description2}"
+			]
+			id: "5D3BA46F1BB503FC"
+			rewards: [{
+				id: "226099D7293D519A"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest6718144066266399740.subtitle}"
+			tasks: [{
+				id: "717BCE2827FBBFCD"
+				item: {
+					Count: 1
+					id: "hexerei:crow_flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22961E333B1DF889"]
+			description: ["{ftbquests.chapter.hexerei.quest932971981199331280.description1}"]
+			id: "0CF29512E4C74FD0"
+			rewards: [{
+				id: "093BD8461112B5B9"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest932971981199331280.subtitle}"
+			tasks: [{
+				id: "2E86389112CFBCDA"
+				item: {
+					Count: 1
+					id: "hexerei:warhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.6857142857143046d
+			y: -0.3489795918367342d
+		}
+		{
+			dependencies: ["12B5E3921B42CAE6"]
+			id: "28BAEC7D81328585"
+			rewards: [{
+				id: "753302EBD935A440"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest2934918130967938437.subtitle}"
+			tasks: [
+				{
+					id: "7FC62A39D14E55C5"
+					item: {
+						Count: 1
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BD9E7EDDD66FBA9"
+					item: {
+						Count: 1
+						id: "hexerei:witch_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46FC51B2309A5AFF"
+					item: {
+						Count: 1
+						id: "hexerei:witch_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.hexerei.quest2934918130967938437.title}"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28BAEC7D81328585"]
+			id: "37A748608FE66E0E"
+			rewards: [{
+				id: "05B7C1D9408848EA"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest4010253572765019662.subtitle}"
+			tasks: [{
+				id: "77912B7DB67C7CDF"
+				item: {
+					Count: 1
+					id: "hexerei:mushroom_witch_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.937414965986413d
+			y: -2.778231292516981d
+		}
+		{
+			dependencies: ["5D3BA46F1BB503FC"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest7207376929000531290.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest7207376929000531290.description2}"
+			]
+			id: "6405BF216F6C255A"
+			rewards: [{
+				id: "75F18B0F9EB2C1EF"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest7207376929000531290.subtitle}"
+			tasks: [{
+				id: "78FB8C12B8B24282"
+				item: "hexerei:mahogany_courier_depot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6405BF216F6C255A"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest6129096912460624294.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest6129096912460624294.description2}"
+				""
+				"{ftbquests.chapter.hexerei.quest6129096912460624294.description3}"
+				""
+				"{ftbquests.chapter.hexerei.quest6129096912460624294.description4}"
+			]
+			id: "550EED2B2528B1A6"
+			rewards: [{
+				id: "69D7C417B19A0558"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest6129096912460624294.subtitle}"
+			tasks: [{
+				id: "76CAE01C338DE3A8"
+				item: "hexerei:courier_letter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6405BF216F6C255A"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest4240843697739907776.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest4240843697739907776.description2}"
+			]
+			id: "3ADA80DFC7BDC2C0"
+			rewards: [{
+				id: "71BE7B24CD84BFE8"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest4240843697739907776.subtitle}"
+			tasks: [{
+				id: "1DF83D19A7FA4A38"
+				item: "hexerei:courier_package"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3ADA80DFC7BDC2C0"]
+			description: ["{ftbquests.chapter.hexerei.quest4691939808136932563.description1}"]
+			id: "411D1E6583842CD3"
+			rewards: [{
+				id: "20F49A9825C4F15F"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest4691939808136932563.subtitle}"
+			tasks: [{
+				id: "340EDDFFAB56B2CB"
+				item: "hexerei:packing_peanut"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A487F862DB1027D"]
+			id: "2E560C0799D32F46"
+			rewards: [{
+				id: "5D83069C6EA6303F"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest3338869400526860102.subtitle}"
+			tasks: [{
+				id: "1398236402B2070A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:mahogany_broom_stand"
+							}
+							{
+								Count: 1b
+								id: "hexerei:willow_broom_stand"
+							}
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_broom_stand"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.hexerei.quest3338869400526860102.title}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A487F862DB1027D"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest4871906655739946013.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest4871906655739946013.description2}"
+			]
+			id: "439C7D4A7A3DA41D"
+			rewards: [{
+				id: "6B61447B4C0DEE45"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest4871906655739946013.subtitle}"
+			tasks: [{
+				id: "4011DF381D2F8B17"
+				item: {
+					Count: 1
+					id: "hexerei:broom_whistle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6405BF216F6C255A"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest1255079506436013068.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest1255079506436013068.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "116AF02951FDBC0C"
+			rewards: [{
+				id: "7EBC89BD6700DAA2"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.hexerei.quest1255079506436013068.subtitle}"
+			tasks: [{
+				id: "59E2665561510909"
+				title: "{ftbquests.chapter.hexerei.quest1255079506436013068.task.6476851731003148553.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.hexerei.quest1255079506436013068.title}"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D3BA46F1BB503FC"]
+			description: [
+				"{ftbquests.chapter.hexerei.quest4926795789658830112.description1}"
+				""
+				"{ftbquests.chapter.hexerei.quest4926795789658830112.description2}"
+				""
+				"{ftbquests.chapter.hexerei.quest4926795789658830112.description3}"
+				""
+				"{ftbquests.chapter.hexerei.quest4926795789658830112.description4}"
+				""
+				"{ftbquests.chapter.hexerei.quest4926795789658830112.description5}"
+				""
+				"{ftbquests.chapter.hexerei.quest4926795789658830112.description6}"
+				""
+				"{ftbquests.chapter.hexerei.quest4926795789658830112.description7}"
+				""
+				"{ftbquests.chapter.hexerei.quest4926795789658830112.description8}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "445F7EAADB813520"
+			rewards: [{
+				id: "44CB8BB1013209B6"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.hexerei.quest4926795789658830112.subtitle}"
+			tasks: [{
+				id: "6B9DB9B622B47F20"
+				title: "{ftbquests.chapter.hexerei.quest4926795789658830112.task.7754558325319302944.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.hexerei.quest4926795789658830112.title}"
+			x: 3.5d
+			y: 1.5d
+		}
+	]
+	title: "{ftbquests.chapter.hexerei.title}"
+}

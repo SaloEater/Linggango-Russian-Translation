@@ -1,0 +1,6335 @@
+{
+	autofocus_id: "26A7D1040CEE5059"
+	default_hide_dependency_lines: true
+	default_quest_shape: "woodtier"
+	disable_toast: true
+	filename: "irons_spells"
+	group: "20D67F7F184680D5"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "irons_spellbooks:item/common_ink"
+		}
+	}
+	id: "529863295F3FB653"
+	images: [
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 22.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 21.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 24.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 23.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 23.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 22.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 24.5d
+		}
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["ftbquests.chapter.irons_spells.image.hovertext1"]
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			height: 0.7d
+			hover: ["ftbquests.chapter.irons_spells.image.hovertext2"]
+			image: "fancymenu:textures/warning_framed_24x24.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.2d
+			image: "traveloptics:item/eldritch_orb_corruption"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 21.5d
+		}
+		{
+			height: 2.5d
+			image: "customtextures:textures/ironsspellslogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 1.0d
+			y: -7.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "5FFC7A8048BC650C"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.irons_spells.quest6916537819128947980.subtitle}"
+			tasks: [{
+				id: "00301155A37773A1"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6916537819128947980.title}"
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:item/ice_rune"
+				}
+			}
+			id: "6D46B1A605A04BE9"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.irons_spells.quest7874176325120969705.subtitle}"
+			tasks: [{
+				id: "6454F8F463BDE1C5"
+				item: "irons_spellbooks:ice_rune"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest7874176325120969705.title}"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: "irons_spellbooks:lightning_rune"
+			id: "52B98FB81E05F53B"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.irons_spells.quest5960953602742023483.subtitle}"
+			tasks: [{
+				id: "201E923E0CFEE26A"
+				item: "irons_spellbooks:lightning_rune"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5960953602742023483.title}"
+			x: -5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: "irons_spellbooks:nature_rune"
+			id: "1C623F82BF0611AE"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.irons_spells.quest2045267011562770862.subtitle}"
+			tasks: [{
+				id: "59956592AB9D5145"
+				item: "irons_spellbooks:nature_rune"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2045267011562770862.title}"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: "irons_spellbooks:fire_rune"
+			id: "2084739E817DD197"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.irons_spells.quest2343124830754034071.subtitle}"
+			tasks: [{
+				id: "283801FEE244AD80"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2343124830754034071.title}"
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: "irons_spellbooks:evocation_rune"
+			id: "784BE338677490B5"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.irons_spells.quest8668271739198017717.subtitle}"
+			tasks: [{
+				id: "54AA8A1E8C6F8DAB"
+				item: "irons_spellbooks:evocation_rune"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8668271739198017717.title}"
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: "irons_spellbooks:ender_rune"
+			id: "54FA294EAFF09CCF"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.irons_spells.quest6123252061299580111.subtitle}"
+			tasks: [{
+				id: "38B371DBBD36DD30"
+				item: "irons_spellbooks:ender_rune"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6123252061299580111.title}"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:item/blood_rune"
+				}
+			}
+			id: "52C7C09BB8289628"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.irons_spells.quest5964948006517642792.subtitle}"
+			tasks: [{
+				id: "5A6D4F758FBEE61D"
+				item: "irons_spellbooks:blood_rune"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5964948006517642792.title}"
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: [
+				"{ftbquests.chapter.irons_spells.quest5602462045576268598.description1}"
+				"{ftbquests.chapter.irons_spells.quest5602462045576268598.image0}"
+				""
+				""
+			]
+			icon: "minecraft:echo_shard"
+			id: "4DBFF18C1E2E8B36"
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.irons_spells.quest5602462045576268598.subtitle}"
+			tasks: [{
+				id: "7A57110225575CB8"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5602462045576268598.title}"
+			x: 1.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/planar_sight.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "461EF28E672C91B4"
+			invisible: true
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5052742525386527156.subtitle}"
+			tasks: [{
+				id: "00A0929D9E3F0A9C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:planar_sight"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5052742525386527156.title}"
+			x: 0.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/abyssal_shroud.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "587C0FA60280A1D6"
+			invisible: true
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6375988378130751958.subtitle}"
+			tasks: [{
+				id: "10240F9998974BC1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:abyssal_shroud"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6375988378130751958.title}"
+			x: 1.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/eldritch_blast.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "18FA3B73EB986984"
+			invisible: true
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1799816370147846532.subtitle}"
+			tasks: [{
+				id: "6E75D1CEE07BDF45"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:eldritch_blast"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1799816370147846532.title}"
+			x: 1.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/sculk_tentacles.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3D55FE37FAD87BD4"
+			invisible: true
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4419718125719157716.subtitle}"
+			tasks: [{
+				id: "295BD9C3DC7B2583"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:sculk_tentacles"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4419718125719157716.title}"
+			x: 1.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/sonic_boom.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "79EE4E4F348C1C7B"
+			invisible: true
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8786046025137396859.subtitle}"
+			tasks: [{
+				id: "0CCBFA729B3D6B6E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:sonic_boom"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8786046025137396859.title}"
+			x: 0.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/telekinesis.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7CE5A368E47F482C"
+			invisible: true
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8999779101275277356.subtitle}"
+			tasks: [{
+				id: "279A1F5FF2FC01BC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:telekinesis"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8999779101275277356.title}"
+			x: 0.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			dependency_requirement: "one_completed"
+			description: ["{@pagebreak}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blaze_storm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "64BF6DE048AC21AA"
+			rewards: [{
+				id: "2126C05F7E8A550C"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7259641934403871146.subtitle}"
+			tasks: [{
+				id: "43498FEF9B118A6F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blaze_storm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest7259641934403871146.title}"
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/burning_dash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5FBE30F3D425C434"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6899005502972609588.subtitle}"
+			tasks: [{
+				id: "3D2EBEE0861A34AC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:burning_dash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6899005502972609588.title}"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fire_breath.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "05042CED9DF40AE5"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest361463269165370085.subtitle}"
+			tasks: [{
+				id: "2DA4F47F0174430C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fire_breath"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest361463269165370085.title}"
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fireball.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "52722741E16ADD55"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5940854022363340117.subtitle}"
+			tasks: [{
+				id: "650DD9C544D01393"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fireball"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5940854022363340117.title}"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/firebolt.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "78A25557C4BF992B"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8692604066229885227.subtitle}"
+			tasks: [{
+				id: "485B2531D58EE96E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:firebolt"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8692604066229885227.title}"
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/flaming_barrage.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "394EA19EBE41E6EC"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4129415611514218220.subtitle}"
+			tasks: [{
+				id: "2A6EF494EDB7EA6B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:flaming_barrage"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4129415611514218220.title}"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/flaming_strike.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5EFDC9F7CE8F828E"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6844849074832638606.subtitle}"
+			tasks: [{
+				id: "266979DCF179BFDF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:flaming_strike"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6844849074832638606.title}"
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/heat_surge.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5D067FAC251C86B6"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6703185472721290934.subtitle}"
+			tasks: [{
+				id: "3A2FC885B9F83064"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:heat_surge"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6703185472721290934.title}"
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/magma_bomb.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "20F3719B40BAF0B6"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2374366340174246070.subtitle}"
+			tasks: [{
+				id: "4A249975AA30768C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:magma_bomb"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2374366340174246070.title}"
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/scorch.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6DB956CF4D16CB12"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7906446069177174802.subtitle}"
+			tasks: [{
+				id: "25B3DCA1DF3CF0FC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:scorch"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest7906446069177174802.title}"
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/wall_of_fire.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "66498B8F31BD431F"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7370575712299598623.subtitle}"
+			tasks: [{
+				id: "26978E3BC31EC3A6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wall_of_fire"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest7370575712299598623.title}"
+			x: 3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/acupuncture.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "34FCD3DCDB805845"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3818159529632225349.subtitle}"
+			tasks: [{
+				id: "53976AC5DBF6F41D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:acupuncture"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest3818159529632225349.title}"
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blood_needles.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7C567B724287B19F"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8959484239372857759.subtitle}"
+			tasks: [{
+				id: "3D221D7110DEDDBB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blood_needles"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8959484239372857759.title}"
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blood_slash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "11CFCB84D544B611"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1283468190198052369.subtitle}"
+			tasks: [{
+				id: "27867BDBA9222354"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1283468190198052369.title}"
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blood_step.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6EE8B66A4F31C91C"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7991838106480396572.subtitle}"
+			tasks: [{
+				id: "5E62025CA0C7D9BD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blood_step"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest7991838106480396572.title}"
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/devour.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "04E55B301237F14B"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest352788407840665931.subtitle}"
+			tasks: [{
+				id: "6ABDD53045061E6A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:devour"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest352788407840665931.title}"
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/heartstop.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0EFA169E521A73F6"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1079199929946764278.subtitle}"
+			tasks: [{
+				id: "408F07357E341763"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:heartstop"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1079199929946764278.title}"
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/raise_dead.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2E2C3D02696C2298"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3327101305287877272.subtitle}"
+			tasks: [{
+				id: "0A20D76542159184"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:raise_dead"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest3327101305287877272.title}"
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ray_of_siphoning.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6BB9C0339C46FFBB"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7762446760647524283.subtitle}"
+			tasks: [{
+				id: "2CF8CCDAD152BA72"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ray_of_siphoning"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest7762446760647524283.title}"
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/sacrifice.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "54922EBD779EF184"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6093984637076304260.subtitle}"
+			tasks: [{
+				id: "3AF2B37CAA7C14E7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:sacrifice"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6093984637076304260.title}"
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/wither_skull.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0174D6794BC14B32"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest104944507786709810.subtitle}"
+			tasks: [{
+				id: "2D80D0BDC95906C9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wither_skull"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest104944507786709810.title}"
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/black_hole.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "47E6BAC77BA59093"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5181033787272040595.subtitle}"
+			tasks: [{
+				id: "7B1B830B4055E7C0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:black_hole"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5181033787272040595.title}"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: [
+				"{ftbquests.chapter.irons_spells.quest743243057493192069.description1}"
+				"{ftbquests.chapter.irons_spells.quest743243057493192069.description2}"
+				"{ftbquests.chapter.irons_spells.quest743243057493192069.description3}"
+				"{ftbquests.chapter.irons_spells.quest743243057493192069.description4}"
+				"{ftbquests.chapter.irons_spells.quest743243057493192069.description5}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/counterspell.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0A50879F77A82D85"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest743243057493192069.subtitle}"
+			tasks: [{
+				id: "7F5AC069BE9177AD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:counterspell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest743243057493192069.title}"
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/dragon_breath.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4DC9E88A5EE200B6"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5605266892234293430.subtitle}"
+			tasks: [{
+				id: "6184AAC6662345FF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:dragon_breath"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5605266892234293430.title}"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/echoing_strikes.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4EA50CAF62FCD50A"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5666949653535184138.subtitle}"
+			tasks: [{
+				id: "4BEAEF3B5A6E5B63"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:echoing_strikes"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5666949653535184138.title}"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/evasion.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3F51C96AF372AAD1"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4562649358691117777.subtitle}"
+			tasks: [{
+				id: "6DFC393F41F190D5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:evasion"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4562649358691117777.title}"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/magic_arrow.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "46B574404FE263A6"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5095106373006549926.subtitle}"
+			tasks: [{
+				id: "0EDCCC979E802A30"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:magic_arrow"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5095106373006549926.title}"
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/portal.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "09A524E6ECDFD5E9"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest695002291733779945.subtitle}"
+			tasks: [{
+				id: "28A15E441EADBA31"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:portal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest695002291733779945.title}"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/recall.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2D8B5735A8E735A5"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3281812641448146341.subtitle}"
+			tasks: [{
+				id: "4BE6CEDE538707BC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:recall"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest3281812641448146341.title}"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/starfall.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "50BA6B940B1C9527"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5817080152288171303.subtitle}"
+			tasks: [{
+				id: "09FA88693A4E8578"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:starfall"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5817080152288171303.title}"
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/summon_ender_chest.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "33447D646C027194"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3694215464612950420.subtitle}"
+			tasks: [{
+				id: "59E985698DF222F6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:summon_ender_chest"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest3694215464612950420.title}"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/teleport.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "23D9F676599C974B"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2583366849443698507.subtitle}"
+			tasks: [{
+				id: "762CF98391E9C203"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:teleport"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2583366849443698507.title}"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/magic_missile.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "56C07209A8A2139E"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6251121668599714718.subtitle}"
+			tasks: [{
+				id: "0E233C11B1C1539C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:magic_missile"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6251121668599714718.title}"
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/arrow_volley.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1164BA8F16BF413E"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1253331720040563006.subtitle}"
+			tasks: [{
+				id: "651D94CDABB9AA62"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:arrow_volley"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1253331720040563006.title}"
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/chain_creeper.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4571B69D0EC1EFA6"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5003981446659043238.subtitle}"
+			tasks: [{
+				id: "01E48EA956ECE7B9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:chain_creeper"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5003981446659043238.title}"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fang_strike.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6DB87EC19CF16B24"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7906208515875760932.subtitle}"
+			tasks: [{
+				id: "0E713CAEA04AE8F5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fang_strike"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest7906208515875760932.title}"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fang_ward.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6D084ADFEEA9A0EF"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7856611875590086895.subtitle}"
+			tasks: [{
+				id: "780C138299165EE0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fang_ward"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest7856611875590086895.title}"
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/firecracker.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "77FDA17C83578D4B"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8646244415772790091.subtitle}"
+			tasks: [{
+				id: "13F8277BC0C58783"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:firecracker"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8646244415772790091.title}"
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/gust.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "084796FC4DDE0D4E"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest596611486032203086.subtitle}"
+			tasks: [{
+				id: "6171F424F7611D0C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:gust"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest596611486032203086.title}"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/invisibility.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1AED69D6D4CF341A"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1940323385880818714.subtitle}"
+			tasks: [{
+				id: "5DA146B1D253021D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:invisibility"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1940323385880818714.title}"
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/lob_creeper.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "01BD93FD5380A3AC"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest125419080873190316.subtitle}"
+			tasks: [{
+				id: "654EB277FB1AF0DE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:lob_creeper"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest125419080873190316.title}"
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/shield.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "711A9C081DA1E6D3"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8149998034351154899.subtitle}"
+			tasks: [{
+				id: "78C1AC78D6236377"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:shield"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8149998034351154899.title}"
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/slow.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4A068451F0E7EA88"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5334096296135879304.subtitle}"
+			tasks: [{
+				id: "0EDDEFB8C59DEC1D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:slow"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5334096296135879304.title}"
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/spectral_hammer.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4AECEACACE5CB6C4"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5398948210076858052.subtitle}"
+			tasks: [{
+				id: "490BE2F22BEEAB50"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:spectral_hammer"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5398948210076858052.title}"
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/summon_horse.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "309F3C51764B5E72"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3503585355692203634.subtitle}"
+			tasks: [{
+				id: "6155F4587C5A293D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:summon_horse"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest3503585355692203634.title}"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/summon_vex.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "20E14F00A7EF9452"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2369261743209682002.subtitle}"
+			tasks: [{
+				id: "1F2B845AC0550889"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:summon_vex"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2369261743209682002.title}"
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/wololo.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6C87FAB0249CA091"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7820494912387588241.subtitle}"
+			tasks: [{
+				id: "21CBF10B2B35417F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wololo"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest7820494912387588241.title}"
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/angel_wing.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "30DFF086B00CDBB2"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3521797894896933810.subtitle}"
+			tasks: [{
+				id: "37DFA46766AE9609"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:angel_wing"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest3521797894896933810.title}"
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blessing_of_life.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2839D10D16E7F51E"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2898577689338705182.subtitle}"
+			tasks: [{
+				id: "1FA7F22C691A6834"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blessing_of_life"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2898577689338705182.title}"
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/divine_smite.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7917F1D8E6176365"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8725708716929147749.subtitle}"
+			tasks: [{
+				id: "466C637941DF69C4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:divine_smite"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8725708716929147749.title}"
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fortify.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6D4F6397F129EE19"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7876623777531555353.subtitle}"
+			tasks: [{
+				id: "55464AA9FBC21B88"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fortify"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest7876623777531555353.title}"
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/greater_heal.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1F6B2F0496BF329E"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2263954934439293598.subtitle}"
+			tasks: [{
+				id: "5EC397908132EB59"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:greater_heal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2263954934439293598.title}"
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/guiding_bolt.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2D8B8DA3C9293CCD"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3281872488063646925.subtitle}"
+			tasks: [{
+				id: "1EBECEA527DACFEA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:guiding_bolt"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest3281872488063646925.title}"
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/haste.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "42E62E00C6E77055"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4820591032018628693.subtitle}"
+			tasks: [{
+				id: "3FC33E14F699AD0D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:haste"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4820591032018628693.title}"
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/heal.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4E864208804FBA46"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5658282586117487174.subtitle}"
+			tasks: [{
+				id: "0D1D45EF74AD0874"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:heal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5658282586117487174.title}"
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/healing_circle.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "23A1A47894E1CEB8"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2567514100378750648.subtitle}"
+			tasks: [{
+				id: "6B50BA80EBA5AEC9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:healing_circle"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2567514100378750648.title}"
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/wisp.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "10CC6BC52C658BDC"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1210460894453402588.subtitle}"
+			tasks: [{
+				id: "6F73E32FAE90C372"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wisp"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1210460894453402588.title}"
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/cone_of_cold.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "49184739FC23FA4D"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5267038078578719309.subtitle}"
+			tasks: [{
+				id: "47CF4B872E1418A0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:cone_of_cold"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5267038078578719309.title}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/frost_step.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "40EA0A65E13F7EAB"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4677562595664690859.subtitle}"
+			tasks: [{
+				id: "4430CCF65C614881"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:frost_step"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4677562595664690859.title}"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/frostwave.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "77EDF548D39AEF96"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8641832953130446742.subtitle}"
+			tasks: [{
+				id: "56DCBCEF7A151B46"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:frostwave"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8641832953130446742.title}"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ice_block.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5BA5CC9E9BA67619"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6603909410196977177.subtitle}"
+			tasks: [{
+				id: "71D0DF9CE53A9100"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ice_block"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6603909410196977177.title}"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/icicle.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4A790C7B4E7C9A44"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5366334154725956164.subtitle}"
+			tasks: [{
+				id: "47C54FE5554D4817"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:icicle"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5366334154725956164.title}"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ray_of_frost.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5BF66A8EB5C27D54"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6626601062889586004.subtitle}"
+			tasks: [{
+				id: "318F6402FA975FA5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ray_of_frost"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6626601062889586004.title}"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/summon_polar_bear.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "37DB76DF7EEC9CC1"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4024941394264890561.subtitle}"
+			tasks: [{
+				id: "5A74AA52F30FFC7A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:summon_polar_bear"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4024941394264890561.title}"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ascension.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "06C88AAAD05EFFCC"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest488793025814659020.subtitle}"
+			tasks: [{
+				id: "1068AFD3774C33ED"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ascension"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest488793025814659020.title}"
+			x: -5.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ball_lightning.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4DE794DE317DF3B3"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5613619142574601139.subtitle}"
+			tasks: [{
+				id: "39E0CDA3934FA89D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ball_lightning"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5613619142574601139.title}"
+			x: -5.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/chain_lightning.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "46FEC22AA8E22243"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5115739715217269315.subtitle}"
+			tasks: [{
+				id: "7D35BA9F75CEECA0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:chain_lightning"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5115739715217269315.title}"
+			x: -5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/charge.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1700885208337609"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1657474548778628617.subtitle}"
+			tasks: [{
+				id: "2194A61DB814A12F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:charge"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1657474548778628617.title}"
+			x: -5.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/electrocute.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2EEAF9EDC2085858"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3380789269852870744.subtitle}"
+			tasks: [{
+				id: "7AF2F8882594CBAB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:electrocute"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest3380789269852870744.title}"
+			x: -4.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/lightning_bolt.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "73DA876C6B35F311"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8348133759009551121.subtitle}"
+			tasks: [{
+				id: "12D725FE5C9EAAB1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:lightning_bolt"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8348133759009551121.title}"
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/lightning_lance.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3341D5C8BED3A0A3"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3693468227592233123.subtitle}"
+			tasks: [{
+				id: "01821866800BAEEC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:lightning_lance"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest3693468227592233123.title}"
+			x: -4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/shockwave.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "58A1874E6C623430"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6386534517483648048.subtitle}"
+			tasks: [{
+				id: "2A63DE9429D43F74"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:shockwave"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6386534517483648048.title}"
+			x: -4.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/thunderstorm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "79FF384713ABFCD8"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8790806875574369496.subtitle}"
+			tasks: [{
+				id: "290FD1F404EB5713"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:thunderstorm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8790806875574369496.title}"
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/acid_orb.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "44BD776617D0E432"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4953246445547349042.subtitle}"
+			tasks: [{
+				id: "686221AE0DA19965"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:acid_orb"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4953246445547349042.title}"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blight.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "381B0A3B808B7004"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4042836341171122180.subtitle}"
+			tasks: [{
+				id: "221BCEA15A050BC4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blight"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4042836341171122180.title}"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/earthquake.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "19882BDEF9DECAE2"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1839768684455709410.subtitle}"
+			tasks: [{
+				id: "132808E03952C3AF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:earthquake"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1839768684455709410.title}"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/firefly_swarm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7F84C23C313E0BF9"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest9188682703522630649.subtitle}"
+			tasks: [{
+				id: "673F5D918328B23D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:firefly_swarm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest9188682703522630649.title}"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/gluttony.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6C6CBA36CD3E5257"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7812824198115381847.subtitle}"
+			tasks: [{
+				id: "739CB807E24C8C0E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:gluttony"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest7812824198115381847.title}"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/mob_effect/oakskin.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7E0949404FCF6F1C"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest9081870664135044892.subtitle}"
+			tasks: [{
+				id: "10B2F1AB202DD2DE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:oakskin"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest9081870664135044892.title}"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/poison_arrow.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "757AC0052C4D92B3"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8465289578046919347.subtitle}"
+			tasks: [{
+				id: "711A7DFE38B84410"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:poison_arrow"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8465289578046919347.title}"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/poison_breath.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "27816321823042E7"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2846665435044135655.subtitle}"
+			tasks: [{
+				id: "712623CBFA8566BE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:poison_breath"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2846665435044135655.title}"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/poison_splash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "729AEEA9EB61FF37"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8258175280303177527.subtitle}"
+			tasks: [{
+				id: "00BD5F35DD09DDFF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:poison_splash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8258175280303177527.title}"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/root.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6CCB58DC5162F598"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7839457279649969560.subtitle}"
+			tasks: [{
+				id: "0885A7B7B89B4E3F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:root"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest7839457279649969560.title}"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/spider_aspect.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6F751D658EAB4A5D"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8031357832507640413.subtitle}"
+			tasks: [{
+				id: "1AD5D962F40C461E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:spider_aspect"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8031357832507640413.title}"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/stomp.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "178CF795805FBF3F"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1697003381087780671.subtitle}"
+			tasks: [{
+				id: "510C77496647C2DF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:stomp"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1697003381087780671.title}"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: ["{ftbquests.chapter.irons_spells.quest6380318672964143799.description1}"]
+			id: "588B720757D1CAB7"
+			rewards: [
+				{
+					id: "54B4EE64391ABC8B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 6
+					id: "7CD182D3FB8F9306"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.irons_spells.quest6380318672964143799.subtitle}"
+			tasks: [{
+				id: "109354D4CE78942F"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6380318672964143799.title}"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "7A92871ED681157F"
+			rewards: [{
+				id: "02838A38A72748DB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells.quest8832270385744516479.subtitle}"
+			tasks: [{
+				id: "6A5C6AFA62154A35"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8832270385744516479.title}"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: [
+				"{ftbquests.chapter.irons_spells.quest479381462358976872.description1}"
+				"{ftbquests.chapter.irons_spells.quest479381462358976872.description2}"
+				"{ftbquests.chapter.irons_spells.quest479381462358976872.description3}"
+			]
+			id: "06A71AE66FD06968"
+			rewards: [{
+				id: "32657608B85DE2E0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells.quest479381462358976872.subtitle}"
+			tasks: [{
+				id: "0E7AEB973767C57D"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest479381462358976872.title}"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: [
+				"{ftbquests.chapter.irons_spells.quest4280149433029724415.description1}"
+				"{ftbquests.chapter.irons_spells.quest4280149433029724415.description2}"
+			]
+			id: "3B66253B6D5388FF"
+			rewards: [{
+				id: "37DFE3C49F4D9B70"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.irons_spells.quest4280149433029724415.subtitle}"
+			tasks: [{
+				id: "787F9C309A473676"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4280149433029724415.title}"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: [
+				"{ftbquests.chapter.irons_spells.quest4291559152957808231.description1}"
+				"{ftbquests.chapter.irons_spells.quest4291559152957808231.description2}"
+			]
+			icon: "irons_spellbooks:artificer_cane"
+			id: "3B8EAE4FDCA05E67"
+			rewards: [{
+				id: "3CF20503C778BE6D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4291559152957808231.subtitle}"
+			tasks: [
+				{
+					id: "59DDEE79C03B5E32"
+					item: "irons_spellbooks:blood_staff"
+					type: "item"
+				}
+				{
+					id: "02187F0AD245D39C"
+					item: "irons_spellbooks:graybeard_staff"
+					type: "item"
+				}
+				{
+					id: "090AFEC20C94D746"
+					item: "irons_spellbooks:ice_staff"
+					type: "item"
+				}
+				{
+					id: "36F745EA44ABE806"
+					item: "irons_spellbooks:artificer_cane"
+					type: "item"
+				}
+				{
+					id: "5BEFD94ACF766F89"
+					item: "irons_spellbooks:lightning_rod"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells.quest4291559152957808231.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: [
+				"{ftbquests.chapter.irons_spells.quest6042874524088435925.description1}"
+				"{ftbquests.chapter.irons_spells.quest6042874524088435925.description2}"
+				""
+				"{ftbquests.chapter.irons_spells.quest6042874524088435925.description3}"
+			]
+			icon: "irons_spellbooks:common_ink"
+			id: "53DC9A5CF68C84D5"
+			rewards: [
+				{
+					id: "4B2901B22D345639"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BEEED0049A9E89C"
+					table_id: 4068213888760668096L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DB934B5C920A78C"
+					table_id: 5076402803711178431L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6042874524088435925.subtitle}"
+			tasks: [
+				{
+					id: "5E8CACE3FDB8B9C9"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					id: "733D04BE5A8A65BD"
+					item: "irons_spellbooks:uncommon_ink"
+					type: "item"
+				}
+				{
+					id: "705D197B931AF451"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+				{
+					id: "1ACE75B83A8BA57B"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					id: "600E0A63C840A06F"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells.quest6042874524088435925.title}"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: [
+				"{ftbquests.chapter.irons_spells.quest2910789143608604038.description1}"
+				"{ftbquests.chapter.irons_spells.quest2910789143608604038.image0}"
+				"{ftbquests.chapter.irons_spells.quest2910789143608604038.description2}"
+				"{ftbquests.chapter.irons_spells.quest2910789143608604038.description3}"
+				"{ftbquests.chapter.irons_spells.quest2910789143608604038.description4}"
+			]
+			icon: "irons_spellbooks:upgrade_orb"
+			id: "2865334DD8DAB586"
+			rewards: [
+				{
+					id: "73A7FE528CB2474F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A360B5A0F836C06"
+					table_id: 4068213888760668096L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2910789143608604038.subtitle}"
+			tasks: [
+				{
+					id: "1246CFAA2FF2F8CD"
+					item: "irons_spellbooks:upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "3E41378FBBA0932A"
+					item: "irons_spellbooks:fire_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "0E49A2B1EB4BFAC6"
+					item: "irons_spellbooks:ice_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "3623C4A1097C4794"
+					item: "irons_spellbooks:lightning_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "26CB5FED8F9A5188"
+					item: "irons_spellbooks:holy_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "283EEAF92FAF0472"
+					item: "irons_spellbooks:ender_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "58F5745DE2D3E867"
+					item: "irons_spellbooks:blood_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "4F72A7F6CB3BDFAA"
+					item: "irons_spellbooks:evocation_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "7BD1736F139AF151"
+					item: "irons_spellbooks:nature_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "6C128F59D5AC3D1C"
+					item: "irons_spellbooks:mana_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "368438F61E6F539A"
+					item: "irons_spellbooks:cooldown_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "25379EAF7BA3AD06"
+					item: "irons_spellbooks:protection_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "3856CB24E49985A0"
+					item: "alshanex_familiars:sound_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "4D0FE45942468E48"
+					item: "traveloptics:aqua_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "0662AB812F3A9CA6"
+					item: "traveloptics:eldritch_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "20FA1BCA358EBEF4"
+					item: "gtbcs_geomancy_plus:geo_upgrade_orb"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells.quest2910789143608604038.title}"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: ["{ftbquests.chapter.irons_spells.quest5245541509981719080.description1}"]
+			id: "48CBE8361506CA28"
+			rewards: [
+				{
+					id: "2D80BC59049A00D8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DB4406039F20AA0"
+					table_id: 5076402803711178431L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5245541509981719080.subtitle}"
+			tasks: [
+				{
+					id: "4D8FDE0B3DDEB22A"
+					item: "irons_spellbooks:lesser_spell_slot_upgrade"
+					type: "item"
+				}
+				{
+					id: "2C6399B1CABC6A50"
+					item: "traveloptics:spectral_spell_slot_upgrade"
+					type: "item"
+				}
+				{
+					id: "0CD54246177DA53E"
+					item: "traveloptics:sanctified_spell_slot_upgrade"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells.quest5245541509981719080.title}"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: [
+				"{ftbquests.chapter.irons_spells.quest6207900049319175871.description1}"
+				"{ftbquests.chapter.irons_spells.quest6207900049319175871.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:copper_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 5
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "5626E43438CCA6BF"
+			rewards: [{
+				id: "3A3041A32DDE4BA5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6207900049319175871.subtitle}"
+			tasks: [
+				{
+					id: "2A9DEE646EECF410"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:iron_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 6
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B1E49D20AE933AB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:copper_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 5
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10DFFED1546C426E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CDF2279E18B69A8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:diamond_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67DEAEC4567C584B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:gold_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 8
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79ADC6CEB73F4775"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:dragonskin_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.irons_spells.quest6207900049319175871.title}"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: [
+				"{ftbquests.chapter.irons_spells.quest7317277554511974746.description1}"
+				"{ftbquests.chapter.irons_spells.quest7317277554511974746.image0}"
+				"{ftbquests.chapter.irons_spells.quest7317277554511974746.description2}"
+				"{ftbquests.chapter.irons_spells.quest7317277554511974746.description3}"
+			]
+			id: "658C312ACFA0115A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42D42B9DE292556F"
+				table_id: 5076402803711178431L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7317277554511974746.subtitle}"
+			tasks: [{
+				id: "6A72554F9681766E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [
+								{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:fang_ward"
+									index: 1
+									level: 4
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:summon_vex"
+									index: 2
+									level: 4
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: [
+				"{ftbquests.chapter.irons_spells.quest659926091990142529.description1}"
+				"{ftbquests.chapter.irons_spells.quest659926091990142529.image0}"
+				"{ftbquests.chapter.irons_spells.quest659926091990142529.description2}"
+				"{ftbquests.chapter.irons_spells.quest659926091990142529.description3}"
+			]
+			id: "09288748C3158E41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76DFA43BC1E6E69E"
+				table_id: 5076402803711178431L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest659926091990142529.subtitle}"
+			tasks: [{
+				id: "1F3C2260973374A8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						"irons_spellbooks:spell_container": {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: [
+				"{ftbquests.chapter.irons_spells.quest723344638467250689.description1}"
+				"{ftbquests.chapter.irons_spells.quest723344638467250689.image0}"
+				"{ftbquests.chapter.irons_spells.quest723344638467250689.description2}"
+			]
+			id: "0A09D61DC2061A01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "050E092EA84CCF21"
+				table_id: 5076402803711178431L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest723344638467250689.subtitle}"
+			tasks: [{
+				id: "1ECE6E4FB3D33389"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: ["{ftbquests.chapter.irons_spells.quest572923809787118376.description1}"]
+			id: "07F36F2B65B98328"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "489F88C0AD2F751C"
+				table_id: 5076402803711178431L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest572923809787118376.subtitle}"
+			tasks: [{
+				id: "59E4CFDF81461FD2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: ["{ftbquests.chapter.irons_spells.quest3777886999535511942.description1}"]
+			id: "346DC035C0E16986"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03E6468DD66D4536"
+				table_id: 5076402803711178431L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3777886999535511942.subtitle}"
+			tasks: [{
+				id: "24AB49624019F871"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: ["{ftbquests.chapter.irons_spells.quest7610113687474307619.description1}"]
+			id: "699C8E14223E8223"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "325819876308AAD4"
+				table_id: 5076402803711178431L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7610113687474307619.subtitle}"
+			tasks: [{
+				id: "2701DF896E7BB617"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: [
+				"{ftbquests.chapter.irons_spells.quest7178727223488266337.description1}"
+				"{ftbquests.chapter.irons_spells.quest7178727223488266337.image0}"
+				"{ftbquests.chapter.irons_spells.quest7178727223488266337.description2}"
+				"{ftbquests.chapter.irons_spells.quest7178727223488266337.image2}"
+				"{ftbquests.chapter.irons_spells.quest7178727223488266337.description3}"
+				"{ftbquests.chapter.irons_spells.quest7178727223488266337.description4}"
+			]
+			id: "639FF6600F71C061"
+			rewards: [
+				{
+					id: "42167B072C5CBBCF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6FA22FFEF57FC6FA"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7178727223488266337.subtitle}"
+			tasks: [{
+				id: "157E135E530BD01B"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			description: ["{ftbquests.chapter.irons_spells.quest2646330169351889417.description1}"]
+			id: "24B9A744A69E6209"
+			rewards: [
+				{
+					id: "52B13A3DD82BB2D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31847D39AB3BADD1"
+					table_id: 5076402803711178431L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2646330169351889417.subtitle}"
+			tasks: [{
+				id: "3B7D1C96A4A3F100"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "357F635424C03A08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FFAAF3B011D1C36"
+				table_id: 5076402803711178431L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3854909019097414152.subtitle}"
+			tasks: [{
+				id: "2FE404F7EBA442B1"
+				item: {
+					Count: 1
+					id: "traveloptics:guide_to_watery_whispers"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "48E7A868AB26C5EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E6006B28AC43FDB"
+				table_id: 5076402803711178431L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5253352657852483054.subtitle}"
+			tasks: [{
+				id: "6B344D0E4E34749C"
+				item: {
+					Count: 1
+					id: "traveloptics:codex_of_the_crushing_depths"
+					tag: {
+						ISBEnhance: "traveloptics:vortex_of_the_deep"
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:aqua_missiles"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "7CCACE9185BBDF32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16B0DFF9A9FDE4F4"
+				table_id: 4068213888760668096L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8992226730407878450.subtitle}"
+			tasks: [{
+				id: "6FBFED85A8AABF57"
+				item: {
+					Count: 1
+					id: "traveloptics:archive_of_abyssal_secrets"
+					tag: {
+						ISBEnhance: "traveloptics:cursed_minefield"
+						"irons_spellbooks:spell_container": {
+							data: [
+								{
+									id: "traveloptics:shadowed_miasma"
+									index: 0
+									level: 3
+									locked: 1b
+								}
+								{
+									id: "traveloptics:orbital_void"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "0F59A4267B1D5CFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5232D3C41B36A5ED"
+				table_id: 4068213888760668096L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1106095668677401851.subtitle}"
+			tasks: [{
+				id: "71247EB19614AC36"
+				item: {
+					Count: 1
+					id: "traveloptics:the_accused_codex"
+					tag: {
+						ISBEnhance: "traveloptics:cursed_blast"
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:halberd_horizon"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "27868C09368C8ABA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "342CC89D6FEBDCB0"
+				table_id: 4068213888760668096L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2848117785556191930.subtitle}"
+			tasks: [{
+				id: "4154A761909FDD1A"
+				item: {
+					Count: 1
+					id: "traveloptics:chronicles_of_the_firelord"
+					tag: {
+						ISBEnhance: "traveloptics:burning_judgment"
+						"irons_spellbooks:spell_container": {
+							data: [
+								{
+									id: "irons_spellbooks:flaming_strike"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "traveloptics:meteor_storm"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "2B3B25F58765A240"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6737F7029DEF5B3A"
+				table_id: 5076402803711178431L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3115125303725630016.subtitle}"
+			tasks: [{
+				id: "580BCBA3E9ADF88B"
+				item: {
+					Count: 1
+					id: "traveloptics:tome_of_abyssal_flora"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.irons_spells.quest2785424709878960217.description1}"
+				"{ftbquests.chapter.irons_spells.quest2785424709878960217.image0}"
+				"{ftbquests.chapter.irons_spells.quest2785424709878960217.description2}"
+				"{ftbquests.chapter.irons_spells.quest2785424709878960217.image2}"
+				"{ftbquests.chapter.irons_spells.quest2785424709878960217.description3}"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+			id: "26A7D1040CEE5059"
+			rewards: [{
+				id: "628C8A7A4AE4F7B8"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "irons_spellbooks:iss_guide_book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.irons_spells.quest2785424709878960217.subtitle}"
+			tasks: [{
+				id: "488E193441A77827"
+				title: "{ftbquests.chapter.irons_spells.quest2785424709878960217.task.5228143929654212647.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2785424709878960217.title}"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "5103BC5D0730E0F0"
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				id: "39BB08CBD1DEEB64"
+				item: "traveloptics:aqua_rune"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/coral_barrage.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "471B71349DCAACD2"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5123813471863614674.subtitle}"
+			tasks: [{
+				id: "71493AD5CDC09418"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:coral_barrage"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5123813471863614674.title}"
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/flood_slash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7FDBEF0B8E381D13"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest9213220295626202387.subtitle}"
+			tasks: [{
+				id: "457B700A0856090E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:flood_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest9213220295626202387.title}"
+			x: -1.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/rainfall.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7415B75400D20593"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8364793454329464211.subtitle}"
+			tasks: [{
+				id: "2F4D9BB67E0CA613"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:rainfall"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8364793454329464211.title}"
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/echo_of_the_abyss.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5D286DE552DE2DCE"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6712736076300955086.subtitle}"
+			tasks: [{
+				id: "52956555BB4D3A49"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:echo_of_the_abyss"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6712736076300955086.title}"
+			x: -2.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/jet_steam.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "23E25223AD0258B7"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2585719449244031159.subtitle}"
+			tasks: [{
+				id: "3A4EF191D4197671"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:jet_steam"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2585719449244031159.title}"
+			x: -1.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/aqua_missiles.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "48BDB945BADC87E1"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5241549250468022241.subtitle}"
+			tasks: [{
+				id: "050B9517729CD690"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:aqua_missiles"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5241549250468022241.title}"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/hydroshot.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "58E5EFC45AFAD32C"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6405789671623414572.subtitle}"
+			tasks: [{
+				id: "18B8684C7B213D1A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:hydroshot"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6405789671623414572.title}"
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/bubble_spray.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1258472387ECCBE2"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1321884708563110882.subtitle}"
+			tasks: [{
+				id: "7F4EA6A7E671BBCD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:bubble_spray"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1321884708563110882.title}"
+			x: -1.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/vortex_of_the_deep.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0283EA5D31ED0D27"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest181246096015428903.subtitle}"
+			tasks: [{
+				id: "43026B3FCA2F18AE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:vortex_of_the_deep"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest181246096015428903.title}"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/tidal_slash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "22D8B3B6A5FC9368"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2510954389309264744.subtitle}"
+			title: "{ftbquests.chapter.irons_spells.quest2510954389309264744.title}"
+			x: -2.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/tsunami.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "39A8D5E04A738EE9"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4154805815547760361.subtitle}"
+			tasks: [{
+				id: "15322A3A230DF742"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:tsunami"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4154805815547760361.title}"
+			x: -1.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/mob_effect/floodgate.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "17CE4647F1A215AA"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1715385782885291434.subtitle}"
+			tasks: [{
+				id: "3F9C377B236F4DA6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:floodgate"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1715385782885291434.title}"
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/tidal_grasp.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "47C30081A67E0ADA"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5170977353995520730.subtitle}"
+			tasks: [{
+				id: "549C2C01427B7893"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:tidal_grasp"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5170977353995520730.title}"
+			x: -1.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "7FE30832B14A787D"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.irons_spells.quest9215218276346001533.subtitle}"
+			tasks: [{
+				id: "1C5870F3B6049D51"
+				item: "alshanex_familiars:sound_rune"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/default_note.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "29917D97C1EC18B7"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2995313317925099703.subtitle}"
+			tasks: [{
+				id: "10FF48383B65D8C7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:default_note"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2995313317925099703.title}"
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/harp_symphony.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7D15F3B7142ED2F7"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest9013378196895093495.subtitle}"
+			tasks: [{
+				id: "5D354A604860BD90"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:harp_symphony"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest9013378196895093495.title}"
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/explosion_melody.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2ECB85C6E1D49AC1"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3371935835255773889.subtitle}"
+			tasks: [{
+				id: "73587B52F66875CA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:explosion_melody"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest3371935835255773889.title}"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/guardian_angel.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1694D903417BBC45"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1627163973394349125.subtitle}"
+			tasks: [{
+				id: "3A327AD41F6351D2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:guardian_angel"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1627163973394349125.title}"
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/mob_effect/bird_buff.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4C79D6F8D13ED84E"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5510671983215302734.subtitle}"
+			tasks: [{
+				id: "384927D7FEAC3D77"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:birds_spell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5510671983215302734.title}"
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/music_bolt.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "454ABA82D2C0F1CB"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4993008207937991115.subtitle}"
+			tasks: [{
+				id: "4C1A91E987BCE5DE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:music_bolt"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4993008207937991115.title}"
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/sonata.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "36D7B1A3532A38C2"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3951822513073961154.subtitle}"
+			tasks: [{
+				id: "4C4247F6D3C4FFEF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:sonata"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest3951822513073961154.title}"
+			x: 2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/lullaby.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0FB2FE15E5C448AE"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1131245826426030254.subtitle}"
+			tasks: [{
+				id: "62C0DABA4C3B1008"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:lullaby"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1131245826426030254.title}"
+			x: 3.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "25461DBDB4AA8CF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B2C98425127EE2A"
+				table_id: 5076402803711178431L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2685866928390180084.subtitle}"
+			tasks: [{
+				id: "083FF2171146445B"
+				item: {
+					Count: 1
+					id: "gtbcs_geomancy_plus:codex_of_shattered_horizons"
+					tag: {
+						ISBEnhance: "gtbcs_geomancy_plus:pillar_of_the_resounding_earth"
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "gtbcs_geomancy_plus:geo_conductor"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "2B133ADA2F4DFF4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A376378EC33FC5F"
+				table_id: 5076402803711178431L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3103889276959326027.subtitle}"
+			tasks: [{
+				id: "7AB49C6384FFBC5F"
+				item: {
+					Count: 1
+					id: "gtbcs_geomancy_plus:bluff_instruction_manual"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "48FDBB568F3CC566"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.irons_spells.quest5259565920283313510.subtitle}"
+			tasks: [{
+				id: "2DF2E66A75EAC2D2"
+				item: "gtbcs_geomancy_plus:geo_rune"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/solar_beam.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1E51C1CEC318809D"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2184740388031987869.subtitle}"
+			tasks: [{
+				id: "465CA1F99B84F4D2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:solar_beam"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest2184740388031987869.title}"
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/mob_effect/solar_storm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "539DF0D4702A77F9"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6025236671697156089.subtitle}"
+			tasks: [{
+				id: "19C0FCAF4B45B74A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:solar_storm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6025236671697156089.title}"
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/dripstone_bolt.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5E6F3BC05F4BF11E"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest6804723259398680862.subtitle}"
+			tasks: [{
+				id: "293522ADAE1A2FD5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:dripstone_bolt"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest6804723259398680862.title}"
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/pillar_of_the_resounding_earth.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "713BC98027C7527A"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8159336702172156538.subtitle}"
+			tasks: [{
+				id: "4CB4ED8A0613F205"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:pillar_of_the_resounding_earth"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8159336702172156538.title}"
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/geo_conductor.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "03E30AA86353E143"
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.irons_spells.quest280079320164327747.subtitle}"
+			tasks: [{
+				id: "41D76FDEE83986D1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:geo_conductor"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest280079320164327747.title}"
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/seismic_surf.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3DFC88D74FA0AF4D"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4466595388779966285.subtitle}"
+			tasks: [{
+				id: "5C7CE9E29324C7AC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:seismic_surf"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4466595388779966285.title}"
+			x: 6.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/chunker.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "79E000C7EAE43F45"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8782020132011786053.subtitle}"
+			tasks: [{
+				id: "37D2262C7C218FEE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:chunker"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8782020132011786053.title}"
+			x: 7.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/eroding_boulder.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "46436CC5A0CC1620"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest5063010002156656160.subtitle}"
+			tasks: [{
+				id: "77642B43999BAFF5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:eroding_boulder"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest5063010002156656160.title}"
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/tremor_step.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3D84967C158BD3F9"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest4432833392921007097.subtitle}"
+			tasks: [{
+				id: "296F153116B25F7D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:tremor_step"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest4432833392921007097.title}"
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/tremor_spike.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "768CDD15609DD6C6"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest8542445677099996870.subtitle}"
+			tasks: [{
+				id: "61BE6C4A062B1DFB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:tremor_spike"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest8542445677099996870.title}"
+			x: 7.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/fissure.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2D78755FA6CDF5A8"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3276497782592894376.subtitle}"
+			tasks: [{
+				id: "047DF2573A1A8C17"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:fissure"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest3276497782592894376.title}"
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/petrivise.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "013F97448EE40168"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest89956838281576808.subtitle}"
+			tasks: [{
+				id: "0F8B8225F0FF99EF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:petrivise"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest89956838281576808.title}"
+			x: 7.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/serpentide.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0924DF542D685F69"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest658896998134996841.subtitle}"
+			tasks: [{
+				id: "5D45C6FD1915DFDB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:serpentide"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest658896998134996841.title}"
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/the_howling_tempest.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0EA07032EDB1BA0B"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest1053965676843219467.subtitle}"
+			tasks: [{
+				id: "6D4452B0C6984774"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:the_howling_tempest"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.irons_spells.quest1053965676843219467.title}"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			id: "36CC29620C8341CD"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.irons_spells.quest3948576474390544845.subtitle}"
+			tasks: [{
+				id: "41D65477FF887CC3"
+				item: {
+					Count: 1
+					id: "traveloptics:the_diamantic_archive"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+	]
+	title: "{ftbquests.chapter.irons_spells.title}"
+}

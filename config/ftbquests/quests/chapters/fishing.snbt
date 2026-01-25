@@ -1,0 +1,1978 @@
+{
+	autofocus_id: "65A032D6DE748E06"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "fishing"
+	group: "509FB55A8427ED0C"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "starcatcher:item/starcatcher_rod_uncast"
+		}
+	}
+	id: "047B22E418784708"
+	images: [
+		{
+			height: 8.0d
+			image: "customtextures:textures/fishinglogo.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.fishing.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			height: 1.35d
+			image: "customtextures:textures/obtainables.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			alpha: 155
+			click: "https://www.kinetichosting.com/modpacks/Lingango/order"
+			height: 1.0d
+			hover: ["ftbquests.chapter.fishing.image.hovertext2"]
+			image: "ftblibrary:icons/friends"
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.392857142857139d
+			y: -6.642857142857146d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0741A7B974CB2ED7"
+				"595999C02CD3F6D4"
+			]
+			description: [
+				"{ftbquests.chapter.fishing.quest6955385330987638287.description1}"
+				""
+				"{ftbquests.chapter.fishing.quest6955385330987638287.description2}"
+				""
+				"{ftbquests.chapter.fishing.quest6955385330987638287.description3}"
+				""
+				"{ftbquests.chapter.fishing.quest6955385330987638287.description4}"
+				""
+				"{ftbquests.chapter.fishing.quest6955385330987638287.description5}"
+			]
+			id: "60867E1B797B1E0F"
+			rewards: [{
+				id: "269FB669F172C422"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.6d
+			subtitle: "{ftbquests.chapter.fishing.quest6955385330987638287.subtitle}"
+			tasks: [{
+				id: "52C687DEF791D700"
+				item: "starcatcher:starcatcher_rod"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65A032D6DE748E06"]
+			description: [
+				"{ftbquests.chapter.fishing.quest522883446721949399.description1}"
+				""
+				"{ftbquests.chapter.fishing.quest522883446721949399.description2}"
+			]
+			id: "0741A7B974CB2ED7"
+			rewards: [{
+				id: "0FDA1CF9418C340A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.fishing.quest522883446721949399.subtitle}"
+			tasks: [{
+				id: "1662F52C293AAEDE"
+				item: "starcatcher:hook"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["65A032D6DE748E06"]
+			id: "595999C02CD3F6D4"
+			rewards: [{
+				id: "1B7D6D69FB4F094C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.fishing.quest6438346192967694036.subtitle}"
+			tasks: [{
+				id: "6506271F0CD5E282"
+				item: "starcatcher:starcatcher_twine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			description: ["{ftbquests.chapter.fishing.quest7322908892540997126.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "starcatcher:item/fish_bones"
+				}
+			}
+			id: "65A032D6DE748E06"
+			rewards: [{
+				id: "429099D7299065C6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.fishing.quest7322908892540997126.subtitle}"
+			tasks: [{
+				id: "3C2AED28098A57D5"
+				title: "{ftbquests.chapter.fishing.quest7322908892540997126.task.4335538347512059861.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.fishing.quest7322908892540997126.title}"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "32A7CF6ABAAE7D95"
+			rewards: [{
+				id: "7B725DF96A9E3662"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.fishing.quest3650114080312556949.subtitle}"
+			tasks: [{
+				id: "33CFF0C7BB68EA61"
+				item: "starcatcher:starcatcher_guide"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0741A7B974CB2ED7"]
+			id: "004CAAAFA2134606"
+			rewards: [{
+				id: "447201E8C11A8B19"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest21579769545180678.subtitle}"
+			tasks: [{
+				id: "1F572B175EACFF9E"
+				item: "starcatcher:split_hook"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0741A7B974CB2ED7"]
+			id: "6A4F7342A739AFC4"
+			rewards: [{
+				id: "3650CB62F71A484F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest7660468221291114436.subtitle}"
+			tasks: [{
+				id: "1DF482D9558CFC74"
+				item: "starcatcher:stone_hook"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0741A7B974CB2ED7"]
+			id: "7E72918CA1B1D629"
+			rewards: [{
+				id: "618F7053094212B1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest9111505029318170153.subtitle}"
+			tasks: [{
+				id: "1E0E08FADF85360D"
+				item: "starcatcher:mossy_hook"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0741A7B974CB2ED7"]
+			id: "13BFD6607F7A5866"
+			rewards: [{
+				id: "2CD81B980BD6EE1D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest1423091717216295014.subtitle}"
+			tasks: [{
+				id: "41A014A15A9AC1BA"
+				item: "starcatcher:gold_hook"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0741A7B974CB2ED7"]
+			id: "6CBE38450D5DB6B6"
+			rewards: [{
+				id: "6E9B0CDAE1564279"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest7835762270899386038.subtitle}"
+			tasks: [{
+				id: "5BD5C13EA1C1C8EE"
+				item: "starcatcher:shiny_hook"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "1DF4028EAA44A63F"
+			rewards: [{
+				id: "3C5EE13333FB6CD7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest2158352933182547519.subtitle}"
+			tasks: [{
+				id: "1C2E4B81E5C2463F"
+				item: "starcatcher:steady_bobber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "29EBC39DAFD39F48"
+			rewards: [{
+				id: "0F00770C46D0B818"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest3020723057109213000.subtitle}"
+			tasks: [{
+				id: "3CB849F86DC033E1"
+				item: "starcatcher:lush_bait"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "139E970DE3A8F3E5"
+			rewards: [{
+				id: "51649601A845114D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest1413733418950783973.subtitle}"
+			tasks: [{
+				id: "1F1331D86B59AE51"
+				item: "starcatcher:meteorological_bait"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "48233B3E34D19ABE"
+			rewards: [{
+				id: "3D684D320A2D17C1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest5198063533275847358.subtitle}"
+			tasks: [{
+				id: "70C8897CFF68113B"
+				item: "starcatcher:sculk_bait"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "37D0D9038D7DF40A"
+			rewards: [{
+				id: "48A238AB585636C7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest4021953076523824138.subtitle}"
+			tasks: [{
+				id: "2715FA73193C852F"
+				item: "starcatcher:cherry_bait"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "7FD901B1D9A05164"
+			rewards: [{
+				id: "69E47FF02C6C9042"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest9212396376135061860.subtitle}"
+			tasks: [{
+				id: "569F7409A97D71B0"
+				item: "starcatcher:dripstone_bait"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "5457A957E2789AD3"
+			rewards: [{
+				id: "5386991C3ACE04AF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest6077512417086577363.subtitle}"
+			tasks: [{
+				id: "1979AC4EBFDDC2A1"
+				item: "starcatcher:murkwater_bait"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "25D8F923401B2B45"
+			rewards: [{
+				id: "45F494A2BE535F3C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.fishing.quest2727203504167529285.subtitle}"
+			tasks: [{
+				id: "53E55CD0EFD8A3DA"
+				item: "starcatcher:legendary_bait"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "2F0D5EED2CB31577"
+			rewards: [{
+				id: "7EDEC463670F288A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "12A68D9F25623D04"
+				item: "starcatcher:blue_crystal_fin"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			id: "22099635BC96CFDD"
+			rewards: [{
+				id: "21FE4FA288F022CE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3D473279F6C038D3"
+				item: "starcatcher:azure_crystalback_minnow"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			id: "576228FD0FD2EF1D"
+			rewards: [{
+				id: "75BF1C6E96591A6A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3618C199AE3CD3E1"
+				item: "starcatcher:crystalback_minnow"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			id: "4A7227EE05C9E14D"
+			rewards: [{
+				id: "0A862A4C2F069763"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "125F192F2AA634E9"
+				item: "starcatcher:frostgill_chub"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			id: "7DC62D05FE4A92B7"
+			rewards: [{
+				id: "759359E47DC1DC9E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "28C36ADAA5EDD878"
+				item: "starcatcher:dried_seaweed"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			id: "63931F0A06361416"
+			rewards: [{
+				id: "6FC5DB22C6FEBFCB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "42D4C16A4EC4D8B2"
+				item: "starcatcher:mistback_chub"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			id: "20683C65E67A4670"
+			rewards: [{
+				id: "2F93061A034562B3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1C980BE5F6FD91FA"
+				item: "starcatcher:hollowbelly_darter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			id: "5172906010748E96"
+			rewards: [{
+				id: "627949344799F2AA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5093EEB8831AAE08"
+				item: "starcatcher:dusktail_snapper"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			id: "1EFF6D894DF49260"
+			rewards: [{
+				id: "2AE4B1D58852B75B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0AEF63F9BC3E6B6C"
+				item: "starcatcher:joel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			id: "291F119D3AF1A927"
+			rewards: [{
+				id: "5B41FE209B8DEDFC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "710F6EEC68BBC54A"
+				item: "starcatcher:obidontiee"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			id: "286D46EFBA5B0E6C"
+			rewards: [{
+				id: "2DD282AC2B744BA7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "17C778AD165098DF"
+				item: "starcatcher:silverveil_perch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			id: "7E863BA6A56084EA"
+			rewards: [{
+				id: "419E51F999545B41"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "327D0E2832B6930D"
+				item: "starcatcher:elderscale"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			id: "3587646F8D08720E"
+			rewards: [{
+				id: "23C3B9084FD0A766"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4E07FD59C9FCC3CB"
+				item: "starcatcher:driftfin"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			id: "2B6715C073469D56"
+			rewards: [{
+				id: "34654E16257C9508"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "42B6E8D9D3737842"
+				item: "starcatcher:fish_bones"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			id: "7050E0F3B9CAF354"
+			rewards: [{
+				id: "04EFAC7C25C4FE7C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5537EEA7E3DDA412"
+				item: "starcatcher:twilight_koi"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			id: "2DF9C479B59A93A1"
+			rewards: [{
+				id: "32A5A4FFFB642104"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7040FB18D22C4743"
+				item: "starcatcher:pale_carp"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			id: "1AB926637EC31D1F"
+			rewards: [{
+				id: "79E7A1BE0B55ACEA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5096F386795CD7EC"
+				item: "starcatcher:sage_catfish"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			id: "6079008BF575D150"
+			rewards: [{
+				id: "29BE746C28181E05"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0EBDC72D52830ADE"
+				item: "starcatcher:lily_snapper"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			id: "653A2B02496118E6"
+			rewards: [{
+				id: "57CBB5C0597F11A8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "131BC3938EBAC1B9"
+				item: "starcatcher:sludge_catfish"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "78A868A1C4453D95"
+			rewards: [{
+				id: "75FA0448794BA93B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "75FFE9015056D316"
+				item: "starcatcher:thunder_bass"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			id: "4C2FE60014C592D0"
+			rewards: [{
+				id: "6161470EBEF76908"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "16F65B00C5E5486E"
+				item: "starcatcher:lightning_bass"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "033E45767D14A60D"
+			rewards: [{
+				id: "0B52F70DC9ECE54E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6C6ADB28F918621F"
+				item: "starcatcher:gold_fan"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			id: "2E0D8BEC33690C1D"
+			rewards: [{
+				id: "646F9515E29F66FE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4D2B1AE6E2877FFC"
+				item: "starcatcher:sporefish"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			id: "743BEC4B2A8E473E"
+			rewards: [{
+				id: "75CE6EF1A4870BCD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2D139CB953D11CAC"
+				item: "starcatcher:shroomfish"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			id: "74B1B0C6A9B24E22"
+			rewards: [{
+				id: "6600EC5CCE63C674"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4D41BAC2F2F73BAB"
+				item: "starcatcher:pale_pinfish"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			id: "3B3AC1B96602C3AD"
+			rewards: [{
+				id: "7C1DA8DB4E88ED95"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "460EF47D7FCA97CA"
+				item: "starcatcher:dark_amethyst_snapper"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			id: "6A4AC0C12ECF9339"
+			rewards: [{
+				id: "72838368773E396A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "32E5541EB5E8B82B"
+				item: "starcatcher:deepslatefish"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			id: "34225D2EA61A2DCD"
+			rewards: [{
+				id: "536DC178AA72A59D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7E986D61E1B0DBAA"
+				item: "starcatcher:sea_bass"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			id: "698DB43EED735C06"
+			rewards: [{
+				id: "703C55FD642404DB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "52A1E9DDAE15A105"
+				item: "starcatcher:bigeye_tuna"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			id: "7F52E9A547886FD7"
+			rewards: [{
+				id: "74629532A8BF3DB9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0BDC0319F24CF0E7"
+				item: "starcatcher:redscaled_tuna"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			id: "5B71132CC51C824C"
+			rewards: [{
+				id: "571C267CBE5D82AC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6DDE41DB6D1AEA90"
+				item: "starcatcher:whiteveil"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			id: "766B7D594958B436"
+			rewards: [{
+				id: "145C117918305AE9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "54F62977D1CA9F7E"
+				item: "starcatcher:black_eel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			id: "2F7425822CC3CDC4"
+			rewards: [{
+				id: "5C3DE7B89A74735D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "506E06A9742B4783"
+				item: "starcatcher:amethystback"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			id: "73964AF11C4D0655"
+			rewards: [{
+				id: "14F260C74315DB96"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0F622FC78D715004"
+				item: "starcatcher:fossilized_angelfish"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "5645564C53158BB3"
+			rewards: [{
+				id: "47C17406B07944F1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5A68C25DD4EB805B"
+				item: "starcatcher:stonefish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "4B40A4ED0284B657"
+			rewards: [{
+				id: "2F38E0B24AB53956"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "63BB564D88FCF8F9"
+				item: "starcatcher:dripfin"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			id: "064B7DB41C582A77"
+			rewards: [{
+				id: "3008406A265510EE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "71245242C636ADB5"
+				item: "starcatcher:peakdweller"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			id: "1771943BBE4A025E"
+			rewards: [{
+				id: "691781BB66B73091"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6956B2A405D25B54"
+				item: "starcatcher:sun_seeking_carp"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			id: "35BC17340C89C900"
+			rewards: [{
+				id: "77B8B55BAE4566F9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6A38EF43CB0D0B5A"
+				item: "starcatcher:rockgill"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "3E183A916CB2D29C"
+			rewards: [{
+				id: "04BECC1E0C44C4DC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "37519D9637AC0524"
+				item: "starcatcher:crystalback_trout"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "75BDA5C5E2FD26BA"
+			rewards: [{
+				id: "06D3AE6C91EAFC13"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2414D3F406D3F7C2"
+				item: "starcatcher:wintery_pike"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			id: "739B26C2D0F73A4E"
+			rewards: [{
+				id: "477DE7E60287763A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5D406D934A3128D6"
+				item: "starcatcher:mirage_carp"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			id: "5903149BE3FCB8F6"
+			rewards: [{
+				id: "314DFF35E5F40AF4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2995642F30E98B8E"
+				item: "starcatcher:cactifish"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			id: "741DBB016A07C497"
+			rewards: [{
+				id: "6EEB12EAC0265BBD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1FC084AA8337E185"
+				item: "starcatcher:scorchfish"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			id: "30F4A4E7AB39D86B"
+			rewards: [{
+				id: "582EA8C44B63F618"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "56FE56662A6DD18D"
+				item: "starcatcher:agave_bream"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			id: "5451C333DF9AC6FC"
+			rewards: [{
+				id: "2FBFF3105290D80A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0EE5F6AD73578777"
+				item: "starcatcher:blossomfish"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			id: "568B7D6B56B9FD17"
+			rewards: [{
+				id: "31CA1CBDE478A34C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "636DCF3E41C404E9"
+				item: "starcatcher:morganite"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			id: "64CB53FE107C9FB4"
+			rewards: [{
+				id: "3E8186651A36C36E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "055942D89CE6DC6C"
+				item: "starcatcher:rose_siamese_fish"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			id: "54214F73E8557959"
+			rewards: [{
+				id: "12839753D0EDDECC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7F3D75947FA8D36F"
+				item: "starcatcher:crystalback_sturgeon"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			id: "3E4ACDA44EC0822B"
+			rewards: [{
+				id: "6C8A291FABE66EB2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2A0EFFDC1FEF8D6D"
+				item: "starcatcher:boreal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			id: "0A5DEF5804D32A59"
+			rewards: [{
+				id: "47B040027D2C56D1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7796D1043EBAE144"
+				item: "starcatcher:crystalback_boreal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			id: "715EFD0E02E386D1"
+			rewards: [{
+				id: "301B0549688FE411"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2E19A1029EEF037D"
+				item: "starcatcher:silverfin_pike"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "3669C39D3C508635"
+			rewards: [{
+				id: "7B664DCC3B50DE2E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "59E03260F33EA70D"
+				item: "starcatcher:drifting_bream"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "596C564C33B5486B"
+			rewards: [{
+				id: "35FCC0B24CFB003C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "269878B822A6B7D5"
+				item: "starcatcher:downfall_bream"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "25920A7E3B76D458"
+			rewards: [{
+				id: "509E2C060989836F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "79AEB8DA81765947"
+				item: "starcatcher:deepjaw_herring"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			id: "34EE0A5C8D6FCB73"
+			rewards: [{
+				id: "3A36C0989FF225F4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "417B15D97395FA18"
+				item: "starcatcher:charfish"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			id: "6FE652D0CC70EFD8"
+			rewards: [{
+				id: "62A46FD3813213AE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2AD498A4B5E8F398"
+				item: "starcatcher:chorus_crab"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "627A7CE6902B2EDE"
+			rewards: [{
+				id: "3AD68293846F2A37"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "34C7FEBDA02937F7"
+				item: "starcatcher:end_glow"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "3080EB22F9B091F8"
+			rewards: [{
+				id: "1F5CC46AD45DD50B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "583D5D72A3F31146"
+				item: "starcatcher:pinfish"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "34213AABA630367D"
+			rewards: [{
+				id: "42B966FDB99FD929"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "09497ECDEFCDA95B"
+				item: "starcatcher:frostjaw_trout"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			id: "3361DB7411CDBAEF"
+			rewards: [{
+				id: "0691D8C8A38E0B50"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4C2A1943141239E7"
+				item: "starcatcher:aurora"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "4EEAEE77F0C97A34"
+			rewards: [{
+				id: "7B5599A2825E2933"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1A570AE40193139A"
+				item: "starcatcher:sandtail"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			id: "35E318A9B90D815B"
+			rewards: [{
+				id: "789F3AEA9DEF8CBC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "762EC4B59036533C"
+				item: "starcatcher:pink_koi"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			id: "08A75BC0A5FDE707"
+			rewards: [{
+				id: "369FFEE45174F4DA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "29CBE602B296A87F"
+				item: "starcatcher:petaldrift_carp"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			id: "37CDDF1A902667EE"
+			rewards: [{
+				id: "4589ECE2E921C3EF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "05D548570EB94871"
+				item: "starcatcher:willow_bream"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			id: "4AE1D1459C8A2A45"
+			rewards: [{
+				id: "79CCE63D87158F75"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1186D4B3BBAFBB38"
+				item: "starcatcher:icetooth_sturgeon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "2C2C7A4C1FAD4A6C"
+			rewards: [{
+				id: "19441C716DAC962F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4ED49D19B8F69335"
+				item: "starcatcher:yellowstone_fish"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			id: "1A9BD704ABCE30A8"
+			rewards: [{
+				id: "5B6E5E51E45EEFC4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "05425B5440F49DE7"
+				item: "starcatcher:lush_pike"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			id: "1353D20AC913C565"
+			rewards: [{
+				id: "63CA12A41C03208F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1301281E81F5F30B"
+				item: "starcatcher:vivid_moss"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "027352D69C030B82"
+			rewards: [{
+				id: "2B95DD532CAC5BC9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "23849DDCD0E4BADC"
+				item: "starcatcher:ghostly_pike"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			id: "0452CEC08DD320B7"
+			rewards: [{
+				id: "063A82FBF1EB7D9F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1CDDEEB2ED2EB3EE"
+				item: "starcatcher:aquamarine_pike"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "491A0A30D7F669B0"
+			rewards: [{
+				id: "3986380DF4B5919D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1D63F4E5BD09A7D2"
+				item: "starcatcher:garnet_mackerel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			id: "6A9C841FBC3C18BE"
+			rewards: [{
+				id: "676BCEEAE3D9F59F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7783CAE60305EBA3"
+				item: "starcatcher:bright_amethyst_snapper"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "038D157DB455F120"
+			rewards: [{
+				id: "0012F046EE807ABD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7AB322841F584255"
+				item: "starcatcher:sculkfish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "5E4946362BD3FA83"
+			rewards: [{
+				id: "13F5C05DAFCBDE00"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4B6BE8834393718C"
+				item: "starcatcher:ward"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "13BD82A1D6954DA7"
+			rewards: [{
+				id: "1B214F81CD6D8951"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "087910AA821F1FC3"
+				item: "starcatcher:glowing_dark"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			id: "635E434225D1E52C"
+			rewards: [{
+				id: "539E32263641E5CD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5158775563516AC1"
+				item: "starcatcher:suneater"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "6C66DB9C2B4FC46C"
+			rewards: [{
+				id: "138474B6E2B182D2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6124C2F38D4C7238"
+				item: "starcatcher:pyrotrout"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "50CAFB5ED715CE23"
+			rewards: [{
+				id: "34B24BFB64EFC39B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4587A7AEECACCC8C"
+				item: "starcatcher:obsidian_eel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "2625E30BD0B924B6"
+			rewards: [{
+				id: "78120E8FB6560AED"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6890DBEC5746C649"
+				item: "starcatcher:molten_shrimp"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "7D368075DD890362"
+			rewards: [{
+				id: "1CD31A7370846F64"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6A99B6E53133AEEB"
+				item: "starcatcher:obsidian_crab"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			id: "335E3E2D1551A40E"
+			rewards: [{
+				id: "027A29BC9D766DFC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4B700A8452EAE0F7"
+				item: "starcatcher:scorched_bloodsucker"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "1EE89BAEDE5FCB9A"
+			rewards: [{
+				id: "325238779648355B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6683F42F6DB490EE"
+				item: "starcatcher:molten_deepslate_crab"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			id: "3FF28B782EC68599"
+			rewards: [{
+				id: "4187456B1C4FF79F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "01078EF8097CEE3B"
+				item: "starcatcher:embergill"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "1353E5E677328C99"
+			rewards: [{
+				id: "2BF269F8563AB4A9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0C149CB083675E1A"
+				item: "starcatcher:scalding_pike"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "37534F03DF364B80"
+			rewards: [{
+				id: "1DB34ED06073785B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2F4A681E29C3972E"
+				item: "starcatcher:cinder_squid"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "13370EAA482CE17D"
+			rewards: [{
+				id: "4A3D6F19BA51DE7B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "50A0F340137D297E"
+				item: "starcatcher:lava_crab"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			id: "279754A2F6CE7497"
+			rewards: [{
+				id: "5CBFE427F554F90F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4378AB1350C59168"
+				item: "starcatcher:magma_fish"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			id: "370FD546ED75BAE0"
+			rewards: [{
+				id: "4EF4854054501510"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6990C9750A81D74A"
+				item: "starcatcher:glowstone_seeker"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			id: "2DF4844D88DCB422"
+			rewards: [{
+				id: "38D8AA68FD6868EC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7BE8AA847F8BF975"
+				item: "starcatcher:lava_crab_claw"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			id: "36D6A682444414AA"
+			rewards: [{
+				id: "5DC3AE3414714187"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "30F7B5686EFB5C7D"
+				item: "starcatcher:glowstone_pufferfish"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			id: "5C029A4990CF9C01"
+			rewards: [{
+				id: "32C32F83478479F9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "231872B490D32B25"
+				item: "starcatcher:conch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			id: "5DB14659C9A2A3F7"
+			rewards: [{
+				id: "05F177D839F8F908"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2BFD5AD2ED6973A0"
+				item: "starcatcher:boot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			id: "6534ED1529051426"
+			rewards: [{
+				id: "7058D0AB6D766F18"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.fishing.quest7292714371757970470.subtitle}"
+			tasks: [{
+				id: "22C8B25CE6C43CB7"
+				item: "starcatcher:missingno"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			id: "462B5C5869A4A4C2"
+			rewards: [{
+				id: "0C1BB7EBDABEC870"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2F34625170101608"
+				item: "starcatcher:waterlogged_satchel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			id: "26FD25EDAF63E0EC"
+			rewards: [{
+				id: "77DC1AE68DFBC983"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5901D327D085D3CD"
+				item: "starcatcher:ironjaw_herring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			id: "64D84470C7C874DF"
+			rewards: [{
+				id: "034B39D1E205FD19"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "36A0FA9FE0D04E2A"
+				item: "starcatcher:waterlogged_bottle"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			id: "5B4E5108C42CE8E8"
+			rewards: [{
+				id: "5B0360544B496A12"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5EAB37CC24E91885"
+				item: "starcatcher:clam"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			id: "7D4344CBC0B66C95"
+			rewards: [{
+				id: "4D69E8C9772C9BC0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4E08595FDCEB7EF8"
+				item: "starcatcher:mossy_boot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: ["{ftbquests.chapter.fishing.quest5241749068481329732.description1}"]
+			id: "48BE6F017C907A44"
+			rewards: [{
+				id: "02255DDDFD59E2F0"
+				item: "starcatcher:tournament_stand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "136B591589CA06FD"
+				title: "{ftbquests.chapter.fishing.quest5241749068481329732.task.1399310058269574909.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.fishing.quest5241749068481329732.title}"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "518A33534D5AAFA1"
+			subtitle: "{ftbquests.chapter.fishing.quest5875565096731324321.subtitle}"
+			tasks: [{
+				id: "3E75F0FF68F1A16E"
+				item: "starcatcher:bobber"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "319D430E8AE7F54C"
+			subtitle: "{ftbquests.chapter.fishing.quest3575087408941102412.subtitle}"
+			tasks: [{
+				id: "643974DCE7B17EE8"
+				item: "starcatcher:clear_bobber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "0F40E5C07CA2336D"
+			subtitle: "{ftbquests.chapter.fishing.quest1099130923965887341.subtitle}"
+			tasks: [{
+				id: "3DA69F91816DD96E"
+				item: "starcatcher:aqua_bobber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60867E1B797B1E0F"]
+			id: "3FB50F24BDBAE301"
+			subtitle: "{ftbquests.chapter.fishing.quest4590592045650469633.subtitle}"
+			tasks: [{
+				id: "2B06257D84088E52"
+				item: "starcatcher:vanilla_bobber"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0741A7B974CB2ED7"]
+			id: "632DB7A73AB5B8C3"
+			tasks: [{
+				id: "7229B44F9FE353D3"
+				item: "starcatcher:heavy_hook"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+	]
+	title: "{ftbquests.chapter.fishing.title}"
+}

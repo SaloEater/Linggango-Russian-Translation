@@ -1,0 +1,1941 @@
+{
+	autofocus_id: "7E0093211509C03D"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: "square"
+	filename: "bleed_magic"
+	group: "20D67F7F184680D5"
+	icon: "bloodmagic:weakbloodshard"
+	id: "620194588BD9F19E"
+	images: [
+		{
+			click: "https://www.youtube.com/watch?v=obfQuwJ3DHw"
+			height: 1.0d
+			hover: ["ftbquests.chapter.bleed_magic.image.hovertext1"]
+			image: "supplementaries:textures/gui/book/icon/youtube.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "bloodmagic:item/upgradetrainer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.bleed_magic.image.hovertext2"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "customtextures:textures/bloodmagiclogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			height: 1.5d
+			image: "animus:textures/misc/animus_logo_200.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:models/alchemyarrays/wiparray"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -6.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest9079418619075084349.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest9079418619075084349.description2}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest9079418619075084349.description3}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest9079418619075084349.description4}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest9079418619075084349.description5}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest9079418619075084349.description6}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "bloodmagic:item/sanguine_scientiem_guide_book"
+				}
+			}
+			id: "7E0093211509C03D"
+			rewards: [{
+				id: "32A29AD8CFDE59A8"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest9079418619075084349.subtitle}"
+			tasks: [{
+				id: "6C12462EDF0C73ED"
+				title: "{ftbquests.chapter.bleed_magic.quest9079418619075084349.task.7787363872801584109.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest9079418619075084349.title}"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7E0093211509C03D"]
+			id: "45C16A2944338E77"
+			rewards: [{
+				id: "3F19AB4E3AC74612"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest5026415384592617079.subtitle}"
+			tasks: [{
+				id: "02B70A0BBA16E418"
+				item: "bloodmagic:sacrificialdagger"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["45C16A2944338E77"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest8937136470816559518.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest8937136470816559518.description2}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest8937136470816559518.description3}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest8937136470816559518.description4}"
+			]
+			id: "7C071644EC35919E"
+			min_width: 250
+			rewards: [{
+				id: "0F12BE9E8BD3D092"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest8937136470816559518.subtitle}"
+			tasks: [{
+				id: "3FFC2845704053E0"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest8937136470816559518.title}"
+			x: -1.2724912373284383d
+			y: -2.5121230949367686d
+		}
+		{
+			dependencies: ["7C071644EC35919E"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest3561888826294531272.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest3561888826294531272.description2}"
+			]
+			icon_scale: 1.3d
+			id: "316E5F040CB7F4C8"
+			rewards: [{
+				id: "360C6D5A99E99AC3"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest3561888826294531272.subtitle}"
+			tasks: [{
+				id: "776EB52F2F5971D0"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: 0.7654693361164178d
+			y: -0.06053144314299175d
+		}
+		{
+			dependencies: ["316E5F040CB7F4C8"]
+			description: ["{ftbquests.chapter.bleed_magic.quest7686381348339798890.description1}"]
+			id: "6AAB831CB3FB536A"
+			rewards: [{
+				id: "590F75E07C74D7B0"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{ftbquests.chapter.bleed_magic.quest7686381348339798890.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "7CBFE84B4FE3DC01"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest7686381348339798890.title}"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C071644EC35919E"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest5427146085170205329.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest5427146085170205329.description2}"
+			]
+			icon: "bloodmagic:altar"
+			id: "4B51189C36B8D291"
+			min_width: 250
+			rewards: [{
+				id: "7D5123ADA18DB783"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest5427146085170205329.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "4CDFCAAED8ABB615"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest5427146085170205329.title}"
+			x: -2.394414549580638d
+			y: -0.5440838834100177d
+		}
+		{
+			dependencies: ["45C16A2944338E77"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest6008355144821035800.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest6008355144821035800.description2}"
+			]
+			id: "5361F72BAB72D318"
+			rewards: [{
+				id: "3EC7B6A7AAB5D688"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest6008355144821035800.subtitle}"
+			tasks: [{
+				id: "5D7178C2EF652773"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5361F72BAB72D318"]
+			description: ["{ftbquests.chapter.bleed_magic.quest3399527116055887439.description1}"]
+			id: "2F2D8BE68CD1BE4F"
+			rewards: [{
+				id: "4514550E47EF8FF2"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest3399527116055887439.subtitle}"
+			tasks: [{
+				id: "569914B4D001023E"
+				item: "bloodmagic:sacrificerune"
+				type: "item"
+			}]
+			x: 3.5961708964422954d
+			y: -2.7156856198827626d
+		}
+		{
+			dependencies: ["6AAB831CB3FB536A"]
+			description: ["{ftbquests.chapter.bleed_magic.quest3187607052799695943.description1}"]
+			id: "2C3CA7B9D1A7DC47"
+			rewards: [{
+				id: "1CEE36C9BB24E275"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "4CEA3279AF0BEE01"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			icon_scale: 1.3d
+			id: "08143AD0D63FFD1F"
+			rewards: [{
+				id: "5A7669A5AF75B170"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest582154920459762975.subtitle}"
+			tasks: [{
+				id: "46DC0EE4792CCA0D"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: -0.8944145495806382d
+			y: -0.5440838834100177d
+		}
+		{
+			dependencies: ["7C071644EC35919E"]
+			id: "49F57CE3B472FF6D"
+			rewards: [{
+				id: "3DA4B17AC351D97A"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest5329303051489705837.subtitle}"
+			tasks: [{
+				id: "3EF20FD3AC7ED48B"
+				item: "bloodmagic:speedrune"
+				type: "item"
+			}]
+			x: -2.4412306152044536d
+			y: -2.0836349004779535d
+		}
+		{
+			dependencies: ["6AAB831CB3FB536A"]
+			description: ["{ftbquests.chapter.bleed_magic.quest8989985467301346779.description1}"]
+			icon_scale: 1.2d
+			id: "7CC2D826CA6BBDDB"
+			rewards: [{
+				id: "407AD8FE2401C2DB"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest8989985467301346779.subtitle}"
+			tasks: [{
+				id: "33ECB0563BA9E2CB"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: 2.2573964076894697d
+			y: 4.188558424592941d
+		}
+		{
+			dependencies: ["7CC2D826CA6BBDDB"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest2250559580401495391.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest2250559580401495391.description2}"
+			]
+			id: "1F3B9803AFAEED5F"
+			rewards: [{
+				id: "0B6FFA8919767DB0"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest2250559580401495391.subtitle}"
+			tasks: [{
+				id: "6168644A110A263A"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			description: ["{ftbquests.chapter.bleed_magic.quest4228217314100621549.description1}"]
+			id: "3AADA53EC01FB0ED"
+			rewards: [{
+				id: "575036C4E7826796"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest4228217314100621549.subtitle}"
+			tasks: [{
+				id: "4EFA9FB003D8D147"
+				item: "bloodmagic:lavasigil"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			description: ["{ftbquests.chapter.bleed_magic.quest2889811398152349773.description1}"]
+			id: "281AAC27DEBEE84D"
+			rewards: [{
+				id: "74A2D318A5CDE2B6"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest2889811398152349773.subtitle}"
+			tasks: [{
+				id: "19EF9DDE6B18A8B5"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			description: ["{ftbquests.chapter.bleed_magic.quest9146007112838775111.description1}"]
+			id: "7EED2502F1F38147"
+			rewards: [{
+				id: "62372C65358EB408"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest9146007112838775111.subtitle}"
+			tasks: [{
+				id: "7825C546B68A7F85"
+				item: "bloodmagic:watersigil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["45C16A2944338E77"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest7846657559669925711.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest7846657559669925711.description2}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest7846657559669925711.description3}"
+			]
+			id: "6CE4ED7A2642674F"
+			rewards: [{
+				id: "70FC7EDF6E2500CE"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest7846657559669925711.subtitle}"
+			tasks: [{
+				id: "6692D1D1E4E4F758"
+				item: "bloodmagic:selfsacrificerune"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6AAB831CB3FB536A"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest5795368206041540765.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest5795368206041540765.description2}"
+			]
+			icon: "bloodmagic:soulsnare"
+			id: "506D48AD9FB2E89D"
+			rewards: [{
+				id: "2FBA9089CC78BF6C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest5795368206041540765.subtitle}"
+			tasks: [{
+				count: 3L
+				id: "3D1BAA6CA8B979A9"
+				item: "bloodmagic:soulsnare"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest5795368206041540765.title}"
+			x: 3.0846516198144087d
+			y: -0.04783738065106036d
+		}
+		{
+			dependencies: ["506D48AD9FB2E89D"]
+			description: ["{ftbquests.chapter.bleed_magic.quest8908267703203518213.description1}"]
+			id: "7BA086472D87D705"
+			rewards: [{
+				id: "4E527ED806BB2899"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest8908267703203518213.subtitle}"
+			tasks: [{
+				id: "59D4952D3D164F6D"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest8908267703203518213.title}"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["506D48AD9FB2E89D"]
+			id: "11D37E7391B49A88"
+			rewards: [{
+				id: "75E4ACF8BB5286E7"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest1284509353561594504.subtitle}"
+			tasks: [{
+				id: "1E4979886B89B2AD"
+				item: "bloodmagic:soulgempetty"
+				type: "item"
+			}]
+			x: 4.383588953914561d
+			y: -1.6192659520796227d
+		}
+		{
+			dependencies: ["626C07DB8B8C5A04"]
+			id: "20458B8987CD6CB9"
+			rewards: [
+				{
+					id: "60BBA6580E5073A2"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "1920903D975C3821"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulgemcommon"
+						tag: {
+							souls: 1024.0d
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest2325418205411896505.subtitle}"
+			tasks: [{
+				id: "25B30F1BCCEE920A"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 8.858221571898042d
+			y: -1.5198655542716821d
+		}
+		{
+			dependencies: ["487275B970530E3F"]
+			id: "626C07DB8B8C5A04"
+			rewards: [{
+				id: "1A139D9366025A4B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest7092052152722151940.subtitle}"
+			tasks: [{
+				id: "04BCD1D949FCB24D"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 7.543708193213625d
+			y: -2.2887318701059627d
+		}
+		{
+			dependencies: ["11D37E7391B49A88"]
+			id: "487275B970530E3F"
+			rewards: [{
+				id: "71899A66170C3062"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest5220364357389717055.subtitle}"
+			tasks: [{
+				id: "55AF014185F20835"
+				item: "bloodmagic:soulgemlesser"
+				type: "item"
+			}]
+			x: 5.857162726222306d
+			y: -2.4375447054287207d
+		}
+		{
+			dependencies: ["7BA086472D87D705"]
+			description: ["{ftbquests.chapter.bleed_magic.quest8974957627487694848.description1}"]
+			id: "7C8D74692C963000"
+			rewards: [{
+				id: "0156CD7A758D6F73"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest8974957627487694848.subtitle}"
+			tasks: [{
+				id: "72A92CB3A5DA9044"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest8974957627487694848.title}"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest6379003938267562209.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest6379003938267562209.description2}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest6379003938267562209.description3}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest6379003938267562209.description4}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest6379003938267562209.description5}"
+			]
+			icon: "bloodmagic:altar"
+			id: "5886C648D14180E1"
+			min_width: 250
+			progression_mode: "linear"
+			rewards: [{
+				id: "707FBED2300962A3"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest6379003938267562209.subtitle}"
+			tasks: [{
+				count: 28L
+				id: "45FE50B70B45B915"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest6379003938267562209.title}"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5886C648D14180E1"]
+			id: "375FF0D8ACD2E17F"
+			rewards: [{
+				id: "11B6FA8EC9F685F4"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest3990172608276652415.subtitle}"
+			tasks: [{
+				id: "2BEC3F34860494B0"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "47B985B56C582D6A"
+			rewards: [{
+				id: "4BA59F38EF9382D8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest5168309061637647722.subtitle}"
+			tasks: [{
+				id: "00D5D96DA535CFE7"
+				item: "bloodmagic:dislocationrune"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5886C648D14180E1"]
+			icon_scale: 1.3d
+			id: "0E51D6BB2BC756B6"
+			rewards: [{
+				id: "437678257583052B"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest1031841889026266806.subtitle}"
+			tasks: [{
+				id: "7BB6F203FCA31A25"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "0B2B8247DA280E90"
+			rewards: [{
+				id: "6519895A18C711CC"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest804880203530112656.subtitle}"
+			tasks: [{
+				id: "41758E5DA17E2FDF"
+				item: "bloodmagic:altarcapacityrune"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			description: ["{ftbquests.chapter.bleed_magic.quest6916066925304214416.description1}"]
+			id: "5FFACE39C595F390"
+			rewards: [{
+				id: "0DAE1F584F8E2BB3"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest6916066925304214416.subtitle}"
+			tasks: [{
+				id: "17E6AD3271D02A4A"
+				item: "bloodmagic:sigilofmagnetism"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			description: ["{ftbquests.chapter.bleed_magic.quest3930454312783539281.description1}"]
+			id: "368BC75F7F5D6C51"
+			rewards: [{
+				id: "32CDEC7622DCC8B9"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest3930454312783539281.subtitle}"
+			tasks: [{
+				id: "06FE02BA9214BBB9"
+				item: {
+					Count: 1
+					id: "bloodmagic:sigilofholding"
+					tag: {
+						currentSigil: 5
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			description: ["{ftbquests.chapter.bleed_magic.quest2984393043265928636.description1}"]
+			id: "296AB1A92E033DBC"
+			rewards: [{
+				id: "2E8AE7C39C0FE537"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest2984393043265928636.subtitle}"
+			tasks: [{
+				id: "6F40287B8D15D540"
+				item: "bloodmagic:bloodlightsigil"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["308581359FEF32E9"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest1045988175542239280.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest1045988175542239280.description2}"
+			]
+			id: "0E8418B42A744030"
+			rewards: [
+				{
+					id: "07063DF90FF71ECA"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "6CD8FBC9B039218C"
+					item: "bloodmagic:activationcrystalweak"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest1045988175542239280.subtitle}"
+			tasks: [
+				{
+					id: "6B1FDBAA650C202A"
+					item: "bloodmagic:ritualdiviner"
+					type: "item"
+				}
+				{
+					id: "7D265539B810DCE3"
+					item: "bloodmagic:activationcrystalweak"
+					type: "item"
+				}
+			]
+			x: -0.7877145203158236d
+			y: 5.027638540236254d
+		}
+		{
+			dependencies: ["5886C648D14180E1"]
+			description: ["{ftbquests.chapter.bleed_magic.quest3496342753039561449.description1}"]
+			id: "308581359FEF32E9"
+			rewards: [{
+				id: "03C56F523A4FF303"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest3496342753039561449.subtitle}"
+			tasks: [{
+				id: "1589663D302CE21E"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: -0.7187627276420585d
+			y: 3.575058697220463d
+		}
+		{
+			dependencies: ["0E8418B42A744030"]
+			description: ["{ftbquests.chapter.bleed_magic.quest4368544724810470124.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "bloodmagic:block/dungeon/dungeon_eye_v"
+				}
+			}
+			id: "3CA030481BBC12EC"
+			rewards: [{
+				id: "7A87A7FB79EB5FDA"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{ftbquests.chapter.bleed_magic.quest4368544724810470124.subtitle}"
+			tasks: [{
+				id: "0A339ADBDA81E798"
+				title: "{ftbquests.chapter.bleed_magic.quest4368544724810470124.task.735101433245984664.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest4368544724810470124.title}"
+			x: -1.6494476376845952d
+			y: 6.258685850763065d
+		}
+		{
+			dependencies: ["3CA030481BBC12EC"]
+			description: ["{ftbquests.chapter.bleed_magic.quest5810362708461386350.description1}"]
+			id: "50A28E1946047A6E"
+			rewards: [
+				{
+					id: "0A38D3BB59A3B956"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "0BFE71D65EDFCA32"
+					item: "bloodmagic:weak_tau"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest5810362708461386350.subtitle}"
+			tasks: [{
+				id: "2D780C226FCF4A03"
+				item: "bloodmagic:weak_tau"
+				type: "item"
+			}]
+			x: -3.208774231018566d
+			y: 6.710069864622895d
+		}
+		{
+			dependencies: ["50A28E1946047A6E"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest6786104285266490842.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest6786104285266490842.description2}"
+			]
+			id: "5E2D15E4A410B5DA"
+			rewards: [
+				{
+					id: "19E3E50D9BEA3EA6"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "4D258686DE9373D5"
+					item: "bloodmagic:strong_tau"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest6786104285266490842.subtitle}"
+			tasks: [{
+				id: "102AEEB23B1AA7EF"
+				item: "bloodmagic:strong_tau"
+				type: "item"
+			}]
+			x: -5.014310286457899d
+			y: 6.8742095060264745d
+		}
+		{
+			dependencies: ["5E2D15E4A410B5DA"]
+			icon: "bloodmagic:weakbloodshard"
+			id: "25343A0C4C22AA60"
+			rewards: [{
+				id: "100BCC74AFA6A202"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest2680831502683646560.subtitle}"
+			tasks: [
+				{
+					id: "3A104E7D6C6AA524"
+					item: "bloodmagic:weakbloodshard"
+					type: "item"
+				}
+				{
+					id: "6C20FD13B73935A7"
+					item: {
+						Count: 1
+						id: "bloodmagic:sanguinereverter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.450532148739185d
+			y: 6.504895312868435d
+		}
+		{
+			dependencies: ["25343A0C4C22AA60"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest4835815157070643319.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest4835815157070643319.description2}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest4835815157070643319.description3}"
+			]
+			icon: "bloodmagic:altar"
+			id: "431C44439CA54077"
+			progression_mode: "linear"
+			rewards: [{
+				id: "6284FC0B13C42642"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest4835815157070643319.subtitle}"
+			tasks: [{
+				count: 56L
+				id: "03DBCA5695879C49"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest4835815157070643319.title}"
+			x: -6.745238095238101d
+			y: 5.19047619047619d
+		}
+		{
+			dependencies: ["431C44439CA54077"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest8981213880370253503.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest8981213880370253503.description2}"
+			]
+			id: "7CA3AE708F46CEBF"
+			rewards: [{
+				id: "0337A0239AC1B2D5"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest8981213880370253503.subtitle}"
+			tasks: [{
+				id: "57F75D0B2554BA61"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["431C44439CA54077"]
+			description: ["{ftbquests.chapter.bleed_magic.quest327587966948072911.description1}"]
+			icon_scale: 1.3d
+			id: "048BD38532A1DDCF"
+			rewards: [{
+				id: "112DD8F23042BDDF"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest327587966948072911.subtitle}"
+			tasks: [{
+				id: "2F13F6D6E170BBEC"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: -5.624560059861508d
+			y: 4.257701173925604d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "6C57FF70679AF123"
+			rewards: [{
+				id: "00CA484A0F9314DB"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest7806989337309671715.subtitle}"
+			tasks: [{
+				id: "73F90730D99D6384"
+				item: "bloodmagic:chargingrune"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "6C0D4CBC089988ED"
+			rewards: [{
+				id: "3E7C94E9150FA32E"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest7785963701275298029.subtitle}"
+			tasks: [{
+				id: "0B14A7CBC056CC9F"
+				item: "bloodmagic:bettercapacityrune"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "5E2CB036B00758AE"
+			rewards: [{
+				id: "75D1ACA66D7AC0FC"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest6785992487468488878.subtitle}"
+			tasks: [{
+				id: "097D8139589AF377"
+				item: "bloodmagic:sigilofsuppression"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest1072650740565872816.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest1072650740565872816.description2}"
+			]
+			id: "0EE2D22A577D10B0"
+			rewards: [{
+				id: "16DD10E11A3A9F2C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest1072650740565872816.subtitle}"
+			tasks: [{
+				id: "7EB95246A2F0981D"
+				item: "bloodmagic:accelerationrune"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			icon: "bloodmagic:telepositionsigil"
+			id: "378B224A076E06C8"
+			rewards: [{
+				id: "2A3854187AB06495"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest4002330395196393160.subtitle}"
+			tasks: [
+				{
+					id: "1C0B9DDCEB5ED14F"
+					item: "bloodmagic:telepositionsigil"
+					type: "item"
+				}
+				{
+					id: "4453F8FEA4AB1D77"
+					item: "bloodmagic:teleposer"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["431C44439CA54077"]
+			id: "5269E48923F65C9E"
+			rewards: [{
+				id: "3E7349294EF5F957"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest5938528861329710238.subtitle}"
+			tasks: [{
+				id: "4A1A8287168F702B"
+				item: {
+					Count: 1
+					id: "bloodmagic:duskscribetool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.017757609615757d
+			y: 2.970838436488151d
+		}
+		{
+			dependencies: ["5269E48923F65C9E"]
+			id: "60DD166366C21CAB"
+			rewards: [{
+				id: "578E8D384EF85379"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{ftbquests.chapter.bleed_magic.quest6979759613675707563.subtitle}"
+			tasks: [{
+				id: "6E629C13C695EA0A"
+				item: "bloodmagic:ritualdivinerdusk"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60DD166366C21CAB"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest4813739512830563122.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest4813739512830563122.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "bloodmagic:item/demonicteleposerfocus"
+				}
+			}
+			id: "42CDD69527871332"
+			rewards: [{
+				id: "3BCBE1B158AFBC0C"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest4813739512830563122.subtitle}"
+			tasks: [{
+				id: "5C7C9797A37F374B"
+				title: "{ftbquests.chapter.bleed_magic.quest4813739512830563122.task.6664368226140370763.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest4813739512830563122.title}"
+			x: -7.4955889598757395d
+			y: -0.753279473354759d
+		}
+		{
+			dependencies: ["42CDD69527871332"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest2455789856170138114.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest2455789856170138114.description2}"
+			]
+			icon: "bloodmagic:altar"
+			id: "2214B7DCE4075A02"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "4EA5D969233B5528"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "057AD23C1B03FC8A"
+					item: {
+						Count: 1
+						id: "animus:hand_of_death"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				count: 108L
+				id: "3830486EDCC81431"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest2455789856170138114.title}"
+			x: -6.335959185648463d
+			y: -2.9115078708090465d
+		}
+		{
+			dependencies: ["2214B7DCE4075A02"]
+			id: "396AA75774059D0B"
+			optional: true
+			rewards: [{
+				id: "6FAE8C4C97DA3E31"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest4137303201743740171.subtitle}"
+			tasks: [{
+				id: "600A5AEE6C546B4C"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: -3.602923332138431d
+			y: -3.5460926133964037d
+		}
+		{
+			dependencies: ["396AA75774059D0B"]
+			description: ["{ftbquests.chapter.bleed_magic.quest3216279670905747297.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2CA28551F2A5B761"
+			rewards: [{
+				id: "06E8FD54DCE952E6"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.bleed_magic.quest3216279670905747297.subtitle}"
+			tasks: [{
+				id: "19128860A456424D"
+				title: "{ftbquests.chapter.bleed_magic.quest3216279670905747297.task.1806656349184344653.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.bleed_magic.quest3216279670905747297.title}"
+			x: -3.585d
+			y: -4.909999999999999d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: ["{ftbquests.chapter.bleed_magic.quest7022566357515685572.description1}"]
+			id: "61752AE51F54CEC4"
+			rewards: [{
+				id: "563063687B006A1B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest7022566357515685572.subtitle}"
+			tasks: [{
+				id: "06D00F9A2FFB6E4F"
+				item: "bloodmagic:airsigil"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: ["{ftbquests.chapter.bleed_magic.quest8643339759154674349.description1}"]
+			id: "77F34FB7716CBAAD"
+			rewards: [{
+				id: "31ED9A878223FAFC"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest8643339759154674349.subtitle}"
+			tasks: [{
+				id: "027A51E73CB9FA90"
+				item: "bloodmagic:seersigil"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: ["{ftbquests.chapter.bleed_magic.quest4415020820775853160.description1}"]
+			id: "3D454E0B724C5C68"
+			rewards: [{
+				id: "07128F70014C7A53"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest4415020820775853160.subtitle}"
+			tasks: [{
+				id: "536F4B221790205F"
+				item: "bloodmagic:voidsigil"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: ["{ftbquests.chapter.bleed_magic.quest6489618659905366370.description1}"]
+			id: "5A0FC1C9A767E962"
+			rewards: [{
+				id: "14C8C443F49033E8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest6489618659905366370.subtitle}"
+			tasks: [{
+				id: "4E915C03BA782F4A"
+				item: "bloodmagic:miningsigil"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: ["{ftbquests.chapter.bleed_magic.quest4595197168047392038.description1}"]
+			id: "3FC56B7A5A588526"
+			rewards: [{
+				id: "5FFB4DFEF32768A9"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest4595197168047392038.subtitle}"
+			tasks: [{
+				id: "4DBD7B37BA800495"
+				item: "bloodmagic:growthsigil"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description1}"
+				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description2}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description3}"
+				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description4}"
+				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description5}"
+				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description6}"
+				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description7}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "15CEEA18886598DE"
+			rewards: [{
+				id: "58B880955E4E93D3"
+				item: "animus:key_binding"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36EB3FF248E4845B"
+				title: "{ftbquests.chapter.bleed_magic.quest1571450711087356126.task.3957327007412683867.title}"
+				type: "checkmark"
+			}]
+			x: -3.894414549580638d
+			y: -0.5440838834100177d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "5947007A85C5D70D"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest6433111118952388365.subtitle}"
+			tasks: [{
+				id: "5606DFF1CFA48D06"
+				item: "animus:sigil_transposition"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "71951138E60152D0"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest8184466833890431696.subtitle}"
+			tasks: [{
+				id: "078A8A71564FE60D"
+				item: "animus:sigil_storm"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "526BE9CEC897E39D"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest5939097607956063133.subtitle}"
+			tasks: [{
+				id: "076FC4E7BDE0E4D7"
+				item: "animus:sigil_consumption"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "4725C38BE6833AEE"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest5126718756466408174.subtitle}"
+			tasks: [{
+				id: "78E43C8E53A20035"
+				item: "animus:sigil_heavenly_wrath"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "1849CA989FA54A53"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest1750152687072397907.subtitle}"
+			tasks: [{
+				id: "4DCF298D55E9D741"
+				item: "animus:sigil_temporal_dominance"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "166635E979F4B459"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest1614036793348633689.subtitle}"
+			tasks: [{
+				id: "7D1F727E8591B52A"
+				item: "animus:sigil_equivalency"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "7B075C2F9556EB42"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest8865155750940830530.subtitle}"
+			tasks: [{
+				id: "5A770BAC44CD05BE"
+				item: "animus:sigil_free_soul"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "33181761D8132E00"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest3681718404379782656.subtitle}"
+			tasks: [{
+				id: "43338E00B3C806BC"
+				item: "animus:sigil_remedium"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "6063ECF33AC4A9C6"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest6945655579742611910.subtitle}"
+			tasks: [{
+				id: "6357C1D0480CC1D7"
+				item: "animus:sigil_reparare"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "42B8B7C0C7BEEC4D"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest4807794640830786637.subtitle}"
+			tasks: [{
+				id: "502666B61EEDE476"
+				item: "animus:sigil_leach"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "0C2B3CEF9CCEED82"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest876861552279350658.subtitle}"
+			tasks: [{
+				id: "2713D6BC9B49829E"
+				item: "animus:sigil_chains"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "46B2B287493387F2"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest5094330422627895282.subtitle}"
+			tasks: [{
+				id: "44ADA572D7C37384"
+				item: "animus:sigil_builder"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E0093211509C03D"]
+			disable_toast: true
+			id: "705C9AF13AEEAD36"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest8096516590971825462.subtitle}"
+			tasks: [{
+				id: "6927FDCEA89E44BE"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "animus:codex_animus"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C071644EC35919E"]
+			id: "67B6395111660B2A"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest7473223652014951210.subtitle}"
+			tasks: [{
+				id: "4990C8B7B43142F1"
+				item: "animus:blood_sapling"
+				type: "item"
+			}]
+			x: -2.4412306152044536d
+			y: -3.0836349004779535d
+		}
+		{
+			dependencies: ["7BA086472D87D705"]
+			description: ["{ftbquests.chapter.bleed_magic.quest3575140258572019678.description1}"]
+			id: "319D731F8E6227DE"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest3575140258572019678.subtitle}"
+			tasks: [{
+				id: "20F088F72FC50471"
+				item: {
+					Count: 1
+					id: "animus:spear_sentient"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BA086472D87D705"]
+			description: ["{ftbquests.chapter.bleed_magic.quest3908816219078570779.description1}"]
+			id: "363EE7A43676B31B"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest3908816219078570779.subtitle}"
+			tasks: [{
+				id: "6220A946F27376BE"
+				item: {
+					Count: 1
+					id: "animus:sentient_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "6C1B42B3CDCCF234"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "663D0516A1AF42EE"
+				item: "bloodmagic:speedrune2"
+				type: "item"
+			}]
+			x: -2.585d
+			y: -7.909999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "2E60724CBC193764"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "12F9875AC99EF74C"
+				item: "bloodmagic:sacrificerune2"
+				type: "item"
+			}]
+			x: -3.085d
+			y: -7.409999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "1C4A23A8E7F8B9E5"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "72735B3436475706"
+				item: "bloodmagic:selfsacrificerune2"
+				type: "item"
+			}]
+			x: -2.085d
+			y: -7.409999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "65170D88B76DA832"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "7023639F44BA2F40"
+				item: "bloodmagic:dislocationrune2"
+				type: "item"
+			}]
+			x: -2.585d
+			y: -6.909999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "1068043B1E833593"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "6B413C7389DB5768"
+				item: "bloodmagic:altarcapacityrune2"
+				type: "item"
+			}]
+			x: -4.585d
+			y: -7.909999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "2DE5CD088555EAA7"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "43C5DA38CB6655F5"
+				item: "bloodmagic:bettercapacityrune2"
+				type: "item"
+			}]
+			x: -3.585d
+			y: -7.909999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "1A7132D2A32EC67C"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "418FDD794B6E1329"
+				item: "bloodmagic:orbcapacityrune2"
+				type: "item"
+			}]
+			x: -4.585d
+			y: -6.909999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "358829661C273E2D"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "5355B8446F491790"
+				item: "bloodmagic:accelerationrune2"
+				type: "item"
+			}]
+			x: -5.085d
+			y: -7.409999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "26B8E1D848DF1B83"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "14EE09A1A3AF2030"
+				item: "bloodmagic:chargingrune2"
+				type: "item"
+			}]
+			x: -3.585d
+			y: -6.909999999999999d
+		}
+		{
+			dependencies: ["2CA28551F2A5B761"]
+			id: "4F35E6DC75A65181"
+			shape: "diamond"
+			size: 1.13d
+			tasks: [{
+				id: "2E08DBBEEF6720AF"
+				item: "bloodmagic:ethereal_mimic"
+				type: "item"
+			}]
+			x: -4.085d
+			y: -7.409999999999999d
+		}
+		{
+			dependencies: ["7CC2D826CA6BBDDB"]
+			id: "751D7B1EDE27DD31"
+			tasks: [{
+				id: "246897FCF76E5E50"
+				item: "bloodmagic:reagentbinding"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["751D7B1EDE27DD31"]
+			id: "2D3F708693EE8B07"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest3260448378549340935.subtitle}"
+			tasks: [
+				{
+					id: "52F0AE2F5009594F"
+					item: {
+						Count: 1
+						id: "bloodmagic:livinghelmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FB172BE3971EE66"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingplate"
+						tag: {
+							Damage: 0
+							livingStats: {
+								evolved: 0b
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49BD078CDF620E31"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingleggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "678731023C229C28"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingboots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7BA086472D87D705"]
+			description: ["{ftbquests.chapter.bleed_magic.quest5451177801560241412.description1}"]
+			id: "4BA67954357E3504"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest5451177801560241412.subtitle}"
+			tasks: [{
+				id: "2FE77E30F3ABCC84"
+				item: {
+					Count: 1
+					id: "animus:sentient_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BA67954357E3504"]
+			description: [
+				"{ftbquests.chapter.bleed_magic.quest8215746289107755044.description1}"
+				""
+				"{ftbquests.chapter.bleed_magic.quest8215746289107755044.description2}"
+			]
+			id: "720431B897006024"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.bleed_magic.quest8215746289107755044.subtitle}"
+			tasks: [{
+				id: "73CCFF712E477198"
+				item: {
+					Count: 1
+					id: "animus:hellforged_bow"
+					tag: {
+						Damage: 0
+						binding: {
+							id: [I;
+								-2072936818
+								1317488859
+								-1333692775
+								-1302013172
+							]
+							name: "ShutTheirPrayer"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.bleed_magic.title}"
+}

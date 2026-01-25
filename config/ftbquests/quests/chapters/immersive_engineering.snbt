@@ -1,0 +1,879 @@
+{
+	autofocus_id: "5C1E3ACFD2F9C650"
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "immersive_engineering"
+	group: "3C6437AAADAFC5CB"
+	icon: "immersiveengineering:manual"
+	id: "3DAD57E3F71B4E27"
+	images: [
+		{
+			click: "https://www.youtube.com/watch?v=A21ar_pPMLM"
+			height: 1.0d
+			hover: ["ftbquests.chapter.immersive_engineering.image.hovertext1"]
+			image: "supplementaries:textures/gui/book/icon/youtube.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.immersive_engineering.image.hovertext2"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			height: 5.0d
+			image: "customtextures:textures/immersiveloog.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.5d
+			y: -3.0d
+		}
+	]
+	order_index: 10
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.immersive_engineering.quest6637807565062915664.description1}"]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C1E3ACFD2F9C650"
+			rewards: [{
+				count: 4
+				id: "2171F5F434266A88"
+				item: "immersiveengineering:stick_treated"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest6637807565062915664.subtitle}"
+			tasks: [
+				{
+					id: "1F061A6ED30AE0F9"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22DF3F2ADADC7D61"
+					title: "{ftbquests.chapter.immersive_engineering.quest6637807565062915664.task.2512796570389085537.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.immersive_engineering.quest6637807565062915664.title}"
+			x: -10.479591836734706d
+			y: -0.5802721088435305d
+		}
+		{
+			dependencies: ["2D69C4A5F91F3CF7"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest2768831762365712090.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest2768831762365712090.description2}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest2768831762365712090.description3}"
+				""
+				""
+				"{ftbquests.chapter.immersive_engineering.quest2768831762365712090.description4}"
+			]
+			id: "266CDDD166A086DA"
+			rewards: [{
+				count: 12
+				id: "7DA1EE3637AEACD1"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest2768831762365712090.subtitle}"
+			tasks: [{
+				id: "0E47F7EF09AE37FD"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest2768831762365712090.title}"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A1F818A8DC51612"]
+			description: ["{ftbquests.chapter.immersive_engineering.quest3272362821389597943.description1}"]
+			icon: "immersiveengineering:coke_oven"
+			id: "2D69C4A5F91F3CF7"
+			rewards: [{
+				count: 27
+				id: "7EB6F282A2F36081"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest3272362821389597943.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:coke_oven"
+				id: "4E6D23DD2814FF14"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:coke_oven"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest3272362821389597943.title}"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["266CDDD166A086DA"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest4097810328688396780.description1}"
+				"{ftbquests.chapter.immersive_engineering.quest4097810328688396780.description2}"
+			]
+			icon: "immersiveengineering:blast_furnace"
+			id: "38DE58C8666609EC"
+			rewards: [{
+				count: 6
+				id: "2A8140073C9911A9"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest4097810328688396780.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:blast_furnace"
+				id: "7D3A260F4D951D3E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:blast_furnace"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest4097810328688396780.title}"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38DE58C8666609EC"]
+			description: ["{ftbquests.chapter.immersive_engineering.quest161305584567599057.description1}"]
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "023D129314703FD1"
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest161305584567599057.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:advanced_blast_furnace"
+				id: "0FF0597A645FC7D9"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.immersive_engineering.quest161305584567599057.task.1148516287184357337.title}"
+				to_observe: "immersiveengineering:advanced_blast_furnace"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest161305584567599057.title}"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["023D129314703FD1"]
+			description: ["{ftbquests.chapter.immersive_engineering.quest1907592568808058026.description1}"]
+			id: "1A7921559FFAACAA"
+			rewards: [{
+				count: 2
+				id: "78796E8F85792D5E"
+				item: "immersiveengineering:connector_lv"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest1907592568808058026.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "71413AACDF9C838F"
+				item: { Count: 2, id: "immersiveengineering:blastfurnace_preheater" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest1907592568808058026.title}"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38DE58C8666609EC"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest1329942396074626890.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest1329942396074626890.description2}"
+			]
+			id: "1274E79019C28F4A"
+			rewards: [{
+				id: "1BA4E95A272E1675"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest1329942396074626890.subtitle}"
+			tasks: [{
+				id: "069DC4997CC22589"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest1329942396074626890.title}"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38DE58C8666609EC"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest8633818320978988206.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest8633818320978988206.description2}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest8633818320978988206.description3}"
+			]
+			id: "77D17C04DD364CAE"
+			rewards: [{
+				count: 2
+				id: "338BBA59316F5732"
+				item: "minecraft:blue_ice"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest8633818320978988206.subtitle}"
+			tasks: [{
+				id: "16193146B991AF3D"
+				item: "immersiveengineering:thermoelectric_generator"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest8633818320978988206.title}"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["266CDDD166A086DA"]
+			description: ["{ftbquests.chapter.immersive_engineering.quest8650578311218980102.description1}"]
+			id: "780D07242DE7E506"
+			rewards: [{
+				id: "20FFC2CDDD0606AB"
+				item: "create:empty_schematic"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest8650578311218980102.subtitle}"
+			tasks: [
+				{
+					id: "3144AACC48F9F7D5"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "7CD13D0F35112632"
+					item: "create:schematic_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.immersive_engineering.quest8650578311218980102.title}"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1274E79019C28F4A"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest2965305581922602873.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest2965305581922602873.description2}"
+			]
+			id: "2926E1B744FACF79"
+			rewards: [{
+				count: 3
+				id: "45FF07E828C8EEF7"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest2965305581922602873.subtitle}"
+			tasks: [{
+				id: "6D5AE46CF4E7D8BC"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest2965305581922602873.title}"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1274E79019C28F4A"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest7547355016700741157.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest7547355016700741157.description2}"
+			]
+			id: "68BD97666C35C625"
+			rewards: [{
+				count: 5
+				id: "7A77966A718EA960"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest7547355016700741157.subtitle}"
+			tasks: [{
+				id: "53B5DAA33C56D39D"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest7547355016700741157.title}"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68BD97666C35C625"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest7642043544893465635.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest7642043544893465635.description2}"
+			]
+			id: "6A0DFE1D63712423"
+			rewards: [{
+				count: 4
+				id: "179EDD7E3CFEBBD8"
+				item: "immersiveengineering:hemp_fabric"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest7642043544893465635.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "6D1FB1ADEE757FD8"
+				item: { Count: 8, id: "immersiveengineering:windmill_sail" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest7642043544893465635.title}"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1274E79019C28F4A"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest515716311253234892.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest515716311253234892.description2}"
+			]
+			id: "07283140B11FB4CC"
+			rewards: [{
+				id: "340BE7EEA7AC236C"
+				item: "immersiveengineering:capacitor_lv"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest515716311253234892.subtitle}"
+			tasks: [{
+				id: "25D9E8A7DBDFAFC5"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest515716311253234892.title}"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38DE58C8666609EC"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest5182080297172936252.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest5182080297172936252.description2}"
+			]
+			icon: "immersiveengineering:metal_press"
+			id: "47EA72930E8B263C"
+			rewards: [{
+				id: "7AE70F4602B92D58"
+				item: "mekanism:block_steel"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest5182080297172936252.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:metal_press"
+				id: "6F037A92E36AB6C6"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:metal_press"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest5182080297172936252.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47EA72930E8B263C"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest1695326328770392437.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest1695326328770392437.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "immersiveengineering:crusher"
+			id: "1787025054B9F175"
+			rewards: [{
+				count: 4
+				id: "0CB0FF78E37B101B"
+				item: "immersiveengineering:dust_saltpeter"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest1695326328770392437.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:crusher"
+				id: "3A6662D47938ECA3"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:crusher"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest1695326328770392437.title}"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1787025054B9F175"
+				"087EFD6289DFBB70"
+			]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest6083660581330331797.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest6083660581330331797.description2}"
+			]
+			icon: "immersiveengineering:arc_furnace"
+			id: "546D8110EC3DA895"
+			rewards: [{
+				count: 4
+				id: "3D6013AC3689AF18"
+				item: "immersiveengineering:steel_scaffolding_standard"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest6083660581330331797.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:arc_furnace"
+				id: "0B9D8A1CC51C0B46"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.immersive_engineering.quest6083660581330331797.task.836976961931447110.title}"
+				to_observe: "immersiveengineering:arc_furnace"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest6083660581330331797.title}"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5ECDD562A5C902F6"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest3020117309299219742.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest3020117309299219742.description2}"
+			]
+			id: "29E99CB108C9DD1E"
+			optional: true
+			rewards: [{
+				id: "762CB7BEE9D7B361"
+				item: "immersiveengineering:biodiesel_bucket"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest3020117309299219742.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:diesel_generator"
+				id: "745989B6286AA001"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:diesel_generator"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest3020117309299219742.title}"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1CA2206C39C24626"
+				"18EEE381A90610B5"
+			]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest6831350829455835894.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest6831350829455835894.description2}"
+				"{ftbquests.chapter.immersive_engineering.quest6831350829455835894.description3}"
+			]
+			id: "5ECDD562A5C902F6"
+			rewards: [{
+				count: 6
+				id: "7AE44E11C3EC130C"
+				item: "immersiveengineering:fluid_pipe"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest6831350829455835894.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:refinery"
+				id: "30FA527898922D68"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:refinery"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest6831350829455835894.title}"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47EA72930E8B263C"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest2063247228486698534.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest2063247228486698534.description2}"
+			]
+			id: "1CA2206C39C24626"
+			rewards: [{
+				id: "0DEF7ABF64045544"
+				item: "mekanism:block_steel"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest2063247228486698534.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:fermenter"
+				id: "4C4942CF3130646A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:fermenter"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest2063247228486698534.title}"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47EA72930E8B263C"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest1796623447393439925.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest1796623447393439925.description2}"
+			]
+			id: "18EEE381A90610B5"
+			rewards: [{
+				count: 10
+				id: "6B17996DF8D4DCA3"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest1796623447393439925.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:squeezer"
+				id: "65FBBB4C31373B63"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:squeezer"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest1796623447393439925.title}"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5ECDD562A5C902F6"
+				"6CBE6DD3F776E019"
+			]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest8927647018971949046.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest8927647018971949046.description2}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest8927647018971949046.description3}"
+			]
+			id: "7BE55FA9BDE5E7F6"
+			rewards: [{
+				id: "13E2E178667B62EA"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest8927647018971949046.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:bottling_machine"
+				id: "261F32F2BAF6DE3F"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:bottling_machine"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest8927647018971949046.title}"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07283140B11FB4CC"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest2017140668897188142.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest2017140668897188142.description2}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest2017140668897188142.description3}"
+			]
+			id: "1BFE52C0479C592E"
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest2017140668897188142.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:lightning_rod"
+				id: "402F6FB04767DA58"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.immersive_engineering.quest2017140668897188142.task.4625038145235704408.title}"
+				to_observe: "immersiveengineering:lightning_rod"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest2017140668897188142.title}"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29E99CB108C9DD1E"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest9026508483488796996.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest9026508483488796996.description2}"
+			]
+			id: "7D4499A428665144"
+			rewards: [{
+				id: "6C2A3B3C46CE05C5"
+				item: "mekanism:block_steel"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest9026508483488796996.subtitle}"
+			tasks: [
+				{
+					icon: "immersiveengineering:bucket_wheel"
+					id: "6D9C0226972E88F0"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:bucket_wheel"
+					type: "observation"
+				}
+				{
+					icon: "immersiveengineering:excavator"
+					id: "323C3E89E908DA8B"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:excavator"
+					type: "observation"
+				}
+			]
+			title: "{ftbquests.chapter.immersive_engineering.quest9026508483488796996.title}"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["47EA72930E8B263C"]
+			description: ["{ftbquests.chapter.immersive_engineering.quest612205199030729584.description1}"]
+			id: "087EFD6289DFBB70"
+			rewards: [{
+				id: "05F1CF8DCE21FB5F"
+				item: {
+					Count: 1
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest612205199030729584.subtitle}"
+			tasks: [{
+				id: "023A91782FFF74AE"
+				item: {
+					Count: 1
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest612205199030729584.title}"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47EA72930E8B263C"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest7835821158828531737.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest7835821158828531737.description2}"
+			]
+			hide_dependency_lines: true
+			id: "6CBE6DD3F776E019"
+			rewards: [{
+				id: "244D3E3C1C5D20E9"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest7835821158828531737.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:mixer"
+				id: "32896D04250F32B3"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:mixer"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest7835821158828531737.title}"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["546D8110EC3DA895"]
+			description: ["{ftbquests.chapter.immersive_engineering.quest193327445735848449.description1}"]
+			icon: "immersiveengineering:auto_workbench"
+			id: "02AED649A06B3A01"
+			rewards: [{
+				count: 4
+				id: "1D8513B572EF9798"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest193327445735848449.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:auto_workbench"
+				id: "436FF3111A1A7EBF"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.immersive_engineering.quest193327445735848449.task.4859369777733992127.title}"
+				to_observe: "immersiveengineering:auto_workbench"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.immersive_engineering.quest193327445735848449.title}"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38DE58C8666609EC"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest2816476621345544196.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest2816476621345544196.description2}"
+			]
+			id: "27162290957E5804"
+			rewards: [{
+				id: "2A5523BC54001B79"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest2816476621345544196.subtitle}"
+			tasks: [{
+				icon: "immersiveengineering:sawmill"
+				id: "013A31FD6DB835AD"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.immersive_engineering.quest2816476621345544196.task.88438107224421805.title}"
+				to_observe: "immersiveengineering:sawmill"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["266CDDD166A086DA"]
+			description: ["{ftbquests.chapter.immersive_engineering.quest3055601004383596421.description1}"]
+			id: "2A67ACEC999C6F85"
+			rewards: [{
+				id: "1D3A4DABBCACADF7"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest3055601004383596421.subtitle}"
+			tasks: [{
+				id: "5927B4A0B6C8EE43"
+				item: "immersive_machinery:tunnel_digger"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["266CDDD166A086DA"]
+			description: ["{ftbquests.chapter.immersive_engineering.quest5603817318581545973.description1}"]
+			id: "4DC4C229343C2BF5"
+			rewards: [{
+				id: "04CD0C3463433EAC"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest5603817318581545973.subtitle}"
+			tasks: [{
+				id: "56AEA341D150E59A"
+				item: "immersive_machinery:redstone_sheep"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["266CDDD166A086DA"]
+			description: ["{ftbquests.chapter.immersive_engineering.quest4529594367660123387.description1}"]
+			id: "3EDC5A141CFDE4FB"
+			rewards: [{
+				id: "49AE3237F9F94141"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest4529594367660123387.subtitle}"
+			tasks: [{
+				id: "1762CA84CA7370FF"
+				item: "immersive_machinery:copperfin"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["266CDDD166A086DA"]
+			description: ["{ftbquests.chapter.immersive_engineering.quest8354678956315939353.description1}"]
+			id: "73F1C83EEBA49219"
+			rewards: [{
+				id: "5FCDD6624D2F3776"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest8354678956315939353.subtitle}"
+			tasks: [{
+				id: "68BD405FB7017FFA"
+				item: {
+					Count: 1
+					id: "immersive_machinery:bamboo_bee"
+					tag: {
+						ContainerPositions: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C1E3ACFD2F9C650"]
+			description: [
+				"{ftbquests.chapter.immersive_engineering.quest5341130115168671250.description1}"
+				""
+				"{ftbquests.chapter.immersive_engineering.quest5341130115168671250.description2}"
+			]
+			id: "4A1F818A8DC51612"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.immersive_engineering.quest5341130115168671250.subtitle}"
+			tasks: [{
+				id: "325D17D9272AC36D"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+	]
+	title: "{ftbquests.chapter.immersive_engineering.title}"
+}

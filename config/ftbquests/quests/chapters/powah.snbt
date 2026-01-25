@@ -1,0 +1,3639 @@
+{
+	autofocus_id: "5A2DDE5D50DD8C35"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "powah"
+	group: "3C6437AAADAFC5CB"
+	icon: "powah:energizing_orb"
+	id: "49B60BD59597EF1A"
+	images: [
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/p_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/o_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/w_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			color: 0
+			height: 1.15d
+			image: "hexerei:textures/book/a_upper.png"
+			order: -2
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.03d
+			y: -4.47d
+		}
+		{
+			color: 0
+			height: 1.15d
+			image: "hexerei:textures/book/h_upper.png"
+			order: -2
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.03d
+			y: -4.47d
+		}
+		{
+			color: 131586
+			height: 1.15d
+			image: "hexerei:textures/book/p_upper.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			color: 131073
+			height: 1.15d
+			image: "hexerei:textures/book/o_upper.png"
+			order: -2
+			rotation: 0.0d
+			width: 1.15d
+			x: -0.97d
+			y: -4.47d
+		}
+		{
+			color: 0
+			height: 1.15d
+			image: "hexerei:textures/book/w_upper.png"
+			order: -3
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.03d
+			y: -4.47d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/a_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "hexerei:textures/book/h_upper.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			height: 8.0d
+			image: "powah:textures/model/tile/beam.png"
+			order: -5
+			rotation: 90.0d
+			width: 8.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			color: 0
+			height: 4.2d
+			image: "minecraft:block/black_concrete"
+			order: -6
+			rotation: 0.0d
+			width: 8.3d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			color: 0
+			height: 1.0d
+			image: "dungeonnowloading:block/mending_aura"
+			order: -6
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			color: 0
+			height: 1.0d
+			image: "dungeonnowloading:block/mending_aura"
+			order: -6
+			rotation: 180.0d
+			width: 8.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 0.5d
+			image: "ftblibrary:icons/star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.1999999999999997d
+			y: 1.2999999999999998d
+		}
+		{
+			height: 0.5d
+			image: "ftblibrary:icons/star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.1d
+			y: 1.2d
+		}
+		{
+			height: 0.5d
+			image: "ftblibrary:icons/star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.5d
+			y: 1.2d
+		}
+		{
+			height: 0.5d
+			image: "ftblibrary:icons/star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.9d
+			y: 1.2d
+		}
+		{
+			height: 0.5d
+			image: "ftblibrary:icons/star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.300000000000001d
+			y: 1.2999999999999998d
+		}
+		{
+			height: 0.5d
+			image: "ftblibrary:icons/star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.7d
+			y: 1.2999999999999998d
+		}
+		{
+			click: "a"
+			height: 0.7d
+			hover: ["ftbquests.chapter.powah.image.hovertext1"]
+			image: "ftblibrary:icons/back"
+			rotation: 15.0d
+			width: 0.7d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			click: "https://youtu.be/i59aKc9LGoQ?t=903"
+			height: 0.75d
+			hover: ["ftbquests.chapter.powah.image.hovertext2"]
+			image: "supplementaries:textures/gui/book/icon/youtube.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			click: "https://youtu.be/CQZZTkxsK_Q?si=To05z46XAzLWFMpo"
+			height: 0.75d
+			hover: ["ftbquests.chapter.powah.image.hovertext3"]
+			image: "supplementaries:textures/gui/book/icon/youtube.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.powah.image.hovertext4"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.powah.quest6498094329735515189.description1}"
+				""
+				"{ftbquests.chapter.powah.quest6498094329735515189.description2}"
+				""
+				"{ftbquests.chapter.powah.quest6498094329735515189.description3}"
+				""
+				"{ftbquests.chapter.powah.quest6498094329735515189.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "powah:item/capacitor_basic"
+				}
+			}
+			id: "5A2DDE5D50DD8C35"
+			rewards: [{
+				id: "736CED6C221DFA16"
+				type: "xp"
+				xp: 2
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.powah.quest6498094329735515189.subtitle}"
+			tasks: [{
+				id: "2316B1C5518B0F74"
+				title: "{ftbquests.chapter.powah.quest6498094329735515189.task.2528403701849853812.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.powah.quest6498094329735515189.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A2DDE5D50DD8C35"]
+			description: ["{ftbquests.chapter.powah.quest5085903218804824637.description1}"]
+			icon: "powah:book"
+			id: "4694C207FEE09A3D"
+			rewards: [
+				{
+					id: "1BB7FF0E7A13A067"
+					item: "powah:book"
+					type: "item"
+				}
+				{
+					id: "0030A4E4B252C65A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.powah.quest5085903218804824637.subtitle}"
+			tasks: [{
+				id: "054EF790743A3F44"
+				title: "{ftbquests.chapter.powah.quest5085903218804824637.task.382515218170396484.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.powah.quest5085903218804824637.title}"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A2DDE5D50DD8C35"]
+			description: [
+				"{ftbquests.chapter.powah.quest5790069108878097645.description1}"
+				""
+				"{ftbquests.chapter.powah.quest5790069108878097645.description2}"
+			]
+			id: "505A752D6BA43CED"
+			rewards: [
+				{
+					count: 16
+					id: "12FFC3BE9CD01CAE"
+					item: "powah:dielectric_paste"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "78076D4E00CEE7A6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.powah.quest5790069108878097645.subtitle}"
+			tasks: [{
+				id: "7642DD50C097E044"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest5790069108878097645.title}"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: ["{ftbquests.chapter.powah.quest6075919282393170146.description1}"]
+			id: "545200654EFDC0E2"
+			optional: true
+			rewards: [
+				{
+					id: "45D8F4D82858C320"
+					item: "minecraft:coal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "73D2A575B680400E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest6075919282393170146.subtitle}"
+			tasks: [{
+				id: "5E402EE9A5D51211"
+				item: "powah:furnator_starter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: ["{ftbquests.chapter.powah.quest4193197531036218567.description1}"]
+			id: "3A313AF01E7574C7"
+			optional: true
+			rewards: [
+				{
+					id: "3326DDC84BA4A15C"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "460651BD3F921C4A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest4193197531036218567.subtitle}"
+			tasks: [{
+				id: "42189D2514DDC8AE"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			x: 4.9d
+			y: 2.0d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: ["{ftbquests.chapter.powah.quest5219359427263081199.description1}"]
+			id: "486EE3BEE91A2AEF"
+			optional: true
+			rewards: [
+				{
+					id: "2A175EB7473C8C3C"
+					item: "minecraft:blaze_powder"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "30CFB83E586190BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest5219359427263081199.subtitle}"
+			tasks: [{
+				id: "4163EADE47418B56"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			x: 2.6d
+			y: 1.9999999999999998d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: ["{ftbquests.chapter.powah.quest1631648752037185923.description1}"]
+			id: "16A4C7E52762C983"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "4579D26ECB2A448E"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2526B9BDDF7FC833"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest1631648752037185923.subtitle}"
+			tasks: [{
+				id: "5F9D32C5DC7F70EA"
+				item: "powah:solar_panel_starter"
+				type: "item"
+			}]
+			x: 1.7d
+			y: 1.9999999999999998d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: [
+				"{ftbquests.chapter.powah.quest4711253787398244505.description1}"
+				""
+				"{ftbquests.chapter.powah.quest4711253787398244505.description2}"
+			]
+			id: "4161BC5BBC960899"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "7DF158132D9079D2"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0754E6EE77FF23F4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest4711253787398244505.subtitle}"
+			tasks: [{
+				count: 36L
+				id: "040A21A2CE175C2B"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest4711253787398244505.title}"
+			x: 6.499999999999999d
+			y: 1.9999999999999998d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			hide_dependency_lines: true
+			id: "6BC92C1D58D5D946"
+			optional: true
+			rewards: [
+				{
+					id: "60A9AD9FBBC9F074"
+					item: "minecraft:iron_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20133F14ACF8B7F2"
+					item: "minecraft:coal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7A2D20A4B13DE434"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "5A3BAE82CF55C6F5"
+				item: "powah:furnator_basic"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			hide_dependency_lines: true
+			id: "37129A719BB30EE6"
+			optional: true
+			rewards: [
+				{
+					id: "399635380C9AE978"
+					item: "powah:steel_energized"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4F86E0E3EB6A319A"
+					item: "minecraft:coal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0CE36C48F0B5DDB2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "5D160D9B6287C9C5"
+				item: "powah:furnator_hardened"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			hide_dependency_lines: true
+			id: "206E214B493DEA7A"
+			optional: true
+			rewards: [
+				{
+					id: "71F7B5104DB59094"
+					item: "powah:crystal_blazing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0EC2936509D6AC09"
+					item: "minecraft:coal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1ADD0B22D428D743"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "459620699CC6200A"
+				item: "powah:furnator_blazing"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			hide_dependency_lines: true
+			id: "7E10808335FBA05A"
+			optional: true
+			rewards: [
+				{
+					id: "632B45B287186984"
+					item: "powah:crystal_niotic"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "68718FDEF4B60414"
+					item: "minecraft:coal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "09AA9024E32E7922"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "664DD1F68B728097"
+				item: "powah:furnator_niotic"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			hide_dependency_lines: true
+			id: "1654EF61E6769CAC"
+			optional: true
+			rewards: [
+				{
+					id: "238C7DBB41E95C57"
+					item: "powah:crystal_spirited"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "58A5BFAB1846009B"
+					item: "minecraft:coal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "45BF6D607552BA9C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2923677B31E2D875"
+				item: "powah:furnator_spirited"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			hide_dependency_lines: true
+			id: "1E6972AF9D1F5B38"
+			optional: true
+			rewards: [
+				{
+					id: "348C9E76FAB132FC"
+					item: "powah:crystal_nitro"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3E19AC6FDB729343"
+					item: "minecraft:coal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0A98E8DB5608E023"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4E8211D689F09C2A"
+				item: "powah:furnator_nitro"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0540F9BFF9BA88AA"
+			optional: true
+			rewards: [
+				{
+					id: "4F23E77D2D32174D"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "14077D6AB06264E7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "757E9BD9995F82A1"
+				item: "powah:magmator_basic"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			hide_dependency_lines: true
+			id: "108D771E66F7D207"
+			optional: true
+			rewards: [
+				{
+					id: "02EBA23F0BB6B65D"
+					item: "powah:steel_energized"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0591EE9890D2F5F3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "064310063FD351F8"
+				item: "powah:magmator_hardened"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			hide_dependency_lines: true
+			id: "7AAB94D95CF604CC"
+			optional: true
+			rewards: [
+				{
+					id: "2B770ADC91D19E8C"
+					item: "powah:crystal_blazing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6FCBEF50A589A315"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3C07D182E366AAFD"
+				item: "powah:magmator_blazing"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			hide_dependency_lines: true
+			id: "144F49047645422A"
+			optional: true
+			rewards: [
+				{
+					id: "6E4EF1F0130B8185"
+					item: "powah:crystal_niotic"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1197344BEF8260CC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "278597FCF7B65DE0"
+				item: "powah:magmator_niotic"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			hide_dependency_lines: true
+			id: "41F8A90B327BA251"
+			optional: true
+			rewards: [
+				{
+					id: "4EE92665826035D3"
+					item: "powah:crystal_spirited"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5725BF1B7FEE97D6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1B2C9CE868F48EE3"
+				item: "powah:magmator_spirited"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			hide_dependency_lines: true
+			id: "7C3725C3F1CE768C"
+			optional: true
+			rewards: [
+				{
+					id: "4959A8E655264244"
+					item: "powah:crystal_nitro"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7ADB0892FE29CDA1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0A952F670C3A8FA3"
+				item: "powah:magmator_nitro"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			hide_dependency_lines: true
+			id: "02CF4CF5BC1DDC49"
+			optional: true
+			rewards: [
+				{
+					id: "6DC05B2959AC16F9"
+					item: "minecraft:blaze_powder"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3D9AC65E13F6ABA8"
+					item: "minecraft:iron_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "42046C3145BA38CE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1B615D62694F5D04"
+				item: "powah:thermo_generator_basic"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			hide_dependency_lines: true
+			id: "60407DF593BD59C3"
+			optional: true
+			rewards: [
+				{
+					id: "334F6107CB22D892"
+					item: "minecraft:blaze_powder"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "60555C9B4CFCD5B1"
+					item: "powah:steel_energized"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "788A03B0C6155ADC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2465960423B699A8"
+				item: "powah:thermo_generator_hardened"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			hide_dependency_lines: true
+			id: "2AA6A44D76705D99"
+			optional: true
+			rewards: [
+				{
+					id: "5A2A944C5A02FE91"
+					item: "minecraft:blaze_powder"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "55A8E3A0D3E2ECBA"
+					item: "powah:crystal_blazing"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4A3FF7627BCC4B8B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "02F008201B2A5637"
+				item: "powah:thermo_generator_blazing"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			hide_dependency_lines: true
+			id: "2969B44F5BDF5198"
+			optional: true
+			rewards: [
+				{
+					id: "63F1EA4B0E1E21BB"
+					item: "minecraft:blaze_powder"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "164039C93765AFF5"
+					item: "powah:crystal_niotic"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2F3BE33EC2F73713"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1C1B927FE3D9ED18"
+				item: "powah:thermo_generator_niotic"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			hide_dependency_lines: true
+			id: "321424DB1303E527"
+			optional: true
+			rewards: [
+				{
+					id: "7DC2AE4EFB144C9B"
+					item: "minecraft:blaze_powder"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6B2FCAB6618320ED"
+					item: "powah:crystal_spirited"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5FEBFA857E1D3A74"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "25EB130BB2961A1E"
+				item: "powah:thermo_generator_spirited"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			hide_dependency_lines: true
+			id: "11B137317CD48A79"
+			optional: true
+			rewards: [
+				{
+					id: "054DE9DEE2A46906"
+					item: "minecraft:blaze_powder"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7C07F5F0956F953D"
+					item: "powah:crystal_nitro"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "73AA167542F9C370"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "60DB0CEE24E1EFAF"
+				item: "powah:thermo_generator_nitro"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			hide_dependency_lines: true
+			id: "547BFFFFE4D79CAE"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2ED330A27EE01F16"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "79AD40F19FF8AB67"
+					item: "minecraft:iron_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "06F1180ADE807197"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0117B3DCC5C92A5F"
+				item: "powah:solar_panel_basic"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest6087740795842436270.title}"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "233DDC8EBCB536DE"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "6C1F4EFEE494FFE0"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "49BE36816F266223"
+					item: "powah:steel_energized"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "10273DBF36EB4EC7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1A2552493B6A7F7C"
+				item: "powah:solar_panel_hardened"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest2539428270516287198.title}"
+			x: 11.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			hide_dependency_lines: true
+			id: "3876D031499CA77F"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "42552C3D06803553"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4FCBFFE94F784CD2"
+					item: "powah:crystal_blazing"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "69660F215EDA2578"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "585D12B37FA5D0B1"
+				item: "powah:solar_panel_blazing"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest4068668223482799999.title}"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			hide_dependency_lines: true
+			id: "4653427A2D2C86AB"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "05E05676FF72EB13"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2D83451B12140917"
+					item: "powah:crystal_niotic"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "78B0FFCD2D3BEC43"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "7E81AB29B98D5F38"
+				item: "powah:solar_panel_niotic"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest5067467098233276075.title}"
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			hide_dependency_lines: true
+			id: "683C8887E0C4CA72"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "237D5417CB0B1C80"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0F7C4235D61E036D"
+					item: "powah:crystal_spirited"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4B1A9871FD325C21"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0B8FD353363541F8"
+				item: "powah:solar_panel_spirited"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest7511028395720100466.title}"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			hide_dependency_lines: true
+			id: "38DC9A0F0D00C98E"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "3DB44F281437CE9C"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "09F713C91AFA5E12"
+					item: "powah:crystal_nitro"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3DD15A15CE5C99BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "45A0EC4426C13ABC"
+				item: "powah:solar_panel_nitro"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest4097319150433651086.title}"
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			id: "46343A5CFA4AE82D"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "388840E784DD1620"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "332E3A835DFBAF75"
+					item: "powah:uraninite_raw"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "28F2FE37ECB4A5EF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 36L
+				id: "730861DBFC566942"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			id: "4233101D078035A5"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "3B820125850A7EC9"
+					item: "powah:steel_energized"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "77B405ADC622AB5F"
+					item: "powah:uraninite_raw"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "220B5CB1567E5929"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 36L
+				id: "678998E6A9A83E48"
+				item: "powah:reactor_hardened"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			hide_dependency_lines: false
+			id: "58F5EC9DB29181AB"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "6F1324B89F6954E1"
+					item: "powah:crystal_blazing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "77FAA369B27F87DE"
+					item: "powah:uraninite_raw"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6D11716129CE2852"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 36L
+				id: "0A298EB06C82E466"
+				item: "powah:reactor_blazing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			id: "2970F0D33C8111C2"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "0A13078FB706FAA3"
+					item: "powah:crystal_niotic"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "16D60FF716198BF7"
+					item: "powah:uraninite_raw"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5984B0B56F857A5C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 36L
+				id: "7F4C9A7D95DF380B"
+				item: "powah:reactor_niotic"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			id: "5F46F68770E858CC"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "050AD78EA45B6E4F"
+					item: "powah:crystal_spirited"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6F7847E86006367E"
+					item: "powah:uraninite_raw"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "08E31486587C2C85"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 36L
+				id: "303CBB6FF6D59629"
+				item: "powah:reactor_spirited"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			id: "35FAF322AC253229"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "23E2C59EAC846E4C"
+					item: "powah:crystal_nitro"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "62AEAE86255668A6"
+					item: "powah:uraninite_raw"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2AE7E94C1916757F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 36L
+				id: "383697ED4F009660"
+				item: "powah:reactor_nitro"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: ["{ftbquests.chapter.powah.quest8911784479954593699.description1}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7BAD04C4928867A3"
+			optional: true
+			rewards: [
+				{
+					id: "4D8733DBEB1F9910"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2530DBE316F5D20C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest8911784479954593699.subtitle}"
+			tasks: [{
+				id: "79BF3BC3C2FCA36B"
+				item: "powah:energy_cell_starter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			hide_dependency_lines: true
+			id: "648EB2BA55154CEE"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "0BAF4A760E772703"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6125BA475C5098E1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "45006236FF86F674"
+				item: "powah:energy_cell_basic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			hide_dependency_lines: true
+			id: "36DF506AC2A5B848"
+			optional: true
+			rewards: [
+				{
+					id: "60B20A3A9937CC1A"
+					item: "powah:steel_energized"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "642E5133F1BAE09E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0119C1D3389FF747"
+				item: "powah:energy_cell_hardened"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			hide_dependency_lines: true
+			id: "6A0126CB4FD67CD5"
+			optional: true
+			rewards: [
+				{
+					id: "6B90AA2E961FB298"
+					item: "powah:crystal_blazing"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2F500F065D4862E0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "51D3FBA0BF538B3D"
+				item: "powah:energy_cell_blazing"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			hide_dependency_lines: true
+			id: "3124339741166FCD"
+			optional: true
+			rewards: [
+				{
+					id: "78D80C317CB8E7E6"
+					item: "powah:crystal_niotic"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4D90795C8022E81E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4954CB890D2C63CB"
+				item: "powah:energy_cell_niotic"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			hide_dependency_lines: true
+			id: "199F982F54B2500A"
+			optional: true
+			rewards: [
+				{
+					id: "3E293DBE3D968D96"
+					item: "powah:crystal_spirited"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "67B84BE590D7D356"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "6FC23691C85D6D05"
+				item: "powah:energy_cell_spirited"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			hide_dependency_lines: true
+			id: "5C0293C4F0D1291D"
+			optional: true
+			rewards: [
+				{
+					id: "2367E4B87D97C002"
+					item: "powah:crystal_nitro"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "175BC1A9554004AE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "257AA3383AB0D9F6"
+				item: "powah:energy_cell_nitro"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: [
+				"{ftbquests.chapter.powah.quest84536142475314305.description1}"
+				"{ftbquests.chapter.powah.quest84536142475314305.description2}"
+				"{ftbquests.chapter.powah.quest84536142475314305.description3}"
+				""
+				"{ftbquests.chapter.powah.quest84536142475314305.description4}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "012C552C76EC4481"
+			optional: true
+			rewards: [
+				{
+					id: "0C77D948D6D25A73"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "42132C0F1D59C22F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest84536142475314305.subtitle}"
+			tasks: [{
+				id: "5CD104A1FDF1DF08"
+				item: "powah:ender_cell_starter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			hide_dependency_lines: true
+			id: "7E0E829B84CB929E"
+			optional: true
+			rewards: [
+				{
+					id: "2525D5BA2DE895B7"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "29EC5F642408C795"
+					item: "minecraft:iron_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F8C61C8C41A1E30"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0085AF868F7BAB72"
+				item: "powah:ender_cell_basic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			hide_dependency_lines: true
+			id: "51C025428424F661"
+			optional: true
+			rewards: [
+				{
+					id: "51E4C7222AA990EB"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1E6BB88A5252257C"
+					item: "powah:steel_energized"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "45D8CAA518FB8A69"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "07060EDDD61499E0"
+				item: "powah:ender_cell_hardened"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			hide_dependency_lines: true
+			id: "13B85DA13F5D2D3D"
+			optional: true
+			rewards: [
+				{
+					id: "0D9FFCB37B340A16"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "07CFD27797EEBD25"
+					item: "powah:crystal_niotic"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "03BFB6D7FDCE8671"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "5382B3CD8ABD2A3A"
+				item: "powah:ender_cell_niotic"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			hide_dependency_lines: true
+			id: "50CF104CFF3C81C3"
+			optional: true
+			rewards: [
+				{
+					id: "694A09FF13D7324C"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0C1E1B3C1FC44044"
+					item: "powah:crystal_blazing"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "06232B6084ABD643"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3B489E611FAF9925"
+				item: "powah:ender_cell_blazing"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			hide_dependency_lines: true
+			id: "7C4BD42D883AD03E"
+			optional: true
+			rewards: [
+				{
+					id: "0AD9FE9364F9E723"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1FE99E4133460D7F"
+					item: "powah:crystal_spirited"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "49386122B6DFF190"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3527E7A718099624"
+				item: "powah:ender_cell_spirited"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			hide_dependency_lines: true
+			id: "1289096376D0B910"
+			optional: true
+			rewards: [
+				{
+					id: "071EE649F367B3AC"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3F200356EC48D204"
+					item: "powah:crystal_nitro"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "65E46105691950AF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "7A5DC0F01C343F24"
+				item: "powah:ender_cell_nitro"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4ECA971BF00DC34C"]
+			description: [
+				"{ftbquests.chapter.powah.quest7211303101495811199.description1}"
+				""
+				"{ftbquests.chapter.powah.quest7211303101495811199.description2}"
+			]
+			id: "6413B1F6B4549C7F"
+			rewards: [
+				{
+					id: "3A43E08578DDBE4D"
+					item: "minecraft:iron_ingot"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "2AA62B580BAC0653"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest7211303101495811199.subtitle}"
+			tasks: [{
+				id: "6D97CF103F243D53"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: ["{ftbquests.chapter.powah.quest5598269947658371065.description1}"]
+			id: "4DB10CDB42EBFFF9"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "46D9947905E95923"
+					item: "powah:energy_cable_starter"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "69A616D021D2B1EF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5BF01197A0B8B92D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest5598269947658371065.subtitle}"
+			tasks: [{
+				id: "04038D71D2267D46"
+				item: "powah:energy_cable_starter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			id: "4C9164A51A3A7C28"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "7D5A410A43B016BA"
+					item: "powah:energy_cable_basic"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "25DED49A1A9DA73B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "44F46AF72EB73884"
+				item: "powah:energy_cable_basic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			id: "634871F4C89A0046"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "49C31D1647E6371A"
+					item: "powah:energy_cable_hardened"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "3F4F7093520A2451"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "36DEC31926AB61B2"
+				item: "powah:energy_cable_hardened"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			id: "0718521C9138F2ED"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "31DC3083C2E916B6"
+					item: "powah:energy_cable_blazing"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "4D146F12E532A69D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "6E8E58537B059E3D"
+				item: "powah:energy_cable_blazing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			id: "606CC04629A787DD"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "46F5247F53D6FEB8"
+					item: "powah:energy_cable_niotic"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "195C94B7C86B4BE2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "30F5972F0472A10D"
+				item: "powah:energy_cable_niotic"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			id: "3CE623FFD186438D"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "359A8FFFC0840810"
+					item: "powah:energy_cable_spirited"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "76D08D56CBD0CF1B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "20319F1179F16CB3"
+				item: "powah:energy_cable_spirited"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			id: "47A21A5A06948BB7"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "03EA25F1E21B47AA"
+					item: "powah:energy_cable_nitro"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "55D35D45F4E0963C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "21226BE2AC04A948"
+				item: "powah:energy_cable_nitro"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: ["{ftbquests.chapter.powah.quest8838599226102302035.description1}"]
+			hide_dependency_lines: true
+			id: "7AA9032ACFDEC553"
+			optional: true
+			rewards: [
+				{
+					id: "7C5287EDCD658EB0"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7A41B27999EF7F32"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest8838599226102302035.subtitle}"
+			tasks: [{
+				id: "5165FA13AA608CCE"
+				item: "powah:ender_gate_starter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			hide_dependency_lines: true
+			id: "62D735ECE257B017"
+			optional: true
+			rewards: [
+				{
+					id: "589C8A84DB516B63"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3930F2A94A58606A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "46D16FF86E4C2AEE"
+				item: "powah:ender_gate_basic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			hide_dependency_lines: true
+			id: "2541C33581466997"
+			optional: true
+			rewards: [
+				{
+					id: "1B922D43F6A27528"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4C51B369AD7A2180"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1A78CA7077C04B25"
+				item: "powah:ender_gate_hardened"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			hide_dependency_lines: true
+			id: "6F24E8479CA6381F"
+			optional: true
+			rewards: [
+				{
+					id: "38C4C85585D250D6"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "44F28AF074D4EF78"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "468EF2BE99E6BC64"
+				item: "powah:ender_gate_blazing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			hide_dependency_lines: true
+			id: "694FFDF71465713C"
+			optional: true
+			rewards: [
+				{
+					id: "79B912129C7E6B7D"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1D7AE589ECC3BA90"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "7D01838BF6047589"
+				item: "powah:ender_gate_niotic"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			hide_dependency_lines: true
+			id: "581EB98B599E2359"
+			optional: true
+			rewards: [
+				{
+					id: "16156CED5E9E5B01"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0F0757DB08CCEFD8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "48945E144E223BE5"
+				item: "powah:ender_gate_spirited"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			hide_dependency_lines: true
+			id: "6529E1015949ADCF"
+			optional: true
+			rewards: [
+				{
+					id: "447FD108D46A7D8B"
+					item: "minecraft:obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "52352BEC22A951BC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "152E6A1667523970"
+				item: "powah:ender_gate_nitro"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			id: "1DF1E8B3EDE0742B"
+			rewards: [
+				{
+					id: "5F66299171003235"
+					item: "powah:steel_energized"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "58EE2018B69A7300"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "77B730018F87E9DF"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest2157761555974878251.title}"
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			id: "69FCA0E73385330D"
+			rewards: [
+				{
+					id: "3E4D07D762F9D22B"
+					item: "powah:crystal_blazing"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "135B2DA70D1A726B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "611531457D68D280"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest7637155982975775501.title}"
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			id: "0CC9824BA581EDD9"
+			rewards: [
+				{
+					id: "637D836CF2119432"
+					item: "powah:crystal_niotic"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7D788F4064FCDC85"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "48DB7CE91C6AC887"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest921410860184890841.title}"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			id: "7A0E503014D1CDF9"
+			rewards: [
+				{
+					id: "0263E5A6D9F84F78"
+					item: "powah:crystal_spirited"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2655DCB9B8EA3AFE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "netheritetier"
+			size: 1.2d
+			tasks: [{
+				id: "213190CA9AB5108E"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest8795055289739103737.title}"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			id: "3366BE04684F3413"
+			rewards: [
+				{
+					id: "45E039A466A0535B"
+					item: "powah:crystal_nitro"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5D21637D990EFB59"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "6BCCA0E42B3A6362"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest3703856669697979411.title}"
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4161BC5BBC960899"]
+			description: ["{ftbquests.chapter.powah.quest674930085095874831.description1}"]
+			id: "095DD556225D210F"
+			rewards: [
+				{
+					count: 3
+					id: "6DBBCEC7C69277F2"
+					item: "powah:uraninite_raw"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "35F72C2CE047BBD3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest674930085095874831.subtitle}"
+			tasks: [{
+				id: "46B8068E9CE176E6"
+				item: "powah:uraninite_raw"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["095DD556225D210F"]
+			description: ["{ftbquests.chapter.powah.quest5377867635315130749.description1}"]
+			id: "4AA2061F0407417D"
+			rewards: [
+				{
+					count: 3
+					id: "1B4342C36F96FC08"
+					item: "powah:uraninite"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "59E2019E9ADC12A4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest5377867635315130749.subtitle}"
+			tasks: [{
+				id: "791886C1D13029BB"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: [
+				"{ftbquests.chapter.powah.quest2189532752665790788.description1}"
+				""
+				"{ftbquests.chapter.powah.quest2189532752665790788.description2}"
+				""
+				"{ftbquests.chapter.powah.quest2189532752665790788.description3}"
+			]
+			id: "1E62C8701ABA4944"
+			rewards: [
+				{
+					id: "303589B7361853CA"
+					item: "minecraft:quartz"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F1DC61C5F5B8B2C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.powah.quest2189532752665790788.subtitle}"
+			tasks: [{
+				id: "4E5E2599C4490DC7"
+				item: "powah:energizing_rod_starter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			id: "3CFE2686B184974A"
+			optional: true
+			rewards: [
+				{
+					id: "67502D96E5006F2C"
+					item: "powah:capacitor_basic_tiny"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "630322F53D562D68"
+					item: "minecraft:quartz"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6A0E9D49A6F37EC6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "196A937E49C9F081"
+				item: "powah:energizing_rod_basic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			id: "2164410958A90674"
+			optional: true
+			rewards: [
+				{
+					id: "7F67F8EC792C5264"
+					item: "powah:steel_energized"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4C76D9452767F946"
+					item: "minecraft:quartz"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "44D4E27FDB0FE00A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3C70EA3D435920AB"
+				item: "powah:energizing_rod_hardened"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			id: "39C602D73D0B222F"
+			optional: true
+			rewards: [
+				{
+					id: "4C448D94B34ECF6B"
+					item: "powah:crystal_blazing"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6EB0D86C221798F6"
+					item: "minecraft:quartz"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5DA6900776A207D4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "42DD1A1F69A927B7"
+				item: "powah:energizing_rod_blazing"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			id: "6915ACF09928BE4C"
+			optional: true
+			rewards: [
+				{
+					id: "5E66246E0C0F32E1"
+					item: "powah:crystal_niotic"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "49A0E215E3D10C7B"
+					item: "minecraft:quartz"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "16B2A0ABE8DC6B5C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "63C6F4C582348337"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			id: "3CFB715AECEC1EE8"
+			optional: true
+			rewards: [
+				{
+					id: "0B2B74665B9D2971"
+					item: "powah:crystal_spirited"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "77DBF3C28FEA7811"
+					item: "minecraft:quartz"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5BD9D5ACC3D8705F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "57A44696C5E087BE"
+				item: "powah:energizing_rod_spirited"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			id: "44201722767F6628"
+			optional: true
+			rewards: [
+				{
+					id: "6279F160687F184B"
+					item: "powah:crystal_nitro"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "20272E1369AC3B1C"
+					item: "minecraft:quartz"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "353A25875A66E2CE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "483C96EEA383A5F8"
+				item: "powah:energizing_rod_nitro"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: [
+				"{ftbquests.chapter.powah.quest8597553515201779418.description1}"
+				""
+				"{ftbquests.chapter.powah.quest8597553515201779418.description2}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7750A55ECB0356DA"
+			optional: true
+			rewards: [
+				{
+					id: "65DD2F91A077F754"
+					item: "minecraft:redstone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5FAEFF54825DF026"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest8597553515201779418.subtitle}"
+			tasks: [{
+				id: "4270E11009C9311A"
+				item: "powah:battery_starter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			hide_dependency_lines: true
+			id: "3C698E0073D5E026"
+			optional: true
+			rewards: [
+				{
+					id: "2F299945AF14775E"
+					item: "minecraft:redstone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3D8641091078C1FF"
+					item: "minecraft:iron_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "515E39D56BDB39EE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "027169FA14E52210"
+				item: "powah:battery_basic"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			hide_dependency_lines: true
+			id: "5CEFC202EC30D9F4"
+			optional: true
+			rewards: [
+				{
+					id: "1094927E93A221E2"
+					item: "minecraft:redstone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "631A1916411DBC48"
+					item: "powah:steel_energized"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4BA30158699A00CC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "68E62AD42A7112E8"
+				item: "powah:battery_hardened"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			hide_dependency_lines: true
+			id: "6271DEEE1518FB12"
+			optional: true
+			rewards: [
+				{
+					id: "4FA79023EECDA77C"
+					item: "minecraft:redstone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7709D1B562DC4237"
+					item: "powah:crystal_blazing"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "60A3462BAE9A1508"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "524B49EAFBDF29F0"
+				item: "powah:battery_blazing"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			hide_dependency_lines: true
+			id: "4A3E0D2956812B10"
+			optional: true
+			rewards: [
+				{
+					id: "7C195E8AFE56A450"
+					item: "minecraft:redstone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "20635EB8C075E2D6"
+					item: "powah:crystal_niotic"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "12B8AF8C49CF2F28"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4BCCE1E1DAEED4B5"
+				item: "powah:battery_niotic"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			hide_dependency_lines: true
+			id: "6F346D16805C2AAC"
+			optional: true
+			rewards: [
+				{
+					id: "1E30B33CE8AD83D3"
+					item: "minecraft:redstone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2B4A9A4AF556396E"
+					item: "powah:crystal_spirited"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "73BA52A0ABC86ACD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "71A17F1CD661A97E"
+				item: "powah:battery_spirited"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			hide_dependency_lines: true
+			id: "5BC5C55A0499F28A"
+			optional: true
+			rewards: [
+				{
+					id: "5D19F798033868C5"
+					item: "minecraft:redstone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "188DCFA2C22506E3"
+					item: "powah:crystal_nitro"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B6A466D758CEB7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "012FC96888413A16"
+				item: "powah:battery_nitro"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: ["{ftbquests.chapter.powah.quest6274125392109947023.description1}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "57122BCD68F8C88F"
+			optional: true
+			rewards: [
+				{
+					id: "7F43473F0D6B2A13"
+					item: "minecraft:iron_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "533E9EE98386C8EF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest6274125392109947023.subtitle}"
+			tasks: [{
+				id: "34CD9625B1558B66"
+				item: "powah:energy_hopper_starter"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: ["{ftbquests.chapter.powah.quest5520200358624771279.description1}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4C9BB0FA98D03CCF"
+			optional: true
+			rewards: [
+				{
+					id: "745F93E4E0939EA6"
+					item: "minecraft:iron_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "79A1D42C501D10C3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest5520200358624771279.subtitle}"
+			tasks: [{
+				id: "21DF470BCC8D6B3B"
+				item: "powah:energy_discharger_starter"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: ["{ftbquests.chapter.powah.quest3596597650725557720.description1}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "31E9AE81FB8055D8"
+			optional: true
+			rewards: [
+				{
+					id: "3D0B28ABD3E71DF6"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "22FBA8684479B195"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest3596597650725557720.subtitle}"
+			tasks: [{
+				id: "13431D2C82813571"
+				item: "powah:player_transmitter_starter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			hide_dependency_lines: true
+			id: "38657294CCF37870"
+			optional: true
+			rewards: [
+				{
+					id: "51351DF26A27DFAC"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "71B9BCCFD1309E7D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0CF525F6C1200AD1"
+				item: "powah:player_transmitter_basic"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			hide_dependency_lines: true
+			id: "56C93803F9C5DBFF"
+			optional: true
+			rewards: [
+				{
+					id: "1E347B1BDBE35AFA"
+					item: "powah:steel_energized"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3C002E109AF5A0A1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "44C97C70AE22F055"
+				item: "powah:player_transmitter_hardened"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			hide_dependency_lines: true
+			id: "07E9DD0E91B480F8"
+			optional: true
+			rewards: [
+				{
+					id: "7E2B84A896D4CAB2"
+					item: "powah:crystal_blazing"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "441CDFF22722A694"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "34B87F2BFB11C39F"
+				item: "powah:player_transmitter_blazing"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			hide_dependency_lines: true
+			id: "3515D4C011ED7C20"
+			optional: true
+			rewards: [
+				{
+					id: "7B797AD923CF4B00"
+					item: "powah:crystal_niotic"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "56C8B450F1C620BF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "5316C7256DEFD631"
+				item: "powah:player_transmitter_niotic"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			hide_dependency_lines: true
+			id: "6B47B78BE4CD01BF"
+			optional: true
+			rewards: [
+				{
+					id: "3A0A4337F0F00869"
+					item: "powah:crystal_spirited"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3D15F1DC13F113FC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "238898E63ACE79B5"
+				item: "powah:player_transmitter_spirited"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			hide_dependency_lines: true
+			id: "12B77F4D558C00F2"
+			optional: true
+			rewards: [
+				{
+					id: "5501A535638E7B31"
+					item: "powah:crystal_nitro"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3302CB492D551417"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "48FCF435C1AC063F"
+				item: "powah:player_transmitter_nitro"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["505A752D6BA43CED"]
+			description: ["{ftbquests.chapter.powah.quest5677516426501276492.description1}"]
+			id: "4ECA971BF00DC34C"
+			rewards: [
+				{
+					id: "3B23A1B0427B6285"
+					item: "powah:dielectric_casing"
+					type: "item"
+				}
+				{
+					id: "0A8A258CFDD19EF4"
+					item: "powah:dielectric_rod_horizontal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2FB808DC2516CB8D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest5677516426501276492.subtitle}"
+			tasks: [
+				{
+					id: "27889563DBBB3EDC"
+					item: "powah:dielectric_casing"
+					type: "item"
+				}
+				{
+					id: "534DAA51BD58ED7C"
+					item: "powah:dielectric_rod"
+					type: "item"
+				}
+				{
+					id: "5644900F3801E82A"
+					item: "powah:dielectric_rod_horizontal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.powah.quest5677516426501276492.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			id: "40447F9B8604C275"
+			rewards: [
+				{
+					id: "52A6F0669AFFD5CB"
+					item: "powah:capacitor_basic"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0E9D675DC9A53D61"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "27EA0D3852CC2980"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest4630966622788829813.title}"
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6413B1F6B4549C7F"]
+			id: "424912134C999086"
+			rewards: [
+				{
+					id: "1061E915A7FCB3CB"
+					item: "powah:capacitor_basic_tiny"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "69BB6E9C50D581F2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "45C71E42899BC290"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest4776368753901932678.title}"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			hide_dependency_lines: true
+			id: "2533986DD6EE9828"
+			optional: true
+			rewards: [
+				{
+					id: "2673D3FD38E63E35"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "625B4C550A0CEF47"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "34BEA20A26A31DFE"
+				item: "powah:energy_hopper_basic"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["40447F9B8604C275"]
+			hide_dependency_lines: true
+			id: "46D1DD36B6FA56B7"
+			optional: true
+			rewards: [
+				{
+					id: "3E5D46175F87C99B"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "72C910CACC3E7E47"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1CFF874818E77812"
+				item: "powah:energy_discharger_basic"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			hide_dependency_lines: true
+			id: "3BC48267A6457231"
+			optional: true
+			rewards: [
+				{
+					id: "0E39808C776333A8"
+					item: "powah:steel_energized"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "282DAB88E15B9D9F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1F8DB85185E0E7BC"
+				item: "powah:energy_hopper_hardened"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1DF1E8B3EDE0742B"]
+			hide_dependency_lines: true
+			id: "700FB15D60623482"
+			optional: true
+			rewards: [
+				{
+					id: "485CDA3AFE2C3567"
+					item: "powah:steel_energized"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1B419C3DAEBD41E8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "42810367D582BDED"
+				item: "powah:energy_discharger_hardened"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			hide_dependency_lines: true
+			id: "08E68395A0EA4534"
+			optional: true
+			rewards: [
+				{
+					id: "75C19BE6E6A37524"
+					item: "powah:crystal_blazing"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1DD70573A75077B6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "70FA52AC9F674514"
+				item: "powah:energy_hopper_blazing"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69FCA0E73385330D"]
+			hide_dependency_lines: true
+			id: "7493DB0FACF412AA"
+			optional: true
+			rewards: [
+				{
+					id: "6BC6CD358D559B0C"
+					item: "powah:crystal_blazing"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "33802BCF39E16487"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "53D9AB3BE4612A35"
+				item: "powah:energy_discharger_blazing"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			hide_dependency_lines: true
+			id: "3968475F48496907"
+			optional: true
+			rewards: [
+				{
+					id: "0E31025B8906DD9D"
+					item: "powah:crystal_niotic"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "63D0364AF0D33ECB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "76CA5469E03C02A9"
+				item: "powah:energy_hopper_niotic"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0CC9824BA581EDD9"]
+			hide_dependency_lines: true
+			id: "2E890318E03DB214"
+			optional: true
+			rewards: [
+				{
+					id: "308413FAD789BD5A"
+					item: "powah:crystal_niotic"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0D4AC62196DE3ABF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0072C436E359BADF"
+				item: "powah:energy_discharger_niotic"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			hide_dependency_lines: true
+			id: "76EB2146837C2B84"
+			optional: true
+			rewards: [
+				{
+					id: "7BC5FE523ACD59C9"
+					item: "powah:crystal_spirited"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0042006EDBFB1D70"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3E77CC041C88EEB0"
+				item: "powah:energy_hopper_spirited"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A0E503014D1CDF9"]
+			hide_dependency_lines: true
+			id: "7763E9437E569A20"
+			optional: true
+			rewards: [
+				{
+					id: "08508B8001228665"
+					item: "powah:crystal_spirited"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1BA554F9ECE784BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "19D03480C048EC79"
+				item: "powah:energy_discharger_spirited"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			hide_dependency_lines: true
+			id: "6241F0638DD2BDB6"
+			optional: true
+			rewards: [
+				{
+					id: "6CDC8DCCC3BEB3D0"
+					item: "powah:crystal_nitro"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "54D267231ACEC6FD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3A2110398A30075E"
+				item: "powah:energy_hopper_nitro"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3366BE04684F3413"]
+			hide_dependency_lines: true
+			id: "1F4756FD1434D903"
+			optional: true
+			rewards: [
+				{
+					id: "7656796908EB85F3"
+					item: "powah:crystal_nitro"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "697555D179CD6DFF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "298401ACB073CF18"
+				item: "powah:energy_discharger_nitro"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F1D7F220D16B303"]
+			description: ["{ftbquests.chapter.powah.quest8865986650430997065.description1}"]
+			id: "7B0A4FE2724B8249"
+			optional: true
+			rewards: [{
+				id: "2B8A02A83EAB3AA4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "{ftbquests.chapter.powah.quest8865986650430997065.subtitle}"
+			tasks: [{
+				id: "4DEF9FB748B850B5"
+				item: "powah:binding_card_dim"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["424912134C999086"]
+			description: ["{ftbquests.chapter.powah.quest2242087973725582083.description1}"]
+			hide_dependency_lines: true
+			id: "1F1D7F220D16B303"
+			optional: true
+			rewards: [{
+				id: "120FCB2FEF44D5CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.powah.quest2242087973725582083.subtitle}"
+			tasks: [{
+				id: "3A1FBD45488DEE3B"
+				item: "powah:binding_card"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["16A4C7E52762C983"]
+			description: ["{ftbquests.chapter.powah.quest498402049610112579.description1}"]
+			id: "06EAAE0602565E43"
+			optional: true
+			rewards: [{
+				id: "73F2D665DD08B99D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "{ftbquests.chapter.powah.quest498402049610112579.subtitle}"
+			tasks: [{
+				id: "6138973C5C1F63CE"
+				item: "powah:lens_of_ender"
+				type: "item"
+			}]
+			x: 1.6750707518972732d
+			y: 0.5075760500606279d
+		}
+		{
+			dependencies: ["6413B1F6B4549C7F"]
+			description: ["{ftbquests.chapter.powah.quest2962967241452772992.description1}"]
+			id: "291E9301F3E95E80"
+			optional: true
+			rewards: [
+				{
+					id: "7AF78269A51A282F"
+					item: "powah:charged_snowball"
+					type: "item"
+				}
+				{
+					id: "2E9742AA3CBF6D09"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "{ftbquests.chapter.powah.quest2962967241452772992.subtitle}"
+			tasks: [{
+				id: "57FC0A38AE98A7D1"
+				item: "powah:charged_snowball"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.powah.quest2962967241452772992.title}"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["505A752D6BA43CED"]
+			description: ["{ftbquests.chapter.powah.quest5017930874863203654.description1}"]
+			hide_dependency_lines: false
+			id: "45A3458B67AFB546"
+			optional: true
+			shape: "square"
+			subtitle: "{ftbquests.chapter.powah.quest5017930874863203654.subtitle}"
+			tasks: [{
+				id: "3DE5370714F48B48"
+				item: {
+					Count: 1
+					id: "powah:wrench"
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+	]
+	title: "{ftbquests.chapter.powah.title}"
+}

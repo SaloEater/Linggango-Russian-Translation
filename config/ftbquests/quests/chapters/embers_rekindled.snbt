@@ -1,0 +1,477 @@
+{
+	autofocus_id: "719A32328F46BD2B"
+	default_hide_dependency_lines: false
+	default_quest_shape: "woodtier"
+	filename: "embers_rekindled"
+	group: "3C6437AAADAFC5CB"
+	icon: "embers:ancient_codex"
+	id: "154D78C870ED668C"
+	images: [
+		{
+			height: 7.0d
+			image: "customtextures:textures/embersrekindledlogo.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.embers_rekindled.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.0d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.embers_rekindled.quest8185910465432829227.description1}"
+				""
+				"{ftbquests.chapter.embers_rekindled.quest8185910465432829227.description2}"
+				""
+				"{ftbquests.chapter.embers_rekindled.quest8185910465432829227.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "embers:item/ancient_codex"
+				}
+			}
+			id: "719A32328F46BD2B"
+			rewards: [{
+				id: "0377ABEBBD1FEAF8"
+				item: "embers:ancient_codex"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest8185910465432829227.subtitle}"
+			tasks: [{
+				id: "7DFFC0DF5B29932B"
+				title: "{ftbquests.chapter.embers_rekindled.quest8185910465432829227.task.9079187439341900587.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.embers_rekindled.quest8185910465432829227.title}"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["719A32328F46BD2B"]
+			id: "74B9051690BBDCC1"
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest8410759373566762177.subtitle}"
+			tasks: [{
+				id: "346193338CF78425"
+				item: "embers:archaic_brick"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["719A32328F46BD2B"]
+			id: "450B7C040D016AFC"
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest4975206570200754940.subtitle}"
+			tasks: [{
+				id: "5CAE7CAE1E1B6C9B"
+				item: "embers:ancient_motive_core"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["719A32328F46BD2B"]
+			id: "06DC1B39849CBC43"
+			rewards: [{
+				count: 2
+				id: "3CE319A8C32D81A4"
+				item: "embers:caminite_blend"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest494299992955862083.subtitle}"
+			tasks: [{
+				id: "5CF6EF97284F59E4"
+				item: "embers:caminite_blend"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06DC1B39849CBC43"]
+			id: "6E644A8948FA2ABE"
+			rewards: [{
+				count: 2
+				id: "7479750AB56B76EB"
+				item: "embers:caminite_plate"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4B68051624A4CC4D"
+				item: "embers:caminite_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["06DC1B39849CBC43"]
+			id: "15E9A70F4EFABF93"
+			rewards: [{
+				id: "5F7F1AFB4A66AD75"
+				item: "embers:caminite_brick"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18ABAFC5589D1BFD"
+				item: "embers:caminite_brick"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["719A32328F46BD2B"]
+			description: ["{ftbquests.chapter.embers_rekindled.quest4117130782667615777.description1}"]
+			id: "3922FCA222BAAE21"
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest4117130782667615777.subtitle}"
+			tasks: [{
+				id: "0915259C3F1C044D"
+				item: "embers:atmospheric_gauge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16D7E1CECBFD1E1C"]
+			description: [
+				"{ftbquests.chapter.embers_rekindled.quest9078451516227406844.description1}"
+				""
+				"{ftbquests.chapter.embers_rekindled.quest9078451516227406844.description2}"
+				""
+				"{ftbquests.chapter.embers_rekindled.quest9078451516227406844.description3}"
+			]
+			id: "7DFD238DE7574BFC"
+			rewards: [{
+				id: "470C021575347053"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest9078451516227406844.subtitle}"
+			tasks: [{
+				id: "3D09B068DE28C235"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15E9A70F4EFABF93"]
+			id: "16D7E1CECBFD1E1C"
+			rewards: [{
+				id: "0F2C5FD095E82D45"
+				item: "embers:caminite_bricks"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E5FDA0D244D13FC"
+				item: "embers:caminite_bricks"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7DFD238DE7574BFC"]
+			description: [
+				"{ftbquests.chapter.embers_rekindled.quest16255337707353962.description1}"
+				""
+				"{ftbquests.chapter.embers_rekindled.quest16255337707353962.description2}"
+				""
+				"{ftbquests.chapter.embers_rekindled.quest16255337707353962.description3}"
+			]
+			id: "0039C024BDC0376A"
+			rewards: [
+				{
+					id: "6DE18B552B853F8F"
+					item: "embers:item_pipe"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0CF4DE9CEB125C95"
+					item: "embers:fluid_pipe"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest16255337707353962.subtitle}"
+			tasks: [
+				{
+					id: "7591423021AB3BA3"
+					item: "embers:item_pipe"
+					type: "item"
+				}
+				{
+					id: "7724676A9DBDDDB7"
+					item: "embers:item_extractor"
+					type: "item"
+				}
+				{
+					id: "56E3777A26E57021"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:lever"
+								}
+								{
+									Count: 1b
+									id: "embers:caminite_lever"
+								}
+								{
+									Count: 1b
+									id: "framedblocks:framed_lever"
+								}
+								{
+									Count: 1b
+									id: "tinyredstone:tiny_lever"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.embers_rekindled.quest16255337707353962.task.6260979273497407521.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.embers_rekindled.quest16255337707353962.title}"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DFD238DE7574BFC"]
+			description: [
+				"{ftbquests.chapter.embers_rekindled.quest4363710393522585055.description1}"
+				""
+				"{ftbquests.chapter.embers_rekindled.quest4363710393522585055.description2}"
+			]
+			id: "3C8F037BA497FDDF"
+			rewards: [{
+				id: "0E3B7D25BF5A865B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest4363710393522585055.subtitle}"
+			tasks: [{
+				id: "409F004D53ACBDEE"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.embers_rekindled.quest4363710393522585055.title}"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DFD238DE7574BFC"]
+			description: ["{ftbquests.chapter.embers_rekindled.quest7708918647362471611.description1}"]
+			id: "6AFB94AA8A6CC6BB"
+			rewards: [{
+				id: "0D3A08A09B5FDC1D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest7708918647362471611.subtitle}"
+			tasks: [
+				{
+					id: "6DB4A18ABC4D41AF"
+					item: "embers:ember_crystal"
+					type: "item"
+				}
+				{
+					id: "4D54B34D9E18F5DA"
+					item: "embers:ember_shard"
+					type: "item"
+				}
+				{
+					id: "0EB62BE30F0F95C1"
+					item: "embers:ember_grit"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.embers_rekindled.quest7708918647362471611.title}"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AFB94AA8A6CC6BB"]
+			description: ["{ftbquests.chapter.embers_rekindled.quest69524897392553465.description1}"]
+			id: "00F700869C20EDF9"
+			rewards: [{
+				id: "29D75C346EB6357E"
+				item: "embers:ember_shard"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest69524897392553465.subtitle}"
+			tasks: [{
+				id: "2FD4DCB05818233F"
+				item: "embers:ember_activator"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["771C0B06B5E4A06F"]
+			description: [
+				"{ftbquests.chapter.embers_rekindled.quest2790477548538739319.description1}"
+				""
+				"{ftbquests.chapter.embers_rekindled.quest2790477548538739319.description2}"
+			]
+			id: "26B9C48BBA5ABA77"
+			rewards: [{
+				id: "36E814CCFFD6CB59"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest2790477548538739319.subtitle}"
+			tasks: [{
+				id: "562D5F430F25C158"
+				item: "embers:tinker_hammer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["00F700869C20EDF9"]
+			description: ["{ftbquests.chapter.embers_rekindled.quest378510264808613927.description1}"]
+			id: "0540BD1495C1A827"
+			rewards: [{
+				id: "5388979BB250454C"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest378510264808613927.subtitle}"
+			tasks: [{
+				id: "59F003FE17E7FB73"
+				item: "embers:ember_dial"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["00F700869C20EDF9"]
+			description: ["{ftbquests.chapter.embers_rekindled.quest5146596789170925895.description1}"]
+			id: "476C62830CB2F147"
+			rewards: [{
+				count: 2
+				id: "019860A2433C74DD"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest5146596789170925895.subtitle}"
+			tasks: [{
+				id: "219C6FEE7CEBD331"
+				item: "embers:ember_emitter"
+				type: "item"
+			}]
+			x: 3.941496598639503d
+			y: -2.7414965986394613d
+		}
+		{
+			dependencies: ["00F700869C20EDF9"]
+			description: ["{ftbquests.chapter.embers_rekindled.quest4149656864645578542.description1}"]
+			id: "39968AEEBCF5FF2E"
+			rewards: [{
+				id: "321A4D92343623BF"
+				item: "embers:caminite_plate"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest4149656864645578542.subtitle}"
+			tasks: [{
+				id: "2476A4E28584E4CF"
+				item: "embers:ember_receiver"
+				type: "item"
+			}]
+			x: 3.941496598639503d
+			y: -4.241496598639461d
+		}
+		{
+			dependencies: [
+				"476C62830CB2F147"
+				"39968AEEBCF5FF2E"
+			]
+			id: "771C0B06B5E4A06F"
+			rewards: [{
+				count: 4
+				id: "7A4CFBF1EBACCC39"
+				item: "embers:archaic_brick"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest8582747113310691439.subtitle}"
+			tasks: [{
+				id: "0950AED41C908AB4"
+				item: {
+					Count: 1
+					id: "embers:copper_cell"
+					tag: {
+						ForgeCaps: {
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["771C0B06B5E4A06F"]
+			description: [
+				"{ftbquests.chapter.embers_rekindled.quest116073995873006229.description1}"
+				""
+				"{ftbquests.chapter.embers_rekindled.quest116073995873006229.description2}"
+			]
+			id: "019C60AF2BABB295"
+			rewards: [{
+				id: "14AA4E9ECF66F1CC"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest116073995873006229.subtitle}"
+			tasks: [{
+				id: "5E06ADA98135611D"
+				item: "embers:ember_relay"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+	]
+	title: "{ftbquests.chapter.embers_rekindled.title}"
+}

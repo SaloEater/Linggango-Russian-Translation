@@ -1,0 +1,136 @@
+{
+	autofocus_id: "2F1254B3AF8A1556"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "primordal_caves"
+	group: "52FA8429D8BF5933"
+	hide_quest_until_deps_complete: true
+	icon: "alexscaves:flytrap"
+	id: "55F853E58E3A469C"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: ["ftbquests.chapter.primordal_caves.image.hovertext1"]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		order: 2
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.5d
+		y: -2.5d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.primordal_caves.quest3391866600084346198.description1}"]
+			id: "2F1254B3AF8A1556"
+			rewards: [{
+				id: "1E99FFF89A0DCE95"
+				type: "xp"
+				xp: 20
+			}]
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.primordal_caves.quest3391866600084346198.subtitle}"
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				icon: "alexscaves:flytrap"
+				id: "7D9A57535DBFCAAE"
+				title: "{ftbquests.chapter.primordal_caves.quest3391866600084346198.task.9050642416721185454.title}"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F1254B3AF8A1556"]
+			id: "49FE1271DC918D78"
+			subtitle: "{ftbquests.chapter.primordal_caves.quest5331719289094376824.subtitle}"
+			tasks: [{
+				id: "6537CAF0D02DDFF3"
+				item: "alexscaves:ominous_catalyst"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7D2336B063F65A9D"
+				"49FE1271DC918D78"
+			]
+			description: ["{ftbquests.chapter.primordal_caves.quest4138910231575763890.description1}"]
+			id: "39705CED3E4D9BB2"
+			subtitle: "{ftbquests.chapter.primordal_caves.quest4138910231575763890.subtitle}"
+			tasks: [{
+				id: "569B0EC8831DD76F"
+				item: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F1254B3AF8A1556"]
+			id: "7D2336B063F65A9D"
+			rewards: [{
+				id: "0289CC5D40820388"
+				item: "alexscaves:amber_curiosity"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.primordal_caves.quest9017111010145098397.subtitle}"
+			tasks: [{
+				id: "7D0C1C9093F83347"
+				item: "alexscaves:limestone_spear"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F1254B3AF8A1556"]
+			description: ["{ftbquests.chapter.primordal_caves.quest3368036147563835477.description1}"]
+			id: "2EBDAB081637B055"
+			rewards: [{
+				id: "2E8227288206D1ED"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{ftbquests.chapter.primordal_caves.quest3368036147563835477.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_big_dinosaur"
+				criterion: ""
+				icon: "alexscaves:heavy_bone"
+				id: "0D484D31E5750497"
+				title: "{ftbquests.chapter.primordal_caves.quest3368036147563835477.task.957099797514618007.title}"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D2336B063F65A9D"]
+			id: "49CA206710FD1EBE"
+			subtitle: "{ftbquests.chapter.primordal_caves.quest5317097937103036094.subtitle}"
+			tasks: [{
+				id: "3D4A6AAC7C5EB093"
+				item: {
+					Count: 1
+					id: "alexscaves:primitive_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+	]
+	title: "{ftbquests.chapter.primordal_caves.title}"
+}

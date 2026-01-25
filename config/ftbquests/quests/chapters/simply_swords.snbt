@@ -1,0 +1,552 @@
+{
+	autofocus_id: "0F426527B63F854D"
+	default_hide_dependency_lines: false
+	default_quest_shape: "netheritetier"
+	filename: "simply_swords"
+	group: "3C6AB1DE39D4F441"
+	icon: {
+		Count: 1
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "simplyswords:runic_grimoire"
+		}
+	}
+	id: "75316E8D631F174C"
+	images: [
+		{
+			click: "a"
+			height: 2.0d
+			hover: ["ftbquests.chapter.simply_swords.image.hovertext1"]
+			image: "simplyswords:item/runic_tablet"
+			rotation: 0.0d
+			width: 2.0d
+			x: -11.0d
+			y: 11.5d
+		}
+		{
+			height: 3.2d
+			image: "customtextures:textures/simplyswordslogo.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.simply_swords.image.hovertext2"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 8.0d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.simply_swords.quest1099552480267568461.description1}"
+				"{ftbquests.chapter.simply_swords.quest1099552480267568461.image0}"
+				"{ftbquests.chapter.simply_swords.quest1099552480267568461.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "simplyswords:runic_grimoire"
+				}
+			}
+			id: "0F426527B63F854D"
+			rewards: [
+				{
+					id: "4990EA6F31E34290"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "5E12586E60A353E5"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "28287BEAAE57900A"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "simplyswords:runic_grimoire"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.simply_swords.quest1099552480267568461.subtitle}"
+			tasks: [{
+				id: "6461B5E43F7DF63E"
+				title: "{ftbquests.chapter.simply_swords.quest1099552480267568461.task.7233262468456117822.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.simply_swords.quest1099552480267568461.title}"
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["574677AD427E33FB"]
+			description: [
+				"{ftbquests.chapter.simply_swords.quest6530960407457270606.description1}"
+				"{ftbquests.chapter.simply_swords.quest6530960407457270606.image0}"
+				"{ftbquests.chapter.simply_swords.quest6530960407457270606.description2}"
+			]
+			id: "5AA2A1E358A18B4E"
+			rewards: [
+				{
+					id: "484700ADEF26CFD9"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "5BF39C352371EC2D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "3AD57D6DAA2392B8"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest6530960407457270606.subtitle}"
+			tasks: [{
+				id: "5DF612576542C997"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5AA2A1E358A18B4E"]
+			description: [
+				"{ftbquests.chapter.simply_swords.quest4490659905032049628.description1}"
+				"{ftbquests.chapter.simply_swords.quest4490659905032049628.image0}"
+				"{ftbquests.chapter.simply_swords.quest4490659905032049628.description2}"
+			]
+			id: "3E5207641E8653DC"
+			rewards: [
+				{
+					id: "0B046175AB1496F5"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7E8172D545591CF2"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "123D0FDCADF578A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest4490659905032049628.subtitle}"
+			tasks: [{
+				id: "5C78E6FA3E4F93CB"
+				item: "simplyswords:runefused_gem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5AA2A1E358A18B4E"]
+			description: [
+				"{ftbquests.chapter.simply_swords.quest5182475923915936261.description1}"
+				"{ftbquests.chapter.simply_swords.quest5182475923915936261.image0}"
+				"{ftbquests.chapter.simply_swords.quest5182475923915936261.description2}"
+			]
+			id: "47EBDA6516061205"
+			rewards: [
+				{
+					id: "5B95526DD588D574"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00F0A6CDD2E3D77C"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "09E4171B6A7E42EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest5182475923915936261.subtitle}"
+			tasks: [{
+				id: "1F673D38D2BBDA24"
+				item: "simplyswords:netherfused_gem"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0BA64BACC8B8EE1C"]
+			description: [
+				"{ftbquests.chapter.simply_swords.quest6288845515698091003.description1}"
+				""
+				"{ftbquests.chapter.simply_swords.quest6288845515698091003.description2}"
+			]
+			id: "574677AD427E33FB"
+			rewards: [{
+				id: "4614B78F16F62367"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest6288845515698091003.subtitle}"
+			tasks: [{
+				id: "0D8720163BD20211"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "simplyswords:uniques"
+					}
+				}
+				title: "{ftbquests.chapter.simply_swords.quest6288845515698091003.task.974783124213989905.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.simply_swords.quest6288845515698091003.title}"
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0F426527B63F854D"]
+			description: ["{ftbquests.chapter.simply_swords.quest839441586025197084.description1}"]
+			id: "0BA64BACC8B8EE1C"
+			rewards: [
+				{
+					count: 2
+					id: "494DFCA2B89DC794"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "733B8D45A9013E4C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest839441586025197084.subtitle}"
+			tasks: [{
+				id: "462968BD9065488E"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5AA2A1E358A18B4E"]
+			description: ["{ftbquests.chapter.simply_swords.quest4766156616852355764.description1}"]
+			id: "4224CA30DB5CBAB4"
+			rewards: [{
+				id: "72E7111B7BEEFB72"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest4766156616852355764.subtitle}"
+			tasks: [{
+				id: "50032784379C214C"
+				item: "simplymore:runefused_carver"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5AA2A1E358A18B4E"]
+			description: ["{ftbquests.chapter.simply_swords.quest5272066982126970670.description1}"]
+			id: "492A24FCD5BE672E"
+			rewards: [{
+				id: "4E0355768289CF7B"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest5272066982126970670.subtitle}"
+			tasks: [{
+				id: "6082C3145BE5CB38"
+				item: "simplymore:netherfused_carver"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["574677AD427E33FB"]
+			description: [
+				"{ftbquests.chapter.simply_swords.quest5054174640971677210.description1}"
+				""
+				"{ftbquests.chapter.simply_swords.quest5054174640971677210.description2}"
+			]
+			id: "4624090ECBE77E1A"
+			rewards: [{
+				id: "433D9C6B06B22D85"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest5054174640971677210.subtitle}"
+			tasks: [{
+				id: "552AAAEA53A3C4B5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "simplymore:uniques"
+					}
+				}
+				title: "{ftbquests.chapter.simply_swords.quest5054174640971677210.task.6136905365648032949.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.simply_swords.quest5054174640971677210.title}"
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			id: "39F33AB6913DD21B"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest4175745835297788443.subtitle}"
+			tasks: [{
+				id: "759DB8B8B521529F"
+				item: {
+					Count: 1
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.2d
+		}
+		{
+			id: "613A0C0356DA3597"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest7005925378809804183.subtitle}"
+			tasks: [{
+				id: "1E26150B4C673712"
+				item: {
+					Count: 1
+					id: "simplyswords:waxweaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 14.2d
+		}
+		{
+			id: "4116AE1BE6901413"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest4690127496808502291.subtitle}"
+			tasks: [{
+				id: "456411B9308D32CD"
+				item: {
+					Count: 1
+					id: "simplyswords:ribboncleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 15.2d
+		}
+		{
+			id: "7D24A866E490A373"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest9017517513777390451.subtitle}"
+			tasks: [{
+				id: "3EE306896F82E5CA"
+				item: {
+					Count: 1
+					id: "simplyswords:twisted_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 16.2d
+		}
+		{
+			id: "021D5AB2AC84DAC1"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest152377685845531329.subtitle}"
+			tasks: [{
+				id: "1B8891641C57F740"
+				item: {
+					Count: 1
+					id: "simplyswords:watching_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 17.2d
+		}
+		{
+			id: "135815C7AD5D4B5E"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest1393888032022416222.subtitle}"
+			tasks: [{
+				id: "61DDBDB8D3FE7310"
+				item: {
+					Count: 1
+					id: "simplyswords:watcher_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 17.2d
+		}
+		{
+			id: "1F28358B6C6B1ECF"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest2245103287179878095.subtitle}"
+			tasks: [{
+				id: "07F850FEEC3500BA"
+				item: {
+					Count: 1
+					id: "simplymore:the_blood_harvester"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 17.2d
+		}
+		{
+			id: "433DF7CFC6C10162"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest4845301245885350242.subtitle}"
+			tasks: [{
+				id: "10347505ED8EC2C8"
+				item: {
+					Count: 1
+					id: "simplyswords:whisperwind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 18.2d
+		}
+		{
+			id: "5E557CD102681BA7"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest6797476449716018087.subtitle}"
+			tasks: [{
+				id: "5A18C62FBEB022C1"
+				item: {
+					Count: 1
+					id: "simplymore:the_vessel_breach"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 19.2d
+		}
+		{
+			id: "574863AB9B9138BE"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest6289386468323440830.subtitle}"
+			tasks: [{
+				id: "470C5D652E28D439"
+				item: {
+					Count: 1
+					id: "simplyswords:frostfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 20.2d
+		}
+		{
+			id: "6EA73AB5F57D347F"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest7973406218464867455.subtitle}"
+			tasks: [{
+				id: "1305C3BABE1BCBDB"
+				item: {
+					Count: 1
+					id: "simplyswords:arcanethyst"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 21.2d
+		}
+		{
+			id: "46371BAF27AD1763"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.simply_swords.quest5059543145472923491.subtitle}"
+			tasks: [{
+				id: "6EE8FBAF07A1D341"
+				item: {
+					Count: 1
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 22.2d
+		}
+	]
+	title: "{ftbquests.chapter.simply_swords.title}"
+}

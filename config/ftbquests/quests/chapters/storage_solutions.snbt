@@ -1,0 +1,2429 @@
+{
+	autofocus_id: "368F6A7C3C3134DB"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "storage_solutions"
+	group: "3C6437AAADAFC5CB"
+	icon: "minecraft:chest"
+	id: "5F6B7CD03DAE57CA"
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.storage_solutions.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "customtextures:textures/sophisticated_storage.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "customtextures:textures/toms_simple.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "customtextures:textures/ender_storage_1.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "customtextures:textures/sophisticated_backpacks.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -9.75d
+			y: -1.0d
+		}
+		{
+			height: 1.2d
+			image: "customtextures:textures/storage_drawers.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -2.0d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.storage_solutions.quest3605834162372203306.description1}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest3605834162372203306.description2}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest3605834162372203306.description3}"
+			]
+			icon: "minecraft:barrel"
+			id: "320A7F10EF29D32A"
+			rewards: [
+				{
+					count: 8
+					id: "31760AA6A64575A2"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A241C5B25F50651"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "4D6836EABE27E55C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest3605834162372203306.subtitle}"
+			tasks: [{
+				id: "7197A06FC54AFB80"
+				item: "minecraft:barrel"
+				title: "{ftbquests.chapter.storage_solutions.quest3605834162372203306.task.8185187249681005440.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.storage_solutions.quest3605834162372203306.title}"
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"183F457F923574A9"
+				"320A7F10EF29D32A"
+			]
+			description: [
+				"{ftbquests.chapter.storage_solutions.quest7739726542926647102.description1}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest7739726542926647102.description2}"
+			]
+			icon: "sophisticatedstorage:basic_tier_upgrade"
+			id: "6B690848B1CE0F3E"
+			rewards: [
+				{
+					count: 2
+					id: "332B8AF94D8BCF1B"
+					item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "41CED8EA1D32E4AE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest7739726542926647102.subtitle}"
+			tasks: [{
+				id: "70B0BBA9D93269EC"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.storage_solutions.quest7739726542926647102.title}"
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.storage_solutions.quest1747191594659181737.description1}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest1747191594659181737.description2}"
+			]
+			icon: "minecraft:chest"
+			id: "183F457F923574A9"
+			rewards: [
+				{
+					count: 8
+					id: "18C6593728736320"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "25D7B9EE3586F5E0"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "58559C0474DB0903"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest1747191594659181737.subtitle}"
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "70367235C1DD570D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "{ftbquests.chapter.storage_solutions.quest1747191594659181737.task.8085775756201645837.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.storage_solutions.quest1747191594659181737.title}"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.storage_solutions.quest3931478081536079067.description1}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest3931478081536079067.description2}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest3931478081536079067.description3}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest3931478081536079067.description4}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest3931478081536079067.description5}"
+			]
+			disable_toast: true
+			id: "368F6A7C3C3134DB"
+			rewards: [
+				{
+					id: "1E8D7329276A39FD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2B5F66AC48ACBAB8"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest3931478081536079067.subtitle}"
+			tasks: [{
+				id: "1F31ED9AC15544DE"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.storage_solutions.quest3931478081536079067.title}"
+			x: -9.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1812A79944021D76"]
+			id: "49A012E78620BCB1"
+			rewards: [{
+				id: "2CDD68FE8DBA6397"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3AFD84E7B8D52946"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1812A79944021D76"]
+			description: ["{ftbquests.chapter.storage_solutions.quest4651149978309839915.description1}"]
+			id: "408C34432E394C2B"
+			rewards: [{
+				id: "687A65A092B604B6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4651149978309839915.subtitle}"
+			tasks: [
+				{
+					id: "6D5ED7E8751D87C8"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "707B082B1A9F6240"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			description: ["{ftbquests.chapter.storage_solutions.quest1734633083203886454.description1}"]
+			id: "1812A79944021D76"
+			rewards: [
+				{
+					id: "6E235259E06672F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "152C0BDE1853D466"
+					item: "minecraft:chest"
+					random_bonus: 6
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest1734633083203886454.subtitle}"
+			tasks: [{
+				id: "3D7616496DA3521D"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.storage_solutions.quest1734633083203886454.title}"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1812A79944021D76"]
+			description: ["{ftbquests.chapter.storage_solutions.quest4332038442891344099.description1}"]
+			id: "3C1E7E02FDDFF8E3"
+			rewards: [{
+				id: "6B5813BA6036A969"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4332038442891344099.subtitle}"
+			tasks: [{
+				id: "57CCD702C6F8AD64"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1812A79944021D76"]
+			description: ["{ftbquests.chapter.storage_solutions.quest6807248512718831843.description1}"]
+			id: "5E783474BA6980E3"
+			rewards: [{
+				id: "2131E108868F53D5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6807248512718831843.subtitle}"
+			tasks: [
+				{
+					id: "4EA516B03DB9C790"
+					item: "toms_storage:ts.wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "256E3A469E9BE3EF"
+					item: "toms_storage:ts.adv_wireless_terminal"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1812A79944021D76"]
+			description: [
+				"{ftbquests.chapter.storage_solutions.quest5267153912271864992.description1}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest5267153912271864992.description2}"
+			]
+			id: "4918B0939E4604A0"
+			rewards: [{
+				id: "4EFA66653794A016"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.storage_solutions.quest5267153912271864992.subtitle}"
+			tasks: [
+				{
+					id: "51ABC8AF78B685AB"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					id: "2B908AACADC06896"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage_solutions.quest5267153912271864992.title}"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6B690848B1CE0F3E"]
+			id: "216D096157FF02AB"
+			rewards: [
+				{
+					id: "3100FEF53B8893C1"
+					item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "59AF37826BA6FF36"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "51EA26633FD7B1C9"
+				item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["216D096157FF02AB"]
+			id: "5FA292B5A9AE2CBA"
+			rewards: [
+				{
+					id: "7F3FDAF59A9A9CD8"
+					item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "398DFE8307902A3B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "75BEF8A03A066D98"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FA292B5A9AE2CBA"]
+			id: "3FABB6CC60C8F9E8"
+			rewards: [
+				{
+					id: "32004239DD20D251"
+					item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1F2BFA12FC426EAD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "29F69C48D3C4CB27"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3FABB6CC60C8F9E8"]
+			id: "404F11AEBC680A84"
+			rewards: [
+				{
+					id: "68F7321FD670AC24"
+					item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "353AFA7200A9E76B"
+					item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "087A66394FD65C48"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "3E1C88F5CA2EB5C3"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6B690848B1CE0F3E"]
+			description: ["{ftbquests.chapter.storage_solutions.quest2905261737507121900.description1}"]
+			id: "2851902853A56AEC"
+			rewards: [
+				{
+					id: "21E501CDE9026E72"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2157B1B0E2E51276"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:packing_tape"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.storage_solutions.quest2905261737507121900.subtitle}"
+			tasks: [{
+				id: "5A0AFC3BEDAE24C9"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2851902853A56AEC"]
+			id: "7EB0338ED916C41B"
+			rewards: [
+				{
+					id: "7C38BBC76D540C0A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "72DF5F1319698294"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:super_packing_tape"
+						tag: {
+							Damage: 0
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.storage_solutions.quest9128853133300515867.subtitle}"
+			tasks: [{
+				id: "04D24C31715CBF9A"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:super_packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6B690848B1CE0F3E"]
+			id: "59F7038CD4C2E8CF"
+			rewards: [{
+				id: "3B360245BD910C85"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6482654092022966479.subtitle}"
+			tasks: [{
+				id: "049CC22BF3419649"
+				item: "sophisticatedstorage:paintbrush"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6B690848B1CE0F3E"]
+			id: "79012B06FF889D83"
+			rewards: [{
+				id: "78EC1A396AA0A76F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.storage_solutions.quest8719297662622932355.subtitle}"
+			tasks: [{
+				id: "0E413DB4520883AA"
+				item: "sophisticatedstorage:storage_tool"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6B690848B1CE0F3E"]
+			id: "708063C2382699C6"
+			shape: "circle"
+			tasks: [{
+				id: "7CD2725D2CB15A99"
+				item: "sophisticatedstorage:decoration_table"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.storage_solutions.quest7716721623435680990.description1}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest7716721623435680990.description2}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest7716721623435680990.description3}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest7716721623435680990.description4}"
+			]
+			id: "6B174D6E7B759CDE"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.storage_solutions.quest7716721623435680990.subtitle}"
+			tasks: [{
+				id: "3C205787B3B01EC8"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.0d
+		}
+		{
+			description: ["{ftbquests.chapter.storage_solutions.quest6715323493397711205.description1}"]
+			id: "5D319F234FCE4965"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6715323493397711205.subtitle}"
+			tasks: [{
+				id: "1F8E55B6A3123ADF"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.storage_solutions.quest345420159706523441.description1}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest345420159706523441.description2}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest345420159706523441.description3}"
+			]
+			id: "04CB2DCE1D90E731"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.storage_solutions.quest345420159706523441.subtitle}"
+			tasks: [{
+				id: "3CF315AF76CB65FC"
+				item: "enderstorage:ender_pouch"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["368F6A7C3C3134DB"]
+			id: "777043DD01F5451B"
+			rewards: [{
+				id: "1C706912A5DD1A3C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest8606453504404702491.subtitle}"
+			tasks: [{
+				id: "692CEA0D85BF4752"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["777043DD01F5451B"]
+			id: "1CA1A661F3BF6E96"
+			rewards: [{
+				id: "3BB92AA3008DC46B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest2063113043943845526.subtitle}"
+			tasks: [{
+				id: "6D21A63F94425D37"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["1CA1A661F3BF6E96"]
+			id: "2E238434D53E064F"
+			rewards: [
+				{
+					id: "72612641EFF9FEF2"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					id: "66F9D3CFFE0082D6"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest3324646312380335695.subtitle}"
+			tasks: [{
+				id: "7B05646F964A3419"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["2E238434D53E064F"]
+			id: "513A529E4CE4791A"
+			rewards: [
+				{
+					id: "476408D81DF14DC1"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					id: "02F957710F2E0A2E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest5853081505569732890.subtitle}"
+			tasks: [{
+				id: "702DD5BA53FAFA56"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["513A529E4CE4791A"]
+			id: "41F81A30F205201C"
+			rewards: [
+				{
+					id: "443FCC018905056C"
+					item: "sophisticatedbackpacks:diamond_backpack"
+					type: "item"
+				}
+				{
+					id: "279F7F175B6B04F1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4753578204210733084.subtitle}"
+			tasks: [{
+				id: "04DBDC1174C6FACD"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 2.75d
+		}
+		{
+			id: "75F60B6BB48461E3"
+			rewards: [{
+				id: "1808E95818412A32"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest8499993903926370787.subtitle}"
+			tasks: [{
+				id: "30A6EC2AE61268FD"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.25d
+		}
+		{
+			id: "5AD1C94BEAED060E"
+			rewards: [{
+				id: "10415129CFB38002"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6544233061447173646.subtitle}"
+			tasks: [{
+				id: "193EADBB84774BD8"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.25d
+		}
+		{
+			id: "466ABB7EA8C15831"
+			rewards: [{
+				id: "3D4F3F9475A6778C"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "407F8B851939BD3F"
+					item: "sophisticatedbackpacks:void_upgrade"
+					type: "item"
+				}
+				{
+					id: "6182DDD48E6EBC72"
+					item: "sophisticatedbackpacks:advanced_void_upgrade"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage_solutions.quest5074074082857801777.title}"
+			x: -11.5d
+			y: 0.75d
+		}
+		{
+			id: "00C56B6B429BFD09"
+			rewards: [{
+				id: "1D9E64CE24E653C8"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest55568678835191049.subtitle}"
+			tasks: [{
+				id: "70AB1C649278000D"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.25d
+		}
+		{
+			id: "1D2DF8EA5F03F50E"
+			rewards: [{
+				id: "3357130E223D5C2C"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest2102610286552020238.subtitle}"
+			tasks: [{
+				id: "5D0B391BD86BEB28"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -0.25d
+		}
+		{
+			id: "6ABA97549AAF013B"
+			rewards: [{
+				id: "6C42979ACCBE356D"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest7690625703316750651.subtitle}"
+			tasks: [{
+				id: "2AC025E0DFA85065"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.25d
+		}
+		{
+			id: "147C6195A1E600EF"
+			rewards: [{
+				id: "182116B5C99746BE"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest1476162073164906735.subtitle}"
+			tasks: [{
+				id: "1151DD49CBADE205"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.25d
+		}
+		{
+			id: "2E15008622831995"
+			rewards: [{
+				id: "7C2D2705F774CD9B"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest3320560876360243605.subtitle}"
+			tasks: [{
+				id: "2A35406395A9D69E"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.25d
+		}
+		{
+			id: "6924ABC3F55E11D8"
+			rewards: [{
+				id: "6EFED774DBE51EFC"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest7576369331267572184.subtitle}"
+			tasks: [{
+				id: "11B1536A417CA035"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.25d
+		}
+		{
+			id: "4881DDB7D8353D8A"
+			rewards: [{
+				id: "5BADC3FCFECFF4D1"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest5224700824402607498.subtitle}"
+			tasks: [{
+				id: "070A93367A5A5F93"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.75d
+		}
+		{
+			id: "46CC3D5177364AE5"
+			rewards: [{
+				id: "361A25EE4EEC9BA8"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest5101519898005621477.subtitle}"
+			tasks: [{
+				id: "1BED9118042B7766"
+				item: "sophisticatedbackpacks:advanced_alchemy_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.25d
+		}
+		{
+			id: "181A3A067093F193"
+			rewards: [{
+				id: "61B7BDC795B0760F"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest1736764405637706131.subtitle}"
+			tasks: [{
+				id: "3CD1CD44F1432AF7"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.25d
+		}
+		{
+			id: "04F015F4769F732A"
+			rewards: [{
+				id: "765D744267260E42"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest355808510268633898.subtitle}"
+			tasks: [{
+				id: "04B7F0FF51B3FFC2"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.25d
+		}
+		{
+			id: "54C5C7E1A3EE2810"
+			rewards: [{
+				id: "7F19C3DADFA4DFFC"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6108508241529808912.subtitle}"
+			tasks: [{
+				id: "778A27F1C2AF6F34"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.25d
+		}
+		{
+			id: "2B7B2E6FFA22628E"
+			rewards: [{
+				id: "2FCD538AB98BA469"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest3133149024239116942.subtitle}"
+			tasks: [{
+				id: "2E14660112314C4F"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.25d
+		}
+		{
+			id: "70494C015BE40B04"
+			rewards: [{
+				id: "6F518D813BCE6D9E"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest8091081774268156676.subtitle}"
+			tasks: [{
+				id: "11041808905969CF"
+				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.25d
+		}
+		{
+			id: "5B116797DE0B34DD"
+			rewards: [{
+				id: "67F4D7D8C2DBA7D1"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6562140034018522333.subtitle}"
+			tasks: [{
+				id: "3AEE51247E6CAD6A"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -0.25d
+		}
+		{
+			id: "1C687E71269C14A3"
+			rewards: [{
+				id: "603E2077EEC26C0A"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest2047025055084057763.subtitle}"
+			tasks: [{
+				id: "18F33B835452738C"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.25d
+		}
+		{
+			id: "728E3F40AB157894"
+			rewards: [{
+				id: "1B93EE28A08B620C"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest8254604713997465748.subtitle}"
+			tasks: [{
+				id: "30A2A21276E08743"
+				item: "sophisticatedbackpacks:advanced_refill_upgrade"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.75d
+		}
+		{
+			id: "39F4AB263B7750EA"
+			rewards: [{
+				id: "09FC02A49FCF1760"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4176150935174074602.subtitle}"
+			tasks: [{
+				id: "5C0ADF18D9EFF79E"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.75d
+		}
+		{
+			id: "6EEFC5528E5CA0A7"
+			rewards: [{
+				id: "76E95AE81945B6FA"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest7993824821972344999.subtitle}"
+			tasks: [{
+				id: "084359E07BB389FB"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.25d
+		}
+		{
+			id: "11F79EB58D2E45D6"
+			rewards: [{
+				id: "3124A3A85AD17206"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest1294677920487196118.subtitle}"
+			tasks: [{
+				id: "1690E59F19C4AAFD"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.25d
+		}
+		{
+			id: "11A6BBC12A362A00"
+			rewards: [{
+				id: "42AEF81F7E6B05DD"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest1271910383090018816.subtitle}"
+			tasks: [{
+				id: "29B7325BE036B2D4"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.25d
+		}
+		{
+			id: "4C87E8E97404EDFB"
+			rewards: [{
+				id: "13FAB79CE889B4E9"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest5514632358109965819.subtitle}"
+			tasks: [{
+				id: "2EEF7571D05B5BBD"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.25d
+		}
+		{
+			id: "073003D1BAC44C5A"
+			rewards: [{
+				id: "2DCBDF20575FAB4C"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest517918156464082010.subtitle}"
+			tasks: [{
+				id: "785D5F16D490FBC9"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.25d
+		}
+		{
+			id: "7C862949C08D83CD"
+			rewards: [{
+				id: "659DC5B45BD5DAB2"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest8972904704322143181.subtitle}"
+			tasks: [{
+				id: "6C51EE4380E6D2F2"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.25d
+		}
+		{
+			id: "61539FD03AAD1F55"
+			rewards: [{
+				id: "0A528A68686BD5FB"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest7013124761432432469.subtitle}"
+			tasks: [{
+				id: "412AA42F4E8C4346"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.75d
+		}
+		{
+			id: "7433B5B0BF5E6D46"
+			rewards: [{
+				id: "0FD4E07B86912F46"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest8373235902941392198.subtitle}"
+			tasks: [{
+				id: "0D1961423E9EBC9E"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.75d
+		}
+		{
+			id: "7AC1813BD96016F0"
+			rewards: [{
+				id: "4F1A0BAE61B69296"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest8845493237182371568.subtitle}"
+			tasks: [{
+				id: "3DFF225565739432"
+				item: "sophisticatedbackpacks:advanced_jukebox_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.75d
+		}
+		{
+			id: "7D91E1195D243636"
+			rewards: [{
+				id: "42D4431AAEAACF73"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest9048260625417123382.subtitle}"
+			tasks: [{
+				id: "5C93F7D5BDBC5097"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.25d
+		}
+		{
+			id: "6BD369EF4F54904B"
+			rewards: [{
+				id: "28125D16A292E07A"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest7769670258693279819.subtitle}"
+			tasks: [{
+				id: "66E3681025C3B58B"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.25d
+		}
+		{
+			id: "73B4959CAE15AC5F"
+			rewards: [{
+				id: "3BDAEF65F2893867"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest8337453310337723487.subtitle}"
+			tasks: [{
+				id: "398B7D3EB88AB23E"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.25d
+		}
+		{
+			id: "39E00089527FED93"
+			rewards: [{
+				id: "2193385F81E79039"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4170333844739714451.subtitle}"
+			tasks: [{
+				id: "4192C7B346861A99"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.25d
+		}
+		{
+			id: "039A12AE0E1FE377"
+			rewards: [{
+				id: "12A847341C368908"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest259540467297805175.subtitle}"
+			tasks: [{
+				id: "48EA3A6DB8032041"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.25d
+		}
+		{
+			id: "04A78F47555A3555"
+			rewards: [{
+				id: "539CDA3C083B21A7"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest335394233799816533.subtitle}"
+			tasks: [{
+				id: "3C664A8EFBE3FDA1"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.25d
+		}
+		{
+			id: "4CB008495D0FF647"
+			rewards: [{
+				id: "54FF3630816E74EB"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest5525925853970560583.subtitle}"
+			tasks: [{
+				id: "184F7D497F48F969"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.25d
+		}
+		{
+			id: "3329F06FD9C55E2E"
+			rewards: [{
+				id: "7949DF87957FE1F4"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest3686742133165088302.subtitle}"
+			tasks: [{
+				id: "2DB3DFEEC06B0530"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.75d
+		}
+		{
+			id: "3CF30ACCFBF8952A"
+			rewards: [{
+				id: "22398A2DBF74A5B0"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4391865937133344042.subtitle}"
+			tasks: [{
+				id: "2EA69786CF9D2903"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.25d
+		}
+		{
+			id: "592D214355CECE2A"
+			rewards: [{
+				id: "2DF07C9F5B4ADAB0"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6425828816413707818.subtitle}"
+			tasks: [{
+				id: "59DC3AC153671E40"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.25d
+		}
+		{
+			id: "5BB17066F9726F34"
+			rewards: [{
+				id: "1E5DC608C5CC9A43"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6607185715903229748.subtitle}"
+			tasks: [{
+				id: "0537CF81DED01C2D"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.75d
+		}
+		{
+			id: "04A2DB68BCCD476C"
+			rewards: [{
+				id: "1B9545011E21DD28"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest334070565269489516.subtitle}"
+			tasks: [{
+				id: "7BA79C3E02CA36F8"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.25d
+		}
+		{
+			id: "5326DEA45AFD61C0"
+			rewards: [{
+				id: "0F9C1756D8CA0738"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest5991721151745581504.subtitle}"
+			tasks: [{
+				id: "46ECD0B77A78A85C"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.25d
+		}
+		{
+			id: "1443A27682898E42"
+			rewards: [{
+				id: "1CD45BEB49FE3368"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest1460189334078066242.subtitle}"
+			tasks: [{
+				id: "37DE0C32AD509A95"
+				item: "sophisticatedbackpacks:alchemy_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.25d
+		}
+		{
+			id: "3231D7A8EFA588B9"
+			rewards: [{
+				id: "1A1A08DD3CBDC937"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest3616909096330299577.subtitle}"
+			tasks: [{
+				id: "5EEB7EC938B09FF6"
+				item: "sophisticatedbackpacks:smithing_upgrade"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.25d
+		}
+		{
+			id: "58F6862D90B5F72F"
+			rewards: [{
+				id: "7DCCCD0594610D16"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6410458649867974447.subtitle}"
+			tasks: [{
+				id: "5FCB697E97D58239"
+				item: "sophisticatedbackpacks:anvil_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.75d
+		}
+		{
+			id: "2A33C1FC06B321BA"
+			rewards: [{
+				id: "1C6A0D61D4C5791A"
+				type: "xp"
+				xp: 5
+			}]
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest3040987461593539002.subtitle}"
+			tasks: [{
+				id: "008EC455F2678D1C"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.storage_solutions.quest4806860484251004263.description1}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest4806860484251004263.description2}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest4806860484251004263.description3}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest4806860484251004263.description4}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest4806860484251004263.description5}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest4806860484251004263.description6}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest4806860484251004263.description7}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest4806860484251004263.description8}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest4806860484251004263.description9}"
+			]
+			id: "42B5662480A4AD67"
+			rewards: [{
+				id: "592B6D0685702848"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4806860484251004263.subtitle}"
+			tasks: [{
+				id: "48E1F0399C966BB5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "{ftbquests.chapter.storage_solutions.quest4806860484251004263.task.5251742770721614773.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.storage_solutions.quest4806860484251004263.title}"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			description: ["{ftbquests.chapter.storage_solutions.quest6004456901230444875.description1}"]
+			id: "53541DBD1AFBC14B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EE5AF38828D6443"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6004456901230444875.subtitle}"
+			tasks: [{
+				id: "1A2BC3D445CEC6AF"
+				item: "storagedrawers:keyring"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "343E66EE10A349D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "582E27125FC2D9F4"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest3764559511195699665.subtitle}"
+			tasks: [{
+				id: "16DBDE85C61F573A"
+				item: "storagedrawers:quantify_key"
+				type: "item"
+			}]
+			x: -4.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "1AE818F2888958AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D8FAE4983AD77EB"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest1938827069534853293.subtitle}"
+			tasks: [{
+				id: "79597485D7E9E09D"
+				item: "storagedrawers:shroud_key"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "5B7665B821536BD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FD3D3814EA48BEC"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6590566946210802641.subtitle}"
+			tasks: [{
+				id: "40C2E2480AFD6F74"
+				item: "storagedrawers:personal_key"
+				type: "item"
+			}]
+			x: -4.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "1FC4BBDCC8A23E2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D84E0939801936F"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest2289161067544329773.subtitle}"
+			tasks: [{
+				id: "487E4C546C01F89E"
+				item: "storagedrawers:personal_key_cofh"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "3E298F34216C19C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D40B1F818809062"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4479268758458472903.subtitle}"
+			tasks: [{
+				id: "76C4243EE9FE8326"
+				item: "storagedrawers:personal_key_ftb"
+				type: "item"
+			}]
+			x: -4.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "51C5A11B2C7FB49E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FD34980DDB5248F"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest5892292825566917790.subtitle}"
+			tasks: [{
+				id: "3E5B1FB900E8FAF0"
+				item: "storagedrawers:suspend_key"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "537E7C66E7CD5EBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C2A456FF6AF1869"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6016382933631065788.subtitle}"
+			tasks: [{
+				id: "50E2997CC3E40648"
+				item: "storagedrawers:priority_key"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "4190D79A1A90C17A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DCA209B7AC52C44"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4724513065982280058.subtitle}"
+			tasks: [{
+				id: "3DD996B80A9ADBE3"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			x: -4.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			description: [
+				"{ftbquests.chapter.storage_solutions.quest324425516323786222.description1}"
+				""
+				"{ftbquests.chapter.storage_solutions.quest324425516323786222.description2}"
+			]
+			id: "04809749C88D4DEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "484A654C59EC0E07"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 0.85d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest324425516323786222.subtitle}"
+			tasks: [{
+				id: "2105C65F21B9FCB6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "storagedrawers:compacting_drawers_2"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:compacting_drawers_3"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:compacting_half_drawers_2"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:compacting_half_drawers_3"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.storage_solutions.quest324425516323786222.title}"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			id: "5708D310E8670B48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0280BF1C27519B4B"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6271494550685420360.subtitle}"
+			tasks: [{
+				id: "67462CD74D093F0F"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			x: -1.125d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "68FEAD620B145BAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F44E8A9505156C0"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest7565675060633295791.subtitle}"
+			tasks: [{
+				id: "61F0B11E089A38A3"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "70F2DEA4570D601F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B2215387DBA85EF"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest8138812274028404767.subtitle}"
+			tasks: [{
+				id: "356657681EF31935"
+				item: "storagedrawers:copper_storage_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "04ED9C1CE487B29E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3604A9ABB00A8E6B"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest355111593539252894.subtitle}"
+			tasks: [{
+				id: "4A0BC127F024D70C"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "2173A2C5CB18309D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F4C45F388395E61"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest2410449195972964509.subtitle}"
+			tasks: [{
+				id: "326F620F1D58D614"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "21A731CCB471D8CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "516C9974DC843531"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest2424961679632750794.subtitle}"
+			tasks: [{
+				id: "7C9B92E042A0E8A8"
+				item: "storagedrawers:one_stack_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "3D3C42BD6A572926"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D0F2E6AB96D7E2E"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4412475116216592678.subtitle}"
+			tasks: [{
+				id: "2788EBF1FD7C215B"
+				item: "storagedrawers:netherite_storage_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "1D9FA13EF19D0CE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0726EF5D8D70CCC9"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest2134602040110550245.subtitle}"
+			tasks: [{
+				id: "60A60C93BB0C2F54"
+				item: "storagedrawers:diamond_storage_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "3E7D88E699E51013"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "689CAD49DB71F86A"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4502905726446145555.subtitle}"
+			tasks: [{
+				id: "35B1629983F6C27B"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "3F28A7768E76C056"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "046E126B7C811A6C"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4551071551096012886.subtitle}"
+			tasks: [{
+				id: "17329C6E5B5ED883"
+				item: "storagedrawers:balance_fill_upgrade"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "228DA730324D55BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C487803A588B01D"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest2489829994449950141.subtitle}"
+			tasks: [{
+				id: "0DA4CE9DF1AA5F7F"
+				item: "storagedrawers:void_upgrade"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "2BDD796DAA0BF525"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "534C3F6F6E8331B4"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest3160816025395262757.subtitle}"
+			tasks: [{
+				id: "6AFAA0A4BA5E2244"
+				item: "storagedrawers:hopper_upgrade"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "2A56E816A89EDE12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "354A45BEC0B32222"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest3050880981605998098.subtitle}"
+			tasks: [{
+				id: "60B2F951D0990E67"
+				item: "storagedrawers:magnet_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "4C3005DD8397566E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6546F85B7B5A8C50"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest5489894394718279278.subtitle}"
+			tasks: [{
+				id: "1FDEC27C49A31137"
+				item: "storagedrawers:magnet_upgrade_2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "117762540C8C946D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68FCC1119977CE47"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest1258582734000657517.subtitle}"
+			tasks: [{
+				id: "7C4F9B05A892BB96"
+				item: "storagedrawers:conversion_upgrade"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "322BFCC34CC14CD5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C9F6935EEAE4767"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest3615261041631513813.subtitle}"
+			tasks: [{
+				id: "459692E37F85A72F"
+				item: "storagedrawers:magnet_upgrade_3"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "7F7C6F696FB7F7DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E63004713D3A28F"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest9186339838565545947.subtitle}"
+			tasks: [{
+				id: "5F7C9FC38CE14F39"
+				item: "storagedrawers:redstone_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "5FFDA98AEE53837C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A150CBAC49B21B0"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6916871016879981436.subtitle}"
+			tasks: [{
+				id: "643ACD315384926C"
+				item: "storagedrawers:min_redstone_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "5909B4DB3C5145BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75DA12D6DD329985"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest6415857997868778943.subtitle}"
+			tasks: [{
+				id: "215495E24AAB96ED"
+				item: "storagedrawers:remote_upgrade"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "76F49207F093134C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "295989A4C6D3C327"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest8571636553591493452.subtitle}"
+			tasks: [{
+				id: "40657F53804417BC"
+				item: "storagedrawers:remote_group_upgrade"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "6B45039C56242EA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "322FAB71E6F38E86"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest7729588305446317733.subtitle}"
+			tasks: [{
+				id: "0EF585E666BAF7AD"
+				item: "storagedrawers:max_redstone_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			hide_until_deps_complete: false
+			id: "3C2515841B46A2A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20116265FE39A59A"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4333893873551450791.subtitle}"
+			tasks: [{
+				id: "02E8C40A94FEA740"
+				item: "storagedrawers:illumination_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "207A3ACC907EB6B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "204EFA066B0475BC"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest2340247606644356791.subtitle}"
+			tasks: [{
+				id: "66B79FE66509227D"
+				item: "storagedrawers:fill_level_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			description: ["{ftbquests.chapter.storage_solutions.quest7935117931963074206.description1}"]
+			id: "6E1F33B7917DC69E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CEC407EFB5F8F8B"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 0.85d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest7935117931963074206.subtitle}"
+			tasks: [{
+				id: "0182FFA5948DF261"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:trim"
+					}
+				}
+				title: "{ftbquests.chapter.storage_solutions.quest7935117931963074206.task.108930427637330529.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.storage_solutions.quest7935117931963074206.title}"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			description: ["{ftbquests.chapter.storage_solutions.quest8867128198055443790.description1}"]
+			hide_until_deps_complete: false
+			id: "7B0E5E1DB6F1BD4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF036CECF3E2477"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 0.85d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest8867128198055443790.subtitle}"
+			tasks: [
+				{
+					id: "4F4F9FC861FFDF6E"
+					item: "storagedrawers:drawer_puller"
+					type: "item"
+				}
+				{
+					id: "33DD6D10EBA3AB93"
+					item: {
+						Count: 1
+						id: "storagedrawers:detached_drawer"
+						tag: {
+							StorageMult: 8
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage_solutions.quest8867128198055443790.title}"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			description: ["{ftbquests.chapter.storage_solutions.quest4225055382035923180.description1}"]
+			id: "3AA2697C129A80EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "085784C3CA174217"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 0.85d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest4225055382035923180.subtitle}"
+			tasks: [{
+				id: "4D749485E09358BF"
+				item: "storagedrawers:framing_table"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.storage_solutions.quest4225055382035923180.title}"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			description: ["{ftbquests.chapter.storage_solutions.quest5025112844126553679.description1}"]
+			id: "45BCC981EE6A864F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47E6C5D1985C7ED9"
+				table_id: 8876055667625085213L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 0.85d
+			subtitle: "{ftbquests.chapter.storage_solutions.quest5025112844126553679.subtitle}"
+			tasks: [{
+				id: "51C22BBD0FAC0074"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "storagedrawers:controller"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:controller_slave"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.storage_solutions.quest5025112844126553679.title}"
+			x: -2.5d
+			y: 1.5d
+		}
+	]
+	title: "{ftbquests.chapter.storage_solutions.title}"
+}

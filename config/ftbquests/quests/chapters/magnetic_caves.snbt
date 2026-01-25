@@ -1,0 +1,227 @@
+{
+	autofocus_id: "36E6B088A55ECF3B"
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "magnetic_caves"
+	group: "52FA8429D8BF5933"
+	hide_quest_until_deps_complete: true
+	icon: "alexscaves:scarlet_magnet"
+	id: "7C9AB5272A1E5BFB"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: ["ftbquests.chapter.magnetic_caves.image.hovertext1"]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.9761904761904816d
+		y: 1.2857142857142847d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.magnetic_caves.quest3956043423628054331.description1}"]
+			id: "36E6B088A55ECF3B"
+			rewards: [{
+				id: "1D2927CF1FD86C16"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest3956043423628054331.subtitle}"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: "alexscaves:scarlet_magnet"
+				id: "73F7FB5CDC7D003E"
+				title: "{ftbquests.chapter.magnetic_caves.quest3956043423628054331.task.8356424009863987262.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.magnetic_caves.quest3956043423628054331.title}"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36E6B088A55ECF3B"]
+			id: "29B1ABA4B6F07112"
+			rewards: [
+				{
+					id: "763809F29B7C7E08"
+					item: "alexscaves:azure_magnet"
+					type: "item"
+				}
+				{
+					id: "5DCB434B4F52B6B8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest3004371150365028626.subtitle}"
+			tasks: [{
+				id: "4B1A799AE7939283"
+				item: "alexscaves:heavyweight"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36E6B088A55ECF3B"]
+			id: "0E39210004AAEA0E"
+			rewards: [
+				{
+					count: 3
+					id: "142A5642FD4A0DAB"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "183F0EAD4BFAE80B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest1024886674165525006.subtitle}"
+			tasks: [
+				{
+					id: "335670123CB62560"
+					item: "alexscaves:raw_scarlet_neodymium"
+					type: "item"
+				}
+				{
+					id: "61F3E92589E84274"
+					item: "alexscaves:raw_azure_neodymium"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.magnetic_caves.quest1024886674165525006.title}"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29B1ABA4B6F07112"]
+			id: "6054B4364EF24126"
+			rewards: [{
+				id: "6EE0203043872A87"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest6941371071030509862.subtitle}"
+			tasks: [{
+				id: "684F4E767AC3D252"
+				item: "alexscaves:heart_of_iron"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E39210004AAEA0E"]
+			id: "44839F9DDE72FB2A"
+			rewards: [
+				{
+					count: 2
+					id: "09BCCBA49FD52C4C"
+					item: "alexscaves:ferrouslime_ball"
+					type: "item"
+				}
+				{
+					id: "12960B49397881C6"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest4936965116918954794.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/neodymium_ingot"
+				criterion: ""
+				id: "3C293319B03A74E0"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6054B4364EF24126"]
+			icon: {
+				Count: 1
+				id: "alexscaves:resistor_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3ECEEB79FF1A5A62"
+			rewards: [
+				{
+					id: "2239F90206CFFE7C"
+					item: "alexscaves:scarlet_magnet"
+					type: "item"
+				}
+				{
+					id: "0F80D1E3BF85A04F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest4525813584757414498.subtitle}"
+			tasks: [{
+				id: "37095BD234BE798D"
+				item: {
+					Count: 1
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44839F9DDE72FB2A"]
+			id: "575CD881144F232D"
+			rewards: [
+				{
+					id: "1BD5E61C988C4397"
+					item: "miners_delight:bone_broth_cup"
+					type: "item"
+				}
+				{
+					id: "5341D287A6EDEA34"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest6295144428060222253.subtitle}"
+			tasks: [{
+				id: "1D97C919D66990A2"
+				item: "alexscaves:quarry_smasher"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["36E6B088A55ECF3B"]
+			id: "5F967E81FEB4CB68"
+			rewards: [{
+				id: "5D4D881374E7D4AB"
+				item: "alexscaves:polarity_armor_trim_smithing_template"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.magnetic_caves.quest6887831776898894696.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/galena_gauntlet_challenge"
+				criterion: ""
+				id: "15B4D03C88461152"
+				title: "{ftbquests.chapter.magnetic_caves.quest6887831776898894696.task.1564103929007313234.title}"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.magnetic_caves.title}"
+}

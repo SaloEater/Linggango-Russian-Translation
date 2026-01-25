@@ -1,0 +1,167 @@
+{
+	autofocus_id: "0E9E3DDE7643EB26"
+	default_hide_dependency_lines: false
+	default_quest_shape: "goldtier"
+	filename: "research"
+	group: "52FA8429D8BF5933"
+	icon: "alexscaves:spelunkery_table"
+	id: "31AD12C719C258BA"
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.research.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "customtextures:textures/alexscaveslogo.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.07962851859922182d
+			y: -5.451438823232632d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.research.quest1053347388527471398.description1}"]
+			hide_dependent_lines: true
+			id: "0E9E3DDE7643EB26"
+			rewards: [{
+				id: "6D841F9E33C7ED7A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.research.quest1053347388527471398.subtitle}"
+			tasks: [{
+				id: "5F5B3D9823310E69"
+				item: "alexscaves:spelunkery_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0E9E3DDE7643EB26"]
+			id: "790E0A82B6846101"
+			rewards: [{
+				id: "49536B749675E65B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.research.quest8722921084787384577.subtitle}"
+			tasks: [{
+				id: "0A2CA0D386115474"
+				item: "alexscaves:cave_book"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0E9E3DDE7643EB26"]
+			id: "45293836B9897C26"
+			rewards: [{
+				id: "0C36444367E57B9B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.research.quest4983576270354349094.subtitle}"
+			tasks: [{
+				id: "180003CC328E9983"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alexscaves:cave_tablet"
+								tag: {
+									CaveBiome: "alexscaves:magnetic_caves"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_tablet"
+								tag: {
+									CaveBiome: "alexscaves:primordial_caves"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_tablet"
+								tag: {
+									CaveBiome: "alexscaves:toxic_caves"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_tablet"
+								tag: {
+									CaveBiome: "alexscaves:abyssal_chasm"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_tablet"
+								tag: {
+									CaveBiome: "alexscaves:forlorn_hollows"
+								}
+							}
+							{
+								Count: 1b
+								id: "alexscaves:cave_tablet"
+								tag: {
+									CaveBiome: "alexscaves:candy_cavity"
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.research.quest4983576270354349094.task.1729386432466688387.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.research.quest4983576270354349094.title}"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0E9E3DDE7643EB26"]
+			description: [
+				"{ftbquests.chapter.research.quest8636554343260459145.description1}"
+				"{ftbquests.chapter.research.quest8636554343260459145.image0}"
+				"{ftbquests.chapter.research.quest8636554343260459145.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "77DB346AB1659089"
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.research.quest8636554343260459145.subtitle}"
+			tasks: [{
+				id: "7D99932B5E7CCE72"
+				title: "{ftbquests.chapter.research.quest8636554343260459145.task.9050426740655836786.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "{ftbquests.chapter.research.title}"
+}

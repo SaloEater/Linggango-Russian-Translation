@@ -1,0 +1,877 @@
+{
+	autofocus_id: "69450E6D37CB6BFD"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: "square"
+	filename: "modular_routers"
+	group: "3C6437AAADAFC5CB"
+	icon: "modularrouters:modular_router"
+	id: "33ECC6AB5D6E9FFE"
+	images: [
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["ftbquests.chapter.modular_routers.image.hovertext1"]
+			image: "hexerei:textures/book/arrow_left.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.modular_routers.image.hovertext2"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "modularrouters:book"
+				}
+			}
+			id: "69450E6D37CB6BFD"
+			rewards: [{
+				id: "5B593AF8B4E45644"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "modularrouters:book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.modular_routers.quest7585485009625771005.subtitle}"
+			tasks: [{
+				id: "459EB7B2A24A9CB9"
+				title: "{ftbquests.chapter.modular_routers.quest7585485009625771005.task.5016649012792171705.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.modular_routers.quest7585485009625771005.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69450E6D37CB6BFD"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest2286103706523406226.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest2286103706523406226.description2}"
+				""
+			]
+			icon_scale: 1.2d
+			id: "1FB9DF3573080F92"
+			rewards: [{
+				count: 2
+				id: "6C2EBA30B7DF5522"
+				item: "modularrouters:blank_module"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.modular_routers.quest2286103706523406226.subtitle}"
+			tasks: [{
+				id: "5BA3AE64D5D1D4D0"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FB9DF3573080F92"]
+			id: "22B9F01190496541"
+			rewards: [{
+				id: "0DB10197E0564902"
+				item: "modularrouters:sender_module_1"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.modular_routers.quest2502295026206860609.subtitle}"
+			tasks: [{
+				id: "31BA267B3FC4A4BF"
+				item: "modularrouters:sender_module_1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1FB9DF3573080F92"]
+			id: "43B5E4E494513F12"
+			rewards: [{
+				id: "38B9C59F4C606F7E"
+				item: "modularrouters:puller_module_1"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.modular_routers.quest4879057441717829394.subtitle}"
+			tasks: [{
+				id: "45FEB6D2171386FF"
+				item: "modularrouters:puller_module_1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"22B9F01190496541"
+				"43B5E4E494513F12"
+			]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest7870077254016648398.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest7870077254016648398.description2}"
+				""
+				"{ftbquests.chapter.modular_routers.quest7870077254016648398.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.45d
+			id: "6D382190A88B44CE"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.modular_routers.quest7870077254016648398.subtitle}"
+			tasks: [{
+				id: "62A39338091121D4"
+				title: "{ftbquests.chapter.modular_routers.quest7870077254016648398.task.7107686505800344020.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.modular_routers.quest7870077254016648398.title}"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"22B9F01190496541"
+				"43B5E4E494513F12"
+			]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest8070807238801669177.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest8070807238801669177.description2}"
+				""
+				"{ftbquests.chapter.modular_routers.quest8070807238801669177.description3}"
+				""
+				"{ftbquests.chapter.modular_routers.quest8070807238801669177.description4}"
+				""
+				"{ftbquests.chapter.modular_routers.quest8070807238801669177.description5}"
+				"{ftbquests.chapter.modular_routers.quest8070807238801669177.image0}"
+				"{ftbquests.chapter.modular_routers.quest8070807238801669177.description6}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.45d
+			id: "7001446C376CBC39"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.modular_routers.quest8070807238801669177.subtitle}"
+			tasks: [{
+				id: "6E091D953F8BEBE2"
+				title: "{ftbquests.chapter.modular_routers.quest8070807238801669177.task.7928901145815935970.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.modular_routers.quest8070807238801669177.title}"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7001446C376CBC39"]
+			description: ["{ftbquests.chapter.modular_routers.quest6064969285427322791.description1}"]
+			id: "542B196E778CDFA7"
+			subtitle: "{ftbquests.chapter.modular_routers.quest6064969285427322791.subtitle}"
+			tasks: [{
+				id: "4F343BC5E0863F07"
+				item: "modularrouters:puller_module_2"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7001446C376CBC39"]
+			description: ["{ftbquests.chapter.modular_routers.quest5880535223488036775.description1}"]
+			id: "519BDBA11D2D3FA7"
+			subtitle: "{ftbquests.chapter.modular_routers.quest5880535223488036775.subtitle}"
+			tasks: [{
+				id: "60880CFFB0C7D518"
+				item: "modularrouters:sender_module_2"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["519BDBA11D2D3FA7"]
+			id: "37DAC890201A1467"
+			subtitle: "{ftbquests.chapter.modular_routers.quest4024749738348385383.subtitle}"
+			tasks: [{
+				id: "1F0BBBDE7BDCCE8B"
+				item: "modularrouters:sender_module_3"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FB9DF3573080F92"]
+			description: ["{ftbquests.chapter.modular_routers.quest3574541252635292433.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "319B52549E4E7311"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.modular_routers.quest3574541252635292433.subtitle}"
+			tasks: [{
+				id: "63DB0489EF05159F"
+				title: "{ftbquests.chapter.modular_routers.quest3574541252635292433.task.7195349820121617823.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			id: "2BAF374C05A98F01"
+			subtitle: "{ftbquests.chapter.modular_routers.quest3147795464207306497.subtitle}"
+			tasks: [{
+				id: "23229DE509F0A03B"
+				item: "modularrouters:fluid_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BAF374C05A98F01"]
+			id: "5A6F09619C3BA17A"
+			subtitle: "{ftbquests.chapter.modular_routers.quest6516437500666028410.subtitle}"
+			tasks: [{
+				id: "7CDFFDB0439979E6"
+				item: "modularrouters:fluid_module_2"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			id: "3811CCB277382A44"
+			subtitle: "{ftbquests.chapter.modular_routers.quest4040235407604460100.subtitle}"
+			tasks: [{
+				id: "774420AEDE6105BF"
+				item: "modularrouters:distributor_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			id: "05B05F8E01952D97"
+			subtitle: "{ftbquests.chapter.modular_routers.quest409932629607263639.subtitle}"
+			tasks: [{
+				id: "28F9970D625C665F"
+				item: "modularrouters:breaker_module"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest1507809348491165453.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest1507809348491165453.description2}"
+				""
+				"{ftbquests.chapter.modular_routers.quest1507809348491165453.description3}"
+				"{ftbquests.chapter.modular_routers.quest1507809348491165453.description4}"
+				""
+				"{ftbquests.chapter.modular_routers.quest1507809348491165453.description5}"
+				"{ftbquests.chapter.modular_routers.quest1507809348491165453.description6}"
+				""
+				"{ftbquests.chapter.modular_routers.quest1507809348491165453.description7}"
+				"{ftbquests.chapter.modular_routers.quest1507809348491165453.description8}"
+			]
+			id: "14ECD09D1DD43F0D"
+			subtitle: "{ftbquests.chapter.modular_routers.quest1507809348491165453.subtitle}"
+			tasks: [{
+				id: "5DF5C5DB7B65AE86"
+				item: "modularrouters:activator_module"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: ["{ftbquests.chapter.modular_routers.quest6042240041423074280.description1}"]
+			id: "53DA594DF4A9F3E8"
+			subtitle: "{ftbquests.chapter.modular_routers.quest6042240041423074280.subtitle}"
+			tasks: [{
+				id: "1233B7CEB7BDE878"
+				item: "modularrouters:detector_module"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: ["{ftbquests.chapter.modular_routers.quest8848117842129574911.description1}"]
+			id: "7ACAD44C4EEDDBFF"
+			subtitle: "{ftbquests.chapter.modular_routers.quest8848117842129574911.subtitle}"
+			tasks: [{
+				id: "7A5FA43E5A9E5FC2"
+				item: "modularrouters:dropper_module"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: ["{ftbquests.chapter.modular_routers.quest809418563753275882.description1}"]
+			id: "0B3BA1E52F1EF1EA"
+			subtitle: "{ftbquests.chapter.modular_routers.quest809418563753275882.subtitle}"
+			tasks: [{
+				id: "02CA072501BE5100"
+				item: "modularrouters:energy_distributor_module"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: ["{ftbquests.chapter.modular_routers.quest8556388228224239406.description1}"]
+			id: "76BE65C287A3C72E"
+			subtitle: "{ftbquests.chapter.modular_routers.quest8556388228224239406.subtitle}"
+			tasks: [{
+				id: "781840ECA9ECE79A"
+				item: "modularrouters:energy_output_module"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest2529724610984902066.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest2529724610984902066.description2}"
+			]
+			id: "231B632171517DB2"
+			subtitle: "{ftbquests.chapter.modular_routers.quest2529724610984902066.subtitle}"
+			tasks: [{
+				id: "398B5AE2B9B08798"
+				item: "modularrouters:extruder_module_1"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["231B632171517DB2"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest5353825269628045150.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest5353825269628045150.description2}"
+				""
+				"{ftbquests.chapter.modular_routers.quest5353825269628045150.description3}"
+				""
+				"{ftbquests.chapter.modular_routers.quest5353825269628045150.description4}"
+				""
+				"{ftbquests.chapter.modular_routers.quest5353825269628045150.description5}"
+				""
+				"{ftbquests.chapter.modular_routers.quest5353825269628045150.description6}"
+			]
+			id: "4A4C9BB789B0875E"
+			subtitle: "{ftbquests.chapter.modular_routers.quest5353825269628045150.subtitle}"
+			tasks: [{
+				id: "1600D0C79E261664"
+				item: "modularrouters:extruder_module_2"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: ["{ftbquests.chapter.modular_routers.quest4045670169443701939.description1}"]
+			id: "38251B95901614B3"
+			subtitle: "{ftbquests.chapter.modular_routers.quest4045670169443701939.subtitle}"
+			tasks: [{
+				id: "512B6EA2F7104573"
+				item: "modularrouters:flinger_module"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest8351473497383757016.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest8351473497383757016.description2}"
+				"{ftbquests.chapter.modular_routers.quest8351473497383757016.description3}"
+				""
+				"{ftbquests.chapter.modular_routers.quest8351473497383757016.description4}"
+			]
+			id: "73E664E5DAA5E4D8"
+			subtitle: "{ftbquests.chapter.modular_routers.quest8351473497383757016.subtitle}"
+			tasks: [{
+				id: "28B19C22840E51FB"
+				item: "modularrouters:placer_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest6078627096708398868.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest6078627096708398868.description2}"
+				""
+				"{ftbquests.chapter.modular_routers.quest6078627096708398868.description3}"
+				""
+				"{ftbquests.chapter.modular_routers.quest6078627096708398868.description4}"
+			]
+			id: "545B9F23755E3F14"
+			subtitle: "{ftbquests.chapter.modular_routers.quest6078627096708398868.subtitle}"
+			tasks: [{
+				id: "7D8DAF1E70ECCFB8"
+				item: "modularrouters:player_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: ["{ftbquests.chapter.modular_routers.quest8560174194317912256.description1}"]
+			id: "76CBD91373C8E8C0"
+			subtitle: "{ftbquests.chapter.modular_routers.quest8560174194317912256.subtitle}"
+			tasks: [{
+				id: "395A31B0E0E8B1D0"
+				item: "modularrouters:vacuum_module"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["319B52549E4E7311"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest9114443598319020845.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest9114443598319020845.description2}"
+			]
+			id: "7E7D02298B236B2D"
+			subtitle: "{ftbquests.chapter.modular_routers.quest9114443598319020845.subtitle}"
+			tasks: [{
+				id: "5071C79BD40BAFDC"
+				item: "modularrouters:void_module"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FB9DF3573080F92"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.45d
+			id: "5760CD5FAF75D2B3"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.modular_routers.quest6296258089913275059.subtitle}"
+			tasks: [{
+				id: "5D88A68CDA9DEB07"
+				title: "{ftbquests.chapter.modular_routers.quest6296258089913275059.task.6739819966253361927.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			id: "521608484C24851F"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.modular_routers.quest5914924267205854495.subtitle}"
+			tasks: [{
+				id: "32686F03164B9D23"
+				item: "modularrouters:blast_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			id: "265509E1347C9698"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.modular_routers.quest2762124809314539160.subtitle}"
+			tasks: [{
+				id: "3A7701269D96A472"
+				item: "modularrouters:camouflage_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			id: "0F586E812F12EF51"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.modular_routers.quest1105755209639063377.subtitle}"
+			tasks: [{
+				id: "07C71B082679E95A"
+				item: "modularrouters:energy_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			id: "53C66BD3EDA8C093"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.modular_routers.quest6036630908506259603.subtitle}"
+			tasks: [{
+				id: "4B02641242527871"
+				item: "modularrouters:fluid_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			id: "30C454CF37A67518"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.modular_routers.quest3514026858224448792.subtitle}"
+			tasks: [{
+				id: "0DC7625D3DD3D677"
+				item: "modularrouters:muffler_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest5224843401036877479.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest5224843401036877479.description2}"
+				""
+				"{ftbquests.chapter.modular_routers.quest5224843401036877479.description3}"
+			]
+			id: "48825F640DD8CEA7"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.modular_routers.quest5224843401036877479.subtitle}"
+			tasks: [{
+				id: "3D18C8DD628332EC"
+				item: "modularrouters:security_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest5108386869077718341.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest5108386869077718341.description2}"
+			]
+			id: "46E4A2CAC2A5B545"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.modular_routers.quest5108386869077718341.subtitle}"
+			tasks: [{
+				id: "563655BCF4752CE8"
+				item: "modularrouters:speed_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest3140800551529613977.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest3140800551529613977.description2}"
+				""
+				"{ftbquests.chapter.modular_routers.quest3140800551529613977.description3}"
+			]
+			id: "2B965D7600460A99"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.modular_routers.quest3140800551529613977.subtitle}"
+			tasks: [{
+				id: "6F765093BEFFB673"
+				item: "modularrouters:stack_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5760CD5FAF75D2B3"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest2688735756956687802.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest2688735756956687802.description2}"
+				""
+				"{ftbquests.chapter.modular_routers.quest2688735756956687802.description3}"
+			]
+			id: "25504EECE84B5DBA"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.modular_routers.quest2688735756956687802.subtitle}"
+			tasks: [{
+				id: "5B7CB9D54797C4B4"
+				item: "modularrouters:sync_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["48825F640DD8CEA7"]
+			id: "1713F364D961420F"
+			shape: "diamond"
+			tasks: [{
+				id: "7BC914769840D043"
+				item: "modularrouters:override_card"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76CBD91373C8E8C0"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest6128463176718761871.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest6128463176718761871.description2}"
+			]
+			id: "550CACCA0B623F8F"
+			subtitle: "{ftbquests.chapter.modular_routers.quest6128463176718761871.subtitle}"
+			tasks: [{
+				id: "5577367B42DB80B0"
+				item: "modularrouters:fast_pickup_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A4C9BB789B0875E"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest280853922191546568.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest280853922191546568.description2}"
+			]
+			id: "03E5CB277A0098C8"
+			subtitle: "{ftbquests.chapter.modular_routers.quest280853922191546568.subtitle}"
+			tasks: [{
+				id: "5F5547F73290823D"
+				item: "modularrouters:mimic_augment"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7ACAD44C4EEDDBFF"
+				"38251B95901614B3"
+			]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest8221951994748404099.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest8221951994748404099.description2}"
+			]
+			id: "721A3DC7074B0183"
+			subtitle: "{ftbquests.chapter.modular_routers.quest8221951994748404099.subtitle}"
+			tasks: [{
+				id: "1F26A32A7D738461"
+				item: "modularrouters:pickup_delay_augment"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4A4C9BB789B0875E"
+				"231B632171517DB2"
+			]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest4121591360731568213.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest4121591360731568213.description2}"
+			]
+			id: "3932D58165B95855"
+			subtitle: "{ftbquests.chapter.modular_routers.quest4121591360731568213.subtitle}"
+			tasks: [{
+				id: "59CFB4011B4AC002"
+				item: "modularrouters:pushing_augment"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.modular_routers.quest1515084053344346618.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest1515084053344346618.description2}"
+			]
+			id: "1506A8EB5472E1FA"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.modular_routers.quest1515084053344346618.subtitle}"
+			tasks: [{
+				id: "10BF611EBE7837CB"
+				item: "modularrouters:range_down_augment"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.modular_routers.quest7240967095956122636.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest7240967095956122636.description2}"
+			]
+			id: "647D1535A0C1AC0C"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.modular_routers.quest7240967095956122636.subtitle}"
+			tasks: [{
+				id: "36EFE9238B798B81"
+				item: "modularrouters:range_up_augment"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.modular_routers.quest174640724913178481.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest174640724913178481.description2}"
+			]
+			id: "026C72D063C44771"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.modular_routers.quest174640724913178481.subtitle}"
+			tasks: [{
+				id: "3E136B372877C60F"
+				item: "modularrouters:redstone_augment"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.modular_routers.quest1165300919163188876.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest1165300919163188876.description2}"
+				""
+				"{ftbquests.chapter.modular_routers.quest1165300919163188876.description3}"
+				""
+				"{ftbquests.chapter.modular_routers.quest1165300919163188876.description4}"
+			]
+			id: "102BFB030F28768C"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.modular_routers.quest1165300919163188876.subtitle}"
+			tasks: [{
+				id: "13E6D53A1B1A626D"
+				item: "modularrouters:regulator_augment"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.modular_routers.quest4130500243494749576.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest4130500243494749576.description2}"
+				""
+				"{ftbquests.chapter.modular_routers.quest4130500243494749576.description3}"
+			]
+			id: "39527C164E2B4588"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.modular_routers.quest4130500243494749576.subtitle}"
+			tasks: [{
+				id: "590C18FAF8FB7A62"
+				item: "modularrouters:stack_augment"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76CBD91373C8E8C0"]
+			description: [
+				"{ftbquests.chapter.modular_routers.quest1563489868846857338.description1}"
+				""
+				"{ftbquests.chapter.modular_routers.quest1563489868846857338.description2}"
+				""
+				"{ftbquests.chapter.modular_routers.quest1563489868846857338.description3}"
+			]
+			id: "15B2A1C08289FC7A"
+			subtitle: "{ftbquests.chapter.modular_routers.quest1563489868846857338.subtitle}"
+			tasks: [{
+				id: "01DCA5856D140E2C"
+				item: "modularrouters:xp_vacuum_augment"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+	]
+	title: "{ftbquests.chapter.modular_routers.title}"
+}

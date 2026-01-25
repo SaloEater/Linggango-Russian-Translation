@@ -1,0 +1,1400 @@
+{
+	autofocus_id: "0D94E02715E74F99"
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "kilovetomboysr"
+	group: "3C6AB1DE39D4F441"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "lethality:item/nightmare_sword"
+		}
+	}
+	id: "3AE3B2BE4A65CEF6"
+	images: [
+		{
+			height: 5.0d
+			image: "customtextures:textures/lethalitylogo.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			color: 5592405
+			dependency: "2B69C369F7D0B25C"
+			height: 6.0d
+			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -8
+			rotation: 0.0d
+			width: 6.0d
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			color: 5592405
+			dependency: "2B69C369F7D0B25C"
+			height: 6.0d
+			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -7
+			rotation: 45.0d
+			width: 6.0d
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			color: 5592405
+			dependency: "2B69C369F7D0B25C"
+			height: 6.0d
+			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -6
+			rotation: 90.0d
+			width: 6.0d
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			color: 5592405
+			dependency: "2B69C369F7D0B25C"
+			height: 6.0d
+			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -5
+			rotation: 135.0d
+			width: 6.0d
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			color: 5592405
+			dependency: "2B69C369F7D0B25C"
+			height: 6.0d
+			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -4
+			rotation: 175.0d
+			width: 6.0d
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			color: 5592405
+			dependency: "2B69C369F7D0B25C"
+			height: 6.0d
+			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -3
+			rotation: -90.0d
+			width: 6.0d
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			color: 5592405
+			dependency: "2B69C369F7D0B25C"
+			height: 6.0d
+			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -2
+			rotation: -45.0d
+			width: 6.0d
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			color: 5592405
+			dependency: "2B69C369F7D0B25C"
+			height: 6.0d
+			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			order: -1
+			rotation: -135.0d
+			width: 6.0d
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			color: 16777045
+			dependency: "2B69C369F7D0B25C"
+			height: 5.0d
+			image: "bloodmagic:models/alchemyarrays/sunarray"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.kilovetomboysr.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.785714285714285d
+			y: -9.07142857142857d
+		}
+	]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/stop_sign"
+				}
+			}
+			icon_scale: 1.5d
+			id: "0D94E02715E74F99"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest978653477522067353.subtitle}"
+			tasks: [{
+				id: "7EAB472665C3FBE3"
+				item: {
+					Count: 1
+					id: "lethality:stop_sign"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -8.25d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/tainted_blade"
+				}
+			}
+			icon_scale: 1.5d
+			id: "4BFD6C3409511222"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5475651692702798370.subtitle}"
+			tasks: [{
+				id: "08EE67A0515EAB5B"
+				item: {
+					Count: 1
+					id: "lethality:tainted_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4BFD6C3409511222"
+				"2B69C369F7D0B25C"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/caustic_edge"
+				}
+			}
+			icon_scale: 1.5d
+			id: "7234C8C15A34BEEA"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8229423151880388330.subtitle}"
+			tasks: [{
+				id: "5A98C421129E32F6"
+				item: {
+					Count: 1
+					id: "lethality:caustic_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"7234C8C15A34BEEA"
+				"2B69C369F7D0B25C"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/blighted_cleaver"
+				}
+			}
+			icon_scale: 1.5d
+			id: "71161551B9BDC76E"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8148724016526247790.subtitle}"
+			tasks: [{
+				id: "2CECF9542AC77860"
+				item: {
+					Count: 1
+					id: "lethality:blighted_cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"71161551B9BDC76E"
+				"2B69C369F7D0B25C"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/defiled_greatsword"
+				}
+			}
+			icon_scale: 1.5d
+			id: "70A53D4527A0AC62"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8116961270632066146.subtitle}"
+			tasks: [{
+				id: "606374A923B36A86"
+				item: {
+					Count: 1
+					id: "lethality:defiled_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/bladecrest_oathsword"
+				}
+			}
+			icon_scale: 1.5d
+			id: "71252E3A290B4439"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8152973527755736121.subtitle}"
+			tasks: [{
+				id: "71BF59812EFF4665"
+				item: {
+					Count: 1
+					id: "lethality:bladecrest_oathsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"71252E3A290B4439"
+				"2B69C369F7D0B25C"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/forbidden_oathblade"
+				}
+			}
+			icon_scale: 1.5d
+			id: "0DB7F1007E89A3BB"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest988523627656356795.subtitle}"
+			tasks: [{
+				id: "60D0F4D28866E551"
+				item: {
+					Count: 1
+					id: "lethality:forbidden_oathblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"0DB7F1007E89A3BB"
+				"2B69C369F7D0B25C"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/exalted_oathblade"
+				}
+			}
+			icon_scale: 1.5d
+			id: "2D5D554F1FC2110E"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3268862702864437518.subtitle}"
+			tasks: [{
+				id: "3FA23E06FAEA15BD"
+				item: {
+					Count: 1
+					id: "lethality:exalted_oathblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"2D5D554F1FC2110E"
+				"2B69C369F7D0B25C"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/devils_devastation"
+				}
+			}
+			icon_scale: 1.5d
+			id: "614A815D1C166137"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7010558006858768695.subtitle}"
+			tasks: [{
+				id: "140384E22EE504D9"
+				item: {
+					Count: 1
+					id: "lethality:devils_devastation"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/gaels_greatsword"
+				}
+			}
+			icon_scale: 1.5d
+			id: "3679047E4E198911"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3925173490752784657.subtitle}"
+			tasks: [{
+				id: "0E1D0FD752A352A5"
+				item: {
+					Count: 1
+					id: "lethality:gaels_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/violence"
+				}
+			}
+			icon_scale: 1.5d
+			id: "4E2EEF7EFFC1D7D1"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5633703512622880721.subtitle}"
+			tasks: [{
+				id: "086D0EB92F9453F7"
+				item: {
+					Count: 1
+					id: "lethality:violence"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/sacrifice"
+				}
+			}
+			icon_scale: 1.5d
+			id: "747886A6E6AA53C7"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8392605956997534663.subtitle}"
+			tasks: [{
+				id: "04A51220226C1922"
+				item: {
+					Count: 1
+					id: "lethality:sacrifice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/vehemence"
+				}
+			}
+			icon_scale: 1.5d
+			id: "5DB58CFF1D5E1500"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6752458243649180928.subtitle}"
+			tasks: [{
+				id: "2465A65CC848317A"
+				item: {
+					Count: 1
+					id: "lethality:vehemence"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/grievance"
+				}
+			}
+			icon_scale: 1.5d
+			id: "2CBC0596965F65D3"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3223457577616500179.subtitle}"
+			tasks: [{
+				id: "13BC1A2C80262086"
+				item: {
+					Count: 1
+					id: "lethality:grievance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/starlight"
+				}
+			}
+			icon_scale: 1.2d
+			id: "781F862F4161A7F0"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8655784546347886576.subtitle}"
+			tasks: [{
+				id: "6B7CF2D6E98998E4"
+				item: {
+					Count: 1
+					id: "lethality:starlight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/real_knife"
+				}
+			}
+			icon_scale: 1.2d
+			id: "1259106DE450DD03"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest1322106029777935619.subtitle}"
+			tasks: [{
+				id: "11CE14D9410F5C1C"
+				item: {
+					Count: 1
+					id: "lethality:real_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/pickle_paddle"
+				}
+			}
+			id: "2B861D38FB7C46D4"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3136226321084729044.subtitle}"
+			tasks: [{
+				id: "7CB299E6E75788F2"
+				item: {
+					Count: 1
+					id: "lethality:pickle_paddle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/midas_touch"
+				}
+			}
+			icon_scale: 1.5d
+			id: "7D4FD0BD78F6179B"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest9029665290097923995.subtitle}"
+			tasks: [{
+				id: "21092E0B639FBD2D"
+				item: {
+					Count: 1
+					id: "lethality:midas_touch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/gamblers_blade"
+				}
+			}
+			icon_scale: 1.5d
+			id: "59C60FA63B60635A"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6468875121399456602.subtitle}"
+			tasks: [{
+				id: "18A1B2E697A9D697"
+				item: {
+					Count: 1
+					id: "lethality:gamblers_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			description: ["{ftbquests.chapter.kilovetomboysr.quest3800485824133949478.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/nightmare_sword"
+				}
+			}
+			icon_scale: 2.0d
+			id: "34BE09B8A1696826"
+			min_width: 500
+			shape: "none"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3800485824133949478.subtitle}"
+			tasks: [{
+				id: "045B115D604E0B9A"
+				item: {
+					Count: 1
+					id: "lethality:nightmare_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/nightfall"
+				}
+			}
+			icon_scale: 1.5d
+			id: "65FEE070A6F998F7"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7349558416357562615.subtitle}"
+			tasks: [{
+				id: "54F08A942D4AD796"
+				item: {
+					Count: 1
+					id: "lethality:nightfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/hf_meowrasama"
+				}
+			}
+			icon_scale: 1.5d
+			id: "7890349A10B01114"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8687501517507268884.subtitle}"
+			tasks: [{
+				id: "641563654B90FAC2"
+				item: {
+					Count: 1
+					id: "lethality:hf_meowrasama"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/foreign_hook"
+				}
+			}
+			icon_scale: 1.5d
+			id: "704E71AD888B523E"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8092530570565472830.subtitle}"
+			tasks: [{
+				id: "4890A897B7E8DEEF"
+				item: {
+					Count: 1
+					id: "lethality:foreign_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/sword/royal_guardian_sword/royal_guardian_sword_handheld"
+				}
+			}
+			icon_scale: 2.0d
+			id: "6EB580601CB06CAE"
+			shape: "none"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7977423465243241646.subtitle}"
+			tasks: [{
+				id: "6F7E5F28457FA90E"
+				item: {
+					Count: 1
+					id: "brutality:royal_guardian_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.627551020408163d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "5200FF3FD8E93CA0"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5909003360797277344.subtitle}"
+			tasks: [{
+				id: "413093382BA7F710"
+				item: {
+					Count: 1
+					id: "brutality:dull_knife"
+					tag: {
+						Damage: 0
+						texture: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.25d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/sword/frostmourne/frostmourne_handheld"
+				}
+			}
+			icon_scale: 2.0d
+			id: "759B047763E511D9"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8474372034651296217.subtitle}"
+			tasks: [{
+				id: "688DBB1189B5F1AC"
+				item: {
+					Count: 1
+					id: "brutality:frostmourne"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/axe/rhitta/rhitta_handheld"
+				}
+			}
+			icon_scale: 2.0d
+			id: "7183193022F7944C"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8179409042770728012.subtitle}"
+			tasks: [{
+				id: "66B602AC3681272A"
+				item: {
+					Count: 1
+					id: "brutality:rhitta"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/scythe/darkin_scythe/darkin_scythe_handheld"
+				}
+			}
+			icon_scale: 2.0d
+			id: "06C47BEF7CDD5F6E"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest487650928185139054.subtitle}"
+			tasks: [{
+				id: "7D1F6BDBFF4661C9"
+				item: {
+					Count: 1
+					id: "brutality:darkin_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.75d
+			y: -8.25d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/sword/darkin_blade/darkin_blade_handheld"
+				}
+			}
+			icon_scale: 2.0d
+			id: "6D1BD29B2FD77FC8"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7862109138469748680.subtitle}"
+			tasks: [{
+				id: "4216468BDD2332DB"
+				item: {
+					Count: 1
+					id: "brutality:darkin_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/axe/old_gpu/old_gpu_handheld"
+				}
+			}
+			icon_scale: 2.0d
+			id: "4F7F77866139D3EB"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5728428670079063019.subtitle}"
+			tasks: [{
+				id: "799CDBA966A615E2"
+				item: {
+					Count: 1
+					id: "brutality:old_gpu"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/sword/supernova/supernova_inventory"
+				}
+			}
+			icon_scale: 1.5d
+			id: "3D0947A8675C23AC"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4398125299718169516.subtitle}"
+			tasks: [{
+				id: "48E58AB1B9C1CCB4"
+				item: {
+					Count: 1
+					id: "brutality:supernova"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:knockback"
+							lvl: 3s
+						}]
+						GeckoLibID: 2L
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/sword/whisperwaltz/whisperwaltz_handheld"
+				}
+			}
+			icon_scale: 2.0d
+			id: "57A8805535468893"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6316439580841511059.subtitle}"
+			tasks: [{
+				id: "4126ECF63FA1FFA9"
+				item: {
+					Count: 1
+					id: "brutality:whisperwaltz"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "367262EC3D2FB8A5"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3923306992171464869.subtitle}"
+			tasks: [{
+				id: "4F39B77DB2CD577E"
+				item: {
+					Count: 1
+					id: "brutality:paper_cut"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "0E6A8B65275BD791"
+			size: 1.5d
+			tasks: [{
+				id: "1F2B3F68CB44BB27"
+				item: {
+					Count: 1
+					id: "brutality:seventh_star"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/bow/providence/providence_handheld"
+				}
+			}
+			icon_scale: 2.0d
+			id: "048CCFC55D416DE7"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest327865319471279591.subtitle}"
+			tasks: [{
+				id: "0B9127A81DB07BD4"
+				item: {
+					Count: 1
+					id: "brutality:providence"
+					tag: {
+						Damage: 0
+						GeckoLibID: 3L
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "7A149B26A765873D"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8796826562480932669.subtitle}"
+			tasks: [{
+				id: "63931E4E9FF83C77"
+				item: {
+					Count: 1
+					id: "brutality:jackpot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "2217081F3ABF9265"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2456441051976536677.subtitle}"
+			tasks: [{
+				id: "3C9D37C604132FEE"
+				item: {
+					Count: 1
+					id: "brutality:event_horizon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "4BDE4EB2B5AAB121"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5466893527133368609.subtitle}"
+			tasks: [{
+				id: "589EB0D6ECB7C1D4"
+				item: {
+					Count: 1
+					id: "brutality:crease_of_creation"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:knockback"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "3C0A7905C44B0EB4"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4326403457717833396.subtitle}"
+			tasks: [{
+				id: "263BA566C799881C"
+				item: {
+					Count: 1
+					id: "brutality:atomic_judgement"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/trident/gungnir/gungnir_inventory"
+				}
+			}
+			id: "4376F20CE571B8D1"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4861338984995993809.subtitle}"
+			tasks: [{
+				id: "49B33EC6A16E24A5"
+				item: {
+					Count: 1
+					id: "brutality:gungnir"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:loyalty"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "4D8CFBE614148155"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5588118203257880917.subtitle}"
+			tasks: [{
+				id: "41EA38CE03FF08B5"
+				item: {
+					Count: 1
+					id: "brutality:thunderbolt"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:infinity"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:loyalty"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "6BCE1CB1C178CC01"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7768177957041392641.subtitle}"
+			tasks: [{
+				id: "5F693974C50E7809"
+				item: "brutality:depth_crusher"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "2360941E59454374"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2549200247159341940.subtitle}"
+			tasks: [{
+				id: "381E795388198D56"
+				item: {
+					Count: 1
+					id: "brutality:shadowstep"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "082D924DE701D033"
+			size: 1.5d
+			tasks: [{
+				id: "3B30217A2D2AD04E"
+				item: {
+					Count: 1
+					id: "brutality:wooden_ruler"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "43347BF37E5531A6"
+			size: 1.5d
+			tasks: [{
+				id: "2D48899D72264E7B"
+				item: {
+					Count: 1
+					id: "brutality:metal_ruler"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/sword/meloncholy/meloncholy_handheld"
+				}
+			}
+			icon_scale: 2.0d
+			id: "2595B836FB1A2EE6"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2708273297213763302.subtitle}"
+			tasks: [{
+				id: "1B62422A6BF88889"
+				item: {
+					Count: 1
+					id: "brutality:meloncholy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: -8.25d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "772DBF3AB29C360B"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest8587730323290994187.subtitle}"
+			tasks: [{
+				id: "30DD988D3CAF2B3C"
+				item: {
+					Count: 1
+					id: "brutality:apple_core"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -8.25d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "0527B87442915A41"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest371468303753894465.subtitle}"
+			tasks: [{
+				id: "77AD4BF2449C93D2"
+				item: {
+					Count: 1
+					id: "brutality:chopstick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: -8.25d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "2F516986EF0C5AED"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3409622421153274605.subtitle}"
+			tasks: [{
+				id: "307C2F0370997E6A"
+				item: {
+					Count: 1
+					id: "brutality:bamboo_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B69C369F7D0B25C"]
+			id: "169DE465DD8A003D"
+			size: 1.5d
+			tasks: [{
+				id: "32F1D1519705C561"
+				item: "brutality:biomech_reactor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+	]
+	title: "{ftbquests.chapter.kilovetomboysr.title}"
+}

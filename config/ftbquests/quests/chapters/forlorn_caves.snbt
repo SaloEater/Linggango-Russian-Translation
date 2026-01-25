@@ -1,0 +1,242 @@
+{
+	autofocus_id: "4405287D0ACF3DCB"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "forlorn_caves"
+	group: "52FA8429D8BF5933"
+	hide_quest_until_deps_complete: true
+	icon: "alexscaves:pure_darkness"
+	id: "1B52AAD85ACDF9FF"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: ["ftbquests.chapter.forlorn_caves.image.hovertext1"]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -1.5d
+		y: 0.0d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.forlorn_caves.quest4901368286980029899.description1}"]
+			id: "4405287D0ACF3DCB"
+			rewards: [{
+				id: "27D42CAE4150BA2A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest4901368286980029899.subtitle}"
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: "alexscaves:pure_darkness"
+				id: "487F88185A0107D6"
+				title: "{ftbquests.chapter.forlorn_caves.quest4901368286980029899.task.5224043730943674326.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.forlorn_caves.quest4901368286980029899.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4405287D0ACF3DCB"]
+			description: ["{ftbquests.chapter.forlorn_caves.quest1483466129556441589.description1}"]
+			id: "14965495C88909F5"
+			rewards: [
+				{
+					id: "4E52539AC3435246"
+					item: "alexscaves:corrodent_teeth"
+					type: "item"
+				}
+				{
+					id: "10D7E7BF54236663"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest1483466129556441589.subtitle}"
+			tasks: [{
+				id: "56FFFF72D2ED4B4A"
+				item: "alexscaves:burrowing_arrow"
+				type: "item"
+			}]
+			x: 1.857142857142854d
+			y: 0.25d
+		}
+		{
+			dependencies: ["4405287D0ACF3DCB"]
+			description: ["{ftbquests.chapter.forlorn_caves.quest642042902263316237.description1}"]
+			id: "08E8FE9E2FF73F0D"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest642042902263316237.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_underzealot"
+				criterion: ""
+				icon: "alexscaves:occult_gem"
+				id: "344415AB5E2D6ADF"
+				title: "{ftbquests.chapter.forlorn_caves.quest642042902263316237.task.3766159014152202975.title}"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 1.3928571428571388d
+		}
+		{
+			dependencies: ["08E8FE9E2FF73F0D"]
+			description: ["{ftbquests.chapter.forlorn_caves.quest7118298926032098766.description1}"]
+			icon: {
+				Count: 1
+				id: "alexscaves:desolate_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "62C94728AB3015CE"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest7118298926032098766.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/underzealot_sacrifice"
+				criterion: ""
+				icon: "alexscaves:pure_darkness"
+				id: "2907F15677B5A9A4"
+				title: "{ftbquests.chapter.forlorn_caves.quest7118298926032098766.task.2956597034069895588.title}"
+				type: "advancement"
+			}]
+			x: -4.357142857142854d
+			y: 1.107142857142854d
+		}
+		{
+			dependencies: ["46AA638EBE53C24D"]
+			id: "6A6C2BD7C8059AEB"
+			rewards: [
+				{
+					id: "715E89FBB402BAEA"
+					item: "alexscaves:pure_darkness"
+					type: "item"
+				}
+				{
+					id: "1A72CC99DB1186D7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "6797BE5A16954BF7"
+				item: {
+					Count: 1
+					id: "alexscaves:cloak_of_darkness"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.forlorn_caves.quest7668552471278885611.title}"
+			x: -1.2857142857142918d
+			y: 3.107142857142854d
+		}
+		{
+			dependencies: ["4405287D0ACF3DCB"]
+			description: ["{ftbquests.chapter.forlorn_caves.quest5091991793425433165.description1}"]
+			icon: "alexscaves:dark_tatters"
+			id: "46AA638EBE53C24D"
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest5091991793425433165.subtitle}"
+			tasks: [{
+				id: "371C9C4F3D76C28E"
+				item: "alexscaves:pure_darkness"
+				type: "item"
+			}]
+			x: 0.1071428571428541d
+			y: 1.7857142857142918d
+		}
+		{
+			dependencies: ["46AA638EBE53C24D"]
+			id: "0198BF711E6AC7FC"
+			rewards: [
+				{
+					id: "3CBDEDF5AF06273B"
+					item: "alexscaves:pure_darkness"
+					type: "item"
+				}
+				{
+					id: "5E7DAB7CA48095C5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "4A99814E3378B790"
+				item: {
+					Count: 1
+					id: "alexscaves:hood_of_darkness"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.forlorn_caves.quest115052283060471804.title}"
+			x: 1.5357142857142847d
+			y: 2.357142857142861d
+		}
+		{
+			dependencies: ["14965495C88909F5"]
+			description: ["{ftbquests.chapter.forlorn_caves.quest1600013158530205793.description1}"]
+			id: "1634637D8E24C861"
+			rewards: [
+				{
+					id: "70A46D7280F4DA73"
+					item: "alexscaves:shadow_silk"
+					type: "item"
+				}
+				{
+					id: "10FFCD4246761075"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest1600013158530205793.subtitle}"
+			tasks: [{
+				id: "44A61FCB0CCFC135"
+				item: {
+					Count: 1
+					id: "alexscaves:totem_of_possession"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.642857142857139d
+			y: 0.6071428571428612d
+		}
+		{
+			dependencies: ["1634637D8E24C861"]
+			description: ["{ftbquests.chapter.forlorn_caves.quest4804275194396217409.description1}"]
+			id: "42AC36D5CD351041"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest4804275194396217409.subtitle}"
+			tasks: [{
+				id: "7AD496BEED7C7FA9"
+				item: {
+					Count: 1
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.forlorn_caves.quest4804275194396217409.title}"
+			x: 5.107142857142854d
+			y: -0.5d
+		}
+	]
+	title: "{ftbquests.chapter.forlorn_caves.title}"
+}

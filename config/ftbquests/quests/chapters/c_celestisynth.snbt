@@ -1,0 +1,637 @@
+{
+	autofocus_id: "0D211706C748C3DF"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamondtier"
+	filename: "c_celestisynth"
+	group: "3C6AB1DE39D4F441"
+	icon: {
+		Count: 1
+		id: "celestisynth:poltergeist"
+		tag: {
+			Damage: 0
+			csExtras: { }
+		}
+	}
+	id: "7FDC64785184682B"
+	images: [
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_vanish.png"
+			order: 25
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.c_celestisynth.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 25
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			height: 0.8d
+			image: "terramity:textures/particle/ultra_glint_5.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -1.3214285714285765d
+			y: 0.9642857142857153d
+		}
+		{
+			height: 0.8d
+			image: "terramity:textures/particle/ultra_glint_5.png"
+			order: 25
+			rotation: 0.0d
+			width: 0.8d
+			x: -3.0357142857142847d
+			y: 0.5357142857142847d
+		}
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["ftbquests.chapter.c_celestisynth.image.hovertext2"]
+			image: "ftbquests:textures/gui/shop.png"
+			order: 25
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			height: 0.8d
+			image: "terramity:textures/particle/ultra_glint_5.png"
+			order: 25
+			rotation: 0.0d
+			width: 0.8d
+			x: -2.2857142857142776d
+			y: 2.107142857142854d
+		}
+		{
+			height: 0.8d
+			image: "terramity:textures/particle/ultra_glint_5.png"
+			order: 25
+			rotation: 0.0d
+			width: 0.8d
+			x: -1.2857142857142847d
+			y: 2.6785714285714235d
+		}
+		{
+			height: 3.0d
+			image: "customtextures:textures/celestisynthlogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "terramity:textures/mob_effect/hexed.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "terramity:textures/mob_effect/hexed.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "terramity:textures/mob_effect/hexed.png"
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.6214285714285808d
+			y: 6.635714285714272d
+		}
+		{
+			height: 1.0d
+			image: "terramity:textures/mob_effect/hexed.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "terramity:textures/mob_effect/hexed.png"
+			rotation: -125.0d
+			width: 1.0d
+			x: -2.3714285714285808d
+			y: 7.349999999999994d
+		}
+		{
+			height: 1.0d
+			image: "terramity:textures/mob_effect/hexed.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: -1.978571428571442d
+			y: 7.492857142857119d
+		}
+		{
+			height: 1.0d
+			image: "terramity:textures/mob_effect/hexed.png"
+			rotation: 120.0d
+			width: 1.0d
+			x: -1.6214285714285808d
+			y: 7.421428571428564d
+		}
+		{
+			height: 1.0d
+			image: "terramity:textures/mob_effect/hexed.png"
+			rotation: -65.0d
+			width: 1.0d
+			x: -2.371428571428595d
+			y: 6.599999999999994d
+		}
+		{
+			height: 1.0d
+			image: "netherexp:block/brazier_chest_flame"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			color: 0
+			height: 2.0d
+			image: "terramity:block/hexing_circle"
+			order: -25
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 7.0d
+		}
+	]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4EF580AC5FCD5F9B"]
+			description: [
+				"{ftbquests.chapter.c_celestisynth.quest7119004835941762291.description1}"
+				"{ftbquests.chapter.c_celestisynth.quest7119004835941762291.image0}"
+				"{ftbquests.chapter.c_celestisynth.quest7119004835941762291.description2}"
+				"{ftbquests.chapter.c_celestisynth.quest7119004835941762291.image2}"
+				"{ftbquests.chapter.c_celestisynth.quest7119004835941762291.description3}"
+				""
+				"{ftbquests.chapter.c_celestisynth.quest7119004835941762291.description4}"
+			]
+			hide_until_deps_complete: false
+			id: "62CBC92E2098C4F3"
+			rewards: [{
+				id: "537C03E5FED27436"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest7119004835941762291.subtitle}"
+			tasks: [{
+				id: "740FC3B872ABA194"
+				item: "celestisynth:starlit_factory"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_celestisynth.quest7119004835941762291.title}"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.c_celestisynth.quest946062714605192159.description1}"
+				""
+				"{ftbquests.chapter.c_celestisynth.quest946062714605192159.description2}"
+			]
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "celestisynth:textures/entity/visuals/aquaflora_flower/aquaflora_flower2.png"
+				}
+			}
+			icon_scale: 1.45d
+			id: "0D211706C748C3DF"
+			rewards: [{
+				id: "0765172D0A74E573"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest946062714605192159.subtitle}"
+			tasks: [{
+				id: "11F849758B2291D8"
+				title: "{ftbquests.chapter.c_celestisynth.quest946062714605192159.task.1294865662063317464.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.c_celestisynth.quest946062714605192159.title}"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D211706C748C3DF"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest1276850560228156484.description1}"]
+			hide_until_deps_complete: false
+			id: "11B848D1C9A86444"
+			rewards: [{
+				id: "55CA9CE460312672"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest1276850560228156484.subtitle}"
+			tasks: [{
+				id: "562BE0AC1951A6F3"
+				item: "celestisynth:celestial_core"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11B848D1C9A86444"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest5689595182082514843.description1}"]
+			hide_text_until_complete: false
+			id: "4EF580AC5FCD5F9B"
+			rewards: [{
+				id: "5AF56024392F2C94"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest5689595182082514843.subtitle}"
+			tasks: [{
+				id: "38F6563ADB5F4A48"
+				item: "celestisynth:celestial_core_heated"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest1523523072018917144.description1}"]
+			id: "1524A4297ACCA718"
+			rewards: [{
+				id: "7D14FF57DDE05828"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest1523523072018917144.subtitle}"
+			tasks: [{
+				id: "5CB38A8AFDB9C299"
+				item: {
+					Count: 1
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest3695445986663334901.description1}"]
+			id: "3348DC8BA9B603F5"
+			rewards: [{
+				id: "3BB03FAFC78140BE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest3695445986663334901.subtitle}"
+			tasks: [{
+				id: "59974C498051DA1F"
+				item: {
+					Count: 1
+					id: "celestisynth:breezebreaker"
+					tag: {
+						Damage: 0
+						csController: { }
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest5108890985785312663.description1}"]
+			id: "46E66D4893EDC597"
+			rewards: [{
+				id: "211A115098289478"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest5108890985785312663.subtitle}"
+			tasks: [{
+				id: "2D51EF0C61905619"
+				item: {
+					Count: 1
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3348DC8BA9B603F5"
+				"7192D0E7214BE36F"
+				"55D1E5C62B2716D3"
+				"46E66D4893EDC597"
+				"785392DECB5F6627"
+				"1524A4297ACCA718"
+				"714EF0551098E46D"
+			]
+			description: [
+				"{ftbquests.chapter.c_celestisynth.quest2638266502829553332.description1}"
+				""
+				"{ftbquests.chapter.c_celestisynth.quest2638266502829553332.description2}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon_scale: 1.4d
+			id: "249D0167FBF7B6B4"
+			rewards: [{
+				id: "096A50E1BC8589E4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest2638266502829553332.subtitle}"
+			tasks: [{
+				id: "453029AB3DCE695D"
+				item: {
+					Count: 1
+					id: "celestisynth:keres"
+					tag: {
+						Autoreforge: 1b
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+							cs.keresStack: 0
+						}
+						csExtras: {
+							cs.keres.xx: -2.5972955f
+							cs.keres.zz: 0.12809677f
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_celestisynth.quest2638266502829553332.title}"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest8183833164000256879.description1}"]
+			id: "7192D0E7214BE36F"
+			rewards: [{
+				id: "2B116A6DA44A4872"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest8183833164000256879.subtitle}"
+			tasks: [{
+				id: "7CDC00175A699D7D"
+				item: {
+					Count: 1
+					id: "celestisynth:poltergeist"
+					tag: {
+						Autoreforge: 1b
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+							cs.poltergeistSmashHeight: 0
+						}
+						csExtras: {
+							cs.queueComboLarge: 0b
+							cs.smashCountForPassive: 9
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest8670435193210758695.description1}"]
+			id: "785392DECB5F6627"
+			rewards: [{
+				id: "5A799644EDC74858"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest8670435193210758695.subtitle}"
+			tasks: [{
+				id: "1902A7A5FBC71C7F"
+				item: {
+					Count: 1
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest8164727422610629741.description1}"]
+			id: "714EF0551098E46D"
+			rewards: [{
+				id: "1D72D470D63CC1A8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest8164727422610629741.subtitle}"
+			tasks: [{
+				id: "7753558EAFCEE36A"
+				item: {
+					Count: 1
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						csExtras: {
+							cs.pull: 0.0f
+							cs.pulling: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D211706C748C3DF"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest597431707736662773.description1}"]
+			hide_until_deps_complete: false
+			icon_scale: 1.2d
+			id: "084A80F90D32E2F5"
+			rewards: [{
+				id: "793D91CB360A72DA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest597431707736662773.subtitle}"
+			tasks: [{
+				id: "3589DD4E1E029494"
+				item: "celestisynth:supernal_netherite_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0D211706C748C3DF"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest3475617447759532661.description1}"]
+			hide_until_deps_complete: false
+			icon_scale: 1.2d
+			id: "303BDFA774DB5275"
+			rewards: [{
+				id: "23C8E530038C46AB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest3475617447759532661.subtitle}"
+			tasks: [{
+				id: "771188E5F094F4F1"
+				item: "celestisynth:celestial_netherite_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["62CBC92E2098C4F3"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest6183976402646669011.description1}"]
+			id: "55D1E5C62B2716D3"
+			rewards: [{
+				id: "0EAECD70D106C4B6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest6183976402646669011.subtitle}"
+			tasks: [{
+				id: "2F66572FD3884892"
+				item: {
+					Count: 1
+					id: "celestisynth:frostbound"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D211706C748C3DF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "275E5D37F0DEF045"
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest2836807310135717957.subtitle}"
+			tasks: [{
+				id: "5016A44975D7DF62"
+				title: "{ftbquests.chapter.c_celestisynth.quest2836807310135717957.task.5770980607938518882.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.c_celestisynth.quest2836807310135717957.title}"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["275E5D37F0DEF045"]
+			icon: "celestisynth:star_monolith_blood"
+			id: "5A8486FD8C1DC081"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "200195839B40F757"
+				item: "celestisynth:star_monolith_blood"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest6522486583874928769.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "620507023389F790"
+				item: { Count: 2, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.c_celestisynth.quest6522486583874928769.title}"
+			x: 1.5d
+			y: -3.5d
+		}
+	]
+	title: "{ftbquests.chapter.c_celestisynth.title}"
+}

@@ -1,0 +1,363 @@
+{
+	autofocus_id: "2B9E792779EE6575"
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "biomancy"
+	group: "3C6437AAADAFC5CB"
+	icon: {
+		Count: 1
+		id: "biomancy:despoil_sickle"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5E55600F304A764F"
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.biomancy.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			height: 4.0d
+			image: "customtextures:textures/biomancylogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -0.07142857142856229d
+			y: -2.0357142857142847d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:models/alchemyarrays/wiparray"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.biomancy.quest3143082800407537013.description1}"
+				""
+				"{ftbquests.chapter.biomancy.quest3143082800407537013.description2}"
+				""
+				"{ftbquests.chapter.biomancy.quest3143082800407537013.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2B9E792779EE6575"
+			rewards: [{
+				id: "2547C1DD0453C984"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.biomancy.quest3143082800407537013.subtitle}"
+			tasks: [{
+				id: "528AD3555219C06B"
+				title: "{ftbquests.chapter.biomancy.quest3143082800407537013.task.5947798621299261547.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.biomancy.quest3143082800407537013.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B9E792779EE6575"]
+			id: "361F788B12AE4B03"
+			rewards: [{
+				id: "3BB928A1E7CD9037"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.biomancy.quest3899968341035338499.subtitle}"
+			tasks: [{
+				id: "345590BF3E1BBD0A"
+				item: "biomancy:primordial_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["361F788B12AE4B03"]
+			description: ["{ftbquests.chapter.biomancy.quest5017096256579757565.description1}"]
+			id: "45A04E76B160E5FD"
+			rewards: [{
+				id: "18B35A3FDF8DC3CD"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.biomancy.quest5017096256579757565.subtitle}"
+			tasks: [{
+				id: "56D1AF040B284796"
+				item: {
+					Count: 1
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5359182875255115d
+			y: 0.8447470205918322d
+		}
+		{
+			dependencies: ["45A04E76B160E5FD"]
+			id: "47FCFF662453A5FE"
+			rewards: [{
+				id: "47A0AF613B05437D"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.biomancy.quest5187301684985177598.subtitle}"
+			tasks: [{
+				id: "5BA34504D589FE2D"
+				item: "biomancy:mob_fang"
+				type: "item"
+			}]
+			x: 3.773259667995994d
+			y: -1.269847003652501d
+		}
+		{
+			dependencies: ["47FCFF662453A5FE"]
+			description: [
+				"{ftbquests.chapter.biomancy.quest1440906802470365282.description1}"
+				""
+				"{ftbquests.chapter.biomancy.quest1440906802470365282.description2}"
+				""
+				"{ftbquests.chapter.biomancy.quest1440906802470365282.description3}"
+				""
+				"{ftbquests.chapter.biomancy.quest1440906802470365282.description4}"
+				""
+				"{ftbquests.chapter.biomancy.quest1440906802470365282.description5}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.biomancy.quest1440906802470365282.description6}"
+				""
+				"{ftbquests.chapter.biomancy.quest1440906802470365282.description7}"
+			]
+			id: "13FF211A43B0A862"
+			rewards: [{
+				id: "0EFE78641016CA2C"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.biomancy.quest1440906802470365282.subtitle}"
+			tasks: [{
+				id: "2FC75C6BC5FE1345"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: 3.84582235391899d
+			y: -3.192758180611982d
+		}
+		{
+			dependencies: ["13FF211A43B0A862"]
+			description: [
+				"{ftbquests.chapter.biomancy.quest1436321437756207593.description1}"
+				""
+				"{ftbquests.chapter.biomancy.quest1436321437756207593.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "13EED6BCD8BCB1E9"
+			rewards: [{
+				id: "3E1A63423F0846A8"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.biomancy.quest1436321437756207593.subtitle}"
+			tasks: [{
+				id: "697B0483DE47032B"
+				title: "{ftbquests.chapter.biomancy.quest1436321437756207593.task.7600673760534266667.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.biomancy.quest1436321437756207593.title}"
+			x: 3.7006969820729907d
+			y: -4.789137270917966d
+		}
+		{
+			dependencies: ["13FF211A43B0A862"]
+			description: [
+				"{ftbquests.chapter.biomancy.quest3570758770284791198.description1}"
+				""
+				"{ftbquests.chapter.biomancy.quest3570758770284791198.description2}"
+			]
+			id: "318DE22ED16F859E"
+			rewards: [{
+				id: "04873001FDB8E2C9"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.biomancy.quest3570758770284791198.subtitle}"
+			tasks: [{
+				id: "7B13E3657AC4AEBB"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			x: 2.2131619206515083d
+			y: -4.426323841302974d
+		}
+		{
+			dependencies: ["13FF211A43B0A862"]
+			description: [
+				"{ftbquests.chapter.biomancy.quest9164974956200357459.description1}"
+				""
+				"{ftbquests.chapter.biomancy.quest9164974956200357459.description2}"
+				""
+				"{ftbquests.chapter.biomancy.quest9164974956200357459.description3}"
+			]
+			id: "7F30882A1FAC6E53"
+			rewards: [{
+				id: "511A9083BB3C870E"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.biomancy.quest9164974956200357459.subtitle}"
+			tasks: [{
+				id: "455C4ED6D342ABDE"
+				item: "biomancy:malignant_flesh_veins"
+				type: "item"
+			}]
+			x: 5.079388014609982d
+			y: -4.426323841302974d
+		}
+		{
+			dependencies: ["7F30882A1FAC6E53"]
+			id: "65D518734C26C65A"
+			rewards: [{
+				id: "6FA430DD044DA38E"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.biomancy.quest7337798051348006490.subtitle}"
+			tasks: [{
+				id: "0822189BCCD9FA22"
+				item: "biomancy:primal_permeable_membrane"
+				type: "item"
+			}]
+			x: 6.929736505646467d
+			y: -3.5918529531884786d
+		}
+		{
+			dependencies: ["318DE22ED16F859E"]
+			description: [
+				"{ftbquests.chapter.biomancy.quest3372745273600021248.description1}"
+				""
+				"{ftbquests.chapter.biomancy.quest3372745273600021248.description2}"
+			]
+			id: "2ECE65F4EECE9300"
+			rewards: [{
+				id: "22C8E2D3E62B340A"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.biomancy.quest3372745273600021248.subtitle}"
+			tasks: [{
+				id: "3A52BD55A8D1F7D2"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 0.10884402888452627d
+			y: -4.64401189907197d
+		}
+		{
+			dependencies: ["2ECE65F4EECE9300"]
+			description: [
+				"{ftbquests.chapter.biomancy.quest7503776635613342134.description1}"
+				""
+				"{ftbquests.chapter.biomancy.quest7503776635613342134.description2}"
+			]
+			id: "6822C517E79BE9B6"
+			rewards: [{
+				id: "4210FB879DD990DE"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.biomancy.quest7503776635613342134.subtitle}"
+			tasks: [{
+				id: "482A57AB3303406B"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: -2.3220059495359564d
+			y: -4.462605184264472d
+		}
+		{
+			dependencies: ["6822C517E79BE9B6"]
+			description: [
+				"{ftbquests.chapter.biomancy.quest3055448321630333389.description1}"
+				""
+				"{ftbquests.chapter.biomancy.quest3055448321630333389.description2}"
+				""
+				"{ftbquests.chapter.biomancy.quest3055448321630333389.description3}"
+				""
+				"{ftbquests.chapter.biomancy.quest3055448321630333389.description4}"
+			]
+			id: "2A67220F6056E9CD"
+			rewards: [
+				{
+					id: "13FB5792D5C0F180"
+					item: {
+						Count: 1
+						id: "biomancy:injector"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E0F4381EC10E363"
+					type: "xp"
+					xp: 5
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.biomancy.quest3055448321630333389.subtitle}"
+			tasks: [{
+				id: "424749EED0956888"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: -3.5555716102269486d
+			y: -3.0113514658044878d
+		}
+	]
+	title: "{ftbquests.chapter.biomancy.title}"
+}

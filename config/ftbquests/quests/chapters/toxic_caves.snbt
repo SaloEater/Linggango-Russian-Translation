@@ -1,0 +1,333 @@
+{
+	autofocus_id: "7C2C7D8176150769"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "toxic_caves"
+	group: "52FA8429D8BF5933"
+	hide_quest_until_deps_complete: true
+	icon: "alexscaves:nuclear_bomb"
+	id: "5CF54B38AEE0E717"
+	images: [
+		{
+			dependency: "7C2C7D8176150769"
+			height: 1.0d
+			image: "alexscaves:textures/mob_effect/irradiated.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.toxic_caves.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.toxic_caves.quest8947664554663675753.description1}"]
+			id: "7C2C7D8176150769"
+			shape: "square"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.toxic_caves.quest8947664554663675753.subtitle}"
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: "alexscaves:waste_drum"
+				id: "19F7601A44EDD553"
+				title: "{ftbquests.chapter.toxic_caves.quest8947664554663675753.task.1871069836137583955.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.toxic_caves.quest8947664554663675753.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C2C7D8176150769"]
+			id: "23261799A2240DD0"
+			rewards: [
+				{
+					id: "17BCA67527B73EA9"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01BEF0FDC5C47CA8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.toxic_caves.quest2532737789060189648.subtitle}"
+			tasks: [{
+				id: "35E3E531243EC4FE"
+				item: "alexscaves:radon_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C2C7D8176150769"]
+			icon: "alexscaves:spelunkie"
+			id: "2F622667D3C17E14"
+			subtitle: "{ftbquests.chapter.toxic_caves.quest3414333694876417556.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/feed_gammaroach"
+				criterion: ""
+				icon: "alexscaves:spelunkie"
+				id: "02D0152EF6E10615"
+				title: "{ftbquests.chapter.toxic_caves.quest3414333694876417556.task.202685274686293525.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.toxic_caves.quest3414333694876417556.title}"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C2C7D8176150769"]
+			id: "4E6FE5D0BB8C97F8"
+			subtitle: "{ftbquests.chapter.toxic_caves.quest5651988742035773432.subtitle}"
+			tasks: [{
+				id: "41465724A56AE9CC"
+				item: "alexscaves:toxic_paste"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.toxic_caves.quest5651988742035773432.title}"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C2C7D8176150769"]
+			id: "3F2C740E3816AD38"
+			rewards: [{
+				id: "34A6809FAF76B9A6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.toxic_caves.quest4552140927784103224.subtitle}"
+			tasks: [{
+				id: "752FBF63FF7DCDC9"
+				item: "alexscaves:sulfur_dust"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.toxic_caves.quest4552140927784103224.title}"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C2C7D8176150769"]
+			id: "3719344AD458019C"
+			rewards: [
+				{
+					id: "3DF5277765F3119D"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64106A4DD89B8E96"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.toxic_caves.quest3970262042498564508.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/enter_acid_with_armor"
+				criterion: ""
+				icon: "alexscaves:acid_bucket"
+				id: "43FBF4EAD55D7F06"
+				title: "{ftbquests.chapter.toxic_caves.quest3970262042498564508.task.4898778309134745350.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.toxic_caves.quest3970262042498564508.title}"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C2C7D8176150769"]
+			description: ["{ftbquests.chapter.toxic_caves.quest1556199332973602345.description1}"]
+			id: "1598BB0C59976629"
+			rewards: [{
+				id: "72DD28B52C24F45B"
+				item: "alexscaves:music_disc_fusion"
+				type: "item"
+			}]
+			shape: "goldtier"
+			subtitle: "{ftbquests.chapter.toxic_caves.quest1556199332973602345.subtitle}"
+			tasks: [{
+				id: "3C15ABF877527C57"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.toxic_caves.quest1556199332973602345.title}"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C2C7D8176150769"]
+			id: "4650C286C1F28CC6"
+			rewards: [{
+				id: "367BC1E553FEBAE0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.toxic_caves.quest5066763464827112646.subtitle}"
+			tasks: [{
+				id: "33DB5006C0568589"
+				item: "alexscaves:polymer_plate"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.toxic_caves.quest5066763464827112646.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4650C286C1F28CC6"]
+			id: "24E53B14181B639F"
+			rewards: [
+				{
+					count: 2
+					id: "503F257FE705FC0C"
+					item: "alexscaves:hazmat_warning_block"
+					type: "item"
+				}
+				{
+					id: "2FB25724EA838FD5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "18B3AF41F46DA06F"
+				item: {
+					Count: 1
+					id: "alexscaves:hazmat_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.toxic_caves.quest2658596112521978783.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4650C286C1F28CC6"]
+			id: "72108EF224E687C8"
+			rewards: [
+				{
+					count: 2
+					id: "02BB3BCEE523BAC9"
+					item: "alexscaves:hazmat_warning_block"
+					type: "item"
+				}
+				{
+					id: "69C6B30597C1CC71"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "27442BB38F7B79D0"
+				item: {
+					Count: 1
+					id: "alexscaves:hazmat_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.toxic_caves.quest8219226490603472840.title}"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4650C286C1F28CC6"]
+			id: "282D501F55248AE5"
+			rewards: [
+				{
+					count: 2
+					id: "493E94EE5BAD96A0"
+					item: "alexscaves:hazmat_warning_block"
+					type: "item"
+				}
+				{
+					id: "35D7370F141CDC4F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "37F56205EDFA5EA9"
+				item: {
+					Count: 1
+					id: "alexscaves:hazmat_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.toxic_caves.quest2895058230971763429.title}"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4650C286C1F28CC6"]
+			id: "737169B7D20D3EEB"
+			rewards: [
+				{
+					count: 2
+					id: "77DFCCE123F6C8D0"
+					item: "alexscaves:hazmat_warning_block"
+					type: "item"
+				}
+				{
+					id: "13FFE0A344D558C2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "025DF40CFA9ACEE1"
+				item: {
+					Count: 1
+					id: "alexscaves:hazmat_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.toxic_caves.quest8318546224954031851.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+	]
+	title: "{ftbquests.chapter.toxic_caves.title}"
+}

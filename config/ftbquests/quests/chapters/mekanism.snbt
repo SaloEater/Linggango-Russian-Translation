@@ -1,0 +1,2147 @@
+{
+	autofocus_id: "58B125BD4876054C"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamondtier"
+	filename: "mekanism"
+	group: "3C6437AAADAFC5CB"
+	icon: "mekanism:basic_smelting_factory"
+	id: "23983F4DC524B14B"
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.mekanism.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "armageddon_mod:textures/particle/void_flame_particle_5.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: -18.5d
+			y: -14.0d
+		}
+		{
+			height: 1.0d
+			image: "armageddon_mod:textures/particle/void_flame_particle_5.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -19.0d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "armageddon_mod:textures/particle/void_flame_particle_5.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -18.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "armageddon_mod:textures/particle/void_flame_particle_5.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: -18.0d
+			y: -14.5d
+		}
+		{
+			height: 2.0d
+			image: "customtextures:textures/mekanismlogo.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -20.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "customtextures:textures/toolsitems.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -20.0d
+			y: 3.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/"
+			height: 1.0d
+			hover: ["ftbquests.chapter.mekanism.image.hovertext2"]
+			image: "customtextures:textures/wikipng.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -21.0d
+			y: -2.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.mekanism.image.hovertext3"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -22.0d
+			y: -2.0d
+		}
+	]
+	order_index: 12
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F62B5510FA881CD"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest1597902948529485173.description1}"
+				""
+				"{ftbquests.chapter.mekanism.quest1597902948529485173.description2}"
+			]
+			id: "162CE44400A63575"
+			rewards: [
+				{
+					count: 2
+					id: "52FEA6D9C1258DA8"
+					item: "minecraft:redstone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "52912755CBA30A4D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "irontier"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.mekanism.quest1597902948529485173.subtitle}"
+			tasks: [{
+				id: "28277BA9F319240D"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			id: "08DDE018A804BFE7"
+			rewards: [
+				{
+					count: 3
+					id: "4DF8BB733E3987AA"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "5F32C9EFEDDA78E5"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest638913118659198951.subtitle}"
+			tasks: [{
+				id: "1AE233B4CCFE99F7"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			description: ["{ftbquests.chapter.mekanism.quest1825973425757531131.description1}"]
+			id: "195729280394ABFB"
+			rewards: [{
+				id: "268A8495184348CE"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest1825973425757531131.subtitle}"
+			tasks: [{
+				id: "6934C61AFEB0443D"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C25D42C36175BF4"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest8855487462298604922.description1}"
+				""
+				"{ftbquests.chapter.mekanism.quest8855487462298604922.description2}"
+			]
+			id: "7AE502EDB73BD57A"
+			rewards: [
+				{
+					count: 4
+					id: "62B555EE0C1159EA"
+					item: "mekanism:dirty_dust_iron"
+					type: "item"
+				}
+				{
+					id: "0E0B58D60884D6AD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest8855487462298604922.subtitle}"
+			tasks: [{
+				id: "431D7329CFCAF880"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			description: ["{ftbquests.chapter.mekanism.quest666687148032328472.description1}"]
+			id: "09408C6DCAC90318"
+			rewards: [{
+				id: "0CD8FBAF40FDD1E5"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest666687148032328472.subtitle}"
+			tasks: [{
+				id: "19C3A9D5E656FAA5"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["24CC389BA7DADF02"]
+			description: ["{ftbquests.chapter.mekanism.quest1976481349666388785.description1}"]
+			icon: "immersiveengineering:ingot_steel"
+			id: "1B6DDF50D00CBB31"
+			rewards: [{
+				id: "62B5B4DCE3CD982F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest1976481349666388785.subtitle}"
+			tasks: [{
+				id: "6B88F1F9DF50C1E4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "{ftbquests.chapter.mekanism.quest1976481349666388785.task.7748709214386700772.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest1976481349666388785.title}"
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "23F165DEAD225B10"
+			rewards: [
+				{
+					count: 4
+					id: "33E6BC2DA88E92EE"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+				{
+					id: "65D3C338D866F6C0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest2589963267776600848.subtitle}"
+			tasks: [{
+				id: "56F8A49135418FD8"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "2EF4DD5CC254CC80"
+			rewards: [
+				{
+					count: 4
+					id: "011785CCEDC7688E"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "6FA14D9A12111586"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest3383572610529152128.subtitle}"
+			tasks: [{
+				id: "45B151086147D98D"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "4434D7B66521D69A"
+			rewards: [
+				{
+					count: 4
+					id: "43C7CBD7952BAF44"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
+				}
+				{
+					id: "0C073BA4ADC6439C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest4914790271748789914.subtitle}"
+			tasks: [{
+				id: "685BFFC7BDA40FC3"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "5B681BC43371CC5C"
+			rewards: [
+				{
+					count: 4
+					id: "75E2FFA83AB6A12A"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
+				}
+				{
+					id: "0E81EDFBC2D49452"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest6586544984519986268.subtitle}"
+			tasks: [{
+				id: "3F972BE9DFCA1EB5"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "531E3FF1F2865C67"
+			rewards: [
+				{
+					count: 4
+					id: "434BA009CC22D188"
+					item: "mekanism:basic_thermodynamic_conductor"
+					type: "item"
+				}
+				{
+					id: "02D46DE414B9402B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest5989294862837898343.subtitle}"
+			tasks: [{
+				id: "5F4FEC0FD7C5CC33"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["195729280394ABFB"]
+			id: "31B73D16C0199785"
+			rewards: [
+				{
+					id: "66D918CA2A6FE21B"
+					item: "mekanism:enriched_refined_obsidian"
+					type: "item"
+				}
+				{
+					id: "0E6DCEACCB6074DF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "69CEEFADCFA28675"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["195729280394ABFB"]
+			id: "58445E5B3957ACC8"
+			rewards: [
+				{
+					count: 2
+					id: "356543506AA2B6B0"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "7B3AD733695E004D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "532EE85D4748D50D"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"18D88932916C7A98"
+				"407EFAF528871014"
+			]
+			description: [
+				"{ftbquests.chapter.mekanism.quest7792868016585661428.description1}"
+				""
+				"{ftbquests.chapter.mekanism.quest7792868016585661428.description2}"
+				""
+				"{ftbquests.chapter.mekanism.quest7792868016585661428.description3}"
+				""
+				"{ftbquests.chapter.mekanism.quest7792868016585661428.description4}"
+				""
+				"{ftbquests.chapter.mekanism.quest7792868016585661428.description5}"
+			]
+			id: "6C25D42C36175BF4"
+			rewards: [
+				{
+					count: 4
+					id: "258304336DF472BB"
+					item: "mekanism:clump_iron"
+					type: "item"
+				}
+				{
+					id: "2AF72C7C24D94674"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest7792868016585661428.subtitle}"
+			tasks: [{
+				id: "4983AE3B954BF2FE"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			description: ["{ftbquests.chapter.mekanism.quest5228044102127270136.description1}"]
+			id: "488DBE69595F38F8"
+			rewards: [
+				{
+					count: 2
+					id: "43FE96E4A4A00D5C"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "40AB668F74703AC6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest5228044102127270136.subtitle}"
+			tasks: [{
+				id: "5A081977DB9407EA"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			id: "18D88932916C7A98"
+			rewards: [
+				{
+					id: "58B361AC94AEB36D"
+					item: "mekanism:alloy_infused"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C296148AF479F71"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest1790331702160947864.subtitle}"
+			tasks: [{
+				id: "054CC6FB5173F8A3"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["407EFAF528871014"]
+			id: "3EC9D0DA61B45328"
+			rewards: [
+				{
+					count: 2
+					id: "5E48D3BDD3BDAF4C"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "56B7014FCB396F47"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest4524376937031029544.subtitle}"
+			tasks: [{
+				id: "2C13E8B67BC61E34"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AE502EDB73BD57A"]
+			id: "4F1C04C0F6769825"
+			rewards: [
+				{
+					count: 2
+					id: "241F3906AE9BC520"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "2216852A9C647509"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest5700436455159404581.subtitle}"
+			tasks: [{
+				id: "443DCB7E2E45F3DD"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["603877AB96321F1A"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest352078165490498319.description1}"
+				""
+				"{ftbquests.chapter.mekanism.quest352078165490498319.description2}"
+			]
+			id: "04E2D539E33B7B0F"
+			rewards: [{
+				id: "576766449D68D6D4"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest352078165490498319.subtitle}"
+			tasks: [{
+				id: "31D203EC92BEA66F"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -0.5000000000000004d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F1C04C0F6769825"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest6933423205179858714.description1}"
+				""
+				"{ftbquests.chapter.mekanism.quest6933423205179858714.description2}"
+			]
+			id: "603877AB96321F1A"
+			rewards: [{
+				id: "2A58C351E36E9DD3"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					count: 33L
+					id: "36FB524EEAB5D7D9"
+					item: { Count: 2, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					id: "09DFC6D9331DC5BD"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "33FB8EC195C0B73B"
+					item: { Count: 2, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mekanism.quest6933423205179858714.title}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4F1C04C0F6769825"
+				"04E2D539E33B7B0F"
+			]
+			description: ["{ftbquests.chapter.mekanism.quest5711522486710797600.description1}"]
+			id: "4F436770D30D8520"
+			rewards: [
+				{
+					count: 5
+					id: "168E7AFB6769C922"
+					item: "mekanism:ingot_refined_obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0A42ABE6D34462D5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest5711522486710797600.subtitle}"
+			tasks: [{
+				id: "1FE5AA0FF1F9BB51"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
+			description: ["{ftbquests.chapter.mekanism.quest4771205297597192435.description1}"]
+			id: "4236B9F071BE18F3"
+			rewards: [{
+				id: "31A8BB8FAFD364E7"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest4771205297597192435.subtitle}"
+			tasks: [{
+				id: "50D9504BFFB97A27"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest4771205297597192435.title}"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest3325710339482368199.description1}"
+				""
+				"{ftbquests.chapter.mekanism.quest3325710339482368199.description2}"
+				""
+				"{ftbquests.chapter.mekanism.quest3325710339482368199.description3}"
+			]
+			id: "2E274BEEF2B0B8C7"
+			rewards: [{
+				id: "2F7DD21804D3F74C"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest3325710339482368199.subtitle}"
+			tasks: [
+				{
+					id: "21BFDF262D2A9DB3"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+				{
+					id: "7A97B4F3A002A1C3"
+					item: "immersiveengineering:dust_sulfur"
+					type: "item"
+				}
+			]
+			x: -0.5000000000000004d
+			y: 5.5d
+		}
+		{
+			dependencies: ["603877AB96321F1A"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest175786269097716646.description1}"
+				""
+				"{ftbquests.chapter.mekanism.quest175786269097716646.description2}"
+			]
+			id: "027084AE2DF5EBA6"
+			optional: true
+			rewards: [
+				{
+					id: "3EF65B888EC38888"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					id: "12B2CD9579419F81"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest175786269097716646.subtitle}"
+			tasks: [{
+				id: "6E75525A5D88EF23"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:fuelwood_heater"
+							}
+							{
+								Count: 1b
+								id: "mekanism:resistive_heater"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.mekanism.quest175786269097716646.task.7959358464517009187.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest175786269097716646.title}"
+			x: 0.3999999999999999d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18D88932916C7A98"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest4647427796346802196.description1}"
+				"{ftbquests.chapter.mekanism.quest4647427796346802196.image0}"
+				"{ftbquests.chapter.mekanism.quest4647427796346802196.description2}"
+				""
+				"{ftbquests.chapter.mekanism.quest4647427796346802196.description3}"
+			]
+			id: "407EFAF528871014"
+			repeatable: true
+			rewards: [
+				{
+					id: "5F4E37BD22336518"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "661BF73705DAFB31"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "heart"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest4647427796346802196.subtitle}"
+			tasks: [{
+				id: "16DAFC5C5846015A"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest4647427796346802196.title}"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			id: "74200A48498DD7F8"
+			rewards: [{
+				id: "74FCF5135C24D033"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest8367699413242337272.subtitle}"
+			tasks: [{
+				id: "22ACFEB806D68385"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest455032253514821045.description1}"
+				"{ftbquests.chapter.mekanism.quest455032253514821045.image0}"
+				"{ftbquests.chapter.mekanism.quest455032253514821045.description2}"
+			]
+			id: "0650996C7818ADB5"
+			rewards: [
+				{
+					id: "6D2DD795F34A4177"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "373EF802283EAF2E"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest455032253514821045.subtitle}"
+			tasks: [{
+				id: "7BA12BAB8271E170"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			id: "6CD1720B76F47806"
+			rewards: [{
+				id: "45C7E780DC5681CF"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest7841173819794683910.subtitle}"
+			tasks: [{
+				id: "36B12984060A90FD"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74200A48498DD7F8"]
+			id: "4EDD96EB60EF5814"
+			rewards: [{
+				id: "0736D51EE3F58FA4"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest5682864242499213332.subtitle}"
+			tasks: [{
+				id: "4F0B3CA66BE1AEE1"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			description: ["{ftbquests.chapter.mekanism.quest8608792856883610036.description1}"]
+			id: "7778937DF377C1B4"
+			rewards: [{
+				id: "32DF83533E5D7416"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest8608792856883610036.subtitle}"
+			tasks: [{
+				id: "50624A39AD15A8A6"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			description: ["{ftbquests.chapter.mekanism.quest6390930841110185292.description1}"]
+			icon: {
+				Count: 1
+				id: "mekanism:creative_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "18446744073709551615.9999"
+						}]
+					}
+				}
+			}
+			id: "58B125BD4876054C"
+			rewards: [
+				{
+					id: "1C5A7C0402C237DD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4EE436C3A85B1B84"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.mekanism.quest6390930841110185292.subtitle}"
+			tasks: [{
+				id: "75BC02D6E4F948EF"
+				title: "{ftbquests.chapter.mekanism.quest6390930841110185292.task.8483658920046971119.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest6390930841110185292.title}"
+			x: -20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0650996C7818ADB5"]
+			id: "6F62B5510FA881CD"
+			rewards: [
+				{
+					id: "52CF295425D3C2B9"
+					item: "mekanism:ingot_osmium"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "75AA096A6B99BFA3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest8026176845687325133.subtitle}"
+			tasks: [{
+				id: "7837495036A1389E"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest8026176845687325133.title}"
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			id: "587A19FC348387C5"
+			rewards: [
+				{
+					count: 2
+					id: "7F4F10CD3B125E3A"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+				{
+					id: "6153A09A9D197270"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2DFA242964A8E977"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest6375436793499846597.subtitle}"
+			tasks: [{
+				id: "1C162E39F2ACA72F"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AE502EDB73BD57A"]
+			description: ["{ftbquests.chapter.mekanism.quest4270497778188843844.description1}"]
+			id: "3B43DB1A6B0A7B44"
+			rewards: [
+				{
+					id: "174A1D24134BB9DC"
+					item: "mekanism:bio_fuel"
+					type: "item"
+				}
+				{
+					id: "72D588EA49839008"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest4270497778188843844.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "05138E2E906020F3"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest4270497778188843844.title}"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B43DB1A6B0A7B44"]
+			description: ["{ftbquests.chapter.mekanism.quest5784725478127882925.description1}"]
+			id: "5047792C6EF6D2AD"
+			rewards: [
+				{
+					id: "4501F6A232456167"
+					item: "mekanism:substrate"
+					type: "item"
+				}
+				{
+					id: "1979E89900B74A27"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest5784725478127882925.subtitle}"
+			tasks: [{
+				count: 3L
+				id: "1F6A5B58DF94730B"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest5784725478127882925.title}"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5047792C6EF6D2AD"]
+			description: ["{ftbquests.chapter.mekanism.quest8548831318368505261.description1}"]
+			id: "76A38CCA5816CDAD"
+			rewards: [
+				{
+					count: 2
+					id: "16F49D5355A06C1B"
+					item: "mekanism:substrate"
+					type: "item"
+				}
+				{
+					id: "1138396810238D01"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest8548831318368505261.subtitle}"
+			tasks: [{
+				count: 3L
+				id: "62E8F3CC847BBD3D"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest8548831318368505261.title}"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["76A38CCA5816CDAD"]
+			description: [
+				"{ftbquests.chapter.mekanism.quest5120712492418089792.description1}"
+				""
+				"{ftbquests.chapter.mekanism.quest5120712492418089792.description2}"
+			]
+			id: "47106CE1937C4340"
+			rewards: [
+				{
+					count: 3
+					id: "78A06CC539C1B6AE"
+					item: "mekanism:hdpe_pellet"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6222BDC7235A0FBC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest5120712492418089792.subtitle}"
+			tasks: [{
+				id: "6EE6F07986BAFC3B"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest5120712492418089792.title}"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
+			id: "4AFF81D3D0E78255"
+			rewards: [{
+				id: "18B6402C4049FD4C"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest5404180824610800213.subtitle}"
+			tasks: [{
+				id: "1DA159AA61B37545"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: -4.440892098500626E-16d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F436770D30D8520"]
+			id: "3999760881C855FA"
+			rewards: [{
+				id: "75C11279E936ADAA"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism.quest4150478310507828730.subtitle}"
+			tasks: [{
+				id: "6F2B3A4206C129B0"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			description: ["{ftbquests.chapter.mekanism.quest2651556521801604866.description1}"]
+			id: "24CC389BA7DADF02"
+			shape: "irontier"
+			subtitle: "{ftbquests.chapter.mekanism.quest2651556521801604866.subtitle}"
+			tasks: [{
+				id: "3419A33AB9093631"
+				item: "mekanism:enriched_iron"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			id: "636C7BCB9AE3F07B"
+			size: 1.0d
+			tasks: [{
+				id: "017EC89F516C5809"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["636C7BCB9AE3F07B"]
+			id: "7402ABC332F1F997"
+			tasks: [{
+				id: "78F3AB03E2647D1C"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7402ABC332F1F997"]
+			id: "4F2C46E64AD32995"
+			tasks: [{
+				id: "3D6731044835B953"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4F2C46E64AD32995"]
+			id: "008CB16916C2FAF0"
+			size: 1.0d
+			tasks: [{
+				id: "0E5DC2A51E4C4186"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "111D2F31256C4D32"
+			shape: "diamondtier"
+			tasks: [{
+				id: "10608D0A60549955"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "7679CB4251D39FA1"
+			shape: "diamondtier"
+			tasks: [{
+				id: "2ACFB4D2116B34E2"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B6DDF50D00CBB31"]
+			id: "4F5A20C99705586C"
+			shape: "diamondtier"
+			tasks: [{
+				id: "6046C9D3BD774026"
+				item: "mekanism:basic_chemical_tank"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FFA676048F405DB"]
+			id: "1497789D5ED1CD05"
+			tasks: [{
+				id: "7BE4C289E35206D9"
+				item: "mekanism:advanced_fluid_tank"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0FFA676048F405DB"]
+			id: "2FF909E7B2B26D51"
+			tasks: [{
+				id: "79944D671E365A0C"
+				item: "mekanism:advanced_logistical_transporter"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0FFA676048F405DB"]
+			id: "7EDB092B8F47D034"
+			tasks: [{
+				id: "7FAFFBB29B8711ED"
+				item: "mekanism:advanced_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			dependency_requirement: "one_completed"
+			id: "0FFA676048F405DB"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "780A3E6343CC7B58"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest1151346317985056219.title}"
+			x: -14.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0FFA676048F405DB"]
+			id: "1C840312C0C4B2A9"
+			tasks: [{
+				id: "79031E97D3AEBC8C"
+				item: "mekanism:advanced_universal_cable"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0FFA676048F405DB"]
+			id: "707A400FA49FA56A"
+			tasks: [{
+				id: "23D3E65C78BA3917"
+				item: "mekanism:advanced_chemical_tank"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0FFA676048F405DB"]
+			id: "369FEF6D54A43591"
+			tasks: [{
+				id: "472B55601807874F"
+				item: "mekanism:advanced_mechanical_pipe"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0FFA676048F405DB"]
+			id: "5F27BDC8E0271A97"
+			tasks: [{
+				id: "6610D44A48CBDCE3"
+				item: "mekanism:advanced_pressurized_tube"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0FFA676048F405DB"]
+			id: "5C1CCBC91DA258B9"
+			tasks: [{
+				id: "4880F5F6612541CC"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["42E25D5496D50F91"]
+			id: "29286CB610692418"
+			shape: "netheritetier"
+			tasks: [{
+				id: "728648FC6A1705EC"
+				item: "mekanism:elite_chemical_tank"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["42E25D5496D50F91"]
+			id: "0F56D0F75815B12D"
+			shape: "netheritetier"
+			tasks: [{
+				id: "19812FF1166A33FC"
+				item: "mekanism:elite_mechanical_pipe"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["42E25D5496D50F91"]
+			id: "0DDD3A9106CBE6A9"
+			shape: "netheritetier"
+			tasks: [{
+				id: "488F825E2686C8F9"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["42E25D5496D50F91"]
+			id: "187BF7E051730C47"
+			shape: "netheritetier"
+			tasks: [{
+				id: "2F7FF3F3EA6D62E1"
+				item: "mekanism:elite_pressurized_tube"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0FFA676048F405DB"]
+			dependency_requirement: "one_completed"
+			id: "42E25D5496D50F91"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "0B3C0795C72270F0"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest4819517169129033617.title}"
+			x: -18.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["42E25D5496D50F91"]
+			id: "10C38B2E2C976190"
+			shape: "netheritetier"
+			tasks: [{
+				id: "626619B4AAF615C1"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["42E25D5496D50F91"]
+			id: "6E2ECF7B80B680F0"
+			shape: "netheritetier"
+			tasks: [{
+				id: "2E9C55C155B53E64"
+				item: "mekanism:elite_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["42E25D5496D50F91"]
+			id: "2F741DB94231B409"
+			shape: "netheritetier"
+			tasks: [{
+				id: "6B5A9E08CECED5EB"
+				item: "mekanism:elite_fluid_tank"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["42E25D5496D50F91"]
+			id: "3DE6391D2A183B3E"
+			shape: "netheritetier"
+			tasks: [{
+				id: "4F278D61CFF7B073"
+				item: "mekanism:elite_logistical_transporter"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0217AD52F7FE8ACE"]
+			id: "60EA1D859D28EEF8"
+			shape: "netheritetier"
+			tasks: [{
+				id: "0F604B181B792CF6"
+				item: "mekanism:ultimate_chemical_tank"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["0217AD52F7FE8ACE"]
+			hide_until_deps_complete: true
+			id: "23E0924183E160A1"
+			shape: "netheritetier"
+			tasks: [{
+				id: "14B43F5B1A47589C"
+				item: "mekanism:ultimate_logistical_transporter"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0217AD52F7FE8ACE"]
+			id: "718E57DE59F0A47D"
+			shape: "netheritetier"
+			tasks: [{
+				id: "5E74A376FBB774C2"
+				item: "mekanism:ultimate_pressurized_tube"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0217AD52F7FE8ACE"]
+			id: "293AA05E2E5E8359"
+			shape: "netheritetier"
+			tasks: [{
+				id: "3C142C7860128AC2"
+				item: "mekanism:ultimate_universal_cable"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0217AD52F7FE8ACE"]
+			id: "5A427FA273B134D7"
+			shape: "netheritetier"
+			tasks: [{
+				id: "5370772BCC84D7BA"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0217AD52F7FE8ACE"]
+			id: "237D47BA2BCE08C3"
+			shape: "netheritetier"
+			tasks: [{
+				id: "34C54B9AAE68ED28"
+				item: "mekanism:ultimate_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0217AD52F7FE8ACE"]
+			id: "2FCE798280F8EFDB"
+			shape: "netheritetier"
+			tasks: [{
+				id: "7B1456ECE1E84BD8"
+				item: "mekanism:ultimate_mechanical_pipe"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0217AD52F7FE8ACE"]
+			id: "3F8D9787ED8C6C8E"
+			shape: "netheritetier"
+			tasks: [{
+				id: "6DFEFECB5980C476"
+				item: "mekanism:ultimate_fluid_tank"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["42E25D5496D50F91"]
+			dependency_requirement: "one_completed"
+			id: "0217AD52F7FE8ACE"
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				id: "06FC043ACFC98F8C"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest150779684399778510.title}"
+			x: -18.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			id: "21F51D7629B89927"
+			rewards: [{
+				id: "0AA6EB47F3980566"
+				item: "mekanism:enriched_iron"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 0.6d
+			subtitle: "{ftbquests.chapter.mekanism.quest2446894365889042727.subtitle}"
+			tasks: [{
+				id: "02B3A296838B0B7C"
+				item: "mekanism:enriched_iron"
+				type: "item"
+			}]
+			x: -10.446479115681313d
+			y: -1.1958403229278218d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			id: "259CE79A1DF7326B"
+			rewards: [{
+				id: "18F563CDEAAEEBA9"
+				item: "mekanism:enriched_redstone"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 0.6d
+			subtitle: "{ftbquests.chapter.mekanism.quest2710295724883915371.subtitle}"
+			tasks: [{
+				id: "55A4332691A42333"
+				item: "mekanism:enriched_redstone"
+				type: "item"
+			}]
+			x: -10.446479115681313d
+			y: -0.49584032292782243d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			id: "17F0C3B9BF0A28FC"
+			rewards: [{
+				id: "7F7B057C7CB261E0"
+				item: "mekanism:enriched_gold"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 0.6d
+			subtitle: "{ftbquests.chapter.mekanism.quest1725093859824380156.subtitle}"
+			tasks: [{
+				id: "3812D14FB963D155"
+				item: "mekanism:enriched_gold"
+				type: "item"
+			}]
+			x: -10.446479115681313d
+			y: 0.10415967707217799d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			id: "1E3F545A684E6ABE"
+			rewards: [{
+				id: "3BDC85A63AD750D3"
+				item: "mekanism:enriched_refined_obsidian"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 0.6d
+			subtitle: "{ftbquests.chapter.mekanism.quest2179553491944368830.subtitle}"
+			tasks: [{
+				id: "71D151C53B5A1774"
+				item: "mekanism:enriched_refined_obsidian"
+				type: "item"
+			}]
+			x: -9.996479115681314d
+			y: 0.5841596770721775d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			id: "7EE075AB41C822F9"
+			rewards: [{
+				id: "427309922EA1FBC3"
+				item: "mekanism:enriched_diamond"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 0.6d
+			subtitle: "{ftbquests.chapter.mekanism.quest9142436621965599481.subtitle}"
+			tasks: [{
+				id: "4A76452487007E2F"
+				item: "mekanism:enriched_diamond"
+				type: "item"
+			}]
+			x: -9.546479115681313d
+			y: 0.10415967707217799d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			id: "41E2793CBA650317"
+			rewards: [{
+				id: "59C1099FFDE5E55F"
+				item: "mekanism:enriched_tin"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 0.6d
+			subtitle: "{ftbquests.chapter.mekanism.quest4747490258934104855.subtitle}"
+			tasks: [{
+				id: "6F840A9468EC5758"
+				item: "mekanism:enriched_tin"
+				type: "item"
+			}]
+			x: -9.546479115681313d
+			y: -0.49584032292782243d
+		}
+		{
+			dependencies: ["08DDE018A804BFE7"]
+			id: "74C146F700685D1D"
+			rewards: [{
+				id: "691B93502554D18C"
+				item: "mekanism:enriched_carbon"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			size: 0.6d
+			subtitle: "{ftbquests.chapter.mekanism.quest8413083605582503197.subtitle}"
+			tasks: [{
+				id: "522B7A3C514E4CD9"
+				item: "mekanism:enriched_carbon"
+				type: "item"
+			}]
+			x: -9.546479115681313d
+			y: -1.1958403229278218d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			hide_dependency_lines: true
+			id: "6204FD44E430A012"
+			shape: "square"
+			tasks: [{
+				id: "45939EA9569BB1FB"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			hide_dependent_lines: true
+			id: "6265139131AA0385"
+			shape: "square"
+			tasks: [{
+				id: "06A35F876D009E57"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "255BC3CDB0096E69"
+			shape: "square"
+			tasks: [
+				{
+					id: "7D0F00B863A3832B"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "5DA7148DB06630A5"
+					item: { Count: 9, id: "mekanism:teleporter_frame" }
+					type: "item"
+				}
+			]
+			x: -19.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			hide_dependency_lines: true
+			id: "64AFD9DC66E5484F"
+			shape: "square"
+			tasks: [{
+				id: "758D949BEB2708F7"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			hide_dependency_lines: true
+			id: "1F031D0DE9CE502C"
+			shape: "square"
+			tasks: [{
+				id: "6C89B0FE18FDACFF"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			hide_dependency_lines: true
+			id: "3881B34C1F9773EC"
+			shape: "square"
+			tasks: [{
+				id: "2E343AC454DE6767"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			hide_dependency_lines: true
+			id: "46582374BD24C805"
+			shape: "square"
+			tasks: [{
+				id: "3E7A9EFC1A746243"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			hide_dependency_lines: true
+			id: "5703872B3F5C2CD4"
+			shape: "square"
+			tasks: [{
+				id: "276B68E25224A5A7"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["58B125BD4876054C"]
+			hide_dependency_lines: true
+			id: "135267E1A065CB17"
+			shape: "square"
+			tasks: [
+				{
+					count: 25L
+					id: "5781D643210EA98A"
+					item: { Count: 25, id: "mekanism:dynamic_tank" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "678B9D47A7F77C92"
+					item: { Count: 2, id: "mekanism:dynamic_valve" }
+					type: "item"
+				}
+			]
+			x: -19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["162CE44400A63575"]
+			id: "0A62F1C9A0EDFFBB"
+			tasks: [{
+				id: "32C48BBC3926483C"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest748426336387596219.title}"
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A62F1C9A0EDFFBB"]
+			id: "4A281A2B2C74909B"
+			tasks: [{
+				id: "62D3A0193984B884"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FFA676048F405DB"]
+			id: "2FB9EF03C79B4A5B"
+			tasks: [{
+				id: "1FD043EDA4C68FEF"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0FFA676048F405DB"]
+			id: "25B235E00E11A85F"
+			tasks: [{
+				id: "7EF00354F5C9D9E3"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0A62F1C9A0EDFFBB"]
+			id: "7F0193683A7CEB9D"
+			tasks: [{
+				id: "1E3931E7B94FA7D6"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FFA676048F405DB"]
+			id: "0B2A1564E7D9A2E3"
+			tasks: [{
+				id: "6B78FAF77B1239AE"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"0B2A1564E7D9A2E3"
+				"2FB9EF03C79B4A5B"
+				"25B235E00E11A85F"
+			]
+			dependency_requirement: "one_completed"
+			id: "2196ED4AF876998E"
+			size: 1.2d
+			tasks: [{
+				id: "5234CD6FC0DF0E56"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest2420382756010105230.title}"
+			x: -14.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2196ED4AF876998E"]
+			id: "4AA7E2E5C21A8648"
+			tasks: [{
+				id: "330936C956A21088"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2196ED4AF876998E"]
+			id: "7EBD54FB210711AE"
+			tasks: [{
+				id: "467D732DC4D6BD11"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["2196ED4AF876998E"]
+			id: "0435691B7554B9BC"
+			tasks: [{
+				id: "1C069B14AD5672D8"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"0435691B7554B9BC"
+				"7EBD54FB210711AE"
+			]
+			dependency_requirement: "one_completed"
+			id: "0A87644C9CD8031D"
+			size: 1.2d
+			tasks: [{
+				id: "60F571ED6CC4C5DB"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest758685342446912285.title}"
+			x: -11.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["0A87644C9CD8031D"]
+			id: "36BAD955C0AF61D9"
+			tasks: [{
+				id: "28FF5B8B2A460032"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["0A87644C9CD8031D"]
+			id: "5B724DF54ABDEFF1"
+			tasks: [{
+				id: "4D2CDF25632594FA"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5B724DF54ABDEFF1"]
+			dependency_requirement: "one_completed"
+			id: "6DABA16F792D5CF8"
+			size: 1.2d
+			tasks: [{
+				id: "595B6222A1A82134"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism.quest7902587471298125048.title}"
+			x: -8.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["6DABA16F792D5CF8"]
+			id: "11B41D649555557F"
+			tasks: [{
+				id: "28FFD3EE8C702BE6"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6DABA16F792D5CF8"]
+			id: "3F58EF8289A69887"
+			tasks: [{
+				id: "569E1BA066147779"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6DABA16F792D5CF8"]
+			id: "28FC883B7CF4B92B"
+			tasks: [{
+				id: "0F1881965D591A4C"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6DABA16F792D5CF8"]
+			id: "58248E856D5D4B4E"
+			tasks: [{
+				id: "6878E8D087B8E3AD"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6DABA16F792D5CF8"]
+			id: "6AD5F0FFE19C9B5F"
+			tasks: [{
+				id: "59ED398F94CC0ACB"
+				item: "mekanism:dimensional_stabilizer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"28FC883B7CF4B92B"
+				"3F58EF8289A69887"
+				"58248E856D5D4B4E"
+				"6AD5F0FFE19C9B5F"
+			]
+			dependency_requirement: "one_completed"
+			id: "5B7CCB52AA160343"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "0745F3200B5C2657"
+				item: "immersiveengineering:dust_sulfur"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["603877AB96321F1A"]
+			id: "783D70FEAC7A5099"
+			tasks: [{
+				id: "47505C12FBEA5738"
+				item: "mekanism:fuelwood_heater"
+				type: "item"
+			}]
+			x: 0.3999999999999999d
+			y: 0.5d
+		}
+		{
+			dependencies: ["603877AB96321F1A"]
+			id: "1427B2D2C24084BE"
+			tasks: [{
+				id: "1C51E7A5433EE035"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			x: 1.4000000000000004d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F62B5510FA881CD"]
+			id: "2997F9BE68971860"
+			rewards: [{
+				count: 5
+				id: "3505E0E3F49F47EF"
+				item: "mekanismcovers:empty_cover"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.mekanism.quest2997138673232189536.subtitle}"
+			tasks: [{
+				id: "2DEDCF852578CA7B"
+				item: "mekanismcovers:empty_cover"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+	]
+	title: "{ftbquests.chapter.mekanism.title}"
+}

@@ -1,0 +1,362 @@
+{
+	autofocus_id: "02FEDD41D90377E8"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "abyssal_chasm"
+	group: "52FA8429D8BF5933"
+	hide_quest_until_deps_complete: true
+	icon: "alexscaves:submarine"
+	id: "4C3702E01D31CEEF"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: ["ftbquests.chapter.abyssal_chasm.image.hovertext1"]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 2.0d
+		y: -1.5d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.abyssal_chasm.quest215853107043858408.description1}"]
+			id: "02FEDD41D90377E8"
+			rewards: [{
+				id: "5B930C75107E8BF0"
+				type: "xp"
+				xp: 20
+			}]
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest215853107043858408.subtitle}"
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: "alexscaves:submarine"
+				id: "68FB2263D550FE8B"
+				title: "{ftbquests.chapter.abyssal_chasm.quest215853107043858408.task.7564677811274841739.title}"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02FEDD41D90377E8"]
+			description: ["{ftbquests.chapter.abyssal_chasm.quest1263896567348423997.description1}"]
+			id: "118A433B49A36D3D"
+			rewards: [{
+				id: "5DE4F57CA3B5B3B7"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest1263896567348423997.subtitle}"
+			tasks: [{
+				id: "273F79FD793C2CBF"
+				item: "alexscaves:pearl"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.abyssal_chasm.quest1263896567348423997.title}"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["02FEDD41D90377E8"]
+			description: ["{ftbquests.chapter.abyssal_chasm.quest4188747754700639424.description1}"]
+			id: "3A216BE3D4A58CC0"
+			rewards: [
+				{
+					id: "6F1796611472A8C6"
+					item: "alexscaves:floater"
+					type: "item"
+				}
+				{
+					id: "6C9C6ECB01A63945"
+					item: "minecraft:tide_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "7CFE3365546110EA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest4188747754700639424.subtitle}"
+			tasks: [
+				{
+					id: "25B2AD82CB75AFA5"
+					item: {
+						Count: 1
+						id: "alexscaves:magic_conch"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17379C6A71A95DD3"
+					item: {
+						Count: 1
+						id: "alexscaves:ortholance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05A6D781000F3C60"
+					item: {
+						Count: 1
+						id: "alexscaves:sea_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DE0A471DAA91D49"
+					item: "alexscaves:gazing_pearl"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.abyssal_chasm.quest4188747754700639424.title}"
+			x: -0.18571428571429038d
+			y: 0.29999999999999716d
+		}
+		{
+			dependencies: ["02FEDD41D90377E8"]
+			id: "6649AA1E55F1AFF1"
+			rewards: [{
+				id: "46B1FDED77435C09"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest7370609312436170737.subtitle}"
+			tasks: [{
+				entity: "alexscaves:mine_guardian"
+				icon: "alexscaves:depth_charge"
+				id: "7B45B69882886BC9"
+				title: "{ftbquests.chapter.abyssal_chasm.quest7370609312436170737.task.8882706606199434185.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0714285714285765d
+			y: -0.6714285714285708d
+		}
+		{
+			dependencies: ["118A433B49A36D3D"]
+			id: "00DB35801E4A3BBD"
+			rewards: [{
+				id: "1C45AFB433ED4F2E"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest61701844279901117.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/pearl_on_abyssal_altar"
+				criterion: ""
+				id: "006318633BCDCD20"
+				title: "{ftbquests.chapter.abyssal_chasm.quest61701844279901117.task.27892837178527008.title}"
+				type: "advancement"
+			}]
+			x: 0.8999999999999915d
+			y: 2.214285714285708d
+		}
+		{
+			dependencies: ["00DB35801E4A3BBD"]
+			description: ["{ftbquests.chapter.abyssal_chasm.quest729911379298121027.description1}"]
+			id: "0A212A8840947543"
+			rewards: [{
+				id: "71640AF390D2D100"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest729911379298121027.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/trade_with_deep_one"
+				criterion: ""
+				id: "2CC08710D9E7AE34"
+				title: "{ftbquests.chapter.abyssal_chasm.quest729911379298121027.task.3224725839642340916.title}"
+				type: "advancement"
+			}]
+			x: 0.3928571428571388d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"545CDA9384611F5F"
+				"466D6F758EA2FC24"
+				"399DBC14B72D707C"
+				"00C40ED8951B9359"
+			]
+			description: ["{ftbquests.chapter.abyssal_chasm.quest6598350384365972674.description1}"]
+			id: "5B920CB70BB22CC2"
+			rewards: [{
+				id: "24C614CFCE1F9A75"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest6598350384365972674.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/diving_armor"
+				criterion: ""
+				icon: "create:copper_valve_handle"
+				id: "1D1D421E5680E016"
+				title: "{ftbquests.chapter.abyssal_chasm.quest6598350384365972674.task.2097905699492257814.title}"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A212A8840947543"]
+			id: "279105874F511E31"
+			rewards: [{
+				id: "5BBE6CD55217D0F0"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest2851066117811674673.subtitle}"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/deep_ones_become_helpful"
+				criterion: ""
+				id: "430FD15BDE49CA02"
+				title: "{ftbquests.chapter.abyssal_chasm.quest2851066117811674673.task.4832311117693438466.title}"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02FEDD41D90377E8"]
+			hide_dependency_lines: true
+			id: "00C40ED8951B9359"
+			rewards: [
+				{
+					count: 2
+					id: "469EFB9E662675BD"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7AB2E02BFA7A1454"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "358F209640DA9EF5"
+				item: {
+					Count: 1
+					id: "alexscaves:diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["02FEDD41D90377E8"]
+			hide_dependency_lines: true
+			id: "399DBC14B72D707C"
+			rewards: [
+				{
+					count: 2
+					id: "3D65131467320C32"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7053B83BC32C17D8"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "365AE26AE1AD4E68"
+				item: {
+					Count: 1
+					id: "alexscaves:diving_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02FEDD41D90377E8"]
+			hide_dependency_lines: true
+			id: "466D6F758EA2FC24"
+			rewards: [
+				{
+					count: 2
+					id: "2DB0E3867FA1E369"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1E9DD975C74FA24F"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62D1512102F27DD8"
+				item: {
+					Count: 1
+					id: "alexscaves:diving_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02FEDD41D90377E8"]
+			hide_dependency_lines: true
+			id: "545CDA9384611F5F"
+			rewards: [
+				{
+					count: 2
+					id: "0EB92181E011195B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7FF83F8DE2BA5312"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "103E36B0764558A9"
+				item: {
+					Count: 1
+					id: "alexscaves:diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+	]
+	title: "{ftbquests.chapter.abyssal_chasm.title}"
+}

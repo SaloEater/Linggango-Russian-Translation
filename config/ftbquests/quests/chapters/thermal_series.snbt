@@ -1,0 +1,1570 @@
+{
+	autofocus_id: "3E9BA9A88D5876D6"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "thermal_series"
+	group: "3C6437AAADAFC5CB"
+	icon: "thermal:machine_pulverizer"
+	id: "6209831AE9DA6BBA"
+	images: [
+		{
+			height: 2.5d
+			image: "customtextures:textures/thermal_series.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.thermal_series.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.thermal_series.quest4511385993132668630.description1}"
+				""
+				"{ftbquests.chapter.thermal_series.quest4511385993132668630.description2}"
+			]
+			icon: "thermal:wrench"
+			id: "3E9BA9A88D5876D6"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.thermal_series.quest4511385993132668630.subtitle}"
+			tasks: [{
+				id: "31CA1A2AF03E5741"
+				item: "thermal:wrench"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.thermal_series.quest4511385993132668630.title}"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E9BA9A88D5876D6"]
+			id: "786D5D4A23FC64B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D6D2E2D238D15B2"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8677694630025520311.subtitle}"
+			tasks: [{
+				id: "0ED5BAC42D2140B2"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.thermal_series.quest8677694630025520311.title}"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E9BA9A88D5876D6"]
+			description: [
+				"{ftbquests.chapter.thermal_series.quest740243789156005180.description1}"
+				""
+				"{ftbquests.chapter.thermal_series.quest740243789156005180.image0}"
+			]
+			id: "0A45DFCDE3D5353C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C8AEC961952B4B4"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.thermal_series.quest740243789156005180.subtitle}"
+			tasks: [{
+				id: "6FC0A3679A18FEBA"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.thermal_series.quest740243789156005180.title}"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest6047031460305104425.description1}"]
+			id: "53EB5F131918EE29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49F2DF42C56561E1"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest6047031460305104425.subtitle}"
+			tasks: [{
+				id: "321E3C5F700FE2C5"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest8993614869503590512.description1}"]
+			id: "7CCFBD12D76EC070"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53F20F3CBC05A06C"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8993614869503590512.subtitle}"
+			tasks: [{
+				id: "3D024A032F31852F"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest6831782717473211647.description1}"]
+			id: "5ECF5E2F69A4C4FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04167F16B0FB4B19"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest6831782717473211647.subtitle}"
+			tasks: [{
+				id: "64FD503B9A8849D4"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest8483555604046799987.description1}"]
+			id: "75BBA4DFC37BE473"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50919C58EFC02520"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8483555604046799987.subtitle}"
+			tasks: [{
+				id: "6FE6C6BE8A1559FC"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest2914116906630324141.description1}"]
+			id: "287105E30DA91FAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CF4A2308226FE69"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest2914116906630324141.subtitle}"
+			tasks: [{
+				id: "41DE9CE71CBA178A"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest1433123433853439547.description1}"]
+			id: "13E37A2B8A1F4E3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68DEF7ADAAC95B5F"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest1433123433853439547.subtitle}"
+			tasks: [{
+				id: "0439BF2BCA01D138"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest1817219216283686328.description1}"]
+			id: "19380F3FC99A55B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B06071BCB47CD36"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest1817219216283686328.subtitle}"
+			tasks: [{
+				id: "61CE5D03AA200F1F"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest3641275393564324773.description1}"]
+			id: "328868AD9AC5B3A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77ED6ACD32254C8A"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest3641275393564324773.subtitle}"
+			tasks: [{
+				id: "687D08594A7C92F0"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest7747361578460625458.description1}"]
+			id: "6B84284EEEA7BA32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DEF90CE65AEB76E"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest7747361578460625458.subtitle}"
+			tasks: [{
+				id: "6AE246CECA745776"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest545830564202702365.description1}"]
+			id: "07932E0196DA661D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A59E3D86B83783B"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest545830564202702365.subtitle}"
+			tasks: [{
+				id: "15DD627C6454907B"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest5298897729624101993.description1}"]
+			id: "498977690B5E5469"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D52EAFCB7C2AC61"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest5298897729624101993.subtitle}"
+			tasks: [{
+				id: "6C069CE8D17D2D1F"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest8690716161362856295.description1}"]
+			id: "789BA04DA9C78967"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "734DB8BFE29F5E32"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8690716161362856295.subtitle}"
+			tasks: [{
+				id: "761F2C6399376B9A"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest8335578397069512974.description1}"]
+			id: "73ADEC636ABF910E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "421ED7A9601200C9"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8335578397069512974.subtitle}"
+			tasks: [{
+				id: "0CD8909D945CCF6F"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest6075420655573808012.description1}"]
+			id: "54503AE5B48C338C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CCBB57D0150021D"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest6075420655573808012.subtitle}"
+			tasks: [{
+				id: "0D5EE5046D496803"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0A45DFCDE3D5353C"]
+			description: ["{ftbquests.chapter.thermal_series.quest8506115672259606905.description1}"]
+			id: "760BCB22F76AB979"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "358FB3C8C9753F67"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8506115672259606905.subtitle}"
+			tasks: [{
+				id: "7E2CB2734BB77D99"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["786D5D4A23FC64B7"]
+			description: ["{ftbquests.chapter.thermal_series.quest7408877901090706243.description1}"]
+			id: "66D19F3276C0D343"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "159676AC6C202091"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.thermal_series.quest7408877901090706243.subtitle}"
+			tasks: [{
+				id: "3BDE0B2C14564C18"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["786D5D4A23FC64B7"]
+			description: ["{ftbquests.chapter.thermal_series.quest4782012412050031062.description1}"]
+			id: "425D1EF3DBC041D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19A136A15511BBC6"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.thermal_series.quest4782012412050031062.subtitle}"
+			tasks: [{
+				id: "634FE9F6E893E098"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["786D5D4A23FC64B7"]
+			description: ["{ftbquests.chapter.thermal_series.quest1665845312069723617.description1}"]
+			id: "171E457C3CAA65E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0384992DD5C4F4CE"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.thermal_series.quest1665845312069723617.subtitle}"
+			tasks: [{
+				id: "2C97E388972C6A8D"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["786D5D4A23FC64B7"]
+			description: ["{ftbquests.chapter.thermal_series.quest4327012443630969658.description1}"]
+			id: "3C0CA2E45951A33A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25801BCAC416432F"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.thermal_series.quest4327012443630969658.subtitle}"
+			tasks: [{
+				id: "0A6637C6154F6904"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["786D5D4A23FC64B7"]
+			description: ["{ftbquests.chapter.thermal_series.quest2089438534934779356.description1}"]
+			id: "1CFF2D46F6CCD5DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EA483B964A25588"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.thermal_series.quest2089438534934779356.subtitle}"
+			tasks: [{
+				id: "338C48BB6C5F73D1"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["786D5D4A23FC64B7"]
+			description: ["{ftbquests.chapter.thermal_series.quest5654376970564990607.description1}"]
+			id: "4E7861E584ACF68F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "283E0F401820A64D"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.thermal_series.quest5654376970564990607.subtitle}"
+			tasks: [{
+				id: "2D109D345C002E45"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["786D5D4A23FC64B7"]
+			description: ["{ftbquests.chapter.thermal_series.quest489503175685588747.description1}"]
+			id: "06CB108B772A470B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57450847F700AD5E"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.thermal_series.quest489503175685588747.subtitle}"
+			tasks: [{
+				id: "1DBCEE0CE826FF76"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E9BA9A88D5876D6"]
+			description: ["{ftbquests.chapter.thermal_series.quest1845522303720075975.description1}"]
+			icon: {
+				Count: 1
+				id: "thermal:energy_cell"
+				tag: {
+					BlockEntityTag: {
+						Energy: 0
+						EnergyMax: 1000000
+						EnergyRecv: 1000
+						EnergySend: 1000
+					}
+				}
+			}
+			id: "199C9CC1DA4BB2C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AE05C7085F34D09"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest1845522303720075975.subtitle}"
+			tasks: [
+				{
+					id: "7C6E4BD9A569BE26"
+					item: {
+						Count: 1
+						id: "thermal:energy_cell"
+						tag: {
+							BlockEntityTag: {
+								Energy: 0
+								EnergyMax: 1000000
+								EnergyRecv: 1000
+								EnergySend: 1000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0416B2703FDCB3FA"
+					item: "thermal:flux_capacitor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2D4254BFF7D5E2E6"
+					item: "thermal:energy_duct"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.thermal_series.quest1845522303720075975.title}"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E9BA9A88D5876D6"]
+			description: ["{ftbquests.chapter.thermal_series.quest4048053863117650148.description1}"]
+			icon: {
+				Count: 1
+				id: "thermal:fluid_cell"
+				tag: {
+					BlockEntityTag: {
+						TankInv: [{
+							Amount: 0
+							Capacity: 32000
+							FluidName: "minecraft:empty"
+							Tank: 0b
+						}]
+					}
+				}
+			}
+			id: "382D938A7EC678E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C27E046752E0F90"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest4048053863117650148.subtitle}"
+			tasks: [
+				{
+					id: "4792500678FDE86C"
+					item: {
+						Count: 1
+						id: "thermal:fluid_cell"
+						tag: {
+							BlockEntityTag: {
+								TankInv: [{
+									Amount: 0
+									Capacity: 32000
+									FluidName: "minecraft:empty"
+									Tank: 0b
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4574F66F44D1680E"
+					item: "thermal:fluid_duct"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.thermal_series.quest4048053863117650148.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E9BA9A88D5876D6"]
+			description: [
+				"{ftbquests.chapter.thermal_series.quest4075772928911445975.description1}"
+				""
+				"{ftbquests.chapter.thermal_series.quest4075772928911445975.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.45d
+			id: "38900DE26CEB8FD7"
+			subtitle: "{ftbquests.chapter.thermal_series.quest4075772928911445975.subtitle}"
+			tasks: [{
+				id: "7F996A75DAAF7722"
+				title: "{ftbquests.chapter.thermal_series.quest4075772928911445975.task.9194497168666228514.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.thermal_series.quest4075772928911445975.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			description: ["{ftbquests.chapter.thermal_series.quest4724796447544055337.description1}"]
+			id: "4191D95603E41629"
+			rewards: [
+				{
+					count: 2
+					id: "09235BA1C1F4F65F"
+					item: "thermal:invar_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "15DE91D45FB69293"
+					item: "thermal:lumium_gear"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.thermal_series.quest4724796447544055337.subtitle}"
+			tasks: [{
+				id: "208833FA15295C66"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4191D95603E41629"]
+			description: ["{ftbquests.chapter.thermal_series.quest4267165810438332295.description1}"]
+			id: "3B3804B238DE5F87"
+			rewards: [
+				{
+					count: 2
+					id: "02269AF3DFA98548"
+					item: "thermal:electrum_ingot"
+					type: "item"
+				}
+				{
+					id: "19C8D3CEDD712259"
+					item: "thermal:signalum_gear"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.thermal_series.quest4267165810438332295.subtitle}"
+			tasks: [{
+				id: "1D6A5088E56360EE"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B3804B238DE5F87"]
+			id: "51777BEBD8229C8B"
+			rewards: [
+				{
+					count: 2
+					id: "3BC5B64E0FFF3A27"
+					item: "thermal:enderium_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "35E075B0A9C2DD7B"
+					item: "thermal:lumium_gear"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.thermal_series.quest5870296892174408843.subtitle}"
+			tasks: [{
+				id: "67CE3962AA0C9754"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			description: ["{ftbquests.chapter.thermal_series.quest4566476443503944059.description1}"]
+			id: "3F5F6221923DE17B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "334E2AA079B88F6E"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest4566476443503944059.subtitle}"
+			tasks: [{
+				id: "5AC14F685DAAF83F"
+				item: "thermal:rf_coil_augment"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			id: "2252447FFEB76140"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A9352FCDDB810AB"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest2473114461904789824.subtitle}"
+			tasks: [{
+				id: "4E47847F2969DF7A"
+				item: "thermal:rf_coil_storage_augment"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			id: "433800E1EF5B6C44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5099279A06B3337C"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest4843622369620356164.subtitle}"
+			tasks: [{
+				id: "65ED2A83C97C29A8"
+				item: "thermal:rf_coil_xfer_augment"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			id: "768369831A680A8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51DF45D121C9813D"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8539785330229250698.subtitle}"
+			tasks: [{
+				id: "1EB1880B54D06127"
+				item: "thermal:machine_speed_augment"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			id: "6DEEAEAD392AFCA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D11F006FC33CD00"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest7921460853602974886.subtitle}"
+			tasks: [{
+				id: "28E9C5F8E9D8F243"
+				item: "thermal:machine_efficiency_augment"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			id: "38314DB85CFC8DD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73F47C0B58D9908A"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest4049102994212163026.subtitle}"
+			tasks: [{
+				id: "31C92AA44D538931"
+				item: "thermal:machine_output_augment"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			id: "5E1352BEB4245260"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B94933F906384B9"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest6778852843142271584.subtitle}"
+			tasks: [{
+				id: "2BB4F37939423D3A"
+				item: "thermal:machine_catalyst_augment"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			id: "4593DE06370109D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "303CEA3C327EBEE2"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38B4C430255D8DB6"
+				item: "thermal:machine_cycle_augment"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			description: ["{ftbquests.chapter.thermal_series.quest9180504343949720932.description1}"]
+			id: "7F67B40F780DBD64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "737014A2A69FCECA"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest9180504343949720932.subtitle}"
+			tasks: [{
+				id: "1342A247F5110B92"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			id: "2B2631F62B1A1D1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B4BCE7B2A3C5A63"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest3109227526100753690.subtitle}"
+			tasks: [{
+				id: "55C5517DA9605192"
+				item: "thermal:dynamo_output_augment"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			id: "32F748360CBF7970"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CEA871262E425B4"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest3672483418123237744.subtitle}"
+			tasks: [{
+				id: "60A4DB10B93E5D11"
+				item: "thermal:dynamo_fuel_augment"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			description: ["{ftbquests.chapter.thermal_series.quest6252196715712115569.description1}"]
+			id: "56C443C991E27371"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D6B8A2274F1E5E2"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest6252196715712115569.subtitle}"
+			tasks: [{
+				id: "1D7BA93BC0967A60"
+				item: "thermal:dynamo_throttle_augment"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			id: "4EB673E11A3614A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69E6C2604F9E8D79"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest5671848191364306081.subtitle}"
+			tasks: [{
+				id: "3EF074A3CFA0187B"
+				item: "thermal:area_radius_augment"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			id: "17DB0B186A2939E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "573459D1AB0CDD0A"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest1718979882260183526.subtitle}"
+			tasks: [{
+				id: "09636055DD6EC8B3"
+				item: "thermal:potion_amplifier_augment"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38900DE26CEB8FD7"]
+			id: "4EAE55AA169D0928"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B6A6CDD086D481E"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest5669563169918224680.subtitle}"
+			tasks: [{
+				id: "515DB1BFADD5B72A"
+				item: "thermal:potion_duration_augment"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53EB5F131918EE29"]
+			id: "4C807B557EF225A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "027B9C5499AD336B"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest5512541551033722272.subtitle}"
+			tasks: [{
+				id: "2C0C00D0428D3D0F"
+				item: "thermal:press_packing_2x2_die"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["53EB5F131918EE29"]
+			id: "7069FFB37BACDA7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "357ABB33FA18C0C6"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8100286551141702270.subtitle}"
+			tasks: [{
+				id: "76A2537F49F515ED"
+				item: "thermal:press_packing_3x3_die"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["53EB5F131918EE29"]
+			id: "341FBA61A3B4D7AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2106BA2D1D733F0D"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest3755925542771414957.subtitle}"
+			tasks: [{
+				id: "13523CDC0B05E185"
+				item: "thermal:press_unpacking_die"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["760BCB22F76AB979"]
+			id: "6002091A9BF88072"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EC2FC3FE7F0D3EF"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest6918101987485057138.subtitle}"
+			tasks: [{
+				id: "4B72E0AE895F66F6"
+				item: "thermal:chiller_ball_cast"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["760BCB22F76AB979"]
+			id: "41E58D0A4D0CBB08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "197CAD0788171374"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest4748356457513925384.subtitle}"
+			tasks: [{
+				id: "745DE7FE3A008212"
+				item: "thermal:chiller_ingot_cast"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["760BCB22F76AB979"]
+			id: "72749A6518BF7D7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11CE3470704663F3"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8247386576619797885.subtitle}"
+			tasks: [{
+				id: "634ECF34D3726F85"
+				item: "thermal:chiller_rod_cast"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["53EB5F131918EE29"]
+			id: "590EF6005E329130"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "481585513CF96F97"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest6417337000490340656.subtitle}"
+			tasks: [{
+				id: "47BD903F98D79588"
+				item: "thermal:press_coin_die"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["53EB5F131918EE29"]
+			id: "20749562E650A526"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D5BAB82AD5A18CA"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest2338658358515508518.subtitle}"
+			tasks: [{
+				id: "42F7DD5DC3B6B640"
+				item: "thermal:press_gear_die"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3E9BA9A88D5876D6"]
+			description: ["{ftbquests.chapter.thermal_series.quest3747152233448427106.description1}"]
+			id: "34008F1A62014E62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A552E2D17EB801B"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest3747152233448427106.subtitle}"
+			tasks: [{
+				id: "42E6D209ABCBD9EC"
+				item: "thermal:redstone_servo"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.thermal_series.quest3747152233448427106.title}"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest8502389168471934157.description1}"]
+			id: "75FE8DE6B0E604CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6643ED54BFB8D288"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8502389168471934157.subtitle}"
+			tasks: [{
+				id: "32E7036FA66966E0"
+				item: "thermal:device_hive_extractor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest6101079693266446040.description1}"]
+			id: "54AB63A7F77EE6D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66D81FE98924B6B2"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest6101079693266446040.subtitle}"
+			tasks: [{
+				id: "67D9F4607D313D60"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest4344119130534760039.description1}"]
+			id: "3C4969554580CE67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C21CB64E2F4F87D"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest4344119130534760039.subtitle}"
+			tasks: [{
+				id: "215216A525A1AF8E"
+				item: "thermal:device_fisher"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest6276647705600684049.description1}"]
+			id: "571B21D548997011"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18B8133E20BEAA7A"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest6276647705600684049.subtitle}"
+			tasks: [{
+				id: "2CB65F6AFDFCDA4F"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest2004813367248623584.description1}"]
+			id: "1BD28722B3CF17E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AC87B268981049A"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest2004813367248623584.subtitle}"
+			tasks: [{
+				id: "63AD64F5D9899709"
+				item: "thermal:device_soil_infuser"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest1398373346064056149.description1}"]
+			id: "136805263B85BF55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CAD223B2F404014"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest1398373346064056149.subtitle}"
+			tasks: [{
+				id: "3C9294AED13E0804"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest8400146256580413605.description1}"]
+			id: "74935083B4CD88A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "138A522C3C9660B4"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8400146256580413605.subtitle}"
+			tasks: [{
+				id: "58251D42775B894C"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest5982387653317508560.description1}"]
+			id: "5305B5DFE8AC3DD0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DE7FD4BFB73E7AF"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest5982387653317508560.subtitle}"
+			tasks: [{
+				id: "5B5DBA903928B226"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest3862560247037746660.description1}"]
+			id: "359A9214783ADDE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ECB370696598A6C"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest3862560247037746660.subtitle}"
+			tasks: [{
+				id: "15E04361A4DCB583"
+				item: "thermal:device_xp_condenser"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest8894260834836369482.description1}"]
+			id: "7B6EC31B0017504A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "536D2D6EA4BA01A5"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8894260834836369482.subtitle}"
+			tasks: [{
+				id: "4E551C21F4B5BF56"
+				item: "thermal:device_nullifier"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest1455548630678855314.description1}"]
+			id: "143325C48CEB5E92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12D5642A98BF85F7"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest1455548630678855314.subtitle}"
+			tasks: [{
+				id: "3A1704929EBC1014"
+				item: "thermal:device_potion_diffuser"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E9BA9A88D5876D6"]
+			description: ["{ftbquests.chapter.thermal_series.quest6614561865307844696.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.45d
+			id: "5BCBA4F89684F058"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.thermal_series.quest6614561865307844696.subtitle}"
+			tasks: [{
+				id: "2F6D051B9169A7DF"
+				title: "{ftbquests.chapter.thermal_series.quest6614561865307844696.task.3417393308205950943.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.thermal_series.quest6614561865307844696.title}"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BCBA4F89684F058"]
+			description: ["{ftbquests.chapter.thermal_series.quest3769317376516401097.description1}"]
+			id: "344F4E2EE8F7A7C9"
+			rewards: [{
+				count: 2
+				id: "2C8F0031EF31DB07"
+				item: "thermal:invar_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.thermal_series.quest3769317376516401097.subtitle}"
+			tasks: [{
+				id: "732597F91AD5B270"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			x: 4.444494884876335d
+			y: -1.8699633022378492d
+		}
+		{
+			dependencies: ["5BCBA4F89684F058"]
+			description: ["{ftbquests.chapter.thermal_series.quest6090436444655580964.description1}"]
+			id: "548593AD8AC9F724"
+			rewards: [{
+				count: 2
+				id: "7D8E5BC6044F13B6"
+				item: "thermal:electrum_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.thermal_series.quest6090436444655580964.subtitle}"
+			tasks: [{
+				id: "409EA5AF1213DDE5"
+				item: "thermal:electrum_ingot"
+				type: "item"
+			}]
+			x: 3.9444948848763346d
+			y: -1.3699633022378492d
+		}
+		{
+			dependencies: ["5BCBA4F89684F058"]
+			description: ["{ftbquests.chapter.thermal_series.quest5267992548850562408.description1}"]
+			id: "491BAB4FE9A47568"
+			rewards: [{
+				count: 2
+				id: "757F89D8084142BA"
+				item: "thermal:enderium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.thermal_series.quest5267992548850562408.subtitle}"
+			tasks: [{
+				id: "79A713DB8E317901"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			x: 3.4444948848763346d
+			y: -2.8699633022378492d
+		}
+		{
+			dependencies: ["5BCBA4F89684F058"]
+			description: ["{ftbquests.chapter.thermal_series.quest6770321044966874734.description1}"]
+			id: "5DF5031EA49A1E6E"
+			rewards: [{
+				count: 2
+				id: "6FBB11E963EFC393"
+				item: "thermal:lumium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.thermal_series.quest6770321044966874734.subtitle}"
+			tasks: [{
+				id: "03148B302CF2588B"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			x: 2.9444948848763346d
+			y: -2.3699633022378492d
+		}
+		{
+			dependencies: ["5BCBA4F89684F058"]
+			description: ["{ftbquests.chapter.thermal_series.quest4618462909429722834.description1}"]
+			id: "4018138BE4E02ED2"
+			rewards: [{
+				count: 2
+				id: "784C17D338580D11"
+				item: "thermal:signalum_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.thermal_series.quest4618462909429722834.subtitle}"
+			tasks: [{
+				id: "7A2FB19146461D1C"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: 3.4444948848763346d
+			y: -1.8699633022378492d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest530228907009160074.description1}"]
+			id: "075BC061B3ECB38A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18A3E5D53F78A4DC"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest530228907009160074.subtitle}"
+			tasks: [{
+				id: "7E2A7FD7F23AA72F"
+				item: "thermal:charge_bench"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest8688122494197305778.description1}"]
+			id: "7892696077B611B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E6E7CA2A6743D0F"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest8688122494197305778.subtitle}"
+			tasks: [{
+				id: "122B3DAB9EDE0ED1"
+				item: "thermal:item_buffer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["34008F1A62014E62"]
+			description: ["{ftbquests.chapter.thermal_series.quest687842806138138783.description1}"]
+			id: "098BB563492BF09F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30960B944B57AD56"
+				table_id: 6391132639270329681L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.thermal_series.quest687842806138138783.subtitle}"
+			tasks: [{
+				id: "2DC32967E0BC8548"
+				item: "thermal:tinker_bench"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+	]
+	title: "{ftbquests.chapter.thermal_series.title}"
+}

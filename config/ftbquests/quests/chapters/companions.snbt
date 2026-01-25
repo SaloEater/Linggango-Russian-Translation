@@ -1,0 +1,1059 @@
+{
+	autofocus_id: "5C4290BFF336FEB5"
+	default_hide_dependency_lines: false
+	default_quest_shape: "woodtier"
+	filename: "companions"
+	group: "3C6AB1DE39D4F441"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "companions:item/needle"
+		}
+	}
+	id: "2106485D92FA6021"
+	images: [
+		{
+			height: 2.2d
+			image: "customtextures:textures/companionslogo.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.companions.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.5d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.companions.quest6648035154045894325.description1}"
+				""
+				"{ftbquests.chapter.companions.quest6648035154045894325.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "companions:mutant_flesh"
+			icon_scale: 1.2d
+			id: "5C4290BFF336FEB5"
+			rewards: [{
+				id: "0A6769785F4CA9EA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.companions.quest6648035154045894325.subtitle}"
+			tasks: [{
+				id: "7F36770F1F772860"
+				title: "{ftbquests.chapter.companions.quest6648035154045894325.task.9166644998395340896.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.companions.quest6648035154045894325.title}"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D84A78B23EC8B0B"]
+			description: [
+				"{ftbquests.chapter.companions.quest602595953845524545.description1}"
+				""
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.companions.quest602595953845524545.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3B380BCE89B7ECB6\"}}]"
+				"{ftbquests.chapter.companions.quest602595953845524545.image0}"
+				"{ftbquests.chapter.companions.quest602595953845524545.description3}"
+				""
+				"{ftbquests.chapter.companions.quest602595953845524545.description4}"
+				""
+				"{ftbquests.chapter.companions.quest602595953845524545.description5}"
+				""
+				"{ftbquests.chapter.companions.quest602595953845524545.description6}"
+				""
+				"{ftbquests.chapter.companions.quest602595953845524545.description7}"
+				""
+				"{ftbquests.chapter.companions.quest602595953845524545.description8}"
+				""
+				"{ftbquests.chapter.companions.quest602595953845524545.description9}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.companions.quest602595953845524545.description10}"
+				"{ftbquests.chapter.companions.quest602595953845524545.description11}"
+				"{ftbquests.chapter.companions.quest602595953845524545.image2}"
+				"{ftbquests.chapter.companions.quest602595953845524545.description12}"
+				"{ftbquests.chapter.companions.quest602595953845524545.image4}"
+				"{ftbquests.chapter.companions.quest602595953845524545.description13}"
+				"{ftbquests.chapter.companions.quest602595953845524545.image6}"
+				"{ftbquests.chapter.companions.quest602595953845524545.description14}"
+			]
+			icon: "companions:empty_puppet_block"
+			id: "085CD9D3CC0CD841"
+			rewards: [
+				{
+					count: 3
+					id: "5E3A782BD250AF47"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "0CC9CAEC88B5FAAE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest602595953845524545.subtitle}"
+			tasks: [
+				{
+					checkItem: false
+					entity: "companions:hostile_puppet_glove"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "goety:item/grave_glove"
+						}
+					}
+					id: "4F955FFD04489DF7"
+					nbt: { }
+					title: "{ftbquests.chapter.companions.quest602595953845524545.task.5734595240829427191.title}"
+					type: "questsadditions:interaction"
+					value: 1L
+				}
+				{
+					id: "7817D7F22CE7C70D"
+					item: "companions:empty_puppet_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.companions.quest602595953845524545.title}"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D84A78B23EC8B0B"]
+			description: [
+				"{ftbquests.chapter.companions.quest6797203009914432383.description1}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.image0}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.description2}"
+				""
+				"{ftbquests.chapter.companions.quest6797203009914432383.description3}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.description4}"
+				""
+				"{ftbquests.chapter.companions.quest6797203009914432383.description5}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.companions.quest6797203009914432383.description6}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.image2}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.description7}"
+				""
+				"{ftbquests.chapter.companions.quest6797203009914432383.description8}"
+				""
+				"{ftbquests.chapter.companions.quest6797203009914432383.description9}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.description10}"
+				""
+				"{ftbquests.chapter.companions.quest6797203009914432383.description11}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.description12}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.companions.quest6797203009914432383.description13}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.image4}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.description14}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.image6}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.description15}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.image8}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.description16}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.image10}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.description17}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.image12}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.description18}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.image14}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.description19}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.image16}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.description20}"
+				"{ftbquests.chapter.companions.quest6797203009914432383.image18}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "mynethersdelight:item/golden_egg"
+				}
+			}
+			id: "5E54841FD82A6B7F"
+			rewards: [
+				{
+					id: "3FE5EB153D5B900A"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "43C658A93F55A426"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest6797203009914432383.subtitle}"
+			tasks: [
+				{
+					id: "1332DE4D3EEE4F44"
+					item: {
+						Count: 1
+						id: "companions:mage_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10A0266B246C35AC"
+					item: {
+						Count: 1
+						id: "companions:mage_coat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AD1754919B60F09"
+					item: {
+						Count: 1
+						id: "companions:mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33B409A6A7875017"
+					item: "companions:mage_staff"
+					type: "item"
+				}
+				{
+					checkItem: false
+					entity: "companions:golden_allay"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "mynethersdelight:item/golden_egg"
+						}
+					}
+					id: "25775D48C5B9F07C"
+					item: {
+						Count: 1
+						id: "companions:mage_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					nbt: { }
+					title: "{ftbquests.chapter.companions.quest6797203009914432383.task.2699729068768227452.title}"
+					type: "questsadditions:interaction"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.companions.quest6797203009914432383.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57CA4A33C563780D"]
+			description: [
+				"{ftbquests.chapter.companions.quest1252532168196787912.description1}"
+				""
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.companions.quest1252532168196787912.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7D1085AFE3A332B1\"}}]"
+				"{ftbquests.chapter.companions.quest1252532168196787912.image0}"
+				"{ftbquests.chapter.companions.quest1252532168196787912.description3}"
+				""
+				"{ftbquests.chapter.companions.quest1252532168196787912.description4}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.companions.quest1252532168196787912.description5}"
+				"{ftbquests.chapter.companions.quest1252532168196787912.image2}"
+				"{ftbquests.chapter.companions.quest1252532168196787912.description6}"
+				"{ftbquests.chapter.companions.quest1252532168196787912.image4}"
+				"{ftbquests.chapter.companions.quest1252532168196787912.description7}"
+				"{ftbquests.chapter.companions.quest1252532168196787912.image6}"
+				"{ftbquests.chapter.companions.quest1252532168196787912.description8}"
+				"{ftbquests.chapter.companions.quest1252532168196787912.image8}"
+				"{ftbquests.chapter.companions.quest1252532168196787912.description9}"
+			]
+			id: "1161E35EEB1E8EC8"
+			rewards: [
+				{
+					id: "3715E66D09431187"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "5E8DE50C2315F6E0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest1252532168196787912.subtitle}"
+			tasks: [{
+				checkItem: true
+				entity: "mythsandlegends:imp"
+				icon: "companions:nether_coin"
+				id: "4C6630D82DB9BB64"
+				item: "companions:nether_coin"
+				nbt: { }
+				title: "{ftbquests.chapter.companions.quest1252532168196787912.task.5505141299545226084.title}"
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.companions.quest1252532168196787912.title}"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57CA4A33C563780D"]
+			description: [
+				"{ftbquests.chapter.companions.quest5390066592528033306.description1}"
+				"{ftbquests.chapter.companions.quest5390066592528033306.image0}"
+				"{ftbquests.chapter.companions.quest5390066592528033306.description2}"
+				""
+				"{ftbquests.chapter.companions.quest5390066592528033306.description3}"
+				""
+				"{ftbquests.chapter.companions.quest5390066592528033306.description4}"
+				""
+				"{ftbquests.chapter.companions.quest5390066592528033306.description5}"
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.companions.quest5390066592528033306.description6}"
+				"{ftbquests.chapter.companions.quest5390066592528033306.image2}"
+				"{ftbquests.chapter.companions.quest5390066592528033306.description7}"
+				"{ftbquests.chapter.companions.quest5390066592528033306.image4}"
+				"{ftbquests.chapter.companions.quest5390066592528033306.description8}"
+				"{ftbquests.chapter.companions.quest5390066592528033306.image6}"
+				"{ftbquests.chapter.companions.quest5390066592528033306.description9}"
+			]
+			hide_until_deps_complete: true
+			id: "4ACD5D021355661A"
+			rewards: [{
+				id: "1BCB5D4248B28D44"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest5390066592528033306.subtitle}"
+			tasks: [{
+				checkItem: true
+				entity: "companions:cornelius"
+				icon: "companions:copper_coin"
+				id: "3086A67456257B58"
+				item: "companions:copper_coin"
+				nbt: { }
+				title: "{ftbquests.chapter.companions.quest5390066592528033306.task.3496665179291482968.title}"
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.companions.quest5390066592528033306.title}"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D84A78B23EC8B0B"]
+			description: [
+				"{ftbquests.chapter.companions.quest7437359781203966396.description1}"
+				""
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.companions.quest7437359781203966396.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"66AD148133FC1229\"}}]"
+				""
+				"{ftbquests.chapter.companions.quest7437359781203966396.description3}"
+				""
+				"{ftbquests.chapter.companions.quest7437359781203966396.description4}"
+				""
+				"{ftbquests.chapter.companions.quest7437359781203966396.description5}"
+				""
+				"{ftbquests.chapter.companions.quest7437359781203966396.description6}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.companions.quest7437359781203966396.description7}"
+				"{ftbquests.chapter.companions.quest7437359781203966396.image0}"
+				"{ftbquests.chapter.companions.quest7437359781203966396.description8}"
+				"{ftbquests.chapter.companions.quest7437359781203966396.image2}"
+				"{ftbquests.chapter.companions.quest7437359781203966396.description9}"
+				"{ftbquests.chapter.companions.quest7437359781203966396.image4}"
+				"{ftbquests.chapter.companions.quest7437359781203966396.description10}"
+			]
+			icon: "plushie_buddies:plushie_polar_bear"
+			icon_scale: 1.3d
+			id: "6736CF50F17079BC"
+			rewards: [
+				{
+					count: 3
+					id: "2567AE7867E36C01"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "68DBD39F1D32FCFA"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "6BA4603A5D787853"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest7437359781203966396.subtitle}"
+			tasks: [
+				{
+					id: "2511B7EED760C325"
+					item: "companions:needle"
+					type: "item"
+				}
+				{
+					checkItem: true
+					entity: "companions:teddy"
+					icon: "simplehats:teddy_bear"
+					id: "2640E03DEB717A97"
+					item: "companions:needle"
+					nbt: { }
+					title: "{ftbquests.chapter.companions.quest7437359781203966396.task.2756449528498453143.title}"
+					type: "questsadditions:interaction"
+					value: 1L
+				}
+				{
+					id: "78126C782D349739"
+					item: {
+						Count: 1
+						id: "companions:eternal_lighter"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "{ftbquests.chapter.companions.quest7437359781203966396.task.8652097097542440761.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.companions.quest7437359781203966396.title}"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0B8FB2D99CA5FC9F"]
+			description: [
+				"{ftbquests.chapter.companions.quest1224624290711393631.description1}"
+				"{ftbquests.chapter.companions.quest1224624290711393631.image0}"
+				"{ftbquests.chapter.companions.quest1224624290711393631.description2}"
+				""
+				"{ftbquests.chapter.companions.quest1224624290711393631.description3}"
+				""
+				"{ftbquests.chapter.companions.quest1224624290711393631.description4}"
+				""
+				"{ftbquests.chapter.companions.quest1224624290711393631.description5}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.companions.quest1224624290711393631.description6}"
+				"{ftbquests.chapter.companions.quest1224624290711393631.image2}"
+				"{ftbquests.chapter.companions.quest1224624290711393631.description7}"
+				"{ftbquests.chapter.companions.quest1224624290711393631.image4}"
+				"{ftbquests.chapter.companions.quest1224624290711393631.description8}"
+				"{ftbquests.chapter.companions.quest1224624290711393631.image6}"
+				"{ftbquests.chapter.companions.quest1224624290711393631.description9}"
+			]
+			icon: "companions:croissant_egg_block"
+			id: "10FEBD4DD72AD55F"
+			rewards: [{
+				id: "49737624822DB88D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest1224624290711393631.subtitle}"
+			tasks: [
+				{
+					id: "4140FEDE45CFDE57"
+					item: "companions:big_bread"
+					type: "item"
+				}
+				{
+					block: "companions:soul_furnace_block"
+					block_type: 0
+					checkItem: true
+					id: "43EE5E4FC73B3117"
+					isItemInteraction: false
+					item: "companions:big_bread"
+					title: "{ftbquests.chapter.companions.quest1224624290711393631.task.4894953541736280343.title}"
+					type: "questsadditions:use"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.companions.quest1224624290711393631.title}"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D84A78B23EC8B0B"]
+			description: [
+				"{ftbquests.chapter.companions.quest8643240162364096406.description1}"
+				""
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.companions.quest8643240162364096406.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"182CFF40F4C0EAB7\"}}]"
+				"{ftbquests.chapter.companions.quest8643240162364096406.image0}"
+				"{ftbquests.chapter.companions.quest8643240162364096406.description3}"
+				""
+				"{ftbquests.chapter.companions.quest8643240162364096406.description4}"
+				""
+				"{ftbquests.chapter.companions.quest8643240162364096406.description5}"
+				""
+				"{ftbquests.chapter.companions.quest8643240162364096406.description6}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.companions.quest8643240162364096406.description7}"
+				""
+				"{ftbquests.chapter.companions.quest8643240162364096406.description8}"
+				""
+				"{ftbquests.chapter.companions.quest8643240162364096406.description9}"
+				""
+				"{ftbquests.chapter.companions.quest8643240162364096406.description10}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.companions.quest8643240162364096406.description11}"
+				"{ftbquests.chapter.companions.quest8643240162364096406.image2}"
+				"{ftbquests.chapter.companions.quest8643240162364096406.description12}"
+				"{ftbquests.chapter.companions.quest8643240162364096406.image4}"
+				"{ftbquests.chapter.companions.quest8643240162364096406.description13}"
+				"{ftbquests.chapter.companions.quest8643240162364096406.description14}"
+				"{ftbquests.chapter.companions.quest8643240162364096406.image6}"
+				"{ftbquests.chapter.companions.quest8643240162364096406.description15}"
+			]
+			icon: "companions:tesla_coil_block"
+			id: "77F2F5224219FF96"
+			rewards: [
+				{
+					count: 10
+					id: "028CFCCC317DBAFF"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "68813B29FD2F9EB8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest8643240162364096406.subtitle}"
+			tasks: [
+				{
+					id: "2BD9F05F246B442E"
+					item: "knightlib:homunculus"
+					type: "item"
+				}
+				{
+					id: "593517DEC102650A"
+					item: "companions:tesla_coil_block"
+					type: "item"
+				}
+				{
+					id: "124FD10B3EAFE282"
+					item: {
+						Count: 1
+						id: "companions:wrench"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					checkItem: true
+					entity: "companions:broken_dinamo"
+					icon: "immersive_aircraft:industrial_gears"
+					id: "34D6B0FC21F7250F"
+					item: "knightlib:homunculus"
+					nbt: { }
+					title: "{ftbquests.chapter.companions.quest8643240162364096406.task.3807425131936425231.title}"
+					type: "questsadditions:interaction"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.companions.quest8643240162364096406.title}"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D84A78B23EC8B0B"]
+			description: [
+				"{ftbquests.chapter.companions.quest9018437468267723247.description1}"
+				""
+				"{ftbquests.chapter.companions.quest9018437468267723247.description2}"
+				""
+				"{ftbquests.chapter.companions.quest9018437468267723247.description3}"
+				""
+				"{ftbquests.chapter.companions.quest9018437468267723247.description4}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.companions.quest9018437468267723247.description5}"
+				"{ftbquests.chapter.companions.quest9018437468267723247.image0}"
+				"{ftbquests.chapter.companions.quest9018437468267723247.description6}"
+				"{ftbquests.chapter.companions.quest9018437468267723247.image2}"
+				"{ftbquests.chapter.companions.quest9018437468267723247.description7}"
+				"{ftbquests.chapter.companions.quest9018437468267723247.image4}"
+				"{ftbquests.chapter.companions.quest9018437468267723247.description8}"
+				"{ftbquests.chapter.companions.quest9018437468267723247.image6}"
+				"{ftbquests.chapter.companions.quest9018437468267723247.description9}"
+			]
+			icon: "minecraft:suspicious_sand"
+			id: "7D27ED187D2BB9EF"
+			rewards: [
+				{
+					count: 15
+					id: "45281F1D1338D75E"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "5D2C8090FC3D55AA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest9018437468267723247.subtitle}"
+			tasks: [
+				{
+					checkItem: true
+					entity: "companions:antlion"
+					icon: "companions:antlion_fur"
+					id: "1B495A59157628C7"
+					item: "companions:crystallized_blood"
+					nbt: { }
+					title: "{ftbquests.chapter.companions.quest9018437468267723247.task.1966202050982586567.title}"
+					type: "questsadditions:interaction"
+					value: 1L
+				}
+				{
+					id: "2C8E39DDC0285D1F"
+					item: "companions:crystallized_blood"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.companions.quest9018437468267723247.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["296B4AB5A70347F9"]
+			description: [
+				"{ftbquests.chapter.companions.quest833081103792602271.description1}"
+				""
+				"{ftbquests.chapter.companions.quest833081103792602271.description2}"
+				""
+				"{ftbquests.chapter.companions.quest833081103792602271.description3}"
+				""
+				"{ftbquests.chapter.companions.quest833081103792602271.description4}"
+			]
+			id: "0B8FB2D99CA5FC9F"
+			rewards: [{
+				id: "5A7D5D662FC943C9"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest833081103792602271.subtitle}"
+			tasks: [{
+				id: "5C4FF12326886312"
+				item: "companions:soul_furnace_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["296B4AB5A70347F9"]
+			description: ["{ftbquests.chapter.companions.quest3628071068796895411.description1}"]
+			id: "32597F6A2B82C0B3"
+			rewards: [{
+				id: "1DD9C585175F0C81"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest3628071068796895411.subtitle}"
+			tasks: [{
+				id: "309D0344D57174BB"
+				item: "knightlib:empty_grail"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B8FB2D99CA5FC9F"]
+			description: [
+				"{ftbquests.chapter.companions.quest1856837665754619457.description1}"
+				""
+				"{ftbquests.chapter.companions.quest1856837665754619457.description2}"
+				""
+				"{ftbquests.chapter.companions.quest1856837665754619457.description3}"
+			]
+			id: "19C4D004E0DE9E41"
+			rewards: [{
+				id: "67A5FFA011F8A8CC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest1856837665754619457.subtitle}"
+			tasks: [{
+				id: "5DCC935E5BA07E05"
+				item: "companions:crystallized_blood"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.companions.quest1856837665754619457.title}"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["446059DB353391B2"]
+			description: ["{ftbquests.chapter.companions.quest6325950212810700813.description1}"]
+			id: "57CA4A33C563780D"
+			rewards: [{
+				id: "3673E55008127E3D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest6325950212810700813.subtitle}"
+			tasks: [
+				{
+					id: "124FFCC9FC1B102E"
+					item: "companions:nether_coin"
+					type: "item"
+				}
+				{
+					id: "40D41CADC19EC980"
+					item: "companions:end_coin"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.companions.quest6325950212810700813.title}"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C4290BFF336FEB5"]
+			description: [
+				"{ftbquests.chapter.companions.quest4927036790368604594.description1}"
+				""
+				"{ftbquests.chapter.companions.quest4927036790368604594.description2}"
+				""
+				"{ftbquests.chapter.companions.quest4927036790368604594.description3}"
+				""
+				"{ftbquests.chapter.companions.quest4927036790368604594.description4}"
+				""
+				"{ftbquests.chapter.companions.quest4927036790368604594.description5}"
+			]
+			icon: "companions:frog_bonanza_block"
+			id: "446059DB353391B2"
+			rewards: [{
+				id: "51388BC703E367F6"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest4927036790368604594.subtitle}"
+			tasks: [
+				{
+					id: "569A0D1FDA33D2FD"
+					item: "companions:copper_coin"
+					type: "item"
+				}
+				{
+					id: "7F83B1C204BE05F8"
+					item: "companions:frog_bonanza_block"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C4290BFF336FEB5"]
+			description: [
+				"{ftbquests.chapter.companions.quest2984561322114631673.description1}"
+				""
+				"{ftbquests.chapter.companions.quest2984561322114631673.description2}"
+			]
+			icon: "knightlib:great_chalice"
+			id: "296B4AB5A70347F9"
+			rewards: [{
+				id: "38DFD1EEF6F0F0F5"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest2984561322114631673.subtitle}"
+			tasks: [
+				{
+					id: "56C55018A86DD181"
+					item: "knightlib:great_chalice"
+					type: "item"
+				}
+				{
+					id: "4AA3D0B729DBF2F6"
+					item: "knightlib:small_essence"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19C4D004E0DE9E41"]
+			description: [
+				"{ftbquests.chapter.companions.quest3501573814847346038.description1}"
+				"{ftbquests.chapter.companions.quest3501573814847346038.image0}"
+				"{ftbquests.chapter.companions.quest3501573814847346038.description2}"
+				""
+				"{ftbquests.chapter.companions.quest3501573814847346038.description3}"
+				""
+				"{ftbquests.chapter.companions.quest3501573814847346038.description4}"
+				""
+				"{ftbquests.chapter.companions.quest3501573814847346038.description5}"
+				""
+			]
+			id: "309816D51CC91576"
+			rewards: [{
+				id: "50DD4A13DBBBDB12"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest3501573814847346038.subtitle}"
+			tasks: [
+				{
+					id: "2875D474A7D73A64"
+					item: "companions:shade_sword_altar"
+					type: "item"
+				}
+				{
+					id: "0EB1303EA71B94F6"
+					item: "companions:shadow_bell"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.companions.quest3501573814847346038.title}"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19C4D004E0DE9E41"]
+			description: [
+				"{ftbquests.chapter.companions.quest542520412006107569.description1}"
+				"{ftbquests.chapter.companions.quest542520412006107569.image0}"
+				"{ftbquests.chapter.companions.quest542520412006107569.description2}"
+				""
+				"{ftbquests.chapter.companions.quest542520412006107569.description3}"
+				""
+				"{ftbquests.chapter.companions.quest542520412006107569.description4}"
+			]
+			id: "07876B70B905C9B1"
+			rewards: [{
+				id: "3E61E512FFB020C0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "netheritetier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest542520412006107569.subtitle}"
+			tasks: [
+				{
+					id: "4610E8D81AE62B1E"
+					item: "companions:shade_maw_altar"
+					type: "item"
+				}
+				{
+					id: "0CB5EDF7B34050AF"
+					item: "companions:shadow_bell"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.companions.quest542520412006107569.title}"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D84A78B23EC8B0B"]
+			description: [
+				"{ftbquests.chapter.companions.quest6862150144827397677.description1}"
+				""
+				"{ftbquests.chapter.companions.quest6862150144827397677.description2}"
+				"{ftbquests.chapter.companions.quest6862150144827397677.image0}"
+				"{ftbquests.chapter.companions.quest6862150144827397677.description3}"
+				"{ftbquests.chapter.companions.quest6862150144827397677.image2}"
+				"{ftbquests.chapter.companions.quest6862150144827397677.description4}"
+				""
+				""
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.companions.quest6862150144827397677.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3B03B77C3C31CFE5\"}}]"
+			]
+			id: "5F3B413311D5162D"
+			rewards: [{
+				id: "726AB8CC5152949A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest6862150144827397677.subtitle}"
+			tasks: [{
+				entity: "companions:sacred_pontiff"
+				icon: {
+					Count: 1
+					id: "companions:holy_robe_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "368347F1062E8983"
+				title: "{ftbquests.chapter.companions.quest6862150144827397677.task.3928062400513608067.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.companions.quest6862150144827397677.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F3B413311D5162D"]
+			description: [
+				"{ftbquests.chapter.companions.quest2991147730261361599.description1}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.image0}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.description2}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.image2}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.description3}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.image4}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.description4}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.companions.quest2991147730261361599.description5}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.image6}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.description6}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.image8}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.description7}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.image10}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.description8}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.image12}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.description9}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.image14}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.description10}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.image16}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.description11}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.companions.quest2991147730261361599.description12}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.image18}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.description13}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.image20}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.description14}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.image22}"
+				"{ftbquests.chapter.companions.quest2991147730261361599.description15}"
+			]
+			icon: "companions:respawn_totem_block"
+			id: "2982B1034CF1C3BF"
+			rewards: [{
+				id: "34728AD93B21A58D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.companions.quest2991147730261361599.subtitle}"
+			tasks: [
+				{
+					id: "64D65C1983617C88"
+					item: "companions:respawn_totem_block"
+					type: "item"
+				}
+				{
+					id: "6503F588140E5928"
+					item: {
+						Count: 1
+						id: "companions:hourglass"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "046C8BD947D6EEB9"
+					item: "companions:book_naginata"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.companions.quest2991147730261361599.title}"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C4290BFF336FEB5"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/heart"
+				}
+			}
+			id: "4D84A78B23EC8B0B"
+			rewards: [{
+				id: "00E8396A2FCD56F4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "goldtier"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.companions.quest5585773653891255051.subtitle}"
+			tasks: [{
+				id: "258D4AD1FC0B6688"
+				title: "{ftbquests.chapter.companions.quest5585773653891255051.task.2705901216856761992.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.companions.quest5585773653891255051.title}"
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+	title: "{ftbquests.chapter.companions.title}"
+}

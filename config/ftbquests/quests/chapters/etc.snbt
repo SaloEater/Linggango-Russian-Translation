@@ -1,0 +1,250 @@
+{
+	autofocus_id: "0F7C91873C1F3B5E"
+	default_hide_dependency_lines: true
+	default_quest_shape: "woodtier"
+	filename: "etc"
+	group: "24697C49C2A3ADAA"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftbteams:textures/add.png"
+		}
+	}
+	id: "644793D444A57D97"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: ["ftbquests.chapter.etc.image.hovertext1"]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.etc.quest1115926817696332638.description1}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0F7C91873C1F3B5E"
+			rewards: [{
+				id: "6A89C2486380B604"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.etc.quest1115926817696332638.subtitle}"
+			tasks: [{
+				id: "2000C1CA81C2BD4C"
+				title: "{ftbquests.chapter.etc.quest1115926817696332638.task.2306056084718271820.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.etc.quest1115926817696332638.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0F7C91873C1F3B5E"]
+			description: ["{ftbquests.chapter.etc.quest4265102331593978986.description1}"]
+			id: "3B30AFF91D59746A"
+			rewards: [{
+				id: "2F057CA8AA69DDE7"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.etc.quest4265102331593978986.subtitle}"
+			tasks: [{
+				id: "436D7FA36BB7DBC7"
+				item: {
+					Count: 1
+					id: "quark:pickarang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F7C91873C1F3B5E"]
+			description: ["{ftbquests.chapter.etc.quest3681530881719169235.description1}"]
+			id: "33176CD4D28070D3"
+			rewards: [{
+				id: "379918CB1EAD2A58"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.etc.quest3681530881719169235.subtitle}"
+			tasks: [{
+				id: "516842080F2C3202"
+				item: {
+					Count: 1
+					id: "quark:flamerang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F7C91873C1F3B5E"]
+			description: ["{ftbquests.chapter.etc.quest4069757939441321740.description1}"]
+			icon: "xercapaint:item_easel"
+			id: "387AAF488E39C70C"
+			rewards: [
+				{
+					id: "22A618C8301E66E4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2142BF58F488AFFB"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.etc.quest4069757939441321740.subtitle}"
+			tasks: [{
+				id: "67407617A34886D8"
+				title: "{ftbquests.chapter.etc.quest4069757939441321740.task.7440076428311824088.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.etc.quest4069757939441321740.title}"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F7C91873C1F3B5E"]
+			description: ["{ftbquests.chapter.etc.quest407870002902683157.description1}"]
+			icon: "xercamusic:music_sheet"
+			id: "05A90B9B4D8D4E15"
+			rewards: [
+				{
+					id: "36BFB701ACF8D514"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "60119C865B45B23C"
+					item: "xercamusic:music_sheet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.etc.quest407870002902683157.subtitle}"
+			tasks: [{
+				id: "2A84F3E81556F638"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.etc.quest407870002902683157.title}"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F7C91873C1F3B5E"]
+			description: ["{ftbquests.chapter.etc.quest573405018295790389.description1}"]
+			icon: "supplementaries:enderman_head"
+			id: "07F524D37BF26B35"
+			rewards: [{
+				id: "4ABFC7400FBC79B4"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{ftbquests.chapter.etc.quest573405018295790389.subtitle}"
+			tasks: [{
+				id: "1E3A7A0D2D5BC7D7"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.etc.quest573405018295790389.title}"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F7C91873C1F3B5E"]
+			description: [
+				"{ftbquests.chapter.etc.quest3840580142146037041.description1}"
+				"{ftbquests.chapter.etc.quest3840580142146037041.image0}"
+				"{ftbquests.chapter.etc.quest3840580142146037041.description2}"
+				"{ftbquests.chapter.etc.quest3840580142146037041.image2}"
+				"{ftbquests.chapter.etc.quest3840580142146037041.description3}"
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "354C7B4A8008A531"
+			subtitle: "{ftbquests.chapter.etc.quest3840580142146037041.subtitle}"
+			tasks: [{
+				id: "7E0DBCB524FECF77"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.etc.quest3840580142146037041.title}"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F7C91873C1F3B5E"]
+			description: ["{ftbquests.chapter.etc.quest9188541396223416283.description1}"]
+			id: "7F8441B785DE57DB"
+			optional: true
+			rewards: [{
+				id: "26B2DCA08BF8F4D5"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.etc.quest9188541396223416283.subtitle}"
+			tasks: [
+				{
+					id: "3C817DC6B0BEB3EC"
+					item: "breezy:hot_air_balloon"
+					type: "item"
+				}
+				{
+					id: "458A0695066F0688"
+					item: "breezy:gust_gauge"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F7C91873C1F3B5E"]
+			description: ["{ftbquests.chapter.etc.quest6738974686772981272.description1}"]
+			id: "5D85A5C5E373EE18"
+			rewards: [{
+				id: "1ADF1094254617AB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.etc.quest6738974686772981272.subtitle}"
+			tasks: [{
+				id: "22CE02C5D28AE6B1"
+				item: "orbital_railgun:orbital_railgun"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.etc.subtitle0}"]
+	title: "{ftbquests.chapter.etc.title}"
+}

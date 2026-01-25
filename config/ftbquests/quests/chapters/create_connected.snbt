@@ -1,0 +1,613 @@
+{
+	autofocus_id: "769D1D5B36D849D2"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "create_connected"
+	group: "3C6437AAADAFC5CB"
+	icon: "createcasing:oak_cogwheel"
+	id: "16920DFB6C8BDE8E"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: ["ftbquests.chapter.create_connected.image.hovertext1"]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: -10.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1742597D48E37800"]
+			description: [
+				"{ftbquests.chapter.create_connected.quest8547019945418443218.description1}"
+				""
+				"{ftbquests.chapter.create_connected.quest8547019945418443218.description2}"
+			]
+			icon: "create_connected:brass_gearbox"
+			id: "769D1D5B36D849D2"
+			rewards: [{
+				id: "780A43FEBB9429D4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.create_connected.quest8547019945418443218.subtitle}"
+			tasks: [{
+				id: "1029399E7909E005"
+				title: "{ftbquests.chapter.create_connected.quest8547019945418443218.task.1164525331450290181.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.create_connected.quest8547019945418443218.title}"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: [
+				"{ftbquests.chapter.create_connected.quest6729560588855925467.description1}"
+				"{ftbquests.chapter.create_connected.quest6729560588855925467.image0}"
+				"{ftbquests.chapter.create_connected.quest6729560588855925467.description2}"
+				"{ftbquests.chapter.create_connected.quest6729560588855925467.image2}"
+				"{ftbquests.chapter.create_connected.quest6729560588855925467.description3}"
+			]
+			hide_dependency_lines: true
+			id: "5D6433B36939DADB"
+			rewards: [
+				{
+					id: "33774F11D75A8B21"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "1569413F8540ABD4"
+					item: "create_connected:empty_fan_catalyst"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest6729560588855925467.subtitle}"
+			tasks: [{
+				id: "7B84A39925AA3295"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create_connected.quest6729560588855925467.title}"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5D6433B36939DADB"]
+			description: [
+				"{ftbquests.chapter.create_connected.quest501658514695105262.description1}"
+				"{ftbquests.chapter.create_connected.quest501658514695105262.image0}"
+				"{ftbquests.chapter.create_connected.quest501658514695105262.description2}"
+				"{ftbquests.chapter.create_connected.quest501658514695105262.image2}"
+				"{ftbquests.chapter.create_connected.quest501658514695105262.description3}"
+				"{ftbquests.chapter.create_connected.quest501658514695105262.image4}"
+				"{ftbquests.chapter.create_connected.quest501658514695105262.description4}"
+			]
+			icon: "create_connected:fan_blasting_catalyst"
+			id: "06F63FC2DEF3AAEE"
+			rewards: [
+				{
+					id: "12B510D036592C7B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25AFE21BA0240F67"
+					table_id: 6020190763011454986L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest501658514695105262.subtitle}"
+			tasks: [
+				{
+					id: "1C2081D3711B570D"
+					item: "create_connected:fan_blasting_catalyst"
+					type: "item"
+				}
+				{
+					id: "6D864542E2587122"
+					item: "create_connected:fan_splashing_catalyst"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_connected.quest501658514695105262.title}"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5D6433B36939DADB"]
+			description: [
+				"{ftbquests.chapter.create_connected.quest3045492323179160704.description1}"
+				"{ftbquests.chapter.create_connected.quest3045492323179160704.image0}"
+				"{ftbquests.chapter.create_connected.quest3045492323179160704.description2}"
+			]
+			icon: "create_connected:fan_smoking_catalyst"
+			id: "2A43C321D945E480"
+			rewards: [
+				{
+					id: "188727E799852179"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D56833824EB711D"
+					table_id: 6020190763011454986L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest3045492323179160704.subtitle}"
+			tasks: [
+				{
+					id: "35CE17A383CEDC7F"
+					item: "create_connected:fan_smoking_catalyst"
+					type: "item"
+				}
+				{
+					id: "1AAE7028C80867E2"
+					item: "create_connected:fan_haunting_catalyst"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_connected.quest3045492323179160704.title}"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5D6433B36939DADB"]
+			description: [
+				"{ftbquests.chapter.create_connected.quest8306376319787223519.description1}"
+				"{ftbquests.chapter.create_connected.quest8306376319787223519.image0}"
+				"{ftbquests.chapter.create_connected.quest8306376319787223519.description2}"
+			]
+			icon: "create_connected:fan_seething_catalyst"
+			id: "73462D40F7A249DF"
+			rewards: [
+				{
+					id: "6E5D0AD78EC8B9A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EDB837F394D3F0D"
+					table_id: 6020190763011454986L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest8306376319787223519.subtitle}"
+			tasks: [
+				{
+					id: "69F5D2A2A00BEE90"
+					item: "create_connected:fan_seething_catalyst"
+					type: "item"
+				}
+				{
+					id: "299587F3512889E1"
+					item: "create_connected:fan_freezing_catalyst"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_connected.quest8306376319787223519.title}"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: [
+				"{ftbquests.chapter.create_connected.quest878916054948631598.description1}"
+				""
+				"{ftbquests.chapter.create_connected.quest878916054948631598.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "create_connected:inventory_access_port"
+			id: "0C32897ECA99D42E"
+			rewards: [
+				{
+					id: "6BD2E88D5402DFA9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "707AF89B401C455D"
+					table_id: 6020190763011454986L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest878916054948631598.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "34B18CD1AD8283EC"
+					item: "create_connected:inventory_access_port"
+					type: "item"
+				}
+				{
+					id: "4C0E9BF0896D4FD9"
+					item: "create_connected:inventory_bridge"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_connected.quest878916054948631598.title}"
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: ["{ftbquests.chapter.create_connected.quest7154285528861291814.description1}"]
+			hide_dependency_lines: true
+			icon: "create_connected:linked_transmitter"
+			id: "634920C8917EB526"
+			rewards: [
+				{
+					id: "4A4362A32410994E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14C1294AF3C947FB"
+					table_id: 6020190763011454986L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest7154285528861291814.subtitle}"
+			tasks: [
+				{
+					id: "0A97D02EF1449295"
+					item: "create_connected:linked_transmitter"
+					type: "item"
+				}
+				{
+					id: "77620FD7958011C8"
+					item: "create_connected:sequenced_pulse_generator"
+					type: "item"
+				}
+				{
+					id: "410DD2A743B8BAE4"
+					item: "create_connected:redstone_link_wildcard"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_connected.quest7154285528861291814.title}"
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: ["{ftbquests.chapter.create_connected.quest3605120687953202493.description1}"]
+			hide_dependency_lines: true
+			id: "3207F62A39DCCD3D"
+			rewards: [
+				{
+					id: "36E5182CCD4DEF78"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "396F418870BF63D1"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest3605120687953202493.subtitle}"
+			tasks: [{
+				id: "01C6770A77C91813"
+				item: "create_connected:item_silo"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create_connected.quest3605120687953202493.title}"
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: ["{ftbquests.chapter.create_connected.quest3319922592365539258.description1}"]
+			hide_dependency_lines: true
+			id: "2E12BC020FBDEFBA"
+			rewards: [
+				{
+					id: "7A23D68B42F460A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "42C2B188BC08D9B1"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest3319922592365539258.subtitle}"
+			tasks: [{
+				id: "5A350F9D1F3AFF69"
+				item: "create_connected:fluid_vessel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create_connected.quest3319922592365539258.title}"
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: [
+				"{ftbquests.chapter.create_connected.quest7210686282823383393.description1}"
+				""
+				"{ftbquests.chapter.create_connected.quest7210686282823383393.description2}"
+				""
+				"{ftbquests.chapter.create_connected.quest7210686282823383393.description3}"
+			]
+			hide_dependency_lines: true
+			icon: "create_connected:overstress_clutch"
+			id: "641180F86A783961"
+			rewards: [
+				{
+					id: "3F3E9FFA39FC5D4C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "473C3EC46D416477"
+					table_id: 6020190763011454986L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest7210686282823383393.subtitle}"
+			tasks: [
+				{
+					id: "672DEA2E4C84F4FF"
+					item: "create_connected:shear_pin"
+					type: "item"
+				}
+				{
+					id: "50EE6CFA2EFB0C4A"
+					item: "create_connected:overstress_clutch"
+					type: "item"
+				}
+				{
+					id: "42CF7B5E41AC0826"
+					item: "create_connected:brake"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_connected.quest7210686282823383393.title}"
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: [
+				"{ftbquests.chapter.create_connected.quest603516181457010150.description1}"
+				""
+				"{ftbquests.chapter.create_connected.quest603516181457010150.description2}"
+				""
+				"{ftbquests.chapter.create_connected.quest603516181457010150.description3}"
+			]
+			hide_dependency_lines: true
+			icon: "create_connected:centrifugal_clutch"
+			id: "08601EC4FBF1FDE6"
+			rewards: [
+				{
+					id: "2EA85921756396D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36808A84D5F35949"
+					table_id: 6020190763011454986L
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.create_connected.quest603516181457010150.subtitle}"
+			tasks: [
+				{
+					id: "1C00FC20746B6FB0"
+					item: "create_connected:centrifugal_clutch"
+					type: "item"
+				}
+				{
+					id: "6033AFD423EC70B1"
+					item: "create_connected:freewheel_clutch"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_connected.quest603516181457010150.title}"
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: [
+				"{ftbquests.chapter.create_connected.quest1718321524542587055.description1}"
+				"{ftbquests.chapter.create_connected.quest1718321524542587055.image0}"
+				"{ftbquests.chapter.create_connected.quest1718321524542587055.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "create_connected:inverted_clutch"
+			id: "17D8B4529044C0AF"
+			rewards: [
+				{
+					id: "6F3AAF6F83BD93F4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B3E48C4EB8F464D"
+					table_id: 6020190763011454986L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest1718321524542587055.subtitle}"
+			tasks: [
+				{
+					id: "23F90604630D2538"
+					item: "create_connected:inverted_gearshift"
+					type: "item"
+				}
+				{
+					id: "3CEBDF73B68E222D"
+					item: "create_connected:inverted_clutch"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_connected.quest1718321524542587055.title}"
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			hide_dependency_lines: true
+			icon: "create_connected:crank_wheel"
+			id: "19B6CA64E44FE562"
+			rewards: [
+				{
+					id: "06969073F19BE2CE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F2DF97C97E4397F"
+					table_id: 6020190763011454986L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "68EDEB78890882CF"
+					item: "create_connected:crank_wheel"
+					type: "item"
+				}
+				{
+					id: "26E9A56BF45D59B7"
+					item: "create_connected:large_crank_wheel"
+					type: "item"
+				}
+				{
+					id: "1432368C3D41E631"
+					item: "create_connected:encased_chain_cogwheel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_connected.quest1852890831385519458.title}"
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: ["{ftbquests.chapter.create_connected.quest3488628857041082491.description1}"]
+			hide_dependency_lines: true
+			icon: "create_connected:parallel_gearbox"
+			id: "306A1976411C587B"
+			rewards: [
+				{
+					id: "42472A07518B0A83"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02AF81C547C3132D"
+					table_id: 6020190763011454986L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest3488628857041082491.subtitle}"
+			tasks: [
+				{
+					id: "5C16857179279112"
+					item: "create_connected:parallel_gearbox"
+					type: "item"
+				}
+				{
+					id: "37DDACB11E3181E0"
+					item: "create_connected:six_way_gearbox"
+					type: "item"
+				}
+				{
+					id: "1D61757FDADB04E3"
+					item: "create_connected:brass_gearbox"
+					type: "item"
+				}
+				{
+					id: "79F636EA40326C13"
+					item: "create_connected:cross_connector"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create_connected.quest3488628857041082491.title}"
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: ["{ftbquests.chapter.create_connected.quest7672250761660520012.description1}"]
+			hide_dependency_lines: true
+			id: "6A794F6B1C7ED64C"
+			rewards: [
+				{
+					id: "13CFDBF710F3E589"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30FFCC5C25DBD740"
+					table_id: 6020190763011454986L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest7672250761660520012.subtitle}"
+			tasks: [{
+				id: "7AFDEAF617087162"
+				item: "create_connected:kinetic_bridge"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: ["{ftbquests.chapter.create_connected.quest481859129530936063.description1}"]
+			hide_dependency_lines: true
+			id: "06AFE85347786AFF"
+			rewards: [
+				{
+					id: "7F74E8545025376D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "430C1BDA2325582D"
+					table_id: 6020190763011454986L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create_connected.quest481859129530936063.subtitle}"
+			tasks: [{
+				id: "0EE30858E6288681"
+				item: "create_connected:kinetic_battery"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create_connected.quest481859129530936063.title}"
+			x: 2.5d
+			y: -8.0d
+		}
+	]
+	title: "{ftbquests.chapter.create_connected.title}"
+}

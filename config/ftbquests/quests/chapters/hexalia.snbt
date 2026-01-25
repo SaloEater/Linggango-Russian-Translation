@@ -1,0 +1,524 @@
+{
+	autofocus_id: "0141BFAE95A5EB8E"
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "hexalia"
+	group: "20D67F7F184680D5"
+	icon: "hexalia:hex_focus"
+	id: "58834F485854C545"
+	images: [
+		{
+			height: 1.5d
+			image: "customtextures:textures/hexalialogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.hexalia.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.hexalia.quest90564224080014222.description1}"
+				""
+				"{ftbquests.chapter.hexalia.quest90564224080014222.description2}"
+				""
+				"{ftbquests.chapter.hexalia.quest90564224080014222.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "hexalia:item/hex_focus"
+				}
+			}
+			icon_scale: 1.2d
+			id: "0141BFAE95A5EB8E"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.hexalia.quest90564224080014222.subtitle}"
+			tasks: [{
+				id: "6CEBFC1A1B12BE16"
+				item: "hexalia:verdant_grimoire"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.hexalia.quest90564224080014222.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0141BFAE95A5EB8E"]
+			description: ["{ftbquests.chapter.hexalia.quest7420025352478886924.description1}"]
+			id: "66F939BEBEE58C0C"
+			rewards: [{
+				count: 3
+				id: "10C6CF336D40933D"
+				item: "hexalia:spirit_bloom"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.hexalia.quest7420025352478886924.subtitle}"
+			tasks: [{
+				id: "580DB1BB0F6ADCE2"
+				item: "hexalia:spirit_bloom"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0141BFAE95A5EB8E"]
+			description: ["{ftbquests.chapter.hexalia.quest8486801064786414495.description1}"]
+			id: "75C72C9A7A004B9F"
+			rewards: [{
+				count: 4
+				id: "16A40998D37F4B5D"
+				item: "hexalia:sunfire_tomato_seeds"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.hexalia.quest8486801064786414495.subtitle}"
+			tasks: [{
+				id: "4496DCBD0D2F0708"
+				item: "hexalia:sunfire_tomato_seeds"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0141BFAE95A5EB8E"]
+			description: ["{ftbquests.chapter.hexalia.quest6465848740321281771.description1}"]
+			id: "59BB4F2BFA41C6EB"
+			rewards: [{
+				count: 3
+				id: "67850CCE2A1E9BF3"
+				item: "hexalia:mandrake_seeds"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.hexalia.quest6465848740321281771.subtitle}"
+			tasks: [{
+				id: "2BC4DA8C2C9B6CB1"
+				item: "hexalia:mandrake_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0141BFAE95A5EB8E"]
+			description: ["{ftbquests.chapter.hexalia.quest7750412399766081578.description1}"]
+			id: "6B8EFF039ED7102A"
+			rewards: [{
+				count: 4
+				id: "3D67C4C01981F5CD"
+				item: "hexalia:chillberries"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.hexalia.quest7750412399766081578.subtitle}"
+			tasks: [{
+				id: "6B99A3BE53BA5C7D"
+				item: "hexalia:chillberries"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0141BFAE95A5EB8E"]
+			description: ["{ftbquests.chapter.hexalia.quest3563460308147220236.description1}"]
+			id: "3173F4452E51AF0C"
+			rewards: [{
+				count: 3
+				id: "472D06A2F813E92C"
+				item: "hexalia:dreamshroom"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.hexalia.quest3563460308147220236.subtitle}"
+			tasks: [{
+				id: "20C84DA614854528"
+				item: "hexalia:dreamshroom"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0141BFAE95A5EB8E"]
+			description: ["{ftbquests.chapter.hexalia.quest3995904610982772198.description1}"]
+			id: "37744E128DF93DE6"
+			rewards: [{
+				count: 3
+				id: "70F4C40DB31531AA"
+				item: "hexalia:ghost_fern"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.hexalia.quest3995904610982772198.subtitle}"
+			tasks: [{
+				id: "2414587E4644B2EB"
+				item: "hexalia:ghost_fern"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0141BFAE95A5EB8E"]
+			description: [
+				"{ftbquests.chapter.hexalia.quest2558858994237790483.description1}"
+				""
+				"{ftbquests.chapter.hexalia.quest2558858994237790483.description2}"
+			]
+			id: "2382E4B2A5DB5913"
+			rewards: [{
+				count: 3
+				id: "552E02152499AEEA"
+				item: "hexalia:siren_kelp"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.hexalia.quest2558858994237790483.subtitle}"
+			tasks: [{
+				id: "39E1AE1AD3485CC0"
+				item: "hexalia:siren_kelp"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2382E4B2A5DB5913"]
+			description: [
+				"{ftbquests.chapter.hexalia.quest800294094568307721.description1}"
+				""
+				"{ftbquests.chapter.hexalia.quest800294094568307721.description2}"
+				""
+				"{ftbquests.chapter.hexalia.quest800294094568307721.description3}"
+			]
+			id: "0B1B373D26963C09"
+			rewards: [{
+				count: 3
+				id: "5BD66710309CEE3A"
+				item: "hexalia:infused_dirt"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.hexalia.quest800294094568307721.subtitle}"
+			tasks: [{
+				id: "62004E03A6FD9C0E"
+				item: "hexalia:infused_dirt"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2382E4B2A5DB5913"
+				"3173F4452E51AF0C"
+			]
+			description: [
+				"{ftbquests.chapter.hexalia.quest446849099972998431.description1}"
+				""
+				"{ftbquests.chapter.hexalia.quest446849099972998431.description2}"
+			]
+			id: "063386E39017F51F"
+			rewards: [
+				{
+					count: 2
+					id: "2544B85D5B409408"
+					item: "hexalia:dreamshroom"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4715D0E765DE4F07"
+					item: "hexalia:siren_kelp"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.hexalia.quest446849099972998431.subtitle}"
+			tasks: [{
+				id: "5E1008F99B281A5C"
+				item: {
+					Count: 1
+					id: "hexalia:mortar_and_pestle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["063386E39017F51F"]
+			description: ["{ftbquests.chapter.hexalia.quest3904117998386830580.description1}"]
+			id: "362E36A2770E5CF4"
+			subtitle: "{ftbquests.chapter.hexalia.quest3904117998386830580.subtitle}"
+			tasks: [{
+				id: "23A1BEC671727657"
+				item: {
+					Count: 1
+					id: "hexalia:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"063386E39017F51F"
+				"199346B76D69C4FD"
+			]
+			description: ["{ftbquests.chapter.hexalia.quest7199150246715064835.description1}"]
+			icon_scale: 1.3d
+			id: "63E88501B41E0203"
+			subtitle: "{ftbquests.chapter.hexalia.quest7199150246715064835.subtitle}"
+			tasks: [{
+				id: "7E5A45E9E99164D1"
+				item: "hexalia:small_cauldron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0141BFAE95A5EB8E"]
+			description: ["{ftbquests.chapter.hexalia.quest1842894426153272573.description1}"]
+			hide_dependency_lines: true
+			id: "199346B76D69C4FD"
+			rewards: [{
+				count: 6
+				id: "7353A9BD1BF0C2CF"
+				item: "hexalia:rustic_bottle"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.hexalia.quest1842894426153272573.subtitle}"
+			tasks: [{
+				id: "74B8EAA5C4091BFA"
+				item: "hexalia:rustic_oven"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["63E88501B41E0203"]
+			description: [
+				"{ftbquests.chapter.hexalia.quest4771743526116143102.description1}"
+				""
+				"{ftbquests.chapter.hexalia.quest4771743526116143102.description2}"
+			]
+			id: "4238A374896C2FFE"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.hexalia.quest4771743526116143102.subtitle}"
+			tasks: [{
+				id: "2AF25294808A3403"
+				item: "hexalia:salt"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.hexalia.quest4771743526116143102.title}"
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["75C72C9A7A004B9F"]
+			id: "032A72D8204F7AF5"
+			rewards: [{
+				count: 2
+				id: "1723D5B7AD28934B"
+				item: "hexalia:spicy_sandwich"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.hexalia.quest228121003716213493.subtitle}"
+			tasks: [{
+				id: "7BDADB675AF80A30"
+				item: "hexalia:spicy_sandwich"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59BB4F2BFA41C6EB"]
+			id: "5A783F9A5A5DF1CF"
+			rewards: [{
+				count: 2
+				id: "6E84FB27601200B6"
+				item: "hexalia:mandrake_stew"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.hexalia.quest6519030392792412623.subtitle}"
+			tasks: [{
+				id: "689FD002D5D928C2"
+				item: "hexalia:mandrake_stew"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B8EFF039ED7102A"]
+			id: "4DABDAAF440C2EC2"
+			rewards: [{
+				count: 2
+				id: "2B1009811F2C1DFA"
+				item: "hexalia:chillberry_pie"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.hexalia.quest5596807408233754306.subtitle}"
+			tasks: [{
+				id: "11A0F11A40A2C96F"
+				item: "hexalia:chillberry_pie"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63E88501B41E0203"]
+			description: ["{ftbquests.chapter.hexalia.quest5314187729669510644.description1}"]
+			id: "49BFC99598B0D5F4"
+			subtitle: "{ftbquests.chapter.hexalia.quest5314187729669510644.subtitle}"
+			tasks: [{
+				id: "0ADEB5D38FD51295"
+				item: "hexalia:rustic_bottle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4238A374896C2FFE"]
+			description: ["{ftbquests.chapter.hexalia.quest8144326418914101389.description1}"]
+			id: "710675BA3E34488D"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.hexalia.quest8144326418914101389.subtitle}"
+			tasks: [{
+				id: "6F7023560D7F1653"
+				item: {
+					Count: 1
+					id: "hexalia:purifying_sac"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["710675BA3E34488D"]
+			description: [
+				"{ftbquests.chapter.hexalia.quest5855829305601409958.description1}"
+				""
+				"{ftbquests.chapter.hexalia.quest5855829305601409958.description2}"
+				""
+				"{ftbquests.chapter.hexalia.quest5855829305601409958.description3}"
+				""
+				"{ftbquests.chapter.hexalia.quest5855829305601409958.description4}"
+				""
+				"{ftbquests.chapter.hexalia.quest5855829305601409958.description5}"
+				""
+				"{ftbquests.chapter.hexalia.quest5855829305601409958.description6}"
+				""
+				"{ftbquests.chapter.hexalia.quest5855829305601409958.description7}"
+			]
+			id: "514415BA59B1C3A6"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.hexalia.quest5855829305601409958.subtitle}"
+			tasks: [
+				{
+					id: "49B4E3D5A89A027C"
+					item: "hexalia:hex_focus"
+					type: "item"
+				}
+				{
+					id: "58699E3DA3A9E91C"
+					item: "hexalia:ritual_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.hexalia.quest5855829305601409958.title}"
+			x: 4.16326530612249d
+			y: 8.195578231292536d
+		}
+		{
+			dependencies: ["514415BA59B1C3A6"]
+			id: "68C3A0BCDA96E256"
+			shape: "square"
+			tasks: [{
+				id: "37940FB31C643576"
+				item: {
+					Count: 1
+					id: "hexalia:sage_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.4642857142857295d
+			y: 6.714285714285715d
+		}
+		{
+			dependencies: ["514415BA59B1C3A6"]
+			description: [
+				"{ftbquests.chapter.hexalia.quest8144623038649665166.description1}"
+				""
+				"{ftbquests.chapter.hexalia.quest8144623038649665166.description2}"
+			]
+			id: "71078380682D068E"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.hexalia.quest8144623038649665166.subtitle}"
+			tasks: [{
+				id: "754294C2AA171FB1"
+				item: "hexalia:ancient_seed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["71078380682D068E"]
+			description: [
+				"{ftbquests.chapter.hexalia.quest7742216846967376982.description1}"
+				""
+				"{ftbquests.chapter.hexalia.quest7742216846967376982.description2}"
+			]
+			id: "6B71E133C9890C56"
+			shape: "octagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.hexalia.quest7742216846967376982.subtitle}"
+			tasks: [{
+				id: "438C76F457058B55"
+				item: {
+					Count: 1
+					id: "hexalia:kelpweave_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.714285714285722d
+			y: 5.607142857142854d
+		}
+	]
+	title: "{ftbquests.chapter.hexalia.title}"
+}

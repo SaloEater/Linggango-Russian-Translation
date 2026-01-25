@@ -1,0 +1,987 @@
+{
+	autofocus_id: "6E0E13806F388D7E"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "ars_nouveau"
+	group: "20D67F7F184680D5"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ars_nouveau:item/caster_tome"
+		}
+	}
+	id: "6AEDA2F9BEB57759"
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.ars_nouveau.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/fire_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			height: 1.7d
+			image: "customtextures:textures/arsnoveaulogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -9.0d
+			y: -2.0d
+		}
+	]
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest7930297436188740990.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest7930297436188740990.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest7930297436188740990.description2}"
+			]
+			icon: "ars_nouveau:creative_spell_book"
+			id: "6E0E13806F388D7E"
+			rewards: [{
+				id: "135CB79AAB7807CD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest7930297436188740990.subtitle}"
+			tasks: [{
+				icon: "ars_nouveau:creative_spell_book"
+				id: "33CEC23CAF6DA6A6"
+				title: "{ftbquests.chapter.ars_nouveau.quest7930297436188740990.task.3733134707033745062.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.ars_nouveau.quest7930297436188740990.title}"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D86B2E553503E53"]
+			id: "48D5D9D9AD98409F"
+			optional: true
+			rewards: [{
+				id: "4BB00503DF53EE2B"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1624D71379FBBDA6"
+				item: "ars_nouveau:starbuncle_charm"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1D86B2E553503E53"]
+			id: "34A173721735401B"
+			optional: true
+			rewards: [{
+				id: "2DDBD92A1D727105"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "woodtier"
+			size: 1.0d
+			tasks: [{
+				id: "7CB3845C4BCA9F0E"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["18A2FBE2D4133FA2"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest4433277325739805222.description1}"
+				""
+				"{ftbquests.chapter.ars_nouveau.quest4433277325739805222.description2}"
+				""
+				"{ftbquests.chapter.ars_nouveau.quest4433277325739805222.description3}"
+			]
+			id: "3D862A3D3F83CA26"
+			rewards: [{
+				id: "10E90F6A2828F21C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "goldtier"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest4433277325739805222.subtitle}"
+			tasks: [
+				{
+					id: "2C36C64341C6B6F2"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "695EFDD9FC874F04"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.ars_nouveau.quest4433277325739805222.title}"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C3FF43CF16BCF30"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest1775258154776608674.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest1775258154776608674.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest1775258154776608674.description2}"
+			]
+			id: "18A2FBE2D4133FA2"
+			rewards: [{
+				count: 2
+				id: "705CCD3D5628C038"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			shape: "woodtier"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest1775258154776608674.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "5B80C1EF5D85EA64"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.ars_nouveau.quest1775258154776608674.title}"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["33682F4B44950123"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest4417337136572273489.description1}"
+				""
+				"{ftbquests.chapter.ars_nouveau.quest4417337136572273489.description2}"
+				""
+				"{ftbquests.chapter.ars_nouveau.quest4417337136572273489.description3}"
+			]
+			id: "3D4D88B8BE881351"
+			rewards: [
+				{
+					id: "255C0C3D6DF7B93C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "49D1C5163FAA6E0C"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+			]
+			shape: "goldtier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest4417337136572273489.subtitle}"
+			tasks: [{
+				id: "5ADEEEE0C217B20F"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.504761904761871d
+		}
+		{
+			dependencies: ["1D86B2E553503E53"]
+			id: "2C47C9B566A63135"
+			optional: true
+			rewards: [{
+				id: "5F63BC14E5BBE8F8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "woodtier"
+			size: 1.0d
+			tasks: [{
+				id: "5646241FF2CF806B"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6E0E13806F388D7E"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest7264559553515875458.description1}"
+				""
+				"{ftbquests.chapter.ars_nouveau.quest7264559553515875458.description2}"
+			]
+			id: "64D0E66CB4FBEC82"
+			rewards: [
+				{
+					id: "08FC22050E570119"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "irons_spellbooks:instant_mana_one"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D680E3D2334CD83"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest7264559553515875458.subtitle}"
+			tasks: [{
+				id: "6988873450238F30"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.ars_nouveau.quest7264559553515875458.title}"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64D0E66CB4FBEC82"]
+			description: ["{ftbquests.chapter.ars_nouveau.quest951121183831047612.description1}"]
+			id: "0D330FAD6C993DBC"
+			rewards: [
+				{
+					count: 12
+					id: "3DA41C63663F6102"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "6A96918EDED64304"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest951121183831047612.subtitle}"
+			tasks: [{
+				id: "0BCFC6422BBF539C"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D330FAD6C993DBC"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest1718074120490417759.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest1718074120490417759.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest1718074120490417759.description2}"
+			]
+			id: "17D7D34F519F7E5F"
+			rewards: [
+				{
+					id: "7D15D46D10553B15"
+					table_id: 8699295573854160387L
+					title: "{ftbquests.chapter.ars_nouveau.quest1718074120490417759.reward.9013343794142460693.title}"
+					type: "random"
+				}
+				{
+					id: "5292A1FD37C16455"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest1718074120490417759.subtitle}"
+			tasks: [{
+				id: "5E7DBDDD97BA8F13"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18A2FBE2D4133FA2"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest5007414277748036663.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest5007414277748036663.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest5007414277748036663.description2}"
+				"{ftbquests.chapter.ars_nouveau.quest5007414277748036663.image2}"
+				"{ftbquests.chapter.ars_nouveau.quest5007414277748036663.description3}"
+			]
+			id: "457DE8C154641437"
+			rewards: [{
+				id: "1800E6EADF522B9E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "goldtier"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest5007414277748036663.subtitle}"
+			tasks: [{
+				id: "1E0B9FBF5319CEF6"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["227DBA8836021B0B"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest349581306045716919.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest349581306045716919.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest349581306045716919.description2}"
+			]
+			id: "04D9F6587EF8D9B7"
+			rewards: [{
+				id: "17B1D2C9FCA7CE86"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest349581306045716919.subtitle}"
+			tasks: [{
+				id: "7F3D9B9E5E4FD3B8"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33682F4B44950123"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest6297941829716328838.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest6297941829716328838.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest6297941829716328838.description2}"
+			]
+			id: "5766C8B9E850C186"
+			rewards: [{
+				id: "288119FE940DBC05"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest6297941829716328838.subtitle}"
+			tasks: [{
+				id: "78B5B8F9CE9EC702"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64D0E66CB4FBEC82"]
+			id: "33682F4B44950123"
+			rewards: [
+				{
+					id: "044C1F6159FA0934"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "4655A824FBCC79BB"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+			]
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest3704262693831901475.subtitle}"
+			tasks: [
+				{
+					id: "163A6E303D6F419D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:logs/archwood"
+						}
+					}
+					title: "{ftbquests.chapter.ars_nouveau.quest3704262693831901475.task.1601713770951819677.title}"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7508E906C021AB6B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:planks/archwood"
+						}
+					}
+					title: "{ftbquests.chapter.ars_nouveau.quest3704262693831901475.task.8433246517453761387.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.ars_nouveau.quest3704262693831901475.title}"
+			x: -2.0d
+			y: -0.004761904761870994d
+		}
+		{
+			dependencies: ["40BC67BDEE15D1DE"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest2485347663562808075.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest2485347663562808075.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest2485347663562808075.description2}"
+			]
+			id: "227DBA8836021B0B"
+			rewards: [{
+				id: "03B28C357F5876AD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest2485347663562808075.subtitle}"
+			tasks: [{
+				id: "55AA5FAABC23709E"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1D86B2E553503E53"]
+			id: "04987E54ADC2C057"
+			optional: true
+			rewards: [{
+				id: "3A307569E3E248DD"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "3BFC384D0B963E6E"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1D86B2E553503E53"]
+			id: "6CEAA86EEAAC1203"
+			optional: true
+			rewards: [{
+				id: "76B9F9C2D4AEE7BA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "woodtier"
+			size: 1.0d
+			tasks: [{
+				id: "751B3A47FE592B2F"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["227DBA8836021B0B"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest1860025289394825896.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest1860025289394825896.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest1860025289394825896.description2}"
+			]
+			id: "19D02325579F2AA8"
+			rewards: [{
+				id: "41A13C7308426B0F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest1860025289394825896.subtitle}"
+			tasks: [{
+				id: "273385666F3DBB43"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0E2AD156E5EF263A"]
+			description: ["{ftbquests.chapter.ars_nouveau.quest1519481190430847112.description1}"]
+			id: "151648179684B088"
+			rewards: [{
+				id: "15C8BFFB7994B162"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest1519481190430847112.subtitle}"
+			tasks: [{
+				id: "2E649D2172E6D537"
+				item: {
+					Count: 1
+					id: "ars_nouveau:runic_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["64D0E66CB4FBEC82"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest6700127314691022557.description1}"
+				""
+				"{ftbquests.chapter.ars_nouveau.quest6700127314691022557.description2}"
+			]
+			icon: "ars_nouveau:spell_parchment"
+			id: "5CFBA24B3E0CDEDD"
+			rewards: [
+				{
+					count: 12
+					id: "7B331DEBC818B5E0"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "07AE47E1D4C3A539"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 5
+					id: "2F73BC5CCC746FB6"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "66538CE9E68B8C98"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D9B1102C4D05E7C"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+				{
+					id: "1D7EF1CFB474FF28"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest6700127314691022557.subtitle}"
+			tasks: [{
+				id: "1B916AE67F84E6D7"
+				title: "{ftbquests.chapter.ars_nouveau.quest6700127314691022557.task.1986486448861538007.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.ars_nouveau.quest6700127314691022557.title}"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64D0E66CB4FBEC82"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest7732993419960551744.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest7732993419960551744.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest7732993419960551744.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion"
+				}
+			}
+			id: "6B511C8B572E8940"
+			rewards: [{
+				id: "61F76293846B9FD8"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "ars_nouveau:mana_regen_potion"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest7732993419960551744.subtitle}"
+			tasks: [{
+				id: "01FD75641E5EA5E4"
+				title: "{ftbquests.chapter.ars_nouveau.quest7732993419960551744.task.143399836012422628.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.ars_nouveau.quest7732993419960551744.title}"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5766C8B9E850C186"]
+			description: ["{ftbquests.chapter.ars_nouveau.quest4664717379489878494.description1}"]
+			id: "40BC67BDEE15D1DE"
+			rewards: [{
+				count: 3
+				id: "7B6F6DFF0B45A09E"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			shape: "goldtier"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest4664717379489878494.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "1344731C799303A3"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.ars_nouveau.quest4664717379489878494.title}"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33682F4B44950123"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest3549579836872637091.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest3549579836872637091.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest3549579836872637091.description2}"
+			]
+			id: "3142A40E1EAEBAA3"
+			optional: true
+			rewards: [{
+				id: "4977166121ECC08C"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest3549579836872637091.subtitle}"
+			tasks: [{
+				id: "07469C1ABB23F686"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["227DBA8836021B0B"]
+			id: "295C77EEC89000FC"
+			rewards: [{
+				id: "6AC8394DDA473881"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest2980388920863228156.subtitle}"
+			tasks: [{
+				id: "33072A37F4A28A77"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04D9F6587EF8D9B7"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest4728988745671013601.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest4728988745671013601.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest4728988745671013601.description2}"
+			]
+			id: "41A0BE357C8A74E1"
+			rewards: [{
+				id: "188BCDAC03707495"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest4728988745671013601.subtitle}"
+			tasks: [{
+				id: "2D08E66F6D607676"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["227DBA8836021B0B"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest8580572335539169019.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest8580572335539169019.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest8580572335539169019.description2}"
+			]
+			id: "77145113CD5B26FB"
+			rewards: [{
+				id: "4FA87A70CA1B38A3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest8580572335539169019.subtitle}"
+			tasks: [{
+				id: "3F5621FA53258210"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["227DBA8836021B0B"]
+			description: [
+				"{ftbquests.chapter.ars_nouveau.quest3246235017359833981.description1}"
+				"{ftbquests.chapter.ars_nouveau.quest3246235017359833981.image0}"
+				"{ftbquests.chapter.ars_nouveau.quest3246235017359833981.description2}"
+			]
+			id: "2D0CF18C8B2ABB7D"
+			rewards: [{
+				id: "11AE76C610C58CAC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest3246235017359833981.subtitle}"
+			tasks: [{
+				id: "7CEAACDBB77206CC"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40BC67BDEE15D1DE"]
+			description: ["{ftbquests.chapter.ars_nouveau.quest6647300117607730992.description1}"]
+			id: "5C3FF43CF16BCF30"
+			rewards: [
+				{
+					id: "21D1F9B1E362FB60"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6112920BDCC768D2"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest6647300117607730992.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "03EB390E79866058"
+				item: "ars_nouveau:sourcestone"
+				title: "{ftbquests.chapter.ars_nouveau.quest6647300117607730992.task.282382135971962968.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.ars_nouveau.quest6647300117607730992.title}"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3D4D88B8BE881351"]
+			description: ["{ftbquests.chapter.ars_nouveau.quest1020858436707886650.description1}"]
+			id: "0E2AD156E5EF263A"
+			rewards: [{
+				id: "1B91CB1A18C7B682"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest1020858436707886650.subtitle}"
+			tasks: [{
+				id: "5D09025968ED4E34"
+				item: "ars_nouveau:spell_parchment"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: ["{ftbquests.chapter.ars_nouveau.quest2127584571994160723.description1}"]
+			id: "1D86B2E553503E53"
+			rewards: [{
+				id: "67EA044B041162DB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "woodtier"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest2127584571994160723.subtitle}"
+			tasks: [{
+				id: "259C1D84AD3996AF"
+				item: "ars_nouveau:dominion_wand"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.ars_nouveau.quest2127584571994160723.title}"
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "14DB8A515CA50932"
+			rewards: [{
+				id: "19B7080FCC0A09B3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "goldtier"
+			size: 1.0d
+			tasks: [{
+				id: "307E429DCDA2A0BC"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "3182E8AF755104E4"
+			rewards: [{
+				id: "6527B43EF13C8B93"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "woodtier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest3567669695116018916.subtitle}"
+			tasks: [{
+				id: "571B04DAC6DAFDAE"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			description: ["{ftbquests.chapter.ars_nouveau.quest5842905470572190641.description1}"]
+			id: "51162B9185A45BB1"
+			rewards: [{
+				id: "6832CF1DF11BB58F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "goldtier"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest5842905470572190641.subtitle}"
+			tasks: [{
+				id: "7F425E0F613F8B23"
+				item: "ars_nouveau:spell_bow"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3D862A3D3F83CA26"]
+			id: "111649D7E16D869F"
+			rewards: [{
+				id: "23D89B4C20A1BA62"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "goldtier"
+			size: 1.0d
+			tasks: [{
+				id: "3CF6151060ADB889"
+				item: "ars_nouveau:wand"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["64D0E66CB4FBEC82"]
+			hide_until_deps_complete: true
+			id: "5F1DD2ADD3D5D266"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.ars_nouveau.quest6853865851952943718.subtitle}"
+			tasks: [{
+				id: "113423926A8EE1CF"
+				item: "tomeofblood:novice_tome_of_blood"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F1DD2ADD3D5D266"]
+			id: "5773EE2F91F579CC"
+			tasks: [{
+				id: "19A507154AF0DBB0"
+				item: "tomeofblood:apprentice_tome_of_blood"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5773EE2F91F579CC"]
+			id: "7535F57D31505ED5"
+			tasks: [{
+				id: "2889C7C69B7BF730"
+				item: "tomeofblood:archmage_tome_of_blood"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+	]
+	title: "{ftbquests.chapter.ars_nouveau.title}"
+}

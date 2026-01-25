@@ -1,0 +1,508 @@
+{
+	autofocus_id: "3393C84257399431"
+	default_hide_dependency_lines: false
+	default_quest_shape: "woodtier"
+	filename: "foolish"
+	group: "52FA8429D8BF5933"
+	hide_quest_until_deps_complete: true
+	icon: "foolish:foolish_logo"
+	id: "3C5A098118F86AE6"
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.foolish.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "customtextures:textures/foolishlogo.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:models/alchemyarrays/wiparray"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -3.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.foolish.quest3716534304767579185.description1}"
+				""
+				""
+				""
+				""
+				"{ftbquests.chapter.foolish.quest3716534304767579185.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "foolish:item/realfoolishlogodownscaled-1.png_1"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3393C84257399431"
+			rewards: [{
+				id: "56CC0C3F0C7797B8"
+				type: "xp"
+				xp: 2
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.foolish.quest3716534304767579185.subtitle}"
+			tasks: [{
+				id: "3B2955B7F54BAECC"
+				title: "{ftbquests.chapter.foolish.quest3716534304767579185.task.4263032770865639116.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.foolish.quest3716534304767579185.title}"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4123AEC43693F821"]
+			description: ["{ftbquests.chapter.foolish.quest2648326070462344620.description1}"]
+			id: "24C0BE8797506DAC"
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.foolish.quest2648326070462344620.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "supplementaries:textures/map_marker/ruined_portal.png"
+					}
+				}
+				id: "3D215552D5ED6136"
+				structure: "foolish:stellar_portal_structure"
+				title: "{ftbquests.chapter.foolish.quest2648326070462344620.task.4404895724809838902.title}"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["11CAA3DE6E96409D"]
+			description: ["{ftbquests.chapter.foolish.quest4693787394402678817.description1}"]
+			id: "4123AEC43693F821"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.foolish.quest4693787394402678817.subtitle}"
+			tasks: [{
+				id: "57267EE14D66D85D"
+				item: {
+					Count: 1
+					id: "foolish:stellar_hollow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.foolish.quest4693787394402678817.title}"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24C0BE8797506DAC"]
+			description: ["{ftbquests.chapter.foolish.quest1711334518461922711.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_marker/nether_portal.png"
+				}
+			}
+			id: "17BFE1AD70C97D97"
+			rewards: [{
+				id: "40342832A1AA7335"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.foolish.quest1711334518461922711.subtitle}"
+			tasks: [{
+				dimension: "foolish:stellar_hollow"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle2.png"
+					}
+				}
+				id: "24FC2D17032298A6"
+				title: "{ftbquests.chapter.foolish.quest1711334518461922711.task.2665054656356587686.title}"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.foolish.quest1711334518461922711.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17BFE1AD70C97D97"]
+			description: ["{ftbquests.chapter.foolish.quest5216049268558751560.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "foolish:textures/mob_effect/sacilite-43.png.png"
+				}
+			}
+			icon_scale: 1.3d
+			id: "4863212C87616748"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0248C9C20E6C8652"
+				table_id: 2501998888776764148L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.foolish.quest5216049268558751560.subtitle}"
+			tasks: [{
+				entity: "foolish:sacilic_abomination"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "foolish:block/sacilite-21.png_3"
+					}
+				}
+				id: "47574F2050840B5F"
+				title: "{ftbquests.chapter.foolish.quest5216049268558751560.task.5140664499875089247.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17BFE1AD70C97D97"]
+			description: ["{ftbquests.chapter.foolish.quest3026404737714861190.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "windswept:block/red_rose_bush_top"
+				}
+			}
+			id: "29FFF3130A0DB486"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BC7BE32C91BA479"
+				table_id: 2501998888776764148L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.foolish.quest3026404737714861190.subtitle}"
+			tasks: [{
+				entity: "foolish:scarlant_queen"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "foolish:textures/mob_effect/scarletfields-25.png.png"
+					}
+				}
+				id: "172C71AD0B4CA8E2"
+				title: "{ftbquests.chapter.foolish.quest3026404737714861190.task.1669834549880465634.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["17BFE1AD70C97D97"]
+			description: [
+				"{ftbquests.chapter.foolish.quest2462277026517802960.description1}"
+				""
+				"{ftbquests.chapter.foolish.quest2462277026517802960.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "celestisynth:textures/entity/visuals/aquaflora_flower/aquaflora_flower1.png"
+				}
+			}
+			id: "222BC3E8F032DFD0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D5487DD7E6A6EF8"
+				table_id: 2501998888776764148L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.foolish.quest2462277026517802960.subtitle}"
+			tasks: [{
+				entity: "foolish:terrorflora"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "celestisynth:textures/entity/visuals/aquaflora_flower/aquaflora_flower1.png"
+					}
+				}
+				id: "7619A22A07D141DF"
+				title: "{ftbquests.chapter.foolish.quest2462277026517802960.task.8510011272296743391.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17BFE1AD70C97D97"]
+			description: ["{ftbquests.chapter.foolish.quest7581599409477739829.description1}"]
+			icon: "foolish:thunder_core"
+			id: "6937407E6F3B6535"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "518A0E00E3844AE8"
+				table_id: 2501998888776764148L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.foolish.quest7581599409477739829.subtitle}"
+			tasks: [{
+				entity: "foolish:thunderbird"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "foolish:textures/mob_effect/thunderlight-7.png.png"
+					}
+				}
+				id: "543B12C400859B07"
+				title: "{ftbquests.chapter.foolish.quest7581599409477739829.task.6069465555843521287.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17BFE1AD70C97D97"]
+			description: ["{ftbquests.chapter.foolish.quest8731126818424954498.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:item/uranium"
+				}
+			}
+			id: "792B3194F51B1E82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74C4D826DB62D07F"
+				table_id: 2501998888776764148L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.foolish.quest8731126818424954498.subtitle}"
+			tasks: [{
+				entity: "foolish:thrasher"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "goety:item/thrash_glove"
+					}
+				}
+				id: "0C50A00CAABD2E1D"
+				title: "{ftbquests.chapter.foolish.quest8731126818424954498.task.887385102856564253.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17BFE1AD70C97D97"]
+			description: [
+				"{ftbquests.chapter.foolish.quest4614287170353702607.description1}"
+				""
+				"{ftbquests.chapter.foolish.quest4614287170353702607.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "winteroverhaul:item/green_scarf"
+				}
+			}
+			id: "40093DBBE09326CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21613B8916CC5837"
+				table_id: 2501998888776764148L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.foolish.quest4614287170353702607.subtitle}"
+			tasks: [{
+				entity: "foolish:varmint_king"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "irons_spellbooks:item/gold_crown"
+					}
+				}
+				id: "640E8649F7F15C0C"
+				title: "{ftbquests.chapter.foolish.quest4614287170353702607.task.7209847705717267468.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"222BC3E8F032DFD0"
+				"4863212C87616748"
+				"792B3194F51B1E82"
+				"6937407E6F3B6535"
+				"29FFF3130A0DB486"
+				"40093DBBE09326CF"
+			]
+			description: [
+				"{ftbquests.chapter.foolish.quest6653027771156466705.description1}"
+				""
+				"{ftbquests.chapter.foolish.quest6653027771156466705.description2}"
+				""
+				"{ftbquests.chapter.foolish.quest6653027771156466705.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "enigmaticdelicacy:item/astral_fruit_slice"
+				}
+			}
+			id: "5C544D8234970C11"
+			rewards: [
+				{
+					id: "6F93949480460526"
+					table_id: 4068213888760668096L
+					title: "{ftbquests.chapter.foolish.quest6653027771156466705.reward.8039933125314610470.title}"
+					type: "random"
+				}
+				{
+					icon: "minecraft:oak_log"
+					id: "0D87A44541BF85DB"
+					table_id: 4067690183644308744L
+					title: "{ftbquests.chapter.foolish.quest6653027771156466705.reward.974928461711771099.title}"
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.foolish.quest6653027771156466705.subtitle}"
+			tasks: [{
+				entity: "foolish:astralis"
+				id: "77C6EEB62E671AAB"
+				title: "{ftbquests.chapter.foolish.quest6653027771156466705.task.8630848202132101803.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17BFE1AD70C97D97"]
+			id: "7AD184B17A747202"
+			rewards: [{
+				id: "46CF86C5172A831B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.foolish.quest8850000640558264834.subtitle}"
+			tasks: [{
+				id: "6C35F7F7B233ECF8"
+				item: {
+					Count: 1
+					id: "foolish:keepsteel_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C544D8234970C11"]
+			id: "37B828E3A1A6805E"
+			shape: "gear"
+			tasks: [{
+				id: "15F321F5504D264C"
+				item: "foolish:meteordrive_hammer"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.foolish.quest4015004025935528030.title}"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C544D8234970C11"]
+			id: "7D0D0C3E6446043A"
+			shape: "gear"
+			tasks: [{
+				id: "56F934BE5F135CB1"
+				item: "foolish:starsplitter_spear"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C544D8234970C11"]
+			id: "07920611CFD69FA2"
+			shape: "gear"
+			tasks: [{
+				id: "3010D8CBA9592CC4"
+				item: "foolish:astral_edge_sword"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.foolish.quest545505178436411298.title}"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3393C84257399431"]
+			description: [
+				"{ftbquests.chapter.foolish.quest1282017219673735325.description1}"
+				""
+				"{ftbquests.chapter.foolish.quest1282017219673735325.description2}"
+			]
+			id: "11CAA3DE6E96409D"
+			subtitle: "{ftbquests.chapter.foolish.quest1282017219673735325.subtitle}"
+			tasks: [{
+				id: "1CE8834F982D3762"
+				structure: "foolish:explorers_house"
+				title: "{ftbquests.chapter.foolish.quest1282017219673735325.task.2083059205537609570.title}"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+	]
+	title: "{ftbquests.chapter.foolish.title}"
+}

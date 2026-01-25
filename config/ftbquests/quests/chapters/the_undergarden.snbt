@@ -1,0 +1,523 @@
+{
+	autofocus_id: "6C4B93FE64BD418D"
+	default_hide_dependency_lines: false
+	default_quest_shape: "woodtier"
+	filename: "the_undergarden"
+	group: "52FA8429D8BF5933"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "undergarden:block/blood_mushroom"
+		}
+	}
+	id: "4AF801B626E8118F"
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.the_undergarden.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			height: 1.7d
+			image: "customtextures:textures/undergardenlogo.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: -7.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C4B93FE64BD418D"]
+			description: ["{ftbquests.chapter.the_undergarden.quest2027506540344509005.description1}"]
+			hide_dependent_lines: true
+			icon: "undergarden:goo_ball"
+			id: "1C232674CD04024D"
+			rewards: [{
+				id: "4611E0242FAB9CF3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.the_undergarden.quest2027506540344509005.subtitle}"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "0F2860523070BF25"
+				title: "{ftbquests.chapter.the_undergarden.quest2027506540344509005.task.1092228815753625381.title}"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest2027506540344509005.title}"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:grongle_sapling"
+			id: "647A87E800C703C3"
+			rewards: [{
+				id: "2DBEE0D01E6A8995"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:gronglegrowth"
+				icon: "undergarden:grongle_sapling"
+				id: "7C9EF32C628CA0A8"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest7240248781466698691.title}"
+			x: 3.6d
+			y: -1.7999999999999998d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:glitterkelp"
+			id: "353AEEC116A5DEEF"
+			rewards: [{
+				id: "5429CC01B4971AD3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:ancient_sea"
+				icon: "undergarden:glitterkelp"
+				id: "518049B7B94DEA7A"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest3835640545735466735.title}"
+			x: 3.0000000000000004d
+			y: -2.4d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:wigglewood_sapling"
+			id: "050D8480EE9D8E62"
+			rewards: [{
+				id: "6B757D1052B67B34"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:wigglewood_forest"
+				icon: "undergarden:wigglewood_sapling"
+				id: "7FFA960B8F3CC151"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest364092834180861538.title}"
+			x: 2.4d
+			y: -1.7999999999999998d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:depthrock_bricks"
+			id: "4E3D548E5D8D7D26"
+			rewards: [{
+				id: "7E7389D366197863"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:forgotten_field"
+				icon: "undergarden:depthrock_bricks"
+				id: "12E13E7D8732BC65"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest5637755278969371942.title}"
+			x: 0.0d
+			y: -1.2d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:veil_mushroom"
+			id: "7E3DA4168D352B42"
+			rewards: [{
+				id: "02C06AB42788957F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:veil_mushroom_bog"
+				icon: "undergarden:veil_mushroom"
+				id: "5F65CF932582E4D4"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest9096607239123577666.title}"
+			x: -3.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			description: ["{ftbquests.chapter.the_undergarden.quest977745883654452518.description1}"]
+			id: "0D91A6B36BD2F526"
+			rewards: [{
+				id: "5C97016990826793"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.the_undergarden.quest977745883654452518.subtitle}"
+			tasks: [{
+				id: "5E0BED0B76D91B6F"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest977745883654452518.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:depthrock"
+			id: "36389696767EFB4E"
+			rewards: [{
+				id: "4B4FBFCCB070EB30"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:barren_abyss"
+				icon: "undergarden:depthrock"
+				id: "7F8993963938570B"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest3907038249721199438.title}"
+			x: 1.2d
+			y: -1.2d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:blood_mushroom"
+			id: "06D13E319C26C949"
+			rewards: [{
+				id: "4A2FBB3EACE3F1BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:blood_mushroom_bog"
+				icon: "undergarden:blood_mushroom"
+				id: "19FD2A6FBA7368C4"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest491242217154201929.title}"
+			x: -3.0d
+			y: -1.1999999999999997d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:sediment"
+			id: "1BAE1519E44E40CE"
+			rewards: [{
+				id: "0214A47335438F7E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:dead_sea"
+				icon: "undergarden:sediment"
+				id: "01BCE3270B3EEDA9"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest1994554885920407758.title}"
+			x: 0.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:deepturf_block"
+			id: "15A8F04BC10E619E"
+			rewards: [{
+				id: "12D1A6BD7DB7E1DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:dense_forest"
+				icon: "undergarden:deepturf_block"
+				id: "4AA288827E383289"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest1560761479036035486.title}"
+			x: -1.2d
+			y: -1.2d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:frozen_deepturf_block"
+			id: "1E13D7CE5A9EFF74"
+			rewards: [{
+				id: "196AF64340C2D7B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:frostfields"
+				icon: "minecraft:snow_block"
+				id: "38C521FBA84E18B7"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest2167313126978944884.title}"
+			x: -1.7999999999999998d
+			y: -3.5999999999999996d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:blood_mushroom_stem"
+			id: "0C98503A2F20484D"
+			rewards: [{
+				id: "0957C1372A07536B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:frosty_smogstem_forest"
+				icon: "undergarden:frozen_deepturf_block"
+				id: "7425F62E6014D327"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest907563535744125005.title}"
+			x: 0.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "ecologics:thin_ice"
+			id: "073BA8470EA37A00"
+			rewards: [{
+				id: "603CBB78679E2DE9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:icy_sea"
+				icon: "minecraft:packed_ice"
+				id: "13998128201A3AD4"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest521195205033163264.title}"
+			x: 1.7999999999999998d
+			y: -3.5999999999999996d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:indigo_mushroom"
+			id: "0A0A991BAC99092C"
+			rewards: [{
+				id: "6D3D8B1115168801"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:indigo_mushroom_bog"
+				icon: "undergarden:indigo_mushroom"
+				id: "3CCDB2BDBD680158"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest723559034285263148.title}"
+			x: -3.5999999999999996d
+			y: -1.8000000000000003d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:ink_mushroom"
+			id: "278D34BBC13356DF"
+			rewards: [{
+				id: "404CE4FF92D35505"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:ink_mushroom_bog"
+				icon: "undergarden:ink_mushroom"
+				id: "2489A0C2542332E1"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest2849992120200287967.title}"
+			x: -2.4000000000000004d
+			y: -1.8000000000000003d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:smog_vent"
+			id: "511144EF336BFAF5"
+			rewards: [{
+				id: "5A53B26A5A61E77D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:smog_spires"
+				icon: "undergarden:smog_vent"
+				id: "283BFDA10C3530EC"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest5841525985826831093.title}"
+			x: -0.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: "undergarden:smogstem_sapling"
+			id: "43FD4AEBB9548E57"
+			rewards: [{
+				id: "4EA712B69725CCF4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				biome: "undergarden:smogstem_forest"
+				icon: "undergarden:smogstem_sapling"
+				id: "44D8BAEAA4D0CA1D"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_undergarden.quest4899154345936064087.title}"
+			x: 3.0000000000000004d
+			y: -1.1999999999999997d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.the_undergarden.quest7803493500170617229.description1}"
+				""
+				"{ftbquests.chapter.the_undergarden.quest7803493500170617229.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/info_icon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6C4B93FE64BD418D"
+			rewards: [{
+				id: "5E5FBCE2B7C30700"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.the_undergarden.quest7803493500170617229.subtitle}"
+			tasks: [
+				{
+					id: "6582E66B9320B94B"
+					item: "undergarden:catalyst"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "339902AD75FABFF0"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_undergarden.quest7803493500170617229.title}"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			description: ["{ftbquests.chapter.the_undergarden.quest1265717392784898373.description1}"]
+			id: "1190BB433EFA3945"
+			rewards: [{
+				count: 5
+				id: "250BD4197B2AB64B"
+				item: "undergarden:rotten_blisterberry"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.the_undergarden.quest1265717392784898373.subtitle}"
+			tasks: [{
+				id: "5C5E12080C612D23"
+				item: {
+					Count: 1
+					id: "undergarden:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			description: ["{ftbquests.chapter.the_undergarden.quest6801499270064439189.description1}"]
+			id: "5E63C78CDC44FF95"
+			rewards: [{
+				count: 5
+				id: "47A34F25F9C3DE31"
+				item: "undergarden:blisterbomb"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.the_undergarden.quest6801499270064439189.subtitle}"
+			tasks: [
+				{
+					id: "245333BAF2116325"
+					item: "undergarden:blisterbomb"
+					type: "item"
+				}
+				{
+					id: "027921BB67B819C7"
+					item: "undergarden:boomgourd"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_undergarden.quest6801499270064439189.title}"
+			x: 1.0d
+			y: 1.5d
+		}
+	]
+	title: "{ftbquests.chapter.the_undergarden.title}"
+}

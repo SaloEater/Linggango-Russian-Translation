@@ -1,0 +1,180 @@
+{
+	id: "07446637D8F25464"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "companions:shadow_bell", title: "SECRET" }
+		{ item: "companions:big_bread", title: "SECRET" }
+		{ item: "companions:frog_bonanza_block", title: "SECRET" }
+		{ item: "companions:croissant_egg_block", title: "SECRET" }
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:common_potion"
+				tag: {
+					EnigmaticPotion: "haste"
+				}
+			}
+			title: "SECRET"
+		}
+		{ item: "enigmaticdice:moon_shard", title: "SECRET" }
+		{ item: "enigmaticlegacy:cursed_ring", title: "SECRET" }
+		{ item: "enigmaticaddons:scorched_charm", title: "SECRET", weight: 0.2f }
+		{ item: "farmersdelight:tomato" }
+		{ item: "undergarden:shard_torch", title: "SECRET" }
+		{
+			item: {
+				Count: 1
+				id: "too_many_bows:wind_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+		}
+		{
+			item: {
+				Count: 1
+				id: "netherexp:shotgun_fist"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+		}
+		{ item: "create_new_age:basic_motor", title: "SECRET" }
+		{ count: 5, item: "create_new_age:redstone_magnet", title: "SECRET" }
+		{
+			command: "/execute as @e[limit=15] run summon minecraft:tnt ~ ~ ~"
+			elevate_perms: true
+			silent: true
+			title: "SECRET"
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			command: "/execute as @e[limit=15] run summon minecraft:zombie ~ ~ ~"
+			elevate_perms: true
+			silent: true
+			title: "SECRET"
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			command: "/execute as @e[limit=1] run summon minecraft:warden ~ ~ ~"
+			elevate_perms: true
+			silent: true
+			title: "SECRET"
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			command: "/execute as @e[limit=5] run summon minecraft:lightning_bolt ~ ~ ~"
+			elevate_perms: true
+			silent: true
+			title: "SECRET"
+			type: "command"
+			weight: 6.0f
+		}
+		{
+			command: "/tp @p ~ ~ 100000"
+			elevate_perms: true
+			silent: true
+			title: "SECRET"
+			type: "command"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:netherite_paxel"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:osmium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+		}
+		{ item: "sophisticatedstorage:basic_to_netherite_tier_upgrade", title: "SECRET" }
+		{
+			command: "/execute as @e[limit=50] run summon minecraft:tnt"
+			elevate_perms: true
+			silent: true
+			title: "SECRET"
+			type: "command"
+		}
+		{
+			item: {
+				Count: 1
+				id: "foolish:stellar_hollow"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+		}
+		{
+			item: {
+				Count: 1
+				id: "knightquest:creeper_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+		}
+		{ item: "enigmaticaddons:adventure_charm", title: "SECRET", weight: 0.5f }
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:angel_wing"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			title: "SECRET"
+		}
+		{ item: "railways:locometal_smokebox", title: "SECRET" }
+		{ item: "born_in_chaos_v1:creepy_nutcracker", title: "SECRET" }
+		{
+			item: {
+				Count: 1
+				id: "undergarden:forgotten_battleaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+		}
+	]
+	title: "{ftbquests.loot_table.523655846730814564.title}"
+}

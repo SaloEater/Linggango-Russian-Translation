@@ -1,0 +1,251 @@
+{
+	autofocus_id: "72F0B6BB321BD1A5"
+	default_hide_dependency_lines: false
+	default_quest_shape: "woodtier"
+	filename: "knight_quest"
+	group: "3C6AB1DE39D4F441"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "knightquest:item/paladin_sword"
+		}
+	}
+	id: "41BC2AB94F60AA8F"
+	images: [
+		{
+			height: 1.2d
+			image: "terramity:item/archangel_halo"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.3265306122449019d
+			y: 3.265306122448955d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.knight_quest.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.2d
+			image: "customtextures:textures/knightquestlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 4.0d
+			y: -0.5d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.knight_quest.quest8282320629850165669.description1}"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "knightquest:item/great_essence"
+				}
+			}
+			icon_scale: 1.3d
+			id: "72F0B6BB321BD1A5"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.knight_quest.quest8282320629850165669.subtitle}"
+			tasks: [{
+				id: "00FA0BB4CA9216FF"
+				title: "{ftbquests.chapter.knight_quest.quest8282320629850165669.task.70381615298254591.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.knight_quest.quest8282320629850165669.title}"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72F0B6BB321BD1A5"]
+			id: "4E2837B73E305DF0"
+			rewards: [{
+				count: 4
+				id: "38B73BC389714C25"
+				item: "knightlib:small_essence"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.knight_quest.quest5631812594188705264.subtitle}"
+			tasks: [
+				{
+					id: "1C1FF47DFC4AE772"
+					item: "knightlib:small_essence"
+					type: "item"
+				}
+				{
+					id: "3A78DD20C5DD14D1"
+					item: "knightlib:great_essence"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.knight_quest.quest5631812594188705264.title}"
+			x: 4.6078846503452695d
+			y: 2.667437450374628d
+		}
+		{
+			dependencies: ["4E2837B73E305DF0"]
+			description: [
+				"{ftbquests.chapter.knight_quest.quest3953733163726370349.description1}"
+				""
+				"{ftbquests.chapter.knight_quest.quest3953733163726370349.description2}"
+			]
+			id: "36DE7B5D5897762D"
+			rewards: [{
+				id: "737EBB4F812792B2"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.knight_quest.quest3953733163726370349.subtitle}"
+			tasks: [{
+				id: "72BBEE4CDC8B329E"
+				item: "knightlib:great_chalice"
+				type: "item"
+			}]
+			x: 2.6785714285711038d
+			y: 2.7142857142857792d
+		}
+		{
+			dependencies: ["36DE7B5D5897762D"]
+			description: ["{ftbquests.chapter.knight_quest.quest2117927582061731358.description1}"]
+			id: "1D6463EA24CA9E1E"
+			rewards: [{
+				id: "76EA149A499E4795"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.knight_quest.quest2117927582061731358.subtitle}"
+			tasks: [{
+				id: "684EA910CF5EC064"
+				item: "knightlib:empty_grail"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E2837B73E305DF0"]
+			description: [
+				"{ftbquests.chapter.knight_quest.quest4993917440246160713.description1}"
+				""
+				"{ftbquests.chapter.knight_quest.quest4993917440246160713.description2}"
+				""
+				"{ftbquests.chapter.knight_quest.quest4993917440246160713.description3}"
+				""
+				"{ftbquests.chapter.knight_quest.quest4993917440246160713.description4}"
+			]
+			id: "454DF573F7801D49"
+			rewards: [{
+				id: "711E5B239A4946CB"
+				item: "knightlib:great_essence"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.knight_quest.quest4993917440246160713.subtitle}"
+			tasks: [
+				{
+					id: "46411FC762093358"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "473453D35B6E317C"
+					item: "minecraft:jack_o_lantern"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.knight_quest.quest4993917440246160713.title}"
+			x: 5.714285714285779d
+			y: 3.8928571428573377d
+		}
+		{
+			dependencies: ["4E2837B73E305DF0"]
+			id: "4790181FEB358840"
+			rewards: [{
+				id: "2409E013BDFF1504"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.knight_quest.quest5156648098708424768.subtitle}"
+			tasks: [{
+				id: "164B54004F1AE9F3"
+				item: "knightquest:radiant_essence"
+				type: "item"
+			}]
+			x: 3.4897959183673493d
+			y: 4.67346938775507d
+		}
+		{
+			dependencies: ["4790181FEB358840"]
+			description: [
+				"{ftbquests.chapter.knight_quest.quest2606368598543039430.description1}"
+				""
+				"{ftbquests.chapter.knight_quest.quest2606368598543039430.description2}"
+			]
+			icon: "armageddon_mod:spiritof_chaos"
+			id: "242BAE6E65E3FBC6"
+			rewards: [{
+				count: 2
+				id: "6B42BEF8E7D03CA4"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.knight_quest.quest2606368598543039430.subtitle}"
+			tasks: [{
+				entity: "knightquest:netherman"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "armageddon_mod:textures/mob_effect/chaos_state_effect.png"
+					}
+				}
+				id: "24165542C865CBF4"
+				title: "{ftbquests.chapter.knight_quest.quest2606368598543039430.task.2600359580171357172.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.3877551020408205d
+			y: 5.020408163265273d
+		}
+		{
+			dependencies: ["242BAE6E65E3FBC6"]
+			description: ["{ftbquests.chapter.knight_quest.quest8259325803388633311.description1}"]
+			id: "729F050EF33280DF"
+			rewards: [{
+				id: "435E33106BF6AC40"
+				item: "knightquest:chaotic_essence"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.knight_quest.quest8259325803388633311.subtitle}"
+			tasks: [{
+				id: "457C913351957F02"
+				item: "knightquest:chaotic_essence"
+				type: "item"
+			}]
+			x: -0.3265306122449019d
+			y: 3.265306122448955d
+		}
+	]
+	title: "{ftbquests.chapter.knight_quest.title}"
+}

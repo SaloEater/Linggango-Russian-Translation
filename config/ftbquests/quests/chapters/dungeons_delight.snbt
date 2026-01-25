@@ -1,0 +1,1011 @@
+{
+	autofocus_id: "0D619B44384ADD4A"
+	default_hide_dependency_lines: true
+	default_quest_shape: "square"
+	filename: "dungeons_delight"
+	group: "509FB55A8427ED0C"
+	icon: "dungeonsdelight:dungeon_stove"
+	id: "523AE8B23E6EE7E0"
+	images: [
+		{
+			height: 8.0d
+			image: "customtextures:textures/dungeonsdelightlogo.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 2.7095972673515263d
+			y: -1.835988239459077d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["ftbquests.chapter.dungeons_delight.image.hovertext1"]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0D619B44384ADD4A"]
+			hide_dependency_lines: false
+			id: "6355A3D761DCCD31"
+			rewards: [{
+				id: "37611307D2384D05"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest7157807328230427953.subtitle}"
+			tasks: [{
+				id: "06E8C5F50367A76F"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D619B44384ADD4A"]
+			hide_dependency_lines: false
+			id: "279477D449273B24"
+			rewards: [{
+				id: "7983A30D5A72C10E"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2852036217676446500.subtitle}"
+			tasks: [{
+				id: "63BF4F0E27AFF8BE"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6355A3D761DCCD31"
+				"279477D449273B24"
+			]
+			hide_dependency_lines: false
+			id: "7D34CC9610D8D159"
+			rewards: [
+				{
+					id: "75E0B2DA759FB0D8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "0F51AF4E2B69A7B2"
+					item: "dungeonsdelight:stained_scrap"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest9022060898429751641.subtitle}"
+			tasks: [{
+				advancement: "dungeonsdelight:main/get_stained_scrap"
+				criterion: ""
+				id: "103DC05372ADE4A8"
+				title: "{ftbquests.chapter.dungeons_delight.quest9022060898429751641.task.1170302942825014440.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.dungeons_delight.quest9022060898429751641.title}"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D34CC9610D8D159"]
+			description: ["{ftbquests.chapter.dungeons_delight.quest5113320117130255166.description1}"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "46F6298E14685B3E"
+			rewards: [{
+				id: "72B3864962C5A5DC"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5113320117130255166.subtitle}"
+			tasks: [
+				{
+					id: "3684B7AEEED532BC"
+					item: "dungeonsdelight:dungeon_stove"
+					type: "item"
+				}
+				{
+					id: "752604462CAD08F8"
+					item: "dungeonsdelight:monster_pot"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.dungeons_delight.quest964222512538508618.description1}"
+				"{ftbquests.chapter.dungeons_delight.quest964222512538508618.image0}"
+				"{ftbquests.chapter.dungeons_delight.quest964222512538508618.description2}"
+			]
+			id: "0D619B44384ADD4A"
+			rewards: [{
+				id: "3C2EECEF3E19A630"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest964222512538508618.subtitle}"
+			tasks: [{
+				id: "12FE79568F9504A1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "dungeonsdelight:stained_cleaver"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "dungeonsdelight:golden_cleaver"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "dungeonsdelight:netherite_cleaver"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "dungeonsdelight:diamond_cleaver"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "dungeonsdelight:iron_cleaver"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "dungeonsdelight:flint_cleaver"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.dungeons_delight.quest964222512538508618.task.1368664749450265761.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.dungeons_delight.quest964222512538508618.title}"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7C3230C980D8D43B"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest8949269051546850363.subtitle}"
+			tasks: [{
+				id: "61E9A30A3ECFDE29"
+				item: "dungeonsdelight:snifferwurst"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "5B505F1112745946"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6579863582516992326.subtitle}"
+			tasks: [{
+				id: "108C226FC59089AE"
+				item: "dungeonsdelight:ominous_omelette"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "201842ACDB5DF656"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2312671718836926038.subtitle}"
+			tasks: [{
+				id: "4B1BE0C51ABFF719"
+				item: "dungeonsdelight:slime_bar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "12B75B5134422273"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1348647017747980915.subtitle}"
+			tasks: [{
+				id: "57237AEFE18E2620"
+				item: "dungeonsdelight:cooked_snifferwurst"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "6BBDDA9922734F5F"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest7763601683899436895.subtitle}"
+			tasks: [{
+				id: "6497A965E39444C9"
+				item: "dungeonsdelight:slime_noodles"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "39AA38122A5F4E87"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest4155195256874159751.subtitle}"
+			tasks: [{
+				id: "0A9C598A13072FCB"
+				item: "dungeonsdelight:sniffer_shank"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "5FDCB5CDF418A2A4"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6907595824647676580.subtitle}"
+			tasks: [{
+				id: "1241A16C26B55E8E"
+				item: "dungeonsdelight:gelled_salad"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "5E23F33443166702"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6783532869539489538.subtitle}"
+			tasks: [{
+				id: "4137CF641BD0A843"
+				item: "dungeonsdelight:cooked_sniffer_shank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "1A28C0488BD5CB42"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1884967861870775106.subtitle}"
+			tasks: [{
+				id: "266FB82E1AC5BBC8"
+				item: "dungeonsdelight:chloropasta"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "6862531587B7B91E"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest7521665679598532894.subtitle}"
+			tasks: [{
+				id: "5C78EDDBC6662327"
+				item: "dungeonsdelight:guardian_angel_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "0F2CC27A9F769E1A"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1093462641461337626.subtitle}"
+			tasks: [{
+				id: "1BAB56B0D434EAA6"
+				item: "dungeonsdelight:guardian_angel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "5FBE680FC7A6E342"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6899066096161579842.subtitle}"
+			tasks: [{
+				id: "376C4F71BF5018E2"
+				item: "dungeonsdelight:soft_serve_sniffer_egg"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			description: ["{ftbquests.chapter.dungeons_delight.quest3197694743904093539.description1}"]
+			id: "2C607E6D6E898563"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest3197694743904093539.subtitle}"
+			tasks: [{
+				id: "414E71C5D0663CFA"
+				item: "dungeonsdelight:tokayaki"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "4F875B5934841DF3"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5730649489543536115.subtitle}"
+			tasks: [{
+				id: "3A2E32A2E0EA6015"
+				item: "dungeonsdelight:sinigang"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "793C5CF5B97E5F99"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest8735959587640729497.subtitle}"
+			tasks: [{
+				id: "7CC66ED562A50F59"
+				item: "dungeonsdelight:monster_cake"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "0426203CDB102987"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest298961871012112775.subtitle}"
+			tasks: [{
+				id: "53A71B1359F5A247"
+				item: "dungeonsdelight:poi"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			description: [
+				"{ftbquests.chapter.dungeons_delight.quest8002609960914988540.description1}"
+				""
+				"{ftbquests.chapter.dungeons_delight.quest8002609960914988540.description2}"
+				""
+				"{ftbquests.chapter.dungeons_delight.quest8002609960914988540.description3}"
+				""
+				"{ftbquests.chapter.dungeons_delight.quest8002609960914988540.description4}"
+			]
+			id: "6F0EFB5C1C572DFC"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest8002609960914988540.subtitle}"
+			tasks: [{
+				id: "1C3B1502C026452C"
+				item: "dungeonsdelight:monster_muffin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "7781CFFB3A0C7738"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest8611392640426735416.subtitle}"
+			tasks: [{
+				id: "39E5AE3B957EBCFC"
+				item: {
+					Count: 1
+					id: "dungeonsdelight:bubblegunk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "51CF9A93202AE0D6"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5895100393941819606.subtitle}"
+			tasks: [{
+				id: "63012FDBEBF812DC"
+				item: "dungeonsdelight:slicorice"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "722B91543A197E3B"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest8226828935260372539.subtitle}"
+			tasks: [{
+				id: "48F26BDE600D73BE"
+				item: "dungeonsdelight:sculk_tart"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "523732013A04A2A1"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5924258815678915233.subtitle}"
+			tasks: [{
+				id: "050D2891C8EB3B33"
+				item: "dungeonsdelight:wardenzola"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "721BCA24FD584E20"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest8222387804913028640.subtitle}"
+			tasks: [{
+				id: "18C44F779D4E45E3"
+				item: "dungeonsdelight:soaked_skewer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "201575D56AF9313E"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2311883543207817534.subtitle}"
+			tasks: [{
+				id: "79C58325295DAC17"
+				item: "dungeonsdelight:brined_flesh"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "651F3BCF1D305CF3"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest7286608482842729715.subtitle}"
+			tasks: [{
+				id: "1443B4AE5814D2D9"
+				item: "dungeonsdelight:devilish_eggs"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "6107F86945A22261"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6991830077539492449.subtitle}"
+			tasks: [{
+				id: "263C951FD94D8C61"
+				item: "dungeonsdelight:sculk_mayo"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "3543514DEA32A13F"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest3838000702533312831.subtitle}"
+			tasks: [{
+				id: "15E7857CA7C6564E"
+				item: "dungeonsdelight:cleaved_ancient_egg"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "487AD67BE1184920"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5222722545435298080.subtitle}"
+			tasks: [{
+				id: "0193D60B3C3067CE"
+				item: "dungeonsdelight:sculk_apple"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "0E7AA5A657D35F7C"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1043328397546315644.subtitle}"
+			tasks: [{
+				id: "59F924DC37F21E97"
+				item: "dungeonsdelight:sculk_tart_slice"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "73995A712389A318"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest8329788427772470040.subtitle}"
+			tasks: [{
+				id: "4672423D283CB149"
+				item: "dungeonsdelight:spider_meat"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "1DCF68B5D247710F"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2148050677405282575.subtitle}"
+			tasks: [{
+				id: "51188C92D0B4B2A2"
+				item: "dungeonsdelight:wardenzola_crumbles"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "5C2EAC215DF4B614"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6642435759728277012.subtitle}"
+			tasks: [{
+				id: "25AFFAA47E314B43"
+				item: "dungeonsdelight:salt_soaked_stew"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "02A596ABD3EAE308"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest190724223972074248.subtitle}"
+			tasks: [{
+				id: "7AE5D464E477C5A9"
+				item: "dungeonsdelight:spider_pie_slice"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "3FFE45E100F214ED"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest4611199901159789805.subtitle}"
+			tasks: [{
+				id: "6E13EE1859A9B4B1"
+				item: "dungeonsdelight:snuffledog"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "56328AD2198642C7"
+			tasks: [{
+				id: "321075906316F4B0"
+				item: "dungeonsdelight:terrine_loaf"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "0E615DA69BD7E99A"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1036212359432497562.subtitle}"
+			tasks: [{
+				id: "4B0A3A4CB13F0197"
+				item: "dungeonsdelight:malicious_sandwich"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "4684FAE97C6846A3"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5081462160302294691.subtitle}"
+			tasks: [{
+				id: "494481B159314BF7"
+				item: "dungeonsdelight:spider_pie"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "266D1B93430E625F"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2768899665201881695.subtitle}"
+			tasks: [{
+				id: "07B8943A2626C5ED"
+				item: "dungeonsdelight:fried_ghast_calamari"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "46F965CA26C7703C"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5114230770764312636.subtitle}"
+			tasks: [{
+				id: "4D1B4AA6C7F4932F"
+				item: "dungeonsdelight:candied_vex_sucker"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "4B374E1EB19B1297"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5419886570299396759.subtitle}"
+			tasks: [{
+				id: "63F86C99957FA021"
+				item: "dungeonsdelight:amethyst_rock_candy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "4B060B48230DA906"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5406020807158507782.subtitle}"
+			tasks: [{
+				id: "03C3529E8E11358E"
+				item: "dungeonsdelight:candied_silverfish_sucker"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "2904CD2DD6F88E48"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2955712852225723976.subtitle}"
+			tasks: [{
+				id: "543EDB941E4B6C6C"
+				item: "dungeonsdelight:silverfish_and_chips_block"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "313435AC37A83ADB"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest3545517820431842011.subtitle}"
+			tasks: [{
+				id: "169DC89636213822"
+				item: "dungeonsdelight:silverfish_and_chips"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "5C597EC5D55EC6D0"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6654489312570033872.subtitle}"
+			tasks: [{
+				id: "370BAE8BCDFECCE8"
+				item: "dungeonsdelight:glow_berry_gelatin"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "1F88275096D061BA"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2272109239089521082.subtitle}"
+			tasks: [{
+				id: "0DEFD3DD24BA719F"
+				item: "dungeonsdelight:glow_berry_gelatin_block"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "0AD677919F89E15C"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest780943052725936476.subtitle}"
+			tasks: [{
+				id: "2C41ED48229F6488"
+				item: "dungeonsdelight:spider_tanghulu"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "1055F3245FC92EBB"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1177114215178645179.subtitle}"
+			tasks: [{
+				id: "70F75C51A9DB0F84"
+				item: "dungeonsdelight:ghoulash"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "3F7454A0B0EAA28E"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest4572372570827563662.subtitle}"
+			tasks: [{
+				id: "39FB7502D5713DF0"
+				item: "dungeonsdelight:ossobuco_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "6FF8567AB9D01C1F"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest8068293817537666079.subtitle}"
+			tasks: [{
+				id: "64AF8B25B59725F2"
+				item: "dungeonsdelight:ossobuco"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "4960D2610C5A7498"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5287457276793877656.subtitle}"
+			tasks: [{
+				id: "7258E764AD177AB1"
+				item: "dungeonsdelight:poisonous_poutine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "5D93FE1757A6AD16"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6743012443312008470.subtitle}"
+			tasks: [{
+				id: "541ABFB045E90B5F"
+				item: "dungeonsdelight:shiokara"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "12C817998FC46C55"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1353357636334283861.subtitle}"
+			tasks: [{
+				id: "0128DE70C52A7389"
+				item: "dungeonsdelight:gritty_flesh"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "2E7A7C77323E4978"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest3349126124289280376.subtitle}"
+			tasks: [{
+				id: "673E31033954C26E"
+				item: "dungeonsdelight:spider_salmagundi"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "0B44A730B7E48D78"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest811957660519009656.subtitle}"
+			tasks: [{
+				id: "3B8A79C969FC1F7C"
+				item: "dungeonsdelight:rotten_tripe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "48F432A647C118E5"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5256882354798008549.subtitle}"
+			tasks: [{
+				id: "3F01F9DB439202A8"
+				item: "dungeonsdelight:chicken_jockey_sandwich"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "1841B742ADDC3096"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1747879627409076374.subtitle}"
+			tasks: [{
+				id: "07BBA3F7D545C6AB"
+				item: "dungeonsdelight:ghast_calamari"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "7A8A848719ABCA27"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest8830015735199418919.subtitle}"
+			tasks: [{
+				id: "6D5ED5B6D0F2504F"
+				item: {
+					Count: 1
+					id: "dungeonsdelight:cob_n_candy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "371829A07835F086"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest3969968840715399302.subtitle}"
+			tasks: [{
+				id: "7F495BA55889966A"
+				item: "dungeonsdelight:ghast_roll"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "15A17FE9373919B0"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1558667585677498800.subtitle}"
+			tasks: [{
+				id: "567C66B4FEDA22EE"
+				item: "dungeonsdelight:ghast_tentacle"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "5122A050B7B2ACA2"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5846411534820093090.subtitle}"
+			tasks: [{
+				id: "19C24DCC91CDD923"
+				item: "dungeonsdelight:gyudon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "5BFA23B6D9F967E7"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6627649069877127143.subtitle}"
+			tasks: [{
+				id: "218D1E522ABEABE3"
+				item: "dungeonsdelight:smoked_spider_meat"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "4F40CC42DD49CFB9"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5710788915058298809.subtitle}"
+			tasks: [{
+				id: "6A05D5E44E99A7A7"
+				item: "dungeonsdelight:silverfish_abdomen"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "426ECEFD5D448758"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest4786991041528235864.subtitle}"
+			tasks: [{
+				id: "3453D64A3D3F2B01"
+				item: "dungeonsdelight:au_rotten_potatoes"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "1CE34E859B79C200"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2081593788521366016.subtitle}"
+			tasks: [{
+				id: "45849022FB32791D"
+				item: "dungeonsdelight:monster_cake_slice"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "5864FAC519B9B505"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6369491497455826181.subtitle}"
+			tasks: [{
+				id: "3EFCDB9DD99193C3"
+				item: "dungeonsdelight:silverfish_fried_rice"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["46F6298E14685B3E"]
+			id: "2B32A187462E0EA7"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest3112727894836514471.subtitle}"
+			tasks: [{
+				id: "6C94E98A03883349"
+				item: "dungeonsdelight:bloated_baked_potato"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.5d
+		}
+	]
+	title: "{ftbquests.chapter.dungeons_delight.title}"
+}
