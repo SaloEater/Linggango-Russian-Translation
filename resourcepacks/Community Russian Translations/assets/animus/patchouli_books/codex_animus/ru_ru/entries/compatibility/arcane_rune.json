@@ -6,37 +6,37 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Arcane Rune is a revolutionary altar component that bridges Ars Nouveau\u0027s Source magic with Blood Magic\u0027s altar system. Unlike traditional runes that provide static bonuses, the Arcane Rune\u0027s power fluctuates based on its internal Source supply."
+      "text": "Арканная Руная — это революционный компонент алтаря, который объединяет магию Источника из Ars Nouveau с системой алтарей Blood Magic. В отличие от обычных рун, дающих статические бонусы, сила Арканной Рун колеблется в зависимости от её внутреннего запаса Источника."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "animus:arcane_rune",
-      "text": "Crafted using $(item)Blank Rune$() at the center, any $(item)Stone$() in corners, $(item)Blank Slate$() top and bottom, and $(item)Source Gems$() on the sides. This combines Blood Magic and Ars Nouveau components into a hybrid rune."
+      "text": "Создаётся с помощью $(item)Пустой Руны$() в центре, $(item)Камня$() в углах, $(item)Пустого Слэйта$() сверху и снизу, и $(item)Драгоценных Источников$() по бокам. Это сочетает компоненты Blood Magic и Ars Nouveau в гибридную руну."
     },
     {
       "type": "patchouli:spotlight",
       "item": "animus:arcane_rune",
-      "text": "$(animus)Source-Powered Rune$()$(br2)Place this rune in your Blood Altar structure just like any other rune. It stores up to 1000 Source internally and can receive Source via Ars Nouveau\u0027s dominion wand linking system."
+      "text": "$(animus)Руна на Источнике$()$(br2)Разместите эту руну в структуре Алтаря Крови, как любую другую руну. Она хранит до 1000 Источника и может получать Источник через систему связи жезлов из Ars Nouveau."
     },
     {
       "type": "patchouli:text",
-      "title": "Linking Source",
-      "text": "To supply the Arcane Rune with Source:$(br2)1. Hold a $(item)Dominion Wand$()$(br)2. Sneak + Right-click a $(item)Source Jar$() or $(item)Relay$() to select it$(br)3. Right-click the $(item)Arcane Rune$() to link them$(br)4. Source will automatically flow to the rune$(br2)The rune holds up to 1000 Source. You must link it - it cannot pull Source on its own!"
+      "title": "Связь с Источником",
+      "text": "Чтобы снабдить Арканную Руну Источником:$(br2)1. Держите $(item)Жезл Доминиона$()$(br)2. Присев и ПКМ по $(item)Банке Источника$() или $(item)Реле$() чтобы выбрать её$(br)3. ПКМ по $(item)Арканной Руне$() чтобы связать$(br)4. Источник будет автоматически течь в руну$(br2)Руна хранит до 1000 Источника. Связь обязательна — она не может сама притягивать Источник!"
     },
     {
       "type": "patchouli:text",
-      "title": "Power States",
-      "text": "The Arcane Rune has two distinct states based on Source availability:$(br2)$(blood)Powered State$() (20 Source consumed every 10 seconds):$(li)Acts as a Speed Rune but 20%% faster$(li)Provides Dislocation Rune bonus$(br2)$(will)Unpowered State$() (No Source available):$(li)Acts as a Speed Rune at 67.5%% effectiveness$(li)No Dislocation bonus"
+      "title": "Состояния мощности",
+      "text": "Арканная Руна имеет два состояния в зависимости от доступного Источника:$(br2)$(blood)Включена$() (20 Источника потребляется каждые 10 секунд):$(li)Действует как Руна Скорости, но на 20%% быстрее$(li)Даёт бонус Руны Смещения$(br2)$(will)Выключена$() (Источника нет):$(li)Действует как Руна Скорости с эффективностью 67.5%%$(li)Бонус Смещения отсутствует"
     },
     {
       "type": "patchouli:text",
-      "title": "Strategic Use",
-      "text": "The Arcane Rune excels in hybrid builds:$(br2)$(li)Provides superior altar speed when Source is plentiful$(li)Acts as a backup speed rune when Source runs out$(li)The dislocation bonus increases LP transfer rate$(br2)Consider the Source consumption rate (20 per 10 seconds \u003d 2 Source/second per rune) when planning your Source generation and storage capacity. This can be configured in the config file."
+      "title": "Стратегическое использование",
+      "text": "Арканная Руна отлично подходит для гибридных сборок:$(br2)$(li)Обеспечивает высокую скорость алтаря при избытке Источника$(li)Служит запасной руной скорости, когда Источник заканчивается$(li)Бонус смещения увеличивает скорость передачи LP$(br2)Учтите расход Источника (20 за 10 секунд = 2 Источника/секунда на руну) при планировании производства и хранения Источника. Параметры можно изменить в конфиге."
     },
     {
       "type": "patchouli:text",
-      "title": "Requirements",
-      "text": "To use the Arcane Rune:$(li)$(animus)Ars Nouveau must be installed$()$(li)Use a Dominion Wand to link Source Jars$(li)Ensure linked jars are kept filled$(br2)The rune emits a subtle glow (light level 7) when placed, making it easy to identify in your altar structure."
+      "title": "Требования",
+      "text": "Для использования Арканной Рун:$(li)$(animus)Должен быть установлен Ars Nouveau$()$(li)Используйте Жезл Доминиона для связи Банок Источника$(li)Следите, чтобы связанные банки были заполнены$(br2)Руна излучает слабое свечение (уровень света 7) при размещении, что облегчает её идентификацию в структуре алтаря."
     }
   ]
 }

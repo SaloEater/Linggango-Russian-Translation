@@ -6,27 +6,27 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Harvest the light. The counterpart to the Ritual of Sol, this ritual collects all light-emitting blocks within its range and stores them in a chest above the ritual stone."
+      "text": "Собирайте свет. Противоположность Ритуала Солнца, этот ритуал собирает все светящиеся блоки в своём радиусе и сохраняет их в сундуке над ритуальным камнем."
     },
     {
       "type": "patchouli:text",
-      "title": "How It Works",
-      "text": "The ritual can use a chest (or any block with item storage) placed directly above the Master Ritual Stone. Every 5 ticks, the ritual attempts to:$(br)1. Find a light-emitting block (light level \u003e 0)$(br)2. Harvest the block$(br)3. Store it in the chest (or drop at MRS if no chest)$(br)4. Consume LP for the operation"
+      "title": "Принцип работы",
+      "text": "Ритуал использует сундук (или любой блок с инвентарём), расположенный прямо над Главным Ритуальным Камнем. Каждые 5 тиков ритуал пытается:$(br)1. Найти светящийся блок (уровень света > 0)$(br)2. Собрать блок$(br)3. Поместить его в сундук (или выбросить у ГРК, если сундука нет)$(br)4. Потратить LP на операцию"
     },
     {
       "type": "patchouli:text",
-      "title": "Search Algorithm",
-      "text": "The ritual uses a center-outward search to find light sources:$(br)$(li)Starts at the Master Ritual Stone$(li)Searches downward only (never above)$(li)Expands in square rings: 0, 1, 2... blocks away$(li)Searches each column from top to bottom$(li)Prioritizes nearby lights before distant ones$(li)Processes up to 1024 positions per tick$(li)Resumes where it left off between ticks$(br2)This ensures efficient harvesting starting from the ritual center and working downward."
+      "title": "Алгоритм поиска",
+      "text": "Ритуал использует поиск от центра наружу для обнаружения источников света:$(br)$(li)Начинает с Главного Ритуального Камня$(li)Ищет только вниз (никогда вверх)$(li)Расширяется квадратными кольцами: 0, 1, 2… блоков от центра$(li)Обходит каждый столбец сверху вниз$(li)Отдаёт приоритет ближайшим светящимся блокам$(li)Обрабатывает до 1024 позиций за тик$(li)Продолжает с места, где остановился между тиками$(br2)Это обеспечивает эффективный сбор, начиная с центра ритуала и продвигаясь вниз."
     },
     {
       "type": "patchouli:text",
-      "title": "Costs \u0026 Details",
-      "text": "$(bold)Activation:$() 1000 LP$(br)$(bold)Refresh:$() 1 LP per block harvested$(br)$(bold)Refresh Time:$() 5 ticks$(br2)$(bold)Horizontal Range:$() Configurable (default: 32 blocks)$(br)$(bold)Vertical Range:$() Configurable (default: 64 blocks, -1 for world bottom)$(br)$(bold)Chest:$() 1 block above ritual (optional)$(br2)Harvests any block that emits light. If no chest is present, drops items at the Master Ritual Stone."
+      "title": "Стоимость и детали",
+      "text": "$(bold)Активация:$() 1000 LP$(br)$(bold)Повтор:$() 1 LP за собранный блок$(br)$(bold)Время повторения:$() 5 тиков$(br2)$(bold)Горизонтальный радиус:$() Настраиваемый (по умолчанию: 32 блока)$(br)$(bold)Вертикальный радиус:$() Настраиваемый (по умолчанию: 64 блока, -1 — до дна мира)$(br)$(bold)Сундук:$() 1 блок над ритуалом (необязательно)$(br2)Собирает любые светящиеся блоки. Если сундук отсутствует, предметы падают у Главного Ритуального Камня."
     },
     {
       "type": "patchouli:text",
-      "title": "Applications",
-      "text": "Perfect for:$(li)Cleaning up light sources$(li)Harvesting glowstone$(li)Collecting torches$(li)Reclaiming blood lights$(li)Paired automation with Ritual of Sol$(br2)$(italic)The eternal cycle of light and darkness.$()"
+      "title": "Применение",
+      "text": "Идеально подходит для:$(li)Очистки световых источников$(li)Сбора светокамня$(li)Сбора факелов$(li)Возврата кровавого света$(li)Автоматизации в паре с Ритуалом Солнца$(br2)$(italic)Вечный цикл света и тьмы.$()"
     }
   ]
 }

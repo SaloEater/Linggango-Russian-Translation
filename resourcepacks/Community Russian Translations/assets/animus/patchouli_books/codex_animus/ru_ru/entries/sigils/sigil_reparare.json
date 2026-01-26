@@ -7,17 +7,17 @@
     {
       "type": "patchouli:spotlight",
       "item": "animus:sigil_reparare",
-      "text": "A toggleable sigil that mends your equipment over time. While active, damaged items in your inventory slowly repair themselves at the cost of LP."
+      "text": "Переключаемый сигил, который со временем чинит вашу экипировку. Пока активен, повреждённые предметы в инвентаре медленно восстанавливаются за счёт LP."
     },
     {
       "type": "patchouli:text",
-      "title": "Usage",
-      "text": "$(bold)Toggle:$() Right-click to activate/deactivate$(br)$(bold)LP Cost:$() Configurable per durability point$(br)$(bold)Scope:$() All inventory slots, armor, and offhand$(br2)The sigil periodically scans for damaged items and repairs them. It will deactivate if you run out of LP."
+      "title": "Применение",
+      "text": "$(bold)Переключение:$() ПКМ для включения/выключения$(br)$(bold)Стоимость LP:$() Настраивается за каждую единицу прочности$(br)$(bold)Область действия:$() Все слоты инвентаря, броня и левая рука$(br2)Сигил периодически сканирует инвентарь на предметы с повреждением и восстанавливает их. Деактивируется, если LP заканчивается."
     },
     {
       "type": "patchouli:text",
-      "title": "Limitations",
-      "text": "$(bold)Blacklist:$() Items tagged with $(thing)animus:disallow_repair$() cannot be repaired by this sigil.$(br2)$(bold)Repair Rate:$() Configurable repair amount per interval.$(br2)$(italic)Blood mends what time breaks.$()"
+      "title": "Ограничения",
+      "text": "$(bold)Чёрный список:$() Предметы с тегом $(thing)animus:disallow_repair$() не могут быть восстановлены этим сигилом.$(br2)$(bold)Скорость восстановления:$() Настраиваемое количество восстановления за интервал.$(br2)$(italic)Кровь восстанавливает то, что ломает время.$()"
     }
   ]
 }

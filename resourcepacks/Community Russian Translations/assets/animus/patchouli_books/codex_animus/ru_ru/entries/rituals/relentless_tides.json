@@ -6,17 +6,17 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Ritual of Relentless Tides is the inverse of Siphon - it extracts fluid from a tank above and places it into the world below. Create lakes, flood caves, or fill moats with any fluid."
+      "text": "Ритуал Непрекращающихся Приливов — это обратная версия Сифона: он извлекает жидкость из резервуара сверху и размещает её в мире снизу. Создавайте озёра, затапливайте пещеры или наполняйте рвы любой жидкостью."
     },
     {
       "type": "patchouli:text",
-      "title": "Setup",
-      "text": "$(bold)Tank:$() Place any fluid container directly above the master ritual stone.$(br2)$(bold)Activation:$() 5,000 LP$(br)$(bold)Per Bucket:$() 50 LP (configurable)$(br)$(bold)Range:$() 32 blocks horizontal, 128 deep (configurable)"
+      "title": "Настройка",
+      "text": "$(bold)Резервуар:$() Поместите любой контейнер с жидкостью непосредственно над Главным Ритуальным Камнем.$(br2)$(bold)Активация:$() 5000 LP$(br)$(bold)За ведро:$() 50 LP (настраивается)$(br)$(bold)Диапазон:$() 32 блока по горизонтали, 128 блоков вниз (настраивается)"
     },
     {
       "type": "patchouli:text",
-      "title": "Behavior",
-      "text": "$(bold)Placement:$() Places fluid source blocks, letting Minecraft physics handle flow.$(br2)$(bold)Valid Spots:$() Only places in air, replaceable blocks, or flowing fluid of the same type.$(br2)$(bold)Search Pattern:$() Starts directly below, expands outward. Skips already-filled positions.$(br2)$(italic)The tides obey blood\u0027s will.$()"
+      "title": "Поведение",
+      "text": "$(bold)Размещение:$() Размещает блоки источника жидкости, позволяя физике Minecraft управлять течением.$(br2)$(bold)Допустимые позиции:$() Размещает только в воздухе, заменяемых блоках или текущей жидкости того же типа.$(br2)$(bold)Шаблон поиска:$() Начинается прямо под ритуальным камнем и расширяется наружу. Пропускает уже заполненные позиции.$(br2)$(italic)Приливы подчиняются воле крови.$()"
     }
   ]
 }

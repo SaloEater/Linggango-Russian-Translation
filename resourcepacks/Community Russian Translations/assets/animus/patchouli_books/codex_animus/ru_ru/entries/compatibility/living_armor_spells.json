@@ -6,42 +6,42 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Living Armor evolves with you, and now it can grow stronger through spellcasting. Every spell you cast grants experience to your Living Armor, and the new $(bold)Arcane Channeling$() upgrade path provides powerful benefits for spellcasters."
+      "text": "Живая Броня развивается вместе с вами и теперь может становиться сильнее через заклинания. Каждое ваше заклинание даёт опыт Живой Броне, а новая ветка улучшений $(bold)Арканный Канал$() предоставляет мощные бонусы для магов."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:livinghelmet",
-      "text": "$(blood)Spellcaster\u0027s Armor$()$(br2)Wear Living Armor while casting spells to gain experience. The armor learns from your magical prowess and unlocks the Arcane Channeling upgrade tree, specifically designed for mages."
+      "text": "$(blood)Броня Заклинателя$()$(br2)Носите Живую Броню при касте заклинаний, чтобы получать опыт. Броня учится на вашей магической мощи и открывает дерево улучшений Арканный Канал, специально для магов."
     },
     {
       "type": "patchouli:text",
-      "title": "XP from Spellcasting",
-      "text": "Every spell you cast grants XP to your Living Armor:$(br2)$(bold)Formula:$()$(br)Base XP (10) x Spell Level x Rarity Multiplier$(br2)$(bold)Rarity Multipliers:$()$(li)Common: x1.0$(li)Uncommon: x1.5$(li)Rare: x2.0$(li)Epic: x3.0$(li)Legendary: x5.0"
+      "title": "Опыт от заклинаний",
+      "text": "Каждое заклинание даёт Живой Броне опыт:$(br2)$(bold)Формула:$()$(br)Базовый опыт (10) × Уровень Заклинания × Множитель Редкости$(br2)$(bold)Множители Редкости:$()$(li)Обычное: ×1.0$(li)Необычное: ×1.5$(li)Редкое: ×2.0$(li)Эпическое: ×3.0$(li)Легендарное: ×5.0"
     },
     {
       "type": "patchouli:text",
-      "title": "Arcane Channeling",
-      "text": "$(italic)Example: A level 3 Rare spell grants 10 x 3 x 2.0 \u003d 60 XP$()$(br2)The Arcane Channeling upgrade tree provides five levels:$(br2)Level 1: -5%% Mana Cost$(br)Level 2: -10%% Mana Cost$(br)Level 3: -5%% Cooldown$(br)Level 4: -10%% Cooldown$(br)Level 5: Resistance on Cast"
+      "title": "Арканный Канал",
+      "text": "$(italic)Пример: Заклинание уровня 3, Редкое, даёт 10 × 3 × 2.0 = 60 опыта$()$(br2)Дерево улучшений Арканный Канал имеет пять уровней:$(br2)Уровень 1: -5%% затрат маны$(br)Уровень 2: -10%% затрат маны$(br)Уровень 3: -5%% кулдауна$(br)Уровень 4: -10%% кулдауна$(br)Уровень 5: Сопротивление при касте"
     },
     {
       "type": "patchouli:text",
-      "title": "Upgrade Costs",
-      "text": "Each level requires Living Armor points:$(br2)$(li)$(blood)Level 1:$() 5 points$(li)$(blood)Level 2:$() 10 points$(li)$(blood)Level 3:$() 15 points$(li)$(blood)Level 4:$() 20 points$(li)$(blood)Level 5:$() 25 points$(br2)$(bold)Total:$() 75 points for all levels$(br2)Points are earned through Living Armor\u0027s normal progression - wear the armor and gain XP from spellcasting."
+      "title": "Стоимость улучшений",
+      "text": "Каждый уровень требует очков Живой Брони:$(br2)$(li)$(blood)Уровень 1:$() 5 очков$(li)$(blood)Уровень 2:$() 10 очков$(li)$(blood)Уровень 3:$() 15 очков$(li)$(blood)Уровень 4:$() 20 очков$(li)$(blood)Уровень 5:$() 25 очков$(br2)$(bold)Итого:$() 75 очков для всех уровней$(br2)Очки получаются через обычную систему прогрессии Живой Брони — носите броню и получайте опыт от заклинаний."
     },
     {
       "type": "patchouli:text",
-      "title": "Synergies",
-      "text": "Arcane Channeling works well with:$(br2)$(li)$(l:animus:compatibility/blood_infused_spellbook)Blood-Infused Spellbook$()$(br)Stack mana cost reductions$(br2)$(li)$(l:animus:compatibility/sigil_crimson_will)Sigil of Crimson Will$()$(br)Damage boost + mana efficiency$(br2)$(li)$(l:animus:compatibility/sanguine_scrolls)Sanguine Scrolls$()$(br)Cast from scrolls while gaining XP$(br2)$(italic)The armor gains XP from any spell, including those cast with LP!$()"
+      "title": "Синергии",
+      "text": "Арканный Канал хорошо сочетается с:$(br2)$(li)$(l:animus:compatibility/blood_infused_spellbook)Заклинательной Книгой с Кровью$()$(br)Суммируется с эффектами снижения затрат маны$(br2)$(li)$(l:animus:compatibility/sigil_crimson_will)Сигилом Алой Воли$()$(br)Увеличение урона + эффективность маны$(br2)$(li)$(l:animus:compatibility/sanguine_scrolls)Сангвиническими Свитками$()$(br)Каст с свитков при получении опыта$(br2)$(italic)Броня получает опыт от любого заклинания, включая заклинания, использующие LP!$()"
     },
     {
       "type": "patchouli:text",
-      "title": "How It Works",
-      "text": "$(bold)Mana Cost Reduction (Levels 1-2):$()$(br)Reduces the mana cost of spells when cast. At level 2, you save 10%% mana on every spell, stacking with other mana reduction effects.$(br2)$(bold)Cooldown Reduction (Levels 3-4):$()$(br)Applies Iron\u0027s Spellbooks\u0027 cooldown reduction attribute. At level 4, spells recharge 10%% faster, letting you cast more often.$(br2)$(bold)Damage Resistance (Level 5):$()$(br)Every time you begin casting, gain $(effect)Resistance I$() for 2 seconds. This defensive boost helps you survive while channeling."
+      "title": "Принцип работы",
+      "text": "$(bold)Снижение затрат маны (Уровни 1-2):$()$(br)Уменьшает стоимость заклинаний. На уровне 2 экономите 10%% маны на каждое заклинание, суммируется с другими эффектами снижения затрат маны.$(br2)$(bold)Снижение кулдауна (Уровни 3-4):$()$(br)Применяет эффект снижения кулдауна из Iron's Spellbooks. На уровне 4 заклинания восстанавливаются на 10%% быстрее, позволяя кастовать чаще.$(br2)$(bold)Сопротивление урону (Уровень 5):$()$(br)Каждый раз при начале каста вы получаете эффект $(effect)Сопротивление I$() на 2 секунды. Это помогает выживать во время канала заклинания."
     },
     {
       "type": "patchouli:text",
-      "title": "Tips \u0026 Strategy",
-      "text": "$(bold)Maximize XP Gain:$()$(li)Cast higher-level spells$(li)Seek rare/epic/legendary spells$(li)Use the $(l:animus:compatibility/ritual_arcane_mastery)Ritual of Arcane Mastery$() to upgrade spells$(br2)$(bold)Build Paths:$()$(li)Efficiency Focus: Levels 1-2$(li)Rapid Caster: Levels 3-4$(li)Survivalist: Level 5$(br2)$(italic)Remember: XP is only granted while wearing Living Armor!$()"
+      "title": "Советы и стратегия",
+      "text": "$(bold)Максимизация опыта:$()$(li)Кастуйте заклинания более высокого уровня$(li)Ищите редкие/эпические/легендарные заклинания$(li)Используйте $(l:animus:compatibility/ritual_arcane_mastery)Ритуал Арканного Мастерства$() для улучшения заклинаний$(br2)$(bold)Пути развития:$()$(li)Фокус на эффективности: Уровни 1-2$(li)Быстрый Кастер: Уровни 3-4$(li)Выживание: Уровень 5$(br2)$(italic)Помните: опыт начисляется только при ношении Живой Брони!$()"
     }
   ]
 }

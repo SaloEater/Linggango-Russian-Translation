@@ -6,27 +6,27 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Banish the darkness. The Ritual of Sol automatically places light sources in dark areas, preventing mob spawns and illuminating your surroundings. Place light-emitting blocks in a chest above the ritual."
+      "text": "Изгнать тьму. Ритуал Sol автоматически размещает источники света в тёмных областях, предотвращая спавн мобов и освещая территорию. Поместите светящиеся блоки в сундук над ритуалом."
     },
     {
       "type": "patchouli:text",
-      "title": "How It Works",
-      "text": "The ritual requires a chest (or any block with item storage) placed directly above the Master Ritual Stone. Every 5 ticks, the ritual attempts to:$(br)1. Find a valid block item from the chest$(br)2. Search for a dark spot (light level \u003c 8) with solid ground below$(br)3. Place the block$(br)4. Consume LP for the operation"
+      "title": "Принцип работы",
+      "text": "Ритуал требует сундук (или любой блок с хранилищем предметов), помещённый непосредственно над Несовершенным Ритуальным Камнем. Каждые 5 тиков ритуал пытается:$(br)1. Взять подходящий блок из сундука$(br)2. Найти тёмное место (уровень света < 8) с твёрдой поверхностью снизу$(br)3. Разместить блок$(br)4. Потратить LP на операцию"
     },
     {
       "type": "patchouli:text",
-      "title": "Search Algorithm",
-      "text": "The ritual uses a center-outward search to find placement spots:$(br)$(li)Starts at the Master Ritual Stone$(li)Searches downward only (never above)$(li)Expands in square rings: 0, 1, 2... blocks away$(li)Searches each column from top to bottom$(li)Prioritizes placing near the center first$(li)Processes up to 64 positions per tick$(li)Resumes where it left off between ticks$(br2)This ensures efficient placement starting from the ritual center and working downward."
+      "title": "Алгоритм поиска",
+      "text": "Ритуал использует поиск от центра наружу для нахождения мест размещения:$(br)$(li)Начинает с Несовершенного Ритуального Камня$(li)Ищет только вниз (никогда выше)$(li)Расширяется квадратными кольцами: 0, 1, 2… блоков от центра$(li)Проверяет каждый столбец сверху вниз$(li)Приоритет отдаётся центральным позициям$(li)Обрабатывает до 64 позиций за тик$(li)Возобновляет поиск с того места, где остановился между тиками$(br2)Это обеспечивает эффективное размещение, начиная с центра ритуала и продвигаясь вниз."
     },
     {
       "type": "patchouli:text",
-      "title": "Blood Light Synergy",
-      "text": "$(bold)Special Feature:$()$(br)If you place Blood Magic\u0027s $(item)Sigil of Blood Light$() in the chest, the ritual will place Blood Lights $(bold)without consuming the sigil$()!$(br2)This allows for infinite blood light placement using only LP.$(br2)$(italic)Let there be light!$()"
+      "title": "Синергия с Кровавым Светом",
+      "text": "$(bold)Особенность:$()$(br)Если поместить $(item)Sigil of Blood Light$() из Blood Magic в сундук, ритуал разместит Кровавый Свет $(bold)без расхода сигила$()!$(br2)Это позволяет бесконечно размещать Кровавый Свет, используя только LP.$(br2)$(italic)Да будет свет!$()"
     },
     {
       "type": "patchouli:text",
-      "title": "Costs \u0026 Details",
-      "text": "$(bold)Activation:$() 1000 LP$(br)$(bold)Refresh:$() 1 LP per block placed$(br)$(bold)Refresh Time:$() 5 ticks$(br2)$(bold)Horizontal Range:$() Configurable (default: 32 blocks)$(br)$(bold)Vertical Range:$() Configurable (default: 64 blocks, -1 for world bottom)$(br)$(bold)Chest:$() 1 block above ritual$(br2)Requires dark spots (light level \u003c 8) with solid ground below to place blocks."
+      "title": "Стоимость и детали",
+      "text": "$(bold)Активация:$() 1000 LP$(br)$(bold)Обновление:$() 1 LP за размещённый блок$(br)$(bold)Время обновления:$() 5 тиков$(br2)$(bold)Горизонтальный радиус:$() Настраивается (по умолчанию 32 блока)$(br)$(bold)Вертикальный радиус:$() Настраивается (по умолчанию 64 блока, -1 до дна мира)$(br)$(bold)Сундук:$() 1 блок над ритуалом$(br2)Для размещения блоков необходимы тёмные места (уровень света < 8) с твёрдой поверхностью снизу."
     }
   ]
 }

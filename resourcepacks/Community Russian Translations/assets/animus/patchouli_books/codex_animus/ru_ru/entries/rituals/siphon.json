@@ -6,17 +6,17 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Ritual of Siphon extracts fluids from the world below and deposits them into a tank above. It searches from center outward, draining oceans, lava lakes, or any fluid source."
+      "text": "Ритуал Siphon извлекает жидкости из мира ниже и помещает их в контейнер сверху. Он ищет источник от центра наружу, осушая океаны, лавовые озёра или любые блоки жидкости."
     },
     {
       "type": "patchouli:text",
-      "title": "Setup",
-      "text": "$(bold)Tank:$() Place any fluid container directly above the master ritual stone.$(br2)$(bold)Activation:$() 5,000 LP$(br)$(bold)Per Bucket:$() 50 LP (configurable)$(br)$(bold)Range:$() 32 blocks horizontal, 128 deep (configurable)"
+      "title": "Настройка",
+      "text": "$(bold)Контейнер:$() Поместите любой контейнер для жидкости непосредственно над Несовершенным Ритуальным Камнем.$(br2)$(bold)Активация:$() 5,000 LP$(br)$(bold)За ведро:$() 50 LP (настраивается)$(br)$(bold)Радиус:$() 32 блока по горизонтали, 128 по глубине (настраивается)"
     },
     {
       "type": "patchouli:text",
-      "title": "Behavior",
-      "text": "$(bold)Search Pattern:$() Starts directly below the ritual, expands outward in rings.$(br2)$(bold)Replacement:$() Extracted fluid blocks are replaced with $(thing)Antilife Block$() by default (configurable).$(br2)$(bold)Indicators:$() Smoke particles appear when the tank is full or no fluid is found.$(br2)$(italic)The earth yields its lifeblood.$()"
+      "title": "Поведение",
+      "text": "$(bold)Шаблон поиска:$() Начинается прямо под ритуалом, расширяется наружу кольцами.$(br2)$(bold)Замена:$() Извлечённые блоки жидкости заменяются на $(thing)Antilife Block$() по умолчанию (настраивается).$(br2)$(bold)Индикаторы:$() Частицы дыма появляются, когда контейнер полон или жидкость не найдена.$(br2)$(italic)Земля отдаёт свою жизненную силу.$()"
     }
   ]
 }

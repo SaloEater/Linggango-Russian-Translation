@@ -1,23 +1,17 @@
 {
-  "name": "guide.animus.entry.sigil_boundless_nature",
-  "icon": "animus:sigil_boundless_nature",
-  "category": "animus:sigils",
-  "sortnum": 1,
+  "name": "guide.animus.entry.imperfect_ritual_warden",
+  "icon": "minecraft:sculk",
+  "category": "animus:rituals",
+  "sortnum": 12,
   "pages": [
     {
-      "type": "animus:crafting_array",
-      "recipe": "animus:array/sigil_boundless_nature",
-      "text": "Created using an $(blood)Alchemy Array$() by combining a $(l:animus:items/reagentboundlessnature)Reagent: Boundless Nature$() with a $(item)Reinforced Slate$(). The reagent must first be forged in the Hellfire Forge."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "animus:sigil_boundless_nature",
-      "text": "A bridge between Blood Magic and Botania. This sigil acts as a mana tablet that converts Life Essence into mana, allowing blood mages to power Botania tools and devices."
+      "type": "patchouli:text",
+      "text": "Несовершенный ритуал, использующий защитную силу Стража, дарует пользователю непробиваемый обсидиановый плащ.$(br2)$(bold)Как использовать:$()$(br)Поместите блок Скаллка сверху на Несовершенный Ритуальный Камень.$(br2)$(bold)Стоимость:$() 3000 LP за активацию$(br2)$(bold)Длительность:$() 15 минут$(br2)$(bold)Примечание:$() Ритуал срабатывает один раз и сразу завершается. Камень можно использовать повторно."
     },
     {
       "type": "patchouli:text",
-      "title": "Usage",
-      "text": "$(bold)LP Cost:$() 50 LP per second when active$(br2)$(bold)Effect:$() Converts LP to mana at a configurable rate (default: 50 LP \u003d 100 mana per second).$(br2)$(bold)Mana Storage:$() Up to 2500 mana$(br2)Shift-right-click to toggle activation. When active, the sigil will continuously convert LP to mana and can power Botania tools and export to mana pools.$(br2)$(bold)Requires Botania to function.$()$(br)"
+      "title": "Эффекты",
+      "text": "$(bold)Активация:$()$(br)Щёлкните правой кнопкой мыши по Несовершенному Ритуальному Камню, чтобы получить:$(li)$(thing)Обсидиановый Плащ$() на 15 минут$(br2)$(bold)Обсидиановый Плащ:$()$(br)Резко снижает получаемый урон, делая вас почти неуязвимым к большинству атак.$(br2)$(bold)Применение:$()$(li)Бои с боссами$(li)Опасные исследования$(li)PvP-сражения$(li)Добыча ресурсов в опасных местах$(br2)$(italic)Тьма защищает.$()"
     }
   ]
 }

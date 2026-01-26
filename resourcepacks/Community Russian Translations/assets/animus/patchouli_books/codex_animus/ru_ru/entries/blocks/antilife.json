@@ -7,17 +7,17 @@
     {
       "type": "patchouli:spotlight",
       "item": "animus:antilife",
-      "text": "A corrupting substance that spreads like a plague, consuming all blocks of a specific type. Created using the $(l:animus:sigils/sigil_consumption)Sigil of Consumption$()."
+      "text": "Коррумпирующее вещество, распространяющееся подобно чуме и поглощающее все блоки определённого типа. Создаётся с помощью $(l:animus:sigils/sigil_consumption)Сигила Поглощения$()."
     },
     {
       "type": "patchouli:text",
-      "title": "Spreading Mechanics",
-      "text": "$(bold)Conversion:$()$(br)AntiLife spreads to adjacent blocks of the same type as the original converted block.$(br2)$(bold)LP Cost:$()$(br)Each spread consumes LP from the player who created it (configurable).$(br2)$(bold)Range:$()$(br)Spreads up to 8 blocks from the origin (configurable with the sigil)."
+      "title": "Механика распространения",
+      "text": "$(bold)Преобразование:$()$(br)AntiLife распространяется на соседние блоки того же типа, что и исходный преобразованный блок.$(br2)$(bold)Стоимость LP:$()$(br)Каждое распространение расходует LP у игрока, который его создал (настраивается).$(br2)$(bold)Радиус:$()$(br)Распространяется до 8 блоков от точки происхождения (можно изменить с помощью сигила)."
     },
     {
       "type": "patchouli:text",
-      "title": "Decay System",
-      "text": "$(bold)Breaking AntiLife:$()$(br)When any AntiLife block is broken, it triggers a decay chain reaction.$(br2)$(li)All adjacent AntiLife blocks start decaying$(li)Decay spreads to other AntiLife$(li)Decayed blocks are removed$(br2)This prevents infinite expansion and allows cleanup.$(br2)$(bold)Protected Blocks:$() Cannot convert blocks tagged $(#888888)animus:disallow_antilife$()."
+      "title": "Система разрушения",
+      "text": "$(bold)Разрушение AntiLife:$()$(br)При разрушении любого блока AntiLife запускается цепная реакция разложения.$(br2)$(li)Все соседние блоки AntiLife начинают разлагаться$(li)Разложение распространяется на другие блоки AntiLife$(li)Разложившиеся блоки удаляются$(br2)Это предотвращает бесконечное распространение и позволяет убирать заражённые блоки.$(br2)$(bold)Защищённые блоки:$() Нельзя преобразовать блоки с тегом $(#888888)animus:disallow_antilife$()."
     }
   ]
 }

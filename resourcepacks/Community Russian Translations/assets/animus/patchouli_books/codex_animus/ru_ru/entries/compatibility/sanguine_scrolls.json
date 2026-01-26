@@ -6,42 +6,42 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Sanguine Scrolls are reusable spell scrolls that consume Life Essence instead of being destroyed. Unlike regular scrolls, these blood-infused parchments can cast spells dozens or hundreds of times, limited only by their durability."
+      "text": "Сангвинические Свитки — это многоразовые свитки заклинаний, которые потребляют Жизненную Суть вместо того, чтобы разрушаться. В отличие от обычных свитков, эти пропитанные кровью пергаменты могут многократно использоваться, ограничиваясь только своей прочностью."
     },
     {
       "type": "patchouli:spotlight",
       "item": "animus:sanguine_scroll_imbued",
-      "text": "$(blood)Reusable Spell Scroll$()$(br2)Sanguine Scrolls store a single spell and can be used repeatedly. Each cast consumes LP from your Soul Network and damages the scroll slightly. The scroll\u0027s durability determines how many times it can be used."
+      "text": "$(blood)Многоразовый свиток заклинаний$()$(br2)Сангвинические Свитки хранят одно заклинание и могут использоваться снова и снова. Каждое применение потребляет LP из вашей Сети Душ и слегка повреждает свиток. Прочность свитка определяет, сколько раз его можно использовать."
     },
     {
       "type": "patchouli:text",
-      "title": "Creating Scrolls",
-      "text": "To create a Sanguine Scroll:$(br2)1. Obtain an $(item)Iron\u0027s Spells Scroll$() containing the spell you want$(br)2. Place a $(blood)Blood Magic Slate$() in your offhand$(br)3. Right-click a $(blood)Blood Altar$() with the scroll$(br)4. The altar will consume LP and both items$(br)5. Receive a Sanguine Scroll with the spell bound$(br2)$(italic)The slate tier determines scroll durability.$()"
+      "title": "Создание свитков",
+      "text": "Чтобы создать Сангвинический Свиток:$(br2)1. Получите $(item)Свиток Iron's Spells$() с нужным заклинанием$(br)2. Держите $(blood)Blood Magic Slate$() в левой руке$(br)3. ПКМ по $(blood)Blood Altar$() со свитком в правой руке$(br)4. Алтарь потребит LP и оба предмета$(br)5. Получите Сангвинический Свиток с привязанным заклинанием$(br2)$(italic)Тип слэйта определяет прочность свитка.$()"
     },
     {
       "type": "patchouli:text",
-      "title": "Slate Tiers",
-      "text": "Different slate types produce scrolls with varying durability:$(br2)$(li)$(blood)Blank Slate:$() 50 uses$(li)$(blood)Reinforced Slate:$() 100 uses$(li)$(blood)Imbued Slate:$() 200 uses$(li)$(blood)Demon Slate:$() 400 uses$(li)$(blood)Ethereal Slate:$() 600 uses$(br2)Higher-tier scrolls can cast more spells before breaking. Choose based on how frequently you\u0027ll use the spell."
+      "title": "Типы слэйтов",
+      "text": "Разные слэйты дают свитки с разной прочностью:$(br2)$(li)$(blood)Пустой слэйт:$() 50 применений$(li)$(blood)Укреплённый слэйт:$() 100 применений$(li)$(blood)Пропитанный слэйт:$() 200 применений$(li)$(blood)Демонический слэйт:$() 400 применений$(li)$(blood)Эфирный слэйт:$() 600 применений$(br2)Свитки высокого уровня могут использоваться больше раз перед разрушением. Выбирайте в зависимости от частоты применения заклинания."
     },
     {
       "type": "patchouli:text",
-      "title": "LP Costs",
-      "text": "Sanguine Scrolls consume more LP than normal spell casting:$(br2)$(bold)Base Cost:$() Mana cost × LP rate × 1.5$(br)$(italic)(Default: 150 LP per mana point)$()$(br2)$(bold)Creation Cost:$() Based on spell rarity and level$(li)Common: 5,000 LP × level$(li)Uncommon: 10,000 LP × level$(li)Rare: 25,000 LP × level$(li)Epic: 50,000 LP × level$(li)Legendary: 100,000 LP × level"
+      "title": "LP затраты",
+      "text": "Сангвинические Свитки потребляют больше LP, чем обычное применение заклинаний:$(br2)$(bold)Базовая стоимость:$() Стоимость маны × коэффициент LP × 1.5$(br)$(italic)(По умолчанию: 150 LP за единицу маны)$()$(br2)$(bold)Стоимость создания:$() Зависит от редкости и уровня заклинания$(li)Обычное: 5,000 LP × уровень$(li)Необычное: 10,000 LP × уровень$(li)Редкое: 25,000 LP × уровень$(li)Эпическое: 50,000 LP × уровень$(li)Легендарное: 100,000 LP × уровень"
     },
     {
       "type": "patchouli:text",
-      "title": "Strategic Uses",
-      "text": "Sanguine Scrolls excel for:$(br2)$(li)$(blood)Emergency spells$() - Quick access without spellbooks$(li)$(blood)Powerful spells$() - Cast legendary spells anytime$(li)$(blood)LP-heavy builds$() - Convert excess LP to magic$(li)$(blood)Backup casting$() - When out of mana$(br2)The 50%% LP premium is worth it for convenience and reliability. Store multiple scrolls for different situations."
+      "title": "Тактическое использование",
+      "text": "Сангвинические Свитки идеально подходят для:$(br2)$(li)$(blood)Аварийные заклинания$() — быстрый доступ без книги заклинаний$(li)$(blood)Мощные заклинания$() — использовать легендарные заклинания в любое время$(li)$(blood)Сбор LP для заклинаний$() — превращать избыток LP в магию$(li)$(blood)Резервное применение$() — когда кончается мана$(br2)50%% премия LP оправдана удобством и надёжностью. Храните несколько свитков для разных ситуаций."
     },
     {
       "type": "patchouli:text",
-      "title": "Tips \u0026 Tricks",
-      "text": "$(bold)Durability Management:$()$(li)Check uses remaining in tooltip$(li)Higher-tier slates for frequently-used spells$(li)Keep spares of important spells$(br2)$(bold)Synergies:$()$(li)Combine with $(l:animus:compatibility/sigil_crimson_will)Sigil of Crimson Will$() for massive damage$(li)Use $(l:animus:compatibility/blood_infused_spellbook)Blood-Infused Spellbook$() to reduce LP costs$(br2)$(italic)Sanguine Scrolls work from any inventory slot.$()"
+      "title": "Советы и приёмы",
+      "text": "$(bold)Управление прочностью:$()$(li)Следите за оставшимися применениями в подсказке$(li)Свитки высокого уровня для часто используемых заклинаний$(li)Держите запасные важные заклинания$(br2)$(bold)Синергии:$()$(li)Комбинируйте с $(l:animus:compatibility/sigil_crimson_will)Sigil of Crimson Will$() для огромного урона$(li)Используйте $(l:animus:compatibility/blood_infused_spellbook)Blood-Infused Spellbook$() для снижения затрат LP$(br2)$(italic)Сангвинические Свитки работают из любого слота инвентаря.$()"
     },
     {
       "type": "patchouli:text",
-      "title": "Requirements",
-      "text": "To use Sanguine Scrolls:$(li)$(blood)Iron\u0027s Spellbooks must be installed$()$(li)Active $(l:bloodmagic:altar/binding)Soul Network$()$(li)Blood Altar for creation$(li)Slates from Blood Magic$(li)Iron\u0027s Spells scrolls to convert$(br2)Sanguine Scrolls respect spell cooldowns and cannot bypass casting restrictions."
+      "title": "Требования",
+      "text": "Для использования Сангвинических Свитков:$(li)$(blood)Должны быть установлены Iron's Spellbooks$()$(li)Активная $(l:bloodmagic:altar/binding)Сеть Душ$()$(li)Blood Altar для создания$(li)Слэйты из Blood Magic$(li)Свитки Iron's Spells для преобразования$(br2)Сангвинические Свитки соблюдают кулдауны заклинаний и не обходят ограничения на применение."
     }
   ]
 }
