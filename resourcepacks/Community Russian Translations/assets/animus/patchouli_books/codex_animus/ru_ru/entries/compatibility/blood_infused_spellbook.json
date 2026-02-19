@@ -1,42 +1,47 @@
 {
-  "name": "guide.animus.entry.arcane_rune",
+  "name": "guide.animus.entry.blood_infused_spellbook",
   "category": "animus:compatibility",
-  "icon": "animus:arcane_rune",
-  "flag": "mod:ars_nouveau",
+  "icon": "animus:blood_infused_spellbook",
+  "flag": "mod:irons_spellbooks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Арканная Руна — революционный компонент алтаря, который объединяет магию Источника из Ars Nouveau с системой алтарей Blood Magic. В отличие от обычных рун с постоянными бонусами, сила Арканной Рун изменяется в зависимости от внутреннего запаса Источника."
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "animus:arcane_rune",
-      "text": "Создаётся с помощью $(item)Пустой Руны$() в центре, $(item)Камня$() в углах, $(item)Пустого Слэйта$() сверху и снизу и $(item)Драгоценных Источников$() по бокам. Это сочетает компоненты Blood Magic и Ars Nouveau в гибридную руну."
+      "text": "The Blood-Infused Spellbook combines the power of Iron\u0027s Spells with Blood Magic\u0027s sacrificial arts. This unique tome can be progressively enhanced through $(blood)six tiers of blood infusion$(), each granting powerful new abilities.$(br2)Unlike regular spellbooks, this hybrid tome grows stronger as you feed it more Life Essence at the Blood Altar."
     },
     {
       "type": "patchouli:spotlight",
-      "item": "animus:arcane_rune",
-      "text": "$(animus)Руна на Источнике$()$(br2)Разместите эту руну в структуре Алтаря Крови как любую другую руну. Она хранит до 1000 единиц Источника и может получать Источник через систему связи жезлов Ars Nouveau."
+      "item": "animus:blood_infused_spellbook",
+      "text": "$(blood)Blood-Powered Spellbook$()$(br2)A spellbook infused with the power of blood magic. Place any Iron\u0027s Spells spellbook in the Blood Altar to create one, then right-click to upgrade it.$(br2)$(bold)Base Stats:$() 5 spell slots$(br)$(bold)Max Tier:$() 6 (12 slots, +300 mana)"
     },
     {
       "type": "patchouli:text",
-      "title": "Связь с Источником",
-      "text": "Чтобы снабдить Арканную Руну Источником:$(br2)1. Держите $(item)Жезл Доминиона$()$(br)2. Присев, ПКМ по $(item)Банке Источника$() или $(item)Реле$() чтобы выбрать их$(br)3. ПКМ по $(item)Арканной Руне$() чтобы связать$(br)4. Источник будет автоматически течь в руну$(br2)Руна хранит до 1000 единиц Источника. Связь обязательна — она не может притягивать Источник самостоятельно!"
+      "title": "Initial Infusion",
+      "text": "To create a Blood-Infused Spellbook:$(br2)1. Obtain any $(item)Spellbook$() from Iron\u0027s Spells$(br)2. $(bold)Place the spellbook in the Blood Altar$()$(br)3. Ensure the altar has $(blood)5,000 LP$() stored$(br)4. Wait for the altar to craft it$(br2)The spellbook transforms into a $(blood)Tier 1 Blood-Infused Spellbook$(). $(thing)All your equipped spells are preserved!$()"
     },
     {
       "type": "patchouli:text",
-      "title": "Состояния мощности",
-      "text": "Арканная Руна имеет два состояния в зависимости от доступного Источника:$(br2)$(blood)Включено$() (20 Источника каждые 10 секунд):$(li)Действует как Руна Скорости, но на 20%% быстрее$(li)Даёт бонус Руны Смещения$(br2)$(will)Выключено$() (Источника нет):$(li)Действует как Руна Скорости с эффективностью 67.5%%$(li)Бонус Руны Смещения отсутствует"
+      "title": "Tier Progression",
+      "text": "Each tier grants $(thing)+50 Max Mana$() and more spell slots:$(br2)$(bold)Tiers 1-3: Slot \u0026 Mana Bonuses$()$(li)$(blood)Tier 1:$() Weak Orb, 5k LP $(thing)6 slots, +50 mana$()$(li)$(blood)Tier 2:$() Apprentice Orb, 10k LP $(thing)7 slots, +100 mana$()$(li)$(blood)Tier 3:$() Magician Orb, 25k LP $(thing)8 slots, +150 mana$()"
     },
     {
       "type": "patchouli:text",
-      "title": "Стратегическое использование",
-      "text": "Арканная Руна идеальна для гибридных сборок:$(br2)$(li)Обеспечивает высокую скорость алтаря при избытке Источника$(li)Служит запасной руной скорости, когда Источник заканчивается$(li)Бонус смещения увеличивает скорость передачи LP$(br2)Учтите расход Источника (20 за 10 секунд = 2 Источника/сек на руну) при планировании производства и хранения. Параметры можно изменить в конфиге."
+      "title": "Advanced Tiers",
+      "text": "$(bold)Tiers 4-6: LP Cost \u0026 Lifesteal$()$(li)$(blood)Tier 4:$() Master Orb, 50k LP $(thing)10 slots, +200 mana, -10%% LP$()$(li)$(blood)Tier 5:$() Archmage Orb, 100k LP $(thing)11 slots, +250 mana, -20%% LP$()$(li)$(blood)Tier 6:$() Transcendent Orb, 175k LP $(thing)12 slots, +300 mana, +5%% lifesteal$()"
     },
     {
       "type": "patchouli:text",
-      "title": "Требования",
-      "text": "Для использования Арканной Рун:$(li)$(animus)Должен быть установлен Ars Nouveau$()$(li)Используйте Жезл Доминиона для связи Банок Источника$(li)Следите, чтобы связанные банки были заполнены$(br2)Руна излучает слабое свечение (уровень света 7), облегчая её идентификацию в структуре алтаря."
+      "title": "Upgrading",
+      "text": "To upgrade your spellbook to the next tier:$(br2)1. Place the required Blood Orb tier (or higher) in the altar$(br)2. Ensure the altar has enough LP$(br)3. Right-click the altar while holding your Blood-Infused Spellbook$(br2)The spellbook\u0027s tooltip shows your current tier, bonuses, and the requirements for the next upgrade. JEI also displays all upgrade recipes."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "LP Casting",
+      "text": "When you don\u0027t have enough mana, the Blood-Infused Spellbook can $(blood)consume LP instead$()!$(br2)$(bold)Requirements:$()$(li)A $(item)Blood Orb$() in your inventory or curio slot$(li)Sufficient LP in your Soul Network$(br2)The LP cost is $(thing)100 LP per mana$() by default. Higher tier spellbooks reduce this cost by up to 20%%. This can be configured or disabled in the mod settings."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Requirements",
+      "text": "To use the Blood-Infused Spellbook:$(br2)$(li)$(mod)Iron\u0027s Spellbooks$() must be installed$(li)An active $(l:bloodmagicnv:altar/binding)Soul Network$()$(li)A Blood Altar with the appropriate orb tier$(br2)The spellbook\u0027s rarity and enchantment glint change based on its infusion tier, making it easy to see how powerful your tome has become."
     }
   ]
 }
