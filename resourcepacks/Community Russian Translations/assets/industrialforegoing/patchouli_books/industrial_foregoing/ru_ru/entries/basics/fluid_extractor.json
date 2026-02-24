@@ -1,5 +1,5 @@
 {
-  "name": "Fluid Extractor",
+  "name": "Жидкостный экстрактор",
   "icon": "industrialforegoing:fluid_extractor",
   "category": "industrialforegoing:basics",
   "sortnum": 0,
@@ -7,12 +7,12 @@
   "pages": [
     {
       "type": "text",
-      "text": "The fluid extractor will extract $(l:basics/latex)latex$() from wood that are placed in front of the machine. Multiple extractors can be used to extract from the same log at the same time. $(br2)The machine will start consuming the log and once consumed it will remove the bark from it and replace it with the stripped variant, once that gets consumed it will disappear. "
+      "text": "Жидкостный экстрактор добывает $(l:basics/latex)латекс$() из древесины, размещённой перед ним. Можно использовать несколько экстракторов одновременно для одного и того же бревна. $(br2)Машина постепенно истощает бревно: сначала снимает с него кору, превращая в обтёсанный вариант, а затем полностью уничтожает его."
     },
     {
       "type": "crafting",
       "recipe": "industrialforegoing:fluid_extractor",
-      "text": "$(br2)$(6)Each log will produce different amounts of latex, check JEI for rates. $(6)Power optional: Providing power will make the machine work faster"
+      "text": "$(br2)$(6)Разные виды бревен дают разное количество латекса, проверьте значения в JEI. $(6)Энергия необязательна: подача энергии ускорит работу машины."
     }
   ]
 }
