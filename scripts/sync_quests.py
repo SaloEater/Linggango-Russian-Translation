@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
-"""Sync translations from artifacts/assets/ into resourcepacks/.
-
-This is step 3 of the translation workflow:
-  1. find_untranslated.py  — extract keys needing translation → artifacts/to_translate/
-  2. pull_translations.py  — apply translated files back → resourcepacks/
-  3. sync_translations.py  — full sync of artifacts/assets/ → resourcepacks/ (this script)
+"""Sync translations from artifacts/quest into kubejs/assets/ftbquestlocalizer/lang.
 
 Merge rules (per key-value pair):
-  - Key missing from artifacts        → remove from resourcepacks
-  - Artifact value contains Russian   → overwrite resourcepacks value
-  - Artifact value has no Russian     → keep existing resourcepacks value unchanged
-  - Key missing from resourcepacks    → add it
+- Key missing from artifacts → remove from resourcepacks
+- Artifact value contains Russian letters → overwrite resourcepacks value
+- Artifact value has NO Russian letters → keep existing resourcepacks value
+- Key missing from resourcepacks → add it
 """
 
 import json
@@ -20,9 +15,7 @@ import sys
 
 RUSSIAN_RE = re.compile(r'[а-яА-ЯёЁ]')
 
-#ARTIFACTS_DIR = os.path.join('artifacts', 'assets')
 ARTIFACTS_DIR = os.path.join('artifacts', 'quest')
-#RESOURCEPACKS_DIR = os.path.join('resourcepacks', 'Community Russian Translations', 'assets')
 RESOURCEPACKS_DIR = os.path.join('kubejs', 'assets', 'ftbquestlocalizer', 'lang')
 
 
@@ -101,7 +94,7 @@ def main():
         resource_path = os.path.join(RESOURCEPACKS_DIR, rel_path)
 
         # Normalize path separators for display
-        display_path = os.path.join('assets', rel_path).replace('\\', '/')
+        display_path = rel_path.replace('\\', '/')
         print(f'[{idx}/{total}] {display_path}')
 
         with open(artifact_path, 'r', encoding='utf-8') as f:
