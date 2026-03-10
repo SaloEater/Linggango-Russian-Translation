@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Find untranslated keys and write them to artifacts/to_translate/.
+"""Find untranslated patchouli keys and write them to artifacts/to_translate/.
 
-Scans artifacts/assets/ against resourcepacks/ and extracts all string values that are:
-  - Not Russian in artifacts (they are source/English text to translate), AND
+Like find_untranslated.py but for non-lang JSON files (patchouli books, templates, etc.).
+Only extracts these specific keys: name, description, title, text, landing_text.
+All other keys (icon, category, type, recipe, sortnum, …) are ignored.
+
+Scans artifacts/assets/ against resourcepacks/ and extracts values that are:
+  - Under a target key, AND
+  - Not Russian in artifacts (source text), AND
   - Not yet Russian in resourcepacks (not yet translated)
 
-The output files in artifacts/to_translate/ mirror the artifacts/ structure but contain
-only the untranslated strings. For nested structures (patchouli), already-translated
-positions are written as null to preserve index alignment for list entries.
-
-After translating, run pull_translations.py to apply the results back into resourcepacks.
+After translating, run pull_translations.py to apply results back into resourcepacks.
 """
 
 import json
@@ -18,35 +19,45 @@ import re
 import sys
 
 RUSSIAN_RE = re.compile(r'[а-яА-ЯёЁ]')
+# Matches dotted identifier keys like "guide.animus.entry.tier6_altar" or "mod:category.sub"
+TRANSLATION_KEY_RE = re.compile(r'^[\w:]+(?:\.[\w:]+)+$')
+
+TARGET_KEYS = frozenset({'name', 'description', 'title', 'text', 'landing_text'})
 
 ARTIFACTS_DIR = os.path.join('artifacts', 'assets')
 TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate')
 RESOURCEPACKS_DIR = os.path.join('resourcepacks', 'Community Russian Translations', 'assets')
-#RESOURCEPACKS_DIR = os.path.join('kubejs', 'assets', 'ftbquestlocalizer', 'lang')
-RESOURCEPACKS_DIR = os.path.join('kubejs', 'assets', 'enchdesc', 'lang')
 
 
 def has_russian(text):
     return bool(RUSSIAN_RE.search(text))
 
 
-def build_to_translate(artifact, resource):
-    """Return the subset of artifact that still needs translation, or None.
+def is_translation_key(text):
+    """Return True for dotted identifier values like 'guide.animus.entry.foo' or 'mod:cat.sub'."""
+    return bool(TRANSLATION_KEY_RE.match(text))
 
-    Rules for string leaves:
-      - Artifact is Russian → skip (sync_translations.py handles these)
-      - Resource is already Russian → skip (already translated)
-      - Otherwise → include (needs translation)
 
-    For dicts: recurse, drop keys where nothing needs translation.
-    For lists: recurse, use None as a placeholder for already-translated positions
-               so that index alignment is preserved for pull_translations.py.
+def is_lang_file(rel_path):
+    return 'lang' in rel_path.replace('\\', '/').split('/')
+
+
+def build_to_translate(artifact, resource, current_key=None):
+    """Return the subset of artifact (under target keys) that needs translation, or None.
+
+    current_key: the dict key under which this value sits. Only string leaves
+    whose current_key is in TARGET_KEYS are considered for translation.
+    List items reset current_key to None so each item's own keys are evaluated.
     """
     if isinstance(artifact, str):
         if not artifact:
-            return None  # Empty string — nothing to translate
+            return None
+        if current_key not in TARGET_KEYS:
+            return None  # Not a translatable field — skip entirely
+        if is_translation_key(artifact):
+            return None  # Looks like a translation key reference, not real text
         if has_russian(artifact):
-            return None  # Artifact already Russian — sync_translations handles it
+            return None  # Artifact already Russian
         if isinstance(resource, str) and has_russian(resource):
             return None  # Already translated in resourcepacks
         return artifact  # Needs translation
@@ -55,7 +66,7 @@ def build_to_translate(artifact, resource):
         result = {}
         for key, val in artifact.items():
             res_val = resource.get(key) if isinstance(resource, dict) else None
-            filtered = build_to_translate(val, res_val)
+            filtered = build_to_translate(val, res_val, current_key=key)
             if filtered is not None:
                 result[key] = filtered
         return result if result else None
@@ -65,7 +76,8 @@ def build_to_translate(artifact, resource):
         has_any = False
         for i, item in enumerate(artifact):
             res_item = resource[i] if isinstance(resource, list) and i < len(resource) else None
-            filtered = build_to_translate(item, res_item)
+            # Reset current_key for list items — each item is a fresh dict context
+            filtered = build_to_translate(item, res_item, current_key=None)
             if filtered is not None:
                 result.append(filtered)
                 has_any = True
@@ -77,7 +89,6 @@ def build_to_translate(artifact, resource):
 
 
 def count_strings(obj):
-    """Count non-None leaf string values in a structure."""
     if isinstance(obj, str):
         return 1
     if isinstance(obj, dict):
@@ -87,13 +98,15 @@ def count_strings(obj):
     return 0
 
 
-def collect_json_files(base_dir):
+def collect_json_files(base_dir, patchouli_only=True):
     files = []
     for root, _dirs, filenames in os.walk(base_dir):
         for filename in filenames:
             if filename.endswith('.json'):
                 full_path = os.path.join(root, filename)
                 rel_path = os.path.relpath(full_path, base_dir)
+                if patchouli_only and is_lang_file(rel_path):
+                    continue
                 files.append(rel_path)
     files.sort()
     return files
@@ -108,7 +121,7 @@ def main():
     total = len(json_files)
 
     if total == 0:
-        print('No JSON files found in artifacts.')
+        print('No patchouli JSON files found in artifacts.')
         return
 
     total_keys = 0
