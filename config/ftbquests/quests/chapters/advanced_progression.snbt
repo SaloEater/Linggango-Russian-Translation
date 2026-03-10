@@ -49,7 +49,7 @@
 			rotation: 0.0d
 			width: 10.0d
 			x: -11.5d
-			y: -10.5d
+			y: -11.5d
 		}
 		{
 			height: 1.0d
@@ -127,7 +127,20 @@
 			]
 			hide_dependency_lines: false
 			id: "5BF85D0A3254B959"
-			shape: "pentagon"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "128EE78C5A0B5F02"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+				{
+					id: "01D89403A6C888E1"
+					item: "terramity:gnome_statue"
+					type: "item"
+				}
+			]
+			shape: "circle"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest6627149150051154265.subtitle}"
 			tasks: [{
@@ -159,12 +172,19 @@
 			]
 			hide_dependency_lines: false
 			id: "157C39FF1051EA3E"
-			rewards: [{
-				id: "712DE2BB0EA5DCFC"
-				item: "plushie_buddies:plushie_sniffer"
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "712DE2BB0EA5DCFC"
+					item: "plushie_buddies:plushie_sniffer"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B184983317DC408"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest1548176139561855550.subtitle}"
 			tasks: [{
@@ -189,13 +209,21 @@
 			hide_dependency_lines: false
 			icon: "terramity:black_matter"
 			id: "2C6FC2D93C93E3DC"
-			rewards: [{
-				id: "23455E466D4E94CC"
-				item: "terramity:black_matter"
-				random_bonus: 3
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "23455E466D4E94CC"
+					item: "terramity:black_matter"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47DC8DB95CAA3A03"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest3201992098363728860.subtitle}"
 			tasks: [{
@@ -228,19 +256,27 @@
 			}
 			icon_scale: 1.3d
 			id: "2932C7DEBC10B9D3"
-			rewards: [{
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "celestisynth:textures/abilityicon/skill/aquaflora_skill_icon_3.png"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "celestisynth:textures/abilityicon/skill/aquaflora_skill_icon_3.png"
+						}
 					}
+					id: "193CF30464297452"
+					table_id: 8699295573854160387L
+					type: "random"
 				}
-				id: "193CF30464297452"
-				table_id: 8699295573854160387L
-				type: "random"
-			}]
-			shape: "rsquare"
+				{
+					exclude_from_claim_all: true
+					id: "67A1C74E44DE5A3F"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "square"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest2968654863842458067.subtitle}"
 			tasks: [{
@@ -282,12 +318,20 @@
 				}
 			}
 			id: "05D0AF91008E3155"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3EF2007578F243E9"
-				table_id: 8699295573854160387L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EF2007578F243E9"
+					table_id: 8699295573854160387L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "374FFFEFBC26A8F5"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest419027802659893589.subtitle}"
@@ -316,13 +360,21 @@
 			hide_dependency_lines: false
 			icon: "terramity:profanum"
 			id: "5D9252B669B888FE"
-			rewards: [{
-				id: "197A7421862158D9"
-				item: "terramity:profanum"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "197A7421862158D9"
+					item: "terramity:profanum"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C7F1D60EDBFF810"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest6742542535538280702.subtitle}"
 			tasks: [{
@@ -338,7 +390,13 @@
 			hide_dependency_lines: false
 			icon_scale: 1.2d
 			id: "19CBC92610B35600"
-			shape: "rsquare"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1609E1B0A34FFFA4"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest1858800436546590208.subtitle}"
 			tasks: [{
@@ -369,7 +427,7 @@
 				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "octagon"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest295708085285279814.subtitle}"
 			tasks: [
@@ -408,12 +466,20 @@
 			dependencies: ["1005B36B7451F531"]
 			hide_dependency_lines: false
 			id: "14DDBB7CA3A71F56"
-			rewards: [{
-				id: "0DD50550523F0C18"
-				item: "terramity:antiprism"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0DD50550523F0C18"
+					item: "terramity:antiprism"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EEC04C7EEA392C0"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest1503563994607591254.subtitle}"
@@ -440,7 +506,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest1590467760711708521.subtitle}"
 			tasks: [{
@@ -448,19 +514,27 @@
 				item: "terramity:prismatic_jewel"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -8.0d
+			x: -14.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5D9252B669B888FE"]
 			hide_dependency_lines: false
 			id: "06406B2D8A9A618D"
-			rewards: [{
-				id: "389BFE3FF16FCBCC"
-				type: "xp"
-				xp: 15
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "389BFE3FF16FCBCC"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10A1F0B5A46746D0"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest450477806080123277.subtitle}"
 			tasks: [{
@@ -482,13 +556,21 @@
 			description: ["{ftbquests.chapter.advanced_progression.quest5198316584645137379.description1}"]
 			hide_dependency_lines: false
 			id: "4824216451CB93E3"
-			rewards: [{
-				id: "292B985497C34338"
-				item: "terramity:circuit_board"
-				random_bonus: 3
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "292B985497C34338"
+					item: "terramity:circuit_board"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "503B0BD9145EB770"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest5198316584645137379.subtitle}"
 			tasks: [{
@@ -503,12 +585,20 @@
 			dependencies: ["5D9252B669B888FE"]
 			hide_dependency_lines: false
 			id: "7699A48EA0F36CD5"
-			rewards: [{
-				id: "4754296CEF33025F"
-				item: "terramity:void_alloy"
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "4754296CEF33025F"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D401A8EE19FB416"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest8546042700404845781.subtitle}"
 			tasks: [{
@@ -531,12 +621,13 @@
 					type: "item"
 				}
 				{
-					id: "704ED17FA8328FB2"
-					type: "xp_levels"
-					xp_levels: 5
+					exclude_from_claim_all: true
+					id: "548EC20750EA76EC"
+					table_id: 1534136396462519031L
+					type: "random"
 				}
 			]
-			shape: "pentagon"
+			shape: "hexagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest3801788021990541183.subtitle}"
 			tasks: [{
@@ -545,41 +636,6 @@
 				type: "item"
 			}]
 			x: -14.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["2932C7DEBC10B9D3"]
-			description: [
-				"{ftbquests.chapter.advanced_progression.quest6883037600223188190.description1}"
-				""
-				"{ftbquests.chapter.advanced_progression.quest6883037600223188190.description2}"
-			]
-			hide_dependency_lines: false
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:textures/gui/info_icon.png"
-				}
-			}
-			icon_scale: 1.4d
-			id: "5F85763AC0F5D4DE"
-			rewards: [{
-				count: 5
-				id: "198490F623EC0B8D"
-				item: "terramity:black_matter"
-				type: "item"
-			}]
-			shape: "square"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest6883037600223188190.subtitle}"
-			tasks: [{
-				id: "0A00A655F323D675"
-				title: "{ftbquests.chapter.advanced_progression.quest6883037600223188190.task.720758828460922485.title}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.advanced_progression.quest6883037600223188190.title}"
-			x: -10.0d
 			y: -3.0d
 		}
 		{
@@ -592,7 +648,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest736275827929183467.subtitle}"
 			tasks: [{
@@ -601,7 +657,7 @@
 				type: "item"
 			}]
 			x: -14.0d
-			y: -9.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["43ACAF3A3EA50806"]
@@ -613,7 +669,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest3820374918118636801.subtitle}"
 			tasks: [{
@@ -622,7 +678,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -9.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["43ACAF3A3EA50806"]
@@ -634,7 +690,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest7224525704472781335.subtitle}"
 			tasks: [{
@@ -655,7 +711,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest1110014456912323497.subtitle}"
 			tasks: [{
@@ -663,8 +719,8 @@
 				item: "terramity:onyx"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -8.0d
+			x: -8.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["43ACAF3A3EA50806"]
@@ -677,7 +733,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest3318985780747207359.subtitle}"
 			tasks: [{
@@ -692,12 +748,20 @@
 			dependencies: ["157C39FF1051EA3E"]
 			hide_dependency_lines: false
 			id: "10F6E5FD5819F5CE"
-			rewards: [{
-				id: "0C7B2750F2B0BDE6"
-				item: "terramity:dimlite_ingot"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0C7B2750F2B0BDE6"
+					item: "terramity:dimlite_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38693E99FC087B86"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest1222417225145251278.subtitle}"
@@ -713,12 +777,20 @@
 			dependencies: ["5BF85D0A3254B959"]
 			hide_dependency_lines: false
 			id: "5CB32CEF85677707"
-			rewards: [{
-				id: "37D7AA7495DF7E34"
-				item: "terramity:virentium_alloy_ingot"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DF6336D636C4E9D"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+				{
+					id: "112FC54833ED4A37"
+					item: "terramity:virentium_alloy_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest6679732079567533831.subtitle}"
@@ -734,12 +806,20 @@
 			dependencies: ["5BF85D0A3254B959"]
 			hide_dependency_lines: false
 			id: "51B5E776DCBBA146"
-			rewards: [{
-				id: "0025FA7A56067B1B"
-				item: "terramity:cosmilite_ingot"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0025FA7A56067B1B"
+					item: "terramity:cosmilite_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69AEB8C435A8556E"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest5887866585552232774.subtitle}"
@@ -761,13 +841,21 @@
 			description: ["{ftbquests.chapter.advanced_progression.quest5866650448098165213.description1}"]
 			hide_dependency_lines: false
 			id: "516A877FEC4701DD"
-			rewards: [{
-				id: "7FCC2D472500CA05"
-				item: "terramity:iridium"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "7FCC2D472500CA05"
+					item: "terramity:iridium"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EF89552D23EA8BE"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest5866650448098165213.subtitle}"
 			tasks: [{
@@ -782,12 +870,20 @@
 			dependencies: ["157C39FF1051EA3E"]
 			description: ["{ftbquests.chapter.advanced_progression.quest8047900616864477301.description1}"]
 			id: "6FAFE2F8AFDAB075"
-			rewards: [{
-				id: "1A4FA3D7E3DE645C"
-				item: "terramity:daemonium"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1A4FA3D7E3DE645C"
+					item: "terramity:daemonium"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4372B98E2A939F02"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest8047900616864477301.subtitle}"
@@ -803,13 +899,21 @@
 			dependencies: ["2C6FC2D93C93E3DC"]
 			hide_dependency_lines: false
 			id: "1B0DEADF966579CF"
-			rewards: [{
-				id: "4C49D9A1349E2B00"
-				item: "terramity:conductite"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "4C49D9A1349E2B00"
+					item: "terramity:conductite"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62AC100CDB99E4C4"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest1949472459743132111.subtitle}"
 			tasks: [{
@@ -824,12 +928,20 @@
 			dependencies: ["4E24EF436028EC67"]
 			hide_dependency_lines: false
 			id: "4095D45E6F47975A"
-			rewards: [{
-				id: "4D016D8801ACA853"
-				item: "terramity:nyxium"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4D016D8801ACA853"
+					item: "terramity:nyxium"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77E7C332B273EAF1"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest4653859292016252762.subtitle}"
@@ -845,12 +957,20 @@
 			dependencies: ["14DDBB7CA3A71F56"]
 			hide_dependency_lines: false
 			id: "004807CDCE0EEB28"
-			rewards: [{
-				id: "2B7BA07FA63AB22F"
-				item: "terramity:reverium"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2B7BA07FA63AB22F"
+					item: "terramity:reverium"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14D62CE92F54AC61"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest20274778829941544.subtitle}"
@@ -866,12 +986,20 @@
 			dependencies: ["5CB177CF227CCD27"]
 			hide_dependency_lines: false
 			id: "7B8D5CEBA193AC34"
-			rewards: [{
-				id: "5EAAC4139099D476"
-				item: "terramity:exodium_superalloy"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5EAAC4139099D476"
+					item: "terramity:exodium_superalloy"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EC867C71140E907"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest8902874205479218228.subtitle}"
@@ -887,12 +1015,20 @@
 			dependencies: ["14DDBB7CA3A71F56"]
 			hide_dependency_lines: false
 			id: "5CB177CF227CCD27"
-			rewards: [{
-				id: "7E00DC193979B21A"
-				item: "terramity:cracked_microcosm"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7E00DC193979B21A"
+					item: "terramity:cracked_microcosm"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DBF014EAEBF15C1"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest6679251453887696167.subtitle}"
@@ -916,12 +1052,20 @@
 			dependencies: ["14DDBB7CA3A71F56"]
 			hide_dependency_lines: false
 			id: "4E24EF436028EC67"
-			rewards: [{
-				id: "44D44AB81422A6CA"
-				item: "terramity:opaline_moonstone"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "44D44AB81422A6CA"
+					item: "terramity:opaline_moonstone"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C8D1936F5E54E32"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest5630888506775104615.subtitle}"
@@ -938,10 +1082,10 @@
 			hide_dependency_lines: false
 			id: "73317396BA69E10B"
 			rewards: [{
-				id: "7C0418ED00FAC2DF"
-				item: "terramity:angel_feather"
-				random_bonus: 1
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6332B034B7C84CEA"
+				table_id: 1690105744798928825L
+				type: "random"
 			}]
 			shape: "diamond"
 			size: 1.2d
@@ -957,13 +1101,21 @@
 		{
 			dependencies: ["2C6FC2D93C93E3DC"]
 			id: "3284A47CBF5B8EE9"
-			rewards: [{
-				id: "24C5E388C0EFFDA6"
-				item: "terramity:hellspec_alloy"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "24C5E388C0EFFDA6"
+					item: "terramity:hellspec_alloy"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "743EB9580FDE985E"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest3640215254515551977.subtitle}"
 			tasks: [{
@@ -977,13 +1129,21 @@
 		{
 			dependencies: ["2C6FC2D93C93E3DC"]
 			id: "1E35A72FD965B419"
-			rewards: [{
-				id: "1ADA80F74894A42C"
-				item: "terramity:void_alloy"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "1ADA80F74894A42C"
+					item: "terramity:void_alloy"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "667EC96600DC7B81"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest2176829818856125465.subtitle}"
 			tasks: [{
@@ -1015,7 +1175,7 @@
 				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "pentagon"
 			size: 1.2d
 			tasks: [{
 				entity: "terramity:gundalf"

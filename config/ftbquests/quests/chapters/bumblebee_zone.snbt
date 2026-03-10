@@ -1,0 +1,274 @@
+{
+	autofocus_id: "0AE43D3AF9EEC733"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "bumblebee_zone"
+	group: "52FA8429D8BF5933"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "the_bumblezone:item/stingless_bee_helmet_1"
+		}
+	}
+	id: "234EFD4C2FC9959D"
+	images: [{
+		height: 2.5d
+		image: "customtextures:textures/bumblezone.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: -0.5d
+		y: -1.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.bumblebee_zone.quest784819558579881779.description1}"
+				""
+				"{ftbquests.chapter.bumblebee_zone.quest784819558579881779.description2}"
+				""
+				"{ftbquests.chapter.bumblebee_zone.quest784819558579881779.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:item/bumble_bee_chestplate_1"
+				}
+			}
+			id: "0AE43D3AF9EEC733"
+			rewards: [{
+				id: "7FEFB05EA71CA03C"
+				type: "xp"
+				xp: 15
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "34A7EDD7E4CE7870"
+				title: "{ftbquests.chapter.bumblebee_zone.quest784819558579881779.task.3794262722595420272.title}"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.bumblebee_zone.quest784819558579881779.title}"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "the_bumblezone:honeycomb_brood_block"
+			id: "4B3A381B973C9D5D"
+			rewards: [{
+				count: 2
+				id: "4BEE485E36F8F2BF"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:bumbling_beepartments"
+				icon: "the_bumblezone:honeycomb_brood_block"
+				id: "11DD6A2163F9665E"
+				title: "{ftbquests.chapter.bumblebee_zone.quest5420706792646417757.task.1287301760141583966.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.bumblebee_zone.quest5420706792646417757.title}"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "the_bumblezone:glistering_honey_crystal"
+			id: "33289E518D427D8D"
+			rewards: [{
+				count: 2
+				id: "7DAC87F1AA800C66"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:crystal_canyon"
+				icon: "the_bumblezone:glistering_honey_crystal"
+				id: "2809724E8CE5BA99"
+				title: "{ftbquests.chapter.bumblebee_zone.quest3686370368102235533.task.2884962718004394649.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.bumblebee_zone.quest3686370368102235533.title}"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/cherry_sapling"
+				}
+			}
+			id: "24EE81E2BBCB6588"
+			rewards: [{
+				count: 2
+				id: "05374B085AB2A6A7"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:floral_meadow"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:block/cherry_sapling"
+					}
+				}
+				id: "0A6FE328EABC42A2"
+				title: "{ftbquests.chapter.bumblebee_zone.quest2661207240635803016.task.752069427670565538.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.bumblebee_zone.quest2661207240635803016.title}"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "minecraft:honeycomb_block"
+			id: "7D1C18768C6B77CA"
+			rewards: [{
+				count: 2
+				id: "3BE4BA88F6CB6B3F"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:hive_pillar"
+				icon: "minecraft:honeycomb_block"
+				id: "6C90BA3B3A7E6AAE"
+				title: "{ftbquests.chapter.bumblebee_zone.quest9015107451529951178.task.7822957316289751726.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.bumblebee_zone.quest9015107451529951178.title}"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "minecraft:honey_block"
+			id: "4ED792E8B15D3BFE"
+			rewards: [{
+				count: 2
+				id: "4FA2A95BD09B900B"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:hive_wall"
+				icon: "minecraft:honey_block"
+				id: "44508471896D7E10"
+				title: "{ftbquests.chapter.bumblebee_zone.quest5681170983056915454.task.4922580015887777296.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.bumblebee_zone.quest5681170983056915454.title}"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "the_bumblezone:ancient_wax_diamond"
+			id: "71F615C861805D40"
+			rewards: [{
+				count: 2
+				id: "10D3B81FE06B96C8"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:howling_constructs"
+				icon: "the_bumblezone:ancient_wax_diamond"
+				id: "697C65862EA1FD99"
+				title: "{ftbquests.chapter.bumblebee_zone.quest8211774920930123072.task.7601061898076945817.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.bumblebee_zone.quest8211774920930123072.title}"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "the_bumblezone:pile_of_pollen"
+			id: "6FC100081BA16794"
+			rewards: [{
+				count: 2
+				id: "455C8FA259520472"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:pollinated_fields"
+				icon: "the_bumblezone:pile_of_pollen"
+				id: "249CB9279759E679"
+				title: "{ftbquests.chapter.bumblebee_zone.quest8052717643538458516.task.2638187061426382457.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.bumblebee_zone.quest8052717643538458516.title}"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:block/sticky_honey_residue"
+				}
+			}
+			id: "21C46AA673D0F37A"
+			rewards: [{
+				count: 2
+				id: "20F2B80D5DAFE1B0"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:pollinated_pillar"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "the_bumblezone:block/sticky_honey_residue"
+					}
+				}
+				id: "4BB64E39902769D8"
+				title: "{ftbquests.chapter.bumblebee_zone.quest2433186961827099514.task.5455634007744539096.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.bumblebee_zone.quest2433186961827099514.title}"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0AE43D3AF9EEC733"]
+			icon: "the_bumblezone:sugar_water_bucket"
+			id: "69B52278756D6625"
+			rewards: [{
+				count: 2
+				id: "1AD71B12CAC7FFC0"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "the_bumblezone:sugar_water_floor"
+				icon: "minecraft:water_bucket"
+				id: "787CD12EF692D0B0"
+				title: "{ftbquests.chapter.bumblebee_zone.quest7617032245528585765.task.8682044181298991280.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.bumblebee_zone.quest7617032245528585765.title}"
+			x: 3.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.bumblebee_zone.subtitle0}"]
+	title: "{ftbquests.chapter.bumblebee_zone.title}"
+}

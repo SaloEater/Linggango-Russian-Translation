@@ -30,105 +30,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["33532408B21A5378"]
-			description: [
-				"{ftbquests.chapter.industrial.quest1063418213395355078.description1}"
-				"{ftbquests.chapter.industrial.quest1063418213395355078.image0}"
-				"{ftbquests.chapter.industrial.quest1063418213395355078.description2}"
-			]
-			id: "0EC2053B191C55C6"
-			rewards: [{
-				id: "2D3F9D6C16FE7EAF"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{ftbquests.chapter.industrial.quest1063418213395355078.subtitle}"
-			tasks: [{
-				id: "3CEAE2B50AD7C5ED"
-				item: "industrialforegoing:fluid_extractor"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.industrial.quest7953759026426707078.description1}"
-				""
-				"{ftbquests.chapter.industrial.quest7953759026426707078.description2}"
-			]
-			id: "6E616DB197387C86"
-			rewards: [
-				{
-					id: "7ECF8B10893330A5"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "industrialforegoing:industrial_foregoing"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "207E73924129AB5E"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "59987716D80F684D"
-					item: "industrialforegoing:machine_frame_pity"
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.industrial.quest7953759026426707078.subtitle}"
-			tasks: [{
-				id: "62D9743FABC21813"
-				item: "industrialforegoing:machine_frame_pity"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.industrial.quest7953759026426707078.title}"
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6E616DB197387C86"]
-			id: "33532408B21A5378"
-			rewards: [{
-				count: 15
-				id: "3F63CCEB0E0789AF"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3DD12A969161A5B6"
-				item: "industrialforegoing:pitiful_generator"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["321FA7348E532F4E"]
-			id: "6FF04DD735346BED"
-			rewards: [{
-				id: "0FB5D498F42B6185"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{ftbquests.chapter.industrial.quest8066032519326493677.subtitle}"
-			tasks: [{
-				id: "163B2434699EEF1A"
-				item: "industrialforegoing:latex_processing_unit"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["6E616DB197387C86"]
+			dependencies: ["429E1A3B3295939E"]
 			id: "339DF320DDCAD98B"
 			rewards: [
 				{
@@ -161,61 +63,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0EC2053B191C55C6"]
-			id: "321FA7348E532F4E"
-			rewards: [{
-				count: 3
-				id: "6D991DABAE36FE01"
-				item: {
-					Count: 1
-					id: "mekanism:basic_fluid_tank"
-					tag: {
-						BlockEntityTag: {
-							FluidTanks: [{
-								Tank: 0b
-								stored: {
-									Amount: 14000
-									FluidName: "industrialforegoing:latex"
-								}
-							}]
-							ForgeCaps: { }
-							Items: [ ]
-							activeState: 0b
-							currentRedstone: 15
-							editMode: 0
-							id: "mekanism:basic_fluid_tank"
-							redstone: 0b
-							updateDelay: 0
-						}
-						display: {
-							Lore: ["\"(+NBT)\""]
-						}
-						mekData: {
-							FluidTanks: [{
-								Tank: 0b
-								stored: {
-									Amount: 14000
-									FluidName: "industrialforegoing:latex"
-								}
-							}]
-							Items: [ ]
-							securityMode: 0
-						}
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1D19038D0227D7EC"
-				item: "industrialforegoing:latex_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["6FF04DD735346BED"]
-			description: ["{ftbquests.chapter.industrial.quest1056627562181374943.description1}"]
+			dependencies: ["17799DB7DF4F4082"]
 			id: "0EA9E52B67B533DF"
 			rewards: [
 				{
@@ -283,22 +131,6 @@
 			title: "{ftbquests.chapter.industrial.quest1602132493867540871.title}"
 			x: -3.5d
 			y: 5.5d
-		}
-		{
-			dependencies: ["690CFF61CE787D43"]
-			id: "57C4A0BAE739E903"
-			rewards: [{
-				id: "07D2425AB04979D3"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "47C0E765FD874FCC"
-				item: "industrialforegoing:dissolution_chamber"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 6.5d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
@@ -478,7 +310,7 @@
 			}]
 			tasks: [
 				{
-					id: "31CC6D6C9BD14E1E"
+					id: "31CC6D6C9BD14E1A"
 					item: "industrialforegoing:fluid_collector"
 					type: "item"
 				}
@@ -505,7 +337,7 @@
 			subtitle: "{ftbquests.chapter.industrial.quest3229061798715666071.subtitle}"
 			tasks: [
 				{
-					id: "796061CC713A9A91"
+					id: "796061CC713A9A9B"
 					item: "industrialforegoing:block_breaker"
 					type: "item"
 				}
@@ -645,7 +477,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["57C4A0BAE739E903"]
+			dependencies: ["1B33ED896ECF230C"]
 			id: "3514E9C1A8C7400C"
 			rewards: [{
 				id: "3CB88390179E68C1"
@@ -1608,6 +1440,111 @@
 			title: "{ftbquests.chapter.industrial.quest4375115420784578304.title}"
 			x: 9.0d
 			y: 11.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.industrial.quest4800303094377583518.description1}"
+				""
+				"{ftbquests.chapter.industrial.quest4800303094377583518.description2}"
+			]
+			icon: "industrialforegoing:machine_frame_pity"
+			id: "429E1A3B3295939E"
+			rewards: [
+				{
+					id: "60D8D5EC563BD1A0"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67799CC7734D3976"
+					item: "industrialforegoing:machine_frame_pity"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.4d
+			tasks: [{
+				id: "53925DEF6E07F96B"
+				title: "{ftbquests.chapter.industrial.quest4800303094377583518.task.6021978934672357739.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.industrial.quest4800303094377583518.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["429E1A3B3295939E"]
+			id: "6AB75E2811CD2B36"
+			rewards: [{
+				count: 2
+				id: "4584CAE9D2001081"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AD0F8D65D32AC05"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AB75E2811CD2B36"]
+			description: [
+				"{ftbquests.chapter.industrial.quest3398701897648038963.description1}"
+				""
+				"{ftbquests.chapter.industrial.quest3398701897648038963.description2}"
+			]
+			id: "2F2A9D5E6AC1E433"
+			subtitle: "{ftbquests.chapter.industrial.quest3398701897648038963.subtitle}"
+			tasks: [{
+				id: "3E640D55CFF416C5"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F2A9D5E6AC1E433"]
+			id: "70B9722EE7CF678C"
+			tasks: [{
+				id: "4289ABF984F30F3A"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70B9722EE7CF678C"]
+			id: "17799DB7DF4F4082"
+			subtitle: "{ftbquests.chapter.industrial.quest1691556548105420930.subtitle}"
+			tasks: [{
+				id: "2DD5F7D3FBE0FDA6"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			id: "1B33ED896ECF230C"
+			tasks: [{
+				id: "4C1258F2532854D4"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
 		}
 	]
 	title: "{ftbquests.chapter.industrial.title}"

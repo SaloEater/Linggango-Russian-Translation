@@ -21,8 +21,8 @@
 			order: -5
 			rotation: 0.0d
 			width: 2.0d
-			x: 6.0d
-			y: 5.98d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dev: true
@@ -594,7 +594,7 @@
 			]
 			icon: {
 				Count: 1
-				id: "block_factorys_bosses:sandworm_dart"
+				id: "block_factorys_bosses:sandworm_gauntlet"
 				tag: {
 					Damage: 0
 				}
@@ -1533,6 +1533,7 @@
 				"{ftbquests.chapter.bosses.quest9198575613925035419.image4}"
 				""
 				"{ftbquests.chapter.bosses.quest9198575613925035419.image6}"
+				"{ftbquests.chapter.bosses.quest9198575613925035419.description3}"
 			]
 			icon: {
 				Count: 1
@@ -1545,15 +1546,10 @@
 			min_required_tasks: 1
 			rewards: [
 				{
-					exclude_from_claim_all: true
 					id: "72BA1FD22A50FBED"
 					table_id: 8699295573854160387L
+					title: "{ftbquests.chapter.bosses.quest9198575613925035419.reward.8266955053505510381.title}"
 					type: "random"
-				}
-				{
-					id: "754BA3A44FC8A127"
-					item: "fintastic:shunji_music_disc"
-					type: "item"
 				}
 				{
 					id: "4F69F2AEED67B3DA"
@@ -1630,8 +1626,8 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.bosses.quest9198575613925035419.title}"
-			x: 6.0d
-			y: 5.98d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7BE325F21B79E110"]
@@ -1833,7 +1829,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["418B954780DD19CB"]
+			dependencies: ["296D1FA3027A3819"]
 			description: [
 				"{ftbquests.chapter.bosses.quest8089822793479134933.description1}"
 				""
@@ -1870,7 +1866,7 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.bosses.quest8089822793479134933.title}"
-			x: 14.0d
+			x: 16.0d
 			y: 2.0d
 		}
 		{
@@ -1909,7 +1905,7 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.bosses.quest2864058738183669317.title}"
-			x: 8.0d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
@@ -1951,11 +1947,11 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.bosses.quest7670223009586651576.title}"
-			x: 12.0d
+			x: 18.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["6A721B304A70A1B8"]
+			dependencies: ["50EDD2850C47C4DF"]
 			description: [
 				"{ftbquests.chapter.bosses.quest8468964533092098297.description1}"
 				""
@@ -1985,7 +1981,7 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.bosses.quest8468964533092098297.title}"
-			x: 12.0d
+			x: 14.0d
 			y: 6.0d
 		}
 		{
@@ -2254,6 +2250,18 @@
 					table_id: 4807020933408434136L
 					type: "loot"
 				}
+				{
+					id: "0FB0E075D192DB4B"
+					table_id: 8699295573854160387L
+					title: "{ftbquests.chapter.bosses.quest123752962235774926.reward.1130650303101852491.title}"
+					type: "random"
+				}
+				{
+					id: "56AC915B9C696BA1"
+					table_id: 8699295573854160387L
+					title: "{ftbquests.chapter.bosses.quest123752962235774926.reward.6245526605908241313.title}"
+					type: "random"
+				}
 			]
 			shape: "none"
 			size: 1.5d
@@ -2454,18 +2462,12 @@
 			subtitle: "{ftbquests.chapter.bosses.quest5654825192391571167.subtitle}"
 			tasks: [
 				{
-					entity: "goety:doppelganger"
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "darkdoppelganger:item/doppelganger_ring"
-						}
-					}
-					id: "301E39957ABB13B4"
-					title: "{ftbquests.chapter.bosses.quest5654825192391571167.task.3467272077293851572.title}"
-					type: "kill"
-					value: 1L
+					advancement: "darkdoppelganger:kill"
+					criterion: ""
+					icon: "darkdoppelganger:doppelganger_ring"
+					id: "176AF4E4DA16380C"
+					title: "{ftbquests.chapter.bosses.quest5654825192391571167.task.1687430274152282124.title}"
+					type: "advancement"
 				}
 				{
 					id: "353A50410A272C1C"
@@ -2474,7 +2476,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.bosses.quest5654825192391571167.title}"
-			x: 10.0d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
@@ -2520,8 +2522,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.bosses.quest305044500647342062.title}"
-			x: 13.0d
-			y: 5.0d
+			x: 18.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["043BBC5B6DC56FEE"]
@@ -2563,7 +2565,7 @@
 				type: "questsadditions:time"
 			}]
 			title: "{ftbquests.chapter.bosses.quest6360021412178580025.title}"
-			x: 14.0d
+			x: 20.0d
 			y: 6.0d
 		}
 		{
@@ -2716,9 +2718,10 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "customtextures:textures/apostle_hat.png"
+					Icon: "goetydelight:textures/mob_effect/the_pale_messenger.png"
 				}
 			}
+			icon_scale: 1.2d
 			id: "3186C6AC85757E55"
 			min_width: 300
 			rewards: [
@@ -2815,7 +2818,7 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "gear"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.bosses.quest975021744324794882.subtitle}"
 			tasks: [{
@@ -2857,9 +2860,9 @@
 			}
 			id: "5C3E27D95D3656C6"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "2F9B27A1B2B15ECE"
 				table_id: 8699295573854160387L
+				title: "{ftbquests.chapter.bosses.quest6646793914570659526.reward.3430379116613951182.title}"
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -2887,8 +2890,90 @@
 				}
 			]
 			title: "{ftbquests.chapter.bosses.quest6646793914570659526.title}"
-			x: 14.0d
+			x: 16.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["5C3E27D95D3656C6"]
+			description: [
+				"{ftbquests.chapter.bosses.quest5831548561393173727.description1}"
+				""
+				"{ftbquests.chapter.bosses.quest5831548561393173727.description2}"
+				""
+				"[\"\",{\"translate\":\"ftbquests.chapter.bosses.quest5831548561393173727.rich_description1\"},{\"color\":\"green\",\"translate\":\"ftbquests.chapter.bosses.quest5831548561393173727.rich_description2\"},{\"translate\":\"ftbquests.chapter.bosses.quest5831548561393173727.rich_description3\"}}]"
+				""
+				"{ftbquests.chapter.bosses.quest5831548561393173727.image0}"
+				"{ftbquests.chapter.bosses.quest5831548561393173727.image2}"
+				"{ftbquests.chapter.bosses.quest5831548561393173727.image4}"
+				"{ftbquests.chapter.bosses.quest5831548561393173727.image6}"
+			]
+			id: "50EDD2850C47C4DF"
+			rewards: [{
+				id: "36ACF4315BDFE75B"
+				table_id: 8699295573854160387L
+				title: "{ftbquests.chapter.bosses.quest5831548561393173727.reward.3939792266874316635.title}"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.bosses.quest5831548561393173727.subtitle}"
+			tasks: [
+				{
+					advancement: "legendary_monsters:defeat_the_obliterator"
+					criterion: ""
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "legendary_monsters:item/annihilator_helmet"
+						}
+					}
+					id: "0926524B52D7DDB4"
+					title: "{ftbquests.chapter.bosses.quest5831548561393173727.task.659304878922259892.title}"
+					type: "advancement"
+				}
+				{
+					id: "167E7B02BD3A1EC3"
+					item: "legendary_monsters:eye_of_annihilation"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses.quest5831548561393173727.title}"
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["418B954780DD19CB"]
+			description: [
+				"{ftbquests.chapter.bosses.quest2985076912998201369.description1}"
+				"{ftbquests.chapter.bosses.quest2985076912998201369.description2}"
+				""
+				"{ftbquests.chapter.bosses.quest2985076912998201369.description3}"
+				""
+				"{ftbquests.chapter.bosses.quest2985076912998201369.image0}"
+				"{ftbquests.chapter.bosses.quest2985076912998201369.image2}"
+				"{ftbquests.chapter.bosses.quest2985076912998201369.image4}"
+			]
+			id: "296D1FA3027A3819"
+			rewards: [{
+				id: "643581CA165C949A"
+				table_id: 8699295573854160387L
+				title: "{ftbquests.chapter.bosses.quest2985076912998201369.reward.7220820282517001370.title}"
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.bosses.quest2985076912998201369.subtitle}"
+			tasks: [{
+				advancement: "fdbosses:qliphoth_awakening/geburah"
+				criterion: ""
+				id: "56071BF946033231"
+				title: "{ftbquests.chapter.bosses.quest2985076912998201369.task.6198954169534198321.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.bosses.quest2985076912998201369.title}"
+			x: 14.0d
+			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.bosses.title}"

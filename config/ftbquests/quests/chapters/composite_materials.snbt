@@ -24,30 +24,6 @@
 			y: -4.667968089696977d
 		}
 		{
-			height: 2.0d
-			image: "minecraft:block/sculk_sensor_tendril_active"
-			rotation: 0.0d
-			width: 2.0d
-			x: 9.655874952509905d
-			y: 5.689174767445884d
-		}
-		{
-			height: 2.0d
-			image: "minecraft:block/sculk_sensor_tendril_active"
-			rotation: 65.0d
-			width: 1.0d
-			x: 11.535714285714285d
-			y: 6.25d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/sculk_sensor_tendril_active"
-			rotation: 0.0d
-			width: 2.0d
-			x: 10.110182018914578d
-			y: 3.614298583828351d
-		}
-		{
 			height: 1.0d
 			image: "minecraft:block/sculk_sensor_tendril_active"
 			rotation: -90.0d
@@ -56,60 +32,20 @@
 			y: 1.7571557266855038d
 		}
 		{
-			height: 2.0d
-			image: "minecraft:block/sculk_sensor_tendril_active"
-			rotation: 87.0d
-			width: 0.4d
-			x: 10.964285714285715d
-			y: 1.6785714285714306d
+			height: 0.5d
+			image: "infinitybuttons:textures/particle/diamond_sparkle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.0d
+			y: 4.357142857142854d
 		}
 		{
 			height: 0.5d
 			image: "infinitybuttons:textures/particle/diamond_sparkle.png"
 			rotation: 0.0d
 			width: 0.5d
-			x: 4.003039161771731d
-			y: 6.038108107637855d
-		}
-		{
-			height: 0.5d
-			image: "infinitybuttons:textures/particle/diamond_sparkle.png"
-			rotation: 0.0d
-			width: 0.5d
-			x: 4.431610590343155d
-			y: 4.400012869542621d
-		}
-		{
-			height: 1.0d
-			image: "galosphere:textures/particle/amethyst_rain1.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.0d
-			y: -5.0d
-		}
-		{
-			height: 1.0d
-			image: "galosphere:textures/particle/amethyst_rain1.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.2066226614271898d
-			y: -5.979140014069706d
-		}
-		{
-			height: 1.0d
-			image: "galosphere:textures/particle/amethyst_rain1.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: -4.5d
-		}
-		{
-			height: 1.0d
-			image: "galosphere:textures/particle/amethyst_rain1.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: -6.0d
+			x: 3.7857142857142776d
+			y: 3.1785714285714235d
 		}
 		{
 			height: 1.0d
@@ -124,16 +60,16 @@
 			image: "infinitybuttons:textures/particle/diamond_sparkle.png"
 			rotation: 0.0d
 			width: 0.5d
-			x: 5.89589630462887d
-			y: 2.073822393352147d
+			x: 4.964285714285708d
+			y: 2.964285714285708d
 		}
 		{
 			height: 0.5d
 			image: "infinitybuttons:textures/particle/diamond_sparkle.png"
 			rotation: 0.0d
 			width: 0.5d
-			x: 2.89589630462887d
-			y: 2.2214414409711907d
+			x: 4.964285714285708d
+			y: 1.749999999999993d
 		}
 		{
 			dev: true
@@ -161,6 +97,7 @@
 		{
 			dependencies: ["5B405969C6A4170B"]
 			description: ["{ftbquests.chapter.composite_materials.quest1711632526526013235.description1}"]
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				id: "composite_material:flint_pickaxe"
@@ -171,12 +108,12 @@
 			icon_scale: 1.3d
 			id: "17C0F0B6D9965F33"
 			rewards: [{
-				count: 2
-				id: "570CCFE3B0D1C6F9"
-				item: "minecraft:flint"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "4C13E8E1CCA10F9E"
+				table_id: 2735481536007598363L
+				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest1711632526526013235.subtitle}"
 			tasks: [{
@@ -281,21 +218,13 @@
 				}
 			}
 			id: "796E9BF6EAAB7EAE"
-			rewards: [
-				{
-					count: 4
-					id: "013EA08D61A7FE98"
-					item: "minecraft:copper_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "67345B6D3C0308AC"
-					item: "minecraft:cooked_beef"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AA8AF9F7D79682C"
+				table_id: 2735481536007598363L
+				type: "random"
+			}]
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest8750102610828820142.subtitle}"
 			tasks: [{
@@ -354,21 +283,13 @@
 				}
 			}
 			id: "2526C45CE93330B8"
-			rewards: [
-				{
-					count: 4
-					id: "3F73EC4861B584B7"
-					item: "minecraft:copper_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "776F6FB4C06EC6A2"
-					item: "minecraft:cooked_beef"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C1F0D002E8FFAF9"
+				table_id: 2735481536007598363L
+				type: "random"
+			}]
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest2677042931846820024.subtitle}"
 			tasks: [{
@@ -441,20 +362,13 @@
 				}
 			}
 			id: "736E807439EDC197"
-			rewards: [
-				{
-					count: 2
-					id: "30B093C3D17AEFE0"
-					item: "minecraft:amethyst_shard"
-					type: "item"
-				}
-				{
-					id: "4F28DBA5EE0D8A36"
-					item: "chimes:amethyst_chimes"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "576124D3FA2771E9"
+				table_id: 2735481536007598363L
+				type: "random"
+			}]
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest8317726798476329367.subtitle}"
 			tasks: [{
@@ -524,12 +438,12 @@
 			}
 			id: "13384AC186341D38"
 			rewards: [{
-				count: 2
-				id: "59788BCA35BB017B"
-				item: "minecraft:amethyst_shard"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "294729A88504FDFE"
+				table_id: 2735481536007598363L
+				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest1384939080457133368.subtitle}"
 			tasks: [{
@@ -598,12 +512,12 @@
 			icon_scale: 1.4d
 			id: "57734015B3527500"
 			rewards: [{
-				id: "176151729210BADD"
-				item: "composite_material:guardian_elder_spike"
-				random_bonus: 2
-				type: "item"
+				exclude_from_claim_all: true
+				id: "7AC213DED87AE558"
+				table_id: 2735481536007598363L
+				type: "random"
 			}]
-			shape: "octagon"
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest6301450765568472320.subtitle}"
 			tasks: [{
@@ -621,9 +535,10 @@
 			dependencies: ["57734015B3527500"]
 			id: "68A929431E05F20F"
 			rewards: [{
-				id: "4957ACD9A482D99B"
-				type: "xp"
-				xp: 1
+				exclude_from_claim_all: true
+				id: "4FEDC080A2D5D129"
+				table_id: 2735481536007598363L
+				type: "random"
 			}]
 			shape: "diamond"
 			size: 1.2d
@@ -640,20 +555,12 @@
 			dependencies: ["68A929431E05F20F"]
 			description: ["{ftbquests.chapter.composite_materials.quest7526956670379849744.description1}"]
 			id: "68751F3651BF7810"
-			rewards: [
-				{
-					count: 4
-					id: "7B7A6690976E4A2B"
-					item: "species:werefang"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "7250A3C7294D494A"
-					item: "biomancy:mob_fang"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E70038E6A35087B"
+				table_id: 2735481536007598363L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest7526956670379849744.subtitle}"
@@ -669,11 +576,10 @@
 			dependencies: ["68A929431E05F20F"]
 			id: "02D52DB3350AA83C"
 			rewards: [{
-				count: 4
-				id: "3A0ED7025D8B4CF1"
-				item: "minecraft:prismarine_shard"
-				random_bonus: 4
-				type: "item"
+				exclude_from_claim_all: true
+				id: "03BA085D09B7BB85"
+				table_id: 2735481536007598363L
+				type: "random"
 			}]
 			shape: "diamond"
 			size: 1.2d
@@ -692,19 +598,13 @@
 				"68751F3651BF7810"
 			]
 			id: "41A1389708C76431"
-			rewards: [
-				{
-					id: "07A119E29AFC4502"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "58F2B275DB5130DB"
-					item: "traveloptics:aqua_echo"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AA50C1710F82ACB"
+				table_id: 2735481536007598363L
+				type: "random"
+			}]
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest4729123305054233649.subtitle}"
 			tasks: [{
@@ -728,19 +628,13 @@
 			]
 			description: ["{ftbquests.chapter.composite_materials.quest3208694626848359307.description1}"]
 			id: "2C8792C34200438B"
-			rewards: [
-				{
-					id: "37A5A50EFD53A168"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "5E9D236433A8EB54"
-					item: "traveloptics:aqua_echo"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48E4DA5AA64EEF90"
+				table_id: 2735481536007598363L
+				type: "random"
+			}]
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest3208694626848359307.subtitle}"
 			tasks: [{
@@ -761,10 +655,10 @@
 			dependencies: ["13384AC186341D38"]
 			id: "055CDFD704ACB58A"
 			rewards: [{
-				count: 2
-				id: "0FBD88295A3E9059"
-				item: "composite_material:obsidian_steel_ingot"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "521DA94D666C34B0"
+				table_id: 5021288163230482259L
+				type: "random"
 			}]
 			shape: "gear"
 			size: 1.2d
@@ -786,12 +680,11 @@
 			]
 			id: "235D4C802021ACF4"
 			rewards: [{
-				count: 2
-				id: "771752EE72066E3B"
-				item: "composite_material:obsidian_steel_ingot"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "351A51E7D1A7BE20"
+				table_id: 5021288163230482259L
+				type: "random"
 			}]
-			shape: "rsquare"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest2548277077340171508.subtitle}"
 			tasks: [{
@@ -844,12 +737,12 @@
 			description: ["{ftbquests.chapter.composite_materials.quest3558274037172605111.description1}"]
 			id: "316187625F2B10B7"
 			rewards: [{
-				count: 2
-				id: "09B98F108B5483CB"
-				item: "composite_material:obsidian_steel_ingot"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "25CB8315ABEAC34B"
+				table_id: 5021288163230482259L
+				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest3558274037172605111.subtitle}"
 			tasks: [{
@@ -920,10 +813,10 @@
 			]
 			id: "0BDE37FDC6E1CFF6"
 			rewards: [{
-				count: 2
-				id: "42C2939E4D68C136"
-				item: "composite_material:obsidian_steel_ingot"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "4B34979344774AC0"
+				table_id: 5021288163230482259L
+				type: "random"
 			}]
 			shape: "netheritetier"
 			size: 1.2d
@@ -973,18 +866,26 @@
 		{
 			dependencies: ["1A79AC9048653A9D"]
 			id: "734425E2A8C791C7"
-			rewards: [{
-				id: "492185919B48C4F5"
-				item: {
-					Count: 1
-					id: "terramity:flintlock_pistol"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "492185919B48C4F5"
+					item: {
+						Count: 1
+						id: "terramity:flintlock_pistol"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			shape: "netheritetier"
+				{
+					exclude_from_claim_all: true
+					id: "2CFE39D53461EACA"
+					table_id: 5021288163230482259L
+					type: "random"
+				}
+			]
+			shape: "gear"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest8305805268202525127.subtitle}"
 			tasks: [{
@@ -1003,11 +904,19 @@
 				"{ftbquests.chapter.composite_materials.quest6991554699104526067.description2}"
 			]
 			id: "6106FDF4BBD69EF3"
-			rewards: [{
-				id: "1D582B166179E5F9"
-				item: "composite_material:dungeon_steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1D582B166179E5F9"
+					item: "composite_material:dungeon_steel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6683DBCB804C7579"
+					table_id: 5021288163230482259L
+					type: "random"
+				}
+			]
 			shape: "netheritetier"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest6991554699104526067.subtitle}"
@@ -1033,11 +942,19 @@
 				"{ftbquests.chapter.composite_materials.quest3909335471254586346.description2}"
 			]
 			id: "3640BFE607F6C3EA"
-			rewards: [{
-				id: "6782A8B48F8F09CC"
-				item: "composite_material:dungeon_steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6782A8B48F8F09CC"
+					item: "composite_material:dungeon_steel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53DF7325F7A54964"
+					table_id: 5021288163230482259L
+					type: "random"
+				}
+			]
 			shape: "netheritetier"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest3909335471254586346.subtitle}"
@@ -1063,11 +980,19 @@
 				"{ftbquests.chapter.composite_materials.quest1040529631234236805.description2}"
 			]
 			id: "0E70B42FC7FC2185"
-			rewards: [{
-				id: "40F3F195067124A5"
-				item: "composite_material:dungeon_steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "40F3F195067124A5"
+					item: "composite_material:dungeon_steel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77C104064B08A65F"
+					table_id: 5021288163230482259L
+					type: "random"
+				}
+			]
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest1040529631234236805.subtitle}"
 			tasks: [{
@@ -1088,11 +1013,19 @@
 			dependencies: ["734425E2A8C791C7"]
 			description: ["{ftbquests.chapter.composite_materials.quest4053008953076728752.description1}"]
 			id: "383F2E2B479DC3B0"
-			rewards: [{
-				id: "259EBB36BE891D2A"
-				item: "composite_material:dungeon_steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "259EBB36BE891D2A"
+					item: "composite_material:dungeon_steel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "741B65091FC2FED6"
+					table_id: 5021288163230482259L
+					type: "random"
+				}
+			]
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest4053008953076728752.subtitle}"
 			tasks: [{
@@ -1117,11 +1050,19 @@
 				"{ftbquests.chapter.composite_materials.quest6940756831682505210.description2}"
 			]
 			id: "6052859090CD29FA"
-			rewards: [{
-				id: "38E491E1BFB7D676"
-				item: "composite_material:dungeon_steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "38E491E1BFB7D676"
+					item: "composite_material:dungeon_steel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D56601ACDCAA9CF"
+					table_id: 5021288163230482259L
+					type: "random"
+				}
+			]
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest6940756831682505210.subtitle}"
 			tasks: [{
@@ -1142,11 +1083,19 @@
 			dependencies: ["734425E2A8C791C7"]
 			description: ["{ftbquests.chapter.composite_materials.quest5000793549764545546.description1}"]
 			id: "4566633CF8C7CC0A"
-			rewards: [{
-				id: "3EC037E247464AA4"
-				item: "composite_material:dungeon_steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3EC037E247464AA4"
+					item: "composite_material:dungeon_steel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B51F1040DB167A2"
+					table_id: 5021288163230482259L
+					type: "random"
+				}
+			]
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest5000793549764545546.subtitle}"
 			tasks: [{
@@ -1171,12 +1120,20 @@
 				"{ftbquests.chapter.composite_materials.quest995794687109964162.description2}"
 			]
 			id: "0DD1C5FDF2692182"
-			rewards: [{
-				id: "4437063114A0A35F"
-				item: "composite_material:allay_steel_ingot"
-				type: "item"
-			}]
-			shape: "gear"
+			rewards: [
+				{
+					id: "4437063114A0A35F"
+					item: "composite_material:allay_steel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "268383ED079BB98A"
+					table_id: 5021288163230482259L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.3d
 			subtitle: "{ftbquests.chapter.composite_materials.quest995794687109964162.subtitle}"
 			tasks: [{
@@ -1250,12 +1207,20 @@
 				}
 			}
 			id: "63810D5E4B311305"
-			rewards: [{
-				id: "0ED284EE71C44092"
-				item: "composite_material:allay_steel_ingot"
-				type: "item"
-			}]
-			shape: "rsquare"
+			rewards: [
+				{
+					id: "0ED284EE71C44092"
+					item: "composite_material:allay_steel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68B6F489779CE93E"
+					table_id: 5021288163230482259L
+					type: "random"
+				}
+			]
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest7170026780390134533.subtitle}"
 			tasks: [{
@@ -1313,12 +1278,20 @@
 				}
 			}
 			id: "26562D5DC2968A9D"
-			rewards: [{
-				id: "12A1A43AD56EABB9"
-				item: "composite_material:allay_steel_ingot"
-				type: "item"
-			}]
-			shape: "rsquare"
+			rewards: [
+				{
+					id: "12A1A43AD56EABB9"
+					item: "composite_material:allay_steel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3292977E2855E0A1"
+					table_id: 5021288163230482259L
+					type: "random"
+				}
+			]
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest2762445302158232221.subtitle}"
 			tasks: [{
@@ -1385,13 +1358,21 @@
 			icon: "plushie_buddies:plushie_warden"
 			icon_scale: 1.4d
 			id: "706326297CA26190"
-			rewards: [{
-				count: 4
-				id: "0D405C06848713A2"
-				item: "minecraft:echo_shard"
-				type: "item"
-			}]
-			shape: "octagon"
+			rewards: [
+				{
+					count: 4
+					id: "0D405C06848713A2"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C16F3BDDBF0F146"
+					table_id: 5021288163230482259L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest8098358514568814992.subtitle}"
 			tasks: [{
@@ -1415,12 +1396,13 @@
 					xp: 25
 				}
 				{
-					id: "330B1B348B69CC48"
-					item: "composite_material:warden_hand"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "1D0690FA0EB6E797"
+					table_id: 5021288163230482259L
+					type: "random"
 				}
 			]
-			shape: "gear"
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest8210685837891638766.subtitle}"
 			tasks: [{
@@ -1451,12 +1433,12 @@
 			}
 			id: "38239F51F2B5E06A"
 			rewards: [{
-				count: 4
-				id: "6ACD2888837A6B82"
-				item: "minecraft:echo_shard"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "34E0349C6314406C"
+				table_id: 8001402938546965415L
+				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest4045252064622010474.subtitle}"
 			tasks: [
@@ -1525,12 +1507,12 @@
 			}
 			id: "7472DB2463DD5262"
 			rewards: [{
-				count: 4
-				id: "343BC5728B58759B"
-				item: "minecraft:echo_shard"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "34E3F90F0EEE0D17"
+				table_id: 8001402938546965415L
+				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest8391010005085409890.subtitle}"
 			tasks: [
@@ -1592,7 +1574,7 @@
 			]
 			title: "{ftbquests.chapter.composite_materials.quest8391010005085409890.title}"
 			x: 10.2d
-			y: 4.8d
+			y: 4.2d
 		}
 		{
 			dependencies: ["7472DB2463DD5262"]
@@ -1603,12 +1585,12 @@
 			]
 			id: "6A03C826EEBA5BF8"
 			rewards: [{
-				count: 4
-				id: "2788F431B2454E08"
-				item: "minecraft:echo_shard"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3EFCF2248C6A03A5"
+				table_id: 8001402938546965415L
+				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest7639169462489996280.subtitle}"
 			tasks: [{
@@ -1623,7 +1605,7 @@
 				type: "item"
 			}]
 			x: 10.799999999999999d
-			y: 6.6d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7472DB2463DD5262"]
@@ -1634,12 +1616,12 @@
 			]
 			id: "050B220574F3265A"
 			rewards: [{
-				count: 4
-				id: "3CF61FB1B27EB2AD"
-				item: "minecraft:echo_shard"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6E7429DA2589B196"
+				table_id: 8001402938546965415L
+				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest363421601765729882.subtitle}"
 			tasks: [{
@@ -1654,7 +1636,7 @@
 				type: "item"
 			}]
 			x: 9.6d
-			y: 6.6d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1678,8 +1660,14 @@
 					item: "composite_material:ancient_fiber"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "32754937FF349A3B"
+					table_id: 8001402938546965415L
+					type: "random"
+				}
 			]
-			shape: "gear"
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest7973188876650792940.subtitle}"
 			tasks: [{
@@ -1688,7 +1676,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.2d
+			y: 3.5999999999999996d
 		}
 		{
 			dependencies: [
@@ -1712,8 +1700,14 @@
 					item: "minecraft:sniffer_egg"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7292ABEC88110553"
+					table_id: 8001402938546965415L
+					type: "random"
+				}
 			]
-			shape: "gear"
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest1297423111543820374.subtitle}"
 			tasks: [{
@@ -1748,12 +1742,20 @@
 				}
 			}
 			id: "5BF3464D9F640438"
-			rewards: [{
-				id: "5042EACEDC42B225"
-				item: "composite_material:ancient_fiber"
-				type: "item"
-			}]
-			shape: "rsquare"
+			rewards: [
+				{
+					id: "5042EACEDC42B225"
+					item: "composite_material:ancient_fiber"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "254198467729AB6F"
+					table_id: 8001402938546965415L
+					type: "random"
+				}
+			]
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest6625716775992689720.subtitle}"
 			tasks: [
@@ -1803,7 +1805,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.composite_materials.quest6625716775992689720.title}"
-			x: 7.199999999999999d
+			x: 7.8d
 			y: 2.4d
 		}
 		{
@@ -1824,12 +1826,20 @@
 				}
 			}
 			id: "6B861C59DA04C374"
-			rewards: [{
-				id: "1535C34EDC7CC791"
-				item: "composite_material:primitive_tenacity"
-				type: "item"
-			}]
-			shape: "rsquare"
+			rewards: [
+				{
+					id: "1535C34EDC7CC791"
+					item: "composite_material:primitive_tenacity"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14A8C36A2EFD361F"
+					table_id: 8001402938546965415L
+					type: "random"
+				}
+			]
+			shape: "square"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest7747911381172929396.subtitle}"
 			tasks: [
@@ -1890,8 +1900,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.composite_materials.quest7747911381172929396.title}"
-			x: 7.199999999999999d
-			y: 4.2d
+			x: 7.8d
+			y: 3.5999999999999996d
 		}
 		{
 			dependencies: [
@@ -1900,13 +1910,21 @@
 			]
 			description: ["{ftbquests.chapter.composite_materials.quest7615080446276929892.description1}"]
 			id: "69AE3351C85C0964"
-			rewards: [{
-				count: 4
-				id: "2CC8A5F33F68A6D8"
-				item: "composite_material:etherite_nugget"
-				type: "item"
-			}]
-			shape: "gear"
+			rewards: [
+				{
+					count: 4
+					id: "2CC8A5F33F68A6D8"
+					item: "composite_material:etherite_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16B65759B59061AB"
+					table_id: 8001402938546965415L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest7615080446276929892.subtitle}"
 			tasks: [{
@@ -1914,8 +1932,8 @@
 				item: "composite_material:etherite_ingot"
 				type: "item"
 			}]
-			x: 5.3999999999999995d
-			y: 2.4d
+			x: 6.6d
+			y: 1.7999999999999998d
 		}
 		{
 			dependencies: [
@@ -1924,12 +1942,20 @@
 			]
 			description: ["{ftbquests.chapter.composite_materials.quest471815221018014875.description1}"]
 			id: "068C39719866B49B"
-			rewards: [{
-				id: "3617954E4C2458C2"
-				item: "composite_material:perkin"
-				type: "item"
-			}]
-			shape: "gear"
+			rewards: [
+				{
+					id: "3617954E4C2458C2"
+					item: "composite_material:perkin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "396196A3A24132AE"
+					table_id: 8001402938546965415L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.2d
 			subtitle: "{ftbquests.chapter.composite_materials.quest471815221018014875.subtitle}"
 			tasks: [{
@@ -1937,7 +1963,7 @@
 				item: "composite_material:perkin"
 				type: "item"
 			}]
-			x: 5.3999999999999995d
+			x: 6.6d
 			y: 4.2d
 		}
 		{
@@ -1951,19 +1977,27 @@
 				"{ftbquests.chapter.composite_materials.quest6326855711656129981.description2}"
 			]
 			id: "57CD81BFA66A35BD"
-			rewards: [{
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "celestisynth:textures/abilityicon/skill/aquaflora_skill_icon_3.png"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "celestisynth:textures/abilityicon/skill/aquaflora_skill_icon_3.png"
+						}
 					}
+					id: "790B5707483D1A6B"
+					table_id: 8699295573854160387L
+					type: "random"
 				}
-				id: "790B5707483D1A6B"
-				table_id: 8699295573854160387L
-				type: "random"
-			}]
-			shape: "octagon"
+				{
+					exclude_from_claim_all: true
+					id: "06A71A3AFA0518C2"
+					table_id: 8001402938546965415L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.composite_materials.quest6326855711656129981.subtitle}"
 			tasks: [
@@ -2013,8 +2047,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.composite_materials.quest6326855711656129981.title}"
-			x: 3.5999999999999996d
-			y: 2.4d
+			x: 4.5d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -2027,19 +2061,27 @@
 				"{ftbquests.chapter.composite_materials.quest1564052050965875502.description2}"
 			]
 			id: "15B4A10DBC0ACB2E"
-			rewards: [{
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "celestisynth:textures/abilityicon/skill/aquaflora_skill_icon_4.png"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "celestisynth:textures/abilityicon/skill/aquaflora_skill_icon_4.png"
+						}
 					}
+					id: "719E57B2BF6BE293"
+					table_id: 8699295573854160387L
+					type: "random"
 				}
-				id: "719E57B2BF6BE293"
-				table_id: 8699295573854160387L
-				type: "random"
-			}]
-			shape: "octagon"
+				{
+					exclude_from_claim_all: true
+					id: "20D9F908E4837753"
+					table_id: 8001402938546965415L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.composite_materials.quest1564052050965875502.subtitle}"
 			tasks: [
@@ -2111,19 +2153,27 @@
 				}
 			]
 			title: "{ftbquests.chapter.composite_materials.quest1564052050965875502.title}"
-			x: 3.5999999999999996d
-			y: 4.2d
+			x: 4.5d
+			y: 3.75d
 		}
 		{
 			dependencies: ["15B4A10DBC0ACB2E"]
 			description: ["{ftbquests.chapter.composite_materials.quest4451526366119810616.description1}"]
 			id: "3DC6FFA510DB5638"
-			rewards: [{
-				id: "5E0D307E081C5D3A"
-				type: "xp"
-				xp: 1
-			}]
-			shape: "rsquare"
+			rewards: [
+				{
+					id: "5E0D307E081C5D3A"
+					type: "xp"
+					xp: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E66FFCDD7CE746D"
+					table_id: 8001402938546965415L
+					type: "random"
+				}
+			]
+			shape: "square"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.composite_materials.quest4451526366119810616.subtitle}"
 			tasks: [{
@@ -2137,8 +2187,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5999999999999996d
-			y: 6.0d
+			x: 4.5d
+			y: 5.25d
 		}
 		{
 			dependencies: ["5B405969C6A4170B"]
@@ -2156,7 +2206,7 @@
 				item: "composite_material:disenchanted_book"
 				type: "item"
 			}]
-			x: -1.2d
+			x: -1.7999999999999998d
 			y: -10.2d
 		}
 		{
@@ -2176,7 +2226,7 @@
 				type: "item"
 			}]
 			x: -2.4d
-			y: -12.0d
+			y: -11.4d
 		}
 		{
 			dependencies: ["5B405969C6A4170B"]
@@ -2194,7 +2244,7 @@
 				item: "composite_material:reinforced_book"
 				type: "item"
 			}]
-			x: 1.2d
+			x: 1.7999999999999998d
 			y: -10.2d
 		}
 		{
@@ -2213,7 +2263,7 @@
 				item: "composite_material:duplichanted_book"
 				type: "item"
 			}]
-			x: -1.7999999999999998d
+			x: -2.4d
 			y: -12.6d
 		}
 		{
@@ -2233,7 +2283,7 @@
 				type: "item"
 			}]
 			x: 2.4d
-			y: -12.0d
+			y: -11.4d
 		}
 		{
 			dependencies: ["5B405969C6A4170B"]
@@ -2263,59 +2313,40 @@
 				}
 				type: "item"
 			}]
-			x: 1.7999999999999998d
+			x: 2.4d
 			y: -12.6d
 		}
 		{
-			dependencies: ["5AAA22D68F7FC59F"]
-			description: [
-				"{ftbquests.chapter.composite_materials.quest7859835779407954467.description1}"
-				""
-				"{ftbquests.chapter.composite_materials.quest7859835779407954467.description2}"
-				""
-				"{ftbquests.chapter.composite_materials.quest7859835779407954467.description3}"
-			]
-			id: "6D13BEFF88844223"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "490C97D28CAD388D"
-				table_id: 5076402803711178431L
-				type: "random"
-			}]
-			shape: "diamond"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.composite_materials.quest7859835779407954467.subtitle}"
-			tasks: [{
-				id: "493A38149AB722EC"
-				item: "composite_material:dungeon_steel_totem"
-				type: "item"
-			}]
-			x: -2.4d
-			y: -10.2d
-		}
-		{
-			dependencies: ["44AF82F2BB0640C0"]
+			dependencies: ["57CD81BFA66A35BD"]
 			description: [
 				"{ftbquests.chapter.composite_materials.quest4067973983351112627.description1}"
 				""
 				"{ftbquests.chapter.composite_materials.quest4067973983351112627.description2}"
 			]
 			id: "387458C8E92C83B3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3D2CC4D4F27608DA"
-				table_id: 5076402803711178431L
-				type: "random"
-			}]
-			shape: "diamond"
-			size: 1.2d
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D2CC4D4F27608DA"
+					table_id: 5076402803711178431L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B5C59072222A0D2"
+					table_id: 8001402938546965415L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
 			tasks: [{
 				id: "4E7E831A2DA64A12"
 				item: "composite_material:etherite_totem"
 				type: "item"
 			}]
-			x: 2.4d
-			y: -10.2d
+			x: 4.5d
+			y: 0.75d
 		}
 	]
 	title: "{ftbquests.chapter.composite_materials.title}"

@@ -1,0 +1,904 @@
+{
+	autofocus_id: "22A07E4CBB88E8AF"
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "square"
+	filename: "natures_aura_2"
+	group: "20D67F7F184680D5"
+	icon: "naturesaura:aura_bloom"
+	id: "05C59356BDABE92B"
+	images: [
+		{
+			height: 0.5d
+			image: "minecraft:block/oak_sapling"
+			rotation: 23.0d
+			width: 0.5d
+			x: -2.8590710364252914d
+			y: -0.09328229000296773d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:block/oak_sapling"
+			rotation: -33.0d
+			width: 0.5d
+			x: -4.073356750711d
+			y: -0.09328229000296773d
+		}
+		{
+			height: 1.0d
+			image: "customtextures:textures/usefulitems.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -10.5d
+			y: 0.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest2495133061592180911.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest2495133061592180911.description2}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest2495133061592180911.description3}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest2495133061592180911.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "naturesaura:item/book"
+				}
+			}
+			id: "22A07E4CBB88E8AF"
+			min_width: 300
+			rewards: [{
+				id: "450F90ED7AD7D36C"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest2495133061592180911.subtitle}"
+			tasks: [{
+				id: "5765362B31F49D2E"
+				title: "{ftbquests.chapter.natures_aura_2.quest2495133061592180911.task.6297499213097114926.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.natures_aura_2.quest2495133061592180911.title}"
+			x: 2.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FB72D4334A04ACC"]
+			id: "519EAA8C838DFA4F"
+			rewards: [{
+				count: 4
+				id: "6A40133CED83D269"
+				item: "naturesaura:gold_powder"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest5881325683871709775.subtitle}"
+			tasks: [{
+				id: "1F0E0B61E39ADD3D"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22A07E4CBB88E8AF"]
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest694869085367769011.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest694869085367769011.description2}"
+			]
+			id: "09A4ABC066BF17B3"
+			rewards: [{
+				count: 2
+				id: "5BEDF44CE4A3E357"
+				item: "naturesaura:gold_fiber"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest694869085367769011.subtitle}"
+			tasks: [{
+				id: "4DBB7AA4896BDCEA"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: 0.40983806167340475d
+			y: -2.678192233215416d
+		}
+		{
+			dependencies: ["09A4ABC066BF17B3"]
+			id: "7FB72D4334A04ACC"
+			rewards: [{
+				id: "076D54CE8DFA2DB7"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest9202874130223876812.subtitle}"
+			tasks: [{
+				id: "55F89B3E0C75D2C6"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: -0.6615905097551718d
+			y: -1.4639065189296936d
+		}
+		{
+			dependencies: ["519EAA8C838DFA4F"]
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest6755471069242291.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest6755471069242291.description2}"
+				"{ftbquests.chapter.natures_aura_2.quest6755471069242291.image0}"
+				"{ftbquests.chapter.natures_aura_2.quest6755471069242291.image2}"
+				"{ftbquests.chapter.natures_aura_2.quest6755471069242291.image4}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest6755471069242291.description3}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest6755471069242291.description4}"
+			]
+			id: "00180010AD5F63B3"
+			rewards: [
+				{
+					id: "6DC73290AFDE0935"
+					item: "naturesaura:gold_fiber"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "520BB02C20DC32EC"
+					item: "naturesaura:gold_powder"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest6755471069242291.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "5FD1CF17231E54C2"
+				item: { Count: 8, id: "naturesaura:wood_stand" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.natures_aura_2.quest6755471069242291.title}"
+			x: -3.50163561478999d
+			y: 0.6023289908555611d
+		}
+		{
+			dependencies: ["00180010AD5F63B3"]
+			description: [
+				""
+				"{ftbquests.chapter.natures_aura_2.quest2902254403766724504.image0}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest2902254403766724504.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest2902254403766724504.description2}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest2902254403766724504.description3}"
+				"{ftbquests.chapter.natures_aura_2.quest2902254403766724504.description4}"
+				"{ftbquests.chapter.natures_aura_2.quest2902254403766724504.description5}"
+				"{ftbquests.chapter.natures_aura_2.quest2902254403766724504.description6}"
+				"{ftbquests.chapter.natures_aura_2.quest2902254403766724504.description7}"
+				"{ftbquests.chapter.natures_aura_2.quest2902254403766724504.description8}"
+			]
+			id: "2846E100E0542798"
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest2902254403766724504.subtitle}"
+			tasks: [{
+				id: "6B08FA33F4AC27BD"
+				item: "naturesaura:token_joy"
+				type: "item"
+			}]
+			x: -3.9115905097551718d
+			y: -1.53533509035827d
+		}
+		{
+			dependencies: ["00180010AD5F63B3"]
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest7067263424319538299.image0}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest7067263424319538299.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest7067263424319538299.description2}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest7067263424319538299.description3}"
+				"{ftbquests.chapter.natures_aura_2.quest7067263424319538299.description4}"
+				"{ftbquests.chapter.natures_aura_2.quest7067263424319538299.description5}"
+				"{ftbquests.chapter.natures_aura_2.quest7067263424319538299.description6}"
+				"{ftbquests.chapter.natures_aura_2.quest7067263424319538299.description7}"
+				"{ftbquests.chapter.natures_aura_2.quest7067263424319538299.description8}"
+			]
+			id: "6213F6A3F4AD447B"
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7067263424319538299.subtitle}"
+			tasks: [{
+				id: "59680ED30A470C3C"
+				item: "naturesaura:token_sorrow"
+				type: "item"
+			}]
+			x: -2.6973047954694493d
+			y: -1.3210493760725548d
+		}
+		{
+			dependencies: ["00180010AD5F63B3"]
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest1939703176913438802.image0}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest1939703176913438802.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest1939703176913438802.description2}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest1939703176913438802.description3}"
+				"{ftbquests.chapter.natures_aura_2.quest1939703176913438802.description4}"
+				"{ftbquests.chapter.natures_aura_2.quest1939703176913438802.description5}"
+				"{ftbquests.chapter.natures_aura_2.quest1939703176913438802.description6}"
+				"{ftbquests.chapter.natures_aura_2.quest1939703176913438802.description7}"
+				"{ftbquests.chapter.natures_aura_2.quest1939703176913438802.description8}"
+			]
+			id: "1AEB35C32D9F4852"
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest1939703176913438802.subtitle}"
+			tasks: [{
+				id: "080ED70B4B90C914"
+				item: "naturesaura:token_anger"
+				type: "item"
+			}]
+			x: -5.090161938326595d
+			y: -1.106763661786843d
+		}
+		{
+			dependencies: ["00180010AD5F63B3"]
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest7579946154609404248.image0}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest7579946154609404248.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest7579946154609404248.description2}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest7579946154609404248.description3}"
+				"{ftbquests.chapter.natures_aura_2.quest7579946154609404248.description4}"
+				"{ftbquests.chapter.natures_aura_2.quest7579946154609404248.description5}"
+				"{ftbquests.chapter.natures_aura_2.quest7579946154609404248.description6}"
+				"{ftbquests.chapter.natures_aura_2.quest7579946154609404248.description7}"
+				"{ftbquests.chapter.natures_aura_2.quest7579946154609404248.description8}"
+			]
+			id: "693160DE0A14E958"
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7579946154609404248.subtitle}"
+			tasks: [{
+				id: "61EED4511CB32E55"
+				item: "naturesaura:token_fear"
+				type: "item"
+			}]
+			x: -5.447304795469449d
+			y: -0.10676366178684304d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest2793859002031658282.description1}"]
+			id: "26C5C7F5B89FD52A"
+			rewards: [{
+				id: "154E64F221E2A3D6"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest2793859002031658282.subtitle}"
+			tasks: [{
+				id: "0CEB25E8943383C3"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: -2.046657660176521d
+			y: 6.505587665225086d
+		}
+		{
+			dependencies: ["78D25B9F1D1FB1F1"]
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest632456101208265625.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest632456101208265625.description2}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest632456101208265625.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "naturesaura:block/aura_bloom"
+				}
+			}
+			id: "08C6EF79208C1399"
+			rewards: [{
+				id: "7C620E23AA463E32"
+				item: "naturesaura:flower_generator"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest632456101208265625.subtitle}"
+			tasks: [{
+				id: "5089C2348F743843"
+				title: "{ftbquests.chapter.natures_aura_2.quest632456101208265625.task.5803383125844441155.title}"
+				type: "checkmark"
+			}]
+			x: -2.046657660176521d
+			y: 4.005587665225086d
+		}
+		{
+			dependencies: ["693160DE0A14E958"]
+			id: "0F2C6B9AB8B25CD1"
+			shape: "circle"
+			tasks: [{
+				id: "1BD1A01E5DF8335B"
+				item: "naturesaura:break_prevention"
+				type: "item"
+			}]
+			x: -6.697304795469449d
+			y: 0.28609348107030286d
+		}
+		{
+			dependencies: ["00180010AD5F63B3"]
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest8706121768607134193.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest8706121768607134193.description2}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest8706121768607134193.description3}"
+				""
+				""
+				"{ftbquests.chapter.natures_aura_2.quest8706121768607134193.image0}"
+				"{ftbquests.chapter.natures_aura_2.quest8706121768607134193.image2}"
+				"{ftbquests.chapter.natures_aura_2.quest8706121768607134193.description4}"
+			]
+			id: "78D25B9F1D1FB1F1"
+			rewards: [
+				{
+					id: "67039651EE6E03D5"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "3945569E66101F84"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest8706121768607134193.subtitle}"
+			tasks: [{
+				id: "5F1B910797527A2D"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: -4.8999999999999995d
+			y: 3.5d
+		}
+		{
+			dependencies: ["78D25B9F1D1FB1F1"]
+			id: "4E1BBD2148B11269"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest5628300109980701289.subtitle}"
+			tasks: [{
+				id: "7F15B58D161D3841"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["78D25B9F1D1FB1F1"]
+			id: "0F7DCA36EA26C996"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "03B9679FB767A695"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78D25B9F1D1FB1F1"]
+			id: "2DE67BF518111B98"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "07A12AF860C9C25F"
+				item: "naturesaura:infused_stone"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			id: "6A560CEA986B82C2"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7662326017736540866.subtitle}"
+			tasks: [{
+				id: "1FADF455758B6A84"
+				item: "naturesaura:crushing_catalyst"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			id: "71D66567778BB15C"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest8202855266363617628.subtitle}"
+			tasks: [{
+				id: "05E302BD7F9B3B2E"
+				item: "naturesaura:furnace_heater"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			id: "7A5796511F4A7DF4"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest8815680070762528244.subtitle}"
+			tasks: [{
+				id: "3A9619E45F57C68D"
+				item: "naturesaura:hopper_upgrade"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest6936903227926103508.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest6936903227926103508.description2}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest6936903227926103508.description3}"
+			]
+			id: "6044D4BB85CBC5D4"
+			rewards: [{
+				id: "574D8494AFA8F7BC"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest6936903227926103508.subtitle}"
+			tasks: [{
+				id: "7639DBEC5E1DD535"
+				item: "naturesaura:flower_generator"
+				type: "item"
+			}]
+			x: -2.546657660176521d
+			y: 2.505587665225086d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest1338260457582492159.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest1338260457582492159.description2}"
+			]
+			id: "129274CBB727F9FF"
+			rewards: [{
+				id: "0D71A21059472194"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest1338260457582492159.subtitle}"
+			tasks: [{
+				id: "5A91FC28D3CEDF19"
+				item: "naturesaura:slime_split_generator"
+				type: "item"
+			}]
+			x: -1.5466576601765212d
+			y: 2.505587665225086d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			id: "45C00FCAE08676D2"
+			rewards: [{
+				id: "592040BB654D7D17"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest5026034548170192594.subtitle}"
+			tasks: [{
+				id: "06BCF5482BFE37BB"
+				item: "naturesaura:projectile_generator"
+				type: "item"
+			}]
+			x: -1.5466576601765212d
+			y: 5.505587665225086d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest7102346546709494727.description1}"]
+			id: "62909A8DEC577BC7"
+			rewards: [{
+				id: "00689C32438E6CB9"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7102346546709494727.subtitle}"
+			tasks: [{
+				id: "660A9AF6A26E2E1F"
+				item: "naturesaura:moss_generator"
+				type: "item"
+			}]
+			x: -2.546657660176521d
+			y: 5.505587665225086d
+		}
+		{
+			id: "7D4AE2C8A8BED2F8"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest9028277754469995256.subtitle}"
+			tasks: [{
+				id: "0A373FE30318333D"
+				item: "naturesaura:blast_furnace_booster"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			id: "584211EDD43DE504"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest6359665336966309124.subtitle}"
+			tasks: [{
+				id: "5D3C7591FDAC3EB3"
+				item: "naturesaura:field_creator"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest8727449902108137369.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest8727449902108137369.description2}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest8727449902108137369.description3}"
+				"{ftbquests.chapter.natures_aura_2.quest8727449902108137369.description4}"
+				"{ftbquests.chapter.natures_aura_2.quest8727449902108137369.description5}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest8727449902108137369.description6}"
+			]
+			id: "791E21722A2C5799"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest8727449902108137369.subtitle}"
+			tasks: [{
+				id: "53E00B46D716ECC7"
+				item: "naturesaura:weather_changer"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest4984536791034284988.description1}"]
+			id: "452CA1CD5F76CBBC"
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest4984536791034284988.subtitle}"
+			tasks: [{
+				id: "431D5D632BE67D9B"
+				item: "naturesaura:lower_limiter"
+				type: "item"
+			}]
+			x: 0.8109587958163402d
+			y: 5.441018117994453d
+		}
+		{
+			id: "103F9FE0BD2EDC18"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest1170830215735073816.subtitle}"
+			tasks: [{
+				id: "0099D7C6C9C6011A"
+				item: "naturesaura:animal_spawner"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				""
+				"{ftbquests.chapter.natures_aura_2.quest4330238941136522433.image0}"
+				"{ftbquests.chapter.natures_aura_2.quest4330238941136522433.image2}"
+			]
+			id: "3C18195FD7018CC1"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest4330238941136522433.subtitle}"
+			tasks: [{
+				id: "773E006DA8A6D7EE"
+				item: "naturesaura:rf_converter"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			id: "1FF90EBF5B1287CE"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest2303888899406202830.subtitle}"
+			tasks: [{
+				id: "5F67CAAC5DB6F37E"
+				item: "naturesaura:spring"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			id: "69371797C3C5946B"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7581554438293525611.subtitle}"
+			tasks: [{
+				id: "53364CAE0DECC571"
+				item: "naturesaura:spawn_lamp"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			id: "6E73B4A49BFBF06B"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7958903585578414187.subtitle}"
+			tasks: [{
+				id: "6009FF3C59A24D04"
+				item: "naturesaura:conversion_catalyst"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			id: "311EBD65D6B8C50E"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest3539474602251568398.subtitle}"
+			tasks: [{
+				id: "4D4F2AFDA89C1942"
+				item: "naturesaura:snow_creator"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			id: "7FD93640C0F33E66"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest9212454164506033766.subtitle}"
+			tasks: [{
+				id: "536FC3BA50714893"
+				item: "naturesaura:chunk_loader"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			id: "6D9B46B8F7CECE6D"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7897984131769749101.subtitle}"
+			tasks: [{
+				id: "58A3A0E580D38A62"
+				item: "naturesaura:generator_limit_remover"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			id: "714B0B3E3C538996"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest8163631111467141526.subtitle}"
+			tasks: [{
+				id: "54841F72925B859A"
+				item: "naturesaura:animal_generator"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			id: "2D1D4C7C0020579C"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest3250838601493141404.subtitle}"
+			tasks: [{
+				id: "5E833458E5726231"
+				item: "naturesaura:chorus_generator"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08C6EF79208C1399"]
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest5140184283755531221.description1}"
+				""
+				"{ftbquests.chapter.natures_aura_2.quest5140184283755531221.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cofh_core:textures/gui/icons/icon_information.png"
+				}
+			}
+			id: "47559A5F494B4BD5"
+			shape: "gear"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest5140184283755531221.subtitle}"
+			tasks: [{
+				id: "558438BC9DDE268E"
+				title: "{ftbquests.chapter.natures_aura_2.quest5140184283755531221.task.6162112572903270030.title}"
+				type: "checkmark"
+			}]
+			x: 0.8109587958163402d
+			y: 3.941018117994453d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "levelz:textures/gui/sprites/generic.oxygen_bonus.png"
+				}
+			}
+			id: "5659882ED67DD99E"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest6222154094937495966.subtitle}"
+			tasks: [{
+				id: "49CEAAD0E8A9F270"
+				title: "{ftbquests.chapter.natures_aura_2.quest6222154094937495966.task.5318376024204505712.title}"
+				type: "checkmark"
+			}]
+			x: 2.3109587958163402d
+			y: 4.441018117994453d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:item/shattered_skull"
+				}
+			}
+			id: "5423B6D079DEC33B"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest6062890529884914491.subtitle}"
+			tasks: [{
+				id: "5BF4FA79B4F0E76E"
+				title: "{ftbquests.chapter.natures_aura_2.quest6062890529884914491.task.6626196352402515822.title}"
+				type: "checkmark"
+			}]
+			x: 2.3109587958163402d
+			y: 5.441018117994453d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			icon: "naturesaura:nether_grass"
+			id: "37F882E388EE9937"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest4033117380076804407.subtitle}"
+			tasks: [{
+				id: "174712AD2410BEBE"
+				title: "{ftbquests.chapter.natures_aura_2.quest4033117380076804407.task.1677329921062518462.title}"
+				type: "checkmark"
+			}]
+			x: 3.3109587958163402d
+			y: 4.441018117994453d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			description: [
+				"{ftbquests.chapter.natures_aura_2.quest6809279713672864994.description1}"
+				"{ftbquests.chapter.natures_aura_2.quest6809279713672864994.image0}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:item/fertilizer"
+				}
+			}
+			id: "5E7F6BD28DBEA4E2"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest6809279713672864994.subtitle}"
+			tasks: [{
+				id: "6606A06A00535BC3"
+				title: "{ftbquests.chapter.natures_aura_2.quest6809279713672864994.task.7351739818861353923.title}"
+				type: "checkmark"
+			}]
+			x: 2.3109587958163402d
+			y: 3.441018117994453d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:textures/particle/enraged/enraged_particle_2.png"
+				}
+			}
+			id: "7A08901288DBE940"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest8793436681720817984.subtitle}"
+			tasks: [{
+				id: "138CE402ADE90957"
+				title: "{ftbquests.chapter.natures_aura_2.quest8793436681720817984.task.1408751483618920791.title}"
+				type: "checkmark"
+			}]
+			x: 2.3109587958163402d
+			y: 2.441018117994453d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			icon: "minecraft:diamond_ore"
+			id: "47F729A81D34BF43"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest5185659297961656131.subtitle}"
+			tasks: [{
+				id: "064BFE067CE3D787"
+				title: "{ftbquests.chapter.natures_aura_2.quest5185659297961656131.task.453735491299432327.title}"
+				type: "checkmark"
+			}]
+			x: 3.3109587958163402d
+			y: 3.441018117994453d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			icon: "minecraft:dirt"
+			id: "1C4731124BC07EC3"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest2037651311058517699.subtitle}"
+			tasks: [{
+				id: "067DA5E7C29541AB"
+				title: "{ftbquests.chapter.natures_aura_2.quest2037651311058517699.task.467712351136989611.title}"
+				type: "checkmark"
+			}]
+			x: 3.3109587958163402d
+			y: 2.441018117994453d
+		}
+		{
+			dependencies: ["1C4731124BC07EC3"]
+			icon: "minecraft:tnt"
+			id: "47E97B95A21BF98F"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest5181808728866552207.subtitle}"
+			tasks: [{
+				id: "236F579BD19CDA53"
+				title: "{ftbquests.chapter.natures_aura_2.quest5181808728866552207.task.2553355840490625619.title}"
+				type: "checkmark"
+			}]
+			x: 4.81095879581634d
+			y: 2.441018117994453d
+		}
+		{
+			dependencies: ["47559A5F494B4BD5"]
+			icon: "minecraft:grass"
+			id: "563F5A13592F775A"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest6214785049941735258.subtitle}"
+			tasks: [{
+				id: "6D010251D225B90C"
+				title: "{ftbquests.chapter.natures_aura_2.quest6214785049941735258.task.7854561775552149772.title}"
+				type: "checkmark"
+			}]
+			x: 3.3109587958163402d
+			y: 5.441018117994453d
+		}
+	]
+	title: "{ftbquests.chapter.natures_aura_2.title}"
+}

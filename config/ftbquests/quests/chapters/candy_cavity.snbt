@@ -17,18 +17,19 @@
 		x: 4.5d
 		y: -0.5d
 	}]
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["5D378B6B789E0B2B"]
+			hide_until_deps_complete: false
 			id: "67670491A939A0B9"
 			rewards: [{
 				id: "2732D39C93D385BC"
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "{ftbquests.chapter.candy_cavity.quest7450929132163670201.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/licowitch_tower"
@@ -221,7 +222,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "{ftbquests.chapter.candy_cavity.quest2622420549514525411.subtitle}"
 			tasks: [{
 				id: "7649AA707D6CEFC1"

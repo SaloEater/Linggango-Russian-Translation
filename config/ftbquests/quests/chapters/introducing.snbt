@@ -2,6 +2,7 @@
 	autofocus_id: "19237C5BA8DDB6AF"
 	default_hide_dependency_lines: false
 	default_quest_shape: "woodtier"
+	disable_toast: true
 	filename: "introducing"
 	group: "3B5FC78CC89E4CD7"
 	icon: {
@@ -14,17 +15,6 @@
 	id: "21D04D37429B5EA5"
 	images: [
 		{
-			alpha: 155
-			click: "https://www.kinetichosting.com/modpacks/Lingango/order"
-			height: 1.0d
-			hover: ["ftbquests.chapter.introducing.image.hovertext1"]
-			image: "ftblibrary:icons/friends"
-			rotation: -45.0d
-			width: 1.0d
-			x: -2.0147295023835383d
-			y: -6.265233986370497d
-		}
-		{
 			height: 3.0d
 			image: "customtextures:textures/linggangologo.png"
 			rotation: 0.0d
@@ -35,7 +25,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.introducing.image.hovertext2"]
+			hover: ["ftbquests.chapter.introducing.image.hovertext1"]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -44,7 +34,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["ftbquests.chapter.introducing.image.hovertext3"]
+			hover: ["ftbquests.chapter.introducing.image.hovertext2"]
 			image: "customtextures:textures/patreon.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -54,7 +44,7 @@
 		{
 			click: "https://discord.gg/linggango"
 			height: 1.0d
-			hover: ["ftbquests.chapter.introducing.image.hovertext4"]
+			hover: ["ftbquests.chapter.introducing.image.hovertext3"]
 			image: "customtextures:textures/discord.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -98,7 +88,7 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "circle"
 			size: 1.65d
 			subtitle: "{ftbquests.chapter.introducing.quest1811428208250042031.subtitle}"
 			tasks: [
@@ -201,7 +191,7 @@
 					type: "item"
 				}
 			]
-			shape: "pentagon"
+			shape: "gear"
 			size: 1.35d
 			subtitle: "{ftbquests.chapter.introducing.quest5181111178462271752.subtitle}"
 			tasks: [{
@@ -259,7 +249,7 @@
 			}]
 			title: "{ftbquests.chapter.introducing.quest8424780651735610376.title}"
 			x: 2.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -299,7 +289,7 @@
 			}]
 			title: "{ftbquests.chapter.introducing.quest8814774128298875803.title}"
 			x: 1.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -333,77 +323,7 @@
 			}]
 			title: "{ftbquests.chapter.introducing.quest4039507492578544684.title}"
 			x: 0.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["19237C5BA8DDB6AF"]
-			description: [
-				"{ftbquests.chapter.introducing.quest5307253095096916869.description1}"
-				""
-				"{ftbquests.chapter.introducing.quest5307253095096916869.description2}"
-			]
-			icon: "exposure:camera"
-			id: "49A726922A581B85"
-			rewards: [
-				{
-					count: 3
-					id: "2C4118DA8916765D"
-					item: "exposure:black_and_white_film"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "61E43E91B417A2A5"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:water"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "44ADC2FB5BA2D712"
-					item: "minecraft:black_dye"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "69CEA57A3B8CF4D8"
-					item: "exposure:photograph_frame"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					count: 3
-					id: "67AF4F8B6AEC898F"
-					item: "minecraft:yellow_dye"
-					random_bonus: 2
-					type: "item"
-				}
-			]
-			shape: "pentagon"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.introducing.quest5307253095096916869.subtitle}"
-			tasks: [
-				{
-					id: "3EC9CB6DE1AE7ECC"
-					item: "exposure:lightroom"
-					type: "item"
-				}
-				{
-					id: "614C9D4964B25E87"
-					item: "exposure:camera"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.introducing.quest5307253095096916869.title}"
-			x: -1.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -497,7 +417,7 @@
 			}]
 			title: "{ftbquests.chapter.introducing.quest8740740790314940969.title}"
 			x: -1.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -512,7 +432,6 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "pentagon"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.introducing.quest3598036937492569992.subtitle}"
 			tasks: [{
@@ -882,24 +801,6 @@
 			title: "{ftbquests.chapter.introducing.quest1053673358312025873.title}"
 			x: -9.5d
 			y: -4.5d
-		}
-		{
-			dependencies: ["2F61EF4131AB4E54"]
-			id: "6C0DBEBFF21FC785"
-			subtitle: "{ftbquests.chapter.introducing.quest7786089062403655557.subtitle}"
-			tasks: [{
-				id: "103E5960F0778725"
-				item: {
-					Count: 1
-					id: "ecologics:crab_claw"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -8.5d
-			y: -2.5d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
@@ -1350,7 +1251,7 @@
 			}]
 			title: "{ftbquests.chapter.introducing.quest3463535120927656071.title}"
 			x: 1.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["380F36A98AAC4C2C"]
@@ -1415,29 +1316,7 @@
 			}]
 			title: "{ftbquests.chapter.introducing.quest2466501739674296327.title}"
 			x: 0.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["19237C5BA8DDB6AF"]
-			description: ["{ftbquests.chapter.introducing.quest193225843504085881.description1}"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "legendary_monsters:textures/particle/warning2.png"
-				}
-			}
-			id: "02AE79E1837C7B79"
-			shape: "diamond"
-			size: 1.25d
-			subtitle: "{ftbquests.chapter.introducing.quest193225843504085881.subtitle}"
-			tasks: [{
-				id: "2E0B9419F8D6AB20"
-				title: "{ftbquests.chapter.introducing.quest193225843504085881.task.3317908389758413600.title}"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
@@ -1516,47 +1395,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["1E486494B5164856"]
-			description: ["{ftbquests.chapter.introducing.quest1625008748964788872.description1}"]
-			id: "168D30D8F6F2BA88"
-			rewards: [{
-				id: "0F5594EDB026B38B"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{ftbquests.chapter.introducing.quest1625008748964788872.subtitle}"
-			tasks: [
-				{
-					id: "5F334AC23E98FBA4"
-					item: "pigsteel:pigsteel_lantern"
-					type: "item"
-				}
-				{
-					id: "01B42AA2F77F9BA7"
-					item: "pigsteel:refined_pigsteel"
-					type: "item"
-				}
-				{
-					id: "118D8854BD17B730"
-					item: "pigsteel:cut_pigsteel"
-					type: "item"
-				}
-				{
-					id: "0AD6DE96227FDB9F"
-					item: "pigsteel:cut_pigsteel_stairs"
-					type: "item"
-				}
-				{
-					id: "628F8253025732B9"
-					item: "pigsteel:cut_pigsteel_slab"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.introducing.quest1625008748964788872.title}"
-			x: 7.5d
-			y: -3.0d
-		}
-		{
 			description: [
 				"{ftbquests.chapter.introducing.quest2182104609317079126.description1}"
 				""
@@ -1616,7 +1454,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1E486494B5164856"]
@@ -1690,44 +1528,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["1E486494B5164856"]
-			description: [
-				"{ftbquests.chapter.introducing.quest5716338223153532098.description1}"
-				""
-				"{ftbquests.chapter.introducing.quest5716338223153532098.description2}"
-				""
-				"{ftbquests.chapter.introducing.quest5716338223153532098.description3}"
-			]
-			hide_text_until_complete: false
-			id: "4F548353D70DCCC2"
-			rewards: [
-				{
-					id: "7C0C661FFB63EC68"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 5
-					id: "651BE39B39006EFE"
-					item: "immersive_furniture:crafting_material"
-					type: "item"
-				}
-			]
-			shape: "heart"
-			size: 1.3d
-			subtitle: "{ftbquests.chapter.introducing.quest5716338223153532098.subtitle}"
-			tasks: [{
-				id: "3A4AC011F563FDB7"
-				item: "immersive_furniture:artisans_workstation"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.introducing.quest5716338223153532098.title}"
 			x: 8.5d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1E486494B5164856"]
@@ -1747,7 +1549,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["09064FBADD382415"]
@@ -1809,42 +1611,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["2B2818B92F01C51F"]
-			id: "6F0F41043EF524B9"
-			subtitle: "{ftbquests.chapter.introducing.quest8002686549352588473.subtitle}"
-			tasks: [{
-				id: "4EB6B52B8B6CEB28"
-				item: "magnumtorch:diamond_magnum_torch"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["1E486494B5164856"]
-			id: "2B2818B92F01C51F"
-			subtitle: "{ftbquests.chapter.introducing.quest3109762726335989023.subtitle}"
-			tasks: [{
-				id: "687C439FFF1A23C2"
-				item: "magnumtorch:amethyst_magnum_torch"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["6F0F41043EF524B9"]
-			id: "2BB0B2C04615B432"
-			subtitle: "{ftbquests.chapter.introducing.quest3148212678411269170.subtitle}"
-			tasks: [{
-				id: "7B8E7F5575A9373F"
-				item: "magnumtorch:emerald_magnum_torch"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -6.0d
-		}
-		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
 				"{ftbquests.chapter.introducing.quest5491927561521955176.description1}"
@@ -1863,8 +1629,8 @@
 				item: "naturescompass:naturescompass"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.0d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
@@ -1962,7 +1728,7 @@
 					type: "item"
 				}
 			]
-			shape: "pentagon"
+			shape: "gear"
 			size: 1.35d
 			subtitle: "{ftbquests.chapter.introducing.quest597527246612068040.subtitle}"
 			tasks: [{
@@ -1983,6 +1749,7 @@
 				"{ftbquests.chapter.introducing.quest6170146049825918548.description2}"
 			]
 			id: "55A0C32438274E54"
+			shape: "pentagon"
 			subtitle: "{ftbquests.chapter.introducing.quest6170146049825918548.subtitle}"
 			tasks: [{
 				id: "333118994581CFBE"
@@ -2047,32 +1814,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.introducing.quest6170146049825918548.title}"
-			x: -1.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["2F61EF4131AB4E54"]
-			id: "53AA0EB5E3A3D65B"
-			subtitle: "{ftbquests.chapter.introducing.quest6028647225559864923.subtitle}"
-			tasks: [{
-				id: "42A90F15FF959C41"
-				item: "crypticfoes:monstrous_horn"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["2F61EF4131AB4E54"]
-			id: "6AC7CC703636030F"
-			subtitle: "{ftbquests.chapter.introducing.quest7694343270703694607.subtitle}"
-			tasks: [{
-				id: "22C3FAD64C8ADB11"
-				item: "crypticfoes:screamer"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -7.5d
+			x: 0.5062375684915565d
+			y: -5.858618915026902d
 		}
 		{
 			dependencies: ["2F61EF4131AB4E54"]
@@ -2097,8 +1840,8 @@
 				item: "knightlib:great_essence"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -7.5d
+			x: -8.5d
+			y: -2.5d
 		}
 		{
 			disable_toast: true
@@ -2108,6 +1851,7 @@
 				command: "/clear @p"
 				elevate_perms: true
 				id: "25FE02976C74384C"
+				ignore_reward_blocking: true
 				silent: true
 				type: "command"
 			}]
@@ -2132,6 +1876,7 @@
 				{
 					auto: "enabled"
 					id: "40373C8D5DE5D36E"
+					ignore_reward_blocking: true
 					item: "ftbquests:book"
 					only_one: true
 					type: "item"
@@ -2139,6 +1884,7 @@
 				{
 					auto: "enabled"
 					id: "28BB93D2F3F6D09E"
+					ignore_reward_blocking: true
 					item: "enigmaticlegacy:cursed_ring"
 					only_one: true
 					type: "item"
@@ -2146,6 +1892,7 @@
 				{
 					auto: "enabled"
 					id: "40A05B8E06B94F3E"
+					ignore_reward_blocking: true
 					item: "covenant_of_the_seven:virtue_ring"
 					only_one: true
 					type: "item"
@@ -2153,6 +1900,7 @@
 				{
 					auto: "enabled"
 					id: "6C95ABE504F26F79"
+					ignore_reward_blocking: true
 					item: "enigmaticlegacy:unwitnessed_amulet"
 					only_one: true
 					type: "item"

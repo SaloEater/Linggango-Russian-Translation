@@ -31,7 +31,7 @@
 			rotation: 0.0d
 			width: 4.0d
 			x: -13.0d
-			y: -9.5d
+			y: -9.0d
 		}
 		{
 			click: "A"
@@ -45,91 +45,14 @@
 			y: -14.5d
 		}
 		{
-			click: "a"
-			dependency: "5D3E8E9BCD0A9935"
-			height: 1.0d
-			hover: ["ftbquests.chapter.progress.image.hovertext3"]
-			image: "minecraft:item/gold_ingot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -15.5d
-		}
-		{
-			click: "a"
-			dependency: "7D0C439E5D207DDE"
-			height: 1.0d
-			hover: ["ftbquests.chapter.progress.image.hovertext4"]
-			image: "minecraft:item/emerald"
-			rotation: 90.0d
-			width: 1.0d
-			x: -5.0d
-			y: -13.0d
-		}
-		{
-			click: "a"
-			dependency: "4F34F740CD095315"
-			height: 1.0d
-			hover: ["ftbquests.chapter.progress.image.hovertext5"]
-			image: "minecraft:item/diamond"
-			rotation: 180.0d
-			width: 1.0d
-			x: -6.0d
-			y: -9.5d
-		}
-		{
-			click: "a"
-			dependency: "2EAC826E47A3A682"
-			height: 1.0d
-			hover: ["ftbquests.chapter.progress.image.hovertext6"]
-			image: "minecraft:item/netherite_ingot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.0d
-			y: -11.5d
-		}
-		{
-			click: "a"
-			dependency: "2B69C369F7D0B25C"
-			height: 1.0d
-			hover: ["ftbquests.chapter.progress.image.hovertext7"]
-			image: "armageddon_mod:item/elvenite_ingot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: -8.5d
-		}
-		{
-			click: "a"
-			dependency: "231B06216159E95A"
-			height: 1.0d
-			hover: ["ftbquests.chapter.progress.image.hovertext8"]
-			image: "armageddon_mod:item/voiderite_ingot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -8.5d
-		}
-		{
-			click: "a"
-			dependency: "4BFFC4F93792C4F7"
-			height: 1.0d
-			hover: ["ftbquests.chapter.progress.image.hovertext9"]
-			image: "armageddon_mod:item/bloody_ingot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -9.0d
-			y: -5.5d
-		}
-		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.progress.image.hovertext10"]
+			hover: ["ftbquests.chapter.progress.image.hovertext3"]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -10.0d
-			y: -13.0d
+			y: -17.0d
 		}
 		{
 			dependency: "19F19149E61D93AD"
@@ -137,29 +60,18 @@
 			image: "hexerei:textures/book/arrow_right_hover.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
+			x: 4.0d
 			y: -13.5d
-		}
-		{
-			click: "a"
-			dependency: "297F31BB6030C00F"
-			height: 1.0d
-			hover: ["ftbquests.chapter.progress.image.hovertext11"]
-			image: "jei:textures/jei/atlas/gui/icons/info.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: -7.5d
 		}
 		{
 			click: "a"
 			dependency: "19F19149E61D93AD"
 			height: 1.0d
-			hover: ["ftbquests.chapter.progress.image.hovertext12"]
+			hover: ["ftbquests.chapter.progress.image.hovertext4"]
 			image: "ftblibrary:icons/money_bag"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.0d
+			x: 5.0d
 			y: -13.5d
 		}
 		{
@@ -168,7 +80,7 @@
 			image: "minecraft:item/ender_eye"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.0d
+			x: 5.0d
 			y: -10.5d
 		}
 		{
@@ -177,18 +89,7 @@
 			rotation: 0.0d
 			width: 12.0d
 			x: -10.0d
-			y: -18.0d
-		}
-		{
-			click: "a"
-			dependency: "25326B961DE6B5EA"
-			height: 1.0d
-			hover: ["ftbquests.chapter.progress.image.hovertext13"]
-			image: "armageddon_mod:item/blessed_ingot_of_the_sun"
-			rotation: 0.0d
-			width: 1.0d
-			x: -14.5d
-			y: -5.5d
+			y: -19.0d
 		}
 	]
 	order_index: 0
@@ -244,7 +145,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest6718964493894457653.subtitle}"
 			tasks: [{
@@ -334,7 +235,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "octagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest9010651301907824094.subtitle}"
 			tasks: [{
@@ -349,7 +250,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest9010651301907824094.title}"
-			x: -6.0d
+			x: -5.5d
 			y: -15.5d
 		}
 		{
@@ -380,7 +281,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "octagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest5707458485475169045.subtitle}"
 			tasks: [{
@@ -395,7 +296,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest5707458485475169045.title}"
-			x: -6.0d
+			x: -5.5d
 			y: -13.0d
 		}
 		{
@@ -420,7 +321,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest3363206431898838658.subtitle}"
 			tasks: [{
@@ -435,7 +336,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest3363206431898838658.title}"
-			x: -6.0d
+			x: -5.5d
 			y: -10.5d
 		}
 		{
@@ -460,7 +361,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "pentagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest2990163358439751695.subtitle}"
 			tasks: [{
@@ -475,7 +376,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest2990163358439751695.title}"
-			x: -2.0d
+			x: 0.5d
 			y: -10.5d
 		}
 		{
@@ -500,7 +401,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "pentagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest2529622356135635290.subtitle}"
 			tasks: [{
@@ -515,8 +416,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest2529622356135635290.title}"
-			x: -4.0d
-			y: -7.5d
+			x: -2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["231B06216159E95A"]
@@ -540,7 +441,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "octagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest5663183127340267363.subtitle}"
 			tasks: [{
@@ -554,8 +455,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -7.5d
+			x: -4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4E97AB0CAB1A3763"]
@@ -585,7 +486,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest3714854918138303245.subtitle}"
 			tasks: [{
@@ -599,8 +500,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -7.5d
+			x: -7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["338DD0DDABBF130D"]
@@ -625,7 +526,7 @@
 					type: "random"
 				}
 			]
-			shape: "square"
+			shape: "octagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest5476312246564078839.subtitle}"
 			tasks: [{
@@ -639,8 +540,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -7.5d
+			x: -9.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4BFFC4F93792C4F7"]
@@ -703,7 +604,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.progress.quest6661009213088509536.title}"
-			x: -10.0d
+			x: -9.5d
 			y: -9.0d
 		}
 		{
@@ -734,7 +635,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "hexagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest2680323020729791978.subtitle}"
 			tasks: [{
@@ -749,8 +650,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest2680323020729791978.title}"
-			x: -10.0d
-			y: -5.5d
+			x: -9.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["25326B961DE6B5EA"]
@@ -772,7 +673,7 @@
 				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "square"
+			shape: "gear"
 			size: 1.45d
 			subtitle: "{ftbquests.chapter.progress.quest7240889129425178145.subtitle}"
 			tasks: [{
@@ -788,7 +689,7 @@
 			}]
 			title: "{ftbquests.chapter.progress.quest7240889129425178145.title}"
 			x: -13.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["647CCE4CA1600E21"]
@@ -803,6 +704,7 @@
 				""
 				"{ftbquests.chapter.progress.quest1231372957136290125.description5}"
 			]
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				id: "armageddon_mod:the_corrupted_tear"
@@ -852,7 +754,7 @@
 			]
 			title: "{ftbquests.chapter.progress.quest1231372957136290125.title}"
 			x: -13.0d
-			y: -9.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["297F31BB6030C00F"]
@@ -880,7 +782,7 @@
 				title: "{ftbquests.chapter.progress.quest3128246276082152028.reward.7383287199181402733.title}"
 				type: "random"
 			}]
-			shape: "square"
+			shape: "hexagon"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest3128246276082152028.subtitle}"
 			tasks: [{
@@ -892,8 +794,8 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.progress.quest3128246276082152028.title}"
-			x: -2.0d
-			y: -7.5d
+			x: 0.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["297F31BB6030C00F"]
@@ -913,7 +815,7 @@
 				type: "xp"
 				xp: 1
 			}]
-			shape: "square"
+			shape: "heart"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest1869435066914804653.subtitle}"
 			tasks: [{
@@ -922,7 +824,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.progress.quest1869435066914804653.title}"
-			x: -0.5d
+			x: 2.5d
 			y: -10.5d
 		}
 		{
@@ -958,7 +860,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest909684094688659584.title}"
-			x: 2.0d
+			x: 5.0d
 			y: -11.5d
 		}
 		{
@@ -994,7 +896,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest7607520465311123027.title}"
-			x: 2.0d
+			x: 5.0d
 			y: -12.5d
 		}
 		{
@@ -1030,7 +932,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest3112930327267610979.title}"
-			x: 3.0d
+			x: 6.0d
 			y: -10.5d
 		}
 		{
@@ -1066,7 +968,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest2243060615858068212.title}"
-			x: 1.5d
+			x: 4.5d
 			y: -12.0d
 		}
 		{
@@ -1102,7 +1004,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest1850117361686583597.title}"
-			x: 2.5d
+			x: 5.5d
 			y: -12.0d
 		}
 		{
@@ -1138,7 +1040,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest6642878151074654328.title}"
-			x: 1.5d
+			x: 4.5d
 			y: -11.0d
 		}
 		{
@@ -1174,7 +1076,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest7321785964156291230.title}"
-			x: 2.5d
+			x: 5.5d
 			y: -10.0d
 		}
 		{
@@ -1210,7 +1112,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest8865148299713812998.title}"
-			x: 2.0d
+			x: 5.0d
 			y: -9.5d
 		}
 		{
@@ -1246,7 +1148,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest8084840528763128100.title}"
-			x: 1.5d
+			x: 4.5d
 			y: -9.0d
 		}
 		{
@@ -1282,7 +1184,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest5891015038952838501.title}"
-			x: 1.5d
+			x: 4.5d
 			y: -10.0d
 		}
 		{
@@ -1318,7 +1220,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest3596959997044725169.title}"
-			x: 2.5d
+			x: 5.5d
 			y: -11.0d
 		}
 		{
@@ -1354,7 +1256,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest7026720575562953892.title}"
-			x: 1.0d
+			x: 4.0d
 			y: -10.5d
 		}
 		{
@@ -1426,8 +1328,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.progress.quest5652397329851488244.title}"
-			x: -6.0d
-			y: -5.5d
+			x: -4.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -1462,8 +1364,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest1030739039945189859.title}"
-			x: -6.5d
-			y: -3.0d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -1497,8 +1399,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest5924624414820566002.title}"
-			x: -5.5d
-			y: -3.0d
+			x: -4.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -1532,8 +1434,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest5465892820886494290.title}"
-			x: -6.5d
-			y: -4.0d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -1567,116 +1469,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest8000514288653405040.title}"
-			x: -5.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["2EAC826E47A3A682"]
-			id: "0DFE0B1CB1D8C4C1"
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "1E3AA2801A3D9DBF"
-				item: "weapon:vajraironingot"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["0DFE0B1CB1D8C4C1"]
-			id: "325F688783045519"
-			shape: "square"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.progress.quest3629734755911882009.subtitle}"
-			tasks: [
-				{
-					id: "084CE9B12BC1C569"
-					item: {
-						Count: 1
-						id: "weapon:swordcaneb"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1F8939FBDE7E0563"
-					item: "weapon:swordcanes"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.progress.quest3629734755911882009.title}"
-			x: -8.0d
-			y: -13.0d
-		}
-		{
-			dependencies: ["25326B961DE6B5EA"]
-			id: "08513E13E71CD88C"
-			shape: "netheritetier"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.progress.quest599328480619714700.subtitle}"
-			tasks: [{
-				id: "780ED37AFDF3D989"
-				item: {
-					Count: 1
-					id: "weapon:magicgun"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["25326B961DE6B5EA"]
-			id: "3922CCF2B3C24565"
-			shape: "netheritetier"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.progress.quest4117078352140060005.subtitle}"
-			tasks: [{
-				id: "5DA9A7479666B765"
-				item: {
-					Count: 1
-					id: "weapon:magicsword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -9.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["338DD0DDABBF130D"]
-			id: "6AEBC2C694F127F5"
-			shape: "netheritetier"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.progress.quest7704465745705510901.subtitle}"
-			tasks: [
-				{
-					id: "294DC93BAFE11360"
-					item: {
-						Count: 1
-						id: "weapon:iaikatanak"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7D0EFE5A54A8A74E"
-					item: "weapon:iaikatanas"
-					type: "item"
-				}
-			]
-			x: -8.0d
-			y: -9.0d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["19F19149E61D93AD"]
@@ -1710,7 +1504,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest3881434394846222682.title}"
-			x: 2.0d
+			x: 5.0d
 			y: -8.5d
 		}
 		{
@@ -1745,7 +1539,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.progress.quest2935294468473106249.title}"
-			x: 2.5d
+			x: 5.5d
 			y: -9.0d
 		}
 		{
@@ -1773,7 +1567,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.progress.quest1692784586080735603.subtitle}"
 			tasks: [
@@ -1790,8 +1584,368 @@
 				}
 			]
 			title: "{ftbquests.chapter.progress.quest1692784586080735603.title}"
-			x: -4.0d
+			x: -2.5d
 			y: -10.5d
+		}
+		{
+			dependencies: ["5D3E8E9BCD0A9935"]
+			id: "4EF54E009E9B845A"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest5689539468820448346.subtitle}"
+			tasks: [{
+				id: "59F5309E52BB1952"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:iron_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest5689539468820448346.title}"
+			x: -8.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["7D0C439E5D207DDE"]
+			id: "4ACDD865686A7489"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest5390202259087455369.subtitle}"
+			tasks: [{
+				id: "7F1DED289482915F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:golden_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest5390202259087455369.title}"
+			x: -5.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["4F34F740CD095315"]
+			id: "0C299EC24B475F74"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest876406159824084852.subtitle}"
+			tasks: [{
+				id: "2F69731528083E3F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:emerald_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest876406159824084852.title}"
+			x: -7.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2EAC826E47A3A682"]
+			id: "5A6FA10321E5F644"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest6516604220654089796.subtitle}"
+			tasks: [{
+				id: "5F0FC3382B35F424"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:diamond_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest6516604220654089796.title}"
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["297F31BB6030C00F"]
+			id: "4193DE39BA903063"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest4725364773566296163.subtitle}"
+			tasks: [{
+				id: "5DA075C25E4A93A7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:netherite_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest4725364773566296163.title}"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["231B06216159E95A"]
+			id: "5AAB57B3BC5BCB6F"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest6533412113901931375.subtitle}"
+			tasks: [{
+				id: "0918F1CE29BDA955"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:elvenite_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest6533412113901931375.title}"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4E97AB0CAB1A3763"]
+			id: "0AC862963205C762"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest776979332945266530.subtitle}"
+			tasks: [{
+				id: "7ADB5B200AAB9388"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:voiderite_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest776979332945266530.title}"
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["25326B961DE6B5EA"]
+			id: "361AC6FC1B84C08C"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest3898647213538328716.subtitle}"
+			tasks: [{
+				id: "6F0E49E370FE6A45"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bloody_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest3898647213538328716.title}"
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["647CCE4CA1600E21"]
+			id: "1A27B4B467036C7C"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest1884673655993232508.subtitle}"
+			tasks: [{
+				id: "45F1E54849ACD54E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:helionite_tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest1884673655993232508.title}"
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5D3E8E9BCD0A9935"]
+			id: "0EA8DDB858E0594D"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest1056337896453200205.subtitle}"
+			tasks: [{
+				id: "003B055015D846FB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:iron_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest1056337896453200205.title}"
+			x: -7.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["7D0C439E5D207DDE"]
+			id: "7649983C6DC1149B"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest8523511155082204315.subtitle}"
+			tasks: [{
+				id: "3BD44D6D390DCF4E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:golden_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest8523511155082204315.title}"
+			x: -6.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["4F34F740CD095315"]
+			id: "0157136D6ADE6B49"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest96567277677079369.subtitle}"
+			tasks: [{
+				id: "4699687C8BCE29E5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:emerald_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest96567277677079369.title}"
+			x: -7.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2EAC826E47A3A682"]
+			id: "4F4AB2978390ED1A"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest5713575441090014490.subtitle}"
+			tasks: [{
+				id: "27A08B5F5918484A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:diamond_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest5713575441090014490.title}"
+			x: -7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["297F31BB6030C00F"]
+			id: "345C9D25CEDF92E3"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest3773063373539742435.subtitle}"
+			tasks: [{
+				id: "25C2E78F025A431C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:netherite_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest3773063373539742435.title}"
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["231B06216159E95A"]
+			id: "14F57F76AFFA764C"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest1510253397787965004.subtitle}"
+			tasks: [{
+				id: "3DB6F2F58686870E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:elvenite_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest1510253397787965004.title}"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4E97AB0CAB1A3763"]
+			id: "0D67C763540ADF60"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest965959874519949152.subtitle}"
+			tasks: [{
+				id: "233E5F573ED06B36"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:voiderite_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest965959874519949152.title}"
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["25326B961DE6B5EA"]
+			id: "679AAAB24CD1920D"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest7465467015089721869.subtitle}"
+			tasks: [{
+				id: "277522098B7222A0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bloody_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest7465467015089721869.title}"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["647CCE4CA1600E21"]
+			id: "3B166461C373C0AF"
+			optional: true
+			subtitle: "{ftbquests.chapter.progress.quest4257700868779131055.subtitle}"
+			tasks: [{
+				id: "5A1312AC275743C5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:helionite_armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.progress.quest4257700868779131055.title}"
+			x: -12.5d
+			y: -3.5d
 		}
 	]
 	title: "{ftbquests.chapter.progress.title}"

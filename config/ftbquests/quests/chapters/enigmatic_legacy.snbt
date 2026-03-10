@@ -1,7 +1,7 @@
 {
 	autofocus_id: "1DF34C60DDABA0B6"
 	default_hide_dependency_lines: true
-	default_quest_shape: "diamond"
+	default_quest_shape: "hexagon"
 	disable_toast: true
 	filename: "enigmatic_legacy"
 	group: "20D67F7F184680D5"
@@ -44,11 +44,11 @@
 			click: "a"
 			height: 1.0d
 			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext2"]
-			image: "sgjourney:item/archeologist_notebook"
+			image: "irons_spellbooks:item/diamond_spell_book"
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			click: "a"
@@ -77,7 +77,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			height: 1.0d
@@ -96,7 +96,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.5d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			click: "s"
@@ -286,13 +286,14 @@
 				item: "enigmaticlegacy:thicc_scroll"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 9.5d
+			x: -6.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["{ftbquests.chapter.enigmatic_legacy.quest4987482421355465290.description1}"]
 			id: "453718D66065CA4A"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4987482421355465290.subtitle}"
 			tasks: [{
 				id: "1C00411329331083"
@@ -312,7 +313,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -320,40 +321,40 @@
 				"1DF34C60DDABA0B6"
 			]
 			id: "071B31311EAC896B"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest512057069674465643.subtitle}"
 			tasks: [{
 				id: "7748817D95D587F7"
 				item: "enigmaticlegacy:fabulous_scroll"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 11.5d
+			x: -4.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "18362E8AD6EE9A8C"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1744633079498971788.subtitle}"
 			tasks: [{
 				id: "5E705F45FEECA425"
 				item: "enigmaticlegacy:escape_scroll"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 10.0d
+			x: -5.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "1CB5C629D6E2424A"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2068777486847722058.subtitle}"
 			tasks: [{
 				id: "71FC854EA40D4E32"
 				item: "enigmaticlegacy:xp_scroll"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 10.5d
 		}
 		{
@@ -382,15 +383,15 @@
 			]
 			icon: "enigmaticlegacy:avarice_scroll"
 			id: "3CC6763FA003F3C9"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4379317703304016841.subtitle}"
 			tasks: [{
 				id: "30EA6E2D6D4430DF"
 				item: "enigmaticlegacy:avarice_scroll"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 11.5d
+			x: -5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["38D6971551A08950"]
@@ -408,7 +409,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8776022973679549812.subtitle}"
 			tasks: [{
@@ -422,6 +423,7 @@
 		{
 			dependencies: ["696721016FE9651A"]
 			hide_dependency_lines: false
+			icon: "enigmaticaddons:bless_ring"
 			id: "759330FDA1A18091"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -433,9 +435,9 @@
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8472169189910610065.subtitle}"
 			tasks: [{
-				id: "3CDD9773776FA95F"
-				item: "enigmaticaddons:bless_ring"
-				type: "item"
+				id: "68B99B3C49AC067B"
+				title: "{ftbquests.chapter.enigmatic_legacy.quest8472169189910610065.task.7546233333872330363.title}"
+				type: "checkmark"
 			}]
 			x: 6.0d
 			y: 2.5d
@@ -450,7 +452,7 @@
 				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7595075586639881498.subtitle}"
 			tasks: [{
 				id: "1C3005811F7C185C"
@@ -466,15 +468,15 @@
 				"1DF34C60DDABA0B6"
 			]
 			id: "0AA1567557149D5C"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest765988473601826140.subtitle}"
 			tasks: [{
 				id: "73AF42474FA9063C"
 				item: "enigmaticaddons:night_scroll"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 12.0d
+			x: -3.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -482,7 +484,7 @@
 				"1DF34C60DDABA0B6"
 			]
 			id: "684D08CDB9CD24B2"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7515673032829772978.subtitle}"
 			tasks: [{
 				id: "765EBB8F36745B1A"
@@ -498,15 +500,15 @@
 				"1DF34C60DDABA0B6"
 			]
 			id: "1D5A7FA7C73BA7AB"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2115143333582710699.subtitle}"
 			tasks: [{
 				id: "062DDD7A61E9D782"
 				item: "enigmaticaddons:thunder_scroll"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 11.5d
+			x: -4.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -514,15 +516,15 @@
 				"1DF34C60DDABA0B6"
 			]
 			id: "172C4ECEC40C15C7"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1669796211806967239.subtitle}"
 			tasks: [{
 				id: "464E4B54D0D2A67B"
 				item: "enigmaticaddons:cursed_xp_scroll"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 10.5d
+			x: -5.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -530,14 +532,14 @@
 				"1DF34C60DDABA0B6"
 			]
 			id: "74D03B0A580FBCEA"
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
 				id: "4DFC7C820D14CBD4"
 				item: "enigmaticlegacy:cursed_scroll"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 12.0d
+			x: -5.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -546,8 +548,9 @@
 				""
 				"{ftbquests.chapter.enigmatic_legacy.quest2597563238188319094.description2}"
 			]
+			hide_until_deps_complete: false
 			id: "240C6600ADD40176"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2597563238188319094.subtitle}"
 			tasks: [{
 				id: "42E0614D0A79C105"
@@ -690,14 +693,14 @@
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "594DE634D568F698"
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
 				id: "524C8D72217C8856"
 				item: "covenant_of_the_seven:brightest_scroll"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 10.0d
+			x: -4.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -729,14 +732,14 @@
 				"1DF34C60DDABA0B6"
 			]
 			id: "73B63202E26F1DD6"
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
 				id: "2B1F6FF80D80F990"
 				item: "covenant_of_the_seven:divine_scroll"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -765,7 +768,7 @@
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "197E8EB199BDFA5A"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1837062591453461082.subtitle}"
 			tasks: [{
 				id: "5CFE1F728D87A974"
@@ -839,8 +842,8 @@
 				item: "covenant_of_the_seven:wind_sacrament"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 10.0d
+			x: 5.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -851,8 +854,8 @@
 				item: "covenant_of_the_seven:geo_sacrament"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.0d
+			x: 4.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -863,8 +866,8 @@
 				item: "covenant_of_the_seven:aqua_sacrament"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.0d
+			x: 5.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -875,8 +878,8 @@
 				item: "covenant_of_the_seven:eldritch_sacrament"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 11.5d
+			x: 3.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -887,8 +890,8 @@
 				item: "covenant_of_the_seven:ender_sacrament"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 11.5d
+			x: 5.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -899,8 +902,8 @@
 				item: "covenant_of_the_seven:holy_sacrament"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.0d
+			x: 4.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -911,8 +914,8 @@
 				item: "covenant_of_the_seven:evocation_sacrament"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 5.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -923,8 +926,8 @@
 				item: "covenant_of_the_seven:lightning_sacrament"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 11.5d
+			x: 4.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -935,8 +938,8 @@
 				item: "covenant_of_the_seven:blood_sacrament"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 10.5d
+			x: 3.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -947,8 +950,8 @@
 				item: "covenant_of_the_seven:nature_sacrament"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 10.5d
+			x: 5.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -959,8 +962,8 @@
 				item: "covenant_of_the_seven:ice_sacrament"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 10.5d
+			x: 4.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -971,8 +974,8 @@
 				item: "covenant_of_the_seven:fire_sacrament"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.0d
+			x: 3.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -984,7 +987,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -1058,8 +1061,8 @@
 				item: "covenant_of_the_seven:the_aeternum"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.0d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -1070,7 +1073,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -1088,7 +1091,7 @@
 			dependencies: ["5782089F4989B165"]
 			hide_dependency_lines: false
 			id: "73B4B9E39A9A5152"
-			shape: "rsquare"
+			shape: "square"
 			tasks: [{
 				id: "185EB6BA2E66C94F"
 				item: "covenant_of_the_seven:pure_heart"
@@ -1119,8 +1122,8 @@
 				item: "enigmaticlegacy:curse_transposer"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -1130,7 +1133,7 @@
 				"{ftbquests.chapter.enigmatic_legacy.quest5632545422442529067.description2}"
 			]
 			id: "4E2AD2381DF0812B"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5632545422442529067.subtitle}"
 			tasks: [{
 				id: "44FF04D36A278240"
@@ -1138,47 +1141,47 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4661EAA8FBF0B944"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5071592666898151748.subtitle}"
 			tasks: [{
 				id: "5CE095BDD9BC4897"
 				item: "enigmaticaddons:void_tome"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.0d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			description: ["{ftbquests.chapter.enigmatic_legacy.quest457242493995357881.description1}"]
 			id: "065873A02ECE96B9"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest457242493995357881.subtitle}"
 			tasks: [{
 				id: "3F35AA702175572C"
 				item: "enigmaticlegacy:enchantment_transposer"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.0d
+			x: -0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "6289EAE60A0F0184"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7100464561258430852.subtitle}"
 			tasks: [{
 				id: "00FE6B7B2581C22F"
 				item: "enigmaticaddons:ode_to_living"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.5d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -1188,20 +1191,20 @@
 				"{ftbquests.chapter.enigmatic_legacy.quest7776836369701749376.description2}"
 			]
 			id: "6BECDF798C694280"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7776836369701749376.subtitle}"
 			tasks: [{
 				id: "5855592C7CA99842"
 				item: "enigmaticlegacy:hunter_guidebook"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: 1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "4194A6281F3AF5FE"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4725584600271353342.subtitle}"
 			tasks: [{
 				id: "0015C35A8A5D41E2"
@@ -1209,7 +1212,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -1219,15 +1222,15 @@
 				"{ftbquests.chapter.enigmatic_legacy.quest6959635537689059557.description2}"
 			]
 			id: "609597A5D62420E5"
-			shape: "diamond"
+			shape: "hexagon"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6959635537689059557.subtitle}"
 			tasks: [{
 				id: "7A570560DFCDC247"
 				item: "enigmaticaddons:the_bless"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -1239,7 +1242,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -1260,7 +1263,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -1272,7 +1275,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -1380,7 +1383,7 @@
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "627BD1C191884874"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7096496267152869492.subtitle}"
 			tasks: [{
 				id: "22A3E55184C3283C"
@@ -1393,7 +1396,7 @@
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "32FB6F35534360F8"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3673652195871645944.subtitle}"
 			tasks: [{
 				id: "72F4743D6482A26A"
@@ -1419,7 +1422,7 @@
 			icon_scale: 1.3d
 			id: "1DF34C60DDABA0B6"
 			shape: "square"
-			size: 1.2d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2158152625360183478.subtitle}"
 			tasks: [{
 				id: "7AC435FF09A6E1C2"
@@ -1440,8 +1443,8 @@
 				item: "enigmaticdelicacy:enchantment_duplicator"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.0d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
@@ -1783,7 +1786,7 @@
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "0D24F4EE539256CC"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest947151126096139980.subtitle}"
 			tasks: [{
 				id: "6D42FB001C02011D"
@@ -2180,7 +2183,7 @@
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "524E62112A7D0449"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5930785585160324169.subtitle}"
 			tasks: [{
 				id: "4AA8A4FFBBAA349B"
@@ -2193,7 +2196,7 @@
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "64A33C445BE06292"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7251706089293505170.subtitle}"
 			tasks: [{
 				id: "5CC1CE773519F64E"
@@ -2206,7 +2209,7 @@
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
 			id: "28A668350AE84078"
-			shape: "rsquare"
+			shape: "square"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2929143184676634744.subtitle}"
 			tasks: [{
 				id: "6E42BB23F627B02E"
@@ -2483,7 +2486,7 @@
 			dependencies: ["12A55B549C0DA083"]
 			hide_dependency_lines: false
 			id: "5782089F4989B165"
-			shape: "rsquare"
+			shape: "square"
 			tasks: [{
 				id: "20DECD284A73182E"
 				item: "enigmaticlegacy:earth_heart"
