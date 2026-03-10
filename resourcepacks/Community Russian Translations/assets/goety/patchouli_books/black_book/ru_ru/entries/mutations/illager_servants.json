@@ -41,11 +41,27 @@
     },
     {
       "type": "patchouli:text",
+      "text": "Эти обученные и дисциплинированные бойцы способны поражать врагов на большом расстоянии."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:vindicator_chef_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Хотя другие их избегают из-за отсутствия магических или боевых навыков, эти Злодеяне могут оказаться очень полезными, когда речь заходит про раннее обнаружение приближающейся угрозы. Высоко сидя и далеко глядя, они трубят в рог, который заставляет охраняющих прислужников в большом радиусе атаковать источник угрозы. Под понятие угрозы попадают вражеские игроки, агрессивные мобы с вдвое большим, чем у караульного, запасом здоровья, либо орда существ, размер окторой зависит от того, из каких мобов она состоит, и выше ли их максимальный запас здоровья запаса здоровья Караульного."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:crusher_servant"
+    },
+    {
+      "type": "patchouli:text",
       "text": "Одни из самых смертоносных злодеян под вашим командованием. Они могут выводить из боя щиты и наносить массу урона своими топорами. Вероятно, не стоит называть их «Johnny»..."
     },
     {
       "type": "patchouli:entity",
-      "entity": "goety:vindicator_chef_servant",
+      "entity": "goety:evoker_servant",
       "scale": 0.75
     },
     {
@@ -54,7 +70,15 @@
     },
     {
       "type": "patchouli:entity",
-      "entity": "goety:crusher_servant",
+      "entity": "goety:geomancer_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Эти скалолазы на порядок выносливее, чем их собратья-поборники, как в плане здоровья, так и в плане сопротивлению отбрасыванию."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:iceologer_servant",
       "scale": 0.75
     },
     {
@@ -63,7 +87,7 @@
     },
     {
       "type": "patchouli:entity",
-      "entity": "goety:evoker_servant"
+      "entity": "goety:wind_caller_servant"
     },
     {
       "type": "patchouli:text",
@@ -71,14 +95,14 @@
     },
     {
       "type": "patchouli:entity",
-      "entity": "goety:geomancer_servant"
+      "entity": "goety:storm_caster_servant"
     },
     {
       "type": "patchouli:text",
       "text": "Управляя самой землёй, эти бедные заклинатели могут поднимать из земли каменные столбы, чтобы либо преграждать путь своему противнику, либо взрывать его."
     },
     {
-      "type": "patchouli:entity",
+      "type": "patchouli:spotlight",
       "entity": "goety:iceologer_servant"
     },
     {
@@ -86,7 +110,15 @@
       "text": "Эти леденящие душу заклинатели разбивают головы своим противникам ледяными глыбами."
     },
     {
+      "type": "patchouli:spotlight",
+      "entity": "goety:cryologer_servant"
+    },
+    {
       "type": "patchouli:entity",
+      "text": "Вечно плачущие жрецы холода могут выдыхать мороз, чоздавать ледяные стены, чтобы помешать своим врагам, и вызывать над ним град."
+    },
+    {
+      "type": "patchouli:text",
       "entity": "goety:wind_caller_servant",
       "scale": 0.75
     },
@@ -95,7 +127,7 @@
       "text": "Повелевая небесами, эти пышноволосые шаманы могут подбрасывать своих врагов в воздух или отталкивать порывами ветра."
     },
     {
-      "type": "patchouli:entity",
+      "type": "patchouli:spotlight",
       "entity": "goety:storm_caster_servant",
       "scale": 0.75
     },
@@ -104,13 +136,13 @@
       "text": "Охотясь за сокровищами или охраняя их, эти злодеяне безжалостно испепеляют врагов электрическим током."
     },
     {
-      "type": "patchouli:spotlight",
+      "type": "patchouli:text",
       "item": "minecraft:red_bed",
       "title": "Еда, размножение и исцеление",
       "text": "Злодеянам можно давать пищу (непосредственно или бросая), чтобы они восстанавливали здоровье или размножались. При полном здоровье, будучи вне боя и не в режиме следования, злодеяне могут размножаться, подобно крестьянам, если рядом с ними будет доступная кровать. Это приведёт к появлению маленького новодеянина."
     },
     {
-      "type": "patchouli:text",
+      "type": "patchouli:spotlight",
       "text": "Наличие избыточного количества еды в инвентаре позволим им подбрасывать её другим злодеянам, у которых её меньше. Злодеянам можно предоставить подходящие доспехи и оружие."
     },
     {
@@ -152,9 +184,29 @@
     },
     {
       "type": "patchouli:spotlight",
+      "item": "minecraft:chain",
+      "anchor": "capture",
+      "title": "Захват",
+      "text": "Нажатие ПКМ по рейдеру цепью заставит его перейти в режим захвата: вместо того, чтобы убивать крестьян, он будет брать их в плен и вести за собой. Вы тоже можете командовать пленниками. Нажатие ПКМ по рейдеру топором выведет его из режима захвата."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Как всегда, рейдеры переходят в режим захвата, если в этом режиме находится их лидер. Если все выжившие крестьяне взяты в плен, рейд считается успешным. Чтобы освободить пленника, нажмите по нему ПКМ, присев. Пленники также освободятся, если получат достаточно урона, находясь вдали от своего захватчика или владельца. Есть вероятность, что некоторые крестьяне не попадут в плен и погибнут."
+    },
+    {
+      "type": "patchouli:spotlight",
       "item": "minecraft:chest",
       "title": "Сундуки",
       "text": "Нажатие ПКМ по злодеянину путеводным камнем, который привязан к сундуку, заставит его принять сундук за хранилище, где он начнёт брать еду или хранить добычу, если будет поблизости. Если злодеянин является лидером, то его последователи также примут этот сундук."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:raiding_chest",
+      "text": "An Illager can also register another chest aside from regular ones. When registered to this, Illagers will try to deposit any loot they have in this above their other chest and will not take items from it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Illagers can be given armor (if config is set to true) and can be given a Totem of Undying so long as their offhand is empty. Right-clicking on them with a Stick will cause them to drop their Totem from their Offhand."
     }
   ]
 }

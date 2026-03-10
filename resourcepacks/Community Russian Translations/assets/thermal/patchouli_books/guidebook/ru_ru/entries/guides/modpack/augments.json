@@ -20,11 +20,11 @@
       "type": "link",
       "url": "https://github.com/CoFH/CoFHCore/blob/main/src/main/java/cofh/lib/util/constants/NBTTags.java#L102",
       "link_text": "Ссылка на Github",
-      "text": "Общая форма NBT выглядит следующим образом: $(br2){AugmentData:$(br){Type:\u0027[augment type]\u0027,$(br)[modifier 1]:[float value]f, $(br)[modifier 2]:[float value]f, $(br)[...]}}$(br2)Полный список доступных типов дополнений и модификаторов можно найти на Github-е Кинга Лемминга; Ссылка внизу. "
+      "text": "Общая форма NBT выглядит следующим образом: $(br2){AugmentData:$(br){Type:'[augment type]',$(br)[modifier 1]:[float value]f, $(br)[modifier 2]:[float value]f, $(br)[...]}}$(br2)Полный список доступных типов дополнений и модификаторов можно найти на Github-е Кинга Лемминга; Ссылка внизу. "
     },
     {
       "type": "patchouli:text",
-      "text": "Хорошо, например, команда для создания улучшения, которое делает требуемую энергию всех рецептов равной 0 (по сути, творческое улучшение), выглядит следующим образом (нажмите, чтобы выполнить команду): $(br)$(c:/summon minecraft:item ~ ~ ~ {Item:{id:\u0027minecraft:sea_pickle\u0027,Count:1b,tag:{AugmentData:{Type:\u0027MchAug\u0027,MchEn:0.0f}}}})/give $(playername) minecraft:sea_pickle{AugmentData:{Type:\u0027MchAug\u0027,MchEn:0.0f}} 1$(/c)$(br)Если существует несколько пар значение-модификатор с одним и тем же модификатором, приоритет имеет тот, который идёт последним."
+      "text": "Хорошо, например, команда для создания улучшения, которое делает требуемую энергию всех рецептов равной 0 (по сути, творческое улучшение), выглядит следующим образом (нажмите, чтобы выполнить команду): $(br)$(c:/summon minecraft:item ~ ~ ~ {Item:{id:'minecraft:sea_pickle',Count:1b,tag:{AugmentData:{Type:'MchAug',MchEn:0.0f}}}})/give $(playername) minecraft:sea_pickle{AugmentData:{Type:'MchAug',MchEn:0.0f}} 1$(/c)$(br)Если существует несколько пар значение-модификатор с одним и тем же модификатором, приоритет имеет тот, который идёт последним."
     },
     {
       "type": "patchouli:text",
