@@ -89,7 +89,11 @@ def call_llm(payload, url, api_key):
     req = urllib.request.Request(url, data=body, headers=headers, method='POST')
     with urllib.request.urlopen(req) as resp:
         result = json.loads(resp.read().decode('utf-8'))
-    return result['choices'][0]['message']['content']
+    content = result['choices'][0]['message']['content']
+    if content is None:
+        finish_reason = result['choices'][0].get('finish_reason', 'unknown')
+        raise ValueError(f'LLM returned null content (finish_reason={finish_reason!r})')
+    return content
 
 
 def parse_json_response(text):
@@ -237,7 +241,7 @@ def main():
                     total_translated += applied
                     data.update(merged)
                     print(f'ok ({applied}/{len(chunk_keys)} translated)')
-                except (urllib.error.URLError, json.JSONDecodeError, KeyError) as e:
+                except (urllib.error.URLError, json.JSONDecodeError, KeyError, ValueError) as e:
                     print(f'FAILED ({e})')
 
         else:
@@ -254,7 +258,7 @@ def main():
                 applied = count_russian(data)
                 total_translated += applied
                 print(f'  ok ({applied}/{n_strings} translated)')
-            except (urllib.error.URLError, json.JSONDecodeError, KeyError) as e:
+            except (urllib.error.URLError, json.JSONDecodeError, KeyError, ValueError) as e:
                 print(f'  FAILED ({e})')
 
         with open(full_path, 'w', encoding='utf-8') as f:
