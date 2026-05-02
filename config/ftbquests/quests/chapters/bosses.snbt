@@ -590,7 +590,7 @@
 				"{ftbquests.chapter.bosses.quest3582536127484348030.description2}"
 				""
 				""
-				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.bosses.quest3582536127484348030.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"03A428597377BA31\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.bosses.quest3582536127484348030.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"03A428597377BA31\"}}]"
 			]
 			icon: {
 				Count: 1
@@ -1229,7 +1229,7 @@
 				""
 				"{ftbquests.chapter.bosses.quest2042209878072621964.description3}"
 				""
-				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.bosses.quest2042209878072621964.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4405287D0ACF3DCB\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.bosses.quest2042209878072621964.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4405287D0ACF3DCB\"}}]"
 			]
 			icon: "alexscaves:pure_darkness"
 			id: "1C576310634FFB8C"
@@ -1261,7 +1261,7 @@
 				"{ftbquests.chapter.bosses.quest6051942964823983950.description1}"
 				""
 				""
-				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.bosses.quest6051942964823983950.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4B68F4E8EDCC51A4\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.bosses.quest6051942964823983950.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4B68F4E8EDCC51A4\"}}]"
 				""
 				"{ftbquests.chapter.bosses.quest6051942964823983950.image0}"
 			]
@@ -1486,7 +1486,7 @@
 			description: [
 				"{ftbquests.chapter.bosses.quest8927020608151740688.description1}"
 				""
-				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.bosses.quest8927020608151740688.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5F4A5CFD1BDA2DAF\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.bosses.quest8927020608151740688.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5F4A5CFD1BDA2DAF\"}}]"
 				""
 				"{ftbquests.chapter.bosses.quest8927020608151740688.image0}"
 				"{ftbquests.chapter.bosses.quest8927020608151740688.image2}"
@@ -1995,7 +1995,7 @@
 				""
 				"{ftbquests.chapter.bosses.quest2553635826873861650.description2}"
 				""
-				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.bosses.quest2553635826873861650.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"09AAF962D291AAF8\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.bosses.quest2553635826873861650.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"09AAF962D291AAF8\"}}]"
 				""
 				"{ftbquests.chapter.bosses.quest2553635826873861650.image0}"
 			]
@@ -2454,7 +2454,13 @@
 			subtitle: "{ftbquests.chapter.bosses.quest5654825192391571167.subtitle}"
 			tasks: [
 				{
-					entity: "goety:doppelganger"
+					id: "353A50410A272C1C"
+					item: "darkdoppelganger:shadow_orb"
+					type: "item"
+				}
+				{
+					advancement: "darkdoppelganger:kill"
+					criterion: ""
 					icon: {
 						Count: 1
 						id: "ftbquests:custom_icon"
@@ -2462,15 +2468,9 @@
 							Icon: "darkdoppelganger:item/doppelganger_ring"
 						}
 					}
-					id: "301E39957ABB13B4"
-					title: "{ftbquests.chapter.bosses.quest5654825192391571167.task.3467272077293851572.title}"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "353A50410A272C1C"
-					item: "darkdoppelganger:shadow_orb"
-					type: "item"
+					id: "346DAB707873E61A"
+					title: "{ftbquests.chapter.bosses.quest5654825192391571167.task.3777864161979262490.title}"
+					type: "advancement"
 				}
 			]
 			title: "{ftbquests.chapter.bosses.quest5654825192391571167.title}"

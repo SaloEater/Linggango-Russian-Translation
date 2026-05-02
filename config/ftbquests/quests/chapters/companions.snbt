@@ -68,7 +68,7 @@
 			description: [
 				"{ftbquests.chapter.companions.quest602595953845524545.description1}"
 				""
-				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.companions.quest602595953845524545.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3B380BCE89B7ECB6\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.companions.quest602595953845524545.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3B380BCE89B7ECB6\"}}]"
 				"{ftbquests.chapter.companions.quest602595953845524545.image0}"
 				"{ftbquests.chapter.companions.quest602595953845524545.description3}"
 				""
@@ -280,7 +280,7 @@
 			description: [
 				"{ftbquests.chapter.companions.quest1252532168196787912.description1}"
 				""
-				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.companions.quest1252532168196787912.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7D1085AFE3A332B1\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.companions.quest1252532168196787912.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7D1085AFE3A332B1\"}}]"
 				"{ftbquests.chapter.companions.quest1252532168196787912.image0}"
 				"{ftbquests.chapter.companions.quest1252532168196787912.description3}"
 				""
@@ -381,7 +381,7 @@
 			description: [
 				"{ftbquests.chapter.companions.quest7437359781203966396.description1}"
 				""
-				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.companions.quest7437359781203966396.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"66AD148133FC1229\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.companions.quest7437359781203966396.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"66AD148133FC1229\"}}]"
 				""
 				"{ftbquests.chapter.companions.quest7437359781203966396.description3}"
 				""
@@ -435,7 +435,13 @@
 				{
 					checkItem: true
 					entity: "companions:teddy"
-					icon: "simplehats:teddy_bear"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/alexsmobs/grizzly_bear.png"
+						}
+					}
 					id: "2640E03DEB717A97"
 					item: "companions:needle"
 					nbt: { }
@@ -520,7 +526,7 @@
 			description: [
 				"{ftbquests.chapter.companions.quest8643240162364096406.description1}"
 				""
-				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.companions.quest8643240162364096406.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"182CFF40F4C0EAB7\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.companions.quest8643240162364096406.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"182CFF40F4C0EAB7\"}}]"
 				"{ftbquests.chapter.companions.quest8643240162364096406.image0}"
 				"{ftbquests.chapter.companions.quest8643240162364096406.description3}"
 				""
@@ -924,7 +930,7 @@
 				"{ftbquests.chapter.companions.quest6862150144827397677.description4}"
 				""
 				""
-				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.companions.quest6862150144827397677.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3B03B77C3C31CFE5\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.companions.quest6862150144827397677.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3B03B77C3C31CFE5\"}}]"
 			]
 			id: "5F3B413311D5162D"
 			rewards: [{
