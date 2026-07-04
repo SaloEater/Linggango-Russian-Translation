@@ -13,7 +13,7 @@ import os
 import shutil
 import sys
 
-ARTIFACTS_DIR = os.path.join('artifacts', 'assets')
+ARTIFACTS_DIR = os.path.join('artifacts', 'assets_patchouli')
 RESOURCEPACKS_DIR = os.path.join('resourcepacks', 'Community Russian Translations', 'assets')
 
 

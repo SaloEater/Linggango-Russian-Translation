@@ -2,7 +2,7 @@
 
 В переводе участвовали: @vladyslav2703, @r1ls_
 
-Для установки распакуйте в папку со сборкой
+Для установки скачайте последнюю версию из Release и распакуйте в папку со сборкой
 
 These books should be excluded from translation packs because they are translated via regular lang files::
 - ars_nouveau\patchouli_books\worn_notebook
