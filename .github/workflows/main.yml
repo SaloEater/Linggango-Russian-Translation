@@ -17,6 +17,8 @@ jobs:
           mkdir -p build_temp
           cp -r config build_temp/
           cp -r kubejs build_temp/
+          cp -r pack.mcmeta build_temp/
+          cp -r pack.png build_temp/
           mkdir -p build_temp/resourcepacks
 
           echo "📦 files to build:"
