@@ -3,52 +3,43 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	filename: "ars_nouveau"
-	group: "20D67F7F184680D5"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "ars_nouveau:item/caster_tome"
-		}
-	}
+	group: "0361FC25A57730F8"
+	icon: "ars_nouveau:source_gem"
 	id: "6AEDA2F9BEB57759"
 	images: [
 		{
+			height: 1.8d
+			image: "customtextures:textures/ars_nouveau.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -9.5d
+			y: -2.0d
+		}
+		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.ars_nouveau.image.hovertext1"]
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -9.0d
-			y: 1.0d
-		}
-		{
-			height: 1.0d
-			image: "ars_nouveau:block/fire_0"
-			rotation: 0.0d
-			width: 1.0d
-			x: -9.0d
-			y: -1.0d
-		}
-		{
-			height: 1.7d
-			image: "customtextures:textures/arsnoveaulogo.png"
-			rotation: 0.0d
-			width: 6.0d
-			x: -9.0d
-			y: -2.0d
+			x: -9.5d
+			y: -4.0d
 		}
 	]
-	order_index: 4
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest7930297436188740990.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest7930297436188740990.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest7930297436188740990.description2}"
+				"Ars nouveau is a magic mod that allows you to create your own custom spells!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Questline &nInspired&r by Atm9."
 			]
 			icon: "ars_nouveau:creative_spell_book"
 			id: "6E0E13806F388D7E"
@@ -58,16 +49,16 @@
 				xp: 100
 			}]
 			shape: "square"
-			size: 1.3d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest7930297436188740990.subtitle}"
+			size: 1.5d
+			subtitle: "Welcome To Ars Nouveau!"
 			tasks: [{
 				icon: "ars_nouveau:creative_spell_book"
 				id: "33CEC23CAF6DA6A6"
-				title: "{ftbquests.chapter.ars_nouveau.quest7930297436188740990.task.3733134707033745062.title}"
+				title: "I understand."
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ars_nouveau.quest7930297436188740990.title}"
-			x: -9.0d
+			title: "&eArs Nouveau"
+			x: -9.5d
 			y: 0.0d
 		}
 		{
@@ -85,8 +76,8 @@
 				item: "ars_nouveau:starbuncle_charm"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -10.5d
+			x: 4.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["1D86B2E553503E53"]
@@ -104,17 +95,17 @@
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -10.5d
+			x: 4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["18A2FBE2D4133FA2"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest4433277325739805222.description1}"
+				"The Enchanting Apparatus is used to craft some items."
 				""
-				"{ftbquests.chapter.ars_nouveau.quest4433277325739805222.description2}"
+				"It requires Source to work."
 				""
-				"{ftbquests.chapter.ars_nouveau.quest4433277325739805222.description3}"
+				"Use JEI if u wanna know the other items!"
 			]
 			id: "3D862A3D3F83CA26"
 			rewards: [{
@@ -123,8 +114,8 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest4433277325739805222.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "2C36C64341C6B6F2"
@@ -137,16 +128,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quest4433277325739805222.title}"
-			x: -4.5d
-			y: -6.0d
+			title: "Enchanting Apparatus"
+			x: 1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5C3FF43CF16BCF30"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest1775258154776608674.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest1775258154776608674.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest1775258154776608674.description2}"
+				"Arcane Pedestals are needed for the Ritual Brazier and crafting items with an Enchanting Apparatus."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Go ahead and make yourself 8 of them!"
 			]
 			id: "18A2FBE2D4133FA2"
 			rewards: [{
@@ -156,26 +147,26 @@
 				type: "item"
 			}]
 			shape: "woodtier"
-			size: 1.1d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest1775258154776608674.subtitle}"
+			size: 1.0d
+			subtitle: "Magical Bar Chairs"
 			tasks: [{
 				count: 8L
 				id: "5B80C1EF5D85EA64"
 				item: "ars_nouveau:arcane_pedestal"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ars_nouveau.quest1775258154776608674.title}"
-			x: -2.0d
-			y: -6.0d
+			title: "Arcane Pedastals"
+			x: -1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["33682F4B44950123"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest4417337136572273489.description1}"
+				"Here we are, Crafting spells."
 				""
-				"{ftbquests.chapter.ars_nouveau.quest4417337136572273489.description2}"
+				"There are 3 tiers of glyphs to unlock, and each one requires unique items."
 				""
-				"{ftbquests.chapter.ars_nouveau.quest4417337136572273489.description3}"
+				"The Scribe's Table can be used as attaching spells to Spell Parchments. "
 			]
 			id: "3D4D88B8BE881351"
 			rewards: [
@@ -193,14 +184,14 @@
 			]
 			shape: "goldtier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest4417337136572273489.subtitle}"
+			subtitle: "&dCrafting Glyphs!"
 			tasks: [{
 				id: "5ADEEEE0C217B20F"
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.504761904761871d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1D86B2E553503E53"]
@@ -218,15 +209,15 @@
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -10.0d
+			x: 4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6E0E13806F388D7E"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest7264559553515875458.description1}"
+				"This is where you create and store your spells."
 				""
-				"{ftbquests.chapter.ars_nouveau.quest7264559553515875458.description2}"
+				"Hitting the &eC&r key will open up the spell creation page."
 			]
 			id: "64D0E66CB4FBEC82"
 			rewards: [
@@ -248,19 +239,19 @@
 				}
 			]
 			size: 1.1d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest7264559553515875458.subtitle}"
+			subtitle: "Your First Spell Book!"
 			tasks: [{
 				id: "6988873450238F30"
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ars_nouveau.quest7264559553515875458.title}"
-			x: -5.5d
+			title: "Novice Spell Book"
+			x: -6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
-			description: ["{ftbquests.chapter.ars_nouveau.quest951121183831047612.description1}"]
+			description: ["Incresed mana with tier 2 glyphs!"]
 			id: "0D330FAD6C993DBC"
 			rewards: [
 				{
@@ -276,54 +267,54 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest951121183831047612.subtitle}"
+			subtitle: "Better and More Advanced!"
 			tasks: [{
 				id: "0BCFC6422BBF539C"
 				item: "ars_nouveau:apprentice_spell_book"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0D330FAD6C993DBC"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest1718074120490417759.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest1718074120490417759.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest1718074120490417759.description2}"
+				"To obtain, you have to kill Wilden Chimera!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"It's a ritual that can be completed by using a ritual brazier."
 			]
 			id: "17D7D34F519F7E5F"
 			rewards: [
-				{
-					id: "7D15D46D10553B15"
-					table_id: 8699295573854160387L
-					title: "{ftbquests.chapter.ars_nouveau.quest1718074120490417759.reward.9013343794142460693.title}"
-					type: "random"
-				}
 				{
 					id: "5292A1FD37C16455"
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "5976C078339E83F4"
+					table_id: 8699295573854160387L
+					type: "random"
+				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest1718074120490417759.subtitle}"
+			subtitle: "The Greatest Magician!"
 			tasks: [{
 				id: "5E7DBDDD97BA8F13"
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["18A2FBE2D4133FA2"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest5007414277748036663.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest5007414277748036663.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest5007414277748036663.description2}"
-				"{ftbquests.chapter.ars_nouveau.quest5007414277748036663.image2}"
-				"{ftbquests.chapter.ars_nouveau.quest5007414277748036663.description3}"
+				"The &9Ritual Brazier&r is used to cast rituals. If you want to light the Brazier, use a Light spell on it."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"To perform rituals, you'll need Arcane Pedestals as well. As there are so many rituals to cast, make sure to check out each of them using the Worn Notebook!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"This can be done by holding Ctrl on the Ritual Table while the book is in your inventory."
 			]
 			id: "457DE8C154641437"
 			rewards: [{
@@ -332,22 +323,22 @@
 				xp: 100
 			}]
 			shape: "goldtier"
-			size: 1.1d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest5007414277748036663.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1E0B9FBF5319CEF6"
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -8.0d
+			x: -1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest349581306045716919.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest349581306045716919.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest349581306045716919.description2}"
+				"The &9Potion Jar&r stores up to 100 potions. You can remove them by using an empty bottle or a potion flask on the jar."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Wixies will use these jars during Potion Autocrafting."
 			]
 			id: "04D9F6587EF8D9B7"
 			rewards: [{
@@ -357,21 +348,21 @@
 			}]
 			shape: "goldtier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest349581306045716919.subtitle}"
+			subtitle: "Storing Potions.. meheh"
 			tasks: [{
 				id: "7F3D9B9E5E4FD3B8"
 				item: "ars_nouveau:potion_jar"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["33682F4B44950123"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest6297941829716328838.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest6297941829716328838.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest6297941829716328838.description2}"
+				"Source gems are a really important material which can be crafted by using The imbuement chamber!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"I don't remember much but lapis works just fine!"
 			]
 			id: "5766C8B9E850C186"
 			rewards: [{
@@ -379,14 +370,14 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			size: 1.1d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest6297941829716328838.subtitle}"
+			size: 1.0d
+			subtitle: "Crafting Source Gems"
 			tasks: [{
 				id: "78B5B8F9CE9EC702"
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -405,7 +396,7 @@
 				}
 			]
 			size: 1.1d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest3704262693831901475.subtitle}"
+			subtitle: "Magical Trees"
 			tasks: [
 				{
 					id: "163A6E303D6F419D"
@@ -416,7 +407,7 @@
 							value: "forge:logs/archwood"
 						}
 					}
-					title: "{ftbquests.chapter.ars_nouveau.quest3704262693831901475.task.1601713770951819677.title}"
+					title: "Archwood Logs"
 					type: "item"
 				}
 				{
@@ -429,20 +420,20 @@
 							value: "forge:planks/archwood"
 						}
 					}
-					title: "{ftbquests.chapter.ars_nouveau.quest3704262693831901475.task.8433246517453761387.title}"
+					title: "Archwood Planks"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quest3704262693831901475.title}"
-			x: -2.0d
-			y: -0.004761904761870994d
+			title: "Archwood Logs"
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["40BC67BDEE15D1DE"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest2485347663562808075.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest2485347663562808075.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest2485347663562808075.description2}"
+				"In Ars Nouveau, the power system for machines is called &9Source&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"To start collecting some Source, we'll need a Source Jar."
 			]
 			id: "227DBA8836021B0B"
 			rewards: [{
@@ -452,13 +443,13 @@
 			}]
 			shape: "goldtier"
 			size: 1.1d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest2485347663562808075.subtitle}"
+			subtitle: "Storing Source"
 			tasks: [{
 				id: "55AA5FAABC23709E"
 				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -476,8 +467,8 @@
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -9.5d
+			x: 4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1D86B2E553503E53"]
@@ -495,15 +486,15 @@
 				item: "ars_nouveau:amethyst_golem_charm"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -9.5d
+			x: 4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest1860025289394825896.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest1860025289394825896.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest1860025289394825896.description2}"
+				"Archwood logs will generate extra source because they're... burnable and magical."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Burned items will turn into lava."
 			]
 			id: "19D02325579F2AA8"
 			rewards: [{
@@ -513,18 +504,18 @@
 			}]
 			shape: "goldtier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest1860025289394825896.subtitle}"
+			subtitle: "The Volcanic Sourcelink generates Source by consuming items that are burnable. "
 			tasks: [{
 				id: "273385666F3DBB43"
 				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["0E2AD156E5EF263A"]
-			description: ["{ftbquests.chapter.ars_nouveau.quest1519481190430847112.description1}"]
+			description: ["Perfect for traps!"]
 			id: "151648179684B088"
 			rewards: [{
 				id: "15C8BFFB7994B162"
@@ -532,7 +523,7 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest1519481190430847112.subtitle}"
+			subtitle: "Placeable Spells"
 			tasks: [{
 				id: "2E649D2172E6D537"
 				item: {
@@ -544,15 +535,15 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest6700127314691022557.description1}"
+				"Press ''C'' While Holding Your Spellbook. This will open the glyph page, basically creating your own magic."
 				""
-				"{ftbquests.chapter.ars_nouveau.quest6700127314691022557.description2}"
+				"To create spells you have to make a &dScribe's Table!&r"
 			]
 			icon: "ars_nouveau:spell_parchment"
 			id: "5CFBA24B3E0CDEDD"
@@ -593,22 +584,22 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest6700127314691022557.subtitle}"
+			subtitle: "&eWe all just care about spells right?"
 			tasks: [{
 				id: "1B916AE67F84E6D7"
-				title: "{ftbquests.chapter.ars_nouveau.quest6700127314691022557.task.1986486448861538007.title}"
+				title: "Crafting your very own spell"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ars_nouveau.quest6700127314691022557.title}"
-			x: -4.5d
-			y: 1.5d
+			title: "Crafting Spells"
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest7732993419960551744.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest7732993419960551744.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest7732993419960551744.description2}"
+				"Bottom left of your screen, There's the mana bar."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"There are several ways to increase your mana such as enchantments, artifacts, armors and upgrading your spellbook!"
 			]
 			icon: {
 				Count: 1
@@ -630,19 +621,19 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest7732993419960551744.subtitle}"
+			subtitle: "&eThe stamina system of magic!"
 			tasks: [{
 				id: "01FD75641E5EA5E4"
-				title: "{ftbquests.chapter.ars_nouveau.quest7732993419960551744.task.143399836012422628.title}"
+				title: "Oh that sucks :c"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ars_nouveau.quest7732993419960551744.title}"
-			x: -6.5d
-			y: 1.5d
+			title: "Mana System"
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5766C8B9E850C186"]
-			description: ["{ftbquests.chapter.ars_nouveau.quest4664717379489878494.description1}"]
+			description: ["The Imbuement Chamber requires Source to imbue items. It produces a small amount of Source by itself, but can also use Source Jars as a power source."]
 			id: "40BC67BDEE15D1DE"
 			rewards: [{
 				count: 3
@@ -651,24 +642,24 @@
 				type: "item"
 			}]
 			shape: "goldtier"
-			size: 1.1d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest4664717379489878494.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 2L
 				id: "1344731C799303A3"
 				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ars_nouveau.quest4664717379489878494.title}"
-			x: 0.5d
+			title: "A Source Gem"
+			x: -1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["33682F4B44950123"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest3549579836872637091.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest3549579836872637091.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest3549579836872637091.description2}"
+				"The &6Dowsing Rod&r gives you Magic Find and Scrying when used."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"This allows you to see nearby magic creatures as well as helping you find amethyst!"
 			]
 			id: "3142A40E1EAEBAA3"
 			optional: true
@@ -684,7 +675,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest3549579836872637091.subtitle}"
+			subtitle: "Finding Magic Traces"
 			tasks: [{
 				id: "07469C1ABB23F686"
 				item: {
@@ -696,7 +687,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
@@ -709,21 +700,21 @@
 			}]
 			shape: "goldtier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest2980388920863228156.subtitle}"
+			subtitle: "Generates source from animal breeding.. (freak)"
 			tasks: [{
 				id: "33072A37F4A28A77"
 				item: "ars_nouveau:vitalic_sourcelink"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["04D9F6587EF8D9B7"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest4728988745671013601.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest4728988745671013601.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest4728988745671013601.description2}"
+				"The &9Alchemical Sourcelink&r produces Source from adjacent potion jars."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"The amount of source varies per potion and complexity."
 			]
 			id: "41A0BE357C8A74E1"
 			rewards: [{
@@ -733,21 +724,21 @@
 			}]
 			shape: "goldtier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest4728988745671013601.subtitle}"
+			subtitle: "Temporary Power-up!"
 			tasks: [{
 				id: "2D08E66F6D607676"
 				item: "ars_nouveau:alchemical_sourcelink"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest8580572335539169019.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest8580572335539169019.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest8580572335539169019.description2}"
+				"Source Berries produce more Source than other sources."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"This will also convert grass or dirt into Mycelium in a 3x3 area around it. It will also grow mushrooms around it if the space is empty."
 			]
 			id: "77145113CD5B26FB"
 			rewards: [{
@@ -757,21 +748,21 @@
 			}]
 			shape: "goldtier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest8580572335539169019.subtitle}"
+			subtitle: "Generates source from nearby food."
 			tasks: [{
 				id: "3F5621FA53258210"
 				item: "ars_nouveau:mycelial_sourcelink"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quest3246235017359833981.description1}"
-				"{ftbquests.chapter.ars_nouveau.quest3246235017359833981.image0}"
-				"{ftbquests.chapter.ars_nouveau.quest3246235017359833981.description2}"
+				"Placing this near growing plants or saplings will provide Source. Archwood trees provide more Source!"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Bonemeal wont work)"
 			]
 			id: "2D0CF18C8B2ABB7D"
 			rewards: [{
@@ -781,47 +772,40 @@
 			}]
 			shape: "goldtier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest3246235017359833981.subtitle}"
+			subtitle: "Generates source from plants"
 			tasks: [{
 				id: "7CEAACDBB77206CC"
 				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["40BC67BDEE15D1DE"]
-			description: ["{ftbquests.chapter.ars_nouveau.quest6647300117607730992.description1}"]
+			description: ["Now we can get to making some systems!"]
 			id: "5C3FF43CF16BCF30"
-			rewards: [
-				{
-					id: "21D1F9B1E362FB60"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "6112920BDCC768D2"
-					type: "xp"
-					xp: 200
-				}
-			]
-			size: 1.1d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest6647300117607730992.subtitle}"
+			rewards: [{
+				id: "21D1F9B1E362FB60"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "Machines?!"
 			tasks: [{
 				count: 8L
 				id: "03EB390E79866058"
 				item: "ars_nouveau:sourcestone"
-				title: "{ftbquests.chapter.ars_nouveau.quest6647300117607730992.task.282382135971962968.title}"
+				title: "Sourcestones"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ars_nouveau.quest6647300117607730992.title}"
-			x: 0.5d
-			y: -6.0d
+			title: "Sourcestones"
+			x: -1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3D4D88B8BE881351"]
-			description: ["{ftbquests.chapter.ars_nouveau.quest1020858436707886650.description1}"]
+			description: ["Used to inscribe spells with the scribe's table"]
 			id: "0E2AD156E5EF263A"
 			rewards: [{
 				id: "1B91CB1A18C7B682"
@@ -829,18 +813,18 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest1020858436707886650.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "5D09025968ED4E34"
 				item: "ars_nouveau:spell_parchment"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["{ftbquests.chapter.ars_nouveau.quest2127584571994160723.description1}"]
+			description: ["The Dominion Wand is used for controlling the creatures you might encounter in the world! Each being responds differently to the wand, so make sure to read up in the Worn Notebook!"]
 			id: "1D86B2E553503E53"
 			rewards: [{
 				id: "67EA044B041162DB"
@@ -848,16 +832,16 @@
 				xp: 100
 			}]
 			shape: "woodtier"
-			size: 1.1d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest2127584571994160723.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "259C1D84AD3996AF"
 				item: "ars_nouveau:dominion_wand"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ars_nouveau.quest2127584571994160723.title}"
-			x: -4.5d
-			y: -8.0d
+			title: "Summoning Help!"
+			x: 3.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -880,8 +864,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -4.5d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -893,7 +877,7 @@
 			}]
 			shape: "woodtier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest3567669695116018916.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "571B04DAC6DAFDAE"
 				item: {
@@ -905,12 +889,12 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -6.5d
+			x: 2.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["{ftbquests.chapter.ars_nouveau.quest5842905470572190641.description1}"]
+			description: ["With mana, your arrows are now magical arrows!"]
 			id: "51162B9185A45BB1"
 			rewards: [{
 				id: "6832CF1DF11BB58F"
@@ -919,14 +903,14 @@
 			}]
 			shape: "goldtier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest5842905470572190641.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7F425E0F613F8B23"
 				item: "ars_nouveau:spell_bow"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -7.5d
+			x: 2.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -943,22 +927,22 @@
 				item: "ars_nouveau:wand"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -5.5d
+			x: 2.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
 			hide_until_deps_complete: true
 			id: "5F1DD2ADD3D5D266"
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.ars_nouveau.quest6853865851952943718.subtitle}"
+			subtitle: "Way of Blood magic."
 			tasks: [{
 				id: "113423926A8EE1CF"
 				item: "tomeofblood:novice_tome_of_blood"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5F1DD2ADD3D5D266"]
@@ -968,8 +952,8 @@
 				item: "tomeofblood:apprentice_tome_of_blood"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.5d
+			x: -6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5773EE2F91F579CC"]
@@ -979,9 +963,9 @@
 				item: "tomeofblood:archmage_tome_of_blood"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -6.5d
+			y: 4.5d
 		}
 	]
-	title: "{ftbquests.chapter.ars_nouveau.title}"
+	title: "<shadow a=0.4><grad from=#C14BFC to=#D278FF>Ars Nouveau</grad></shadow>"
 }

@@ -1,0 +1,860 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_drawers"
+	group: "336B0783FD524DD2"
+	id: "4B830CF787C095AD"
+	images: [
+		{
+			height: 1.2d
+			image: "customtextures:textures/storage_drawers.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 0.25d
+			y: -0.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.375d
+			y: -1.4982142857142868d
+		}
+	]
+	order_index: 18
+	parent: "5F6B7CD03DAE57CA"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The wooden drawers are the main storage block in Storage Drawers, and they come in a variety of configurations and styles. "
+				""
+				"You can pick from any of the Vanilla plank colors when crafting to get a matching block."
+				""
+				"{@pagebreak}"
+				""
+				"Drawers come in six configurations, trading capacity and compactness at different points:"
+				""
+				"- Half-size 1x1: Stores 16 stacks per drawer."
+				""
+				"- Half-size 2x2: Stores 4 stacks per drawer."
+				""
+				"- Half-size 1x2: Stores 8 stacks per drawer."
+				""
+				"- Full-size 2x2: Stores 8 stacks per drawer."
+				""
+				"- Full-size 1x2: Stores 16 stacks per drawer."
+				""
+				"- Full-size 1x1: Stores 32 stacks per drawer."
+			]
+			id: "42B5662480A4AD67"
+			rewards: [{
+				id: "592B6D0685702848"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "48E1F0399C966BB5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			title: "Drawers!"
+			x: 0.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			description: ["A keyring to hold all of your keys."]
+			id: "53541DBD1AFBC14B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EE5AF38828D6443"
+				type: "random"
+			}]
+			size: 0.75d
+			subtitle: "I got keys that jingle, jangle, jingle"
+			tasks: [{
+				id: "1A2BC3D445CEC6AF"
+				item: "storagedrawers:keyring"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "343E66EE10A349D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "582E27125FC2D9F4"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Show or hide quantity labels"
+			tasks: [{
+				id: "16DBDE85C61F573A"
+				item: "storagedrawers:quantify_key"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "1AE818F2888958AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D8FAE4983AD77EB"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Show or hide item labels"
+			tasks: [{
+				id: "79597485D7E9E09D"
+				item: "storagedrawers:shroud_key"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "5B7665B821536BD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FD3D3814EA48BEC"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Protect access from other players"
+			tasks: [{
+				id: "40C2E2480AFD6F74"
+				item: "storagedrawers:personal_key"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "1FC4BBDCC8A23E2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D84E0939801936F"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Protects access from other players except CoFH friends list players"
+			tasks: [{
+				id: "487E4C546C01F89E"
+				item: "storagedrawers:personal_key_cofh"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "3E298F34216C19C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D40B1F818809062"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Protects access from other players except ur FTB teammates"
+			tasks: [{
+				id: "76C4243EE9FE8326"
+				item: "storagedrawers:personal_key_ftb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "51C5A11B2C7FB49E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FD34980DDB5248F"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Pauses Controller I/O and upgrade actions"
+			tasks: [{
+				id: "3E5B1FB900E8FAF0"
+				item: "storagedrawers:suspend_key"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "537E7C66E7CD5EBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C2A456FF6AF1869"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Cycle drawers through priority levels (useful with drawer controllers)"
+			tasks: [{
+				id: "50E2997CC3E40648"
+				item: "storagedrawers:priority_key"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53541DBD1AFBC14B"]
+			id: "4190D79A1A90C17A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DCA209B7AC52C44"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Locks your drawers to their current item"
+			tasks: [{
+				id: "3DD996B80A9ADBE3"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			description: [
+				"Compacting drawers are a special stone-colored drawer that auto-convert compressible items. Instead of manually crafting and uncrafting between gold blocks, ingots, and nuggets, put them in a compacting drawer. The drawer will internally maintain a pool of the material, and let you insert or remove the material in any of the shown forms."
+				""
+				"The compacting behavior applies to any item with a compressed recipe, including redstone, glowstone, wheat, and many others."
+			]
+			id: "04809749C88D4DEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "484A654C59EC0E07"
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 0.85d
+			subtitle: "Compacting in a compact solution"
+			tasks: [{
+				id: "2105C65F21B9FCB6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "storagedrawers:compacting_drawers_2"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:compacting_drawers_3"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:compacting_half_drawers_2"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:compacting_half_drawers_3"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Compacting Drawers"
+			x: 0.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			id: "5708D310E8670B48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0280BF1C27519B4B"
+				type: "random"
+			}]
+			size: 0.75d
+			subtitle: "Upgrade Templates that can make your drawers even better!"
+			tasks: [{
+				id: "67462CD74D093F0F"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			x: 1.125d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "68FEAD620B145BAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F44E8A9505156C0"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Increases storage by 2 times base value"
+			tasks: [{
+				id: "61F0B11E089A38A3"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "70F2DEA4570D601F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B2215387DBA85EF"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Increases storage by 4 times base value"
+			tasks: [{
+				id: "356657681EF31935"
+				item: "storagedrawers:copper_storage_upgrade"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "04ED9C1CE487B29E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3604A9ABB00A8E6B"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Increases storage by 8 times base value"
+			tasks: [{
+				id: "4A0BC127F024D70C"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "2173A2C5CB18309D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F4C45F388395E61"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Increases storage by 16 times base value"
+			tasks: [{
+				id: "326F620F1D58D614"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "21A731CCB471D8CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "516C9974DC843531"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Downgrades storage space to a single stack"
+			tasks: [{
+				id: "7C9B92E042A0E8A8"
+				item: "storagedrawers:one_stack_upgrade"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "3D3C42BD6A572926"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D0F2E6AB96D7E2E"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Increases storage by 2048 times base value"
+			tasks: [{
+				id: "2788EBF1FD7C215B"
+				item: "storagedrawers:netherite_storage_upgrade"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "1D9FA13EF19D0CE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0726EF5D8D70CCC9"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Increases storage by 256 times base value"
+			tasks: [{
+				id: "60A60C93BB0C2F54"
+				item: "storagedrawers:diamond_storage_upgrade"
+				type: "item"
+			}]
+			x: 4.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "3E7D88E699E51013"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "689CAD49DB71F86A"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Increases storage by 64 times base value"
+			tasks: [{
+				id: "35B1629983F6C27B"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "3F28A7768E76C056"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "046E126B7C811A6C"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Equalizes item counts between multiple drawers holding the same item"
+			tasks: [{
+				id: "17329C6E5B5ED883"
+				item: "storagedrawers:balance_fill_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "228DA730324D55BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C487803A588B01D"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Voids excess items added to full drawers"
+			tasks: [{
+				id: "0DA4CE9DF1AA5F7F"
+				item: "storagedrawers:void_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "2BDD796DAA0BF525"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "534C3F6F6E8331B4"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Collects items in-world"
+			tasks: [{
+				id: "6AFAA0A4BA5E2244"
+				item: "storagedrawers:hopper_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "2A56E816A89EDE12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "354A45BEC0B32222"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Collects items in-world from a distance"
+			tasks: [{
+				id: "60B2F951D0990E67"
+				item: "storagedrawers:magnet_upgrade"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "4C3005DD8397566E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6546F85B7B5A8C50"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Collects items in-world from a big distance"
+			tasks: [{
+				id: "1FDEC27C49A31137"
+				item: "storagedrawers:magnet_upgrade_2"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "117762540C8C946D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68FCC1119977CE47"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Can automatically substitute same-kind items, like variations of metal ingots"
+			tasks: [{
+				id: "7C4F9B05A892BB96"
+				item: "storagedrawers:conversion_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "322BFCC34CC14CD5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C9F6935EEAE4767"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Collects items in-world from a bigger distance"
+			tasks: [{
+				id: "459692E37F85A72F"
+				item: "storagedrawers:magnet_upgrade_3"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "7F7C6F696FB7F7DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E63004713D3A28F"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Emit redstone based on fill levels"
+			tasks: [{
+				id: "5F7C9FC38CE14F39"
+				item: "storagedrawers:redstone_upgrade"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "5FFDA98AEE53837C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A150CBAC49B21B0"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Emit redstone based on the minimum fill level of the drawer"
+			tasks: [{
+				id: "643ACD315384926C"
+				item: "storagedrawers:min_redstone_upgrade"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "5909B4DB3C5145BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75DA12D6DD329985"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Lets drawers connect remotely to the controller"
+			tasks: [{
+				id: "215495E24AAB96ED"
+				item: "storagedrawers:remote_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "76F49207F093134C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "295989A4C6D3C327"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Lets connected drawer group remotely connect to the drawer controller"
+			tasks: [{
+				id: "40657F53804417BC"
+				item: "storagedrawers:remote_group_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "6B45039C56242EA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "322FAB71E6F38E86"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Emit redstone based on the maximum fill level of the drawer"
+			tasks: [{
+				id: "0EF585E666BAF7AD"
+				item: "storagedrawers:max_redstone_upgrade"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			hide_until_deps_complete: false
+			id: "3C2515841B46A2A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20116265FE39A59A"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Brightens labels in dark places"
+			tasks: [{
+				id: "02E8C40A94FEA740"
+				item: "storagedrawers:illumination_upgrade"
+				type: "item"
+			}]
+			x: 4.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5708D310E8670B48"]
+			id: "207A3ACC907EB6B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "204EFA066B0475BC"
+				type: "random"
+			}]
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Adds a visual fill bar"
+			tasks: [{
+				id: "66B79FE66509227D"
+				item: "storagedrawers:fill_level_upgrade"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			description: ["Trim blocks are decorative wood paneled blocks similar to wooden drawers, but they can also be used to connect drawer blocks within a controller network."]
+			id: "6E1F33B7917DC69E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CEC407EFB5F8F8B"
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 0.85d
+			subtitle: "Used to connect drawers in between them"
+			tasks: [{
+				id: "0182FFA5948DF261"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:trim"
+					}
+				}
+				title: "Any #storagedrawers:trim"
+				type: "item"
+			}]
+			title: "Trims"
+			x: 0.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			description: ["You can pull out the drawer from the drawer block to transport its contents to another drawer"]
+			hide_until_deps_complete: false
+			id: "7B0E5E1DB6F1BD4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF036CECF3E2477"
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 0.85d
+			subtitle: "Packing tape but newer"
+			tasks: [
+				{
+					id: "4F4F9FC861FFDF6E"
+					item: "storagedrawers:drawer_puller"
+					type: "item"
+				}
+				{
+					id: "33DD6D10EBA3AB93"
+					item: {
+						Count: 1
+						id: "storagedrawers:detached_drawer"
+						tag: {
+							StorageMult: 8
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Detaching Drawers"
+			x: -0.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			description: ["All drawers (and other supporting blocks) can be crafted in framed versions, which lets them be restyled with different block materials."]
+			id: "3AA2697C129A80EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "085784C3CA174217"
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 0.85d
+			subtitle: "When vanilla woods are not enough variation"
+			tasks: [{
+				id: "4D749485E09358BF"
+				item: "storagedrawers:framing_table"
+				type: "item"
+			}]
+			title: "Framing Drawers"
+			x: 0.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42B5662480A4AD67"]
+			description: ["Drawer Controllers are the second special block in the mod. They will search for any connected drawer within 50 blocks by default (configurable), and then expose all of those drawers as a large combined inventory. This lets you hook up a single pipe, tube, duct, spark, storage bus, etc. and interact with the entire bank of drawers."]
+			id: "45BCC981EE6A864F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47E6C5D1985C7ED9"
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 0.85d
+			subtitle: "Control your drawers"
+			tasks: [{
+				id: "51C22BBD0FAC0074"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "storagedrawers:controller"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:controller_slave"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Drawer Controller"
+			x: -0.25d
+			y: 2.0d
+		}
+	]
+	title: "<shadow a=0.4><grad from=#FA732A to=#FFCFB5>Storage Drawers</grad></shadow>"
+}

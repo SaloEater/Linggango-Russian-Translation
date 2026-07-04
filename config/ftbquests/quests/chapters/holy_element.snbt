@@ -1,0 +1,919 @@
+{
+	autofocus_id: "5FFC7A8048BC650C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "holy_element"
+	group: "0361FC25A57730F8"
+	icon: "irons_spellbooks:holy_rune"
+	id: "499977B90865F6EF"
+	images: [
+		{
+			height: 2.0d
+			image: "irons_spellbooks:item/upgrade_orb_holy"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.5d
+		}
+	]
+	order_index: 18
+	parent: "529863295F3FB653"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			hide_dependent_lines: true
+			id: "5FFC7A8048BC650C"
+			shape: "none"
+			size: 2.5d
+			subtitle: "The Holy school is centered around support, healing, and buffing allies."
+			tasks: [{
+				id: "00301155A37773A1"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			title: "Holy magic"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/angel_wing.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "30DFF086B00CDBB2"
+			shape: "square"
+			subtitle: "Cast to gain wings made of holy energy, acting as an elytra, for a brief period of time."
+			tasks: [{
+				id: "37DFA46766AE9609"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:angel_wing"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Angel Wings"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blessing_of_life.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2839D10D16E7F51E"
+			shape: "square"
+			subtitle: "Cast to target any creature, showing a glowing outline. Completing the cast will heal this creature."
+			tasks: [{
+				id: "1FA7F22C691A6834"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blessing_of_life"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blessing of Life"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/divine_smite.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7917F1D8E6176365"
+			shape: "square"
+			subtitle: "With a fervor of holy energy, swing forth your weapon, doing a melee area attack. This spell is uninterruptible. The damage scales off of your held weapon's melee damage and enchantments."
+			tasks: [{
+				id: "466C637941DF69C4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:divine_smite"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Divine Smite"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fortify.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6D4F6397F129EE19"
+			shape: "square"
+			subtitle: "Upon casting, fortify every friendly creature within a radius around you, giving them temporary HP."
+			tasks: [{
+				id: "55464AA9FBC21B88"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fortify"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fortify"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/greater_heal.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1F6B2F0496BF329E"
+			shape: "square"
+			subtitle: "A more powerful but much slower version of heal, this spell will completely heal yourself upon being casted."
+			tasks: [{
+				id: "5EC397908132EB59"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:greater_heal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Greater Heal"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/guiding_bolt.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2D8B8DA3C9293CCD"
+			shape: "square"
+			subtitle: "Fire a slow bolt of holy energy. Creatures hit will gain the Guided effect, homing nearby projectiles in towards them."
+			tasks: [{
+				id: "1EBECEA527DACFEA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:guiding_bolt"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Guiding Bolt"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/haste.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "42E62E00C6E77055"
+			shape: "square"
+			subtitle: "In a radius around a targeted creature, or yourself if no creature is targeted, apply the Hastened effect, increasing movement speed, attack speed, mining speed, mana regeneration, and cast time reduction for a duration."
+			tasks: [{
+				id: "3FC33E14F699AD0D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:haste"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Haste"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/heal.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4E864208804FBA46"
+			shape: "square"
+			subtitle: "Cast to infuse yourself with holy energy and immediately regain health."
+			tasks: [{
+				id: "0D1D45EF74AD0874"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:heal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Heal"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/healing_circle.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "23A1A47894E1CEB8"
+			shape: "square"
+			subtitle: "Around a targeted creature or block, place a stationary circle of holy magic that heals allies within."
+			tasks: [{
+				id: "6B50BA80EBA5AEC9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:healing_circle"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Healing Circle"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/wisp.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "10CC6BC52C658BDC"
+			shape: "square"
+			subtitle: "Conjure a projectile of holy energy that will float towards nearby targets and deal damage upon impact."
+			tasks: [{
+				id: "6F73E32FAE90C372"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wisp"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Wisp"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/solar_beam.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1E51C1CEC318809D"
+			shape: "square"
+			subtitle: "Send a concentrated beam of light to your way, pierching through the undead."
+			tasks: [{
+				id: "465CA1F99B84F4D2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:solar_beam"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Solar Beam"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/mob_effect/solar_storm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "539DF0D4702A77F9"
+			shape: "square"
+			subtitle: "Cast a storm of light around you, creating a defensive walls."
+			tasks: [{
+				id: "19C0FCAF4B45B74A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "gtbcs_geomancy_plus:solar_storm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Solar Storm"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtbcs_geomancy_plus:textures/gui/spell_icons/solar_chorus.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "04804361A0F5B7D4"
+			shape: "square"
+			tasks: [{
+				id: "0491F8A679B57D82"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "gtbcs_geomancy_plus:solar_chorus"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/nullflare.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "28954CFF58478AF0"
+			shape: "square"
+			tasks: [{
+				id: "51C9388DA8768B33"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:nullflare"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/sword_of_the_ancients.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6142C96F01DCBE6E"
+			shape: "square"
+			tasks: [{
+				id: "55C3370AAB3FA12F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:sword_of_the_ancients"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/summon_desert_dwellers.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "48183E5D34047A5D"
+			shape: "square"
+			tasks: [{
+				id: "76DA394C4E1958AF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:summon_desert_dwellers"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "peyroscythe:textures/gui/spell_icons/holy_bell.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1F22E284980E94BC"
+			shape: "square"
+			tasks: [{
+				id: "33F327371A7AC248"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "peyroscythe:holy_bell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "peyroscythe:textures/gui/spell_icons/holy_lance.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3B79C18F6DFD82A1"
+			shape: "square"
+			tasks: [{
+				id: "75B7D69CF979858D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "peyroscythe:holy_lance"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/sunbeam.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5C493A1D71A75202"
+			shape: "square"
+			tasks: [{
+				id: "64EDB2D1E4D0D092"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:sunbeam"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/cleanse.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3F8EBED8678E850B"
+			shape: "square"
+			tasks: [{
+				id: "0CB12F645104CB37"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:cleanse"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/blessing.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "50DF45D86196C07C"
+			shape: "square"
+			tasks: [{
+				id: "21925C74D6AB4A7F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:blessing"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/blessed_connection.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2A1B3AD62584F549"
+			shape: "square"
+			tasks: [{
+				id: "73F1F467F2307E8D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:blessed_connection"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5FFC7A8048BC650C"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/guardian_connection.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2F1B79F036A4CD71"
+			shape: "square"
+			tasks: [{
+				id: "0250E06EEC03A93E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:guardian_connection"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+	]
+	title: "<grad from=#FCE938 to=#FFF6A6>Holy Element</grad>"
+}

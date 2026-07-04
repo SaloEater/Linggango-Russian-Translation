@@ -1,0 +1,931 @@
+{
+	autofocus_id: "46B4E8E9E2287864"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "belts"
+	group: "0FD8C2D2A2339C0B"
+	icon: {
+		Count: 1
+		id: "relics:leather_belt"
+		tag: {
+			abilities: {
+				slots: {
+					points: 0
+					stats: {
+						charm: 1.52169d
+					}
+				}
+			}
+		}
+	}
+	id: "3D0AB1A1AAC063F4"
+	images: [{
+		height: 15.0d
+		image: "customtextures:textures/belts.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: -1.5d
+		y: 0.0d
+	}]
+	order_index: 18
+	parent: "44F86CB070F12FF2"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Swimming.. in air?"]
+			id: "54EE611FD3FCB13C"
+			rewards: [{
+				id: "163BB32E01955387"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "1B708CFDE76B7B2B"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: ["Aquaman :O"]
+			id: "619B10FC3CABDA2D"
+			rewards: [{
+				id: "410965E4053BCE6C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "27C14C635F561A72"
+				item: {
+					Count: 1
+					id: "relics:drowned_belt"
+					tag: {
+						Damage: 0
+						abilities: {
+							anchor: {
+								points: 0
+								stats: {
+									sinking: 4.963d
+									slowness: 0.427d
+								}
+							}
+							pressure: {
+								points: 0
+								stats: {
+									damage: 1.842d
+								}
+							}
+							riptide: {
+								points: 0
+								stats: {
+									cooldown: 7.664d
+								}
+							}
+							slots: {
+								points: 0
+								stats: {
+									talisman: 0.882d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			description: ["Increases pets damage"]
+			id: "1D57CF65A03EFFD7"
+			rewards: [{
+				id: "2F56492D903F5785"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "51BFD71C2A58C46B"
+				item: {
+					Count: 1
+					id: "relics:hunter_belt"
+					tag: {
+						Damage: 0
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 1.533d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.636d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			description: ["Increases charm slots, which every the other belts can do too."]
+			id: "70BECE254AF986C4"
+			rewards: [{
+				id: "289C6C40F48BBA0C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "59F28256C43685F0"
+				item: {
+					Count: 1
+					id: "relics:leather_belt"
+					tag: {
+						Damage: 0
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 2.881d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Absorbs some damages, you might go cyberpsychosis. "
+				""
+				""
+				""
+				""
+				""
+				"MAINE.. no more running for me dawg, reapers finally calling my name."
+			]
+			id: "46B4E8E9E2287864"
+			rewards: [{
+				id: "7DCBFE92FC36989E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "184031C5791287A0"
+				item: {
+					Count: 1
+					id: "morerelics:biojoint"
+					tag: {
+						abilities: {
+							cyberpsychosis: {
+								points: 0
+								stats: {
+									chance: 3.02556d
+									duration: 4.48176d
+								}
+							}
+							suspension: {
+								points: 0
+								stats: {
+									max_reduction: 12.21774d
+									min_reduction: 5.92704d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: ["Grants huge amount of speed boost if your hp falls below %20"]
+			id: "4E4C10ACBB218ABD"
+			rewards: [{
+				id: "3809B59B3102F86A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "012E2A5A9A01A479"
+				item: {
+					Count: 1
+					id: "morerelics:eject_button"
+					tag: {
+						abilities: {
+							nope: {
+								points: 0
+								stats: {
+									speed: 1.81226d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "2B046CC8F4BF88E9"
+			rewards: [{
+				id: "56BE9A71E652A7AB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "5139AB6CEB3F1057"
+				item: "uniqueaccessories:championship_belt"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "7C5EBE1D8A5DF208"
+			rewards: [{
+				id: "03D47EC9A860BBAF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "20BF0C9073CB40C1"
+				item: "uniqueaccessories:silver_cat_tail"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "57B1D94FA102E55A"
+			rewards: [{
+				id: "7B784E31E73DF51A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "584B40BC5EC51D6F"
+				item: "uniqueaccessories:survival_belt"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "3F99C9E68F59AC32"
+			rewards: [{
+				id: "36CBD3F381D5A023"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "327E8EC1674DA1C3"
+				item: "uniqueaccessories:black_belt"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "42380B957E2014BB"
+			rewards: [{
+				id: "3594089891B6B43B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "4167EB727CCD9063"
+				item: "uniqueaccessories:tool_belt"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "21E1DFE214028E75"
+			rewards: [{
+				id: "12EB0BB7F5979279"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "384C0C8BDCDF31FF"
+				item: "uniqueaccessories:life_jacket_belt"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "4087CB9437EC8897"
+			rewards: [{
+				id: "1B551C184D723C9B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Belt"
+			tasks: [{
+				id: "72CD89F949716D58"
+				item: "uniqueaccessories:waist_warmer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "238019D9978A4F1E"
+			rewards: [{
+				id: "1352415D3D28625C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Belt"
+			tasks: [{
+				id: "6FD47DF1577AA73B"
+				item: {
+					Count: 1
+					id: "brutality:scientific_calculator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "0481EA421107F772"
+			rewards: [{
+				id: "67B86EF92AAFD2E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Belt"
+			tasks: [{
+				id: "3FAA5ED677915F67"
+				item: {
+					Count: 1
+					id: "brutality:warpslice_scabbard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "3E2EDF19E1FF0E9F"
+			rewards: [{
+				id: "2F2FCA6C1F5058C9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Belt"
+			tasks: [{
+				id: "5E9842ABCD09E360"
+				item: {
+					Count: 1
+					id: "brutality:archmages_trick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "39537D823FBDBE6B"
+			rewards: [{
+				id: "1E4EA8460F29D3A5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Belt"
+			tasks: [{
+				id: "4D789818CA396C4D"
+				item: {
+					Count: 1
+					id: "brutality:bruteskin_belt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "0A15F0AA33773957"
+			rewards: [{
+				id: "254D197A0AFF1737"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Belt"
+			tasks: [{
+				id: "2069FB88425C4E15"
+				item: {
+					Count: 1
+					id: "brutality:battle_scars"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "2C2E9EBD346B553E"
+			rewards: [{
+				id: "169A3CEE9FE5AF62"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Belt"
+			tasks: [{
+				id: "1F03D621154BAD85"
+				item: {
+					Count: 1
+					id: "brutality:miniature_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "1073E8F3DDF337F7"
+			tasks: [{
+				id: "576828A0058B5548"
+				item: "terramity:anti_gravity_belt"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "0C0DDB3F8F45EF60"
+			tasks: [{
+				id: "6FB1447CC42A5254"
+				item: "terramity:asteroid_belt"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "501385DA70AC1D47"
+			tasks: [{
+				id: "5E23CE29AC25F869"
+				item: "terramity:kuiper_belt"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "0ADD9EBFE9F1A1E2"
+			tasks: [{
+				id: "4E40622E67228E2C"
+				item: "terramity:sarashi"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "5EA44444BDBA9CEE"
+			tasks: [{
+				id: "6631741DFE89022F"
+				item: "terramity:hurricane_belt"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			id: "659843631320710D"
+			tasks: [{
+				id: "4CA9C588FB26447F"
+				item: "terramity:shinobi_sash"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "71561BD79691330C"
+			tasks: [{
+				id: "460A767711185756"
+				item: "terramity:sacrificial_sash"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "540B410226A6599C"
+			tasks: [{
+				id: "1FBA5E2C3CD0AFCE"
+				item: "terramity:blink_belt"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "002611C0CB3D75C6"
+			tasks: [{
+				id: "45E9428A03C8645A"
+				item: "terramity:shadowflame_sash"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			id: "4AC24396FAFEA191"
+			tasks: [{
+				id: "360C4246D679BF46"
+				item: "moreartifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			id: "15787E6C991F0802"
+			tasks: [{
+				id: "2E0430822720F000"
+				item: "moreartifacts:magic_quiver"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			id: "21E9AB58807DB24B"
+			tasks: [{
+				id: "103AC418F369EE98"
+				item: "moreartifacts:envenomed_quiver"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			id: "7F54AF0482B190A6"
+			tasks: [{
+				id: "545120574FDCC605"
+				item: "moreartifacts:molten_quiver"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "0E1E80F8D151AFA8"
+			tasks: [{
+				id: "603E607A1045D279"
+				item: "artifacts:chorus_totem"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "09DDD096CC4EDEC4"
+			tasks: [{
+				id: "2917627C0E764B61"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "37909E9ADA3024A1"
+			tasks: [{
+				id: "25E7FD5273AEB523"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "0BA66CA9F1176672"
+			tasks: [{
+				id: "35831EED471A5C76"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "2C20B1B1BD79C498"
+			tasks: [{
+				id: "6F15781E9AAA42D2"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "7E242790CC5E689B"
+			tasks: [{
+				id: "080578491D3B5C7C"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "71F24522BA464871"
+			tasks: [{
+				id: "24867B8CFB5CB9B8"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "7BF948E8F8D523D3"
+			tasks: [{
+				id: "57A7DF5B75ACA99E"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "233302203B054F3F"
+			tasks: [{
+				id: "6510DA73B315754A"
+				item: "ars_nouveau:belt_of_levitation"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "07C31AEAD6C00241"
+			tasks: [{
+				id: "7C70C8DECFCF0320"
+				item: "terramity:slam_belt"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			id: "1965308D2EA5EFBB"
+			tasks: [{
+				id: "379EB55B61364D21"
+				item: "terramity:diamond_studded_belt"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			id: "56D8DDEE80DF1917"
+			tasks: [{
+				id: "4977BDD4E3D4A88F"
+				item: "terramity:leather_belt"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			id: "699AF5455433AAA0"
+			tasks: [{
+				id: "6D355E0B0FD300E6"
+				item: "traveloptics:pocket_black_hole"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			id: "7A1CC8BA9DF45C8F"
+			tasks: [{
+				id: "66B6B491A16FB854"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							SelectedSlot: 0
+							Size: 6
+						}
+					}
+					id: "supplementaries:quiver"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			id: "68F7D50C2B477DCB"
+			tasks: [{
+				id: "344662DB3B5492FA"
+				item: "mythsandlegends:fire_heart"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			id: "48B7641926B396B0"
+			tasks: [{
+				id: "2670256E780A3F8D"
+				item: "goety:spiteful_belt"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			id: "568A375480BEC74B"
+			tasks: [{
+				id: "7BC37DA02505CA45"
+				item: "goety:wayfarers_belt"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			id: "4A814B86D5864024"
+			tasks: [{
+				id: "7B9B4DF012401021"
+				item: "goety:warlock_sash"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "7AA514CCF0D3E0F1"
+			tasks: [{
+				id: "16EDCA2F26C9D191"
+				item: "terramity:flameburst_belt"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			id: "5658B047B192CF46"
+			tasks: [{
+				id: "4E3CC19998A3BADE"
+				item: "terramity:belt_of_the_gnome_king"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "58F9EBC7FC71DC11"
+			tasks: [{
+				id: "08D898B16C5ABEE5"
+				item: "terramity:prismatic_sarashi"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "393F96EC8DC8201C"
+			tasks: [{
+				id: "70F064C56443B2D0"
+				item: "terramity:inverse_sarashi"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "7860B2BAD7D8393A"
+			tasks: [{
+				id: "0A831C1620CEBE99"
+				item: "terramity:swordsmans_sarashi"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			id: "7DBF7A333C333536"
+			tasks: [{
+				id: "49AB331CEF82D1CD"
+				item: "terramity:hubris_of_icarus"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			id: "7E8902B03CF889FC"
+			tasks: [{
+				id: "4C89C4DAF84ADF6E"
+				item: "terramity:fragile_divinity"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			id: "32951D9B744E1713"
+			tasks: [{
+				id: "1D7F561F02CCECEB"
+				item: "terramity:super_sniffers_pelt"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			id: "6311027E9D35C878"
+			tasks: [{
+				id: "53636C48CBDBDFC7"
+				item: "terramity:ultra_sniffers_pelt"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			id: "5E43E02D45107466"
+			tasks: [{
+				id: "5F5C8BA196997904"
+				item: "thermal:satchel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+	]
+	title: "Belts"
+}

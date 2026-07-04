@@ -1,0 +1,259 @@
+{
+	autofocus_id: "7414E5D2341F47B2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "anihilation_element"
+	group: "0361FC25A57730F8"
+	icon: "legendary_spellbooks:annihilation_rune"
+	id: "6298315453FA5F13"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: [
+			"All rights are reserved."
+			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+		]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -2.0d
+		y: -1.5d
+	}]
+	order_index: 20
+	parent: "529863295F3FB653"
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			id: "7414E5D2341F47B2"
+			shape: "none"
+			size: 2.5d
+			tasks: [{
+				id: "7F31C00C4354EEDA"
+				item: "legendary_spellbooks:annihilation_rune"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7414E5D2341F47B2"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/poison_arrow.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "252C017234D499CA"
+			shape: "square"
+			tasks: [{
+				id: "500FE51664BE119F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:annihilation_arrow"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7414E5D2341F47B2"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/annihilation_beam.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6FFD01CAAE18F678"
+			shape: "square"
+			tasks: [{
+				id: "760CA87A74073773"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:annihilation_beam"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7414E5D2341F47B2"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/annihilation_bomb.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3C4597D153739077"
+			shape: "square"
+			tasks: [{
+				id: "6F8AF52B74F3B0EF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:annihilation_bomb"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7414E5D2341F47B2"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/annihilation_shockwave.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "62650619EF9859AB"
+			shape: "square"
+			tasks: [{
+				id: "2FCBDF98A3F4CBB8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:annihilation_shockwave"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7414E5D2341F47B2"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/annihilation_resonance.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "18414BD40DECB6DD"
+			shape: "square"
+			tasks: [{
+				id: "2537187211B43F3B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:annihilation_resonance"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7414E5D2341F47B2"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/annihilation_geyser.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "424493E7F3FBBBF8"
+			shape: "square"
+			tasks: [{
+				id: "071C6C6B0D17F9A4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:annihilation_geyser"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+	]
+	title: "<grad from=#30FF68 to=#B6FCC9>Annihilation element</grad>"
+}

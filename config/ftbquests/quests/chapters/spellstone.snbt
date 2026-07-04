@@ -1,0 +1,173 @@
+{
+	autofocus_id: "5FC2011E80801344"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "spellstone"
+	group: "0FD8C2D2A2339C0B"
+	icon: "enigmaticlegacy:blazing_core"
+	id: "2ABBEFA400B083E6"
+	images: [
+		{
+			color: 11516159
+			height: 5.0d
+			image: "fdbosses:textures/entities/geburah/geburah_casting_circle_rotating.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			height: 15.0d
+			image: "customtextures:textures/spellstone.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: -1.5d
+			y: -1.5d
+		}
+	]
+	order_index: 23
+	parent: "44F86CB070F12FF2"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "02237C49254B086C"
+			rewards: [{
+				id: "5D64BBDB09329C50"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&cbe careful"
+			tasks: [{
+				id: "7E5DF8F09336AD76"
+				item: "enigmaticaddons:lost_engine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "523638A985673591"
+			tasks: [{
+				id: "57412DBFA28F220B"
+				item: "enigmaticaddons:forgotten_ice"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "4B1091B5AEA52626"
+			tasks: [{
+				id: "5B08645A550421A3"
+				item: "enigmaticaddons:revival_leaf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "662C89AF4E229075"
+			tasks: [{
+				id: "5ED6E15D52708303"
+				item: "enigmaticaddons:illusion_lantern"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "40E83AFB28D4298B"
+			tasks: [{
+				id: "64CDB99EA12D972C"
+				item: "enigmaticaddons:etherium_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "30AB68B1A754D306"
+			shape: "hexagon"
+			tasks: [{
+				id: "133A5AE5A1077720"
+				item: "enigmaticlegacy:enigmatic_item"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "0526715FDD7F107F"
+			tasks: [{
+				id: "79AD61EEF7D02B05"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "20472A0A1A23E044"
+			tasks: [{
+				id: "255B54AF65D1AD9C"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "6B71E56F3789EB4A"
+			tasks: [{
+				id: "4706C05E75F45F1B"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "5A52D4712F64BF9F"
+			tasks: [{
+				id: "43782A94BCB9B08E"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "4BAD1A8FE5A8F157"
+			tasks: [{
+				id: "5F72D36B93A4AAD6"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "5FC2011E80801344"
+			shape: "octagon"
+			size: 1.15d
+			tasks: [{
+				id: "2E336BD926AFBB34"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "6591D8989C11586A"
+			tasks: [{
+				id: "60DF44A6391C3485"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+	]
+	title: "Spellstones"
+}

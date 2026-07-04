@@ -1,0 +1,1327 @@
+{
+	autofocus_id: "52B98FB81E05F53B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lightning_element"
+	group: "0361FC25A57730F8"
+	icon: "irons_spellbooks:lightning_rune"
+	id: "0A52E093EC3BB1B4"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: [
+			"All rights are reserved."
+			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+		]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 1.0d
+		y: -3.5d
+	}]
+	order_index: 13
+	parent: "529863295F3FB653"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			hide_dependent_lines: true
+			icon: "irons_spellbooks:lightning_rune"
+			id: "52B98FB81E05F53B"
+			shape: "none"
+			size: 2.5d
+			subtitle: "The Lightning school is centered around concentrated damage."
+			tasks: [{
+				id: "201E923E0CFEE26A"
+				item: "irons_spellbooks:lightning_rune"
+				type: "item"
+			}]
+			title: "Lightning magic"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ascension.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "06C88AAAD05EFFCC"
+			shape: "square"
+			subtitle: "Cast to strike lightning at your feet and ascend quickly into the air, and gain reduced gravity for the next few seconds."
+			tasks: [{
+				id: "1068AFD3774C33ED"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ascension"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ascension"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ball_lightning.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4DE794DE317DF3B3"
+			shape: "square"
+			subtitle: "Conjure an orb of lightning that slowly moves forward, damaging creatures it phases through and bouncing off blocks."
+			tasks: [{
+				id: "39E0CDA3934FA89D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ball_lightning"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ball Lightning"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/chain_lightning.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "46FEC22AA8E22243"
+			shape: "square"
+			subtitle: "Start a chain of lightning from a targeted creature, causing waves of zapping magic to cascade to nearby creatures."
+			tasks: [{
+				id: "7D35BA9F75CEECA0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:chain_lightning"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Chain Lightning"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/charge.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1700885208337609"
+			shape: "square"
+			subtitle: "Imbue yourself with the power of lightning, increasing your speed and combat abilities."
+			tasks: [{
+				id: "2194A61DB814A12F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:charge"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Charge"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/electrocute.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2EEAF9EDC2085858"
+			shape: "square"
+			subtitle: "Hold to manifest a cone of electrical energy, damaging creatures in its path."
+			tasks: [{
+				id: "7AF2F8882594CBAB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:electrocute"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Electrocute"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/lightning_bolt.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "73DA876C6B35F311"
+			shape: "square"
+			subtitle: "Down from the heavens, summon a bolt of lightning."
+			tasks: [{
+				id: "12D725FE5C9EAAB1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:lightning_bolt"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Lightning Bolt"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/lightning_lance.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3341D5C8BED3A0A3"
+			shape: "square"
+			subtitle: "Hold to charge a spear made of lightning. Release to throw it like a javelin, dealing high damage to the creature it hits."
+			tasks: [{
+				id: "01821866800BAEEC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:lightning_lance"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Lightning Lance"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/shockwave.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "58A1874E6C623430"
+			shape: "square"
+			subtitle: "Coalesce a surge of electrical power, and unleash it in a devastating shockwave, blasting exposed creatures."
+			tasks: [{
+				id: "2A63DE9429D43F74"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:shockwave"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Shockwave"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/thunderstorm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "79FF384713ABFCD8"
+			shape: "square"
+			subtitle: "Cast to conjure a thunderstorm centered around yourself, which strikes nearby creatures within sight with a small bolt of lightning every 2 seconds for the spell's duration."
+			tasks: [{
+				id: "290FD1F404EB5713"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:thunderstorm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Thunderstorm"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/em_pulse.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "38C649B818615BF3"
+			shape: "square"
+			tasks: [{
+				id: "195F52E2C7B17379"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:em_pulse"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/rapid_laser.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0DC25E4439B93CCC"
+			shape: "square"
+			tasks: [{
+				id: "2C1EA75BDED864A8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:rapid_laser"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/death_laser.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "64BFB56B430AA20D"
+			shape: "square"
+			tasks: [{
+				id: "4BF853D9DB715C68"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:death_laser"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/magnetron_deployment.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7575703E0A648901"
+			shape: "square"
+			tasks: [{
+				id: "2824ED38E8D302EB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:magnetron_deployment"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/mechanized_predator.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "20999113CD0EC69B"
+			shape: "square"
+			tasks: [{
+				id: "11C95D3DC9E74520"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:mechanized_predator"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/galena_shatter.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4D79485DBB83F6F5"
+			shape: "square"
+			tasks: [{
+				id: "58A538BD0D7E1358"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:galena_shatter"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon_scale: 1.4d
+			id: "22F29887316B2A1A"
+			shape: "square"
+			tasks: [{
+				id: "3E41418989291588"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "alshanex_familiars:megido"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/lightning_spark.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6289A9CDC5E987E8"
+			shape: "square"
+			tasks: [{
+				id: "76385D49101071B4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:lightning_spark"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/lightning_strike.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "25D1F3AB453705CB"
+			shape: "square"
+			tasks: [{
+				id: "0FF9EBF831D561AE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:lightning_strike"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/lightning_lash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1E98DD1FF2AFE8E4"
+			shape: "square"
+			tasks: [{
+				id: "2389A8A928BFF9C3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:lightning_lash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/lightning_cut.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "60A532E6AE3BF8AD"
+			shape: "square"
+			tasks: [{
+				id: "7B140A4B0A68C69F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:lightning_cut"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/lightning_field.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "54F307FEE53401BF"
+			shape: "square"
+			tasks: [{
+				id: "6B9721925E795D7F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:lightning_field"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/volt_strike.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "689D170D58AAC032"
+			shape: "square"
+			tasks: [{
+				id: "29F702B456D559E6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:volt_strike"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/lightning_ball.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "34A064CE6C2F0794"
+			shape: "square"
+			tasks: [{
+				id: "7795716E79E13094"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:lightning_ball"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/lightning_dance.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "44155FD4986C4BB8"
+			shape: "square"
+			tasks: [{
+				id: "3E3929D21159178A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:lightning_dance"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/lightning_swarm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "40925C625E877F58"
+			shape: "square"
+			tasks: [{
+				id: "0F51ACB2218276DE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:lightning_swarm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/lightning_spear.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2EBE8E08A9D1E0DF"
+			shape: "square"
+			tasks: [{
+				id: "796988E39A4B0343"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:lightning_spear"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "refined_mod:textures/gui/spell_icons/thunder_strike.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "300A8AFCFB58D999"
+			shape: "square"
+			tasks: [{
+				id: "1E3FABD3324E0E87"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "refined_mod:thunder_strike"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/cloud_rail.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4DD22FB26D094289"
+			shape: "square"
+			tasks: [{
+				id: "617C9B40DD2D04A3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:cloud_rail"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/cloud_ring.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "19B9673BA1FE5D86"
+			shape: "square"
+			tasks: [{
+				id: "6C87F1427018D27C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:cloud_ring"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/nimbus_array.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "551CA8E89F7E46AD"
+			shape: "square"
+			tasks: [{
+				id: "219D24E6FEA83F97"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:nimbus_array"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/thunder_fanburst.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "493FBDC216091351"
+			shape: "square"
+			tasks: [{
+				id: "0723305F23F20F17"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:thunder_fanburst"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/tornado.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0C438D20158A69AD"
+			shape: "square"
+			tasks: [{
+				id: "3CB4D88F277E6616"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:tornado"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/quad_tornado.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3431FF285570EFFD"
+			shape: "square"
+			tasks: [{
+				id: "2BFF0A1D387AD14C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:quad_tornado"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/cumulo_charge.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "25CA7E22F88585A7"
+			shape: "square"
+			tasks: [{
+				id: "60BCF32D4390EDA2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:cumulo_charge"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["52B98FB81E05F53B"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/triple_nimbus_array.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "21850C594CAD7423"
+			shape: "square"
+			tasks: [{
+				id: "473E618A3A282B69"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:triple_nimbus_array"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+	]
+	title: "<grad from=#32A8FC to=#FFFFFF>Lightning Element</grad>"
+}

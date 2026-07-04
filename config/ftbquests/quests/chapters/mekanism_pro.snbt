@@ -3,22 +3,22 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "netheritetier"
 	filename: "mekanism_pro"
-	group: "3C6437AAADAFC5CB"
+	group: "336B0783FD524DD2"
 	icon: "mekanism:sps_port"
 	id: "1608F5BC7B90120F"
 	images: [
 		{
-			height: 2.0d
-			image: "customtextures:textures/mekanismlogo.png"
+			height: 1.95d
+			image: "customtextures:textures/mekanism_logo.png"
 			rotation: 0.0d
-			width: 7.0d
+			width: 8.0d
 			x: -5.0d
 			y: 0.0d
 		}
 		{
 			click: "https://wiki.aidancbrady.com/"
 			height: 1.0d
-			hover: ["ftbquests.chapter.mekanism_pro.image.hovertext1"]
+			hover: ["Mekanism Wiki Page"]
 			image: "customtextures:textures/wikipng.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -28,24 +28,29 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.mekanism_pro.image.hovertext2"]
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.0d
-			y: 2.0d
+			x: -5.0d
+			y: -1.5d
 		}
 	]
-	order_index: 13
+	order_index: 7
+	parent: "23983F4DC524B14B"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["24174700F7FB771C"]
 			description: [
-				"{ftbquests.chapter.mekanism_pro.quest3941099766277645940.description1}"
+				"Generators will generate lot of heat and dangerous gasses."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest3941099766277645940.description2}"
+				"Make sure to be prepared!"
 			]
 			id: "36B1995B495AA674"
 			rewards: [{
@@ -54,7 +59,7 @@
 				xp: 10
 			}]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest3941099766277645940.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "14BF9ADCB8F43ADC"
@@ -77,16 +82,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest3941099766277645940.title}"
+			title: "Hazmat Protection"
 			x: -5.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["36B1995B495AA674"]
 			description: [
-				"{ftbquests.chapter.mekanism_pro.quest1478010621664392733.description1}"
+				"Every edge of outer shell will be made with fission reactor casing."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest1478010621664392733.description2}"
+				"The other faces can be made with multiple materials."
 			]
 			hide_until_deps_visible: false
 			icon: "mekanismgenerators:fission_reactor_casing"
@@ -97,7 +102,7 @@
 				xp: 100
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest1478010621664392733.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					count: 44L
@@ -112,13 +117,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest1478010621664392733.title}"
+			title: "Building The Basics Of The Reactor"
 			x: -5.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1482F2D45E8F761D"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest474768184172394902.description1}"]
+			description: ["Every reactor needs 4 ports minimum to work."]
 			icon: "mekanismgenerators:fission_reactor_port"
 			id: "0696B725E840B996"
 			rewards: [{
@@ -126,14 +131,14 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest474768184172394902.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 4L
 				id: "057CDA5BC0C5F774"
 				item: "mekanismgenerators:fission_reactor_port"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest474768184172394902.title}"
+			title: "Interacting with The Reactor"
 			x: -6.0d
 			y: 6.0d
 		}
@@ -159,13 +164,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest4562164180411083744.title}"
+			title: "Fuel Controlling"
 			x: -4.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["3B81800EE6E77EF2"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest9085919177429127838.description1}"]
+			description: ["Uranium can be used in enrichment chamber to make uranium cake.. yum."]
 			icon: "immersiveengineering:ingot_uranium"
 			id: "7E17AB5A4492929E"
 			rewards: [{
@@ -174,7 +179,7 @@
 				xp: 25
 			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest9085919177429127838.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					count: 2L
@@ -188,44 +193,38 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest9085919177429127838.title}"
+			title: "Uranium"
 			x: -6.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["7E17AB5A4492929E"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest4248273049421148043.description1}"]
+			description: ["Uranium cake can be used on chemical oxidizer&r to create uranium oxide gas"]
 			id: "3AF4E5D4839CEF8B"
 			rewards: [{
 				id: "147637FB74512198"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest4248273049421148043.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "772EA844FE7C1B74"
 				item: "mekanism:chemical_oxidizer"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest4248273049421148043.title}"
+			title: "Creating Uranium Oxide"
 			x: -6.5d
 			y: 10.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.mekanism_pro.quest2600625379315775260.description1}"
+				"Mekanism has some multi-block structures that we can create, such as reactors.. "
 				""
-				"{ftbquests.chapter.mekanism_pro.quest2600625379315775260.description2}"
+				"It sounds scary, which it is scary but more like scaringly time consuming."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest2600625379315775260.description3}"
+				"Inspiration from ATM9"
 			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "rubinated_nether:block/reactor/end_run"
-				}
-			}
+			icon: "mekanismgenerators:control_rod_assembly"
 			id: "24174700F7FB771C"
 			rewards: [{
 				id: "73F5CE911AC4474C"
@@ -234,13 +233,13 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest2600625379315775260.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3153288DCE1C4FEF"
-				title: "{ftbquests.chapter.mekanism_pro.quest2600625379315775260.task.3554229120438915055.title}"
+				title: "Hooray"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest2600625379315775260.title}"
+			title: "&dWelcome to Mekanism: &rAdvanced"
 			x: -5.0d
 			y: 2.0d
 		}
@@ -250,9 +249,9 @@
 				"3F5010269469EBE0"
 			]
 			description: [
-				"{ftbquests.chapter.mekanism_pro.quest4287849121725251314.description1}"
+				"The Fission Reactor we will create needs &eFissile Fuel&r to run."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest4287849121725251314.description2}"
+				"You can follow the future quests to learn how to make it!"
 			]
 			icon: "create_new_age:nuclear_fuel"
 			id: "3B81800EE6E77EF2"
@@ -261,19 +260,19 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest4287849121725251314.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "382818E289EC83A6"
-				title: "{ftbquests.chapter.mekanism_pro.quest4287849121725251314.task.4046511626448044966.title}"
+				title: "AIGHT MAN"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest4287849121725251314.title}"
+			title: "Reactors ain't free"
 			x: -5.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["3B81800EE6E77EF2"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest1763791865247811875.description1}"]
+			description: ["Let's take our Sulfuric Acid&r and combine it with Fluorite&r in a Chemical Dissolution Chamber&r to make Hydrofluoric Acid&r."]
 			icon: "mekanism:chemical_dissolution_chamber"
 			id: "187A3F5B41D1C923"
 			rewards: [{
@@ -281,7 +280,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest1763791865247811875.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "3A5FB51FB9B65990"
@@ -294,7 +293,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest1763791865247811875.title}"
+			title: "Hydrofluoric Acid"
 			x: -3.5d
 			y: 8.0d
 		}
@@ -303,26 +302,26 @@
 				"187A3F5B41D1C923"
 				"3AF4E5D4839CEF8B"
 			]
-			description: ["{ftbquests.chapter.mekanism_pro.quest3919232553619224803.description1}"]
+			description: ["Combine hydrofluoric acid with uranium oxide to make uranium hexafluoride."]
 			id: "3663E93E169EF8E3"
 			rewards: [{
 				id: "1AA24CF536807D83"
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest3919232553619224803.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "73C5F4AC41EE5123"
 				item: "mekanism:chemical_infuser"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest3919232553619224803.title}"
+			title: "Making Uranium Hexafluoride"
 			x: -3.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["3663E93E169EF8E3"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest1632207961318472144.description1}"]
+			description: ["With Isotopic Centrifuge, we can use Uranium Hexafluoride to create Fissile Fuel!"]
 			icon: "mekanism:isotopic_centrifuge"
 			id: "16A6C47E35F3B9D0"
 			rewards: [{
@@ -331,39 +330,39 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest1632207961318472144.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3F2371FD486D4F0E"
 				item: "mekanism:isotopic_centrifuge"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest1632207961318472144.title}"
+			title: "Creating Fissile Fuel"
 			x: 0.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["16A6C47E35F3B9D0"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest4611562979864487779.description1}"]
+			description: ["Radioactive Waste Barrel will safely store the waste, without causing a radiation spill. "]
 			id: "3FFF9018DA2A2763"
 			rewards: [{
 				id: "1EEAAB174D95E4B6"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest4611562979864487779.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 3L
 				id: "45EC7D8BA0CCFB07"
 				item: "mekanism:radioactive_waste_barrel"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest4611562979864487779.title}"
+			title: "Dealing with Nuclear Waste"
 			x: 0.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["3FFF9018DA2A2763"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest3359623595466096014.description1}"]
+			description: ["Nuclear wastes are not useless of course they can be used on isotopic centrifuge to create plutonium!"]
 			id: "2E9FC7DC2AC6FD8E"
 			rewards: [{
 				id: "353657D187263DAA"
@@ -371,7 +370,7 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest3359623595466096014.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6B40312EE7C8875D"
 				item: "mekanism:pellet_plutonium"
@@ -382,7 +381,7 @@
 		}
 		{
 			dependencies: ["3FFF9018DA2A2763"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest2281908983660559046.description1}"]
+			description: ["Nuclear wastes are not useless of course they can be used in neutron activator to create polonium!"]
 			id: "1FAAF8216CDC3AC6"
 			rewards: [{
 				id: "316FC7C98CC22E11"
@@ -390,7 +389,7 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest2281908983660559046.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "38A344B697C93B3B"
 				item: "mekanism:pellet_polonium"
@@ -404,7 +403,7 @@
 				"2E9FC7DC2AC6FD8E"
 				"1FAAF8216CDC3AC6"
 			]
-			description: ["{ftbquests.chapter.mekanism_pro.quest470389621031375811.description1}"]
+			description: ["The Supercritical Phase Shifter (SPS) is a multiblock structure that charges Polonium with lots of power to make Antimatter&r gas, which can then be crystallized into pellets."]
 			icon: "mekanism:sps_casing"
 			id: "068728DE3B9B13C3"
 			rewards: [
@@ -421,7 +420,7 @@
 			]
 			shape: "netheritetier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest470389621031375811.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					count: 60L
@@ -442,16 +441,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest470389621031375811.title}"
+			title: "Super Critical Phase Shifter"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["068728DE3B9B13C3"]
 			description: [
-				"{ftbquests.chapter.mekanism_pro.quest2536086092095647898.description1}"
+				"The Supercharged Coil is placed on a (SPS) in the center of two faces, "
 				""
-				"{ftbquests.chapter.mekanism_pro.quest2536086092095647898.description2}"
+				"When powered kaboom! You got antimatter now :D"
 			]
 			id: "2331FCDD2F2B709A"
 			rewards: [
@@ -466,13 +465,13 @@
 					xp: 100
 				}
 			]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest2536086092095647898.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "48A70F1D73DE5E37"
 				item: "mekanism:supercharged_coil"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest2536086092095647898.title}"
+			title: "Supercharged Coils"
 			x: 0.0d
 			y: 0.7738095238095255d
 		}
@@ -486,7 +485,7 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest67492091716407414.subtitle}"
+			subtitle: "Crafting material for some end game items, blocks."
 			tasks: [{
 				id: "3B83170BC4E75158"
 				item: "mekanism:pellet_antimatter"
@@ -498,9 +497,9 @@
 		{
 			dependencies: ["79757F66DF263FA0"]
 			description: [
-				"{ftbquests.chapter.mekanism_pro.quest3606468751157506453.description1}"
+				"The Laser Amplifier has a red dot on one face — point that face at the Laser Focus Matrix."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest3606468751157506453.description2}"
+				"Turn the Laser Amplifier off and wait until it has at least 400 MRF&r stored."
 			]
 			id: "320CC038A64A3195"
 			rewards: [
@@ -517,7 +516,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest3606468751157506453.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "1F82E1E037CBDC34"
@@ -531,7 +530,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest3606468751157506453.title}"
+			title: "Laser Focus"
 			x: 5.0d
 			y: 5.0d
 		}
@@ -548,7 +547,7 @@
 				item: "mekanism:solar_neutron_activator"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest6292460656748415349.title}"
+			title: "Tritium Gas"
 			x: 4.5d
 			y: 3.0d
 		}
@@ -566,7 +565,7 @@
 				item: "mekanism:electric_pump"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest5386031546301324761.title}"
+			title: "Deuterium Gas"
 			x: 4.5d
 			y: 1.0d
 		}
@@ -586,13 +585,13 @@
 				item: "mekanismgenerators:hohlraum"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest3860668265589836909.title}"
+			title: "Fuel Injector"
 			x: 7.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1FAAF8216CDC3AC6"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest8752041530671644576.description1}"]
+			description: ["The Laser Focus Matrix is placed in the center of one the faces of the Fusion Reactor and you.. you need to power it ALOT."]
 			icon: "mekanism:laser"
 			id: "79757F66DF263FA0"
 			rewards: [{
@@ -600,19 +599,19 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest8752041530671644576.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "5799CEC4031D454E"
 				item: "mekanismgenerators:laser_focus_matrix"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest8752041530671644576.title}"
+			title: "Laser Beam"
 			x: 3.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1FAAF8216CDC3AC6"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest1356270912877895950.description1}"]
+			description: ["Fusion Reactors require D-T fuel, don't use anything else."]
 			icon: "mekanismgenerators:fusion_fuel_bucket"
 			id: "12D271359D48210E"
 			rewards: [{
@@ -621,13 +620,13 @@
 				xp: 10
 			}]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest1356270912877895950.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "2A6E713A062510B6"
-				title: "{ftbquests.chapter.mekanism_pro.quest1356270912877895950.task.3057505691056279734.title}"
+				title: "I got this"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest1356270912877895950.title}"
+			title: "Fueling "
 			x: 2.0d
 			y: 3.0d
 		}
@@ -652,31 +651,30 @@
 				{
 					exclude_from_claim_all: true
 					id: "00435F638BDA67E5"
-					table_id: 8699295573854160387L
 					type: "random"
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest2797586672005784278.subtitle}"
+			subtitle: "Good Job!"
 			tasks: [{
 				id: "1EEEE30BA51757D6"
 				max_input: 1000L
-				title: "{ftbquests.chapter.mekanism_pro.quest2797586672005784278.task.2228968504748890070.title}"
+				title: "Holy shit!"
 				type: "forge_energy"
 				value: 50000000L
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest2797586672005784278.title}"
+			title: "The Best Power Source!"
 			x: 7.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["3FFF9018DA2A2763"]
 			description: [
-				"{ftbquests.chapter.mekanism_pro.quest7139245032527386754.description1}"
+				"The Industrial Turbine&r convers heat into power but it's more advanced than that."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest7139245032527386754.description2}"
+				"The minimum size you can build is 5x5x5, with the maximum size being 17x17x18."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest7139245032527386754.description3}"
+				"I suggest checking a tutorial!"
 			]
 			id: "6313B18820445882"
 			rewards: [{
@@ -684,7 +682,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest7139245032527386754.subtitle}"
+			subtitle: "How To Build?"
 			tasks: [
 				{
 					count: 52L
@@ -699,20 +697,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest7139245032527386754.title}"
+			title: "The Industrial Turbine"
 			x: 2.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["6313B18820445882"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest2539541471276403190.description1}"]
+			description: ["Turbine vents are used to pump out extra water when using condensers."]
 			id: "233E438357CD89F6"
 			rewards: [{
 				id: "0A4A1734D68DC205"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest2539541471276403190.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					count: 2L
@@ -733,16 +731,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest2539541471276403190.title}"
+			title: "Building The Vents"
 			x: 2.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["6313B18820445882"]
 			description: [
-				"{ftbquests.chapter.mekanism_pro.quest419410155169621065.description1}"
+				"If you plan on building a bigger turbine, increase the width and blade amount."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest419410155169621065.description2}"
+				"Again check yt for building tutorials."
 			]
 			id: "05D20B506213A449"
 			rewards: [{
@@ -750,7 +748,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest419410155169621065.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					count: 3L
@@ -776,26 +774,26 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest419410155169621065.title}"
+			title: "Building The Rotor Part"
 			x: 3.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["6313B18820445882"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest8962603528795703677.description1}"]
+			description: ["Convers kinetic energy into power!"]
 			id: "7C61906C6C87C97D"
 			rewards: [{
 				id: "18AE58687D78BB0F"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest8962603528795703677.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4C0CC372A8597375"
 				item: "mekanismgenerators:electromagnetic_coil"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest8962603528795703677.title}"
+			title: "Electromagnetic Coil"
 			x: 2.0d
 			y: 9.5d
 		}
@@ -806,11 +804,11 @@
 				"05D20B506213A449"
 			]
 			description: [
-				"{ftbquests.chapter.mekanism_pro.quest4722512658670362444.description1}"
+				"You gonna see red particles around the structure if it works."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest4722512658670362444.description2}"
+				"Right-click on the turbine and open it's interface."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest4722512658670362444.description3}"
+				"This screen you will be looking at will tell you all the essential information."
 			]
 			id: "4189BC3DFB551F4C"
 			rewards: [{
@@ -819,19 +817,19 @@
 				xp: 250
 			}]
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest4722512658670362444.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "2FFE6CDB1C5E6BA6"
 				item: "mekanismgenerators:turbine_blade"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest4722512658670362444.title}"
+			title: "Creating Powa!"
 			x: 5.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["24174700F7FB771C"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest1150760819099966608.description1}"]
+			description: ["If you plan to generate a huge amount of power, you'll need a better way to store it — because Energy Cubes&r alone won’t be enough."]
 			icon: "mekanism:dust_lithium"
 			id: "0FF852DE33E41C90"
 			rewards: [{
@@ -840,7 +838,7 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest1150760819099966608.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "31A1425AA09C33F8"
 				item: {
@@ -850,27 +848,27 @@
 						value: "forge:dusts/lithium"
 					}
 				}
-				title: "{ftbquests.chapter.mekanism_pro.quest1150760819099966608.task.3576212536117965816.title}"
+				title: "Lithium Dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism_pro.quest1150760819099966608.title}"
+			title: "Storing More Power"
 			x: -3.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
 			description: [
-				"{ftbquests.chapter.mekanism_pro.quest7439889377202605806.description1}"
-				"{ftbquests.chapter.mekanism_pro.quest7439889377202605806.image0}"
-				"{ftbquests.chapter.mekanism_pro.quest7439889377202605806.description2}"
+				"Mekanism multi-block structures are built in similiar ways."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"You need to build a rectangular prism-shaped structure."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest7439889377202605806.description3}"
+				"-The edges must be made of Induction Casings&r."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest7439889377202605806.description4}"
+				"-The sides (faces) can be made of Induction Casings&r, Structural Glass&r, or Induction Ports&r."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest7439889377202605806.description5}"
+				"-It’s recommended to have two Induction Ports&r — one for input and one for output."
 				""
-				"{ftbquests.chapter.mekanism_pro.quest7439889377202605806.description6}"
+				"-You can switch a port between input and output using the Configurator&r."
 			]
 			hide_until_deps_visible: false
 			icon: "mekanism:induction_port"
@@ -880,7 +878,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest7439889377202605806.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					count: 44L
@@ -901,18 +899,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest7439889377202605806.title}"
+			title: "Building The Induction"
 			x: -2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
 			description: [
-				"{ftbquests.chapter.mekanism_pro.quest1501794897200147170.description1}"
-				"{ftbquests.chapter.mekanism_pro.quest1501794897200147170.image0}"
-				"{ftbquests.chapter.mekanism_pro.quest1501794897200147170.description2}"
-				"{ftbquests.chapter.mekanism_pro.quest1501794897200147170.image2}"
-				"{ftbquests.chapter.mekanism_pro.quest1501794897200147170.description3}"
+				"The Induction Matrix&r lets you customize your power storage and transfer capacity by placing Induction Cells&r and Induction Providers&r inside the multiblock structure you will build."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Induction cells will upgrade the amount of storage"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Induction providers will increase the speed of transaction"
 				""
 			]
 			hide_until_deps_visible: false
@@ -923,7 +921,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest1501794897200147170.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "4063C1B5F935A026"
@@ -951,7 +949,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.mekanism_pro.quest1501794897200147170.task.4639765028436025382.title}"
+					title: "Induction Cells"
 					type: "item"
 				}
 				{
@@ -980,11 +978,11 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.mekanism_pro.quest1501794897200147170.task.3332647410951687640.title}"
+					title: "Induction Providers"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest1501794897200147170.title}"
+			title: "Increasing The Limits"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -993,7 +991,7 @@
 				"673FCBF8685D0EEE"
 				"14D772808D1BEAE2"
 			]
-			description: ["{ftbquests.chapter.mekanism_pro.quest571051696246831505.description1}"]
+			description: ["If u see red particles, that means u did it right!"]
 			icon: "mekanism:induction_casing"
 			id: "07ECC87DFF2D3991"
 			rewards: [{
@@ -1003,7 +1001,7 @@
 			}]
 			shape: "netheritetier"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism_pro.quest571051696246831505.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					count: 44L
@@ -1049,7 +1047,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.mekanism_pro.quest571051696246831505.task.2239336027158050867.title}"
+					title: "Induction Cells"
 					type: "item"
 				}
 				{
@@ -1078,14 +1076,14 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.mekanism_pro.quest571051696246831505.task.7589644992830293540.title}"
+					title: "Induction Providers"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism_pro.quest571051696246831505.title}"
+			title: "Induction"
 			x: -1.5d
 			y: 2.0d
 		}
 	]
-	title: "{ftbquests.chapter.mekanism_pro.title}"
+	title: "<shadow><grad from=#A2FCD6 to=#1E9E5B>Mekanism: Advanced</grad></shadow>"
 }

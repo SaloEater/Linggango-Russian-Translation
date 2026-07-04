@@ -1,0 +1,986 @@
+{
+	autofocus_id: "14092DE967A44552"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "head"
+	group: "0FD8C2D2A2339C0B"
+	icon: {
+		Count: 1
+		id: "artifacts:anglers_hat"
+		tag: {
+			"starcatcher:catch_modifiers": ["starcatcher:anglers_hat"]
+		}
+	}
+	id: "4103FF7DA6BCBD3D"
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 15.0d
+			image: "customtextures:textures/head.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	order_index: 11
+	parent: "44F86CB070F12FF2"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The angler hat helps you with fishing."]
+			id: "4AA6F533717726F6"
+			rewards: [{
+				id: "198301CED346C1BD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Head"
+			tasks: [{
+				id: "1847A7A00C301AAE"
+				item: "artifacts:anglers_hat"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			description: ["Kachoow!"]
+			id: "33966CCC8C2F22FD"
+			rewards: [{
+				id: "02F92C66CCC75DD6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Head"
+			tasks: [{
+				id: "13CA21EE39B0684F"
+				item: "artifacts:cowboy_hat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Higher chance of getting a rare drop from a mob"]
+			id: "46870327E2FE0218"
+			rewards: [{
+				id: "14F67FE88C86FE32"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Head"
+			tasks: [{
+				id: "6F4C6462EB0BA6B3"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			description: ["The idiot villagers will think you are one of them now-- Leading to lower prices."]
+			id: "3CB4C4A86275E992"
+			rewards: [{
+				id: "63DE0F629A6A5776"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Head"
+			tasks: [{
+				id: "52855659EFD05831"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Night-vision"]
+			id: "753CBF59C2D344CF"
+			rewards: [{
+				id: "3667581EB3CF4727"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Head"
+			tasks: [{
+				id: "4D64F4187EB2B9C3"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Snorkel gives you a short duration water breathing."]
+			id: "16787C21A3D54F56"
+			rewards: [{
+				id: "41329C9054528CEA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Head"
+			tasks: [{
+				id: "35C8086E1BA9067C"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			description: ["Same drinking hat.. with more drip"]
+			id: "07C28BBE19980B11"
+			rewards: [{
+				id: "5D10A7EEAE647BA4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Head"
+			tasks: [{
+				id: "3CCC2F98CF8810DB"
+				item: "artifacts:novelty_drinking_hat"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			description: ["Eating and drinking is way faster now!"]
+			id: "34DBD3C54563303E"
+			rewards: [{
+				id: "78E929CE851E49AB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Head"
+			tasks: [{
+				id: "4E01FCDDA9D7BD0F"
+				item: "artifacts:plastic_drinking_hat"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Allows you to see entites. "
+				""
+				"You might go cyberpsychosis."
+			]
+			id: "73E9AD343DA29ED1"
+			rewards: [{
+				id: "417E326F72A36BB4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamondtier"
+			subtitle: "Head"
+			tasks: [{
+				id: "59556052019FA1B1"
+				item: {
+					Count: 1
+					id: "morerelics:bionic_eye"
+					tag: {
+						abilities: {
+							cyberpsychosis: {
+								points: 0
+								stats: {
+									chance: 4.67516d
+									duration: 5.49199d
+								}
+							}
+							seeker: {
+								points: 0
+								stats: {
+									cooldown: 103.69659d
+									duration: 13.52911d
+									range: 7.56649d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			description: ["Deal more damage to pigs, have more life steal the less hp you got."]
+			id: "30C52CF7B68D0828"
+			rewards: [{
+				id: "6BA7107DE9EEFBB4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Head"
+			tasks: [{
+				id: "531B3B89AF068264"
+				item: {
+					Count: 1
+					id: "morerelics:crown_of_the_legend"
+					tag: {
+						abilities: {
+							never_die: {
+								points: 0
+								stats: {
+									potency: 0.19777d
+								}
+							}
+							pig_king: {
+								points: 0
+								stats: {
+									perch: 0.30371d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Are you sure you want to put this on?"]
+			id: "05C88A072A984706"
+			rewards: [{
+				id: "09B040926B3B51CF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamondtier"
+			subtitle: "Head"
+			tasks: [{
+				id: "40625AC131823E31"
+				item: {
+					Count: 1
+					id: "morerelics:tyrant_mask"
+					tag: {
+						abilities: {
+							regrets: {
+								points: 0
+								stats: {
+									debuff: 20.0d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: ["I won't even explain this one, if u didn't watch jojo's bizarre adventure it's YOUR fault."]
+			id: "14092DE967A44552"
+			rewards: [{
+				id: "30D349CF5B3DEB1D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamondtier"
+			subtitle: "Head"
+			tasks: [{
+				id: "730BB748BD38278F"
+				item: {
+					Count: 1
+					id: "morerelics:king_crimson"
+					tag: {
+						abilities: {
+							epitaph: {
+								points: 0
+								stats: {
+									cooldown: 185.96988d
+								}
+							}
+							talk_to_the_wind: {
+								points: 0
+								stats: {
+									chance: 4.93139d
+									seconds: 4.68897d
+								}
+							}
+							the_court: {
+								points: 0
+								stats: {
+									threshold: 4.95494d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "7ED56228FE6C357C"
+			rewards: [{
+				id: "72B4AF6557462CC7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "4147776741CAAD68"
+				item: {
+					Count: 1
+					id: "brutality:solar_system"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "438DE793AC0E3ED4"
+			rewards: [{
+				id: "6DCDFA6A7B313AFE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "6397FBD781B38375"
+				item: {
+					Count: 1
+					id: "brutality:wooly_blindfold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "14F743FA5FC25ADD"
+			rewards: [{
+				id: "40F4F97C69EADED7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "31D7DEAD27A90058"
+				item: {
+					Count: 1
+					id: "brutality:trial_guardian_eyebrows"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "6B1C8B297606B735"
+			rewards: [{
+				id: "293B553C1254D5D0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "2BFAF05E32014811"
+				item: {
+					Count: 1
+					id: "brutality:trial_guardian_hands"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "743DE318F35CA5FA"
+			rewards: [{
+				id: "47538DC6B2F4AE4C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "2553A5C9F761C49F"
+				item: {
+					Count: 1
+					id: "brutality:golden_headband"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "09453D58E4EE8C4C"
+			rewards: [{
+				id: "10A9AAE25772A000"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "5B39835BFE8A43B4"
+				item: {
+					Count: 1
+					id: "brutality:seraphim_halo"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "21279A79E0491E0A"
+			rewards: [{
+				id: "1EA6B53118053C21"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "3B9B3C2AF959F8DC"
+				item: {
+					Count: 1
+					id: "brutality:brain_rot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "5405BED9C361232A"
+			rewards: [{
+				id: "6702545EA3B75ED5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "7B6ACF4AD706691C"
+				item: {
+					Count: 1
+					id: "brutality:crown_of_tyranny"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "028519D1B963BB85"
+			rewards: [{
+				id: "51C8A8F3998A2D5F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "30051075997A0004"
+				item: {
+					Count: 1
+					id: "brutality:critical_thinking"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "0E4CCFCBF14CC683"
+			rewards: [{
+				id: "0E0D2742A693025B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "3BA6454F6CE05487"
+				item: {
+					Count: 1
+					id: "brutality:air_jordan_earrings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "7A656E1F61F24D1C"
+			rewards: [{
+				id: "05C278A9B55EF39A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "2DCEF358DDAFE2F5"
+				item: {
+					Count: 1
+					id: "brutality:lens_makers_glasses"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "270A0413182811C2"
+			rewards: [{
+				id: "76E706B7E5B6C945"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "26868392AAE72F15"
+				item: {
+					Count: 1
+					id: "brutality:scope_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "168E635A7274F9B1"
+			rewards: [{
+				id: "20ECAA0C71286FE9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "7720B37E0D21E8DA"
+				item: {
+					Count: 1
+					id: "brutality:hell_specs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "5ABC84B5808DD707"
+			rewards: [{
+				id: "0336EC9AD4347436"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "48F9F513E0CD11DE"
+				item: {
+					Count: 1
+					id: "brutality:vampire_fang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "14C33AABF234D2F7"
+			rewards: [{
+				id: "6C5E2D33482DD42F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "1061D7E9853DE4FF"
+				item: {
+					Count: 1
+					id: "brutality:sanguine_spectacles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "2E88716F810322BD"
+			rewards: [{
+				id: "6BE3F09EB10AB682"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "38CBDC494B848C80"
+				item: {
+					Count: 1
+					id: "brutality:progenitors_earrings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "7387C96E5C372D59"
+			rewards: [{
+				id: "40EDD6445E086E0C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Head"
+			tasks: [{
+				id: "2860115A541AD502"
+				item: {
+					Count: 1
+					id: "brutality:fallen_angels_halo"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "567DBFB53E5C51A3"
+			tasks: [{
+				id: "7733C7E63BCDDB85"
+				item: "moreartifacts:sculk_lens"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "42E12815A8467EDA"
+			tasks: [{
+				id: "2CC859ED05E3A74D"
+				item: "moreartifacts:sunglasses"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			id: "1D3F6239F072453E"
+			tasks: [{
+				id: "2B2E371744DE8B42"
+				item: "moreartifacts:sculk_shades"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "07034C39B25D189D"
+			tasks: [{
+				id: "4FCD547C01747D67"
+				item: "moreartifacts:wooden_headgear"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "6F982445B08108A9"
+			tasks: [{
+				id: "09BB39BE67548150"
+				item: "moreartifacts:golden_headgear"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "189F62D8C923ADBF"
+			tasks: [{
+				id: "32F1590B5B99AA5F"
+				item: "moreartifacts:netherite_headgear"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "018505B43432EC4E"
+			tasks: [{
+				id: "016FD2A22D4A02B5"
+				item: "moreartifacts:enderian_eye"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "33D85E17E55B9C22"
+			tasks: [{
+				id: "54AC26C263552086"
+				item: "moreartifacts:vanir_mask"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "21CE2FC6D99F0E6D"
+			tasks: [{
+				id: "331AC858565FFE73"
+				item: "moreartifacts:dragon_eye"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			id: "1E7CB3951106BCA8"
+			tasks: [{
+				id: "4A4D483A25F3811D"
+				item: "terramity:eyeglasses"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "2B2542C7450C3B23"
+			tasks: [{
+				id: "7C7D9FF770BD6EAB"
+				item: "terramity:eyepatch"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "6465B2D116334A70"
+			tasks: [{
+				id: "021A6FE26D57DF99"
+				item: "terramity:scuba_gear"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			id: "5B153339CD310381"
+			tasks: [{
+				id: "06D1D8D650360EF5"
+				item: "terramity:diamond_earrings"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "7B66ED4AEC373120"
+			tasks: [{
+				id: "18FA4AE2E9CE0F1A"
+				item: "terramity:swag_glasses"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "1CC3BC25C2D10342"
+			tasks: [{
+				id: "5B1EC6895B5C6E08"
+				item: "terramity:ancient_stone_mask"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			id: "44C7333F714AF242"
+			tasks: [{
+				id: "059F715227416212"
+				item: "terramity:cyber_glasses"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			id: "02CC1814CEB9A0B4"
+			tasks: [{
+				id: "68F1673AB05A77FD"
+				item: "terramity:void_glasses"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			id: "40CEE30A8011FB88"
+			tasks: [{
+				id: "3E1DFC3CEA4B7C1C"
+				item: "terramity:archangel_halo"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "2BF69B9FA4787A65"
+			tasks: [{
+				id: "7C897074DA326922"
+				item: {
+					Count: 1
+					id: "caster_curios_bonus:reckless_utterance"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "caster_curios_bonus:arcane_overdrive"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			id: "577CEA028DC9A2C3"
+			tasks: [{
+				id: "201A190DB02FA0BD"
+				item: "caster_curios_bonus:mana_overflow"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "6A70843133072076"
+			tasks: [{
+				id: "28B74ECD21A7B489"
+				item: "goety:targeting_monocle"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			id: "7810B066747631DF"
+			tasks: [{
+				id: "7CF3E010F0B63D9F"
+				item: "goety:dark_hat"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "5546565CBFAEFF38"
+			tasks: [{
+				id: "464B6EC801F93E73"
+				item: "goety:unholy_hat_halo"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			id: "23E3A371E501DC3F"
+			tasks: [{
+				id: "247B275F15155A27"
+				item: "meetyourfight:spectres_eye"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "2B59C842A5965E03"
+			tasks: [{
+				id: "2EB99A5653672996"
+				item: "meetyourfight:blossoming_mind"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+	]
+	title: "Head"
+}

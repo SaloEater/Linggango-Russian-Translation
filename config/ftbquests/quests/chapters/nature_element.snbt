@@ -1,0 +1,725 @@
+{
+	autofocus_id: "1C623F82BF0611AE"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nature_element"
+	group: "0361FC25A57730F8"
+	icon: "irons_spellbooks:nature_rune"
+	id: "25783A87FA4002D0"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: [
+			"All rights are reserved."
+			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+		]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -0.5d
+		y: -1.5d
+	}]
+	order_index: 10
+	parent: "529863295F3FB653"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			hide_dependent_lines: true
+			icon: "irons_spellbooks:nature_rune"
+			id: "1C623F82BF0611AE"
+			shape: "none"
+			size: 2.5d
+			subtitle: "The Nature school is focused on applying debuffs to enemies, with elements of damage to finish them off."
+			tasks: [{
+				id: "59956592AB9D5145"
+				item: "irons_spellbooks:nature_rune"
+				type: "item"
+			}]
+			title: "Nature magic"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/acid_orb.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "44BD776617D0E432"
+			shape: "square"
+			subtitle: "Spit an orb of acid, splashing in a radius upon impact and rending creatures hit, melting away and reducing their armor."
+			tasks: [{
+				id: "686221AE0DA19965"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:acid_orb"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Acid Spit"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blight.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "381B0A3B808B7004"
+			shape: "square"
+			subtitle: "Target a creature to blight them, reducing their incoming healing and outgoing damage."
+			tasks: [{
+				id: "221BCEA15A050BC4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blight"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blight"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/firefly_swarm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7F84C23C313E0BF9"
+			shape: "square"
+			subtitle: "Emanate a swarm of violent fireflies, following a targeted creature and dealing aoe damage. If the initial target dies, the last harmed creature will be targeted."
+			tasks: [{
+				id: "673F5D918328B23D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:firefly_swarm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Firefly Swarm"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/gluttony.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6C6CBA36CD3E5257"
+			shape: "square"
+			subtitle: "Turn your stomach into an arcane furnace, turning eaten food into mana for a duration."
+			tasks: [{
+				id: "739CB807E24C8C0E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:gluttony"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Gluttony"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/mob_effect/oakskin.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7E0949404FCF6F1C"
+			shape: "square"
+			subtitle: "The great power of oak infuses itself into your skin, granting damage reduction of any incoming damage for a duration."
+			tasks: [{
+				id: "10B2F1AB202DD2DE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:oakskin"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Oakskin"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/poison_arrow.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "757AC0052C4D92B3"
+			shape: "square"
+			subtitle: "Charge a powerful arrow, imbued with poison magic, that will release a poisonous cloud upon impact."
+			tasks: [{
+				id: "711A7DFE38B84410"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:poison_arrow"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Poison Arrow"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/poison_breath.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "27816321823042E7"
+			shape: "square"
+			subtitle: "Spew forth a cone of poison, damaging and poisoning creatures in its reach."
+			tasks: [{
+				id: "712623CBFA8566BE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:poison_breath"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Poison Spray"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/poison_splash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "729AEEA9EB61FF37"
+			shape: "square"
+			subtitle: "Around a targeted creature or block, conjure a wave of poisonous magic that splashes down, damaging creatures hit and leaving behind a poisonous cloud."
+			tasks: [{
+				id: "00BD5F35DD09DDFF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:poison_splash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Poison Splash"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/root.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6CCB58DC5162F598"
+			shape: "square"
+			subtitle: "Around a targeted creature, sprout magical roots than entangle them and completely prevent non-magical movement."
+			tasks: [{
+				id: "0885A7B7B89B4E3F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:root"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Root"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/spider_aspect.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6F751D658EAB4A5D"
+			shape: "square"
+			subtitle: "Instill yourself with poisonous magic, dealing additional melee, ranged, or spell damage creatures that are poisoned."
+			tasks: [{
+				id: "1AD5D962F40C461E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:spider_aspect"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Aspect of the Spider"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/primal_pack.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0DC0BAABAECB95FD"
+			shape: "square"
+			tasks: [{
+				id: "39405F1AE7C0AC84"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:primal_pack"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/primordial_steed.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "49F9181A8A38664B"
+			shape: "square"
+			tasks: [{
+				id: "1817B4A1D9C51BC3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:primordial_steed"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/overgrowth.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "49362A7FB2442588"
+			shape: "square"
+			tasks: [{
+				id: "1895C65C67F28FFC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:overgrowth"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "refined_mod:textures/gui/spell_icons/summon_wolves.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "67036912FE4ECE70"
+			shape: "square"
+			tasks: [{
+				id: "6BE4EC8DB43C04EA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "refined_mod:summon_wolves"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "refined_mod:textures/gui/spell_icons/hunters_mark.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "567DDBFB0F15B0B5"
+			shape: "square"
+			tasks: [{
+				id: "6A23CC55865C1CBD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "refined_mod:hunters_mark"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/ambush_thorns.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1D5B8C628C73AE26"
+			shape: "square"
+			tasks: [{
+				id: "18F8888542AC1935"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:ambush_thorns"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/overgrown_shockwave.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "13D1E8A3D690EEE3"
+			shape: "square"
+			tasks: [{
+				id: "603FA6AFCB20C67F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:overgrown_shockwave"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1C623F82BF0611AE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/fossilized_fury.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "765DC54870D3A535"
+			shape: "square"
+			tasks: [{
+				id: "1C922BE7758AAA6F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:fossilized_fury"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+	]
+	title: "<grad from=#30FF68 to=#B6FCC9>Nature Element</grad>"
+}

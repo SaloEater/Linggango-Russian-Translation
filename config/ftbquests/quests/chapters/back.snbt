@@ -1,0 +1,358 @@
+{
+	autofocus_id: "34F52C1ADBD24399"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "back"
+	group: "0FD8C2D2A2339C0B"
+	icon: {
+		Count: 1
+		id: "relics:midnight_robe"
+		tag: {
+			abilities: {
+				backstab: {
+					points: 0
+					stats: {
+						damage: 1.50179d
+						distance: 17.70117d
+					}
+				}
+				vanish: {
+					points: 0
+					stats: {
+						light: 1.35564d
+						speed: 0.21081d
+					}
+					temp: {
+						ticking: 1b
+					}
+				}
+			}
+		}
+	}
+	id: "03CD2C4FDF13EC92"
+	images: [{
+		height: 15.0d
+		image: "customtextures:textures/back.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 0.0d
+		y: 0.5d
+	}]
+	order_index: 19
+	parent: "44F86CB070F12FF2"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Works like a firework."]
+			id: "78E85679C97F3C2A"
+			rewards: [{
+				id: "0B77407CAAD8C475"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamondtier"
+			subtitle: "Back"
+			tasks: [{
+				id: "0D0330DF135415F9"
+				item: {
+					Count: 1
+					id: "relics:elytra_booster"
+					tag: {
+						Damage: 0
+						abilities: {
+							boost: {
+								points: 0
+								stats: {
+									capacity: 86.923d
+									speed: 1.167d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			description: ["Increases armor, covers your weak spots. "]
+			id: "1FD3B69DEFCC2061"
+			rewards: [{
+				id: "5D05C8DE10B0A054"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Back"
+			tasks: [{
+				id: "742E4C31A84B6926"
+				item: {
+					Count: 1
+					id: "morerelics:shieldweave_cape"
+					tag: {
+						abilities: {
+							dynamic_thread: {
+								points: 0
+								stats: {
+									perch: 4.7996d
+								}
+							}
+							impact_shield: {
+								points: 0
+								stats: {
+									flat_chance: 3.15447d
+									per_armor: 0.32514d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "1869B036E5254599"
+			rewards: [{
+				id: "042AA3638810AB6E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "061B435125AB2828"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "414A0E0834FD478A"
+			rewards: [{
+				id: "02E87BADE3542BE8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1FA5D72C533DC75B"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:chaos_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "34F52C1ADBD24399"
+			rewards: [{
+				id: "13D99BE8007D0484"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7788EBB781842B05"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "6F6382BDBE118333"
+			rewards: [{
+				id: "389DA85B4B235F70"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "60382E077C20E14C"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "261940EB5C6DB62E"
+			rewards: [{
+				id: "2E8073C814201AD2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "79F4CB384D66FD29"
+				item: {
+					Count: 1
+					id: "mekanism:hdpe_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "17F248A458D6E404"
+			rewards: [{
+				id: "32705450227D5CEB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0D01BEAC8C8E0FC7"
+				item: {
+					Count: 1
+					id: "relics:arrow_quiver"
+					tag: {
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 13.8882d
+									duration: 5.87322d
+									multiplier: 0.29498d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.95423d
+									duration: 13.46077d
+									radius: 3.53625d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 2.62469d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "28BA11E0AC033C44"
+			rewards: [{
+				id: "1D59B69760B6729B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "558998AE7EC7E0F4"
+				item: "goety:necro_cape"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "758E37FC8E815A47"
+			rewards: [{
+				id: "79038CAD3415BDB0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "796492BC3FB1C245"
+				item: "immersiveengineering:powerpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "67727D8227A59643"
+			rewards: [{
+				id: "6CC5AF7CF3F788A9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6061F249C1B796FA"
+				item: "goety:nameless_cape"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			description: ["Turn invisible in dark places."]
+			id: "25A360B74DA4D773"
+			rewards: [{
+				id: "5975E3A5CF1B60AE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Back"
+			tasks: [{
+				id: "35B573701178003F"
+				item: {
+					Count: 1
+					id: "relics:midnight_robe"
+					tag: {
+						Damage: 0
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.29d
+									distance: 19.967d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.086d
+									speed: 0.197d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+	]
+	title: "Back"
+}

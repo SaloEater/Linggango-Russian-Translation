@@ -1,0 +1,919 @@
+{
+	autofocus_id: "52C7C09BB8289628"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood"
+	group: "0361FC25A57730F8"
+	icon: "irons_spellbooks:blood_rune"
+	id: "1B5925AE9F316F94"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: [
+			"All rights are reserved."
+			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+		]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.5d
+		y: -3.0d
+	}]
+	order_index: 14
+	parent: "529863295F3FB653"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:item/blood_rune"
+				}
+			}
+			id: "52C7C09BB8289628"
+			shape: "none"
+			size: 2.5d
+			subtitle: "BloodThe Blood school is themed around evil; you will find elements of necromancy, wither, and blood magic here, with spells focusing on damage that buffs the caster."
+			tasks: [{
+				id: "5A6D4F758FBEE61D"
+				item: "irons_spellbooks:blood_rune"
+				type: "item"
+			}]
+			title: "Blood magic"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/acupuncture.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "34FCD3DCDB805845"
+			shape: "square"
+			subtitle: "Around a targeted creature, create a field of blood needles in every direction, shooting down and healing you for 25% of damage done."
+			tasks: [{
+				id: "53976AC5DBF6F41D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:acupuncture"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Acupuncture"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blood_needles.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7C567B724287B19F"
+			shape: "square"
+			subtitle: "Create a ring of needles made from blood and fire them forward, skewering targets and healing you for 25% of damage done."
+			tasks: [{
+				id: "3D221D7110DEDDBB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blood_needles"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blood Needles"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blood_slash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "11CFCB84D544B611"
+			shape: "square"
+			subtitle: "Slash forward to send out a concentrated blade of blood, slicing through creatures and healing for 15% of damage done."
+			tasks: [{
+				id: "27867BDBA9222354"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blood Slash"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blood_step.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6EE8B66A4F31C91C"
+			shape: "square"
+			subtitle: "Instantaneously teleport to where you are looking, or directly behind any targeted creature. Gain a short duration of true invisibility upon reaching your destination."
+			tasks: [{
+				id: "5E62025CA0C7D9BD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blood_step"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blood Step"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/devour.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "04E55B301237F14B"
+			shape: "square"
+			subtitle: "Pull in a nearby creature and attack them with a bite, leeching 15% of damage done as health. If the creature is killed, you temporarily gain additional max HP. Created by the ancient magician known as Yorhavich."
+			tasks: [{
+				id: "6ABDD53045061E6A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:devour"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Devour"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/heartstop.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0EFA169E521A73F6"
+			shape: "square"
+			subtitle: "Cast to inflict yourself with Heartstop, an effect that makes you temporarily invulnerable. However, once it wears off, you take 50% of all damage accumulated while under its effects."
+			tasks: [{
+				id: "408F07357E341763"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:heartstop"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Heartstop"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/raise_dead.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2E2C3D02696C2298"
+			shape: "square"
+			subtitle: "Cast to summon undead minions from the earth beneath you. The higher the power, the better equipment they will have."
+			tasks: [{
+				id: "0A20D76542159184"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:raise_dead"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Raise Dead"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ray_of_siphoning.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6BB9C0339C46FFBB"
+			shape: "square"
+			subtitle: "Hold to cast a ray of necrotic energy that siphons health from creatures it hits, damaging them and healing you for 100% of damage done."
+			tasks: [{
+				id: "2CF8CCDAD152BA72"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ray_of_siphoning"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ray Of Siphoning"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/sacrifice.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "54922EBD779EF184"
+			shape: "square"
+			subtitle: "Target one of your magic summons to cause them to explode, killing them instantly, and dealing large damage in the area around them. The summon's remaining health boosts the damage dealt and radius of explosion."
+			tasks: [{
+				id: "3AF2B37CAA7C14E7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:sacrifice"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Sacrifice"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/wither_skull.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0174D6794BC14B32"
+			shape: "square"
+			subtitle: "Launch a wither skull forward that explodes in a small radius around the impact. The higher the level, the faster the projectile."
+			tasks: [{
+				id: "2D80D0BDC95906C9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wither_skull"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Wither Skull"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/vigor_siphon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6A495DE3B10D215F"
+			shape: "square"
+			tasks: [{
+				id: "7BEBB2580A5515E1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:vigor_siphon"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/blood_howl.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4199B90E344187D7"
+			shape: "square"
+			tasks: [{
+				id: "390E33CC69A417F4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:blood_howl"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/eek.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "26D2D6F603778980"
+			shape: "square"
+			tasks: [{
+				id: "14C782EA63BDC838"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:eek"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/nocturnal_swarm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0B52BBCFB35D4DBD"
+			shape: "square"
+			tasks: [{
+				id: "29AF7E146887C3D0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:nocturnal_swarm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/call_forth_the_dead_king.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "538EAA38F58D2128"
+			shape: "square"
+			tasks: [{
+				id: "311AE4AD52A9F0EB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:call_forth_the_dead_king"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "peyroscythe:textures/gui/spell_icons/crimson_moon.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5C161C135EF88D7C"
+			shape: "square"
+			tasks: [{
+				id: "6188C2BCA4C2C8B8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "peyroscythe:crimson_moon"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon_scale: 1.4d
+			id: "200849C0B4E93003"
+			shape: "square"
+			tasks: [{
+				id: "6252499B0D6C2829"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "alshanex_familiars:summon_shadows"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/blood_cut.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "507D6470D860573C"
+			shape: "square"
+			tasks: [{
+				id: "6D5467E7C67AC874"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:blood_cut"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/blood_rush.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2B961D29CCDFEC96"
+			shape: "square"
+			tasks: [{
+				id: "1CBB090C574B09D0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:blood_rush"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/bloodmark.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7B37772C15CA5D0D"
+			shape: "square"
+			tasks: [{
+				id: "1C627B27B0C1C13F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:bloodmark"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/cursed_connection.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3FBCB0B701FB33E3"
+			shape: "square"
+			tasks: [{
+				id: "69B39861DD2760A4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:cursed_connection"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon_scale: 1.4d
+			id: "3723FED0FB0E2A90"
+			shape: "square"
+			tasks: [{
+				id: "79BCC2255F5B7539"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:possessed_soul_blade"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon_scale: 1.4d
+			id: "14931F0440FB0CCB"
+			shape: "square"
+			tasks: [{
+				id: "2E65939C07797F35"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:hematite_trishula"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["52C7C09BB8289628"]
+			icon_scale: 1.4d
+			id: "7F706BB0E050AD30"
+			shape: "square"
+			tasks: [{
+				id: "228F6784B8ADE5C4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:possessed_wing"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+	]
+	title: "<grad from=#910308 to=#9C6466>Blood Element</grad>"
+}

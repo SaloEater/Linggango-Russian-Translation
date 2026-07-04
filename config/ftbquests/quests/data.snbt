@@ -11,22 +11,16 @@
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
 	hide_excluded_quests: false
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "jei:textures/jei/atlas/gui/icons/bookmark_button_disabled.png"
-		}
-	}
-	lock_message: "Finish the other quests before coming here!"
+	icon: "kubejs:mana_crystal"
+	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0
 		monster: 600
 		passive: 4000
 	}
 	pause_game: false
-	progression_mode: "default"
+	progression_mode: "linear"
 	show_lock_icons: false
-	title: "Linggango!"
+	title: "&6Linggango"
 	version: 13
 }

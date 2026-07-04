@@ -1,9 +1,10 @@
 {
+	always_invisible: true
 	autofocus_id: "51A35B59733624F3"
 	default_hide_dependency_lines: false
 	default_quest_shape: "netheritetier"
 	filename: "charm_tierlist_2"
-	group: "3B5FC78CC89E4CD7"
+	group: "681E1747F0B6F5C6"
 	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
@@ -18,7 +19,7 @@
 			alpha: 155
 			click: "a"
 			height: 1.7d
-			hover: ["ftbquests.chapter.charm_tierlist_2.image.hovertext1"]
+			hover: ["Thanks alot to icywinds for making the tierlist!"]
 			image: "terramity:item/crystal_heart"
 			rotation: 0.0d
 			width: 1.7d
@@ -37,7 +38,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.charm_tierlist_2.image.hovertext2"]
+			hover: ["Questlines belong to me, and is protected by All Rights Reserved. Do not try to steal without an explicit permission from me."]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -45,14 +46,13 @@
 			y: 5.5d
 		}
 	]
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "6260FF5CA71F6027"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7088946586887086119.subtitle}"
+			subtitle: "This relic holds a hidden power... perhaps a ritual could unlock its full potential."
 			tasks: [{
 				id: "63DF13535BCBB576"
 				item: "goety_revelation:ascension_halo"
@@ -62,10 +62,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "1F53F85E82E54582"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2257420923049428354.subtitle}"
+			subtitle: "Seal of god"
 			tasks: [{
 				id: "37B642D118669629"
 				item: {
@@ -81,10 +80,9 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "378CBB5D476CD19D"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4002780178130194845.subtitle}"
+			subtitle: "Harvest the power of the mighty dimensions!"
 			tasks: [{
 				id: "7E686D0A6E4900F0"
 				item: "goety_revelation:dimensional_will"
@@ -94,10 +92,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "3E63DDDDB9F94A87"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4495680797423520391.subtitle}"
+			subtitle: "Can't pick a spellstone? This one has ALL"
 			tasks: [{
 				id: "639C20C15899A898"
 				item: "enigmaticlegacy:the_cube"
@@ -107,11 +104,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "22BC32CFF4BDCD2A"
 			invisible: true
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2502931361656851754.subtitle}"
+			subtitle: "Only those who wandered the heavens witnessed it all."
 			tasks: [{
 				id: "67ECB6119059163D"
 				item: {
@@ -147,10 +143,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "045FF8004797CEAE"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest315243179024043694.subtitle}"
+			subtitle: "How do you carry all of those charms? Belt."
 			tasks: [{
 				id: "127CA3019D7734A4"
 				item: {
@@ -173,10 +168,9 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "7BFBDB231C09D9DE"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8933975229660256734.subtitle}"
+			subtitle: "Who would've thought a cape can protect you so much..."
 			tasks: [{
 				id: "196B9867B0E8D772"
 				item: {
@@ -206,10 +200,9 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "4547F13A7A42AFC2"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4992223945425072066.subtitle}"
+			subtitle: "Mythical Bracelets filled with the wrath of the Gods"
 			tasks: [{
 				id: "31C8ACBCCC977D2D"
 				item: "terramity:sacred_speed_bracelets"
@@ -219,10 +212,9 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "5051D1E3D122C5E6"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5787637772544296422.subtitle}"
+			subtitle: "Crazy damage boost"
 			tasks: [{
 				id: "0961A19BD1D0EE3C"
 				item: "terramity:exodium_twin_bracelets"
@@ -232,10 +224,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "47AFAAB04FB4D5D0"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5165534971845465552.subtitle}"
+			subtitle: "A radiant ring to make you stronger. If you listen closely, you can hear the echoing screams of the cataclysm..."
 			tasks: [{
 				id: "75337A4A56300E33"
 				item: "armageddon_mod:seal_of_cataclysm"
@@ -245,10 +236,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "7BA25CD236FD1E50"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8908785070827707984.subtitle}"
+			subtitle: "Perfect accessory to bring to your enemies' funeral. Careful, very spiky!"
 			tasks: [{
 				id: "5B12C5A5F98A3873"
 				item: "armageddon_mod:thorned_requital"
@@ -258,10 +248,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2101B81499E32A77"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2378384476848990839.subtitle}"
+			subtitle: "This ancient pendant is said to bring great fortune."
 			tasks: [{
 				id: "500BFEADD60C2619"
 				item: "armageddon_mod:antique_pendant"
@@ -271,9 +260,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "6547CF4BD0A0B849"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7298029645706868809.subtitle}"
+			subtitle: "This is what the people used in the ancient coal mines. It was said to give them inhuman powers."
 			tasks: [{
 				id: "0B6EEDA4CE3C8B72"
 				item: "armageddon_mod:spelunker_talisman"
@@ -283,9 +271,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "447626E4C309F248"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4933173205797565000.subtitle}"
+			subtitle: "The ring of titans, wear this for extra health!"
 			tasks: [{
 				id: "6A2B36A2E7A1CCCC"
 				item: "ars_elemental:anima_bangle"
@@ -295,10 +282,9 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "477EFB5534302E43"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5151831367124790851.subtitle}"
+			subtitle: "This necklace has been imbued by the highest of Priests, you suddenly feel more invincible!"
 			tasks: [{
 				id: "4C86482A4F0A956E"
 				item: "artifacts:cross_necklace"
@@ -308,10 +294,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "0215551A31A60B0B"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest150119733577255691.subtitle}"
+			subtitle: "An old legend states that this belt was worn by Poseidon once..."
 			tasks: [{
 				id: "0FCF4EAEAB224439"
 				item: {
@@ -353,10 +338,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "0E6427037B04CA94"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest1036996710104353428.subtitle}"
+			subtitle: "Stronger Pets"
 			tasks: [{
 				id: "69A5119D95DE63E3"
 				item: {
@@ -385,10 +369,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "51F9D89870FB085B"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5906990535515244635.subtitle}"
+			subtitle: "Careful... or they will get feral again."
 			tasks: [{
 				id: "137171F2B6932B26"
 				item: "artifacts:feral_claws"
@@ -398,10 +381,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "7C6D98E8CAC78395"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8965990558766433173.subtitle}"
+			subtitle: "You took some boxing classes, and now your hits are more devastating!"
 			tasks: [{
 				id: "58C6551F333D2FDB"
 				item: "artifacts:power_glove"
@@ -411,10 +393,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2F117641CC251A86"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3391622019356629638.subtitle}"
+			subtitle: "A ring forged by the dark entities who tried to mimic you and failed miserably."
 			tasks: [{
 				id: "260BA9F710F0612F"
 				item: "darkdoppelganger:doppelganger_ring"
@@ -424,10 +405,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "6380C0458E681A28"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7169942011748293160.subtitle}"
+			subtitle: "Do you dare?"
 			tasks: [{
 				id: "66A806CA89020CA3"
 				item: "enigmaticlegacy:cursed_ring"
@@ -437,10 +417,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "634A7E824484710E"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7154670055991832846.subtitle}"
+			subtitle: "Your prayers have been answered, and the angels have acknowledged you. You can soar through the winds!"
 			tasks: [{
 				id: "0FEA473502887FF4"
 				item: "enigmaticlegacy:fabulous_scroll"
@@ -450,10 +429,9 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "24FE3CC0C5F192BF"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2665634828102243007.subtitle}"
+			subtitle: "A precious ring that empowers you."
 			tasks: [{
 				id: "031AED857D9C3EE4"
 				item: "terramity:band_of_power_plus"
@@ -463,10 +441,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "1B9FC63B3BBD92D6"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest1990527518028698326.subtitle}"
+			subtitle: "The fur of the mighty sniffers, 100% real!"
 			tasks: [{
 				id: "48BDB28A94C33317"
 				item: "terramity:ultra_sniffer_fur"
@@ -476,10 +453,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "7B012C4B13DBBD22"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8863414242609184034.subtitle}"
+			subtitle: "Luck of the draw."
 			tasks: [{
 				id: "5685CB51A6A9971F"
 				item: "terramity:lucky_dice"
@@ -489,10 +465,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "0FE79B02D7A55BBB"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest1146055066699258811.subtitle}"
+			subtitle: "Throw a die to gamble with life or death."
 			tasks: [{
 				id: "5B947EA3B1AA12B2"
 				item: "terramity:die_of_revival"
@@ -502,10 +477,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "0918953A83316274"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest655437824324100724.subtitle}"
+			subtitle: "A die powered by dark magic... when luck is on your side, you don't feel anything!"
 			tasks: [{
 				id: "0320D298F71E986A"
 				item: "terramity:nullifying_dice"
@@ -515,10 +489,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "5F03BE1D00D1B27E"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6846524890310357630.subtitle}"
+			subtitle: "Feeling lucky? Double damage!"
 			tasks: [{
 				id: "1454A20A7E28E97E"
 				item: "meetyourfight:slicers_dice"
@@ -528,10 +501,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "209F7447B42C41E2"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2350725381824987618.subtitle}"
+			subtitle: "After months of hard work, you feel like you've mastered your techniques. You can handle weapons with ease and efficiency!"
 			tasks: [{
 				id: "319A315801954911"
 				item: "enigmaticdelicacy:weapon_charm"
@@ -541,9 +513,8 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "4AEC5F5FAEFC22D9"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5398794917872673497.subtitle}"
+			subtitle: "The power of the void shields you."
 			tasks: [{
 				id: "6409AB7CC8BA2F33"
 				item: "armageddon_mod:voidcall_ward"
@@ -553,9 +524,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "477C6A51E8CF6C03"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5151108973835807747.subtitle}"
+			subtitle: "A big diamond shield which gives you passive resistance!"
 			tasks: [{
 				id: "7C2CDC2D1775E66B"
 				item: "armageddon_mod:colossal_ward"
@@ -565,9 +535,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "4F96B2032D358547"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5734966902216033607.subtitle}"
+			subtitle: "The full moon rises!"
 			tasks: [{
 				id: "638AA3A87F814ED0"
 				item: "armageddon_mod:moon_charm"
@@ -577,9 +546,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "0E7A60B3C0A8B51E"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest1043252588837385502.subtitle}"
+			subtitle: "This magic cloud empowers your jumps, 1 step closer to the heavens!"
 			tasks: [{
 				id: "0E77B1BD0B5178AF"
 				item: "terramity:cloud_in_a_bottle"
@@ -589,9 +557,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "5F48FF8560A6D711"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6866018580243601169.subtitle}"
+			subtitle: "You feel healthier!"
 			tasks: [{
 				id: "3B2D784F8CB64C23"
 				item: "artifacts:crystal_heart"
@@ -601,9 +568,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "4E90E46F93F0BB89"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5661275899479243657.subtitle}"
+			subtitle: "Sugary drink which makes you get the zoomies!"
 			tasks: [{
 				id: "3646806CF2557BC5"
 				item: "terramity:dr_binty"
@@ -613,9 +579,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "6700737175A18B3D"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7422059117048597309.subtitle}"
+			subtitle: "How else would you be able to run for this long?"
 			tasks: [{
 				id: "0F4933C2BAAA4A3E"
 				item: "artifacts:running_shoes"
@@ -625,9 +590,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "7BDB4CF879BF0344"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8924811716642931524.subtitle}"
+			subtitle: "After travelling for so long, you have become stronger... but sometimes sitting down can help you rest."
 			tasks: [{
 				id: "0B9EA72E136C6A8B"
 				item: "enigmaticaddons:adventure_charm"
@@ -637,9 +601,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "42F9C065D99B32A4"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4826100019379253924.subtitle}"
+			subtitle: "The nature calls your name."
 			tasks: [{
 				id: "653CBB5489E7360F"
 				item: "enigmaticaddons:revival_leaf"
@@ -649,9 +612,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2ACFD49C002BB689"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3084918036254930569.subtitle}"
+			subtitle: "Only those who proved their worth to the cursed gods can wield this amulet."
 			tasks: [{
 				id: "1AAD8BE1F5170614"
 				item: "enigmaticlegacy:eldritch_amulet"
@@ -661,10 +623,9 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2185ED4A718C4C55"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2415597679142521941.subtitle}"
+			subtitle: "The void's treasure! Shields you from negative effects and can save you from death... if it's on your side."
 			tasks: [{
 				id: "0A8A42298DDCCAB7"
 				item: "enigmaticlegacy:void_pearl"
@@ -674,9 +635,8 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "3704AC3DA8EFF9FA"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3964482952820161018.subtitle}"
+			subtitle: "You can sew yourself out of any situation. These threads are imbued with magical powers!"
 			tasks: [{
 				id: "77BDE142AB50E6C6"
 				item: {
@@ -719,9 +679,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "3FD1823B92E854EB"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4598599886901368043.subtitle}"
+			subtitle: "Damage and defense at same time?!!"
 			tasks: [{
 				id: "2ED66FCB1B6829EC"
 				item: "terramity:exodium_shield_amulet"
@@ -731,9 +690,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2B6342024B2DB2CD"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3126415143943910093.subtitle}"
+			subtitle: "This spellstone enhances your defensive capabilities."
 			tasks: [{
 				id: "6C6F83666B50E931"
 				item: "enigmaticaddons:etherium_core"
@@ -743,9 +701,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "42FE5F850BED316E"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4827400875623133550.subtitle}"
+			subtitle: "Red, or blue pill?"
 			tasks: [{
 				id: "030AF75BD7656588"
 				item: "terramity:the_pill"
@@ -755,9 +712,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "7280A07F2F25360B"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8250770985455007243.subtitle}"
+			subtitle: "Fragments of stone infused with devastating flames."
 			tasks: [{
 				id: "2558C73EB0A50791"
 				item: "terramity:shadowflame_stone"
@@ -767,9 +723,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "15DE3B305974E35B"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest1575761998471553883.subtitle}"
+			subtitle: "Never make a deal with the devil..."
 			tasks: [{
 				id: "0CB226849E2996B8"
 				item: "terramity:devils_dice"
@@ -779,9 +734,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "626243A78535E7E6"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7089303150208083942.subtitle}"
+			subtitle: "Shiny, powerful!"
 			tasks: [{
 				id: "41B23A1A415FE34F"
 				item: "terramity:dragon_band"
@@ -791,9 +745,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "7606158A98E92323"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8504508631350846243.subtitle}"
+			subtitle: "Some cream with regenerative abilities! Don't ask where it came from."
 			tasks: [{
 				id: "4DA5FEDDF79DD4E2"
 				item: {
@@ -816,9 +769,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "733A3AAA662E2814"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8303013366544082964.subtitle}"
+			subtitle: "Luck can sometimes protect you from harm!"
 			tasks: [{
 				id: "31EAD1215FDDFE7E"
 				item: "meetyourfight:ace_of_iron"
@@ -828,9 +780,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "70D4425625E03556"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8130196165080659286.subtitle}"
+			subtitle: "The dark powers help you in your fights and protect you from incoming damage."
 			tasks: [{
 				id: "0F414692B6B9A4B0"
 				item: "armageddon_mod:withered_bone_effigy"
@@ -840,10 +791,9 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "4869339995C1C973"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5217758378020948339.subtitle}"
+			subtitle: "The souls of the skeletons guide you to survive even the most dire situations."
 			tasks: [{
 				id: "303D77257C975AA0"
 				item: "armageddon_mod:bone_effigy"
@@ -853,9 +803,8 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "42009A1B8895F038"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4755970649549566008.subtitle}"
+			subtitle: "Crafted with mighty ingots from the Iron Colossus."
 			tasks: [{
 				id: "2CD003D462558F86"
 				item: "armageddon_mod:colossal_shield"
@@ -865,10 +814,9 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2E65D3D1FF8072FA"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3343311197280695034.subtitle}"
+			subtitle: "Not even the elder guardian's presence can stop you from mining."
 			tasks: [{
 				id: "104974A793BC87E0"
 				item: "armageddon_mod:protectors_core"
@@ -878,9 +826,8 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "380CB7AC269F7135"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4038804915854733621.subtitle}"
+			subtitle: "See during night time with these infinite battery goggles!"
 			tasks: [{
 				id: "59D11D466525054F"
 				item: "artifacts:night_vision_goggles"
@@ -890,9 +837,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "622078006CE78AE0"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7070783358194125536.subtitle}"
+			subtitle: "Refined by the Queen Bee's workers. This antidote gets rid of all sicknesses in no time!"
 			tasks: [{
 				id: "1DE13E47DE3A0317"
 				item: "artifacts:antidote_vessel"
@@ -902,10 +848,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
-			description: ["{ftbquests.chapter.charm_tierlist_2.quest5882645978019144947.description1}"]
+			description: ["This item is very dangerous, if a lightning strikes you, you will lose your items."]
 			id: "51A35B59733624F3"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5882645978019144947.subtitle}"
+			subtitle: "A broken machine engine... careful so you don't accidentally power it up."
 			tasks: [{
 				id: "7808572C64654BCD"
 				item: "enigmaticaddons:lost_engine"
@@ -915,9 +860,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "55D87952C880FC8E"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6185827484651551886.subtitle}"
+			subtitle: "A smile a day makes you stronger each time :)"
 			tasks: [{
 				id: "71E0EAAC31BAE537"
 				item: "lethality:flowey"
@@ -927,9 +871,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "21CF1615D39B9AF5"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2436190206431042293.subtitle}"
+			subtitle: "Would you let a die decide your fate?"
 			tasks: [{
 				id: "19AF11D0ED543CAC"
 				item: {
@@ -952,9 +895,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "3BD8E5FDF6A21B5D"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4312449522134555485.subtitle}"
+			subtitle: "A bag filled with poisonous spores... they seem to help you in your battles."
 			tasks: [{
 				id: "3AD3F13F22E4DD18"
 				item: {
@@ -1001,9 +943,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "34E8BB0CA281E087"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3812502747509547143.subtitle}"
+			subtitle: "Too cool to be blinded by the cameras."
 			tasks: [{
 				id: "39C6BFDB56CF254F"
 				item: "terramity:swag_glasses"
@@ -1013,9 +954,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "3D133E3ACCE4A60D"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4400929683137668621.subtitle}"
+			subtitle: "The house always wins!"
 			tasks: [{
 				id: "11FE0B9DCFDBE6F2"
 				item: "terramity:poker_chip_bracelets"
@@ -1025,9 +965,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "316CA5A67D14B33D"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3561403539824882493.subtitle}"
+			subtitle: "Prismatic... Chicken?"
 			tasks: [{
 				id: "3CA28464F785AE05"
 				item: "terramity:prismatic_feather"
@@ -1037,9 +976,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "3779BA04DA606491"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3997430674274411665.subtitle}"
+			subtitle: "Only true heroes may receive this emblem."
 			tasks: [{
 				id: "6F826F2EA50F0D55"
 				item: "uniqueaccessories:hero_emblem"
@@ -1049,9 +987,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "07DBE3FE87F14C71"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest566296860507065457.subtitle}"
+			subtitle: "A precious gem imbued with the souls of your enemies. You feel your health coming back!"
 			tasks: [{
 				id: "752720D2D17DFF40"
 				item: "uniqueaccessories:soul_gem"
@@ -1061,9 +998,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "0262B3C7C9189C76"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest171897406447197302.subtitle}"
+			subtitle: "It watches over you... and acknowledges. Thee is satisfied with your efforts and awards you with power."
 			tasks: [{
 				id: "5527BC286D1520C2"
 				item: "uniqueaccessories:devils_eyeball"
@@ -1073,9 +1009,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "3FF6A5FF63EB627B"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4609053784971895419.subtitle}"
+			subtitle: "After many battles, your amulet is starting to evolve together with you."
 			tasks: [{
 				id: "0FB910EDBE33FF9F"
 				item: "enigmaticlegacy:ascension_amulet"
@@ -1085,9 +1020,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "263EE5F9E71B6429"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2755892883484271657.subtitle}"
+			subtitle: "The ocean's heart pulsates with power, allowing you to become one with the water."
 			tasks: [{
 				id: "110DBB3FC46F6BBC"
 				item: "enigmaticlegacy:ocean_stone"
@@ -1097,9 +1031,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "4A72A0DF5406EAF8"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5364526987199572728.subtitle}"
+			subtitle: "Not once, not twice... but THREE times??!"
 			tasks: [{
 				id: "744E989C50D46B4C"
 				item: "terramity:hurricane_in_a_jar"
@@ -1109,10 +1042,9 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "023BF6CA1592BC76"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest160993559507549302.subtitle}"
+			subtitle: "Forged in the depths of the underworld caves, this golden ring makes you stronger."
 			tasks: [{
 				id: "03759F9A236BE3E5"
 				item: "armageddon_mod:gilded_shackles"
@@ -1122,10 +1054,9 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2FA85A2F504DD22D"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3434093875127243309.subtitle}"
+			subtitle: "Wrist support to push your enemies further!"
 			tasks: [{
 				id: "225B546853AB58B0"
 				item: "armageddon_mod:leather_bracer"
@@ -1135,10 +1066,9 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "3B54A0B7A1BFC43D"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4275218656834602045.subtitle}"
+			subtitle: "After his fall, Arion's heart seemed to radiate with energy."
 			tasks: [{
 				id: "0B552166B64F0660"
 				item: "armageddon_mod:arion_heart"
@@ -1148,10 +1078,9 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "4C10A582922942BF"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5481062726726402751.subtitle}"
+			subtitle: "This weird hood protects you from starvation.."
 			tasks: [{
 				id: "4E9C42961F621B7B"
 				item: "armageddon_mod:vagabonds_hood"
@@ -1161,10 +1090,9 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "47107CF812F3E62D"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5120730181231961645.subtitle}"
+			subtitle: "A leprechauns hat. You feel luckier"
 			tasks: [{
 				id: "445695F9D404141F"
 				item: "artifacts:superstitious_hat"
@@ -1174,10 +1102,9 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "5749A3A0E4BBBEBF"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6289738266027212479.subtitle}"
+			subtitle: "Wrap yourself in 10 layers of warm luck."
 			tasks: [{
 				id: "55BA5FC4B7CA0865"
 				item: "artifacts:lucky_scarf"
@@ -1187,10 +1114,9 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "3E3A89C06EF92A80"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4484047838589299328.subtitle}"
+			subtitle: "This old hook helps you annihilate your enemies with efficiency, rewarding you with more experience."
 			tasks: [{
 				id: "381CA7747753794C"
 				item: "artifacts:golden_hook"
@@ -1200,10 +1126,9 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "40489A518C0A91A0"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4632121891783086496.subtitle}"
+			subtitle: "Prove your HUNGER for power to the gods."
 			tasks: [{
 				id: "3242CAA680C78069"
 				item: "enigmaticdelicacy:hungry_charm"
@@ -1213,10 +1138,9 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "7A8DF0ABD7165401"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8830979065182049281.subtitle}"
+			subtitle: "Strip your armor and embrace the true strength of the might golems."
 			tasks: [{
 				id: "7E1CE1C31E65CE4C"
 				item: "enigmaticlegacy:golem_heart"
@@ -1226,10 +1150,9 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "1ED0B247D2EBEC85"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2220470637844753541.subtitle}"
+			subtitle: "The gods award you with powers the luckier you are."
 			tasks: [{
 				id: "3FB3ADB608DE5C4F"
 				item: "goety_revelation:blessing_scroll"
@@ -1239,10 +1162,9 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "53237ADA57A8D106"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5990767007525032198.subtitle}"
+			subtitle: "You have been through a lot and yet you yearn for more pain to become stronger."
 			tasks: [{
 				id: "2BCC550A9D0C4E94"
 				item: {
@@ -1265,10 +1187,9 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "53540F7283A44236"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6004441187700982326.subtitle}"
+			subtitle: "This mask oozes with cursed energy... be careful how you use it."
 			tasks: [{
 				id: "1482A59596F28B11"
 				item: "terramity:ancient_stone_mask"
@@ -1278,9 +1199,8 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "1312341D83EDD1B5"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest1374218137673519541.subtitle}"
+			subtitle: "In your fight with the Sniffer, you picked up his martial arts and can inflict more damage now!"
 			tasks: [{
 				id: "48FD154FB0EFE79A"
 				item: "terramity:giant_sniffers_hoof"
@@ -1290,9 +1210,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "5D3D98F08B9DA0DB"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6718694378008584411.subtitle}"
+			subtitle: "Crafted with mighty ingots from the Iron Colossus."
 			tasks: [{
 				id: "7A51DE46C4A4AE1F"
 				item: "terramity:proximity_badge"
@@ -1302,10 +1221,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "249CECCB9A5B9BDC"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2638243840944479196.subtitle}"
+			subtitle: "90% of gamblers quit before they hit big."
 			tasks: [{
 				id: "228508DE38A8F23A"
 				item: "terramity:fateful_coin"
@@ -1315,10 +1233,9 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "62B12E0795BA10E4"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7111515896706371812.subtitle}"
+			subtitle: "You feel a cold chill as the night howls at you..."
 			tasks: [{
 				id: "2ACE0E9026FB4910"
 				item: "uniqueaccessories:moon_stone"
@@ -1328,11 +1245,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
-			description: ["{ftbquests.chapter.charm_tierlist_2.quest2977883666136184562.description1}"]
+			description: ["Your darkness swallowed up my sun? who decided that."]
 			id: "2953916AB67C36F2"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2977883666136184562.subtitle}"
+			subtitle: "The warmth cover of the sun fills you up with strength."
 			tasks: [{
 				id: "316F7E0202F35BA0"
 				item: "uniqueaccessories:sun_stone"
@@ -1342,10 +1258,9 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2196D8584B11188E"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2420359723486353550.subtitle}"
+			subtitle: "You have become adept at slaying those who stand against you."
 			tasks: [{
 				id: "5EAAECB04F3EF370"
 				item: "enigmaticlegacy:monster_charm"
@@ -1355,10 +1270,9 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "497D1DFB754D8D53"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5295421702699584851.subtitle}"
+			subtitle: "You've learned how to tap in to your lucky senses."
 			tasks: [{
 				id: "7218AF34D661EA65"
 				item: "terramity:weighted_die"
@@ -1368,10 +1282,9 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "12D2C4AC857E093C"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest1356362683044989244.subtitle}"
+			subtitle: "A long claw of the dead that helps you reach!"
 			tasks: [{
 				id: "750F3F8DE1646AD4"
 				item: "armageddon_mod:fossilized_claw"
@@ -1381,10 +1294,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "6BE7A0A84281FE1B"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7775359926209216027.subtitle}"
+			subtitle: "A wither skeleton's spine, can protect you against withering."
 			tasks: [{
 				id: "394669CC7D5B6198"
 				item: "armageddon_mod:wither_spine"
@@ -1394,10 +1306,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2178925263C91F3F"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2411838483015999295.subtitle}"
+			subtitle: "A Warden's eye, protects you against the terrors of the dark."
 			tasks: [{
 				id: "4D0E8907A947D21B"
 				item: "armageddon_mod:sculk_eye_gem"
@@ -1407,10 +1318,9 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "65A3297B107C287C"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7323743027568846972.subtitle}"
+			subtitle: "A double-edged blade."
 			tasks: [{
 				id: "5A16A1CE1E6A1A63"
 				item: "enigmaticaddons:hell_blade_charm"
@@ -1420,10 +1330,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "252DC525EBD41FC8"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2679014120016322504.subtitle}"
+			subtitle: "Piglins are your friends!"
 			tasks: [{
 				id: "04199BE38259F51E"
 				item: "enigmaticlegacy:golden_ring"
@@ -1433,10 +1342,9 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2EDF2A61FA2A009D"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3377464845848412317.subtitle}"
+			subtitle: "If you are gambling alot, I suggest this."
 			tasks: [{
 				id: "3E5633884E457915"
 				item: "terramity:gamblers_ring"
@@ -1446,10 +1354,9 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "0EEF3E69F0B22129"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest1076147460695531817.subtitle}"
+			subtitle: "Soft like the feathers of a bird."
 			tasks: [{
 				id: "33DE820EFC73FE1B"
 				item: "terramity:fragile_divinity"
@@ -1459,10 +1366,9 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2049A68D6C333804"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2326573808849467396.subtitle}"
+			subtitle: "Huge armor boost, in cost of movement."
 			tasks: [{
 				id: "307E272BDF872EB1"
 				item: "terramity:ball_n_chain"
@@ -1472,10 +1378,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "7C9AD0ECE9232FA7"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8978718523058761639.subtitle}"
+			subtitle: "A device that powers your defenses when you need to."
 			tasks: [{
 				id: "6313CE48E40A6077"
 				item: "terramity:amp_shield"
@@ -1485,10 +1390,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "611E458333F93D1E"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6998107300795333918.subtitle}"
+			subtitle: "Who likes their food bland anyways?"
 			tasks: [{
 				id: "581F93DD94EC9D99"
 				item: "uniqueaccessories:all_purpose_seasoning"
@@ -1498,9 +1402,8 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "39128364E7FE2DFC"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4112493879154847228.subtitle}"
+			subtitle: "Become one with the forge and smith like a true master!"
 			tasks: [{
 				id: "2455CED8D6DC9A11"
 				item: "enigmaticaddons:forger_gem"
@@ -1510,9 +1413,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "0DC911B50600DE70"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest993344661999378032.subtitle}"
+			subtitle: "Eldorath seemed to drop this when he perished."
 			tasks: [{
 				id: "3517A45DC378D028"
 				item: "armageddon_mod:ancient_builders_charm"
@@ -1522,10 +1424,9 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "7D036FB0BE29DEAB"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest9008166484566466219.subtitle}"
+			subtitle: "The ring of titans, wear this for extra health!"
 			tasks: [{
 				id: "4EC476678B7BEC10"
 				item: "terramity:supercharged_speed_ring"
@@ -1535,9 +1436,8 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "555AB3F36CFF4CAE"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6150426099214929070.subtitle}"
+			subtitle: "This small totem represents a new life. A one time save from death."
 			tasks: [{
 				id: "28072AD53ADD20A7"
 				item: "minecraft:totem_of_undying"
@@ -1547,9 +1447,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "673B65985B57742E"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7438650914574398510.subtitle}"
+			subtitle: "Indulge in pain and become stronger."
 			tasks: [{
 				id: "0AF02A4EF4206783"
 				item: "terramity:chthonic_cursemark"
@@ -1559,9 +1458,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2E322DF369EB01FC"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3328773598057529852.subtitle}"
+			subtitle: "A stone used by blacksmits to sharpen blades. Very strong!"
 			tasks: [{
 				id: "293FE7B176C9F5EA"
 				item: "terramity:sharpening_stone"
@@ -1571,9 +1469,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "65210ECAFBF368F8"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7287121937035389176.subtitle}"
+			subtitle: "An archer's dream..."
 			tasks: [{
 				id: "52F7F4F76CD5B895"
 				item: "uniqueaccessories:magick_quiver"
@@ -1583,10 +1480,9 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "70448D0F065EF75A"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8089745926335166298.subtitle}"
+			subtitle: "The final crown forged from the breath of the dying gods. The air trembles at your presence, and their whispers play in your head. They are all watching you..."
 			tasks: [{
 				id: "2A94C55EEB67A830"
 				item: {
@@ -1605,10 +1501,9 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "538987B47B97AD34"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6019491586194779444.subtitle}"
+			subtitle: "Target... lucky practice?"
 			tasks: [{
 				id: "547B66154D976163"
 				item: {
@@ -1624,10 +1519,9 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2A2A134ACD1F06E9"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3038262110604691177.subtitle}"
+			subtitle: "Super Sniffer's anklet!"
 			tasks: [{
 				id: "7ED7F3AD3E1B60A4"
 				item: {
@@ -1643,10 +1537,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "4C65F21F7C8469EF"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5505072336577260015.subtitle}"
+			subtitle: "Heart of the mystical dragons who soared the skies"
 			tasks: [{
 				id: "65F7AA3BB5B948B9"
 				item: {
@@ -1662,10 +1555,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "32C7D5C1DD8871E0"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3659128250883928544.subtitle}"
+			subtitle: "What happens when you study too much tech..."
 			tasks: [{
 				id: "302538E803599A1C"
 				item: {
@@ -1681,10 +1573,9 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "17DC79A2FE303912"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest1719382898704922898.subtitle}"
+			subtitle: "3.14"
 			tasks: [{
 				id: "6D2A3E872D528069"
 				item: {
@@ -1700,10 +1591,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "66923D99B62403E3"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7391037668863509475.subtitle}"
+			subtitle: "BYE-BYE ARMOR!!!"
 			tasks: [{
 				id: "6F7B1DF825E7C0A4"
 				item: {
@@ -1719,10 +1609,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "5439E462DA019B22"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6069133086073920290.subtitle}"
+			subtitle: "An extra hand with extra fingers?"
 			tasks: [{
 				id: "6229F19DCC0ADDE6"
 				item: {
@@ -1738,10 +1627,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "29C3CF3ED10CE449"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3009476844715828297.subtitle}"
+			subtitle: "This stone was brewed in the raging volcanoes of the depthy mountains."
 			tasks: [{
 				id: "20BB03B4F73E01C1"
 				item: {
@@ -1757,10 +1645,9 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2060B817BE0B7ACE"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2333067019090098894.subtitle}"
+			subtitle: "Fuel yourself with pain and convert it into anger."
 			tasks: [{
 				id: "1D84D88A9EDD37E0"
 				item: {
@@ -1776,10 +1663,9 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "677169E91A300AB8"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7453855308162534072.subtitle}"
+			subtitle: "Multiply your damage!"
 			tasks: [{
 				id: "78F3DEAB0250D61D"
 				item: {
@@ -1795,9 +1681,8 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "53F0E4A44D37BF8C"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6048585693879844748.subtitle}"
+			subtitle: "Did you say you stole this from Gob?"
 			tasks: [{
 				id: "38FD8888EF50B2CD"
 				item: {
@@ -1813,9 +1698,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "7D13B04C2DC69E18"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest9012741120530488856.subtitle}"
+			subtitle: "The rage grows within you..."
 			tasks: [{
 				id: "1F3A3C203386360B"
 				item: {
@@ -1831,9 +1715,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "79179E13AEFB1B38"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8725616610430884664.subtitle}"
+			subtitle: "Not the type of milk you'd expect..."
 			tasks: [{
 				id: "04A24E9D38EF9801"
 				item: {
@@ -1849,9 +1732,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "3851E1DFB2B069D7"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4058273090129390039.subtitle}"
+			subtitle: "No more looking at the stars, you can fly on one!"
 			tasks: [{
 				id: "37F9814752AA6D77"
 				item: {
@@ -1868,9 +1750,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "29A7F2D3E404D8AD"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3001634668543269037.subtitle}"
+			subtitle: "An absolute must for an exam."
 			tasks: [{
 				id: "35F79333FA789CDB"
 				item: {
@@ -1886,9 +1767,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2F64A96E78F4CC26"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3415040709394484262.subtitle}"
+			subtitle: "Take away the things you don't like in life.,"
 			tasks: [{
 				id: "625EB2CDEF941814"
 				item: {
@@ -1904,10 +1784,9 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "285BA35F38F3EB11"
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2908097613770517265.subtitle}"
+			subtitle: "Heart imbued with regenerative abilities."
 			tasks: [{
 				id: "3419F4F7683F18F9"
 				item: {
@@ -1923,10 +1802,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "64DE76D199C315F3"
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7268377491222500851.subtitle}"
+			subtitle: "Remember the Math lessons you hated?"
 			tasks: [{
 				id: "638668610779CEE5"
 				item: {
@@ -1942,10 +1820,9 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "716D918C032B21B4"
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8173348929281925556.subtitle}"
+			subtitle: "Fancy way to execute your enemies"
 			tasks: [{
 				id: "66E54E69CBF35DC5"
 				item: {
@@ -1961,10 +1838,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "0EDDA18C1088247C"
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest1071189909328897148.subtitle}"
+			subtitle: "A chocolate piece wont hurt, right?"
 			tasks: [{
 				id: "7325B0271F4005B7"
 				item: {
@@ -1980,9 +1856,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "6B3DEFF67A97FE6F"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7727596377535413871.subtitle}"
+			subtitle: "Needle infused with your blood."
 			tasks: [{
 				id: "5E559B711792CA45"
 				item: {
@@ -1998,9 +1873,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "000CD6CEDC6A6313"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3613883670094611.subtitle}"
+			subtitle: "Alt F4's little brother"
 			tasks: [{
 				id: "641BE241879518A3"
 				item: {
@@ -2016,7 +1890,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "5BF9A1EA07CB4ED2"
 			shape: "irontier"
 			tasks: [{
@@ -2034,10 +1907,9 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "5561436F911EB095"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6152272712419946645.subtitle}"
+			subtitle: "Perhaps you could still use it."
 			tasks: [{
 				id: "7CE49BADFB8E7671"
 				item: {
@@ -2053,10 +1925,9 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "054C2A129DD9464B"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest381726327865689675.subtitle}"
+			subtitle: "Sine... but with extra steps"
 			tasks: [{
 				id: "3DD106C757683D69"
 				item: {
@@ -2072,10 +1943,9 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "27AA08D7E38E7039"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2858106636848754745.subtitle}"
+			subtitle: "Infinite healing???"
 			tasks: [{
 				id: "22A8A30F91AD9254"
 				item: {
@@ -2091,10 +1961,9 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "59CA8ACC9FB786FD"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest6470136426128705277.subtitle}"
+			subtitle: "Fancy earrings!"
 			tasks: [{
 				id: "2ADCB41AE40C2B59"
 				item: {
@@ -2110,10 +1979,9 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "1406EE2D8C160E7D"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest1443102610010017405.subtitle}"
+			subtitle: "Cosine... but with extra steps"
 			tasks: [{
 				id: "4F1BA8CAE7BBF509"
 				item: {
@@ -2129,10 +1997,9 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "249B4AC60151546E"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2637784221041644654.subtitle}"
+			subtitle: "Embrace the hasty winds!"
 			tasks: [{
 				id: "7469B1072B82A01B"
 				item: {
@@ -2148,10 +2015,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "692AF72DA7D1B78C"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7578141098465408908.subtitle}"
+			subtitle: "Maybe it has some uses..."
 			tasks: [{
 				id: "1039D632D292A5BA"
 				item: {
@@ -2167,10 +2033,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "34D228D657B593E5"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3806149536141120485.subtitle}"
+			subtitle: "Siphon your opponent's life."
 			tasks: [{
 				id: "6495CD13B79020D2"
 				item: {
@@ -2186,10 +2051,9 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "2B56063F7F1DC71E"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest3122690261413381918.subtitle}"
+			subtitle: "Glasses but with aura."
 			tasks: [{
 				id: "4202D87846B77E0A"
 				item: {
@@ -2205,10 +2069,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "04C51D040673A187"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest343712849689026951.subtitle}"
+			subtitle: "Loot goblin!"
 			tasks: [{
 				id: "6FA15999720A6762"
 				item: {
@@ -2224,10 +2087,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "50C1419E0152EE01"
 			shape: "woodtier"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest5819004340422241793.subtitle}"
+			subtitle: "Gloves but... with passion."
 			tasks: [{
 				id: "3916DAD022076E81"
 				item: {
@@ -2243,9 +2105,8 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "3C5634F17369EB1B"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4347720701900876571.subtitle}"
+			subtitle: "An ancient clock that was frozen in tine... it seems to have grown magical properties."
 			tasks: [{
 				id: "6727907DC812EC5D"
 				item: {
@@ -2261,9 +2122,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "3F46BD66E1E8092D"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest4559539922333600045.subtitle}"
+			subtitle: "How greedy?"
 			tasks: [{
 				id: "721D1DBD2CBAAA7B"
 				item: {
@@ -2279,9 +2139,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "06EB72C5AF537479"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest498618377130177657.subtitle}"
+			subtitle: "The gloves of the Grand Duelist!"
 			tasks: [{
 				id: "2C45D5B039973A6D"
 				item: {
@@ -2297,9 +2156,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "265FE38FF0C1A07E"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2765178903587823742.subtitle}"
+			subtitle: "A mage's wet dream!"
 			tasks: [{
 				id: "3D19467E2EC7233C"
 				item: {
@@ -2315,9 +2173,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "6EE7EAAC2ED00629"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest7991614089032893993.subtitle}"
+			subtitle: "Mad Scientist."
 			tasks: [{
 				id: "6DE34B7A21EFE95D"
 				item: {
@@ -2333,9 +2190,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "1FE74EEEE3D758CD"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest2298892922727651533.subtitle}"
+			subtitle: "Pick a card... any card"
 			tasks: [{
 				id: "6939B1A0E22F51FE"
 				item: {
@@ -2351,9 +2207,8 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "6FA9BC3A7187BEDC"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest8046169168472948444.subtitle}"
+			subtitle: "Meep Meep!"
 			tasks: [{
 				id: "6216BF791F7E1493"
 				item: {
@@ -2369,7 +2224,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "78A776401D591154"
 			shape: "goldtier"
 			tasks: [{
@@ -2387,9 +2241,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["02AE79E1837C7B79"]
 			id: "042ADBC9AE1FEE8B"
-			subtitle: "{ftbquests.chapter.charm_tierlist_2.quest300293984429797003.subtitle}"
+			subtitle: "Keep an eye on the market."
 			tasks: [{
 				id: "6CC84CB9A1F6466D"
 				item: {
@@ -2405,6 +2258,6 @@
 			y: 3.5d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.charm_tierlist_2.subtitle0}"]
-	title: "{ftbquests.chapter.charm_tierlist_2.title}"
+	subtitle: ["This tierlist is outdated, though the information in it is %90 true, it still is outdated."]
+	title: "Charm Tierlist (outdated)"
 }

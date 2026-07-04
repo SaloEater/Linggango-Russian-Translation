@@ -3,14 +3,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "diamondtier"
 	filename: "mekanism"
-	group: "3C6437AAADAFC5CB"
-	icon: "mekanism:basic_smelting_factory"
+	group: "336B0783FD524DD2"
+	icon: "mekanism:basic_control_circuit"
 	id: "23983F4DC524B14B"
 	images: [
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.mekanism.image.hovertext1"]
+			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -50,10 +50,10 @@
 			y: -14.5d
 		}
 		{
-			height: 2.0d
-			image: "customtextures:textures/mekanismlogo.png"
+			height: 1.95d
+			image: "customtextures:textures/mekanism_logo.png"
 			rotation: 0.0d
-			width: 7.0d
+			width: 8.0d
 			x: -20.0d
 			y: -4.0d
 		}
@@ -68,7 +68,7 @@
 		{
 			click: "https://wiki.aidancbrady.com/"
 			height: 1.0d
-			hover: ["ftbquests.chapter.mekanism.image.hovertext2"]
+			hover: ["Mekanism Wiki Page"]
 			image: "customtextures:textures/wikipng.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -78,25 +78,29 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.mekanism.image.hovertext3"]
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: -22.0d
-			y: -2.0d
+			x: -20.0d
+			y: -5.5d
 		}
 	]
-	order_index: 12
+	order_index: 15
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["6F62B5510FA881CD"]
 			description: [
-				"{ftbquests.chapter.mekanism.quest1597902948529485173.description1}"
+				"Metallurgic Infuser allows you to craft core items within the mod."
 				""
-				"{ftbquests.chapter.mekanism.quest1597902948529485173.description2}"
+				"Check down, there's early-game power generating methods!"
 			]
 			id: "162CE44400A63575"
 			rewards: [
@@ -115,7 +119,7 @@
 			]
 			shape: "irontier"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.mekanism.quest1597902948529485173.subtitle}"
+			subtitle: "The Starting Machine"
 			tasks: [{
 				id: "28277BA9F319240D"
 				item: "mekanism:metallurgic_infuser"
@@ -141,7 +145,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest638913118659198951.subtitle}"
+			subtitle: "Breaks Raw Ores into Dusts"
 			tasks: [{
 				id: "1AE233B4CCFE99F7"
 				item: "mekanism:enrichment_chamber"
@@ -152,7 +156,7 @@
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["{ftbquests.chapter.mekanism.quest1825973425757531131.description1}"]
+			description: ["Refined obsidian is a really strong material for early-game. It's crafted within this machine!"]
 			id: "195729280394ABFB"
 			rewards: [{
 				id: "268A8495184348CE"
@@ -160,7 +164,7 @@
 				xp: 10
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest1825973425757531131.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6934C61AFEB0443D"
 				item: "mekanism:osmium_compressor"
@@ -172,9 +176,9 @@
 		{
 			dependencies: ["6C25D42C36175BF4"]
 			description: [
-				"{ftbquests.chapter.mekanism.quest8855487462298604922.description1}"
+				"This machine crushes ores into Dirty Dust, letting you turn clumps into dust."
 				""
-				"{ftbquests.chapter.mekanism.quest8855487462298604922.description2}"
+				"Then, pass it through an Enrichment Chamber to get Ore Dust, which can be smelted back into ingots!"
 			]
 			id: "7AE502EDB73BD57A"
 			rewards: [
@@ -191,7 +195,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest8855487462298604922.subtitle}"
+			subtitle: "Judgement!"
 			tasks: [{
 				id: "431D7329CFCAF880"
 				item: "mekanism:crusher"
@@ -202,7 +206,7 @@
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["{ftbquests.chapter.mekanism.quest666687148032328472.description1}"]
+			description: ["This block can charge items and stores items"]
 			id: "09408C6DCAC90318"
 			rewards: [{
 				id: "0CD8FBAF40FDD1E5"
@@ -210,7 +214,7 @@
 				xp: 10
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest666687148032328472.subtitle}"
+			subtitle: "Storing Power"
 			tasks: [{
 				id: "19C3A9D5E656FAA5"
 				item: "mekanism:basic_energy_cube"
@@ -221,7 +225,7 @@
 		}
 		{
 			dependencies: ["24CC389BA7DADF02"]
-			description: ["{ftbquests.chapter.mekanism.quest1976481349666388785.description1}"]
+			description: ["Infusing the Enriched Iron with more Coal or Charcoal will give you Steel Dust, which can be smelted into Steel."]
 			icon: "immersiveengineering:ingot_steel"
 			id: "1B6DDF50D00CBB31"
 			rewards: [{
@@ -231,7 +235,7 @@
 			}]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest1976481349666388785.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6B88F1F9DF50C1E4"
 				item: {
@@ -241,10 +245,10 @@
 						value: "forge:ingots/steel"
 					}
 				}
-				title: "{ftbquests.chapter.mekanism.quest1976481349666388785.task.7748709214386700772.title}"
+				title: "Any Steel Ingot"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest1976481349666388785.title}"
+			title: "Steel"
 			x: -10.0d
 			y: -5.0d
 		}
@@ -265,7 +269,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest2589963267776600848.subtitle}"
+			subtitle: "Transferring Power"
 			tasks: [{
 				id: "56F8A49135418FD8"
 				item: "mekanism:basic_universal_cable"
@@ -291,7 +295,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest3383572610529152128.subtitle}"
+			subtitle: "Transferring Fluids"
 			tasks: [{
 				id: "45B151086147D98D"
 				item: "mekanism:basic_mechanical_pipe"
@@ -317,7 +321,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest4914790271748789914.subtitle}"
+			subtitle: "Transferring Gasses"
 			tasks: [{
 				id: "685BFFC7BDA40FC3"
 				item: "mekanism:basic_pressurized_tube"
@@ -343,7 +347,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest6586544984519986268.subtitle}"
+			subtitle: "Transferring Items"
 			tasks: [{
 				id: "3F972BE9DFCA1EB5"
 				item: "mekanism:basic_logistical_transporter"
@@ -369,7 +373,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest5989294862837898343.subtitle}"
+			subtitle: "Transferring Heat"
 			tasks: [{
 				id: "5F4FEC0FD7C5CC33"
 				item: "mekanism:basic_thermodynamic_conductor"
@@ -435,15 +439,15 @@
 				"407EFAF528871014"
 			]
 			description: [
-				"{ftbquests.chapter.mekanism.quest7792868016585661428.description1}"
+				"This machine purifies ores: 1 raw ingot becomes 2 clumps."
 				""
-				"{ftbquests.chapter.mekanism.quest7792868016585661428.description2}"
+				"This machine refines ores efficiently: 1 raw ingot produces 2 clumps."
 				""
-				"{ftbquests.chapter.mekanism.quest7792868016585661428.description3}"
+				"Process the clumps in a Crusher to get Dirty Dust, then use an Enrichment Chamber to make Clean Dust, and finally smelt it back into an ingot."
 				""
-				"{ftbquests.chapter.mekanism.quest7792868016585661428.description4}"
+				"A way to multiple your materials :D!"
 				""
-				"{ftbquests.chapter.mekanism.quest7792868016585661428.description5}"
+				"(too much work though)"
 			]
 			id: "6C25D42C36175BF4"
 			rewards: [
@@ -460,7 +464,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest7792868016585661428.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4983AE3B954BF2FE"
 				item: "mekanism:purification_chamber"
@@ -471,7 +475,7 @@
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["{ftbquests.chapter.mekanism.quest5228044102127270136.description1}"]
+			description: ["This machine smelts item just like a furnace.. wow."]
 			id: "488DBE69595F38F8"
 			rewards: [
 				{
@@ -487,7 +491,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest5228044102127270136.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "5A081977DB9407EA"
 				item: "mekanism:energized_smelter"
@@ -513,7 +517,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest1790331702160947864.subtitle}"
+			subtitle: "Separates chemicals from liquids or gasses!"
 			tasks: [{
 				id: "054CC6FB5173F8A3"
 				item: "mekanism:electrolytic_separator"
@@ -539,7 +543,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest4524376937031029544.subtitle}"
+			subtitle: "Can burn gasses to produce power!"
 			tasks: [{
 				id: "2C13E8B67BC61E34"
 				item: "mekanismgenerators:gas_burning_generator"
@@ -565,7 +569,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest5700436455159404581.subtitle}"
+			subtitle: "Turns 3 Raw Ore into 8 Ore Shards"
 			tasks: [{
 				id: "443DCB7E2E45F3DD"
 				item: "mekanism:chemical_injection_chamber"
@@ -577,9 +581,9 @@
 		{
 			dependencies: ["603877AB96321F1A"]
 			description: [
-				"{ftbquests.chapter.mekanism.quest352078165490498319.description1}"
+				"Hope you created sulfur dioxide."
 				""
-				"{ftbquests.chapter.mekanism.quest352078165490498319.description2}"
+				"combine it with oxygen to create Sulfur Trioxide."
 			]
 			id: "04E2D539E33B7B0F"
 			rewards: [{
@@ -588,7 +592,7 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest352078165490498319.subtitle}"
+			subtitle: "Combines Two Gasses into one"
 			tasks: [{
 				id: "31D203EC92BEA66F"
 				item: "mekanism:chemical_infuser"
@@ -600,9 +604,9 @@
 		{
 			dependencies: ["4F1C04C0F6769825"]
 			description: [
-				"{ftbquests.chapter.mekanism.quest6933423205179858714.description1}"
+				"First multi-block structure you will be building.. have fun."
 				""
-				"{ftbquests.chapter.mekanism.quest6933423205179858714.description2}"
+				"To Start, build a 4x3x4 structure but keep the middle empty. Except For The Base."
 			]
 			id: "603877AB96321F1A"
 			rewards: [{
@@ -630,7 +634,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mekanism.quest6933423205179858714.title}"
+			title: "Water Turns Into Brine"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -639,7 +643,7 @@
 				"4F1C04C0F6769825"
 				"04E2D539E33B7B0F"
 			]
-			description: ["{ftbquests.chapter.mekanism.quest5711522486710797600.description1}"]
+			description: ["Needs sulfuric acid to turn ores into slurry!"]
 			id: "4F436770D30D8520"
 			rewards: [
 				{
@@ -656,7 +660,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest5711522486710797600.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1FE5AA0FF1F9BB51"
 				item: "mekanism:chemical_dissolution_chamber"
@@ -667,7 +671,7 @@
 		}
 		{
 			dependencies: ["4F436770D30D8520"]
-			description: ["{ftbquests.chapter.mekanism.quest4771205297597192435.description1}"]
+			description: ["When you pump water into this machine, it will turn it into sulfuric acid :D"]
 			id: "4236B9F071BE18F3"
 			rewards: [{
 				id: "31A8BB8FAFD364E7"
@@ -675,24 +679,24 @@
 				xp: 10
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest4771205297597192435.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "50D9504BFFB97A27"
 				item: "mekanism:rotary_condensentrator"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest4771205297597192435.title}"
+			title: "Creating sulfuric acid"
 			x: -2.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4F436770D30D8520"]
 			description: [
-				"{ftbquests.chapter.mekanism.quest3325710339482368199.description1}"
+				"Put sulfur dust into this machine, it will turn into sulfur dioxide!"
 				""
-				"{ftbquests.chapter.mekanism.quest3325710339482368199.description2}"
+				"For making trioxide, check the chemical infuser questline!"
 				""
-				"{ftbquests.chapter.mekanism.quest3325710339482368199.description3}"
+				"Let's move to the new mekanism questline!"
 			]
 			id: "2E274BEEF2B0B8C7"
 			rewards: [{
@@ -701,7 +705,7 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest3325710339482368199.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "21BFDF262D2A9DB3"
@@ -720,9 +724,9 @@
 		{
 			dependencies: ["603877AB96321F1A"]
 			description: [
-				"{ftbquests.chapter.mekanism.quest175786269097716646.description1}"
+				"The Thermal Evaporation Plant multiblock generates Brine depending on its heat."
 				""
-				"{ftbquests.chapter.mekanism.quest175786269097716646.description2}"
+				"IF you are having a hard time generating heat with it, just build the structure in nether or desert."
 			]
 			id: "027084AE2DF5EBA6"
 			optional: true
@@ -739,7 +743,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest175786269097716646.subtitle}"
+			subtitle: "Hot Brine"
 			tasks: [{
 				id: "6E75525A5D88EF23"
 				item: {
@@ -758,21 +762,21 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.mekanism.quest175786269097716646.task.7959358464517009187.title}"
+				title: "Heaters"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest175786269097716646.title}"
+			title: "Heated Brine Production"
 			x: 0.3999999999999999d
 			y: -0.5d
 		}
 		{
 			dependencies: ["18D88932916C7A98"]
 			description: [
-				"{ftbquests.chapter.mekanism.quest4647427796346802196.description1}"
-				"{ftbquests.chapter.mekanism.quest4647427796346802196.image0}"
-				"{ftbquests.chapter.mekanism.quest4647427796346802196.description2}"
+				"Build the classic inf water system and PUMP PUMP "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Pumping this water into your electrolytic separator will split the water into Hydrogen and Oxygen."
 				""
-				"{ftbquests.chapter.mekanism.quest4647427796346802196.description3}"
+				"Cool isn't it?"
 			]
 			id: "407EFAF528871014"
 			repeatable: true
@@ -790,13 +794,13 @@
 			]
 			shape: "heart"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest4647427796346802196.subtitle}"
+			subtitle: "Infinite Water Source"
 			tasks: [{
 				id: "16DAFC5C5846015A"
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest4647427796346802196.title}"
+			title: "Water Source"
 			x: -7.0d
 			y: 0.0d
 		}
@@ -809,7 +813,7 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest8367699413242337272.subtitle}"
+			subtitle: "Generates Power From Sun"
 			tasks: [{
 				id: "22ACFEB806D68385"
 				item: "mekanismgenerators:solar_generator"
@@ -821,9 +825,9 @@
 		{
 			dependencies: ["58B125BD4876054C"]
 			description: [
-				"{ftbquests.chapter.mekanism.quest455032253514821045.description1}"
-				"{ftbquests.chapter.mekanism.quest455032253514821045.image0}"
-				"{ftbquests.chapter.mekanism.quest455032253514821045.description2}"
+				"The heat generator is the early-game power generation that you can make."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Surround the generator with some lava for free heat which is passive power!"
 			]
 			id: "0650996C7818ADB5"
 			rewards: [
@@ -840,7 +844,7 @@
 			]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest455032253514821045.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7BA12BAB8271E170"
 				item: "mekanismgenerators:heat_generator"
@@ -858,7 +862,7 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest7841173819794683910.subtitle}"
+			subtitle: "Uses Bio-fuel!"
 			tasks: [{
 				id: "36B12984060A90FD"
 				item: "mekanismgenerators:bio_generator"
@@ -876,7 +880,7 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest5682864242499213332.subtitle}"
+			subtitle: "Generates Way More Power!"
 			tasks: [{
 				id: "4F0B3CA66BE1AEE1"
 				item: "mekanismgenerators:advanced_solar_generator"
@@ -887,7 +891,7 @@
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["{ftbquests.chapter.mekanism.quest8608792856883610036.description1}"]
+			description: ["The Higher Y level The More Power!"]
 			id: "7778937DF377C1B4"
 			rewards: [{
 				id: "32DF83533E5D7416"
@@ -895,7 +899,7 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest8608792856883610036.subtitle}"
+			subtitle: "Generates Power From Wind"
 			tasks: [{
 				id: "50624A39AD15A8A6"
 				item: "mekanismgenerators:wind_generator"
@@ -905,7 +909,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.mekanism.quest6390930841110185292.description1}"]
+			description: ["&eMekanism is a mod that features tons of new tech to play around!"]
 			icon: {
 				Count: 1
 				id: "mekanism:creative_energy_cube"
@@ -933,13 +937,13 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.mekanism.quest6390930841110185292.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "75BC02D6E4F948EF"
-				title: "{ftbquests.chapter.mekanism.quest6390930841110185292.task.8483658920046971119.title}"
+				title: "Okay :O"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest6390930841110185292.title}"
+			title: "&dWelcome to Mekanism"
 			x: -20.0d
 			y: -2.0d
 		}
@@ -960,13 +964,13 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest8026176845687325133.subtitle}"
+			subtitle: "The Base Crafting Material"
 			tasks: [{
 				id: "7837495036A1389E"
 				item: "mekanism:ingot_osmium"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest8026176845687325133.title}"
+			title: "Osmium Ingot"
 			x: -16.0d
 			y: -2.0d
 		}
@@ -993,7 +997,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest6375436793499846597.subtitle}"
+			subtitle: "Combines gases, solid items, and liquids to produce an item and by-product."
 			tasks: [{
 				id: "1C162E39F2ACA72F"
 				item: "mekanism:pressurized_reaction_chamber"
@@ -1004,7 +1008,7 @@
 		}
 		{
 			dependencies: ["7AE502EDB73BD57A"]
-			description: ["{ftbquests.chapter.mekanism.quest4270497778188843844.description1}"]
+			description: ["The crusher can also break down natural things into a biofuel."]
 			id: "3B43DB1A6B0A7B44"
 			rewards: [
 				{
@@ -1020,20 +1024,20 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest4270497778188843844.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 2L
 				id: "05138E2E906020F3"
 				item: "mekanism:bio_fuel"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest4270497778188843844.title}"
+			title: "Biofuel"
 			x: -2.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3B43DB1A6B0A7B44"]
-			description: ["{ftbquests.chapter.mekanism.quest5784725478127882925.description1}"]
+			description: ["When Biofuel is mixed with Water and Hydrogen in a pressurized reaction chamber, it produces Substrates."]
 			id: "5047792C6EF6D2AD"
 			rewards: [
 				{
@@ -1049,20 +1053,20 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest5784725478127882925.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 3L
 				id: "1F6A5B58DF94730B"
 				item: "mekanism:substrate"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest5784725478127882925.title}"
+			title: "Substrates"
 			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5047792C6EF6D2AD"]
-			description: ["{ftbquests.chapter.mekanism.quest8548831318368505261.description1}"]
+			description: ["Mix Oxygen, Ethylene to produce an HDPE Pellet."]
 			id: "76A38CCA5816CDAD"
 			rewards: [
 				{
@@ -1079,23 +1083,23 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest8548831318368505261.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 3L
 				id: "62E8F3CC847BBD3D"
 				item: "mekanism:hdpe_pellet"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest8548831318368505261.title}"
+			title: "HDPE Pellet,"
 			x: -0.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["76A38CCA5816CDAD"]
 			description: [
-				"{ftbquests.chapter.mekanism.quest5120712492418089792.description1}"
+				"If you place 3 HDPE pellets to the chamber, you can create and HDPE Sheet!"
 				""
-				"{ftbquests.chapter.mekanism.quest5120712492418089792.description2}"
+				"HDPE is used in lot of machines and modules."
 			]
 			id: "47106CE1937C4340"
 			rewards: [
@@ -1114,13 +1118,13 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest5120712492418089792.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6EE6F07986BAFC3B"
 				item: "mekanism:hdpe_sheet"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest5120712492418089792.title}"
+			title: "HDPE Sheet"
 			x: 1.5d
 			y: -4.5d
 		}
@@ -1133,7 +1137,7 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest5404180824610800213.subtitle}"
+			subtitle: "Washing Ores"
 			tasks: [{
 				id: "1DA159AA61B37545"
 				item: "mekanism:chemical_washer"
@@ -1151,7 +1155,7 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mekanism.quest4150478310507828730.subtitle}"
+			subtitle: "Turns Ore Slurry into Crystals"
 			tasks: [{
 				id: "6F2B3A4206C129B0"
 				item: "mekanism:chemical_crystallizer"
@@ -1162,10 +1166,10 @@
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			description: ["{ftbquests.chapter.mekanism.quest2651556521801604866.description1}"]
+			description: ["Infusing Iron with Coal or Charcoal in a Metallurgic Infuser will give you Enriched Iron."]
 			id: "24CC389BA7DADF02"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.mekanism.quest2651556521801604866.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3419A33AB9093631"
 				item: "mekanism:enriched_iron"
@@ -1300,7 +1304,7 @@
 				item: "mekanism:alloy_infused"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest1151346317985056219.title}"
+			title: "Advanced tier"
 			x: -14.0d
 			y: -8.0d
 		}
@@ -1418,7 +1422,7 @@
 				item: "mekanism:alloy_reinforced"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest4819517169129033617.title}"
+			title: "Extreme Tier"
 			x: -18.5d
 			y: -8.0d
 		}
@@ -1578,7 +1582,7 @@
 				item: "mekanism:alloy_atomic"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest150779684399778510.title}"
+			title: "Ultra Tier!"
 			x: -18.5d
 			y: -14.5d
 		}
@@ -1593,7 +1597,7 @@
 			}]
 			shape: "gear"
 			size: 0.6d
-			subtitle: "{ftbquests.chapter.mekanism.quest2446894365889042727.subtitle}"
+			subtitle: "Enriched items give 8x more mb."
 			tasks: [{
 				id: "02B3A296838B0B7C"
 				item: "mekanism:enriched_iron"
@@ -1613,7 +1617,7 @@
 			}]
 			shape: "gear"
 			size: 0.6d
-			subtitle: "{ftbquests.chapter.mekanism.quest2710295724883915371.subtitle}"
+			subtitle: "Enriched items give 8x more mb."
 			tasks: [{
 				id: "55A4332691A42333"
 				item: "mekanism:enriched_redstone"
@@ -1633,7 +1637,7 @@
 			}]
 			shape: "gear"
 			size: 0.6d
-			subtitle: "{ftbquests.chapter.mekanism.quest1725093859824380156.subtitle}"
+			subtitle: "Enriched items give 8x more mb."
 			tasks: [{
 				id: "3812D14FB963D155"
 				item: "mekanism:enriched_gold"
@@ -1653,7 +1657,7 @@
 			}]
 			shape: "gear"
 			size: 0.6d
-			subtitle: "{ftbquests.chapter.mekanism.quest2179553491944368830.subtitle}"
+			subtitle: "Enriched items give 8x more mb."
 			tasks: [{
 				id: "71D151C53B5A1774"
 				item: "mekanism:enriched_refined_obsidian"
@@ -1673,7 +1677,7 @@
 			}]
 			shape: "gear"
 			size: 0.6d
-			subtitle: "{ftbquests.chapter.mekanism.quest9142436621965599481.subtitle}"
+			subtitle: "Enriched items give 8x more mb."
 			tasks: [{
 				id: "4A76452487007E2F"
 				item: "mekanism:enriched_diamond"
@@ -1693,7 +1697,7 @@
 			}]
 			shape: "gear"
 			size: 0.6d
-			subtitle: "{ftbquests.chapter.mekanism.quest4747490258934104855.subtitle}"
+			subtitle: "Enriched items give 8x more mb."
 			tasks: [{
 				id: "6F840A9468EC5758"
 				item: "mekanism:enriched_tin"
@@ -1713,7 +1717,7 @@
 			}]
 			shape: "gear"
 			size: 0.6d
-			subtitle: "{ftbquests.chapter.mekanism.quest8413083605582503197.subtitle}"
+			subtitle: "Enriched items give 8x more mb."
 			tasks: [{
 				id: "522B7A3C514E4CD9"
 				item: "mekanism:enriched_carbon"
@@ -1865,7 +1869,7 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest748426336387596219.title}"
+			title: "Basic Machinery"
 			x: -13.5d
 			y: 0.5d
 		}
@@ -1938,7 +1942,7 @@
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest2420382756010105230.title}"
+			title: "Advanced Machinery"
 			x: -14.0d
 			y: -15.5d
 		}
@@ -1988,7 +1992,7 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest758685342446912285.title}"
+			title: "Elite Machinery"
 			x: -11.0d
 			y: -15.5d
 		}
@@ -2024,7 +2028,7 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mekanism.quest7902587471298125048.title}"
+			title: "Ultimate Machinery"
 			x: -8.0d
 			y: -15.5d
 		}
@@ -2133,7 +2137,7 @@
 				item: "mekanismcovers:empty_cover"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.mekanism.quest2997138673232189536.subtitle}"
+			subtitle: "Hide your mekanism cables!"
 			tasks: [{
 				id: "2DEDCF852578CA7B"
 				item: "mekanismcovers:empty_cover"
@@ -2143,5 +2147,5 @@
 			y: -3.5d
 		}
 	]
-	title: "{ftbquests.chapter.mekanism.title}"
+	title: "<shadow><grad from=#A2FCD6 to=#1E9E5B>Mekanism</grad></shadow>"
 }

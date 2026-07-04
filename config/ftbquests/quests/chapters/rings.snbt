@@ -1,0 +1,819 @@
+{
+	autofocus_id: "6F3AB88145762DE1"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rings"
+	group: "0FD8C2D2A2339C0B"
+	icon: "terramity:tearstone_ring"
+	id: "6EDF4B2777923E7D"
+	images: [{
+		height: 15.0d
+		image: "customtextures:textures/ring.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: -0.5d
+		y: -1.0d
+	}]
+	order_index: 22
+	parent: "44F86CB070F12FF2"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Piglins respect you"]
+			hide_until_deps_visible: false
+			id: "4E0627A269FF2397"
+			rewards: [{
+				id: "4C281A64F330F97D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Hands"
+			tasks: [{
+				id: "3974731AF07A1BAF"
+				item: {
+					Count: 1
+					id: "relics:bastion_ring"
+					tag: {
+						Damage: 0
+						abilities: {
+							trade: {
+								points: 0
+								stats: {
+									rolls: 0.806d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["A weird worm that gives you some changing buffs whenever it feels like it.."]
+			id: "155E751B834AF92A"
+			rewards: [{
+				id: "68FF1EF6DA601737"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Hands"
+			tasks: [{
+				id: "15BA75876C7DCAC7"
+				item: {
+					Count: 1
+					id: "morerelics:moodworm"
+					tag: {
+						abilities: {
+							moody: {
+								points: 0
+								stats: {
+									multip: 0.14825d
+									reduction: 12.4741d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "2FE5E1AD080ABA5C"
+			rewards: [{
+				id: "143DE966D6A04C78"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Hands"
+			tasks: [{
+				id: "58C6DC1456F498BF"
+				item: {
+					Count: 1
+					id: "brutality:road_runners_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "4048842E6B3ACF14"
+			rewards: [{
+				id: "4B405ED5F7BC6E87"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Hands"
+			tasks: [{
+				id: "55BCBC31629301B7"
+				item: {
+					Count: 1
+					id: "brutality:microblade_band"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "2CF91DEF1F4989BD"
+			rewards: [{
+				id: "187FC49DEE6FAF80"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Hands"
+			tasks: [{
+				id: "1DFE570844944363"
+				item: {
+					Count: 1
+					id: "brutality:ring_of_mana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "004D86CE70B1178D"
+			rewards: [{
+				id: "74955399932EE599"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Hand"
+			tasks: [{
+				id: "6433C65D409EEFC4"
+				item: {
+					Count: 1
+					id: "brutality:ring_of_mana_plus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "6F3AB88145762DE1"
+			rewards: [{
+				id: "0234414124F12E07"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Hands"
+			tasks: [{
+				id: "09236669E85844CC"
+				item: {
+					Count: 1
+					id: "brutality:sanguine_signet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "1834F18BD3D850C9"
+			tasks: [{
+				id: "5D425DE8BB2BDE94"
+				item: "terramity:rush_ring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "5065A6B6A1217CF1"
+			tasks: [{
+				id: "05667BAB53B54699"
+				item: "terramity:gamblers_ring"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "7CC24B52ED87515D"
+			tasks: [{
+				id: "6B4CDED5746FEEC4"
+				item: "terramity:ring_of_luck_plus"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "0713F9FB48C9DBC8"
+			tasks: [{
+				id: "49C47DD991EA9AE3"
+				item: "terramity:ring_of_luck"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "4D52E174B16FCF20"
+			tasks: [{
+				id: "1F82E2A8CEB1482D"
+				item: "terramity:supercharged_speed_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "79DAC840038E434E"
+			tasks: [{
+				id: "4BB2CB88C21A77DC"
+				item: "terramity:leap_ring_plus"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "1B0FB81362C9472E"
+			tasks: [{
+				id: "6EBBBD74BF366B2B"
+				item: "terramity:excavation_ring"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "2EDF4CC76E5EFC3A"
+			tasks: [{
+				id: "619A17A98ECE1AA2"
+				item: "terramity:leap_ring_plus"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "636B09B2CE855992"
+			tasks: [{
+				id: "1BB81EC63BDD06B1"
+				item: "terramity:leap_ring"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "31E8FA32E0E6619B"
+			tasks: [{
+				id: "2F034EDB1769BC96"
+				item: "terramity:ruby_ring_plus"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "78514B867139E74F"
+			tasks: [{
+				id: "6F46B979099FAEF6"
+				item: "terramity:band_of_drifting"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "11E7F8696C1193A6"
+			tasks: [{
+				id: "4194F78022C0D8AB"
+				item: "terramity:dragon_band"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "1714D9BA246C4FF3"
+			tasks: [{
+				id: "3D645D18BAD0A2A0"
+				item: "too_many_bows:sharpshot_ring"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "036B447A06FFFBD7"
+			tasks: [{
+				id: "57C990AC80CAC4D8"
+				item: "too_many_bows:stormbound_signet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "61E618BE0B193A7C"
+			tasks: [{
+				id: "336292ED27452EEE"
+				item: "moreartifacts:lucky_emerald_ring"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "0F195E2ABD5ED947"
+			tasks: [{
+				id: "7470B57578DA0620"
+				item: "moreartifacts:ruby_ring"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "066DE89EAFFD172F"
+			tasks: [{
+				id: "5F3E566F0489E21D"
+				item: "oddaccessories:enlightening_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "30FBCD93DDB6F277"
+			tasks: [{
+				id: "3E15AC64626C64AD"
+				item: "oddaccessories:malicious_ring"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "4580E419C7208CF8"
+			tasks: [{
+				id: "7ABC8B739BC10AC7"
+				item: "oddaccessories:mimic_ring"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "7AFC43ACC89FE7A6"
+			tasks: [{
+				id: "3AE4386E8BADD0A7"
+				item: "terramity:band_of_power"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "499083226F0329E5"
+			tasks: [{
+				id: "2C08E559B9CFC6A5"
+				item: "terramity:band_of_power_plus"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "64377C5BB421268C"
+			tasks: [{
+				id: "7FCE5D4CB846BB31"
+				item: "terramity:tearstone_ring"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "0C2E0D5D1D3BA3A7"
+			tasks: [{
+				id: "3AFA63262B283335"
+				item: "terramity:gnome_ring"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "7220760843871D2E"
+			tasks: [{
+				id: "121BE872BC91E8D8"
+				item: "terramity:burning_spirit_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "32F6A357865057EC"
+			tasks: [{
+				id: "522E69207E5C38B4"
+				item: "terramity:agility_ring"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "7074FE0A7BD7CE43"
+			tasks: [{
+				id: "6445432997680069"
+				item: "terramity:prismatic_ring"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "40156F8EEDC53DA7"
+			tasks: [{
+				id: "0EFB31D2BC66DC7F"
+				item: "terramity:rainbow_ring"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "18752D6C104928DE"
+			tasks: [{
+				id: "438262F653F4A0B6"
+				item: "terramity:xp_remedy_ring"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "1C433429C8D04C02"
+			tasks: [{
+				id: "6CFA462E0BD4497D"
+				item: "terramity:rush_ring_plus"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			id: "37964C94D2B19600"
+			tasks: [{
+				id: "2ECF747F78087C1E"
+				item: "terramity:express_ring"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "634FB0F2E03A245B"
+			tasks: [{
+				id: "2F3503B9327171B3"
+				item: "terramity:ring_of_rejuvenation"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "6B08B3B8AB7EB711"
+			tasks: [{
+				id: "346CF337CDE17D4C"
+				item: "terramity:ring_of_rejuvenation_plus"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "7AE9E56FE64E7DDC"
+			tasks: [{
+				id: "41698F1C18C82733"
+				item: "terramity:life_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "2F02804B7FC1AAAD"
+			tasks: [{
+				id: "0A6F517188D20A29"
+				item: "terramity:life_ring_plus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "19506CF1EB2FC49C"
+			tasks: [{
+				id: "1776CF0B82BF5E6B"
+				item: "terramity:chaos_heart_ring"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "32EEE4A35D25E049"
+			tasks: [{
+				id: "1FFB6969D9D612CD"
+				item: {
+					Count: 1
+					id: "terramity:glass_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			id: "4A552A035A3296B9"
+			tasks: [{
+				id: "63B76CEA81B83884"
+				item: {
+					Count: 1
+					id: "terramity:daemonium_glass_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "332482A494DD0DF3"
+			tasks: [{
+				id: "7E8D7AA3F7F4DB27"
+				item: "goety:ring_of_the_dragon"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			id: "5A80BD5B560E6F5E"
+			tasks: [{
+				id: "3129C10DC5129B10"
+				item: "goety:ring_of_the_forge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			id: "1C28AEC255311827"
+			tasks: [{
+				id: "0BD05BAD6D2C3745"
+				item: "goety:ring_of_force"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "60ADE17E99AD0D98"
+			tasks: [{
+				id: "4BB07153B22ADA20"
+				item: "goety:ring_of_thirst"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "2351B1EBD33847C1"
+			tasks: [{
+				id: "25B86C5583E4DFD3"
+				item: "goety:ring_of_want"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			id: "0B31A7BED69B6C36"
+			tasks: [{
+				id: "6A64AF790E0F64CC"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "7CD549CACCC83B70"
+			tasks: [{
+				id: "6C5C325A01BA0A9A"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "1DAFF7C0AD79E8C8"
+			tasks: [{
+				id: "137BE50C5051D6EF"
+				item: "enigmaticlegacy:iron_ring"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "38EF952BEA85B9C6"
+			tasks: [{
+				id: "1DE5550577073167"
+				item: "enigmaticaddons:quartz_ring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "22CF8C2FBF1F8F71"
+			tasks: [{
+				id: "22AA0392B2F256A4"
+				item: "mythsandlegends:svarogs_ring"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "39A9BAC945D45A25"
+			tasks: [{
+				id: "08EA9B2346E4DC12"
+				item: "naturesaura:death_ring"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			id: "798D8F9F5CCD6172"
+			tasks: [{
+				id: "5ACEE5D6A53C8D4E"
+				item: "terramity:diamond_ring"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "5D7044B795890A78"
+			tasks: [{
+				id: "7AEC5C9E4B8FE00D"
+				item: "terramity:sapphire_ring"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "6ED67F824E8DADF0"
+			tasks: [{
+				id: "4FF1938ABCA7716B"
+				item: "terramity:sapphire_ring_plus"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "134B4EFAA8F24FFD"
+			tasks: [{
+				id: "28CACBED4BC2587A"
+				item: "terramity:ruby_ring"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "46883ED6F2B99807"
+			tasks: [{
+				id: "101FC14562F67EE7"
+				item: "irons_spellbooks:visibility_ring"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			id: "4C97ED19C3F77DAB"
+			tasks: [{
+				id: "5030C696A1948B54"
+				item: "irons_spellbooks:betrayer_signet"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			id: "6CF0906E8167A434"
+			tasks: [{
+				id: "3C71849BCE75938C"
+				item: "irons_spellbooks:wicked_bone_ring"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			id: "23C472A98BE1CCC5"
+			tasks: [{
+				id: "3ABEB89F029CCD18"
+				item: "irons_spellbooks:invisibility_ring"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "7650C8FFF9929AEA"
+			tasks: [{
+				id: "719DBCE225BC7607"
+				item: "irons_spellbooks:fireward_ring"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "543C90017BA13F2E"
+			tasks: [{
+				id: "26A2FF34841D2691"
+				item: "irons_spellbooks:frostward_ring"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "48F443C18A18D5BE"
+			tasks: [{
+				id: "4A2DD1C91DD777E1"
+				item: "irons_spellbooks:poisonward_ring"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "5763B4121502E6B9"
+			tasks: [{
+				id: "372B7E99A99696A4"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "43FCCC00ABDB4482"
+			tasks: [{
+				id: "61F81BCC8383CF2B"
+				item: "enigmaticlegacy:ender_ring"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+	]
+	title: "Rings"
+}

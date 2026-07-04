@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_storage"
+	group: "336B0783FD524DD2"
+	id: "12923A39AC6D51B9"
+	images: [
+		{
+			height: 1.0d
+			image: "customtextures:textures/ender_storage_1.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.0d
+		}
+	]
+	order_index: 19
+	parent: "5F6B7CD03DAE57CA"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Ender Chests are a stationary type of Ender Storage. "
+				""
+				"You can use dye on the wool pads on top of the chest to alter its color code. As an alternative, you can craft an EnderChest with three dyes to change the color code as well. "
+				""
+				"Ender Chests work as any other chest for the purposes of blocks that manipulate chests contents. "
+				""
+				"This makes EnderChests an ideal way to transport items over vast distances in an instant."
+			]
+			id: "6B174D6E7B759CDE"
+			shape: "square"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "3C205787B3B01EC8"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Ender Pouches are a mobile type of Ender Storage. "
+				""
+				"You can use an EnderPouch on any EnderChest to change the pouch color code to match that of the chest. "
+				""
+				"Ender Pouches access the same inventory as their Ender Chest counterparts, allowing easy access to your base resources right from your inventory."
+			]
+			id: "04CB2DCE1D90E731"
+			shape: "square"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "3CF315AF76CB65FC"
+				item: "enderstorage:ender_pouch"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			description: ["EnderTanks work on the same principal of EnderChests but store liquids."]
+			id: "5D319F234FCE4965"
+			shape: "square"
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "1F8E55B6A3123ADF"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "<shadow a=0.4><grad from=#FA732A to=#FFCFB5>Ender Storage</grad></shadow>"
+}

@@ -1,71 +1,67 @@
 {
 	autofocus_id: "43ACAF3A3EA50806"
 	default_hide_dependency_lines: false
+	default_min_width: 250
 	default_quest_shape: "netheritetier"
 	filename: "advanced_progression"
-	group: "3C6AB1DE39D4F441"
+	group: "0FD8C2D2A2339C0B"
 	icon: {
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "composite_material:item/disenchanted_book"
+			Icon: "companions:item/book_heal_ring"
 		}
 	}
 	id: "2F1A384416C57A23"
 	images: [
 		{
-			click: "a"
-			height: 8.0d
-			hover: ["ftbquests.chapter.advanced_progression.image.hovertext1"]
-			image: "terramity:textures/screens/the_graph.png"
-			order: 1
+			height: 1.0d
+			image: "terramity:textures/particle/ultra_glint_no_gravity_4.png"
 			rotation: 0.0d
-			width: 8.0d
-			x: -4.72959216716125d
-			y: -2.2173202095156483d
+			width: 1.0d
+			x: 0.7403603418780875d
+			y: 3.499235506510942d
+		}
+		{
+			height: 1.52d
+			image: "customtextures:textures/terramity.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -11.5d
+			y: -11.0d
+		}
+		{
+			height: 1.0d
+			image: "terramity:textures/particle/ultra_glint_no_gravity_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.8475031990209416d
+			y: 5.034949792225234d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.advanced_progression.image.hovertext2"]
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.5d
-			y: -5.0d
+			x: -11.0d
+			y: -12.5d
 		}
 		{
+			click: "a"
 			height: 1.0d
-			image: "terramity:textures/particle/ultra_glint_no_gravity_4.png"
+			hover: ["This questline is being reworked"]
+			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.7596396581219125d
-			y: 1.9992355065109422d
-		}
-		{
-			height: 1.5d
-			image: "customtextures:textures/terramitylogo.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: -11.5d
-			y: -10.5d
-		}
-		{
-			height: 1.0d
-			image: "terramity:textures/particle/ultra_glint_no_gravity_4.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.3475031990209416d
-			y: 3.534949792225234d
-		}
-		{
-			height: 7.0d
-			image: "ldlib:textures/gui/bordered_background.png"
-			rotation: 0.0d
-			width: 7.0d
-			x: -5.515306452875535d
-			y: -2.753034495229933d
+			x: -12.0d
+			y: -12.5d
 		}
 	]
 	order_index: 2
@@ -74,13 +70,11 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest4876465161229371398.description1}"
-				""
-				"{ftbquests.chapter.advanced_progression.quest4876465161229371398.description2}"
-				""
-				"{ftbquests.chapter.advanced_progression.quest4876465161229371398.description3}"
-				""
-				"{ftbquests.chapter.advanced_progression.quest4876465161229371398.description4}"
+				"Terramity reshapes the game's progression by adding new tiers, tools, and materials that go beyond vanilla limits."
+				"This questline will walk you through everything step by step!"
+				"&c&lWARNING!&r"
+				"[gap=0]"
+				"Vanilla and Netherite pickaxes won't work on higher tier ores. Make sure to use Terramity's own pickaxes to mine them!"
 			]
 			disable_toast: true
 			icon: {
@@ -104,32 +98,52 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest4876465161229371398.subtitle}"
+			subtitle: "In-game Wiki"
 			tasks: [{
 				id: "5D3C1ADD7DE70815"
-				title: "{ftbquests.chapter.advanced_progression.quest4876465161229371398.task.6718274282732324885.title}"
+				title: "Aite"
 				type: "checkmark"
 			}]
+			title: "Terramity"
 			x: -11.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["0F67904477CEA3A9"]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest6627149150051154265.description1}"
+				"### &cGob, The King Of Gnomes&r"
+				"A ambitious little gnome who never gave up despite his physical limitations."
 				""
-				"{ftbquests.chapter.advanced_progression.quest6627149150051154265.description2}"
-				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.advanced_progression.quest6627149150051154265.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"34804479F4207A1F\"}}]"
-				""
-				"{ftbquests.chapter.advanced_progression.quest6627149150051154265.image0}"
-				"{ftbquests.chapter.advanced_progression.quest6627149150051154265.image2}"
+				"With the help of some unnatural substances, Gob grew taller and bigger than the other gnomes and quickly claimed the title of"
+				"[gap=0]"
+				"&cGob, the King of Gnomes&r."
+				"{image:customtextures:textures/gob_image.png width:100 height:86 align:center}"
+				"[gap=5]"
+				"---"
+				"[gap=5]"
+				"&aGob, King of Gnomes can be summoned by using a Red Gnome Hat at the Golden Gnome Statue in the Court of Gnomes."
+				"{image:customtextures:textures/courtgnome.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/courtgnome2.png width:250 height:100 align:center}"
 			]
 			hide_dependency_lines: false
+			icon_scale: 0.8d
 			id: "5BF85D0A3254B959"
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "01D89403A6C888E1"
+					item: "terramity:gnome_statue"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52AB61D9231F36FE"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "octagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest6627149150051154265.subtitle}"
+			subtitle: "I really hate these little goblins."
 			tasks: [{
 				entity: "terramity:gob"
 				icon: {
@@ -140,83 +154,111 @@
 					}
 				}
 				id: "43A2C67409663E54"
-				title: "{ftbquests.chapter.advanced_progression.quest6627149150051154265.task.4873675948444499540.title}"
+				title: "Kill &cGob, King Of The Gnomes"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.advanced_progression.quest6627149150051154265.title}"
-			x: -9.5d
+			title: "Defeat Gob"
+			x: -11.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["16127A006FEEAF69"]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest1548176139561855550.description1}"
+				"### &bSuper Sniffer&r"
+				"You may have always found Sniffers &bWEAK&r and &cUSELESS..&r well sniffers also know this.."
+				"[gap=0] "
+				"but they're too lazy to change. "
 				""
-				"{ftbquests.chapter.advanced_progression.quest1548176139561855550.description2}"
+				"We could change that fact by just giving them some little motivational shocks :)"
 				""
-				"{ftbquests.chapter.advanced_progression.quest1548176139561855550.description3}"
+				"&aThe Super Sniffer can be spawned by striking a normal Sniffer with lightning!"
+				""
+				"It is recommended to use the &eLightning Staff&r to strike near a Sniffer for this transformation."
+				""
+				"{image:customtextures:textures/super_sniffer_image.png width:100 height:75 align:center}"
 			]
 			hide_dependency_lines: false
 			id: "157C39FF1051EA3E"
-			rewards: [{
-				id: "712DE2BB0EA5DCFC"
-				item: "plushie_buddies:plushie_sniffer"
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "712DE2BB0EA5DCFC"
+					item: "plushie_buddies:plushie_sniffer"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D842E29A8A0A903"
+					table_id: 1583014704848680533L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest1548176139561855550.subtitle}"
+			subtitle: "Super Saiyan Sniffer!"
 			tasks: [{
 				entity: "terramity:super_sniffer"
 				icon: "terramity:kamehameha"
 				id: "6B472B33006A7E62"
-				title: "{ftbquests.chapter.advanced_progression.quest1548176139561855550.task.7730194783455051362.title}"
+				title: "Slay &cThe Super Sniffer&r"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.advanced_progression.quest1548176139561855550.title}"
-			x: -13.5d
+			title: "Defeat Super Sniffer"
+			x: -12.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2932C7DEBC10B9D3"]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest3201992098363728860.description1}"
+				"Can be found on nether roof, blended in bedrocks."
 				""
-				"{ftbquests.chapter.advanced_progression.quest3201992098363728860.description2}"
+				"You need Enhanced Terramity Pickaxes to mine!"
 			]
 			hide_dependency_lines: false
 			icon: "terramity:black_matter"
 			id: "2C6FC2D93C93E3DC"
-			rewards: [{
-				id: "23455E466D4E94CC"
-				item: "terramity:black_matter"
-				random_bonus: 3
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "23455E466D4E94CC"
+					item: "terramity:black_matter"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A927510EF512044"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest3201992098363728860.subtitle}"
+			subtitle: "It can be only obtained after defeating the Trial Guardian and obtaining a perish staff."
 			tasks: [{
 				id: "24B395F87DFFF9B8"
 				item: "terramity:black_matter"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -3.0d
+			x: -11.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["516A877FEC4701DD"]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest2968654863842458067.description1}"
+				"A wealthy king once held cruel trials in his massive chamber. His &bTrial Guardian&r was famously ruthless to those who entered."
 				""
-				"{ftbquests.chapter.advanced_progression.quest2968654863842458067.description2}"
+				"But time claims everyone, even the strongest. The king is dead and the guardian is left all alone... perhaps you’ll play his game one last time."
 				""
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.advanced_progression.quest2968654863842458067.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"27E7F8F02A4ED69E\"}}]"
+				"{image:customtextures:textures/trial_guardian_image.png width:100 height:65 align:center}"
 				""
-				"{ftbquests.chapter.advanced_progression.quest2968654863842458067.image0}"
+				"Insert a &eSpire Key&r into the lock in the Trial Tower basement to begin the encounter."
+				""
+				""
+				"{ \"text\": \"Trial Guardian Locator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"27E7F8F02A4ED69E\" } }"
+				""
+				"{image:customtextures:textures/trialspire.png width:250 height:100 align:center}"
 			]
 			hide_dependency_lines: false
 			icon: {
@@ -228,21 +270,28 @@
 			}
 			icon_scale: 1.3d
 			id: "2932C7DEBC10B9D3"
-			rewards: [{
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "celestisynth:textures/abilityicon/skill/aquaflora_skill_icon_3.png"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "celestisynth:textures/abilityicon/skill/aquaflora_skill_icon_3.png"
+						}
 					}
+					id: "193CF30464297452"
+					type: "random"
 				}
-				id: "193CF30464297452"
-				table_id: 8699295573854160387L
-				type: "random"
-			}]
-			shape: "rsquare"
+				{
+					exclude_from_claim_all: true
+					id: "143A800106F577E6"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest2968654863842458067.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "terramity:trial_guardian"
 				icon: {
@@ -253,7 +302,7 @@
 					}
 				}
 				id: "16E9FD2EDDD72A61"
-				title: "{ftbquests.chapter.advanced_progression.quest2968654863842458067.task.1651129116140186209.title}"
+				title: "Slay &cThe Trial Guardian&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -267,11 +316,14 @@
 				"004807CDCE0EEB28"
 			]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest419027802659893589.description1}"
+				"Final Boss of Terramity."
 				""
-				"{ftbquests.chapter.advanced_progression.quest419027802659893589.description2}"
+				"Drops tons of op accessories and loot!"
 				""
-				"{ftbquests.chapter.advanced_progression.quest419027802659893589.description3}"
+				"Summoning him is a really headache, so u gotta get a super sniffer on &esecond phase&r and &e%10&r hp then strike him with lightning again."
+				""
+				""
+				"{image:customtextures:textures/ultra_sniffer_image.png width:100 height:100 align:center}"
 			]
 			hide_dependency_lines: false
 			icon: {
@@ -282,25 +334,33 @@
 				}
 			}
 			id: "05D0AF91008E3155"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3EF2007578F243E9"
-				table_id: 8699295573854160387L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2984844649081FA8"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14EF042F25D4838A"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
 			shape: "octagon"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest419027802659893589.subtitle}"
+			size: 2.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "terramity:ultra_sniffer"
 				icon: "terramity:kamehameha"
 				id: "73EC49CF0D0ADE5A"
-				title: "{ftbquests.chapter.advanced_progression.quest419027802659893589.task.8353132562491301466.title}"
+				title: "Slay &cThe Ultra Sniffer"
 				type: "kill"
 				value: 1L
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: 1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -309,70 +369,93 @@
 				"1B0DEADF966579CF"
 			]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest6742542535538280702.description1}"
+				"Profanum is a key material for terramity progresion, it will allow us to make moondrill cannon and break through the bedrock!"
 				""
-				"{ftbquests.chapter.advanced_progression.quest6742542535538280702.description2}"
+				"Can be found deep in caves."
 			]
 			hide_dependency_lines: false
 			icon: "terramity:profanum"
 			id: "5D9252B669B888FE"
-			rewards: [{
-				id: "197A7421862158D9"
-				item: "terramity:profanum"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "197A7421862158D9"
+					item: "terramity:profanum"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C10D9370A9BEC13"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest6742542535538280702.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0A5230F6121DBEF7"
 				item: "terramity:profanum"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 0.0d
+			x: -11.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["06406B2D8A9A618D"]
+			description: [
+				"The Virtue... basically a biblically accurate angel. It’s clearly pissed off that you decided to chuck an &cunholy lance&r into the sky."
+				""
+				""
+				"{image:customtextures:textures/virtue_image.png width:100 height:75 align:center}"
+			]
 			hide_dependency_lines: false
 			icon_scale: 1.2d
 			id: "19CBC92610B35600"
-			shape: "rsquare"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2506107646BD496B"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest1858800436546590208.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "terramity:virtue"
 				icon: "terramity:archangel_halo"
 				id: "1DF03EF3C9D00A9F"
-				title: "{ftbquests.chapter.advanced_progression.quest1858800436546590208.task.2157293438294297247.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.advanced_progression.quest1858800436546590208.title}"
-			x: -13.0d
-			y: 3.0d
+			title: "Defeat Virtue &b[W.I.P]"
+			x: -11.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["19CBC92610B35600"]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest295708085285279814.description1}"
+				"Circe and Merlin are basically just two spoiled brats who think they own the &cNether&r. "
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.advanced_progression.quest295708085285279814.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"59DE95EEFF65D48F\"}}]"
+				"Their egos are so far through the roof that they’ll legit just ignore you because they think you aren't even worth the effort."
 				""
-				"{ftbquests.chapter.advanced_progression.quest295708085285279814.image0}"
+				"&aThey can be summoned by using Occult Fabric on an offering pedestal inside the Cthonic Cathedral, found sitting right on the &bNether Bedrock&r &aceiling."
+				""
+				"{ \"text\": \"Chthonic Cathedral Locator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59DE95EEFF65D48F\" } }"
+				""
+				"{image:customtextures:textures/cathedral.png width:250 height:100 align:center}"
 			]
 			hide_dependency_lines: false
 			id: "041A90EFD4A3D846"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5B8C7FFA4FF3307A"
-				table_id: 8699295573854160387L
+				id: "2F7D819A2436B8B0"
+				table_id: 1690105744798928825L
 				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest295708085285279814.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					entity: "terramity:enchanter_merlin"
@@ -401,37 +484,45 @@
 					value: 1L
 				}
 			]
-			title: "{ftbquests.chapter.advanced_progression.quest295708085285279814.title}"
-			x: -10.2d
-			y: 3.0d
+			title: "Shadow Wizards"
+			x: -8.7d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1005B36B7451F531"]
 			hide_dependency_lines: false
 			id: "14DDBB7CA3A71F56"
-			rewards: [{
-				id: "0DD50550523F0C18"
-				item: "terramity:antiprism"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0DD50550523F0C18"
+					item: "terramity:antiprism"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "286CA1D0E26EB155"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "diamond"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest1503563994607591254.subtitle}"
+			size: 1.5d
+			subtitle: "A boss drop from the shadow wizards."
 			tasks: [{
 				id: "608DC1492E6F4918"
 				item: "terramity:antiprism"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.0d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["43ACAF3A3EA50806"]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest1590467760711708521.description1}"
+				"Used to duplicate antiprisms which is a late-game material, so let's keep it."
 				""
-				"{ftbquests.chapter.advanced_progression.quest1590467760711708521.description2}"
+				"It can also create lot of accessories."
 			]
 			id: "16127A006FEEAF69"
 			rewards: [{
@@ -443,27 +534,35 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest1590467760711708521.subtitle}"
+			subtitle: "A great combination of all five"
 			tasks: [{
 				id: "3DF64E7EE149B64C"
 				item: "terramity:prismatic_jewel"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -8.0d
+			x: -13.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["5D9252B669B888FE"]
 			hide_dependency_lines: false
 			id: "06406B2D8A9A618D"
-			rewards: [{
-				id: "389BFE3FF16FCBCC"
-				type: "xp"
-				xp: 15
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "389BFE3FF16FCBCC"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B5B2E84BA5F9591"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest450477806080123277.subtitle}"
+			subtitle: "Hurl the lance skyward to pierce the heavens and summon its wrath..."
 			tasks: [{
 				id: "6C85DE5E7FCB2D1C"
 				item: {
@@ -475,55 +574,72 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: 1.5d
+			x: -11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5D9252B669B888FE"]
-			description: ["{ftbquests.chapter.advanced_progression.quest5198316584645137379.description1}"]
+			description: ["Yeah the moon, u heard it right. No, you are not drilling in to the moon."]
 			hide_dependency_lines: false
 			id: "4824216451CB93E3"
-			rewards: [{
-				id: "292B985497C34338"
-				item: "terramity:circuit_board"
-				random_bonus: 3
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "292B985497C34338"
+					item: "terramity:circuit_board"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B15A10BA76D15BA"
+					table_id: 1690105744798928825L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest5198316584645137379.subtitle}"
+			subtitle: "Allows player to break the moon and bedrock"
 			tasks: [{
 				id: "16176F5879D5F410"
 				item: "terramity:moondrill_cannon"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 0.0d
+			x: -10.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5D9252B669B888FE"]
 			hide_dependency_lines: false
 			id: "7699A48EA0F36CD5"
-			rewards: [{
-				id: "4754296CEF33025F"
-				item: "terramity:void_alloy"
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "4754296CEF33025F"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2373136E8496055E"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest8546042700404845781.subtitle}"
+			subtitle: "Is it just a bomb for pure destruction? I'm pretty sure it has another purpose."
 			tasks: [{
 				id: "068EBA36E0C4E384"
 				item: "terramity:black_hole_bomb"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 0.0d
+			x: -13.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2C6FC2D93C93E3DC"]
 			hide_dependency_lines: false
 			id: "34C2AA103214C77F"
+			optional: true
 			rewards: [
 				{
 					id: "7D4479C96B6EFD13"
@@ -532,59 +648,26 @@
 					type: "item"
 				}
 				{
-					id: "704ED17FA8328FB2"
-					type: "xp_levels"
-					xp_levels: 5
+					exclude_from_claim_all: true
+					id: "584F232D6DD58E2F"
+					table_id: 1534136396462519031L
+					type: "random"
 				}
 			]
-			shape: "pentagon"
+			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest3801788021990541183.subtitle}"
+			subtitle: "Used in duplicating black matter and making tons of new stuff."
 			tasks: [{
 				id: "5E7EBFD54ED9E2B4"
 				item: "terramity:spectral_soul"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["2932C7DEBC10B9D3"]
-			description: [
-				"{ftbquests.chapter.advanced_progression.quest6883037600223188190.description1}"
-				""
-				"{ftbquests.chapter.advanced_progression.quest6883037600223188190.description2}"
-			]
-			hide_dependency_lines: false
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:textures/gui/info_icon.png"
-				}
-			}
-			icon_scale: 1.4d
-			id: "5F85763AC0F5D4DE"
-			rewards: [{
-				count: 5
-				id: "198490F623EC0B8D"
-				item: "terramity:black_matter"
-				type: "item"
-			}]
-			shape: "square"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest6883037600223188190.subtitle}"
-			tasks: [{
-				id: "0A00A655F323D675"
-				title: "{ftbquests.chapter.advanced_progression.quest6883037600223188190.task.720758828460922485.title}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.advanced_progression.quest6883037600223188190.title}"
-			x: -10.0d
-			y: -3.0d
+			x: -10.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["43ACAF3A3EA50806"]
+			description: ["Topaz can be found in hot, arid biomes."]
 			id: "0A37C6F6EC6CF4EB"
 			rewards: [{
 				count: 2
@@ -595,17 +678,18 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest736275827929183467.subtitle}"
+			subtitle: "Harbors the power of wind"
 			tasks: [{
 				id: "74E07EBD4B70E98C"
 				item: "terramity:topaz"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -9.0d
+			x: -13.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["43ACAF3A3EA50806"]
+			description: ["Rubies can be found almost in anywhere in nether."]
 			id: "3504B2BF2F45FD01"
 			rewards: [{
 				count: 2
@@ -616,17 +700,18 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest3820374918118636801.subtitle}"
+			subtitle: "Harbors the power of fire"
 			tasks: [{
 				id: "05F41E9686691A07"
 				item: "terramity:ruby"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -9.0d
+			x: -10.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["43ACAF3A3EA50806"]
+			description: ["Sapphire can be found in snowy biomes."]
 			id: "6442ABD9DDC76217"
 			rewards: [{
 				count: 2
@@ -637,17 +722,18 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest7224525704472781335.subtitle}"
+			subtitle: "Harbors the power of ice"
 			tasks: [{
 				id: "5BD101640D05FE6B"
 				item: "terramity:sapphire"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -8.5d
+			x: -9.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["43ACAF3A3EA50806"]
+			description: ["You can either find them in structures, or mine some in The End."]
 			id: "0F67904477CEA3A9"
 			rewards: [{
 				count: 2
@@ -658,18 +744,18 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest1110014456912323497.subtitle}"
+			subtitle: "Harbors the power of darkness"
 			tasks: [{
 				id: "57648D70AFE78E97"
 				item: "terramity:onyx"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -8.0d
+			x: -10.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["43ACAF3A3EA50806"]
-			description: ["{ftbquests.chapter.advanced_progression.quest3318985780747207359.description1}"]
+			description: ["Iridescent shards can be found deep anywhere in the overworld."]
 			id: "2E0F67FB9C0282BF"
 			rewards: [{
 				count: 2
@@ -680,28 +766,37 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest3318985780747207359.subtitle}"
+			subtitle: "Harbors the power of light"
 			tasks: [{
 				id: "01BA2B99B8049585"
 				item: "terramity:iridescent_shard"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -8.5d
+			x: -13.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["157C39FF1051EA3E"]
+			description: ["Dimlite ore can be found in a uniform pattern in the overworld, between Y:-44 and Y:-64"]
 			hide_dependency_lines: false
 			id: "10F6E5FD5819F5CE"
-			rewards: [{
-				id: "0C7B2750F2B0BDE6"
-				item: "terramity:dimlite_ingot"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0C7B2750F2B0BDE6"
+					item: "terramity:dimlite_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CA3D2B7D18BD90E"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest1222417225145251278.subtitle}"
+			subtitle: "Something echoes within it."
 			tasks: [{
 				id: "41817A70FF7C81C4"
 				item: "terramity:dimlite_ingot"
@@ -712,17 +807,26 @@
 		}
 		{
 			dependencies: ["5BF85D0A3254B959"]
+			description: ["Gianite clustur can be found in lush caves, can also be obtained via gaia lilies."]
 			hide_dependency_lines: false
 			id: "5CB32CEF85677707"
-			rewards: [{
-				id: "37D7AA7495DF7E34"
-				item: "terramity:virentium_alloy_ingot"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "112FC54833ED4A37"
+					item: "terramity:virentium_alloy_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "336C97B1B21AB52F"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest6679732079567533831.subtitle}"
+			subtitle: "Lush Caves finally have their purpose!"
 			tasks: [{
 				id: "613E26502A5C9C68"
 				item: "terramity:virentium_alloy_ingot"
@@ -733,17 +837,29 @@
 		}
 		{
 			dependencies: ["5BF85D0A3254B959"]
+			description: [
+				"Cosmic scrap can be found in the end."
+				"Y:50 and Y:0"
+			]
 			hide_dependency_lines: false
 			id: "51B5E776DCBBA146"
-			rewards: [{
-				id: "0025FA7A56067B1B"
-				item: "terramity:cosmilite_ingot"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0025FA7A56067B1B"
+					item: "terramity:cosmilite_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63C603FDBA2919E5"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest5887866585552232774.subtitle}"
+			subtitle: "Calamity reference"
 			tasks: [{
 				id: "02A4B577F0D9CDBD"
 				item: "terramity:cosmilite_ingot"
@@ -759,18 +875,29 @@
 				"51B5E776DCBBA146"
 				"6FAFE2F8AFDAB075"
 			]
-			description: ["{ftbquests.chapter.advanced_progression.quest5866650448098165213.description1}"]
+			description: [
+				"Can be found in any terramity structure or nether roof."
+				"&aIn order to mine, you need terramity pickaxes, &cnormal netherite wont work!"
+			]
 			hide_dependency_lines: false
 			id: "516A877FEC4701DD"
-			rewards: [{
-				id: "7FCC2D472500CA05"
-				item: "terramity:iridium"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "7FCC2D472500CA05"
+					item: "terramity:iridium"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "725E9B13C5A43BD9"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "octagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest5866650448098165213.subtitle}"
+			subtitle: "Wasn't it white? Or... nevermind, that's Industrial Craft 2"
 			tasks: [{
 				id: "3A4BFB330EE194B8"
 				item: "terramity:iridium"
@@ -781,17 +908,28 @@
 		}
 		{
 			dependencies: ["157C39FF1051EA3E"]
-			description: ["{ftbquests.chapter.advanced_progression.quest8047900616864477301.description1}"]
+			description: [
+				"Can be found on the ceiling of nether or cthonic dungeon"
+				"Usually crafted guns with."
+			]
 			id: "6FAFE2F8AFDAB075"
-			rewards: [{
-				id: "1A4FA3D7E3DE645C"
-				item: "terramity:daemonium"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1A4FA3D7E3DE645C"
+					item: "terramity:daemonium"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A438D01D9B6E948"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest8047900616864477301.subtitle}"
+			subtitle: "Harbors the power of evil"
 			tasks: [{
 				id: "433B0FA81A1F66B0"
 				item: "terramity:daemonium"
@@ -804,99 +942,139 @@
 			dependencies: ["2C6FC2D93C93E3DC"]
 			hide_dependency_lines: false
 			id: "1B0DEADF966579CF"
-			rewards: [{
-				id: "4C49D9A1349E2B00"
-				item: "terramity:conductite"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "4C49D9A1349E2B00"
+					item: "terramity:conductite"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EBCE325138D9DC8"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest1949472459743132111.subtitle}"
+			subtitle: "Craftable Ingot"
 			tasks: [{
 				id: "0DC73E3F383415C1"
 				item: "terramity:conductite"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -1.5d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4E24EF436028EC67"]
 			hide_dependency_lines: false
 			id: "4095D45E6F47975A"
-			rewards: [{
-				id: "4D016D8801ACA853"
-				item: "terramity:nyxium"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4D016D8801ACA853"
+					item: "terramity:nyxium"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09E08AD6DC9A8978"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "gear"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest4653859292016252762.subtitle}"
+			size: 1.5d
+			subtitle: "Last tier ore, crafted with couple of other materials."
 			tasks: [{
 				id: "42EF91E8D08FD35D"
 				item: "terramity:nyxium"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["14DDBB7CA3A71F56"]
 			hide_dependency_lines: false
 			id: "004807CDCE0EEB28"
-			rewards: [{
-				id: "2B7BA07FA63AB22F"
-				item: "terramity:reverium"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2B7BA07FA63AB22F"
+					item: "terramity:reverium"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E008A982B0A87A4"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "gear"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest20274778829941544.subtitle}"
+			size: 1.5d
+			subtitle: "Need Virtue's feathers."
 			tasks: [{
 				id: "09705C8441A9031D"
 				item: "terramity:reverium"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5CB177CF227CCD27"]
 			hide_dependency_lines: false
 			id: "7B8D5CEBA193AC34"
-			rewards: [{
-				id: "5EAAC4139099D476"
-				item: "terramity:exodium_superalloy"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5EAAC4139099D476"
+					item: "terramity:exodium_superalloy"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "370E975785F94D09"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "gear"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest8902874205479218228.subtitle}"
+			size: 1.5d
+			subtitle: "Last tier ore, crafted with couple of other materials."
 			tasks: [{
 				id: "634996F950F21822"
 				item: "terramity:exodium_superalloy"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["14DDBB7CA3A71F56"]
 			hide_dependency_lines: false
 			id: "5CB177CF227CCD27"
-			rewards: [{
-				id: "7E00DC193979B21A"
-				item: "terramity:cracked_microcosm"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7E00DC193979B21A"
+					item: "terramity:cracked_microcosm"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0872AFE698073D2F"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "diamond"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest6679251453887696167.subtitle}"
+			size: 1.5d
+			subtitle: "Can be obtained by throwing empty essence into a blackhole bomb."
 			tasks: [
 				{
 					id: "3903D638F7E06982"
@@ -909,98 +1087,128 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.advanced_progression.quest6679251453887696167.title}"
-			x: -5.0d
-			y: 4.5d
+			title: "Cracked Microcosm and Empty Essence"
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["14DDBB7CA3A71F56"]
 			hide_dependency_lines: false
 			id: "4E24EF436028EC67"
-			rewards: [{
-				id: "44D44AB81422A6CA"
-				item: "terramity:opaline_moonstone"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "44D44AB81422A6CA"
+					item: "terramity:opaline_moonstone"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "051D7142121E2327"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
 			shape: "diamond"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest5630888506775104615.subtitle}"
+			size: 1.5d
+			subtitle: "Can be obtained by using moondrill cannon on a moon."
 			tasks: [{
 				id: "4021F9413CBE89E9"
 				item: "terramity:opaline_moonstone"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["19CBC92610B35600"]
 			hide_dependency_lines: false
 			id: "73317396BA69E10B"
 			rewards: [{
-				id: "7C0418ED00FAC2DF"
-				item: "terramity:angel_feather"
-				random_bonus: 1
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6EAAE299D9AABED8"
+				table_id: 1690105744798928825L
+				type: "random"
 			}]
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest8300542679430324491.subtitle}"
+			subtitle: "A Drop From the Virtue boss, used on last tier ores and other few things."
 			tasks: [{
 				id: "397BEC9661600B86"
 				item: "terramity:angel_feather"
 				type: "item"
 			}]
-			x: -14.399999999999999d
-			y: 3.0d
+			x: -11.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2C6FC2D93C93E3DC"]
 			id: "3284A47CBF5B8EE9"
-			rewards: [{
-				id: "24C5E388C0EFFDA6"
-				item: "terramity:hellspec_alloy"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "24C5E388C0EFFDA6"
+					item: "terramity:hellspec_alloy"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "145CA1DDEC07E889"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest3640215254515551977.subtitle}"
+			subtitle: "Craftable Ingot"
 			tasks: [{
 				id: "3706B61460A1D8C5"
 				item: "terramity:hellspec_alloy"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -1.5d
+			x: -13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2C6FC2D93C93E3DC"]
 			id: "1E35A72FD965B419"
-			rewards: [{
-				id: "1ADA80F74894A42C"
-				item: "terramity:void_alloy"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "1ADA80F74894A42C"
+					item: "terramity:void_alloy"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F2EE2D0DBE9C19D"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest2176829818856125465.subtitle}"
+			subtitle: "&e 4 Empty Essenses&r Created by throwing Black Matter into stygian blood to get Void Alloy Ingots."
 			tasks: [{
 				id: "091D40B466EB0AE9"
 				item: "terramity:void_alloy"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -1.5d
+			x: -11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["041A90EFD4A3D846"]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest1154526153584801073.description1}"
+				"&cArchmage Gundalf&r... the biological father of those two brats you just turned into loot. Unlike his kids, he’s actually wise, way stronger, and has a much cooler beard."
 				""
-				"{ftbquests.chapter.advanced_progression.quest1154526153584801073.description2}"
+				"His life was already pretty miserable, but the only two things he actually gave a damn about were taken by YOU. Sure, they were annoying, but they were his damn kids you monster!"
+				""
+				"He’s mourning the only way an Archmage knows how: by being &creally, really angry&r and making it your problem."
+				""
+				"He appears after the death of shadow wizards. &8(His beloved children)"
+				""
+				"{image:customtextures:textures/gundalf_image.png width:100 height:125 align:center}"
 			]
 			icon: {
 				Count: 1
@@ -1012,11 +1220,11 @@
 			id: "1005B36B7451F531"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "56AFAA35DC09E3F5"
-				table_id: 8699295573854160387L
+				id: "588FFCE84F0EB6EC"
+				table_id: 1690105744798928825L
 				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "pentagon"
 			size: 1.2d
 			tasks: [{
 				entity: "terramity:gundalf"
@@ -1028,13 +1236,13 @@
 					}
 				}
 				id: "55052F54E5FBCD2C"
-				title: "{ftbquests.chapter.advanced_progression.quest1154526153584801073.task.6126354909789670700.title}"
+				title: "&cKill&r Archmage Gunddalf"
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.5d
-			y: 3.0d
+			x: -6.0d
+			y: 4.5d
 		}
 	]
-	title: "{ftbquests.chapter.advanced_progression.title}"
+	title: "<shadow a=0.4><grad from=#D2FF87 to=#31470D>Terramity</grad></shadow>"
 }

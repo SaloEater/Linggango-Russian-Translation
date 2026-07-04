@@ -4,62 +4,68 @@
 	default_min_width: 200
 	default_quest_shape: "irontier"
 	filename: "ae2"
-	group: "3C6437AAADAFC5CB"
-	icon: "ae2:controller"
+	group: "336B0783FD524DD2"
+	icon: "ae2:certus_quartz_crystal"
 	id: "33309D13991D7983"
 	images: [
-		{
-			dev: true
-			height: 1.0d
-			hover: ["ftbquests.chapter.ae2.image.hovertext1"]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.0d
-			y: -2.0d
-		}
 		{
 			click: "a"
 			dependency: "41BD8ED441485F66"
 			height: 1.0d
-			hover: ["ftbquests.chapter.ae2.image.hovertext2"]
-			image: "hexerei:textures/book/exclamation_point.png"
+			hover: ["Keep in mind, if it's functional, it should change texture!"]
+			image: "legendary_monsters:textures/particle/warning2.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 11.887755102040806d
 			y: 4.431292517006803d
 		}
 		{
-			height: 4.5d
-			image: "customtextures:textures/ae2logo.png"
+			height: 3.0d
+			image: "customtextures:textures/applied_energestics_title.png"
 			rotation: 0.0d
-			width: 15.0d
-			x: -0.5d
-			y: -5.0d
+			width: 7.5d
+			x: -1.0d
+			y: -4.5d
 		}
 		{
 			height: 1.0d
 			image: "bloodmagic:models/alchemyarrays/wiparray"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: -8.0d
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -8.5d
 		}
 	]
-	order_index: 2
+	order_index: 20
+	parent: "5F6B7CD03DAE57CA"
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.ae2.quest2126715483918521130.description1}"
+				"Applied Energistics is a huge storage mod that will make you replace tom's simple storage for sure!"
 				""
-				"{ftbquests.chapter.ae2.quest2126715483918521130.description2}"
+				"You can hold \"G\" to an item to see what it does. Just like create ponder mechanic :D"
 				""
 				""
-				"{ftbquests.chapter.ae2.quest2126715483918521130.description3}"
+				"&eThis questline was made by @dex (d3x9).&r"
 				""
-				"{ftbquests.chapter.ae2.quest2126715483918521130.description4}"
+				"&8(If you want to contribute like dex, u can always dm me on discord!)"
 			]
 			icon: {
 				Count: 1
@@ -77,31 +83,31 @@
 			}]
 			shape: "square"
 			size: 1.4d
-			subtitle: "{ftbquests.chapter.ae2.quest2126715483918521130.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1AAA9A64A3996B24"
-				title: "{ftbquests.chapter.ae2.quest2126715483918521130.task.1921517948059085604.title}"
+				title: "Hi"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ae2.quest2126715483918521130.title}"
+			title: "&dWelcome to AE2"
 			x: -1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["677C7E63E071DC2F"]
 			description: [
-				"{ftbquests.chapter.ae2.quest5933569380111373998.description1}"
+				"Mine Certus Quartz Crystals and Dust from meteorites. "
 				""
-				"{ftbquests.chapter.ae2.quest5933569380111373998.description2}"
+				"Be careful to protect budding quartz blocks for an endless resource supply."
 				""
-				"{ftbquests.chapter.ae2.quest5933569380111373998.description3}"
+				"&eTip: Use cardboard boxes from Mekanism to move easily"
 				""
-				"{ftbquests.chapter.ae2.quest5933569380111373998.description4}"
+				"Check second page ->"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.ae2.quest5933569380111373998.description5}"
+				"You also have to make some Certus Quartz Dust, either by mining again from budding blocks or putting normal Certus Quartz Crystals in an Inscriber."
 				""
-				"{ftbquests.chapter.ae2.quest5933569380111373998.description6}"
+				"Certus Quartz Dust can be used for making Pipes, Quartz Glass or smelted into silicon!"
 			]
 			id: "525845E9EFAC56AE"
 			rewards: [{
@@ -111,7 +117,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest5933569380111373998.subtitle}"
+			subtitle: "Harvest Certus Quartz"
 			tasks: [
 				{
 					id: "2E35B3AAB3873BC5"
@@ -124,20 +130,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ae2.quest5933569380111373998.title}"
+			title: "Get Certus Quartz"
 			x: -1.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["416F3D8D06837D39"]
 			description: [
-				"{ftbquests.chapter.ae2.quest7456974050451119151.description1}"
+				"Craft the Meteorite Compass to find meteorites around the world."
 				""
-				"{ftbquests.chapter.ae2.quest7456974050451119151.description2}"
+				"Meteorites are how you start the mod, they include essential items!"
 				""
-				"{ftbquests.chapter.ae2.quest7456974050451119151.description3}"
+				"Dig inside the meteor and break the blocks you find in it."
 				""
-				"{ftbquests.chapter.ae2.quest7456974050451119151.description4}"
+				"&8i suggest keeping the sky stones."
 			]
 			id: "677C7E63E071DC2F"
 			rewards: [
@@ -153,7 +159,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ae2.quest7456974050451119151.subtitle}"
+			subtitle: "Locate Meteorites and Collect Presses"
 			tasks: [
 				{
 					id: "2C379AA3F8720F8D"
@@ -164,7 +170,7 @@
 					icon: "ae2:sky_stone_block"
 					id: "46C8953DAEDCCC92"
 					structure: "ae2:meteorite"
-					title: "{ftbquests.chapter.ae2.quest7456974050451119151.task.5100490670156336274.title}"
+					title: "Find a meteorite!"
 					type: "structure"
 				}
 			]
@@ -174,12 +180,12 @@
 		{
 			dependencies: ["1D839C76FD49532A"]
 			description: [
-				"{ftbquests.chapter.ae2.quest4715055010789162297.description1}"
+				"Charger has multiple uses in the mod, but for now we will use it to make a meteorite compass."
 				""
-				"{ftbquests.chapter.ae2.quest4715055010789162297.description2}"
-				"{ftbquests.chapter.ae2.quest4715055010789162297.description3}"
+				"Needs power, but we recently got into the mod.. so we use a &ewooden crank!"
+				"Place it on side of a charger and then crank it till it powers up."
 				""
-				"{ftbquests.chapter.ae2.quest4715055010789162297.description4}"
+				"&8Wooden cranks will break after some use."
 			]
 			id: "416F3D8D06837D39"
 			min_width: 300
@@ -203,13 +209,13 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ae2.quest4715055010789162297.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7978CDFE29855905"
 				item: "ae2:charger"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest4715055010789162297.title}"
+			title: "Craft the Charger"
 			x: -1.0d
 			y: -0.5d
 		}
@@ -222,9 +228,9 @@
 				"4FF1275D6D5F26CE"
 			]
 			description: [
-				"{ftbquests.chapter.ae2.quest4406678655915989601.description1}"
+				"The Inscriber is where AE2 magic happens — use it with the presses found from meteorites to craft processors and other important parts. Get started crafting the brains of your network."
 				""
-				"{ftbquests.chapter.ae2.quest4406678655915989601.description2}"
+				"Same as the Charger, not required to input power via a special AE2 way."
 			]
 			id: "3D27AAE3D52B1A61"
 			rewards: [
@@ -243,19 +249,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ae2.quest4406678655915989601.subtitle}"
+			subtitle: "Make Processors and Components"
 			tasks: [{
 				id: "306721121C022CDF"
 				item: "ae2:inscriber"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest4406678655915989601.title}"
+			title: "Craft the Inscriber"
 			x: -1.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["677C7E63E071DC2F"]
-			description: ["{ftbquests.chapter.ae2.quest4819729306048256215.description1}"]
+			description: ["With the Calculation Press, create Calculation Processors, essential for performing complex calculations and automation tasks in AE2."]
 			id: "42E31E44908BD8D7"
 			rewards: [{
 				count: 5
@@ -263,7 +269,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest4819729306048256215.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7B55140C9DB6B591"
 				item: "ae2:calculation_processor_press"
@@ -274,7 +280,7 @@
 		}
 		{
 			dependencies: ["677C7E63E071DC2F"]
-			description: ["{ftbquests.chapter.ae2.quest9204941404272615521.description1}"]
+			description: ["The Engineering Press crafts Engineering Processors, used for advanced circuit crafting and powering complex machine operations."]
 			id: "7FBE856FF3F46061"
 			rewards: [{
 				count: 5
@@ -282,7 +288,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest9204941404272615521.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1319E24E7EB2AFD1"
 				item: "ae2:engineering_processor_press"
@@ -293,7 +299,7 @@
 		}
 		{
 			dependencies: ["677C7E63E071DC2F"]
-			description: ["{ftbquests.chapter.ae2.quest3140823552896520675.description1}"]
+			description: ["Use the Logic Press to craft Logic Processors, designed for basic computations in your ME system. These are the simplest processors you'll use."]
 			id: "2B9672616C93D1E3"
 			rewards: [{
 				count: 5
@@ -301,7 +307,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest3140823552896520675.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "72106DAD5CBA7AF3"
 				item: "ae2:logic_processor_press"
@@ -312,7 +318,7 @@
 		}
 		{
 			dependencies: ["677C7E63E071DC2F"]
-			description: ["{ftbquests.chapter.ae2.quest5760428680603969230.description1}"]
+			description: ["Use the Silicon Press to create Silicon Presses needed in processor recipes. This press helps you build electronic parts essential for your machines."]
 			id: "4FF1275D6D5F26CE"
 			rewards: [{
 				count: 5
@@ -320,7 +326,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest5760428680603969230.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3CDC2A5F52DF34C2"
 				item: "ae2:silicon_press"
@@ -331,26 +337,26 @@
 		}
 		{
 			dependencies: ["056FC37AEC8ED5AC"]
-			description: ["{ftbquests.chapter.ae2.quest2892143954533246896.description1}"]
+			description: ["Use your Charger to turn ordinary Certus Quartz into Charged Certus Quartz — a key ingredient for many AE2 recipes."]
 			id: "2822F59A793F67B0"
 			rewards: [{
 				id: "7635B2E0C03136E0"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest2892143954533246896.subtitle}"
+			subtitle: "Charging Certus Quartz"
 			tasks: [{
 				id: "0E0B22B668DB36D6"
 				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest2892143954533246896.title}"
+			title: "Power Up Your Quartz"
 			x: 2.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["525845E9EFAC56AE"]
-			description: ["{ftbquests.chapter.ae2.quest3729259861008455577.description1}"]
+			description: ["Craft an AE2 wrench to rotate devices, remove cables, and safely dismantle blocks without losing materials. A must-have as your network grows."]
 			id: "33C0FE15CA881799"
 			optional: true
 			rewards: [{
@@ -358,43 +364,43 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest3729259861008455577.subtitle}"
+			subtitle: "Master AE2 Device Management"
 			tasks: [{
 				id: "65BBAFB6811F0DD7"
 				item: "ae2:certus_quartz_wrench"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest3729259861008455577.title}"
+			title: "The Wrench"
 			x: -2.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["2144A344B1769F0F"]
-			description: ["{ftbquests.chapter.ae2.quest7084932501250818673.description1}"]
+			description: ["Your AE2 network needs power! Build the Energy Acceptor to connect your system to energy sources and keep everything running smoothly."]
 			id: "6252BC9282ACC271"
 			rewards: [{
 				id: "4770541D6635BF4C"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest7084932501250818673.subtitle}"
+			subtitle: "Craft the Energy Acceptor"
 			tasks: [{
 				id: "1EDEB5BABC2D8BE5"
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest7084932501250818673.title}"
+			title: "Power On!"
 			x: 5.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2822F59A793F67B0"]
 			description: [
-				"{ftbquests.chapter.ae2.quest2397220417098391311.description1}"
+				"Create Energy Cells to store power for your network. Dense cells hold more power — perfect for bigger setups."
 				""
-				"{ftbquests.chapter.ae2.quest2397220417098391311.description2}"
+				"It works by putting it right next to an Energy Acceptor or connect it via energy cable!"
 				""
-				"{ftbquests.chapter.ae2.quest2397220417098391311.description3}"
+				"Stores up to 200 kAE amount of energy per cell. Multiple can be placed around the Acceptor"
 			]
 			id: "2144A344B1769F0F"
 			rewards: [{
@@ -402,19 +408,19 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest2397220417098391311.subtitle}"
+			subtitle: "Craft A Basic Energy Cell"
 			tasks: [{
 				id: "2361D4DFC92C8AEC"
 				item: "ae2:energy_cell"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest2397220417098391311.title}"
+			title: "Energy Storage Solutions"
 			x: 4.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3D27AAE3D52B1A61"]
-			description: ["{ftbquests.chapter.ae2.quest6475594395096687293.description1}"]
+			description: ["Use the Calculation Press and Pure Certus Quartz Crystal in the Inscriber to make Printed Calculation Circuits. These form the core of Calculation Processors and automation upgrades."]
 			id: "59DDEECB0D3FA2BD"
 			rewards: [{
 				id: "324AA8B06852D906"
@@ -422,7 +428,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest6475594395096687293.subtitle}"
+			subtitle: "Quartz for Calculations"
 			tasks: [{
 				id: "7062548D5351E3F3"
 				item: "ae2:printed_calculation_processor"
@@ -433,7 +439,7 @@
 		}
 		{
 			dependencies: ["3D27AAE3D52B1A61"]
-			description: ["{ftbquests.chapter.ae2.quest2142508167502263296.description1}"]
+			description: ["With the Engineering Press and Diamonds, create Printed Engineering Circuits in the Inscriber. These are crucial for Engineering Processors and high-level AE2 components."]
 			id: "1DBBB7D3AC587400"
 			rewards: [{
 				id: "7E38BBF95BF4C583"
@@ -441,7 +447,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest2142508167502263296.subtitle}"
+			subtitle: "Diamonds for Advanced Machines"
 			tasks: [{
 				id: "098F6819E1515324"
 				item: "ae2:printed_engineering_processor"
@@ -452,7 +458,7 @@
 		}
 		{
 			dependencies: ["3D27AAE3D52B1A61"]
-			description: ["{ftbquests.chapter.ae2.quest4879993098379404844.description1}"]
+			description: ["Use the Logic Press and Gold Ingots in the Inscriber to make Printed Logic Circuits. These are key for building Logic Processors and several important AE2 parts."]
 			id: "43B937DE1F43262C"
 			rewards: [{
 				id: "6D8247679FB57A74"
@@ -460,7 +466,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest4879993098379404844.subtitle}"
+			subtitle: "Gold for Smart Machines"
 			tasks: [{
 				id: "0325FE63F73029D3"
 				item: "ae2:printed_logic_processor"
@@ -471,7 +477,7 @@
 		}
 		{
 			dependencies: ["3D27AAE3D52B1A61"]
-			description: ["{ftbquests.chapter.ae2.quest8074363528291870830.description1}"]
+			description: ["Use the Silicon Press in the Inscriber to make Printed Silicon from Silicon. Printed Silicon is needed in every processor recipe and is a staple item for AE2 crafting."]
 			id: "700DE6D96334E86E"
 			rewards: [{
 				count: 5
@@ -480,7 +486,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest8074363528291870830.subtitle}"
+			subtitle: "Essential Circuit Material"
 			tasks: [{
 				id: "47DA98A8607D102A"
 				item: "ae2:printed_silicon"
@@ -494,7 +500,7 @@
 				"1DBBB7D3AC587400"
 				"700DE6D96334E86E"
 			]
-			description: ["{ftbquests.chapter.ae2.quest1739704166994555916.description1}"]
+			description: ["Create Engineering Processors by merging Diamond, Printed Engineering Circuits, and Redstone in the Inscriber. These processors are needed for powering your most advanced AE2 machines."]
 			id: "1824ABB8F7FA340C"
 			rewards: [{
 				id: "57530A3147AEF247"
@@ -502,7 +508,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest1739704166994555916.subtitle}"
+			subtitle: "Building Complex Machines"
 			tasks: [{
 				id: "5F2221FCDEB9650B"
 				item: "ae2:engineering_processor"
@@ -516,7 +522,7 @@
 				"59DDEECB0D3FA2BD"
 				"700DE6D96334E86E"
 			]
-			description: ["{ftbquests.chapter.ae2.quest218166930761076702.description1}"]
+			description: ["Make Calculation Processors by combining Pure Certus Quartz Crystal, Printed Calculation Circuits, and Redstone in the Inscriber. Use these for high-level automation, storage cells, and crafting upgrades."]
 			id: "030715AAE9C04FDE"
 			rewards: [{
 				id: "564C762188A0B659"
@@ -524,7 +530,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest218166930761076702.subtitle}"
+			subtitle: "Advanced AE2 Automation Brain"
 			tasks: [{
 				id: "5C56513F56DF329B"
 				item: "ae2:calculation_processor"
@@ -538,7 +544,7 @@
 				"43B937DE1F43262C"
 				"700DE6D96334E86E"
 			]
-			description: ["{ftbquests.chapter.ae2.quest3909775731115413243.description1}"]
+			description: ["Craft Logic Processors by combining Gold Ingots, Printed Logic Circuits, and Redstone in the Inscriber. Logic Processors are the backbone of basic AE2 machines and automation features."]
 			id: "364250500493CEFB"
 			rewards: [{
 				id: "15F14889231A74F0"
@@ -546,7 +552,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest3909775731115413243.subtitle}"
+			subtitle: "Simple Automation for Your ME System"
 			tasks: [{
 				id: "48D050C6BFB1011B"
 				item: "ae2:logic_processor"
@@ -557,7 +563,7 @@
 		}
 		{
 			dependencies: ["3162C46FCFC99323"]
-			description: ["{ftbquests.chapter.ae2.quest8774307186711135890.description1}"]
+			description: ["Make Fluix Dust and Crystals by combining Certus Quartz and Redstone, required by many recipes from now on"]
 			id: "79C499E5E6130692"
 			rewards: [{
 				count: 12
@@ -565,7 +571,7 @@
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest8774307186711135890.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "602A3869CAD8730A"
@@ -583,7 +589,7 @@
 		}
 		{
 			dependencies: ["030715AAE9C04FDE"]
-			description: ["{ftbquests.chapter.ae2.quest1799359461903551722.description1}"]
+			description: ["Use the Network Tool to monitor channel usage and power consumption. Perfect for troubleshooting."]
 			id: "18F89BE5ADFFCCEA"
 			optional: true
 			rewards: [{
@@ -592,7 +598,7 @@
 				xp: 25
 			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.ae2.quest1799359461903551722.subtitle}"
+			subtitle: "Explore Your Network"
 			tasks: [{
 				id: "55A4A65E83CFD82A"
 				item: "ae2:network_tool"
@@ -604,9 +610,9 @@
 		{
 			dependencies: ["525845E9EFAC56AE"]
 			description: [
-				"{ftbquests.chapter.ae2.quest3558622640082621219.description1}"
+				"The quartz fiber is used to share power between networks, while keeping them separate. This allows you to power subnetworks without needing to put energy acceptors and power cables everywhere."
 				""
-				"{ftbquests.chapter.ae2.quest3558622640082621219.description2}"
+				"Can be used to keep cables from connecting, although using cables of different colors or using Cable Achor is cheaper"
 			]
 			id: "3162C46FCFC99323"
 			rewards: [{
@@ -614,7 +620,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest3558622640082621219.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7D565B7216BCFDD8"
 				item: "ae2:quartz_fiber"
@@ -625,14 +631,14 @@
 		}
 		{
 			dependencies: ["525845E9EFAC56AE"]
-			description: ["{ftbquests.chapter.ae2.quest391746625326732716.description1}"]
+			description: ["Mostly clear glass made with Certus Quartz Dust. Used to make many AE2 machines and items."]
 			id: "056FC37AEC8ED5AC"
 			rewards: [{
 				id: "2943BE3F2C2BBA36"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest391746625326732716.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "772A272AAE87988F"
 				item: "ae2:quartz_glass"
@@ -644,22 +650,22 @@
 		{
 			dependencies: ["79C499E5E6130692"]
 			description: [
-				"{ftbquests.chapter.ae2.quest7620284836972474546.description1}"
+				"While ME networks are also created by adjacent ME-capable machines, cables are the primary way of extending an ME network over larger areas."
 				""
-				"{ftbquests.chapter.ae2.quest7620284836972474546.description2}"
+				"&e&lAn Important Note&r&r"
 				""
-				"{ftbquests.chapter.ae2.quest7620284836972474546.description3}"
+				"&eIf you are new to AE2 and unfamiliar with channels, use smart cable and dense smart cable wherever you can. It will show how channels are routed through your network, making their behavior more understandable.&r"
 				""
-				"{ftbquests.chapter.ae2.quest7620284836972474546.description4}"
+				"Next page ->"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.ae2.quest7620284836972474546.description5}"
+				"&5Fluix ME Glass Cable&r is the simplest cable to make, transfers power and up to 8 &bchannels&r. It comes in 17 diffrent colors, the default being Fluix, and can be dyed any color using any of the 16 dyes."
 				""
-				"{ftbquests.chapter.ae2.quest7620284836972474546.description6}"
+				"To craft colored cables surround a dye of any type with 8 cables of the same type ( color of the cables dosn't matter, but they must be the same type, glass, smart, etc ). You can also paint cables with any forge compatible paint brush in world."
 				""
-				"{ftbquests.chapter.ae2.quest7620284836972474546.description7}"
+				"You can craft any colored cable with a water bucket to remove the dye."
 				""
-				"{ftbquests.chapter.ae2.quest7620284836972474546.description8}"
+				"You can cover the cable with wool to create Fluix ME Covered Cable, and craft Fluix ME Smart Cable to get a better idea of what is going on with your channels."
 			]
 			id: "69C0B0AF6B0A30B2"
 			rewards: [{
@@ -668,7 +674,7 @@
 				item: "ae2:fluix_glass_cable"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest7620284836972474546.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6E21010BB62899F4"
 				item: "ae2:fluix_glass_cable"
@@ -680,9 +686,9 @@
 		{
 			dependencies: ["69C0B0AF6B0A30B2"]
 			description: [
-				"{ftbquests.chapter.ae2.quest1997580367309274877.description1}"
+				"The covered cable variant offers no gameplay benefits over its Fluix ME Glass Cable counterpart. It can however be used as an alternate aesthetic choice if you prefer the covered look."
 				""
-				"{ftbquests.chapter.ae2.quest1997580367309274877.description2}"
+				"Can be colored in the same manner as Fluix ME Glass Cable. Four Fluix ME Covered Cable can be crafted with redstone and glowstone to make Fluix ME Dense Covered Cable."
 			]
 			id: "1BB8D4C2ABC37EFD"
 			optional: true
@@ -691,7 +697,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest1997580367309274877.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "04F198CB0B3F696D"
 				item: "ae2:fluix_covered_cable"
@@ -703,15 +709,15 @@
 		{
 			dependencies: ["69C0B0AF6B0A30B2"]
 			description: [
-				"{ftbquests.chapter.ae2.quest961988186841867074.description1}"
+				"While bearing some similarity to Fluix ME Covered Cable in appearance, they provide diagnostic function by visualizing the channel usage on the cables, the channels appear as lit colored lines that run along the black stripe on the cables giving you an understanding of how your channels are being used on your network. For regular smart cables, the first four channels show as lines matching the color of the cable, the next four show as white lines. For dense smart cable, each stripe represents 4 channels (will talk further on that later)."
 				""
-				"{ftbquests.chapter.ae2.quest961988186841867074.description2}"
+				"Next page ->"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.ae2.quest961988186841867074.description3}"
+				"On networks with a &bME Controller&r (fruther down the quest line), the lines on the cables show the exact path the channels take."
 				""
 				""
-				"{ftbquests.chapter.ae2.quest961988186841867074.description4}"
+				"These can also be colored in the same manner as Fluix ME Glass Cable."
 			]
 			id: "0D59AB28BAD4E342"
 			rewards: [{
@@ -720,7 +726,7 @@
 				item: "ae2:fluix_smart_cable"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest961988186841867074.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0AF27C600E810B7D"
 				item: "ae2:fluix_smart_cable"
@@ -732,9 +738,9 @@
 		{
 			dependencies: ["0D59AB28BAD4E342"]
 			description: [
-				"{ftbquests.chapter.ae2.quest981148755272051113.description1}"
+				"Higher Capacity cable, can carry 32 &bchannels&r unlike standard cable which can only carry 8, however it &4doesn't support buses&r so you must first step down from dense to a smaller cable (such as Fluix ME Glass Cable or Fluix ME Smart Cable) before using buses or panels. (explained a bit later)"
 				""
-				"{ftbquests.chapter.ae2.quest981148755272051113.description2}"
+				"Dense cables slightly override the \"shortest path\" behavior of channels, channels will take the shortest path to a dense cable, and then the shortest path through that dense cable to a controller."
 			]
 			id: "0D9DBD9835CEA9A9"
 			rewards: [{
@@ -743,7 +749,7 @@
 				item: "ae2:fluix_smart_dense_cable"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest981148755272051113.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "78F994CE8E295C36"
 				item: "ae2:fluix_smart_dense_cable"
@@ -755,11 +761,11 @@
 		{
 			dependencies: ["1FE482282D4E3B3C"]
 			description: [
-				"{ftbquests.chapter.ae2.quest8785375196477422788.description1}"
+				"Start with the ME Chest for your first digital storage before advancing to ME Drives."
 				""
-				"{ftbquests.chapter.ae2.quest8785375196477422788.description2}"
+				"&nME Chest&r"
 				""
-				"{ftbquests.chapter.ae2.quest8785375196477422788.description3}"
+				"The ME Chest acts like a miniature network with a ME Terminal, ME Drive, and Energy Acceptor. While it can be used as a tiny storage network, its capacity for just one single storage cell means it has limited utility as such."
 			]
 			id: "79EBEC31BC907CC4"
 			optional: true
@@ -768,34 +774,34 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest8785375196477422788.subtitle}"
+			subtitle: "Intro Storage for AE2 Newbies"
 			tasks: [{
 				id: "1C7297757C203D1C"
 				item: "ae2:chest"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest8785375196477422788.title}"
+			title: "Small Beginnings: The ME Chest"
 			x: 4.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["69C0B0AF6B0A30B2"]
 			description: [
-				"{ftbquests.chapter.ae2.quest2298104818936199996.description1}"
+				"Create ME Drives and Terminals to start storing items digitally — the core of AE2 storage."
 				""
-				"{ftbquests.chapter.ae2.quest2298104818936199996.description2}"
+				"&nThe Drive&r"
 				""
-				"{ftbquests.chapter.ae2.quest2298104818936199996.description3}"
+				"The Drive is the &bdevice&r you plug your &bstorage cells&r into in order to use them for &bnetwork storage&r. It has 10 slots which each accept a cell."
 				""
-				"{ftbquests.chapter.ae2.quest2298104818936199996.description4}"
+				"If for some reason you want to, you can push and pull the cells from its inventory with any item logistics like hoppers or ae2 busses."
 				""
-				"{ftbquests.chapter.ae2.quest2298104818936199996.description5}"
+				"It can be rotated with a Certus Quartz Wrench."
 				""
-				"{ftbquests.chapter.ae2.quest2298104818936199996.description6}"
+				"Next page ->"
 				"{@pagebreak}"
-				"{ftbquests.chapter.ae2.quest2298104818936199996.description7}"
+				"&nTerminal&r"
 				""
-				"{ftbquests.chapter.ae2.quest2298104818936199996.description8}"
+				"Your basic terminal, allowing you to view and access the contents of your &bnetwork's storage&r and request things from your &bautocrafting&r setup."
 			]
 			id: "1FE482282D4E3B3C"
 			rewards: [{
@@ -803,7 +809,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest2298104818936199996.subtitle}"
+			subtitle: "Craft ME Drives and Terminals"
 			tasks: [
 				{
 					id: "1D0422D58E808927"
@@ -816,20 +822,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ae2.quest2298104818936199996.title}"
+			title: "Building the Digital Vault"
 			x: 4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["1FE482282D4E3B3C"]
 			description: [
-				"{ftbquests.chapter.ae2.quest3790124846999647850.description1}"
+				"Craft the Crafting Terminal to craft items anywhere directly from your ME Network."
 				""
-				"{ftbquests.chapter.ae2.quest3790124846999647850.description2}"
+				"&nCrafting Terminal&r"
 				""
-				"{ftbquests.chapter.ae2.quest3790124846999647850.description3}"
+				"The Crafting Terminal is similar to a regular terminal, with all the same settings and sections, but with an added crafting grid that will be automatically refilled from &bnetwork storage&r. Be careful when shift-clicking the output!"
 				""
-				"{ftbquests.chapter.ae2.quest3790124846999647850.description4}"
+				"You should upgrade your terminal into a crafting terminal &l&bASAP&r&r."
 			]
 			id: "34993A77A7CBB66A"
 			rewards: [{
@@ -837,30 +843,30 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest3790124846999647850.subtitle}"
+			subtitle: "Make a Crafting Terminal"
 			tasks: [{
 				id: "3532D08AB3BE7920"
 				item: "ae2:crafting_terminal"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest3790124846999647850.title}"
+			title: "Craft On the Go"
 			x: 5.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["1FE482282D4E3B3C"]
 			description: [
-				"{ftbquests.chapter.ae2.quest7417154921144497916.description1}"
+				"Storage Components are the core of all AE2 cells, determining the capacity of the cells. Each tier increases the capacity by 4x and costs 3 of the previous tier."
 				""
-				"{ftbquests.chapter.ae2.quest7417154921144497916.description2}"
+				"Begin by creating the first 1k Storage Component, ideally creating a maxed out 1k Storage Cell ME Drive would currently the best thing."
 				""
-				"{ftbquests.chapter.ae2.quest7417154921144497916.description3}"
+				"Second page ->"
 				"{@pagebreak}"
-				"{ftbquests.chapter.ae2.quest7417154921144497916.description4}"
+				"Storage Cells are one of the primary methods of storage in Applied Energistics. They go in &bME Drives&r or &bME Chests&r."
 				""
-				"{ftbquests.chapter.ae2.quest7417154921144497916.description5}"
+				"Storage components can be removed from the housing if the cell is empty by shift-right clicking with the cell in your hand."
 				""
-				"{ftbquests.chapter.ae2.quest7417154921144497916.description6}"
+				"The upfront cost of types is such that a cell holding 1 type can hold 2x as much as a cell with all 63 types in use."
 			]
 			id: "66EF071A5EDBB6FC"
 			rewards: [{
@@ -869,7 +875,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest7417154921144497916.subtitle}"
+			subtitle: "Craft ME Storage Cells 1k"
 			tasks: [
 				{
 					id: "0B511D85FEF98137"
@@ -892,27 +898,27 @@
 				"1FE482282D4E3B3C"
 			]
 			description: [
-				"{ftbquests.chapter.ae2.quest6990741778674113335.description1}"
+				"Craft the ME Controller — the brain of your ME Network! It manages all connections, controls channel limits, and keeps everything running smoothly. Place it carefully: your network devices connect through it to communicate and function."
 				""
-				"{ftbquests.chapter.ae2.quest6990741778674113335.description2}"
+				"Now this one is a bit tough, so stay with me."
 				""
-				"{ftbquests.chapter.ae2.quest6990741778674113335.description3}"
+				"The controller is the routing hub of a &bME Network&r. Without it, a network is \"ad-hoc\" and can only have a max of 8 channel-using &bdevices&r total."
 				""
-				"{ftbquests.chapter.ae2.quest6990741778674113335.description4}"
+				"It is not possible to have 2 controllers in one ME Network."
 				""
-				"{ftbquests.chapter.ae2.quest6990741778674113335.description5}"
+				"The controller provides 32 &bChannels&r per face."
 				""
-				"{ftbquests.chapter.ae2.quest6990741778674113335.description6}"
+				"The controller requires 6 AE/t per controller block to function. Each controller block can store 8000 AE, so larger networks might require additional energy storage."
 				""
-				"{ftbquests.chapter.ae2.quest6990741778674113335.description7}"
+				"Multiblock Controllers can be built in a fairly free form."
 				""
-				"{ftbquests.chapter.ae2.quest6990741778674113335.description8}"
+				"However, there are a few rules that must be followed:"
 				""
-				"{ftbquests.chapter.ae2.quest6990741778674113335.description9}"
-				"{ftbquests.chapter.ae2.quest6990741778674113335.description10}"
-				"{ftbquests.chapter.ae2.quest6990741778674113335.description11}"
+				"- All controller blocks on a ME Network must be connected; else the blocks will turn red."
+				"- The size of the controller must be within 7x7x7; else it will turn red."
+				"- A controller can have 2 adjacent blocks in at most 1 axis; if a block violates this rule, it will disable and turn red."
 				""
-				"{ftbquests.chapter.ae2.quest6990741778674113335.image0}"
+				"{image:ae2:block/controller_lights width:100 height:100 align:center}"
 			]
 			id: "61041A9BF25A5B37"
 			rewards: [{
@@ -920,13 +926,13 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest6990741778674113335.subtitle}"
+			subtitle: "Manage and Expand Your AE2 Network"
 			tasks: [{
 				id: "3E325B1ED850AE54"
 				item: "ae2:controller"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest6990741778674113335.title}"
+			title: "Heart of the Network: ME Controller"
 			x: 5.5d
 			y: 1.5d
 		}
@@ -936,21 +942,21 @@
 				"6252BC9282ACC271"
 			]
 			description: [
-				"{ftbquests.chapter.ae2.quest1952369521711233401.description1}"
+				"Now that you have crafted your ME Drive, ME Controller, ME Terminal or Crafting Terminal, and Energy Acceptor, it's time to put everything together to build a working AE2 storage system!"
 				""
-				"{ftbquests.chapter.ae2.quest1952369521711233401.description2}"
+				"&n&eChecklist Tasks:&r"
 				""
-				"{ftbquests.chapter.ae2.quest1952369521711233401.description3}"
+				"-Place the ME Drive and install some storage cells (start with 1k or 4k cells)."
 				""
-				"{ftbquests.chapter.ae2.quest1952369521711233401.description4}"
+				"-Attach the Energy Acceptor and provide it with power from your energy source to power the network."
 				""
-				"{ftbquests.chapter.ae2.quest1952369521711233401.description5}"
+				"-Connect the ME Drive and Energy Acceptor with AE2 cables (Glass, Covered, or Smart)."
 				""
-				"{ftbquests.chapter.ae2.quest1952369521711233401.description6}"
+				"-Place the ME Controller nearby to manage your network channels."
 				""
-				"{ftbquests.chapter.ae2.quest1952369521711233401.description7}"
+				"-Connect the ME Terminal or Crafting Terminal to the network for easy access to stored items."
 				""
-				"{ftbquests.chapter.ae2.quest1952369521711233401.description8}"
+				"-Insert storage cells into the ME Drive and start storing your items digitally."
 			]
 			icon: {
 				Count: 1
@@ -966,23 +972,23 @@
 				xp: 50
 			}]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.ae2.quest1952369521711233401.subtitle}"
+			subtitle: "Get Your Digital Storage Up and Running"
 			tasks: [{
 				id: "01ED789DDA36FFEC"
-				title: "{ftbquests.chapter.ae2.quest1952369521711233401.task.138899782884589548.title}"
+				title: "What the hell"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ae2.quest1952369521711233401.title}"
+			title: "AE2 Storage Setup: Your First ME Network"
 			x: 9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1B1835BC63E5B979"]
 			description: [
-				"{ftbquests.chapter.ae2.quest4737099425343102822.description1}"
+				"So, you've started expanding on your network, and you've probably got a handle on resource generation, great, but what next? Setting up auto-crafting is what's next! Auto-crafting is probably one of the most essential parts of the mod and for creating large quantities of items, or any recipe you need."
 				""
-				"{ftbquests.chapter.ae2.quest4737099425343102822.description2}"
-				"{ftbquests.chapter.ae2.quest4737099425343102822.description3}"
+				"AE2 Auto-crafting can allow you to request items on demand, keep a certain specific amount of item"
+				"in stock, automatically craft items and export them"
 			]
 			icon: {
 				Count: 1
@@ -1000,27 +1006,27 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.ae2.quest4737099425343102822.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "417E0CFE56C068FF"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ae2.quest4737099425343102822.title}"
+			title: "Auto-crafting"
 			x: 11.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["41BD8ED441485F66"]
 			description: [
-				"{ftbquests.chapter.ae2.quest8340197904574533396.description1}"
-				"{ftbquests.chapter.ae2.quest8340197904574533396.description2}"
+				"Any auto-crafting system requires 3 Main Modules:"
+				"Craft Processing Units, The Providers/Assemblers, and the Terminals"
 				""
-				"{ftbquests.chapter.ae2.quest8340197904574533396.description3}"
-				"{ftbquests.chapter.ae2.quest8340197904574533396.description4}"
+				"Craft Processing Units"
+				"Or CPUs, define how large your craft can be, and how many steps can be performed at once. They consist of two parts: Co-processors, and Crafting Storage"
 				""
-				"{ftbquests.chapter.ae2.quest8340197904574533396.description5}"
+				"The Co-Processor is responsible for telling your network to send more ingredients more often. While technically it is not required, it would be unwise to not have an abundance of these..."
 				""
-				"{ftbquests.chapter.ae2.quest8340197904574533396.description6}"
+				"The Crafting Storage allows your crafts to be bigger, and contain more steps. Crafting storage blocks use the same ingredients used in storage cells, and can be un-crafted back into their parts by hand"
 			]
 			id: "73BE55CE529F4F14"
 			rewards: [{
@@ -1028,7 +1034,7 @@
 				item: "ae2:1k_crafting_storage"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest8340197904574533396.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "36CF2A03070ED549"
@@ -1048,11 +1054,11 @@
 		{
 			dependencies: ["73BE55CE529F4F14"]
 			description: [
-				"{ftbquests.chapter.ae2.quest7691204286744324584.description1}"
+				"As you may have guessed, Providers and Assemblers do exactly the same as the name suggests."
 				""
-				"{ftbquests.chapter.ae2.quest7691204286744324584.description2}"
+				"When requested, a Pattern Provider will read a pattern inside itself, and push the ingredients written on the pattern into any adjacent inventories. These inventories can be almost anything, allowing for you to create a truly staggering variety of things with your Auto-crafting system."
 				""
-				"{ftbquests.chapter.ae2.quest7691204286744324584.description3}"
+				"The Molecular Assembler is the wrokhorse of the Auto-crafting system. Best way to use them is by putting them next to a single Pattern Provider, they are the machines that do the crafting for the system."
 			]
 			id: "6ABCA58C8E5B69E8"
 			rewards: [{
@@ -1060,7 +1066,7 @@
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest7691204286744324584.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "7F5A3AE594EE824E"
@@ -1073,20 +1079,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ae2.quest7691204286744324584.title}"
+			title: "Providers and Assemblers"
 			x: 11.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6ABCA58C8E5B69E8"]
 			description: [
-				"{ftbquests.chapter.ae2.quest7691112596575490692.description1}"
+				"There are two main terminals used for Auto-crafting:"
 				""
-				"{ftbquests.chapter.ae2.quest7691112596575490692.description2}"
-				"{ftbquests.chapter.ae2.quest7691112596575490692.description3}"
+				"1. The Pattern encoding Terminal:"
+				"  - uses Blank Patterns to create Patterns, most Commonly Crafting and Processing Patterns. Crafting Patterns will go into the providers that connect to your Molecular Assemblers, while Processing Patterns will go to the provider that connects to a machine or other inventory."
 				""
-				"{ftbquests.chapter.ae2.quest7691112596575490692.description4}"
-				"{ftbquests.chapter.ae2.quest7691112596575490692.description5}"
+				"2. The Pattern access terminal:"
+				"  - gives you a way to access all providers on your network remotely. It is handy, but only for a lot of providers, not handy when your system is still small"
 			]
 			id: "6ABC5228466A1284"
 			rewards: [{
@@ -1094,7 +1100,7 @@
 				item: "ae2:blank_pattern"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest7691112596575490692.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "278039ED936E5964"
@@ -1107,23 +1113,23 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ae2.quest7691112596575490692.title}"
+			title: "Terminals for Auto-crafting"
 			x: 13.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6ABC5228466A1284"]
 			description: [
-				"{ftbquests.chapter.ae2.quest4920834112189939168.description1}"
+				"This was the most basic way of explaining Aut-Crafting, it has an monstrous amount of complexity behind it."
 				""
-				"{ftbquests.chapter.ae2.quest4920834112189939168.description2}"
-				"{ftbquests.chapter.ae2.quest4920834112189939168.description3}"
-				"{ftbquests.chapter.ae2.quest4920834112189939168.description4}"
-				"{ftbquests.chapter.ae2.quest4920834112189939168.description5}"
-				"{ftbquests.chapter.ae2.quest4920834112189939168.description6}"
-				"{ftbquests.chapter.ae2.quest4920834112189939168.description7}"
-				"{ftbquests.chapter.ae2.quest4920834112189939168.description8}"
-				"{ftbquests.chapter.ae2.quest4920834112189939168.description9}"
+				"There are a few tips I can give you so far:"
+				"1. Molecular Assemblers DON'T take channels!"
+				"2. I suggest using Acceleration cards on them, to make them work faster."
+				"3. Many of the components in this quest line have an \"Extended\" variant, they improve on their original's functionality by storing more, moving more, more jobs and etc."
+				"4. When using the pattern terminal to make patterns, there will be 3 buttons:"
+				"- The \"X\" button - simply clears the pattern"
+				"- The Ingot Button - enables / disables Substitutions (for recipes that use items like an Ore Hammer)"
+				"- The Bucket Button - will enable / disable using just a fluid instead of a bucket or other item like that"
 			]
 			icon: {
 				Count: 1
@@ -1140,10 +1146,10 @@
 				xp: 25
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.ae2.quest4920834112189939168.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "362B6F5368070985"
-				title: "{ftbquests.chapter.ae2.quest4920834112189939168.task.3903335906064927109.title}"
+				title: "Tips and Info"
 				type: "checkmark"
 			}]
 			x: 13.0d
@@ -1152,14 +1158,14 @@
 		{
 			dependencies: ["444A508DA7B4BDE0"]
 			description: [
-				"{ftbquests.chapter.ae2.quest7344227225003330734.description1}"
-				"{ftbquests.chapter.ae2.quest7344227225003330734.description2}"
+				"So far, we have set-up a basic AE2 network, maybe not so basic, depends on how you play this mod."
+				"You might realize, by expanding the network, everything is starting to take maybe a little too much channels on the cables? Do not worry! AE2 has a few solutions for this in the form of P2P and Quantum Bridges."
 				""
-				"{ftbquests.chapter.ae2.quest7344227225003330734.description3}"
+				"&6&lPoint to Point Tunnels&r&r"
 				""
-				"{ftbquests.chapter.ae2.quest7344227225003330734.description4}"
+				"Point to Point tunnels, or P2P Tunnels, act as a way to move a lot of things throughout your network, without interacting with the network directly. That's kind of confusing, so imagine P2P Tunnels as a Portal, connecting two location through the use of Fluix Cabels."
 				""
-				"{ftbquests.chapter.ae2.quest7344227225003330734.description5}"
+				"(make sure to also check the AE2 guide for detailed explenation)"
 			]
 			id: "65EBEFBFF0138CAE"
 			rewards: [{
@@ -1169,23 +1175,23 @@
 			}]
 			shape: "netheritetier"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.ae2.quest7344227225003330734.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 2L
 				id: "7FF9AD615EB1C547"
 				item: "ae2:me_p2p_tunnel"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest7344227225003330734.title}"
+			title: "P2P Tunnels"
 			x: 15.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["65EBEFBFF0138CAE"]
 			description: [
-				"{ftbquests.chapter.ae2.quest5585071810106936307.description1}"
+				"The best way to use P2P, is to use them to create, technically, portable Controller Faces. It is important in creating large networks."
 				""
-				"{ftbquests.chapter.ae2.quest5585071810106936307.description2}"
+				"Just put them on each side of a controller and use them for machines."
 			]
 			icon: {
 				Count: 1
@@ -1202,10 +1208,10 @@
 				xp: 69
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.ae2.quest5585071810106936307.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0A8C47725FBD2DA7"
-				title: "{ftbquests.chapter.ae2.quest5585071810106936307.task.760060993676848551.title}"
+				title: "Tip"
 				type: "checkmark"
 			}]
 			x: 15.0d
@@ -1214,13 +1220,13 @@
 		{
 			dependencies: ["4D8229386678CBF3"]
 			description: [
-				"{ftbquests.chapter.ae2.quest8359787416767513565.description1}"
+				"Through the use of a Memory Card, we can Connect our P2P Tunnels. P2P Tunnels wont work while not configured."
 				""
-				"{ftbquests.chapter.ae2.quest8359787416767513565.description2}"
+				"Shift + Right-Click on a P2P Tunnel to create a new frequiency, or copy the existing Frequency if there is one, then Right-Click the P2P end tunnel you want to use to set it's frequency."
 				""
-				"{ftbquests.chapter.ae2.quest8359787416767513565.description3}"
+				"&n&6The item will not be lost if used!&r&r"
 				""
-				"{ftbquests.chapter.ae2.quest8359787416767513565.description4}"
+				"A P2P Tunnel system may have only one input, but as many outputs as the cable you use allow for."
 			]
 			id: "7403EE5D0E3543DD"
 			rewards: [{
@@ -1228,7 +1234,7 @@
 				type: "xp"
 				xp: 1
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest8359787416767513565.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "74F0F061607B8414"
 				item: "ae2:memory_card"
@@ -1240,13 +1246,13 @@
 		{
 			dependencies: ["7403EE5D0E3543DD"]
 			description: [
-				"{ftbquests.chapter.ae2.quest4893395499995762679.description1}"
+				"&6Quantum Bridges&r offer a solution to long range, interdimensional networks."
 				""
-				"{ftbquests.chapter.ae2.quest4893395499995762679.description2}"
+				"For example, creating a link between the Overworld and the Nether systems, you should link two Quantum Bridges."
 				""
-				"{ftbquests.chapter.ae2.quest4893395499995762679.description3}"
+				"They transfer only 32 channels in total, mostly functions as a wireless Dense Cable."
 				""
-				"{ftbquests.chapter.ae2.quest4893395499995762679.description4}"
+				"They are constructed of 8 ME Quantum Ring blocks, surrounding one ME Quantum Link Chamber."
 			]
 			id: "43E8D547EABE0FF7"
 			rewards: [{
@@ -1254,7 +1260,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest4893395499995762679.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					count: 16L
@@ -1269,16 +1275,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ae2.quest4893395499995762679.title}"
+			title: "Going interdimensional"
 			x: 13.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["43E8D547EABE0FF7"]
 			description: [
-				"{ftbquests.chapter.ae2.quest9190921084046772008.description1}"
+				"The Quantum Link Chamber has only one slot, for a &6Quantum Entagled Singularity&r."
 				""
-				"{ftbquests.chapter.ae2.quest9190921084046772008.description2}"
+				"One is needed for each Link Chamber, however you get 2 from a sigle explosion :)"
 			]
 			id: "7F8CB607C5418728"
 			rewards: [{
@@ -1287,7 +1293,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.ae2.quest9190921084046772008.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 2L
 				id: "5AA5B4BF489CD421"
@@ -1300,9 +1306,9 @@
 		{
 			dependencies: ["1D839C76FD49532A"]
 			description: [
-				"{ftbquests.chapter.ae2.quest5468180621682256870.description1}"
+				"It is very important to read the guide, since this questline is only touching the basic ground of AE2 and its capabilities!"
 				""
-				"{ftbquests.chapter.ae2.quest5468180621682256870.description2}"
+				"Feedback appreciated via the discord feedback channel! (tag @!dex)"
 			]
 			icon: {
 				Count: 1
@@ -1320,14 +1326,14 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ae2.quest5468180621682256870.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "5E32F481B733E886"
-				title: "{ftbquests.chapter.ae2.quest5468180621682256870.task.6787756426362349702.title}"
+				title: "Alright"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ae2.quest5468180621682256870.title}"
-			x: 0.0d
+			title: "Check the online guide!"
+			x: 0.5d
 			y: -2.0d
 		}
 		{
@@ -1354,7 +1360,7 @@
 		}
 		{
 			dependencies: ["416F3D8D06837D39"]
-			description: ["{ftbquests.chapter.ae2.quest2261043378105556158.description1}"]
+			description: ["Other power sources also work with ae2, for example you can use Mekanism windmill to power up your ae2 system which i recommend."]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1377,16 +1383,16 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ae2.quest2261043378105556158.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "32DFEF8A088B30DC"
-				title: "{ftbquests.chapter.ae2.quest2261043378105556158.task.3665911997830738140.title}"
+				title: "Hell yeah"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ae2.quest2261043378105556158.title}"
+			title: "Additional Powering"
 			x: -2.0d
 			y: -0.5d
 		}
 	]
-	title: "{ftbquests.chapter.ae2.title}"
+	title: "<shadow><grad from=#B8D8FC to=#6689A9>Applied Energistics 2</grad></shadow>"
 }

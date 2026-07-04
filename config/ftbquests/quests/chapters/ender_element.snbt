@@ -1,0 +1,1206 @@
+{
+	autofocus_id: "54FA294EAFF09CCF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_element"
+	group: "0361FC25A57730F8"
+	icon: "irons_spellbooks:ender_rune"
+	id: "10C6350576CC9AD9"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: [
+			"All rights are reserved."
+			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+		]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: -2.5d
+	}]
+	order_index: 19
+	parent: "529863295F3FB653"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			hide_dependent_lines: true
+			icon: "irons_spellbooks:ender_rune"
+			id: "54FA294EAFF09CCF"
+			shape: "none"
+			size: 2.5d
+			subtitle: "The Ender school is themed around all things arcane and mystical, with spells that range from damage to utility to mobility."
+			tasks: [{
+				id: "38B371DBBD36DD30"
+				item: "irons_spellbooks:ender_rune"
+				type: "item"
+			}]
+			title: "Ender magic"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/black_hole.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "47E6BAC77BA59093"
+			shape: "square"
+			subtitle: "Around a targeted location, create a fissure into the void, manifesting a black hole that will suck in nearby creatures and slowly crush them to death."
+			tasks: [{
+				id: "7B1B830B4055E7C0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:black_hole"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Black Hole"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			description: [
+				"Interrupt player and mob casting"
+				"Banishes summoned shield , blood slash , creeper head"
+				"Banishes summoned creatures"
+				"Removes root"
+				"Removes mob effects like fortify or evasion"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/counterspell.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0A50879F77A82D85"
+			shape: "square"
+			subtitle: "Stop effects of other magic."
+			tasks: [{
+				id: "7F5AC069BE9177AD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:counterspell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Counterspell"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/dragon_breath.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4DC9E88A5EE200B6"
+			shape: "square"
+			subtitle: "Hold to spew a cone of dragon breath forwards. Each time a creature is hit, there is a chance to create a pool of dragon breath at their feet."
+			tasks: [{
+				id: "6184AAC6662345FF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:dragon_breath"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Dragon Breath"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/echoing_strikes.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4EA50CAF62FCD50A"
+			shape: "square"
+			subtitle: "While under the effects of the spell, non-magical attacks will leave an echo of ender energy behind, shortly thereafter exploding with an echo of the original attack's damage."
+			tasks: [{
+				id: "4BEAEF3B5A6E5B63"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:echoing_strikes"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Echoing Strikes"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/evasion.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3F51C96AF372AAD1"
+			shape: "square"
+			subtitle: "Cast to imbue yourself with ender energy. Upon being attacked while under its effects, you will immediately teleport within a short radius and avoid taking any damage. Only a finite amount of hits can be dodged before the effect immediately wears off."
+			tasks: [{
+				id: "6DFC393F41F190D5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:evasion"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Evasion"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/magic_arrow.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "46B574404FE263A6"
+			shape: "square"
+			subtitle: "Hold to charge a piercing arrow made of arcane energy. This arrow has no gravity and can travel through blocks."
+			tasks: [{
+				id: "0EDCCC979E802A30"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:magic_arrow"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Magic Arrow"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/portal.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "09A524E6ECDFD5E9"
+			shape: "square"
+			subtitle: "Creates two portals that allows players to travel back and forth between them."
+			tasks: [{
+				id: "28A15E441EADBA31"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:portal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Portal"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/recall.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2D8B5735A8E735A5"
+			shape: "square"
+			subtitle: "Warps you back to your spawn location, or world spawn if there is none."
+			tasks: [{
+				id: "4BE6CEDE538707BC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:recall"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Recall"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/starfall.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "50BA6B940B1C9527"
+			shape: "square"
+			subtitle: "Target a single area and continuously rain down arcane comets from above for the duration of the spell."
+			tasks: [{
+				id: "09FA88693A4E8578"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:starfall"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Starfall"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/summon_ender_chest.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "33447D646C027194"
+			shape: "square"
+			subtitle: "Apparate your Ender Chest inventory upon casting."
+			tasks: [{
+				id: "59E985698DF222F6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:summon_ender_chest"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Summon Ender Chest"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/teleport.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "23D9F676599C974B"
+			shape: "square"
+			subtitle: "Instantaneously teleport to where you are looking, leaving nothing but a cloud of ender energy behind."
+			tasks: [{
+				id: "762CF98391E9C203"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:teleport"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Teleport"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/magic_missile.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "56C07209A8A2139E"
+			shape: "square"
+			subtitle: "Shoot a bolt of concentrated arcane magic. Also a trademark of every wizard."
+			tasks: [{
+				id: "0E233C11B1C1539C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:magic_missile"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Magic Missile"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/void_eruption.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4FB8BFC4989DE732"
+			shape: "square"
+			tasks: [{
+				id: "422B3A99D1D735FC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:void_eruption"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/cursed_minefield.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3304E40F06D78FDD"
+			shape: "square"
+			tasks: [{
+				id: "783FBAADBE340E5B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:cursed_minefield"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/orbital_void.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2CBDA82693238F2A"
+			shape: "square"
+			tasks: [{
+				id: "63AC7D34B73895A1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:orbital_void"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/vortex_punch.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0BBAABB3F267AF65"
+			shape: "square"
+			tasks: [{
+				id: "1337875A3C7A204C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:vortex_punch"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/eternal_sentinel.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5F70ECAEB34A352E"
+			shape: "square"
+			tasks: [{
+				id: "425EA1E15A8B1B62"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:eternal_sentinel"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/astral_sense.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "61CFD4186CB572B4"
+			shape: "square"
+			tasks: [{
+				id: "0CCD27547681FE68"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:astral_sense"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/conjure_void_tomes.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "435AF9BEC791C71C"
+			shape: "square"
+			tasks: [{
+				id: "2A628D6818A83400"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:conjure_void_tomes"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/blink.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3351DC90CC52DB39"
+			shape: "square"
+			tasks: [{
+				id: "60E3868029BA1608"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:blink"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/supernova.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "53F0C4D019EA6D9B"
+			shape: "square"
+			tasks: [{
+				id: "0C81943B7B865316"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:supernova"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/shear_of_the_stars.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "76A44BF411273E15"
+			shape: "square"
+			tasks: [{
+				id: "6F69BE91E2806BD1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:shear_of_the_stars"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "peyroscythe:textures/gui/spell_icons/made_in_heaven.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2F4EDAA091B7239A"
+			shape: "square"
+			tasks: [{
+				id: "15F62F2E080F0F11"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "peyroscythe:made_in_heaven"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "peyroscythe:textures/gui/spell_icons/made_in_heaven_real.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3072E47515D2650B"
+			shape: "square"
+			tasks: [{
+				id: "5BD765F650BC9DB2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "peyroscythe:made_in_heaven_real"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "darkdoppelganger:textures/gui/spell_icons/doppel_portal.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "72A4A9CD07AC5FB1"
+			shape: "square"
+			tasks: [{
+				id: "480F7F3E6FC75F3E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "darkdoppelganger:doppel_portal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/end_mayhem.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "46897631C9F045A5"
+			shape: "square"
+			tasks: [{
+				id: "62ED19611D120C27"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "alshanex_familiars:end_mayhem"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/summon_swords.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "280FE4A7617E4F2E"
+			shape: "square"
+			tasks: [{
+				id: "1990CC38A8AB0230"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:summon_swords"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/shadow_slash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1708C3A73FA93513"
+			shape: "square"
+			tasks: [{
+				id: "5691D025E4FE3653"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:shadow_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/arcane_shackle.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "76C7432026427C5F"
+			shape: "square"
+			tasks: [{
+				id: "46ABFD85518762C9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:arcane_shackle"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/ender_corruption.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "43133CB1CADF927B"
+			shape: "square"
+			tasks: [{
+				id: "6684272DD1F364BE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:ender_corruption"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["54FA294EAFF09CCF"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/abyssal_orbs.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7AA52A9A223252DB"
+			shape: "square"
+			tasks: [{
+				id: "5969288B97560F86"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:abyssal_orbs"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+	]
+	title: "<grad from=#B82AFA to=#E5ADFF>Ender Element</grad>"
+}

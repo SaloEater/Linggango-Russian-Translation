@@ -1,0 +1,511 @@
+{
+	autofocus_id: "7652B74B3DA4A030"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: "diamond"
+	filename: "travelling"
+	group: "48ABEFC98EDF2F24"
+	icon: {
+		Count: 1
+		id: "minecraft:elytra"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6A22133ACCD43CBA"
+	images: [
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["Dragons"]
+			image: "saintsdragons:item/ignivorus/ignivorus_egg_item"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["Planes"]
+			image: "immersive_aircraft:item/enhanced_propeller"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["Vanilla"]
+			image: "minecraft:item/compass_20"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.1d
+			image: "customtextures:textures/traveling_title.png"
+			rotation: 0.0d
+			width: 6.5d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["This questline is being reworked"]
+			image: "quark:item/hammer"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.859178800295112d
+			y: -2.123452907487412d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			icon_scale: 1.3d
+			id: "6638F870238681DA"
+			rewards: [{
+				id: "62E9863AA78A3BFE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Classic, a Horse."
+			tasks: [{
+				id: "7838003346DB1FA1"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "70E3889C56F1D9AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "629C77174423CC34"
+				table_id: 6113257248652002439L
+				type: "loot"
+			}]
+			subtitle: "A normal rail with faster maximum speed"
+			tasks: [{
+				id: "4687B5BF5D76F7DF"
+				item: "minecraft:rail"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "41540BBB45B52838"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FF5F98A336FD893"
+				table_id: 6113257248652002439L
+				type: "loot"
+			}]
+			subtitle: "Powered with redstone, faster than a normal rail but can't turn or slope"
+			tasks: [{
+				id: "071E2A89C5112615"
+				item: "minecraft:powered_rail"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["Slower, but with two seats. Quite easy to maneuver, with acceptable speed thanks to the engine in the back."]
+			id: "479F5EE637931DF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51B46B1888EFD949"
+				table_id: 5730923208051659087L
+				type: "loot"
+			}]
+			subtitle: "Calm and safe"
+			tasks: [{
+				id: "5223FA949EC2745C"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["An advanced version of the airship, it can carry a large number of items."]
+			id: "55FAE20E07CDC9C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D535F30CAE8C908"
+				table_id: 5730923208051659087L
+				type: "loot"
+			}]
+			subtitle: "Safe and calm and BIG"
+			tasks: [{
+				id: "783C5BB6D0A35A5F"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["Sturdy, has 3 seats, and a bunch of weapon options"]
+			id: "02674AD6B512CA57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C5C826AC27DE8C1"
+				table_id: 5730923208051659087L
+				type: "loot"
+			}]
+			subtitle: "Safe and Harmful"
+			tasks: [{
+				id: "1BB3FF3DB83BA907"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["A masterwork of engineering! Four propellers strapped on a bunch of bamboos. It's quite handy for building."]
+			id: "66DA4E60A9F14084"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BE1D685559CB6F1"
+				table_id: 5730923208051659087L
+				type: "loot"
+			}]
+			subtitle: "Building is way easier!"
+			tasks: [{
+				id: "165B3FA6A3CC1CDF"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["Fast, one seat, medium difficulty. Make sure you have somewhere flat to take off and land on!"]
+			id: "3A643C9F794E6B0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15E4BB29FD6A18F2"
+				table_id: 5730923208051659087L
+				type: "loot"
+			}]
+			subtitle: "Classic plane."
+			tasks: [{
+				id: "28CC36B4CF226782"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "Biplane"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "1AA85B5B81D6332B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6611F07F64FC6BD0"
+				table_id: 5730923208051659087L
+				type: "loot"
+			}]
+			subtitle: "Enchaned biplane"
+			tasks: [{
+				id: "25E8EF1EE23DACB2"
+				item: "man_of_many_planes:scarlet_biplane"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "62CC0AC15AB8074A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "133EBD05233B25BE"
+				table_id: 5730923208051659087L
+				type: "loot"
+			}]
+			subtitle: "Easy to make, not that good."
+			tasks: [{
+				id: "60F69D9897A589B1"
+				item: "man_of_many_planes:economy_plane"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: [
+				"Elytra allows you to float in the sky!"
+				""
+				"With fireworks and some artifacts you can also get a huge speed boost."
+			]
+			icon_scale: 1.3d
+			id: "164AAAAD6433695A"
+			rewards: [{
+				id: "76CCA1961E4B4829"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Never dying legend!"
+			tasks: [{
+				id: "3196A1C9052406E5"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Elytra"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			description: ["Human-powered primitive dual seater. Trusty and easy to maneuver, yet not the fastest. Needs a good initial push to get the rotor spinning."]
+			id: "51AEDA51AC0D8F9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43EF615C9548D8EC"
+				table_id: 5730923208051659087L
+				type: "loot"
+			}]
+			subtitle: "Not the brightest.."
+			tasks: [{
+				id: "07EA7B8F8DAF0E36"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6&nAdvanced Transportation&r"
+				""
+				"Discover new and efficient methods for traversing both land and sea. "
+				""
+				"In addition to upgraded boats and unique mounts, the pack includes functional wagons to help transport large quantities of items over long distances. "
+				""
+				"Check through JEI to view all available transport options and their crafting recipes."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info_gray"
+				}
+			}
+			icon_scale: 1.1d
+			id: "7652B74B3DA4A030"
+			rewards: [{
+				id: "56EC6D6ADC01BBB3"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.45d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "6D0559BF8949654A"
+				title: "Okay!"
+				type: "checkmark"
+			}]
+			title: "Traveling"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "06725E897E67D383"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06FA86F9825CC436"
+				table_id: 6113257248652002439L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "78309C62BA9FEF7D"
+				item: "minecraft:detector_rail"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "5C0B7841994F4FD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AF9FF11981A68DF"
+				table_id: 6113257248652002439L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1742D83B219D2B0F"
+				item: "minecraft:activator_rail"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "1AF7FF905BDC8D68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72E98E3A4F0B317D"
+				table_id: 4313415890908362994L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "saintsdragons:tame_cindervane"
+				criterion: ""
+				id: "33D0A48DBF1343AA"
+				type: "advancement"
+			}]
+			title: "Tame a &eCindervane"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "269585BBE29B786A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "124F9840A41B6F2C"
+				table_id: 4313415890908362994L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "saintsdragons:tame_ignivorus"
+				criterion: ""
+				id: "51A3988AC197A20D"
+				type: "advancement"
+			}]
+			title: "Tame a &eIgnivorus"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "0F5BA6E279F251E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "576879EED7BD8A50"
+				table_id: 4313415890908362994L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "saintsdragons:tame_raevyx"
+				criterion: ""
+				id: "7DDE7F9BB83DC3F8"
+				type: "advancement"
+			}]
+			title: "Tame a &eRaevyx"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "2AD633E0FEDF30E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EA834981E37BDF4"
+				table_id: 4313415890908362994L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "saintsdragons:tame_volitans"
+				criterion: ""
+				id: "73945AE99E1AD899"
+				type: "advancement"
+			}]
+			title: "Tame a &eVolitans"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "083FFE32600A1042"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76E0F873FE5E716F"
+				table_id: 4313415890908362994L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "saintsdragons:tame_varasuchus"
+				criterion: ""
+				id: "794EE5938B938D6F"
+				type: "advancement"
+			}]
+			title: "Tame a &eVarasuchus"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7652B74B3DA4A030"]
+			id: "7B7B146B88EC5E4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64DA9CA8950EA3AE"
+				table_id: 4313415890908362994L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "saintsdragons:tame_stegonaut"
+				criterion: ""
+				id: "77E95748546F399A"
+				type: "advancement"
+			}]
+			title: "Tame a &eStegonaut"
+			x: -0.5d
+			y: 1.0d
+		}
+	]
+	title: "<shadow a=0.4><grad from=#6F6D8B to=#343434>Traveling</grad></shadow>"
+}

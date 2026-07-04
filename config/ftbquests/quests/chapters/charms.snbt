@@ -1,0 +1,3723 @@
+{
+	autofocus_id: "603AD0D7A7B090C9"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "charms"
+	group: "0FD8C2D2A2339C0B"
+	icon: {
+		Count: 1
+		id: "brutality:crypto_wallet_charm"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5D535DA41F58707D"
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			height: 15.0d
+			image: "customtextures:textures/charms.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.5d
+			y: -1.0d
+		}
+	]
+	order_index: 12
+	parent: "44F86CB070F12FF2"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Enderman Reflexes"]
+			id: "1F5F30455939F06B"
+			rewards: [{
+				id: "7EF5EF733ADD7BF7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "1C872D87C315B53A"
+				item: "artifacts:chorus_totem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: ["5 More Whole Hearts!"]
+			id: "4A3C5717746218E7"
+			rewards: [{
+				id: "1473184E75A30EBF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "742B4392D1F1FEF0"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Immunity to poison."]
+			id: "59C88EE89D62E8E1"
+			rewards: [{
+				id: "1097FADF9A81067B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "0CF578D19BE3CB99"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			description: ["Pulls items towards you"]
+			id: "78946398D868A225"
+			rewards: [{
+				id: "39AE03E8686577B2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "7E1BC646F453AF6A"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			description: ["Fire immunity! for abit."]
+			id: "218B9386686DB056"
+			rewards: [{
+				id: "142162B3E6E83BE8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "6569DEEED321404D"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: ["Double Jump! (dont use it with whoopie cushion)"]
+			id: "21CC66F9A1AC4EEE"
+			rewards: [{
+				id: "50688A55FFA53987"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "6A9AF2E175F62F4B"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: ["Teleport somewhere randomly "]
+			id: "117B73D60929B15D"
+			rewards: [{
+				id: "48BDC9186BA01EBB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Hands"
+			tasks: [{
+				id: "69551036C2DC1A9F"
+				item: {
+					Count: 1
+					id: "relics:chorus_inhibitor"
+					tag: {
+						Damage: 0
+						abilities: {
+							blink: {
+								points: 0
+								stats: {
+									cooldown: 8.275d
+									distance: 16.327d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			description: ["Increases healing."]
+			id: "714C6BF539439E24"
+			rewards: [{
+				id: "1343292AC4BBDD35"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Belt, Charm"
+			tasks: [{
+				id: "10491D2E114642FC"
+				item: {
+					Count: 1
+					id: "morerelics:axolotl_cream"
+					tag: {
+						abilities: {
+							mend_moisturize: {
+								points: 0
+								stats: {
+									multip: 0.6451d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: ["Going under a negative, harmful effect makes you really mad."]
+			id: "10641588F824EB2A"
+			rewards: [{
+				id: "0783F8247D65E6F6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "0DA6045D818D2609"
+				item: {
+					Count: 1
+					id: "morerelics:guts_orb"
+					tag: {
+						abilities: {
+							guts: {
+								points: 0
+								stats: {
+									damage_perchantage: 0.27111d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Whenever you get hit, this relic rolls a dice, reducing the damage. "
+				""
+				"Basically gambling for your life."
+			]
+			id: "1F91C3319010ECA4"
+			rewards: [{
+				id: "4C73A4C361A5BDAC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "2B9573083DB04C0B"
+				item: {
+					Count: 1
+					id: "morerelics:whims_of_fate"
+					tag: {
+						abilities: {
+							just_one_more: {
+								points: 0
+								stats: {
+									damage_reduction_per: 0.53751d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Explosions does not harm you, instead they stack to about 4 times."
+				""
+				"Using these stacked explosions can be discharged to deal damage."
+				""
+				"Killing an enemy might cause cyberpsychosis. (David martinez?)"
+			]
+			id: "751BF321DBA0A446"
+			rewards: [{
+				id: "7B9832401729427C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "7AEDDBD74589AD29"
+				item: {
+					Count: 1
+					id: "morerelics:thermoseismic_heart"
+					tag: {
+						abilities: {
+							cyberpsychosis: {
+								points: 0
+								stats: {
+									chance: 3.87347d
+									duration: 4.69961d
+								}
+							}
+							pyromania: {
+								points: 0
+								stats: {
+									duration: 25.41736d
+								}
+							}
+							thermal_discharge: {
+								points: 0
+								stats: {
+									damage: 3.67446d
+									radius: 1.94836d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "668783878F6336B6"
+			rewards: [{
+				id: "1DE05F36B9BA4C91"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "6456057CE627B9A5"
+				item: "uniqueaccessories:golden_egg_charm"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "6BAB597775941F70"
+			rewards: [{
+				id: "3B811D26B8625F9A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "0B4B8446D97B75B8"
+				item: "uniqueaccessories:royal_honeycomb"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "16B677051B5847DF"
+			rewards: [{
+				id: "65856DAA038C4872"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "1CB05DFA83292FDA"
+				item: "uniqueaccessories:soul_gem"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "3ED0E009F1659DFA"
+			rewards: [{
+				id: "6A1D83F9703E575E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "3F85DD7C58FDE934"
+				item: "uniqueaccessories:devils_eyeball"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "5C0D32265B82981D"
+			rewards: [{
+				id: "3E62500CA01D04C8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "075CEDCE3617E832"
+				item: "uniqueaccessories:tabi"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "669418DCF92AF6F0"
+			rewards: [{
+				id: "7C6ACE0EBF61784F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "77A29EDAAAEA005D"
+				item: "uniqueaccessories:magick_quiver"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Just Shift to see item attributes!"
+				""
+				""
+				"&8My attacks have no effect on you? "
+				""
+				"&8Who decided that."
+			]
+			id: "72E05F135D0F166F"
+			rewards: [{
+				id: "462D9DFF34148359"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "592A329BD5271F03"
+				item: "uniqueaccessories:sun_stone"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "0FC9C28D154594A6"
+			rewards: [{
+				id: "25E8DFD6E8431413"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "6B3409F414602B29"
+				item: "uniqueaccessories:moon_stone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "411AD6F0A8EBE80B"
+			rewards: [{
+				id: "59C85DB0A832209A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamondtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "3A28B14B09A8CF38"
+				item: "uniqueaccessories:shiny_stone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "602470F00CD15966"
+			rewards: [{
+				id: "13B6E855A6623CCA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "54710BCBFDC9B04E"
+				item: "uniqueaccessories:strong_sticky_slime_ball"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "7EBEF44B757B8F1B"
+			rewards: [{
+				id: "1A1691470622C4DD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "612F78EEF16646EC"
+				item: "uniqueaccessories:starved_wolf_skull"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "3F66E804B0C500BA"
+			rewards: [{
+				id: "1521286CC189DE98"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "5981487FF392C0DC"
+				item: "uniqueaccessories:withered_heart"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "7FD1687ABB0313DC"
+			rewards: [{
+				id: "6BEBC2B4F83A685C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamondtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "0F6F633BDD0EA624"
+				item: "uniqueaccessories:small_propulsion_device"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "0801AECE5BDDFA28"
+			rewards: [{
+				id: "050782EF4878F856"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "230F2AA8683A93A6"
+				item: "uniqueaccessories:supreme_meat"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "64272F515A990FE0"
+			rewards: [{
+				id: "71CB12FD3A30F222"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "1ECEA6AE4C17F1B1"
+				item: "uniqueaccessories:amplifier_stone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "3B637B046B40B4C7"
+			rewards: [{
+				id: "25B32B7D9DE929F8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "536DCF177EA89654"
+				item: "uniqueaccessories:fossil_shark_tooth"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "1A01EBE16AD3330F"
+			rewards: [{
+				id: "2705FD4DCEB83CAB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "47C07B65F27FBD3F"
+				item: "uniqueaccessories:sharp_fishing_hook"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "16CA68FB5AEF4AAC"
+			rewards: [{
+				id: "0AC1698F7360EB72"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "0CACAA8271965AC3"
+				item: "uniqueaccessories:ancient_chisel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "3CD7AECA30D36FB0"
+			rewards: [{
+				id: "357603C227A0C848"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "0580B762A8DF8005"
+				item: "uniqueaccessories:cursed_doll_head"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "519E8D06080E99D4"
+			rewards: [{
+				id: "0173411881C86A31"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "6CBC41D10AC6267A"
+				item: "uniqueaccessories:snow_golem_doll"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "3660BCAF8906D22F"
+			rewards: [{
+				id: "441F2E628A2F1858"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "123573CF280D6100"
+				item: "uniqueaccessories:hero_emblem"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "3B9C470E28F5A15E"
+			rewards: [{
+				id: "642D49262CF31C2D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "776C356FFA12F620"
+				item: "uniqueaccessories:burning_soul"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "3F1923B577220A22"
+			rewards: [{
+				id: "1B8F97756D503DB9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Charm"
+			tasks: [{
+				id: "7B2BAF72AEA44FAA"
+				item: "uniqueaccessories:all_purpose_seasoning"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			id: "79531888D5A65418"
+			rewards: [{
+				id: "437C9D9CF74A0FBE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "4DEE61E9CA8A54B9"
+				item: {
+					Count: 1
+					id: "morerelics:weavers_spool"
+					tag: {
+						abilities: {
+							bind: {
+								points: 0
+								stats: {
+									healing_amount: 3.56463d
+								}
+							}
+							soar: {
+								points: 0
+								stats: {
+									leap_power: 1.12925d
+									speed_duration: 9.48941d
+								}
+							}
+							unravel: {
+								points: 0
+								stats: {
+									damage: 4.10027d
+									slow_duration: 2.72924d
+								}
+							}
+							weaver: {
+								points: 0
+								stats: {
+									passive_regen_time: 5.28553d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			id: "722C6DE6E8390FEE"
+			rewards: [{
+				id: "384E90C5DF35A29A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "55404C35C3075E70"
+				item: "morerelics:depleted_spool"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			id: "35916F5345D71F6C"
+			rewards: [{
+				id: "7A8A2FD37E663450"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "4DF3888D993C0C99"
+				item: {
+					Count: 1
+					id: "brutality:pepper_shaker_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			id: "6A3A65133EB264D2"
+			rewards: [{
+				id: "5C80CF8F56E26600"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "051E594128E28165"
+				item: {
+					Count: 1
+					id: "brutality:salt_shaker_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			id: "741037A7F2FAF2C3"
+			rewards: [{
+				id: "36452B0C34FE0AC5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "293837F89E2E47A5"
+				item: {
+					Count: 1
+					id: "brutality:smoke_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			id: "5090FFAB5A1421CA"
+			rewards: [{
+				id: "0F4BD750C9FC6176"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "4600D0166D4B75C3"
+				item: {
+					Count: 1
+					id: "brutality:the_smokehouse"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			id: "612C7F18A5987A24"
+			rewards: [{
+				id: "79639FF048D882D8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "0B7F0AF28B3C3E1C"
+				item: {
+					Count: 1
+					id: "brutality:bamboo_steamer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			id: "30923636D6DA165E"
+			rewards: [{
+				id: "64E48910542450A2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "22013CA598CEDC14"
+				item: {
+					Count: 1
+					id: "brutality:sugar_glaze"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			id: "332A65A52CDB081A"
+			rewards: [{
+				id: "1BA276F95BA0E761"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "53C24FA19AC49619"
+				item: {
+					Count: 1
+					id: "brutality:rainbow_sprinkles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			id: "411AEB13801B6137"
+			rewards: [{
+				id: "4EECC71DD9437EB5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "18B7476BCED7D89C"
+				item: {
+					Count: 1
+					id: "brutality:rock_candy_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			id: "1BE2085634321612"
+			rewards: [{
+				id: "6391432E2DE8011B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "49D711678700CD07"
+				item: {
+					Count: 1
+					id: "brutality:seared_sugar_brooch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			id: "20C7941F6E27781F"
+			rewards: [{
+				id: "61FB2A9D9A29BDB7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "4AD9056EABEFF0D2"
+				item: {
+					Count: 1
+					id: "brutality:dunked_donut"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			id: "766E01B76C2AFF71"
+			rewards: [{
+				id: "394A09E8BD368443"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "43116937614CBDCC"
+				item: {
+					Count: 1
+					id: "brutality:lollipop_of_eternity"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "7903E282C4127E50"
+			rewards: [{
+				id: "04DE36E3D576DA62"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "188F1E77202CB25A"
+				item: {
+					Count: 1
+					id: "brutality:mortar_and_pestle_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "7D0C34D25B3842CC"
+			rewards: [{
+				id: "0AD89195444DF8F1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "28ABEEA0AE635427"
+				item: {
+					Count: 1
+					id: "brutality:tomato_sauce_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "35D5E58DB5FAD635"
+			rewards: [{
+				id: "6479AC84EA3215FB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "1C1229E332C158E6"
+				item: {
+					Count: 1
+					id: "brutality:cheese_sauce_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "1216A7ADCC5F7449"
+			rewards: [{
+				id: "14B0CD2C6C4C26EE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "69DA3205A6E192F3"
+				item: {
+					Count: 1
+					id: "brutality:pizza_slop_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			id: "0724E583FAB2DF1F"
+			rewards: [{
+				id: "6F6F1ECCB4E78D5E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "24ED93E24D538787"
+				item: {
+					Count: 1
+					id: "brutality:hot_sauce_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "2966A2382972E6F1"
+			rewards: [{
+				id: "716D95C2A003EC0F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "126792F2DFF1C79B"
+				item: {
+					Count: 1
+					id: "brutality:olive_oil_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "0B5074BC626DEF14"
+			rewards: [{
+				id: "41D8BBA8956C0460"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "52720355CC01784C"
+				item: {
+					Count: 1
+					id: "brutality:extra_virgin_olive_oil_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "60B55B418E775600"
+			rewards: [{
+				id: "78BC64D29318BD4A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "075933B54C236601"
+				item: {
+					Count: 1
+					id: "brutality:fridge_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			id: "07B85EB5037F8FCC"
+			rewards: [{
+				id: "2BFB72BD3AC8BE08"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "1B9D59CEAB409597"
+				item: {
+					Count: 1
+					id: "brutality:smart_fridge_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			id: "0B31E458CEAEC6A6"
+			rewards: [{
+				id: "7FC876F608F3EF77"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "52562927DB2FA973"
+				item: {
+					Count: 1
+					id: "brutality:suspicious_slot_machine"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			id: "1E0E4D6C260A516D"
+			rewards: [{
+				id: "259BC86B4362FAEE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm / Needs Calculator"
+			tasks: [{
+				id: "7FD59638D3244D76"
+				item: {
+					Count: 1
+					id: "brutality:pi_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			id: "73D71078F270C02F"
+			rewards: [{
+				id: "46E24EDB12509697"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm / Needs Calculator"
+			tasks: [{
+				id: "248C85B070AEDA75"
+				item: {
+					Count: 1
+					id: "brutality:exponential_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			id: "49C69AE279C2E49C"
+			rewards: [{
+				id: "42BF9C1C0BAE1CFE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm / Needs Calculator"
+			tasks: [{
+				id: "384BF11898317899"
+				item: {
+					Count: 1
+					id: "brutality:addition_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "237C65A437EF5CE2"
+			rewards: [{
+				id: "1C2AAA9159257A67"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm / Needs Calculator"
+			tasks: [{
+				id: "029788AB2721E8F1"
+				item: {
+					Count: 1
+					id: "brutality:subtraction_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "22956F6809EE8ADB"
+			rewards: [{
+				id: "7BE298B4FFC3104E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm / Needs Calculator"
+			tasks: [{
+				id: "52BA22881895E513"
+				item: {
+					Count: 1
+					id: "brutality:multiplication_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			id: "56ECD8EE11A79184"
+			rewards: [{
+				id: "6C7DC1C295BB0092"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm / Needs Calculator"
+			tasks: [{
+				id: "6BC1CC2B87A4AA96"
+				item: {
+					Count: 1
+					id: "brutality:division_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			id: "27EBE58D827A8B4B"
+			rewards: [{
+				id: "09E5C00FFBA2899A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm / Needs Calculator"
+			tasks: [{
+				id: "05CCD3819477E7F5"
+				item: {
+					Count: 1
+					id: "brutality:sum_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			id: "4466C7DBC39AD0D8"
+			rewards: [{
+				id: "648B9FDEBFBE7DD9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm / Needs Calculator"
+			tasks: [{
+				id: "0B9422066F708F4B"
+				item: {
+					Count: 1
+					id: "brutality:sine_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			id: "521CDED7ED2E8CC5"
+			rewards: [{
+				id: "7B0D2941CFFE84F8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm / Needs Calculator"
+			tasks: [{
+				id: "7C958D382F9CBFF9"
+				item: {
+					Count: 1
+					id: "brutality:cosine_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			id: "39DD11C3A907358F"
+			rewards: [{
+				id: "51D76DE51B938ECC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "595F3AE60633D320"
+				item: {
+					Count: 1
+					id: "brutality:carton_of_prism_solution_milk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "603AD0D7A7B090C9"
+			rewards: [{
+				id: "00337FA37A4ACD73"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "20FE9EF2FF59F0F6"
+				item: {
+					Count: 1
+					id: "brutality:light_switch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "57710285A3289C61"
+			rewards: [{
+				id: "03B131B3B9B48188"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "6928DB8DDCBAF369"
+				item: {
+					Count: 1
+					id: "brutality:divine_immolation"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "2CC97F201F9E9231"
+			rewards: [{
+				id: "417512968E7E1381"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "78E6E550E0F353D2"
+				item: {
+					Count: 1
+					id: "brutality:crypto_wallet_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "16EE07E6283480E4"
+			rewards: [{
+				id: "692B8C0A08B1EBF9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "7BB45EDC60DB2366"
+				item: {
+					Count: 1
+					id: "brutality:portable_mining_rig_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			id: "100CE5EDC7B3444A"
+			rewards: [{
+				id: "0B2A7E65B9D4B546"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "11740DF5DBC32933"
+				item: {
+					Count: 1
+					id: "brutality:escape_key"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "136DBD78EED756AC"
+			rewards: [{
+				id: "696310A7E0CA2F16"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "46D7432BA6616490"
+				item: {
+					Count: 1
+					id: "brutality:miracle_cure"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "3FF1554A2EA458FE"
+			rewards: [{
+				id: "157858F6DCF6D433"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "5C0EE52E044142DF"
+				item: {
+					Count: 1
+					id: "brutality:essential_oils"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			id: "7502261977969ECA"
+			rewards: [{
+				id: "4D9A622009ACA263"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "6CF30B39634122D0"
+				item: {
+					Count: 1
+					id: "brutality:celestial_starboard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			id: "000989F5ECB044C6"
+			rewards: [{
+				id: "0A670DCD07E223AF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "6277C7C315C3BE6A"
+				item: {
+					Count: 1
+					id: "brutality:resplendent_feather_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "3014DBDE5DB4DBBE"
+			rewards: [{
+				id: "1BA664FEB6F74058"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "5676CF5C80CC0B03"
+				item: {
+					Count: 1
+					id: "brutality:portable_quantum_thingamabob"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "3DE0E41C7187E27C"
+			rewards: [{
+				id: "5924CAE1304AE48B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "0C11BB79EA05632A"
+				item: {
+					Count: 1
+					id: "brutality:lucky_insoles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			id: "22DB89C642DB7584"
+			rewards: [{
+				id: "355B003A17DB002E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "709521D627301E99"
+				item: {
+					Count: 1
+					id: "brutality:old_guillotine"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			id: "19B3AB35C956F0C0"
+			rewards: [{
+				id: "3E8AC957A189CE86"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "008F7D95D5774D6E"
+				item: {
+					Count: 1
+					id: "brutality:daemonium_sewing_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "2A4BCAD8EF604FD4"
+			rewards: [{
+				id: "654867F33BA98A60"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "30FE3603C8D263BC"
+				item: {
+					Count: 1
+					id: "brutality:deck_of_cards"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			id: "10F141C79FC4D753"
+			rewards: [{
+				id: "01147FAD45350C45"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "080F1926B1376583"
+				item: {
+					Count: 1
+					id: "brutality:mana_syringe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			id: "7C1808007DA1F31F"
+			rewards: [{
+				id: "52EA3587E357231F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "06A2096828FDFECB"
+				item: {
+					Count: 1
+					id: "brutality:soul_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			id: "7650C5A3EF4D8582"
+			rewards: [{
+				id: "2611608A8178F672"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "3154D06982DC85A4"
+				item: {
+					Count: 1
+					id: "brutality:the_clock_of_frozen_time"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "2E301BEE9D3501F8"
+			rewards: [{
+				id: "5DAEEE346D079371"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "25388971683887BF"
+				item: {
+					Count: 1
+					id: "brutality:timekeepers_clock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "5F0E575C946E8689"
+			rewards: [{
+				id: "144AA05F91B794F8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "118923DA7F1B8900"
+				item: {
+					Count: 1
+					id: "brutality:sundered_clock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "73EDFCEA095F12D5"
+			rewards: [{
+				id: "0BAE9AD9467F236B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "2708C9AC3DA1F9C9"
+				item: {
+					Count: 1
+					id: "brutality:shattered_clock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			id: "3E4B3208A0CB6611"
+			rewards: [{
+				id: "60AFA17FFE3ED98B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "024070AED1FCC8E0"
+				item: {
+					Count: 1
+					id: "brutality:broken_clock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "2ABCA7BD7D31B5C8"
+			rewards: [{
+				id: "258BCE316755CEB8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "268A1DEE5E6417E2"
+				item: {
+					Count: 1
+					id: "brutality:blood_orb"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "647958FD8FC47179"
+			rewards: [{
+				id: "2A4758C9B653B300"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "1E6A89674F721D74"
+				item: {
+					Count: 1
+					id: "brutality:forbidden_orb"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "372A447C31071E43"
+			rewards: [{
+				id: "3CB2B0C36B66DFCF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "010E4BCC4E464C3C"
+				item: {
+					Count: 1
+					id: "brutality:black_hole_orb"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			id: "414AB7CBF9CD5482"
+			rewards: [{
+				id: "4F585942EA7E4E4E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "775ABC0BC2C76B08"
+				item: {
+					Count: 1
+					id: "brutality:scribes_index"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			id: "6B9CAFD8A045C1F6"
+			rewards: [{
+				id: "7F056183D7C86758"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "0A6CF2B1B8159BE1"
+				item: {
+					Count: 1
+					id: "brutality:onyx_idol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "368607AB72F76E19"
+			rewards: [{
+				id: "453719F947839252"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "676A28B99938B1F3"
+				item: {
+					Count: 1
+					id: "brutality:echo_chamber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "0B0CD64A90061BA9"
+			rewards: [{
+				id: "694512BBCE66C72F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "0D4FE361A70AA70A"
+				item: {
+					Count: 1
+					id: "brutality:conservative_concoction"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "068133B13388E8AF"
+			rewards: [{
+				id: "65519D857EAF0184"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "478958AE784EBE5C"
+				item: {
+					Count: 1
+					id: "brutality:pincushion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "496CD07C28143CD7"
+			rewards: [{
+				id: "28E605C9C003A43C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "126CD9B8050C8861"
+				item: {
+					Count: 1
+					id: "brutality:soldiers_syringe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			id: "1B81DAE6C89C6BB5"
+			rewards: [{
+				id: "6C621FF53229255F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "3D0F6FED16DFE7CD"
+				item: {
+					Count: 1
+					id: "brutality:energy_focuser"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			id: "16159178BC65A837"
+			rewards: [{
+				id: "48A92AC4D11F14C3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "2DCB736A97A3CB99"
+				item: {
+					Count: 1
+					id: "brutality:deadshot_brooch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			id: "43285987E8EA0EE7"
+			rewards: [{
+				id: "1478904D49457B60"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "2DF67A1F738088B7"
+				item: {
+					Count: 1
+					id: "brutality:vindicator_steroids"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			id: "405D8AE97F240AE1"
+			rewards: [{
+				id: "39D0F30C85F57D4A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "0BC9E32121340605"
+				item: {
+					Count: 1
+					id: "brutality:gluttony"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			id: "07E6AA591726680E"
+			rewards: [{
+				id: "6366251FB08B32F8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "217F8D32010701EF"
+				item: {
+					Count: 1
+					id: "brutality:lust"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "71D5E4D6484E911B"
+			rewards: [{
+				id: "3B35F7D2BC344A9F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "5F945F83F43BEECB"
+				item: {
+					Count: 1
+					id: "brutality:envy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "7136AB7D14916562"
+			rewards: [{
+				id: "74D4639B234FDDD9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "23BA04DFBA280FEC"
+				item: {
+					Count: 1
+					id: "brutality:diamond_booster_pack"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "5F7FC864B23A252A"
+			rewards: [{
+				id: "607DF79BBCA32B05"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "3BAF02CC67F7CE86"
+				item: {
+					Count: 1
+					id: "brutality:evil_king_booster_pack"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			id: "0FE794F5597389B5"
+			rewards: [{
+				id: "13C0C4E9832C537C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "7588C86FAE523DE7"
+				item: {
+					Count: 1
+					id: "brutality:silver_respawn_card"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			id: "342D4B81AF925BCA"
+			rewards: [{
+				id: "365F9EBBE7ED64AC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "101F72516C65B1C9"
+				item: {
+					Count: 1
+					id: "brutality:diamond_respawn_card"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			id: "0F1ADDFBD2FEAD12"
+			rewards: [{
+				id: "1F701D076BBB334A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "7D6A00DBA55C41C7"
+				item: {
+					Count: 1
+					id: "brutality:evil_king_respawn_card"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			id: "06D66728FA32DECB"
+			rewards: [{
+				id: "05317058F40DCEFF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "448D5B6C5CE38663"
+				item: {
+					Count: 1
+					id: "brutality:yata_no_kagami"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			id: "708501249850FE63"
+			rewards: [{
+				id: "0C9F306ED419BBC1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "74B45F9E7622AA9F"
+				item: {
+					Count: 1
+					id: "brutality:greed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			id: "532E8F29B3F382C4"
+			rewards: [{
+				id: "0A356D37DC552E6E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "1F3B7246A15FAE73"
+				item: {
+					Count: 1
+					id: "brutality:pride"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			id: "7728CC7A51E14C59"
+			rewards: [{
+				id: "240A95CC3764D4F2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "20574EBF68643166"
+				item: {
+					Count: 1
+					id: "brutality:sloth"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			id: "25A675E1D56AEC07"
+			rewards: [{
+				id: "76BD69B3D222ADBB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "40A9F0CC146E3B97"
+				item: {
+					Count: 1
+					id: "brutality:wire_cutters"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			id: "0C97557BBDA45406"
+			rewards: [{
+				id: "2B084C96D00F7B02"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "4445849FF6971F89"
+				item: {
+					Count: 1
+					id: "brutality:silver_booster_pack"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:vanishing_curse"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "21739A53F2C2090E"
+			rewards: [{
+				id: "4FB984AD18CB334A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "2537FA6B63EC6482"
+				item: {
+					Count: 1
+					id: "brutality:blood_chalice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			id: "363F2716842EC020"
+			rewards: [{
+				id: "0D122A66EFD39C7B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "5C840DB314BD0E75"
+				item: {
+					Count: 1
+					id: "brutality:self_repair_nexus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			id: "62B2C6E3AD406FCA"
+			rewards: [{
+				id: "2B51E55580DA36C5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "4CF38C1B3AA4FBFA"
+				item: {
+					Count: 1
+					id: "brutality:hemograft_needle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			id: "30732AB4B19E58F0"
+			rewards: [{
+				id: "761E2B9B5C199BB4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "7EC273BE2ED5152E"
+				item: {
+					Count: 1
+					id: "brutality:bloodstained_mirror"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			id: "6E66CA539A22EB65"
+			rewards: [{
+				id: "641617F39DBB5424"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "54D024297E7CFAC3"
+				item: {
+					Count: 1
+					id: "brutality:blood_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "77652A088831899D"
+			rewards: [{
+				id: "1DAB6CFC2952F3E5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "2786200DAD95D8D2"
+				item: {
+					Count: 1
+					id: "brutality:rage_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "0AE5C612C1B684BF"
+			rewards: [{
+				id: "18A57BC4565F62A2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "4F7C6E161C5A200C"
+				item: {
+					Count: 1
+					id: "brutality:blood_pack"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "3EC58DF33913E56A"
+			rewards: [{
+				id: "30F380F3F20D5AED"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "365C60376529942E"
+				item: {
+					Count: 1
+					id: "brutality:incognito_mode"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			id: "46556ACF70E1455D"
+			rewards: [{
+				id: "4AEA33CE9B38B585"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "37523FA965FF8C01"
+				item: {
+					Count: 1
+					id: "brutality:paper_airplane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			id: "74734AD82ECFEF8B"
+			rewards: [{
+				id: "61DA5E6BCD3BCE10"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "51ED6D7A1216C960"
+				item: {
+					Count: 1
+					id: "brutality:emergency_meeting"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			id: "69422FBC0D9D7A3D"
+			rewards: [{
+				id: "212DF6A15FF32A6A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "3F8D978AF782B733"
+				item: {
+					Count: 1
+					id: "brutality:pencil_sharpener"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "710FA6DF8981793E"
+			rewards: [{
+				id: "40AF9B32CD150825"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "6D53BF9EBA3A5A04"
+				item: {
+					Count: 1
+					id: "brutality:chocolate_bar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			id: "5E0CBBA65D7230D5"
+			rewards: [{
+				id: "3A8FECE305D72C41"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "7B7AEFD996CBC1C0"
+				item: {
+					Count: 1
+					id: "brutality:vampiric_talisman"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			id: "44CF2438F46A7205"
+			rewards: [{
+				id: "25A702745FD9E70F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "2724818E3276A1E9"
+				item: "uniqueaccessories:still_beating_heart"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			id: "5DF8FCE8086A3836"
+			rewards: [{
+				id: "52D4B81F54012937"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "1204095F4CF851C1"
+				item: "uniqueaccessories:bloody_knife"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			id: "3F2637C4FDA71867"
+			rewards: [{
+				id: "23FED72FF6A0472C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "44208C2C21D5C37D"
+				item: "uniqueaccessories:rose_of_temptation"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			id: "538BD6A9CFDEB300"
+			rewards: [{
+				id: "39E118AEC7FD9B33"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "460265FDAEC6D3FB"
+				item: "uniqueaccessories:rusty_guillotine_blade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			id: "423DA831B5374B4C"
+			rewards: [{
+				id: "4ACDA7F1724F8705"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "6DEE134D88FAC6B8"
+				item: "uniqueaccessories:power_crystal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			id: "47832268A4C599AF"
+			rewards: [{
+				id: "3527B8D9955FF4AF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "5B305208D868E6B2"
+				item: {
+					Count: 1
+					id: "brutality:profanum_reactor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			id: "28972F3AB730DC97"
+			rewards: [{
+				id: "2CC41985CAFD6322"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "09C1BFB1B2E29226"
+				item: {
+					Count: 1
+					id: "brutality:hyperbolic_feather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			id: "1B2506D3BD8EF894"
+			rewards: [{
+				id: "4C5870EDE82CAC22"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "0DE917D00DEE623F"
+				item: {
+					Count: 1
+					id: "brutality:salt_and_pepper_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			id: "302ED4ADF76A7DC0"
+			rewards: [{
+				id: "0A658CDCB83833CA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "2E6579D4A70CBD98"
+				item: {
+					Count: 1
+					id: "brutality:daemonium_whetstone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			id: "1740CE383B0A6687"
+			rewards: [{
+				id: "68B5D3E7B217E86F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "2D86B621606DA7CB"
+				item: {
+					Count: 1
+					id: "brutality:target_cube"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			id: "36893EEB72E2643E"
+			rewards: [{
+				id: "27F97168197332D7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Charm"
+			tasks: [{
+				id: "049864F909857DA4"
+				item: {
+					Count: 1
+					id: "brutality:emergency_flask"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			id: "3D2217A128B19D18"
+			rewards: [{
+				id: "3AA88926E66AC088"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "58146B48C2D04556"
+				item: "uniqueaccessories:ender_lens"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			id: "10CB9AAA4A021874"
+			tasks: [{
+				id: "466F7EA66CD06667"
+				item: "expertcurios:ignitium_heirloom"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			id: "328AEE6DE248CA38"
+			tasks: [{
+				id: "7F9D7F7CBA62D0F7"
+				item: "expertcurios:gills_of_the_void"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			id: "08914D86E36045BF"
+			tasks: [{
+				id: "2FEB64DFD23393D5"
+				item: "expertcurios:terra_chi_necklace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			id: "69BDE05CE5FD9F78"
+			tasks: [{
+				id: "17F2ACF70414811B"
+				item: "expertcurios:ferrous_plating"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			id: "2937E33E9D078030"
+			tasks: [{
+				id: "6C270E643AEAB3DD"
+				item: "expertcurios:bonsai_buddy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			id: "3DC8F4C13AA28958"
+			tasks: [{
+				id: "6B3633F6E8BA991B"
+				item: "expertcurios:withered_cage"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			id: "2E8C2B53BB955155"
+			tasks: [{
+				id: "2E2DB3D2ED2B1FD3"
+				item: "expertcurios:swamp_mine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			id: "42E3A0243FE23134"
+			tasks: [{
+				id: "515F80E1626FF04F"
+				item: {
+					Count: 1
+					id: "oddaccessories:unconditional_love"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			id: "09480C12E5CB880B"
+			tasks: [{
+				id: "359691899915463D"
+				item: "oddaccessories:innocence"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			id: "4EDE2A6D72B60DF0"
+			tasks: [{
+				id: "375554DF126D595F"
+				item: "oddaccessories:heartfelt_confession"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			id: "4A7C9E4342B2C647"
+			tasks: [{
+				id: "50CF202B5002297F"
+				item: "oddaccessories:pork_effigy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			id: "256AD7B022C3F60C"
+			tasks: [{
+				id: "07D7DFE9DFB9099B"
+				item: "oddaccessories:pelmen"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			id: "2484FBC6BA786801"
+			tasks: [{
+				id: "410BE3C8C801E30B"
+				item: "oddaccessories:secondhand_gas_mask"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			id: "1AB534755AFEDD01"
+			tasks: [{
+				id: "3EF73CFB5ABE7F77"
+				item: "oddaccessories:old_sock"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			id: "45C888FFC487C646"
+			tasks: [{
+				id: "20A81032A49623A7"
+				item: "oddaccessories:universal_attractor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			id: "26982FBD2B8EFC7A"
+			tasks: [{
+				id: "2B894DD1D2EC2BA4"
+				item: "oddaccessories:oversized_magnet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			id: "3465F6671A2D2710"
+			tasks: [{
+				id: "711C2956BD2074FB"
+				item: "oddaccessories:pungent_flower"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			id: "1991DDC99B87D454"
+			tasks: [{
+				id: "2762BDF7662167CA"
+				item: "oddaccessories:cruel_fate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			id: "42997AB8AE4F5432"
+			tasks: [{
+				id: "7730B585B3BF3464"
+				item: "oddaccessories:poop"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			id: "3337CD79FFEEBD18"
+			tasks: [{
+				id: "4E1B653116887B13"
+				item: "oddaccessories:emergency_parachute"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			id: "33338433ECE55561"
+			tasks: [{
+				id: "4C1C65453A7E73CE"
+				item: "oddaccessories:tattered_belt"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			id: "751ACEE136488A74"
+			tasks: [{
+				id: "07FA36D3DB8A8C19"
+				item: "oddaccessories:portable_tv"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			id: "506940FC6A9E0219"
+			tasks: [{
+				id: "5CDA9EEEECD2318B"
+				item: "oddaccessories:anomalous_mirror"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			id: "57CD9A3BF5C7B445"
+			tasks: [{
+				id: "02033CB3256C00A0"
+				item: "oddaccessories:old_cross"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			id: "21E1B130025BB04A"
+			tasks: [{
+				id: "0C05077B91B0DE1B"
+				item: "oddaccessories:tick"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			id: "27ABF3E0C4FA639E"
+			tasks: [{
+				id: "6C1D6E2E4B567E0E"
+				item: {
+					Count: 1
+					id: "oddaccessories:guts"
+					tag: {
+						display: {
+							Name: "{\"text\":\"§eGuts §9§9(-1.0%)\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			id: "00816FD2FBBE08AD"
+			tasks: [{
+				id: "4CC91BAC0EA70785"
+				item: "oddaccessories:fiberglass_cloak"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			id: "6D60449FC06C8484"
+			tasks: [{
+				id: "282FCB98D115B02D"
+				item: "oddaccessories:armored_knight_doll"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			id: "5AEC881F855F3924"
+			tasks: [{
+				id: "0C3C43D8F59056FB"
+				item: {
+					Count: 1
+					id: "oddaccessories:clay_vessel"
+					tag: {
+						display: {
+							Name: "{\"text\":\"§fClay Vessel §7(0)\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			id: "6AF082D747A716A1"
+			tasks: [{
+				id: "503810A5B6AFDE00"
+				item: "oddaccessories:oxygen_rock"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			id: "5B0E513F52B24E27"
+			tasks: [{
+				id: "786FD7D1DB016CCC"
+				item: "oddaccessories:sifting_jar"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			id: "6388C152396F8DD5"
+			tasks: [{
+				id: "088DC9971876F077"
+				item: "oddaccessories:hourglass"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			id: "49BBC126CB3ADB79"
+			tasks: [{
+				id: "51BF0086B8478638"
+				item: "oddaccessories:harmony"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			id: "13D3C31BDF795D14"
+			tasks: [{
+				id: "668AC06A09302005"
+				item: "oddaccessories:malice"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			id: "69E1C1FBDD5F2630"
+			tasks: [{
+				id: "580CDEBE125AB43C"
+				item: "oddaccessories:shattered_tablet"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			id: "68C471A12E9017B1"
+			tasks: [{
+				id: "31FA992D0D75116C"
+				item: "oddaccessories:enlightening_tablet"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			id: "001A3BF1844712FD"
+			tasks: [{
+				id: "6239A0B7CC366A1A"
+				item: {
+					Count: 1
+					id: "oddaccessories:malicious_tablet"
+					tag: {
+						display: {
+							Name: "{\"text\":\"§eMalicious Tablet §c§c(+0.1%)\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			id: "2449E974CDB65CCA"
+			tasks: [{
+				id: "0AE0922FE89553F4"
+				item: "oddaccessories:clean_tablet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			id: "63091B07AB6C2B7F"
+			tasks: [{
+				id: "47B513069E82BDDA"
+				item: "oddaccessories:flaying_tool"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			id: "1C9E098CF6317ED1"
+			tasks: [{
+				id: "70EBCC1A4DF1958E"
+				item: "oddaccessories:collectible_meal_toy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 12.0d
+		}
+		{
+			id: "67B8C43E5CFEAA2F"
+			tasks: [{
+				id: "30D6DF3565FB63CA"
+				item: "oddaccessories:regret_of_a_salaryman"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			id: "0C100BBEB96FE306"
+			tasks: [{
+				id: "15120FBFD806C29B"
+				item: "oddaccessories:wrinkled_dollar"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.0d
+		}
+		{
+			id: "10A01A68DD7A81DF"
+			tasks: [{
+				id: "690596CE46D53215"
+				item: "oddaccessories:broken_telephone"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			id: "46D3742023C34982"
+			tasks: [{
+				id: "0D14E5DD5746289C"
+				item: "oddaccessories:rusted_nail"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			id: "30B963ED6DD21FB3"
+			tasks: [{
+				id: "3C756C34EAECB50F"
+				item: "oddaccessories:homunculus"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.0d
+		}
+		{
+			id: "0428F1ED243D6BBC"
+			tasks: [{
+				id: "7A528F12765F9051"
+				item: "oddaccessories:loaded_dice"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			id: "2B167C45AF91599A"
+			tasks: [{
+				id: "6C50CD6BD77EDD4B"
+				item: "goety_revelation:amulet_of_slime"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.0d
+		}
+		{
+			id: "3F904662E20E8149"
+			tasks: [{
+				id: "00A270FA14BADE26"
+				item: "moreartifacts:shulked_clock"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			id: "3957B8FAC64B6637"
+			tasks: [{
+				id: "28128897AF9F3BE9"
+				item: "moreartifacts:purification_charm"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 10.0d
+		}
+		{
+			id: "09EE743C211402BD"
+			tasks: [{
+				id: "177E2A6447365EC0"
+				item: "moreartifacts:melody_plushie"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			id: "375A2DB57A819EE5"
+			tasks: [{
+				id: "362E9112031DECCC"
+				item: "moreartifacts:venom_stone"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			id: "1F6E57EA8468B954"
+			tasks: [{
+				id: "33A8B706F16BE4B6"
+				item: "moreartifacts:decay_stone"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			id: "69DDA8B7E502C13E"
+			tasks: [{
+				id: "7558892AC148FEE7"
+				item: "moreartifacts:fire_stone"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			id: "3BD07EA9BE826B55"
+			tasks: [{
+				id: "197C3A152AFAD103"
+				item: "moreartifacts:ice_stone"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			id: "1C6000AB82BB918E"
+			tasks: [{
+				id: "3B86C26086310DF5"
+				item: "goety_revelation:gold_feather"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			id: "67083F29636DD022"
+			tasks: [{
+				id: "6F9EF18A273D25ED"
+				item: "embers:explosion_charm"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			id: "2033F49E6B890C40"
+			tasks: [{
+				id: "64DD33215B06D544"
+				item: "moreartifacts:bezoar"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			id: "41119CB37B06DDE4"
+			tasks: [{
+				id: "4BCB2FBE6EA6D30D"
+				item: "moreartifacts:vitamins"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			id: "0E13AAC70DE9FE2E"
+			tasks: [{
+				id: "7D7F6C929C7EF85B"
+				item: "moreartifacts:fast_clock"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			id: "19C823215B8B0C99"
+			tasks: [{
+				id: "06140029CA8280EB"
+				item: "moreartifacts:nectar"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			id: "579553FF07352C58"
+			tasks: [{
+				id: "3E6D7B7FE9BA38AB"
+				item: "moreartifacts:desert_charm"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			id: "012C74CF20A83D3D"
+			tasks: [{
+				id: "000287DB12CEB416"
+				item: "moreartifacts:shulker_heart"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			id: "6D603E1F07A9A0A2"
+			tasks: [{
+				id: "3E8376A13B2295F3"
+				item: "moreartifacts:wither_shard"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			id: "2B121F5BE7838CF5"
+			tasks: [{
+				id: "345FDC0BFD0C3662"
+				item: "moreartifacts:ice_crystal"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+	]
+	title: "Charms"
+}

@@ -3,32 +3,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "woodtier"
 	filename: "goety"
-	group: "20D67F7F184680D5"
+	group: "0361FC25A57730F8"
 	hide_quest_until_deps_complete: true
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "goety:item/crone_hat"
-		}
-	}
+	icon: "goety_revelation:apollyon_robe"
 	id: "4E8B5FE547EA181F"
 	images: [
-		{
-			dev: true
-			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext1"]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: -1.5d
-		}
 		{
 			click: "a"
 			dependency: "6DAB39686FA99FBA"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext2"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -39,7 +23,7 @@
 			click: "a"
 			dependency: "6DAB39686FA99FBA"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext3"]
+			hover: ["Any haunted log/wood"]
 			image: "goety:block/haunted_planks"
 			rotation: 0.0d
 			width: 1.0d
@@ -50,7 +34,7 @@
 			click: "a"
 			dependency: "6DAB39686FA99FBA"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext4"]
+			hover: ["Leather"]
 			image: "minecraft:item/leather"
 			rotation: 0.0d
 			width: 1.0d
@@ -61,7 +45,7 @@
 			click: "a"
 			dependency: "6DAB39686FA99FBA"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext5"]
+			hover: ["Diamond"]
 			image: "minecraft:item/diamond"
 			rotation: 0.0d
 			width: 1.0d
@@ -72,7 +56,7 @@
 			click: "a"
 			dependency: "6DAB39686FA99FBA"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext6"]
+			hover: ["Emerald"]
 			image: "minecraft:item/emerald"
 			rotation: 0.0d
 			width: 1.0d
@@ -83,7 +67,7 @@
 			click: "a"
 			dependency: "6DAB39686FA99FBA"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext7"]
+			hover: ["Don't forget the dark altar below the bow!"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -94,7 +78,7 @@
 			click: "a"
 			dependency: "2ADC8BF43DF57C08"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext8"]
+			hover: ["Dark Ingot"]
 			image: "goety:item/dark_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -105,7 +89,7 @@
 			click: "a"
 			dependency: "2ADC8BF43DF57C08"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext9"]
+			hover: ["Mystic Core"]
 			image: "goety:item/mystic_core"
 			rotation: 0.0d
 			width: 1.0d
@@ -116,7 +100,7 @@
 			click: "a"
 			dependency: "2ADC8BF43DF57C08"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext10"]
+			hover: ["Dragon Breath"]
 			image: "minecraft:item/dragon_breath"
 			rotation: 0.0d
 			width: 1.0d
@@ -127,7 +111,7 @@
 			click: "a"
 			dependency: "2ADC8BF43DF57C08"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext11"]
+			hover: ["Broken Halo"]
 			image: "goety_revelation:item/curio/broken_halo"
 			rotation: 0.0d
 			width: 1.0d
@@ -138,7 +122,7 @@
 			click: "a"
 			dependency: "2ADC8BF43DF57C08"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext12"]
+			hover: ["Don't forget the dark altar below the bow!"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -149,7 +133,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext13"]
+			hover: ["Don't forget the dark altar below the halo!"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -160,7 +144,7 @@
 			click: "a"
 			dependency: "69EF0627A75C969A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext14"]
+			hover: ["Apocalyptium Ingot"]
 			image: "goety_revelation:item/apocalyptium_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -171,7 +155,7 @@
 			click: "a"
 			dependency: "69EF0627A75C969A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext15"]
+			hover: ["Unholy Blood"]
 			image: "goety:item/unholy_blood"
 			rotation: 0.0d
 			width: 1.0d
@@ -182,7 +166,7 @@
 			click: "a"
 			dependency: "69EF0627A75C969A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext16"]
+			hover: ["Unholy Fabric"]
 			image: "goety:item/unholy_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -193,7 +177,7 @@
 			click: "a"
 			dependency: "69EF0627A75C969A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext17"]
+			hover: ["Dark Ingot"]
 			image: "goety:item/dark_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -204,7 +188,7 @@
 			click: "1"
 			dependency: "2ADC8BF43DF57C08"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext18"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -215,7 +199,7 @@
 			click: "1"
 			dependency: "2ADC8BF43DF57C08"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext19"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -226,7 +210,7 @@
 			click: "1"
 			dependency: "2ADC8BF43DF57C08"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext20"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -237,7 +221,7 @@
 			click: "1"
 			dependency: "2ADC8BF43DF57C08"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext21"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -248,7 +232,7 @@
 			click: "1"
 			dependency: "2ADC8BF43DF57C08"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext22"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -259,7 +243,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext23"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -270,7 +254,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext24"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -281,7 +265,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext25"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -292,7 +276,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext26"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -303,7 +287,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext27"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -314,7 +298,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext28"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -325,7 +309,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext29"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -336,7 +320,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext30"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -347,7 +331,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext31"]
+			hover: ["Dark Ingot"]
 			image: "goety:item/dark_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -358,7 +342,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext32"]
+			hover: ["Dark Ingot"]
 			image: "goety:item/dark_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -369,7 +353,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext33"]
+			hover: ["Dark Ingot"]
 			image: "goety:item/dark_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -380,7 +364,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext34"]
+			hover: ["Dark Ingot"]
 			image: "goety:item/dark_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -391,7 +375,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext35"]
+			hover: ["Dark Ingot"]
 			image: "goety:item/dark_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -402,7 +386,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext36"]
+			hover: ["Dark Ingot"]
 			image: "goety:item/dark_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -413,7 +397,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext37"]
+			hover: ["Dark Ingot"]
 			image: "goety:item/dark_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -424,7 +408,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext38"]
+			hover: ["Dark Ingot"]
 			image: "goety:item/dark_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -435,7 +419,7 @@
 			click: "1"
 			dependency: "69EF0627A75C969A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext39"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -446,7 +430,7 @@
 			click: "1"
 			dependency: "69EF0627A75C969A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext40"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -457,7 +441,7 @@
 			click: "1"
 			dependency: "69EF0627A75C969A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext41"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -468,7 +452,7 @@
 			click: "1"
 			dependency: "69EF0627A75C969A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext42"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -479,7 +463,7 @@
 			click: "1"
 			dependency: "7825EF3EDA1C3F27"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext43"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -490,7 +474,7 @@
 			click: "1"
 			dependency: "7825EF3EDA1C3F27"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext44"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -501,7 +485,7 @@
 			click: "1"
 			dependency: "7825EF3EDA1C3F27"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext45"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -512,7 +496,7 @@
 			click: "1"
 			dependency: "7825EF3EDA1C3F27"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext46"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -523,7 +507,7 @@
 			click: "1"
 			dependency: "7825EF3EDA1C3F27"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext47"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -534,7 +518,7 @@
 			click: "a"
 			dependency: "7825EF3EDA1C3F27"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext48"]
+			hover: ["Iron Ingot"]
 			image: "minecraft:item/iron_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -545,7 +529,7 @@
 			click: "a"
 			dependency: "7825EF3EDA1C3F27"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext49"]
+			hover: ["Iron Ingot"]
 			image: "minecraft:item/iron_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -556,7 +540,7 @@
 			click: "a"
 			dependency: "7825EF3EDA1C3F27"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext50"]
+			hover: ["Cursed Ingot"]
 			image: "goety:item/cursed_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -567,7 +551,7 @@
 			click: "a"
 			dependency: "7825EF3EDA1C3F27"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext51"]
+			hover: ["Cursed Ingot"]
 			image: "goety:item/cursed_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -578,7 +562,7 @@
 			click: "a"
 			dependency: "7825EF3EDA1C3F27"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext52"]
+			hover: ["Diamond"]
 			image: "minecraft:item/diamond"
 			rotation: 0.0d
 			width: 1.0d
@@ -589,7 +573,7 @@
 			click: "1"
 			dependency: "02EE448EFA576418"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext53"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -600,7 +584,7 @@
 			click: "1"
 			dependency: "02EE448EFA576418"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext54"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -611,7 +595,7 @@
 			click: "1"
 			dependency: "02EE448EFA576418"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext55"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -622,7 +606,7 @@
 			click: "1"
 			dependency: "02EE448EFA576418"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext56"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -633,7 +617,7 @@
 			click: "1"
 			dependency: "02EE448EFA576418"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext57"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -644,7 +628,7 @@
 			click: "1"
 			dependency: "02EE448EFA576418"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext58"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -655,7 +639,7 @@
 			click: "a"
 			dependency: "02EE448EFA576418"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext59"]
+			hover: ["Cursed Ingot"]
 			image: "goety:item/cursed_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -666,7 +650,7 @@
 			click: "a"
 			dependency: "02EE448EFA576418"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext60"]
+			hover: ["Cursed Ingot"]
 			image: "goety:item/cursed_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -677,7 +661,7 @@
 			click: "a"
 			dependency: "02EE448EFA576418"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext61"]
+			hover: ["Cursed Ingot"]
 			image: "goety:item/cursed_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -688,7 +672,7 @@
 			click: "a"
 			dependency: "02EE448EFA576418"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext62"]
+			hover: ["Cursed Ingot"]
 			image: "goety:item/cursed_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -699,7 +683,7 @@
 			click: "a"
 			dependency: "02EE448EFA576418"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext63"]
+			hover: ["Iron Ingot"]
 			image: "minecraft:item/iron_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -710,7 +694,7 @@
 			click: "a"
 			dependency: "02EE448EFA576418"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext64"]
+			hover: ["Any leather"]
 			image: "minecraft:item/leather"
 			rotation: 0.0d
 			width: 1.0d
@@ -721,7 +705,7 @@
 			click: "1"
 			dependency: "1FDACE431D8225E8"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext65"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -732,7 +716,7 @@
 			click: "1"
 			dependency: "1FDACE431D8225E8"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext66"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -743,7 +727,7 @@
 			click: "1"
 			dependency: "1FDACE431D8225E8"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext67"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -754,7 +738,7 @@
 			click: "1"
 			dependency: "1FDACE431D8225E8"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext68"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -765,7 +749,7 @@
 			click: "1"
 			dependency: "1FDACE431D8225E8"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext69"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -776,7 +760,7 @@
 			click: "a"
 			dependency: "1FDACE431D8225E8"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext70"]
+			hover: ["Cursed Ingot"]
 			image: "goety:item/cursed_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -787,7 +771,7 @@
 			click: "a"
 			dependency: "1FDACE431D8225E8"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext71"]
+			hover: ["Cursed Ingot"]
 			image: "goety:item/cursed_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -798,7 +782,7 @@
 			click: "a"
 			dependency: "1FDACE431D8225E8"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext72"]
+			hover: ["Iron Ingot"]
 			image: "minecraft:item/iron_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -809,7 +793,7 @@
 			click: "a"
 			dependency: "1FDACE431D8225E8"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext73"]
+			hover: ["Any leather"]
 			image: "minecraft:item/leather"
 			rotation: 0.0d
 			width: 1.0d
@@ -820,7 +804,7 @@
 			click: "a"
 			dependency: "1FDACE431D8225E8"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext74"]
+			hover: ["Cursed Ingot"]
 			image: "goety:item/cursed_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -831,7 +815,7 @@
 			click: "1"
 			dependency: "1E13A4A86FB5A87C"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext75"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -842,7 +826,7 @@
 			click: "1"
 			dependency: "1E13A4A86FB5A87C"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext76"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -853,7 +837,7 @@
 			click: "1"
 			dependency: "1E13A4A86FB5A87C"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext77"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -864,7 +848,7 @@
 			click: "1"
 			dependency: "1E13A4A86FB5A87C"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext78"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -875,7 +859,7 @@
 			click: "a"
 			dependency: "1E13A4A86FB5A87C"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext79"]
+			hover: ["Cursed Ingot"]
 			image: "goety:item/cursed_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -886,7 +870,7 @@
 			click: "a"
 			dependency: "1E13A4A86FB5A87C"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext80"]
+			hover: ["Cursed Ingot"]
 			image: "goety:item/cursed_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -897,7 +881,7 @@
 			click: "a"
 			dependency: "1E13A4A86FB5A87C"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext81"]
+			hover: ["Any leather"]
 			image: "minecraft:item/leather"
 			rotation: 0.0d
 			width: 1.0d
@@ -908,7 +892,7 @@
 			click: "a"
 			dependency: "1E13A4A86FB5A87C"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext82"]
+			hover: ["Any leather"]
 			image: "minecraft:item/leather"
 			rotation: 0.0d
 			width: 1.0d
@@ -919,7 +903,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext83"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -930,7 +914,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext84"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -941,7 +925,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext85"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -952,7 +936,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext86"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -963,7 +947,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext87"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -974,7 +958,7 @@
 			click: "1"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext88"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -985,7 +969,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext89"]
+			hover: ["Occult Fabric"]
 			image: "goety:item/occult_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -996,7 +980,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext90"]
+			hover: ["Spider Fang"]
 			image: "goety_revelation:item/spider_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1007,7 +991,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext91"]
+			hover: ["Occult Fabric"]
 			image: "goety:item/occult_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -1018,7 +1002,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext92"]
+			hover: ["Spider Fang"]
 			image: "goety_revelation:item/spider_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1029,7 +1013,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext93"]
+			hover: ["Venomous Fang"]
 			image: "goety:item/venomous_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1040,7 +1024,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext94"]
+			hover: ["Dark Fabric"]
 			image: "goety:item/dark_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -1051,7 +1035,7 @@
 			click: "1"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext95"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1062,7 +1046,7 @@
 			click: "1"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext96"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1073,7 +1057,7 @@
 			click: "1"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext97"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1084,7 +1068,7 @@
 			click: "1"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext98"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1095,7 +1079,7 @@
 			click: "1"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext99"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1106,7 +1090,7 @@
 			click: "1"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext100"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1117,7 +1101,7 @@
 			click: "1"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext101"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1128,7 +1112,7 @@
 			click: "1"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext102"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1139,7 +1123,7 @@
 			click: "1"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext103"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1150,7 +1134,7 @@
 			click: "1"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext104"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1161,7 +1145,7 @@
 			click: "a"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext105"]
+			hover: ["Occult Fabric"]
 			image: "goety:item/occult_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -1172,7 +1156,7 @@
 			click: "a"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext106"]
+			hover: ["Occult Fabric"]
 			image: "goety:item/occult_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -1183,7 +1167,7 @@
 			click: "a"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext107"]
+			hover: ["Spider Fang"]
 			image: "goety_revelation:item/spider_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1194,7 +1178,7 @@
 			click: "a"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext108"]
+			hover: ["Spider Fang"]
 			image: "goety_revelation:item/spider_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1205,7 +1189,7 @@
 			click: "a"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext109"]
+			hover: ["Spider Fang"]
 			image: "goety_revelation:item/spider_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1216,7 +1200,7 @@
 			click: "a"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext110"]
+			hover: ["Spider Fang"]
 			image: "goety_revelation:item/spider_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1227,7 +1211,7 @@
 			click: "a"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext111"]
+			hover: ["Spider Fang"]
 			image: "goety_revelation:item/spider_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1238,7 +1222,7 @@
 			click: "a"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext112"]
+			hover: ["Spider Fang"]
 			image: "goety_revelation:item/spider_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1249,7 +1233,7 @@
 			click: "a"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext113"]
+			hover: ["Venomous Fang"]
 			image: "goety:item/venomous_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1260,7 +1244,7 @@
 			click: "a"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext114"]
+			hover: ["Dark Fabric"]
 			image: "goety:item/dark_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -1271,7 +1255,7 @@
 			click: "1"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext115"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1282,7 +1266,7 @@
 			click: "1"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext116"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1293,7 +1277,7 @@
 			click: "1"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext117"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1304,7 +1288,7 @@
 			click: "1"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext118"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1315,7 +1299,7 @@
 			click: "1"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext119"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1326,7 +1310,7 @@
 			click: "1"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext120"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1337,7 +1321,7 @@
 			click: "a"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext121"]
+			hover: ["Occult Fabric"]
 			image: "goety:item/occult_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -1348,7 +1332,7 @@
 			click: "a"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext122"]
+			hover: ["Spider Fang"]
 			image: "goety_revelation:item/spider_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1359,7 +1343,7 @@
 			click: "a"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext123"]
+			hover: ["Occult Fabric"]
 			image: "goety:item/occult_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -1370,7 +1354,7 @@
 			click: "a"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext124"]
+			hover: ["Spider Fang"]
 			image: "goety_revelation:item/spider_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1381,7 +1365,7 @@
 			click: "a"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext125"]
+			hover: ["Venomous Fang"]
 			image: "goety:item/venomous_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1392,7 +1376,7 @@
 			click: "a"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext126"]
+			hover: ["Dark Fabric"]
 			image: "goety:item/dark_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -1403,7 +1387,7 @@
 			click: "a"
 			dependency: "69EF0627A75C969A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext127"]
+			hover: ["Don't forget the dark altar below the upgrade!"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -1414,7 +1398,7 @@
 			click: "a"
 			dependency: "2BC3D47453795884"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext128"]
+			hover: ["Don't forget the dark altar below the black iron helmet!"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -1425,7 +1409,7 @@
 			click: "a"
 			dependency: "585D55B9552101F3"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext129"]
+			hover: ["Don't forget the dark altar below the black iron chestplate!"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -1436,7 +1420,7 @@
 			click: "a"
 			dependency: "77022DB71F641ED2"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext130"]
+			hover: ["Don't forget the dark altar below the black iron leggings!"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -1447,7 +1431,7 @@
 			click: "1"
 			dependency: "7327CA7A3ED82404"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext131"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1458,7 +1442,7 @@
 			click: "1"
 			dependency: "7327CA7A3ED82404"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext132"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1469,7 +1453,7 @@
 			click: "1"
 			dependency: "7327CA7A3ED82404"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext133"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1480,7 +1464,7 @@
 			click: "1"
 			dependency: "7327CA7A3ED82404"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext134"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1491,7 +1475,7 @@
 			click: "1"
 			dependency: "7327CA7A3ED82404"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext135"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1502,7 +1486,7 @@
 			click: "1"
 			dependency: "7327CA7A3ED82404"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext136"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1513,7 +1497,7 @@
 			click: "a"
 			dependency: "7327CA7A3ED82404"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext137"]
+			hover: ["Occult Fabric"]
 			image: "goety:item/occult_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -1524,7 +1508,7 @@
 			click: "a"
 			dependency: "7327CA7A3ED82404"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext138"]
+			hover: ["Occult Fabric"]
 			image: "goety:item/occult_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -1535,7 +1519,7 @@
 			click: "a"
 			dependency: "7327CA7A3ED82404"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext139"]
+			hover: ["Spider Fang"]
 			image: "goety_revelation:item/spider_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1546,7 +1530,7 @@
 			click: "a"
 			dependency: "7327CA7A3ED82404"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext140"]
+			hover: ["Spider Fang"]
 			image: "goety_revelation:item/spider_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1557,7 +1541,7 @@
 			click: "a"
 			dependency: "7327CA7A3ED82404"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext141"]
+			hover: ["Venomous Fang"]
 			image: "goety:item/venomous_fang"
 			rotation: 0.0d
 			width: 1.0d
@@ -1568,7 +1552,7 @@
 			click: "a"
 			dependency: "7327CA7A3ED82404"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext142"]
+			hover: ["Dark Fabric"]
 			image: "goety:item/dark_fabric"
 			rotation: 0.0d
 			width: 1.0d
@@ -1579,7 +1563,7 @@
 			click: "a"
 			dependency: "6DAB39686FA99FBA"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext143"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1590,7 +1574,7 @@
 			click: "a"
 			dependency: "6DAB39686FA99FBA"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext144"]
+			hover: ["Cursed Ingot"]
 			image: "goety:item/cursed_ingot"
 			rotation: 0.0d
 			width: 1.0d
@@ -1601,7 +1585,7 @@
 			click: "1"
 			dependency: "6DAB39686FA99FBA"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext145"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1612,7 +1596,7 @@
 			click: "1"
 			dependency: "6DAB39686FA99FBA"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext146"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1623,7 +1607,7 @@
 			click: "a"
 			dependency: "6DAB39686FA99FBA"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext147"]
+			hover: ["Pedestal"]
 			image: "goety:item/pedestal_dummy"
 			rotation: 0.0d
 			width: 1.0d
@@ -1634,7 +1618,7 @@
 			click: "a"
 			dependency: "2E356978A023344A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext148"]
+			hover: ["Ring Of Want"]
 			image: "goety:item/ring_of_want"
 			rotation: 0.0d
 			width: 1.0d
@@ -1681,7 +1665,7 @@
 			click: "a"
 			dependency: "2E356978A023344A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext149"]
+			hover: ["Ink Sac"]
 			image: "minecraft:item/ink_sac"
 			rotation: 0.0d
 			width: 1.0d
@@ -1692,7 +1676,7 @@
 			click: "a"
 			dependency: "2E356978A023344A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext150"]
+			hover: ["Feather"]
 			image: "minecraft:item/feather"
 			rotation: 0.0d
 			width: 1.0d
@@ -1703,7 +1687,7 @@
 			click: "a"
 			dependency: "2E356978A023344A"
 			height: 1.0d
-			hover: ["ftbquests.chapter.goety.image.hovertext151"]
+			hover: ["Wind Core"]
 			image: "goety:item/wind_core"
 			rotation: 0.0d
 			width: 1.0d
@@ -1721,10 +1705,10 @@
 			y: 3.5238095238095184d
 		}
 		{
-			height: 2.0d
-			image: "customtextures:textures/goetylogo1.png"
+			height: 1.2d
+			image: "customtextures:textures/goety.png"
 			rotation: 0.0d
-			width: 5.0d
+			width: 8.0d
 			x: -2.5d
 			y: 0.0d
 		}
@@ -1733,15 +1717,40 @@
 			image: "bloodmagic:models/alchemyarrays/wiparray"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.0d
-			y: 1.5d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["This questline is being reworked"]
+			image: "quark:item/hammer"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 2.5d
 		}
 	]
-	order_index: 8
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.goety.quest6561188675072525114.description1}"]
+			description: ["Goety is a mod centered around dark magic by using soul energy and rituals!"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1757,22 +1766,22 @@
 			}]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "{ftbquests.chapter.goety.quest6561188675072525114.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "49F519A624A16E0E"
-				title: "{ftbquests.chapter.goety.quest6561188675072525114.task.5329193935432674830.title}"
+				title: "Goety Mod"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.goety.quest6561188675072525114.title}"
+			title: "Goety"
 			x: -2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5B0E06565A03833A"]
 			description: [
-				"{ftbquests.chapter.goety.quest4465814243652689935.description1}"
+				"Wraith's spawn around the world, you can tell them by their blue shining appearance."
 				""
-				"{ftbquests.chapter.goety.quest4465814243652689935.description2}"
+				"Killing them will drop ectoplasm, an important material to get into the mod!"
 			]
 			icon: {
 				Count: 1
@@ -1788,7 +1797,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.goety.quest4465814243652689935.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "goety:wraith"
 				icon: {
@@ -1799,7 +1808,7 @@
 					}
 				}
 				id: "72D9B45AE0FF4B09"
-				title: "{ftbquests.chapter.goety.quest4465814243652689935.task.8275844092684880649.title}"
+				title: "Kill a Wraith"
 				type: "kill"
 				value: 1L
 			}]
@@ -1809,9 +1818,9 @@
 		{
 			dependencies: ["3DF9C264C9CC600F"]
 			description: [
-				"{ftbquests.chapter.goety.quest5044282431107532923.description1}"
+				"Totem of roots is a charm that will store soul energy when on you."
 				""
-				"{ftbquests.chapter.goety.quest5044282431107532923.description2}"
+				"Soul energy can be obtained by slaying mobs."
 			]
 			id: "4600E42534E8887B"
 			rewards: [{
@@ -1819,9 +1828,9 @@
 				item: "goety:empty_focus"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.goety.quest5044282431107532923.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "18F67DDB4D426923"
 				item: {
@@ -1841,7 +1850,7 @@
 			dependencies: ["4600E42534E8887B"]
 			id: "16D4BC1E8EFA4A01"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.goety.quest1645146603330882049.subtitle}"
+			subtitle: "Empty focus, yet to be filled"
 			tasks: [{
 				id: "779BAF790583F115"
 				item: "goety:empty_focus"
@@ -1859,7 +1868,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.goety.quest3022029137628762972.subtitle}"
+			subtitle: "A magical tree, once grown, cut it's logs!"
 			tasks: [{
 				id: "47D88505FF4EB114"
 				item: "goety:haunted_sapling"
@@ -1872,7 +1881,7 @@
 			dependencies: ["4600E42534E8887B"]
 			id: "429B106ED9ECB71B"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.goety.quest4799447896182011675.subtitle}"
+			subtitle: "A crafting material for the dark wand"
 			tasks: [{
 				id: "4317A2D38CF0E9F5"
 				item: "goety:magic_fabric"
@@ -1888,9 +1897,9 @@
 				"29F0677D413E135C"
 			]
 			description: [
-				"{ftbquests.chapter.goety.quest872447683652257756.description1}"
+				"Wands use \"focuses\" we will get into it now."
 				""
-				"{ftbquests.chapter.goety.quest872447683652257756.description2}"
+				"Focuses can be inserted into wand by pressing \"Z\""
 			]
 			id: "0C1B8E8BBD3487DC"
 			rewards: [{
@@ -1899,7 +1908,7 @@
 				xp: 5
 			}]
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.goety.quest872447683652257756.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4CF31E631FF14D97"
 				item: {
@@ -1920,20 +1929,20 @@
 		}
 		{
 			dependencies: ["0C1B8E8BBD3487DC"]
-			description: ["{ftbquests.chapter.goety.quest6254892263556321713.description1}"]
+			description: ["Highlights enemies, can work as a lightning source aswell."]
 			id: "56CDD75FB59D11B1"
 			rewards: [{
 				id: "04A652EB533BEA44"
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "{ftbquests.chapter.goety.quest6254892263556321713.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "388248B1DDB85646"
 				item: "goety:soul_light_focus"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.goety.quest6254892263556321713.title}"
+			title: "Example Focus"
 			x: 4.346130310630116d
 			y: 1.2599859148876433d
 		}
@@ -1946,7 +1955,7 @@
 				xp: 3
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.goety.quest4887473141965289207.subtitle}"
+			subtitle: "Switches between focuses"
 			tasks: [{
 				id: "040AA9E02EB2FB07"
 				item: {
@@ -1975,7 +1984,7 @@
 			}]
 			shape: "octagon"
 			size: 1.3d
-			subtitle: "{ftbquests.chapter.goety.quest2602887270170511914.subtitle}"
+			subtitle: "Upgraded version of the \"Totem of Roots\""
 			tasks: [{
 				id: "502E35300DB4E694"
 				item: {
@@ -1993,16 +2002,16 @@
 		}
 		{
 			dependencies: ["43D3CAED7C1A76F7"]
-			description: ["{ftbquests.chapter.goety.quest786015409437490653.description1}"]
+			description: ["Some Other items work aswell, creating other items."]
 			id: "0AE87CD9B3813DDD"
 			rewards: [{
 				id: "0D94CD3A9A32A9BA"
 				type: "xp"
 				xp: 5
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.goety.quest786015409437490653.subtitle}"
+			subtitle: "Can be placed on spawners, insert an emerald to imbue it with soul energy."
 			tasks: [
 				{
 					id: "341E256043E9651E"
@@ -2021,13 +2030,13 @@
 		{
 			dependencies: ["241F502E78E64A2A"]
 			description: [
-				"{ftbquests.chapter.goety.quest2329996381774971522.description1}"
+				"&dRituals&r require specific block to be placed near your setup."
 				""
-				"{ftbquests.chapter.goety.quest2329996381774971522.description2}"
+				"Theres plenty of rituals and each of them requires different items."
 				""
-				"{ftbquests.chapter.goety.quest2329996381774971522.description3}"
+				"A dark altar is the centerpiece of the most rituals, the altar must be placed on a &acursed cage&r!"
 				""
-				"{ftbquests.chapter.goety.quest2329996381774971522.description4}"
+				"Here's some examples of the Rituals, check up!"
 			]
 			id: "2055CF5D47A48282"
 			rewards: [{
@@ -2038,7 +2047,7 @@
 			}]
 			shape: "octagon"
 			size: 1.4d
-			subtitle: "{ftbquests.chapter.goety.quest2329996381774971522.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "0C6B4428F823AED3"
@@ -2056,7 +2065,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.goety.quest2329996381774971522.title}"
+			title: "Performing Rituals"
 			x: -2.458163265306105d
 			y: -3.0d
 		}
@@ -2076,7 +2085,7 @@
 			}]
 			shape: "netheritetier"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.goety.quest3329683466314003530.subtitle}"
+			subtitle: "View the rituals here!"
 			tasks: [{
 				id: "48DB48262D6589F7"
 				item: {
@@ -2094,19 +2103,19 @@
 		{
 			dependencies: ["2055CF5D47A48282"]
 			description: [
-				"{ftbquests.chapter.goety.quest4743576347395256865.description1}"
+				"Creating a Forge around the Dark Altar allows you to craft certain items and upgrade your magical arsenal with it!"
 				""
-				"{ftbquests.chapter.goety.quest4743576347395256865.description2}"
-				"{ftbquests.chapter.goety.quest4743576347395256865.description3}"
+				"&8-Cauldron needs to be filled with lava."
+				"&8-Blast furnace works aswell."
 				""
-				"{ftbquests.chapter.goety.quest4743576347395256865.description4}"
+				"Here's an example of how it should look:"
 				""
-				"{ftbquests.chapter.goety.quest4743576347395256865.image0}"
+				"{image:goety:textures/gui/entries/forge_ritual.png width:150 height:150 align:center}"
 			]
 			icon: "minecraft:anvil"
 			id: "41D4918E2F707221"
 			shape: "square"
-			subtitle: "{ftbquests.chapter.goety.quest4743576347395256865.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "52C30D890B26EFD6"
@@ -2125,7 +2134,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.goety.quest4743576347395256865.title}"
+			title: "Forge Ritual"
 			x: -4.458163265306105d
 			y: -4.5d
 		}
@@ -2139,7 +2148,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.goety.quest5421011755318859777.subtitle}"
+			subtitle: "Made by using iron on cursed infuser."
 			tasks: [{
 				id: "5A49EF6C32E9FB20"
 				item: "goety:cursed_ingot"
@@ -2158,7 +2167,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.goety.quest46891941513324673.subtitle}"
+			subtitle: "We will be needing it later, keep it for now :)"
 			tasks: [{
 				id: "72CC853A5C81B58A"
 				item: "goety:cursed_bars"
@@ -2170,16 +2179,16 @@
 		{
 			dependencies: ["2055CF5D47A48282"]
 			description: [
-				"{ftbquests.chapter.goety.quest1588999403554727854.description1}"
+				"Surrounding the Altar with large quantities of book will help us create certain magical Items!"
 				""
-				"{ftbquests.chapter.goety.quest1588999403554727854.description2}"
+				"Here's an example of how it should look:"
 				""
-				"{ftbquests.chapter.goety.quest1588999403554727854.image0}"
+				"{image:goety:textures/gui/entries/magic_ritual.png width:150 height:150 align:center}"
 			]
 			icon: "minecraft:enchanting_table"
 			id: "160D4289E52FE7AE"
 			shape: "square"
-			subtitle: "{ftbquests.chapter.goety.quest1588999403554727854.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					count: 16L
@@ -2191,7 +2200,7 @@
 							value: "forge:bookshelves"
 						}
 					}
-					title: "{ftbquests.chapter.goety.quest1588999403554727854.task.4856196444099489114.title}"
+					title: "Any Bookshelf"
 					type: "item"
 				}
 				{
@@ -2210,16 +2219,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.goety.quest1588999403554727854.title}"
+			title: "Magic Ritual"
 			x: -3.458163265306105d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2055CF5D47A48282"]
 			description: [
-				"{ftbquests.chapter.goety.quest8411461973060552784.description1}"
+				"The Dark Altar can enchant items using certain ingredients, such as soul energy and XP."
 				""
-				"{ftbquests.chapter.goety.quest8411461973060552784.description2}"
+				"The Rituals can even enchant already enchanted items!"
 			]
 			id: "74BB841941FB0850"
 			rewards: [{
@@ -2229,31 +2238,31 @@
 				type: "item"
 			}]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.goety.quest8411461973060552784.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "634747BCB343A28A"
 				item: "goety:dark_altar"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.goety.quest8411461973060552784.title}"
+			title: "Enchanting with Rituals"
 			x: -2.458163265306105d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2055CF5D47A48282"]
 			description: [
-				"{ftbquests.chapter.goety.quest1516958323418847296.description1}"
+				"Placing The Altar deep beneath and surround it with deep slate and amethysts, you will be able to harness the earth to create all kinds of jewels and magics!"
 				""
-				"{ftbquests.chapter.goety.quest1516958323418847296.description2}"
+				"Here's an example of how it should look:"
 				""
-				"{ftbquests.chapter.goety.quest1516958323418847296.image0}"
+				"{image:goety:textures/gui/entries/geoturgy_ritual.png width:150 height:150 align:center}"
 				""
-				"{ftbquests.chapter.goety.quest1516958323418847296.description3}"
+				"&8Note: The Altar should be below Y=-32 and not exposed to sky."
 			]
 			icon: "minecraft:smithing_table"
 			id: "150D518ED673D840"
 			shape: "square"
-			subtitle: "{ftbquests.chapter.goety.quest1516958323418847296.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "24B219D62C0D464B"
@@ -2273,20 +2282,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.goety.quest1516958323418847296.title}"
+			title: "Geoturgy Ritual"
 			x: -2.458163265306105d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2055CF5D47A48282"]
 			description: [
-				"{ftbquests.chapter.goety.quest6192676812484394034.description1}"
+				"The power of the storm will power your magical skills like no other"
 				""
-				"{ftbquests.chapter.goety.quest6192676812484394034.description2}"
+				"Here's an example of how it should look:"
 				""
-				"{ftbquests.chapter.goety.quest6192676812484394034.image0}"
+				"{image:goety:textures/gui/entries/storm_ritual.png width:150 height:150 align:center}"
 				""
-				"{ftbquests.chapter.goety.quest6192676812484394034.description3}"
+				"&8Note: The Altar has to be exposed to a storm."
 			]
 			icon: "minecraft:copper_block"
 			id: "55F0CEC030EE3C32"
@@ -2317,16 +2326,16 @@
 		{
 			dependencies: ["2055CF5D47A48282"]
 			description: [
-				"{ftbquests.chapter.goety.quest125234671274934123.description1}"
+				"From your studies, you figured out a way to make rituals that surrounds summoning and controlling creatures."
 				""
-				"{ftbquests.chapter.goety.quest125234671274934123.description2}"
+				"Here's an example of how it should look:"
 				""
-				"{ftbquests.chapter.goety.quest125234671274934123.image0}"
+				"{image:goety:textures/gui/entries/animalis_ritual.png width:150 height:150 align:center}"
 			]
 			icon: "minecraft:carved_pumpkin"
 			id: "01BCEC451EE7BF6B"
 			shape: "square"
-			subtitle: "{ftbquests.chapter.goety.quest125234671274934123.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					count: 15L
@@ -2351,16 +2360,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.goety.quest125234671274934123.title}"
+			title: "Animation Ritual"
 			x: -0.45816326530610496d
 			y: -4.5d
 		}
 		{
 			dependencies: ["56CDD75FB59D11B1"]
 			description: [
-				"{ftbquests.chapter.goety.quest5645974627569157705.description1}"
+				"Focuses have their own specialize enchantments, but not all Focuses can be enchanted nor accept every enchantments. "
 				""
-				"{ftbquests.chapter.goety.quest5645974627569157705.description2}"
+				"There are many enchantments that are only applicable to certain Focuses. Enchanted Focuses doubles the amount of Soul Energy needed to cast."
 			]
 			icon: {
 				Count: 1
@@ -2373,20 +2382,20 @@
 			id: "4E5A88029720C649"
 			shape: "square"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.goety.quest5645974627569157705.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "437BC7E49D25D67C"
-				title: "{ftbquests.chapter.goety.quest5645974627569157705.task.4862700007379555964.title}"
+				title: "Woa "
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.goety.quest5645974627569157705.title}"
+			title: "Focus Enchanting"
 			x: 6.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4E5A88029720C649"]
 			id: "3768CAE4412F62DE"
-			subtitle: "{ftbquests.chapter.goety.quest3992664151358923486.subtitle}"
+			subtitle: "Increases the power of spells"
 			tasks: [{
 				id: "08AAA577DC57F250"
 				item: {
@@ -2427,7 +2436,7 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.goety.quest3992664151358923486.task.624493432560677456.title}"
+				title: "Potency"
 				type: "item"
 			}]
 			x: 7.5d
@@ -2436,7 +2445,7 @@
 		{
 			dependencies: ["4E5A88029720C649"]
 			id: "6244384F09BE7177"
-			subtitle: "{ftbquests.chapter.goety.quest7080846426250310007.subtitle}"
+			subtitle: "Makes the spells inflict burn"
 			tasks: [{
 				id: "4A43F7C42E328EA3"
 				item: {
@@ -2477,7 +2486,7 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.goety.quest7080846426250310007.task.5351393204206997155.title}"
+				title: "Burning"
 				type: "item"
 			}]
 			x: 8.0d
@@ -2486,7 +2495,7 @@
 		{
 			dependencies: ["4E5A88029720C649"]
 			id: "2EC6796441060EAA"
-			subtitle: "{ftbquests.chapter.goety.quest3370514842628001450.subtitle}"
+			subtitle: "Increases the radius of spells"
 			tasks: [{
 				id: "198CE18290813BFF"
 				item: {
@@ -2517,7 +2526,7 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.goety.quest3370514842628001450.task.1841094298574076927.title}"
+				title: "Radius"
 				type: "item"
 			}]
 			x: 8.0d
@@ -2526,7 +2535,7 @@
 		{
 			dependencies: ["4E5A88029720C649"]
 			id: "6CB1057F13B52C54"
-			subtitle: "{ftbquests.chapter.goety.quest7832047270323629140.subtitle}"
+			subtitle: "Increases speed and velocity of projectile type spells"
 			tasks: [{
 				id: "2C45D4B30AD638BC"
 				item: {
@@ -2587,7 +2596,7 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.goety.quest7832047270323629140.task.3190189776507910332.title}"
+				title: "Velocity"
 				type: "item"
 			}]
 			x: 7.5d
@@ -2596,7 +2605,7 @@
 		{
 			dependencies: ["4E5A88029720C649"]
 			id: "3C362F86AA4E0D75"
-			subtitle: "{ftbquests.chapter.goety.quest4338707546447416693.subtitle}"
+			subtitle: "Causes healing when a spell hits a mob"
 			tasks: [{
 				id: "1ADAA02403EED0E7"
 				item: {
@@ -2611,7 +2620,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.goety.quest4338707546447416693.title}"
+			title: "Life Absorb"
 			x: 6.5d
 			y: -1.0d
 		}
@@ -2619,7 +2628,7 @@
 			dependencies: ["4E5A88029720C649"]
 			id: "3FC5B7FB38D49057"
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.goety.quest4595281284419588183.subtitle}"
+			subtitle: "Causes blocks to be automatically pulled into inventory"
 			tasks: [{
 				id: "471F66025CED402A"
 				item: {
@@ -2634,14 +2643,14 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.goety.quest4595281284419588183.title}"
+			title: "Magnetize"
 			x: 5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4E5A88029720C649"]
 			id: "35E51CCB0E9C2D86"
-			subtitle: "{ftbquests.chapter.goety.quest3883541912125975942.subtitle}"
+			subtitle: "Increases duration of spells"
 			tasks: [{
 				id: "5131BB05C946CC62"
 				item: {
@@ -2682,7 +2691,7 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.goety.quest3883541912125975942.task.5850663024457075810.title}"
+				title: "Duration"
 				type: "item"
 			}]
 			x: 6.5d
@@ -2691,7 +2700,7 @@
 		{
 			dependencies: ["4E5A88029720C649"]
 			id: "2972B6CB3E81FF25"
-			subtitle: "{ftbquests.chapter.goety.quest2986650486943383333.subtitle}"
+			subtitle: "Increases the detecting, range of the spells."
 			tasks: [{
 				id: "4BAD123A120769E4"
 				item: {
@@ -2802,7 +2811,7 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.goety.quest2986650486943383333.task.5453034764435417572.title}"
+				title: "Range"
 				type: "item"
 			}]
 			x: 5.5d
@@ -2824,7 +2833,7 @@
 			dependencies: ["01BCEC451EE7BF6B"]
 			id: "4A56812A948C967D"
 			shape: "square"
-			subtitle: "{ftbquests.chapter.goety.quest5356610826684634749.subtitle}"
+			subtitle: "Allows you to change movement, stances of your servants."
 			tasks: [{
 				id: "42547ACE83B0BBF3"
 				item: "goety:command_horn"
@@ -2845,13 +2854,13 @@
 			}
 			icon_scale: 1.5d
 			id: "17AF3158B8034FF9"
-			subtitle: "{ftbquests.chapter.goety.quest1706637040910815225.subtitle}"
+			subtitle: "Check to unlock Goety: Revelation Questline!"
 			tasks: [{
 				id: "2EAE747479991FC3"
-				title: "{ftbquests.chapter.goety.quest1706637040910815225.task.3363754015297445827.title}"
+				title: "Unlock it NOW!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.goety.quest1706637040910815225.title}"
+			title: "Goety: Revelation"
 			x: -8.0d
 			y: -1.0d
 		}
@@ -2884,7 +2893,7 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.goety.quest2841282628423026409.task.6245712239309380955.title}"
+				title: "Any haunted wood"
 				type: "item"
 			}]
 			x: -9.5d
@@ -2985,7 +2994,7 @@
 			dependencies: ["6DAB39686FA99FBA"]
 			id: "2ADC8BF43DF57C08"
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.goety.quest3088497325597096968.subtitle}"
+			subtitle: "Type: Master Forge"
 			tasks: [{
 				id: "40922D4E1A8311B0"
 				item: {
@@ -3005,7 +3014,7 @@
 			id: "0CB49402390C97BD"
 			shape: "netheritetier"
 			size: 1.3d
-			subtitle: "{ftbquests.chapter.goety.quest915519361531025341.subtitle}"
+			subtitle: "Divine Power"
 			tasks: [{
 				id: "0F6A3D39E3C0C3B1"
 				item: {
@@ -3058,7 +3067,7 @@
 			id: "0B03F516CCA89421"
 			shape: "netheritetier"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.goety.quest793747437619024929.subtitle}"
+			subtitle: "Drops From Apollyon"
 			tasks: [{
 				id: "477E6ED7183B518F"
 				item: "goety_revelation:ascension_halo"
@@ -3072,7 +3081,7 @@
 			id: "69EF0627A75C969A"
 			shape: "netheritetier"
 			size: 1.3d
-			subtitle: "{ftbquests.chapter.goety.quest7633326660797634202.subtitle}"
+			subtitle: "Type: Master Forge"
 			tasks: [{
 				id: "49E3E573CE97DA9B"
 				item: "goety_revelation:apocalyptium_ingot"
@@ -3120,7 +3129,7 @@
 			id: "74DAE57D56804A8B"
 			shape: "netheritetier"
 			size: 1.4d
-			subtitle: "{ftbquests.chapter.goety.quest8420294779807484555.subtitle}"
+			subtitle: "Type: Master Forge"
 			tasks: [{
 				id: "73D4E4B266966FD0"
 				item: "goety_revelation:apocalyptium_upgrade_smithing_template"
@@ -3133,7 +3142,7 @@
 			dependencies: ["2ADC8BF43DF57C08"]
 			id: "24879C2273C392BE"
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.goety.quest2632244179006362302.subtitle}"
+			subtitle: "Sacrifice a apostle"
 			tasks: [{
 				id: "295280773117108A"
 				item: {
@@ -3168,7 +3177,7 @@
 			id: "488312F3942094DA"
 			shape: "netheritetier"
 			size: 1.3d
-			subtitle: "{ftbquests.chapter.goety.quest5225040830051423450.subtitle}"
+			subtitle: "Type: Storm"
 			tasks: [{
 				id: "348C9BD1914C2BD6"
 				item: "goety_revelation:broken_halo"
@@ -3224,7 +3233,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.goety.quest211181613409068056.title}"
+			title: "Make a Black Iron Helmet"
 			x: -9.5d
 			y: 6.5d
 		}
@@ -3262,7 +3271,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.goety.quest2295373747751888360.title}"
+			title: "Make a Black Iron Chestplate"
 			x: -4.5d
 			y: 11.0d
 		}
@@ -3300,7 +3309,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.goety.quest2167256889030977660.title}"
+			title: "Make a Black Iron Leggings"
 			x: 2.0d
 			y: 7.5d
 		}
@@ -3338,7 +3347,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.goety.quest3925179024979868130.title}"
+			title: "Make a Black Iron Boots"
 			x: 8.0d
 			y: 10.0d
 		}
@@ -3480,7 +3489,7 @@
 			id: "1A251E7CA7C348AE"
 			shape: "netheritetier"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.goety.quest1883945539863791790.subtitle}"
+			subtitle: "Set complete!"
 			tasks: [{
 				id: "3C9F89FEB3F6693A"
 				item: {
@@ -3523,21 +3532,21 @@
 		{
 			dependencies: ["2E356978A023344A"]
 			description: [
-				"{ftbquests.chapter.goety.quest8146745038331963437.description1}"
+				"This ones a must for goety: revelation addon!"
 				""
-				"{ftbquests.chapter.goety.quest8146745038331963437.description2}"
+				"Nearly all op gears, etc are locked behind this ritual."
 				""
-				"{ftbquests.chapter.goety.quest8146745038331963437.description3}"
+				"&8Cauldron needs to be filled with lava."
 				""
-				"{ftbquests.chapter.goety.quest8146745038331963437.description4}"
+				"Here's an example of how it should look:"
 				""
-				"{ftbquests.chapter.goety.quest8146745038331963437.image0}"
+				"{image:goety:textures/gui/entries/master_forge_ritual.png width:150 height:150 align:center}"
 			]
 			icon: "goety_revelation:runestone_engraved_table"
 			id: "710F0D72F573E82D"
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.goety.quest8146745038331963437.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "5D3FA298417684C4"
@@ -3560,10 +3569,10 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.goety.quest8146745038331963437.title}"
+			title: "Master Forge Ritual"
 			x: -5.5d
 			y: -3.5d
 		}
 	]
-	title: "{ftbquests.chapter.goety.title}"
+	title: "<shadow a=0.4><grad from=#5E5E5E to=#4A4A4A>Goety</grad></shadow>"
 }

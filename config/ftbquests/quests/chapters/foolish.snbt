@@ -1,9 +1,10 @@
 {
+	always_invisible: true
 	autofocus_id: "3393C84257399431"
 	default_hide_dependency_lines: false
 	default_quest_shape: "woodtier"
 	filename: "foolish"
-	group: "52FA8429D8BF5933"
+	group: "681E1747F0B6F5C6"
 	hide_quest_until_deps_complete: true
 	icon: "foolish:foolish_logo"
 	id: "3C5A098118F86AE6"
@@ -11,7 +12,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.foolish.image.hovertext1"]
+			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			order: 2
 			rotation: 0.0d
@@ -36,17 +37,17 @@
 			y: -3.0d
 		}
 	]
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.foolish.quest3716534304767579185.description1}"
+				"Foolish mod adds a new beautiful dimension filled with bosses, and other lotta content!"
 				""
 				""
 				""
 				""
-				"{ftbquests.chapter.foolish.quest3716534304767579185.description2}"
+				"&8I do not know the mod well, expect a bad questline :p"
 			]
 			icon: {
 				Count: 1
@@ -64,22 +65,22 @@
 			}]
 			shape: "square"
 			size: 1.1d
-			subtitle: "{ftbquests.chapter.foolish.quest3716534304767579185.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3B2955B7F54BAECC"
-				title: "{ftbquests.chapter.foolish.quest3716534304767579185.task.4263032770865639116.title}"
+				title: "So foolish ahaha"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.foolish.quest3716534304767579185.title}"
+			title: "Foolish!"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4123AEC43693F821"]
-			description: ["{ftbquests.chapter.foolish.quest2648326070462344620.description1}"]
+			description: ["Can be found around the world, especially in &easpen forest."]
 			id: "24C0BE8797506DAC"
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.foolish.quest2648326070462344620.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -90,7 +91,7 @@
 				}
 				id: "3D215552D5ED6136"
 				structure: "foolish:stellar_portal_structure"
-				title: "{ftbquests.chapter.foolish.quest2648326070462344620.task.4404895724809838902.title}"
+				title: "Find a &dStellar Portal"
 				type: "structure"
 			}]
 			x: -0.5d
@@ -98,10 +99,10 @@
 		}
 		{
 			dependencies: ["11CAA3DE6E96409D"]
-			description: ["{ftbquests.chapter.foolish.quest4693787394402678817.description1}"]
+			description: ["Stellar lighter is a lighter-like tool that will open up stellar portal for us!"]
 			id: "4123AEC43693F821"
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.foolish.quest4693787394402678817.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "57267EE14D66D85D"
 				item: {
@@ -113,13 +114,13 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.foolish.quest4693787394402678817.title}"
+			title: "&dStellar Lighter"
 			x: -2.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["24C0BE8797506DAC"]
-			description: ["{ftbquests.chapter.foolish.quest1711334518461922711.description1}"]
+			description: ["A dying heaven painted in light and decay."]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -134,7 +135,7 @@
 				xp: 5
 			}]
 			size: 1.4d
-			subtitle: "{ftbquests.chapter.foolish.quest1711334518461922711.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				dimension: "foolish:stellar_hollow"
 				icon: {
@@ -145,16 +146,16 @@
 					}
 				}
 				id: "24FC2D17032298A6"
-				title: "{ftbquests.chapter.foolish.quest1711334518461922711.task.2665054656356587686.title}"
+				title: "Enter &eThe &eStellar Hollow"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.foolish.quest1711334518461922711.title}"
+			title: "Enter &eThe &eStellar Hollow"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["17BFE1AD70C97D97"]
-			description: ["{ftbquests.chapter.foolish.quest5216049268558751560.description1}"]
+			description: ["&cSacilit Abomination&r is a nightmare forged from crystal and flesh. Its body pulses with violet light, muscles twisting beneath shards of jagged sacilit."]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -171,7 +172,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.foolish.quest5216049268558751560.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "foolish:sacilic_abomination"
 				icon: {
@@ -182,7 +183,7 @@
 					}
 				}
 				id: "47574F2050840B5F"
-				title: "{ftbquests.chapter.foolish.quest5216049268558751560.task.5140664499875089247.title}"
+				title: "Kill &cThe Sacilic Abomination"
 				type: "kill"
 				value: 1L
 			}]
@@ -191,7 +192,7 @@
 		}
 		{
 			dependencies: ["17BFE1AD70C97D97"]
-			description: ["{ftbquests.chapter.foolish.quest3026404737714861190.description1}"]
+			description: ["&cThe Scarlant Queen&r is The crimson matriarch of an endless scarlet ant hive."]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -207,7 +208,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.foolish.quest3026404737714861190.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "foolish:scarlant_queen"
 				icon: {
@@ -218,7 +219,7 @@
 					}
 				}
 				id: "172C71AD0B4CA8E2"
-				title: "{ftbquests.chapter.foolish.quest3026404737714861190.task.1669834549880465634.title}"
+				title: "Kill &cThe Scarlant Queen"
 				type: "kill"
 				value: 1L
 			}]
@@ -228,9 +229,9 @@
 		{
 			dependencies: ["17BFE1AD70C97D97"]
 			description: [
-				"{ftbquests.chapter.foolish.quest2462277026517802960.description1}"
+				"&cThe Terraflora&r is a towering, ancient bloom born from the earth’s hatred itself."
 				""
-				"{ftbquests.chapter.foolish.quest2462277026517802960.description2}"
+				"Don’t be fooled by its beauty!"
 			]
 			icon: {
 				Count: 1
@@ -247,7 +248,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.foolish.quest2462277026517802960.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "foolish:terrorflora"
 				icon: {
@@ -258,7 +259,7 @@
 					}
 				}
 				id: "7619A22A07D141DF"
-				title: "{ftbquests.chapter.foolish.quest2462277026517802960.task.8510011272296743391.title}"
+				title: "Kill &cThe Terrorflora"
 				type: "kill"
 				value: 1L
 			}]
@@ -267,7 +268,7 @@
 		}
 		{
 			dependencies: ["17BFE1AD70C97D97"]
-			description: ["{ftbquests.chapter.foolish.quest7581599409477739829.description1}"]
+			description: ["&cThe Thunderbird&r, a storm given wings."]
 			icon: "foolish:thunder_core"
 			id: "6937407E6F3B6535"
 			rewards: [{
@@ -277,7 +278,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.foolish.quest7581599409477739829.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "foolish:thunderbird"
 				icon: {
@@ -288,7 +289,7 @@
 					}
 				}
 				id: "543B12C400859B07"
-				title: "{ftbquests.chapter.foolish.quest7581599409477739829.task.6069465555843521287.title}"
+				title: "Kill &cThe Thunderbird"
 				type: "kill"
 				value: 1L
 			}]
@@ -297,7 +298,7 @@
 		}
 		{
 			dependencies: ["17BFE1AD70C97D97"]
-			description: ["{ftbquests.chapter.foolish.quest8731126818424954498.description1}"]
+			description: ["&cThe Thrasher&r is a a giant, green-scaled predator born from the filth of swamps!"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -313,7 +314,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.foolish.quest8731126818424954498.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "foolish:thrasher"
 				icon: {
@@ -324,7 +325,7 @@
 					}
 				}
 				id: "0C50A00CAABD2E1D"
-				title: "{ftbquests.chapter.foolish.quest8731126818424954498.task.887385102856564253.title}"
+				title: "Kill &cThe Thrasher"
 				type: "kill"
 				value: 1L
 			}]
@@ -334,9 +335,9 @@
 		{
 			dependencies: ["17BFE1AD70C97D97"]
 			description: [
-				"{ftbquests.chapter.foolish.quest4614287170353702607.description1}"
+				"&cThe Varmint King&r is a smart and big rat. "
 				""
-				"{ftbquests.chapter.foolish.quest4614287170353702607.description2}"
+				"it fights with a blade stolen from those &dfoolish&r enough to underestimate it!"
 			]
 			icon: {
 				Count: 1
@@ -353,7 +354,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.foolish.quest4614287170353702607.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "foolish:varmint_king"
 				icon: {
@@ -364,7 +365,7 @@
 					}
 				}
 				id: "640E8649F7F15C0C"
-				title: "{ftbquests.chapter.foolish.quest4614287170353702607.task.7209847705717267468.title}"
+				title: "Kill &cThe Varmint King"
 				type: "kill"
 				value: 1L
 			}]
@@ -381,11 +382,11 @@
 				"40093DBBE09326CF"
 			]
 			description: [
-				"{ftbquests.chapter.foolish.quest6653027771156466705.description1}"
+				"&cAstralix, the Fallen Star&r is once a celestial guardian, now a god burned hollow by his own light. "
 				""
-				"{ftbquests.chapter.foolish.quest6653027771156466705.description2}"
+				"His armor blazes with dying starlight, his wings drip with the ashes of a shattered cosmos. "
 				""
-				"{ftbquests.chapter.foolish.quest6653027771156466705.description3}"
+				"Every swing of his blade rends the sky itself, the ground quakes beneath his descent."
 			]
 			icon: {
 				Count: 1
@@ -399,24 +400,24 @@
 				{
 					id: "6F93949480460526"
 					table_id: 4068213888760668096L
-					title: "{ftbquests.chapter.foolish.quest6653027771156466705.reward.8039933125314610470.title}"
+					title: "Ink Reward"
 					type: "random"
 				}
 				{
 					icon: "minecraft:oak_log"
 					id: "0D87A44541BF85DB"
 					table_id: 4067690183644308744L
-					title: "{ftbquests.chapter.foolish.quest6653027771156466705.reward.974928461711771099.title}"
+					title: "Low risk reward"
 					type: "random"
 				}
 			]
 			shape: "octagon"
 			size: 1.4d
-			subtitle: "{ftbquests.chapter.foolish.quest6653027771156466705.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				entity: "foolish:astralis"
 				id: "77C6EEB62E671AAB"
-				title: "{ftbquests.chapter.foolish.quest6653027771156466705.task.8630848202132101803.title}"
+				title: "Kill &cAstralis, Fallen Star"
 				type: "kill"
 				value: 1L
 			}]
@@ -432,7 +433,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.foolish.quest8850000640558264834.subtitle}"
+			subtitle: "Make a Keepsteel Greatsword"
 			tasks: [{
 				id: "6C35F7F7B233ECF8"
 				item: {
@@ -456,7 +457,7 @@
 				item: "foolish:meteordrive_hammer"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.foolish.quest4015004025935528030.title}"
+			title: "&dMeteordrive"
 			x: 7.5d
 			y: 1.0d
 		}
@@ -481,28 +482,28 @@
 				item: "foolish:astral_edge_sword"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.foolish.quest545505178436411298.title}"
+			title: "&dAstral Edge"
 			x: 6.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3393C84257399431"]
 			description: [
-				"{ftbquests.chapter.foolish.quest1282017219673735325.description1}"
+				"Explorer's house has everything you need, even a lighter!"
 				""
-				"{ftbquests.chapter.foolish.quest1282017219673735325.description2}"
+				"It is quite hard to find so i suggest using explorer's compass."
 			]
 			id: "11CAA3DE6E96409D"
-			subtitle: "{ftbquests.chapter.foolish.quest1282017219673735325.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1CE8834F982D3762"
 				structure: "foolish:explorers_house"
-				title: "{ftbquests.chapter.foolish.quest1282017219673735325.task.2083059205537609570.title}"
+				title: "Find a Explorer's House!"
 				type: "structure"
 			}]
 			x: -2.5d
 			y: 1.5d
 		}
 	]
-	title: "{ftbquests.chapter.foolish.title}"
+	title: "Foolish"
 }

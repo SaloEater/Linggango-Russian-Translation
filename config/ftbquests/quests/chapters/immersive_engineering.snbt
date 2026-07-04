@@ -3,45 +3,50 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "pentagon"
 	filename: "immersive_engineering"
-	group: "3C6437AAADAFC5CB"
-	icon: "immersiveengineering:manual"
+	group: "336B0783FD524DD2"
+	icon: "immersiveengineering:wirecoil_copper"
 	id: "3DAD57E3F71B4E27"
 	images: [
 		{
 			click: "https://www.youtube.com/watch?v=A21ar_pPMLM"
 			height: 1.0d
-			hover: ["ftbquests.chapter.immersive_engineering.image.hovertext1"]
+			hover: ["Immersive Engineering Tutorial Video"]
 			image: "supplementaries:textures/gui/book/icon/youtube.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
-			y: 2.0d
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			height: 2.25d
+			image: "customtextures:textures/immersive_engineering_title.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -11.0d
+			y: -3.5d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.immersive_engineering.image.hovertext2"]
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.0d
-			y: 2.5d
-		}
-		{
-			height: 5.0d
-			image: "customtextures:textures/immersiveloog.png"
-			rotation: 0.0d
-			width: 5.0d
 			x: -10.5d
-			y: -3.0d
+			y: -5.0d
 		}
 	]
-	order_index: 10
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.immersive_engineering.quest6637807565062915664.description1}"]
+			description: ["The main tool in Immersive Engineering is the Engineer’s Hammer. It’s used to rotate machines and assemble multiblock structures."]
 			icon: {
 				Count: 1
 				id: "immersiveengineering:hammer"
@@ -58,7 +63,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest6637807565062915664.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "1F061A6ED30AE0F9"
@@ -73,25 +78,25 @@
 				}
 				{
 					id: "22DF3F2ADADC7D61"
-					title: "{ftbquests.chapter.immersive_engineering.quest6637807565062915664.task.2512796570389085537.title}"
+					title: "Alright!"
 					type: "checkmark"
 				}
 			]
-			title: "{ftbquests.chapter.immersive_engineering.quest6637807565062915664.title}"
-			x: -10.479591836734706d
-			y: -0.5802721088435305d
+			title: "&6Welcome to Immersive Engineering"
+			x: -11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2D69C4A5F91F3CF7"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest2768831762365712090.description1}"
+				"Now we can dive into the mod!"
 				""
-				"{ftbquests.chapter.immersive_engineering.quest2768831762365712090.description2}"
+				"&c&lI HEAVILY SUGGEST USING JEI!&r"
 				""
-				"{ftbquests.chapter.immersive_engineering.quest2768831762365712090.description3}"
+				"Applying Creosote Oil to regular planks gives us access to Treated Planks. Treated Planks are used to make higher end equipment and machinery. We want to keep a steady supply of these."
 				""
 				""
-				"{ftbquests.chapter.immersive_engineering.quest2768831762365712090.description4}"
+				"&7I don't really know the mod btw, so here's a tutorial video."
 			]
 			id: "266CDDD166A086DA"
 			rewards: [{
@@ -101,20 +106,20 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest2768831762365712090.subtitle}"
+			size: 1.25d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0E47F7EF09AE37FD"
 				item: "immersiveengineering:treated_wood_horizontal"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest2768831762365712090.title}"
-			x: -5.0d
-			y: 1.0d
+			title: "Starting Point!"
+			x: -12.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4A1F818A8DC51612"]
-			description: ["{ftbquests.chapter.immersive_engineering.quest3272362821389597943.description1}"]
+			description: ["With Coke Dust ready, we can start building a Coke Oven. It takes some time to make, but it lets us produce Coal Coke and Creosote."]
 			icon: "immersiveengineering:coke_oven"
 			id: "2D69C4A5F91F3CF7"
 			rewards: [{
@@ -124,7 +129,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest3272362821389597943.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:coke_oven"
 				id: "4E6D23DD2814FF14"
@@ -133,15 +138,15 @@
 				to_observe: "immersiveengineering:coke_oven"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest3272362821389597943.title}"
-			x: -7.0d
+			title: "Sequential Oven"
+			x: -12.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["266CDDD166A086DA"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest4097810328688396780.description1}"
-				"{ftbquests.chapter.immersive_engineering.quest4097810328688396780.description2}"
+				"Building a Blast Furnace lets you use the Coal Coke we’ve been producing to superheat Iron into Steel."
+				"It also creates Slag as a byproduct!"
 			]
 			icon: "immersiveengineering:blast_furnace"
 			id: "38DE58C8666609EC"
@@ -152,8 +157,8 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest4097810328688396780.subtitle}"
+			size: 1.25d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:blast_furnace"
 				id: "7D3A260F4D951D3E"
@@ -162,32 +167,33 @@
 				to_observe: "immersiveengineering:blast_furnace"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest4097810328688396780.title}"
-			x: -1.0d
-			y: 1.0d
+			title: "Crudely Blasting"
+			x: -10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
-			description: ["{ftbquests.chapter.immersive_engineering.quest161305584567599057.description1}"]
+			description: ["This machine allows for continuous, automated Steel output."]
 			icon: "immersiveengineering:advanced_blast_furnace"
 			id: "023D129314703FD1"
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest161305584567599057.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:advanced_blast_furnace"
 				id: "0FF0597A645FC7D9"
 				observe_type: 0
 				timer: 0L
-				title: "{ftbquests.chapter.immersive_engineering.quest161305584567599057.task.1148516287184357337.title}"
+				title: "Advancd Blast Furnace"
 				to_observe: "immersiveengineering:advanced_blast_furnace"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest161305584567599057.title}"
-			x: -1.0d
-			y: 2.5d
+			title: "Improved Blasting"
+			x: -11.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["023D129314703FD1"]
-			description: ["{ftbquests.chapter.immersive_engineering.quest1907592568808058026.description1}"]
+			description: ["With electricity available, we can add Blast Furnace Preheaters to boost our Improved Blast Furnace."]
 			id: "1A7921559FFAACAA"
 			rewards: [{
 				count: 2
@@ -195,23 +201,24 @@
 				item: "immersiveengineering:connector_lv"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest1907592568808058026.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 2L
 				id: "71413AACDF9C838F"
 				item: { Count: 2, id: "immersiveengineering:blastfurnace_preheater" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest1907592568808058026.title}"
-			x: -1.0d
-			y: 4.0d
+			title: "Powered Blasting"
+			x: -11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest1329942396074626890.description1}"
+				"You can get power from kinetic motion aswell."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest1329942396074626890.description2}"
+				"The Kinetic Dynamo generates power from the flow of water or the speed of the wind."
 			]
 			id: "1274E79019C28F4A"
 			rewards: [{
@@ -219,24 +226,25 @@
 				item: "immersiveengineering:dynamo"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest1329942396074626890.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "069DC4997CC22589"
 				item: "immersiveengineering:dynamo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest1329942396074626890.title}"
-			x: -0.5d
-			y: -0.5d
+			title: "Electrical Kinetics"
+			x: -8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest8633818320978988206.description1}"
+				"The Thermoelectric Generator produces power from heat differences."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest8633818320978988206.description2}"
+				"Just place different heat blocks around it and the energy will start flowing."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest8633818320978988206.description3}"
+				"Check your Engineer’s Manual for details on how much each block contributes."
 			]
 			id: "77D17C04DD364CAE"
 			rewards: [{
@@ -245,26 +253,28 @@
 				item: "minecraft:blue_ice"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest8633818320978988206.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "16193146B991AF3D"
 				item: "immersiveengineering:thermoelectric_generator"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest8633818320978988206.title}"
-			x: -2.5d
-			y: 2.5d
+			title: "Heat Differential"
+			x: -10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["266CDDD166A086DA"]
-			description: ["{ftbquests.chapter.immersive_engineering.quest8650578311218980102.description1}"]
+			description: ["Building and designing the same thing repeatedly can be frustrating, that’s where Schematicannon comes in."]
 			id: "780D07242DE7E506"
 			rewards: [{
 				id: "20FFC2CDDD0606AB"
 				item: "create:empty_schematic"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest8650578311218980102.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "3144AACC48F9F7D5"
@@ -277,16 +287,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.immersive_engineering.quest8650578311218980102.title}"
-			x: -3.5d
-			y: -0.5d
+			title: "Laying Schematics"
+			x: -14.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest2965305581922602873.description1}"
+				"Connecting Water Wheels to a Kinetic Dynamo lets you passively generate power from flowing water."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest2965305581922602873.description2}"
+				"Make sure the water isn’t flowing against parts of the wheel it shouldn’t, or it will slow down the rotation."
 			]
 			id: "2926E1B744FACF79"
 			rewards: [{
@@ -295,22 +305,23 @@
 				item: "immersiveengineering:watermill"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest2965305581922602873.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6D5AE46CF4E7D8BC"
 				item: "immersiveengineering:watermill"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest2965305581922602873.title}"
-			x: -1.5d
-			y: -2.0d
+			title: "Water Wheeling"
+			x: -7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest7547355016700741157.description1}"
+				"You can harness wind power using Windmills connected to a Kinetic Dynamo."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest7547355016700741157.description2}"
+				"Simply place a Windmill on the Dynamo, and the wind will generate power automatically."
 			]
 			id: "68BD97666C35C625"
 			rewards: [{
@@ -319,22 +330,23 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest7547355016700741157.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "53B5DAA33C56D39D"
 				item: "immersiveengineering:windmill"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest7547355016700741157.title}"
-			x: -0.5d
-			y: -2.0d
+			title: "Windmill"
+			x: -7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["68BD97666C35C625"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest7642043544893465635.description1}"
+				"Windmill Sails improve the efficiency of your windmills."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest7642043544893465635.description2}"
+				"Attach them to a windmill to generate more energy from the wind."
 			]
 			id: "6A0DFE1D63712423"
 			rewards: [{
@@ -343,23 +355,24 @@
 				item: "immersiveengineering:hemp_fabric"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest7642043544893465635.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 8L
 				id: "6D1FB1ADEE757FD8"
 				item: { Count: 8, id: "immersiveengineering:windmill_sail" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest7642043544893465635.title}"
-			x: -0.5d
-			y: -3.5d
+			title: "Windmill Sail"
+			x: -6.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1274E79019C28F4A"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest515716311253234892.description1}"
+				"LV, MV, and HV Accumulators&r are a compact way to store power."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest515716311253234892.description2}"
+				"Use the Engineer’s Hammer to configure their input and output sides."
 			]
 			id: "07283140B11FB4CC"
 			rewards: [{
@@ -368,22 +381,23 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest515716311253234892.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "25D9E8A7DBDFAFC5"
 				item: "immersiveengineering:capacitor_lv"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest515716311253234892.title}"
-			x: 0.5d
-			y: -2.0d
+			title: "Compact Storage"
+			x: -7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest5182080297172936252.description1}"
+				"With a Metal Press, you can use electricity to create plates, rods, and wires."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest5182080297172936252.description2}"
+				"It’s faster and more automatable than the Create Press."
 			]
 			icon: "immersiveengineering:metal_press"
 			id: "47EA72930E8B263C"
@@ -392,7 +406,8 @@
 				item: "mekanism:block_steel"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest5182080297172936252.subtitle}"
+			size: 1.25d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:metal_press"
 				id: "6F037A92E36AB6C6"
@@ -401,16 +416,16 @@
 				to_observe: "immersiveengineering:metal_press"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest5182080297172936252.title}"
-			x: 1.0d
-			y: 1.0d
+			title: "Electrical Press"
+			x: -10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest1695326328770392437.description1}"
+				"The Crusher multiblock from Immersive Engineering lets us crush materials on a larger scale."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest1695326328770392437.description2}"
+				"It breaks items down, sometimes producing materials we couldn’t get before"
 			]
 			hide_dependency_lines: true
 			icon: "immersiveengineering:crusher"
@@ -421,7 +436,8 @@
 				item: "immersiveengineering:dust_saltpeter"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest1695326328770392437.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:crusher"
 				id: "3A6662D47938ECA3"
@@ -430,9 +446,9 @@
 				to_observe: "immersiveengineering:crusher"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest1695326328770392437.title}"
-			x: 4.0d
-			y: -0.5d
+			title: "Can it Crush"
+			x: -8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -440,9 +456,9 @@
 				"087EFD6289DFBB70"
 			]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest6083660581330331797.description1}"
+				"The Arc Furnace provides us with a simpiler way to be able to produce HOP Graphite without having to loose so many resources. "
 				""
-				"{ftbquests.chapter.immersive_engineering.quest6083660581330331797.description2}"
+				"It also opens up the ability to begin processing all of the Osmium we had been gathering."
 			]
 			icon: "immersiveengineering:arc_furnace"
 			id: "546D8110EC3DA895"
@@ -452,26 +468,27 @@
 				item: "immersiveengineering:steel_scaffolding_standard"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest6083660581330331797.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:arc_furnace"
 				id: "0B9D8A1CC51C0B46"
 				observe_type: 0
 				timer: 0L
-				title: "{ftbquests.chapter.immersive_engineering.quest6083660581330331797.task.836976961931447110.title}"
+				title: "Arc Furnace"
 				to_observe: "immersiveengineering:arc_furnace"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest6083660581330331797.title}"
-			x: 2.5d
-			y: -0.5d
+			title: "Arc Furnace"
+			x: -8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5ECDD562A5C902F6"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest3020117309299219742.description1}"
+				"With Biodiesel ready, we can build a Diesel Generator to produce much more power."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest3020117309299219742.description2}"
+				"This is one of our first major steps toward large-scale power production."
 			]
 			id: "29E99CB108C9DD1E"
 			optional: true
@@ -480,7 +497,8 @@
 				item: "immersiveengineering:biodiesel_bucket"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest3020117309299219742.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:diesel_generator"
 				id: "745989B6286AA001"
@@ -489,9 +507,9 @@
 				to_observe: "immersiveengineering:diesel_generator"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest3020117309299219742.title}"
-			x: 5.0d
-			y: 2.5d
+			title: "Environmental Catastrophe"
+			x: -11.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -499,10 +517,10 @@
 				"18EEE381A90610B5"
 			]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest6831350829455835894.description1}"
+				"With the Refinery, we can create new resources by refining what we already have."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest6831350829455835894.description2}"
-				"{ftbquests.chapter.immersive_engineering.quest6831350829455835894.description3}"
+				"Combine Ethanol and Plant Oil to make Biodiesel for power generation."
+				"You can also produce Phenolic Resin, which is needed for other materials later on."
 			]
 			id: "5ECDD562A5C902F6"
 			rewards: [{
@@ -511,7 +529,8 @@
 				item: "immersiveengineering:fluid_pipe"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest6831350829455835894.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:refinery"
 				id: "30FA527898922D68"
@@ -520,16 +539,16 @@
 				to_observe: "immersiveengineering:refinery"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest6831350829455835894.title}"
-			x: 5.0d
-			y: 1.0d
+			title: "Refined"
+			x: -11.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest2063247228486698534.description1}"
+				"The Fermenter multiblock is used to produce Ethanol."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest2063247228486698534.description2}"
+				"Ethanol can be made from various crops and used to create other resources"
 			]
 			id: "1CA2206C39C24626"
 			rewards: [{
@@ -537,7 +556,8 @@
 				item: "mekanism:block_steel"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest2063247228486698534.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:fermenter"
 				id: "4C4942CF3130646A"
@@ -546,16 +566,16 @@
 				to_observe: "immersiveengineering:fermenter"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest2063247228486698534.title}"
-			x: 3.0d
-			y: 1.0d
+			title: "Fermentation"
+			x: -11.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest1796623447393439925.description1}"
+				"The Industrial Squeezer is used to extra oil from seeds. "
 				""
-				"{ftbquests.chapter.immersive_engineering.quest1796623447393439925.description2}"
+				"It can also be used to squeeze Coke Dust into Graphite Dust."
 			]
 			id: "18EEE381A90610B5"
 			rewards: [{
@@ -564,7 +584,8 @@
 				item: "immersiveengineering:coal_coke"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest1796623447393439925.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:squeezer"
 				id: "65FBBB4C31373B63"
@@ -573,9 +594,9 @@
 				to_observe: "immersiveengineering:squeezer"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest1796623447393439925.title}"
-			x: 3.0d
-			y: 2.5d
+			title: "Squeezed Dry"
+			x: -10.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -583,11 +604,11 @@
 				"6CBE6DD3F776E019"
 			]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest8927647018971949046.description1}"
+				"The Bottling Machine is essential for producing advanced resources."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest8927647018971949046.description2}"
+				"Phenolic Resin can be turned into Duroplast and Grinding Disks."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest8927647018971949046.description3}"
+				"It can also create Redstone Acid Dusts."
 			]
 			id: "7BE55FA9BDE5E7F6"
 			rewards: [{
@@ -595,7 +616,8 @@
 				item: "minecraft:redstone_block"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest8927647018971949046.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:bottling_machine"
 				id: "261F32F2BAF6DE3F"
@@ -604,40 +626,41 @@
 				to_observe: "immersiveengineering:bottling_machine"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest8927647018971949046.title}"
-			x: 7.0d
-			y: 1.0d
+			title: "Bottled Up"
+			x: -13.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["07283140B11FB4CC"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest2017140668897188142.description1}"
+				"This the Lightning Rod, we can harness this power and generate energy from it. "
 				""
-				"{ftbquests.chapter.immersive_engineering.quest2017140668897188142.description2}"
+				"The lightning will strike the rod and generate power. "
 				""
-				"{ftbquests.chapter.immersive_engineering.quest2017140668897188142.description3}"
+				"Steel fences can be used to increase the height of the rod."
 			]
 			id: "1BFE52C0479C592E"
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest2017140668897188142.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:lightning_rod"
 				id: "402F6FB04767DA58"
 				observe_type: 0
 				timer: 0L
-				title: "{ftbquests.chapter.immersive_engineering.quest2017140668897188142.task.4625038145235704408.title}"
+				title: "Lightning Rod"
 				to_observe: "immersiveengineering:lightning_rod"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest2017140668897188142.title}"
-			x: 0.5d
-			y: -3.5d
+			title: "Generating Power From Lightning"
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["29E99CB108C9DD1E"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest9026508483488796996.description1}"
+				"Excavators are machines that gather resources from the world."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest9026508483488796996.description2}"
+				"They work chunk by chunk, digging and collecting materials until the resources in the area are fully depleted."
 			]
 			id: "7D4499A428665144"
 			rewards: [{
@@ -645,7 +668,8 @@
 				item: "mekanism:block_steel"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest9026508483488796996.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					icon: "immersiveengineering:bucket_wheel"
@@ -664,13 +688,13 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.immersive_engineering.quest9026508483488796996.title}"
-			x: 5.0d
-			y: 4.0d
+			title: "Diggy Diggy Hole"
+			x: -10.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
-			description: ["{ftbquests.chapter.immersive_engineering.quest612205199030729584.description1}"]
+			description: ["You can make Rough Rods with a Metal Press, or get the recipe from a trader to craft them in an Engineer’s Table."]
 			id: "087EFD6289DFBB70"
 			rewards: [{
 				id: "05F1CF8DCE21FB5F"
@@ -683,7 +707,8 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest612205199030729584.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "023A91782FFF74AE"
 				item: {
@@ -696,16 +721,16 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest612205199030729584.title}"
-			x: 1.0d
-			y: -0.5d
+			title: "Graphites"
+			x: -8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47EA72930E8B263C"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest7835821158828531737.description1}"
+				"The Mixer is used to create Redstone Acid, which is essential for progressing in Mekanism."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest7835821158828531737.description2}"
+				"It can also combine experience with mob drops to produce Mob Essence for crafting special resources."
 			]
 			hide_dependency_lines: true
 			id: "6CBE6DD3F776E019"
@@ -714,7 +739,8 @@
 				item: "minecraft:redstone_block"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest7835821158828531737.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:mixer"
 				id: "32896D04250F32B3"
@@ -723,13 +749,13 @@
 				to_observe: "immersiveengineering:mixer"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest7835821158828531737.title}"
-			x: 7.0d
-			y: 2.5d
+			title: "Multi-Mixer"
+			x: -13.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["546D8110EC3DA895"]
-			description: ["{ftbquests.chapter.immersive_engineering.quest193327445735848449.description1}"]
+			description: ["Set it up, supply the materials, and it will craft the recipes you’ve assigned automatically."]
 			icon: "immersiveengineering:auto_workbench"
 			id: "02AED649A06B3A01"
 			rewards: [{
@@ -738,26 +764,27 @@
 				item: "immersiveengineering:conveyor_basic"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest193327445735848449.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:auto_workbench"
 				id: "436FF3111A1A7EBF"
 				observe_type: 0
 				timer: 0L
-				title: "{ftbquests.chapter.immersive_engineering.quest193327445735848449.task.4859369777733992127.title}"
+				title: "Auto Workbench"
 				to_observe: "immersiveengineering:auto_workbench"
 				type: "observation"
 			}]
-			title: "{ftbquests.chapter.immersive_engineering.quest193327445735848449.title}"
-			x: 2.5d
-			y: -2.0d
+			title: "Auto workbench"
+			x: -6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["38DE58C8666609EC"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest2816476621345544196.description1}"
+				"The Sawmill cuts logs into planks faster than the Create saw."
 				""
-				"{ftbquests.chapter.immersive_engineering.quest2816476621345544196.description2}"
+				"It also produces Sawdust, which can be used to make cardboard boxes."
 			]
 			id: "27162290957E5804"
 			rewards: [{
@@ -765,115 +792,38 @@
 				item: "immersiveengineering:heavy_engineering"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest2816476621345544196.subtitle}"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				icon: "immersiveengineering:sawmill"
 				id: "013A31FD6DB835AD"
 				observe_type: 0
 				timer: 0L
-				title: "{ftbquests.chapter.immersive_engineering.quest2816476621345544196.task.88438107224421805.title}"
+				title: "Woodworks"
 				to_observe: "immersiveengineering:sawmill"
 				type: "observation"
 			}]
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["266CDDD166A086DA"]
-			description: ["{ftbquests.chapter.immersive_engineering.quest3055601004383596421.description1}"]
-			id: "2A67ACEC999C6F85"
-			rewards: [{
-				id: "1D3A4DABBCACADF7"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest3055601004383596421.subtitle}"
-			tasks: [{
-				id: "5927B4A0B6C8EE43"
-				item: "immersive_machinery:tunnel_digger"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["266CDDD166A086DA"]
-			description: ["{ftbquests.chapter.immersive_engineering.quest5603817318581545973.description1}"]
-			id: "4DC4C229343C2BF5"
-			rewards: [{
-				id: "04CD0C3463433EAC"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest5603817318581545973.subtitle}"
-			tasks: [{
-				id: "56AEA341D150E59A"
-				item: "immersive_machinery:redstone_sheep"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["266CDDD166A086DA"]
-			description: ["{ftbquests.chapter.immersive_engineering.quest4529594367660123387.description1}"]
-			id: "3EDC5A141CFDE4FB"
-			rewards: [{
-				id: "49AE3237F9F94141"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest4529594367660123387.subtitle}"
-			tasks: [{
-				id: "1762CA84CA7370FF"
-				item: "immersive_machinery:copperfin"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["266CDDD166A086DA"]
-			description: ["{ftbquests.chapter.immersive_engineering.quest8354678956315939353.description1}"]
-			id: "73F1C83EEBA49219"
-			rewards: [{
-				id: "5FCDD6624D2F3776"
-				type: "xp"
-				xp: 50
-			}]
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest8354678956315939353.subtitle}"
-			tasks: [{
-				id: "68BD405FB7017FFA"
-				item: {
-					Count: 1
-					id: "immersive_machinery:bamboo_bee"
-					tag: {
-						ContainerPositions: [ ]
-					}
-				}
-				type: "item"
-			}]
-			x: -6.5d
-			y: -0.5d
+			x: -9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5C1E3ACFD2F9C650"]
 			description: [
-				"{ftbquests.chapter.immersive_engineering.quest5341130115168671250.description1}"
+				"This book is a life saver if you are confused!"
 				""
-				"{ftbquests.chapter.immersive_engineering.quest5341130115168671250.description2}"
+				"It shows tons of information about multi-block structures and more."
 			]
 			id: "4A1F818A8DC51612"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.immersive_engineering.quest5341130115168671250.subtitle}"
+			size: 1.1d
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "325D17D9272AC36D"
 				item: "immersiveengineering:manual"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 1.0d
+			x: -12.5d
+			y: -1.5d
 		}
 	]
-	title: "{ftbquests.chapter.immersive_engineering.title}"
+	title: "<shadow a=0.4><grad from=#FA732A to=#FFCFB5>Immersive Engineering</grad></shadow>"
 }

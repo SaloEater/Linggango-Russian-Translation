@@ -4,14 +4,14 @@
 	default_min_width: 250
 	default_quest_shape: "square"
 	filename: "bleed_magic"
-	group: "20D67F7F184680D5"
-	icon: "bloodmagic:weakbloodshard"
+	group: "0361FC25A57730F8"
+	icon: "bloodmagic:upgradetrainer"
 	id: "620194588BD9F19E"
 	images: [
 		{
 			click: "https://www.youtube.com/watch?v=obfQuwJ3DHw"
 			height: 1.0d
-			hover: ["ftbquests.chapter.bleed_magic.image.hovertext1"]
+			hover: ["Blood Magic Youtube Tutorial"]
 			image: "supplementaries:textures/gui/book/icon/youtube.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -27,22 +27,12 @@
 			y: -4.5d
 		}
 		{
-			dev: true
-			height: 1.0d
-			hover: ["ftbquests.chapter.bleed_magic.image.hovertext2"]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			height: 3.2d
+			image: "customtextures:textures/blood_magic_title.png"
 			rotation: 0.0d
-			width: 1.0d
+			width: 7.0d
 			x: 2.0d
 			y: -7.0d
-		}
-		{
-			height: 1.0d
-			image: "customtextures:textures/bloodmagiclogo.png"
-			rotation: 0.0d
-			width: 8.0d
-			x: 2.0d
-			y: -6.0d
 		}
 		{
 			height: 1.5d
@@ -57,26 +47,41 @@
 			image: "bloodmagic:models/alchemyarrays/wiparray"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
-			y: -6.0d
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -10.0d
 		}
 	]
-	order_index: 2
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest9079418619075084349.description1}"
+				"&eBlood magic is a essential mod for cursed ring users because &nit changes the mana system&r &eso it uses life points instead of normal mana!"
 				""
-				"{ftbquests.chapter.bleed_magic.quest9079418619075084349.description2}"
+				"This mod is a pretty interesting magic mod that has to do things with blood."
 				""
-				"{ftbquests.chapter.bleed_magic.quest9079418619075084349.description3}"
+				"The in-game wiki is pretty nice aswell, take a look at it for sure."
 				""
-				"{ftbquests.chapter.bleed_magic.quest9079418619075084349.description4}"
+				"Let's start by gathering some &cblood&r!"
 				""
-				"{ftbquests.chapter.bleed_magic.quest9079418619075084349.description5}"
+				"&8I really don't know how to explain the multiblock things we will do here so here's a tutorial."
 				""
-				"{ftbquests.chapter.bleed_magic.quest9079418619075084349.description6}"
+				"Questline &nInspired&r by Atm9."
 			]
 			disable_toast: true
 			icon: {
@@ -100,13 +105,13 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest9079418619075084349.subtitle}"
+			subtitle: "In-game wiki"
 			tasks: [{
 				id: "6C12462EDF0C73ED"
-				title: "{ftbquests.chapter.bleed_magic.quest9079418619075084349.task.7787363872801584109.title}"
+				title: "weird name"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest9079418619075084349.title}"
+			title: "Sanguine Scientiem"
 			x: 2.0d
 			y: -4.5d
 		}
@@ -119,7 +124,7 @@
 				xp: 5
 			}]
 			shape: "circle"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest5026415384592617079.subtitle}"
+			subtitle: "Will be using it on ourself."
 			tasks: [{
 				id: "02B70A0BBA16E418"
 				item: "bloodmagic:sacrificialdagger"
@@ -131,13 +136,13 @@
 		{
 			dependencies: ["45C16A2944338E77"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest8937136470816559518.description1}"
+				"An upgradable altar that u can use to make lot of things in the mod."
 				""
-				"{ftbquests.chapter.bleed_magic.quest8937136470816559518.description2}"
+				"Use the sacrificial knife on it, this will deal some damage to you but fill the altar with blood."
 				""
-				"{ftbquests.chapter.bleed_magic.quest8937136470816559518.description3}"
+				"The blood will slowly fade away (i don't know why) so be quick, use it wisely!"
 				""
-				"{ftbquests.chapter.bleed_magic.quest8937136470816559518.description4}"
+				"Alright let's continue with making a blood orb now."
 			]
 			id: "7C071644EC35919E"
 			min_width: 250
@@ -148,22 +153,22 @@
 			}]
 			shape: "circle"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest8937136470816559518.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "3FFC2845704053E0"
 				item: "bloodmagic:altar"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest8937136470816559518.title}"
+			title: "Tier 1 Blood Altar"
 			x: -1.2724912373284383d
 			y: -2.5121230949367686d
 		}
 		{
 			dependencies: ["7C071644EC35919E"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest3561888826294531272.description1}"
+				"Crafted by tossing a diamond on blood filled tier 1 altar."
 				""
-				"{ftbquests.chapter.bleed_magic.quest3561888826294531272.description2}"
+				"Blood orbs store live essence"
 			]
 			icon_scale: 1.3d
 			id: "316E5F040CB7F4C8"
@@ -172,8 +177,8 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest3561888826294531272.subtitle}"
+			shape: "circle"
+			subtitle: "Holds 1K LP"
 			tasks: [{
 				id: "776EB52F2F5971D0"
 				item: "bloodmagic:weakbloodorb"
@@ -184,30 +189,30 @@
 		}
 		{
 			dependencies: ["316E5F040CB7F4C8"]
-			description: ["{ftbquests.chapter.bleed_magic.quest7686381348339798890.description1}"]
+			description: ["Placing stone in the Altar with 1000 LP inside will create Blank Slates!"]
 			id: "6AAB831CB3FB536A"
 			rewards: [{
 				id: "590F75E07C74D7B0"
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "{ftbquests.chapter.bleed_magic.quest7686381348339798890.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 2L
 				id: "7CBFE84B4FE3DC01"
 				item: "bloodmagic:blankslate"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest7686381348339798890.title}"
+			title: "Making Slates"
 			x: 2.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7C071644EC35919E"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest5427146085170205329.description1}"
+				"Not every items are craftable with just one simple altar, we have to upgrade it just like forbidden \\& arcanus."
 				""
-				"{ftbquests.chapter.bleed_magic.quest5427146085170205329.description2}"
+				"i suggest using the in-game guide book for the mod for better explanation about structures and how to build them!"
 			]
 			icon: "bloodmagic:altar"
 			id: "4B51189C36B8D291"
@@ -218,23 +223,23 @@
 				xp: 5
 			}]
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest5427146085170205329.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 8L
 				id: "4CDFCAAED8ABB615"
 				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest5427146085170205329.title}"
+			title: "Tier 2 Blood Altar"
 			x: -2.394414549580638d
 			y: -0.5440838834100177d
 		}
 		{
 			dependencies: ["45C16A2944338E77"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest6008355144821035800.description1}"
+				"With this dagger you can use other animals \\& mobs blood."
 				""
-				"{ftbquests.chapter.bleed_magic.quest6008355144821035800.description2}"
+				"Stabbing any mob within 2 blocks of your Altar with the dagger will insta-kill them and give blood to your altar. (Don't try it on the bosses)"
 			]
 			id: "5361F72BAB72D318"
 			rewards: [{
@@ -244,7 +249,7 @@
 			}]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest6008355144821035800.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "5D7178C2EF652773"
 				item: "bloodmagic:daggerofsacrifice"
@@ -255,7 +260,7 @@
 		}
 		{
 			dependencies: ["5361F72BAB72D318"]
-			description: ["{ftbquests.chapter.bleed_magic.quest3399527116055887439.description1}"]
+			description: ["A great addition to the dagger. Gives you extra blood per kill!"]
 			id: "2F2D8BE68CD1BE4F"
 			rewards: [{
 				id: "4514550E47EF8FF2"
@@ -263,7 +268,7 @@
 				xp: 5
 			}]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest3399527116055887439.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "569914B4D001023E"
 				item: "bloodmagic:sacrificerune"
@@ -274,7 +279,7 @@
 		}
 		{
 			dependencies: ["6AAB831CB3FB536A"]
-			description: ["{ftbquests.chapter.bleed_magic.quest3187607052799695943.description1}"]
+			description: ["Slates are for making sigils, runes and other materials in the mod."]
 			id: "2C3CA7B9D1A7DC47"
 			rewards: [{
 				id: "1CEE36C9BB24E275"
@@ -300,9 +305,9 @@
 				type: "xp"
 				xp: 5
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest582154920459762975.subtitle}"
+			subtitle: "Holds 25K LP"
 			tasks: [{
 				id: "46DC0EE4792CCA0D"
 				item: "bloodmagic:apprenticebloodorb"
@@ -321,18 +326,18 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest5329303051489705837.subtitle}"
+			subtitle: "increases the speed of crafting"
 			tasks: [{
 				id: "3EF20FD3AC7ED48B"
 				item: "bloodmagic:speedrune"
 				type: "item"
 			}]
-			x: -2.4412306152044536d
-			y: -2.0836349004779535d
+			x: -2.4244176526336574d
+			y: -2.8241047694751202d
 		}
 		{
 			dependencies: ["6AAB831CB3FB536A"]
-			description: ["{ftbquests.chapter.bleed_magic.quest8989985467301346779.description1}"]
+			description: ["Alchemy table has tons of features such as crafting certain materials from the mod, turning rotten flesh to leather, etc!"]
 			icon_scale: 1.2d
 			id: "7CC2D826CA6BBDDB"
 			rewards: [{
@@ -341,7 +346,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest8989985467301346779.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "33ECB0563BA9E2CB"
 				item: "bloodmagic:alchemytable"
@@ -353,9 +358,9 @@
 		{
 			dependencies: ["7CC2D826CA6BBDDB"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest2250559580401495391.description1}"
+				"Draw a circle with the arcane ashes, this will create an arcane array. "
 				""
-				"{ftbquests.chapter.bleed_magic.quest2250559580401495391.description2}"
+				"With arcane allay you can put items on it such Forbidden \\& Arcanus and Goety!"
 			]
 			id: "1F3B9803AFAEED5F"
 			rewards: [{
@@ -364,7 +369,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest2250559580401495391.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6168644A110A263A"
 				item: {
@@ -381,7 +386,7 @@
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
-			description: ["{ftbquests.chapter.bleed_magic.quest4228217314100621549.description1}"]
+			description: ["With the Lava Sigil in hand, if you right-click, you'll create a source block of lava for the low low cost of 1,000 LP."]
 			id: "3AADA53EC01FB0ED"
 			rewards: [{
 				id: "575036C4E7826796"
@@ -390,7 +395,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest4228217314100621549.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4EFA9FB003D8D147"
 				item: "bloodmagic:lavasigil"
@@ -401,7 +406,7 @@
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
-			description: ["{ftbquests.chapter.bleed_magic.quest2889811398152349773.description1}"]
+			description: ["Soul sigil can show how much LP your network and altar has with some additional infos."]
 			id: "281AAC27DEBEE84D"
 			rewards: [{
 				id: "74A2D318A5CDE2B6"
@@ -410,7 +415,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest2889811398152349773.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "19EF9DDE6B18A8B5"
 				item: "bloodmagic:divinationsigil"
@@ -421,7 +426,7 @@
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
-			description: ["{ftbquests.chapter.bleed_magic.quest9146007112838775111.description1}"]
+			description: ["When held in hand, you can right-click to create a water source."]
 			id: "7EED2502F1F38147"
 			rewards: [{
 				id: "62372C65358EB408"
@@ -430,7 +435,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest9146007112838775111.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "7825C546B68A7F85"
 				item: "bloodmagic:watersigil"
@@ -442,11 +447,11 @@
 		{
 			dependencies: ["45C16A2944338E77"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest7846657559669925711.description1}"
+				"If you love stabbing yourself or others too much.."
 				""
-				"{ftbquests.chapter.bleed_magic.quest7846657559669925711.description2}"
+				"This rune increases the amount of LP gained from getting blood from Players."
 				""
-				"{ftbquests.chapter.bleed_magic.quest7846657559669925711.description3}"
+				"Each rune gives a bonus of 10% additively. "
 			]
 			id: "6CE4ED7A2642674F"
 			rewards: [{
@@ -455,7 +460,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest7846657559669925711.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6692D1D1E4E4F758"
 				item: "bloodmagic:selfsacrificerune"
@@ -467,9 +472,9 @@
 		{
 			dependencies: ["6AAB831CB3FB536A"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest5795368206041540765.description1}"
+				"Hellfire forge requires demon will to work, which we obtain by using soul snares on a mob, and killing them."
 				""
-				"{ftbquests.chapter.bleed_magic.quest5795368206041540765.description2}"
+				"In the future, i suggest making sentient sword to avoid this hassle."
 			]
 			icon: "bloodmagic:soulsnare"
 			id: "506D48AD9FB2E89D"
@@ -480,20 +485,20 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest5795368206041540765.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 3L
 				id: "3D1BAA6CA8B979A9"
 				item: "bloodmagic:soulsnare"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest5795368206041540765.title}"
+			title: "Demon will"
 			x: 3.0846516198144087d
 			y: -0.04783738065106036d
 		}
 		{
 			dependencies: ["506D48AD9FB2E89D"]
-			description: ["{ftbquests.chapter.bleed_magic.quest8908267703203518213.description1}"]
+			description: ["The Hellfire Forge is AGAIN a crafting station type block just like in forbidden \\& Arcanus."]
 			id: "7BA086472D87D705"
 			rewards: [{
 				id: "4E527ED806BB2899"
@@ -501,13 +506,13 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest8908267703203518213.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "59D4952D3D164F6D"
 				item: "bloodmagic:soulforge"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest8908267703203518213.title}"
+			title: "&4Hellfire Forge&r"
 			x: 5.0d
 			y: -0.5d
 		}
@@ -521,7 +526,7 @@
 			}]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest1284509353561594504.subtitle}"
+			subtitle: "Stores about 64 demon wills"
 			tasks: [{
 				id: "1E4979886B89B2AD"
 				item: "bloodmagic:soulgempetty"
@@ -553,7 +558,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest2325418205411896505.subtitle}"
+			subtitle: "Stores about 4096 demon wills"
 			tasks: [{
 				id: "25B30F1BCCEE920A"
 				item: {
@@ -578,7 +583,7 @@
 			}]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest7092052152722151940.subtitle}"
+			subtitle: "Stores about 1024 demon wills"
 			tasks: [{
 				id: "04BCD1D949FCB24D"
 				item: {
@@ -603,7 +608,7 @@
 			}]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest5220364357389717055.subtitle}"
+			subtitle: "Stores about 256 demon wills"
 			tasks: [{
 				id: "55AF014185F20835"
 				item: "bloodmagic:soulgemlesser"
@@ -614,7 +619,7 @@
 		}
 		{
 			dependencies: ["7BA086472D87D705"]
-			description: ["{ftbquests.chapter.bleed_magic.quest8974957627487694848.description1}"]
+			description: ["The Sentient Sword allows you to collect Demon Will by simply killing a hostile mob with the sword!"]
 			id: "7C8D74692C963000"
 			rewards: [{
 				id: "0156CD7A758D6F73"
@@ -623,7 +628,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest8974957627487694848.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "72A92CB3A5DA9044"
 				item: {
@@ -635,22 +640,22 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest8974957627487694848.title}"
+			title: "The Sentient Sword"
 			x: 6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4B51189C36B8D291"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest6379003938267562209.description1}"
+				"To upgrade the Altar to Tier 3, we need 28 runes."
 				""
-				"{ftbquests.chapter.bleed_magic.quest6379003938267562209.description2}"
+				"You need to place 5 Blood Runes one block down and two blocks away from the Tier 2 Altar runes, along each edge. (explaining like this sucks)"
 				""
-				"{ftbquests.chapter.bleed_magic.quest6379003938267562209.description3}"
+				"You'll then want to create a pillar in each corner out of any block, with a pillar cap of Glowstone sitting one block higher than the Altar itself."
 				""
-				"{ftbquests.chapter.bleed_magic.quest6379003938267562209.description4}"
+				"If you want to check if the Altar was built correctly, use a Divination Sigil which is available in the next quest."
 				""
-				"{ftbquests.chapter.bleed_magic.quest6379003938267562209.description5}"
+				"i suggest using the in-game guide book for the mod for better explanation about structures and how to build them!"
 			]
 			icon: "bloodmagic:altar"
 			id: "5886C648D14180E1"
@@ -663,14 +668,14 @@
 			}]
 			shape: "pentagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest6379003938267562209.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 28L
 				id: "45FE50B70B45B915"
 				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest6379003938267562209.title}"
+			title: "Tier 3 Blood Altar"
 			x: -2.0d
 			y: 2.0d
 		}
@@ -684,7 +689,7 @@
 			}]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest3990172608276652415.subtitle}"
+			subtitle: "Allows us to make more enhanced craftable materials, etc."
 			tasks: [{
 				id: "2BEC3F34860494B0"
 				item: "bloodmagic:infusedslate"
@@ -703,7 +708,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest5168309061637647722.subtitle}"
+			subtitle: "Increases the flow rate of LP in and out of the altar."
 			tasks: [{
 				id: "00D5D96DA535CFE7"
 				item: "bloodmagic:dislocationrune"
@@ -721,8 +726,9 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "circle"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest1031841889026266806.subtitle}"
+			subtitle: "Holds 150K LP"
 			tasks: [{
 				id: "7BB6F203FCA31A25"
 				item: "bloodmagic:magicianbloodorb"
@@ -741,7 +747,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest804880203530112656.subtitle}"
+			subtitle: "Increases capacity of the altar"
 			tasks: [{
 				id: "41758E5DA17E2FDF"
 				item: "bloodmagic:altarcapacityrune"
@@ -752,7 +758,7 @@
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
-			description: ["{ftbquests.chapter.bleed_magic.quest6916066925304214416.description1}"]
+			description: ["Pulls items, just like every other magnet type charm, item etc."]
 			id: "5FFACE39C595F390"
 			rewards: [{
 				id: "0DAE1F584F8E2BB3"
@@ -760,7 +766,7 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest6916066925304214416.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "17E6AD3271D02A4A"
 				item: "bloodmagic:sigilofmagnetism"
@@ -771,7 +777,7 @@
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
-			description: ["{ftbquests.chapter.bleed_magic.quest3930454312783539281.description1}"]
+			description: ["Holds up to 5 other Sigils at a time, providing their passive effects and allowing you do some multi-tasking."]
 			id: "368BC75F7F5D6C51"
 			rewards: [{
 				id: "32CDEC7622DCC8B9"
@@ -779,7 +785,7 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest3930454312783539281.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "06FE02BA9214BBB9"
 				item: {
@@ -796,7 +802,7 @@
 		}
 		{
 			dependencies: ["1F3B9803AFAEED5F"]
-			description: ["{ftbquests.chapter.bleed_magic.quest2984393043265928636.description1}"]
+			description: ["Literally the name explains, it launches a blood lamp."]
 			id: "296AB1A92E033DBC"
 			rewards: [{
 				id: "2E8AE7C39C0FE537"
@@ -804,7 +810,7 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest2984393043265928636.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6F40287B8D15D540"
 				item: "bloodmagic:bloodlightsigil"
@@ -816,9 +822,9 @@
 		{
 			dependencies: ["308581359FEF32E9"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest1045988175542239280.description1}"
+				"Ritual Diviner shows exactly how the Ritual is built, and helps you build one!"
 				""
-				"{ftbquests.chapter.bleed_magic.quest1045988175542239280.description2}"
+				"To build a ritual, shift+right-click with the Ritual Diviner in the air, shift+left-click to go back"
 			]
 			id: "0E8418B42A744030"
 			rewards: [
@@ -834,7 +840,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest1045988175542239280.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [
 				{
 					id: "6B1FDBAA650C202A"
@@ -852,7 +858,7 @@
 		}
 		{
 			dependencies: ["5886C648D14180E1"]
-			description: ["{ftbquests.chapter.bleed_magic.quest3496342753039561449.description1}"]
+			description: ["A furnace like block, will be using it for tier 4 altar materials, etc."]
 			id: "308581359FEF32E9"
 			rewards: [{
 				id: "03C56F523A4FF303"
@@ -860,7 +866,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest3496342753039561449.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "1589663D302CE21E"
 				item: "bloodmagic:alchemicalreactionchamber"
@@ -871,12 +877,12 @@
 		}
 		{
 			dependencies: ["0E8418B42A744030"]
-			description: ["{ftbquests.chapter.bleed_magic.quest4368544724810470124.description1}"]
+			description: ["Hidden realm has few items that we will need for tier 4 altar aswell!"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "bloodmagic:block/dungeon/dungeon_eye_v"
+					Icon: "bloodmagic:block/dungeon/dungeon_alternator"
 				}
 			}
 			id: "3CA030481BBC12EC"
@@ -885,19 +891,19 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "{ftbquests.chapter.bleed_magic.quest4368544724810470124.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "0A339ADBDA81E798"
-				title: "{ftbquests.chapter.bleed_magic.quest4368544724810470124.task.735101433245984664.title}"
+				title: "Alright"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest4368544724810470124.title}"
+			title: "Enter Hidden Realm"
 			x: -1.6494476376845952d
 			y: 6.258685850763065d
 		}
 		{
 			dependencies: ["3CA030481BBC12EC"]
-			description: ["{ftbquests.chapter.bleed_magic.quest5810362708461386350.description1}"]
+			description: ["Obtained through hidden realm dungeon chests. Can be planted to farm it!"]
 			id: "50A28E1946047A6E"
 			rewards: [
 				{
@@ -913,7 +919,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest5810362708461386350.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "2D780C226FCF4A03"
 				item: "bloodmagic:weak_tau"
@@ -925,9 +931,9 @@
 		{
 			dependencies: ["50A28E1946047A6E"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest6786104285266490842.description1}"
+				"The plant deals damage when touched, so how about u drop a mob on it and let it die there :D"
 				""
-				"{ftbquests.chapter.bleed_magic.quest6786104285266490842.description2}"
+				"Doing this will turn it to saturated tau."
 			]
 			id: "5E2D15E4A410B5DA"
 			rewards: [
@@ -943,7 +949,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest6786104285266490842.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "102AEEB23B1AA7EF"
 				item: "bloodmagic:strong_tau"
@@ -962,7 +968,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest2680831502683646560.subtitle}"
+			subtitle: "Made within alchemical reaction chamber"
 			tasks: [
 				{
 					id: "3A104E7D6C6AA524"
@@ -987,11 +993,11 @@
 		{
 			dependencies: ["25343A0C4C22AA60"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest4835815157070643319.description1}"
+				"Again we need lotta runes, and gotta make a big multiblock structure."
 				""
-				"{ftbquests.chapter.bleed_magic.quest4835815157070643319.description2}"
+				"Make a pyramid like shape, then create pillars in each of the corners."
 				""
-				"{ftbquests.chapter.bleed_magic.quest4835815157070643319.description3}"
+				"Again i suggest using the in-game guide book for the mod for better explanation about structures and how to build them!"
 			]
 			icon: "bloodmagic:altar"
 			id: "431C44439CA54077"
@@ -1003,23 +1009,23 @@
 			}]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest4835815157070643319.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				count: 56L
 				id: "03DBCA5695879C49"
 				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest4835815157070643319.title}"
+			title: "Tier 4 Blood Altar"
 			x: -6.745238095238101d
 			y: 5.19047619047619d
 		}
 		{
 			dependencies: ["431C44439CA54077"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest8981213880370253503.description1}"
+				"The last piece of Slate that has any use..."
 				""
-				"{ftbquests.chapter.bleed_magic.quest8981213880370253503.description2}"
+				"yet."
 			]
 			id: "7CA3AE708F46CEBF"
 			rewards: [{
@@ -1028,7 +1034,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest8981213880370253503.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "57F75D0B2554BA61"
 				item: "bloodmagic:demonslate"
@@ -1039,7 +1045,7 @@
 		}
 		{
 			dependencies: ["431C44439CA54077"]
-			description: ["{ftbquests.chapter.bleed_magic.quest327587966948072911.description1}"]
+			description: ["As u may guess, if you had the ring now you would've have infinite mana :D"]
 			icon_scale: 1.3d
 			id: "048BD38532A1DDCF"
 			rewards: [{
@@ -1047,8 +1053,9 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "circle"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest327587966948072911.subtitle}"
+			subtitle: "Holds 1M LP"
 			tasks: [{
 				id: "2F13F6D6E170BBEC"
 				item: "bloodmagic:masterbloodorb"
@@ -1067,7 +1074,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest7806989337309671715.subtitle}"
+			subtitle: "Stores and instantly applies LP"
 			tasks: [{
 				id: "73F90730D99D6384"
 				item: "bloodmagic:chargingrune"
@@ -1086,7 +1093,7 @@
 			}]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest7785963701275298029.subtitle}"
+			subtitle: "Increases the capacity of the Altar"
 			tasks: [{
 				id: "0B14A7CBC056CC9F"
 				item: "bloodmagic:bettercapacityrune"
@@ -1105,7 +1112,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest6785992487468488878.subtitle}"
+			subtitle: "Pushes liquids around you"
 			tasks: [{
 				id: "097D8139589AF377"
 				item: "bloodmagic:sigilofsuppression"
@@ -1117,9 +1124,9 @@
 		{
 			dependencies: ["7CA3AE708F46CEBF"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest1072650740565872816.description1}"
+				"This rune accelerates the operations of other runes, like the Charging or Displacement Rune."
 				""
-				"{ftbquests.chapter.bleed_magic.quest1072650740565872816.description2}"
+				"It removes 1 tick of delay per rune, down to a minimum of 1 operation per tick."
 			]
 			id: "0EE2D22A577D10B0"
 			rewards: [{
@@ -1129,7 +1136,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest1072650740565872816.subtitle}"
+			subtitle: "Makes other runes operate faster"
 			tasks: [{
 				id: "7EB95246A2F0981D"
 				item: "bloodmagic:accelerationrune"
@@ -1148,7 +1155,7 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest4002330395196393160.subtitle}"
+			subtitle: "Teleports user into a linked teleposer."
 			tasks: [
 				{
 					id: "1C0B9DDCEB5ED14F"
@@ -1173,7 +1180,7 @@
 				xp: 5
 			}]
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest5938528861329710238.subtitle}"
+			subtitle: "Upgrade material"
 			tasks: [{
 				id: "4A1A8287168F702B"
 				item: {
@@ -1196,7 +1203,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "{ftbquests.chapter.bleed_magic.quest6979759613675707563.subtitle}"
+			subtitle: "Access to more rituals"
 			tasks: [{
 				id: "6E629C13C695EA0A"
 				item: "bloodmagic:ritualdivinerdusk"
@@ -1208,9 +1215,9 @@
 		{
 			dependencies: ["60DD166366C21CAB"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest4813739512830563122.description1}"
+				"Accessing it will require you to do the pathway of endless realm ritual."
 				""
-				"{ftbquests.chapter.bleed_magic.quest4813739512830563122.description2}"
+				"In this realm we will find very good items and essential items for tier 5 altar."
 			]
 			icon: {
 				Count: 1
@@ -1226,22 +1233,22 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest4813739512830563122.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "5C7C9797A37F374B"
-				title: "{ftbquests.chapter.bleed_magic.quest4813739512830563122.task.6664368226140370763.title}"
+				title: "Woaw"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest4813739512830563122.title}"
+			title: "&cThe Demon Realm"
 			x: -7.4955889598757395d
 			y: -0.753279473354759d
 		}
 		{
 			dependencies: ["42CDD69527871332"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest2455789856170138114.description1}"
+				"We will need blank runes and 4 demonite blocks."
 				""
-				"{ftbquests.chapter.bleed_magic.quest2455789856170138114.description2}"
+				"Again i suggest using the in-game guide book for the mod for better explanation about structures and how to build them!"
 			]
 			icon: "bloodmagic:altar"
 			id: "2214B7DCE4075A02"
@@ -1272,7 +1279,7 @@
 				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest2455789856170138114.title}"
+			title: "Tier 5 Blood Altar"
 			x: -6.335959185648463d
 			y: -2.9115078708090465d
 		}
@@ -1287,7 +1294,7 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest4137303201743740171.subtitle}"
+			subtitle: "Ultimate Slate!"
 			tasks: [{
 				id: "600A5AEE6C546B4C"
 				item: "bloodmagic:etherealslate"
@@ -1298,7 +1305,7 @@
 		}
 		{
 			dependencies: ["396AA75774059D0B"]
-			description: ["{ftbquests.chapter.bleed_magic.quest3216279670905747297.description1}"]
+			description: ["Runes we've did before can be upgraded to their final form!"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1315,19 +1322,19 @@
 			}]
 			shape: "square"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bleed_magic.quest3216279670905747297.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "19128860A456424D"
-				title: "{ftbquests.chapter.bleed_magic.quest3216279670905747297.task.1806656349184344653.title}"
+				title: "Woa"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.bleed_magic.quest3216279670905747297.title}"
+			title: "Reinforced Runes"
 			x: -3.585d
 			y: -4.909999999999999d
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
-			description: ["{ftbquests.chapter.bleed_magic.quest7022566357515685572.description1}"]
+			description: ["Dashes or throws you at the direction you are looking at."]
 			id: "61752AE51F54CEC4"
 			rewards: [{
 				id: "563063687B006A1B"
@@ -1335,7 +1342,7 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest7022566357515685572.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "06D00F9A2FFB6E4F"
 				item: "bloodmagic:airsigil"
@@ -1346,7 +1353,7 @@
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
-			description: ["{ftbquests.chapter.bleed_magic.quest8643339759154674349.description1}"]
+			description: ["Gives more info when looking at Altars."]
 			id: "77F34FB7716CBAAD"
 			rewards: [{
 				id: "31ED9A878223FAFC"
@@ -1354,7 +1361,7 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest8643339759154674349.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "027A51E73CB9FA90"
 				item: "bloodmagic:seersigil"
@@ -1365,7 +1372,7 @@
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
-			description: ["{ftbquests.chapter.bleed_magic.quest4415020820775853160.description1}"]
+			description: ["Right-Click on any liquid to vanish it."]
 			id: "3D454E0B724C5C68"
 			rewards: [{
 				id: "07128F70014C7A53"
@@ -1373,7 +1380,7 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest4415020820775853160.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "536F4B221790205F"
 				item: "bloodmagic:voidsigil"
@@ -1384,7 +1391,7 @@
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
-			description: ["{ftbquests.chapter.bleed_magic.quest6489618659905366370.description1}"]
+			description: ["Gives 5 seconds of haste buff."]
 			id: "5A0FC1C9A767E962"
 			rewards: [{
 				id: "14C8C443F49033E8"
@@ -1392,7 +1399,7 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest6489618659905366370.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4E915C03BA782F4A"
 				item: "bloodmagic:miningsigil"
@@ -1403,7 +1410,7 @@
 		}
 		{
 			dependencies: ["2C3CA7B9D1A7DC47"]
-			description: ["{ftbquests.chapter.bleed_magic.quest4595197168047392038.description1}"]
+			description: ["Causes bonemeal effect on AoE, great for farms."]
 			id: "3FC56B7A5A588526"
 			rewards: [{
 				id: "5FFB4DFEF32768A9"
@@ -1411,7 +1418,7 @@
 				xp: 5
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest4595197168047392038.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "4DBD7B37BA800495"
 				item: "bloodmagic:growthsigil"
@@ -1423,14 +1430,14 @@
 		{
 			dependencies: ["4B51189C36B8D291"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description1}"
-				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description2}"
+				"Play With Friends - Share Your LP!"
+				"Key of Binding lets you share your Life Essence with teammates!"
 				""
-				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description3}"
-				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description4}"
-				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description5}"
-				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description6}"
-				"{ftbquests.chapter.bleed_magic.quest1571450711087356126.description7}"
+				"Bind a Key of Binding to your Soul Network"
+				"Give the bound key to a friend"
+				"They hold it in their offhand or curio slot"
+				"Now their sigils and bound items draw from YOUR LP!"
+				"Perfect for servers where one player focuses on LP generation while others focus on combat. Power your entire team's sigils, bound weapons, and rituals from a single massive Soul Network!"
 			]
 			icon: {
 				Count: 1
@@ -1448,7 +1455,7 @@
 			}]
 			tasks: [{
 				id: "36EB3FF248E4845B"
-				title: "{ftbquests.chapter.bleed_magic.quest1571450711087356126.task.3957327007412683867.title}"
+				title: "Sharing LP"
 				type: "checkmark"
 			}]
 			x: -3.894414549580638d
@@ -1458,7 +1465,7 @@
 			dependencies: ["7CA3AE708F46CEBF"]
 			id: "5947007A85C5D70D"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest6433111118952388365.subtitle}"
+			subtitle: "Store and place blocks, or bind to a Teleposer to teleport entities across dimensions"
 			tasks: [{
 				id: "5606DFF1CFA48D06"
 				item: "animus:sigil_transposition"
@@ -1471,7 +1478,7 @@
 			dependencies: ["375FF0D8ACD2E17F"]
 			id: "71951138E60152D0"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest8184466833890431696.subtitle}"
+			subtitle: "Summon lightning bolts at will"
 			tasks: [{
 				id: "078A8A71564FE60D"
 				item: "animus:sigil_storm"
@@ -1484,7 +1491,7 @@
 			dependencies: ["375FF0D8ACD2E17F"]
 			id: "526BE9CEC897E39D"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest5939097607956063133.subtitle}"
+			subtitle: "Convert everything you touch into corrupting AntiLife"
 			tasks: [{
 				id: "076FC4E7BDE0E4D7"
 				item: "animus:sigil_consumption"
@@ -1497,7 +1504,7 @@
 			dependencies: ["7CA3AE708F46CEBF"]
 			id: "4725C38BE6833AEE"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest5126718756466408174.subtitle}"
+			subtitle: "Levitate enemies then drop them for devastating fall damage"
 			tasks: [{
 				id: "78E43C8E53A20035"
 				item: "animus:sigil_heavenly_wrath"
@@ -1510,7 +1517,7 @@
 			dependencies: ["7CA3AE708F46CEBF"]
 			id: "1849CA989FA54A53"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest1750152687072397907.subtitle}"
+			subtitle: "Accelerate block entities up to 32x speed (furnaces, spawners, anything!)"
 			tasks: [{
 				id: "4DCF298D55E9D741"
 				item: "animus:sigil_temporal_dominance"
@@ -1523,7 +1530,7 @@
 			dependencies: ["2C3CA7B9D1A7DC47"]
 			id: "166635E979F4B459"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest1614036793348633689.subtitle}"
+			subtitle: "Mass-replace blocks in a configurable radius - terraforming made easy"
 			tasks: [{
 				id: "7D1F727E8591B52A"
 				item: "animus:sigil_equivalency"
@@ -1536,7 +1543,7 @@
 			dependencies: ["7CA3AE708F46CEBF"]
 			id: "7B075C2F9556EB42"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest8865155750940830530.subtitle}"
+			subtitle: "Enter ghost mode for scouting, PLUS works as a Totem of Undying!"
 			tasks: [{
 				id: "5A770BAC44CD05BE"
 				item: "animus:sigil_free_soul"
@@ -1549,7 +1556,7 @@
 			dependencies: ["375FF0D8ACD2E17F"]
 			id: "33181761D8132E00"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest3681718404379782656.subtitle}"
+			subtitle: "Automatically cleanse negative potion effects"
 			tasks: [{
 				id: "43338E00B3C806BC"
 				item: "animus:sigil_remedium"
@@ -1562,7 +1569,7 @@
 			dependencies: ["375FF0D8ACD2E17F"]
 			id: "6063ECF33AC4A9C6"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest6945655579742611910.subtitle}"
+			subtitle: "Passively repair damaged items in your inventory"
 			tasks: [{
 				id: "6357C1D0480CC1D7"
 				item: "animus:sigil_reparare"
@@ -1575,7 +1582,7 @@
 			dependencies: ["2C3CA7B9D1A7DC47"]
 			id: "42B8B7C0C7BEEC4D"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest4807794640830786637.subtitle}"
+			subtitle: "Consume nearby plants to restore hunger"
 			tasks: [{
 				id: "502666B61EEDE476"
 				item: "animus:sigil_leach"
@@ -1588,7 +1595,7 @@
 			dependencies: ["375FF0D8ACD2E17F"]
 			id: "0C2B3CEF9CCEED82"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest876861552279350658.subtitle}"
+			subtitle: "Capture entities into Mob Souls and release them elsewhere"
 			tasks: [{
 				id: "2713D6BC9B49829E"
 				item: "animus:sigil_chains"
@@ -1601,7 +1608,7 @@
 			dependencies: ["2C3CA7B9D1A7DC47"]
 			id: "46B2B287493387F2"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest5094330422627895282.subtitle}"
+			subtitle: "Accelerated block placement speed"
 			tasks: [{
 				id: "44ADA572D7C37384"
 				item: "animus:sigil_builder"
@@ -1615,7 +1622,7 @@
 			disable_toast: true
 			id: "705C9AF13AEEAD36"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest8096516590971825462.subtitle}"
+			subtitle: "Blood Magic Add-On"
 			tasks: [{
 				id: "6927FDCEA89E44BE"
 				item: {
@@ -1634,21 +1641,21 @@
 			dependencies: ["7C071644EC35919E"]
 			id: "67B6395111660B2A"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest7473223652014951210.subtitle}"
+			subtitle: "Grow living wood from blood-infused saplings. The apples restore hunger and LP!"
 			tasks: [{
 				id: "4990C8B7B43142F1"
 				item: "animus:blood_sapling"
 				type: "item"
 			}]
-			x: -2.4412306152044536d
-			y: -3.0836349004779535d
+			x: -1.773107359413089d
+			y: -3.5938351160085134d
 		}
 		{
 			dependencies: ["7BA086472D87D705"]
-			description: ["{ftbquests.chapter.bleed_magic.quest3575140258572019678.description1}"]
+			description: ["The Sentient Spear allows you to collect Demon Will by simply killing a hostile mob with the sword!"]
 			id: "319D731F8E6227DE"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest3575140258572019678.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "20F088F72FC50471"
 				item: {
@@ -1665,10 +1672,10 @@
 		}
 		{
 			dependencies: ["7BA086472D87D705"]
-			description: ["{ftbquests.chapter.bleed_magic.quest3908816219078570779.description1}"]
+			description: ["The Sentient Shield allows you to boost Demon Will gain by simply having it equipped!"]
 			id: "363EE7A43676B31B"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest3908816219078570779.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "6220A946F27376BE"
 				item: {
@@ -1828,7 +1835,7 @@
 			dependencies: ["751D7B1EDE27DD31"]
 			id: "2D3F708693EE8B07"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest3260448378549340935.subtitle}"
+			subtitle: "An armor that learns overtime."
 			tasks: [
 				{
 					id: "52F0AE2F5009594F"
@@ -1885,10 +1892,10 @@
 		}
 		{
 			dependencies: ["7BA086472D87D705"]
-			description: ["{ftbquests.chapter.bleed_magic.quest5451177801560241412.description1}"]
+			description: ["The Sentient bow allows you to collect Demon Will by simply killing a hostile mob with the bow!"]
 			id: "4BA67954357E3504"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest5451177801560241412.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "2FE77E30F3ABCC84"
 				item: {
@@ -1906,13 +1913,13 @@
 		{
 			dependencies: ["4BA67954357E3504"]
 			description: [
-				"{ftbquests.chapter.bleed_magic.quest8215746289107755044.description1}"
+				"The Hellforged bow consumes LP instead of arrows upon shooting, when fully charged it kills any target below 15%."
 				""
-				"{ftbquests.chapter.bleed_magic.quest8215746289107755044.description2}"
+				"The more u keep charging, the more it lp uses and the more damage it deals."
 			]
 			id: "720431B897006024"
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.bleed_magic.quest8215746289107755044.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "73CCFF712E477198"
 				item: {
@@ -1937,5 +1944,5 @@
 			y: 0.0d
 		}
 	]
-	title: "{ftbquests.chapter.bleed_magic.title}"
+	title: "<shadow a=0.4><grad from=#790C0C to=#1E0000>Blood Magic</grad></shadow>"
 }

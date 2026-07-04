@@ -1,0 +1,470 @@
+{
+	autofocus_id: "6D46B1A605A04BE9"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ice_element"
+	group: "0361FC25A57730F8"
+	icon: "irons_spellbooks:ice_rune"
+	id: "4C6687B9D8DA64C2"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: [
+			"All rights are reserved."
+			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+		]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -1.0d
+		y: -2.0d
+	}]
+	order_index: 7
+	parent: "529863295F3FB653"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:item/ice_rune"
+				}
+			}
+			id: "6D46B1A605A04BE9"
+			shape: "none"
+			size: 2.5d
+			subtitle: "The Ice school is centered around damage and crowd control."
+			tasks: [{
+				id: "6454F8F463BDE1C5"
+				item: "irons_spellbooks:ice_rune"
+				type: "item"
+			}]
+			title: "Frost magic"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D46B1A605A04BE9"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/cone_of_cold.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "49184739FC23FA4D"
+			shape: "square"
+			subtitle: "Hold to cast out a cone of cold energy, freezing creatures in its path."
+			tasks: [{
+				id: "47CF4B872E1418A0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:cone_of_cold"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Cone Of Cold"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D46B1A605A04BE9"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/frost_step.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "40EA0A65E13F7EAB"
+			shape: "square"
+			subtitle: "Instantaneously teleport to where you are looking, leaving behind a shadow of ice. This shadow will shatter after 3 seconds or upon taking any damage, shooting out icicles in every direction."
+			tasks: [{
+				id: "4430CCF65C614881"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:frost_step"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Frost Step"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D46B1A605A04BE9"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/frostwave.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "77EDF548D39AEF96"
+			shape: "square"
+			subtitle: "Cascade a wave of frost magic in a radius around you, afflicting creatures with chilled. Chilled creatures are slowed, and have their incoming freeze time doubled."
+			tasks: [{
+				id: "56DCBCEF7A151B46"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:frostwave"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Frostwave"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D46B1A605A04BE9"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ice_block.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5BA5CC9E9BA67619"
+			shape: "square"
+			subtitle: "Conjure a giant chunk of ice above a targeted creature or block. After a short delay, it will fall down and explode for area frost damage, doing additional damage to any creatures hit on the way down."
+			tasks: [{
+				id: "71D0DF9CE53A9100"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ice_block"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ice Block"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D46B1A605A04BE9"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/icicle.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4A790C7B4E7C9A44"
+			shape: "square"
+			subtitle: "Fire a piercing bolt of cold energy in the form of an icicle, freezing those it touches."
+			tasks: [{
+				id: "47C54FE5554D4817"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:icicle"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Icicle"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D46B1A605A04BE9"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ray_of_frost.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5BF66A8EB5C27D54"
+			shape: "square"
+			subtitle: "Fire a beam of cold energy, dealing low damage but immediately applying freeze to the creature hit."
+			tasks: [{
+				id: "318F6402FA975FA5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ray_of_frost"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ray Of Frost"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D46B1A605A04BE9"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/summon_polar_bear.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "37DB76DF7EEC9CC1"
+			shape: "square"
+			subtitle: "Cast to summon a polar bear who will follow, protect, and fight for you, as well as providing a mount."
+			tasks: [{
+				id: "5A74AA52F30FFC7A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:summon_polar_bear"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Summon Polar Bear"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D46B1A605A04BE9"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/ice_age.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4AF405BD7AB2C446"
+			shape: "square"
+			tasks: [{
+				id: "114FCC0F26D4C01F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "alshanex_familiars:ice_age"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6D46B1A605A04BE9"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/ice_chamber.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "56CF4410AB6B8CFB"
+			shape: "square"
+			tasks: [{
+				id: "599C3A8650619EC9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "alshanex_familiars:ice_chamber"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6D46B1A605A04BE9"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ice_spikes.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7E46B648E89FEE3D"
+			shape: "square"
+			tasks: [{
+				id: "5D54CA975D3D97AA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:ice_spikes"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D46B1A605A04BE9"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ice_tomb.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "72FDFCAAA2B07D97"
+			shape: "square"
+			tasks: [{
+				id: "6F30E6A6C727C590"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:ice_tomb"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+	]
+	title: "<grad from=#35FCF9 to=#B8FFFE>Ice Element</grad>"
+}

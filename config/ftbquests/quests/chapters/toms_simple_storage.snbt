@@ -1,0 +1,204 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "toms_simple_storage"
+	group: "336B0783FD524DD2"
+	id: "254FEC26D0860BE6"
+	images: [
+		{
+			height: 1.0d
+			image: "customtextures:textures/toms_simple.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	order_index: 17
+	parent: "5F6B7CD03DAE57CA"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1812A79944021D76"]
+			id: "49A012E78620BCB1"
+			rewards: [{
+				id: "2CDD68FE8DBA6397"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3AFD84E7B8D52946"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1812A79944021D76"]
+			description: ["Extension cables, but instead of electricity, it is essentially an item cable."]
+			id: "408C34432E394C2B"
+			rewards: [{
+				id: "687A65A092B604B6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Transport Items"
+			tasks: [
+				{
+					id: "6D5ED7E8751D87C8"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "707B082B1A9F6240"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Think of wires all connecting from several places into a single point."]
+			id: "1812A79944021D76"
+			rewards: [
+				{
+					id: "6E235259E06672F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "152C0BDE1853D466"
+					item: "minecraft:chest"
+					random_bonus: 6
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "The Brain"
+			tasks: [{
+				id: "3D7616496DA3521D"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			title: "Touch"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1812A79944021D76"]
+			description: ["If you know how Create's item vault and filters work, this is similar."]
+			id: "3C1E7E02FDDFF8E3"
+			rewards: [{
+				id: "6B5813BA6036A969"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Basically a advanced hopper with filter"
+			tasks: [{
+				id: "57CCD702C6F8AD64"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1812A79944021D76"]
+			description: ["You can craft while you're away from your main base, but remember that it is quite costly for such a benefit."]
+			id: "5E783474BA6980E3"
+			rewards: [{
+				id: "2131E108868F53D5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Bluetooth Crafting"
+			tasks: [
+				{
+					id: "4EA516B03DB9C790"
+					item: "toms_storage:ts.wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "256E3A469E9BE3EF"
+					item: "toms_storage:ts.adv_wireless_terminal"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1812A79944021D76"]
+			description: [
+				"Have a look at your entire inventory like a computer looking at all their files in one place and access them."
+				""
+				"Mainly placed on an &6inventory connector block&r."
+			]
+			id: "4918B0939E4604A0"
+			rewards: [{
+				id: "4EFA66653794A016"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "No more looking for 50 chests to find one item"
+			tasks: [
+				{
+					id: "51ABC8AF78B685AB"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					id: "2B908AACADC06896"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+			]
+			title: "Terminals"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1812A79944021D76"]
+			id: "2DB891E1024CAE0C"
+			rewards: [{
+				id: "075E761E5EB7023F"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "What if you have 2 storages in different locations? Use this!"
+			tasks: [{
+				id: "186556212E037477"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "<shadow a=0.4><grad from=#FA732A to=#FFCFB5>Tom's Simple Storage</grad></shadow>"
+}

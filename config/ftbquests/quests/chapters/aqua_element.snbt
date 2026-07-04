@@ -1,0 +1,1144 @@
+{
+	autofocus_id: "5103BC5D0730E0F0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aqua_element"
+	group: "0361FC25A57730F8"
+	icon: "traveloptics:aqua_rune"
+	id: "664077B803758587"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: [
+			"All rights are reserved."
+			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+		]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -1.0d
+		y: -3.5d
+	}]
+	order_index: 17
+	parent: "529863295F3FB653"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			hide_dependent_lines: true
+			id: "5103BC5D0730E0F0"
+			shape: "none"
+			size: 2.5d
+			tasks: [{
+				id: "39BB08CBD1DEEB64"
+				item: "traveloptics:aqua_rune"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/coral_barrage.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "471B71349DCAACD2"
+			shape: "square"
+			subtitle: "Select The Target, Amplify The Effect By Using The Spell Repeatedly, After The Timer Runs Out, The Target Explodes With Water, Dealing High Damage."
+			tasks: [{
+				id: "71493AD5CDC09418"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:coral_barrage"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Coral Barrage"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/flood_slash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7FDBEF0B8E381D13"
+			shape: "square"
+			subtitle: "Send A Wave Of Thin Water, Slashing Everything On It's Way."
+			tasks: [{
+				id: "457B700A0856090E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:flood_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Flood Slash"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/rainfall.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7415B75400D20593"
+			shape: "square"
+			subtitle: "Cast A Rain On Your Foe, Inflicting Them With ''Wet'' Effect."
+			tasks: [{
+				id: "2F4D9BB67E0CA613"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:rainfall"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Rainfall"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/echo_of_the_abyss.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5D286DE552DE2DCE"
+			shape: "square"
+			subtitle: "While Underwater, Spawn The Great Hullbreaker As A Companion, Dominating The Ocean."
+			tasks: [{
+				id: "52956555BB4D3A49"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:echo_of_the_abyss"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Echo Of The Abyss"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/jet_steam.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "23E25223AD0258B7"
+			shape: "square"
+			subtitle: "Gain A Massive Speed Boost Underwater, Propelling You Forward."
+			tasks: [{
+				id: "3A4EF191D4197671"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:jet_steam"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Jet Steam"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/aqua_missiles.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "48BDB945BADC87E1"
+			shape: "square"
+			subtitle: "Send Tons Of Water Missles Automatically Targetting Your Foes."
+			tasks: [{
+				id: "050B9517729CD690"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:aqua_missiles"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Aqua Missles"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/hydroshot.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "58E5EFC45AFAD32C"
+			shape: "square"
+			subtitle: "Sends A Big Lump Of Water Twice."
+			tasks: [{
+				id: "18B8684C7B213D1A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:hydroshot"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Hydroshot"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/bubble_spray.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1258472387ECCBE2"
+			shape: "square"
+			subtitle: "Spray Bubbles Of Water Continuously."
+			tasks: [{
+				id: "7F4EA6A7E671BBCD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:bubble_spray"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bubble Spray"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/vortex_of_the_deep.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0283EA5D31ED0D27"
+			shape: "square"
+			subtitle: "Call A Massive Water Tornado With Huge AoE Effect."
+			tasks: [{
+				id: "43026B3FCA2F18AE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:vortex_of_the_deep"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Vortex Of The Deep"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/tidal_slash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "22D8B3B6A5FC9368"
+			shape: "square"
+			subtitle: "Send A Extremely Thin And Blazing Fast Water, Slicing Through The Hardest Material."
+			title: "Tidal Slash"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/tsunami.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "39A8D5E04A738EE9"
+			shape: "square"
+			subtitle: "Send 3 Big Waves To The Target, Dealing AoE Damage."
+			tasks: [{
+				id: "15322A3A230DF742"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:tsunami"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Tsunami"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/mob_effect/floodgate.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "17CE4647F1A215AA"
+			shape: "square"
+			subtitle: "Apply Yourself With The Floodgate Effect,(idk what it does)"
+			tasks: [{
+				id: "3F9C377B236F4DA6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:floodgate"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Floodgate"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/tidal_grasp.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "47C30081A67E0ADA"
+			shape: "square"
+			subtitle: "Grasp The Enemy With Water, Pulling Them Towards You Then Land A Heavy Punch."
+			tasks: [{
+				id: "549C2C01427B7893"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:tidal_grasp"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Tidal Grasp"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/serpentide.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0924DF542D685F69"
+			shape: "square"
+			subtitle: "Summon three giant serpents, slamming their body down on the enemy."
+			tasks: [{
+				id: "5D45C6FD1915DFDB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:serpentide"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Serpentide"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/the_howling_tempest.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0EA07032EDB1BA0B"
+			shape: "square"
+			subtitle: "Call the power of ocean thunderstorm agains your foes!"
+			tasks: [{
+				id: "6D4452B0C6984774"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:the_howling_tempest"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "The Howling Of Tempest"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/the_howling_tempest.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "753B406F5F54F471"
+			shape: "square"
+			tasks: [{
+				id: "093B518D14AE70CA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:the_howling_tempest"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/skypiercer.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2B4D7B756280FD14"
+			shape: "square"
+			tasks: [{
+				id: "6188656BB66AF5F8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:skypiercer"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/herald_of_acropolis.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0483EC6DFC31FC91"
+			shape: "square"
+			tasks: [{
+				id: "5238BA8731B40143"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:herald_of_acropolis"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/overflow.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2CA511430E6FF267"
+			shape: "square"
+			tasks: [{
+				id: "34347B930CA07F49"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:overflow"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/water_ball.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "589385B94E869A23"
+			shape: "square"
+			tasks: [{
+				id: "10B52093C04BD69A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:water_ball"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/hydro_slash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "10F2DD189B4AAD02"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "6D679445C2713122"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:hydro_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/storm_aura.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "41C6B8F26BF143C8"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "069357F898A3E94E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:storm_aura"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/water_spear.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "46E90030665DD1C9"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3D334E8588648632"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:water_spear"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/water_control.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0EE257241149C6B6"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "0C10BCB4643E81B5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:water_control"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/ceraunus_grasp.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "759E151CBD9659CD"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "07F799CFF14D8F43"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:ceraunus_grasp"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/ceraunus_dash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6725FE3895F60537"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "54120CB71640A30E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:ceraunus_dash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/sea_serpent.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "613780ACF9D09436"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "0D0310D4609D327E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:sea_serpent"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/sea_serpent_jet.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2824AE7D0B57FAD8"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "46B8651E7D855D7D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:sea_serpent_jet"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/submerge.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5C442A9EA2B1E5A8"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "0F2EABAA97E7B491"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:submerge"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5103BC5D0730E0F0"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/thunder_cloud.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4D9C3DCC70A0B185"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2D733D8AA646E360"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:thunder_cloud"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+	]
+	title: "<grad from=#2B61FF to=#AEC2FC>Aqua Element</grad>"
+}

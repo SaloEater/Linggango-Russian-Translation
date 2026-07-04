@@ -1,30 +1,31 @@
 {
-	autofocus_id: "0A6178D82A037278"
+	autofocus_id: "281F285D738A0F88"
 	default_hide_dependency_lines: true
+	default_min_width: 230
 	default_quest_shape: "pentagon"
 	filename: "supplementaries"
-	group: "3C6AB1DE39D4F441"
+	group: "48ABEFC98EDF2F24"
 	icon: {
 		Count: 1
-		id: "ftbquests:custom_icon"
+		id: "supplementaries:slingshot"
 		tag: {
-			Icon: "quark:item/trowel"
+			Damage: 0
 		}
 	}
 	id: "7D0D3B5FB6048EFF"
 	images: [
 		{
 			height: 1.0d
-			hover: ["ftbquests.chapter.supplementaries.image.hovertext1"]
+			hover: ["Redstone"]
 			image: "minecraft:item/redstone"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.5d
+			x: 1.0d
 			y: -16.0d
 		}
 		{
 			height: 1.0d
-			hover: ["ftbquests.chapter.supplementaries.image.hovertext2"]
+			hover: ["Other"]
 			image: "fancymenu:textures/warning_framed_24x24.png"
 			order: 1
 			rotation: 0.0d
@@ -34,51 +35,57 @@
 		}
 		{
 			height: 1.0d
-			hover: ["ftbquests.chapter.supplementaries.image.hovertext3"]
+			hover: ["Items"]
 			image: "legendary_monsters:item/long_stick_half"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.5d
+			x: -5.0d
 			y: -16.0d
 		}
 		{
-			height: 15.0d
+			height: 1.5d
 			image: "customtextures:textures/additionslogo.png"
 			rotation: 0.0d
-			width: 30.0d
-			x: -0.5d
-			y: -9.0d
-		}
-		{
-			height: 1.0d
-			hover: ["ftbquests.chapter.supplementaries.image.hovertext4"]
-			image: "legendary_monsters:item/long_stick_half"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.0d
-			y: -16.0d
+			width: 15.0d
+			x: -5.0d
+			y: -18.0d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.supplementaries.image.hovertext5"]
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
-			y: -16.0d
+			x: -5.0d
+			y: -19.5d
+		}
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["This questline is being reworked"]
+			image: "quark:item/hammer"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.3997842515582946d
+			y: -17.48822610967703d
 		}
 	]
-	order_index: 6
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest4777644233086408961.description1}"
-				"{ftbquests.chapter.supplementaries.quest4777644233086408961.image0}"
-				"{ftbquests.chapter.supplementaries.quest4777644233086408961.description2}"
-				"{ftbquests.chapter.supplementaries.quest4777644233086408961.image2}"
-				"{ftbquests.chapter.supplementaries.quest4777644233086408961.description3}"
+				"Shot blocks will place themselves wherever they land if the position is suitable."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"A &aSlingshot&r enchanted with &3Stasis&r will be able to shoot in a straight line without being affected by gravity and will additionally gain a white block outline that will indicate where the projectile will land."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Can be enchanted with &3Quick Charge&r, &3Multi Shot&r and &3Stasis&r."
 			]
 			id: "424D9A1DF04F1901"
 			rewards: [
@@ -93,7 +100,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest4777644233086408961.subtitle}"
+			subtitle: "A tool that can shoot blocks!"
 			tasks: [{
 				id: "5B2662EA947C9E17"
 				item: {
@@ -105,16 +112,16 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest4777644233086408961.title}"
-			x: -7.0d
+			title: "Slingshot"
+			x: -4.0d
 			y: -12.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest789925825981199125.description1}"
-				"{ftbquests.chapter.supplementaries.quest789925825981199125.description2}"
-				"{ftbquests.chapter.supplementaries.quest789925825981199125.image0}"
-				"{ftbquests.chapter.supplementaries.quest789925825981199125.description3}"
+				"The explosion will only deal damage to mobs without destroying any blocks, with the exception of blocks that can be removed by water like tall grass."
+				"When exploding they can ignite nearby &eCreepers&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&aBlue Bombs&r are a more powerful version of &aBombs&r and will afflict weakness debuff."
 			]
 			icon: "supplementaries:bomb"
 			id: "0AF6615A80843315"
@@ -130,7 +137,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest789925825981199125.subtitle}"
+			subtitle: "A consumable projectile that will explode wherever it lands."
 			tasks: [
 				{
 					id: "43400CEEAD8F448B"
@@ -143,12 +150,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.supplementaries.quest789925825981199125.title}"
-			x: -7.0d
-			y: -11.5d
+			title: "Bomb"
+			x: -3.0d
+			y: -13.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest1951869080481007403.description1}"]
+			description: ["Shot &aRope Arrows&r will retain all the &aRopes&r they didn't place so remember to pick them back up"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -169,7 +176,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest1951869080481007403.subtitle}"
+			subtitle: "Once shot it will try to deploy a rope coil wherever it lands."
 			tasks: [{
 				id: "649707ECBCBA5B8F"
 				item: {
@@ -181,16 +188,16 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -12.5d
+			x: -3.0d
+			y: -14.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest2927390803985653134.description1}"
-				"{ftbquests.chapter.supplementaries.quest2927390803985653134.description2}"
-				"{ftbquests.chapter.supplementaries.quest2927390803985653134.description3}"
-				"{ftbquests.chapter.supplementaries.quest2927390803985653134.image0}"
-				"{ftbquests.chapter.supplementaries.quest2927390803985653134.description4}"
+				"Its main use is to quickly switch between &aArrows&r. To do so use the item and it will open an ingame GUI."
+				"Alternatively &6Shift&r + &6Right-Click&r also cycles through selected &aArrows&r without opening a GUI."
+				"Alternatively you can access it using a keybind."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&eArrows&r and &aitem Arrows &ryou pick up will go in your &aQuiver&r if it contains non full stacks of the same kind."
 			]
 			id: "28A02E6D1E4F5D8E"
 			rewards: [
@@ -205,21 +212,21 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest2927390803985653134.subtitle}"
+			subtitle: "Stores multiple arrows and allows you to quickly change them."
 			tasks: [{
 				id: "7CD8B6F514A219D3"
 				item: "supplementaries:quiver"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -12.5d
+			x: -5.0d
+			y: -13.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest8750939013550957625.description1}"
-				"{ftbquests.chapter.supplementaries.quest8750939013550957625.description2}"
-				"{ftbquests.chapter.supplementaries.quest8750939013550957625.description3}"
-				"{ftbquests.chapter.supplementaries.quest8750939013550957625.description4}"
+				"Can be bound to a specific &epet&r (or &eHorse&r) by &6Right-clicking&r it on the animal in question."
+				"A bounded &aFlute&r will only call the &epet&r that it was bound to."
+				"When used will play a random song."
+				"If renamed to the name of an existing song it will play that all the time."
 			]
 			id: "797194AB19CFE439"
 			rewards: [
@@ -235,7 +242,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest8750939013550957625.subtitle}"
+			subtitle: "Can be played to summon nearby non sitting owned pets."
 			tasks: [{
 				id: "783B3F5FD28E7D5F"
 				item: {
@@ -247,15 +254,15 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -12.5d
+			x: -6.0d
+			y: -14.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest5618102923904261551.description1}"
-				"{ftbquests.chapter.supplementaries.quest5618102923904261551.image0}"
-				"{ftbquests.chapter.supplementaries.quest5618102923904261551.description2}"
-				"{ftbquests.chapter.supplementaries.quest5618102923904261551.description3}"
+				"If enchanted with &3Stasis&r it gains the ability to place &aSoap Bubble Blocks&r in mid air wherever you aim."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"The blocks will remain in the air for a while or until they are stepped on."
+				"&aSoap Blocks&r can be replaced with other blocks, which is useful when building."
 			]
 			icon: {
 				Count: 1
@@ -277,7 +284,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest5618102923904261551.subtitle}"
+			subtitle: "A fun novelty item which you can use to blow soap bubbles at your friends."
 			tasks: [{
 				id: "1A2088CD077C9388"
 				item: {
@@ -289,14 +296,14 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -12.5d
+			x: -4.0d
+			y: -13.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest6834716545247979006.description1}"
-				"{ftbquests.chapter.supplementaries.quest6834716545247979006.description2}"
-				"{ftbquests.chapter.supplementaries.quest6834716545247979006.description3}"
+				"Can be used on any &aSign&r to change its font to a fancy Antiquable font."
+				"Can be crafted with a &aMap&r to turn it into a &aAntique Map&r, giving it a treasure map like look."
+				"Can be crafted with an &aOriginal Written Book&r to turn it into a &aTattered book&r. &aTattered books&r cant be copied and will use the Antiquable font."
 			]
 			id: "5ED9CA7C6BFDA5FE"
 			rewards: [
@@ -311,14 +318,14 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest6834716545247979006.subtitle}"
+			subtitle: "Changes the font of objects it interacts with."
 			tasks: [{
 				id: "108E1116E7187CEB"
 				item: "supplementaries:antique_ink"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -12.5d
+			x: -6.0d
+			y: -13.5d
 		}
 		{
 			id: "4B36949CD065FCBB"
@@ -335,7 +342,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest5419682602819124411.subtitle}"
+			subtitle: "Rotate any kind of rotateable block."
 			tasks: [{
 				id: "3EDCFC36B32ADA4F"
 				item: {
@@ -347,18 +354,18 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -14.5d
+			x: -6.0d
+			y: -12.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest5654821669311083110.description1}"
-				"{ftbquests.chapter.supplementaries.quest5654821669311083110.image0}"
-				"{ftbquests.chapter.supplementaries.quest5654821669311083110.description2}"
-				"{ftbquests.chapter.supplementaries.quest5654821669311083110.image2}"
-				"{ftbquests.chapter.supplementaries.quest5654821669311083110.description3}"
-				"{ftbquests.chapter.supplementaries.quest5654821669311083110.image4}"
-				"{ftbquests.chapter.supplementaries.quest5654821669311083110.description4}"
+				"Can be used directly on all those in world."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Can be used on &aCopper like blocks&r to clean away any waxing and oxidation in one use."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Can be used on &epets&r and &eSheeps&r to un wash them."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Can also wash away &aBlackboards&r, &aAntique Globes&r and &aMaps&r, &aSticky Pistons&r and &aTipped Spikes&r."
 			]
 			id: "4E79F6590377F266"
 			rewards: [
@@ -373,28 +380,28 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest5654821669311083110.subtitle}"
+			subtitle: "Revert items to their default or white state."
 			tasks: [{
 				id: "557F57C10890920E"
 				item: "supplementaries:soap"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: -14.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest4518707604729023499.description1}"
-				"{ftbquests.chapter.supplementaries.quest4518707604729023499.image0}"
-				"{ftbquests.chapter.supplementaries.quest4518707604729023499.description2}"
-				"{ftbquests.chapter.supplementaries.quest4518707604729023499.image2}"
-				"{ftbquests.chapter.supplementaries.quest4518707604729023499.description3}"
-				"{ftbquests.chapter.supplementaries.quest4518707604729023499.image4}"
-				"{ftbquests.chapter.supplementaries.quest4518707604729023499.description4}"
-				"{ftbquests.chapter.supplementaries.quest4518707604729023499.image6}"
-				"{ftbquests.chapter.supplementaries.quest4518707604729023499.description5}"
-				"{ftbquests.chapter.supplementaries.quest4518707604729023499.image8}"
-				"{ftbquests.chapter.supplementaries.quest4518707604729023499.description6}"
+				"Similar to &aCakes&r they can only be eaten when placed."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Can be placed in a pile of up to 8."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&aHoney&r can be poured on them (either via &aFaucet&r or by &6Right-clicking&r with a &aHoney Bottle&r)."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"They can also accept other toppings such as &aChocolate&r and &aSyrup&r."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&aPancakes&r with honey, chocolate or syrup will give a short speed effect when eaten."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&8You can also insert a Pancake in a Jukebox for some sick tunes!&r"
 			]
 			id: "3EB5ACA017BACC0B"
 			rewards: [
@@ -409,25 +416,31 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest4518707604729023499.subtitle}"
+			subtitle: "Yummy."
 			tasks: [{
 				id: "318687E5EB4083C3"
-				item: "supplementaries:pancake"
+				item: {
+					Count: 1
+					id: "supplementaries:pancake"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest4518707604729023499.title}"
-			x: -3.0d
+			title: "Pancake"
+			x: -4.0d
 			y: -14.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest9223363205852292347.description1}"
-				"{ftbquests.chapter.supplementaries.quest9223363205852292347.image0}"
-				"{ftbquests.chapter.supplementaries.quest9223363205852292347.description2}"
-				"{ftbquests.chapter.supplementaries.quest9223363205852292347.description3}"
-				"{ftbquests.chapter.supplementaries.quest9223363205852292347.description4}"
-				"{ftbquests.chapter.supplementaries.quest9223363205852292347.image2}"
-				"{ftbquests.chapter.supplementaries.quest9223363205852292347.description5}"
+				"Work only with &aSafes&r, &aNetherite Doors&r, &aNetherite Trapdoors&r and&a Lock Blocks&r"
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"To lock a block first rename the &aKey&r to your desired password, the click on the unbounded block."
+				"To clear the ownership simply &6Shift&r + &6Right-Click&r with the correct &aKey&r on the locked block."
+				"To open a locked block you won't need to have the correct &aKey&r in hand, it just needs to be in your inventory or &2Curio&r slot."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Can be used in a &aDispenser&r to open key lockable blocks. Useful with lock blocks"
 			]
 			id: "7FFFF7F7DF3BE4FB"
 			min_width: 400
@@ -444,18 +457,18 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest9223363205852292347.subtitle}"
+			subtitle: "Used to lock Safes, Netherite Doors, Netherite Trapdoors and Lock Blocks."
 			tasks: [{
 				id: "2F8A6D8A30E29F25"
 				item: "supplementaries:key"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest9223363205852292347.title}"
-			x: 1.5d
-			y: -14.5d
+			title: "Key"
+			x: -5.0d
+			y: -11.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest5827216026447375044.description1}"]
+			description: ["By default the &aNetherite Door&r is accessible to anyone until first locked."]
 			icon: "supplementaries:netherite_door"
 			id: "50DE6E1A25DBEAC4"
 			rewards: [
@@ -471,17 +484,17 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest5827216026447375044.subtitle}"
+			subtitle: "Can be locked with keys. Once this is done only a key owner can interact with the door."
 			tasks: [{
 				id: "25CADEE389DA54D9"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest5827216026447375044.title}"
-			x: 0.5d
-			y: -13.5d
+			title: "Netherite Door"
+			x: -6.0d
+			y: -10.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest1935571500211559603.description1}"]
+			description: ["Acts as a sort of upgraded &aShulker Box&r that is fire resistant."]
 			icon: "supplementaries:safe"
 			id: "1ADC88063B7ADCB3"
 			rewards: [
@@ -497,17 +510,17 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest1935571500211559603.subtitle}"
+			subtitle: "Can be locked with a key. Once this is done their content will only be available to players that have the correct key."
 			tasks: [{
 				id: "12F5CEA2A79C4C96"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest1935571500211559603.title}"
-			x: -0.5d
-			y: -13.5d
+			title: "Safe"
+			x: -7.0d
+			y: -10.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest1489599909061703779.description1}"]
+			description: ["By default the &aNetherite Trapdoor&r is accessible to anyone until first locked."]
 			icon: "supplementaries:netherite_trapdoor"
 			id: "14AC1F399D13B863"
 			rewards: [
@@ -523,17 +536,17 @@
 				}
 			]
 			shape: "netheritetier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest1489599909061703779.subtitle}"
+			subtitle: "Can be locked with keys. Once this is done only a key owner can interact with the trapdoor."
 			tasks: [{
 				id: "41F727253A171CB7"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest1489599909061703779.title}"
-			x: 1.5d
-			y: -13.5d
+			title: "Netherite Trapdoor"
+			x: -5.0d
+			y: -10.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest1294365472097226256.description1}"]
+			description: ["Once it interacts with a player that holds the correct &aKey&r it will emit a redstone pulse."]
 			icon: "supplementaries:lock_block"
 			id: "11F68289FDE2CE10"
 			rewards: [
@@ -549,20 +562,20 @@
 				}
 			]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest1294365472097226256.subtitle}"
+			subtitle: "Can be locked with a key similar to safes and netherite doors."
 			tasks: [{
 				id: "1E71D08DEB2D765F"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest1294365472097226256.title}"
-			x: -6.0d
+			title: "Lock Block"
+			x: -7.0d
 			y: -13.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest6352148839436543057.description1}"
-				"{ftbquests.chapter.supplementaries.quest6352148839436543057.image0}"
-				"{ftbquests.chapter.supplementaries.quest6352148839436543057.description2}"
+				"Pretty intuitive to use, you just power one and it will power its adjacent cogs, up to 14 blocks away, just like with &aRedstone Dust&r. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"The real use for this is to be able to make compact vertical redstone signaling."
 			]
 			id: "58275DB6DF066451"
 			rewards: [
@@ -577,21 +590,21 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest6352148839436543057.subtitle}"
+			subtitle: "Acts as a form of upgraded redstone in solid block form."
 			tasks: [{
 				id: "594DFCDEF381F0C4"
 				item: "supplementaries:cog_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest6352148839436543057.title}"
-			x: 3.5d
-			y: -13.5d
+			title: "Cog Block"
+			x: -3.0d
+			y: -10.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest4965128153741011276.description1}"
-				"{ftbquests.chapter.supplementaries.quest4965128153741011276.description2}"
-				"{ftbquests.chapter.supplementaries.quest4965128153741011276.description3}"
+				"During rain, it emits a signal with a power of 1."
+				"During thundering - with a power of 2."
+				"Also provide strong power to the block below."
 			]
 			id: "44E7ADBFDC06294C"
 			rewards: [
@@ -606,25 +619,25 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest4965128153741011276.subtitle}"
+			subtitle: "Swing depending on the current weather and output a redstone signal, the strength of which depends on the current weather."
 			tasks: [{
 				id: "2F9B34012426EC4D"
 				item: "supplementaries:wind_vane"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest4965128153741011276.title}"
-			x: 8.5d
+			title: "Wind Vane"
+			x: 1.0d
 			y: -14.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest7642919344937992842.description1}"
-				"{ftbquests.chapter.supplementaries.quest7642919344937992842.image0}"
-				"{ftbquests.chapter.supplementaries.quest7642919344937992842.description2}"
-				"{ftbquests.chapter.supplementaries.quest7642919344937992842.description3}"
-				"{ftbquests.chapter.supplementaries.quest7642919344937992842.image2}"
-				"{ftbquests.chapter.supplementaries.quest7642919344937992842.description4}"
-				"{ftbquests.chapter.supplementaries.quest7642919344937992842.description5}"
+				"The Hour hand indicates the current in-game hour while the minute hand ticks every irl second."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Its output can be read with a comparator which will give off a signal from 0 to 15 that is proportional to the in-game time which is from 0 to 24."
+				"Gives off a block update detectable by an observer each time an in-game hour passes."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Clicking on it will display the current time."
+				"Like all clocks does not work in the nether."
 			]
 			id: "6A111AA679FD828A"
 			rewards: [
@@ -640,25 +653,25 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest7642919344937992842.subtitle}"
+			subtitle: "Displays the current in-game time."
 			tasks: [{
 				id: "3AC00ADB01033339"
 				item: "supplementaries:clock_block"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 1.0d
 			y: -12.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest6264176993765466258.description1}"
-				"{ftbquests.chapter.supplementaries.quest6264176993765466258.description2}"
-				"{ftbquests.chapter.supplementaries.quest6264176993765466258.image0}"
-				"{ftbquests.chapter.supplementaries.quest6264176993765466258.description3}"
-				"{ftbquests.chapter.supplementaries.quest6264176993765466258.description4}"
-				"{ftbquests.chapter.supplementaries.quest6264176993765466258.description5}"
-				"{ftbquests.chapter.supplementaries.quest6264176993765466258.description6}"
-				"{ftbquests.chapter.supplementaries.quest6264176993765466258.description7}"
+				"Can be powered with redstone, by right-clicking or by stepping on."
+				"When powered will push air infront of it with frequency that is proportional to its redstone power. All the effects here described are affected by this."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"When pushing air it will push entities that are infront of it away, up to a 5 blocks distance."
+				"Speeds up furnace-like blocks that are right next to it."
+				"Refreshes fire blocks in-front of it. Fire blocks that are up to a 2 blocks distance will be kept alive indefinitely."
+				"Can speed up copper aging if placed right next to one."
+				"If placed in front of a wet sponge that is in contact with a soap block they are able to blow bubbles!"
 			]
 			id: "56EED3C96B90A092"
 			min_width: 400
@@ -675,22 +688,22 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest6264176993765466258.subtitle}"
+			subtitle: "Push air infront of it."
 			tasks: [{
 				id: "7B1252FADDD553FA"
 				item: "supplementaries:bellows"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest6264176993765466258.title}"
-			x: 10.5d
+			title: "Bellows"
+			x: 3.0d
 			y: -13.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest7607005187713784391.description1}"
-				"{ftbquests.chapter.supplementaries.quest7607005187713784391.description2}"
-				"{ftbquests.chapter.supplementaries.quest7607005187713784391.description3}"
-				"{ftbquests.chapter.supplementaries.quest7607005187713784391.description4}"
+				"Twice powerfull as the vanilla &aPiston-Slime Block setup&r."
+				"It can also push you up if you were to fall on it from a certain height when it's already extended."
+				"Cannot push blocks like a normal &aPiston&r, only &eentities&r."
+				"Allows &eentities&r that stand on an extended one to jump slightly higher."
 			]
 			id: "699182EA223BDA47"
 			rewards: [
@@ -705,21 +718,21 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest7607005187713784391.subtitle}"
+			subtitle: "It extends like a piston and will propel any entities that lie ontop of it in the direction it's moving."
 			tasks: [{
 				id: "5C626117CEE20426"
 				item: "supplementaries:spring_launcher"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest7607005187713784391.title}"
-			x: 9.5d
+			title: "Spring Launcher"
+			x: 2.0d
 			y: -14.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest692025617334359598.description1}"
-				"{ftbquests.chapter.supplementaries.quest692025617334359598.description2}"
-				"{ftbquests.chapter.supplementaries.quest692025617334359598.description3}"
+				"Works with indirect power when it faces a redstone wire."
+				"Useful to reliably transmit analog power without dispersion."
+				"A signal takes 1 game tick to travel through a relayer."
 			]
 			id: "099A91A1E8AF562E"
 			rewards: [
@@ -734,15 +747,15 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest692025617334359598.subtitle}"
+			subtitle: "Observer like block whose purpose is to copy whatever signal it has in front to its back."
 			tasks: [{
 				id: "1A726A61E60DE5DB"
 				item: "supplementaries:relayer"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest692025617334359598.title}"
-			x: 4.5d
-			y: -13.5d
+			title: "Relayer"
+			x: -3.5d
+			y: -9.5d
 		}
 		{
 			id: "0A6178D82A037278"
@@ -758,20 +771,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest748011882933351032.subtitle}"
+			subtitle: "Displays a number or a symbol depending on what the received signal strength."
 			tasks: [{
 				id: "04E1DC93F5492476"
 				item: "supplementaries:crystal_display"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest748011882933351032.title}"
-			x: 0.0d
-			y: -12.5d
+			title: "Crystal Display"
+			x: -6.5d
+			y: -9.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest5299675947175433677.description1}"
-				"{ftbquests.chapter.supplementaries.quest5299675947175433677.description2}"
+				"Can be renamed in an &aAnvil&r to change the name that will be displayed in chat. Rename it \"\" to get rid of it completely."
+				"There must be space before the block to send messages."
 			]
 			id: "498C3B31F012D5CD"
 			rewards: [
@@ -786,18 +799,18 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest5299675947175433677.subtitle}"
+			subtitle: "Send a message in chat to all players in a certain radius when activated."
 			tasks: [{
 				id: "54A2027EABDAB856"
 				item: "supplementaries:speaker_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest5299675947175433677.title}"
-			x: 10.5d
+			title: "Speaker Block"
+			x: 3.0d
 			y: -14.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest5960157679050375111.description1}"]
+			description: ["It's on by default."]
 			id: "52B6BBD4B11D3FC7"
 			rewards: [
 				{
@@ -812,26 +825,26 @@
 				}
 			]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest5960157679050375111.subtitle}"
+			subtitle: "Gives off a light output that is inversely proportional to its current redstone power."
 			tasks: [{
 				id: "2F764F2125CDFABB"
 				item: "supplementaries:redstone_illuminator"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest5960157679050375111.title}"
-			x: 9.5d
+			title: "Redstone Illuminator"
+			x: 2.0d
 			y: -12.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest6007314354919981305.description1}"
-				"{ftbquests.chapter.supplementaries.quest6007314354919981305.image0}"
-				"{ftbquests.chapter.supplementaries.quest6007314354919981305.description2}"
-				"{ftbquests.chapter.supplementaries.quest6007314354919981305.description3}"
-				"{ftbquests.chapter.supplementaries.quest6007314354919981305.description4}"
-				"{ftbquests.chapter.supplementaries.quest6007314354919981305.image2}"
-				"{ftbquests.chapter.supplementaries.quest6007314354919981305.description5}"
-				"{ftbquests.chapter.supplementaries.quest6007314354919981305.description6}"
+				"Can be turned on/off by redstone signal or by pressing RMB."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"If placed next to a fluid containing block show a visual fluid tray right below it if it's active."
+				"Can extract items from the inventory below and spill them right below its nozzle with a one second interval."
+				"Once it's connected to a fluid containing block behind it can pour those fluids in any possible fluid container block below it. This will only be possible in 250mb increment."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Can also interact with blocks below such as concrete powder, dirt (turns to mud) and sugar block."
+				"Can dump fluids in sponges effectively voiding them. The same can already be done with lava cauldrons making them ideal \"trash can\" solutions."
 			]
 			id: "535E4493E31C40F9"
 			min_width: 400
@@ -848,26 +861,26 @@
 				}
 			]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest6007314354919981305.subtitle}"
+			subtitle: "Powerful multi purpose block."
 			tasks: [{
 				id: "35F54C1A9D74B541"
 				item: "supplementaries:faucet"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest6007314354919981305.title}"
-			x: 10.5d
+			title: "Faucet"
+			x: 3.0d
 			y: -12.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest6201597739531386263.description1}"
-				"{ftbquests.chapter.supplementaries.quest6201597739531386263.description2}"
-				"{ftbquests.chapter.supplementaries.quest6201597739531386263.description3}"
-				"{ftbquests.chapter.supplementaries.quest6201597739531386263.description4}"
-				"{ftbquests.chapter.supplementaries.quest6201597739531386263.image0}"
-				"{ftbquests.chapter.supplementaries.quest6201597739531386263.description5}"
-				"{ftbquests.chapter.supplementaries.quest6201597739531386263.description6}"
-				"{ftbquests.chapter.supplementaries.quest6201597739531386263.description7}"
+				"Once powered it will initiate a rotation action which will take time depending on the signal strength it is receiving."
+				"The rotation action will continue regardless if the block is powered or not and it's indicated by a red light on the block itself."
+				"Rotation frequency (or speed for entities) depends on the redstone power the block has."
+				"Rotation period starts at 4 ticks for 15 power and increases linerily until it reaches 60 ticks at 1 power."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Toggling the block by right clicking will reverse the rotation direction."
+				"Can shuffle inventory content when rotating any inventory block over the horizonta axis."
+				"Also constantly rotates entities that are standing on it (only works when facing upwards)."
 			]
 			id: "5610804960A23D97"
 			min_width: 400
@@ -883,18 +896,18 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest6201597739531386263.subtitle}"
+			subtitle: "Rotates blocks."
 			tasks: [{
 				id: "74592BEDFE8F2223"
 				item: "supplementaries:turn_table"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest6201597739531386263.title}"
-			x: 6.5d
+			title: "Turn Table"
+			x: -1.0d
 			y: -13.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest4631875813489434594.description1}"]
+			description: ["Basically a an analog lever."]
 			icon: "supplementaries:crank"
 			id: "4047BA82FAC2DFE2"
 			rewards: [
@@ -909,7 +922,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest4631875813489434594.subtitle}"
+			subtitle: "Provides a variable redstone signal that depends on its turn ratio."
 			tasks: [
 				{
 					id: "1CF84950187C7951"
@@ -922,12 +935,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.supplementaries.quest4631875813489434594.title}"
-			x: 1.0d
-			y: -12.5d
+			title: "Crank"
+			x: -5.5d
+			y: -9.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest3347737245952597211.description1}"]
+			description: ["If unlit it will have its properties reversed."]
 			id: "2E758D49C2595CDB"
 			rewards: [
 				{
@@ -941,31 +954,31 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest3347737245952597211.subtitle}"
+			subtitle: "A mix between a sconce and a lever."
 			tasks: [{
 				id: "018D4FEE2D194A3E"
 				item: "supplementaries:sconce"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest3347737245952597211.title}"
-			x: 2.0d
-			y: -12.5d
+			title: "Sconce"
+			x: -4.0d
+			y: -10.5d
 		}
 		{
 			dependency_requirement: "all_started"
 			description: [
-				"{ftbquests.chapter.supplementaries.quest1342338376635209460.description1}"
-				"{ftbquests.chapter.supplementaries.quest1342338376635209460.image0}"
-				"{ftbquests.chapter.supplementaries.quest1342338376635209460.description2}"
-				"{ftbquests.chapter.supplementaries.quest1342338376635209460.description3}"
-				"{ftbquests.chapter.supplementaries.quest1342338376635209460.image2}"
-				"{ftbquests.chapter.supplementaries.quest1342338376635209460.description4}"
-				"{ftbquests.chapter.supplementaries.quest1342338376635209460.description5}"
-				"{ftbquests.chapter.supplementaries.quest1342338376635209460.image4}"
-				"{ftbquests.chapter.supplementaries.quest1342338376635209460.description6}"
-				"{ftbquests.chapter.supplementaries.quest1342338376635209460.description7}"
-				"{ftbquests.chapter.supplementaries.quest1342338376635209460.image6}"
-				"{ftbquests.chapter.supplementaries.quest1342338376635209460.description8}"
+				"Has a single inventory slot which can accept any chain or rope like block."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"When a turn table rotates the block (providing it's connected to the right axis) it will start deploying or retracting the items it's holding in its inventory, depending if it's getting rotated clock-wise or counter clock-wise."
+				"When rotated it will also rotate all the pulleys adjacent to it that are facing the same axis."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Pulleys can be chained together. This means that all chains and ropes being pulled/pushed by a pulley will have the chance to be accepted by a receiving pulley. When this happens they will also have the chance to be placed horizontally which is usually not possible. This effect has a 6 blocks range. Keep in mind that pulleys will always prioritize the down direction or a direction where a rope /chain is already present when unwinding."
+				"Just like ropes, pulling up or down chains and ropes with a pulley will also bring up and down the last block attached to the chain."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Pairs well with Turn Table."
+				"Can also be rotated by using a crank."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&cIt cannot be powered by redstone.&r"
 			]
 			id: "12A0F1A43BB756F4"
 			min_width: 400
@@ -981,22 +994,22 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest1342338376635209460.subtitle}"
+			subtitle: "Throws down a rope or chain."
 			tasks: [{
 				id: "623C13293450D5C7"
 				item: "supplementaries:pulley_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest1342338376635209460.title}"
-			x: 7.5d
+			title: "Pulley Block"
+			x: 0.0d
 			y: -13.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest3701532550645461749.description1}"
-				"{ftbquests.chapter.supplementaries.quest3701532550645461749.description2}"
-				"{ftbquests.chapter.supplementaries.quest3701532550645461749.description3}"
-				"{ftbquests.chapter.supplementaries.quest3701532550645461749.description4}"
+				"Can be filled with any kind of sand, dust or powder or even slime and honey."
+				"Downward time depends on the material used."
+				"Can give a comparator output that depends on the remaining time."
+				"Can be reset by either rotating twice with a turn table or by shift clicking."
 			]
 			id: "335E7C3E45C4B2F5"
 			rewards: [
@@ -1012,24 +1025,31 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest3701532550645461749.subtitle}"
+			subtitle: "Once filled will slowly start falling downward."
 			tasks: [{
 				id: "28A8FD085446D3E3"
 				item: "supplementaries:hourglass"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest3701532550645461749.title}"
-			x: 11.5d
-			y: -12.5d
+			title: "Hourglass"
+			x: 1.0d
+			y: -11.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest5919958304170040023.description1}"
-				"{ftbquests.chapter.supplementaries.quest5919958304170040023.description2}"
-				"{ftbquests.chapter.supplementaries.quest5919958304170040023.description3}"
-				"{ftbquests.chapter.supplementaries.quest5919958304170040023.description4}"
+				"Can store up to 12 cookie like items."
+				"Just like cages it can store"
+				"[gap=0]"
+				"and capture small mobs."
+				"Jars can store up to 12 bottles"
+				"[gap=0]"
+				"(or 3k mb) of fluids."
+				"Can drink directly from jars,"
+				"[gap=0]"
+				"both in item and block form."
 			]
 			id: "5227EAB65D2DDAD7"
+			min_width: 200
 			rewards: [
 				{
 					id: "6DC54B354E6E0194"
@@ -1042,17 +1062,17 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest5919958304170040023.subtitle}"
+			subtitle: "Can store cookie like items and fluid."
 			tasks: [{
 				id: "7366967748B7553B"
 				item: "supplementaries:jar"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -13.0d
 			y: -13.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest3886143156383184434.description1}"]
+			description: ["Can be placed next to a wet sponge which is in contact with a bellow to make the setup emit bubble particles."]
 			id: "35EE5A9C6E88F632"
 			rewards: [
 				{
@@ -1066,18 +1086,18 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest3886143156383184434.subtitle}"
+			subtitle: "Makes entities that walk on it \"slip\"."
 			tasks: [{
 				id: "59D271DCBFDB88BE"
 				item: "supplementaries:soap_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest3886143156383184434.title}"
-			x: -10.5d
-			y: -8.5d
+			title: "Soap Block"
+			x: -10.0d
+			y: -9.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest7100655190769819.description1}"]
+			description: ["This means that a powered door cannot be opened or closed regardless of its state."]
 			icon: "supplementaries:gold_door"
 			id: "00193A021E51809B"
 			rewards: [
@@ -1093,7 +1113,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest7100655190769819.subtitle}"
+			subtitle: "When powered by redstone will disable any interaction with any player."
 			tasks: [
 				{
 					id: "7051CD0698D58BCB"
@@ -1106,14 +1126,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.supplementaries.quest7100655190769819.title}"
-			x: -10.5d
+			title: "Golden Doors and Trapdoors"
+			x: -11.0d
 			y: -11.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest4051976723312957099.description1}"
-				"{ftbquests.chapter.supplementaries.quest4051976723312957099.description2}"
+				"When eaten it will make baby animals age faster and will set adults in love. Uses the vanilla cooldown."
+				"Can be placed down with dispensers."
 			]
 			id: "383B835C8F3856AB"
 			rewards: [
@@ -1129,22 +1149,24 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest4051976723312957099.subtitle}"
+			subtitle: "A layered block that serves as a way to automatically feed animals."
 			tasks: [{
 				id: "128CC20F3648B5F5"
 				item: "supplementaries:fodder"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest4051976723312957099.title}"
-			x: -11.5d
+			title: "Fodder"
+			x: -12.0d
 			y: -11.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest5036789697239861693.description1}"
-				"{ftbquests.chapter.supplementaries.quest5036789697239861693.description2}"
-				"{ftbquests.chapter.supplementaries.quest5036789697239861693.description3}"
-				"{ftbquests.chapter.supplementaries.quest5036789697239861693.description4}"
+				"When pushed by a piston, it scrapes against any full-face iron block to produce sparks."
+				"If a flammable block is nearby it will catch fire, giving you an on-demand"
+				"[gap=0]"
+				"flint and steel with no durability!"
+				"The opposite also works, you can move an iron block against a flint block instead."
+				"These interactions also work with Quark magnets."
 			]
 			id: "45E6458B285449BD"
 			rewards: [
@@ -1159,19 +1181,24 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest5036789697239861693.subtitle}"
+			subtitle: "A decorative and storage block that can provide a use for your extra flints."
 			tasks: [{
 				id: "53206DFAD7487C87"
 				item: "supplementaries:flint_block"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -12.5d
+			x: -9.0d
+			y: -13.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest6426202257079538203.description1}"
-				"{ftbquests.chapter.supplementaries.quest6426202257079538203.description2}"
+				"Once an item is taken or removed from a pedestal the block will give out a observer detectable update."
+				"[gap=2]"
+				"This can be prevented if one swaps the item with a sack."
+				"If an end crystal is placed on a pedestal the block will give off an enchanting power"
+				"[gap=0]"
+				"equal to 3 bookshelves."
+				"This means that with 5 of such blocks you'll be able to max out an enchanting table."
 			]
 			id: "592E74E7C40A121B"
 			rewards: [
@@ -1186,22 +1213,22 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest6426202257079538203.subtitle}"
+			subtitle: "Beautifully displays the object placed on it."
 			tasks: [{
 				id: "2E0EC2A80A6016C0"
 				item: "supplementaries:pedestal"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest6426202257079538203.title}"
-			x: -12.5d
-			y: -13.5d
+			title: "Pedestal"
+			x: -13.0d
+			y: -14.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest3647910696414224154.description1}"
-				"{ftbquests.chapter.supplementaries.quest3647910696414224154.description2}"
-				"{ftbquests.chapter.supplementaries.quest3647910696414224154.description3}"
-				"{ftbquests.chapter.supplementaries.quest3647910696414224154.description4}"
+				"When it's displaying a written book it will only show one page at the time."
+				"The text resolution that is getting displayed depends on the amount of text in a page. Add whitespaces to make it render smaller."
+				"Once given a redstone pulse it will turn the currently displayed page onto the next one."
+				"Can be waxed to prevent interactions."
 			]
 			id: "329FFB73701E1F1A"
 			rewards: [
@@ -1216,22 +1243,22 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest3647910696414224154.subtitle}"
+			subtitle: "Can hold and display either a written book, a map or a banner pattern."
 			tasks: [{
 				id: "1BB5FA028113113E"
 				item: "supplementaries:notice_board"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest3647910696414224154.title}"
+			title: "Notice Board"
 			x: -9.0d
 			y: -14.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest4114012490036720395.description1}"
-				"{ftbquests.chapter.supplementaries.quest4114012490036720395.description2}"
-				"{ftbquests.chapter.supplementaries.quest4114012490036720395.image0}"
-				"{ftbquests.chapter.supplementaries.quest4114012490036720395.description3}"
+				"Allows to make every block into a framed one. To do so simply click on it with said block."
+				"An option to frame an already placed block when clicking on it with this item."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Using an axe on a framed block will break the frame but not the block contained inside."
 			]
 			icon: "supplementaries:daub_cross_brace"
 			id: "3917E8900E28B30B"
@@ -1247,7 +1274,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest4114012490036720395.subtitle}"
+			subtitle: "Can visually hold any solid block inside."
 			tasks: [
 				{
 					id: "5529728D57D6EDA9"
@@ -1280,24 +1307,36 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.supplementaries.quest4114012490036720395.title}"
-			x: -10.5d
+			title: "Framed blocks"
+			x: -10.0d
 			y: -12.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest8268618442930508633.description1}"
-				"{ftbquests.chapter.supplementaries.quest8268618442930508633.description2}"
-				"{ftbquests.chapter.supplementaries.quest8268618442930508633.description3}"
-				"{ftbquests.chapter.supplementaries.quest8268618442930508633.image0}"
-				"{ftbquests.chapter.supplementaries.quest8268618442930508633.description4}"
-				"{ftbquests.chapter.supplementaries.quest8268618442930508633.description5}"
-				"{ftbquests.chapter.supplementaries.quest8268618442930508633.image2}"
-				"{ftbquests.chapter.supplementaries.quest8268618442930508633.description6}"
-				"{ftbquests.chapter.supplementaries.quest8268618442930508633.description7}"
+				"Just like scaffolding they can only go that far out horizontally from their closest support until they"
+				"[gap=0]"
+				"are no longer supported."
+				"Vertical ropes have no hitbox and can be climbed."
+				"Horizontal ropes do have a hitbox and can be walked on,"
+				"[gap=0]"
+				"albeit at a slower paste."
+				"[gap=5]"
+				"---"
+				"[gap=5]"
+				"Placing a rope against an existing vertical one will result in the rope getting extended downwards."
+				"Ropes can be placed and will dynamically wrap themselves against many fence like blocks"
+				"[gap=0]"
+				"such as walls, beams and posts."
+				"[gap=5]"
+				"---"
+				"[gap=5]"
+				"Falling down ropes will not slow you down"
+				"[gap=0]"
+				"but still prevent fall damange."
+				"Can be broken by a projectile."
 			]
 			id: "72C008AA321DD359"
-			min_width: 400
+			min_width: 300
 			rewards: [
 				{
 					id: "3A93A31E3FA6CCAF"
@@ -1310,20 +1349,22 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest8268618442930508633.subtitle}"
+			subtitle: "A building block that makes movement easier, especially in mines."
 			tasks: [{
 				id: "648C03DCDD1CF31B"
 				item: "supplementaries:rope"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest8268618442930508633.title}"
-			x: -11.5d
+			title: "Rope"
+			x: -11.0d
 			y: -12.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest2180070003189760312.description1}"
-				"{ftbquests.chapter.supplementaries.quest2180070003189760312.description2}"
+				"Sacks are heavy and when carrying more than 2 the player will have the overencumbered effect applied."
+				"Is a gravity block and will deal damage when it falls on an entity."
+				"[gap=0]"
+				"Damage depends on sack content."
 			]
 			id: "1E412A1E0D9C4138"
 			rewards: [
@@ -1338,26 +1379,33 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest2180070003189760312.subtitle}"
+			subtitle: "Acts as an early game shulker box with 9 slots."
 			tasks: [{
 				id: "570C2865D878E09E"
 				item: "supplementaries:sack"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest2180070003189760312.title}"
-			x: -12.5d
+			title: "Sack"
+			x: -12.0d
 			y: -12.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest2080720551517593917.description1}"
-				"{ftbquests.chapter.supplementaries.quest2080720551517593917.description2}"
-				"{ftbquests.chapter.supplementaries.quest2080720551517593917.description3}"
-				"{ftbquests.chapter.supplementaries.quest2080720551517593917.description4}"
-				"{ftbquests.chapter.supplementaries.quest2080720551517593917.description5}"
-				"{ftbquests.chapter.supplementaries.quest2080720551517593917.description6}"
+				"Can also be directly edited without"
+				"[gap=0]"
+				"the GUI by holding a dye item."
+				"Will keep its drawing when broken."
+				"Blackboards can be duplicated"
+				"[gap=0]"
+				"just like banners."
+				"Can be cleared by using"
+				"[gap=0]"
+				"a wet sponge or soap."
+				"Can be waxed to prevent interactions."
+				"Can accept glow ink."
 			]
 			id: "1CE03451460FA13D"
+			min_width: 200
 			rewards: [
 				{
 					id: "67811881B683EF85"
@@ -1370,18 +1418,18 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest2080720551517593917.subtitle}"
+			subtitle: "Can be written on to create interesting pattern."
 			tasks: [{
 				id: "41069D0F1F258DDE"
 				item: "supplementaries:blackboard"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest2080720551517593917.title}"
-			x: -10.5d
+			title: "Blackboard"
+			x: -12.0d
 			y: -13.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest8885791997821097747.description1}"]
+			description: ["Also prevent the crop from being trampled."]
 			id: "7B50ACBE3A229713"
 			rewards: [
 				{
@@ -1395,18 +1443,18 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest8885791997821097747.subtitle}"
+			subtitle: "Can support any plant or crop without the need of water."
 			tasks: [{
 				id: "320CD5CEC51006F1"
 				item: "supplementaries:planter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest8885791997821097747.title}"
+			title: "Planter"
 			x: -10.0d
 			y: -14.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest3197681225860179828.description1}"]
+			description: ["Landing on it negates all fall damage."]
 			id: "2C6072220454E774"
 			rewards: [
 				{
@@ -1420,7 +1468,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest3197681225860179828.subtitle}"
+			subtitle: "Extremely fluffy!"
 			tasks: [{
 				id: "175186FD12F9E00D"
 				item: "supplementaries:feather_block"
@@ -1430,7 +1478,7 @@
 			y: -14.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest700064086959086606.description1}"]
+			description: ["Once packed only you and the recipient will be able to open it and access its content."]
 			icon: "supplementaries:present_black"
 			id: "09B72093F7345C0E"
 			rewards: [
@@ -1446,18 +1494,18 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest700064086959086606.subtitle}"
+			subtitle: "A container block which can hold 1 item stack."
 			tasks: [{
 				id: "34D4C2228586ECF7"
 				item: "supplementaries:present"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest700064086959086606.title}"
-			x: -9.5d
+			title: "Present"
+			x: -11.0d
 			y: -13.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest2542414337509086104.description1}"]
+			description: ["When powered with redstone it will wave."]
 			id: "2348785EA316D398"
 			rewards: [
 				{
@@ -1471,20 +1519,27 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest2542414337509086104.subtitle}"
+			subtitle: "Can hold an item in hand."
 			tasks: [{
 				id: "56159CF7EF132640"
 				item: "supplementaries:statue"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -8.5d
+			x: -9.0d
+			y: -10.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest5619367895452765138.description1}"
-				"{ftbquests.chapter.supplementaries.quest5619367895452765138.description2}"
-				"{ftbquests.chapter.supplementaries.quest5619367895452765138.description3}"
+				"Can hold and display 3 lines of text."
+				"[gap=0]"
+				"Cats will occasionally sit on it."
+				"[gap=0]"
+				"aww, so cute"
+				"One single item can be hidden below it."
+				"[gap=0]"
+				"To do so shift click on any face"
+				"[gap=0]"
+				"except the top one."
 			]
 			id: "4DFC015406B24BD2"
 			rewards: [
@@ -1499,22 +1554,22 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest5619367895452765138.subtitle}"
+			subtitle: "Welcome home."
 			tasks: [{
 				id: "6C45AF5021712662"
 				item: "supplementaries:doormat"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -13.0d
+			x: -13.0d
+			y: -12.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest4997504711336609345.description1}"
-				"{ftbquests.chapter.supplementaries.quest4997504711336609345.description2}"
-				"{ftbquests.chapter.supplementaries.quest4997504711336609345.description3}"
-				"{ftbquests.chapter.supplementaries.quest4997504711336609345.image0}"
-				"{ftbquests.chapter.supplementaries.quest4997504711336609345.description4}"
+				"They can be pushed with pistons or contraptions and will deal &4extra damage&r if they hit something while extending."
+				"Can be infused with &9lingering potions&r. To do so either craft them, click on them or pour the potion using a faucet."
+				"They can only accept negative lingering potions and have infinite charge."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Bamboo spikes counts as &6player kills&r, meaning when a mob is killed by bamboo spikes it drops loot and XP as if it were killed by a player."
 			]
 			id: "455AB40E9A8F4641"
 			rewards: [
@@ -1530,22 +1585,26 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest4997504711336609345.subtitle}"
+			subtitle: "Spikes that will slow and damage all mobs that walk on them."
 			tasks: [{
 				id: "77AA88C9474350E6"
 				item: "supplementaries:bamboo_spikes"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -8.5d
+			x: -10.0d
+			y: -10.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest2388790607406114219.description1}"
-				"{ftbquests.chapter.supplementaries.quest2388790607406114219.description2}"
-				"{ftbquests.chapter.supplementaries.quest2388790607406114219.description3}"
-				"{ftbquests.chapter.supplementaries.quest2388790607406114219.image0}"
-				"{ftbquests.chapter.supplementaries.quest2388790607406114219.description4}"
+				"Right/Left-Click a mob while holding the cage to capture it."
+				"Right click to release a captured mob."
+				"Shift + right-click to place down the cage."
+				"[gap=5]"
+				"---"
+				"[gap=5]"
+				"Captured mobs will not age nor be interactable. Chickens can still lay"
+				"[gap=0]"
+				"eggs while captured."
 			]
 			id: "2126B066AD3B25AB"
 			rewards: [
@@ -1560,7 +1619,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest2388790607406114219.subtitle}"
+			subtitle: "Can be used to capture small animals and mobs."
 			tasks: [{
 				id: "4AD93B79FD0C4E0D"
 				item: "supplementaries:cage"
@@ -1571,10 +1630,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest8574247301269101345.description1}"
-				"{ftbquests.chapter.supplementaries.quest8574247301269101345.image0}"
-				"{ftbquests.chapter.supplementaries.quest8574247301269101345.description2}"
-				"{ftbquests.chapter.supplementaries.quest8574247301269101345.description3}"
+				"Items can be inserted into it via automation (Hopper, Dropper, etc)."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"The Chute can be disabled with a redstone signal or by placing a block under it."
+				"The Chute can drop items through hollow logs."
 			]
 			id: "76FDD87E007F1B21"
 			rewards: [
@@ -1589,33 +1648,33 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest8574247301269101345.subtitle}"
+			subtitle: "any items inserted are instantly dropped under it, always precisely in the center"
 			tasks: [{
 				id: "15E4D6F6113A22F3"
 				item: "quark:chute"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest8574247301269101345.title}"
-			x: 8.5d
+			title: "Chute"
+			x: 1.0d
 			y: -13.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description1}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description2}"
+				"To get items into a pipe simply use a Hopper, Dropper, or any other insertion means you may have handy."
+				"Copper Pipes are rudimentary and don't include any filtering or pathing for items. The way items flow in pipes is based in a small set of rules:"
 				"{@pagebreak}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description3}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description4}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description5}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description6}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description7}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description8}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description9}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description10}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.image0}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description11}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description12}"
-				"{ftbquests.chapter.supplementaries.quest2785203890646878735.description13}"
+				"&6&oApply the following rules in order&r&r"
+				"1. Items will move down if possible."
+				"2. Items will move forward if possible."
+				"3. At an intersection, items will randomly flow left or right."
+				"4. Items will not go upwards unless that's the only possibility."
+				"5. Items attempting to enter a full container will bounce back (Items bouncing back from pipes remember which direction they came into the pipe, and will avoid that direction)."
+				"6. Items will not flow into disabled (powered) pipes."
+				"7. Items will fall out of pipes with momentum and enter pipes with open ends."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&aTips:&r"
+				"Comparators can read how many items are in a pipe."
+				"A pipe with 15 or more items inside at once will break."
 			]
 			icon: "quark:pipe"
 			id: "26A7082E910B0A0F"
@@ -1632,7 +1691,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest2785203890646878735.subtitle}"
+			subtitle: "As you would expect, they transport items from point A to point B"
 			tasks: [
 				{
 					id: "25C8CAE2A47E7115"
@@ -1645,23 +1704,23 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.supplementaries.quest2785203890646878735.title}"
-			x: 7.0d
+			title: "Copper Pipes"
+			x: -1.0d
 			y: -11.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest2515757420710119326.description1}"
-				"{ftbquests.chapter.supplementaries.quest2515757420710119326.image0}"
-				"{ftbquests.chapter.supplementaries.quest2515757420710119326.description2}"
-				"{ftbquests.chapter.supplementaries.quest2515757420710119326.image2}"
-				"{ftbquests.chapter.supplementaries.quest2515757420710119326.description3}"
-				"{ftbquests.chapter.supplementaries.quest2515757420710119326.image4}"
-				"{ftbquests.chapter.supplementaries.quest2515757420710119326.description4}"
-				"{ftbquests.chapter.supplementaries.quest2515757420710119326.image6}"
-				"{ftbquests.chapter.supplementaries.quest2515757420710119326.description5}"
-				"{ftbquests.chapter.supplementaries.quest2515757420710119326.image8}"
-				"{ftbquests.chapter.supplementaries.quest2515757420710119326.description6}"
+				"A metallic block is defined as block made of Iron or Copper Ingots or made of things made of Iron or Copper Ingots."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"When powered, the front (red) side of the Magnet will push blocks forward like a piston, whereas the back side will pull blocks towards it."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"When multiple Magnets are exerting force upon the same block, the one with the biggest force wins. A magnet's force upon a block is the redstone level applied to it, minus the distance."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"When a Hopper is moved by a magnet, it'll drop one of its items directly in front of it. If this item is a seed, it'll plant it either directly in front or one block down."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"When a Stonecutter is moved by a magnet, it'll break any block above it. Very hard blocks such as Obsidian can't be broken like this."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"When a Cauldron is moved, the items inside will move with it."
 			]
 			id: "22E9C40B8A7AC79E"
 			rewards: [
@@ -1677,18 +1736,18 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest2515757420710119326.subtitle}"
+			subtitle: "Technical blocks that can move metallic blocks"
 			tasks: [{
 				id: "63AC53B76F993BFE"
 				item: "quark:magnet"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest2515757420710119326.title}"
-			x: 7.5d
+			title: "Magnets"
+			x: 0.0d
 			y: -12.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest8393864175212455963.description1}"]
+			description: ["The signal is higher the closer to the center of the block the player is looking."]
 			id: "747CFEFEA86A681B"
 			rewards: [
 				{
@@ -1702,22 +1761,22 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest8393864175212455963.subtitle}"
+			subtitle: "Emits a redstone signal if a player is looking directly at it"
 			tasks: [{
 				id: "55A7C7C5D5758ED6"
 				item: "quark:ender_watcher"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest8393864175212455963.title}"
-			x: 7.5d
+			title: "Ender Watcher"
+			x: 0.0d
 			y: -14.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest8246718061444174290.description1}"
-				"{ftbquests.chapter.supplementaries.quest8246718061444174290.description2}"
-				"{ftbquests.chapter.supplementaries.quest8246718061444174290.image0}"
-				"{ftbquests.chapter.supplementaries.quest8246718061444174290.description3}"
+				"Gravisand will not fall unless primed with redstone. However, if gravisand receives a signal, and can not fall, it'll instead float up."
+				"Additionally, gravisand will propagate the signal to any adjacent gravisand blocks, causing them to fall or float as well."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"It constantly outputs a comparator signal of 15."
 			]
 			id: "72723A62472D91D2"
 			rewards: [
@@ -1732,21 +1791,21 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest8246718061444174290.subtitle}"
+			subtitle: "Gravisand will not fall unless primed with redstone"
 			tasks: [{
 				id: "7939B4B2B03C79FB"
 				item: "quark:gravisand"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest8246718061444174290.title}"
-			x: 6.5d
+			title: "Gravisand"
+			x: -1.0d
 			y: -14.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest18285661713294723.description1}"
-				"{ftbquests.chapter.supplementaries.quest18285661713294723.image0}"
-				"{ftbquests.chapter.supplementaries.quest18285661713294723.description2}"
+				"Pistons pushing an Iron Rod will have it work as a drill of sorts, breaking any blocks in front in the direction the rod is facing. "
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Can break anything the piston can push."
 			]
 			id: "0040F6B662E76583"
 			rewards: [
@@ -1762,20 +1821,20 @@
 				}
 			]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest18285661713294723.subtitle}"
+			subtitle: "Works as a drill of sorts, breaking any blocks in front of it"
 			tasks: [{
 				id: "267776B96DFCA9BE"
 				item: "quark:iron_rod"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest18285661713294723.title}"
-			x: 6.5d
+			title: "Iron Rod"
+			x: -1.0d
 			y: -12.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest8960263159738871250.description1}"
-				"{ftbquests.chapter.supplementaries.quest8960263159738871250.description2}"
+				"Gold Buttons emit a very short pulse - 2 redstone ticks."
+				"Iron Buttons emit a very long pulse - 5 seconds."
 			]
 			icon: "quark:gold_button"
 			id: "7C593FDECA412DD2"
@@ -1792,7 +1851,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest8960263159738871250.subtitle}"
+			subtitle: "Emit signals of different lengths"
 			tasks: [
 				{
 					id: "4D8EB169AC66BD73"
@@ -1805,8 +1864,8 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.supplementaries.quest8960263159738871250.title}"
-			x: 8.0d
+			title: "Metal Buttons"
+			x: 0.0d
 			y: -11.5d
 		}
 		{
@@ -1823,18 +1882,18 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest1986409231142625874.subtitle}"
+			subtitle: "When given a redstone signal from the back, it'll randomly enable either the left or right output"
 			tasks: [{
 				id: "0559DEEA35C5492C"
 				item: "quark:redstone_randomizer"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest1986409231142625874.title}"
-			x: 9.5d
+			title: "Redstone Randomizer"
+			x: 2.0d
 			y: -13.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest5475715184246848152.description1}"]
+			description: ["Differs slightly from the Mojang version as it was made before the snapshot released."]
 			id: "4BFDA5F2D03EFA98"
 			rewards: [
 				{
@@ -1849,14 +1908,14 @@
 				}
 			]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest5475715184246848152.subtitle}"
+			subtitle: "Backport of the crafter from the 1.21 snapshots"
 			tasks: [{
 				id: "3DCF5FD990D5F387"
 				item: "quark:crafter"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest5475715184246848152.title}"
-			x: 10.0d
+			title: "Crafter"
+			x: 2.0d
 			y: -11.5d
 		}
 		{
@@ -1874,21 +1933,21 @@
 				}
 			]
 			shape: "diamondtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest5221217228055647532.subtitle}"
+			subtitle: "Pressure Plates made with obsidian will only trigger when Players walk over them"
 			tasks: [{
 				id: "15C10E026185CA8A"
 				item: "quark:obsidian_pressure_plate"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest5221217228055647532.title}"
-			x: 4.5d
-			y: -14.5d
+			title: "Obsidian Pressure Plate"
+			x: -4.5d
+			y: -9.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest3620635614649338995.description1}"
-				"{ftbquests.chapter.supplementaries.quest3620635614649338995.image0}"
-				"{ftbquests.chapter.supplementaries.quest3620635614649338995.description2}"
+				"Right-clicking a block will bind the Abacus to it. After that, look at a different block and it will count the distance between them."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"The Abacus will count up to 48 blocks, drawing an outline of the counted blocks. The texture of the item will change according to how many blocks are counted. Right-click again to unbind."
 			]
 			id: "323F14E8984D4C73"
 			rewards: [
@@ -1904,22 +1963,22 @@
 				}
 			]
 			shape: "irontier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest3620635614649338995.subtitle}"
+			subtitle: "It will count the distance between the targeted and hovered block, measured along right angles."
 			tasks: [{
 				id: "4ED97E9C79C9D85C"
 				item: "quark:abacus"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest3620635614649338995.title}"
-			x: 3.5d
-			y: -14.5d
+			title: "Abacus"
+			x: -3.0d
+			y: -11.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest6777356884590002113.description1}"
-				"{ftbquests.chapter.supplementaries.quest6777356884590002113.description2}"
-				"{ftbquests.chapter.supplementaries.quest6777356884590002113.description3}"
-				"{ftbquests.chapter.supplementaries.quest6777356884590002113.description4}"
+				"Cloud levels is 192-196."
+				"The Bottled Cloud can be right clicked to produce a (non-solid) block floating in midair in front of you."
+				"The cloud block disappears after a few seconds, but you can right click it with any other block to replace the two."
+				"The cloud will go back in the bottle when you do this."
 			]
 			id: "5E0E022DB608FFC1"
 			rewards: [
@@ -1934,15 +1993,15 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest6777356884590002113.subtitle}"
+			subtitle: "Using a Glass Bottle at the cloud levels will get you a Bottled Cloud."
 			tasks: [{
 				id: "4F57047BF392E27E"
 				item: "quark:bottled_cloud"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest6777356884590002113.title}"
-			x: 2.5d
-			y: -14.5d
+			title: "Bottled Cloud"
+			x: -4.0d
+			y: -11.5d
 		}
 		{
 			id: "1171584A851FF7A1"
@@ -1959,7 +2018,7 @@
 				}
 			]
 			shape: "diamondtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest1256882848097367969.subtitle}"
+			subtitle: "The pickarang is a boomerang pickaxe - throw it, it breaks whatever it hits, and comes back to you with the drops."
 			tasks: [{
 				id: "50091B3486DC703A"
 				item: {
@@ -1971,8 +2030,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -13.5d
+			x: -5.0d
+			y: -12.5d
 		}
 		{
 			id: "7EF69B47BB2DC106"
@@ -1988,18 +2047,18 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest9148670425435062534.subtitle}"
+			subtitle: "The Trowel, when right clicked, will place a random block from your hotbar."
 			tasks: [{
 				id: "4D38269142EDE257"
 				item: "quark:trowel"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest9148670425435062534.title}"
-			x: -0.5d
-			y: -14.5d
+			title: "Trowel"
+			x: -7.0d
+			y: -11.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest3443889152188896074.description1}"]
+			description: ["Combining an Ancient Tome in an Anvil with an item containing that enchantment will increase its level by one, up to one over the cap."]
 			icon: {
 				Count: 1
 				id: "quark:ancient_tome"
@@ -2023,20 +2082,20 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest3443889152188896074.subtitle}"
+			subtitle: "Usable to upgrade enchantments."
 			tasks: [{
 				id: "16E53522FE2974B9"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest3443889152188896074.title}"
-			x: 0.5d
-			y: -14.5d
+			title: "Ancient Tomes"
+			x: -6.0d
+			y: -11.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest1151214940505950242.description1}"
-				"{ftbquests.chapter.supplementaries.quest1151214940505950242.image0}"
-				"{ftbquests.chapter.supplementaries.quest1151214940505950242.description2}"
+				"Tinted Glass can also be used to dim the beam."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&aNote:&r that for a beacon to function, the final segment must always face upwards towards the sky."
 			]
 			icon: "quark:violet_corundum_cluster"
 			id: "0FF9EFE394FAC822"
@@ -2053,7 +2112,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest1151214940505950242.subtitle}"
+			subtitle: "The Cluster variants of Corundum can be used to redirect beacon beams and change their color"
 			tasks: [
 				{
 					id: "51AE42F3E8EB0CCE"
@@ -2101,12 +2160,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.supplementaries.quest1151214940505950242.title}"
-			x: -12.5d
-			y: -10.5d
+			title: "Beacon Redirection"
+			x: -13.0d
+			y: -11.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest3644702622317256.description1}"]
+			description: ["You can also climb the inside of a vertical Hollow Log like a ladder."]
 			icon: "quark:hollow_oak_log"
 			id: "000CF2D6751D7AC8"
 			rewards: [
@@ -2121,21 +2180,21 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest3644702622317256.subtitle}"
+			subtitle: "You can sneak next to a horizontal Hollow Log to climb inside"
 			tasks: [{
 				id: "7A18E27852D427CA"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest3644702622317256.title}"
-			x: -12.5d
-			y: -8.5d
+			title: "Hollow Logs"
+			x: -11.0d
+			y: -9.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest1914366455441823546.description1}"
-				"{ftbquests.chapter.supplementaries.quest1914366455441823546.image0}"
-				"{ftbquests.chapter.supplementaries.quest1914366455441823546.description2}"
-				"{ftbquests.chapter.supplementaries.quest1914366455441823546.description3}"
+				"Ashen Trees do not generate naturally, instead ashen saplings can be dug up by Sniffers."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Ashen Trees will also drop the Enchanted Fruit."
+				"When eaten Enchanted Fruit will grant a small amount of experience."
 			]
 			icon: "quark:ancient_sapling"
 			id: "1A9132260288973A"
@@ -2152,7 +2211,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest1914366455441823546.subtitle}"
+			subtitle: "Ashen Wood is a new wood type which can be obtained from Ashen Trees"
 			tasks: [
 				{
 					id: "294432588A037AC6"
@@ -2170,12 +2229,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.supplementaries.quest1914366455441823546.title}"
-			x: -11.5d
+			title: "Ashen Wood"
+			x: -13.0d
 			y: -10.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest5620797176924287825.description1}"]
+			description: ["Additional stool features include being able to place blocks over them, which makes them get bigger to match, and being able to stay on them even when moved by pistons."]
 			id: "4E0115408D173351"
 			rewards: [
 				{
@@ -2189,24 +2248,24 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest5620797176924287825.subtitle}"
+			subtitle: "As you can expect, you can sit on them!"
 			tasks: [{
 				id: "5D9DAB58FEF2C66C"
 				item: "quark:white_stool"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest5620797176924287825.title}"
-			x: -12.5d
+			title: "Stools"
+			x: -12.0d
 			y: -9.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest5581007282637562200.description1}"
-				"{ftbquests.chapter.supplementaries.quest5581007282637562200.image0}"
-				"{ftbquests.chapter.supplementaries.quest5581007282637562200.description2}"
-				"{ftbquests.chapter.supplementaries.quest5581007282637562200.description3}"
-				"{ftbquests.chapter.supplementaries.quest5581007282637562200.image2}"
-				"{ftbquests.chapter.supplementaries.quest5581007282637562200.description4}"
+				"If an ender teleportation would result in the target being placed on a Myalite Viaduct, the target will instead land on the opposite end of the viaduct."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Viaducts longer than 24 blocks or that would cause a loop are illegal, and ender teleportion will function as normal."
+				"On a fork, the destination is chosen randomly."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Viaducts can be moved with pistons."
 			]
 			id: "4D73B88DDA7AE158"
 			rewards: [
@@ -2221,14 +2280,14 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest5581007282637562200.subtitle}"
+			subtitle: "Myalite Viaducts redirect ender teleportation caused by ender pearls or endermen teleporting"
 			tasks: [{
 				id: "67013C164449340A"
 				item: "quark:myalite_crystal"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest5581007282637562200.title}"
-			x: -10.5d
+			title: "Myalite Viaducts"
+			x: -12.0d
 			y: -10.5d
 		}
 		{
@@ -2245,27 +2304,27 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest3050931425522458756.subtitle}"
+			subtitle: "Can not be moved by Pistons"
 			tasks: [{
 				id: "381CAE1CF366938A"
 				item: "quark:sturdy_stone"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest3050931425522458756.title}"
-			x: -9.5d
-			y: -9.5d
+			title: "Sturdy Stone"
+			x: -9.0d
+			y: -11.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest8222395808223270816.description1}"
-				"{ftbquests.chapter.supplementaries.quest8222395808223270816.image0}"
-				"{ftbquests.chapter.supplementaries.quest8222395808223270816.description2}"
-				"{ftbquests.chapter.supplementaries.quest8222395808223270816.image2}"
-				"{ftbquests.chapter.supplementaries.quest8222395808223270816.description3}"
-				"{ftbquests.chapter.supplementaries.quest8222395808223270816.image4}"
-				"{ftbquests.chapter.supplementaries.quest8222395808223270816.description4}"
-				"{ftbquests.chapter.supplementaries.quest8222395808223270816.image6}"
-				"{ftbquests.chapter.supplementaries.quest8222395808223270816.description5}"
+				"If you put a banner inside a Glass Item Frame, it'll sit flat with the wall with the pattern that's in it, allowing you to create a wallpaper of sorts."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Shields display differently in Glass Item Frames, they sit flush with the wall and look nice."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Glass Item Frames can attach to the front of a Sign that's placed on the floor. This will make the item show flush with the sign."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Glass Item Frames can be right clicked through to open chests or other inventories."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"When a map is placed in a Glass Item Frame, it will update in real time. Perfect for spies!"
 			]
 			icon: "quark:glass_item_frame"
 			id: "721BD16C67CF17A0"
@@ -2281,7 +2340,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest8222395808223270816.subtitle}"
+			subtitle: "Glass Item Frames will hide the frame around the item when you put it in"
 			tasks: [
 				{
 					id: "16211F428EDCEBBB"
@@ -2294,12 +2353,17 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
+			x: -11.0d
 			y: -10.5d
 		}
 		{
-			description: ["{ftbquests.chapter.supplementaries.quest2540925987258876308.description1}"]
+			description: [
+				"Chains and lanterns can also"
+				"[gap=0]"
+				"connect to them."
+			]
 			id: "23432EB9171FC194"
+			min_width: 200
 			rewards: [
 				{
 					id: "42170EB33C554DF8"
@@ -2312,24 +2376,24 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest2540925987258876308.subtitle}"
+			subtitle: "These are slim log style blocks you can lay down vertically or horizontally"
 			tasks: [{
 				id: "0A58447695E465C1"
 				item: "quark:oak_post"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest2540925987258876308.title}"
-			x: -8.5d
-			y: -11.0d
+			title: "Wooden Posts"
+			x: -10.0d
+			y: -13.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest1020269337667787120.description1}"
-				"{ftbquests.chapter.supplementaries.quest1020269337667787120.description2}"
-				"{ftbquests.chapter.supplementaries.quest1020269337667787120.description3}"
-				"{ftbquests.chapter.supplementaries.quest1020269337667787120.description4}"
-				"{ftbquests.chapter.supplementaries.quest1020269337667787120.image0}"
-				"{ftbquests.chapter.supplementaries.quest1020269337667787120.description5}"
+				"Animals are afraid of walking on it, and will never do it."
+				"Items will just fall through the gaps."
+				"Players, monsters, and other entities will just walk through normally."
+				"Grates can be crawled under, similar to hollow logs."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"Animals being held by a leash will also walk over the block just fine."
 			]
 			id: "0E28B98E96E95970"
 			rewards: [
@@ -2344,21 +2408,21 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest1020269337667787120.subtitle}"
+			subtitle: "The Iron Grate is a new block with multiple uses"
 			tasks: [{
 				id: "764AE690461A27CF"
 				item: "quark:grate"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest1020269337667787120.title}"
-			x: -9.5d
+			title: "Iron Grate"
+			x: -10.0d
 			y: -11.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.supplementaries.quest7182692582202046259.description1}"
-				"{ftbquests.chapter.supplementaries.quest7182692582202046259.image0}"
-				"{ftbquests.chapter.supplementaries.quest7182692582202046259.description2}"
+				"A full stack of an item will take up 64, but 64 different items will also take up the same amount."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"This makes the crate not very good for storing bulk items, but excellent for storing a high variety of items in one spot, or for collecting unstackables."
 			]
 			id: "63AE0CD914FC7733"
 			rewards: [
@@ -2373,124 +2437,18 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest7182692582202046259.subtitle}"
+			subtitle: "Alternative storage block that can hold up to 640 items"
 			tasks: [{
 				id: "3697762A6A3F7120"
 				item: "quark:crate"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.supplementaries.quest7182692582202046259.title}"
-			x: -8.5d
-			y: -9.0d
+			title: "Storage Crate"
+			x: -9.0d
+			y: -12.5d
 		}
 		{
-			id: "447E43546836726D"
-			rewards: [
-				{
-					id: "41C6C27D616A29DC"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "19FC802F0048C9A0"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest4935456271449354861.subtitle}"
-			tasks: [{
-				id: "39520FFCA6741F6C"
-				item: "galosphere:preserved_template"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.supplementaries.quest4935456271449354861.title}"
-			x: -5.0d
-			y: -14.5d
-		}
-		{
-			id: "72D23F8F9F0F5E1E"
-			rewards: [
-				{
-					id: "1D956C1BF3170A81"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "64D0B78A4DC18494"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest8273745351514480158.subtitle}"
-			tasks: [{
-				id: "040956B730D79BA9"
-				item: "galosphere:spectre_flare"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -13.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.supplementaries.quest6031834623000051214.description1}"
-				"{ftbquests.chapter.supplementaries.quest6031834623000051214.description2}"
-			]
-			id: "53B561A1AFD1FE0E"
-			rewards: [
-				{
-					id: "68B8B1FE3FFF6803"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "1FEBF67100D666BF"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest6031834623000051214.subtitle}"
-			tasks: [{
-				id: "5D1BB10B174734CD"
-				item: {
-					Count: 1
-					id: "galosphere:saltbound_tablet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: -13.5d
-		}
-		{
-			description: ["{ftbquests.chapter.supplementaries.quest2948292179469735798.description1}"]
-			id: "28EA701DD35B1776"
-			rewards: [
-				{
-					id: "6C586000C4E8BAB3"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "73BD2A9A54CE3434"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest2948292179469735798.subtitle}"
-			tasks: [{
-				id: "71225441DE735E29"
-				item: "galosphere:glow_flare"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -14.5d
-		}
-		{
-			description: ["{ftbquests.chapter.supplementaries.quest2891073867630645128.description1}"]
+			description: ["Allows you to move freely through blocks."]
 			id: "281F285D738A0F88"
 			rewards: [
 				{
@@ -2504,7 +2462,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest2891073867630645128.subtitle}"
+			subtitle: "Applies the Astral effect when used."
 			tasks: [{
 				id: "028E88095212F5CE"
 				item: {
@@ -2516,435 +2474,9 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: -14.5d
 		}
-		{
-			description: [
-				"{ftbquests.chapter.supplementaries.quest724095660231970497.description1}"
-				"{ftbquests.chapter.supplementaries.quest724095660231970497.image0}"
-				"{ftbquests.chapter.supplementaries.quest724095660231970497.description2}"
-				"{ftbquests.chapter.supplementaries.quest724095660231970497.description3}"
-				"{ftbquests.chapter.supplementaries.quest724095660231970497.description4}"
-				"{ftbquests.chapter.supplementaries.quest724095660231970497.image2}"
-				"{ftbquests.chapter.supplementaries.quest724095660231970497.description5}"
-			]
-			icon: "galosphere:silver_bomb"
-			id: "0A0C812AA3874EC1"
-			rewards: [
-				{
-					id: "12670E4CBBBA563F"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "3E5BE3819E7CD5DD"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "irontier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest724095660231970497.subtitle}"
-			tasks: [
-				{
-					id: "0FA7BD4ACFCF6463"
-					item: "galosphere:silver_bomb"
-					type: "item"
-				}
-				{
-					id: "4857F7ABB8020B99"
-					item: "galosphere:combustion_table"
-					type: "item"
-				}
-				{
-					id: "0CECFE713735FEB5"
-					item: "minecraft:slime_ball"
-					type: "item"
-				}
-				{
-					id: "6462D7C4643BB77B"
-					item: "minecraft:gunpowder"
-					type: "item"
-				}
-				{
-					id: "5CBCFDE3F4C0853E"
-					item: "minecraft:string"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.supplementaries.quest724095660231970497.title}"
-			x: -2.0d
-			y: -13.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.supplementaries.quest7860366548421798834.description1}"
-				"{ftbquests.chapter.supplementaries.quest7860366548421798834.description2}"
-				"{ftbquests.chapter.supplementaries.quest7860366548421798834.image0}"
-				"{ftbquests.chapter.supplementaries.quest7860366548421798834.description3}"
-			]
-			icon: "galosphere:lichen_cordyceps"
-			id: "6D15A1BAD30B6BB2"
-			rewards: [
-				{
-					id: "6A989BB4DEA8BFEE"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "0CB4EDBF41C39CE6"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest7860366548421798834.subtitle}"
-			tasks: [
-				{
-					id: "539BACB5D6086E98"
-					item: "galosphere:lichen_cordyceps"
-					type: "item"
-				}
-				{
-					id: "7A3441811B63DEF5"
-					item: "galosphere:golden_lichen_cordyceps"
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: -13.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.supplementaries.quest6181201597935943410.description1}"
-				"{ftbquests.chapter.supplementaries.quest6181201597935943410.description2}"
-			]
-			id: "55C80A1A9A0C7EF2"
-			rewards: [
-				{
-					id: "1FB72ED1EDB94BCF"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "6DD0E6EAD72A7FA0"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest6181201597935943410.subtitle}"
-			tasks: [{
-				id: "38DE65462DA0557E"
-				item: "galosphere:stranded_membrane_block"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -9.5d
-		}
-		{
-			description: ["{ftbquests.chapter.supplementaries.quest8633836475613883343.description1}"]
-			icon: "galosphere:lumiere_shard"
-			id: "77D18C87D1C6ABCF"
-			rewards: [
-				{
-					id: "68AB14BE8AFD3C9A"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "7A07D6DFBCF0CF5D"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest8633836475613883343.subtitle}"
-			tasks: [
-				{
-					id: "46625D7831DEDADD"
-					item: "minecraft:glowstone_dust"
-					type: "item"
-				}
-				{
-					id: "6520A1E810977D15"
-					item: "galosphere:lumiere_shard"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.supplementaries.quest8633836475613883343.title}"
-			x: -12.5d
-			y: -11.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.supplementaries.quest4923012912454338739.description1}"
-				"{ftbquests.chapter.supplementaries.quest4923012912454338739.image0}"
-				"{ftbquests.chapter.supplementaries.quest4923012912454338739.description2}"
-			]
-			icon: "galosphere:charged_lumiere_block"
-			id: "44520E291F8088B3"
-			rewards: [
-				{
-					id: "6A9EA5E075512DBD"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "6208A624D29CDAE4"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest4923012912454338739.subtitle}"
-			tasks: [
-				{
-					id: "31D1BA5DE64B4489"
-					item: "galosphere:charged_lumiere_block"
-					type: "item"
-				}
-				{
-					id: "43386944E9B1F1CC"
-					item: "galosphere:lumiere_block"
-					type: "item"
-				}
-			]
-			x: -10.5d
-			y: -9.5d
-		}
-		{
-			description: ["{ftbquests.chapter.supplementaries.quest5120238548247628333.description1}"]
-			icon: "galosphere:glinted_amethyst_cluster"
-			id: "470EBDD4D98FCA2D"
-			rewards: [
-				{
-					id: "7FB5DF3B96572327"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "3DA424F550640C85"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "diamondtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest5120238548247628333.subtitle}"
-			tasks: [
-				{
-					id: "16B2432C672A4F91"
-					item: "galosphere:glinted_amethyst_cluster"
-					type: "item"
-				}
-				{
-					id: "01D178AEDDE66487"
-					item: "galosphere:glinted_allurite_cluster"
-					type: "item"
-				}
-				{
-					id: "4059964B78DDD00D"
-					item: "galosphere:glinted_lumiere_cluster"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.supplementaries.quest5120238548247628333.title}"
-			x: -11.0d
-			y: -7.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.supplementaries.quest3865348333981277001.description1}"
-				"{ftbquests.chapter.supplementaries.quest3865348333981277001.description2}"
-				"{ftbquests.chapter.supplementaries.quest3865348333981277001.description3}"
-				"{ftbquests.chapter.supplementaries.quest3865348333981277001.description4}"
-				"{ftbquests.chapter.supplementaries.quest3865348333981277001.image0}"
-				"{ftbquests.chapter.supplementaries.quest3865348333981277001.description5}"
-				"{ftbquests.chapter.supplementaries.quest3865348333981277001.description6}"
-			]
-			icon: "galosphere:warped_anchor"
-			id: "35A479D48C1A1B49"
-			rewards: [
-				{
-					id: "4E1D4341C696DE2F"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "51675C6EF02414BB"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest3865348333981277001.subtitle}"
-			tasks: [
-				{
-					id: "60D0BA54E2AC8BE2"
-					item: "galosphere:warped_anchor"
-					type: "item"
-				}
-				{
-					id: "616A008C7992F979"
-					item: "galosphere:allurite_block"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.supplementaries.quest3865348333981277001.title}"
-			x: -8.5d
-			y: -10.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.supplementaries.quest412372871939671130.description1}"
-				"{ftbquests.chapter.supplementaries.quest412372871939671130.image0}"
-				"{ftbquests.chapter.supplementaries.quest412372871939671130.description2}"
-			]
-			id: "05B90AF132F8C45A"
-			rewards: [
-				{
-					id: "34F1938C139DCB75"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "1FAF29D90B7164BC"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest412372871939671130.subtitle}"
-			tasks: [{
-				id: "4F9B32276C7A2A3A"
-				item: "galosphere:pink_salt_straw"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -7.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.supplementaries.quest1560762320306728505.description1}"
-				"{ftbquests.chapter.supplementaries.quest1560762320306728505.description2}"
-				"{ftbquests.chapter.supplementaries.quest1560762320306728505.image0}"
-				"{ftbquests.chapter.supplementaries.quest1560762320306728505.description3}"
-				"{ftbquests.chapter.supplementaries.quest1560762320306728505.description4}"
-				"{ftbquests.chapter.supplementaries.quest1560762320306728505.description5}"
-				"{ftbquests.chapter.supplementaries.quest1560762320306728505.description6}"
-			]
-			icon: "galosphere:monstrometer"
-			id: "15A8F10FA0B26E39"
-			rewards: [
-				{
-					id: "47A305F2D5E4F05E"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "076959A3DDCD7F3F"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest1560762320306728505.subtitle}"
-			tasks: [
-				{
-					id: "0EEDC613905213A8"
-					item: "galosphere:monstrometer"
-					type: "item"
-				}
-				{
-					id: "1352BDD4C756AE36"
-					item: "galosphere:lumiere_block"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.supplementaries.quest1560762320306728505.title}"
-			x: -8.5d
-			y: -12.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.supplementaries.quest8334159399174469533.description1}"
-				"{ftbquests.chapter.supplementaries.quest8334159399174469533.description2}"
-			]
-			id: "73A8E1D13946F79D"
-			rewards: [
-				{
-					id: "54D9490EA3D06F20"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "534606DBEAF73857"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest8334159399174469533.subtitle}"
-			tasks: [{
-				id: "0D41F65FDDE2C76D"
-				item: "galosphere:shadow_frame"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.supplementaries.quest8334159399174469533.title}"
-			x: 3.0d
-			y: -12.5d
-		}
-		{
-			description: ["{ftbquests.chapter.supplementaries.quest4745121025173711402.description1}"]
-			id: "41DA0E6E81B76A2A"
-			rewards: [
-				{
-					id: "23DAC00C06C7F229"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "02AF9D93BBF30E6D"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "{ftbquests.chapter.supplementaries.quest4745121025173711402.subtitle}"
-			tasks: [{
-				id: "4127D63E53B0454C"
-				item: "galosphere:silver_balance"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -13.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.supplementaries.quest6958062075126984831.description1}"
-				"{ftbquests.chapter.supplementaries.quest6958062075126984831.image0}"
-				"{ftbquests.chapter.supplementaries.quest6958062075126984831.description2}"
-				""
-				"{ftbquests.chapter.supplementaries.quest6958062075126984831.description3}"
-				"{ftbquests.chapter.supplementaries.quest6958062075126984831.description4}"
-				"{ftbquests.chapter.supplementaries.quest6958062075126984831.image2}"
-				"{ftbquests.chapter.supplementaries.quest6958062075126984831.description5}"
-				""
-				"{ftbquests.chapter.supplementaries.quest6958062075126984831.description6}"
-				"{ftbquests.chapter.supplementaries.quest6958062075126984831.image4}"
-				"{ftbquests.chapter.supplementaries.quest6958062075126984831.description7}"
-			]
-			id: "60900097890FB07F"
-			rewards: [{
-				id: "6D8B064C555120F6"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "goldtier"
-			subtitle: "{ftbquests.chapter.supplementaries.quest6958062075126984831.subtitle}"
-			tasks: [{
-				id: "59F9A97189230A63"
-				item: "rubinated_nether:ruby_laser"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -11.5d
-		}
 	]
-	title: "{ftbquests.chapter.supplementaries.title}"
+	title: "<shadow a=0.4><grad from=#896228 to=#AEA17F>Additions</grad></shadow>"
 }

@@ -1,0 +1,457 @@
+{
+	autofocus_id: "42425B827BF5878F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "feet"
+	group: "0FD8C2D2A2339C0B"
+	icon: "artifacts:running_shoes"
+	id: "0039A4B71E2DB8CB"
+	images: [{
+		height: 15.0d
+		image: "customtextures:textures/feet.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: -2.5d
+		y: -0.5d
+	}]
+	order_index: 16
+	parent: "44F86CB070F12FF2"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Grass heals you, saturates you.. and you uhh generate grass! True love"]
+			id: "6D340E0F7349119D"
+			rewards: [{
+				id: "1865EC5C083ABABC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "442AE700B7A10969"
+				item: "artifacts:rooted_boots"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Swimming faster"]
+			id: "4214EF6D51CEBECD"
+			rewards: [{
+				id: "0E3380B5C1B2F365"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "1FDC42769A9017B8"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			title: "Flippers"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: ["Absolute tank"]
+			hide_details_until_startable: false
+			id: "3641913C9C5CE771"
+			rewards: [{
+				id: "08BE304EA1766DDD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "22ED99D0AB9FE76E"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			description: ["U can walk on powdered snow now!"]
+			id: "306D6E8559C733B6"
+			rewards: [{
+				id: "29B013E745C0EA4B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "542A4CA459B4056B"
+				item: "artifacts:snowshoes"
+				type: "item"
+			}]
+			title: "Snowshoes"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			description: ["Run faster"]
+			id: "42425B827BF5878F"
+			rewards: [{
+				id: "116CB82D70FF24D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "726E1E15B8F540F3"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			title: "Running shoes"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			description: ["Creepers dont like you"]
+			id: "7DDF89A1D760E202"
+			rewards: [{
+				id: "0D36ABA90B23A1B6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "2A535B0E210A547E"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			title: "Kitty slippers"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: ["No more fall damage!"]
+			id: "7B154E9B88348F14"
+			rewards: [{
+				id: "2836DF02005F1919"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "657F7672D67E97ED"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			title: "Bunny hoppers"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			description: ["Walking on water.. no no SPRINTING on water.. u cant walk idk"]
+			id: "28D31973CE0F15E5"
+			rewards: [{
+				id: "4FD62D8979CDD648"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "311A4788BBFD03BE"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			description: ["What do you think it does."]
+			id: "0F0557665FAA9B23"
+			rewards: [{
+				id: "45EF07C9BC27E98E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "69FC972DFDC919ED"
+				item: {
+					Count: 1
+					id: "relics:magma_walker"
+					tag: {
+						Damage: 0
+						abilities: {
+							pace: {
+								points: 0
+								stats: {
+									time: 24.36d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			description: ["Walk on water.. yes the name explains itself."]
+			id: "75C6FE7A87E39823"
+			rewards: [{
+				id: "182DAE6E641E4DE7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "7D39CC47640BF8BD"
+				item: {
+					Count: 1
+					id: "relics:aqua_walker"
+					tag: {
+						Damage: 0
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 42.236d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			description: ["You skate in ice, dealing damage those who dare stand in front of you."]
+			id: "2B4CEECF24B47791"
+			rewards: [{
+				id: "0F2D9BA39770889E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamondtier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "01DA687E8FF5C803"
+				item: {
+					Count: 1
+					id: "relics:ice_skates"
+					tag: {
+						Damage: 0
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.104d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 47.399d
+									speed: 0.024d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			description: ["Have more knockback durability, deal earthquakes with tall jumps!"]
+			id: "6D57CC92982AA008"
+			rewards: [{
+				id: "1B96E742947F5F9C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "2006E6478F44BC4C"
+				item: {
+					Count: 1
+					id: "relics:ice_breaker"
+					tag: {
+						Damage: 0
+						abilities: {
+							impact: {
+								points: 0
+								stats: {
+									damage: 4.285d
+									size: 4.722d
+								}
+							}
+							sustainability: {
+								points: 0
+								stats: {
+									modifier: 0.632d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: ["Roller skates.. u are overall faster but hard to control."]
+			id: "69A36427CCBB8432"
+			rewards: [{
+				id: "1FFFC7A24D094A18"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamondtier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "70C269A9BC20A9AA"
+				item: {
+					Count: 1
+					id: "relics:roller_skates"
+					tag: {
+						Damage: 0
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 16.317d
+									speed: 0.003d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Water makes you faster. "
+				""
+				"Rain gives you speed boost, u swim faster and theres a chance u dont consume air in water."
+			]
+			id: "3ADA8E13528D7104"
+			rewards: [{
+				id: "3E3758891FAD6D2A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "1B0BFD2768E0BC31"
+				item: {
+					Count: 1
+					id: "relics:amphibian_boot"
+					tag: {
+						Damage: 0
+						abilities: {
+							swimming: {
+								points: 0
+								stats: {
+									duration: 18.67d
+									speed: 0.006d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "7525B66F4CCB3405"
+			rewards: [{
+				id: "099F50764743E7FB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "3AD466BB730341D5"
+				item: "uniqueaccessories:durable_spring"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "2D61201D89DFFD9E"
+			rewards: [{
+				id: "72B0237E677E4DEE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "6088211C7B7DC5DF"
+				item: "uniqueaccessories:blade_shoes"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "2C6F9D6836ABEA01"
+			rewards: [{
+				id: "20ADD008472E8E40"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "1CC4673B25D26FE5"
+				item: "uniqueaccessories:rocket_shoes"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			description: ["Just Shift to see item attributes!"]
+			id: "0F4F9B704D2FC91F"
+			rewards: [{
+				id: "1EA7F6EB2FF8DED9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Feet"
+			tasks: [{
+				id: "1545FF231FC9CE6A"
+				item: "uniqueaccessories:anklet_of_fortune"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+	]
+	title: "Feet"
+}

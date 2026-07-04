@@ -1,0 +1,457 @@
+{
+	autofocus_id: "7FE30832B14A787D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sound_element"
+	group: "0361FC25A57730F8"
+	icon: "alshanex_familiars:sound_rune"
+	id: "65E5472A6360FF91"
+	images: [{
+		dev: true
+		height: 1.0d
+		hover: [
+			"All rights are reserved."
+			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+		]
+		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -1.5d
+		y: -1.5d
+	}]
+	order_index: 15
+	parent: "529863295F3FB653"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			hide_dependent_lines: true
+			id: "7FE30832B14A787D"
+			shape: "none"
+			size: 2.5d
+			subtitle: "The Sound School Focuses On Support and Damage."
+			tasks: [{
+				id: "1C5870F3B6049D51"
+				item: "alshanex_familiars:sound_rune"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FE30832B14A787D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/default_note.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "29917D97C1EC18B7"
+			shape: "square"
+			subtitle: "Send Three Note Projectiles Exploding On Impact Dealing Tiny Damage"
+			tasks: [{
+				id: "10FF48383B65D8C7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:default_note"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Chord Blast"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7FE30832B14A787D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/harp_symphony.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7D15F3B7142ED2F7"
+			shape: "square"
+			subtitle: "Cast a beautiful melody, Finishing It With An Piercing Sound. Dealing Low Damage."
+			tasks: [{
+				id: "5D354A604860BD90"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:harp_symphony"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Crescendo"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FE30832B14A787D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/explosion_melody.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2ECB85C6E1D49AC1"
+			shape: "square"
+			subtitle: "Select An Area And Explode It With Loud Melodies Sending The Target Flying And Dealing AoE Damage."
+			tasks: [{
+				id: "73587B52F66875CA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:explosion_melody"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grand Finale"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7FE30832B14A787D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/guardian_angel.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1694D903417BBC45"
+			shape: "square"
+			subtitle: "Play A Calming Lullaby, Buffing The User And Their Party In A AoE."
+			tasks: [{
+				id: "3A327AD41F6351D2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:guardian_angel"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Celestial Chant"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FE30832B14A787D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/mob_effect/bird_buff.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4C79D6F8D13ED84E"
+			shape: "square"
+			subtitle: "Play A Short Melody, Calling A Bird And Buffing The User Greatly."
+			tasks: [{
+				id: "384927D7FEAC3D77"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:birds_spell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Rhapsody"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7FE30832B14A787D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/music_bolt.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "454ABA82D2C0F1CB"
+			shape: "square"
+			subtitle: "Send A Straight Projectile, Effecting The Target With ''Guided'' Effect."
+			tasks: [{
+				id: "4C1A91E987BCE5DE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:music_bolt"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Clef"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FE30832B14A787D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/sonata.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "36D7B1A3532A38C2"
+			shape: "square"
+			subtitle: "Go Into A Frenzy State, Sending Melodies Everywhere Inflicting ''Guided'' Effect."
+			tasks: [{
+				id: "4C4247F6D3C4FFEF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:sonata"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Sonata"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7FE30832B14A787D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/lullaby.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0FB2FE15E5C448AE"
+			shape: "square"
+			subtitle: "Start Chanting A Beautiful Lullaby, Making The Enemies Sleepy."
+			tasks: [{
+				id: "62C0DABA4C3B1008"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "alshanex_familiars:lullaby"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Serenade"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7FE30832B14A787D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/ram_tchum.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "01957807D527DA4F"
+			shape: "square"
+			tasks: [{
+				id: "172CCE6D610FC76E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:ram_tchum"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7FE30832B14A787D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/slumber_melody.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3D57D1331601D22A"
+			shape: "square"
+			tasks: [{
+				id: "5A4FE0E9BAB98B77"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:slumber_melody"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7FE30832B14A787D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/reverberation.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3342244001DE19A5"
+			shape: "square"
+			tasks: [{
+				id: "713DD5F2213B51BF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:reverberation"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+	]
+	title: "<grad from=#2BFF95 to=#A6FFD2>Sound Element</grad>"
+}

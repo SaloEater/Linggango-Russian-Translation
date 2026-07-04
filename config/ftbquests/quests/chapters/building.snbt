@@ -1,0 +1,456 @@
+{
+	autofocus_id: "5D1C5022E9C5A746"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: "48ABEFC98EDF2F24"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "buildinggadgets2:item/gadget_building"
+		}
+	}
+	id: "203854E03D2C7BB2"
+	images: [
+		{
+			height: 1.3d
+			image: "customtextures:textures/building_title.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["This questline is being reworked"]
+			image: "quark:item/hammer"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @shuttheirprayer]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -6.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			id: "170397AACB20D4FC"
+			optional: true
+			rewards: [
+				{
+					id: "5CC2E0BA0B84BE4D"
+					item: "chimes:bamboo_chimes"
+					type: "item"
+				}
+				{
+					id: "38975157D7052805"
+					item: "chimes:iron_chimes"
+					type: "item"
+				}
+				{
+					id: "46D5889EDBA2989C"
+					item: "chimes:carved_bamboo_chimes"
+					type: "item"
+				}
+				{
+					id: "06EADF9AE76976C2"
+					item: "chimes:copper_chimes"
+					type: "item"
+				}
+				{
+					id: "60CC962FF734FA74"
+					item: "chimes:amethyst_chimes"
+					type: "item"
+				}
+				{
+					id: "69087861A23A7B49"
+					item: "chimes:glass_bells"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Decorate your base!"
+			tasks: [
+				{
+					id: "4F7A9103EF28825F"
+					item: "chimes:bamboo_chimes"
+					type: "item"
+				}
+				{
+					id: "41E9A5E4B755F125"
+					item: "chimes:iron_chimes"
+					type: "item"
+				}
+				{
+					id: "5D53D3CE80C6AE3F"
+					item: "chimes:carved_bamboo_chimes"
+					type: "item"
+				}
+				{
+					id: "1D27FC51E36E2C28"
+					item: "chimes:copper_chimes"
+					type: "item"
+				}
+				{
+					id: "4CA8D81CE0D46BE4"
+					item: "chimes:amethyst_chimes"
+					type: "item"
+				}
+				{
+					id: "5DFDFDE3A0C9E780"
+					item: "chimes:glass_bells"
+					type: "item"
+				}
+			]
+			title: "Beautiful Wind Chimes"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&6&nBuilding \\& Decoration Tips&r"
+				""
+				"Make building easier by using the Just Enough Items (JEI) search bar to quickly filter through decoration and structural blocks."
+				""
+				"You can type these exact search terms into JEI to view the full catalog for each specific mod:"
+				""
+				"&b@mcwfurniture&r - Furniture and decorations."
+				"&b@hearth_and_home&r - Custom building blocks and decor."
+				"&b@bbb&r - Expanded building block options."
+				"&b@somemoreblocks&r - Additional block variations."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info_gray"
+				}
+			}
+			icon_scale: 1.1d
+			id: "5D1C5022E9C5A746"
+			rewards: [{
+				id: "326777EE4489EA3F"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "octagon"
+			size: 1.45d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "3AEDBAFA2E2F4A2F"
+				title: "Alright!"
+				type: "checkmark"
+			}]
+			title: "Building"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			description: [
+				"<shadow><grad from=#4EF44E to=#BBFF99 f=0.5>Creeper</grad><grad from=#FFFFFF to=#C0C0C0> exploded and destroyed your </grad><grad from=#4EF44E to=#BBFF99 f=0.5>terrain</grad><grad from=#FFFFFF to=#C0C0C0>?</grad></shadow>"
+				"<shadow><grad from=#FFFFFF to=#C0C0C0>Just throw the </grad><grad from=#4EF44E to=#8B4513 f=0.5>hole filler</grad><grad from=#FFFFFF to=#C0C0C0> into a hole and it will start </grad><shake a=0.75 f=0.75><grad from=#FFFFFF to=#C0C0C0>expanding like crazy</grad></shake><grad from=#FFFFFF to=#C0C0C0>!</grad></shadow>"
+				"<shadow><grad from=#FFFFFF to=#C0C0C0>There's other variations check </grad><grad from=#FFA040 to=#FFD080 f=0.5>JEI</grad><grad from=#FFFFFF to=#C0C0C0> to see</grad></shadow>"
+				"<shadow><grad from=#FFA040 to=#FFD080 f=0.5>@hole_filler_mod</grad></shadow>"
+			]
+			icon_scale: 1.2d
+			id: "49DA079E26B933C8"
+			rewards: [{
+				count: 32
+				id: "2A4A45C58DA8F976"
+				item: "hole_filler_mod:throwable_hole_filler"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "Fills holes!..."
+			tasks: [
+				{
+					id: "385FF1D3EF088248"
+					item: "hole_filler_mod:throwable_hole_filler"
+					type: "item"
+				}
+				{
+					id: "63F56B740E4C3683"
+					item: "hole_filler_mod:throwable_hole_filler_balanced"
+					type: "item"
+				}
+				{
+					id: "067F4826C1E8D592"
+					item: "hole_filler_mod:throwable_hole_filler_smart"
+					type: "item"
+				}
+				{
+					id: "19B548A0A0963920"
+					item: "hole_filler_mod:throwable_hole_filler_water"
+					type: "item"
+				}
+				{
+					id: "6FEFABBDCC158919"
+					item: "hole_filler_mod:throwable_hole_filler_light"
+					type: "item"
+				}
+				{
+					id: "7E45284DDFD7C083"
+					item: "hole_filler_mod:throwable_hole_filler_dark"
+					type: "item"
+				}
+				{
+					id: "405B7B032C1432D5"
+					item: "hole_filler_mod:throwable_hole_filler_balanced_slice"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			description: [
+				"&6&nCompact Machines&r"
+				""
+				"Right-clicking a compact block with the shrinking device will transport you inside of it, providing an isolated pocket dimension where you can build freely."
+			]
+			icon: "compactmachines:personal_shrinking_device"
+			icon_scale: 1.2d
+			id: "18FF0716A49FF759"
+			rewards: [
+				{
+					id: "141086597A425766"
+					item: "compactmachines:machine_small"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E896EA55BDB0B85"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [
+				{
+					id: "3443C6206B271D78"
+					item: "compactmachines:personal_shrinking_device"
+					type: "item"
+				}
+				{
+					id: "10EB44DE0905E345"
+					item: "compactmachines:machine_tiny"
+					type: "item"
+				}
+				{
+					id: "3E7309B48C2CE15C"
+					item: {
+						Count: 1
+						id: "compactmachines:tunnel"
+						tag: {
+							definition: {
+								id: "compactmachines:item"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "273B06EA88A94CA0"
+					item: {
+						Count: 1
+						id: "compactmachines:tunnel"
+						tag: {
+							definition: {
+								id: "compactmachines:fluid"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4717AAF90BEEBEC0"
+					item: {
+						Count: 1
+						id: "compactmachines:tunnel"
+						tag: {
+							definition: {
+								id: "compactmachines:energy"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			description: [
+				"&6&nBuilding Gadget Modes&r"
+				""
+				"Press &b\"G\"&r to open the configuration menu and change settings."
+				""
+				"&6&nSurface Mode:&r Places a layer of blocks that matches the exact contours of the wall or floor you are looking at."
+				""
+				"&6&nVertical \\& Horizontal Wall Modes:&r Generates flat vertical or horizontal planes based on your configured radius (such as a 3x3 or 5x5 grid)."
+				""
+				"&6&nBuild to Me:&r Generates a straight line of blocks starting from your targeted block directly to your position."
+				""
+				"&6&nGrid \\& Column Modes:&r Creates spaced-out pillars or straight vertical and horizontal lines."
+			]
+			icon: "buildinggadgets2:gadget_building"
+			id: "0172804B70A29224"
+			min_width: 450
+			shape: "square"
+			size: 1.0d
+			subtitle: "Primary tool for building. It draws blocks directly from your inventory."
+			tasks: [{
+				id: "719793BC2D5B979B"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			id: "2882F403ED5D74A1"
+			shape: "square"
+			size: 1.0d
+			subtitle: "Main tool for redecorating or updating palettes. It swaps existing blocks in the world with blocks from your inventory."
+			tasks: [{
+				id: "5569EF7B7C2D881E"
+				item: "buildinggadgets2:gadget_exchanging"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			description: [
+				"&6&nDestruction Gadget&r"
+				""
+				"The primary tool for clearing out large areas quickly. It void-clears blocks instead of mining them, meaning the blocks will &cNOT&r drop as items. On the plus side, it completely ignores chests and other inventories to prevent accidental item loss, but you should still use it with caution."
+			]
+			id: "3D2C859382432B98"
+			shape: "square"
+			size: 1.0d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "4BCEDEB5E8B8479E"
+				item: "buildinggadgets2:gadget_destruction"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			description: [
+				"&6&nCopy-Paste \\& Cut-Paste Gadgets&r"
+				""
+				"&b- Copy-Paste:&r Allows you to define a region by selecting two opposite corners, copy the layout, and paste it elsewhere. The tool checks your inventory and will only place the blocks if you have the required materials."
+				""
+				"&b- Cut-Paste:&r Functions like a clipboard move tool. It lifts an entire structure out of the world and pastes it into a new location, automatically clearing out the original spot."
+			]
+			id: "49833EE440E5EF63"
+			shape: "square"
+			size: 1.0d
+			subtitle: "Main tool that will allow you to move or duplicate entire builds."
+			tasks: [
+				{
+					id: "14D163FDCA30295E"
+					item: "buildinggadgets2:gadget_copy_paste"
+					type: "item"
+				}
+				{
+					id: "21C3C46E8A83ED91"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Copy \\& Cut Paste"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			description: [
+				"&6&nTemplate Manager&r"
+				""
+				"This is a separate block used alongside the Copy-Paste Gadget. It allows you to save your copied builds onto paper templates, which can then be converted into text codes to share online or import into different worlds."
+			]
+			id: "51324B3CE2E05ACF"
+			shape: "square"
+			size: 1.0d
+			subtitle: "Save your copied builds onto paper template."
+			tasks: [{
+				id: "670354235E90535A"
+				item: "buildinggadgets2:template_manager"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			id: "68828599BE41D465"
+			rewards: [{
+				count: 4
+				id: "7772B9247B438CFA"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2E9253BCBEA0E04A"
+				item: "charginggadgets:charging_station"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			description: ["Make sure to use &eJEI&r in order to see the recipes."]
+			id: "428771C35C60373C"
+			shape: "square"
+			subtitle: "Thousands of new blocks can only be crafted here."
+			tasks: [{
+				id: "5B6A8CA1ED8761A0"
+				item: "bf_blockpack:workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "<shadow a=0.4><grad from=#419506 to=#C0CDCD>Building</grad></shadow>"
+}

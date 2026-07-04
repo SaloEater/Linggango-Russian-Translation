@@ -1,0 +1,148 @@
+{
+	autofocus_id: "097048D4AD270085"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "curios"
+	group: "0FD8C2D2A2339C0B"
+	icon: {
+		Count: 1
+		id: "morerelics:made_in_heaven"
+		tag: {
+			abilities: {
+				as_one: {
+					points: 0
+					stats: {
+						accel_cooldown: 42.60843d
+						initial_boost: 0.05283d
+					}
+				}
+				condemn: {
+					points: 0
+					stats: {
+						cooldown: 47.96989d
+						damage: 3.7109d
+					}
+				}
+				divine_judgement: {
+					points: 0
+					stats: {
+						cooldown: 1200.31457d
+						damage: 45.80668d
+					}
+				}
+				zenith: {
+					points: 0
+					stats: {
+						revive_cooldown: 660.41247d
+						stat_boost: 0.13376d
+					}
+				}
+			}
+		}
+	}
+	id: "4C2CE7874D6AFE9A"
+	images: [{
+		height: 15.0d
+		image: "customtextures:textures/curios.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 0.5d
+		y: 0.0d
+	}]
+	order_index: 21
+	parent: "44F86CB070F12FF2"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Fart fart fart fart fart fart fart "
+				""
+				"128 rabbits is intended."
+			]
+			id: "250594093332210C"
+			rewards: [{
+				id: "252CD7060EB84420"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Unique"
+			tasks: [{
+				id: "71B7BBB995908B94"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"You have reached Heaven!"
+				""
+				"Amplifies your stats, saves you from death and boosts your damage. (stacks with amplified stats)"
+				""
+				"jojo.."
+			]
+			id: "097048D4AD270085"
+			rewards: [
+				{
+					id: "2553FEBBF804D3D9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:villager_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72507AD5BDA9A126"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.0d
+			subtitle: "Special"
+			tasks: [{
+				id: "59E958FFF0E43A87"
+				item: {
+					Count: 1
+					id: "morerelics:made_in_heaven"
+					tag: {
+						abilities: {
+							as_one: {
+								points: 0
+								stats: {
+									multiplier: 0.14928d
+								}
+							}
+							judgement: {
+								points: 0
+								stats: {
+									max_health_damage: 2.48214d
+									min_damage: 1.94869d
+								}
+							}
+							safeguard: {
+								points: 0
+								stats: {
+									cooldown: 484.04176d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+	]
+	title: "Curios"
+}

@@ -4,12 +4,12 @@
 	default_min_width: 250
 	default_quest_shape: "woodtier"
 	filename: "bosses"
-	group: "3C6AB1DE39D4F441"
+	group: "0FD8C2D2A2339C0B"
 	icon: {
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "block_factorys_bosses:item/large_sword"
+			Icon: "enigmaticaddons:item/sanguinary_handbook"
 		}
 	}
 	id: "084C60296473EF4E"
@@ -21,18 +21,23 @@
 			order: -5
 			rotation: 0.0d
 			width: 2.0d
-			x: 6.0d
-			y: 5.98d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.bosses.image.hovertext1"]
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
-			y: -5.0d
+			x: -2.0782230163130677d
+			y: 0.5932462437969548d
 		}
 		{
 			height: 2.0d
@@ -208,8 +213,18 @@
 			image: "goety_revelation:textures/entity/player/halo.png"
 			rotation: 0.0d
 			width: 1.5d
-			x: 2.0d
-			y: -3.5d
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["This questline will probably get reworked completely"]
+			image: "industrialforegoing:item/iron_gear"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.9203474098379445d
+			y: 0.624067648802594d
 		}
 	]
 	order_index: 5
@@ -219,9 +234,9 @@
 		{
 			dependencies: ["73709211BC66AA5B"]
 			description: [
-				"{ftbquests.chapter.bosses.quest1858915447488640018.description1}"
+				"&cDune sentinel&r is a big living cannon that shoots bombs."
 				""
-				"{ftbquests.chapter.bosses.quest1858915447488640018.image0}"
+				"{image:customtextures:textures/dunesentinel.png width:250 height:100 align:center}"
 			]
 			icon: "legendary_monsters:eye_of_sandstorm"
 			id: "19CC31C0230BF412"
@@ -232,7 +247,7 @@
 				xp_levels: 20
 			}]
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest1858915447488640018.subtitle}"
+			subtitle: "Overworld / Deserts"
 			tasks: [{
 				entity: "legendary_monsters:dune_sentinel"
 				icon: {
@@ -243,22 +258,22 @@
 					}
 				}
 				id: "736AF38E16C96DDE"
-				title: "{ftbquests.chapter.bosses.quest1858915447488640018.task.8316727453486247390.title}"
+				title: "Defeat Dune Sentinel"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest1858915447488640018.title}"
+			title: "<shadow a=0.6><grad from=#FFFF99 to=#FFFFFF>The Dune Sentinel</grad></shadow>"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["17A934CFAC3FA28E"]
 			description: [
-				"{ftbquests.chapter.bosses.quest4207669842863080131.description1}"
+				"&cThe Ancient Guardian&r is a heavy-hitting giant monster, that protects these annoying silverfishes."
 				""
-				"{ftbquests.chapter.bosses.quest4207669842863080131.image0}"
-				"{ftbquests.chapter.bosses.quest4207669842863080131.image2}"
-				"{ftbquests.chapter.bosses.quest4207669842863080131.image4}"
+				"{image:customtextures:textures/ancientguardian.png width:250 height:110 align:center}"
+				"{image:customtextures:textures/ancientguardian1.png width:250 height:110 align:center}"
+				"{image:customtextures:textures/ancientguardian2.png width:250 height:110 align:center}"
 			]
 			hide_until_deps_complete: false
 			icon: "legendary_monsters:eye_of_many_ribs"
@@ -269,8 +284,9 @@
 				type: "xp_levels"
 				xp_levels: 20
 			}]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest4207669842863080131.subtitle}"
+			subtitle: "Overworld / Spruce biome"
 			tasks: [{
 				entity: "legendary_monsters:ancient_guardian"
 				icon: {
@@ -281,51 +297,60 @@
 					}
 				}
 				id: "64592C21ADB7DD37"
-				title: "{ftbquests.chapter.bosses.quest4207669842863080131.task.7230859199880092983.title}"
+				title: "Defeat Ancient Guardian"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest4207669842863080131.title}"
+			title: "<grad from=#42383C to=#7A6A70 f=0.5><shake a=0.3 f=0.5>The Ancient Guardian</shake></grad>"
 			x: -1.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["12404E9F505EA489"]
 			description: [
-				"{ftbquests.chapter.bosses.quest8122468798062111909.description1}"
+				"&cOvergrown Colossus&r is a old protector of villagers."
 				""
-				"{ftbquests.chapter.bosses.quest8122468798062111909.image0}"
+				"{image:customtextures:textures/overgrowncolossus.png width:250 height:100 align:center}"
 			]
 			icon: "legendary_monsters:eye_of_moss"
 			id: "70B8CE564FAFACA5"
 			optional: true
-			rewards: [{
-				id: "3AB620B22CC2652C"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3AB620B22CC2652C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65568FF5E78DCF89"
+					table_id: 8699295573854160387L
+					type: "random"
+				}
+			]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest8122468798062111909.subtitle}"
+			subtitle: "Overworld / Jungle"
 			tasks: [{
 				entity: "legendary_monsters:overgrown_colossus"
 				icon: "legendary_monsters:totem_of_moss"
 				id: "53BB716AE4EF572A"
-				title: "{ftbquests.chapter.bosses.quest8122468798062111909.task.6033540829714274090.title}"
+				title: "Defeat Overgrown Colossus"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest8122468798062111909.title}"
+			title: "Kill&c Overgrown Colossus"
 			x: 5.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["19CC31C0230BF412"]
 			description: [
-				"{ftbquests.chapter.bosses.quest4456110818350804634.description1}"
+				"&cFrostbitten Golem&r is a big frozen golem that can be found in snowy and cold biomes. "
 				""
-				"{ftbquests.chapter.bosses.quest4456110818350804634.description2}"
+				"He summons dangerous ice spikes to hurt its enemies."
 				""
-				"{ftbquests.chapter.bosses.quest4456110818350804634.image0}"
+				"{image:customtextures:textures/frostbittengolem.png width:250 height:100 align:center}"
 			]
 			icon: "legendary_monsters:eye_of_frost"
 			icon_scale: 1.2d
@@ -337,7 +362,7 @@
 				xp_levels: 15
 			}]
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest4456110818350804634.subtitle}"
+			subtitle: "Overworld / Cold biomes"
 			tasks: [{
 				entity: "legendary_monsters:frostbitten_golem"
 				icon: {
@@ -348,20 +373,20 @@
 					}
 				}
 				id: "65A1A2E6D04BC7A2"
-				title: "{ftbquests.chapter.bosses.quest4456110818350804634.task.7323313581301942178.title}"
+				title: "Defeat Frostbitten Golem"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest4456110818350804634.title}"
+			title: "<shadow a=0.6><grad from=#FFFFFF to=#00FFFF>Frostbitten Golem</grad></shadow>"
 			x: 3.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3AE5104012516346"]
 			description: [
-				"{ftbquests.chapter.bosses.quest2568428666729459647.description1}"
+				"&cWithered Abomination&r is a experiment from pillagers that turned out to be a failure, left in the depths of nether."
 				""
-				"{ftbquests.chapter.bosses.quest2568428666729459647.image0}"
+				"{image:customtextures:textures/abandon.png width:250 height:100 align:center}"
 			]
 			icon: "legendary_monsters:withered_horn"
 			id: "23A4E443A756EFBF"
@@ -371,26 +396,27 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest2568428666729459647.subtitle}"
+			subtitle: "Nether"
 			tasks: [{
 				entity: "legendary_monsters:withered_abomination"
 				icon: "legendary_monsters:withered_horn"
 				id: "3CFF5080A4BA97D5"
-				title: "{ftbquests.chapter.bosses.quest2568428666729459647.task.4395320274786621397.title}"
+				title: "Defeat Withered Abomination"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest2568428666729459647.title}"
-			x: -5.5d
-			y: -2.5d
+			title: "<grad from=#404040 to=#0D0D0D f=1><turb a=0.5 f=0.8>The Withered Abomination</turb></grad>"
+			x: -5.3999999999999995d
+			y: -3.5999999999999996d
 		}
 		{
 			dependencies: ["46A8E64D8B86BB7B"]
 			description: [
-				"{ftbquests.chapter.bosses.quest8349794259765186271.description1}"
+				"&cLava Eater&r is a big lizard that is immune to fire. That's literally it."
 				""
-				"{ftbquests.chapter.bosses.quest8349794259765186271.image0}"
+				"{image:customtextures:textures/lavaeater.png width:250 height:100 align:center}"
 			]
 			icon: "legendary_monsters:eye_of_magma"
 			id: "73E06DA3E0E64EDF"
@@ -398,31 +424,31 @@
 			rewards: [{
 				id: "6C951F4093149EDC"
 				type: "xp"
-				xp: 100
+				xp: 200
 			}]
-			shape: "woodtier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest8349794259765186271.subtitle}"
+			subtitle: "Nether"
 			tasks: [{
 				entity: "legendary_monsters:lava_eater"
 				icon: "minecraft:magma_block"
 				id: "23036430799E6877"
-				title: "{ftbquests.chapter.bosses.quest8349794259765186271.task.2522970375619242103.title}"
+				title: "Defeat Lava Eater"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest8349794259765186271.title}"
+			title: "<grad from=#6E1818 to=#FF6600><pend f=0.6 a=10 r=0.5><swing a=0.3 f=0.8 w=0.2>Lava Eater</swing></pend></grad>"
 			x: -1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["17A934CFAC3FA28E"]
 			description: [
-				"{ftbquests.chapter.bosses.quest1176647604957141574.description1}"
+				"&cFrostmaw&r is a legendary golem that protects the cold biomes."
 				""
-				"{ftbquests.chapter.bosses.quest1176647604957141574.description2}"
+				"Using eye of frost can help to find it's location."
 				""
-				"{ftbquests.chapter.bosses.quest1176647604957141574.image0}"
+				"{image:customtextures:textures/frostmaw.png width:250 height:100 align:center}"
 			]
 			id: "10544AC33748DA46"
 			rewards: [{
@@ -430,8 +456,9 @@
 				item: "mowzies_cataclysm:sun_eye"
 				type: "item"
 			}]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest1176647604957141574.subtitle}"
+			subtitle: "Overworld / Cold biomes"
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
 				icon: {
@@ -442,20 +469,20 @@
 					}
 				}
 				id: "6BDA0212A67A28B8"
-				title: "{ftbquests.chapter.bosses.quest1176647604957141574.task.7771526386106902712.title}"
+				title: "Defeat Frostmaw"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest1176647604957141574.title}"
+			title: "<grad from=#FFFFFF to=#99D6EA><pulse base=0.65 a=0.8 f=1.5>The Frostmaw</pulse></grad>"
 			x: -4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["10544AC33748DA46"]
 			description: [
-				"{ftbquests.chapter.bosses.quest5772377320933537540.description1}"
+				"&cUmvuthi&r is a god-like creature with a cult. Go stop them because why not?"
 				""
-				"{ftbquests.chapter.bosses.quest5772377320933537540.image0}"
+				"{image:customtextures:textures/umvuthi.png width:250 height:100 align:center}"
 			]
 			icon: "mowziesmobs:sol_visage"
 			id: "501B9A970BC3B704"
@@ -465,30 +492,31 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest5772377320933537540.subtitle}"
+			subtitle: "Overworld / Taiga biomes i guess"
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				icon: "mowziesmobs:sol_visage"
 				id: "167E2116FCC451AE"
-				title: "{ftbquests.chapter.bosses.quest5772377320933537540.task.1620769298513678766.title}"
+				title: "Defeat Umvuthi, the Sunbird"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest5772377320933537540.title}"
+			title: "<grad from=#FFFFFF to=#FFD700><pend f=0.5 a=10 r=0.3><swing a=0.2 f=0.5 w=0.1><wave a=0.1 f=0.3 w=0.2>Umvuthi The Sunbird</wave></swing></pend></grad>"
 			x: -4.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1877819E0EA0C97B"]
 			description: [
-				"{ftbquests.chapter.bosses.quest2388689972919219317.description1}"
+				"&cFerrous Wroughtnaut&r is a legendary warrior from the past. Go and wake him up for a challenge!"
 				""
-				"{ftbquests.chapter.bosses.quest2388689972919219317.description2}"
+				"&cImportant:&r He can only take damage when attacked from the back."
 				""
-				"{ftbquests.chapter.bosses.quest2388689972919219317.description3}"
+				"Using the Eye of Wrought can help you locate his room."
 				""
-				"{ftbquests.chapter.bosses.quest2388689972919219317.image0}"
+				"{image:customtextures:textures/wrought.png width:250 height:100 align:center}"
 			]
 			id: "212654DFE2633475"
 			rewards: [{
@@ -496,31 +524,32 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest2388689972919219317.subtitle}"
+			subtitle: "Overworld / Underground"
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
 				icon: "mowziesmobs:wrought_helmet"
 				id: "5922AA1129919D5B"
-				title: "{ftbquests.chapter.bosses.quest2388689972919219317.task.6422883009272323419.title}"
+				title: "Defeat Ferrous Wroughtnaut"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest2388689972919219317.title}"
+			title: "<grad from=#FFFFFF to=#808080>Ferrous Wroughtnaut</grad>"
 			x: 0.5d
 			y: 0.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.bosses.quest1763020294989072763.description1}"
+				"&cThe Swampjaw&r is a natural predator that threatens the entirety of the Swamp Biome."
 				""
-				"{ftbquests.chapter.bosses.quest1763020294989072763.description2}"
+				"It can be lured into an encounter by using a &dFossil Bait&r."
 				""
-				"{ftbquests.chapter.bosses.quest1763020294989072763.description3}"
+				"&c&lImportant!"
 				""
-				"{ftbquests.chapter.bosses.quest1763020294989072763.description4}"
+				"&eIf you want to locate bosses, use the Explorer's Compass!"
 			]
-			icon: "meetyourfight:fossil_bait"
+			icon: "meetyourfight:mossy_tooth"
 			id: "1877819E0EA0C97B"
 			min_required_dependencies: 1
 			min_required_tasks: 1
@@ -529,22 +558,30 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			size: 1.4d
-			subtitle: "{ftbquests.chapter.bosses.quest1763020294989072763.subtitle}"
+			subtitle: "Overworld / Swamps"
 			tasks: [
-				{
-					id: "4C4E617406BF481F"
-					item: "meetyourfight:mossy_tooth"
-					type: "item"
-				}
 				{
 					id: "4243D20FE72E5BE2"
 					item: "meetyourfight:fossil_bait"
 					type: "item"
 				}
+				{
+					entity: "meetyourfight:swampjaw"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "meetyourfight:item/mossy_tooth"
+						}
+					}
+					id: "16D2129DB7F080A7"
+					type: "kill"
+					value: 1L
+				}
 			]
-			title: "{ftbquests.chapter.bosses.quest1763020294989072763.title}"
+			title: "<grad from=#FFFFFF to=#C8C8C8>The Swampjaw</grad>"
 			x: -1.0d
 			y: 0.5d
 		}
@@ -552,9 +589,9 @@
 			dependencies: ["73709211BC66AA5B"]
 			dependency_requirement: "all_started"
 			description: [
-				"{ftbquests.chapter.bosses.quest1704952000489169550.description1}"
+				"&cDame Fortuna&r is a gambler that still lives in her mom's house."
 				""
-				"{ftbquests.chapter.bosses.quest1704952000489169550.description2}"
+				"She can be called using a &dDevil's Ante&r."
 			]
 			icon: "meetyourfight:devils_ante"
 			id: "17A934CFAC3FA28E"
@@ -564,8 +601,9 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest1704952000489169550.subtitle}"
+			subtitle: "Summonable"
 			tasks: [
 				{
 					id: "2DAEE490F1F92A96"
@@ -578,71 +616,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bosses.quest1704952000489169550.title}"
+			title: "<grad from=#FFFFFF to=#FF0000 f=1>Dame Fortuna</grad>"
 			x: -1.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["501B9A970BC3B704"]
-			description: [
-				"{ftbquests.chapter.bosses.quest3582536127484348030.description1}"
-				""
-				"{ftbquests.chapter.bosses.quest3582536127484348030.description2}"
-				""
-				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.bosses.quest3582536127484348030.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"03A428597377BA31\"}}]"
-			]
-			icon: {
-				Count: 1
-				id: "block_factorys_bosses:sandworm_dart"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "31B7B9A079B5467E"
-			min_required_tasks: 1
-			min_width: 1
-			rewards: [
-				{
-					count: 4
-					id: "6AD784B2EB16F827"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "20C8BE822337C1B9"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-			]
-			shape: "irontier"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest3582536127484348030.subtitle}"
-			tasks: [{
-				entity: "block_factorys_bosses:sandworm"
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "block_factorys_bosses:item/sandworm_dart"
-					}
-				}
-				id: "1E32004EEF57EFF8"
-				title: "{ftbquests.chapter.bosses.quest3582536127484348030.task.2175801908996337656.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{ftbquests.chapter.bosses.quest3582536127484348030.title}"
-			x: -4.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["212654DFE2633475"]
 			description: [
-				"{ftbquests.chapter.bosses.quest8318309116626250331.description1}"
+				"&cThe Bellringer&r uhh.. rings bells"
 				""
-				"{ftbquests.chapter.bosses.quest8318309116626250331.description2}"
+				"It can be called using a &dHaunted Bell&r."
 			]
 			icon: "meetyourfight:haunted_bell"
 			icon_scale: 1.2d
@@ -654,8 +637,9 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest8318309116626250331.subtitle}"
+			subtitle: "Summonable"
 			tasks: [
 				{
 					id: "3D40EC94EE2DB44F"
@@ -668,19 +652,19 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bosses.quest8318309116626250331.title}"
+			title: "<grad from=#513E5C to=#FFD700><fade a=0.4 f=1.0 w=0.1>The Bellringer</fade></grad>"
 			x: 0.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["501B9A970BC3B704"]
 			description: [
-				"{ftbquests.chapter.bosses.quest1520390273865666870.description1}"
+				"&cTongbi&r is a martial artist that trains his students in his Monastery that can be located using a &eEye of the sculptor."
 				""
-				"{ftbquests.chapter.bosses.quest1520390273865666870.description2}"
+				"You can either fight him or finish his training."
 				""
-				"{ftbquests.chapter.bosses.quest1520390273865666870.image0}"
-				"{ftbquests.chapter.bosses.quest1520390273865666870.image2}"
+				"{image:customtextures:textures/monastery.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/tongbi.png width:250 height:100 align:center}"
 			]
 			icon: "mowzies_cataclysm:tongbi_eye"
 			id: "151982E611B8D136"
@@ -692,24 +676,25 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest1520390273865666870.subtitle}"
+			subtitle: "Overworld / Anywhere (ig)"
 			tasks: [{
 				id: "449766E39A0BB6E1"
-				title: "{ftbquests.chapter.bosses.quest1520390273865666870.task.4942532243790477025.title}"
+				title: "I'm just here for the rewards"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.bosses.quest1520390273865666870.title}"
-			x: -5.5d
-			y: 0.5d
+			title: "Kill <grad from=#FF0000 to=#FF0000><pulse base=0.4 a=2.0 f=5.0>Tongbi</pulse></grad> or &aDo his test"
+			x: -5.3999999999999995d
+			y: -0.5999999999999996d
 		}
 		{
-			dependencies: ["31B7B9A079B5467E"]
+			dependencies: ["11A438ECC04E7533"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.bosses.quest2927821273660546926.description1}"
+				"&cRosalyne, Blade of Dusk&r is an awful princess who perished in the endless depths of a sea of thorny bushes. "
 				""
-				"{ftbquests.chapter.bosses.quest2927821273660546926.description2}"
+				"She can be unsealed using a Dusk Key&r found in a chest whitin her sanctuary&r located in flower biomes&r."
 			]
 			icon: "meetyourfight:violet_bloom"
 			id: "28A1B5EFA65E5F6E"
@@ -720,9 +705,9 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			shape: "irontier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest2927821273660546926.subtitle}"
+			subtitle: "Summonable"
 			tasks: [
 				{
 					entity: "meetyourfight:rosalyne"
@@ -734,7 +719,7 @@
 						}
 					}
 					id: "50FA434A75DEEFFD"
-					title: "{ftbquests.chapter.bosses.quest2927821273660546926.task.5835050254296084477.title}"
+					title: "Defeat Rosalyne, Blade of Dusk"
 					type: "kill"
 					value: 1L
 				}
@@ -744,16 +729,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bosses.quest2927821273660546926.title}"
+			title: "<grad from=#D8A0FF to=#D8A0FF><bounce a=0.2 f=0.5 w=0.2>Rosalyne, Blade of Dusk</bounce></grad>"
 			x: -2.5d
 			y: -2.5d
 		}
 		{
-			dependencies: ["31B7B9A079B5467E"]
+			dependencies: ["151982E611B8D136"]
 			description: [
-				"{ftbquests.chapter.bosses.quest4243816091237835590.description1}"
+				"&cThe Skeletosaurus&r is a big.. skeleton but also a dinosaur "
 				""
-				"{ftbquests.chapter.bosses.quest4243816091237835590.image0}"
+				"{image:customtextures:textures/skeleton.png width:250 height:100 align:center}"
 			]
 			icon: "legendary_monsters:eye_of_bones"
 			id: "3AE5104012516346"
@@ -764,9 +749,9 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			shape: "woodtier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest4243816091237835590.subtitle}"
+			subtitle: "Nether"
 			tasks: [{
 				entity: "legendary_monsters:skeletosaurus"
 				icon: {
@@ -777,24 +762,24 @@
 					}
 				}
 				id: "21A6673B9F67AE19"
-				title: "{ftbquests.chapter.bosses.quest4243816091237835590.task.2424738955160694297.title}"
+				title: "Defeat Skeletosaurus"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest4243816091237835590.title}"
-			x: -5.5d
-			y: -1.0d
+			title: "<neon p=6 r=1 a=0.08><grad from=#EFF1F0 to=#584E54>The Skeletosaurus</grad></neon>"
+			x: -5.3999999999999995d
+			y: -2.0999999999999996d
 		}
 		{
 			dependencies: ["28A1B5EFA65E5F6E"]
 			description: [
-				"{ftbquests.chapter.bosses.quest5091572599470078843.description1}"
+				"&cThe Corpse Warlock&r represents the orchestra of death, manipulating life as it wish. "
 				""
-				"{ftbquests.chapter.bosses.quest5091572599470078843.description2}"
+				"Towards the goal of forming a powerful army, he has taken place within the Nether&r and built a Bloody Altar&r for Its plan."
 				""
-				"{ftbquests.chapter.bosses.quest5091572599470078843.description3}"
+				"The &dEye of Bloody Altar&r is a coveted treasure to find this criminal."
 				""
-				"{ftbquests.chapter.bosses.quest5091572599470078843.image0}"
+				"{image:customtextures:textures/corpse.png width:250 height:100 align:center}"
 			]
 			icon: "eeeabsmobs:bloody_altar_eye"
 			id: "46A8E64D8B86BB7B"
@@ -826,31 +811,37 @@
 					type: "item"
 				}
 			]
-			shape: "irontier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest5091572599470078843.subtitle}"
+			subtitle: "Nether"
 			tasks: [{
 				entity: "eeeabsmobs:corpse_warlock"
-				icon: "block_factorys_bosses:corpse"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "eeeabsmobs:item/bloody_altar_eye"
+					}
+				}
 				id: "76CF13F0A2D0E770"
-				title: "{ftbquests.chapter.bosses.quest5091572599470078843.task.8561083340899280752.title}"
+				title: "Defeat Corpse Warlock"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest5091572599470078843.title}"
+			title: "<neon p=6 r=1 a=0.08><grad from=#000000 to=#CC0000 f=0.3><shake a=0.3 f=0.5>The Corpse Warlock</shake></grad></neon>"
 			x: -1.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["46A8E64D8B86BB7B"]
 			description: [
-				"{ftbquests.chapter.bosses.quest4708695386568025567.description1}"
+				"&cThe Dead King&r is a long forgotten reign which remains within the Catacombs&r deep undergrounds. "
 				""
-				"{ftbquests.chapter.bosses.quest4708695386568025567.description2}"
+				"Using a &6Wayward Compass&r can help you find its corpse."
 				""
-				"{ftbquests.chapter.bosses.quest4708695386568025567.description3}"
+				"It is resting endlessly, unless someone decides to wake him up..."
 				""
-				"{ftbquests.chapter.bosses.quest4708695386568025567.image0}"
+				"{image:customtextures:textures/deadking.png width:250 height:100 align:center}"
 			]
 			icon: {
 				Count: 1
@@ -876,46 +867,47 @@
 					type: "item"
 				}
 			]
-			shape: "irontier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest4708695386568025567.subtitle}"
+			subtitle: "Overworld / Underground"
 			tasks: [{
 				entity: "irons_spellbooks:dead_king"
 				icon: "born_in_chaos_v1:shattered_skull"
 				id: "426F1B3970E4390E"
-				title: "{ftbquests.chapter.bosses.quest4708695386568025567.task.4787074862439217422.title}"
+				title: "Defeat The Dead King"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest4708695386568025567.title}"
+			title: "<shadow a=0.6><grad from=#C0C0C0 to=#E8E8E8>The Dead King</grad></shadow>"
 			x: 0.5d
 			y: -2.5d
 		}
 		{
-			dependencies: ["237056413A870612"]
+			dependencies: ["4158A5819FE865DF"]
 			description: [
-				"{ftbquests.chapter.bosses.quest2416777994613162388.description1}"
+				"&cThe Wither&r is a natural apex predator sealed away because of it's greediness."
 				""
-				"{ftbquests.chapter.bosses.quest2416777994613162388.description2}"
+				"Recommended to spawn the wither at least one thousand&r blocks away from your base."
 				""
-				"{ftbquests.chapter.bosses.quest2416777994613162388.image0}"
+				"{image:customtextures:textures/wither.png width:250 height:100 align:center}"
 			]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "218A1EC80DE60194"
 			min_required_tasks: 1
 			rewards: [{
-				id: "3CDDD034773E4042"
+				exclude_from_claim_all: true
+				id: "71BCA0D64B889AC5"
 				table_id: 8699295573854160387L
-				title: "{ftbquests.chapter.bosses.quest2416777994613162388.reward.4385890535886176322.title}"
 				type: "random"
 			}]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest2416777994613162388.subtitle}"
+			subtitle: "Summonable"
 			tasks: [
 				{
 					entity: "minecraft:wither"
 					id: "7EA2CAC4F9158938"
-					title: "{ftbquests.chapter.bosses.quest2416777994613162388.task.9125078742347385144.title}"
+					title: "Defeat The Wither"
 					type: "kill"
 					value: 1L
 				}
@@ -938,7 +930,7 @@
 							]
 						}
 					}
-					title: "{ftbquests.chapter.bosses.quest2416777994613162388.task.6105036708044925.title}"
+					title: "4x Soul sand or Soul soil"
 					type: "item"
 				}
 				{
@@ -948,18 +940,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bosses.quest2416777994613162388.title}"
+			title: "<grad from=#000000 to=#FFFFFF f=2><glitch f=0.5 j=0.005 b=0.001 s=0.03><shake a=0.3 f=0.5>The Wither</shake></glitch></grad>"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["31B7B9A079B5467E"]
+			dependencies: ["501B9A970BC3B704"]
 			description: [
-				"{ftbquests.chapter.bosses.quest1271203584315127091.description1}"
+				"&cThe Warden&r rests deep under the ground."
 				""
-				"{ftbquests.chapter.bosses.quest1271203584315127091.description2}"
+				"It resides a strange and worrying fauna that reacts to sounds. Don't make too much noise or you might wake it up."
 				""
-				"{ftbquests.chapter.bosses.quest1271203584315127091.image0}"
+				"{image:customtextures:textures/ancientcity.png width:250 height:100 align:center}"
 			]
 			icon: "terramity:warden_soul"
 			id: "11A438ECC04E7533"
@@ -979,83 +971,90 @@
 					type: "item"
 				}
 			]
-			shape: "irontier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest1271203584315127091.subtitle}"
+			subtitle: "Overworld / Underground / Ancient City"
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "61DC1376BD08C93E"
-				title: "{ftbquests.chapter.bosses.quest1271203584315127091.task.7051532517253892414.title}"
+				title: "Defeat The Warden"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest1271203584315127091.title}"
+			title: "<grad from=#0FA49B to=#0FA49B><pulse base=0.5 a=1.8 f=2.5><glitch f=0.3 j=0.003 b=0.001 s=0.02>The Warden</glitch></pulse></grad>"
 			x: -4.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["218A1EC80DE60194"]
 			description: [
-				"{ftbquests.chapter.bosses.quest7606470678588214292.description1}"
+				"&cThe Nameless Guardian&r is a huge brute force reliant knight that survived through ages, serving the immortal."
 				""
-				"{ftbquests.chapter.bosses.quest7606470678588214292.description2}"
+				"Use Eye of Guling&r to locate its palace."
 				""
-				"{ftbquests.chapter.bosses.quest7606470678588214292.image0}"
+				"{image:customtextures:textures/guardian.png width:250 height:100 align:center}"
 			]
-			icon: "eeeabsmobs:guling_eye"
+			icon: "eeeabsmobs:coreforge_ruins_eye"
 			icon_scale: 1.2d
 			id: "698F9CC807ACCC14"
 			min_required_tasks: 1
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5E9C5F13937B393F"
-				table_id: 4068213888760668096L
+				id: "6BE731045D3D3373"
+				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "goldtier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest7606470678588214292.subtitle}"
-			tasks: [{
-				entity: "eeeabsmobs:nameless_guardian"
-				icon: {
-					Count: 1
-					id: "eeeabsmobs:guardian_axe"
-					tag: {
-						CodeAddFlag: 1b
-						Damage: 0
-						Unbreakable: 1b
+			subtitle: "Overworld / Underground"
+			tasks: [
+				{
+					entity: "eeeabsmobs:nameless_guardian"
+					icon: {
+						Count: 1
+						id: "eeeabsmobs:guardian_axe"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+						}
 					}
+					id: "2F013747EBF8730D"
+					title: "Defeat Nameless Guardian"
+					type: "kill"
+					value: 1L
 				}
-				id: "2F013747EBF8730D"
-				title: "{ftbquests.chapter.bosses.quest7606470678588214292.task.3387049176800457485.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{ftbquests.chapter.bosses.quest7606470678588214292.title}"
+				{
+					id: "605E2137BC8B7A49"
+					item: "eeeabsmobs:coreforge_ruins_eye"
+					type: "item"
+				}
+			]
+			title: "<grad from=#404040 to=#ADD8E6 f=0.7>The Nameless Guardian</grad>"
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["698F9CC807ACCC14"]
 			description: [
-				"{ftbquests.chapter.bosses.quest598548576612393099.description1}"
+				"&cThe Posessed Paladin&r, a fallen man which corpse was captured by an evil soul."
 				""
-				"{ftbquests.chapter.bosses.quest598548576612393099.description2}"
+				"It is found in the Abandoned Crypt&r and can be located using an Eye of Ghost&r."
 				""
-				"{ftbquests.chapter.bosses.quest598548576612393099.image0}"
+				"{image:customtextures:textures/paladin.png width:250 height:100 align:center}"
 			]
 			icon: "legendary_monsters:eye_of_ghost"
 			id: "084E78C259CC208B"
 			min_required_tasks: 1
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5DAE8148BFBDFEDB"
-				table_id: 2501998888776764148L
+				id: "12630FCC2A37C52E"
+				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "goldtier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest598548576612393099.subtitle}"
+			subtitle: "Overworld / Any Biome"
 			tasks: [{
 				entity: "legendary_monsters:posessed_paladin"
 				icon: {
@@ -1066,128 +1065,128 @@
 					}
 				}
 				id: "5B43D1C7AEC13B48"
-				title: "{ftbquests.chapter.bosses.quest598548576612393099.task.6576330536451652424.title}"
+				title: "Defeat Possessed Paladin"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest598548576612393099.title}"
+			title: "<neon p=6 r=1 a=0.08><shadow a=0.4><grad from=#ADD8E6 to=#00008B><pulse base=0.65 a=0.8 f=1.5><pend f=0.5 a=10 r=0.5><turb a=0.3 f=0.5>The Possessed Paladin</turb></pend></pulse></grad></shadow></neon>"
 			x: 3.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["084E78C259CC208B"]
 			description: [
-				"{ftbquests.chapter.bosses.quest6102960855092542020.description1}"
+				"&cThe Cumulonimbus&r is a powerful entity that resides in the Cloud Temple&r. It has the power to alter the weather as it pleases. "
 				""
-				"{ftbquests.chapter.bosses.quest6102960855092542020.description2}"
+				"It can be located using an Eye of Air&r."
 				""
-				"{ftbquests.chapter.bosses.quest6102960855092542020.image0}"
+				"{image:customtextures:textures/cumulonimbus.png width:250 height:100 align:center}"
 			]
 			icon: "legendary_monsters:eye_of_air"
 			id: "54B2129015E7BA44"
 			min_required_tasks: 1
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "290C798879437236"
-				table_id: 2501998888776764148L
+				id: "7853D4C19C0F8634"
+				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "goldtier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest6102960855092542020.subtitle}"
+			subtitle: "Overworld / High altitude"
 			tasks: [{
 				entity: "legendary_monsters:cloud_golem"
 				icon: {
 					Count: 1
-					id: "ftbquests:custom_icon"
+					id: "brutality:the_cloud"
 					tag: {
-						Icon: "subtle_effects:textures/particle/potion_cloud.png"
+						Damage: 0
 					}
 				}
 				id: "021ED29B5FF888E7"
-				title: "{ftbquests.chapter.bosses.quest6102960855092542020.task.152791002149062887.title}"
+				title: "Defeat Cumulonimbus"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest6102960855092542020.title}"
+			title: "<grad from=#E8F4FF to=#FFFDE8 f=1.5><wave a=0.5 f=0.3 w=0.5><turb a=0.5 f=0.5>The Cumulonimbus</turb></wave></grad>"
 			x: 5.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["54B2129015E7BA44"]
 			description: [
-				"{ftbquests.chapter.bosses.quest4280028299303582867.description1}"
+				"&cThe Scylla&r Rests above the sea and within the sky in a floating palace called Acropolis."
 				""
-				"{ftbquests.chapter.bosses.quest4280028299303582867.description2}"
+				"The Eye of Storm&r may lead you to this sacred place."
 				""
-				"{ftbquests.chapter.bosses.quest4280028299303582867.image0}"
+				"{image:customtextures:textures/acropolis.png width:250 height:100 align:center}"
 			]
 			icon: "cataclysm:storm_eye"
 			id: "3B65B70FC89BFC93"
 			min_required_tasks: 1
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6A3309D2DEEB2BD1"
+				id: "0D1447CD0776BC52"
 				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "diamondtier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest4280028299303582867.subtitle}"
+			subtitle: "Overworld / Ocean"
 			tasks: [{
 				entity: "cataclysm:scylla"
 				icon: "cataclysm:ceraunus"
 				id: "24CF20BEE7156CB3"
-				title: "{ftbquests.chapter.bosses.quest4280028299303582867.task.2652374709837327539.title}"
+				title: "Defeat Scylla"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest4280028299303582867.title}"
+			title: "<neon p=8 r=2 a=0.15><shadow a=0.4><grad from=#FFFF99 to=#ADD8E6><pend f=0.6 a=10 r=0.5>Scylla</pend></grad></shadow></neon>"
 			x: 6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3B65B70FC89BFC93"]
 			description: [
-				"{ftbquests.chapter.bosses.quest1845846530050794619.description1}"
+				"&cThe Netherite Monstrosity&r is a huge monster that used to help humans gather resources in nether, before shutting down for no reason.. since it's off, this is a free kill!"
 				""
-				"{ftbquests.chapter.bosses.quest1845846530050794619.description2}"
+				"Use an Eye of Monstrous&r to locate his palace."
 				""
-				"{ftbquests.chapter.bosses.quest1845846530050794619.image0}"
+				"{image:customtextures:textures/netheritemont.png width:250 height:100 align:center}"
 			]
 			icon: "cataclysm:netherite_effigy"
 			id: "199DC3A3AD90A47B"
 			min_required_tasks: 1
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "06E970305CD89C02"
+				id: "4E76839D844EEF16"
 				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "diamondtier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest1845846530050794619.subtitle}"
+			subtitle: "Nether"
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:netherite_effigy"
 				id: "0F64B8BF53DA0DFA"
-				title: "{ftbquests.chapter.bosses.quest1845846530050794619.task.1109214540125048314.title}"
+				title: "Defeat Netherite Monstrosity"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest1845846530050794619.title}"
+			title: "<grad from=#0D0D0D to=#FF6A00><fade a=0.85 f=1.2>The Nether Monstrosity</fade></grad>"
 			x: 8.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["199DC3A3AD90A47B"]
 			description: [
-				"{ftbquests.chapter.bosses.quest5304039117191477648.description1}"
-				"{ftbquests.chapter.bosses.quest5304039117191477648.description2}"
+				"&cThe &cLord Pumpking Head&r is a huge fraud that got him killed years ago, maybe bring him back with a ritual?"
+				"or just break the pumpkin :)"
 				""
-				"{ftbquests.chapter.bosses.quest5304039117191477648.description3}"
+				"&8I can't really put links in the quests anymore so i suggest going in locator manually and look for infernal pumpkin."
 				""
-				"{ftbquests.chapter.bosses.quest5304039117191477648.image0}"
+				"{image:customtextures:textures/pumpkin.png width:250 height:100 align:center}"
 			]
 			icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
 			id: "499BBB799EF97990"
@@ -1196,17 +1195,17 @@
 			rewards: [{
 				id: "11384E57CF930343"
 				type: "xp"
-				xp: 100
+				xp: 1000
 			}]
-			shape: "irontier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest5304039117191477648.subtitle}"
+			subtitle: "Overworld / Summonable aswell"
 			tasks: [
 				{
 					entity: "born_in_chaos_v1:lord_pumpkinhead"
 					icon: "born_in_chaos_v1:infernal_evil_pumpkin"
 					id: "1CDC6735D97FB43C"
-					title: "{ftbquests.chapter.bosses.quest5304039117191477648.task.2079650608918279228.title}"
+					title: "Defeat Lord Pumpkinhead"
 					type: "kill"
 					value: 1L
 				}
@@ -1216,20 +1215,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bosses.quest5304039117191477648.title}"
+			title: "<neon p=9 r=3 a=0.15><grad from=#FF7300 to=#FFD700>The Lord Pumpkinhead</grad></neon>"
 			x: 9.5d
 			y: -2.5d
 		}
 		{
-			dependencies: ["53FCD20FDB42074E"]
+			dependencies: ["499BBB799EF97990"]
 			description: [
-				"{ftbquests.chapter.bosses.quest2042209878072621964.description1}"
+				"A powerful beast that they call the &cForsaken&r."
 				""
-				"{ftbquests.chapter.bosses.quest2042209878072621964.description2}"
+				"To perform such a ritual, they must be 4."
 				""
-				"{ftbquests.chapter.bosses.quest2042209878072621964.description3}"
+				"Be sure to check----"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.bosses.quest2042209878072621964.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4405287D0ACF3DCB\"}}]"
+				"{ \"text\": \"Forlorn Hollows\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4405287D0ACF3DCB\" } }"
 			]
 			icon: "alexscaves:pure_darkness"
 			id: "1C576310634FFB8C"
@@ -1238,62 +1237,29 @@
 			rewards: [{
 				id: "490FDFB2B30C87D7"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 90
 			}]
-			shape: "diamondtier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest2042209878072621964.subtitle}"
+			subtitle: "Overworld / Forlorn Hollows"
 			tasks: [{
 				entity: "alexscaves:forsaken"
 				icon: "alexscaves:forsaken_idol"
 				id: "4801B68A21D1BA53"
-				title: "{ftbquests.chapter.bosses.quest2042209878072621964.task.5188628950096656979.title}"
+				title: "Defeat The Forsaken"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest2042209878072621964.title}"
+			title: "<neon p=10 r=3 a=0.18><shadow a=0.7><grad from=#FF0000 to=#0D0D0F f=2>The Forsaken</grad></shadow></neon>"
 			x: 9.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["199DC3A3AD90A47B"]
-			description: [
-				"{ftbquests.chapter.bosses.quest6051942964823983950.description1}"
-				""
-				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.bosses.quest6051942964823983950.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4B68F4E8EDCC51A4\"}}]"
-				""
-				"{ftbquests.chapter.bosses.quest6051942964823983950.image0}"
-			]
-			icon: "block_factorys_bosses:dragon_skull"
-			id: "53FCD20FDB42074E"
-			min_required_tasks: 1
-			rewards: [{
-				id: "2A286FDCFEE528EB"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamondtier"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest6051942964823983950.subtitle}"
-			tasks: [{
-				entity: "block_factorys_bosses:infernal_dragon"
-				icon: "block_factorys_bosses:dragon_skull"
-				id: "46BEFCA6C5D41DA6"
-				title: "{ftbquests.chapter.bosses.quest6051942964823983950.task.5097789621443763622.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{ftbquests.chapter.bosses.quest6051942964823983950.title}"
-			x: 8.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3B65B70FC89BFC93"]
 			description: [
-				"{ftbquests.chapter.bosses.quest4709330699332878950.description1}"
+				"&cThe Luxtructosaurus&r was on top of the foodchain until, you arrive."
 				""
-				"{ftbquests.chapter.bosses.quest4709330699332878950.description2}"
+				"Throwing a Ominous Catalyst&r into an active Volcanic Core&r could lead to yet another disaster."
 			]
 			hide_text_until_complete: false
 			icon: "alexscaves:tectonic_shard"
@@ -1303,11 +1269,11 @@
 			rewards: [{
 				id: "0522F7E512876F31"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 70
 			}]
-			shape: "irontier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest4709330699332878950.subtitle}"
+			subtitle: "Overworld / Primordial Caves"
 			tasks: [
 				{
 					entity: "alexscaves:luxtructosaurus"
@@ -1319,7 +1285,7 @@
 						}
 					}
 					id: "4DF05B262BDA64DD"
-					title: "{ftbquests.chapter.bosses.quest4709330699332878950.task.5616088954833626333.title}"
+					title: "Defeat Luxtructosaurus"
 					type: "kill"
 					value: 1L
 				}
@@ -1329,88 +1295,103 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bosses.quest4709330699332878950.title}"
+			title: "<grad from=#4A0000 to=#FF4500><wiggle a=0.5 f=1 w=0.5>The Luxtructosaurus</wiggle></grad>"
 			x: 6.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["53FCD20FDB42074E"]
 			description: [
-				"{ftbquests.chapter.bosses.quest2155707179869726578.description1}"
+				"&cThe Trial Guardian&r is the protector of the huge trial chamber in your world, take him down for the goodie goodies."
 				""
-				"{ftbquests.chapter.bosses.quest2155707179869726578.image0}"
+				"{image:customtextures:textures/trialspire.png width:250 height:100 align:center}"
 			]
 			icon: "terramity:guardians_hand"
 			id: "1DEA9C4237E4E772"
 			min_required_tasks: 1
 			progression_mode: "flexible"
-			rewards: [{
-				id: "1FD9475ED2F98FA7"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamondtier"
+			rewards: [
+				{
+					id: "1FD9475ED2F98FA7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "446DBD55B6268729"
+					table_id: 8699295573854160387L
+					type: "random"
+				}
+			]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest2155707179869726578.subtitle}"
+			subtitle: "Overworld / Ocean"
 			tasks: [{
 				entity: "terramity:trial_guardian"
 				icon: {
 					Count: 1
-					id: "ftbquests:custom_icon"
+					id: "brutality:trial_guardian_hands"
 					tag: {
-						Icon: "minecraft:item/trial_key_ominous"
+						Damage: 0
 					}
 				}
 				id: "71C40CD44DE957A1"
-				title: "{ftbquests.chapter.bosses.quest2155707179869726578.task.8197691327700883361.title}"
+				title: "Defeat The Trial Guardian"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest2155707179869726578.title}"
+			title: "<grad from=#E8E8E8 to=#00FFFF><shake a=0.5 f=0.8><wave a=0.5 f=0.8 w=0.5>The Trial Guardian</wave></shake></grad>"
 			x: 8.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["1DEA9C4237E4E772"]
 			description: [
-				"{ftbquests.chapter.bosses.quest4573240234195326579.description1}"
+				"&cObsidilith&r is a huge \"tanky\" golem that once was a pet of the ender dragon itself, some say he enjoyed that status but hey we don't talk about that."
 				""
-				"{ftbquests.chapter.bosses.quest4573240234195326579.description2}"
+				"Use &eEye of Ender&r to locate it"
 				""
-				"{ftbquests.chapter.bosses.quest4573240234195326579.image0}"
+				"{image:customtextures:textures/obsidilith.png width:250 height:100 align:center}"
 			]
 			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "3F7769C34FBC9673"
 			min_required_tasks: 1
 			progression_mode: "flexible"
-			rewards: [{
-				id: "672A08D3414B45EB"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamondtier"
+			rewards: [
+				{
+					id: "672A08D3414B45EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4719F9B6D5038ACB"
+					table_id: 8699295573854160387L
+					type: "random"
+				}
+			]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest4573240234195326579.subtitle}"
+			subtitle: "End"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: "artifacts:obsidian_skull"
 				id: "718C96BE038A059C"
-				title: "{ftbquests.chapter.bosses.quest4573240234195326579.task.8182080365872678300.title}"
+				title: "Defeat Obsidilith"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest4573240234195326579.title}"
+			title: "<grad from=#0D0D0D to=#CC00FF><pulse base=1.5 a=4 f=3.2 w=24><fade a=0.4 f=1.0 w=0.1>Obsidilith</fade></pulse></grad>"
 			x: 8.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["44A6B81B8860744E"]
 			description: [
-				"{ftbquests.chapter.bosses.quest1315137537347331209.description1}"
+				"&cThe Void Blossom&r is a corrupted overgrown plant."
 				""
-				"{ftbquests.chapter.bosses.quest1315137537347331209.description2}"
+				"Located deep undergrounds&r, use a &eVoid Lily&r to locate it"
 				""
-				"{ftbquests.chapter.bosses.quest1315137537347331209.image0}"
+				"{image:customtextures:textures/blossom.png width:250 height:100 align:center}"
 			]
 			icon: "bosses_of_mass_destruction:void_thorn"
 			id: "12404E9F505EA489"
@@ -1423,46 +1404,54 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7F4A26E06B16B613"
-					table_id: 2501998888776764148L
+					id: "2902D4355207C59B"
+					table_id: 8699295573854160387L
 					type: "random"
 				}
 			]
-			shape: "diamondtier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest1315137537347331209.subtitle}"
+			subtitle: "Overworld / Underground"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
 				icon: "goety:corpse_blossom"
 				id: "103B381AEDF47DF3"
-				title: "{ftbquests.chapter.bosses.quest1315137537347331209.task.1169590216545304051.title}"
+				title: "Defeat Void Blossom"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest1315137537347331209.title}"
+			title: "<neon p=7 r=3 a=0.14><grad from=#6A0D6A to=#B44DB4 f=0.5>Void Blossom</grad></neon>"
 			x: 6.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["3F7769C34FBC9673"]
 			description: [
-				"{ftbquests.chapter.bosses.quest4946843669104718926.description1}"
+				"&cThe Night Lich&r is the tooth fairy of this world, he's pretty much a fraud though, take him down."
 				""
-				"{ftbquests.chapter.bosses.quest4946843669104718926.description2}"
+				"With soul stars you can locate it's presence."
 				""
-				"{ftbquests.chapter.bosses.quest4946843669104718926.image0}"
+				"{image:customtextures:textures/nightlich.png width:250 height:100 align:center}"
 			]
 			icon: "bosses_of_mass_destruction:ancient_anima"
 			id: "44A6B81B8860744E"
 			min_required_tasks: 1
-			rewards: [{
-				id: "5E5DEF973E688C59"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamondtier"
+			rewards: [
+				{
+					id: "5E5DEF973E688C59"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53AB8BD963DC0C9B"
+					table_id: 8699295573854160387L
+					type: "random"
+				}
+			]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest4946843669104718926.subtitle}"
+			subtitle: "Overworld / Cold Biomes / Night"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:lich"
 				icon: {
@@ -1473,36 +1462,36 @@
 					}
 				}
 				id: "3F49F2AF09EC8988"
-				title: "{ftbquests.chapter.bosses.quest4946843669104718926.task.4560442931289033096.title}"
+				title: "Defeat Night Lich"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest4946843669104718926.title}"
+			title: "<grad from=#017F91 to=#BDF3F4 f=0.9><pulse base=0.75 a=0.3 f=0.8><bounce a=0.3 f=0.6 w=0.3>The Night Lich</bounce></pulse></grad>"
 			x: 6.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["12404E9F505EA489"]
 			description: [
-				"{ftbquests.chapter.bosses.quest8927020608151740688.description1}"
+				"&cThe Nether Gauntlet&r used to bring justice in nether until.. the wither arrived"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.bosses.quest8927020608151740688.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5F4A5CFD1BDA2DAF\"}}]"
+				"{ \"text\": \"Nether Gauntlet Locator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F4A5CFD1BDA2DAF\" } }"
 				""
-				"{ftbquests.chapter.bosses.quest8927020608151740688.image0}"
-				"{ftbquests.chapter.bosses.quest8927020608151740688.image2}"
+				"{image:customtextures:textures/gauntletout.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/gauntlet.png width:250 height:100 align:center}"
 			]
 			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "7BE325F21B79E110"
 			min_required_tasks: 1
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7B985E588A96F36C"
+				id: "6DE201CE124057C8"
 				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "diamondtier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest8927020608151740688.subtitle}"
+			subtitle: "Nether"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: {
@@ -1513,26 +1502,24 @@
 					}
 				}
 				id: "591A480C430955F7"
-				title: "{ftbquests.chapter.bosses.quest8927020608151740688.task.6420523436271556087.title}"
+				title: "Defeat Nether Gauntlet"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest8927020608151740688.title}"
+			title: "<shadow a=0.4><grad from=#FFFF00 to=#FF0000 f=0.8><fade a=0.5 f=0.8>The Nether Gauntlet</fade></grad></shadow>"
 			x: 8.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["27BF2E3F794A8645"]
 			description: [
-				"{ftbquests.chapter.bosses.quest9198575613925035419.description1}"
-				""
-				"{ftbquests.chapter.bosses.quest9198575613925035419.description2}"
-				""
-				"{ftbquests.chapter.bosses.quest9198575613925035419.image0}"
-				"{ftbquests.chapter.bosses.quest9198575613925035419.image2}"
-				"{ftbquests.chapter.bosses.quest9198575613925035419.image4}"
-				""
-				"{ftbquests.chapter.bosses.quest9198575613925035419.image6}"
+				"To remain the greatest, &l<neon p=6 r=1 a=0.08><grad from=00FFFF to=FF6600 f=0.6>Ignis</grad></neon>&r and the <grad from=#27EEF5 to=#000000 f=0.7><wave a=0.3 f=0.5 w=0.5>Underworld Knight</wave></grad> continued to fight for years on end. However, even &l<neon p=6 r=1 a=0.08><grad from=00FFFF to=FF6600 f=0.6>Ignis</grad></neon>&r was no match for him in the end. &8The size difference explains it..&r"
+				"The knight isn't even waiting for someone to challenge his strength anymore. He knows he's &cthe strongest&r."
+				"{image:customtextures:textures/underworldknight1.png width:200 height:100 align:center}"
+				"{image:customtextures:textures/underworldknight2.png width:200 height:100 align:center}"
+				"{image:customtextures:textures/underworldknight.png width:200 height:100 align:center}"
+				"{image:customtextures:textures/underworldout.png width:250 height:100 align:center}"
+				"&8is the knight even aware of the greater things out there?&r"
 			]
 			icon: {
 				Count: 1
@@ -1544,17 +1531,6 @@
 			id: "7FA7E7C8E3928D9B"
 			min_required_tasks: 1
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "72BA1FD22A50FBED"
-					table_id: 8699295573854160387L
-					type: "random"
-				}
-				{
-					id: "754BA3A44FC8A127"
-					item: "fintastic:shunji_music_disc"
-					type: "item"
-				}
 				{
 					id: "4F69F2AEED67B3DA"
 					item: "lethality:flowey"
@@ -1611,10 +1587,16 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "6B0A41D1A0392EA5"
+					table_id: 8699295573854160387L
+					type: "random"
+				}
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.bosses.quest9198575613925035419.subtitle}"
+			subtitle: "Nether"
 			tasks: [{
 				entity: "block_factorys_bosses:underworld_knight"
 				icon: {
@@ -1625,32 +1607,40 @@
 					}
 				}
 				id: "7C61E0DC51ED1F7E"
-				title: "{ftbquests.chapter.bosses.quest9198575613925035419.task.8962691970315919230.title}"
+				title: "&cUnderworld Knight"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest9198575613925035419.title}"
-			x: 6.0d
-			y: 5.98d
+			title: "<grad from=#27EEF5 to=#000000 f=0.7><wave a=0.3 f=0.5 w=0.5>Underworld Knight"
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7BE325F21B79E110"]
 			description: [
-				"{ftbquests.chapter.bosses.quest1318171142541002630.image0}"
-				"{ftbquests.chapter.bosses.quest1318171142541002630.image2}"
-				"{ftbquests.chapter.bosses.quest1318171142541002630.image4}"
-				"{ftbquests.chapter.bosses.quest1318171142541002630.image6}"
+				"{image:customtextures:textures/endersent.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/chorusling.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/mutantmen.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/shulkermimin.png width:250 height:100 align:center}"
 			]
 			icon: "enigmaticlegacy:eye_of_nebula"
 			id: "124B15AB9053C786"
-			rewards: [{
-				id: "4E0584848C0DCA67"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "4E0584848C0DCA67"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "559CB93991391B61"
+					table_id: 8699295573854160387L
+					type: "random"
+				}
+			]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest1318171142541002630.subtitle}"
+			subtitle: "End / Some Are Overworld"
 			tasks: [
 				{
 					entity: "legendary_monsters:endersent"
@@ -1662,7 +1652,7 @@
 						}
 					}
 					id: "31DEA4F32EBCA7B8"
-					title: "{ftbquests.chapter.bosses.quest1318171142541002630.task.3593490917056358328.title}"
+					title: "Defeat Endersent"
 					type: "kill"
 					value: 1L
 				}
@@ -1676,7 +1666,7 @@
 						}
 					}
 					id: "5EBD550BD5799169"
-					title: "{ftbquests.chapter.bosses.quest1318171142541002630.task.6826706119478055273.title}"
+					title: "Defeat Mutant Enderman"
 					type: "kill"
 					value: 1L
 				}
@@ -1690,7 +1680,7 @@
 						}
 					}
 					id: "23E8C209CA1BE262"
-					title: "{ftbquests.chapter.bosses.quest1318171142541002630.task.2587531333225669218.title}"
+					title: "Defeat Shulker Mimic"
 					type: "kill"
 					value: 1L
 				}
@@ -1698,36 +1688,39 @@
 					entity: "legendary_monsters:chorusling"
 					icon: "born_in_chaos_v1:lifestealer_skull"
 					id: "558C01E7F9ED23A5"
-					title: "{ftbquests.chapter.bosses.quest1318171142541002630.task.6164304085805507493.title}"
+					title: "Defeat Chorusling"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "{ftbquests.chapter.bosses.quest1318171142541002630.title}"
+			title: "<shadow a=0.4><grad from=#EDD6FF to=#EDD6FF><pulse base=0.75 a=0.3 f=0.8>Void Entities</pulse></grad></shadow>"
 			x: 9.5d
 			y: 3.5d
 		}
 		{
-			dependencies: ["0D87F91C4EC2DA02"]
+			dependencies: [
+				"0D87F91C4EC2DA02"
+				"1C576310634FFB8C"
+			]
 			description: [
-				"{ftbquests.chapter.bosses.quest3041606343849332522.description1}"
+				"&cThe Harbinger&r is a human-made robot that was supposed to rival the wither."
 				""
-				"{ftbquests.chapter.bosses.quest3041606343849332522.description2}"
+				"The Eye of Mech&r can help you find It's location."
 				""
-				"{ftbquests.chapter.bosses.quest3041606343849332522.image0}"
+				"{image:customtextures:textures/humanwither.png width:250 height:100 align:center}"
 			]
 			icon: "cataclysm:mech_eye"
 			id: "2A35F4DAC7B6CF2A"
 			min_required_tasks: 1
 			rewards: [{
-				id: "5D7E1A1D214DCC12"
+				exclude_from_claim_all: true
+				id: "04B0D8E239AAD1E2"
 				table_id: 8699295573854160387L
-				title: "{ftbquests.chapter.bosses.quest3041606343849332522.reward.6736850805007961106.title}"
 				type: "random"
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest3041606343849332522.subtitle}"
+			subtitle: "Overworld / Ancient Factory"
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				icon: {
@@ -1738,34 +1731,34 @@
 					}
 				}
 				id: "78EBA641631297E8"
-				title: "{ftbquests.chapter.bosses.quest3041606343849332522.task.8713240703843604456.title}"
+				title: "Defeat The Harbinger"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest3041606343849332522.title}"
+			title: "<grad from=#FF6666 to=#FF0000 f=0.8><glitch f=0.8 j=0.01 b=0.002 s=0.05>The Harbinger</glitch></grad>"
 			x: 9.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2A35F4DAC7B6CF2A"]
 			description: [
-				"{ftbquests.chapter.bosses.quest8743897192660811972.description1}"
-				"{ftbquests.chapter.bosses.quest8743897192660811972.description2}"
+				"&cEnder Guardian&r tries to protect ruined citadel."
+				"Can be found using the &6Eye of Void.&r"
 				""
-				"{ftbquests.chapter.bosses.quest8743897192660811972.image0}"
+				"{image:customtextures:textures/guardain.png width:250 height:100 align:center}"
 			]
 			icon: "cataclysm:void_eye"
 			id: "7958902B691540C4"
 			min_required_tasks: 1
 			rewards: [{
-				id: "7BF720ABCDB6478C"
+				exclude_from_claim_all: true
+				id: "0132E7835AD66DC0"
 				table_id: 8699295573854160387L
-				title: "{ftbquests.chapter.bosses.quest8743897192660811972.reward.8932644308175439756.title}"
 				type: "random"
 			}]
-			shape: "pentagon"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest8743897192660811972.subtitle}"
+			subtitle: "End"
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				icon: {
@@ -1776,24 +1769,24 @@
 					}
 				}
 				id: "28F3BF7D2F2AD29B"
-				title: "{ftbquests.chapter.bosses.quest8743897192660811972.task.2950912725240959643.title}"
+				title: "Defeat Ender Guardian"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest8743897192660811972.title}"
+			title: "<grad from=#D8A0FF to=#D8A0FF><pulse base=0.75 a=0.3 f=0.8>The Ender Guardian</pulse></grad>"
 			x: 12.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7958902B691540C4"]
 			description: [
-				"{ftbquests.chapter.bosses.quest4723032768565287371.description1}"
+				"&cThe Ancient Remnant&r survived that one meteor, is that enough?"
 				""
-				"{ftbquests.chapter.bosses.quest4723032768565287371.description2}"
+				"Can be found sleeping in the &eCursed Pyramid&r, It can be found using the &6Eye of Desert&r."
 				""
-				"{ftbquests.chapter.bosses.quest4723032768565287371.description3}"
+				"To wake it up get a &enecklace of the desert&r"
 				""
-				"{ftbquests.chapter.bosses.quest4723032768565287371.image0}"
+				"{image:customtextures:textures/pyramid.png width:250 height:100 align:center}"
 			]
 			hide_dependency_lines: false
 			icon: {
@@ -1806,14 +1799,14 @@
 			id: "418B954780DD19CB"
 			min_required_tasks: 1
 			rewards: [{
-				id: "42715177751A71E1"
+				exclude_from_claim_all: true
+				id: "4D1CEB943CAF7BE3"
 				table_id: 8699295573854160387L
-				title: "{ftbquests.chapter.bosses.quest4723032768565287371.reward.4787697452379173345.title}"
 				type: "random"
 			}]
-			shape: "pentagon"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest4723032768565287371.subtitle}"
+			subtitle: "Overworld / Cursed Pyramid"
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
 				icon: {
@@ -1824,37 +1817,37 @@
 					}
 				}
 				id: "6FBCC5A8527B6D1E"
-				title: "{ftbquests.chapter.bosses.quest4723032768565287371.task.8051527560560602398.title}"
+				title: "Defeat Ancient Remnant"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest4723032768565287371.title}"
+			title: "<neon p=8 r=2 a=0.12><shadow a=0.5><grad from=#FFD700 to=#FF6600 f=0.7><fade a=0.5 f=0.8>Geburah</fade></grad></shadow></neon>"
 			x: 12.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["418B954780DD19CB"]
+			dependencies: ["296D1FA3027A3819"]
 			description: [
-				"{ftbquests.chapter.bosses.quest8089822793479134933.description1}"
+				"&cThe Leviathan&r, will remind you of subnautica."
 				""
-				"{ftbquests.chapter.bosses.quest8089822793479134933.description2}"
+				"It can be found into the Sunken City&r using the Eye of Abyss&r Lure it with &6Abyssal Sacrifice&r that is inside of the &6Altar of Abyss.&r"
 				""
-				"{ftbquests.chapter.bosses.quest8089822793479134933.image0}"
-				"{ftbquests.chapter.bosses.quest8089822793479134933.image2}"
-				"{ftbquests.chapter.bosses.quest8089822793479134933.image4}"
+				"{image:customtextures:textures/sunken.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/sunkeninside.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/sunkeninside2.png width:250 height:100 align:center}"
 			]
 			icon: "cataclysm:abyss_eye"
 			id: "7044D2F80D2E9ED5"
 			min_required_tasks: 1
 			rewards: [{
-				id: "728D60FF30494347"
+				exclude_from_claim_all: true
+				id: "273236E0D39EBB8C"
 				table_id: 8699295573854160387L
-				title: "{ftbquests.chapter.bosses.quest8089822793479134933.reward.8254360341183021895.title}"
 				type: "random"
 			}]
-			shape: "pentagon"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest8089822793479134933.subtitle}"
+			subtitle: "Overworld / Below Ocean"
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				icon: {
@@ -1865,35 +1858,35 @@
 					}
 				}
 				id: "2A48D149BE480F50"
-				title: "{ftbquests.chapter.bosses.quest8089822793479134933.task.3046915262571351888.title}"
+				title: "Defeat The Leviathan"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest8089822793479134933.title}"
-			x: 14.0d
+			title: "<grad from=#0D0D0D to=#8B00FF f=0.6><wave a=0.5 f=0.8 w=0.5>The Leviathan</wave></grad>"
+			x: 16.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4E79F98D4B6DF6DF"]
 			description: [
-				"{ftbquests.chapter.bosses.quest2864058738183669317.description1}"
-				"{ftbquests.chapter.bosses.quest2864058738183669317.description2}"
-				"{ftbquests.chapter.bosses.quest2864058738183669317.description3}"
+				"&cIgnis&r is waiting for a opponent, he trained for his all life. How about just show him that his life is pretty much worthless."
+				"&l"
+				"He can be located using the &dEye of Flame&r and confronted by placing &dBurning Ashes&r inside the &dAltar.&r"
 				""
-				"{ftbquests.chapter.bosses.quest2864058738183669317.image0}"
+				"{image:customtextures:textures/ignisarena.png width:250 height:100 align:center}"
 			]
 			icon: "cataclysm:flame_eye"
 			id: "27BF2E3F794A8645"
 			min_required_tasks: 1
 			rewards: [{
-				id: "38D05DDC9809DE74"
+				exclude_from_claim_all: true
+				id: "4ADB394360489FD6"
 				table_id: 8699295573854160387L
-				title: "{ftbquests.chapter.bosses.quest2864058738183669317.reward.4093875263304752756.title}"
-				type: "random"
+				type: "loot"
 			}]
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest2864058738183669317.subtitle}"
+			subtitle: "Nether / Burning Arena"
 			tasks: [{
 				entity: "cataclysm:ignis"
 				icon: {
@@ -1904,38 +1897,38 @@
 					}
 				}
 				id: "6E4D6BD4EDDD102F"
-				title: "{ftbquests.chapter.bosses.quest2864058738183669317.task.7948127479646720047.title}"
+				title: "Challenge &6&lIgnis"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest2864058738183669317.title}"
-			x: 8.0d
+			title: "&l<neon p=6 r=1 a=0.08><grad from=00FFFF to=FF6600 f=0.6>Ignis</grad></neon>"
+			x: 10.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["5C3E27D95D3656C6"]
 			description: [
-				"{ftbquests.chapter.bosses.quest7670223009586651576.description1}"
+				"Banished in the depth of the &eFrosted Prison&r, &bMaledictus&r was sealed within a &6Cursed Tombstone&r by the god itself."
 				""
-				"{ftbquests.chapter.bosses.quest7670223009586651576.description2}"
+				"Though, a punishment that seems to have bestowed incredible powers to a supposed damned individual."
 				""
-				"{ftbquests.chapter.bosses.quest7670223009586651576.description3}"
+				"Releasing him may be the final nail in the coffin. Find him using the &eEye of Curse. &r"
 				""
-				"{ftbquests.chapter.bosses.quest7670223009586651576.image0}"
-				"{ftbquests.chapter.bosses.quest7670223009586651576.image2}"
+				"{image:customtextures:textures/frostedprison.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/maledictus.png width:250 height:100 align:center}"
 			]
 			icon: "cataclysm:cursed_eye"
 			id: "6A721B304A70A1B8"
 			min_required_tasks: 1
 			rewards: [{
-				id: "3F9C87C927DD4557"
+				exclude_from_claim_all: true
+				id: "040F2419B2CA5F6F"
 				table_id: 8699295573854160387L
-				title: "{ftbquests.chapter.bosses.quest7670223009586651576.reward.4583687818783311191.title}"
 				type: "random"
 			}]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest7670223009586651576.subtitle}"
+			subtitle: "Overworld / Frosted Prison"
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				icon: {
@@ -1946,148 +1939,58 @@
 					}
 				}
 				id: "1CA5CF8C1B2D52AB"
-				title: "{ftbquests.chapter.bosses.quest7670223009586651576.task.2064284204877566635.title}"
+				title: "Defeat &b&lMaledictus"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest7670223009586651576.title}"
-			x: 12.0d
+			title: "<grad from=#00FFFF to=#00FFFF>Maledictus</grad>"
+			x: 18.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["6A721B304A70A1B8"]
+			dependencies: ["50EDD2850C47C4DF"]
 			description: [
-				"{ftbquests.chapter.bosses.quest8468964533092098297.description1}"
+				"&cThe Nightwarden&r once owned the literal ender dragon, now rests inside a citadel, trying to get rid of his sins."
 				""
-				"{ftbquests.chapter.bosses.quest8468964533092098297.description2}"
+				"Go to the End dimension, locate the Void Cathedral using an &eEye of Nothingness&r and look upstairs for a Excrucis. This should allow us to awake him."
 				""
-				"{ftbquests.chapter.bosses.quest8468964533092098297.image0}"
-				"{ftbquests.chapter.bosses.quest8468964533092098297.image2}"
-				"{ftbquests.chapter.bosses.quest8468964533092098297.image4}"
+				"{image:customtextures:textures/endcathedral.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/coolinside.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/upstairs.png width:250 height:100 align:center}"
 			]
 			icon: "traveloptics:eye_of_nothingness"
 			id: "7587CE5F525620F9"
 			rewards: [{
-				id: "314609BC62CFA3A1"
+				exclude_from_claim_all: true
+				id: "47DDEFEB1CEC0F1A"
 				table_id: 8699295573854160387L
-				title: "{ftbquests.chapter.bosses.quest8468964533092098297.reward.3550536060944491425.title}"
 				type: "random"
 			}]
-			shape: "hexagon"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest8468964533092098297.subtitle}"
+			subtitle: "End / Void Cathedral"
 			tasks: [{
 				entity: "traveloptics:the_nightwarden"
 				icon: "born_in_chaos_v1:lifestealer_skull"
 				id: "7EA7F4487AA326CC"
-				title: "{ftbquests.chapter.bosses.quest8468964533092098297.task.9126531762021934796.title}"
+				title: "Defeat &d&lThe Nightarden"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest8468964533092098297.title}"
-			x: 12.0d
+			title: "<grad from=#BF7FFF to=#6A0DAD f=1><turb a=0.5 f=0.8>The Nightwarden</turb></grad>"
+			x: 14.0d
 			y: 6.0d
-		}
-		{
-			dependencies: ["4158A5819FE865DF"]
-			description: [
-				"{ftbquests.chapter.bosses.quest2553635826873861650.description1}"
-				""
-				"{ftbquests.chapter.bosses.quest2553635826873861650.description2}"
-				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.bosses.quest2553635826873861650.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"09AAF962D291AAF8\"}}]"
-				""
-				"{ftbquests.chapter.bosses.quest2553635826873861650.image0}"
-			]
-			icon: "mythsandlegends:ethereal_flame"
-			icon_scale: 1.5d
-			id: "237056413A870612"
-			rewards: [{
-				id: "431DA3FAF0BE0B6A"
-				type: "xp"
-				xp: 5
-			}]
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest2553635826873861650.subtitle}"
-			tasks: [{
-				entity: "mythsandlegends:black_charro"
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "born_in_chaos_v1:item/shattered_skull"
-					}
-				}
-				id: "1A3D5280D2B79872"
-				title: "{ftbquests.chapter.bosses.quest2553635826873861650.task.1890758131810015346.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{ftbquests.chapter.bosses.quest2553635826873861650.title}"
-			x: 2.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["4158A5819FE865DF"]
-			description: [
-				"{ftbquests.chapter.bosses.quest740203138920151887.description1}"
-				""
-				"{ftbquests.chapter.bosses.quest740203138920151887.description2}"
-				""
-				"{ftbquests.chapter.bosses.quest740203138920151887.image0}"
-			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "mythsandlegends:item/warborn_aegis"
-				}
-			}
-			icon_scale: 1.5d
-			id: "0A45BAD544F6FB4F"
-			optional: true
-			rewards: [
-				{
-					id: "16530A284EF88BFA"
-					item: "minecraft:wither_skeleton_skull"
-					type: "item"
-				}
-				{
-					id: "2738F60050B73029"
-					item: "minecraft:wither_rose"
-					type: "item"
-				}
-			]
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest740203138920151887.subtitle}"
-			tasks: [{
-				entity: "mythsandlegends:warborn_aegis"
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "born_in_chaos_v1:item/shattered_skull"
-					}
-				}
-				id: "26B9EBC56375512D"
-				title: "{ftbquests.chapter.bosses.quest740203138920151887.task.2790520677142450477.title}"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{ftbquests.chapter.bosses.quest740203138920151887.title}"
-			x: 0.5d
-			y: -4.0d
 		}
 		{
 			dependencies: ["54B2129015E7BA44"]
 			description: [
-				"{ftbquests.chapter.bosses.quest4206266889100849216.description1}"
+				"&cThe Chesed&r is a really old artifact that is clearly a alien technology."
 				""
-				"{ftbquests.chapter.bosses.quest4206266889100849216.description2}"
+				"Myth says it still works after all those decades."
 				""
-				"{ftbquests.chapter.bosses.quest4206266889100849216.description3}"
+				"Use eye of chesed to locate "
 				""
-				"{ftbquests.chapter.bosses.quest4206266889100849216.image0}"
+				"{image:customtextures:textures/chesed.png width:250 height:100 align:center}"
 			]
 			icon: {
 				Count: 1
@@ -2100,13 +2003,13 @@
 			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "46949B18AC65A7A7"
-				table_id: 4068213888760668096L
+				id: "128974C9FFCF79AA"
+				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "goldtier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest4206266889100849216.subtitle}"
+			subtitle: "Underground / Caves"
 			tasks: [{
 				entity: "fdbosses:chesed"
 				icon: {
@@ -2117,25 +2020,25 @@
 					}
 				}
 				id: "7805D03BBBF26A63"
-				title: "{ftbquests.chapter.bosses.quest4206266889100849216.task.8648547614409779811.title}"
+				title: "Defeat The Chesed"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest4206266889100849216.title}"
+			title: "<grad from=#090E1F to=#56B83A f=0.5><glitch f=0.8 j=0.01 b=0.002 s=0.05>The Chesed</glitch></grad>"
 			x: 5.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["199DC3A3AD90A47B"]
 			description: [
-				"{ftbquests.chapter.bosses.quest2088241024150281100.description1}"
+				"&cMalkuth&r is definition of balance, ice and fire, ying yang."
 				""
-				"{ftbquests.chapter.bosses.quest2088241024150281100.description2}"
+				"He can adapt to any damage in seconds but can only do it with a delay."
 				""
-				"{ftbquests.chapter.bosses.quest2088241024150281100.description3}"
+				"Locate eye of Malkuth to locate him!"
 				""
-				"{ftbquests.chapter.bosses.quest2088241024150281100.image0}"
-				"{ftbquests.chapter.bosses.quest2088241024150281100.image2}"
+				"{image:customtextures:textures/malkuth.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/malkuthin.png width:255 height:100 align:center}"
 			]
 			icon: {
 				Count: 1
@@ -2148,68 +2051,68 @@
 			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "517959144C8173DE"
+				id: "7C97776646831133"
 				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "diamondtier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest2088241024150281100.subtitle}"
+			subtitle: "Overworld"
 			tasks: [{
 				advancement: "fdbosses:qliphoth_awakening/malkuth"
 				criterion: ""
 				id: "14243F5A7C2BBD19"
-				title: "{ftbquests.chapter.bosses.quest2088241024150281100.task.1451354637782990105.title}"
+				title: "Defeat Malkuth"
 				type: "advancement"
 			}]
-			title: "{ftbquests.chapter.bosses.quest2088241024150281100.title}"
+			title: "<grad from=#FFD700 to=#00FFFF f=2><swing a=0.4 f=1 w=0.3>Malkuth</swing></grad>"
 			x: 8.0d
 			y: -4.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.bosses.quest123752962235774926.description1}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.image0}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description2}"
+				"&8The leader of the &6&lNether Cult&r&8, the king of the &0&lBottomless Pit...&4&l Apollyon.&r&8 It is your task to challenge him and hopefully overcome his wickedness and free this world of his influence."
+				"{image:customtextures:textures/apollyon.png width:250 height:110 align:center}"
+				"&8To summon &4&lApollyon&r&8 you must prepare a ritual. A ritual that will hold all of the sacred artifacts of the &0&ldark arts&r&8. Therefore, if you are not fully prepared, you should not rashly start this trial."
 				""
-				"{ftbquests.chapter.bosses.quest123752962235774926.description3}"
+				"&8This ritual is detailed in the book of the dark arts, &0&lThe Black Book&r&8, in the &6&lRevelation&r&8 section you will find how to summon this hellish god into your world."
 				""
-				"{ftbquests.chapter.bosses.quest123752962235774926.description4}"
+				"&8If you can defeat his incarnation in this trial, then you can obtain the real power of &6&lAscension&r&8 and be promoted to a true &cApostle&r&8."
 				""
-				"{ftbquests.chapter.bosses.quest123752962235774926.description5}"
+				"&eFor Rituals, please continue to the next page."
 				"{@pagebreak}"
 				""
-				"{ftbquests.chapter.bosses.quest123752962235774926.description6}"
+				"&8To summon an incarnation of &4&lApollyon&r&8 you need to perform a sabbath ritual just like the one you did for the &cApostles&r&8"
 				""
-				"{ftbquests.chapter.bosses.quest123752962235774926.description7}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.image2}"
+				"&eThis ritual however, is a little harder:"
+				"{image:customtextures:textures/ritual_two.png width:150 height:200 align:center}"
 				""
-				"{ftbquests.chapter.bosses.quest123752962235774926.description8}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description9}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description10}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description11}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description12}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description13}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description14}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description15}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description16}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description17}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description18}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description19}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description20}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description21}"
+				"&eRequired Items:"
+				"&8- 1x Broken Halo"
+				"&8- 1x Nether Star"
+				"&8- 1x Pure Unholy Blood"
+				"&8- 1x Witch Hat"
+				"&8- 1x Crone Hat"
+				"&8- 1x Dragons Breath"
+				"&8- 1x Forbidden Scroll"
+				"&8- 1x Essence of Shadow"
+				"&8- 1x Warlock Sash"
+				"&8- 1x Unalloyed Golden Apple"
+				"&8- 1x Ruby of Souls"
+				"&8- 1x Heart of the Night"
+				"&8- 1x Infernal Tome"
 				""
-				"{ftbquests.chapter.bosses.quest123752962235774926.description22}"
+				"&0&lThe Black book&r&8 is all you need in order to find information on how to gather these items."
 				""
-				"{ftbquests.chapter.bosses.quest123752962235774926.description23}"
+				"&eAlternate ritual in the next page if you have already beaten Apollyon before ->"
 				"{@pagebreak}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description24}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.image4}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description25}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description26}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description27}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description28}"
-				"{ftbquests.chapter.bosses.quest123752962235774926.description29}"
+				"&8This ritual requires a &4&lDoom Medal&r&8 that only &4&lApollyon&r&8 drops."
+				"{image:customtextures:textures/ritual_one.png width:150 height:200 align:center}"
+				"&eRequired Items:"
+				"&8- 1x Witch Hat"
+				"&8- 1x Crone Hat"
+				"&8- 1x Doom Medal"
+				"&8- 2x Warlock Sash"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -2238,33 +2141,45 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "58C3AFF60B865CD1"
+					id: "5590596306AFE41B"
 					table_id: 4807020933408434136L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "13EFF413AB03BA19"
+					id: "66734A0A11011F76"
 					table_id: 4807020933408434136L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7734C732EA10AD28"
+					id: "5D5453452BCA9C9F"
 					table_id: 4807020933408434136L
 					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3931405CA9748476"
+					table_id: 8699295573854160387L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "165A9DD2E806166A"
+					table_id: 8699295573854160387L
+					type: "random"
 				}
 			]
 			shape: "none"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.bosses.quest123752962235774926.subtitle}"
+			subtitle: "<neon><wave a=0.2 f=0.2 w=0.5><grad from=#FF0000 to=#BF0000 f=0.5><glitch f=1 j=0.1 b=0.1 s=0.15>THE LORD OF APOCALYPSE"
 			tasks: [
 				{
 					advancement: "goety_revelation:summon_apollyon"
 					criterion: ""
 					icon: "goety_revelation:broken_halo"
 					id: "4F3C4EB57C55572A"
-					title: "{ftbquests.chapter.bosses.quest123752962235774926.task.5709524968980961066.title}"
+					title: "&eSummon Apollyon"
 					type: "advancement"
 				}
 				{
@@ -2272,7 +2187,7 @@
 					criterion: ""
 					icon: "goety_revelation:ascension_halo"
 					id: "3C8F47D1B7BF8520"
-					title: "{ftbquests.chapter.bosses.quest123752962235774926.task.4363785530001818912.title}"
+					title: "&6&lDefeat Apollyon in the Overworld"
 					type: "advancement"
 				}
 				{
@@ -2289,11 +2204,11 @@
 						}
 					}
 					id: "730600A0F7183575"
-					title: "{ftbquests.chapter.bosses.quest123752962235774926.task.8288312855562302837.title}"
+					title: "&4&n&lDefeat Apollyon in the Nether"
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.bosses.quest123752962235774926.title}"
+			title: "<neon><wave a=0.2 f=0.2 w=0.5><grad from=#FF0000 to=#BF0000 f=0.5><glitch f=1 j=0.1 b=0.1 s=0.15>APOLLYON"
 			x: 2.0d
 			y: 5.98d
 		}
@@ -2306,24 +2221,24 @@
 				type: "xp"
 				xp: 50
 			}]
-			shape: "irontier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest5551968203110121932.subtitle}"
+			subtitle: "Used to summon the captain cornelia"
 			tasks: [{
 				id: "2235C44089BF7B0C"
 				item: "aquamirae:shell_horn"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.bosses.quest5551968203110121932.title}"
+			title: "<grad from=#FFFFFF to=#FF0000><shake a=0.3 f=0.5>Shell Horn</shake></grad>"
 			x: 6.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4D0C8DAA46A481CC"]
 			description: [
-				"{ftbquests.chapter.bosses.quest644079761190075576.description1}"
+				"Mother of pillagers they say..?"
 				""
-				"{ftbquests.chapter.bosses.quest644079761190075576.description2}"
+				"Use &6Shell Horn&r to call her out."
 			]
 			icon: {
 				Count: 1
@@ -2337,11 +2252,11 @@
 			rewards: [{
 				id: "4A4FF205B3A3DA18"
 				type: "xp"
-				xp: 50
+				xp: 500
 			}]
-			shape: "irontier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest644079761190075576.subtitle}"
+			subtitle: "Overworld / Oceanish"
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
 				icon: {
@@ -2352,11 +2267,11 @@
 					}
 				}
 				id: "3DC6E378E646E8DA"
-				title: "{ftbquests.chapter.bosses.quest644079761190075576.task.4451495390101301466.title}"
+				title: "Defeat Ghost of Captain Cornelia"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest644079761190075576.title}"
+			title: "<neon p=8 r=2 a=0.15><grad from=#00FFFF to=#8B4513 f=1.3><wiggle a=0.5 f=1 w=0.5>Captain Cornelia</wiggle></grad></neon>"
 			x: 5.0d
 			y: 0.5d
 		}
@@ -2367,11 +2282,11 @@
 			rewards: [{
 				id: "21B12945C89ECE5A"
 				type: "xp"
-				xp: 50
+				xp: 500
 			}]
-			shape: "irontier"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest8865633469257738503.subtitle}"
+			subtitle: "Allows you to dive underwater and explore it easily!"
 			tasks: [
 				{
 					id: "5902FF99CAA8510D"
@@ -2418,13 +2333,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bosses.quest8865633469257738503.title}"
+			title: "<grad from=#FFFFFF to=#8B4513>The Three-Bolt Armor Set</grad>"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["7587CE5F525620F9"]
-			description: ["{ftbquests.chapter.bosses.quest5654825192391571167.image0}"]
+			description: ["{image:customtextures:textures/void.png width:250 height:100 align:center}"]
 			hide_until_deps_complete: false
 			icon: {
 				Count: 1
@@ -2443,50 +2358,44 @@
 					xp: 2
 				}
 				{
-					id: "2BCB5C0681C34EE1"
+					exclude_from_claim_all: true
+					id: "25E90E9276E61A55"
 					table_id: 8699295573854160387L
-					title: "{ftbquests.chapter.bosses.quest5654825192391571167.reward.3155717146919784161.title}"
 					type: "random"
 				}
 			]
-			shape: "octagon"
+			shape: "hexagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest5654825192391571167.subtitle}"
+			subtitle: "End / Throw the orb to the void."
 			tasks: [
+				{
+					advancement: "darkdoppelganger:kill"
+					criterion: ""
+					icon: "darkdoppelganger:doppelganger_ring"
+					id: "176AF4E4DA16380C"
+					title: "Defeat &d&lDoppelgänger"
+					type: "advancement"
+				}
 				{
 					id: "353A50410A272C1C"
 					item: "darkdoppelganger:shadow_orb"
 					type: "item"
 				}
-				{
-					advancement: "darkdoppelganger:kill"
-					criterion: ""
-					icon: {
-						Count: 1
-						id: "ftbquests:custom_icon"
-						tag: {
-							Icon: "darkdoppelganger:item/doppelganger_ring"
-						}
-					}
-					id: "346DAB707873E61A"
-					title: "{ftbquests.chapter.bosses.quest5654825192391571167.task.3777864161979262490.title}"
-					type: "advancement"
-				}
 			]
-			title: "{ftbquests.chapter.bosses.quest5654825192391571167.title}"
-			x: 10.0d
+			title: "&c<grad from=#404040 to=#8036CC f=0.5><pulse base=1.5 a=0.6 f=0.8>The Doppelgänger</pulse></grad>"
+			x: 12.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6A721B304A70A1B8"]
 			description: [
-				"{ftbquests.chapter.bosses.quest305044500647342062.description1}"
+				"&9The Immortal&r is one of the oldest creatures. With many experience, he is a tough foe."
 				""
-				"{ftbquests.chapter.bosses.quest305044500647342062.description2}"
+				"He used to fight alongside ender dragon but was sealed away by &bUnderworld Knight&r because of his actions of trying to become immortal."
 				""
-				"{ftbquests.chapter.bosses.quest305044500647342062.description3}"
+				"Some say he did succeed in becoming immortal.."
 				""
-				"{ftbquests.chapter.bosses.quest305044500647342062.image0}"
+				"{image:customtextures:textures/immortal.png width:250 height:100 align:center}"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -2513,25 +2422,25 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bosses.quest305044500647342062.subtitle}"
+			subtitle: "Summonable"
 			tasks: [{
 				id: "39C03FE8CEE41507"
-				title: "{ftbquests.chapter.bosses.quest305044500647342062.task.4161396324826354951.title}"
+				title: "Alright"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.bosses.quest305044500647342062.title}"
-			x: 13.0d
-			y: 5.0d
+			title: "<shadow a=0.4><grad from=#00CED1 to=#FFFFFF f=1><wiggle a=0.5 f=1 w=0.5>The Immortal</wiggle></grad></shadow>"
+			x: 18.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["043BBC5B6DC56FEE"]
-			description: ["{ftbquests.chapter.bosses.quest6360021412178580025.description1}"]
+			description: ["Use the guardian core to wake him up!"]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "railways:block/palettes/netherite/boiler_gullet"
+					Icon: "bloodmagic:block/simpletranscircle"
 				}
 			}
 			icon_scale: 1.5d
@@ -2543,35 +2452,37 @@
 				elevate_perms: true
 				icon: {
 					Count: 1
-					id: "ftbquests:custom_icon"
+					id: "eeeabsmobs:ghost_warrior_helmet"
 					tag: {
-						Icon: "eeeabsmobs:textures/effects/immortal_magic_circle/speed.png"
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
 					}
 				}
 				id: "6F406159952BF52B"
 				silent: true
-				title: "{ftbquests.chapter.bosses.quest6360021412178580025.reward.8016514374102152491.title}"
+				title: "Summon Immortal"
 				type: "command"
 			}]
 			shape: "none"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.bosses.quest6360021412178580025.subtitle}"
+			subtitle: "Unsealing"
 			tasks: [{
 				elapsedTime: 25L
 				id: "67927AE2AD4E93BE"
-				title: "{ftbquests.chapter.bosses.quest6360021412178580025.task.7463162646495138750.title}"
+				title: "Time left until ritual complete"
 				type: "questsadditions:time"
 			}]
-			title: "{ftbquests.chapter.bosses.quest6360021412178580025.title}"
-			x: 14.0d
+			title: "<grad from=#3A3A3A to=#FFFFFF f=1><fade a=0.5 f=0.8>Ongoing Ritual</fade></grad>"
+			x: 20.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["5F3C7FCC546CA1E1"]
 			description: [
-				"{ftbquests.chapter.bosses.quest8806051194333106374.description1}"
+				"This creation was developed by the same individuals who created &cThe Harbinger.&r This time, their intention was to use it against The Harbinger, but unfortunately, they lost control of this entity as well."
 				""
-				"{ftbquests.chapter.bosses.quest8806051194333106374.image0}"
+				"{image:customtextures:textures/redstonegolem.png width:250 height:100 align:center}"
 			]
 			icon: {
 				Count: 1
@@ -2586,8 +2497,9 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest8806051194333106374.subtitle}"
+			subtitle: "Underground"
 			tasks: [{
 				entity: "goety:redstone_monstrosity"
 				icon: {
@@ -2598,22 +2510,22 @@
 					}
 				}
 				id: "6CAB98DAC4116B3F"
-				title: "{ftbquests.chapter.bosses.quest8806051194333106374.task.7830520442473507647.title}"
+				title: "Defeat Redstone Monstrosity"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest8806051194333106374.title}"
+			title: "<grad from=#CC0000 to=#FF3333><pulse base=0.65 a=0.8 f=1.5><turb a=0.2 f=0.4><shake a=0.2 f=0.4>Redstone Monstrosity</shake></turb></pulse></grad>"
 			x: -2.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["10544AC33748DA46"]
 			description: [
-				"{ftbquests.chapter.bosses.quest6862500447772254689.description1}"
+				"This entity attacks anyone who dares to disrupt the &cRedstone Monstrosity's&r comfort."
 				""
-				"{ftbquests.chapter.bosses.quest6862500447772254689.description2}"
+				"It is located in the exact same place where the Redstone Monstrosity resides."
 				""
-				"{ftbquests.chapter.bosses.quest6862500447772254689.description3}"
+				"Use the Explorer's Compass to locate the Redstone Mines structure!"
 			]
 			icon: {
 				Count: 1
@@ -2628,8 +2540,9 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest6862500447772254689.subtitle}"
+			subtitle: "Underground"
 			tasks: [{
 				entity: "goety:hostile_redstone_golem"
 				icon: {
@@ -2640,24 +2553,30 @@
 					}
 				}
 				id: "3E88087C70CFC628"
-				title: "{ftbquests.chapter.bosses.quest6862500447772254689.task.4505860757745813032.title}"
+				title: "Defeat Redstone Golem"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest6862500447772254689.title}"
+			title: "<grad from=#8B0000 to=#FF0000><pulse base=0.65 a=0.8 f=1.5>Redstone Golem</pulse></grad>"
 			x: -4.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["28A1B5EFA65E5F6E"]
 			description: [
-				"{ftbquests.chapter.bosses.quest7742299254582118917.description1}"
+				"&cBone Chimera&r was a feared monster back then, owned by a strong warrior. That warrior passed away from aging but bone chimera was loyal and kept waiting for it's owner to come back."
 				""
-				"{ftbquests.chapter.bosses.quest7742299254582118917.image0}"
+				"{image:customtextures:textures/dodo.png width:250 height:100 align:center}"
 			]
 			id: "6B722C26CE238A05"
+			rewards: [{
+				id: "3082A1EB58880382"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest7742299254582118917.subtitle}"
+			subtitle: "Overworld / Underground"
 			tasks: [{
 				entity: "dodosmobs:bone_chimera"
 				icon: {
@@ -2668,57 +2587,58 @@
 					}
 				}
 				id: "3F66AF3FF688FFE4"
-				title: "{ftbquests.chapter.bosses.quest7742299254582118917.task.4568531561267920868.title}"
+				title: "Defeat Bone Chimera"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest7742299254582118917.title}"
+			title: "<grad from=#FFFFFF to=#C8C8C8 f=1.2>Bone Chimera</grad>"
 			x: -2.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["4158A5819FE865DF"]
+			dependencies: ["7FA7E7C8E3928D9B"]
 			description: [
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description1}"
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description2}"
+				"&8The closest followers of the first &cNether Cultist&r&8, <neon><wave a=0.2 f=0.2 w=0.5><grad from=#FF0000 to=#BF0000 f=0.5><glitch f=1 j=0.1 b=0.1 s=0.15> APOLLYON</glitch></grad></wave></neon>, these &cterrific beings&r&8 spread the word of the &6&lG&er&6e&ea&6t &eF&6l&ea&6m&ee&r&8 alongside their&4&l master&r&8 when they walked the &3Overworld&r&8."
+				"&8Some &cApostles&r&8 used to be &6Kings&r&8, &5Lords&r&8 or &bNobles&r&8, while others range from normal &aVillagers&r&8 to the most ill-witted &2Nitwits&r&8. &cWhen the emissary appears&r&8, &l&9the water auround them boils&r&8, &8&land the sky darkens&r&8."
 				""
-				"{ftbquests.chapter.bosses.quest3568758199013441109.image0}"
+				"{image:customtextures:textures/apostle_full.png width:100 height:100 align:center}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description3}"
+				"&8To bring an &cApostle&r&8 to your &3realm&r&8 you must perform a &5Sabbath&r&8 Ritual."
 				""
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description4}"
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description5}"
-				"{ftbquests.chapter.bosses.quest3568758199013441109.image2}"
+				"&eSabbath Ritual Structure Example:"
+				"&8(more information in The Black Book)"
+				"{image:goety:textures/gui/entries/sabbath_ritual.png width:100 height:100 align:center}"
 				""
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description6}"
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description7}"
-				"{ftbquests.chapter.bosses.quest3568758199013441109.image4}"
+				"&8Using this structure you must sacrifice valuable items belonging to members of the &cApostle's&r&8 race."
+				"&eSummoning Apostle Ritual:"
+				"{image:customtextures:textures/apostle_one.png width:150 height:200 align:center}"
 				""
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description8}"
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description9}"
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description10}"
+				"&eRequired items:"
+				"&8- 8x Witch hat / Warlock Sash / Infernal tome."
+				"&8- 1x Netherite ingots."
 				""
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description11}"
+				"&eYour goal (Next Page) ->"
 				"{@pagebreak}"
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description12}"
+				"&5After the ultimate art of &2necromancy&r&5 was reconstructed&r&8, you finally understood the nature of that &cfluctuation&r&8, and unexpectedly discovered a &ehidden secret path to &l&6As&e&lce&r&6&lns&r&e&lio&r&e&ln&r&8. It is the art of ascending to &6&lgodhood&r&8 from the &3lower realm&r&8, embracing &4&ldestruction&r&8 and thus seizing the great power of the &cHell Realm&r&8."
 				""
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description13}"
+				"&8But after repeated experiments, you finally found a way to capture &6&ldivinity&r&8, although this method is not perfect. That &6&ldivinity&r&8 dissipated after the descrution of the &cApostles&r&8, but it is enough for you to achieve what you want in your mind."
 				""
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description14}"
+				"&eAchieve a false godhood by obtaining the Broken Halo:"
 				""
-				"{ftbquests.chapter.bosses.quest3568758199013441109.image6}"
+				"{image:customtextures:textures/broken_halo_ritual.png width:150 height:200 align:center}"
 				""
-				"{ftbquests.chapter.bosses.quest3568758199013441109.description15}"
+				"&eApostles also drop the Broken Halo with a &n10%&r &echance."
 			]
 			hide_dependency_lines: false
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "customtextures:textures/apostle_hat.png"
+					Icon: "goetydelight:textures/mob_effect/the_pale_messenger.png"
 				}
 			}
+			icon_scale: 1.2d
 			id: "3186C6AC85757E55"
 			min_width: 300
 			rewards: [
@@ -2736,14 +2656,14 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "51F4C3CFE66B2B26"
+					id: "2AE39EC1FD44442C"
 					table_id: 4807020933408434136L
 					type: "loot"
 				}
 			]
 			shape: "square"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest3568758199013441109.subtitle}"
+			subtitle: "<neon p=6 r=1 a=0.08><shadow a=0.6><grad from=#FF0000 to=#FFD700 f=1.6><bounce a=0.2 f=0.5 w=0.2><turb a=0.1 f=0.3><wiggle a=0.3 f=0.8 w=0.3>The Pale Faced Envoys of The Nether</wiggle></turb></bounce></grad></shadow></neon>"
 			tasks: [
 				{
 					advancement: "goety:goety/kill_a_apostle"
@@ -2756,7 +2676,7 @@
 						}
 					}
 					id: "55EDD08324A7ACA8"
-					title: "{ftbquests.chapter.bosses.quest3568758199013441109.task.6191834324378561704.title}"
+					title: "&eDefeat an Apostle in The Overworld"
 					type: "advancement"
 				}
 				{
@@ -2775,22 +2695,22 @@
 							Pure: 1b
 						}
 					}
-					title: "{ftbquests.chapter.bosses.quest3568758199013441109.task.4853128566287077394.title}"
+					title: "&l&cDefeat an Apostle in The Nether"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bosses.quest3568758199013441109.title}"
-			x: 2.0123945434806103d
-			y: -3.4895909297658605d
+			title: "<neon p=6 r=1 a=0.08><shadow a=0.6><grad from=#FF0000 to=#FFD700 f=1.6><bounce a=0.5 f=0.8 w=0.5><pend f=0.8 a=20 r=1><turb a=0.5 f=0.8><wiggle a=0.3 f=0.8 w=0.3><shake a=0.3 f=0.5>The Apostle</shake></wiggle></turb></pend></bounce></grad></shadow></neon>"
+			x: 6.01239454348061d
+			y: 6.0104090702341395d
 		}
 		{
 			dependencies: ["124B15AB9053C786"]
 			description: [
-				"{ftbquests.chapter.bosses.quest975021744324794882.description1}"
+				"&cShadow Wizards&r experiments on people consistently, go bring democracy to the nether!"
 				""
-				"{ftbquests.chapter.bosses.quest975021744324794882.description2}"
+				"Using an &6Occult Fabric&r on the &6Offering Pedestal&r to spawn them."
 				""
-				"{ftbquests.chapter.bosses.quest975021744324794882.image0}"
+				"{image:customtextures:textures/cathedral.png width:250 height:100 align:center}"
 			]
 			icon: {
 				Count: 1
@@ -2804,20 +2724,20 @@
 			min_width: 1
 			rewards: [
 				{
-					id: "611353E2218D489F"
-					table_id: 8699295573854160387L
-					title: "{ftbquests.chapter.bosses.quest975021744324794882.reward.6995026876927133855.title}"
-					type: "random"
-				}
-				{
 					id: "393E8F49BD1E81C0"
 					item: "cataclysm:mech_eye"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "1600F5DB29D389C1"
+					table_id: 8699295573854160387L
+					type: "random"
+				}
 			]
-			shape: "hexagon"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest975021744324794882.subtitle}"
+			subtitle: "Nether / Chthonic Cathedral"
 			tasks: [{
 				entity: "terramity:gundalf"
 				icon: {
@@ -2828,25 +2748,25 @@
 					}
 				}
 				id: "2BF8E5DC8D95638E"
-				title: "{ftbquests.chapter.bosses.quest975021744324794882.task.3168535073286087566.title}"
+				title: "Defeat Archmage Gundalf"
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.bosses.quest975021744324794882.title}"
+			title: "<grad from=#C0C0C0 to=#707070><pend f=0.8 a=20 r=1><swing a=0.4 f=1 w=0.3>The Shadow Wizards</swing></pend></grad>"
 			x: 9.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["7044D2F80D2E9ED5"]
 			description: [
-				"{ftbquests.chapter.bosses.quest6646793914570659526.description1}"
+				"Born blessed with magic itself. &cTyros&r was a prodigy, though he is still a human. He died from old age."
 				""
-				"{ftbquests.chapter.bosses.quest6646793914570659526.description2}"
+				"You can still call his soul with &6Cinderous Soulcaller&r and challange him."
 				""
-				"{ftbquests.chapter.bosses.quest6646793914570659526.description3}"
+				"Use Ancient Furled Map to locate citadel.&r"
 				""
-				"{ftbquests.chapter.bosses.quest6646793914570659526.image0}"
-				"{ftbquests.chapter.bosses.quest6646793914570659526.image2}"
+				"{image:customtextures:textures/citadel_ling.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/citadel_in_ling.png width:250 height:100 align:center}"
 			]
 			icon: {
 				Count: 1
@@ -2858,13 +2778,13 @@
 			id: "5C3E27D95D3656C6"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2F9B27A1B2B15ECE"
+				id: "5BD924AE52FE38BD"
 				table_id: 8699295573854160387L
 				type: "random"
 			}]
-			shape: "hexagon"
+			shape: "octagon"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.bosses.quest6646793914570659526.subtitle}"
+			subtitle: "Nether / Citadel"
 			tasks: [
 				{
 					entity: "irons_spellbooks:fire_boss"
@@ -2876,7 +2796,7 @@
 						}
 					}
 					id: "71D09AF7BF51E829"
-					title: "{ftbquests.chapter.bosses.quest6646793914570659526.task.8201225310299088937.title}"
+					title: "Defeat Tyros, First Flamebearer"
 					type: "kill"
 					value: 1L
 				}
@@ -2886,10 +2806,141 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.bosses.quest6646793914570659526.title}"
-			x: 14.0d
+			title: "<neon p=6 r=1 a=0.08><shadow r=1 a=0.4><grad from=#1A1A1A to=#FFA040 f=1.3>Echo of Tyros, First Flamebearer</grad></shadow></neon>"
+			x: 16.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["5C3E27D95D3656C6"]
+			description: [
+				"&aThe Obliterator&r has been built by an alien life-form. It has only one purpose and it is to destroy the &cnether.&r"
+				""
+				"Well, actually they're still working on it, so before it's actually done. Go destroy it!"
+				""
+				"{\"extra\":[{\"text\":\"Use \"},{\"color\":\"green\",\"text\":\"Eye of Annihilation\"},{\"text\":\" to locate it!\"}],\"text\":\"\"}"
+				""
+				"{image:customtextures:textures/space_station1.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/space_station3.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/space_station4.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/space_station2.png width:250 height:100 align:center}"
+			]
+			icon: "legendary_monsters:eye_of_annihilation"
+			id: "50EDD2850C47C4DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00DB6EF46E70B33B"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "End / Space Station"
+			tasks: [
+				{
+					advancement: "legendary_monsters:defeat_the_obliterator"
+					criterion: ""
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "legendary_monsters:item/annihilator_helmet"
+						}
+					}
+					id: "0926524B52D7DDB4"
+					title: "Defeat &a&lThe Obliterator"
+					type: "advancement"
+				}
+				{
+					id: "167E7B02BD3A1EC3"
+					item: "legendary_monsters:eye_of_annihilation"
+					type: "item"
+				}
+			]
+			title: "<grad from=#D2D792 to=#568F42 f=1>The Obliterator</grad>"
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["418B954780DD19CB"]
+			description: [
+				"&6Geburah&r is a judging mechanism made by some pyschopath. &eIt weighs the sins of you, acts by it.&r Considering how much bad things you've probably done.. good luck with"
+				"this boss!"
+				""
+				"&aUsing ranged can give you advantage in this boss fight."
+				""
+				"{image:customtextures:textures/geburah_gaming3.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/geburah_gaming.png width:250 height:100 align:center}"
+				"{image:customtextures:textures/geburah_gaming2.png width:250 height:100 align:center}"
+			]
+			id: "296D1FA3027A3819"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3766692310E86AE0"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "End / Geburah Arena"
+			tasks: [{
+				advancement: "fdbosses:qliphoth_awakening/geburah"
+				criterion: ""
+				id: "56071BF946033231"
+				title: "Defeat Geburah"
+				type: "advancement"
+			}]
+			title: "<neon p=8 r=2 a=0.12><shadow a=0.5><grad from=#FFD700 to=#FF6600 f=0.7><fade a=0.5 f=0.8>Geburah</fade></grad></shadow></neon>"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["218A1EC80DE60194"]
+			hide_dependency_lines: true
+			icon: "covenant_of_the_seven:holy_essence"
+			id: "583494CB258F310A"
+			rewards: [{
+				id: "03A80099F3434980"
+				item: "covenant_of_the_seven:holy_essence"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.6d
+			tasks: [{
+				consume_items: true
+				id: "725C302FD73289AA"
+				item: "armageddon_mod:wither_relic"
+				type: "item"
+			}]
+			title: "&eSanctified Essence Shop"
+			x: 1.716919912524581d
+			y: 0.880819364977377d
+		}
+		{
+			can_repeat: true
+			dependencies: ["218A1EC80DE60194"]
+			hide_dependency_lines: true
+			icon: "enigmaticlegacy:evil_essence"
+			id: "059C2B4565D5F9D1"
+			rewards: [{
+				id: "2BC62AF821F4D2B7"
+				item: "enigmaticlegacy:evil_essence"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.6d
+			tasks: [{
+				consume_items: true
+				id: "11BBA8FD0EC21DF7"
+				item: "armageddon_mod:wither_relic"
+				type: "item"
+			}]
+			title: "&dNefarious Essence Shop"
+			x: 2.316919912524581d
+			y: 0.880819364977377d
+		}
 	]
-	title: "{ftbquests.chapter.bosses.title}"
+	title: "<shadow a=0.4><grad from=#BF2311 to=#E3A892>Bosses</grad></shadow>"
 }

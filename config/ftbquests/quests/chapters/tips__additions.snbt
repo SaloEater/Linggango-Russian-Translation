@@ -1,0 +1,545 @@
+{
+	autofocus_id: "2F61EF4131AB4E54"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: "square"
+	filename: "tips__additions"
+	group: "48ABEFC98EDF2F24"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "immersiveengineering:item/material_light_bulb"
+		}
+	}
+	id: "3FA0C11E1FEF759B"
+	images: [
+		{
+			height: 3.0d
+			image: "customtextures:textures/tips_and_additions.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["This questline is being reworked"]
+			image: "quark:item/hammer"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.13443189881324d
+			y: -5.035757816731348d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @shuttheirprayer]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -7.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"<shadow><grad from=#FFA333 to=#FCDFB8 f=0.8>Linggango</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> features numerous </grad><grad from=#FFD700 to=#FFFF99 f=0.5>hidden mechanics</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> and </grad><grad from=#FFD700 to=#FFFF99 f=0.5>mechanics</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> that you might easily overlook during normal </grad><grad from=#42FF42 to=#BAFFBA f=0.8>gameplay</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3>.</grad></shadow>"
+				""
+				"<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>This </grad><grad from=#FFD700 to=#FFFF99 f=0.5>questline</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> is dedicated to teaching you essential </grad><grad from=#FFA333 to=#FCDFB8 f=0.8>Quality of Life</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> (</grad><grad from=#FFA333 to=#FCDFB8 f=0.8>QoL</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3>) tips to make your overall experience </grad><wave a=0.3 f=0.5 w=0.5><grad from=#FFFFFF to=#C7C7C7 f=0.3>smoother</grad></wave><grad from=#FFFFFF to=#C7C7C7 f=0.3>.</grad></shadow>"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info_gray"
+				}
+			}
+			icon_scale: 1.1d
+			id: "2F61EF4131AB4E54"
+			rewards: [{
+				id: "1E4357561DE8A297"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "octagon"
+			size: 1.45d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "4D148DA3947C52A1"
+				title: "Alright, cool!"
+				type: "checkmark"
+			}]
+			title: "<shadow><grad from=#FFA040 to=#FFD080 f=0.5>Quality of Life Tricks</grad></shadow>"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			description: [
+				"<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>Speed up smelting with </grad><grad from=#8B4513 to=#CD853F f=0.8>Bellows</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3>!</grad></shadow>"
+				""
+				"<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>-Place next to a </grad><grad from=#A0A0A0 to=#E8E8E8 f=0.8>furnace</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> (not on top)</grad></shadow>"
+				""
+				"<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>-Activate with </grad><grad from=#FF4D4D to=#FFD9D9 f=0.8>redstone</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> to boost </grad><grad from=#FFA333 to=#FCDFB8 f=0.8>smelting speed</grad></shadow>"
+			]
+			icon: "supplementaries:bellows"
+			id: "723A65F4CD2E3A83"
+			rewards: [{
+				id: "0CE5D2B59CF22B53"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#FFFFFF to=#8B4513 f=0.3>Speed up smelting with furnaces.</grad></shadow>"
+			tasks: [{
+				id: "2EB9F777891C69A1"
+				title: "Fanning the Flames"
+				type: "checkmark"
+			}]
+			title: "<shadow><grad from=#FFFFFF to=#8B4513 f=0.6>Bellows</grad></shadow>"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			description: [
+				"<shadow><grad from=#4EF44E to=#BBFF99 f=0.5>Creeper</grad><grad from=#FFFFFF to=#C0C0C0> exploded and destroyed your </grad><grad from=#4EF44E to=#BBFF99 f=0.5>terrain</grad><grad from=#FFFFFF to=#C0C0C0>?</grad></shadow>"
+				"<shadow><grad from=#FFFFFF to=#C0C0C0>Just throw the </grad><grad from=#4EF44E to=#8B4513 f=0.5>hole filler</grad><grad from=#FFFFFF to=#C0C0C0> into a hole and it will start </grad><shake a=0.75 f=0.75><grad from=#FFFFFF to=#C0C0C0>expanding like crazy</grad></shake><grad from=#FFFFFF to=#C0C0C0>!</grad></shadow>"
+				"<shadow><grad from=#FFFFFF to=#C0C0C0>There's other variations check </grad><grad from=#FFA040 to=#FFD080 f=0.5>JEI</grad><grad from=#FFFFFF to=#C0C0C0> to see</grad></shadow>"
+				"<shadow><grad from=#FFA040 to=#FFD080 f=0.5>@hole_filler_mod</grad></shadow>"
+			]
+			id: "08275C9A2F615AB1"
+			rewards: [
+				{
+					id: "64390F2793DC5660"
+					item: "hole_filler_mod:throwable_hole_filler"
+					type: "item"
+				}
+				{
+					id: "04C7FF14336AE821"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#4EF44E to=#8B4513 f=0.15>This is really handy.</grad></shadow>"
+			tasks: [{
+				id: "320FF58990BBA41C"
+				item: "hole_filler_mod:throwable_hole_filler"
+				type: "item"
+			}]
+			title: "<shadow><grad from=#4EF44E to=#8B4513 f=0.6>Hole Filler</grad></shadow>"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			description: ["<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>You can gain </grad><grad from=#FFA333 to=#FCDFB8 f=0.8>additional wood</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> by placing </grad><grad from=#8B4513 to=#CD853F f=0.8>wooden furniture</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> on top of a </grad><grad from=#42FF42 to=#BAFFBA f=0.8>chopping board</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> and chopping it with an </grad><grad from=#5FA9C0 to=#D1E8EE f=0.8>axe</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3>.</grad></shadow>"]
+			icon: "farmersdelight:cutting_board"
+			icon_scale: 1.3d
+			id: "2E644475313FFB93"
+			rewards: [{
+				id: "538CEA80AE951836"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#8B4513 to=#CD853F f=0.3>Reverse Carpenter</grad></shadow>"
+			tasks: [
+				{
+					id: "4E4D4668B6AA4E5B"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B527B6B941C3F85"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "<shadow><grad from=#8B4513 to=#CD853F f=0.6>More Wood With Careful Chopping</grad></shadow>"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			description: [
+				"<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>With </grad><grad from=#FFABAB to=#D1C4FF f=0.8>enchantment infuser</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3>, you can choose the </grad><grad from=#5FA9C0 to=#D1E8EE f=0.8>specific enchantment</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> you want on your tool.</grad></shadow>"
+				""
+				"<shadow><grad from=#FFD700 to=#FFFF99 f=0.8>Advanced version comes with repairing.</grad></shadow>"
+			]
+			hide_dependency_lines: false
+			id: "7ACC9BE21118707E"
+			rewards: [
+				{
+					id: "564DD499B9B57AE8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 12
+					id: "6FA0CBF1C846FA4D"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#FFABAB to=#D1C4FF f=0.25>No more relying on luck!</grad></shadow>"
+			tasks: [
+				{
+					id: "5266E2A2CFFCF562"
+					item: "enchantinginfuser:enchanting_infuser"
+					type: "item"
+				}
+				{
+					id: "3B87FE1E858A63FA"
+					item: "enchantinginfuser:advanced_enchanting_infuser"
+					type: "item"
+				}
+			]
+			title: "<shadow><grad from=#FFABAB to=#D1C4FF f=0.6>Enchanting Infuser</grad></shadow>"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			description: ["<shadow><grad from=#FFFFFF to=#C0C0C0>When you do so, the </grad><grad from=#4EF44E to=#BBFF99 f=0.5>Vine</grad><grad from=#FFFFFF to=#C0C0C0> will no longer be able to grow.</grad></shadow>"]
+			icon: {
+				Count: 1
+				id: "minecraft:shears"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "45A60F30FE07D68C"
+			min_width: 200
+			rewards: [{
+				id: "7A7F5C74222BFBE7"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#4EF44E to=#BBFF99 f=0.3>The tip of a vine can now be </grad><grad from=#B2FFD1 to=#D4FFEA f=0.3>right-clicked</grad><grad from=#4EF44E to=#BBFF99 f=0.25> with Shears.</grad></shadow>"
+			tasks: [{
+				id: "646B18B1F7C13716"
+				type: "checkmark"
+			}]
+			title: "<shadow><grad from=#4EF44E to=#BBFF99 f=0.6>Shear Vine Tips</grad></shadow>"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			description: [""]
+			icon: "minecraft:chain"
+			id: "2AF635C9A39F5F1B"
+			rewards: [{
+				id: "3E612077245B4F92"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#C0C0C0 to=#5A5A5A f=0.3>Chains connect blocks together when a piston moves them.</grad></shadow>"
+			tasks: [{
+				id: "51AD270EFE035299"
+				title: "OK"
+				type: "checkmark"
+			}]
+			title: "<shadow><grad from=#C0C0C0 to=#5A5A5A f=0.6>Chains Connect Blocks</grad></shadow>"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			icon: "minecraft:piston"
+			id: "2FF5FB2938BE9E5C"
+			rewards: [{
+				id: "3BC7BDED681D3106"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#FFD700 to=#5A4200 f=0.3>Pistons are allowed to move Tile Entities (blocks with extra data attached, like Chests or Furnaces).</grad></shadow>"
+			tasks: [{
+				id: "040EBFEC21FBE3FA"
+				type: "checkmark"
+			}]
+			title: "<shadow><grad from=#FFD700 to=#5A4200 f=0.6>Pistons Move Tile Entities</grad></shadow>"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			icon: "minecraft:stripped_oak_log"
+			id: "13E11BD1BA2C7CBE"
+			rewards: [{
+				id: "0A4D3C28009B2280"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#FFA333 to=#FCDFB8 f=0.3>Axes can be used in dispensers to strip or scrape blocks.</grad></shadow>"
+			tasks: [{
+				id: "05B8FAED63B712AA"
+				title: "yeye"
+				type: "checkmark"
+			}]
+			title: "<shadow><grad from=#FFA333 to=#FCDFB8 f=0.6>Stripping or scraping blocks by dispenser</grad></shadow>"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			description: ["<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>Placed </grad><grad from=#42FF42 to=#BAFFBA f=0.8>books</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> can give </grad><grad from=#FFA333 to=#FCDFB8 f=0.8>enchanting power</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> to an </grad><grad from=#42FF42 to=#BAFFBA f=0.8>Enchanting Table</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3>. The power given depends on the number and type of </grad><grad from=#42FF42 to=#BAFFBA f=0.8>books</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> used.</grad></shadow>"]
+			icon: "minecraft:book"
+			id: "77F07A4539C74D35"
+			rewards: [{
+				id: "2027F096978C8A6E"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#5FA9C0 to=#D1E8EE f=0.3>Enchanted \\&\\ normal books can be placed and thus have a block form.</grad></shadow>"
+			tasks: [{
+				id: "376CBE042329A4D7"
+				type: "checkmark"
+			}]
+			title: "<shadow><grad from=#5FA9C0 to=#D1E8EE f=0.6>Placeable Books</grad></shadow>"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			description: ["<shadow><grad from=#FFFFFF to=#C0C0C0>Look at the subtitle!</grad></shadow>"]
+			icon: "minecraft:compass"
+			id: "0C463BE958D2D54A"
+			rewards: [{
+				id: "097BAE66D6B4E77A"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#FF8888 to=#FFD9D9 f=0.25>In the Nether, the compass points to the portal through which you entered the Nether.</grad></shadow>"
+			tasks: [{
+				id: "043E5CA99A68CB3C"
+				type: "checkmark"
+			}]
+			title: "<shadow><grad from=#FF8888 to=#FFD9D9 f=0.6>Nether Portal Compass</grad></shadow>"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			description: ["Very useful if you prefer a smaller dragon."]
+			id: "0D0F0866A84425B8"
+			rewards: [{
+				id: "1DAED09F5DD429BB"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#42FF42 to=#9400D3 f=0.3>Stops ageing when fed to young animals.</grad></shadow>"
+			tasks: [{
+				id: "41DF3E7ACB6CAE95"
+				item: "minecraft:poisonous_potato"
+				type: "item"
+			}]
+			title: "<shadow><grad from=#42FF42 to=#9400D3 f=0.6>Poisonous Potato</grad></shadow>"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			icon: "minecraft:rotten_flesh"
+			id: "0E9F6656377B2F11"
+			rewards: [{
+				id: "78E9C3C81EAED81D"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#42FF42 to=#BAFFBA f=0.3>Feeding rotten flesh to a tamed skeleton horse will slowly convert it into a zombie horse.</grad></shadow>"
+			tasks: [{
+				id: "7EAD7EC8007C427E"
+				title: "ye"
+				type: "checkmark"
+			}]
+			title: "<shadow><grad from=#42FF42 to=#BAFFBA f=0.6>Zombie Horse Conversion</grad></shadow>"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			description: [
+				"Breaking grass or crops with a &aHoe&r will now break them in a 3x3 area."
+				"A &aDiamond Hoe&r will break a 5x5 area instead."
+				""
+				"You can add a &3Fortune enchantement&r to a &aHoe&r to get extra drops from grass and crops."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "33130AEBC1DCD488"
+			rewards: [{
+				id: "3465FF15C2C8E1CC"
+				type: "xp"
+				xp: 67
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#4FD5BD to=#9EF9E8 f=0.25>Learn how to use a hoe better.</grad></shadow>"
+			tasks: [{
+				id: "474E60E7BE997636"
+				type: "checkmark"
+			}]
+			title: "<shadow><grad from=#4FD5BD to=#9EF9E8 f=0.6>Improved Hoes</grad></shadow>"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			icon: "crafting_on_a_stick:crafting_table"
+			id: "2ACA30F07F34EAAE"
+			rewards: [{
+				id: "0221F285F856BD0F"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#8B4513 to=#CD853F f=0.25>Anything can be done from your inventory now!</grad></shadow>"
+			tasks: [
+				{
+					id: "0D77EC2B697D1A90"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+				{
+					id: "26A112A27422CCA7"
+					item: "crafting_on_a_stick:loom"
+					type: "item"
+				}
+				{
+					id: "39B36DE1C1F611FC"
+					item: "crafting_on_a_stick:grindstone"
+					type: "item"
+				}
+				{
+					id: "7C1A76177F8EAB99"
+					item: "crafting_on_a_stick:cartography_table"
+					type: "item"
+				}
+				{
+					id: "405220310BAE671B"
+					item: "crafting_on_a_stick:stonecutter"
+					type: "item"
+				}
+				{
+					id: "6C248CC609D4AD13"
+					item: "crafting_on_a_stick:smithing_table"
+					type: "item"
+				}
+				{
+					id: "1442B3C3AB58AE3D"
+					item: "crafting_on_a_stick:anvil"
+					type: "item"
+				}
+			]
+			title: "<shadow><grad from=#8B4513 to=#CD853F f=0.6>...On a Stick!</grad></shadow>"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			id: "534A420393A4DAA5"
+			rewards: [{
+				id: "55312AFDC56501B7"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#32CD32 to=#006400 f=0.3>Stores enchantment books, sadly, not much people use it..</grad></shadow>"
+			tasks: [{
+				id: "3599915B2831FA18"
+				item: "enchlibathome:library"
+				type: "item"
+			}]
+			title: "<shadow><grad from=#32CD32 to=#006400 f=0.6>Enchantment Library</grad></shadow>"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			id: "50187D3AC2858393"
+			rewards: [{
+				id: "6DDD882206F0F4CB"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#A3E1BD to=#F8FAE6 f=0.25>Stores enchantments but better</grad></shadow>"
+			tasks: [{
+				id: "2C0D9633ACC47A61"
+				item: "enchlibathome:ender_library"
+				type: "item"
+			}]
+			title: "<shadow><grad from=#A3E1BD to=#F8FAE6 f=0.6>Library of Alexandria</grad></shadow>"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F61EF4131AB4E54"]
+			description: [
+				"<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>Essences has a lot of uses in this pack, but this one is the </grad><grad from=#FF69B4 to=#FFD1E8 f=0.8>cutest one :D!</grad></shadow>"
+				"<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>If you use the </grad><grad from=#FFA333 to=#FCDFB8 f=0.8>Great Essence</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> on a </grad><grad from=#FFD700 to=#FFFF99 f=0.8>Cat</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> or </grad><grad from=#A0A0A0 to=#E8E8E8 f=0.8>Wolf</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> they will transform into a more.. </grad><grad from=#42FF42 to=#BAFFBA f=0.8>useful creature</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3>.</grad></shadow>"
+				"[gap=5]"
+				"<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>Here's the pictures:</grad></shadow>"
+				"{image:customtextures:textures/catnoob.png width:250 height:100 align:center}"
+				"<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>After using the great essence on them:</grad></shadow>"
+				"[gap=5]"
+				"{image:customtextures:textures/catpro.png width:250 height:100 align:center}"
+				"[gap=5]"
+				"<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>After dropping some items to them:</grad></shadow>"
+				"[gap=5]"
+				"{image:customtextures:textures/cathacker.png width:250 height:100 align:center}"
+				"[gap=5]"
+				"<shadow><wave a=0.3 f=0.5 w=0.5><grad from=#FF69B4 to=#FFD1E8 f=0.8>They're gaming now.</grad></wave></shadow>"
+			]
+			id: "5731B4B2FDB8390F"
+			rewards: [{
+				id: "57D4A9DDE66826FE"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.0d
+			subtitle: "<shadow><grad from=#FFA333 to=#FCDFB8 f=0.3>Dog looks so goofy</grad></shadow>"
+			tasks: [{
+				id: "72E9888B7EBA591C"
+				item: "knightlib:great_essence"
+				type: "item"
+			}]
+			title: "<shadow><grad from=#FFA333 to=#FCDFB8 f=0.6>Great Essence</grad></shadow>"
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+	title: "<shadow a=0.4><grad from=#B4654B to=#C4C6CA>Tips \\& Tricks</grad></shadow>"
+}

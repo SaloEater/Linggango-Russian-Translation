@@ -1,0 +1,1169 @@
+{
+	autofocus_id: "02FDC5B0E757CE67"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "necklaces"
+	group: "0FD8C2D2A2339C0B"
+	icon: "artifacts:cross_necklace"
+	id: "5DE2F1BE896F29B6"
+	images: [{
+		height: 15.0d
+		image: "customtextures:textures/necklace.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 0.5d
+		y: 0.0d
+	}]
+	order_index: 14
+	parent: "44F86CB070F12FF2"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Water doesnt slow you down while walking now!"]
+			id: "797636965E6B7EBB"
+			rewards: [{
+				id: "3236304F62594A7F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "27C1A00DB331DB80"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			description: ["Become a puffer fish "]
+			id: "7863F94896474F04"
+			rewards: [{
+				id: "0634C5881A38B721"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "2538F029E588AB6E"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			description: ["Burn those who touch your beautiful holy skin!"]
+			id: "0D51E42F84D6825E"
+			rewards: [{
+				id: "27BBF0029D21D05E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "465A3E873E0E6A4B"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			description: ["Zapp those who touch the almighty zeus!"]
+			id: "6066C19C366C4BA8"
+			rewards: [{
+				id: "170583AB028857FA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "132B5B19BC3AA716"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: ["Sometimes running is an better option than fighting."]
+			id: "4B012E28A2998CF7"
+			rewards: [{
+				id: "1E2CC3409F51B8AC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "261C913F090106E1"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: ["Basically, a spam attack wont work on you (a lil)"]
+			id: "057F321F589F4EFB"
+			rewards: [{
+				id: "001BF9E5A64403B2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "36CEDAD9B26B3B66"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: ["More luck"]
+			id: "02FDC5B0E757CE67"
+			rewards: [{
+				id: "777E3C8B62B50531"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "158A6A1714053D47"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: ["Where.. where did you go?!!"]
+			id: "5A1FD25977F58FA6"
+			rewards: [{
+				id: "174731A0692AD757"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "woodtier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "151DBC7CC834E339"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			description: ["The more damage you take, the scarier this necklace gets."]
+			id: "18CA0532270FED2F"
+			rewards: [{
+				id: "061B65B7A3D10734"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "netheritetier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "5E21FEDC80E6C561"
+				item: {
+					Count: 1
+					id: "relics:reflection_necklace"
+					tag: {
+						Damage: 0
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 43.868d
+									damage: 0.396d
+									stun: 0.094d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			description: ["You do not sink in water, whoever touches you gets hurt and u can paralyze"]
+			id: "64222321F9569344"
+			rewards: [{
+				id: "26B1BC97686344A1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "50522C8F67EDFCE5"
+				item: {
+					Count: 1
+					id: "relics:jellyfish_necklace"
+					tag: {
+						Damage: 0
+						abilities: {
+							paralysis: {
+								points: 0
+								stats: {
+									duration: 1.293d
+								}
+							}
+							shock: {
+								points: 0
+								stats: {
+									damage: 1.229d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: ["This necklace does.. alot of things i am lazy so yeah"]
+			id: "47CE07C21680F1A5"
+			rewards: [{
+				id: "6B1C2BB693C6C33A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "4EDFFFA896456372"
+				item: {
+					Count: 1
+					id: "relics:holy_locket"
+					tag: {
+						Damage: 0
+						abilities: {
+							steal: {
+								points: 0
+								stats: {
+									amount: 0.183d
+									radius: 4.193d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			description: ["You are going to reach heaven, keep going."]
+			id: "6D48B15056C79F50"
+			rewards: [{
+				id: "4F86095AD3320681"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "60F1533D9ACF31FA"
+				item: "morerelics:whispering_amulett"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			description: ["You were destined for something greater, you had a greater purpose."]
+			id: "485D8609D21ACD2C"
+			rewards: [{
+				id: "1FCE7A0DC6A1706E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "goldtier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "0A4C73209E264763"
+				item: "morerelics:slumbering_amulet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			description: ["Pops a bubble shield that protects you from harm."]
+			id: "34DD86C13FED0FB6"
+			rewards: [{
+				id: "10196C74CEC61AF4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "irontier"
+			subtitle: "Necklace"
+			tasks: [{
+				id: "35665C12CFBB767A"
+				item: {
+					Count: 1
+					id: "morerelics:opal_necklace"
+					tag: {
+						abilities: {
+							bubble_shield: {
+								points: 0
+								stats: {
+									cooldown: 214.97777d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "4421A4E3E04C7C8B"
+			rewards: [{
+				id: "7415D262AA3C2CE3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Necklace"
+			tasks: [{
+				id: "1FBB4BC336194BC4"
+				item: {
+					Count: 1
+					id: "brutality:caramel_crunch_medallion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			id: "2DA0309FCAFA3A1C"
+			rewards: [{
+				id: "0FCFC6FCA96E2307"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Necklace"
+			tasks: [{
+				id: "45EADEFDBF8FD443"
+				item: {
+					Count: 1
+					id: "brutality:fuzzy_dice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "30AAC636C1A9BC3A"
+			rewards: [{
+				id: "1C9B453531DF5F1C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Necklace"
+			tasks: [{
+				id: "12D45DEE415512DE"
+				item: {
+					Count: 1
+					id: "brutality:abyssal_necklace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "298FB77D6A92E1D0"
+			rewards: [{
+				id: "7BBE0DB960BF270F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Necklace"
+			tasks: [{
+				id: "3915CE842C93E410"
+				item: {
+					Count: 1
+					id: "brutality:knights_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "0726CFEEDAE73582"
+			rewards: [{
+				id: "1951D48206CE47B0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Necklace"
+			tasks: [{
+				id: "2F93C9F65B60CF70"
+				item: {
+					Count: 1
+					id: "brutality:gamblers_chain"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "650826945D9C6124"
+			rewards: [{
+				id: "0475E4C5AE26E117"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Necklace"
+			tasks: [{
+				id: "0F5AB215ECC85AE1"
+				item: {
+					Count: 1
+					id: "brutality:black_matter_necklace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			id: "3C730B1CD0F30861"
+			rewards: [{
+				id: "6D1C7F03DBA2FCA2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Necklace"
+			tasks: [{
+				id: "76E26EA4CCE00555"
+				item: {
+					Count: 1
+					id: "brutality:hemomatic_locket"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			id: "462D0207D71D79D8"
+			rewards: [{
+				id: "6E02DEE551EFE3B8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Necklace"
+			tasks: [{
+				id: "02D99B1900ED902B"
+				item: {
+					Count: 1
+					id: "brutality:hellspec_tie"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			id: "6C36888A3C559178"
+			tasks: [{
+				id: "44FC195A89CC5B32"
+				item: "terramity:stillness_scarf"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			id: "19B3B820DAE832B7"
+			tasks: [{
+				id: "6535D829AB8D0398"
+				item: "terramity:rebound_scarf"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			id: "3839ED83141FB841"
+			tasks: [{
+				id: "0B2B473CBCEC5CCA"
+				item: "terramity:exodium_shield_amulet"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			id: "548A5AA17595D35C"
+			tasks: [{
+				id: "031B0D464A96A59E"
+				item: "terramity:blastguard_pendant"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "0D5C921644005FEF"
+			tasks: [{
+				id: "16A7477B1285354F"
+				item: "terramity:anxiety_amulet"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			id: "1232B4A801849128"
+			tasks: [{
+				id: "502D9FA76B93214C"
+				item: "terramity:solar_safeguard_pendant"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "4B9894629A653430"
+			tasks: [{
+				id: "13757365813CB568"
+				item: "terramity:lava_locket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "120DBBC3AD084A69"
+			tasks: [{
+				id: "1ECD3DBD117952C4"
+				item: "terramity:steady_pendant"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "27D082C239D698F4"
+			tasks: [{
+				id: "123D7C6EF8E08C96"
+				item: "terramity:flameguard_pendant"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "3D87FBF036E6D8FB"
+			tasks: [{
+				id: "3C8BE970AB8232D5"
+				item: "too_many_bows:fletchers_talisman"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "7625456A21F0642C"
+			tasks: [{
+				id: "6718E7AA7C3538D2"
+				item: "too_many_bows:dead_eyes_pendant"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "45F285B4AF20B001"
+			tasks: [{
+				id: "4F46D8364E09372A"
+				item: "crittersandcompanions:pearl_necklace_1"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "36ABA4A1736B3371"
+			tasks: [{
+				id: "1D44D92F4AB8B94D"
+				item: "crittersandcompanions:pearl_necklace_2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "7B8E9265A78256FD"
+			tasks: [{
+				id: "2BCA019F9A924892"
+				item: "crittersandcompanions:pearl_necklace_3"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "6456C35ACB8A000C"
+			tasks: [{
+				id: "1A941C1FD9E54CB0"
+				item: "somakespells:soul_fire_necklace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "1DD2FAE082DD6DB4"
+			tasks: [{
+				id: "4A758F31EFD28ED9"
+				item: "somakespells:infernal_fire_necklace"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "4E134A9314E7A3F5"
+			tasks: [{
+				id: "4DDBF6A670F5C65C"
+				item: "embers:ember_amulet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "03EF9B8D66397281"
+			tasks: [{
+				id: "37088E2A1F1BEF73"
+				item: "embers:ashen_amulet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "24D8F7C808EA0388"
+			tasks: [{
+				id: "2131BF90578998D7"
+				item: "terramity:focus_scarf"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "6525318D9F89912F"
+			tasks: [{
+				id: "4A74231EAFDA98A9"
+				item: "terramity:seafarer_scarf"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			id: "7A3425B405BEDE7F"
+			tasks: [{
+				id: "55A27CFCCFD3B514"
+				item: "terramity:prismatic_scarf"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			id: "291E47C2ADAC30BA"
+			tasks: [{
+				id: "70E34B11FD1CE6BE"
+				item: "terramity:all_seeing_scarf"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			id: "660CB20E9278A907"
+			tasks: [{
+				id: "7067EDCBF6F194F4"
+				item: "terramity:concealment_scarf"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			id: "4FFB2BABC23EEF9B"
+			tasks: [{
+				id: "2603030E722B5890"
+				item: "terramity:null_scarf"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			id: "2E67345ED7623B2A"
+			tasks: [{
+				id: "519011B179D8FA68"
+				item: "terramity:pearls_of_persephone"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			id: "4B5C7D6023546F64"
+			tasks: [{
+				id: "1BB8FB1A3FAD4D7A"
+				item: "terramity:nyxs_necklace"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			id: "70DDEB74DDDCF04F"
+			tasks: [{
+				id: "7F898FD8F4578178"
+				item: "terramity:gold_medal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "2B24B12FFB701141"
+			tasks: [{
+				id: "5A92AB3037DAEBEC"
+				item: "embers:nonbeliever_amulet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "6A39DAEDCF1336B7"
+			tasks: [{
+				id: "4E69EB5F43A03477"
+				item: "moreartifacts:enderian_scarf"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "641A7BE8B8C3292B"
+			tasks: [{
+				id: "2F7A97C59757126F"
+				item: "moreartifacts:true_enderian_scarf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "0E0218B42D9D8F00"
+			tasks: [{
+				id: "45EA09CAA56C27E4"
+				item: "moreartifacts:gilded_scarf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "4C43758CDDD07E0C"
+			tasks: [{
+				id: "45434E65185BC0C5"
+				item: "moreartifacts:spectre_amulet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "3B68B583D408045C"
+			tasks: [{
+				id: "2468DDF7ED919502"
+				item: "moreartifacts:venom_amulet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "295F93F09F81F6D5"
+			tasks: [{
+				id: "4E597EA742D69BDD"
+				item: "moreartifacts:decay_amulet"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "5CCEACB8A09A1F88"
+			tasks: [{
+				id: "10E7C168902DD1A8"
+				item: "moreartifacts:necroplasm_amulet"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "156149B821634B34"
+			tasks: [{
+				id: "2C51E70A384FFEB3"
+				item: "call_of_yucutan:jade_amulet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "3A2ACF1CDB5DADD0"
+			tasks: [{
+				id: "617E0CAB006F8433"
+				item: "traveloptics:collar_of_the_turning_tide"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			id: "1B157D45ADB36237"
+			tasks: [{
+				id: "3D90512B7E77DF24"
+				item: "terramity:cardboard_necklace"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			id: "2019096A197AD5D8"
+			tasks: [{
+				id: "6B7C55F3C7C886E1"
+				item: "terramity:gold_necklace"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			id: "755B6B97AB1A2DD8"
+			tasks: [{
+				id: "4EAD3F4485791A70"
+				item: "terramity:diamond_pendant"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			id: "61B3973FEBCD6FA6"
+			tasks: [{
+				id: "3D72401BB305398E"
+				item: "terramity:poisonguard_pendant"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			id: "62CFA643427FDD5F"
+			tasks: [{
+				id: "0210DDFDEDB746A4"
+				item: "terramity:honey_necklace"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			id: "32A551E800B41A04"
+			tasks: [{
+				id: "7CA9AACBC4606F3F"
+				item: "terramity:purity_pendant"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			id: "7F858DF029806D19"
+			tasks: [{
+				id: "26A8485762735D73"
+				item: "terramity:holy_heart_necklace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			id: "747DA96CF61689E1"
+			tasks: [{
+				id: "487CCAB04ABDF397"
+				item: "terramity:voidguard_pendant"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			id: "756C0B0482CF760B"
+			tasks: [{
+				id: "4EB43CA960DD9CC1"
+				item: {
+					Count: 1
+					id: "goety:sea_amulet"
+					tag: {
+						"Conduit Charges": 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "676996F513E0027A"
+			tasks: [{
+				id: "5ECD59A0C2EACDF9"
+				item: "goety:feline_amulet"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			id: "0380D21AD6A59B89"
+			tasks: [{
+				id: "704DDBF8C16686B7"
+				item: "goety:star_amulet"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "45C237050F648044"
+			tasks: [{
+				id: "53F86FDC28F58300"
+				item: "irons_spellbooks:amethyst_resonance_charm"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			id: "5D8ADEA43A28ED88"
+			tasks: [{
+				id: "4FEBC5DCBC9FFBCA"
+				item: "irons_spellbooks:concentration_amulet"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			id: "3881C6BDF2DE6ED3"
+			tasks: [{
+				id: "43FACEE83D202206"
+				item: "irons_spellbooks:teleportation_amulet"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			id: "2E3D7B1DEA31FEF4"
+			tasks: [{
+				id: "130965009871B60C"
+				item: "lethality:warden_spine"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "1488926364D212C3"
+			tasks: [{
+				id: "068DF84B62419C9F"
+				item: "meetyourfight:wilted_ideals"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "4217704EE492EC16"
+			tasks: [{
+				id: "3D677463DBF126CE"
+				item: "mythsandlegends:necklace_of_torngarsuk"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "440A686DA1F3E202"
+			tasks: [{
+				id: "4E1579D3B3C2961D"
+				item: {
+					Count: 1
+					id: "brutality:hellspec_tie"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "43002451A9E76E80"
+			tasks: [{
+				id: "2480360651B7E804"
+				item: {
+					Count: 1
+					id: "brutality:blood_howl_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "20E2D6DDA3B8D1A5"
+			tasks: [{
+				id: "482EFA480C9A82F4"
+				item: "caster_curios_bonus:voidsnare"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "77B6C426F93060D3"
+			tasks: [{
+				id: "1B4F2ADE30BCA811"
+				item: "caster_curios_bonus:mind_to_matter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "1784B412CA5344F3"
+			tasks: [{
+				id: "61D6FC57576070B5"
+				item: "experienceobelisk:enlightened_amulet"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "012F64EADB528F4D"
+			tasks: [{
+				id: "38B9BEEB0CD689FE"
+				item: "experienceobelisk:fortuitous_amulet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "6600FA6256F30233"
+			tasks: [{
+				id: "238C7A42BD3BE363"
+				item: "eeeabsmobs:soul_summon_necklace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "46C16E0FCBC3D7A1"
+			tasks: [{
+				id: "7A10CD129846B4C3"
+				item: {
+					Count: 1
+					id: "goety:pendant_of_hunger"
+					tag: {
+						"Rotten Flesh Count": 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "22E6846AC892BB45"
+			tasks: [{
+				id: "783EA4DBD96D7BFB"
+				item: "goety:amethyst_necklace"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+	]
+	title: "Necklaces"
+}

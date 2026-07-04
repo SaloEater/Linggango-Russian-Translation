@@ -3,27 +3,32 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: "square"
 	filename: "chef_of_the_nether"
-	group: "509FB55A8427ED0C"
-	icon: "mynethersdelight:nether_bricks_stove"
+	group: "1892EE33F184E47F"
+	icon: "mynethersdelight:giant_takoyaki"
 	id: "667D519499FF4D8A"
 	images: [
 		{
+			height: 3.0d
+			image: "customtextures:textures/nethersdelightlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -1.0d
+			y: -7.0d
+		}
+		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.chef_of_the_nether.image.hovertext1"]
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.2499999999999929d
-			y: -4.7959183673469425d
-		}
-		{
-			height: 2.2d
-			image: "customtextures:textures/nethersdelightlogo.png"
-			rotation: 0.0d
-			width: 6.0d
 			x: -1.0d
-			y: -7.0d
+			y: -10.0d
 		}
 	]
 	order_index: 3
@@ -52,12 +57,12 @@
 					xp: 100
 				}
 			]
-			shape: "circle"
+			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest7031096573083229669.subtitle}"
+			subtitle: "Hot foods!!"
 			tasks: [{
 				id: "638F43107E350579"
-				title: "{ftbquests.chapter.chef_of_the_nether.quest7031096573083229669.task.7174026469540431225.title}"
+				title: "Let's get to cook"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -70,13 +75,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest4411985317404427672.subtitle}"
+			subtitle: "BOOM"
 			tasks: [{
 				id: "6C94D3A57B63AEDD"
 				item: "mynethersdelight:hoglin_trophy"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 4.5d
 		}
 		{
@@ -86,13 +91,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest1120933978163144575.subtitle}"
+			subtitle: "BOOM"
 			tasks: [{
 				id: "489CE4E060E2A914"
 				item: "mynethersdelight:zoglin_trophy"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 4.5d
 		}
 		{
@@ -102,13 +107,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest1668665910395925703.subtitle}"
+			subtitle: "AND BOOM!!"
 			tasks: [{
 				id: "7F8CD4CAD1895EDB"
 				item: "mynethersdelight:skoglin_trophy"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 4.5d
 		}
 		{
@@ -118,13 +123,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest996702473140969944.subtitle}"
+			subtitle: "BOOM"
 			tasks: [{
 				id: "7941D4D9BA6B3F77"
 				item: "mynethersdelight:waxed_hoglin_trophy"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 4.5d
 		}
 		{
@@ -134,7 +139,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest2059671834422591367.subtitle}"
+			subtitle: "Mamma mia"
 			tasks: [{
 				id: "7AE421C248C1F5B8"
 				item: "mynethersdelight:plate_of_ghasta_with_cream"
@@ -150,7 +155,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest1001497962765655125.subtitle}"
+			subtitle: "Don't just eat this!"
 			tasks: [{
 				id: "4A61749948847BA4"
 				item: "mynethersdelight:ghasta"
@@ -166,7 +171,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest8446674665383672709.subtitle}"
+			subtitle: "wth is this"
 			tasks: [{
 				id: "14E63B096C36AAEA"
 				item: "mynethersdelight:twisted_ghasta"
@@ -182,7 +187,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest2409957427939632792.subtitle}"
+			subtitle: "Healhty?"
 			tasks: [{
 				id: "55A5EB2DFAB3D736"
 				item: "mynethersdelight:ghast_salad"
@@ -198,7 +203,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest7738388538404624681.subtitle}"
+			subtitle: "Those tentacles are fire!"
 			tasks: [{
 				id: "442CE38454FDAC92"
 				item: "mynethersdelight:fries_ghasta"
@@ -214,7 +219,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest7686957159460782414.subtitle}"
+			subtitle: "Shoot me now cmon"
 			tasks: [{
 				id: "22B2D577BDF6FD74"
 				item: "mynethersdelight:ghast_dough"
@@ -230,7 +235,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest5741286563868557246.subtitle}"
+			subtitle: "Squished into this.. stupid dough"
 			tasks: [{
 				id: "5B13C9DF2F44B952"
 				item: "mynethersdelight:ghast_sourdough"
@@ -246,7 +251,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest2502539009882374486.subtitle}"
+			subtitle: "No."
 			tasks: [{
 				id: "1B7775F579D7460E"
 				item: "mynethersdelight:dried_ghast_with_milk"
@@ -262,7 +267,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest6078254958681754333.subtitle}"
+			subtitle: "Delicious!"
 			tasks: [{
 				id: "0690E8AC675C41B4"
 				item: "mynethersdelight:ghasta_with_cream"
@@ -278,7 +283,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest7211404105304864852.subtitle}"
+			subtitle: "egg"
 			tasks: [{
 				id: "0E7B91B84B94F099"
 				item: "mynethersdelight:boiled_egg"
@@ -294,7 +299,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest7478410856097550542.subtitle}"
+			subtitle: "healthy egg"
 			tasks: [{
 				id: "506B2496751284B6"
 				item: "mynethersdelight:golden_egg"
@@ -310,7 +315,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest1850253471204539455.subtitle}"
+			subtitle: "super egg"
 			tasks: [{
 				id: "6A0A5FB014628FB9"
 				item: "mynethersdelight:enchanted_golden_egg"
@@ -326,7 +331,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest8499341714528640517.subtitle}"
+			subtitle: "Very fat juicy meat.. (no)"
 			tasks: [{
 				id: "216C16202BDC6160"
 				item: "mynethersdelight:hoglin_loin"
@@ -342,7 +347,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest354507186789164167.subtitle}"
+			subtitle: "Juicy sau-"
 			tasks: [{
 				id: "7CCB3C06F89A0C55"
 				item: "mynethersdelight:hoglin_sausage"
@@ -352,14 +357,14 @@
 			y: 1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.chef_of_the_nether.quest2062868123304654477.description1}"]
+			description: ["i mean not really holy"]
 			id: "1CA0C7A0EC0CF68D"
 			rewards: [{
 				id: "7004D058C3EBB5A0"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest2062868123304654477.subtitle}"
+			subtitle: "Holy saturation"
 			tasks: [{
 				id: "611C319CD9EC84E9"
 				item: "mynethersdelight:fried_hoglin_chop"
@@ -375,7 +380,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest9071327800554350701.subtitle}"
+			subtitle: "No, don't eat raw."
 			tasks: [{
 				id: "64A83C191F464D40"
 				item: "mynethersdelight:raw_stuffed_hoglin"
@@ -391,7 +396,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest5470399029025019273.subtitle}"
+			subtitle: "Weird.. but good "
 			tasks: [{
 				id: "55B78F63B050B59C"
 				item: "mynethersdelight:roast_stuffed_hoglin"
@@ -407,7 +412,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest1229698613456115781.subtitle}"
+			subtitle: "Fat hoglin nose"
 			tasks: [{
 				id: "5D2C1934B79A806B"
 				item: "mynethersdelight:plate_of_stuffed_hoglin_snout"
@@ -423,7 +428,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest2325426296704737909.subtitle}"
+			subtitle: "Mmm i just know it would smell nice"
 			tasks: [{
 				id: "046FE205062BC85C"
 				item: "mynethersdelight:plate_of_stuffed_hoglin_ham"
@@ -439,7 +444,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest6208300468564288053.subtitle}"
+			subtitle: "Beautiful"
 			tasks: [{
 				id: "1B703B92E6388D00"
 				item: "mynethersdelight:plate_of_stuffed_hoglin"
@@ -455,7 +460,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest8418113842401679760.subtitle}"
+			subtitle: "Spicy hoglin body remains.."
 			tasks: [{
 				id: "1A701583E36987EF"
 				item: "mynethersdelight:spicy_hoglin_stew"
@@ -471,7 +476,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest2569509626904128191.subtitle}"
+			subtitle: "A Plate of Striderloaf."
 			tasks: [{
 				id: "1FC0D7DC25C4B1E7"
 				item: "mynethersdelight:plate_of_striderloaf"
@@ -487,7 +492,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest964787899617042782.subtitle}"
+			subtitle: "Personally, cold is bad."
 			tasks: [{
 				id: "1D2A4D62604CDEF9"
 				item: "mynethersdelight:cold_striderloaf"
@@ -503,7 +508,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest3741305806911163229.subtitle}"
+			subtitle: "This is what a viking would eat"
 			tasks: [{
 				id: "18466A2F3CC84A48"
 				item: "mynethersdelight:striderloaf"
@@ -519,7 +524,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest3146784231764833125.subtitle}"
+			subtitle: "Fuh no"
 			tasks: [{
 				id: "0B5310345188076C"
 				item: "mynethersdelight:plate_of_cold_striderloaf"
@@ -535,7 +540,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest1573626386509432482.subtitle}"
+			subtitle: "Strider burger when"
 			tasks: [{
 				id: "6E43641C658D8FE9"
 				item: "mynethersdelight:minced_strider"
@@ -551,7 +556,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest1600475927956161016.subtitle}"
+			subtitle: "Strider chicken leg"
 			tasks: [{
 				id: "21F686783E4551E8"
 				item: "mynethersdelight:strider_slice"
@@ -567,7 +572,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest5236184957041047123.subtitle}"
+			subtitle: "A warm soup.."
 			tasks: [{
 				id: "71E73653114AFEF5"
 				item: "mynethersdelight:strider_stew"
@@ -583,7 +588,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest1181643619508961484.subtitle}"
+			subtitle: "Wth this is nasty"
 			tasks: [{
 				id: "4F61A02A395788FE"
 				item: "mynethersdelight:strider_with_grilled_fungus"
@@ -593,29 +598,13 @@
 			y: 2.0d
 		}
 		{
-			id: "78A7270C3CF4411F"
-			rewards: [{
-				id: "2338CF0E41E6130D"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest8693960539177763103.subtitle}"
-			tasks: [{
-				id: "25C0AF50E903306F"
-				item: "miners_delight:strider_stew_cup"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 0.0d
-		}
-		{
 			id: "3AE71FEA2A6079A8"
 			rewards: [{
 				id: "5873FA65E2DC35EB"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest4244396264413755816.subtitle}"
+			subtitle: "Ice creaam! Who doesn't love them?!"
 			tasks: [{
 				id: "7753B7557ACB05BD"
 				item: "mynethersdelight:hot_cream_cone"
@@ -631,7 +620,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest8759456507047650810.subtitle}"
+			subtitle: "hot ahh egg wth "
 			tasks: [{
 				id: "11FD6EA652BD3232"
 				item: "mynethersdelight:strider_egg"
@@ -647,13 +636,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest2804870238162320348.subtitle}"
+			subtitle: "Scorching eggs"
 			tasks: [{
 				id: "6FE4443891E4D55C"
 				item: "mynethersdelight:scotch_eggs"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 4.5d
 		}
 		{
@@ -663,14 +652,14 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest4625676965342475048.subtitle}"
+			subtitle: "finally a normal egg"
 			tasks: [{
 				id: "0D18A637D3EC1DE8"
 				item: "mynethersdelight:egg_soup"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			id: "76B7290653DCFA5C"
@@ -679,13 +668,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest8554351124367080028.subtitle}"
+			subtitle: "Devil egg?"
 			tasks: [{
 				id: "7EF76DFA593A426E"
 				item: "mynethersdelight:deviled_egg"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 4.5d
 		}
 		{
@@ -695,7 +684,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest2220770720842118442.subtitle}"
+			subtitle: "Getting fancier."
 			tasks: [{
 				id: "4CAB5E1923055DFD"
 				item: "mynethersdelight:hotdog_with_nether_salad"
@@ -711,7 +700,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest6781778285557542828.subtitle}"
+			subtitle: "Okay this is max ig.."
 			tasks: [{
 				id: "5078D9945C7A7D17"
 				item: "mynethersdelight:hotdog_with_mixed_salad"
@@ -727,7 +716,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest8099659393598680373.subtitle}"
+			subtitle: "Alr this is boring"
 			tasks: [{
 				id: "3005EAD2292D5069"
 				item: "mynethersdelight:hotdog"
@@ -743,7 +732,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest8202053829008607864.subtitle}"
+			subtitle: "Nvm this is cool"
 			tasks: [{
 				id: "67FF1C787C25D336"
 				item: "mynethersdelight:chilidog"
@@ -759,7 +748,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest4871072274560058716.subtitle}"
+			subtitle: "KEBAB"
 			tasks: [{
 				id: "1F3704D0CC9B4589"
 				item: "mynethersdelight:red_loin_on_a_stick"
@@ -775,7 +764,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest2833475493200368622.subtitle}"
+			subtitle: "KEBAB 2"
 			tasks: [{
 				id: "1A1316281084F66A"
 				item: "mynethersdelight:bacon-wrapped_sausage_on_a_stick"
@@ -791,7 +780,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest4164911205682376269.subtitle}"
+			subtitle: "Rice its rice"
 			tasks: [{
 				id: "1ABF9AB4FAC8F0AA"
 				item: "mynethersdelight:spicy_noodle_soup"
@@ -807,7 +796,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest8295339469646959245.subtitle}"
+			subtitle: "See that rice? thats rice"
 			tasks: [{
 				id: "7F5C0579B0863A2B"
 				item: "mynethersdelight:spicy_curry"
@@ -823,7 +812,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest4802507460583638761.subtitle}"
+			subtitle: "Why do u eat this"
 			tasks: [{
 				id: "48E1132A3250A23B"
 				item: "mynethersdelight:hot_wings_bucket"
@@ -839,7 +828,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest6219670792793053864.subtitle}"
+			subtitle: "An angels wings"
 			tasks: [{
 				id: "45B1309C9CD58D6B"
 				item: "mynethersdelight:hot_wings"
@@ -855,7 +844,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest7465409311003173410.subtitle}"
+			subtitle: "My dream breakfast"
 			tasks: [{
 				id: "4A6445F1A5D4F929"
 				item: "mynethersdelight:breakfast_sampler"
@@ -871,7 +860,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest3868146066144531012.subtitle}"
+			subtitle: "Yo this is NOT from nether"
 			tasks: [{
 				id: "32899CEBD781072B"
 				item: "mynethersdelight:sausage_and_potatoes"
@@ -887,7 +876,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest3925656468386217457.subtitle}"
+			subtitle: "This one too wth!"
 			tasks: [{
 				id: "52FFE3295D4C0E02"
 				item: "mynethersdelight:giant_takoyaki"
@@ -903,7 +892,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest5208967086979961210.subtitle}"
+			subtitle: "Bread"
 			tasks: [{
 				id: "05E2A04CFCD94001"
 				item: "mynethersdelight:bread_loaf"
@@ -919,7 +908,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest4049541845387027804.subtitle}"
+			subtitle: "Bread but sliced"
 			tasks: [{
 				id: "567808DFB796C921"
 				item: "mynethersdelight:slices_of_bread"
@@ -935,7 +924,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest420798832728523328.subtitle}"
+			subtitle: "Classic"
 			tasks: [{
 				id: "6205D7C46AB97B24"
 				item: "mynethersdelight:toasts"
@@ -951,7 +940,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest4146657289746046055.subtitle}"
+			subtitle: "Burp"
 			tasks: [{
 				id: "0258FD121C806AEC"
 				item: "mynethersdelight:nether_burger"
@@ -967,7 +956,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest613537110947888941.subtitle}"
+			subtitle: "Looks actually nice"
 			tasks: [{
 				id: "4AE40486AF151F38"
 				item: "mynethersdelight:blue_tenderloin_steak"
@@ -978,7 +967,7 @@
 		}
 		{
 			id: "00A61F3350CD0327"
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest46759151393375015.subtitle}"
+			subtitle: "Looks like candy"
 			tasks: [{
 				id: "02101FEEC156976F"
 				item: "mynethersdelight:spicy_skewer"
@@ -989,7 +978,7 @@
 		}
 		{
 			id: "45B6DDD164660439"
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest5023446325780677689.subtitle}"
+			subtitle: "Looks lowkey tasty.."
 			tasks: [{
 				id: "038876D5507703BC"
 				item: "mynethersdelight:burnt_roll"
@@ -1000,7 +989,7 @@
 		}
 		{
 			id: "1D49923E64ECE4C9"
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest2110378697078662345.subtitle}"
+			subtitle: "OHh.. this one too"
 			tasks: [{
 				id: "17B6B56B78FB08EA"
 				item: "mynethersdelight:magma_cake_slice"
@@ -1016,7 +1005,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest7000026012616175720.subtitle}"
+			subtitle: "No."
 			tasks: [{
 				id: "4BE4C419EF0E4C9D"
 				item: "mynethersdelight:rock_soup"
@@ -1032,7 +1021,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest4680868079618794757.subtitle}"
+			subtitle: "Maybe.. hmm"
 			tasks: [{
 				id: "70FEBE3BEA2D2309"
 				item: "mynethersdelight:magma_cake_block"
@@ -1048,7 +1037,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest603382269676877220.subtitle}"
+			subtitle: "No"
 			tasks: [{
 				id: "4DAF229355F0A83C"
 				item: "mynethersdelight:stuffed_pepper"
@@ -1064,7 +1053,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest408350669869327649.subtitle}"
+			subtitle: "Naa"
 			tasks: [{
 				id: "23C4399703DAA2BA"
 				item: "mynethersdelight:bullet_pepper"
@@ -1080,7 +1069,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{ftbquests.chapter.chef_of_the_nether.quest635905483499472768.subtitle}"
+			subtitle: "Fuh ice cream"
 			tasks: [{
 				id: "4B6CA2BFFA416634"
 				item: "mynethersdelight:hot_cream"
@@ -1090,5 +1079,5 @@
 			y: 2.0d
 		}
 	]
-	title: "{ftbquests.chapter.chef_of_the_nether.title}"
+	title: "<shadow><grad from=#7B4E3A to=#D0690D>Nether's Delight</grad></shadow>"
 }

@@ -3,34 +3,28 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "woodtier"
 	filename: "knight_quest"
-	group: "3C6AB1DE39D4F441"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "knightquest:item/paladin_sword"
-		}
-	}
+	group: "0474A81B3CE32958"
+	icon: "knightquest:chaotic_essence"
 	id: "41BC2AB94F60AA8F"
 	images: [
 		{
-			height: 1.2d
+			height: 1.8d
 			image: "terramity:item/archangel_halo"
 			rotation: 0.0d
-			width: 1.2d
-			x: -0.3265306122449019d
-			y: 3.265306122448955d
+			width: 1.5d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dev: true
 			height: 1.0d
-			hover: ["ftbquests.chapter.knight_quest.image.hovertext1"]
+			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
-			y: 1.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			height: 1.2d
@@ -41,11 +35,20 @@
 			y: -0.5d
 		}
 	]
-	order_index: 8
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.knight_quest.quest8282320629850165669.description1}"]
+			description: [
+				"### &6Welcome to Knight Quest!&r"
+				"&6Knight Quest&r adds over &f30&r &7armor sets&r, each with their own &apassive ability&r, alongside new &chostile mobs&r, &7weapons&r,"
+				"[gap=0]"
+				"and even a &atameable companion&r!"
+				"The whole mod revolves around farming &aEssences&r from mobs and using them to craft gear and progress further."
+				"&eThere's a lot to explore,&r"
+				"[gap=0]"
+				"&eso let's get into it!&r"
+			]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -54,22 +57,31 @@
 					Icon: "knightquest:item/great_essence"
 				}
 			}
-			icon_scale: 1.3d
+			icon_scale: 1.2d
 			id: "72F0B6BB321BD1A5"
-			shape: "rsquare"
+			min_width: 220
+			shape: "square"
 			size: 1.2d
-			subtitle: "{ftbquests.chapter.knight_quest.quest8282320629850165669.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "00FA0BB4CA9216FF"
-				title: "{ftbquests.chapter.knight_quest.quest8282320629850165669.task.70381615298254591.title}"
+				title: "Oki"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.knight_quest.quest8282320629850165669.title}"
+			title: "Knight Quest!"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["72F0B6BB321BD1A5"]
+			description: [
+				"### &aEssences&r"
+				"These are the backbone of the mod, dropped by both &avanilla&r and"
+				"[gap=0]"
+				"&8Knight Quest&r mobs."
+				"Combine &aSmall Essences&r to craft a &aGreat Essence&r, then use those to fill up the &6Great Chalice&r."
+				"Pretty much everything in this mod starts here, so get to killing!"
+			]
 			id: "4E2837B73E305DF0"
 			rewards: [{
 				count: 4
@@ -77,9 +89,9 @@
 				item: "knightlib:small_essence"
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.knight_quest.quest5631812594188705264.subtitle}"
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "Dropped by killing mobs."
 			tasks: [
 				{
 					id: "1C1FF47DFC4AE772"
@@ -92,16 +104,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.knight_quest.quest5631812594188705264.title}"
-			x: 4.6078846503452695d
-			y: 2.667437450374628d
+			title: "Essences"
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4E2837B73E305DF0"]
 			description: [
-				"{ftbquests.chapter.knight_quest.quest3953733163726370349.description1}"
-				""
-				"{ftbquests.chapter.knight_quest.quest3953733163726370349.description2}"
+				"### &6Great Chalice&r"
+				"Craft these two and after that, fill the &6Great Chalice&r with &aessences&r by right-clicking it. This can be used to get corresponding items."
+				"You'll also need it to summon the &4Netherman&r boss, or to get started with the &cBlood Altar&r from Blood Magic!"
 			]
 			id: "36DE7B5D5897762D"
 			rewards: [{
@@ -109,54 +121,43 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "square"
-			subtitle: "{ftbquests.chapter.knight_quest.quest3953733163726370349.subtitle}"
-			tasks: [{
-				id: "72BBEE4CDC8B329E"
-				item: "knightlib:great_chalice"
-				type: "item"
-			}]
-			x: 2.6785714285711038d
-			y: 2.7142857142857792d
-		}
-		{
-			dependencies: ["36DE7B5D5897762D"]
-			description: ["{ftbquests.chapter.knight_quest.quest2117927582061731358.description1}"]
-			id: "1D6463EA24CA9E1E"
-			rewards: [{
-				id: "76EA149A499E4795"
-				type: "xp"
-				xp: 25
-			}]
-			shape: "square"
-			subtitle: "{ftbquests.chapter.knight_quest.quest2117927582061731358.subtitle}"
-			tasks: [{
-				id: "684EA910CF5EC064"
-				item: "knightlib:empty_grail"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.5d
+			shape: "octagon"
+			subtitle: "Only usage of Copper.."
+			tasks: [
+				{
+					id: "72BBEE4CDC8B329E"
+					item: "knightlib:great_chalice"
+					type: "item"
+				}
+				{
+					id: "62B9D15EC5FAC6B1"
+					item: "knightlib:empty_grail"
+					type: "item"
+				}
+			]
+			title: "Great.. Machine!"
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4E2837B73E305DF0"]
 			description: [
-				"{ftbquests.chapter.knight_quest.quest4993917440246160713.description1}"
-				""
-				"{ftbquests.chapter.knight_quest.quest4993917440246160713.description2}"
-				""
-				"{ftbquests.chapter.knight_quest.quest4993917440246160713.description3}"
-				""
-				"{ftbquests.chapter.knight_quest.quest4993917440246160713.description4}"
+				"### &6Samhain&r"
+				"To summon Samhain, place a &6gold block&r on the ground and put a &apumpkin&r on top"
+				"[gap=0]"
+				"of it!"
+				"Tame it with a &6Great Essence&r and it'll fight alongside you."
+				"You can also drop armor for it to equip!"
 			]
 			id: "454DF573F7801D49"
+			min_width: 225
 			rewards: [{
 				id: "711E5B239A4946CB"
 				item: "knightlib:great_essence"
 				type: "item"
 			}]
-			shape: "heart"
-			subtitle: "{ftbquests.chapter.knight_quest.quest4993917440246160713.subtitle}"
+			shape: "octagon"
+			subtitle: "Let's make a friend!"
 			tasks: [
 				{
 					id: "46411FC762093358"
@@ -169,38 +170,43 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.knight_quest.quest4993917440246160713.title}"
-			x: 5.714285714285779d
-			y: 3.8928571428573377d
+			title: "Samhain"
+			x: 5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4E2837B73E305DF0"]
+			description: [
+				"### &6Radiant Essence&r"
+				"Sadly, even though I made a cool title for it, there's no other use for it rather than summoning a &cBoss&r.."
+			]
 			id: "4790181FEB358840"
 			rewards: [{
 				id: "2409E013BDFF1504"
 				type: "xp"
 				xp: 25
 			}]
-			shape: "square"
-			size: 1.1d
-			subtitle: "{ftbquests.chapter.knight_quest.quest5156648098708424768.subtitle}"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "Offer it to great chalice for a boss fight!"
 			tasks: [{
 				id: "164B54004F1AE9F3"
 				item: "knightquest:radiant_essence"
 				type: "item"
 			}]
-			x: 3.4897959183673493d
-			y: 4.67346938775507d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4790181FEB358840"]
 			description: [
-				"{ftbquests.chapter.knight_quest.quest2606368598543039430.description1}"
-				""
-				"{ftbquests.chapter.knight_quest.quest2606368598543039430.description2}"
+				"### &cNetherman, the Architect of Chaos&r"
+				"He's an enhanced &5Enderman&r who played a crucial role in building the &4Nether's terrain&r."
+				"I think that explains why you should kill him :P"
 			]
 			icon: "armageddon_mod:spiritof_chaos"
 			id: "242BAE6E65E3FBC6"
+			min_width: 255
 			rewards: [{
 				count: 2
 				id: "6B42BEF8E7D03CA4"
@@ -208,8 +214,8 @@
 				type: "item"
 			}]
 			shape: "pentagon"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.knight_quest.quest2606368598543039430.subtitle}"
+			size: 1.0d
+			subtitle: "It's like Enderman but.. uh.. Netherman!"
 			tasks: [{
 				entity: "knightquest:netherman"
 				icon: {
@@ -220,32 +226,36 @@
 					}
 				}
 				id: "24165542C865CBF4"
-				title: "{ftbquests.chapter.knight_quest.quest2606368598543039430.task.2600359580171357172.title}"
+				title: "&cKill&r Netherman, The Architect Of Chaos"
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.3877551020408205d
-			y: 5.020408163265273d
+			x: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["242BAE6E65E3FBC6"]
-			description: ["{ftbquests.chapter.knight_quest.quest8259325803388633311.description1}"]
+			description: [
+				"### &6Chaotic Essence&r"
+				"The &6Great Chalice&r can be used to embed &eunique skills&r into the weapons of this mod!"
+			]
 			id: "729F050EF33280DF"
 			rewards: [{
 				id: "435E33106BF6AC40"
 				item: "knightquest:chaotic_essence"
 				type: "item"
 			}]
-			shape: "gear"
-			subtitle: "{ftbquests.chapter.knight_quest.quest8259325803388633311.subtitle}"
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "Yay, skills!"
 			tasks: [{
 				id: "457C913351957F02"
 				item: "knightquest:chaotic_essence"
 				type: "item"
 			}]
-			x: -0.3265306122449019d
-			y: 3.265306122448955d
+			x: 4.0d
+			y: 7.0d
 		}
 	]
-	title: "{ftbquests.chapter.knight_quest.title}"
+	title: "<shadow a=0.4><grad from=#DC3E23 to=#FBDF77>Knight Quest</grad></shadow>"
 }

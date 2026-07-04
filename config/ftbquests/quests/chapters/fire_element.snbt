@@ -1,0 +1,1495 @@
+{
+	autofocus_id: "2084739E817DD197"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "0361FC25A57730F8"
+	icon: "irons_spellbooks:fire_rune"
+	id: "0D0EFF0AFC33BA9F"
+	images: [
+		{
+			color: 15685380
+			height: 12.0d
+			image: "terramity:textures/entities/shadowflame_ring.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			height: 12.0d
+			image: "brutality:textures/particle/magic_circle/explosion_magic_circle_particle.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: 4.5d
+		}
+	]
+	order_index: 8
+	parent: "529863295F3FB653"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["26A7D1040CEE5059"]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:fire_upgrade_orb"
+				tag: {
+					"irons_spellbooks:upgrade_orb_type": "irons_spellbooks:fire_power"
+				}
+			}
+			icon_scale: 2.0d
+			id: "17CD40F43D6DDA71"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "The Fire school is centered around damage and damage over time."
+			tasks: [{
+				id: "578C0F6616F0B995"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			title: "Fire magic"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			dependency_requirement: "one_completed"
+			description: ["{@pagebreak}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blaze_storm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7FAB51E7A447A8DE"
+			rewards: [{
+				id: "3233949F08021013"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Unleash a barrage of blaze fireballs, shooting rapidly but wildly in front of you and igniting any creatures or blocks hit."
+			tasks: [{
+				id: "569A23A3AE1505C1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blaze_storm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blaze Storm"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/burning_dash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "066F5F245296EC0A"
+			shape: "square"
+			subtitle: "Quickly launch yourself forward in a haze of fire, searing creatures you pass through while in a blaze."
+			tasks: [{
+				id: "1F19087F39B8E550"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:burning_dash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Burning Dash"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fire_breath.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "01AB54686D266A12"
+			shape: "square"
+			subtitle: "Spew a cone of fire outwards, igniting creatures and blocks in its path."
+			tasks: [{
+				id: "7840EB21E5099E00"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fire_breath"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fire Breath"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fireball.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0AAEC4CE8569251B"
+			shape: "square"
+			subtitle: "Throw a ball of fire, exploding and dealing massive damage on impact."
+			tasks: [{
+				id: "7C4BC199B38DD9A2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fireball"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fireball"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/firebolt.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "18B3CA746AB9BA95"
+			shape: "square"
+			subtitle: "Shoot a small projectile of fire, igniting whatever it hits."
+			tasks: [{
+				id: "4C2BB4221A04F62B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:firebolt"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Firebolt"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/flaming_barrage.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "20ABC1070593BF50"
+			shape: "square"
+			subtitle: "Cast to select targets, which at the end of recasting, will each be under barrage of small fireballs."
+			tasks: [{
+				id: "556B2110F23A5106"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:flaming_barrage"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Flaming Barrage"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/flaming_strike.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "67E4CCC548D639FF"
+			shape: "square"
+			subtitle: "Unleash a sweeping melee attack in the form of a wreath of flames. This spell is uninterruptible. The damage scales off of your held weapon's melee damage and enchantments."
+			tasks: [{
+				id: "1E591F044FB4CE4E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:flaming_strike"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Flaming Strike"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/heat_surge.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "52A9641893F1C96E"
+			shape: "square"
+			subtitle: "Emanate a surge of fiery magic, igniting and rending creatures in a radius around you. Rended creatures have reduced armor."
+			tasks: [{
+				id: "4E3D0B93E82124D9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:heat_surge"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Heat Surge"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/magma_bomb.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1180B7F131868D7D"
+			shape: "square"
+			subtitle: "Launch a bomb made from magma, exploding on impact and leaving a field of fire where it lands."
+			tasks: [{
+				id: "5E0981643A2C03CE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:magma_bomb"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Magma Bomb"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/scorch.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6516177C8480D1F6"
+			shape: "square"
+			subtitle: "Erupt a scorch of fiery magic, damaging creatures in the zone and leaving a field of fire."
+			tasks: [{
+				id: "79503DA5AB04B6DA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:scorch"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Scorch"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/wall_of_fire.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "19B39710525DD231"
+			shape: "square"
+			subtitle: "Recast to place anchor points, which erupts into a wall of fire when the cast finishes, or when the maximum length is reached. This wall blocks projectiles and ignites creatures that pass through it."
+			tasks: [{
+				id: "334009B5E714E324"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wall_of_fire"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Wall of Fire"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/annihilation.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3FB51756CA32A2A4"
+			shape: "square"
+			tasks: [{
+				id: "03A0742F1E2E7BCB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:annihilation"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Annihilation"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/lava_bomb.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7A8AD28F252D9770"
+			shape: "square"
+			tasks: [{
+				id: "0A5BE3B4A92ECAA0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:lava_bomb"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Lava Bomb"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/burning_judgment.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4DED9BF859EAEBF2"
+			shape: "square"
+			tasks: [{
+				id: "7167CD31F25C58C1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:burning_judgment"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Burning Judgment"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/meteor_storm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "662AA68A3C8C35EB"
+			shape: "square"
+			tasks: [{
+				id: "562FB4D6C6C9AD6A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:meteor_storm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Meteor Storm"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/ignited_onslaught.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6CBA4CA43BC91F6B"
+			shape: "square"
+			tasks: [{
+				id: "6F5A3521D24C0319"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:ignited_onslaught"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ignited Onslaught"
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/extinction.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5B84E99D3D379303"
+			shape: "square"
+			tasks: [{
+				id: "05DF3369B5626AD4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:extinction"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Extinction"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/gyro_slash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "74313554F6F33F03"
+			shape: "square"
+			tasks: [{
+				id: "196A52AD9BA4A3C7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:gyro_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Gyro Slash"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "traveloptics:textures/gui/spell_icons/flames_reborn.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3E414E079660D588"
+			shape: "square"
+			tasks: [{
+				id: "7DE3480DD9CC51FB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "traveloptics:flames_reborn"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Flames Reborn"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "peyroscythe:textures/gui/spell_icons/sinfire_embrace.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1CF618467B5EA929"
+			shape: "square"
+			tasks: [{
+				id: "75B18A03C1753DDC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "peyroscythe:sinfire_embrace"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Sinfire Embrace"
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "peyroscythe:textures/gui/spell_icons/summon_blaze.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "494C4DA9E20DF81C"
+			shape: "square"
+			tasks: [{
+				id: "04046EF370FDEB6E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "peyroscythe:summon_blaze"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "The Gate of Truth Party"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alshanex_familiars:textures/gui/spell_icons/fire_fist.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "69766D7597DE9F74"
+			shape: "square"
+			tasks: [{
+				id: "3C072CDD549FD396"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "alshanex_familiars:fire_fist"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Fire Fist"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/raise_hell.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1E47965C52F83B5E"
+			shape: "square"
+			tasks: [{
+				id: "42903F698E84A132"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:raise_hell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Raise Hell"
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/damned_demomans.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3C576EC67CDCECC2"
+			shape: "square"
+			tasks: [{
+				id: "47EC8CAFC468703B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:damned_demomans"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Damned Demonan's"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/combustion.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1AE44BE21B179307"
+			shape: "square"
+			tasks: [{
+				id: "3452D15EBFA88433"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:combustion"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Combustion"
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/ignis_shield.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "201C7AB90BCD5A28"
+			shape: "square"
+			tasks: [{
+				id: "6FC671DB6AAC1CE5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:ignis_shield"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ignis Shield"
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/incinerator_slash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "65469266D2F39FBD"
+			shape: "square"
+			tasks: [{
+				id: "776C5DADD26F459B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:incinerator_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Incinerator Slash"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/abyssal_burn.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3B033D90C2490D6C"
+			shape: "square"
+			tasks: [{
+				id: "2929367490F33AF1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:abyssal_burn"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Abyssal Burn"
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/fire_blast.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3B1742397F2267C9"
+			shape: "square"
+			tasks: [{
+				id: "2DB9C9105956B9B0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:fire_blast"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Fire Blast"
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/firestorm_vortex.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "04B9F8A98A9C582A"
+			shape: "square"
+			tasks: [{
+				id: "62E5D2899B95B68A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:firestorm_vortex"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Firestorm Vortex"
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/fire_orbs.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "29E16FACF4D63770"
+			shape: "square"
+			tasks: [{
+				id: "637A3468E280ED81"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:fire_orbs"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Fire Orbs"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/eruption.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "46A5B3EFA76217AC"
+			shape: "square"
+			tasks: [{
+				id: "71A6E7C036D3D616"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:eruption"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Eruption"
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/pumpkin_bomb.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4D67F95633F7F265"
+			shape: "square"
+			tasks: [{
+				id: "164D9EE4C2E734EB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:pumpkin_bomb"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Pumpkin Bomb"
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "somakespells:textures/gui/spell_icons/apocalyptic_burst.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "32A78017F548D6C1"
+			shape: "square"
+			tasks: [{
+				id: "5A2C4E6739C8A3A9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "somakespells:apocalyptic_burst"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Apocalyptic Burst"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "refined_mod:textures/gui/spell_icons/create_bonfire.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6F5B3A1574CAB496"
+			shape: "square"
+			tasks: [{
+				id: "5072D13DC2683323"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "refined_mod:create_bonfire"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Create Bonfire"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_spellbooks:textures/gui/spell_icons/flame_eater.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "694ACC73AFE5CE1A"
+			shape: "square"
+			tasks: [{
+				id: "37921C441EFB8BBB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:flame_eater"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Flame Eater"
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "simplyswords:textures/mob_effect/flameseed.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3155CDCD66A2AC89"
+			shape: "square"
+			tasks: [{
+				id: "4F06B4E420C83004"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:flame_sector"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Flame Sector"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2084739E817DD197"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "peyroscythe:textures/gui/spell_icons/sinfire_embrace_frame.png"
+				}
+			}
+			icon_scale: 1.8d
+			id: "6979770C8BADF778"
+			shape: "square"
+			tasks: [{
+				id: "3EC75F10177CC5A9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "legendary_spellbooks:sentinel_saturation"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Sentinel Saturation"
+			x: -5.0d
+			y: 9.0d
+		}
+	]
+	title: "Fire Element"
+}

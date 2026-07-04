@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: "woodtier"
 	filename: "etc"
-	group: "24697C49C2A3ADAA"
+	group: "53EDD4136A05F6A6"
 	icon: {
 		Count: 1
 		id: "ftbquests:custom_icon"
@@ -12,21 +12,38 @@
 		}
 	}
 	id: "644793D444A57D97"
-	images: [{
-		dev: true
-		height: 1.0d
-		hover: ["ftbquests.chapter.etc.image.hovertext1"]
-		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: 0.0d
-		y: 0.0d
-	}]
-	order_index: 0
+	images: [
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"All rights are reserved."
+				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
+				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
+				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			click: "a"
+			height: 1.0d
+			hover: ["This questline is being reworked"]
+			image: "quark:item/hammer"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -4.5d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.etc.quest1115926817696332638.description1}"]
+			description: ["Lot of things that will cure your boredom."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -44,26 +61,26 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.etc.quest1115926817696332638.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "2000C1CA81C2BD4C"
-				title: "{ftbquests.chapter.etc.quest1115926817696332638.task.2306056084718271820.title}"
+				title: "Yes fun fun"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.etc.quest1115926817696332638.title}"
+			title: "Useful / Fun Things"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]
-			description: ["{ftbquests.chapter.etc.quest4265102331593978986.description1}"]
+			description: ["A bumerang that can deal damage and break blocks for you!"]
 			id: "3B30AFF91D59746A"
 			rewards: [{
 				id: "2F057CA8AA69DDE7"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.etc.quest4265102331593978986.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "436D7FA36BB7DBC7"
 				item: {
@@ -75,19 +92,19 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]
-			description: ["{ftbquests.chapter.etc.quest3681530881719169235.description1}"]
+			description: ["A stronger version of pickarang."]
 			id: "33176CD4D28070D3"
 			rewards: [{
 				id: "379918CB1EAD2A58"
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.etc.quest3681530881719169235.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "516842080F2C3202"
 				item: {
@@ -100,11 +117,11 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]
-			description: ["{ftbquests.chapter.etc.quest4069757939441321740.description1}"]
+			description: ["&eA mod&r &cthat&r &fwill&r &3let&r &1you&r &adraw&r &4your&r &cown&r &fpaintings&r &9and&r &6display&r &3them&r &cin&r &dyour&r &ahouse."]
 			icon: "xercapaint:item_easel"
 			id: "387AAF488E39C70C"
 			rewards: [
@@ -118,46 +135,25 @@
 					item: "xercapaint:item_easel"
 					type: "item"
 				}
+				{
+					id: "7F6EAD00A93E6DF5"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
 			]
-			subtitle: "{ftbquests.chapter.etc.quest4069757939441321740.subtitle}"
+			subtitle: "&8[Click to read]"
 			tasks: [{
 				id: "67407617A34886D8"
-				title: "{ftbquests.chapter.etc.quest4069757939441321740.task.7440076428311824088.title}"
+				title: "OMG!"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.etc.quest4069757939441321740.title}"
-			x: 1.0d
+			title: "&aI&r &cam&r &da&r &eArtist!&r"
+			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]
-			description: ["{ftbquests.chapter.etc.quest407870002902683157.description1}"]
-			icon: "xercamusic:music_sheet"
-			id: "05A90B9B4D8D4E15"
-			rewards: [
-				{
-					id: "36BFB701ACF8D514"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "60119C865B45B23C"
-					item: "xercamusic:music_sheet"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.etc.quest407870002902683157.subtitle}"
-			tasks: [{
-				id: "2A84F3E81556F638"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.etc.quest407870002902683157.title}"
-			x: 1.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0F7C91873C1F3B5E"]
-			description: ["{ftbquests.chapter.etc.quest573405018295790389.description1}"]
+			description: ["Signal strength depends on how long you look at it."]
 			icon: "supplementaries:enderman_head"
 			id: "07F524D37BF26B35"
 			rewards: [{
@@ -165,86 +161,36 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "{ftbquests.chapter.etc.quest573405018295790389.subtitle}"
+			subtitle: "Emit a redstone signal when being stared at."
 			tasks: [{
 				id: "1E3A7A0D2D5BC7D7"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.etc.quest573405018295790389.title}"
-			x: 1.5d
-			y: -2.0d
+			title: "Enderman Head"
+			x: 0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]
 			description: [
-				"{ftbquests.chapter.etc.quest3840580142146037041.description1}"
-				"{ftbquests.chapter.etc.quest3840580142146037041.image0}"
-				"{ftbquests.chapter.etc.quest3840580142146037041.description2}"
-				"{ftbquests.chapter.etc.quest3840580142146037041.image2}"
-				"{ftbquests.chapter.etc.quest3840580142146037041.description3}"
+				"Placing a &aSkeleton Skull&r, &aZombie Head&r, or &aCreeper Head&r over a &afence&r, will create a skull pike. Nearby &emonsters&r in a 5 block range and with line of sight will run away from it."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&eBosses&r and &eRaiders&r are slightly more astute, and won't fall for your tricks."
+				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
+				"&8Everyone knows Wither Skeletons drop their heads all the time, and Dragon Heads are all cheap fakes, so those won't work either.&r"
 			]
 			icon: "minecraft:skeleton_skull"
 			id: "354C7B4A8008A531"
-			subtitle: "{ftbquests.chapter.etc.quest3840580142146037041.subtitle}"
+			subtitle: "Nearby monsters run away in cowardice."
 			tasks: [{
 				id: "7E0DBCB524FECF77"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.etc.quest3840580142146037041.title}"
-			x: 1.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0F7C91873C1F3B5E"]
-			description: ["{ftbquests.chapter.etc.quest9188541396223416283.description1}"]
-			id: "7F8441B785DE57DB"
-			optional: true
-			rewards: [{
-				id: "26B2DCA08BF8F4D5"
-				item: {
-					Count: 1
-					id: "minecraft:flint_and_steel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.etc.quest9188541396223416283.subtitle}"
-			tasks: [
-				{
-					id: "3C817DC6B0BEB3EC"
-					item: "breezy:hot_air_balloon"
-					type: "item"
-				}
-				{
-					id: "458A0695066F0688"
-					item: "breezy:gust_gauge"
-					type: "item"
-				}
-			]
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0F7C91873C1F3B5E"]
-			description: ["{ftbquests.chapter.etc.quest6738974686772981272.description1}"]
-			id: "5D85A5C5E373EE18"
-			rewards: [{
-				id: "1ADF1094254617AB"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{ftbquests.chapter.etc.quest6738974686772981272.subtitle}"
-			tasks: [{
-				id: "22CE02C5D28AE6B1"
-				item: "orbital_railgun:orbital_railgun"
-				type: "item"
-			}]
-			x: -1.0d
+			title: "Skull Pikes"
+			x: -0.5d
 			y: -3.0d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.etc.subtitle0}"]
-	title: "{ftbquests.chapter.etc.title}"
+	subtitle: ["You are bored? Check here!"]
+	title: "<shadow a=0.4><grad from=#2BFF95 to=#A6FFD2>Others</grad></shadow>"
 }
