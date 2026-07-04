@@ -1,0 +1,16 @@
+{
+  "kerria.bufferSize": "Размер буфера",
+  "kerria.bufferSize.tooltip": "Указывает размер постоянно отображаемого буфера в КБ",
+  "kerria.cache": "Кэш анимированных текстур",
+  "kerria.cache.tooltip": "Кэширует загруженные текстуры для устранения загрузки ЦП -> ГП и прямой передачи подтекстур между памятью ГП\n\nТребуется поддержка OpenGL 4.5 или ARB_direct_state_access, ARB_copy_image и ARB_texture_storage.",
+  "kerria.enabled": "Включено",
+  "kerria.enabled.tooltip": "Включает или отключает Kerria.",
+  "kerria.fastLightTextureUpload": "Быстрая загрузка текстур света",
+  "kerria.fastLightTextureUpload.tooltip": "При включении применяет оптимизацию быстрой загрузки текстур к текстурам света.",
+  "kerria.fastUpload": "Быстрая загрузка текстур",
+  "kerria.fastUpload.tooltip": "Оптимизирует загрузку текстур ЦП -> ГП с помощью постоянно отображаемых буферов и объектов пиксельных буферов.\n\nТребуется поддержка OpenGL 4.5 или ARB_direct_state_access и ARB_buffer_storage.",
+  "kerria.maxCacheSize": "Максимальный размер кэша",
+  "kerria.maxCacheSize.tooltip": "Указывает максимальный размер кэша для анимированных текстур",
+  "kerria.minCacheSize": "Минимальный размер кэша",
+  "kerria.minCacheSize.tooltip": "Указывает начальный размер кэша для анимированных текстур"
+}
