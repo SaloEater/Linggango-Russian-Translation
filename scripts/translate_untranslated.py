@@ -33,7 +33,8 @@ import urllib.request
 RUSSIAN_RE = re.compile(r'[а-яА-ЯёЁ]')
 #TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate')
 #TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate_quests')
-TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate_patchouli')
+#TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate_patchouli')
+TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate_kjs')
 
 SYSTEM_PROMPT = """\
 You are a professional Minecraft mod translator specializing in English to Russian translations.

@@ -19,10 +19,11 @@ import sys
 RUSSIAN_RE = re.compile(r'[а-яА-ЯёЁ]')
 
 #TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate')
-TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate_quests')
 #RESOURCEPACKS_DIR = os.path.join('resourcepacks', 'Community Russian Translations', 'assets')
-RESOURCEPACKS_DIR = os.path.join('kubejs', 'assets', 'ftbquestlocalizer', 'lang')
-#RESOURCEPACKS_DIR = os.path.join('kubejs', 'assets', 'enchdesc', 'lang')
+#TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate_quests')
+#RESOURCEPACKS_DIR = os.path.join('kubejs', 'assets', 'ftbquestlocalizer', 'lang')
+TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate_kjs')
+RESOURCEPACKS_DIR = os.path.join('kubejs', 'assets')
 
 
 def has_russian(text):

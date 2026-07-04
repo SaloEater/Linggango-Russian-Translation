@@ -22,10 +22,15 @@ RUSSIAN_RE = re.compile(r'[а-яА-ЯёЁ]')
 #ARTIFACTS_DIR = os.path.join('artifacts', 'assets_')
 #TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate')
 #RESOURCEPACKS_DIR = os.path.join('resourcepacks', 'Community Russian Translations', 'assets')
-ARTIFACTS_DIR = os.path.join('artifacts', 'assets_quests')
-RESOURCEPACKS_DIR = os.path.join('kubejs', 'assets', 'ftbquestlocalizer', 'lang')
-TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate_quests')
+#ARTIFACTS_DIR = os.path.join('artifacts', 'assets_quests')
+#RESOURCEPACKS_DIR = os.path.join('kubejs', 'assets', 'ftbquestlocalizer', 'lang')
+#TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate_quests')
+ARTIFACTS_DIR = os.path.join('artifacts', 'assets_kjs')
+RESOURCEPACKS_DIR = os.path.join('kubejs', 'assets')
+TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate_kjs')
+#ARTIFACTS_DIR = os.path.join('artifacts', 'assets_enchdesc')
 #RESOURCEPACKS_DIR = os.path.join('kubejs', 'assets', 'enchdesc', 'lang')
+#TO_TRANSLATE_DIR = os.path.join('artifacts', 'to_translate_enchdesc')
 
 
 def has_russian(text):
