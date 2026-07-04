@@ -1,33 +1,21 @@
 #!/usr/bin/env python3
-"""Sync translations from artifacts/assets/ into resourcepacks/.
-
-This is step 3 of the translation workflow:
-  1. find_untranslated.py  — extract keys needing translation → artifacts/to_translate/
-  2. pull_translations.py  — apply translated files back → resourcepacks/
-  3. sync_translations.py  — full sync of artifacts/assets/ → resourcepacks/ (this script)
+"""Sync translations from artifacts/quest into kubejs/assets/ftbquestlocalizer/lang.
 
 Merge rules (per key-value pair):
-  - Key missing from artifacts        → remove from resourcepacks
-  - Artifact value contains Russian   → overwrite resourcepacks value
-  - Artifact value has no Russian     → keep existing resourcepacks value unchanged
-  - Key missing from resourcepacks    → add it
-
-Directory rule:
-  - Any folder under RESOURCEPACKS_DIR with no counterpart under ARTIFACTS_DIR
-    is deleted (a mod removed from artifacts is removed from the resourcepack).
+- Key missing from artifacts → remove from resourcepacks
+- Artifact value contains Russian letters → overwrite resourcepacks value
+- Artifact value has NO Russian letters → keep existing resourcepacks value
+- Key missing from resourcepacks → add it
 """
 
 import json
 import os
 import re
-import shutil
 import sys
 
 RUSSIAN_RE = re.compile(r'[а-яА-ЯёЁ]')
 
-#ARTIFACTS_DIR = os.path.join('artifacts', 'assets')
-ARTIFACTS_DIR = os.path.join('artifacts', 'assets_quests')
-#RESOURCEPACKS_DIR = os.path.join('resourcepacks', 'Community Russian Translations', 'assets')
+ARTIFACTS_DIR = os.path.join('artifacts', 'quest')
 RESOURCEPACKS_DIR = os.path.join('kubejs', 'assets', 'ftbquestlocalizer', 'lang')
 
 
@@ -89,28 +77,6 @@ def collect_json_files(base_dir):
     return files
 
 
-def prune_dirs(artifacts_dir, resource_dir):
-    """Remove directories under resource_dir with no counterpart in artifacts_dir.
-
-    Walks top-down: when a directory has no matching artifacts folder it is
-    deleted whole and not descended into. Returns the list of removed relative
-    paths.
-    """
-    removed = []
-    for root, dirs, _files in os.walk(resource_dir, topdown=True):
-        rel_root = os.path.relpath(root, resource_dir)
-        kept = []
-        for d in dirs:
-            rel = d if rel_root == '.' else os.path.join(rel_root, d)
-            if os.path.isdir(os.path.join(artifacts_dir, rel)):
-                kept.append(d)
-            else:
-                shutil.rmtree(os.path.join(root, d))
-                removed.append(rel.replace('\\', '/'))
-        dirs[:] = kept  # don't descend into directories we just removed
-    return removed
-
-
 def main():
     if not os.path.isdir(ARTIFACTS_DIR):
         print(f'Error: artifacts directory not found: {ARTIFACTS_DIR}', file=sys.stderr)
@@ -128,7 +94,7 @@ def main():
         resource_path = os.path.join(RESOURCEPACKS_DIR, rel_path)
 
         # Normalize path separators for display
-        display_path = os.path.join('assets', rel_path).replace('\\', '/')
+        display_path = rel_path.replace('\\', '/')
         print(f'[{idx}/{total}] {display_path}')
 
         with open(artifact_path, 'r', encoding='utf-8') as f:
@@ -145,14 +111,6 @@ def main():
         os.makedirs(os.path.dirname(resource_path), exist_ok=True)
         with open(resource_path, 'w', encoding='utf-8') as f:
             json.dump(merged, f, indent=2, ensure_ascii=False)
-
-    # Remove folders in resourcepacks that no longer exist in artifacts.
-    if os.path.isdir(RESOURCEPACKS_DIR):
-        removed = prune_dirs(ARTIFACTS_DIR, RESOURCEPACKS_DIR)
-        for rel in removed:
-            print(f'  removed folder: {rel}')
-        if removed:
-            print(f'Removed {len(removed)} folder(s) not present in artifacts.')
 
     print(f'Done. Processed {total} files.')
 
