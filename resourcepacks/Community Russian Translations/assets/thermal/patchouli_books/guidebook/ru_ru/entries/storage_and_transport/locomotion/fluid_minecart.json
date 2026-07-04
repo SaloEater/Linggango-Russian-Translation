@@ -1,5 +1,5 @@
 {
-  "name": "Fluid Tank Minecart",
+  "name": "Вагонетка-цистерна",
   "icon": "thermal:fluid_minecart",
   "read_by_default": true,
   "flag": "mod:thermal_locomotion",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Fluid Tank Minecart can be used to store fluids. The cart starts with 32,000mb of capacity, which can be improved using augments. It can only store one fluid at a time. You can manually add or remove fluid from the cart by using compatible containers such as buckets."
+      "text": "Вагонетка-цистерна может использоваться для хранения жидкостей. Изначально вагонетка имеет ёмкость 32 000 мБ, которую можно увеличить с помощью улучшений. Она может хранить только одну жидкость за раз. Вы можете вручную добавлять или удалять жидкость из вагонетки, используя совместимые контейнеры, такие как вёдра."
     },
     {
       "type": "thermal:double_crafting_page",
@@ -16,12 +16,12 @@
     },
     {
       "type": "patchouli:text",
-      "text": "The Fluid Tank Minecart can be right clicked with buckets to fill or empty it one bucket at a time. Beware that there is currently a bug with Forge where trying to bucket a non-bucketable fluid voids your bucket! Stay posted for a transfer rail which will allow for some interesting logistics!"
+      "text": "По вагонетке-цистерне можно кликнуть правой кнопкой мыши ведром, чтобы заполнить или опустошить её по одному ведру за раз. Будьте осторожны: в настоящее время существует баг с Forge, из-за которого попытка зачерпнуть нечерпаемую жидкость ведром уничтожает ваше ведро! Следите за новостями о рельсах для перекачки, которые позволят реализовать интересные логистические решения!"
     },
     {
       "type": "patchouli:text",
-      "title": "Augment Compatibility",
-      "text": "$(li)$(l:thermal:technology/augments/integral_components)Integral Components$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)Expanded Tank Construction$(/l)"
+      "title": "Совместимость с улучшениями",
+      "text": "$(li)$(l:thermal:technology/augments/integral_components)Встроенные компоненты$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)Расширенная конструкция цистерны$(/l)"
     }
   ]
 }

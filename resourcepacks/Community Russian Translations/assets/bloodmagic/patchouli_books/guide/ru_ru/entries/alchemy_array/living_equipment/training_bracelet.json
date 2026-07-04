@@ -1,30 +1,30 @@
 {
-  "name": "Training Bracelet",
+  "name": "Тренировочный Браслет",
   "icon": "bloodmagic:upgradetrainer",
   "category": "bloodmagic:alchemy_array/living_equipment",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This new equipment is an incredible help, but its undirected growth can sometimes be... frustrating. To this end, you have devised a form of $(item)Training Bracelet$() to assist you in your endeavours. Once crafted, a simple press of the [$(k:use)] will activate its menu and allow you to specify which abilities to focus your attention on... or which ones to avoid."
+      "text": "Это новое снаряжение невероятно полезно, но его неконтролируемый рост иногда может быть... разочаровывающим. Для этого вы разработали $(item)Тренировочный Браслет$(), чтобы помочь вам в ваших начинаниях. После создания простое нажатие [$(k:use)] активирует его меню и позволит вам указать, на каких способностях сосредоточить внимание... или каких следует избегать."
     },
     {
       "type": "bloodmagic:crafting_array",
       "heading": "Training Bracelet",
       "recipe": "bloodmagic:array/living_trainer",
-      "text": "$(italic)*Insert Rocky Training Montage here*$()$(br2)Only one of these bracelets will work at a time. Off-hand \u003e Curios (if available) \u003e Main Inventory (including main hand) \u003e add-on inventories."
+      "text": "$(italic)*Вставьте сюда тренировочный монтаж в стиле Рокки*$()$(br2)Одновременно будет работать только один из этих браслетов. Левая рука > Curios (если доступно) > Основной инвентарь (включая правую руку) > дополнительные инвентари."
     },
     {
       "type": "patchouli:image",
       "images": [
         "bloodmagic:images/entries/alchemy_array/living_equipment/training_bracelet.png"
       ],
-      "title": "Training Bracelet GUI",
+      "title": "Интерфейс Тренировочного Браслета",
       "border": false,
-      "text": "The Training Bracelet\u0027s Menu - it can keep track of up to 16 different upgrades at once."
+      "text": "Меню Тренировочного Браслета — оно может отслеживать до 16 различных улучшений одновременно."
     },
     {
       "type": "patchouli:text",
-      "text": "The bracelet can specify a limit for any given upgrade (assuming you have a copy of the $(item)Tome$() to hand). For example, you could tell it to limit Strong Legs to level 3 - once you reach this level, Strong Legs will no longer gain experience. It can also prevent or allow the training of all other skills that you haven\u0027t otherwise specified. If you want to allow all upgrades except one, you can add that one to the bracelet in \u0027allow others\u0027 mode and set its level cap to 0."
+      "text": "Браслет может устанавливать ограничение для любого данного улучшения (при условии, что у вас есть копия $(item)Тома$() под рукой). Например, вы можете указать ему ограничить «Сильные Ноги» до 3-го уровня — как только вы достигнете этого уровня, «Сильные Ноги» больше не будут получать опыт. Он также может предотвращать или разрешать тренировку всех других навыков, которые вы не указали. Если вы хотите разрешить все улучшения, кроме одного, вы можете добавить его в браслет в режиме «разрешить другие» и установить его максимальный уровень на 0."
     }
   ]
 }

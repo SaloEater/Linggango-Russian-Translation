@@ -1,5 +1,5 @@
 {
-  "name": "Redstone Flux Minecart",
+  "name": "Вагонетка с Редстоун Потоком",
   "icon": "thermal:energy_minecart",
   "read_by_default": true,
   "flag": "mod:thermal_locomotion",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Redstone Flux Minecart can be used to store Redstone Flux (RF). The RF Minecart starts with 1,000,000RF storage capacity and 1,000rf/t max transfer rate, which can be improved using augments. Use the GUI to fill and drain RF-holding items."
+      "text": "Вагонетка с Редстоун Потоком может использоваться для хранения Редстоун Потока (RF). Вагонетка RF изначально имеет ёмкость 1 000 000 RF и максимальную скорость передачи 1 000 RF/т, которые можно улучшить с помощью модификаторов. Используйте графический интерфейс для заполнения и опустошения предметов, содержащих RF."
     },
     {
       "type": "thermal:double_crafting_page",
@@ -16,12 +16,12 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Stay posted for a transfer rail which will allow for some interesting logistics!"
+      "text": "Следите за новостями о рельсах для передачи, которые позволят реализовать интересные логистические решения!"
     },
     {
       "type": "patchouli:text",
-      "title": "Augment Compatibility",
-      "text": "$(li)$(l:thermal:technology/augments/integral_components)Integral Components$(/l)$(li)$(l:thermal:technology/augments/rf_coil)Expanded RF Coil$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)Stabilized RF Coil$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)High-Flux RF Coil$(/l)"
+      "title": "Совместимость с модификаторами",
+      "text": "$(li)$(l:thermal:technology/augments/integral_components)Встроенные компоненты$(/l)$(li)$(l:thermal:technology/augments/rf_coil)Расширенная RF катушка$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)Стабилизированная RF катушка$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)Высокопоточная RF катушка$(/l)"
     }
   ]
 }

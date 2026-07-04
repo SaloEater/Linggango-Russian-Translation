@@ -1,25 +1,25 @@
 {
-  "name": "Imperceptible Builder",
+  "name": "Незаметный Строитель",
   "icon": "naturesaura:placer",
   "category": "naturesaura:using",
   "advancement": "naturesaura:infused_materials",
   "pages": [
     {
       "type": "text",
-      "text": "A lot of activities require a person to be around, most of them for $(thing)placing$() blocks into the world. This, really, is a waste of personell in a time where $(aura) can work in its place. The $(item)Imperceptible Builder$() will place any blocks you supply it with for a small amount of $(aura) in return.$(br)The builder gathers the blocks for placement from any $(thing)item container$() placed on top of it."
+      "text": "Многие действия требуют присутствия человека, большинство из них — для $(thing)размещения$() блоков в мире. Это, на самом деле, пустая трата персонала в то время, когда $(aura) может работать вместо него. $(item)Незаметный Строитель$() будет размещать любые блоки, которые вы ему предоставите, в обмен на небольшое количество $(aura).$(br)Строитель собирает блоки для размещения из любого $(thing)контейнера предметов$(), расположенного над ним."
     },
     {
       "type": "text",
-      "text": "To specify which blocks it should then place them on, one needs to hang up an $(item)Item Frame$() on the builder and put the desired block inside of it. It will then place the blocks from the chest in an area of about $(thing)five blocks$().$(br)As an example, placing a piece of cobblestone into the frame and a stack of planks into the chest will cause the planks to be placed on top of any cobblestone close by.$(p)Supplying a redstone signal will disable the placing."
+      "text": "Чтобы указать, на какие блоки он должен их затем размещать, нужно повесить $(item)Рамку для предметов$() на строителя и поместить желаемый блок внутрь. Затем он будет размещать блоки из сундука в области примерно $(thing)пяти блоков$().$(br)Например, если поместить кусок булыжника в рамку и стопку досок в сундук, доски будут размещены поверх любого булыжника поблизости.$(p)Подача сигнала красного камня отключит размещение."
     },
     {
       "type": "crafting",
-      "text": "Creating the $(item)Imperceptible Builder$()",
+      "text": "Создание $(item)Незаметного Строителя$()",
       "recipe": "naturesaura:placer"
     },
     {
       "type": "crafting",
-      "text": "The $(item)Farming Stencil$() can be used with the builder to allow it to place things on $(item)Farmland$(). Just place it in one of the item frames like you would with a normal block.",
+      "text": "$(item)Шаблон для фермерства$() можно использовать со строителем, чтобы он мог размещать предметы на $(item)Вспаханной земле$(). Просто поместите его в одну из рамок для предметов, как вы бы сделали с обычным блоком.",
       "recipe": "naturesaura:farming_stencil"
     }
   ]

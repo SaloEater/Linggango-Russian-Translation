@@ -1,33 +1,33 @@
 {
-  "name": "Exchanging Gadget",
+  "name": "Гаджет Обмена",
   "sortnum": 2,
   "category": "buildinggadgets2:gadgets",
   "icon": "buildinggadgets2:gadget_exchanging{energy:500000}",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The exchanging gadget can swap one set of blocks for another! It cannot, however, replace air blocks. Use a $(l:buildinggadgets2:buildinggadget)Building Gadget$(/l) for that! $(br2)First, ensure the gadget has some energy. $(br2)Second, Shift right-click a block in the world to specify the block to exchange to."
+      "text": "Гаджет обмена может менять один набор блоков на другой! Однако он не может заменять воздушные блоки. Для этого используйте $(l:buildinggadgets2:buildinggadget)Гаджет Строительства$(/l)! $(br2)Во-первых, убедитесь, что гаджет заряжен. $(br2)Во-вторых, Shift + ПКМ по блоку в мире, чтобы указать блок, на который будет производиться обмен."
     },
     {
       "type": "patchouli:text",
-      "text": "You can choose your $(l:buildinggadgets2:modes)Exchanging Mode$(/l) by holding the settings key. Each mode is described in its appropriate entry in this book. The default mode is $(l:buildinggadgets2:mode_surface)Surface$(/l). $(br2)When looking at a block in the world, you\u0027ll see a ghostly image of the blocks that will be placed over top of existing blocks.  If you\u0027re missing the required items or energy to place these blocks, they will have a red overlay. Right click to exchange the blocks as shown."
+      "text": "Вы можете выбрать свой $(l:buildinggadgets2:modes)Режим Обмена$(/l), удерживая клавишу настроек. Каждый режим описан в соответствующей записи в этой книге. Режим по умолчанию — $(l:buildinggadgets2:mode_surface)Поверхность$(/l). $(br2)При наведении на блок в мире вы увидите призрачное изображение блоков, которые будут размещены поверх существующих блоков. Если у вас нет необходимых предметов или энергии для размещения этих блоков, они будут подсвечены красным. ПКМ, чтобы обменять блоки, как показано."
     },
     {
       "type": "patchouli:image",
-      "title": "Exchange Preview",
+      "title": "Предварительный Просмотр Обмена",
       "images": [
         "buildinggadgets2:textures/book/images/ghost_render_exchange.png"
       ],
       "border": true,
-      "text": "Seeing a preview of what will be exchanged"
+      "text": "Просмотр того, что будет обменено"
     },
     {
       "type": "patchouli:text",
-      "text": "When you right click, exchanging will begin. Items will be taken out of your inventory to be placed into the world, and any blocks you don\u0027t have the necessary item for will be skipped. $(br2)Items for the removed blocks will be returned to you. $(br2)Note: You can enchant this tool with silk touch. Without it grass will return dirt, etc."
+      "text": "Когда вы нажмете ПКМ, начнется обмен. Предметы будут изъяты из вашего инвентаря для размещения в мире, а любые блоки, для которых у вас нет необходимого предмета, будут пропущены. $(br2)Предметы для удаленных блоков будут возвращены вам. $(br2)Примечание: Вы можете зачаровать этот инструмент на Шелковое касание. Без него трава будет возвращать землю и т.д."
     },
     {
       "type": "patchouli:text",
-      "text": "You can $(l:buildinggadgets2:undo)undo$(/l) with the exchanging gadget, but you must have the necessary items.$(br2)For example, if you exchanged grass into stone bricks, you must have grass in your inventory to undo this exchange. Don\u0027t forget to apply silk touch if desired!"
+      "text": "Вы можете $(l:buildinggadgets2:undo)отменить$(/l) действие гаджета обмена, но у вас должны быть необходимые предметы.$(br2)Например, если вы обменяли траву на каменные кирпичи, у вас должна быть трава в инвентаре, чтобы отменить этот обмен. Не забудьте применить Шелковое касание, если это необходимо!"
     }
   ]
 }

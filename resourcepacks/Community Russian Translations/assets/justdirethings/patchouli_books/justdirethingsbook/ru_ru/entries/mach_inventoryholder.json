@@ -1,44 +1,44 @@
 {
-  "name": "Inventory Holder",
+  "name": "Держатель инвентаря",
   "sortnum": 2,
   "category": "justdirethings:machines",
   "icon": "justdirethings:inventoryholder",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Inventory Holder is essential a super advanced Armor Stand!$(br2)When placed in the world, it acts sort of like a chest, simply right click to access the inventory.  You\u0027ll notice it has a UI matching your player\u0027s inventory - with slots for the Hotbar, items, Armor, and even your offhand!"
+      "text": "Держатель инвентаря — это, по сути, суперсовременная стойка для брони!$(br2)При установке в мире он действует как сундук: просто нажмите ПКМ, чтобы получить доступ к инвентарю. Вы заметите, что его интерфейс соответствует инвентарю вашего игрока — со слотами для панели быстрого доступа, предметов, брони и даже вашей левой руки!"
     },
     {
       "type": "patchouli:text",
-      "text": "Initially you can insert whatever you like into the inventory. Once an item is placed into the inventory, you can control-click on it to \u0027save\u0027 that item, including its stack size.$(br2)By doing this, you\u0027ve now applied a filter to that slot, ensuring that only items of that type can fit there. If you want this filter to apply NBT filtering, toggle Compare NBT with the button on the top right."
+      "text": "Изначально вы можете вставлять в инвентарь всё, что угодно. Как только предмет помещён в инвентарь, вы можете нажать Ctrl+ЛКМ на нём, чтобы 'сохранить' этот предмет, включая размер его стака.$(br2)Таким образом, вы применили фильтр к этому слоту, гарантируя, что туда поместятся только предметы этого типа. Если вы хотите, чтобы этот фильтр применял фильтрацию NBT, переключите 'Сравнить NBT' кнопкой в правом верхнем углу."
     },
     {
       "type": "patchouli:text",
-      "text": "When you shift click into the inventory, the following logic will apply in this order:$(br2)$(li)Attempt to find a matching filter, and insert there.$(li)Attempt to insert into the same slot in the inventory as it was in the players (For example, top right corner to top right corner).$(li)Finally, insert as normal (starting with top left corner)."
+      "text": "Когда вы нажимаете Shift+ЛКМ по инвентарю, применяется следующая логика в этом порядке:$(br2)$(li)Попытка найти подходящий фильтр и вставить туда.$(li)Попытка вставить в тот же слот инвентаря, что и у игрока (например, из верхнего правого угла в верхний правый угол).$(li)Наконец, вставка как обычно (начиная с верхнего левого угла)."
     },
     {
       "type": "patchouli:text",
-      "text": "If you toggle on \u0027Filtered Items Only\u0027 via the button on the top right, items will not be allowed to be inserted into \u0027unfiltered\u0027 slots.  This means that if you attempt to put an item into a slot without a filter, it won\u0027t be allowed.$(br2)If you toggle on \u0027Compare Stack Sizes\u0027, the filtered slots will only accept up to their saved stack size."
+      "text": "Если вы включите 'Только отфильтрованные предметы' с помощью кнопки в правом верхнем углу, предметы не смогут быть вставлены в 'неотфильтрованные' слоты. Это означает, что если вы попытаетесь поместить предмет в слот без фильтра, это будет невозможно.$(br2)Если вы включите 'Сравнивать размеры стаков', отфильтрованные слоты будут принимать предметы только до их сохранённого размера стака."
     },
     {
       "type": "patchouli:text",
-      "text": "On the top left, there are buttons to control how pipes, hoppers, etc can interact with this machine.$(br2)When Filtered Items Only is enabled, it will only allow you to pipe into slots with a matching filter, and \u0027Compare Stack sizes\u0027 works as above for insert.$(br2)When extracting, slots with a filter applied will be ignored, and Compare Stack Sizes determines if extracting will try to match the filter\u0027s stack size."
+      "text": "В левом верхнем углу расположены кнопки для управления взаимодействием труб, воронок и т.д. с этим механизмом.$(br2)Когда включено 'Только отфильтрованные предметы', вы сможете подавать предметы только в слоты с соответствующим фильтром, а 'Сравнивать размеры стаков' работает так же, как и при вставке.$(br2)При извлечении слоты с применённым фильтром будут игнорироваться, а 'Сравнивать размеры стаков' определяет, будет ли извлечение пытаться соответствовать размеру стака фильтра."
     },
     {
       "type": "patchouli:text",
-      "text": "The \u0027Show Fake Player\u0027 button on the top left will toggle the rendered player above the block.$(br2)Ctrl+Shift Clicking one of the hotbar slots in the UI will place a red border around that slot. This determines which inventory slot is rendered in the fake player\u0027s \u0027main hand\u0027.  This is purely cosmetic."
+      "text": "Кнопка 'Показать фейкового игрока' в левом верхнем углу переключает отображение игрока над блоком.$(br2)Нажатие Ctrl+Shift+ЛКМ на один из слотов панели быстрого доступа в интерфейсе поместит красную рамку вокруг этого слота. Это определяет, какой слот инвентаря отображается в 'основной руке' фейкового игрока. Это чисто косметический эффект."
     },
     {
       "type": "patchouli:text",
-      "text": "Towards the bottom of the UI is a Pull Items and Push Items button.  Push Items will attempt to insert all the items in your inventory into the block, and match the filter slots you\u0027ve defined.$(br2)Note: The \u0027filtered items only\u0027 and \u0027compare stack sizes\u0027 buttons on the top right of the UI are respected when you push.$(br2)Pull Inventory will pull items out of the block, and place them in your inventory."
+      "text": "В нижней части интерфейса находятся кнопки 'Вытянуть предметы' и 'Вставить предметы'. Кнопка 'Вставить предметы' попытается вставить все предметы из вашего инвентаря в блок, соответствуя определённым вами слотам фильтра.$(br2)Примечание: Кнопки 'Только отфильтрованные предметы' и 'Сравнивать размеры стаков' в правом верхнем углу интерфейса учитываются при вставке.$(br2)Кнопка 'Вытянуть инвентарь' вытянет предметы из блока и поместит их в ваш инвентарь."
     },
     {
       "type": "patchouli:text",
-      "text": "The swap inventory button attempts to swap each inventory slot in your player\u0027s inventory with the matching inventory slots in the block\u0027s inventory.$(br2)It is recommended to do this with minimal filtering, otherwise items won\u0027t be able to switch over, however you are welcome to configure this in any way you like, feel free to experiment with the different options!"
+      "text": "Кнопка 'Обменять инвентарь' пытается обменять каждый слот инвентаря вашего игрока с соответствующими слотами инвентаря блока.$(br2)Рекомендуется делать это с минимальной фильтрацией, иначе предметы не смогут быть перенесены. Однако вы можете настроить это любым удобным для вас способом, не стесняйтесь экспериментировать с различными опциями!"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Inventory Holder",
+      "title": "Держатель инвентаря",
       "recipe": "justdirethings:inventoryholder"
     }
   ]

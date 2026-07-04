@@ -1,5 +1,5 @@
 {
-  "name": "Insightful Condenser",
+  "name": "Проницательный Конденсатор",
   "icon": "thermal:device_xp_condenser",
   "category": "thermal:devices",
   "read_by_default": true,
@@ -7,18 +7,18 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Insightful Condenser is a device that can collect experience from nearby blocks which have stored it internally using a $(l:thermal:technology/augments/xp_storage)Knowledge Concentrator$(/l). It then converts that experience to liquid form. At base, it collects in a 5x5x5 area centered on it, which can be increased using $(l:thermal:technology/augments/area_radius)Radial Enhancement augments$(/l)."
+      "text": "Проницательный Конденсатор — это устройство, которое может собирать опыт из близлежащих блоков, которые сохранили его внутри с помощью $(l:thermal:technology/augments/xp_storage)Концентратора Знаний$(/l). Затем он преобразует этот опыт в жидкую форму. По умолчанию он собирает опыт в области 5x5x5, центрированной на нём, которую можно увеличить с помощью $(l:thermal:technology/augments/area_radius)улучшений Радиального Усиления$(/l)."
     },
     {
       "type": "thermal:double_crafting_page",
       "A.recipe": "thermal:device_xp_condenser",
-      "title": "Insightful Condenser",
-      "text": "When controlled via redstone signal, the Insightful Condenser will immediately collect the moment it is turned on. This way, it will always reliably activate when pulsed."
+      "title": "Проницательный Конденсатор",
+      "text": "При управлении сигналом редстоуна Проницательный Конденсатор немедленно начнёт сбор в момент включения. Таким образом, он всегда будет надёжно активироваться при подаче импульса."
     },
     {
       "type": "patchouli:text",
-      "title": "Augment Compatibility",
-      "text": "$(li)$(l:thermal:technology/augments/integral_components)Integral Components$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)Expanded Tank Construction$(/l)$(li)$(l:thermal:technology/augments/area_radius)Radial Enhancement$(/l)"
+      "title": "Совместимость с Улучшениями",
+      "text": "$(li)$(l:thermal:technology/augments/integral_components)Интегральные Компоненты$(/l)$(li)$(l:thermal:technology/augments/fluid_tank)Расширенная Конструкция Резервуара$(/l)$(li)$(l:thermal:technology/augments/area_radius)Радиальное Усиление$(/l)"
     }
   ]
 }

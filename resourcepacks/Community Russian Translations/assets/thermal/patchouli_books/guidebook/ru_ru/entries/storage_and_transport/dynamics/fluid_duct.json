@@ -1,5 +1,5 @@
 {
-  "name": "Fluiduct",
+  "name": "Флюидопровод",
   "icon": "thermal:fluid_duct",
   "read_by_default": true,
   "flag": "mod:thermal_dynamics",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Fluiducts move fluids around. A given network of ducts can only hold and transfer a single fluid at a time. Windowed Fluiducts allow you to see the fluid inside. In order to extract from $(l:thermal:technology/devices/introduction)devices$(/l) and other blocks that do not auto-output fluid, a servo attachment is required."
+      "text": "Флюидопроводы перемещают жидкости. Данная сеть труб может одновременно содержать и передавать только одну жидкость. Флюидопроводы с окном позволяют видеть жидкость внутри. Для извлечения из $(l:thermal:technology/devices/introduction)устройств$(/l) и других блоков, которые не выводят жидкость автоматически, требуется сервопривод."
     },
     {
       "type": "thermal:double_crafting_page",
@@ -16,8 +16,8 @@
     },
     {
       "type": "patchouli:text",
-      "title": "Attachment Compatibility",
-      "text": "$(li)Filter$(li)Servo$(li)Turbo-Servo"
+      "title": "Совместимость с насадками",
+      "text": "$(li)Фильтр$(li)Сервопривод$(li)Турбо-сервопривод"
     }
   ]
 }

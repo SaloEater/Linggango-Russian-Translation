@@ -1,5 +1,5 @@
 {
-  "name": "Changelog",
+  "name": "Список изменений",
   "icon": "minecraft:map",
   "category": "bloodmagic:utility",
   "priority": "true",
@@ -64,7 +64,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Исправлен Экстракт Фортуны, чтобы он правильно применял свою дополнительную Фортуну при определенных условиях.$(li)Исправлен сбой с Teleposer, который препятствовал перемещению плиточных объектов.$(li)Добавлен рецепт плавки медного песка \u003e медного слитка и рецепты доменной печи для всех видов пыли."
+      "text": "$(li)Исправлен Экстракт Фортуны, чтобы он правильно применял свою дополнительную Фортуну при определенных условиях.$(li)Исправлен сбой с Teleposer, который препятствовал перемещению плиточных объектов.$(li)Добавлен рецепт плавки медного песка > медного слитка и рецепты доменной печи для всех видов пыли."
     },
     {
       "type": "patchouli:text",
@@ -163,7 +163,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Разрешено элементам HUD $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$() и $(l:bloodmagic:alchemy_array/sigil/seer)Seer Sigil\u0027s$() HUD как в левой руке, так и в $(l:bloodmagic:alchemy_array/sigil/holding)Sigil of Hold$(). Также позволяет $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Demon Aura Gauge$() работать в левой руке (я не могу сказать, почему она у вас в левой руке). $(li)Добавлены конфиги! Ура! $(li)Добавлен ритуал «$(l:bloodmagic:rituals/ritual_list/ritual_zephyr)Зов Зефира$()»."
+      "text": "$(li)Разрешено элементам HUD $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$() и $(l:bloodmagic:alchemy_array/sigil/seer)Seer Sigil's$() HUD как в левой руке, так и в $(l:bloodmagic:alchemy_array/sigil/holding)Sigil of Hold$(). Также позволяет $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Demon Aura Gauge$() работать в левой руке (я не могу сказать, почему она у вас в левой руке). $(li)Добавлены конфиги! Ура! $(li)Добавлен ритуал «$(l:bloodmagic:rituals/ritual_list/ritual_zephyr)Зов Зефира$()»."
     },
     {
       "type": "patchouli:text",
@@ -274,7 +274,8 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Первое обновление для $(item)Minecraft 1.16.3$()! Предположительно он должен работать и на 1.16.4, однако он был построен для 1.16.3. $(br2)Этот релиз лучше всего можно назвать «ранней альфа» — многие системы установлены и работают, однако некоторые вещи отсутствуют. Это может означать, что система будет либо полностью обновлена, либо переработана из предыдущих версий MC позднее, либо"
+      "text": "Первое обновление для $(item)Minecraft 1.16.3$()! Предположительно он должен работать и на 1.16.4, однако он был построен для 1.16.3. $(br2)Этот релиз лучше всего можно назвать «ранней альфа» — многие системы установлены и работают, однако некоторые вещи отсутствуют. Это может означать, что система будет либо полностью обновлена, либо переработана из предыдущих версий MC позднее, либо",
+      "title": null
     },
     {
       "type": "patchouli:text",
@@ -296,107 +297,154 @@
     {
       "type": "patchouli:text",
       "title": "3.1.0-15",
-      "text": "$(li)Majorly refactored the progression of the mod. Instead of starting with a $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Snare$(), you instead start by crafting the $(l:bloodmagic:altar/blood_altar)Blood Altar$(). The changes are documented in the guide, and you can follow its $(l:bloodmagic:utility/getting_started)Getting Started$() entry!$(li)Changed the tooltips so that they are gray, more easily differentiating them from the name of the item."
+      "text": "Известная проблема: рассинхронизация между сервером и клиентом для нагрудника $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой Брони$() при определённых условиях. Возникает, когда предмет вынимается из слота нагрудника игрока с зажатым Shift. Не возникает, если нажать без Shift. $(li)Приводит только к появлению фантомного предмета в инвентаре клиента. В остальном не влияет на производительность брони."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Added the $(l:bloodmagic:alchemy_array/holding)Sigil of Holding$().$(li)Changed the crafting of $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gems$() so that you no longer need to use the previous tier gem in the gem slot.$(li2)The $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Hellfire Forge$() will now syphon from the gem in the crafting table first, and all unused will from the consumed gem will be placed in the crafted gem."
+      "text": "$(li)Исправлен ещё один вылет, связанный с $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой Бронёй$(). Возможно, этот раз я справился!"
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Changed the GUI for the $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$(). See the updated section.$(li)Fixed $(l:bloodmagic:alchemy_table/anointments/looting_anointment)Plunderer\u0027s Glint$() not properly applying the Looting level.$(li)Also fixed a NPE crash due to $(l:bloodmagic:alchemy_table/anointments/bow_power_anointment)Iron Tip$(). Fixes some crashes due to mods using the ItemUsedFinish event.$(li)Fixed the $(l:bloodmagic:blood_altar/blood_altar)Blood Altar$() not being able to input fluids. About time, Way!"
+      "text": "$(li)Увеличена дальность действия $(l:bloodmagic:dungeons/tau_fruit)Растения Тау$() до 3x1x3 с центром на растении, что упрощает выращивание Насыщенной версии. $(li)Исправлен вылет, связанный с $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой Бронёй$() при определённых условиях.$(li)Исправлен $(l:bloodmagic:altar/blood_altar#knife)Жертвенный Нож$(), чтобы он учитывал моды на надгробия и другие эффекты, возникающие при смерти. $(li)Исправлен $(l:bloodmagic:altar/blood_altar#dagger_of_sacrifice)Кинжал Жертвоприношения$(), чтобы он аналогично учитывал события смерти."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Added new $(l:bloodmagic:demon_will/demonic_items/explosive_charges)Explosive Charges.$()$(li2)$(item)Fungal Charge$(), which is very useful for giant mushrooms and nether mushrooms.$(li2)$(item)Controlled Charge$(), which will destroy only blocks that match the block it is placed on.$(li)Added the ability to apply a few select Anointments to the charges. Only one can be applied to a charge at a time.$(li2)$(l:bloodmagic:alchemy_table/anointments/silk_touch_anointment)Soft Coating$()$(li2)$(l:bloodmagic:alchemy_table/anointments/fortune_anointment)Fortuna Extract$()"
+      "text": "$(li)Исправлен клиентский вылет для $(l:bloodmagic:alchemy_table/alchemy_table)Алхимического Стола$() при игре на серверах. $(li)Сделано так, что $(l:bloodmagic:alchemy_array/sigil/water)Сигил Воды$() не работает в Нижнем мире (всё ещё расходует LP при использовании)."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li2)$(l:bloodmagic:alchemy_table/anointments/smelting_anointment)Slow-burning Oil$()$(li)Fixed the $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$() so that you cannot use an upgrade tome to usurp the point cap.$(li2)Fixed $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/strong_legs)Strong Legs$()so that it no longer runs the program \"CrunchyLegs.exe\" - as a result, you no longer suffer fall damage from jumping on the same level. Removed the direct fall damage mitigation from Strong Legs."
+      "text": "$(li)Исправлена ошибка при удалении улучшений максимального уровня из $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой Брони$(). $(li)Исправлена рассинхронизация клиент-сервер с количеством $(item)фильтра предметов$(). $(li)Добавлена звуковая и визуальная индикация того, когда $(l:bloodmagic:alchemy_table/anointments)помазание$() на $(item)инструменте$() заканчивается. $(li)Добавлены предупреждающие флаги в $(l:bloodmagic:alchemy_table/alchemy_table#errors)интерфейс Алхимического Стола$(), которые будут указывать, если недостаточно LP или если сфера не привязана/неправильного уровня."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Added two types of $(l:bloodmagic:demon_will/demonic_items/throwing_daggers)Throwing Daggers$() to the Blood Mage\u0027s offensive kit.$(li2)$(item)Iron Throwing Dagger$()$(li2)$(item)Syringe Throwing Dagger$()$(li)Refactored the guide so that it provides +2 to awesomeness.$()"
+      "text": "$(li)Добавлено $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/elytra)улучшение Живой Брони: Элитры$()! Элитры не включены. $(li)Добавлен $(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)Тренировочный Браслет$() для $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой Брони$()! Теперь вы можете тренировать нужные улучшения! $(li)Увеличена прочность $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой Брони$() до уровня алмазной, но при этом все части, кроме нагрудника, могут сломаться."
     },
     {
       "type": "patchouli:text",
       "title": "3.0.6-11",
-      "text": " $(li)Reimplemented the $(l:bloodmagic:rituals/ritual_list/ritual_well_of_suffering)Well of Suffering$(). $(li)Added several new items, called \"$(l:bloodmagic:alchemy_table/anointments)Anointments$()\"! These are items that provide temporary buffs to your tools and weapons, such as silk touch, higher damage, and more! Look them up in the Utility section of the book. These include: $(li2)Honing Oil $(li2)Soft Coating $(li2)Fortuna Extract $(li2)Holy Water"
+      "text": "$(li)$(l:bloodmagic:utility/alchemical_reaction_chamber)Алхимическая Реакционная Камера$() теперь будет потреблять меньше прочности для инструментов с Неразрушимостью. Прочность расходуется с шансом $(br)(1/(уровень_неразрушимости+1)). $(li)Исправлены возможности ARC по работе с жидкостями. $(li)Сделано так, что текстовое поле $(item)Фильтров$() может принимать только числа. Также разрешено использовать клавишу 'Delete' для удаления значений из текстового поля."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li2)Miner\u0027s Secrets $(li2)Dexterity Alkahest $(li2)Iron Tip $(li2)Plunderer\u0027s Glint $(li2)Slow-burning Oil $(li)Made the $(l:bloodmagic:demon_will/demonic_items/explosive_charges#shaped_charge)Shaped Charge$() and $(l:bloodmagic:demon_will/demonic_items/explosive_charges#deforester_charge)Deforester Charge$() throwable."
+      "text": "$(li)Переработаны $(l:bloodmagic:demon_will/item_routing/routing_nodes)Узлы Маршрутизации$()!$(li)Добавлена поддержка Curios для некоторых предметов. $(li)Добавлены рецепты для вёдер воды и лавы с использованием соответствующих Сигилов (а также несколько других применений Сигилов внутри Алхимического Стола). $(li)Исправлен $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/gift_of_ignis)Дар Игниса$(), который не снижал время восстановления, когда не был в огне."
     },
     {
       "type": "patchouli:text",
       "title": "3.0.5-10",
-      "text": "Fixed a crash with the $(l:bloodmagic:altar/blood_altar)Blood Altar$() on unload and adjusted the recipe for the $(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)Day array$() to use $(item)Coal$() instead of $(item)Clocks$()."
+      "text": "$(li)Разрешено элементам HUD $(l:bloodmagic:alchemy_array/sigil/divination)Сигила Предсказания$() и $(l:bloodmagic:alchemy_array/sigil/seer)Сигила Провидца$() работать как во второй руке, так и в $(l:bloodmagic:alchemy_array/sigil/holding)Сигиле Удержания$(). Также позволяет $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Измерителю Демонической Ауры$() работать во второй руке (почему вы бы держали его во второй руке, я не могу сказать). $(li)Добавлены конфиги! Ура! $(li)Добавлен Ритуал '$(l:bloodmagic:rituals/ritual_list/ritual_zephyr)Зов Зефира$()'."
     },
     {
       "type": "patchouli:text",
       "title": "3.0.4-9",
-      "text": "$(li)Added two new $(l:bloodmagic:demon_will/demonic_items/explosive_charges)explosives$(): $(li2)The $(l:bloodmagic:demon_will/demonic_items/explosive_charges#shaped_charge)Shaped Charge$(), which will break a 5x5x5 volume when placed. $(li2)The $(l:bloodmagic:demon_will/demonic_items/explosive_charges#deforester_charge)Deforester Charge$(), which can chop down a tree up to a maximum of 128 logs. $(li)(Both explosives drop all blocks affected, and do not cause further environmental nor entity damage.)"
+      "text": "$(li)Исправлены $(l:bloodmagic:demon_will/demonic_items/throwing_daggers)Метательные Кинжалы$(), чтобы они действовали как соответствующий тип. $(li)Исправлена дальность действия $(l:bloodmagic:alchemy_array/sigil/magnetism)Сигила Магнетизма$(), чтобы она была центрирована на игроке. $(li)Исправлено $(l:bloodmagic:alchemy_array/living_equipment/living_upgrades)улучшение Живой Брони$() 'Прочность', чтобы его теперь можно было получить. Теперь вы можете получить урон по реальной причине! $(li)Исправлен вылет NPE из-за $(l:bloodmagic:rituals/ritual_list/ritual_armour_evolve)Ритуала Живой Эволюции$(). Вылет происходил, если игрок надевал только что созданный"
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Added new alchemy arrays: $(li2)$(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)Two arrays$(), which changes the current daylight cycle to day and night. Recipes are temp. $(li)Fixed the following $(l:bloodmagic:alchemy_array/living_equipment/living_upgrades)Living Armour upgrades$() so that they are now obtainable: $(li2)Experienced $(li2)Body Builder"
+      "text": "$(br)комплект Живой Брони, находясь на активированном ритуале. $(li)Добавлен рецепт для $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Измерителя Ауры Демонической Воли.$() $(li)Изменено поведение $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Томов Живых Улучшений$(): $(li2)$(item)Тома$() теперь будут пытаться применить содержащийся в них $(thing)ОПЫТ$() (не уровни) независимо от текущих уровней или уровней $(item)Тома$(). $(li2)Если $(thing)ОПЫТ$() из $(item)Тома$() превысит лимит очков $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой Брони$(), то $(thing)ОПЫТ$() вместо этого добавляется до максимально возможного для данного $(thing)Живого Улучшения$(), минус один."
     },
     {
       "type": "patchouli:text",
       "title": "3.0.3-8",
-      "text": "$(li)Updated the $(item)Sanguine Scientiem$() - it\u0027s very well written! Special thanks to both $(fire)VT-14$() and $(raw)Wrincewind$() for their long hours of effort to make this book better than I could have done! $(li)Fixed a crash with the $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$() when crafted and worn right after enchanting."
+      "text": "$(li2)$(thing)ОПЫТ$(), применённый к $(item)Живой Броне$(), отбирается из $(item)Тома$(), и оставшийся $(thing)ОПЫТ$() не теряется. $(li2)Если оставшийся $(thing)ОПЫТ$() на $(item)Томе Живого Улучшения$() ниже количества, необходимого для хотя бы одного уровня соответствующего улучшения, $(item)Том$() уничтожается. $(li)Затопленные блоки теперь считаются \"водой\" для Алтаря Благовоний. $(li)$(l:bloodmagic:altar/blood_rune/aug_capacity_rune)Руны Увеличенной Вместимости$() используют свою предыдущую формулу (Книга снова точна)."
     },
     {
       "type": "patchouli:text",
       "title": "3.0.2-7",
-      "text": "Readded the $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$(). Currently only with a few $(l:bloodmagic:alchemy_array/living_equipment/living_upgrades)upgrades$(), and no downgrades. $(li)Pin Cushion $(li)Soft Fall $(li)Tough $(li)Strong Legs (Now can be temporarily deactivated when jumping by sneaking) $(li)Healthy $(li)Experienced $(li)Charging Strike $(li)Tough Palms $(li)Quick Feet $(li)Poison Resistance"
+      "text": "$(li)Исправлен баг дублирования для $(l:bloodmagic:utility/alchemical_reaction_chamber)Алхимической Реакционной Камеры$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Gift of Ignis $(li)Dwarven Might $(li)Body Builder $(br2)Reimplemented the following rituals: $(li)$(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)Resonance of the Faceted Crystal$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_crystal_harvest)Crack of the Fractured Crystal$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_harvest)Reap of the Harvest Moon$() (Mainly vanilla crops) $(li)$(l:bloodmagic:rituals/ritual_list/ritual_animal_growth)Ritual of the Shepherd$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_green_grove)Ritual of the Green Grove$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_ellipse)Focus of the Ellipsoid$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)Sound of the Cleansing Soul$()"
+      "text": "$(li)Значительно переработана прогрессия мода. Вместо того чтобы начинать с $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Ловушки Душ$(), вы теперь начинаете с создания $(l:bloodmagic:altar/blood_altar)Алтаря Крови$(). Изменения задокументированы в руководстве, и вы можете следовать его записи $(l:bloodmagic:utility/getting_started)Начало Работы$()!$(li)Изменены всплывающие подсказки, чтобы они были серыми, что позволяет легче отличать их от названия предмета.",
+      "title": null
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)$(l:bloodmagic:rituals/ritual_list/ritual_armour_evolve)Ritual of Living Evolution$()"
+      "text": "$(li)Добавлен $(l:bloodmagic:alchemy_array/holding)Сигил Удержания$().$(li)Изменено создание $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарских Самоцветов$() так, что вам больше не нужно использовать самоцвет предыдущего уровня в слоте для самоцвета.$(li2)Адская Кузница $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Hellfire Forge$() теперь будет сначала вытягивать волю из самоцвета в верстаке, а вся неиспользованная воля из поглощённого самоцвета будет помещена в созданный самоцвет."
     },
     {
       "type": "patchouli:text",
       "title": "3.0.1-6",
-      "text": "$(li)Reimplemented the $(l:bloodmagic:utility/incense_altar)Incense Altar$() with all appropriate blocks. $(li)Added guide entries for the $(l:bloodmagic:utility/incense_altar)Incense Altar$() and $(l:bloodmagic:altar/blood_altar)Blood Altar$(). Other misc entries added, too. $(li)Fixed a server-related crash on the client on the $(l:bloodmagic:alchemy_array/sigil/grove)Sigil of the Green Grove$(). $(li)Added $(l:bloodmagic:utility/alchemical_reaction_chamber#ore_processing)ore processing$() to $(item)Ancient Debris.$() $(li)Readded the other $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tool$() types (with one more on the way)."
+      "text": "$(li)Изменён интерфейс для $(l:bloodmagic:alchemy_table/alchemy_table)Алхимического Стола$(). См. обновлённый раздел.$(li)Исправлен $(l:bloodmagic:alchemy_table/anointments/looting_anointment)Блеск Грабителя$(), который неправильно применял уровень Добычи.$(li)Также исправлен вылет NPE из-за $(l:bloodmagic:alchemy_table/anointments/bow_power_anointment)Железного Наконечника$(). Исправляет некоторые вылеты из-за модов, использующих событие ItemUsedFinish.$(li)Исправлен $(l:bloodmagic:blood_altar/blood_altar)Алтарь Крови$(), который не мог принимать жидкости. Давно пора, Way!"
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Added a few WIP items that cannot be used yet - they\u0027re part of the D*$)@ D*#@(@* system that I\u0027m adding for Tier 4. $(li)Added the API - It\u0027s still in flux, so expect it to change very soon! $(li)Probably forgot something important. $(li)Fixed a crash for the $(l:bloodmagic:utility/lava_crystal)Lava Crystal$() that made it blow up the Client if used on a server. No, that was not the intended purpose!"
+      "text": "$(li)Добавлены новые $(l:bloodmagic:demon_will/demonic_items/explosive_charges)Взрывные Заряды.$()$(li2)$(item)Грибной Заряд$(), который очень полезен для гигантских грибов и грибов Нижнего мира.$(li2)$(item)Контролируемый Заряд$(), который уничтожит только те блоки, которые соответствуют блоку, на который он установлен.$(li)Добавлена возможность применять несколько выбранных Помазаний к зарядам. Только одно может быть применено к заряду за раз.$(li2)$(l:bloodmagic:alchemy_table/anointments/silk_touch_anointment)Мягкое Покрытие$()$(li2)$(l:bloodmagic:alchemy_table/anointments/fortune_anointment)Экстракт Фортуны$()"
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Added the $(l:bloodmagic:rituals/ritual_tinkerer)Ritual Tinkerer$() for Rituals. $(li)Added the \"$(l:bloodmagic:utility/book_experience)Tome of Peritia$()\" again - stores EXP."
+      "text": "$(li2)$(l:bloodmagic:alchemy_table/anointments/smelting_anointment)Медленно Горящее Масло$()$(li)Исправлена $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живая Броня$() так, что вы не можете использовать том улучшения, чтобы превысить лимит очков.$(li2)Исправлены $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/strong_legs)Сильные Ноги$() так, что они больше не запускают программу \"CrunchyLegs.exe\" - в результате вы больше не получаете урон от падения при прыжках на том же уровне. Удалено прямое снижение урона от падения от Сильных Ног."
     },
     {
       "type": "patchouli:text",
       "title": "3.0.0-3",
-      "text": "$(li)Fix for an issue with the Will Handler, which would cause massive lag. $(li)Reimplemented some recipes which... were not properly implemented. These include the $(l:bloodmagic:alchemy_table/alchemy_table#cutting_fluid)Cutting Fluid$() recipes in the $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$(). Whoops! $(li)Reduced the cost of the $(l:bloodmagic:altar/blood_altar#blank_rune)Blank Rune$(), swapping one of the $(l:bloodmagic:altar/slates)Blank Slates$() for $(item)Smooth Stone$()."
+      "text": "$(li)Добавлены два типа $(l:bloodmagic:demon_will/demonic_items/throwing_daggers)Метательных Кинжалов$() в атакующий арсенал Кровавого Мага.$(li2)$(item)Железный Метательный Кинжал$()$(li2)$(item)Метательный Кинжал-Шприц$()$(li)Переработан гайд, чтобы он давал +2 к крутости.$()"
     },
     {
       "type": "patchouli:text",
       "title": "3.0.0-1",
-      "text": "First update for $(item)Minecraft 1.16.3$()! Supposedly it should also work for 1.16.4, however it was built for 1.16.3. $(br2)This release is what I can best describe as \"early alpha\" - a lot of the systems are in place and working, however a few things are notably absent. This can mean that the system will either be fully revamped, reimplemented from previous MC versions at a later date, or"
+      "text": " $(li)Переработан $(l:bloodmagic:rituals/ritual_list/ritual_well_of_suffering)Колодец Страданий$(). $(li)Добавлено несколько новых предметов, называемых \"$(l:bloodmagic:alchemy_table/anointments)Помазания$()\"! Это предметы, которые дают временные усиления вашим инструментам и оружию, такие как шёлковое касание, повышенный урон и многое другое! Ищите их в разделе \"Утилиты\" книги. К ним относятся: $(li2)Затачивающее Масло $(li2)Мягкое Покрытие $(li2)Экстракт Фортуны $(li2)Святая Вода"
     },
     {
       "type": "patchouli:text",
-      "text": "will not be added to make room for another system. $(br2)Some of the things that are currently missing from this version of Blood Magic are: $(li)$(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$(), which will need to be completely rewritten to fix some client-server bugs. $(li)Several rituals. Rituals ARE in this release, but only a handful. Most of the rituals WILL be readded. $(li)The $(l:bloodmagic:utility/incense_altar)Incense Altar$(). Will be reimplemented soon."
+      "text": "$(li2)Секреты Шахтёра $(li2)Алкахест Ловкости $(li2)Железный Наконечник $(li2)Блеск Грабителя $(li2)Медленно Горящее Масло $(li)Сделаны $(l:bloodmagic:demon_will/demonic_items/explosive_charges#shaped_charge)Формованный Заряд$() и $(l:bloodmagic:demon_will/demonic_items/explosive_charges#deforester_charge)Заряд Обезлесителя$() метательными."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)The Item Routing System. Might need to be reimplemented? And it\u0027ll need a bunch of insecticide, since there\u0027s some bugs that I\u0027ve heard about. $(li)Tier 5 - there\u0027s not currently much in T5 from previous versions, so it\u0027s temporarily disabled until I\u0027ve fully decided the upgrade path towards it. Although I won\u0027t give much away, it will involve demons. And *^$%@)$#. $(li)Tier 6 - Why do people still ask about this?"
+      "text": "Исправлен вылет с $(l:bloodmagic:altar/blood_altar)Алтарем Крови$() при выгрузке и скорректирован рецепт для $(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)Дневного массива$() для использования $(item)Угля$() вместо $(item)Часов$().",
+      "title": null
     },
     {
       "type": "patchouli:text",
-      "text": "And other systems and items that I have not specifically mentioned. $(br2)Notable new content that\u0027s currently being experimented with and/or tweaked: $(li)The $(item)Blood Magic Guide$()! It\u0027s being completely rewritten and is currently using the mod Patchouli! $(strike)It\u0027s a pretty Neat mod by Vazkii$() It\u0027s in its early stages of writing, but for now the plan is to have it be purely informational - main reason I am temporarily ditching the narrative-based"
+      "text": "$(li)Добавлены два новых $(l:bloodmagic:demon_will/demonic_items/explosive_charges)взрывчатых вещества$(): $(li2)$(l:bloodmagic:demon_will/demonic_items/explosive_charges#shaped_charge)Формованный Заряд$(), который при установке разрушит объём 5x5x5. $(li2)$(l:bloodmagic:demon_will/demonic_items/explosive_charges#deforester_charge)Заряд Обезлесителя$(), который может срубить дерево до максимум 128 брёвен. $(li)(Оба взрывчатых вещества выбрасывают все затронутые блоки и не наносят дальнейшего ущерба окружающей среде или сущностям.)",
+      "title": null
     },
     {
       "type": "patchouli:text",
-      "text": "guide is that I need some form of in-game guide that tells the user about all the new and improved systems in the mod. And building a comprehensive narrative makes such a thing slow moving. $(li)The $(l:bloodmagic:utility/alchemical_reaction_chamber)Alchemical Reaction Chamber$()! It\u0027s a multiple-use block that can process ores and is integral for reaching Tier 4. It\u0027s still being balanced, so any feedback on this is greatly appreciated. $(br2)I hope you will enjoy the mod! $(br)                - WayofTime"
+      "text": "$(li)Добавлены новые алхимические массивы: $(li2)$(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)Два массива$(), которые меняют текущий цикл дня и ночи на день и ночь. Рецепты временные. $(li)Исправлены следующие $(l:bloodmagic:alchemy_array/living_equipment/living_upgrades)улучшения Живой Брони$(), чтобы их теперь можно было получить: $(li2)Опытный $(li2)Бодибилдер"
+    },
+    {
+      "title": null,
+      "text": "$(li)Обновлена $(item)Sanguine Scientiem$() - она очень хорошо написана! Особая благодарность $(fire)VT-14$() и $(raw)Wrincewind$() за их долгие часы усилий, чтобы сделать эту книгу лучше, чем я мог бы сделать! $(li)Исправлен вылет с $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой Бронёй$() при создании и надевании сразу после зачарования."
+    },
+    {
+      "title": null,
+      "text": "Возвращена $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живая Броня$(). В настоящее время только с несколькими $(l:bloodmagic:alchemy_array/living_equipment/living_upgrades)улучшениями$() и без ухудшений. $(li)Подушечка для Игл $(li)Мягкое Падение $(li)Прочность $(li)Сильные Ноги (Теперь можно временно деактивировать при прыжке, присев) $(li)Здоровый $(li)Опытный $(li)Заряженный Удар $(li)Крепкие Ладони $(li)Быстрые Ноги $(li)Сопротивление Яду"
+    },
+    {
+      "text": "$(li)Дар Игниса $(li)Дварфская Мощь $(li)Бодибилдер $(br2)Переработаны следующие ритуалы: $(li)$(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)Резонанс Гранёного Кристалла$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_crystal_harvest)Треск Расколотого Кристалла$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_harvest)Жатва Урожайной Луны$() (В основном ванильные культуры) $(li)$(l:bloodmagic:rituals/ritual_list/ritual_animal_growth)Ритуал Пастуха$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_green_grove)Ритуал Зелёной Рощи$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_ellipse)Фокус Эллипсоида$() $(li)$(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)Звук Очищающей Души$()"
+    },
+    {
+      "text": "$(li)$(l:bloodmagic:rituals/ritual_list/ritual_armour_evolve)Ритуал Живой Эволюции$()"
+    },
+    {
+      "title": null,
+      "text": "$(li)Переработан $(l:bloodmagic:utility/incense_altar)Алтарь Благовоний$() со всеми соответствующими блоками. $(li)Добавлены записи в руководство для $(l:bloodmagic:utility/incense_altar)Алтаря Благовоний$() и $(l:bloodmagic:altar/blood_altar)Алтаря Крови$(). Также добавлены другие различные записи. $(li)Исправлен связанный с сервером вылет на клиенте, связанный с $(l:bloodmagic:alchemy_array/sigil/grove)Сигилом Зелёной Рощи$(). $(li)Добавлена $(l:bloodmagic:utility/alchemical_reaction_chamber#ore_processing)обработка руды$() для $(item)Древних Обломков.$() $(li)Возвращены другие типы $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Разумных Инструментов$() (ещё один на подходе)."
+    },
+    {
+      "text": "$(li)Добавлено несколько WIP предметов, которые пока нельзя использовать - они являются частью системы D*$)@ D*#@(@*, которую я добавляю для Уровня 4. $(li)Добавлен API - Он всё ещё в процессе разработки, так что ожидайте изменений очень скоро! $(li)Вероятно, забыл что-то важное. $(li)Исправлен вылет для $(l:bloodmagic:utility/lava_crystal)Лавового Кристалла$(), который приводил к краху Клиента при использовании на сервере. Нет, это не было его предназначением!"
+    },
+    {
+      "text": "$(li)Добавлен $(l:bloodmagic:rituals/ritual_tinkerer)Ритуальный Мастер$() для Ритуалов. $(li)Снова добавлен \"$(l:bloodmagic:utility/book_experience)Том Опыта$()\" - хранит ОПЫТ."
+    },
+    {
+      "title": null,
+      "text": "$(li)Исправлена проблема с Обработчиком Воли, которая вызывала сильные задержки. $(li)Переработаны некоторые рецепты, которые... не были должным образом реализованы. К ним относятся рецепты $(l:bloodmagic:alchemy_table/alchemy_table#cutting_fluid)Режущей Жидкости$() в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимическом Столе$(). Упс! $(li)Снижена стоимость $(l:bloodmagic:altar/blood_altar#blank_rune)Пустой Руны$(), заменив одну из $(l:bloodmagic:altar/slates)Пустых Плит$() на $(item)Гладкий Камень$()."
+    },
+    {
+      "title": null,
+      "text": "Первое обновление для $(item)Minecraft 1.16.3$()! Предположительно, оно должно работать и для 1.16.4, однако было создано для 1.16.3. $(br2)Этот релиз я могу лучше всего описать как \"ранняя альфа\" - многие системы уже на месте и работают, однако некоторые вещи заметно отсутствуют. Это может означать, что система будет либо полностью переработана, либо перенесена из предыдущих версий MC позже, либо"
+    },
+    {
+      "text": "не будет добавлена, чтобы освободить место для другой системы. $(br2)Некоторые вещи, которые в настоящее время отсутствуют в этой версии Blood Magic: $(li)$(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живая Броня$(), которая потребует полной переработки для исправления некоторых клиент-серверных ошибок. $(li)Несколько ритуалов. Ритуалы ЕСТЬ в этом релизе, но лишь немногие. Большинство ритуалов БУДУТ возвращены. $(li)$(l:bloodmagic:utility/incense_altar)Алтарь Благовоний$(). Будет переработан в ближайшее время."
+    },
+    {
+      "text": "$(li)Система Маршрутизации Предметов. Возможно, потребуется переработка? И ей понадобится много инсектицида, так как я слышал о некоторых ошибках. $(li)Уровень 5 - в настоящее время в T5 не так много из предыдущих версий, поэтому он временно отключен, пока я полностью не определю путь улучшения к нему. Хотя я не буду раскрывать многого, это будет связано с демонами. И *^$%@)$#. $(li)Уровень 6 - Почему люди до сих пор спрашивают об этом?"
+    },
+    {
+      "text": "И другие системы и предметы, которые я не упомянул конкретно. $(br2)Заметный новый контент, который в настоящее время экспериментируется и/или настраивается: $(li)Руководство по $(item)Blood Magic$()! Оно полностью переписывается и в настоящее время использует мод Patchouli! $(strike)Это довольно классный мод от Vazkii$() Оно находится на ранних стадиях написания, но пока план состоит в том, чтобы оно было чисто информационным - основная причина, по которой я временно отказываюсь от повествовательного"
+    },
+    {
+      "text": "руководства заключается в том, что мне нужна какая-то внутриигровая справка, которая расскажет пользователю обо всех новых и улучшенных системах в моде. А создание всеобъемлющего повествования замедляет этот процесс. $(li)$(l:bloodmagic:utility/alchemical_reaction_chamber)Алхимическая Реакционная Камера$()! Это многофункциональный блок, который может обрабатывать руды и является неотъемлемой частью для достижения Уровня 4. Она всё ещё балансируется, поэтому любая обратная связь по этому поводу очень ценится. $(br2)Надеюсь, вам понравится мод! $(br)                - WayofTime"
     }
   ]
 }
