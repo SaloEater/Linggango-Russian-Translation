@@ -17,10 +17,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.ender_storage.image.hovertext1"
+				"ftbquests.chapter.ender_storage.image.hovertext2"
+				"ftbquests.chapter.ender_storage.image.hovertext3"
+				"ftbquests.chapter.ender_storage.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -35,17 +35,17 @@
 	quests: [
 		{
 			description: [
-				"Ender Chests are a stationary type of Ender Storage. "
+				"{ftbquests.chapter.ender_storage.quest6B174D6E7B759CDE.description1}"
 				""
-				"You can use dye on the wool pads on top of the chest to alter its color code. As an alternative, you can craft an EnderChest with three dyes to change the color code as well. "
+				"{ftbquests.chapter.ender_storage.quest6B174D6E7B759CDE.description2}"
 				""
-				"Ender Chests work as any other chest for the purposes of blocks that manipulate chests contents. "
+				"{ftbquests.chapter.ender_storage.quest6B174D6E7B759CDE.description3}"
 				""
-				"This makes EnderChests an ideal way to transport items over vast distances in an instant."
+				"{ftbquests.chapter.ender_storage.quest6B174D6E7B759CDE.description4}"
 			]
 			id: "6B174D6E7B759CDE"
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.ender_storage.quest6B174D6E7B759CDE.subtitle}"
 			tasks: [{
 				id: "3C205787B3B01EC8"
 				item: "enderstorage:ender_chest"
@@ -56,15 +56,15 @@
 		}
 		{
 			description: [
-				"Ender Pouches are a mobile type of Ender Storage. "
+				"{ftbquests.chapter.ender_storage.quest4CB2DCE1D90E731.description1}"
 				""
-				"You can use an EnderPouch on any EnderChest to change the pouch color code to match that of the chest. "
+				"{ftbquests.chapter.ender_storage.quest4CB2DCE1D90E731.description2}"
 				""
-				"Ender Pouches access the same inventory as their Ender Chest counterparts, allowing easy access to your base resources right from your inventory."
+				"{ftbquests.chapter.ender_storage.quest4CB2DCE1D90E731.description3}"
 			]
 			id: "04CB2DCE1D90E731"
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.ender_storage.quest4CB2DCE1D90E731.subtitle}"
 			tasks: [{
 				id: "3CF315AF76CB65FC"
 				item: "enderstorage:ender_pouch"
@@ -74,10 +74,10 @@
 			y: 3.0d
 		}
 		{
-			description: ["EnderTanks work on the same principal of EnderChests but store liquids."]
+			description: ["{ftbquests.chapter.ender_storage.quest5D319F234FCE4965.description1}"]
 			id: "5D319F234FCE4965"
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.ender_storage.quest5D319F234FCE4965.subtitle}"
 			tasks: [{
 				id: "1F8E55B6A3123ADF"
 				item: "enderstorage:ender_tank"
@@ -87,5 +87,5 @@
 			y: 2.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#FA732A to=#FFCFB5>Ender Storage</grad></shadow>"
+	title: "{ftbquests.chapter.ender_storage.title}"
 }

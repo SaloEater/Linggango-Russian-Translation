@@ -17,7 +17,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Dragons"]
+			hover: ["ftbquests.chapter.travelling.image.hovertext1"]
 			image: "saintsdragons:item/ignivorus/ignivorus_egg_item"
 			rotation: 0.0d
 			width: 1.0d
@@ -27,7 +27,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Planes"]
+			hover: ["ftbquests.chapter.travelling.image.hovertext2"]
 			image: "immersive_aircraft:item/enhanced_propeller"
 			rotation: 0.0d
 			width: 1.0d
@@ -37,7 +37,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Vanilla"]
+			hover: ["ftbquests.chapter.travelling.image.hovertext3"]
 			image: "minecraft:item/compass_20"
 			rotation: 0.0d
 			width: 1.0d
@@ -55,7 +55,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.travelling.image.hovertext4"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -66,10 +66,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.travelling.image.hovertext5"
+				"ftbquests.chapter.travelling.image.hovertext6"
+				"ftbquests.chapter.travelling.image.hovertext7"
+				"ftbquests.chapter.travelling.image.hovertext8"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -90,7 +90,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Classic, a Horse."
+			subtitle: "{ftbquests.chapter.travelling.quest6638F870238681DA.subtitle}"
 			tasks: [{
 				id: "7838003346DB1FA1"
 				item: "minecraft:saddle"
@@ -108,7 +108,7 @@
 				table_id: 6113257248652002439L
 				type: "loot"
 			}]
-			subtitle: "A normal rail with faster maximum speed"
+			subtitle: "{ftbquests.chapter.travelling.quest70E3889C56F1D9AC.subtitle}"
 			tasks: [{
 				id: "4687B5BF5D76F7DF"
 				item: "minecraft:rail"
@@ -126,7 +126,7 @@
 				table_id: 6113257248652002439L
 				type: "loot"
 			}]
-			subtitle: "Powered with redstone, faster than a normal rail but can't turn or slope"
+			subtitle: "{ftbquests.chapter.travelling.quest41540BBB45B52838.subtitle}"
 			tasks: [{
 				id: "071E2A89C5112615"
 				item: "minecraft:powered_rail"
@@ -137,7 +137,7 @@
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: ["Slower, but with two seats. Quite easy to maneuver, with acceptable speed thanks to the engine in the back."]
+			description: ["{ftbquests.chapter.travelling.quest479F5EE637931DF5.description1}"]
 			id: "479F5EE637931DF5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -145,7 +145,7 @@
 				table_id: 5730923208051659087L
 				type: "loot"
 			}]
-			subtitle: "Calm and safe"
+			subtitle: "{ftbquests.chapter.travelling.quest479F5EE637931DF5.subtitle}"
 			tasks: [{
 				id: "5223FA949EC2745C"
 				item: "immersive_aircraft:airship"
@@ -156,7 +156,7 @@
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: ["An advanced version of the airship, it can carry a large number of items."]
+			description: ["{ftbquests.chapter.travelling.quest55FAE20E07CDC9C9.description1}"]
 			id: "55FAE20E07CDC9C9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -164,7 +164,7 @@
 				table_id: 5730923208051659087L
 				type: "loot"
 			}]
-			subtitle: "Safe and calm and BIG"
+			subtitle: "{ftbquests.chapter.travelling.quest55FAE20E07CDC9C9.subtitle}"
 			tasks: [{
 				id: "783C5BB6D0A35A5F"
 				item: "immersive_aircraft:cargo_airship"
@@ -175,7 +175,7 @@
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: ["Sturdy, has 3 seats, and a bunch of weapon options"]
+			description: ["{ftbquests.chapter.travelling.quest2674AD6B512CA57.description1}"]
 			id: "02674AD6B512CA57"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -183,7 +183,7 @@
 				table_id: 5730923208051659087L
 				type: "loot"
 			}]
-			subtitle: "Safe and Harmful"
+			subtitle: "{ftbquests.chapter.travelling.quest2674AD6B512CA57.subtitle}"
 			tasks: [{
 				id: "1BB3FF3DB83BA907"
 				item: "immersive_aircraft:warship"
@@ -194,7 +194,7 @@
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: ["A masterwork of engineering! Four propellers strapped on a bunch of bamboos. It's quite handy for building."]
+			description: ["{ftbquests.chapter.travelling.quest66DA4E60A9F14084.description1}"]
 			id: "66DA4E60A9F14084"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -202,7 +202,7 @@
 				table_id: 5730923208051659087L
 				type: "loot"
 			}]
-			subtitle: "Building is way easier!"
+			subtitle: "{ftbquests.chapter.travelling.quest66DA4E60A9F14084.subtitle}"
 			tasks: [{
 				id: "165B3FA6A3CC1CDF"
 				item: "immersive_aircraft:quadrocopter"
@@ -213,7 +213,7 @@
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: ["Fast, one seat, medium difficulty. Make sure you have somewhere flat to take off and land on!"]
+			description: ["{ftbquests.chapter.travelling.quest3A643C9F794E6B0C.description1}"]
 			id: "3A643C9F794E6B0C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -221,13 +221,13 @@
 				table_id: 5730923208051659087L
 				type: "loot"
 			}]
-			subtitle: "Classic plane."
+			subtitle: "{ftbquests.chapter.travelling.quest3A643C9F794E6B0C.subtitle}"
 			tasks: [{
 				id: "28CC36B4CF226782"
 				item: "immersive_aircraft:biplane"
 				type: "item"
 			}]
-			title: "Biplane"
+			title: "{ftbquests.chapter.travelling.quest3A643C9F794E6B0C.title}"
 			x: -2.0d
 			y: -0.5d
 		}
@@ -240,7 +240,7 @@
 				table_id: 5730923208051659087L
 				type: "loot"
 			}]
-			subtitle: "Enchaned biplane"
+			subtitle: "{ftbquests.chapter.travelling.quest1AA85B5B81D6332B.subtitle}"
 			tasks: [{
 				id: "25E8EF1EE23DACB2"
 				item: "man_of_many_planes:scarlet_biplane"
@@ -258,7 +258,7 @@
 				table_id: 5730923208051659087L
 				type: "loot"
 			}]
-			subtitle: "Easy to make, not that good."
+			subtitle: "{ftbquests.chapter.travelling.quest62CC0AC15AB8074A.subtitle}"
 			tasks: [{
 				id: "60F69D9897A589B1"
 				item: "man_of_many_planes:economy_plane"
@@ -270,9 +270,9 @@
 		{
 			dependencies: ["7652B74B3DA4A030"]
 			description: [
-				"Elytra allows you to float in the sky!"
+				"{ftbquests.chapter.travelling.quest164AAAAD6433695A.description1}"
 				""
-				"With fireworks and some artifacts you can also get a huge speed boost."
+				"{ftbquests.chapter.travelling.quest164AAAAD6433695A.description2}"
 			]
 			icon_scale: 1.3d
 			id: "164AAAAD6433695A"
@@ -281,7 +281,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Never dying legend!"
+			subtitle: "{ftbquests.chapter.travelling.quest164AAAAD6433695A.subtitle}"
 			tasks: [{
 				id: "3196A1C9052406E5"
 				item: {
@@ -293,13 +293,13 @@
 				}
 				type: "item"
 			}]
-			title: "Elytra"
+			title: "{ftbquests.chapter.travelling.quest164AAAAD6433695A.title}"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7652B74B3DA4A030"]
-			description: ["Human-powered primitive dual seater. Trusty and easy to maneuver, yet not the fastest. Needs a good initial push to get the rotor spinning."]
+			description: ["{ftbquests.chapter.travelling.quest51AEDA51AC0D8F9B.description1}"]
 			id: "51AEDA51AC0D8F9B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -307,7 +307,7 @@
 				table_id: 5730923208051659087L
 				type: "loot"
 			}]
-			subtitle: "Not the brightest.."
+			subtitle: "{ftbquests.chapter.travelling.quest51AEDA51AC0D8F9B.subtitle}"
 			tasks: [{
 				id: "07EA7B8F8DAF0E36"
 				item: "immersive_aircraft:gyrodyne"
@@ -318,13 +318,13 @@
 		}
 		{
 			description: [
-				"&6&nAdvanced Transportation&r"
+				"{ftbquests.chapter.travelling.quest7652B74B3DA4A030.description1}"
 				""
-				"Discover new and efficient methods for traversing both land and sea. "
+				"{ftbquests.chapter.travelling.quest7652B74B3DA4A030.description2}"
 				""
-				"In addition to upgraded boats and unique mounts, the pack includes functional wagons to help transport large quantities of items over long distances. "
+				"{ftbquests.chapter.travelling.quest7652B74B3DA4A030.description3}"
 				""
-				"Check through JEI to view all available transport options and their crafting recipes."
+				"{ftbquests.chapter.travelling.quest7652B74B3DA4A030.description4}"
 			]
 			icon: {
 				Count: 1
@@ -342,13 +342,13 @@
 			}]
 			shape: "gear"
 			size: 1.45d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.travelling.quest7652B74B3DA4A030.subtitle}"
 			tasks: [{
 				id: "6D0559BF8949654A"
-				title: "Okay!"
+				title: "{ftbquests.chapter.travelling.quest7652B74B3DA4A030.task.7855783804194612554.title}"
 				type: "checkmark"
 			}]
-			title: "Traveling"
+			title: "{ftbquests.chapter.travelling.quest7652B74B3DA4A030.title}"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -402,7 +402,7 @@
 				id: "33D0A48DBF1343AA"
 				type: "advancement"
 			}]
-			title: "Tame a &eCindervane"
+			title: "{ftbquests.chapter.travelling.quest1AF7FF905BDC8D68.title}"
 			x: 0.5d
 			y: 1.0d
 		}
@@ -422,7 +422,7 @@
 				id: "51A3988AC197A20D"
 				type: "advancement"
 			}]
-			title: "Tame a &eIgnivorus"
+			title: "{ftbquests.chapter.travelling.quest269585BBE29B786A.title}"
 			x: 1.0d
 			y: 1.5d
 		}
@@ -442,7 +442,7 @@
 				id: "7DDE7F9BB83DC3F8"
 				type: "advancement"
 			}]
-			title: "Tame a &eRaevyx"
+			title: "{ftbquests.chapter.travelling.questF5BA6E279F251E6.title}"
 			x: -1.0d
 			y: 1.5d
 		}
@@ -462,7 +462,7 @@
 				id: "73945AE99E1AD899"
 				type: "advancement"
 			}]
-			title: "Tame a &eVolitans"
+			title: "{ftbquests.chapter.travelling.quest2AD633E0FEDF30E5.title}"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -482,7 +482,7 @@
 				id: "794EE5938B938D6F"
 				type: "advancement"
 			}]
-			title: "Tame a &eVarasuchus"
+			title: "{ftbquests.chapter.travelling.quest83FFE32600A1042.title}"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -502,10 +502,10 @@
 				id: "77E95748546F399A"
 				type: "advancement"
 			}]
-			title: "Tame a &eStegonaut"
+			title: "{ftbquests.chapter.travelling.quest7B7B146B88EC5E4D.title}"
 			x: -0.5d
 			y: 1.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#6F6D8B to=#343434>Traveling</grad></shadow>"
+	title: "{ftbquests.chapter.travelling.title}"
 }

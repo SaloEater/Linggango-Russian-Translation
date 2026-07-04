@@ -17,10 +17,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.storage_drawers.image.hovertext1"
+				"ftbquests.chapter.storage_drawers.image.hovertext2"
+				"ftbquests.chapter.storage_drawers.image.hovertext3"
+				"ftbquests.chapter.storage_drawers.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -35,25 +35,25 @@
 	quests: [
 		{
 			description: [
-				"The wooden drawers are the main storage block in Storage Drawers, and they come in a variety of configurations and styles. "
+				"{ftbquests.chapter.storage_drawers.quest42B5662480A4AD67.description1}"
 				""
-				"You can pick from any of the Vanilla plank colors when crafting to get a matching block."
+				"{ftbquests.chapter.storage_drawers.quest42B5662480A4AD67.description2}"
 				""
 				"{@pagebreak}"
 				""
-				"Drawers come in six configurations, trading capacity and compactness at different points:"
+				"{ftbquests.chapter.storage_drawers.quest42B5662480A4AD67.description3}"
 				""
-				"- Half-size 1x1: Stores 16 stacks per drawer."
+				"{ftbquests.chapter.storage_drawers.quest42B5662480A4AD67.description4}"
 				""
-				"- Half-size 2x2: Stores 4 stacks per drawer."
+				"{ftbquests.chapter.storage_drawers.quest42B5662480A4AD67.description5}"
 				""
-				"- Half-size 1x2: Stores 8 stacks per drawer."
+				"{ftbquests.chapter.storage_drawers.quest42B5662480A4AD67.description6}"
 				""
-				"- Full-size 2x2: Stores 8 stacks per drawer."
+				"{ftbquests.chapter.storage_drawers.quest42B5662480A4AD67.description7}"
 				""
-				"- Full-size 1x2: Stores 16 stacks per drawer."
+				"{ftbquests.chapter.storage_drawers.quest42B5662480A4AD67.description8}"
 				""
-				"- Full-size 1x1: Stores 32 stacks per drawer."
+				"{ftbquests.chapter.storage_drawers.quest42B5662480A4AD67.description9}"
 			]
 			id: "42B5662480A4AD67"
 			rewards: [{
@@ -62,7 +62,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest42B5662480A4AD67.subtitle}"
 			tasks: [{
 				id: "48E1F0399C966BB5"
 				item: {
@@ -72,16 +72,16 @@
 						value: "storagedrawers:drawers"
 					}
 				}
-				title: "Any #storagedrawers:drawers"
+				title: "{ftbquests.chapter.storage_drawers.quest42B5662480A4AD67.task.5251742770721614773.title}"
 				type: "item"
 			}]
-			title: "Drawers!"
+			title: "{ftbquests.chapter.storage_drawers.quest42B5662480A4AD67.title}"
 			x: 0.25d
 			y: 0.5d
 		}
 		{
 			dependencies: ["42B5662480A4AD67"]
-			description: ["A keyring to hold all of your keys."]
+			description: ["{ftbquests.chapter.storage_drawers.quest53541DBD1AFBC14B.description1}"]
 			id: "53541DBD1AFBC14B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -89,7 +89,7 @@
 				type: "random"
 			}]
 			size: 0.75d
-			subtitle: "I got keys that jingle, jangle, jingle"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest53541DBD1AFBC14B.subtitle}"
 			tasks: [{
 				id: "1A2BC3D445CEC6AF"
 				item: "storagedrawers:keyring"
@@ -108,7 +108,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Show or hide quantity labels"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest343E66EE10A349D1.subtitle}"
 			tasks: [{
 				id: "16DBDE85C61F573A"
 				item: "storagedrawers:quantify_key"
@@ -127,7 +127,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Show or hide item labels"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest1AE818F2888958AD.subtitle}"
 			tasks: [{
 				id: "79597485D7E9E09D"
 				item: "storagedrawers:shroud_key"
@@ -146,7 +146,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Protect access from other players"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest5B7665B821536BD1.subtitle}"
 			tasks: [{
 				id: "40C2E2480AFD6F74"
 				item: "storagedrawers:personal_key"
@@ -165,7 +165,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Protects access from other players except CoFH friends list players"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest1FC4BBDCC8A23E2D.subtitle}"
 			tasks: [{
 				id: "487E4C546C01F89E"
 				item: "storagedrawers:personal_key_cofh"
@@ -184,7 +184,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Protects access from other players except ur FTB teammates"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest3E298F34216C19C7.subtitle}"
 			tasks: [{
 				id: "76C4243EE9FE8326"
 				item: "storagedrawers:personal_key_ftb"
@@ -203,7 +203,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Pauses Controller I/O and upgrade actions"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest51C5A11B2C7FB49E.subtitle}"
 			tasks: [{
 				id: "3E5B1FB900E8FAF0"
 				item: "storagedrawers:suspend_key"
@@ -222,7 +222,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Cycle drawers through priority levels (useful with drawer controllers)"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest537E7C66E7CD5EBC.subtitle}"
 			tasks: [{
 				id: "50E2997CC3E40648"
 				item: "storagedrawers:priority_key"
@@ -241,7 +241,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Locks your drawers to their current item"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest4190D79A1A90C17A.subtitle}"
 			tasks: [{
 				id: "3DD996B80A9ADBE3"
 				item: "storagedrawers:drawer_key"
@@ -253,9 +253,9 @@
 		{
 			dependencies: ["42B5662480A4AD67"]
 			description: [
-				"Compacting drawers are a special stone-colored drawer that auto-convert compressible items. Instead of manually crafting and uncrafting between gold blocks, ingots, and nuggets, put them in a compacting drawer. The drawer will internally maintain a pool of the material, and let you insert or remove the material in any of the shown forms."
+				"{ftbquests.chapter.storage_drawers.quest4809749C88D4DEE.description1}"
 				""
-				"The compacting behavior applies to any item with a compressed recipe, including redstone, glowstone, wheat, and many others."
+				"{ftbquests.chapter.storage_drawers.quest4809749C88D4DEE.description2}"
 			]
 			id: "04809749C88D4DEE"
 			rewards: [{
@@ -265,7 +265,7 @@
 			}]
 			shape: "diamond"
 			size: 0.85d
-			subtitle: "Compacting in a compact solution"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest4809749C88D4DEE.subtitle}"
 			tasks: [{
 				id: "2105C65F21B9FCB6"
 				item: {
@@ -294,7 +294,7 @@
 				}
 				type: "item"
 			}]
-			title: "Compacting Drawers"
+			title: "{ftbquests.chapter.storage_drawers.quest4809749C88D4DEE.title}"
 			x: 0.25d
 			y: 2.5d
 		}
@@ -307,7 +307,7 @@
 				type: "random"
 			}]
 			size: 0.75d
-			subtitle: "Upgrade Templates that can make your drawers even better!"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest5708D310E8670B48.subtitle}"
 			tasks: [{
 				id: "67462CD74D093F0F"
 				item: "storagedrawers:upgrade_template"
@@ -326,7 +326,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Increases storage by 2 times base value"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest68FEAD620B145BAF.subtitle}"
 			tasks: [{
 				id: "61F0B11E089A38A3"
 				item: "storagedrawers:obsidian_storage_upgrade"
@@ -345,7 +345,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Increases storage by 4 times base value"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest70F2DEA4570D601F.subtitle}"
 			tasks: [{
 				id: "356657681EF31935"
 				item: "storagedrawers:copper_storage_upgrade"
@@ -364,7 +364,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Increases storage by 8 times base value"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest4ED9C1CE487B29E.subtitle}"
 			tasks: [{
 				id: "4A0BC127F024D70C"
 				item: "storagedrawers:iron_storage_upgrade"
@@ -383,7 +383,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Increases storage by 16 times base value"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest2173A2C5CB18309D.subtitle}"
 			tasks: [{
 				id: "326F620F1D58D614"
 				item: "storagedrawers:gold_storage_upgrade"
@@ -402,7 +402,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Downgrades storage space to a single stack"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest21A731CCB471D8CA.subtitle}"
 			tasks: [{
 				id: "7C9B92E042A0E8A8"
 				item: "storagedrawers:one_stack_upgrade"
@@ -421,7 +421,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Increases storage by 2048 times base value"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest3D3C42BD6A572926.subtitle}"
 			tasks: [{
 				id: "2788EBF1FD7C215B"
 				item: "storagedrawers:netherite_storage_upgrade"
@@ -440,7 +440,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Increases storage by 256 times base value"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest1D9FA13EF19D0CE5.subtitle}"
 			tasks: [{
 				id: "60A60C93BB0C2F54"
 				item: "storagedrawers:diamond_storage_upgrade"
@@ -459,7 +459,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Increases storage by 64 times base value"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest3E7D88E699E51013.subtitle}"
 			tasks: [{
 				id: "35B1629983F6C27B"
 				item: "storagedrawers:emerald_storage_upgrade"
@@ -478,7 +478,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Equalizes item counts between multiple drawers holding the same item"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest3F28A7768E76C056.subtitle}"
 			tasks: [{
 				id: "17329C6E5B5ED883"
 				item: "storagedrawers:balance_fill_upgrade"
@@ -497,7 +497,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Voids excess items added to full drawers"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest228DA730324D55BD.subtitle}"
 			tasks: [{
 				id: "0DA4CE9DF1AA5F7F"
 				item: "storagedrawers:void_upgrade"
@@ -516,7 +516,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Collects items in-world"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest2BDD796DAA0BF525.subtitle}"
 			tasks: [{
 				id: "6AFAA0A4BA5E2244"
 				item: "storagedrawers:hopper_upgrade"
@@ -535,7 +535,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Collects items in-world from a distance"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest2A56E816A89EDE12.subtitle}"
 			tasks: [{
 				id: "60B2F951D0990E67"
 				item: "storagedrawers:magnet_upgrade"
@@ -554,7 +554,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Collects items in-world from a big distance"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest4C3005DD8397566E.subtitle}"
 			tasks: [{
 				id: "1FDEC27C49A31137"
 				item: "storagedrawers:magnet_upgrade_2"
@@ -573,7 +573,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Can automatically substitute same-kind items, like variations of metal ingots"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest117762540C8C946D.subtitle}"
 			tasks: [{
 				id: "7C4F9B05A892BB96"
 				item: "storagedrawers:conversion_upgrade"
@@ -592,7 +592,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Collects items in-world from a bigger distance"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest322BFCC34CC14CD5.subtitle}"
 			tasks: [{
 				id: "459692E37F85A72F"
 				item: "storagedrawers:magnet_upgrade_3"
@@ -611,7 +611,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Emit redstone based on fill levels"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest7F7C6F696FB7F7DB.subtitle}"
 			tasks: [{
 				id: "5F7C9FC38CE14F39"
 				item: "storagedrawers:redstone_upgrade"
@@ -630,7 +630,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Emit redstone based on the minimum fill level of the drawer"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest5FFDA98AEE53837C.subtitle}"
 			tasks: [{
 				id: "643ACD315384926C"
 				item: "storagedrawers:min_redstone_upgrade"
@@ -649,7 +649,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Lets drawers connect remotely to the controller"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest5909B4DB3C5145BF.subtitle}"
 			tasks: [{
 				id: "215495E24AAB96ED"
 				item: "storagedrawers:remote_upgrade"
@@ -668,7 +668,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Lets connected drawer group remotely connect to the drawer controller"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest76F49207F093134C.subtitle}"
 			tasks: [{
 				id: "40657F53804417BC"
 				item: "storagedrawers:remote_group_upgrade"
@@ -687,7 +687,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Emit redstone based on the maximum fill level of the drawer"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest6B45039C56242EA5.subtitle}"
 			tasks: [{
 				id: "0EF585E666BAF7AD"
 				item: "storagedrawers:max_redstone_upgrade"
@@ -707,7 +707,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Brightens labels in dark places"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest3C2515841B46A2A7.subtitle}"
 			tasks: [{
 				id: "02E8C40A94FEA740"
 				item: "storagedrawers:illumination_upgrade"
@@ -726,7 +726,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Adds a visual fill bar"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest207A3ACC907EB6B7.subtitle}"
 			tasks: [{
 				id: "66B79FE66509227D"
 				item: "storagedrawers:fill_level_upgrade"
@@ -737,7 +737,7 @@
 		}
 		{
 			dependencies: ["42B5662480A4AD67"]
-			description: ["Trim blocks are decorative wood paneled blocks similar to wooden drawers, but they can also be used to connect drawer blocks within a controller network."]
+			description: ["{ftbquests.chapter.storage_drawers.quest6E1F33B7917DC69E.description1}"]
 			id: "6E1F33B7917DC69E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -746,7 +746,7 @@
 			}]
 			shape: "diamond"
 			size: 0.85d
-			subtitle: "Used to connect drawers in between them"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest6E1F33B7917DC69E.subtitle}"
 			tasks: [{
 				id: "0182FFA5948DF261"
 				item: {
@@ -756,16 +756,16 @@
 						value: "storagedrawers:trim"
 					}
 				}
-				title: "Any #storagedrawers:trim"
+				title: "{ftbquests.chapter.storage_drawers.quest6E1F33B7917DC69E.task.108930427637330529.title}"
 				type: "item"
 			}]
-			title: "Trims"
+			title: "{ftbquests.chapter.storage_drawers.quest6E1F33B7917DC69E.title}"
 			x: 0.75d
 			y: 3.0d
 		}
 		{
 			dependencies: ["42B5662480A4AD67"]
-			description: ["You can pull out the drawer from the drawer block to transport its contents to another drawer"]
+			description: ["{ftbquests.chapter.storage_drawers.quest7B0E5E1DB6F1BD4E.description1}"]
 			hide_until_deps_complete: false
 			id: "7B0E5E1DB6F1BD4E"
 			rewards: [{
@@ -775,7 +775,7 @@
 			}]
 			shape: "diamond"
 			size: 0.85d
-			subtitle: "Packing tape but newer"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest7B0E5E1DB6F1BD4E.subtitle}"
 			tasks: [
 				{
 					id: "4F4F9FC861FFDF6E"
@@ -794,13 +794,13 @@
 					type: "item"
 				}
 			]
-			title: "Detaching Drawers"
+			title: "{ftbquests.chapter.storage_drawers.quest7B0E5E1DB6F1BD4E.title}"
 			x: -0.25d
 			y: 3.0d
 		}
 		{
 			dependencies: ["42B5662480A4AD67"]
-			description: ["All drawers (and other supporting blocks) can be crafted in framed versions, which lets them be restyled with different block materials."]
+			description: ["{ftbquests.chapter.storage_drawers.quest3AA2697C129A80EC.description1}"]
 			id: "3AA2697C129A80EC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -809,19 +809,19 @@
 			}]
 			shape: "diamond"
 			size: 0.85d
-			subtitle: "When vanilla woods are not enough variation"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest3AA2697C129A80EC.subtitle}"
 			tasks: [{
 				id: "4D749485E09358BF"
 				item: "storagedrawers:framing_table"
 				type: "item"
 			}]
-			title: "Framing Drawers"
+			title: "{ftbquests.chapter.storage_drawers.quest3AA2697C129A80EC.title}"
 			x: 0.75d
 			y: 2.0d
 		}
 		{
 			dependencies: ["42B5662480A4AD67"]
-			description: ["Drawer Controllers are the second special block in the mod. They will search for any connected drawer within 50 blocks by default (configurable), and then expose all of those drawers as a large combined inventory. This lets you hook up a single pipe, tube, duct, spark, storage bus, etc. and interact with the entire bank of drawers."]
+			description: ["{ftbquests.chapter.storage_drawers.quest45BCC981EE6A864F.description1}"]
 			id: "45BCC981EE6A864F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -830,7 +830,7 @@
 			}]
 			shape: "diamond"
 			size: 0.85d
-			subtitle: "Control your drawers"
+			subtitle: "{ftbquests.chapter.storage_drawers.quest45BCC981EE6A864F.subtitle}"
 			tasks: [{
 				id: "51C22BBD0FAC0074"
 				item: {
@@ -851,10 +851,10 @@
 				}
 				type: "item"
 			}]
-			title: "Drawer Controller"
+			title: "{ftbquests.chapter.storage_drawers.quest45BCC981EE6A864F.title}"
 			x: -0.25d
 			y: 2.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#FA732A to=#FFCFB5>Storage Drawers</grad></shadow>"
+	title: "{ftbquests.chapter.storage_drawers.title}"
 }

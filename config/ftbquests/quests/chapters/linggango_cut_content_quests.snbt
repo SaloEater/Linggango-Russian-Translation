@@ -8,7 +8,7 @@
 	images: [{
 		dependency: "16F570C334B2B782"
 		height: 1.0d
-		hover: ["Small Allay Shop!"]
+		hover: ["ftbquests.chapter.linggango_cut_content_quests.image.hovertext1"]
 		image: "ftblibrary:icons/money_bag"
 		rotation: 0.0d
 		width: 1.0d
@@ -29,13 +29,13 @@
 			id: "16F570C334B2B782"
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "Just Check me!"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest16F570C334B2B782.subtitle}"
 			tasks: [{
 				id: "675D64CFA5A77B6A"
-				title: "Yesss i do!"
+				title: "{ftbquests.chapter.linggango_cut_content_quests.quest16F570C334B2B782.task.7448220201740893034.title}"
 				type: "checkmark"
 			}]
-			title: "Having trouble finding allays?"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest16F570C334B2B782.title}"
 			x: -3.5d
 			y: 1.0999999999999996d
 		}
@@ -50,7 +50,7 @@
 				type: "item"
 			}]
 			size: 1.2d
-			subtitle: "Requires 5 Dungeon Steel Ingot"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest148EA871C27C7C15.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 5L
@@ -58,7 +58,7 @@
 				item: { Count: 5, id: "composite_material:dungeon_steel_ingot" }
 				type: "item"
 			}]
-			title: "Buy Allay Spawn Egg"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest148EA871C27C7C15.title}"
 			x: -6.0d
 			y: 0.0d
 		}
@@ -70,7 +70,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest301C55381B54E564.subtitle}"
 			tasks: [{
 				id: "26E526B3ADB65613"
 				item: "railways:conductor_whistle"
@@ -80,34 +80,34 @@
 			y: 2.0d
 		}
 		{
-			description: ["Conductors allow you to activate redstone whilst looking at them and can also carry your toolbox around."]
+			description: ["{ftbquests.chapter.linggango_cut_content_quests.quest282E21725CEBD4F2.description1}"]
 			id: "282E21725CEBD4F2"
 			rewards: [{
 				id: "1F15298AA1295453"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest282E21725CEBD4F2.subtitle}"
 			tasks: [{
 				id: "4C320CF1DF11D854"
 				item: "railways:white_conductor_cap"
-				title: "Any Conductor's Cap"
+				title: "{ftbquests.chapter.linggango_cut_content_quests.quest282E21725CEBD4F2.task.5490465128687196244.title}"
 				type: "item"
 			}]
-			title: "Conductors"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest282E21725CEBD4F2.title}"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["282E21725CEBD4F2"]
-			description: ["Lets you see through the eyes of a conductor as well as control their movement."]
+			description: ["{ftbquests.chapter.linggango_cut_content_quests.quest19B1A849EE98B04C.description1}"]
 			id: "19B1A849EE98B04C"
 			rewards: [{
 				id: "1D4930F80452FEC4"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest19B1A849EE98B04C.subtitle}"
 			tasks: [{
 				id: "43C050F7FB2AEDAA"
 				item: "railways:remote_lens"
@@ -117,7 +117,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["Same as the Andesite Track Switch but also allows for switching for scheduled trains."]
+			description: ["{ftbquests.chapter.linggango_cut_content_quests.quest23D1935F6FBE0303.description1}"]
 			id: "23D1935F6FBE0303"
 			rewards: [
 				{
@@ -131,7 +131,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest23D1935F6FBE0303.subtitle}"
 			tasks: [{
 				id: "470594A0FBC82476"
 				item: "railways:track_switch_brass"
@@ -154,7 +154,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Used to visualise and control which direction trains go in intersections."
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.questC28FF9D09B326D7.subtitle}"
 			tasks: [{
 				id: "12A8B09593EB685E"
 				item: "railways:track_switch_andesite"
@@ -177,7 +177,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Lets you couple and decouple trains without dissasembly."
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest5301642EE0752220.subtitle}"
 			tasks: [{
 				id: "7EDE06A5392F7A5B"
 				item: "railways:track_coupler"
@@ -200,7 +200,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Ponder"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest52490456CC021CD1.subtitle}"
 			tasks: [{
 				id: "262ADFC794B3089C"
 				item: "railways:semaphore"
@@ -211,11 +211,11 @@
 		}
 		{
 			description: [
-				"Welcome to the world of railways engineering! This chapter will guide you through building and managing your own railway empire using Create's train system."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"From basic tracks to complex automated networks, you'll learn everything needed to become a master railroad engineer."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Get ready to lay tracks, build locomotives, and watch your trains transport goods and passengers across your world!"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest89E138A15237C67.description1}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest89E138A15237C67.image0}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest89E138A15237C67.description2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest89E138A15237C67.image2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest89E138A15237C67.description3}"
 			]
 			icon: {
 				Count: 1
@@ -239,10 +239,10 @@
 			]
 			shape: "gear"
 			size: 1.25d
-			subtitle: "Hey u made it to here!"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest89E138A15237C67.subtitle}"
 			tasks: [{
 				id: "2211F877FE4A671D"
-				title: "Locomotive Engineer"
+				title: "{ftbquests.chapter.linggango_cut_content_quests.quest89E138A15237C67.task.2455016466144716573.title}"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -256,27 +256,27 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "The Track Coupler allows you to connect trains together."
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest3FBCBA4D984B3B5D.subtitle}"
 			tasks: [{
 				id: "2B58C7EBBC18E024"
 				item: "railways:track_coupler"
 				type: "item"
 			}]
-			title: "Multi-Car Trains"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest3FBCBA4D984B3B5D.title}"
 			x: 7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5C3180BD9AD7E0C9"]
 			description: [
-				"The handcar is a manually powered rail vehicle added by Steam 'n' Rails."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7To use a handcar:"
-				"§71. Craft the handcar components"
-				"§72. Place it on the tracks"
-				"§73. Players can operate it by 'pumping' (sneak + use)"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Handcars are perfect for track inspection or short trips without setting up a full locomotive!"
+				"{ftbquests.chapter.linggango_cut_content_quests.questBE140A8B9165E0E.description1}"
+				"{ftbquests.chapter.linggango_cut_content_quests.questBE140A8B9165E0E.image0}"
+				"{ftbquests.chapter.linggango_cut_content_quests.questBE140A8B9165E0E.description2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.questBE140A8B9165E0E.description3}"
+				"{ftbquests.chapter.linggango_cut_content_quests.questBE140A8B9165E0E.description4}"
+				"{ftbquests.chapter.linggango_cut_content_quests.questBE140A8B9165E0E.description5}"
+				"{ftbquests.chapter.linggango_cut_content_quests.questBE140A8B9165E0E.image2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.questBE140A8B9165E0E.description6}"
 			]
 			id: "0BE140A8B9165E0E"
 			rewards: [{
@@ -284,19 +284,19 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Simple handcar"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.questBE140A8B9165E0E.subtitle}"
 			tasks: [{
 				id: "1CE98C5FAF8FEBD9"
 				item: "railways:handcar"
 				type: "item"
 			}]
-			title: "Maintenance Vehicle"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.questBE140A8B9165E0E.title}"
 			x: 9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["089E138A15237C67"]
-			description: ["Trains are probably the coolest way of transportation in this modpack, so why not make them cooler by adding decorations!"]
+			description: ["{ftbquests.chapter.linggango_cut_content_quests.quest5C3180BD9AD7E0C9.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -312,13 +312,13 @@
 			}]
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest5C3180BD9AD7E0C9.subtitle}"
 			tasks: [{
 				id: "6B16B41D7C3E2387"
-				title: "Ready to Expand Your Railway?"
+				title: "{ftbquests.chapter.linggango_cut_content_quests.quest5C3180BD9AD7E0C9.task.7716553050277421959.title}"
 				type: "checkmark"
 			}]
-			title: "Decorating Trains"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest5C3180BD9AD7E0C9.title}"
 			x: 10.0d
 			y: -3.0d
 		}
@@ -330,27 +330,27 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "calling your train to your location"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest1EB1D93A86CBAC7D.subtitle}"
 			tasks: [{
 				id: "2A8D3D249D72D0AD"
 				item: "railways:conductor_whistle"
 				type: "item"
 			}]
-			title: "Remote Train Summoning"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest1EB1D93A86CBAC7D.title}"
 			x: 10.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5C3180BD9AD7E0C9"]
 			description: [
-				"Steam 'n' Rails adds semaphores - visual indicators for your train signals."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7To use semaphores effectively:"
-				"§71. Place them adjacent to track signals"
-				"§72. Configure their appearance and behavior"
-				"§73. They'll provide clear visual feedback about signal status"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Semaphores make it easier to see signal status from a distance, especially useful for complex networks!"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest37E008F32DD7BD7B.description1}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest37E008F32DD7BD7B.image0}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest37E008F32DD7BD7B.description2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest37E008F32DD7BD7B.description3}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest37E008F32DD7BD7B.description4}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest37E008F32DD7BD7B.description5}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest37E008F32DD7BD7B.image2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest37E008F32DD7BD7B.description6}"
 			]
 			id: "37E008F32DD7BD7B"
 			rewards: [{
@@ -363,21 +363,21 @@
 				item: "railways:semaphore"
 				type: "item"
 			}]
-			title: "Visual Signal Indicators"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest37E008F32DD7BD7B.title}"
 			x: 11.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["37E008F32DD7BD7B"]
 			description: [
-				"Brass switches allow for changing track directions from a distance."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7To use brass switches effectively:"
-				"§71. Place them at track junctions"
-				"§72. Connect to redstone signals if desired"
-				"§73. They can be activated by approaching trains"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: These are essential for automated rail networks with multiple paths. Try combining them with observers for automated routing!"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest58622C7D53FEA01C.description1}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest58622C7D53FEA01C.image0}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest58622C7D53FEA01C.description2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest58622C7D53FEA01C.description3}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest58622C7D53FEA01C.description4}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest58622C7D53FEA01C.description5}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest58622C7D53FEA01C.image2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest58622C7D53FEA01C.description6}"
 			]
 			id: "58622C7D53FEA01C"
 			rewards: [{
@@ -390,20 +390,20 @@
 				item: "railways:track_switch_brass"
 				type: "item"
 			}]
-			title: "Smart Junction Control"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest58622C7D53FEA01C.title}"
 			x: 12.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["58622C7D53FEA01C"]
-			description: ["Fancy way of stopping your train."]
+			description: ["{ftbquests.chapter.linggango_cut_content_quests.quest771956DECDF560B6.description1}"]
 			id: "771956DECDF560B6"
 			rewards: [{
 				id: "48C4E4E34043DAEF"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Stop!"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest771956DECDF560B6.subtitle}"
 			tasks: [{
 				id: "7B8B58A913E85961"
 				item: "railways:buffer"
@@ -420,29 +420,29 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "A digital screen.. i wonder what u can do with it"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest5B75EA807BE749FC.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "764B2F4C44D1C53A"
 				item: "create:display_board"
 				type: "item"
 			}]
-			title: "Railway Signage"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest5B75EA807BE749FC.title}"
 			x: 7.5d
 			y: 1.0d
 		}
 		{
 			description: [
-				"A well-designed train platform enhances the aesthetics and functionality of your stations."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Elements of a great train platform:"
-				"§71. Raised platform at the right height for easy boarding"
-				"§72. Roof to protect from weather"
-				"§73. Seating areas for waiting passengers"
-				"§74. Lighting for nighttime operation"
-				"§75. Decorative elements like flowers or banners"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Use stairs and slabs to create smooth transitions between platform levels!"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.description1}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.image0}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.description2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.description3}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.description4}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.description5}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.description6}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.description7}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.image2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.description8}"
 			]
 			id: "70FB8E3FB9EB0F19"
 			rewards: [{
@@ -461,7 +461,7 @@
 							value: "minecraft:stairs"
 						}
 					}
-					title: "Any Stairs"
+					title: "{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.task.1425888268504323237.title}"
 					type: "item"
 				}
 				{
@@ -474,11 +474,11 @@
 							value: "minecraft:slabs"
 						}
 					}
-					title: "Any Slab"
+					title: "{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.task.4665371084127236672.title}"
 					type: "item"
 				}
 			]
-			title: "Platform Design"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest70FB8E3FB9EB0F19.title}"
 			x: 9.0d
 			y: 1.0d
 		}
@@ -508,15 +508,15 @@
 		}
 		{
 			description: [
-				"Advanced train interiors make travel more functional and comfortable."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7For a proper passenger car:"
-				"§71. Add seating with chairs or benches"
-				"§72. Place chests for storage"
-				"§73. Add lighting with lanterns"
-				"§74. Consider decorative elements like signs and item frames"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Different wood types and materials can create unique aesthetics for each car!"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest7795CDCBAA1C9A1F.description1}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest7795CDCBAA1C9A1F.image0}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest7795CDCBAA1C9A1F.description2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest7795CDCBAA1C9A1F.description3}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest7795CDCBAA1C9A1F.description4}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest7795CDCBAA1C9A1F.description5}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest7795CDCBAA1C9A1F.description6}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest7795CDCBAA1C9A1F.image2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest7795CDCBAA1C9A1F.description7}"
 			]
 			id: "7795CDCBAA1C9A1F"
 			rewards: [{
@@ -534,7 +534,7 @@
 							value: "minecraft:wooden_slabs"
 						}
 					}
-					title: "Any Wooden Slab"
+					title: "{ftbquests.chapter.linggango_cut_content_quests.quest7795CDCBAA1C9A1F.task.4234256764127812887.title}"
 					type: "item"
 				}
 				{
@@ -546,7 +546,7 @@
 							value: "minecraft:signs"
 						}
 					}
-					title: "Any Sign"
+					title: "{ftbquests.chapter.linggango_cut_content_quests.quest7795CDCBAA1C9A1F.task.283918099402466150.title}"
 					type: "item"
 				}
 				{
@@ -555,22 +555,22 @@
 					type: "item"
 				}
 			]
-			title: "Interior Design"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest7795CDCBAA1C9A1F.title}"
 			x: 10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7795CDCBAA1C9A1F"]
 			description: [
-				"Creating themed train cars adds personality to your railway system."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Ideas for themed train cars:"
-				"§71. Dining car with tables and food displays"
-				"§72. Luxury sleeping car with beds and decorative items"
-				"§73. Mail car with chests and item sorters"
-				"§74. Observation car with glass roof and panoramic views"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Use different wood types, colored glass, and decorative blocks to create distinct themes!"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest42D5840E0F4CED41.description1}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest42D5840E0F4CED41.image0}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest42D5840E0F4CED41.description2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest42D5840E0F4CED41.description3}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest42D5840E0F4CED41.description4}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest42D5840E0F4CED41.description5}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest42D5840E0F4CED41.description6}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest42D5840E0F4CED41.image2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest42D5840E0F4CED41.description7}"
 			]
 			id: "42D5840E0F4CED41"
 			rewards: [{
@@ -587,10 +587,10 @@
 						value: "minecraft:beds"
 					}
 				}
-				title: "Any Bed"
+				title: "{ftbquests.chapter.linggango_cut_content_quests.quest42D5840E0F4CED41.task.7950615700224926191.title}"
 				type: "item"
 			}]
-			title: "Themed Train Cars"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest42D5840E0F4CED41.title}"
 			x: 10.0d
 			y: 1.5d
 		}
@@ -601,7 +601,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Metro system hell yeaahh"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest79F4FBB896CCBEF8.subtitle}"
 			tasks: [{
 				id: "3D6DC388920243DB"
 				item: "bellsandwhistles:metro_casing"
@@ -612,16 +612,16 @@
 		}
 		{
 			description: [
-				"Add flair to your trains with decorative accessories!"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Ideas for train decorations:"
-				"§71. Hanging lanterns for nighttime illumination"
-				"§72. Flowerpots for a touch of nature"
-				"§73. Custom banners with your railway logo"
-				"§74. Item displays showing cargo or destinations"
-				"§75. Trapdoors and fences for detailed exteriors"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"§7Tip: Small details make a big difference in the appearance of your trains!"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest11E7A6BEB9954B6D.description1}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest11E7A6BEB9954B6D.image0}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest11E7A6BEB9954B6D.description2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest11E7A6BEB9954B6D.description3}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest11E7A6BEB9954B6D.description4}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest11E7A6BEB9954B6D.description5}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest11E7A6BEB9954B6D.description6}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest11E7A6BEB9954B6D.description7}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest11E7A6BEB9954B6D.image2}"
+				"{ftbquests.chapter.linggango_cut_content_quests.quest11E7A6BEB9954B6D.description8}"
 			]
 			id: "11E7A6BEB9954B6D"
 			rewards: [{
@@ -644,11 +644,11 @@
 							value: "minecraft:trapdoors"
 						}
 					}
-					title: "Any Trapdoor"
+					title: "{ftbquests.chapter.linggango_cut_content_quests.quest11E7A6BEB9954B6D.task.4244282633681950802.title}"
 					type: "item"
 				}
 			]
-			title: "Train Accessories"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest11E7A6BEB9954B6D.title}"
 			x: 11.0d
 			y: 2.0d
 		}
@@ -699,7 +699,7 @@
 				}
 				type: "item"
 			}]
-			title: "Door steps"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest1F2B394B68E453CD.title}"
 			x: 9.5d
 			y: 3.5d
 		}
@@ -750,7 +750,7 @@
 				}
 				type: "item"
 			}]
-			title: "Grab bars"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest2EBCD918E50E3498.title}"
 			x: 10.5d
 			y: 3.5d
 		}
@@ -801,7 +801,7 @@
 				}
 				type: "item"
 			}]
-			title: "Steps"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest6E1B99A9F2189BCE.title}"
 			x: 11.5d
 			y: 3.5d
 		}
@@ -813,7 +813,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "or just to ram through everything (u cant)"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest505D9EEB5F69D8B5.subtitle}"
 			tasks: [{
 				id: "1768D8820878E2DC"
 				item: {
@@ -1006,7 +1006,7 @@
 				}
 				type: "item"
 			}]
-			title: "Pilots"
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest505D9EEB5F69D8B5.title}"
 			x: 12.5d
 			y: 3.5d
 		}
@@ -1042,7 +1042,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "make sure to use headlights too"
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest283E28EE867E006D.subtitle}"
 			tasks: [
 				{
 					id: "13E43E8C572ABAAC"
@@ -1097,5 +1097,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Linggango cut-content: quests"
+	title: "{ftbquests.chapter.linggango_cut_content_quests.title}"
 }

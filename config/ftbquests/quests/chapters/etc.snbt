@@ -17,10 +17,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.etc.image.hovertext1"
+				"ftbquests.chapter.etc.image.hovertext2"
+				"ftbquests.chapter.etc.image.hovertext3"
+				"ftbquests.chapter.etc.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -31,7 +31,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.etc.image.hovertext5"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -43,7 +43,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Lot of things that will cure your boredom."]
+			description: ["{ftbquests.chapter.etc.questF7C91873C1F3B5E.description1}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -61,26 +61,26 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.etc.questF7C91873C1F3B5E.subtitle}"
 			tasks: [{
 				id: "2000C1CA81C2BD4C"
-				title: "Yes fun fun"
+				title: "{ftbquests.chapter.etc.questF7C91873C1F3B5E.task.2306056084718271820.title}"
 				type: "checkmark"
 			}]
-			title: "Useful / Fun Things"
+			title: "{ftbquests.chapter.etc.questF7C91873C1F3B5E.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]
-			description: ["A bumerang that can deal damage and break blocks for you!"]
+			description: ["{ftbquests.chapter.etc.quest3B30AFF91D59746A.description1}"]
 			id: "3B30AFF91D59746A"
 			rewards: [{
 				id: "2F057CA8AA69DDE7"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.etc.quest3B30AFF91D59746A.subtitle}"
 			tasks: [{
 				id: "436D7FA36BB7DBC7"
 				item: {
@@ -97,14 +97,14 @@
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]
-			description: ["A stronger version of pickarang."]
+			description: ["{ftbquests.chapter.etc.quest33176CD4D28070D3.description1}"]
 			id: "33176CD4D28070D3"
 			rewards: [{
 				id: "379918CB1EAD2A58"
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.etc.quest33176CD4D28070D3.subtitle}"
 			tasks: [{
 				id: "516842080F2C3202"
 				item: {
@@ -121,7 +121,7 @@
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]
-			description: ["&eA mod&r &cthat&r &fwill&r &3let&r &1you&r &adraw&r &4your&r &cown&r &fpaintings&r &9and&r &6display&r &3them&r &cin&r &dyour&r &ahouse."]
+			description: ["{ftbquests.chapter.etc.quest387AAF488E39C70C.description1}"]
 			icon: "xercapaint:item_easel"
 			id: "387AAF488E39C70C"
 			rewards: [
@@ -141,19 +141,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.etc.quest387AAF488E39C70C.subtitle}"
 			tasks: [{
 				id: "67407617A34886D8"
-				title: "OMG!"
+				title: "{ftbquests.chapter.etc.quest387AAF488E39C70C.task.7440076428311824088.title}"
 				type: "checkmark"
 			}]
-			title: "&aI&r &cam&r &da&r &eArtist!&r"
+			title: "{ftbquests.chapter.etc.quest387AAF488E39C70C.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]
-			description: ["Signal strength depends on how long you look at it."]
+			description: ["{ftbquests.chapter.etc.quest7F524D37BF26B35.description1}"]
 			icon: "supplementaries:enderman_head"
 			id: "07F524D37BF26B35"
 			rewards: [{
@@ -161,36 +161,36 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Emit a redstone signal when being stared at."
+			subtitle: "{ftbquests.chapter.etc.quest7F524D37BF26B35.subtitle}"
 			tasks: [{
 				id: "1E3A7A0D2D5BC7D7"
 				type: "checkmark"
 			}]
-			title: "Enderman Head"
+			title: "{ftbquests.chapter.etc.quest7F524D37BF26B35.title}"
 			x: 0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0F7C91873C1F3B5E"]
 			description: [
-				"Placing a &aSkeleton Skull&r, &aZombie Head&r, or &aCreeper Head&r over a &afence&r, will create a skull pike. Nearby &emonsters&r in a 5 block range and with line of sight will run away from it."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&eBosses&r and &eRaiders&r are slightly more astute, and won't fall for your tricks."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"&8Everyone knows Wither Skeletons drop their heads all the time, and Dragon Heads are all cheap fakes, so those won't work either.&r"
+				"{ftbquests.chapter.etc.quest354C7B4A8008A531.description1}"
+				"{ftbquests.chapter.etc.quest354C7B4A8008A531.image0}"
+				"{ftbquests.chapter.etc.quest354C7B4A8008A531.description2}"
+				"{ftbquests.chapter.etc.quest354C7B4A8008A531.image2}"
+				"{ftbquests.chapter.etc.quest354C7B4A8008A531.description3}"
 			]
 			icon: "minecraft:skeleton_skull"
 			id: "354C7B4A8008A531"
-			subtitle: "Nearby monsters run away in cowardice."
+			subtitle: "{ftbquests.chapter.etc.quest354C7B4A8008A531.subtitle}"
 			tasks: [{
 				id: "7E0DBCB524FECF77"
 				type: "checkmark"
 			}]
-			title: "Skull Pikes"
+			title: "{ftbquests.chapter.etc.quest354C7B4A8008A531.title}"
 			x: -0.5d
 			y: -3.0d
 		}
 	]
-	subtitle: ["You are bored? Check here!"]
-	title: "<shadow a=0.4><grad from=#2BFF95 to=#A6FFD2>Others</grad></shadow>"
+	subtitle: ["{ftbquests.chapter.etc.subtitle0}"]
+	title: "{ftbquests.chapter.etc.title}"
 }

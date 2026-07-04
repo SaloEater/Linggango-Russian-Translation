@@ -25,7 +25,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is not done"]
+			hover: ["ftbquests.chapter.linggango.image.hovertext1"]
 			image: "bloodmagic:models/alchemyarrays/wiparray"
 			rotation: 0.0d
 			width: 1.0d
@@ -36,10 +36,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.linggango.image.hovertext2"
+				"ftbquests.chapter.linggango.image.hovertext3"
+				"ftbquests.chapter.linggango.image.hovertext4"
+				"ftbquests.chapter.linggango.image.hovertext5"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -50,7 +50,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.linggango.image.hovertext6"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -63,9 +63,9 @@
 	quests: [
 		{
 			description: [
-				"Spell was always a second thing in Linggango (for most of people) "
+				"{ftbquests.chapter.linggango.quest5FB33243961A651C.description1}"
 				""
-				"So i have decided to make it use-able by giving people opportunity to make it genunienly powerful!"
+				"{ftbquests.chapter.linggango.quest5FB33243961A651C.description2}"
 			]
 			icon: {
 				Count: 1
@@ -78,26 +78,26 @@
 			id: "5FB33243961A651C"
 			shape: "square"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.linggango.quest5FB33243961A651C.subtitle}"
 			tasks: [{
 				id: "558D2DA2492E4424"
-				title: "finally"
+				title: "{ftbquests.chapter.linggango.quest5FB33243961A651C.task.6164633639975797796.title}"
 				type: "checkmark"
 			}]
-			title: "Enhancing Spell Power"
+			title: "{ftbquests.chapter.linggango.quest5FB33243961A651C.title}"
 			x: -13.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["5FB33243961A651C"]
 			description: [
-				"Eating mana shards increase your irons and ars nouveau spell power significantly!"
+				"{ftbquests.chapter.linggango.quest6D1FE2F4F129CBD.description1}"
 				""
-				"&eFading shard of mana gives 3x Spell Damage."
+				"{ftbquests.chapter.linggango.quest6D1FE2F4F129CBD.description2}"
 			]
 			id: "06D1FE2F4F129CBD"
 			size: 1.0d
-			subtitle: "Mana Shards!"
+			subtitle: "{ftbquests.chapter.linggango.quest6D1FE2F4F129CBD.subtitle}"
 			tasks: [{
 				id: "0FF9B345FF5AFDD6"
 				item: "kubejs:fading_shard_of_compressed_mana"
@@ -108,11 +108,11 @@
 		}
 		{
 			dependencies: ["06D1FE2F4F129CBD"]
-			description: ["&eShard of pure mana gives 5x Spell Damage."]
+			description: ["{ftbquests.chapter.linggango.quest3C24B0C9C6C800B5.description1}"]
 			id: "3C24B0C9C6C800B5"
 			shape: "square"
 			size: 1.0d
-			subtitle: "a non-faded version"
+			subtitle: "{ftbquests.chapter.linggango.quest3C24B0C9C6C800B5.subtitle}"
 			tasks: [{
 				id: "425ADFF1B86A1B98"
 				item: "kubejs:shard_of_compressed_mana"
@@ -126,7 +126,7 @@
 			id: "315B464B2A0A0649"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "a magic vessel that holds countless different mana sources."
+			subtitle: "{ftbquests.chapter.linggango.quest315B464B2A0A0649.subtitle}"
 			tasks: [{
 				id: "20BAC3A256A2C0F7"
 				item: "kubejs:magic_vessel"
@@ -137,7 +137,7 @@
 		}
 		{
 			dependencies: ["49F5FCDCC7AD915C"]
-			description: ["Other creative items will be eventually added."]
+			description: ["{ftbquests.chapter.linggango.quest30E2FD6B069866FB.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -148,13 +148,13 @@
 			id: "30E2FD6B069866FB"
 			shape: "square"
 			size: 1.1d
-			subtitle: "Now there's a way to obtain them without cheating!"
+			subtitle: "{ftbquests.chapter.linggango.quest30E2FD6B069866FB.subtitle}"
 			tasks: [{
 				id: "151354A739FC089D"
-				title: "Dam"
+				title: "{ftbquests.chapter.linggango.quest30E2FD6B069866FB.task.1518650576563079325.title}"
 				type: "checkmark"
 			}]
-			title: "Creative \\& Uncraftable Items"
+			title: "{ftbquests.chapter.linggango.quest30E2FD6B069866FB.title}"
 			x: -12.5d
 			y: -0.5d
 		}
@@ -268,11 +268,11 @@
 		}
 		{
 			dependencies: ["5FB33243961A651C"]
-			description: ["uhh"]
+			description: ["{ftbquests.chapter.linggango.quest5BE3FC72F249223.description1}"]
 			id: "05BE3FC72F249223"
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Made out of the smelliest things!"
+			subtitle: "{ftbquests.chapter.linggango.quest5BE3FC72F249223.subtitle}"
 			tasks: [{
 				id: "0A071A7826B7FDBD"
 				item: "kubejs:fartinium_ingot"
@@ -286,11 +286,11 @@
 				"14859EC7598714A8"
 				"05BE3FC72F249223"
 			]
-			description: ["Strongest ingot this modpack can offer! You can even craft some creative items with it."]
+			description: ["{ftbquests.chapter.linggango.quest49F5FCDCC7AD915C.description1}"]
 			id: "49F5FCDCC7AD915C"
 			shape: "gear"
 			size: 1.3d
-			subtitle: "True End-Game"
+			subtitle: "{ftbquests.chapter.linggango.quest49F5FCDCC7AD915C.subtitle}"
 			tasks: [{
 				id: "4B8F4F7AB13ED321"
 				item: "kubejs:linggangoonium_ingot"
@@ -301,9 +301,9 @@
 		}
 		{
 			dependencies: ["315B464B2A0A0649"]
-			description: ["&ePurified Shard of Mana gives 8x spell damage."]
+			description: ["{ftbquests.chapter.linggango.quest14859EC7598714A8.description1}"]
 			id: "14859EC7598714A8"
-			subtitle: "Spells are actually useful now?"
+			subtitle: "{ftbquests.chapter.linggango.quest14859EC7598714A8.subtitle}"
 			tasks: [{
 				id: "67295D003B74270D"
 				item: "kubejs:purified_shard_of_compressed_mana"
@@ -313,5 +313,5 @@
 			y: -1.5d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#945B1E to=#C4B78B>Linggango</grad></shadow>"
+	title: "{ftbquests.chapter.linggango.title}"
 }

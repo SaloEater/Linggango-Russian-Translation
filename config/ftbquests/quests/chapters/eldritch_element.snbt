@@ -219,10 +219,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.eldritch_element.image.hovertext1"
+				"ftbquests.chapter.eldritch_element.image.hovertext2"
+				"ftbquests.chapter.eldritch_element.image.hovertext3"
+				"ftbquests.chapter.eldritch_element.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -238,8 +238,8 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"Use Eldritch scrolls to learn eldritch spells"
-				"{image:irons_spellbooks:item/eldritch_manuscript width:32 height:32 align:center}"
+				"{ftbquests.chapter.eldritch_element.quest4DBFF18C1E2E8B36.description1}"
+				"{ftbquests.chapter.eldritch_element.quest4DBFF18C1E2E8B36.image0}"
 				""
 				""
 			]
@@ -254,13 +254,13 @@
 			id: "4DBFF18C1E2E8B36"
 			shape: "none"
 			size: 2.0d
-			subtitle: "The Eldritch school is not like the others. It is an ancient and powerful way of magic, one that has all but been forgotten"
+			subtitle: "{ftbquests.chapter.eldritch_element.quest4DBFF18C1E2E8B36.subtitle}"
 			tasks: [{
 				id: "7A57110225575CB8"
 				item: "irons_spellbooks:eldritch_manuscript"
 				type: "item"
 			}]
-			title: "Eldritch magic"
+			title: "{ftbquests.chapter.eldritch_element.quest4DBFF18C1E2E8B36.title}"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -278,7 +278,7 @@
 			id: "461EF28E672C91B4"
 			invisible: true
 			shape: "square"
-			subtitle: "Shift your vision in between planes, gaining the ability to see creatures through solid material."
+			subtitle: "{ftbquests.chapter.eldritch_element.quest461EF28E672C91B4.subtitle}"
 			tasks: [{
 				id: "00A0929D9E3F0A9C"
 				item: {
@@ -301,7 +301,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Planar Sight"
+			title: "{ftbquests.chapter.eldritch_element.quest461EF28E672C91B4.title}"
 			x: -3.5d
 			y: 1.5d
 		}
@@ -319,7 +319,7 @@
 			id: "587C0FA60280A1D6"
 			invisible: true
 			shape: "square"
-			subtitle: "Cloak yourself with the shadows of the abyss, granting the ability to evade any attack for a short duration of time."
+			subtitle: "{ftbquests.chapter.eldritch_element.quest587C0FA60280A1D6.subtitle}"
 			tasks: [{
 				id: "10240F9998974BC1"
 				item: {
@@ -342,7 +342,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Abyssal Shroud"
+			title: "{ftbquests.chapter.eldritch_element.quest587C0FA60280A1D6.title}"
 			x: 0.5d
 			y: 1.5d
 		}
@@ -359,7 +359,7 @@
 			id: "18FA3B73EB986984"
 			invisible: true
 			shape: "square"
-			subtitle: "Fire rays of pure, devastating energy."
+			subtitle: "{ftbquests.chapter.eldritch_element.quest18FA3B73EB986984.subtitle}"
 			tasks: [{
 				id: "6E75D1CEE07BDF45"
 				item: {
@@ -382,7 +382,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Eldritch Blast"
+			title: "{ftbquests.chapter.eldritch_element.quest18FA3B73EB986984.title}"
 			x: 0.5d
 			y: -2.0d
 		}
@@ -399,7 +399,7 @@
 			id: "3D55FE37FAD87BD4"
 			invisible: true
 			shape: "square"
-			subtitle: "From where you look, erupt a mass of sculk energy in the form of wailing tentacles, damaging and blinding creatures caught in the chaos."
+			subtitle: "{ftbquests.chapter.eldritch_element.quest3D55FE37FAD87BD4.subtitle}"
 			tasks: [{
 				id: "295BD9C3DC7B2583"
 				item: {
@@ -422,7 +422,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Sculk Tentacles"
+			title: "{ftbquests.chapter.eldritch_element.quest3D55FE37FAD87BD4.title}"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -440,7 +440,7 @@
 			id: "79EE4E4F348C1C7B"
 			invisible: true
 			shape: "square"
-			subtitle: "Blast forth a sonic boom of immense power, passing through solid material with ease and harming the first creature in its path."
+			subtitle: "{ftbquests.chapter.eldritch_element.quest79EE4E4F348C1C7B.subtitle}"
 			tasks: [{
 				id: "0CCBFA729B3D6B6E"
 				item: {
@@ -463,7 +463,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Sonic Boom"
+			title: "{ftbquests.chapter.eldritch_element.quest79EE4E4F348C1C7B.title}"
 			x: -2.5d
 			y: 2.0d
 		}
@@ -481,7 +481,7 @@
 			id: "7CE5A368E47F482C"
 			invisible: true
 			shape: "square"
-			subtitle: "Reach out with a spectral force and grip a creature, forcing them towards your gaze. Creatures are susceptible to kinetic damage."
+			subtitle: "{ftbquests.chapter.eldritch_element.quest7CE5A368E47F482C.subtitle}"
 			tasks: [{
 				id: "279A1F5FF2FC01BC"
 				item: {
@@ -504,7 +504,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Telekinesis"
+			title: "{ftbquests.chapter.eldritch_element.quest7CE5A368E47F482C.title}"
 			x: -3.5d
 			y: -2.0d
 		}
@@ -881,7 +881,7 @@
 			id: "179DD942D7328FA0"
 			invisible: true
 			shape: "square"
-			subtitle: "Channel the power of Illush, The Abyss of Illusion, to drive the target into madness, causing it to attack nearby non-caster allies. Cannot coexist with Disillusion: Fear. Ineffective against certain creatures."
+			subtitle: "{ftbquests.chapter.eldritch_element.quest179DD942D7328FA0.subtitle}"
 			tasks: [{
 				id: "3341D832FC58C200"
 				item: {
@@ -1197,5 +1197,5 @@
 			y: -3.0d
 		}
 	]
-	title: "<grad from=#2B61FF to=#000000>Eldritch Element</grad>"
+	title: "{ftbquests.chapter.eldritch_element.title}"
 }

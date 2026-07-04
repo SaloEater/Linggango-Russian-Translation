@@ -10,7 +10,7 @@
 		{
 			click: "a"
 			height: 2.0d
-			hover: ["Top 10 Unique Swords"]
+			hover: ["ftbquests.chapter.simply_swords.image.hovertext1"]
 			image: "simplyswords:item/runic_tablet"
 			rotation: 0.0d
 			width: 2.0d
@@ -29,10 +29,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.simply_swords.image.hovertext2"
+				"ftbquests.chapter.simply_swords.image.hovertext3"
+				"ftbquests.chapter.simply_swords.image.hovertext4"
+				"ftbquests.chapter.simply_swords.image.hovertext5"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -43,7 +43,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.simply_swords.image.hovertext6"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -56,9 +56,9 @@
 	quests: [
 		{
 			description: [
-				"Simply Swords&r has tons of weapons to play around with!"
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"It also has the unique socketing mechanic to make your weapons stronger."
+				"{ftbquests.chapter.simply_swords.questF426527B63F854D.description1}"
+				"{ftbquests.chapter.simply_swords.questF426527B63F854D.image0}"
+				"{ftbquests.chapter.simply_swords.questF426527B63F854D.description2}"
 			]
 			icon: {
 				Count: 1
@@ -94,22 +94,22 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.simply_swords.questF426527B63F854D.subtitle}"
 			tasks: [{
 				id: "6461B5E43F7DF63E"
-				title: "Alright man"
+				title: "{ftbquests.chapter.simply_swords.questF426527B63F854D.task.7233262468456117822.title}"
 				type: "checkmark"
 			}]
-			title: "Simply Swords"
+			title: "{ftbquests.chapter.simply_swords.questF426527B63F854D.title}"
 			x: -7.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["574677AD427E33FB"]
 			description: [
-				"Empowered Remnants&r are created by melting down unique weapons."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"They are used in the creation of Runefused Gems&r, and Netherfused Gems&r."
+				"{ftbquests.chapter.simply_swords.quest5AA2A1E358A18B4E.description1}"
+				"{ftbquests.chapter.simply_swords.quest5AA2A1E358A18B4E.image0}"
+				"{ftbquests.chapter.simply_swords.quest5AA2A1E358A18B4E.description2}"
 			]
 			id: "5AA2A1E358A18B4E"
 			rewards: [
@@ -132,7 +132,7 @@
 			]
 			shape: "hexagon"
 			size: 1.3d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.simply_swords.quest5AA2A1E358A18B4E.subtitle}"
 			tasks: [{
 				id: "5DF612576542C997"
 				item: "simplyswords:empowered_remnant"
@@ -144,9 +144,9 @@
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
 			description: [
-				"To make it, combine a &bRunic Tablet&r with a &cEmpowered Remnant&r in a Smithing Table."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Click to identify which power you have rolled."
+				"{ftbquests.chapter.simply_swords.quest3E5207641E8653DC.description1}"
+				"{ftbquests.chapter.simply_swords.quest3E5207641E8653DC.image0}"
+				"{ftbquests.chapter.simply_swords.quest3E5207641E8653DC.description2}"
 			]
 			id: "3E5207641E8653DC"
 			rewards: [
@@ -169,7 +169,7 @@
 			]
 			shape: "octagon"
 			size: 1.15d
-			subtitle: "Crafted with empowered remmnant"
+			subtitle: "{ftbquests.chapter.simply_swords.quest3E5207641E8653DC.subtitle}"
 			tasks: [{
 				id: "5C78E6FA3E4F93CB"
 				item: "simplyswords:runefused_gem"
@@ -181,9 +181,9 @@
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
 			description: [
-				"Combine a &cEmpowered Remnant&r with a &6Netherite Ingot&r in a Smithing Table."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Click to identify which power you have rolled."
+				"{ftbquests.chapter.simply_swords.quest47EBDA6516061205.description1}"
+				"{ftbquests.chapter.simply_swords.quest47EBDA6516061205.image0}"
+				"{ftbquests.chapter.simply_swords.quest47EBDA6516061205.description2}"
 			]
 			id: "47EBDA6516061205"
 			rewards: [
@@ -206,7 +206,7 @@
 			]
 			shape: "octagon"
 			size: 1.15d
-			subtitle: "Crafted with empowered remmnant"
+			subtitle: "{ftbquests.chapter.simply_swords.quest47EBDA6516061205.subtitle}"
 			tasks: [{
 				id: "1F673D38D2BBDA24"
 				item: "simplyswords:netherfused_gem"
@@ -218,9 +218,9 @@
 		{
 			dependencies: ["0BA64BACC8B8EE1C"]
 			description: [
-				"This will be the first step in discovering sockets and runic powers!"
+				"{ftbquests.chapter.simply_swords.quest574677AD427E33FB.description1}"
 				""
-				"Unique weapons are not craftable, thus you have to explore and find loot chests in order to find one!"
+				"{ftbquests.chapter.simply_swords.quest574677AD427E33FB.description2}"
 			]
 			icon_scale: 0.8d
 			id: "574677AD427E33FB"
@@ -231,7 +231,7 @@
 			}]
 			shape: "octagon"
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.simply_swords.quest574677AD427E33FB.subtitle}"
 			tasks: [{
 				id: "0D8720163BD20211"
 				item: {
@@ -241,16 +241,16 @@
 						value: "simplyswords:uniques"
 					}
 				}
-				title: "Any Unique Weapon"
+				title: "{ftbquests.chapter.simply_swords.quest574677AD427E33FB.task.974783124213989905.title}"
 				type: "item"
 			}]
-			title: "&eUnique&r Weapons"
+			title: "{ftbquests.chapter.simply_swords.quest574677AD427E33FB.title}"
 			x: -5.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["0F426527B63F854D"]
-			description: ["Runic tablet can re-roll runic weapon attributes, it can also repair unique weapons when used in anvil!"]
+			description: ["{ftbquests.chapter.simply_swords.questBA64BACC8B8EE1C.description1}"]
 			id: "0BA64BACC8B8EE1C"
 			rewards: [
 				{
@@ -267,7 +267,7 @@
 			]
 			shape: "octagon"
 			size: 1.35d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.simply_swords.questBA64BACC8B8EE1C.subtitle}"
 			tasks: [{
 				id: "462968BD9065488E"
 				item: "simplyswords:runic_tablet"
@@ -278,7 +278,7 @@
 		}
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
-			description: ["Can be used to form a rune socket on a weapon that doesn't have it."]
+			description: ["{ftbquests.chapter.simply_swords.quest4224CA30DB5CBAB4.description1}"]
 			id: "4224CA30DB5CBAB4"
 			rewards: [{
 				id: "72E7111B7BEEFB72"
@@ -287,7 +287,7 @@
 			}]
 			shape: "octagon"
 			size: 1.15d
-			subtitle: "Crafted with empowered remmnant"
+			subtitle: "{ftbquests.chapter.simply_swords.quest4224CA30DB5CBAB4.subtitle}"
 			tasks: [{
 				id: "50032784379C214C"
 				item: "simplymore:runefused_carver"
@@ -298,7 +298,7 @@
 		}
 		{
 			dependencies: ["5AA2A1E358A18B4E"]
-			description: ["Can be used to form a rune socket on a weapon that doesn't have it."]
+			description: ["{ftbquests.chapter.simply_swords.quest492A24FCD5BE672E.description1}"]
 			id: "492A24FCD5BE672E"
 			rewards: [{
 				id: "4E0355768289CF7B"
@@ -307,7 +307,7 @@
 			}]
 			shape: "octagon"
 			size: 1.15d
-			subtitle: "Crafted with empowered remmnant"
+			subtitle: "{ftbquests.chapter.simply_swords.quest492A24FCD5BE672E.subtitle}"
 			tasks: [{
 				id: "6082C3145BE5CB38"
 				item: "simplymore:netherfused_carver"
@@ -319,9 +319,9 @@
 		{
 			dependencies: ["574677AD427E33FB"]
 			description: [
-				"A simply swords addon is also included in this pack."
+				"{ftbquests.chapter.simply_swords.quest4624090ECBE77E1A.description1}"
 				""
-				"Enjoy more unique swords!"
+				"{ftbquests.chapter.simply_swords.quest4624090ECBE77E1A.description2}"
 			]
 			id: "4624090ECBE77E1A"
 			rewards: [{
@@ -331,7 +331,7 @@
 			}]
 			shape: "octagon"
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.simply_swords.quest4624090ECBE77E1A.subtitle}"
 			tasks: [{
 				id: "552AAAEA53A3C4B5"
 				item: {
@@ -341,10 +341,10 @@
 						value: "simplymore:uniques"
 					}
 				}
-				title: "More Any Unique Weaponsd"
+				title: "{ftbquests.chapter.simply_swords.quest4624090ECBE77E1A.task.6136905365648032949.title}"
 				type: "item"
 			}]
-			title: "&cMore&r &eUnique&r Weapons"
+			title: "{ftbquests.chapter.simply_swords.quest4624090ECBE77E1A.title}"
 			x: -4.0d
 			y: 11.0d
 		}
@@ -352,7 +352,7 @@
 			id: "39F33AB6913DD21B"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Free Totem of Undying every 60s; absurd attack speed."
+			subtitle: "{ftbquests.chapter.simply_swords.quest39F33AB6913DD21B.subtitle}"
 			tasks: [{
 				id: "759DB8B8B521529F"
 				item: {
@@ -371,7 +371,7 @@
 			id: "613A0C0356DA3597"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Same as Wickpiercer but 2-handed; stronger DPS."
+			subtitle: "{ftbquests.chapter.simply_swords.quest613A0C0356DA3597.subtitle}"
 			tasks: [{
 				id: "1E26150B4C673712"
 				item: {
@@ -390,7 +390,7 @@
 			id: "4116AE1BE6901413"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Tanky sword with a dash ability for quick repositioning."
+			subtitle: "{ftbquests.chapter.simply_swords.quest4116AE1BE6901413.subtitle}"
 			tasks: [{
 				id: "456411B9308D32CD"
 				item: {
@@ -409,7 +409,7 @@
 			id: "7D24A866E490A373"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Attack speed ramp-up and Strength buff = huge DPS."
+			subtitle: "{ftbquests.chapter.simply_swords.quest7D24A866E490A373.subtitle}"
 			tasks: [{
 				id: "3EE306896F82E5CA"
 				item: {
@@ -428,7 +428,7 @@
 			id: "021D5AB2AC84DAC1"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Strong sustain with high speed builds."
+			subtitle: "{ftbquests.chapter.simply_swords.quest21D5AB2AC84DAC1.subtitle}"
 			tasks: [{
 				id: "1B8891641C57F740"
 				item: {
@@ -447,7 +447,7 @@
 			id: "135815C7AD5D4B5E"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Strong sustain with high speed builds."
+			subtitle: "{ftbquests.chapter.simply_swords.quest135815C7AD5D4B5E.subtitle}"
 			tasks: [{
 				id: "61DDBDB8D3FE7310"
 				item: {
@@ -466,7 +466,7 @@
 			id: "1F28358B6C6B1ECF"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Strong sustain with high speed builds."
+			subtitle: "{ftbquests.chapter.simply_swords.quest1F28358B6C6B1ECF.subtitle}"
 			tasks: [{
 				id: "07F850FEEC3500BA"
 				item: {
@@ -485,7 +485,7 @@
 			id: "433DF7CFC6C10162"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Crazy wave clear, though limited ability uptime."
+			subtitle: "{ftbquests.chapter.simply_swords.quest433DF7CFC6C10162.subtitle}"
 			tasks: [{
 				id: "10347505ED8EC2C8"
 				item: {
@@ -504,7 +504,7 @@
 			id: "5E557CD102681BA7"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Lifesteal and short immunity window; strong defensive weapon."
+			subtitle: "{ftbquests.chapter.simply_swords.quest5E557CD102681BA7.subtitle}"
 			tasks: [{
 				id: "5A18C62FBEB022C1"
 				item: {
@@ -523,7 +523,7 @@
 			id: "574863AB9B9138BE"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Good crowd control + immunity buff; solid hybrid weapon."
+			subtitle: "{ftbquests.chapter.simply_swords.quest574863AB9B9138BE.subtitle}"
 			tasks: [{
 				id: "470C5D652E28D439"
 				item: {
@@ -542,7 +542,7 @@
 			id: "6EA73AB5F57D347F"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Halberd-style powerhouse with big AoE control."
+			subtitle: "{ftbquests.chapter.simply_swords.quest6EA73AB5F57D347F.subtitle}"
 			tasks: [{
 				id: "1305C3BABE1BCBDB"
 				item: {
@@ -561,7 +561,7 @@
 			id: "46371BAF27AD1763"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Great DPS and permanent debuff, situational for ranged fights."
+			subtitle: "{ftbquests.chapter.simply_swords.quest46371BAF27AD1763.subtitle}"
 			tasks: [{
 				id: "6EE8FBAF07A1D341"
 				item: {
@@ -577,5 +577,5 @@
 			y: 17.5d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#61B0E7 to=#3C3C4F>Simply Swords</grad></shadow>"
+	title: "{ftbquests.chapter.simply_swords.title}"
 }

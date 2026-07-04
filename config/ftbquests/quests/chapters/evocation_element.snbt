@@ -10,10 +10,10 @@
 		dev: true
 		height: 1.0d
 		hover: [
-			"All rights are reserved."
-			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			"ftbquests.chapter.evocation_element.image.hovertext1"
+			"ftbquests.chapter.evocation_element.image.hovertext2"
+			"ftbquests.chapter.evocation_element.image.hovertext3"
+			"ftbquests.chapter.evocation_element.image.hovertext4"
 		]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
@@ -32,13 +32,13 @@
 			id: "784BE338677490B5"
 			shape: "none"
 			size: 2.5d
-			subtitle: "The Evocation school is themed around magical trickery and conjuration, covering the broadest range of offensive, defensive, and utility spells."
+			subtitle: "{ftbquests.chapter.evocation_element.quest784BE338677490B5.subtitle}"
 			tasks: [{
 				id: "54AA8A1E8C6F8DAB"
 				item: "irons_spellbooks:evocation_rune"
 				type: "item"
 			}]
-			title: "Evocation magic"
+			title: "{ftbquests.chapter.evocation_element.quest784BE338677490B5.title}"
 			x: -0.5d
 			y: -1.5d
 		}
@@ -54,7 +54,7 @@
 			icon_scale: 1.4d
 			id: "1164BA8F16BF413E"
 			shape: "square"
-			subtitle: "Around a targeted creature or block, summon a rolling wave of magical arrows from the sky."
+			subtitle: "{ftbquests.chapter.evocation_element.quest1164BA8F16BF413E.subtitle}"
 			tasks: [{
 				id: "651D94CDABB9AA62"
 				item: {
@@ -77,7 +77,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Arrow Volley"
+			title: "{ftbquests.chapter.evocation_element.quest1164BA8F16BF413E.title}"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -93,7 +93,7 @@
 			icon_scale: 1.4d
 			id: "4571B69D0EC1EFA6"
 			shape: "square"
-			subtitle: "Around a targeted creature or block, conjure a ring of creeper heads that falls to the ground and explodes. Any creature killed by this blast will conjure another, smaller, ring of creeper heads. This can chain multiple times."
+			subtitle: "{ftbquests.chapter.evocation_element.quest4571B69D0EC1EFA6.subtitle}"
 			tasks: [{
 				id: "01E48EA956ECE7B9"
 				item: {
@@ -116,7 +116,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Chain Creeper"
+			title: "{ftbquests.chapter.evocation_element.quest4571B69D0EC1EFA6.title}"
 			x: -0.5d
 			y: 0.0d
 		}
@@ -132,7 +132,7 @@
 			icon_scale: 1.4d
 			id: "6DB87EC19CF16B24"
 			shape: "square"
-			subtitle: "Conjure a line of evoker fangs in front of you, in classic illager fashion."
+			subtitle: "{ftbquests.chapter.evocation_element.quest6DB87EC19CF16B24.subtitle}"
 			tasks: [{
 				id: "0E713CAEA04AE8F5"
 				item: {
@@ -155,7 +155,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Fang Strike"
+			title: "{ftbquests.chapter.evocation_element.quest6DB87EC19CF16B24.title}"
 			x: 0.5d
 			y: 0.0d
 		}
@@ -171,7 +171,7 @@
 			icon_scale: 1.4d
 			id: "6D084ADFEEA9A0EF"
 			shape: "square"
-			subtitle: "Conjure protective rings of evoker fangs around you, in classic illager fashion."
+			subtitle: "{ftbquests.chapter.evocation_element.quest6D084ADFEEA9A0EF.subtitle}"
 			tasks: [{
 				id: "780C138299165EE0"
 				item: {
@@ -194,7 +194,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Fang Ward"
+			title: "{ftbquests.chapter.evocation_element.quest6D084ADFEEA9A0EF.title}"
 			x: -1.5d
 			y: 1.0d
 		}
@@ -210,7 +210,7 @@
 			icon_scale: 1.4d
 			id: "77FDA17C83578D4B"
 			shape: "square"
-			subtitle: "Instantaneously conjure a firework where you look that explodes in a small radius around it."
+			subtitle: "{ftbquests.chapter.evocation_element.quest77FDA17C83578D4B.subtitle}"
 			tasks: [{
 				id: "13F8277BC0C58783"
 				item: {
@@ -233,7 +233,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Firecracker"
+			title: "{ftbquests.chapter.evocation_element.quest77FDA17C83578D4B.title}"
 			x: -0.5d
 			y: 1.0d
 		}
@@ -249,7 +249,7 @@
 			icon_scale: 1.4d
 			id: "084796FC4DDE0D4E"
 			shape: "square"
-			subtitle: "Conjure a strong gust of wind, knocking back creatures in a conical shape, causing damage if they impact a wall."
+			subtitle: "{ftbquests.chapter.evocation_element.quest84796FC4DDE0D4E.subtitle}"
 			tasks: [{
 				id: "6171F424F7611D0C"
 				item: {
@@ -272,7 +272,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Gust"
+			title: "{ftbquests.chapter.evocation_element.quest84796FC4DDE0D4E.title}"
 			x: 0.5d
 			y: 1.0d
 		}
@@ -288,7 +288,7 @@
 			icon_scale: 1.4d
 			id: "1AED69D6D4CF341A"
 			shape: "square"
-			subtitle: "Cast to briefly grant yourself true invisibility, which hides armor and held items, but immediately wears off upon dealing damage. Mobs also lose aggro."
+			subtitle: "{ftbquests.chapter.evocation_element.quest1AED69D6D4CF341A.subtitle}"
 			tasks: [{
 				id: "5DA146B1D253021D"
 				item: {
@@ -311,7 +311,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Invisibility"
+			title: "{ftbquests.chapter.evocation_element.quest1AED69D6D4CF341A.title}"
 			x: -1.5d
 			y: 2.0d
 		}
@@ -327,7 +327,7 @@
 			icon_scale: 1.4d
 			id: "01BD93FD5380A3AC"
 			shape: "square"
-			subtitle: "Lob the head of a creeper forward that explodes in a medium radius around the impact. The higher the level, the faster the projectile."
+			subtitle: "{ftbquests.chapter.evocation_element.quest1BD93FD5380A3AC.subtitle}"
 			tasks: [{
 				id: "654EB277FB1AF0DE"
 				item: {
@@ -350,7 +350,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Lob Creeper"
+			title: "{ftbquests.chapter.evocation_element.quest1BD93FD5380A3AC.title}"
 			x: -0.5d
 			y: 2.0d
 		}
@@ -366,7 +366,7 @@
 			icon_scale: 1.4d
 			id: "711A9C081DA1E6D3"
 			shape: "square"
-			subtitle: "Conjure a stationary shield of arcane energy where you look that will block projectiles and prevent creatures from passing."
+			subtitle: "{ftbquests.chapter.evocation_element.quest711A9C081DA1E6D3.subtitle}"
 			tasks: [{
 				id: "78C1AC78D6236377"
 				item: {
@@ -389,7 +389,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Shield"
+			title: "{ftbquests.chapter.evocation_element.quest711A9C081DA1E6D3.title}"
 			x: 0.5d
 			y: 2.0d
 		}
@@ -405,7 +405,7 @@
 			icon_scale: 1.4d
 			id: "4A068451F0E7EA88"
 			shape: "square"
-			subtitle: "In a radius around a targeted creature, apply the Slowed effect to enemies, decreasing movement speed, attack speed, mining speed, mana regeneration, and cast time for a duration."
+			subtitle: "{ftbquests.chapter.evocation_element.quest4A068451F0E7EA88.subtitle}"
 			tasks: [{
 				id: "0EDDEFB8C59DEC1D"
 				item: {
@@ -428,7 +428,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Slow"
+			title: "{ftbquests.chapter.evocation_element.quest4A068451F0E7EA88.title}"
 			x: -1.5d
 			y: 3.0d
 		}
@@ -444,7 +444,7 @@
 			icon_scale: 1.4d
 			id: "4AECEACACE5CB6C4"
 			shape: "square"
-			subtitle: "Conjure a spectral hammer out from where you look that will mine all connected stone-type blocks in a cube where it hits, leaving only ores and rubble behind."
+			subtitle: "{ftbquests.chapter.evocation_element.quest4AECEACACE5CB6C4.subtitle}"
 			tasks: [{
 				id: "490BE2F22BEEAB50"
 				item: {
@@ -467,7 +467,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Spectral Hammer"
+			title: "{ftbquests.chapter.evocation_element.quest4AECEACACE5CB6C4.title}"
 			x: -0.5d
 			y: 3.0d
 		}
@@ -483,7 +483,7 @@
 			icon_scale: 1.4d
 			id: "309F3C51764B5E72"
 			shape: "square"
-			subtitle: "Conjure a spectral steed that will follow you around and only let you ride. The horse's speed, health, and jump height scales with spell power."
+			subtitle: "{ftbquests.chapter.evocation_element.quest309F3C51764B5E72.subtitle}"
 			tasks: [{
 				id: "6155F4587C5A293D"
 				item: {
@@ -506,7 +506,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Summon Horse"
+			title: "{ftbquests.chapter.evocation_element.quest309F3C51764B5E72.title}"
 			x: 0.5d
 			y: 3.0d
 		}
@@ -522,7 +522,7 @@
 			icon_scale: 1.4d
 			id: "20E14F00A7EF9452"
 			shape: "square"
-			subtitle: "Cast to conjure vexes that will follow, protect, and fight for you."
+			subtitle: "{ftbquests.chapter.evocation_element.quest20E14F00A7EF9452.subtitle}"
 			tasks: [{
 				id: "1F2B845AC0550889"
 				item: {
@@ -545,7 +545,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Summon Vex"
+			title: "{ftbquests.chapter.evocation_element.quest20E14F00A7EF9452.title}"
 			x: -1.5d
 			y: 4.0d
 		}
@@ -561,7 +561,7 @@
 			icon_scale: 1.4d
 			id: "6C87FAB0249CA091"
 			shape: "square"
-			subtitle: "Wololo!"
+			subtitle: "{ftbquests.chapter.evocation_element.quest6C87FAB0249CA091.subtitle}"
 			tasks: [{
 				id: "21CBF10B2B35417F"
 				item: {
@@ -584,7 +584,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Wololo"
+			title: "{ftbquests.chapter.evocation_element.quest6C87FAB0249CA091.title}"
 			x: 0.5d
 			y: 4.0d
 		}
@@ -971,5 +971,5 @@
 			y: 8.0d
 		}
 	]
-	title: "<grad from=#30FF68 to=#B6FCC9>Evocation Element</grad>"
+	title: "{ftbquests.chapter.evocation_element.title}"
 }

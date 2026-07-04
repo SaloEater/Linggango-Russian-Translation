@@ -19,10 +19,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.enigmatic_dice.image.hovertext1"
+				"ftbquests.chapter.enigmatic_dice.image.hovertext2"
+				"ftbquests.chapter.enigmatic_dice.image.hovertext3"
+				"ftbquests.chapter.enigmatic_dice.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -36,9 +36,9 @@
 	quests: [
 		{
 			description: [
-				"Welcome to the enigmatic die questline."
+				"{ftbquests.chapter.enigmatic_dice.quest3C43240C545F692C.description1}"
 				""
-				"This questline is here to basically motivate you into using dice more by showing the best rewards."
+				"{ftbquests.chapter.enigmatic_dice.quest3C43240C545F692C.description2}"
 			]
 			disable_toast: true
 			icon: "enigmaticdice:enigmatic_die"
@@ -50,20 +50,20 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest3C43240C545F692C.subtitle}"
 			tasks: [{
 				id: "032D3C688E7033B9"
-				title: "oki"
+				title: "{ftbquests.chapter.enigmatic_dice.quest3C43240C545F692C.task.228905575829746617.title}"
 				type: "checkmark"
 			}]
-			title: "Enigmatic Dice"
+			title: "{ftbquests.chapter.enigmatic_dice.quest3C43240C545F692C.title}"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3C43240C545F692C"]
 			id: "48D411FA54F3611A"
-			subtitle: "Think how OP it can be."
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest48D411FA54F3611A.subtitle}"
 			tasks: [{
 				id: "0FA062FCD31A87C9"
 				item: "enigmaticdice:unequal_exchange"
@@ -75,7 +75,7 @@
 		{
 			dependencies: ["3C43240C545F692C"]
 			id: "6FA518BD72CAD1C1"
-			subtitle: "Fetch Their Souls!"
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest6FA518BD72CAD1C1.subtitle}"
 			tasks: [{
 				id: "3942B72CBAD24E9C"
 				item: "enigmaticdice:soul_eater"
@@ -87,7 +87,7 @@
 		{
 			dependencies: ["3C43240C545F692C"]
 			id: "0886C9561EC95B50"
-			subtitle: "Nice for PvP"
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest886C9561EC95B50.subtitle}"
 			tasks: [{
 				id: "7C70A10F594B786E"
 				item: "enigmaticdice:permafrost"
@@ -100,7 +100,7 @@
 			dependencies: ["3C43240C545F692C"]
 			id: "4477B265D04C5CA8"
 			shape: "octagon"
-			subtitle: "Absolute TANK"
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest4477B265D04C5CA8.subtitle}"
 			tasks: [{
 				id: "36C618C574805A0E"
 				item: "enigmaticdice:crucible_of_rile"
@@ -112,7 +112,7 @@
 		{
 			dependencies: ["3C43240C545F692C"]
 			id: "0728AFEF6B101DD2"
-			subtitle: "yank"
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest728AFEF6B101DD2.subtitle}"
 			tasks: [{
 				id: "3FFD3D63EDFC54AA"
 				item: "enigmaticdice:antimatter"
@@ -124,7 +124,7 @@
 		{
 			dependencies: ["3C43240C545F692C"]
 			id: "624AFAB2C5542433"
-			subtitle: "Overall boosts you"
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest624AFAB2C5542433.subtitle}"
 			tasks: [{
 				id: "7976F78C433464B5"
 				item: "enigmaticdice:giants_ring"
@@ -136,7 +136,7 @@
 		{
 			dependencies: ["3C43240C545F692C"]
 			id: "55D6EE00CFE38123"
-			subtitle: "Might be useful"
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest55D6EE00CFE38123.subtitle}"
 			tasks: [{
 				id: "047900181D2D4F50"
 				item: "enigmaticdice:moon_shard"
@@ -148,7 +148,7 @@
 		{
 			dependencies: ["3C43240C545F692C"]
 			id: "68AD185D2ED3B650"
-			subtitle: "Straight up sends u to moon"
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest68AD185D2ED3B650.subtitle}"
 			tasks: [{
 				id: "2A5937617548CE2F"
 				item: "enigmaticdice:moon"
@@ -160,7 +160,7 @@
 		{
 			dependencies: ["3C43240C545F692C"]
 			id: "65B5E3FB810E165F"
-			subtitle: "Manipulate Gravity"
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest65B5E3FB810E165F.subtitle}"
 			tasks: [{
 				id: "7A0528BE59E433DF"
 				item: "enigmaticdice:gravity_core"
@@ -172,7 +172,7 @@
 		{
 			dependencies: ["3C43240C545F692C"]
 			id: "3B21D6D80AACC67C"
-			subtitle: "Might be OP"
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest3B21D6D80AACC67C.subtitle}"
 			tasks: [{
 				id: "3E9884C7E223C3B2"
 				item: "enigmaticdice:ring_of_agility"
@@ -184,7 +184,7 @@
 		{
 			dependencies: ["3C43240C545F692C"]
 			id: "5FDAFF9F4CA9792D"
-			subtitle: "VERY OP"
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest5FDAFF9F4CA9792D.subtitle}"
 			tasks: [{
 				id: "4B816F170F135207"
 				item: "enigmaticdice:divine_shield"
@@ -196,7 +196,7 @@
 		{
 			dependencies: ["3C43240C545F692C"]
 			id: "412A21A47A858036"
-			subtitle: "moyai"
+			subtitle: "{ftbquests.chapter.enigmatic_dice.quest412A21A47A858036.subtitle}"
 			tasks: [{
 				id: "1AF5C127C12D8BF2"
 				item: "enigmaticdice:moai_charm"
@@ -206,5 +206,5 @@
 			y: -3.5d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#FA34BB to=#FFADE5>Enigmatic Dice</grad></shadow>"
+	title: "{ftbquests.chapter.enigmatic_dice.title}"
 }

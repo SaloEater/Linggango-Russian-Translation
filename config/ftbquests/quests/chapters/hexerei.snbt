@@ -16,7 +16,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: ["ftbquests.chapter.hexerei.image.hovertext1"]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -46,13 +46,13 @@
 	quests: [
 		{
 			description: [
-				"Hexerei is a witchery and magic mod that includes really beautiful things!"
+				"{ftbquests.chapter.hexerei.quest12B5E3921B42CAE6.description1}"
 				""
-				"To start with the questline, i suggest using Book of The Shadows for in-game wiki and putting it on the altar."
+				"{ftbquests.chapter.hexerei.quest12B5E3921B42CAE6.description2}"
 				""
-				"&8How am i going to find the wood type for it? "
+				"{ftbquests.chapter.hexerei.quest12B5E3921B42CAE6.description3}"
 				""
-				"Hexerei mod generates some trees around the world, it's really not hard to find them!"
+				"{ftbquests.chapter.hexerei.quest12B5E3921B42CAE6.description4}"
 			]
 			icon: "hexerei:book_of_shadows"
 			id: "12B5E3921B42CAE6"
@@ -70,7 +70,7 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "In-game Wiki"
+			subtitle: "{ftbquests.chapter.hexerei.quest12B5E3921B42CAE6.subtitle}"
 			tasks: [
 				{
 					id: "40A53100E5B456A3"
@@ -99,30 +99,30 @@
 							]
 						}
 					}
-					title: "Any altar"
+					title: "{ftbquests.chapter.hexerei.quest12B5E3921B42CAE6.task.4579243337681431430.title}"
 					type: "item"
 				}
 			]
-			title: "Hexerei"
+			title: "{ftbquests.chapter.hexerei.quest12B5E3921B42CAE6.title}"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["12B5E3921B42CAE6"]
 			description: [
-				"The mixing cauldron is one of the main tools in hexerei."
+				"{ftbquests.chapter.hexerei.quest22961E333B1DF889.description1}"
 				""
-				"Mixing up all sorts of items and potions!"
+				"{ftbquests.chapter.hexerei.quest22961E333B1DF889.description2}"
 				""
-				"Cauldron can hold items, fluids and these systems integrate with other mods such as create."
+				"{ftbquests.chapter.hexerei.quest22961E333B1DF889.description3}"
 				""
-				"It will help us create some items and blocks!"
+				"{ftbquests.chapter.hexerei.quest22961E333B1DF889.description4}"
 				""
-				"&eMaking Potions:&r"
+				"{ftbquests.chapter.hexerei.quest22961E333B1DF889.description5}"
 				""
-				"The mixing cauldron when heated can brew up to two buckets worth of potions at a time."
+				"{ftbquests.chapter.hexerei.quest22961E333B1DF889.description6}"
 				""
-				"To do this, fill it with water, then add two of the ingredient needed to make the potion!"
+				"{ftbquests.chapter.hexerei.quest22961E333B1DF889.description7}"
 			]
 			id: "22961E333B1DF889"
 			rewards: [{
@@ -132,7 +132,7 @@
 			}]
 			shape: "circle"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest22961E333B1DF889.subtitle}"
 			tasks: [{
 				id: "0475A5D30ED833B0"
 				item: "hexerei:mixing_cauldron"
@@ -144,9 +144,9 @@
 		{
 			dependencies: ["22961E333B1DF889"]
 			description: [
-				"The Blood Sigil is a sigil for the mixing cauldron, able to extract blood from entities who jump in the cauldron."
+				"{ftbquests.chapter.hexerei.questA34AE3D5EEBE912.description1}"
 				""
-				"The blood can then be used in recipes later, bottled or bucketed aswell."
+				"{ftbquests.chapter.hexerei.questA34AE3D5EEBE912.description2}"
 			]
 			id: "0A34AE3D5EEBE912"
 			rewards: [{
@@ -154,7 +154,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Attachment For Cauldron"
+			subtitle: "{ftbquests.chapter.hexerei.questA34AE3D5EEBE912.subtitle}"
 			tasks: [{
 				id: "44F67F98AE994BCE"
 				item: "hexerei:blood_sigil"
@@ -166,9 +166,9 @@
 		{
 			dependencies: ["22961E333B1DF889"]
 			description: [
-				"The Dipper is an attachment for the mixing cauldron, mainly used for making candles by dipping string into the tallow."
+				"{ftbquests.chapter.hexerei.quest70630186BCDE6B32.description1}"
 				""
-				"Sneak Right-Click to put attachment on cauldron!"
+				"{ftbquests.chapter.hexerei.quest70630186BCDE6B32.description2}"
 			]
 			icon_scale: 1.3d
 			id: "70630186BCDE6B32"
@@ -177,7 +177,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Attachment For Cauldron"
+			subtitle: "{ftbquests.chapter.hexerei.quest70630186BCDE6B32.subtitle}"
 			tasks: [{
 				id: "33B2C6BBDD25A027"
 				item: "hexerei:candle_dipper"
@@ -189,13 +189,13 @@
 		{
 			dependencies: ["22961E333B1DF889"]
 			description: [
-				"The coffer is a very useful storage method in hexerei, it uses crows to automate storage!"
+				"{ftbquests.chapter.hexerei.quest37B8692BF80EF86C.description1}"
 				""
-				"On the right side of the coffer's GUI is a crow icon."
+				"{ftbquests.chapter.hexerei.quest37B8692BF80EF86C.description2}"
 				""
-				"While toggled, the crow button will allow crows on gather mode to check items inside the coffer and look in the area for items matching its contents to deposit."
+				"{ftbquests.chapter.hexerei.quest37B8692BF80EF86C.description3}"
 				""
-				"Crows with a perch located on a coffer will pick up any item in the area and return it to that coffer!"
+				"{ftbquests.chapter.hexerei.quest37B8692BF80EF86C.description4}"
 			]
 			icon_scale: 1.2d
 			id: "37B8692BF80EF86C"
@@ -205,7 +205,7 @@
 				xp: 25
 			}]
 			shape: "rsquare"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest37B8692BF80EF86C.subtitle}"
 			tasks: [{
 				id: "07D837C87A5F0212"
 				item: "hexerei:coffer"
@@ -217,11 +217,11 @@
 		{
 			dependencies: ["22961E333B1DF889"]
 			description: [
-				"The Herb Jar is perfect for keeping ingredients in bulk."
+				"{ftbquests.chapter.hexerei.quest54240BF126558141.description1}"
 				""
-				"It can hold up to 1024 items of only one type."
+				"{ftbquests.chapter.hexerei.quest54240BF126558141.description2}"
 				""
-				"Like coffers, herb jars also have a crow icon, letting your crows keep your herb collection tidy!"
+				"{ftbquests.chapter.hexerei.quest54240BF126558141.description3}"
 			]
 			icon_scale: 1.2d
 			id: "54240BF126558141"
@@ -230,7 +230,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest54240BF126558141.subtitle}"
 			tasks: [{
 				id: "3C62989745E91EAA"
 				item: "hexerei:herb_jar"
@@ -242,14 +242,14 @@
 		{
 			dependencies: ["22961E333B1DF889"]
 			description: [
-				"Sage burning plate can protect your home from monsters."
+				"{ftbquests.chapter.hexerei.quest721C181D95D91A30.description1}"
 				""
-				"Simply place one down, fill it with bundle of dried sage, then light it to prevent monster spawns."
+				"{ftbquests.chapter.hexerei.quest721C181D95D91A30.description2}"
 				""
-				"By default, it's effect can reach in a 48 block radious around the plate!"
+				"{ftbquests.chapter.hexerei.quest721C181D95D91A30.description3}"
 				""
 				""
-				"Can also use dried sage bundle to stop spawns!"
+				"{ftbquests.chapter.hexerei.quest721C181D95D91A30.description4}"
 			]
 			icon_scale: 1.3d
 			id: "721C181D95D91A30"
@@ -259,7 +259,7 @@
 				xp: 25
 			}]
 			shape: "goldtier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest721C181D95D91A30.subtitle}"
 			tasks: [{
 				id: "52D6577C3BE7F1FC"
 				item: "hexerei:sage_burning_plate"
@@ -271,9 +271,9 @@
 		{
 			dependencies: ["4805702405DED118"]
 			description: [
-				"The pestle and mortar is used for smashing and grinding items to paste."
+				"{ftbquests.chapter.hexerei.quest6829096FF14C88.description1}"
 				""
-				"This will be used for making the blends and pastes for infusing your candles to give them effects!"
+				"{ftbquests.chapter.hexerei.quest6829096FF14C88.description2}"
 			]
 			icon_scale: 1.2d
 			id: "006829096FF14C88"
@@ -282,7 +282,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest6829096FF14C88.subtitle}"
 			tasks: [{
 				id: "11B501E6315242F9"
 				item: "hexerei:pestle_and_mortar"
@@ -294,20 +294,20 @@
 		{
 			dependencies: ["22961E333B1DF889"]
 			description: [
-				"The candles are a dyeable, decorative block which can be used for lightning or magic."
+				"{ftbquests.chapter.hexerei.quest4805702405DED118.description1}"
 				""
-				"Up to 4 different candles can be placed in the same block. "
+				"{ftbquests.chapter.hexerei.quest4805702405DED118.description2}"
 				""
-				"A candle can be lit with a flint and stell and will typically stay lit for 35 minutes."
+				"{ftbquests.chapter.hexerei.quest4805702405DED118.description3}"
 				""
 				""
-				"&8Note:"
+				"{ftbquests.chapter.hexerei.quest4805702405DED118.description4}"
 				""
-				"&8Candles are lit individually, in the order of they were placed in. "
+				"{ftbquests.chapter.hexerei.quest4805702405DED118.description5}"
 				""
-				"&8When placed near an altar and lit, the candles will start floating around it."
+				"{ftbquests.chapter.hexerei.quest4805702405DED118.description6}"
 				""
-				"&8You can also craft several items with candle to add a decorative base to it!"
+				"{ftbquests.chapter.hexerei.quest4805702405DED118.description7}"
 			]
 			icon_scale: 1.5d
 			id: "4805702405DED118"
@@ -317,7 +317,7 @@
 				xp: 25
 			}]
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest4805702405DED118.subtitle}"
 			tasks: [{
 				id: "5F4620E99C034C0B"
 				item: "hexerei:candle"
@@ -329,9 +329,9 @@
 		{
 			dependencies: ["4805702405DED118"]
 			description: [
-				"Unlike the candles, Candelabras wont go out on their own. "
+				"{ftbquests.chapter.hexerei.quest4665C4EBAF93553D.description1}"
 				""
-				"They can be placed on top of a block, or under a block. Including chains and more."
+				"{ftbquests.chapter.hexerei.quest4665C4EBAF93553D.description2}"
 			]
 			icon_scale: 1.5d
 			id: "4665C4EBAF93553D"
@@ -340,7 +340,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest4665C4EBAF93553D.subtitle}"
 			tasks: [{
 				id: "7ED1989843BB1A53"
 				item: "hexerei:candelabra"
@@ -352,9 +352,9 @@
 		{
 			dependencies: ["22961E333B1DF889"]
 			description: [
-				"The crystal ball is a useful tool, able to reveal the phase of the moon, or the sun if it's daytime."
+				"{ftbquests.chapter.hexerei.quest73D552422ED9C2C5.description1}"
 				""
-				"Handy for crafting moon dust!"
+				"{ftbquests.chapter.hexerei.quest73D552422ED9C2C5.description2}"
 			]
 			icon_scale: 1.5d
 			id: "73D552422ED9C2C5"
@@ -363,7 +363,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest73D552422ED9C2C5.subtitle}"
 			tasks: [{
 				id: "744F463CDD129451"
 				item: "hexerei:crystal_ball"
@@ -375,9 +375,9 @@
 		{
 			dependencies: ["22961E333B1DF889"]
 			description: [
-				"The dowsing rrod is able to loacte certain biomes containing the need for plants."
+				"{ftbquests.chapter.hexerei.quest6C47E784929D9451.description1}"
 				""
-				"Sneak Right-click to flip between searching for swamps or jungles."
+				"{ftbquests.chapter.hexerei.quest6C47E784929D9451.description2}"
 			]
 			id: "6C47E784929D9451"
 			rewards: [{
@@ -385,7 +385,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest6C47E784929D9451.subtitle}"
 			tasks: [{
 				id: "534866D2F3E2D806"
 				item: "hexerei:dowsing_rod"
@@ -397,9 +397,9 @@
 		{
 			dependencies: ["22961E333B1DF889"]
 			description: [
-				"Blood is a key ingredient in the creation of flying brooms."
+				"{ftbquests.chapter.hexerei.quest61DB44DC931259A5.description1}"
 				""
-				"Can be acquired by using blood sigil!"
+				"{ftbquests.chapter.hexerei.quest61DB44DC931259A5.description2}"
 			]
 			id: "61DB44DC931259A5"
 			rewards: [{
@@ -408,7 +408,7 @@
 				xp: 25
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest61DB44DC931259A5.subtitle}"
 			tasks: [{
 				id: "35E5D61B028D6859"
 				item: "hexerei:blood_bottle"
@@ -420,17 +420,17 @@
 		{
 			dependencies: ["61DB44DC931259A5"]
 			description: [
-				"A witch's main tool of transportation!"
+				"{ftbquests.chapter.hexerei.quest5A487F862DB1027D.description1}"
 				""
-				"&8There are three types of brooms:"
+				"{ftbquests.chapter.hexerei.quest5A487F862DB1027D.description2}"
 				""
-				"&8The willow is the slowest but also the most common one."
+				"{ftbquests.chapter.hexerei.quest5A487F862DB1027D.description3}"
 				""
-				"&8The mahogany being the fastest but rarest to find one."
+				"{ftbquests.chapter.hexerei.quest5A487F862DB1027D.description4}"
 				""
-				"Brooms have three slots for upgrades: Misc, Satchel, and Brush. "
+				"{ftbquests.chapter.hexerei.quest5A487F862DB1027D.description5}"
 				""
-				"The brush is what allows the broom to fly and it comes with every broom you make!"
+				"{ftbquests.chapter.hexerei.quest5A487F862DB1027D.description6}"
 			]
 			id: "5A487F862DB1027D"
 			rewards: [{
@@ -438,7 +438,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest5A487F862DB1027D.subtitle}"
 			tasks: [{
 				id: "0BA2CD4026ECD91C"
 				item: {
@@ -466,7 +466,7 @@
 				}
 				type: "item"
 			}]
-			title: "Flying Brooms"
+			title: "{ftbquests.chapter.hexerei.quest5A487F862DB1027D.title}"
 			x: 1.1530612244897753d
 			y: 5.051020408163282d
 		}
@@ -479,7 +479,7 @@
 				xp: 25
 			}]
 			shape: "goldtier"
-			subtitle: "Cosmetic for Brooms"
+			subtitle: "{ftbquests.chapter.hexerei.quest5DA4AE7C804427F4.subtitle}"
 			tasks: [{
 				id: "475900585C926BCC"
 				item: "hexerei:gold_rings"
@@ -497,7 +497,7 @@
 				xp: 25
 			}]
 			shape: "goldtier"
-			subtitle: "Cosmetic for Brooms"
+			subtitle: "{ftbquests.chapter.hexerei.quest5EB99BDB0E110977.subtitle}"
 			tasks: [{
 				id: "71FE95597F3B6492"
 				item: "hexerei:broom_keychain"
@@ -508,14 +508,14 @@
 		}
 		{
 			dependencies: ["5A487F862DB1027D"]
-			description: ["Broom Neterite Tip will allow you to fly through lava and fire without getting damaged!"]
+			description: ["{ftbquests.chapter.hexerei.quest19C6E7916E1172DE.description1}"]
 			id: "19C6E7916E1172DE"
 			rewards: [{
 				id: "212E637F1172CB41"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Attachment For Brooms"
+			subtitle: "{ftbquests.chapter.hexerei.quest19C6E7916E1172DE.subtitle}"
 			tasks: [{
 				id: "61D408127FD045C1"
 				item: {
@@ -532,14 +532,14 @@
 		}
 		{
 			dependencies: ["5A487F862DB1027D"]
-			description: ["Broom Waterproof Tip allows the player to stay on the broom while riding underwater!"]
+			description: ["{ftbquests.chapter.hexerei.quest10AF8E0AFB96B767.description1}"]
 			id: "10AF8E0AFB96B767"
 			rewards: [{
 				id: "57C591AF4050FE82"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Attachment For Brooms"
+			subtitle: "{ftbquests.chapter.hexerei.quest10AF8E0AFB96B767.subtitle}"
 			tasks: [{
 				id: "3F095C78D89E0388"
 				item: {
@@ -557,9 +557,9 @@
 		{
 			dependencies: ["5A487F862DB1027D"]
 			description: [
-				"Satchels allow the broom to store items. "
+				"{ftbquests.chapter.hexerei.quest7745323200EE34B0.description1}"
 				""
-				"It has few variants including a bigger satchel for more storage!"
+				"{ftbquests.chapter.hexerei.quest7745323200EE34B0.description2}"
 			]
 			id: "7745323200EE34B0"
 			rewards: [{
@@ -567,7 +567,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Attachment For Brooms"
+			subtitle: "{ftbquests.chapter.hexerei.quest7745323200EE34B0.subtitle}"
 			tasks: [{
 				id: "7344395F38B75A1D"
 				item: {
@@ -598,21 +598,21 @@
 						]
 					}
 				}
-				title: "Any satchel"
+				title: "{ftbquests.chapter.hexerei.quest7745323200EE34B0.task.8305826693914253853.title}"
 				type: "item"
 			}]
-			title: "Satchels"
+			title: "{ftbquests.chapter.hexerei.quest7745323200EE34B0.title}"
 			x: 3.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["5A487F862DB1027D"]
 			description: [
-				"Brushes are one of the most important attachments, as they allow the broom to fly."
+				"{ftbquests.chapter.hexerei.quest448DDF682E6F1FEA.description1}"
 				""
-				"Eventually the brush will be damaged, and will break."
+				"{ftbquests.chapter.hexerei.quest448DDF682E6F1FEA.description2}"
 				""
-				"&8All brushes can be enchanted by the way."
+				"{ftbquests.chapter.hexerei.quest448DDF682E6F1FEA.description3}"
 			]
 			id: "448DDF682E6F1FEA"
 			rewards: [{
@@ -620,7 +620,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Attachment For Brooms"
+			subtitle: "{ftbquests.chapter.hexerei.quest448DDF682E6F1FEA.subtitle}"
 			tasks: [{
 				id: "2ACC479420AFEC37"
 				item: {
@@ -637,14 +637,14 @@
 		}
 		{
 			dependencies: ["448DDF682E6F1FEA"]
-			description: ["This broom brush makes the broom faster, especialy during the full moon!"]
+			description: ["{ftbquests.chapter.hexerei.questBCC02F443514CE2.description1}"]
 			id: "0BCC02F443514CE2"
 			rewards: [{
 				id: "387289780BF2EDBA"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Attachment For Brooms"
+			subtitle: "{ftbquests.chapter.hexerei.questBCC02F443514CE2.subtitle}"
 			tasks: [{
 				id: "446B2213FABAB76B"
 				item: {
@@ -661,14 +661,14 @@
 		}
 		{
 			dependencies: ["5A487F862DB1027D"]
-			description: ["The broom seat is a mix between a satchel and a cosmetic seat, making the rider face forwards."]
+			description: ["{ftbquests.chapter.hexerei.quest688E3BBF4359C57.description1}"]
 			id: "0688E3BBF4359C57"
 			rewards: [{
 				id: "7D5EAF6F750929E1"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Cosmetic for Brooms"
+			subtitle: "{ftbquests.chapter.hexerei.quest688E3BBF4359C57.subtitle}"
 			tasks: [{
 				id: "0BA6A3C8E2385249"
 				item: "hexerei:broom_seat"
@@ -680,9 +680,9 @@
 		{
 			dependencies: ["22961E333B1DF889"]
 			description: [
-				"Crow flute is an essential item that controls your crow companions. "
+				"{ftbquests.chapter.hexerei.quest5D3BA46F1BB503FC.description1}"
 				""
-				"It has a menu for assigning commands, selecting crows and setting a crow's perch position!"
+				"{ftbquests.chapter.hexerei.quest5D3BA46F1BB503FC.description2}"
 			]
 			id: "5D3BA46F1BB503FC"
 			rewards: [{
@@ -690,7 +690,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest5D3BA46F1BB503FC.subtitle}"
 			tasks: [{
 				id: "717BCE2827FBBFCD"
 				item: "hexerei:crow_flute"
@@ -701,14 +701,14 @@
 		}
 		{
 			dependencies: ["22961E333B1DF889"]
-			description: ["It's quite good for bashing things in the face."]
+			description: ["{ftbquests.chapter.hexerei.questCF29512E4C74FD0.description1}"]
 			id: "0CF29512E4C74FD0"
 			rewards: [{
 				id: "093BD8461112B5B9"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.questCF29512E4C74FD0.subtitle}"
 			tasks: [{
 				id: "2E86389112CFBCDA"
 				item: {
@@ -731,7 +731,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "A witch's classic"
+			subtitle: "{ftbquests.chapter.hexerei.quest28BAEC7D81328585.subtitle}"
 			tasks: [
 				{
 					id: "7FC62A39D14E55C5"
@@ -767,7 +767,7 @@
 					type: "item"
 				}
 			]
-			title: "Witch's Armor Set"
+			title: "{ftbquests.chapter.hexerei.quest28BAEC7D81328585.title}"
 			x: -2.0d
 			y: -1.5d
 		}
@@ -779,7 +779,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "More like a cosmetic version"
+			subtitle: "{ftbquests.chapter.hexerei.quest37A748608FE66E0E.subtitle}"
 			tasks: [{
 				id: "77912B7DB67C7CDF"
 				item: {
@@ -797,9 +797,9 @@
 		{
 			dependencies: ["5D3BA46F1BB503FC"]
 			description: [
-				"Cuorier depots serve as a crucial center for managing all your deliveries."
+				"{ftbquests.chapter.hexerei.quest6405BF216F6C255A.description1}"
 				""
-				"With this efficient design and charming aesthetics, it ensures that every parcel and massage is delivered with utmost care and precision!"
+				"{ftbquests.chapter.hexerei.quest6405BF216F6C255A.description2}"
 			]
 			id: "6405BF216F6C255A"
 			rewards: [{
@@ -807,7 +807,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest6405BF216F6C255A.subtitle}"
 			tasks: [{
 				id: "78FB8C12B8B24282"
 				item: "hexerei:mahogany_courier_depot"
@@ -819,13 +819,13 @@
 		{
 			dependencies: ["6405BF216F6C255A"]
 			description: [
-				"Courier letters are great for sending secret messages to other players or depots."
+				"{ftbquests.chapter.hexerei.quest550EED2B2528B1A6.description1}"
 				""
-				"Whether you're sharing important information or just keeping in touch."
+				"{ftbquests.chapter.hexerei.quest550EED2B2528B1A6.description2}"
 				""
-				"Delivered by our witch trusty owls;"
+				"{ftbquests.chapter.hexerei.quest550EED2B2528B1A6.description3}"
 				""
-				"Your words will always find their way to the intended recipient!"
+				"{ftbquests.chapter.hexerei.quest550EED2B2528B1A6.description4}"
 			]
 			id: "550EED2B2528B1A6"
 			rewards: [{
@@ -833,7 +833,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest550EED2B2528B1A6.subtitle}"
 			tasks: [{
 				id: "76CAE01C338DE3A8"
 				item: "hexerei:courier_letter"
@@ -845,9 +845,9 @@
 		{
 			dependencies: ["6405BF216F6C255A"]
 			description: [
-				"Courier packages are perfect for sending items to other players or depots."
+				"{ftbquests.chapter.hexerei.quest3ADA80DFC7BDC2C0.description1}"
 				""
-				"Delivered by owls, your parcels will always reach their destination!"
+				"{ftbquests.chapter.hexerei.quest3ADA80DFC7BDC2C0.description2}"
 			]
 			id: "3ADA80DFC7BDC2C0"
 			rewards: [{
@@ -855,7 +855,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest3ADA80DFC7BDC2C0.subtitle}"
 			tasks: [{
 				id: "1DF83D19A7FA4A38"
 				item: "hexerei:courier_package"
@@ -866,14 +866,14 @@
 		}
 		{
 			dependencies: ["3ADA80DFC7BDC2C0"]
-			description: ["Packing peanuts are not only perfect for cushioning your Courier packages, but also make for a delightful light snack!"]
+			description: ["{ftbquests.chapter.hexerei.quest411D1E6583842CD3.description1}"]
 			id: "411D1E6583842CD3"
 			rewards: [{
 				id: "20F49A9825C4F15F"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest411D1E6583842CD3.subtitle}"
 			tasks: [{
 				id: "340EDDFFAB56B2CB"
 				item: "hexerei:packing_peanut"
@@ -890,7 +890,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Decoration For Your Home"
+			subtitle: "{ftbquests.chapter.hexerei.quest2E560C0799D32F46.subtitle}"
 			tasks: [{
 				id: "1398236402B2070A"
 				item: {
@@ -915,16 +915,16 @@
 				}
 				type: "item"
 			}]
-			title: "Broom Stands"
+			title: "{ftbquests.chapter.hexerei.quest2E560C0799D32F46.title}"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5A487F862DB1027D"]
 			description: [
-				"Broom whistle is a handy tool for any witch."
+				"{ftbquests.chapter.hexerei.quest439C7D4A7A3DA41D.description1}"
 				""
-				"Bind it to your broom and with a simple blow, your broom will come flying to you!"
+				"{ftbquests.chapter.hexerei.quest439C7D4A7A3DA41D.description2}"
 			]
 			id: "439C7D4A7A3DA41D"
 			rewards: [{
@@ -932,7 +932,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest439C7D4A7A3DA41D.subtitle}"
 			tasks: [{
 				id: "4011DF381D2F8B17"
 				item: {
@@ -950,9 +950,9 @@
 		{
 			dependencies: ["6405BF216F6C255A"]
 			description: [
-				"The Owls can be tamed with a raw cod or salmon, just like the crow, you either throw the fish on the ground or you can just right-click to them."
+				"{ftbquests.chapter.hexerei.quest116AF02951FDBC0C.description1}"
 				""
-				"If you wanna breed them, you can give Raw rabbit meat!"
+				"{ftbquests.chapter.hexerei.quest116AF02951FDBC0C.description2}"
 			]
 			icon: {
 				Count: 1
@@ -969,34 +969,34 @@
 				xp: 25
 			}]
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest116AF02951FDBC0C.subtitle}"
 			tasks: [{
 				id: "59E2665561510909"
-				title: "YAAY"
+				title: "{ftbquests.chapter.hexerei.quest116AF02951FDBC0C.task.6476851731003148553.title}"
 				type: "checkmark"
 			}]
-			title: "How Do I Tame a Owl?"
+			title: "{ftbquests.chapter.hexerei.quest116AF02951FDBC0C.title}"
 			x: 5.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["5D3BA46F1BB503FC"]
 			description: [
-				"The Crow can be tamed with a seed mixture."
+				"{ftbquests.chapter.hexerei.quest445F7EAADB813520.description1}"
 				""
-				"&8If you throw the mixture to ground you have lower chance of taming them than giving them by hand."
+				"{ftbquests.chapter.hexerei.quest445F7EAADB813520.description2}"
 				""
-				"Once tamed crows can be set to different commands. "
+				"{ftbquests.chapter.hexerei.quest445F7EAADB813520.description3}"
 				""
-				"The player can change these commands by simply right-clicking the crow!"
+				"{ftbquests.chapter.hexerei.quest445F7EAADB813520.description4}"
 				""
-				"Crows contain 3 slots that are Hand, Hat and Misc."
+				"{ftbquests.chapter.hexerei.quest445F7EAADB813520.description5}"
 				""
-				"Misc slot can be equip with weapons or storage items!"
+				"{ftbquests.chapter.hexerei.quest445F7EAADB813520.description6}"
 				""
-				"&dCosmetics:"
+				"{ftbquests.chapter.hexerei.quest445F7EAADB813520.description7}"
 				""
-				"If you right-click to your crow with a dye you can add a colored bandanna!"
+				"{ftbquests.chapter.hexerei.quest445F7EAADB813520.description8}"
 			]
 			icon: {
 				Count: 1
@@ -1012,16 +1012,16 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexerei.quest445F7EAADB813520.subtitle}"
 			tasks: [{
 				id: "6B9DB9B622B47F20"
-				title: "OKAY"
+				title: "{ftbquests.chapter.hexerei.quest445F7EAADB813520.task.7754558325319302944.title}"
 				type: "checkmark"
 			}]
-			title: "How To Tame Crows?"
+			title: "{ftbquests.chapter.hexerei.quest445F7EAADB813520.title}"
 			x: 3.5d
 			y: 1.5d
 		}
 	]
-	title: "<grad from=#171717 to=#FFFFFF f=1><shadow a=0.3>Hexerei"
+	title: "{ftbquests.chapter.hexerei.title}"
 }

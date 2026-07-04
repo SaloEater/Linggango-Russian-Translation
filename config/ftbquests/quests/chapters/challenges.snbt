@@ -24,7 +24,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Extremely WIP.. lmk if u got challenge ideas in my discord.."]
+			hover: ["ftbquests.chapter.challenges.image.hovertext1"]
 			image: "bloodmagic:models/alchemyarrays/wiparray"
 			rotation: 0.0d
 			width: 1.0d
@@ -35,10 +35,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.challenges.image.hovertext2"
+				"ftbquests.chapter.challenges.image.hovertext3"
+				"ftbquests.chapter.challenges.image.hovertext4"
+				"ftbquests.chapter.challenges.image.hovertext5"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -52,9 +52,9 @@
 	quests: [
 		{
 			description: [
-				"Do you still think the pack is easy or.. boring? (hope u dont) "
+				"{ftbquests.chapter.challenges.quest75143005BED675A7.description1}"
 				""
-				"Well there's challenges, they will make the game harder and weirder. Don't cheat!!"
+				"{ftbquests.chapter.challenges.quest75143005BED675A7.description2}"
 			]
 			icon: {
 				Count: 1
@@ -67,10 +67,10 @@
 			id: "75143005BED675A7"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.challenges.quest75143005BED675A7.subtitle}"
 			tasks: [{
 				id: "0EC49DE5CDFB0DAA"
-				title: "Challenges!"
+				title: "{ftbquests.chapter.challenges.quest75143005BED675A7.task.1064149022295133610.title}"
 				type: "checkmark"
 			}]
 			x: -9.485714285714288d
@@ -78,7 +78,7 @@
 		}
 		{
 			dependencies: ["75143005BED675A7"]
-			description: ["If you die without checking spawn point, you will spawn at the normal dimension."]
+			description: ["{ftbquests.chapter.challenges.quest2EAC38083FFF467C.description1}"]
 			icon: "alexscaves:scarlet_magnet"
 			id: "2EAC38083FFF467C"
 			rewards: [{
@@ -86,19 +86,19 @@
 				item: "alex_caves_dimensions:magnetic_caves_key"
 				type: "item"
 			}]
-			subtitle: "Finish the pack in magnetic dimension"
+			subtitle: "{ftbquests.chapter.challenges.quest2EAC38083FFF467C.subtitle}"
 			tasks: [{
 				id: "46AD9B3E1A33A743"
-				title: "okay"
+				title: "{ftbquests.chapter.challenges.quest2EAC38083FFF467C.task.5092897444655769411.title}"
 				type: "checkmark"
 			}]
-			title: "&l&4Mag&r&l&1netic&r &lExperience"
+			title: "{ftbquests.chapter.challenges.quest2EAC38083FFF467C.title}"
 			x: -11.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["75143005BED675A7"]
-			description: ["If you die without checking spawn point, you will spawn at the normal dimension."]
+			description: ["{ftbquests.chapter.challenges.quest1AEA8A1AEBD6D64E.description1}"]
 			icon: "alexscaves:dinosaur_nugget"
 			id: "1AEA8A1AEBD6D64E"
 			rewards: [{
@@ -106,19 +106,19 @@
 				item: "alex_caves_dimensions:primordial_caves_key"
 				type: "item"
 			}]
-			subtitle: "Finish the pack in primordial dimension"
+			subtitle: "{ftbquests.chapter.challenges.quest1AEA8A1AEBD6D64E.subtitle}"
 			tasks: [{
 				id: "63505C9D55DB1188"
-				title: "okay"
+				title: "{ftbquests.chapter.challenges.quest1AEA8A1AEBD6D64E.task.7156321638711759240.title}"
 				type: "checkmark"
 			}]
-			title: "&6&lDino Dino Dinos"
+			title: "{ftbquests.chapter.challenges.quest1AEA8A1AEBD6D64E.title}"
 			x: -9.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["75143005BED675A7"]
-			description: ["If you die without checking spawn point, you will spawn at the normal dimension."]
+			description: ["{ftbquests.chapter.challenges.quest27041AC5286051F5.description1}"]
 			icon: "alexscaves:nuclear_bomb"
 			id: "27041AC5286051F5"
 			rewards: [{
@@ -126,19 +126,19 @@
 				item: "alex_caves_dimensions:toxic_caves_key"
 				type: "item"
 			}]
-			subtitle: "Finish the pack in toxic dimension"
+			subtitle: "{ftbquests.chapter.challenges.quest27041AC5286051F5.subtitle}"
 			tasks: [{
 				id: "5329D0630D7EC0C1"
-				title: "hell"
+				title: "{ftbquests.chapter.challenges.quest27041AC5286051F5.task.5992549903039905985.title}"
 				type: "checkmark"
 			}]
-			title: "&a&lNuclear &r&lExperience"
+			title: "{ftbquests.chapter.challenges.quest27041AC5286051F5.title}"
 			x: -8.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["75143005BED675A7"]
-			description: ["If you die without checking spawn point, you will spawn at the normal dimension."]
+			description: ["{ftbquests.chapter.challenges.quest3AC24A6493FE9EFD.description1}"]
 			icon: "enigmaticlegacy:ocean_stone"
 			id: "3AC24A6493FE9EFD"
 			rewards: [{
@@ -146,19 +146,19 @@
 				item: "alex_caves_dimensions:abyssal_chasm_key"
 				type: "item"
 			}]
-			subtitle: "Finish the pack in abyssal dimension (not really)"
+			subtitle: "{ftbquests.chapter.challenges.quest3AC24A6493FE9EFD.subtitle}"
 			tasks: [{
 				id: "70C0A56A86EEF2B3"
-				title: "awokay"
+				title: "{ftbquests.chapter.challenges.quest3AC24A6493FE9EFD.task.8124675604725297843.title}"
 				type: "checkmark"
 			}]
-			title: "&b&lDeep Blue&r &lExperience"
+			title: "{ftbquests.chapter.challenges.quest3AC24A6493FE9EFD.title}"
 			x: -11.792857142857102d
 			y: -2.6214285714285737d
 		}
 		{
 			dependencies: ["75143005BED675A7"]
-			description: ["If you die without checking spawn point, you will spawn at the normal dimension."]
+			description: ["{ftbquests.chapter.challenges.quest21F325BFF59327AD.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -172,19 +172,19 @@
 				item: "alex_caves_dimensions:forlorn_hollows_key"
 				type: "item"
 			}]
-			subtitle: "Finish the pack in forlorn dimension"
+			subtitle: "{ftbquests.chapter.challenges.quest21F325BFF59327AD.subtitle}"
 			tasks: [{
 				id: "7C7BBA115AF416BF"
-				title: "okay"
+				title: "{ftbquests.chapter.challenges.quest21F325BFF59327AD.task.8969967666541631167.title}"
 				type: "checkmark"
 			}]
-			title: "&4&lOcculty&r &lExperience"
+			title: "{ftbquests.chapter.challenges.quest21F325BFF59327AD.title}"
 			x: -11.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["75143005BED675A7"]
-			description: ["If you die without checking spawn point, you will spawn at the normal dimension."]
+			description: ["{ftbquests.chapter.challenges.quest2BA5A85D6B526916.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -198,13 +198,13 @@
 				item: "alex_caves_dimensions:candy_cavity_key"
 				type: "item"
 			}]
-			subtitle: "Finish the pack in candy dimension"
+			subtitle: "{ftbquests.chapter.challenges.quest2BA5A85D6B526916.subtitle}"
 			tasks: [{
 				id: "7D62C23F5AD4EA3C"
-				title: "okay"
+				title: "{ftbquests.chapter.challenges.quest2BA5A85D6B526916.task.9034997379821267516.title}"
 				type: "checkmark"
 			}]
-			title: "&l&dSweet&r &lExperience"
+			title: "{ftbquests.chapter.challenges.quest2BA5A85D6B526916.title}"
 			x: -8.0d
 			y: -3.5d
 		}
@@ -229,19 +229,19 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Finish the pack with Old GPU weapon"
+			subtitle: "{ftbquests.chapter.challenges.quest7C7448B77D625A0C.subtitle}"
 			tasks: [{
 				id: "0B4921A1DE37F6A1"
-				title: "Okay"
+				title: "{ftbquests.chapter.challenges.quest7C7448B77D625A0C.task.813218186818746017.title}"
 				type: "checkmark"
 			}]
-			title: "&lBreath Taking Experience"
+			title: "{ftbquests.chapter.challenges.quest7C7448B77D625A0C.title}"
 			x: -9.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["75143005BED675A7"]
-			description: ["It's not even possible btw."]
+			description: ["{ftbquests.chapter.challenges.quest7F5EE2142DB9149D.description1}"]
 			icon: {
 				Count: 1
 				id: "brutality:paper_cut"
@@ -261,13 +261,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Finish The Pack With Paper Cut Weapon"
+			subtitle: "{ftbquests.chapter.challenges.quest7F5EE2142DB9149D.subtitle}"
 			tasks: [{
 				id: "65EE6321949FC53E"
-				title: "what"
+				title: "{ftbquests.chapter.challenges.quest7F5EE2142DB9149D.task.7344917038166426942.title}"
 				type: "checkmark"
 			}]
-			title: "&l&cPainful&r &lExperience"
+			title: "{ftbquests.chapter.challenges.quest7F5EE2142DB9149D.title}"
 			x: -7.123469387755065d
 			y: -2.605102040816355d
 		}
@@ -295,15 +295,15 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Finish the pack with &clost engine."
+			subtitle: "{ftbquests.chapter.challenges.quest7729B85B4F8D1D2B.subtitle}"
 			tasks: [{
 				id: "42FC441F6EE00CF3"
 				type: "checkmark"
 			}]
-			title: "&b&lZap Zap&r"
+			title: "{ftbquests.chapter.challenges.quest7729B85B4F8D1D2B.title}"
 			x: -12.0d
 			y: -1.5d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#910308 to=#9C6466>Challenges</grad></shadow>"
+	title: "{ftbquests.chapter.challenges.title}"
 }

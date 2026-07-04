@@ -35,7 +35,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: ["ftbquests.chapter.monster_expansion.image.hovertext1"]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -97,9 +97,9 @@
 	quests: [
 		{
 			description: [
-				"Monster Expansion mod adds 2 tameable unique dragons that you can ride!"
+				"{ftbquests.chapter.monster_expansion.quest6F7899ABC0D10B78.description1}"
 				""
-				"In order to tame them though, you have to go through a boss battle, when they're weakened use &dnether star!&r"
+				"{ftbquests.chapter.monster_expansion.quest6F7899ABC0D10B78.description2}"
 			]
 			icon: {
 				Count: 1
@@ -112,22 +112,22 @@
 			id: "6F7899ABC0D10B78"
 			shape: "square"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.monster_expansion.quest6F7899ABC0D10B78.subtitle}"
 			tasks: [{
 				id: "046D1FF5A30C633A"
-				title: "HELL YEAH"
+				title: "{ftbquests.chapter.monster_expansion.quest6F7899ABC0D10B78.task.318946288476119866.title}"
 				type: "checkmark"
 			}]
-			title: "Monster Expansion Mod!"
+			title: "{ftbquests.chapter.monster_expansion.quest6F7899ABC0D10B78.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6F7899ABC0D10B78"]
 			description: [
-				"&cSkrythe&r is a royal dragon that used to go wars with possessed paladin, though after the possessed paladin got \"possessed\" the dragon was left alone, roaming around mindlessly, attacking everything it sees."
+				"{ftbquests.chapter.monster_expansion.quest4BD10F9B63B00232.description1}"
 				""
-				"Maybe you can tame it since it's really lonely."
+				"{ftbquests.chapter.monster_expansion.quest4BD10F9B63B00232.description2}"
 			]
 			icon: {
 				Count: 1
@@ -144,13 +144,13 @@
 			}]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "Summonable"
+			subtitle: "{ftbquests.chapter.monster_expansion.quest4BD10F9B63B00232.subtitle}"
 			tasks: [{
 				id: "69357B1307C0873A"
-				title: "Wow"
+				title: "{ftbquests.chapter.monster_expansion.quest4BD10F9B63B00232.task.7581100869412751162.title}"
 				type: "checkmark"
 			}]
-			title: "&cSkrythe"
+			title: "{ftbquests.chapter.monster_expansion.quest4BD10F9B63B00232.title}"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -168,13 +168,13 @@
 			id: "3B09CA29DBAA33EE"
 			shape: "none"
 			size: 1.4d
-			subtitle: "Sign The Contract To Summon &cSkyrthe"
+			subtitle: "{ftbquests.chapter.monster_expansion.quest3B09CA29DBAA33EE.subtitle}"
 			tasks: [{
 				id: "253C9DEA1B9F3C31"
-				title: "Summon Skrythe"
+				title: "{ftbquests.chapter.monster_expansion.quest3B09CA29DBAA33EE.task.2683193106817301553.title}"
 				type: "checkmark"
 			}]
-			title: "Summoning Contract"
+			title: "{ftbquests.chapter.monster_expansion.quest3B09CA29DBAA33EE.title}"
 			x: 3.5d
 			y: 0.0d
 		}
@@ -196,12 +196,12 @@
 				}
 				id: "364F62CF188A50CE"
 				silent: true
-				title: "Skrythe"
+				title: "{ftbquests.chapter.monster_expansion.quest3B22E67A9AA93061.reward.3913455242817720526.title}"
 				type: "command"
 			}]
 			shape: "none"
 			size: 1.5d
-			subtitle: "When the timer hits zero, &cSkyrthe&r will be summoned."
+			subtitle: "{ftbquests.chapter.monster_expansion.quest3B22E67A9AA93061.subtitle}"
 			tasks: [{
 				elapsedTime: 20L
 				icon: {
@@ -212,19 +212,19 @@
 					}
 				}
 				id: "23473EA68FE212E1"
-				title: "On going Ritual"
+				title: "{ftbquests.chapter.monster_expansion.quest3B22E67A9AA93061.task.2542069399773385441.title}"
 				type: "questsadditions:time"
 			}]
-			title: "On Going Ritual"
+			title: "{ftbquests.chapter.monster_expansion.quest3B22E67A9AA93061.title}"
 			x: 5.25d
 			y: -0.75d
 		}
 		{
 			dependencies: ["6F7899ABC0D10B78"]
 			description: [
-				"&cRhyza&r is a dangerous dragon that can be found in the end extremely rarely, thus we will need a summoning ritual."
+				"{ftbquests.chapter.monster_expansion.quest37192DFB9F851405.description1}"
 				""
-				"Though Rhyza is dangerous, it's race is from a domestic race which means u can tame it :D!"
+				"{ftbquests.chapter.monster_expansion.quest37192DFB9F851405.description2}"
 			]
 			icon: {
 				Count: 1
@@ -241,13 +241,13 @@
 			}]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "Summonable"
+			subtitle: "{ftbquests.chapter.monster_expansion.quest37192DFB9F851405.subtitle}"
 			tasks: [{
 				id: "780407D730F928D2"
-				title: "Bet"
+				title: "{ftbquests.chapter.monster_expansion.quest37192DFB9F851405.task.8648045805279193298.title}"
 				type: "checkmark"
 			}]
-			title: "&cRhyza&r"
+			title: "{ftbquests.chapter.monster_expansion.quest37192DFB9F851405.title}"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -274,13 +274,13 @@
 			id: "2F523AC5C091B184"
 			shape: "none"
 			size: 1.4d
-			subtitle: "Sign The Contract To Summon &cRhyza"
+			subtitle: "{ftbquests.chapter.monster_expansion.quest2F523AC5C091B184.subtitle}"
 			tasks: [{
 				id: "64C707F2E2A397C0"
-				title: "Summon Rhyza"
+				title: "{ftbquests.chapter.monster_expansion.quest2F523AC5C091B184.task.7261781663924066240.title}"
 				type: "checkmark"
 			}]
-			title: "Summoning Contract"
+			title: "{ftbquests.chapter.monster_expansion.quest2F523AC5C091B184.title}"
 			x: -3.5d
 			y: 0.0d
 		}
@@ -302,12 +302,12 @@
 				}
 				id: "65E034DCBB14CE41"
 				silent: true
-				title: "Rhyza"
+				title: "{ftbquests.chapter.monster_expansion.quest27856DEB8BE770B8.reward.7340925515250060865.title}"
 				type: "command"
 			}]
 			shape: "none"
 			size: 1.5d
-			subtitle: "When the timer hits zero, &cRhyza&r will be summoned."
+			subtitle: "{ftbquests.chapter.monster_expansion.quest27856DEB8BE770B8.subtitle}"
 			tasks: [{
 				elapsedTime: 20L
 				icon: {
@@ -318,7 +318,7 @@
 					}
 				}
 				id: "4334D454D73CD1E0"
-				title: "On Going Ritual"
+				title: "{ftbquests.chapter.monster_expansion.quest27856DEB8BE770B8.task.4842728960183554528.title}"
 				type: "questsadditions:time"
 			}]
 			x: -5.25d
@@ -327,9 +327,9 @@
 		{
 			dependencies: ["6F7899ABC0D10B78"]
 			description: [
-				"&cLeivekilth&r is a extremely big dragon from ice age. It should've died but, he seems to be adapted to the warm enviroment."
+				"{ftbquests.chapter.monster_expansion.quest52C28EB0E07DE11E.description1}"
 				""
-				"This biggie &ccan't&r be tamed for now."
+				"{ftbquests.chapter.monster_expansion.quest52C28EB0E07DE11E.description2}"
 			]
 			icon: {
 				Count: 1
@@ -347,13 +347,13 @@
 			}]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "Summonable"
+			subtitle: "{ftbquests.chapter.monster_expansion.quest52C28EB0E07DE11E.subtitle}"
 			tasks: [{
 				id: "3B78B0ECBF70E05B"
-				title: "Alr"
+				title: "{ftbquests.chapter.monster_expansion.quest52C28EB0E07DE11E.task.4285369576313643099.title}"
 				type: "checkmark"
 			}]
-			title: "&cLeivekilth"
+			title: "{ftbquests.chapter.monster_expansion.quest52C28EB0E07DE11E.title}"
 			x: 0.0d
 			y: 1.0d
 		}
@@ -373,10 +373,10 @@
 			size: 1.4d
 			tasks: [{
 				id: "548B489B6A34E69C"
-				title: "Summon Rhyza"
+				title: "{ftbquests.chapter.monster_expansion.quest6C3268057C114181.task.6092042753287710364.title}"
 				type: "checkmark"
 			}]
-			title: "Summoning Contract"
+			title: "{ftbquests.chapter.monster_expansion.quest6C3268057C114181.title}"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -398,12 +398,12 @@
 				}
 				id: "026C8B830F969A30"
 				silent: true
-				title: "Leivekilth"
+				title: "{ftbquests.chapter.monster_expansion.quest221974DC6CE57E13.reward.174667880579111472.title}"
 				type: "command"
 			}]
 			shape: "none"
 			size: 1.5d
-			subtitle: "When the timer hits zero, &cLeivekilth&r will be summoned."
+			subtitle: "{ftbquests.chapter.monster_expansion.quest221974DC6CE57E13.subtitle}"
 			tasks: [{
 				elapsedTime: 20L
 				icon: {
@@ -414,13 +414,13 @@
 					}
 				}
 				id: "2F7A7127394903E1"
-				title: "On Going Ritual"
+				title: "{ftbquests.chapter.monster_expansion.quest221974DC6CE57E13.task.3421171280220062689.title}"
 				type: "questsadditions:time"
 			}]
 			x: 0.0d
 			y: 4.5d
 		}
 	]
-	subtitle: ["Maybe mod will be added back."]
-	title: "Tameable Dragons"
+	subtitle: ["{ftbquests.chapter.monster_expansion.subtitle0}"]
+	title: "{ftbquests.chapter.monster_expansion.title}"
 }

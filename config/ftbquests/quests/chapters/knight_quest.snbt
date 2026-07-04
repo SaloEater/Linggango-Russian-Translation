@@ -18,7 +18,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: ["ftbquests.chapter.knight_quest.image.hovertext1"]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			order: 2
 			rotation: 0.0d
@@ -40,14 +40,14 @@
 	quests: [
 		{
 			description: [
-				"### &6Welcome to Knight Quest!&r"
-				"&6Knight Quest&r adds over &f30&r &7armor sets&r, each with their own &apassive ability&r, alongside new &chostile mobs&r, &7weapons&r,"
-				"[gap=0]"
-				"and even a &atameable companion&r!"
-				"The whole mod revolves around farming &aEssences&r from mobs and using them to craft gear and progress further."
-				"&eThere's a lot to explore,&r"
-				"[gap=0]"
-				"&eso let's get into it!&r"
+				"{ftbquests.chapter.knight_quest.quest72F0B6BB321BD1A5.description1}"
+				"{ftbquests.chapter.knight_quest.quest72F0B6BB321BD1A5.description2}"
+				"{ftbquests.chapter.knight_quest.quest72F0B6BB321BD1A5.description3}"
+				"{ftbquests.chapter.knight_quest.quest72F0B6BB321BD1A5.description4}"
+				"{ftbquests.chapter.knight_quest.quest72F0B6BB321BD1A5.description5}"
+				"{ftbquests.chapter.knight_quest.quest72F0B6BB321BD1A5.description6}"
+				"{ftbquests.chapter.knight_quest.quest72F0B6BB321BD1A5.description7}"
+				"{ftbquests.chapter.knight_quest.quest72F0B6BB321BD1A5.description8}"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -62,25 +62,25 @@
 			min_width: 220
 			shape: "square"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.knight_quest.quest72F0B6BB321BD1A5.subtitle}"
 			tasks: [{
 				id: "00FA0BB4CA9216FF"
-				title: "Oki"
+				title: "{ftbquests.chapter.knight_quest.quest72F0B6BB321BD1A5.task.70381615298254591.title}"
 				type: "checkmark"
 			}]
-			title: "Knight Quest!"
+			title: "{ftbquests.chapter.knight_quest.quest72F0B6BB321BD1A5.title}"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["72F0B6BB321BD1A5"]
 			description: [
-				"### &aEssences&r"
-				"These are the backbone of the mod, dropped by both &avanilla&r and"
-				"[gap=0]"
-				"&8Knight Quest&r mobs."
-				"Combine &aSmall Essences&r to craft a &aGreat Essence&r, then use those to fill up the &6Great Chalice&r."
-				"Pretty much everything in this mod starts here, so get to killing!"
+				"{ftbquests.chapter.knight_quest.quest4E2837B73E305DF0.description1}"
+				"{ftbquests.chapter.knight_quest.quest4E2837B73E305DF0.description2}"
+				"{ftbquests.chapter.knight_quest.quest4E2837B73E305DF0.description3}"
+				"{ftbquests.chapter.knight_quest.quest4E2837B73E305DF0.description4}"
+				"{ftbquests.chapter.knight_quest.quest4E2837B73E305DF0.description5}"
+				"{ftbquests.chapter.knight_quest.quest4E2837B73E305DF0.description6}"
 			]
 			id: "4E2837B73E305DF0"
 			rewards: [{
@@ -91,7 +91,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "Dropped by killing mobs."
+			subtitle: "{ftbquests.chapter.knight_quest.quest4E2837B73E305DF0.subtitle}"
 			tasks: [
 				{
 					id: "1C1FF47DFC4AE772"
@@ -104,16 +104,16 @@
 					type: "item"
 				}
 			]
-			title: "Essences"
+			title: "{ftbquests.chapter.knight_quest.quest4E2837B73E305DF0.title}"
 			x: 4.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4E2837B73E305DF0"]
 			description: [
-				"### &6Great Chalice&r"
-				"Craft these two and after that, fill the &6Great Chalice&r with &aessences&r by right-clicking it. This can be used to get corresponding items."
-				"You'll also need it to summon the &4Netherman&r boss, or to get started with the &cBlood Altar&r from Blood Magic!"
+				"{ftbquests.chapter.knight_quest.quest36DE7B5D5897762D.description1}"
+				"{ftbquests.chapter.knight_quest.quest36DE7B5D5897762D.description2}"
+				"{ftbquests.chapter.knight_quest.quest36DE7B5D5897762D.description3}"
 			]
 			id: "36DE7B5D5897762D"
 			rewards: [{
@@ -122,7 +122,7 @@
 				xp: 25
 			}]
 			shape: "octagon"
-			subtitle: "Only usage of Copper.."
+			subtitle: "{ftbquests.chapter.knight_quest.quest36DE7B5D5897762D.subtitle}"
 			tasks: [
 				{
 					id: "72BBEE4CDC8B329E"
@@ -135,19 +135,19 @@
 					type: "item"
 				}
 			]
-			title: "Great.. Machine!"
+			title: "{ftbquests.chapter.knight_quest.quest36DE7B5D5897762D.title}"
 			x: 2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4E2837B73E305DF0"]
 			description: [
-				"### &6Samhain&r"
-				"To summon Samhain, place a &6gold block&r on the ground and put a &apumpkin&r on top"
-				"[gap=0]"
-				"of it!"
-				"Tame it with a &6Great Essence&r and it'll fight alongside you."
-				"You can also drop armor for it to equip!"
+				"{ftbquests.chapter.knight_quest.quest454DF573F7801D49.description1}"
+				"{ftbquests.chapter.knight_quest.quest454DF573F7801D49.description2}"
+				"{ftbquests.chapter.knight_quest.quest454DF573F7801D49.description3}"
+				"{ftbquests.chapter.knight_quest.quest454DF573F7801D49.description4}"
+				"{ftbquests.chapter.knight_quest.quest454DF573F7801D49.description5}"
+				"{ftbquests.chapter.knight_quest.quest454DF573F7801D49.description6}"
 			]
 			id: "454DF573F7801D49"
 			min_width: 225
@@ -157,7 +157,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Let's make a friend!"
+			subtitle: "{ftbquests.chapter.knight_quest.quest454DF573F7801D49.subtitle}"
 			tasks: [
 				{
 					id: "46411FC762093358"
@@ -170,15 +170,15 @@
 					type: "item"
 				}
 			]
-			title: "Samhain"
+			title: "{ftbquests.chapter.knight_quest.quest454DF573F7801D49.title}"
 			x: 5.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4E2837B73E305DF0"]
 			description: [
-				"### &6Radiant Essence&r"
-				"Sadly, even though I made a cool title for it, there's no other use for it rather than summoning a &cBoss&r.."
+				"{ftbquests.chapter.knight_quest.quest4790181FEB358840.description1}"
+				"{ftbquests.chapter.knight_quest.quest4790181FEB358840.description2}"
 			]
 			id: "4790181FEB358840"
 			rewards: [{
@@ -188,7 +188,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "Offer it to great chalice for a boss fight!"
+			subtitle: "{ftbquests.chapter.knight_quest.quest4790181FEB358840.subtitle}"
 			tasks: [{
 				id: "164B54004F1AE9F3"
 				item: "knightquest:radiant_essence"
@@ -200,9 +200,9 @@
 		{
 			dependencies: ["4790181FEB358840"]
 			description: [
-				"### &cNetherman, the Architect of Chaos&r"
-				"He's an enhanced &5Enderman&r who played a crucial role in building the &4Nether's terrain&r."
-				"I think that explains why you should kill him :P"
+				"{ftbquests.chapter.knight_quest.quest242BAE6E65E3FBC6.description1}"
+				"{ftbquests.chapter.knight_quest.quest242BAE6E65E3FBC6.description2}"
+				"{ftbquests.chapter.knight_quest.quest242BAE6E65E3FBC6.description3}"
 			]
 			icon: "armageddon_mod:spiritof_chaos"
 			id: "242BAE6E65E3FBC6"
@@ -215,7 +215,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "It's like Enderman but.. uh.. Netherman!"
+			subtitle: "{ftbquests.chapter.knight_quest.quest242BAE6E65E3FBC6.subtitle}"
 			tasks: [{
 				entity: "knightquest:netherman"
 				icon: {
@@ -226,7 +226,7 @@
 					}
 				}
 				id: "24165542C865CBF4"
-				title: "&cKill&r Netherman, The Architect Of Chaos"
+				title: "{ftbquests.chapter.knight_quest.quest242BAE6E65E3FBC6.task.2600359580171357172.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -236,8 +236,8 @@
 		{
 			dependencies: ["242BAE6E65E3FBC6"]
 			description: [
-				"### &6Chaotic Essence&r"
-				"The &6Great Chalice&r can be used to embed &eunique skills&r into the weapons of this mod!"
+				"{ftbquests.chapter.knight_quest.quest729F050EF33280DF.description1}"
+				"{ftbquests.chapter.knight_quest.quest729F050EF33280DF.description2}"
 			]
 			id: "729F050EF33280DF"
 			rewards: [{
@@ -247,7 +247,7 @@
 			}]
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "Yay, skills!"
+			subtitle: "{ftbquests.chapter.knight_quest.quest729F050EF33280DF.subtitle}"
 			tasks: [{
 				id: "457C913351957F02"
 				item: "knightquest:chaotic_essence"
@@ -257,5 +257,5 @@
 			y: 7.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#DC3E23 to=#FBDF77>Knight Quest</grad></shadow>"
+	title: "{ftbquests.chapter.knight_quest.title}"
 }

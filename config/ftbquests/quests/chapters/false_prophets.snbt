@@ -347,7 +347,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: ["ftbquests.chapter.false_prophets.image.hovertext1"]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			order: 1
 			rotation: 0.0d
@@ -406,7 +406,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is not done"]
+			hover: ["ftbquests.chapter.false_prophets.image.hovertext2"]
 			image: "bloodmagic:models/alchemyarrays/wiparray"
 			rotation: 0.0d
 			width: 1.0d
@@ -420,13 +420,13 @@
 		{
 			dependencies: ["7447249A0F85D8BA"]
 			description: [
-				"## &4&lBaal, the Motionless Devastation&r"
+				"{ftbquests.chapter.false_prophets.quest1A3D29373F2D26AA.description1}"
 				""
-				"Baal moves aggressively across the arena, tearing open portals to summon massive limbs. Each strike fractures and reshapes the terrain, forcing you to constantly navigate the shifting ground."
+				"{ftbquests.chapter.false_prophets.quest1A3D29373F2D26AA.description2}"
 				""
-				"---"
+				"{ftbquests.chapter.false_prophets.quest1A3D29373F2D26AA.description3}"
 				""
-				"Defeat Baal to claim its heart."
+				"{ftbquests.chapter.false_prophets.quest1A3D29373F2D26AA.description4}"
 			]
 			icon_scale: 1.2d
 			id: "1A3D29373F2D26AA"
@@ -458,12 +458,12 @@
 			]
 			shape: "circle"
 			size: 2.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.false_prophets.quest1A3D29373F2D26AA.subtitle}"
 			tasks: [{
 				entity: "macabre:baal"
 				icon: "macabre:baal_heart"
 				id: "49B03FBFDE364957"
-				title: "Slay &cBaal, the Motionless Calamity"
+				title: "{ftbquests.chapter.false_prophets.quest1A3D29373F2D26AA.task.5309814053969217879.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -473,13 +473,13 @@
 		{
 			dependencies: ["5638CED77424242D"]
 			description: [
-				"## &4&lGomoria, the Chanting Abomination&r"
+				"{ftbquests.chapter.false_prophets.quest7447249A0F85D8BA.description1}"
 				""
-				"Gomoria is an immense mass of fused torsos and screaming mouths, emitting layered, discordant chants. "
+				"{ftbquests.chapter.false_prophets.quest7447249A0F85D8BA.description2}"
 				""
-				"---"
+				"{ftbquests.chapter.false_prophets.quest7447249A0F85D8BA.description3}"
 				""
-				"These ancient vocalizations create a severe localized distortion, causing the surrounding environment to warp and fracture under the HORRIBLE sounds."
+				"{ftbquests.chapter.false_prophets.quest7447249A0F85D8BA.description4}"
 			]
 			icon_scale: 1.2d
 			id: "7447249A0F85D8BA"
@@ -511,12 +511,12 @@
 			]
 			shape: "circle"
 			size: 2.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.false_prophets.quest7447249A0F85D8BA.subtitle}"
 			tasks: [{
 				entity: "macabre:gomoria"
 				icon: "macabre:gomoria_heart"
 				id: "67892F4DB26A93E5"
-				title: "Slay &cGomoria, the Fleshmonger Monk"
+				title: "{ftbquests.chapter.false_prophets.quest7447249A0F85D8BA.task.7460546268468253669.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -526,13 +526,13 @@
 		{
 			dependencies: ["1C4A7CC605B59DF7"]
 			description: [
-				"## &4&lValamon, the Stitched Cathedral&r"
+				"{ftbquests.chapter.false_prophets.quest5638CED77424242D.description1}"
 				""
-				"Valamon is a towering construct of living scar tissue and exposed bone. A stitched cathedral compiled from the physical remnants of countless bodies. Its unhealed seams continuously leak fluid across its massive frame."
+				"{ftbquests.chapter.false_prophets.quest5638CED77424242D.description2}"
 				""
-				"---"
+				"{ftbquests.chapter.false_prophets.quest5638CED77424242D.description3}"
 				""
-				"Shatter this amalgamation to shatter his fat pride."
+				"{ftbquests.chapter.false_prophets.quest5638CED77424242D.description4}"
 			]
 			icon_scale: 1.2d
 			id: "5638CED77424242D"
@@ -558,12 +558,12 @@
 			]
 			shape: "circle"
 			size: 1.8d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.false_prophets.quest5638CED77424242D.subtitle}"
 			tasks: [{
 				entity: "macabre:valamon"
 				icon: "macabre:valamon_heart"
 				id: "44A7EBE249543A76"
-				title: "Slay &cValamon, The Corpse Butcher"
+				title: "{ftbquests.chapter.false_prophets.quest5638CED77424242D.task.4947182072815172214.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -573,13 +573,13 @@
 		{
 			dependencies: ["1A3D29373F2D26AA"]
 			description: [
-				"## &4&lGargamaw, the Endless Maw&r"
+				"{ftbquests.chapter.false_prophets.quest2129027DAA1584A2.description1}"
 				""
-				"Gargamaw is an immense predatory entity driven entirely by consumption. Its massive, central maw draws in and crushes surrounding matter with severe physical force."
+				"{ftbquests.chapter.false_prophets.quest2129027DAA1584A2.description2}"
 				""
-				"---"
+				"{ftbquests.chapter.false_prophets.quest2129027DAA1584A2.description3}"
 				""
-				"Defeat this big boy"
+				"{ftbquests.chapter.false_prophets.quest2129027DAA1584A2.description4}"
 			]
 			icon_scale: 1.3d
 			id: "2129027DAA1584A2"
@@ -629,12 +629,12 @@
 			]
 			shape: "circle"
 			size: 3.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.false_prophets.quest2129027DAA1584A2.subtitle}"
 			tasks: [{
 				entity: "macabre:gargamaw"
 				icon: "macabre:gargamaw_heart"
 				id: "1DD8960D5FE759B6"
-				title: "Slay &cGargamaw, the Grotesque Consumer"
+				title: "{ftbquests.chapter.false_prophets.quest2129027DAA1584A2.task.2150633806257150390.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -644,13 +644,13 @@
 		{
 			dependencies: ["4C22709BA6360D9B"]
 			description: [
-				"## &4&lMorphegor, Prophet of Division&r"
+				"{ftbquests.chapter.false_prophets.quest1C4A7CC605B59DF7.description1}"
 				""
-				"Morphegor fragments the space around him, forcing you to fight through a split existence where the line between the observer and the observed is entirely severed. "
+				"{ftbquests.chapter.false_prophets.quest1C4A7CC605B59DF7.description2}"
 				""
-				"---"
+				"{ftbquests.chapter.false_prophets.quest1C4A7CC605B59DF7.description3}"
 				""
-				"Endure the spatial distortion and strike him down. Defeating him allows you to claim his heart, which still pulses with a fractured purpose."
+				"{ftbquests.chapter.false_prophets.quest1C4A7CC605B59DF7.description4}"
 			]
 			id: "1C4A7CC605B59DF7"
 			min_width: 500
@@ -675,12 +675,12 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.false_prophets.quest1C4A7CC605B59DF7.subtitle}"
 			tasks: [{
 				entity: "macabre:morphegor_split"
 				icon: "macabre:morphegor_heart"
 				id: "344BD329A03188F8"
-				title: "Slay &cMorphegor, The Split Deceiver"
+				title: "{ftbquests.chapter.false_prophets.quest1C4A7CC605B59DF7.task.3768337688960272632.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -689,27 +689,27 @@
 		}
 		{
 			description: [
-				"## &4&lThe Offering&r"
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description1}"
 				""
-				"To draw the eyes of the gods upon you, a worthy tribute must be made."
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description2}"
 				""
-				"&6&lRequired Items:&r"
-				"- `1x Ancient Rod`"
-				"- `2x Bloody Ingot`"
-				"- `2x Reverium Ingot`"
-				"- `1x Blood Gadfly Eye`"
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description3}"
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description4}"
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description5}"
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description6}"
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description7}"
 				""
-				"Drop these items in a 2 block radius to start the ritual."
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description8}"
 				""
-				"==="
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description9}"
 				""
-				"&6&lAdditionally:&r You can offer `Hellspec Ingots` to increase the chances of your tribute being accepted. Choose wisely, for the gods are notoriously cruel and impatient."
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description10}"
 				""
-				"---"
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description11}"
 				""
-				"Once your offering is accepted, they will grant you the `Sacrificial Dirk`."
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description12}"
 				""
-				"Do not let your guard down; the ritual is far from over. You must now sacrifice your own life. Drive the blade into your flesh continuously, until your blood hardens from the raw pain and suffering accumulating within you."
+				"{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.description13}"
 			]
 			icon: "macabre:sacrificial_dirk"
 			id: "155C2CD942825FCC"
@@ -720,26 +720,26 @@
 			}]
 			shape: "octagon"
 			size: 1.6d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.subtitle}"
 			tasks: [{
 				id: "49EB506A5458292C"
 				item: "macabre:sacrificial_dirk"
 				type: "item"
 			}]
-			title: "&4Sacrificial Dirk"
+			title: "{ftbquests.chapter.false_prophets.quest155C2CD942825FCC.title}"
 			x: -7.04446546465887d
 			y: -0.7094742260289593d
 		}
 		{
 			dependencies: ["155C2CD942825FCC"]
 			description: [
-				"## &4&lFragment of the Damned&r"
+				"{ftbquests.chapter.false_prophets.quest4807DF76B710A9A7.description1}"
 				""
-				"Born directly from your bloody offering, each shard echoes with the agonizing screams of those who abandoned the holy light. To hold this relic is to bear witness to the torment of the lost."
+				"{ftbquests.chapter.false_prophets.quest4807DF76B710A9A7.description2}"
 				""
-				"---"
+				"{ftbquests.chapter.false_prophets.quest4807DF76B710A9A7.description3}"
 				""
-				"Activating this fragment will rupture reality itself, tearing open a threshold to drag you down into &4The Pit&r"
+				"{ftbquests.chapter.false_prophets.quest4807DF76B710A9A7.description4}"
 			]
 			id: "4807DF76B710A9A7"
 			min_width: 500
@@ -750,7 +750,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.false_prophets.quest4807DF76B710A9A7.subtitle}"
 			tasks: [{
 				id: "5820C83835C62509"
 				item: {
@@ -762,22 +762,22 @@
 				}
 				type: "item"
 			}]
-			title: "&4Rupturing Reality"
+			title: "{ftbquests.chapter.false_prophets.quest4807DF76B710A9A7.title}"
 			x: -5.369525264264958d
 			y: 0.9045590579869938d
 		}
 		{
 			dependencies: ["4807DF76B710A9A7"]
 			description: [
-				"## &4&lSpires of Emptiness&r"
+				"{ftbquests.chapter.false_prophets.quest4C22709BA6360D9B.description1}"
 				""
-				"Ancient spires pierce the raw, bleeding flesh-sky, their jagged peaks crowned with unspeakable terrors. At the summit of each tower, absolute emptiness takes physical form."
+				"{ftbquests.chapter.false_prophets.quest4C22709BA6360D9B.description2}"
 				""
-				"---"
+				"{ftbquests.chapter.false_prophets.quest4C22709BA6360D9B.description3}"
 				""
-				"The Hollow Man is an entity neither alive nor truly dead. Stands sentinel over secrets best left buried. "
+				"{ftbquests.chapter.false_prophets.quest4C22709BA6360D9B.description4}"
 				""
-				"> Strike this guardian down. From his hollow corpse will spill the &cRoot of Infestation&r, a vital catalyst required to awaken far greater horrors: &4The False Gods&r."
+				"{ftbquests.chapter.false_prophets.quest4C22709BA6360D9B.description5}"
 			]
 			hide_details_until_startable: false
 			id: "4C22709BA6360D9B"
@@ -797,15 +797,15 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.false_prophets.quest4C22709BA6360D9B.subtitle}"
 			tasks: [{
 				advancement: "macabre:ach_2"
 				criterion: ""
 				id: "6D271AF8F2FABA9B"
-				title: "Defeat The Hollow Man"
+				title: "{ftbquests.chapter.false_prophets.quest4C22709BA6360D9B.task.7865284930756590235.title}"
 				type: "advancement"
 			}]
-			title: "&cThe Hollow Man Cometh"
+			title: "{ftbquests.chapter.false_prophets.quest4C22709BA6360D9B.title}"
 			x: -6.511634119676714d
 			y: 2.4188146236743506d
 		}
@@ -834,7 +834,7 @@
 			]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "Can be crafted."
+			subtitle: "{ftbquests.chapter.false_prophets.quest230359CD59EB9D67.subtitle}"
 			tasks: [{
 				id: "6A20A7097F87FE9F"
 				item: "macabre:plasma"
@@ -868,7 +868,7 @@
 			]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "Can be crafted aswell."
+			subtitle: "{ftbquests.chapter.false_prophets.quest32B347647E668F12.subtitle}"
 			tasks: [{
 				id: "3E735BAD23438049"
 				item: "macabre:blood_clot_ingot"
@@ -985,7 +985,7 @@
 					type: "item"
 				}
 			]
-			title: "Plasma Tools"
+			title: "{ftbquests.chapter.false_prophets.quest700294B3653A2FB8.title}"
 			x: -9.272886559910951d
 			y: 2.343507738940687d
 		}
@@ -1097,7 +1097,7 @@
 					type: "item"
 				}
 			]
-			title: "Blood Clot Tools"
+			title: "{ftbquests.chapter.false_prophets.quest5CBB67FB9A360098.title}"
 			x: -6.837963953522582d
 			y: 5.355783128287122d
 		}
@@ -1165,7 +1165,7 @@
 					type: "item"
 				}
 			]
-			title: "Blood Clot Armor Set"
+			title: "{ftbquests.chapter.false_prophets.quest3E0DAD514C4001AE.title}"
 			x: -5.68325838760645d
 			y: 5.857829026511531d
 		}
@@ -1226,10 +1226,10 @@
 					type: "item"
 				}
 			]
-			title: "Plasma Armor Set"
+			title: "{ftbquests.chapter.false_prophets.quest5AC2B2235A903D7E.title}"
 			x: -8.519817712574337d
 			y: 1.715950366160179d
 		}
 	]
-	title: "&l<shadow a=0.4><neon p=10 r=1.0 a=0.06><shake a=0.75 f=1.5><glitch f=4.0 j=0.06 b=0.012 s=0.32><grad from=#E90732 to=#5B0818>The Pit</grad></glitch></shake></neon></shadow>"
+	title: "{ftbquests.chapter.false_prophets.title}"
 }

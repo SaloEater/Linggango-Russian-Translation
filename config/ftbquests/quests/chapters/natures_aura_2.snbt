@@ -44,10 +44,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.natures_aura_2.image.hovertext1"
+				"ftbquests.chapter.natures_aura_2.image.hovertext2"
+				"ftbquests.chapter.natures_aura_2.image.hovertext3"
+				"ftbquests.chapter.natures_aura_2.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -58,7 +58,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.natures_aura_2.image.hovertext5"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -71,15 +71,15 @@
 	quests: [
 		{
 			description: [
-				"Nature's Aura is a mod about collecting, using and replenishing the Aura naturally present in the world to create useful devices and unique mechanics."
+				"{ftbquests.chapter.natures_aura_2.quest22A07E4CBB88E8AF.description1}"
 				""
-				"&nStart by obtaining brilliant fiber.&r"
+				"{ftbquests.chapter.natures_aura_2.quest22A07E4CBB88E8AF.description2}"
 				""
-				"&8I don't like this mod, but i will admit. No nvm, i still don't like this mod."
+				"{ftbquests.chapter.natures_aura_2.quest22A07E4CBB88E8AF.description3}"
 				""
-				"&eBook of Natural Aura:&r"
+				"{ftbquests.chapter.natures_aura_2.quest22A07E4CBB88E8AF.description4}"
 				""
-				"If this questline feels vague, i suggest using the official guide book. It is well detailed and even has a visualizer for the multi-block structures."
+				"{ftbquests.chapter.natures_aura_2.quest22A07E4CBB88E8AF.description5}"
 			]
 			icon: {
 				Count: 1
@@ -103,13 +103,13 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "In-game Wiki"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest22A07E4CBB88E8AF.subtitle}"
 			tasks: [{
 				id: "5765362B31F49D2E"
-				title: "I love nature!"
+				title: "{ftbquests.chapter.natures_aura_2.quest22A07E4CBB88E8AF.task.6297499213097114926.title}"
 				type: "checkmark"
 			}]
-			title: "Nature's Aura"
+			title: "{ftbquests.chapter.natures_aura_2.quest22A07E4CBB88E8AF.title}"
 			x: 1.0d
 			y: -3.0d
 		}
@@ -124,7 +124,7 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Obtain Gold Powder"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest519EAA8C838DFA4F.subtitle}"
 			tasks: [{
 				id: "1F0E0B61E39ADD3D"
 				item: "naturesaura:gold_powder"
@@ -136,9 +136,9 @@
 		{
 			dependencies: ["22A07E4CBB88E8AF"]
 			description: [
-				"Brilliant fiber turns leaves into golden leaves, allowing you to extract the leaves and then use it for other stuff."
+				"{ftbquests.chapter.natures_aura_2.quest9A4ABC066BF17B3.description1}"
 				""
-				"Use it on a tree with a lot of leaves!"
+				"{ftbquests.chapter.natures_aura_2.quest9A4ABC066BF17B3.description2}"
 			]
 			id: "09A4ABC066BF17B3"
 			rewards: [{
@@ -149,13 +149,13 @@
 				type: "item"
 			}]
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest9A4ABC066BF17B3.subtitle}"
 			tasks: [{
 				id: "4DBB7AA4896BDCEA"
 				item: "naturesaura:gold_fiber"
 				type: "item"
 			}]
-			title: "Brilliant Fiber"
+			title: "{ftbquests.chapter.natures_aura_2.quest9A4ABC066BF17B3.title}"
 			x: 2.0d
 			y: -5.0d
 		}
@@ -168,7 +168,7 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Obtain Gold Leaf"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7FB72D4334A04ACC.subtitle}"
 			tasks: [{
 				id: "55F89B3E0C75D2C6"
 				item: "naturesaura:gold_leaf"
@@ -180,16 +180,16 @@
 		{
 			dependencies: ["519EAA8C838DFA4F"]
 			description: [
-				"When starting out as a magical botanist, it proves &ebeneficial&r to use the powers of nature on a more direct level before delving directly into &dAura&r itself."
+				"{ftbquests.chapter.natures_aura_2.quest180010AD5F63B3.description1}"
 				""
-				"Down below, there's a visual examples of the &aRitual Of Forest&r"
-				"{image:customtextures:textures/ritualfirstpic.png width:250 height:100 align:center}"
-				"{image:customtextures:textures/ritualsecond.png width:250 height:100 align:center}"
-				"{image:customtextures:textures/ritualthird.png width:250 height:100 align:center}"
+				"{ftbquests.chapter.natures_aura_2.quest180010AD5F63B3.description2}"
+				"{ftbquests.chapter.natures_aura_2.quest180010AD5F63B3.image0}"
+				"{ftbquests.chapter.natures_aura_2.quest180010AD5F63B3.image2}"
+				"{ftbquests.chapter.natures_aura_2.quest180010AD5F63B3.image4}"
 				""
-				"The ritual happens when the tree grows. Remember to recheck the recipe to see which tree is planted!"
+				"{ftbquests.chapter.natures_aura_2.quest180010AD5F63B3.description3}"
 				""
-				"&cBe careful, some biomes may affect oak tree generation. This will affect the ritual."
+				"{ftbquests.chapter.natures_aura_2.quest180010AD5F63B3.description4}"
 			]
 			id: "00180010AD5F63B3"
 			rewards: [
@@ -209,14 +209,14 @@
 			]
 			shape: "square"
 			size: 1.4d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest180010AD5F63B3.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "5FD1CF17231E54C2"
 				item: { Count: 8, id: "naturesaura:wood_stand" }
 				type: "item"
 			}]
-			title: "Ritual Of The Forest"
+			title: "{ftbquests.chapter.natures_aura_2.quest180010AD5F63B3.title}"
 			x: 3.5d
 			y: -9.5d
 		}
@@ -227,18 +227,18 @@
 			]
 			description: [
 				""
-				"{image:customtextures:textures/tokenofjoy.png width:115 height:150 align:center}"
+				"{ftbquests.chapter.natures_aura_2.quest2846E100E0542798.image0}"
 				""
-				"&a&lToken of Joy Ritual&r"
+				"{ftbquests.chapter.natures_aura_2.quest2846E100E0542798.description1}"
 				""
-				"&oRequirements:&r"
+				"{ftbquests.chapter.natures_aura_2.quest2846E100E0542798.description2}"
 				""
-				"- 1x Torch"
-				"- 1x Bottled Sunlight"
-				"- 1x Any flower"
-				"- 1x Apple"
-				"- 1x Gold Leaf"
-				"- 1x Iron Ingot"
+				"{ftbquests.chapter.natures_aura_2.quest2846E100E0542798.description3}"
+				"{ftbquests.chapter.natures_aura_2.quest2846E100E0542798.description4}"
+				"{ftbquests.chapter.natures_aura_2.quest2846E100E0542798.description5}"
+				"{ftbquests.chapter.natures_aura_2.quest2846E100E0542798.description6}"
+				"{ftbquests.chapter.natures_aura_2.quest2846E100E0542798.description7}"
+				"{ftbquests.chapter.natures_aura_2.quest2846E100E0542798.description8}"
 			]
 			id: "2846E100E0542798"
 			rewards: [{
@@ -247,7 +247,7 @@
 				xp: 15
 			}]
 			shape: "circle"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest2846E100E0542798.subtitle}"
 			tasks: [{
 				id: "6B08FA33F4AC27BD"
 				item: "naturesaura:token_joy"
@@ -262,18 +262,18 @@
 				"55C778B682FB69FD"
 			]
 			description: [
-				"{image:customtextures:textures/tokenofsorrow.png width:115 height:150 align:center}"
+				"{ftbquests.chapter.natures_aura_2.quest6213F6A3F4AD447B.image0}"
 				""
-				"&d&lToken of Sorrow Ritual&r"
+				"{ftbquests.chapter.natures_aura_2.quest6213F6A3F4AD447B.description1}"
 				""
-				"Requirements:"
+				"{ftbquests.chapter.natures_aura_2.quest6213F6A3F4AD447B.description2}"
 				""
-				"- 1x Glass"
-				"- 1x Bottled Sunlight"
-				"- 1x Raw Beef or Raw Porkchop or Raw Chicken"
-				"- 1x Any Fish"
-				"- 1x Gold Leaf"
-				"- 1x Ghast Tear"
+				"{ftbquests.chapter.natures_aura_2.quest6213F6A3F4AD447B.description3}"
+				"{ftbquests.chapter.natures_aura_2.quest6213F6A3F4AD447B.description4}"
+				"{ftbquests.chapter.natures_aura_2.quest6213F6A3F4AD447B.description5}"
+				"{ftbquests.chapter.natures_aura_2.quest6213F6A3F4AD447B.description6}"
+				"{ftbquests.chapter.natures_aura_2.quest6213F6A3F4AD447B.description7}"
+				"{ftbquests.chapter.natures_aura_2.quest6213F6A3F4AD447B.description8}"
 			]
 			id: "6213F6A3F4AD447B"
 			rewards: [{
@@ -282,7 +282,7 @@
 				xp: 15
 			}]
 			shape: "circle"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest6213F6A3F4AD447B.subtitle}"
 			tasks: [{
 				id: "59680ED30A470C3C"
 				item: "naturesaura:token_sorrow"
@@ -297,18 +297,18 @@
 				"524C2674C1FDE7C4"
 			]
 			description: [
-				"{image:customtextures:textures/tokenofanger.png width:115 height:150 align:center}"
+				"{ftbquests.chapter.natures_aura_2.quest1AEB35C32D9F4852.image0}"
 				""
-				"&l&cToken of Anger"
+				"{ftbquests.chapter.natures_aura_2.quest1AEB35C32D9F4852.description1}"
 				""
-				"Requirements"
+				"{ftbquests.chapter.natures_aura_2.quest1AEB35C32D9F4852.description2}"
 				""
-				"- 1x Bottled Ghosts"
-				"- 1x Gunpowder"
-				"- 1x Magma Block"
-				"- 1x Gold Leaf"
-				"- 1x Ender Pearl"
-				"- 1x Blaze Powder"
+				"{ftbquests.chapter.natures_aura_2.quest1AEB35C32D9F4852.description3}"
+				"{ftbquests.chapter.natures_aura_2.quest1AEB35C32D9F4852.description4}"
+				"{ftbquests.chapter.natures_aura_2.quest1AEB35C32D9F4852.description5}"
+				"{ftbquests.chapter.natures_aura_2.quest1AEB35C32D9F4852.description6}"
+				"{ftbquests.chapter.natures_aura_2.quest1AEB35C32D9F4852.description7}"
+				"{ftbquests.chapter.natures_aura_2.quest1AEB35C32D9F4852.description8}"
 			]
 			id: "1AEB35C32D9F4852"
 			rewards: [{
@@ -317,7 +317,7 @@
 				xp: 15
 			}]
 			shape: "circle"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest1AEB35C32D9F4852.subtitle}"
 			tasks: [{
 				id: "080ED70B4B90C914"
 				item: "naturesaura:token_anger"
@@ -332,18 +332,18 @@
 				"524C2674C1FDE7C4"
 			]
 			description: [
-				"{image:customtextures:textures/tokenoffear.png width:115 height:150 align:center}"
+				"{ftbquests.chapter.natures_aura_2.quest693160DE0A14E958.image0}"
 				""
-				"&l&bToken of Fear"
+				"{ftbquests.chapter.natures_aura_2.quest693160DE0A14E958.description1}"
 				""
-				"Requirements"
+				"{ftbquests.chapter.natures_aura_2.quest693160DE0A14E958.description2}"
 				""
-				"- 1x Bottled Ghosts"
-				"- 1x Feather"
-				"- 1x Soul Sand"
-				"- 1x Gold Leaf"
-				"- 1x Rotten Flesh"
-				"- 1x Bone"
+				"{ftbquests.chapter.natures_aura_2.quest693160DE0A14E958.description3}"
+				"{ftbquests.chapter.natures_aura_2.quest693160DE0A14E958.description4}"
+				"{ftbquests.chapter.natures_aura_2.quest693160DE0A14E958.description5}"
+				"{ftbquests.chapter.natures_aura_2.quest693160DE0A14E958.description6}"
+				"{ftbquests.chapter.natures_aura_2.quest693160DE0A14E958.description7}"
+				"{ftbquests.chapter.natures_aura_2.quest693160DE0A14E958.description8}"
 			]
 			id: "693160DE0A14E958"
 			rewards: [{
@@ -352,7 +352,7 @@
 				xp: 15
 			}]
 			shape: "circle"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest693160DE0A14E958.subtitle}"
 			tasks: [{
 				id: "61EED4511CB32E55"
 				item: "naturesaura:token_fear"
@@ -363,7 +363,7 @@
 		}
 		{
 			dependencies: ["08C6EF79208C1399"]
-			description: ["When aura in the area usually runs out and won't replenish, Ancient Trees slowly replenish the aura in the area. This is why they're crucial!"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest26C5C7F5B89FD52A.description1}"]
 			id: "26C5C7F5B89FD52A"
 			rewards: [{
 				id: "154E64F221E2A3D6"
@@ -372,7 +372,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest26C5C7F5B89FD52A.subtitle}"
 			tasks: [{
 				id: "0CEB25E8943383C3"
 				item: "naturesaura:ancient_sapling"
@@ -384,11 +384,11 @@
 		{
 			dependencies: ["78D25B9F1D1FB1F1"]
 			description: [
-				"A natural occurence that helped the discovery of Aura are certain kinds of vegetation that appear almost everywhere in the world."
+				"{ftbquests.chapter.natures_aura_2.quest8C6EF79208C1399.description1}"
 				""
-				"Aura is the power source of this mod and we will need it in everything!"
+				"{ftbquests.chapter.natures_aura_2.quest8C6EF79208C1399.description2}"
 				""
-				"There's ton of ways to gather aura so let's start."
+				"{ftbquests.chapter.natures_aura_2.quest8C6EF79208C1399.description3}"
 			]
 			icon: {
 				Count: 1
@@ -405,10 +405,10 @@
 			}]
 			shape: "pentagon"
 			size: 1.4d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest8C6EF79208C1399.subtitle}"
 			tasks: [{
 				id: "5089C2348F743843"
-				title: "Gathering Aura"
+				title: "{ftbquests.chapter.natures_aura_2.quest8C6EF79208C1399.task.5803383125844441155.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -434,16 +434,16 @@
 		{
 			dependencies: ["00180010AD5F63B3"]
 			description: [
-				"Alright, let's start with nature-ifying items."
+				"{ftbquests.chapter.natures_aura_2.quest78D25B9F1D1FB1F1.description1}"
 				""
-				"Natural Altar is our first way of harnessing aura that is rudimentary but still works."
+				"{ftbquests.chapter.natures_aura_2.quest78D25B9F1D1FB1F1.description2}"
 				""
-				"Let's build our ritual first!"
+				"{ftbquests.chapter.natures_aura_2.quest78D25B9F1D1FB1F1.description3}"
 				""
 				""
-				"{image:customtextures:textures/ritual_of_ritual.png width:250 height:100 align:center}"
-				"{image:customtextures:textures/ritual_of_ritual_2.png width:250 height:100 align:center}"
-				"&8If you are having problems tryna understand, just use the guidebook. It has a visualization feature."
+				"{ftbquests.chapter.natures_aura_2.quest78D25B9F1D1FB1F1.image0}"
+				"{ftbquests.chapter.natures_aura_2.quest78D25B9F1D1FB1F1.image2}"
+				"{ftbquests.chapter.natures_aura_2.quest78D25B9F1D1FB1F1.description4}"
 			]
 			id: "78D25B9F1D1FB1F1"
 			rewards: [
@@ -460,7 +460,7 @@
 			]
 			shape: "square"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest78D25B9F1D1FB1F1.subtitle}"
 			tasks: [{
 				id: "5F1B910797527A2D"
 				item: "naturesaura:nature_altar"
@@ -479,7 +479,7 @@
 			}]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "Use iron on the altar"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest4E1BBD2148B11269.subtitle}"
 			tasks: [{
 				id: "7F15B58D161D3841"
 				item: "naturesaura:infused_iron"
@@ -526,7 +526,7 @@
 		}
 		{
 			id: "6A560CEA986B82C2"
-			subtitle: "Crushes items, pretty useful."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest6A560CEA986B82C2.subtitle}"
 			tasks: [{
 				id: "1FADF455758B6A84"
 				item: "naturesaura:crushing_catalyst"
@@ -537,7 +537,7 @@
 		}
 		{
 			id: "71D66567778BB15C"
-			subtitle: "Speeds up the furnace."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest71D66567778BB15C.subtitle}"
 			tasks: [{
 				id: "05E302BD7F9B3B2E"
 				item: "naturesaura:furnace_heater"
@@ -548,7 +548,7 @@
 		}
 		{
 			id: "7A5796511F4A7DF4"
-			subtitle: "Makes hopper grab items from 7 blocks instead of 1."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7A5796511F4A7DF4.subtitle}"
 			tasks: [{
 				id: "3A9619E45F57C68D"
 				item: "naturesaura:hopper_upgrade"
@@ -560,11 +560,11 @@
 		{
 			dependencies: ["08C6EF79208C1399"]
 			description: [
-				"Herbivorous Absorber, absorbs mana from the flowers."
+				"{ftbquests.chapter.natures_aura_2.quest6044D4BB85CBC5D4.description1}"
 				""
-				"Basically, you can feed it flowers and it will provide aura! "
+				"{ftbquests.chapter.natures_aura_2.quest6044D4BB85CBC5D4.description2}"
 				""
-				"Don't use the same flower for too long though, it may have negative effects."
+				"{ftbquests.chapter.natures_aura_2.quest6044D4BB85CBC5D4.description3}"
 			]
 			id: "6044D4BB85CBC5D4"
 			rewards: [{
@@ -573,7 +573,7 @@
 				xp: 15
 			}]
 			shape: "pentagon"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest6044D4BB85CBC5D4.subtitle}"
 			tasks: [{
 				id: "7639DBEC5E1DD535"
 				item: "naturesaura:flower_generator"
@@ -585,9 +585,9 @@
 		{
 			dependencies: ["08C6EF79208C1399"]
 			description: [
-				"Offshoot Observer.. is weird."
+				"{ftbquests.chapter.natures_aura_2.quest129274CBB727F9FF.description1}"
 				""
-				"When slimes split into smaller versions, they get consumed and converted into aura!"
+				"{ftbquests.chapter.natures_aura_2.quest129274CBB727F9FF.description2}"
 			]
 			id: "129274CBB727F9FF"
 			rewards: [{
@@ -596,7 +596,7 @@
 				xp: 15
 			}]
 			shape: "pentagon"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest129274CBB727F9FF.subtitle}"
 			tasks: [{
 				id: "5A91FC28D3CEDF19"
 				item: "naturesaura:slime_split_generator"
@@ -614,7 +614,7 @@
 				xp: 15
 			}]
 			shape: "circle"
-			subtitle: "Shooting Mark generates aura when being shot with projectiles."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest45C00FCAE08676D2.subtitle}"
 			tasks: [{
 				id: "06BCF5482BFE37BB"
 				item: "naturesaura:projectile_generator"
@@ -625,7 +625,7 @@
 		}
 		{
 			dependencies: ["08C6EF79208C1399"]
-			description: ["Swamp Homi collect moss from blocks and restores them, in this process it even produces aura!"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest62909A8DEC577BC7.description1}"]
 			id: "62909A8DEC577BC7"
 			rewards: [{
 				id: "00689C32438E6CB9"
@@ -633,7 +633,7 @@
 				xp: 15
 			}]
 			shape: "circle"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest62909A8DEC577BC7.subtitle}"
 			tasks: [{
 				id: "660A9AF6A26E2E1F"
 				item: "naturesaura:moss_generator"
@@ -644,7 +644,7 @@
 		}
 		{
 			id: "7D4AE2C8A8BED2F8"
-			subtitle: "Doubles the ore output in blast furnaces."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7D4AE2C8A8BED2F8.subtitle}"
 			tasks: [{
 				id: "0A373FE30318333D"
 				item: "naturesaura:blast_furnace_booster"
@@ -655,7 +655,7 @@
 		}
 		{
 			id: "584211EDD43DE504"
-			subtitle: "Uses Aura to destroy surrounding blocks."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest584211EDD43DE504.subtitle}"
 			tasks: [{
 				id: "5D3C7591FDAC3EB3"
 				item: "naturesaura:field_creator"
@@ -666,18 +666,18 @@
 		}
 		{
 			description: [
-				"Cloudshiter changes the wheather with the help of aura."
+				"{ftbquests.chapter.natures_aura_2.quest791E21722A2C5799.description1}"
 				""
-				"Throwing some flowers can decide on the weather type:"
+				"{ftbquests.chapter.natures_aura_2.quest791E21722A2C5799.description2}"
 				""
-				"&eSunflowers&r will make it sunny, "
-				"&9Dark Prismarine&r will make it rain,"
-				"&cFire Charges&r will invoke a thunderstorm."
+				"{ftbquests.chapter.natures_aura_2.quest791E21722A2C5799.description3}"
+				"{ftbquests.chapter.natures_aura_2.quest791E21722A2C5799.description4}"
+				"{ftbquests.chapter.natures_aura_2.quest791E21722A2C5799.description5}"
 				""
-				"Throwing more items also increases the amount of time that the desired weather will most likely remain for, but also increases the Aura usage of the shift."
+				"{ftbquests.chapter.natures_aura_2.quest791E21722A2C5799.description6}"
 			]
 			id: "791E21722A2C5799"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest791E21722A2C5799.subtitle}"
 			tasks: [{
 				id: "53E00B46D716ECC7"
 				item: "naturesaura:weather_changer"
@@ -688,7 +688,7 @@
 		}
 		{
 			dependencies: ["47559A5F494B4BD5"]
-			description: ["Place it next to a device that harnesses Aura."]
+			description: ["{ftbquests.chapter.natures_aura_2.quest452CA1CD5F76CBBC.description1}"]
 			id: "452CA1CD5F76CBBC"
 			rewards: [{
 				id: "3F6BE18770109D86"
@@ -696,7 +696,7 @@
 				xp: 15
 			}]
 			shape: "heart"
-			subtitle: "Saves you from Aura imbalance."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest452CA1CD5F76CBBC.subtitle}"
 			tasks: [{
 				id: "431D5D632BE67D9B"
 				item: "naturesaura:lower_limiter"
@@ -707,7 +707,7 @@
 		}
 		{
 			id: "103F9FE0BD2EDC18"
-			subtitle: "Harness Aura from.. breeding."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest103F9FE0BD2EDC18.subtitle}"
 			tasks: [{
 				id: "0099D7C6C9C6011A"
 				item: "naturesaura:animal_spawner"
@@ -719,11 +719,11 @@
 		{
 			description: [
 				""
-				"{image:customtextures:textures/redstone_thing.png width:250 height:100 align:center}"
-				"{image:customtextures:textures/redstone_thing2.png width:250 height:100 align:center}"
+				"{ftbquests.chapter.natures_aura_2.quest3C18195FD7018CC1.image0}"
+				"{ftbquests.chapter.natures_aura_2.quest3C18195FD7018CC1.image2}"
 			]
 			id: "3C18195FD7018CC1"
-			subtitle: "Aura to Forge Energy"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest3C18195FD7018CC1.subtitle}"
 			tasks: [{
 				id: "773E006DA8A6D7EE"
 				item: "naturesaura:rf_converter"
@@ -734,7 +734,7 @@
 		}
 		{
 			id: "1FF90EBF5B1287CE"
-			subtitle: "Huge water storage that works with Aura"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest1FF90EBF5B1287CE.subtitle}"
 			tasks: [{
 				id: "5F67CAAC5DB6F37E"
 				item: "naturesaura:spring"
@@ -745,7 +745,7 @@
 		}
 		{
 			id: "69371797C3C5946B"
-			subtitle: "When powered on with a &credstone&r signal- stops mobs from appearing in a 48 block radius"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest69371797C3C5946B.subtitle}"
 			tasks: [{
 				id: "53364CAE0DECC571"
 				item: "naturesaura:spawn_lamp"
@@ -756,7 +756,7 @@
 		}
 		{
 			id: "6E73B4A49BFBF06B"
-			subtitle: "Transmutes items into different forms, actually useful"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest6E73B4A49BFBF06B.subtitle}"
 			tasks: [{
 				id: "6009FF3C59A24D04"
 				item: "naturesaura:conversion_catalyst"
@@ -767,7 +767,7 @@
 		}
 		{
 			id: "311EBD65D6B8C50E"
-			subtitle: "Makes snow fall in a area with the supply of aura and signal of redstone"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest311EBD65D6B8C50E.subtitle}"
 			tasks: [{
 				id: "4D4F2AFDA89C1942"
 				item: "naturesaura:snow_creator"
@@ -778,7 +778,7 @@
 		}
 		{
 			id: "7FD93640C0F33E66"
-			subtitle: "Keeps the chunks always active, may cause problems though. Be careful!"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7FD93640C0F33E66.subtitle}"
 			tasks: [{
 				id: "536FC3BA50714893"
 				item: "naturesaura:chunk_loader"
@@ -789,7 +789,7 @@
 		}
 		{
 			id: "6D9B46B8F7CECE6D"
-			subtitle: "Increases Aura production"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest6D9B46B8F7CECE6D.subtitle}"
 			tasks: [{
 				id: "58A3A0E580D38A62"
 				item: "naturesaura:generator_limit_remover"
@@ -807,7 +807,7 @@
 				xp: 15
 			}]
 			shape: "circle"
-			subtitle: "Produces Aura by killing &epassive&r mobs near it"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest714B0B3E3C538996.subtitle}"
 			tasks: [{
 				id: "54841F72925B859A"
 				item: "naturesaura:animal_generator"
@@ -818,7 +818,7 @@
 		}
 		{
 			id: "2D1D4C7C0020579C"
-			subtitle: "Harnesses Aura from chorus plants"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest2D1D4C7C0020579C.subtitle}"
 			tasks: [{
 				id: "5E833458E5726231"
 				item: "naturesaura:chorus_generator"
@@ -830,9 +830,9 @@
 		{
 			dependencies: ["08C6EF79208C1399"]
 			description: [
-				"Aura imbalance can happen if you have either &aTOO much Aura&r or &cTOO low Aura&r"
+				"{ftbquests.chapter.natures_aura_2.quest47559A5F494B4BD5.description1}"
 				""
-				"These two factors can cause positive \\& negative effects on you."
+				"{ftbquests.chapter.natures_aura_2.quest47559A5F494B4BD5.description2}"
 			]
 			icon: {
 				Count: 1
@@ -844,10 +844,10 @@
 			id: "47559A5F494B4BD5"
 			shape: "gear"
 			size: 1.4d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest47559A5F494B4BD5.subtitle}"
 			tasks: [{
 				id: "558438BC9DDE268E"
-				title: "Aura Imbalance"
+				title: "{ftbquests.chapter.natures_aura_2.quest47559A5F494B4BD5.task.6162112572903270030.title}"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -863,10 +863,10 @@
 				}
 			}
 			id: "5659882ED67DD99E"
-			subtitle: "&cLow&r Aura on the area can cause mobs to suffocate, and die."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest5659882ED67DD99E.subtitle}"
 			tasks: [{
 				id: "49CEAAD0E8A9F270"
-				title: "Breathlessness"
+				title: "{ftbquests.chapter.natures_aura_2.quest5659882ED67DD99E.task.5318376024204505712.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -882,10 +882,10 @@
 				}
 			}
 			id: "5423B6D079DEC33B"
-			subtitle: "&cLow&r Aura on the area can cause netherrack to decay."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest5423B6D079DEC33B.subtitle}"
 			tasks: [{
 				id: "5BF4FA79B4F0E76E"
-				title: "Crimson Decay"
+				title: "{ftbquests.chapter.natures_aura_2.quest5423B6D079DEC33B.task.6626196352402515822.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -895,10 +895,10 @@
 			dependencies: ["47559A5F494B4BD5"]
 			icon: "naturesaura:nether_grass"
 			id: "37F882E388EE9937"
-			subtitle: "Too &ahigh&r levels of Aura on the area can cause grass to grow on netherrack."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest37F882E388EE9937.subtitle}"
 			tasks: [{
 				id: "174712AD2410BEBE"
-				title: "Crimson Overgrowth"
+				title: "{ftbquests.chapter.natures_aura_2.quest37F882E388EE9937.task.1677329921062518462.title}"
 				type: "checkmark"
 			}]
 			x: -5.5d
@@ -907,8 +907,8 @@
 		{
 			dependencies: ["47559A5F494B4BD5"]
 			description: [
-				"Additionally eggs that are on the ground will hatch."
-				"{image:customtextures:textures/yowhat.png width:250 height:100 align:center}"
+				"{ftbquests.chapter.natures_aura_2.quest5E7F6BD28DBEA4E2.description1}"
+				"{ftbquests.chapter.natures_aura_2.quest5E7F6BD28DBEA4E2.image0}"
 			]
 			icon: {
 				Count: 1
@@ -918,10 +918,10 @@
 				}
 			}
 			id: "5E7F6BD28DBEA4E2"
-			subtitle: "Too &ahigh&r Aura levels in the area can cause animals to breed uncontrollably."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest5E7F6BD28DBEA4E2.subtitle}"
 			tasks: [{
 				id: "6606A06A00535BC3"
-				title: "Increase of Fertility"
+				title: "{ftbquests.chapter.natures_aura_2.quest5E7F6BD28DBEA4E2.task.7351739818861353923.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -938,10 +938,10 @@
 				}
 			}
 			id: "7A08901288DBE940"
-			subtitle: "&cLow&r Aura levels on the area can cause neutral mobs to be hostile at all time. (like enderman)"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7A08901288DBE940.subtitle}"
 			tasks: [{
 				id: "138CE402ADE90957"
-				title: "Inexplicable Anger"
+				title: "{ftbquests.chapter.natures_aura_2.quest7A08901288DBE940.task.1408751483618920791.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -951,10 +951,10 @@
 			dependencies: ["47559A5F494B4BD5"]
 			icon: "minecraft:diamond_ore"
 			id: "47F729A81D34BF43"
-			subtitle: "By the help of &aCreational Catalyst&r Aura levels can go beyond limits. Causing ores to appear in stones, netherracks."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest47F729A81D34BF43.subtitle}"
 			tasks: [{
 				id: "064BFE067CE3D787"
-				title: "Mineral Richness"
+				title: "{ftbquests.chapter.natures_aura_2.quest47F729A81D34BF43.task.453735491299432327.title}"
 				type: "checkmark"
 			}]
 			x: -5.5d
@@ -964,10 +964,10 @@
 			dependencies: ["47559A5F494B4BD5"]
 			icon: "minecraft:dirt"
 			id: "1C4731124BC07EC3"
-			subtitle: "&cLow&r Aura levels will cause leaves to decay on their own."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest1C4731124BC07EC3.subtitle}"
 			tasks: [{
 				id: "067DA5E7C29541AB"
-				title: "Natural Decay"
+				title: "{ftbquests.chapter.natures_aura_2.quest1C4731124BC07EC3.task.467712351136989611.title}"
 				type: "checkmark"
 			}]
 			x: -5.5d
@@ -977,10 +977,10 @@
 			dependencies: ["1C4731124BC07EC3"]
 			icon: "minecraft:tnt"
 			id: "47E97B95A21BF98F"
-			subtitle: "If Aura levels are &4&lVERY LOW&r to the point where natural decay has already happened to it's utmost. Explosions will start to appear on your world."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest47E97B95A21BF98F.subtitle}"
 			tasks: [{
 				id: "236F579BD19CDA53"
-				title: "&cUnstable Outbreak"
+				title: "{ftbquests.chapter.natures_aura_2.quest47E97B95A21BF98F.task.2553355840490625619.title}"
 				type: "checkmark"
 			}]
 			x: -5.5d
@@ -990,10 +990,10 @@
 			dependencies: ["47559A5F494B4BD5"]
 			icon: "minecraft:grass"
 			id: "563F5A13592F775A"
-			subtitle: "&aVery High&r Aura levels will cause vegetation to grow on the area."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest563F5A13592F775A.subtitle}"
 			tasks: [{
 				id: "6D010251D225B90C"
-				title: "Vegetational Increase"
+				title: "{ftbquests.chapter.natures_aura_2.quest563F5A13592F775A.task.7854561775552149772.title}"
 				type: "checkmark"
 			}]
 			x: -5.5d
@@ -1001,7 +1001,7 @@
 		}
 		{
 			dependencies: ["22A07E4CBB88E8AF"]
-			description: ["Right click holding the bottle will collect aura from the environment"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest9BBDBAF1071827D.description1}"]
 			id: "09BBDBAF1071827D"
 			rewards: [{
 				id: "22AC7A92EF27694E"
@@ -1010,19 +1010,19 @@
 				type: "item"
 			}]
 			size: 1.1d
-			subtitle: "If I can store aura in a bottle..."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest9BBDBAF1071827D.subtitle}"
 			tasks: [{
 				id: "4B27B07D2902A5F9"
 				item: "naturesaura:bottle_two_the_rebottling"
 				type: "item"
 			}]
-			title: "Bottle and cork"
+			title: "{ftbquests.chapter.natures_aura_2.quest9BBDBAF1071827D.title}"
 			x: 0.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["09BBDBAF1071827D"]
-			description: ["Right click Bottle and cork in the Overworld"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest55C778B682FB69FD.description1}"]
 			id: "55C778B682FB69FD"
 			rewards: [{
 				id: "3440060EB0BF0B96"
@@ -1037,7 +1037,7 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Sunshine and Rainbow"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest55C778B682FB69FD.subtitle}"
 			tasks: [{
 				id: "548CC877F0A21C5D"
 				item: {
@@ -1054,7 +1054,7 @@
 		}
 		{
 			dependencies: ["09BBDBAF1071827D"]
-			description: ["Right click Bottle and Cork in the Nether"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest524C2674C1FDE7C4.description1}"]
 			id: "524C2674C1FDE7C4"
 			rewards: [{
 				id: "4DC6E6F6102D05C5"
@@ -1069,7 +1069,7 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Literally no ghosts were harmed"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest524C2674C1FDE7C4.subtitle}"
 			tasks: [{
 				id: "4BA8F1F1CE493527"
 				item: {
@@ -1086,7 +1086,7 @@
 		}
 		{
 			dependencies: ["09BBDBAF1071827D"]
-			description: ["Right click Bottle and cork in the End"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest7D27C554C72DE107.description1}"]
 			id: "7D27C554C72DE107"
 			rewards: [{
 				id: "440AB745773C1A89"
@@ -1101,7 +1101,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Nyctophobic"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest7D27C554C72DE107.subtitle}"
 			tasks: [{
 				id: "5067678C6F7B0496"
 				item: {
@@ -1118,7 +1118,7 @@
 		}
 		{
 			dependencies: ["09BBDBAF1071827D"]
-			description: ["Right click Bottle and cork in aura-deprived areas"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest73C5B22AE83C27AC.description1}"]
 			id: "73C5B22AE83C27AC"
 			rewards: [
 				{
@@ -1134,7 +1134,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Non-environmentalist"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest73C5B22AE83C27AC.subtitle}"
 			tasks: [{
 				id: "693B1165C7BC1D82"
 				item: "naturesaura:vacuum_bottle"
@@ -1145,7 +1145,7 @@
 		}
 		{
 			dependencies: ["09BBDBAF1071827D"]
-			description: ["Bottled substance you see in recipes are any types of bottled aura (sunlight, ghost, etc.)"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest4FDEB5D67BCF185.description1}"]
 			icon: {
 				Count: 1
 				id: "naturesaura:aura_bottle"
@@ -1157,16 +1157,16 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "2D290AD23D113D5A"
-				title: "Any bottled aura"
+				title: "{ftbquests.chapter.natures_aura_2.quest4FDEB5D67BCF185.task.3254144103835843930.title}"
 				type: "checkmark"
 			}]
-			title: "Bottled Substance"
+			title: "{ftbquests.chapter.natures_aura_2.quest4FDEB5D67BCF185.title}"
 			x: -1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["09BBDBAF1071827D"]
-			description: ["Aura bottles can be automatically collected using a dispenser"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest334A43E85AC4F243.description1}"]
 			id: "334A43E85AC4F243"
 			rewards: [{
 				id: "5A2B3445EA12D2C8"
@@ -1174,27 +1174,27 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest334A43E85AC4F243.subtitle}"
 			tasks: [{
 				id: "59970EEA90061E5C"
-				title: "okay thanks"
+				title: "{ftbquests.chapter.natures_aura_2.quest334A43E85AC4F243.task.6455644991460351580.title}"
 				type: "checkmark"
 			}]
-			title: "Automation Info"
+			title: "{ftbquests.chapter.natures_aura_2.quest334A43E85AC4F243.title}"
 			x: -2.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["00180010AD5F63B3"]
 			description: [
-				"&n&lFor item placement&r&r, you can use hoppers to put items onto wooden stands."
-				"&l&nFor dust placement&r&r, outline the areas of the gold powder placement with a type of decorative block like stone bricks, hold the gold powder in your off-hand, place them with a construction wand. "
+				"{ftbquests.chapter.natures_aura_2.quest199EEDAC4DE299BF.description1}"
+				"{ftbquests.chapter.natures_aura_2.quest199EEDAC4DE299BF.description2}"
 			]
 			id: "199EEDAC4DE299BF"
-			subtitle: "Almost automated ritual"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest199EEDAC4DE299BF.subtitle}"
 			tasks: [{
 				id: "25C449A4AAFDED86"
-				title: "Automation?"
+				title: "{ftbquests.chapter.natures_aura_2.quest199EEDAC4DE299BF.task.2721381046430854534.title}"
 				type: "checkmark"
 			}]
 			x: 5.5d
@@ -1203,8 +1203,8 @@
 		{
 			dependencies: ["78D25B9F1D1FB1F1"]
 			description: [
-				"The block below the altar is left empty in order for you to automatically pull results out with a hopper!"
-				"Another hopper can be used to put items inside the altar, very convenient!"
+				"{ftbquests.chapter.natures_aura_2.quest31CD499FC753F93A.description1}"
+				"{ftbquests.chapter.natures_aura_2.quest31CD499FC753F93A.description2}"
 			]
 			id: "31CD499FC753F93A"
 			rewards: [{
@@ -1213,27 +1213,27 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Hopping bonsai"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest31CD499FC753F93A.subtitle}"
 			tasks: [{
 				id: "25841D88622584C5"
 				item: "minecraft:hopper"
 				type: "item"
 			}]
-			title: "Automation tip"
+			title: "{ftbquests.chapter.natures_aura_2.quest31CD499FC753F93A.title}"
 			x: 5.0d
 			y: -11.5d
 		}
 		{
 			description: [
-				"Prepare a large enough field, decorate the offering table with beautiful flowers and the omniscient gods might answer your prayers..."
+				"{ftbquests.chapter.natures_aura_2.quest628456BCE1577408.description1}"
 				""
-				"Place materials onto the table (maximum 16, 1 if the item is non-stackable) and throw the catalyst nearby, and your prayers will rain from the sky!"
+				"{ftbquests.chapter.natures_aura_2.quest628456BCE1577408.description2}"
 				""
-				"Make sure the surrounding areas and the sky access is clear, for items might fall on top of the roof otherwise!"
+				"{ftbquests.chapter.natures_aura_2.quest628456BCE1577408.description3}"
 				""
-				"{image:customtextures:textures/offeringtable.png width:250 height:250 align:center}"
+				"{ftbquests.chapter.natures_aura_2.quest628456BCE1577408.image0}"
 				""
-				"&4DISCLAIMER:&r This image is only for visualization, you DO NOT need to do this on the nether roof."
+				"{ftbquests.chapter.natures_aura_2.quest628456BCE1577408.description4}"
 			]
 			icon: "naturesaura:offering_table"
 			id: "628456BCE1577408"
@@ -1243,7 +1243,7 @@
 				xp: 100
 			}]
 			size: 1.4d
-			subtitle: "Cloudy with a chance of... items?"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest628456BCE1577408.subtitle}"
 			tasks: [
 				{
 					id: "6AD90AD39C21D2DA"
@@ -1260,7 +1260,7 @@
 							value: "minecraft:flowers"
 						}
 					}
-					title: "Any #minecraft:flowers"
+					title: "{ftbquests.chapter.natures_aura_2.quest628456BCE1577408.task.6417011579954473733.title}"
 					type: "item"
 				}
 			]
@@ -1269,7 +1269,7 @@
 		}
 		{
 			dependencies: ["4BF14E5F5A48D60F"]
-			description: ["Convert tainted gold or infused iron ingot into Ingot of the Skies"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest34FEF03A3BC4D949.description1}"]
 			id: "34FEF03A3BC4D949"
 			rewards: [{
 				id: "0BFFBC7CA6F99C15"
@@ -1278,7 +1278,7 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Raining metals"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest34FEF03A3BC4D949.subtitle}"
 			tasks: [{
 				id: "3E977DABFD47F0ED"
 				item: "naturesaura:sky_ingot"
@@ -1290,9 +1290,9 @@
 		{
 			dependencies: ["628456BCE1577408"]
 			description: [
-				"Use various methods to get items inside the Offering Table. Droppers can drop Catalysts onto the table and activate it! Be carefule because resulting items may fall onto your contraption!"
+				"{ftbquests.chapter.natures_aura_2.quest2325F524DBEC8398.description1}"
 				""
-				"If only there is a device to transfer redstone wirelessly..."
+				"{ftbquests.chapter.natures_aura_2.quest2325F524DBEC8398.description2}"
 			]
 			id: "2325F524DBEC8398"
 			rewards: [{
@@ -1301,10 +1301,10 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Who are you gonna call"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest2325F524DBEC8398.subtitle}"
 			tasks: [{
 				id: "73636DD5F546E2D6"
-				title: "Automatic hotlines"
+				title: "{ftbquests.chapter.natures_aura_2.quest2325F524DBEC8398.task.8314610102766592726.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -1312,17 +1312,17 @@
 		}
 		{
 			description: [
-				"This section of the quest line is only visible when you or one of your teammates walk on the path of righteousness."
+				"{ftbquests.chapter.natures_aura_2.quest43377A769B4F4B60.description1}"
 				""
-				"This &lDOES NOT&r act as what you must complete, rather a checklist of what you can make following the quest line that somewhat reduces the burdens of players wearing The Ring of Seven Virtues."
+				"{ftbquests.chapter.natures_aura_2.quest43377A769B4F4B60.description2}"
 			]
 			hide_dependent_lines: true
 			id: "43377A769B4F4B60"
 			secret: true
-			subtitle: "Living with Standards"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest43377A769B4F4B60.subtitle}"
 			tasks: [{
 				id: "7701F34C9227ADF6"
-				title: "Virtue Checklist"
+				title: "{ftbquests.chapter.natures_aura_2.quest43377A769B4F4B60.task.8575402675685273078.title}"
 				type: "checkmark"
 			}]
 			x: 8.5d
@@ -1346,13 +1346,13 @@
 				"4E1BBD2148B11269"
 			]
 			description: [
-				"Store excess aura and use them on the go!"
+				"{ftbquests.chapter.natures_aura_2.quest1DBD01BD6C6A2447.description1}"
 				""
-				"Hold it in your curio slot and travel around the world, it'll fill itself up in aura dense places!"
+				"{ftbquests.chapter.natures_aura_2.quest1DBD01BD6C6A2447.description2}"
 				""
-				"You'll know it's charging when it bounces in your hand!"
+				"{ftbquests.chapter.natures_aura_2.quest1DBD01BD6C6A2447.description3}"
 				""
-				"One quick and totally not recommended way of filling it is letting the natural altar charge it for you..."
+				"{ftbquests.chapter.natures_aura_2.quest1DBD01BD6C6A2447.description4}"
 			]
 			id: "1DBD01BD6C6A2447"
 			rewards: [{
@@ -1361,7 +1361,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "Natural energy"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest1DBD01BD6C6A2447.subtitle}"
 			tasks: [{
 				id: "4E8A8BEFC699332F"
 				item: "naturesaura:aura_cache"
@@ -1375,7 +1375,7 @@
 				"1DBD01BD6C6A2447"
 				"34FEF03A3BC4D949"
 			]
-			description: ["Store more aura than you will ever need!"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest4AE7E915CA29C6AA.description1}"]
 			id: "4AE7E915CA29C6AA"
 			rewards: [{
 				id: "290288E59916DE7D"
@@ -1383,7 +1383,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "BIGGER"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest4AE7E915CA29C6AA.subtitle}"
 			tasks: [{
 				id: "78E1A8B0EBEFE9D3"
 				item: "naturesaura:aura_trove"
@@ -1394,14 +1394,14 @@
 		}
 		{
 			dependencies: ["628456BCE1577408"]
-			description: ["The most basic catalyst, throw it on the ground when you want to make offers to the gods"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest4BF14E5F5A48D60F.description1}"]
 			id: "4BF14E5F5A48D60F"
 			rewards: [{
 				id: "1BCD4622958781AC"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Hello"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest4BF14E5F5A48D60F.subtitle}"
 			tasks: [{
 				id: "0E18E63F3F6AD3B2"
 				item: "naturesaura:calling_spirit"
@@ -1412,22 +1412,22 @@
 		}
 		{
 			dependencies: ["78D25B9F1D1FB1F1"]
-			description: ["With Nature's Mend enchantment, you can repair your tools and armor by having the aura cache/ trove in your inventory, hold the item in your hand, then crouch to repair it on the go!"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest5ACFE1757DA14B93.description1}"]
 			id: "5ACFE1757DA14B93"
 			shape: "circle"
-			subtitle: "Free-ish mending"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest5ACFE1757DA14B93.subtitle}"
 			tasks: [{
 				id: "7832031DCA7FCF4B"
-				title: "Nature Mending"
+				title: "{ftbquests.chapter.natures_aura_2.quest5ACFE1757DA14B93.task.8660988459873193803.title}"
 				type: "checkmark"
 			}]
-			title: "Nature's Mend"
+			title: "{ftbquests.chapter.natures_aura_2.quest5ACFE1757DA14B93.title}"
 			x: 6.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["628456BCE1577408"]
-			description: ["Breed animals in aura dense places"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest344E57D6FB58A209.description1}"]
 			id: "344E57D6FB58A209"
 			rewards: [{
 				id: "374CCE3500A8A1EE"
@@ -1435,7 +1435,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "Babies!"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest344E57D6FB58A209.subtitle}"
 			tasks: [{
 				id: "1A4711F6D8FD7C84"
 				item: "naturesaura:birth_spirit"
@@ -1449,7 +1449,7 @@
 				"4AE7E915CA29C6AA"
 				"344E57D6FB58A209"
 			]
-			description: ["Place the filled Aura Trove onto the Offering Table, and drop the spirit of birthing nearby, and you'll receive this"]
+			description: ["{ftbquests.chapter.natures_aura_2.quest5AB9431E8F14AEB4.description1}"]
 			id: "5AB9431E8F14AEB4"
 			rewards: [{
 				id: "474AA8D13AFE8C96"
@@ -1457,7 +1457,7 @@
 				xp: 100
 			}]
 			shape: "pentagon"
-			subtitle: "The 13th titan.."
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest5AB9431E8F14AEB4.subtitle}"
 			tasks: [{
 				id: "40D9DAC16CA84C2D"
 				item: "covenant_of_the_seven:infinity_spirit"
@@ -1701,10 +1701,10 @@
 		}
 		{
 			dependencies: ["08C6EF79208C1399"]
-			description: ["By stunting the growth of large trees and only allowing small trees to grow, the canopy diminisher releases a large amount of aura into the environment."]
+			description: ["{ftbquests.chapter.natures_aura_2.quest16BF083F0FD7B52A.description1}"]
 			id: "16BF083F0FD7B52A"
 			shape: "circle"
-			subtitle: "Kindergarden of trees"
+			subtitle: "{ftbquests.chapter.natures_aura_2.quest16BF083F0FD7B52A.subtitle}"
 			tasks: [{
 				id: "2E6670BF99F05422"
 				item: "naturesaura:oak_generator"
@@ -1714,5 +1714,5 @@
 			y: -12.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#e6d520 to=#C0AF27>Nature's Aura</grad></shadow>"
+	title: "{ftbquests.chapter.natures_aura_2.title}"
 }

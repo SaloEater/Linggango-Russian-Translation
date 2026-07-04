@@ -26,10 +26,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.forlorn_caves.image.hovertext1"
+				"ftbquests.chapter.forlorn_caves.image.hovertext2"
+				"ftbquests.chapter.forlorn_caves.image.hovertext3"
+				"ftbquests.chapter.forlorn_caves.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -43,7 +43,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Find the forlorn caves!"]
+			description: ["{ftbquests.chapter.forlorn_caves.quest4405287D0ACF3DCB.description1}"]
 			id: "4405287D0ACF3DCB"
 			rewards: [{
 				id: "27D42CAE4150BA2A"
@@ -52,21 +52,21 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Forlornliest Day of My Life"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest4405287D0ACF3DCB.subtitle}"
 			tasks: [{
 				biome: "alexscaves:forlorn_hollows"
 				icon: "alexscaves:pure_darkness"
 				id: "487F88185A0107D6"
-				title: "Find Forlorn Hollows"
+				title: "{ftbquests.chapter.forlorn_caves.quest4405287D0ACF3DCB.task.5224043730943674326.title}"
 				type: "biome"
 			}]
-			title: "&8&lForlorn Hollows"
+			title: "{ftbquests.chapter.forlorn_caves.quest4405287D0ACF3DCB.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4405287D0ACF3DCB"]
-			description: ["Craft a Burrowing Arrow&r, which can break up to 5 blocks&r when fired by a bow&r."]
+			description: ["{ftbquests.chapter.forlorn_caves.quest14965495C88909F5.description1}"]
 			id: "14965495C88909F5"
 			rewards: [
 				{
@@ -81,7 +81,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest14965495C88909F5.subtitle}"
 			tasks: [{
 				id: "56FFFF72D2ED4B4A"
 				item: "alexscaves:burrowing_arrow"
@@ -92,16 +92,16 @@
 		}
 		{
 			dependencies: ["4405287D0ACF3DCB"]
-			description: ["Discover the Underzealots&r, mole-like servants&r of a dark master&r."]
+			description: ["{ftbquests.chapter.forlorn_caves.quest8E8FE9E2FF73F0D.description1}"]
 			id: "08E8FE9E2FF73F0D"
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest8E8FE9E2FF73F0D.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/discover_underzealot"
 				criterion: ""
 				icon: "alexscaves:occult_gem"
 				id: "344415AB5E2D6ADF"
-				title: "The Underzealots"
+				title: "{ftbquests.chapter.forlorn_caves.quest8E8FE9E2FF73F0D.task.3766159014152202975.title}"
 				type: "advancement"
 			}]
 			x: -2.0d
@@ -109,7 +109,7 @@
 		}
 		{
 			dependencies: ["08E8FE9E2FF73F0D"]
-			description: ["Witness the Underzealots&r sacrificing a creature to their profane god&r, and it turn into something unholy..."]
+			description: ["{ftbquests.chapter.forlorn_caves.quest62C94728AB3015CE.description1}"]
 			icon: {
 				Count: 1
 				id: "alexscaves:desolate_dagger"
@@ -119,13 +119,13 @@
 			}
 			id: "62C94728AB3015CE"
 			shape: "gear"
-			subtitle: "Witness an Underzealot's Sacrifice"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest62C94728AB3015CE.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/underzealot_sacrifice"
 				criterion: ""
 				icon: "alexscaves:pure_darkness"
 				id: "2907F15677B5A9A4"
-				title: "The Black Parade"
+				title: "{ftbquests.chapter.forlorn_caves.quest62C94728AB3015CE.task.2956597034069895588.title}"
 				type: "advancement"
 			}]
 			x: -4.0d
@@ -158,17 +158,17 @@
 				}
 				type: "item"
 			}]
-			title: "&l&7The Cloak of Darkness"
+			title: "{ftbquests.chapter.forlorn_caves.quest6A6C2BD7C8059AEB.title}"
 			x: -1.2857142857142918d
 			y: 3.107142857142854d
 		}
 		{
 			dependencies: ["4405287D0ACF3DCB"]
-			description: ["Craft a Hood and Cloak of Darkness&r that, when combined, will allow you to temporarily become Darkness Incarnate&r."]
+			description: ["{ftbquests.chapter.forlorn_caves.quest46AA638EBE53C24D.description1}"]
 			icon: "alexscaves:dark_tatters"
 			id: "46AA638EBE53C24D"
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest46AA638EBE53C24D.subtitle}"
 			tasks: [{
 				id: "371C9C4F3D76C28E"
 				item: "alexscaves:pure_darkness"
@@ -204,13 +204,13 @@
 				}
 				type: "item"
 			}]
-			title: "&7&lThe Hood of Darkness"
+			title: "{ftbquests.chapter.forlorn_caves.quest198BF711E6AC7FC.title}"
 			x: 1.5357142857142847d
 			y: 2.357142857142861d
 		}
 		{
 			dependencies: ["14965495C88909F5"]
-			description: ["The Totem of Possession&r can temporarily control&r a monster of your choice."]
+			description: ["{ftbquests.chapter.forlorn_caves.quest1634637D8E24C861.description1}"]
 			id: "1634637D8E24C861"
 			rewards: [
 				{
@@ -225,7 +225,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "You are under my control now!"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest1634637D8E24C861.subtitle}"
 			tasks: [{
 				id: "44A61FCB0CCFC135"
 				item: {
@@ -242,10 +242,10 @@
 		}
 		{
 			dependencies: ["1634637D8E24C861"]
-			description: ["Dreadbow is a extremely powerful bow that can shoot tons of arrows at once!"]
+			description: ["{ftbquests.chapter.forlorn_caves.quest42AC36D5CD351041.description1}"]
 			id: "42AC36D5CD351041"
 			shape: "gear"
-			subtitle: "Blot Out the Sun"
+			subtitle: "{ftbquests.chapter.forlorn_caves.quest42AC36D5CD351041.subtitle}"
 			tasks: [{
 				id: "7AD496BEED7C7FA9"
 				item: {
@@ -257,10 +257,10 @@
 				}
 				type: "item"
 			}]
-			title: "&l&7Dreadbow"
+			title: "{ftbquests.chapter.forlorn_caves.quest42AC36D5CD351041.title}"
 			x: 5.107142857142861d
 			y: 0.017857142857145902d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#68502F to=#737373>Forlorn Hollows</grad></shadow>"
+	title: "{ftbquests.chapter.forlorn_caves.title}"
 }

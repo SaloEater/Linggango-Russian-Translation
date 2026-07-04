@@ -17,10 +17,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.sophisticated_storage.image.hovertext1"
+				"ftbquests.chapter.sophisticated_storage.image.hovertext2"
+				"ftbquests.chapter.sophisticated_storage.image.hovertext3"
+				"ftbquests.chapter.sophisticated_storage.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -35,11 +35,11 @@
 	quests: [
 		{
 			description: [
-				"The Barrel Functions similarly to the Chest, but it does not require an empty space above it to be opened. "
+				"{ftbquests.chapter.sophisticated_storage.quest320A7F10EF29D32A.description1}"
 				""
-				"The only downside is that you cannot combine the inventory of two Barrels. "
+				"{ftbquests.chapter.sophisticated_storage.quest320A7F10EF29D32A.description2}"
 				""
-				"The Barrel holds 27 stacks of items."
+				"{ftbquests.chapter.sophisticated_storage.quest320A7F10EF29D32A.description3}"
 			]
 			icon: "minecraft:barrel"
 			id: "320A7F10EF29D32A"
@@ -64,14 +64,14 @@
 			]
 			shape: "square"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.sophisticated_storage.quest320A7F10EF29D32A.subtitle}"
 			tasks: [{
 				id: "7197A06FC54AFB80"
 				item: "minecraft:barrel"
-				title: "Craft a Barrel"
+				title: "{ftbquests.chapter.sophisticated_storage.quest320A7F10EF29D32A.task.8185187249681005440.title}"
 				type: "item"
 			}]
-			title: "The Barrel"
+			title: "{ftbquests.chapter.sophisticated_storage.quest320A7F10EF29D32A.title}"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -81,9 +81,9 @@
 				"320A7F10EF29D32A"
 			]
 			description: [
-				"This Quest serves to remind you that you do not have to break your existing chests or barrels to upgrade them! "
+				"{ftbquests.chapter.sophisticated_storage.quest6B690848B1CE0F3E.description1}"
 				""
-				"Instead, craft the proper storage upgrade and right click to upgrade your existing storage!"
+				"{ftbquests.chapter.sophisticated_storage.quest6B690848B1CE0F3E.description2}"
 			]
 			icon: "sophisticatedstorage:basic_tier_upgrade"
 			id: "6B690848B1CE0F3E"
@@ -103,21 +103,21 @@
 			]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.sophisticated_storage.quest6B690848B1CE0F3E.subtitle}"
 			tasks: [{
 				id: "70B0BBA9D93269EC"
 				item: "sophisticatedstorage:basic_tier_upgrade"
 				type: "item"
 			}]
-			title: "Tiered Upgrades"
+			title: "{ftbquests.chapter.sophisticated_storage.quest6B690848B1CE0F3E.title}"
 			x: 0.5d
 			y: 1.0d
 		}
 		{
 			description: [
-				"The Chest is most likely going to be the first way that you store your items more permanantly. Crafted from Logs or Planks, the Chest can hold 27 stacks of items."
+				"{ftbquests.chapter.sophisticated_storage.quest183F457F923574A9.description1}"
 				""
-				"Combining two chests into a double chest by placing them beside each other nets you 54 total stacks of item storage - perfect for storing your early game spoils."
+				"{ftbquests.chapter.sophisticated_storage.quest183F457F923574A9.description2}"
 			]
 			icon: "minecraft:chest"
 			id: "183F457F923574A9"
@@ -142,7 +142,7 @@
 			]
 			shape: "square"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.sophisticated_storage.quest183F457F923574A9.subtitle}"
 			tasks: [{
 				icon: "minecraft:chest"
 				id: "70367235C1DD570D"
@@ -153,10 +153,10 @@
 						value: "forge:chests/wooden"
 					}
 				}
-				title: "Craft any Wooden Chest"
+				title: "{ftbquests.chapter.sophisticated_storage.quest183F457F923574A9.task.8085775756201645837.title}"
 				type: "item"
 			}]
-			title: "The Chest"
+			title: "{ftbquests.chapter.sophisticated_storage.quest183F457F923574A9.title}"
 			x: 1.0d
 			y: -0.5d
 		}
@@ -268,7 +268,7 @@
 		}
 		{
 			dependencies: ["6B690848B1CE0F3E"]
-			description: ["Right-click with a packing tape to a chest or barrel, then break it!"]
+			description: ["{ftbquests.chapter.sophisticated_storage.quest2851902853A56AEC.description1}"]
 			id: "2851902853A56AEC"
 			rewards: [
 				{
@@ -290,7 +290,7 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Carry your storage easily!"
+			subtitle: "{ftbquests.chapter.sophisticated_storage.quest2851902853A56AEC.subtitle}"
 			tasks: [{
 				id: "5A0AFC3BEDAE24C9"
 				item: {
@@ -328,7 +328,7 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Carry more"
+			subtitle: "{ftbquests.chapter.sophisticated_storage.quest7EB0338ED916C41B.subtitle}"
 			tasks: [{
 				id: "04D24C31715CBF9A"
 				item: {
@@ -352,7 +352,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "Read item description!"
+			subtitle: "{ftbquests.chapter.sophisticated_storage.quest59F7038CD4C2E8CF.subtitle}"
 			tasks: [{
 				id: "049CC22BF3419649"
 				item: "sophisticatedstorage:paintbrush"
@@ -370,7 +370,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "Read item description!"
+			subtitle: "{ftbquests.chapter.sophisticated_storage.quest79012B06FF889D83.subtitle}"
 			tasks: [{
 				id: "0E413DB4520883AA"
 				item: "sophisticatedstorage:storage_tool"
@@ -392,5 +392,5 @@
 			y: 2.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#FA732A to=#FFCFB5>Sophisticated Storage</grad></shadow>"
+	title: "{ftbquests.chapter.sophisticated_storage.title}"
 }

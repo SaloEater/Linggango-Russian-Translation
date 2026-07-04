@@ -17,10 +17,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.biomancy.image.hovertext1"
+				"ftbquests.chapter.biomancy.image.hovertext2"
+				"ftbquests.chapter.biomancy.image.hovertext3"
+				"ftbquests.chapter.biomancy.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -39,7 +39,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.biomancy.image.hovertext5"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -52,11 +52,11 @@
 	quests: [
 		{
 			description: [
-				"Biomancy is a vile tech mod that has extremely unique features."
+				"{ftbquests.chapter.biomancy.quest2B9E792779EE6575.description1}"
 				""
-				"It's obviously centered around bio-technology and experimenting on animals, including yourself!"
+				"{ftbquests.chapter.biomancy.quest2B9E792779EE6575.description2}"
 				""
-				"Let's begin with &cprimordial core.&r&c"
+				"{ftbquests.chapter.biomancy.quest2B9E792779EE6575.description3}"
 			]
 			icon: {
 				Count: 1
@@ -74,13 +74,13 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.biomancy.quest2B9E792779EE6575.subtitle}"
 			tasks: [{
 				id: "528AD3555219C06B"
-				title: "Wow.. interesting mod"
+				title: "{ftbquests.chapter.biomancy.quest2B9E792779EE6575.task.5947798621299261547.title}"
 				type: "checkmark"
 			}]
-			title: "&dWelcome to Biomancy!"
+			title: "{ftbquests.chapter.biomancy.quest2B9E792779EE6575.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -93,7 +93,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "Base Crafting Material."
+			subtitle: "{ftbquests.chapter.biomancy.quest361F788B12AE4B03.subtitle}"
 			tasks: [{
 				id: "345590BF3E1BBD0A"
 				item: "biomancy:primordial_core"
@@ -104,7 +104,7 @@
 		}
 		{
 			dependencies: ["361F788B12AE4B03"]
-			description: ["Flesh plunderer is a melee type weapon that gives special loot when killed an entity."]
+			description: ["{ftbquests.chapter.biomancy.quest45A04E76B160E5FD.description1}"]
 			id: "45A04E76B160E5FD"
 			rewards: [{
 				id: "18B35A3FDF8DC3CD"
@@ -112,7 +112,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.biomancy.quest45A04E76B160E5FD.subtitle}"
 			tasks: [{
 				id: "56D1AF040B284796"
 				item: {
@@ -136,7 +136,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "Crafting Material"
+			subtitle: "{ftbquests.chapter.biomancy.quest47FCFF662453A5FE.subtitle}"
 			tasks: [{
 				id: "5BA34504D589FE2D"
 				item: "biomancy:mob_fang"
@@ -148,21 +148,21 @@
 		{
 			dependencies: ["47FCFF662453A5FE"]
 			description: [
-				"The Primordial Cradle is a special block used to create hand-made living entities."
+				"{ftbquests.chapter.biomancy.quest13FF211A43B0A862.description1}"
 				""
-				"Feed it raw meat, it will store and it will store it's essence to create blob!"
+				"{ftbquests.chapter.biomancy.quest13FF211A43B0A862.description2}"
 				""
-				"In order to actually make the blob though, you gotta feed it enchanted apples with some regeneration potions."
+				"{ftbquests.chapter.biomancy.quest13FF211A43B0A862.description3}"
 				""
-				"When killed, they will drop living fresh. Which is really important!"
+				"{ftbquests.chapter.biomancy.quest13FF211A43B0A862.description4}"
 				""
-				"&8Here's all possible blobs:&r"
+				"{ftbquests.chapter.biomancy.quest13FF211A43B0A862.description5}"
 				""
 				"{@pagebreak}"
 				""
-				"If you input sharp claws, spider eyes and meat, a &ehungry blob&r will spawn!"
+				"{ftbquests.chapter.biomancy.quest13FF211A43B0A862.description6}"
 				""
-				"This blow will eat anything in it's sight to grow bigger.. Including You!"
+				"{ftbquests.chapter.biomancy.quest13FF211A43B0A862.description7}"
 			]
 			id: "13FF211A43B0A862"
 			rewards: [{
@@ -171,7 +171,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.biomancy.quest13FF211A43B0A862.subtitle}"
 			tasks: [{
 				id: "2FC75C6BC5FE1345"
 				item: "biomancy:primordial_cradle"
@@ -183,9 +183,9 @@
 		{
 			dependencies: ["13FF211A43B0A862"]
 			description: [
-				"Blobs can grow in size if fed with raw meat."
+				"{ftbquests.chapter.biomancy.quest13EED6BCD8BCB1E9.description1}"
 				""
-				"Eventually they can grow even bigger than you! (they won't attack dont worry)"
+				"{ftbquests.chapter.biomancy.quest13EED6BCD8BCB1E9.description2}"
 			]
 			icon: {
 				Count: 1
@@ -203,22 +203,22 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "Considering you made a normal blob."
+			subtitle: "{ftbquests.chapter.biomancy.quest13EED6BCD8BCB1E9.subtitle}"
 			tasks: [{
 				id: "697B0483DE47032B"
-				title: "Okay"
+				title: "{ftbquests.chapter.biomancy.quest13EED6BCD8BCB1E9.task.7600673760534266667.title}"
 				type: "checkmark"
 			}]
-			title: "Taking Care of The Blobs"
+			title: "{ftbquests.chapter.biomancy.quest13EED6BCD8BCB1E9.title}"
 			x: 4.309840020871377d
 			y: -4.839285714285712d
 		}
 		{
 			dependencies: ["13FF211A43B0A862"]
 			description: [
-				"Living flesh can be combined into cradle to create Primordial Hungry Flesh."
+				"{ftbquests.chapter.biomancy.quest318DE22ED16F859E.description1}"
 				""
-				"The primordial hungry flesh is a more powerful variant of normal blobs and will attack everything in it's sight."
+				"{ftbquests.chapter.biomancy.quest318DE22ED16F859E.description2}"
 			]
 			id: "318DE22ED16F859E"
 			rewards: [{
@@ -227,7 +227,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "Drops from blobs"
+			subtitle: "{ftbquests.chapter.biomancy.quest318DE22ED16F859E.subtitle}"
 			tasks: [{
 				id: "7B13E3657AC4AEBB"
 				item: "biomancy:living_flesh"
@@ -239,11 +239,11 @@
 		{
 			dependencies: ["13FF211A43B0A862"]
 			description: [
-				"If you feed the cradle with an undesired food such as rotten meat, it will attack you and release veins over the area."
+				"{ftbquests.chapter.biomancy.quest7F30882A1FAC6E53.description1}"
 				""
-				"These veins can start terraforming your entire area, transforming blocks into vile things."
+				"{ftbquests.chapter.biomancy.quest7F30882A1FAC6E53.description2}"
 				""
-				"Flesh veins can be sheared off and used as a crafting material."
+				"{ftbquests.chapter.biomancy.quest7F30882A1FAC6E53.description3}"
 			]
 			id: "7F30882A1FAC6E53"
 			rewards: [{
@@ -252,7 +252,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.biomancy.quest7F30882A1FAC6E53.subtitle}"
 			tasks: [{
 				id: "455C4ED6D342ABDE"
 				item: "biomancy:malignant_flesh_veins"
@@ -270,7 +270,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "Decoration"
+			subtitle: "{ftbquests.chapter.biomancy.quest65D518734C26C65A.subtitle}"
 			tasks: [{
 				id: "0822189BCCD9FA22"
 				item: "biomancy:primal_permeable_membrane"
@@ -282,9 +282,9 @@
 		{
 			dependencies: ["318DE22ED16F859E"]
 			description: [
-				"The machine food as fuel.. we are used to that now i guess."
+				"{ftbquests.chapter.biomancy.quest2ECE65F4EECE9300.description1}"
 				""
-				"If there's enough fuel, it can decompose items into new resources that we will be using later."
+				"{ftbquests.chapter.biomancy.quest2ECE65F4EECE9300.description2}"
 			]
 			id: "2ECE65F4EECE9300"
 			rewards: [{
@@ -293,7 +293,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "Important Block!"
+			subtitle: "{ftbquests.chapter.biomancy.quest2ECE65F4EECE9300.subtitle}"
 			tasks: [{
 				id: "3A52BD55A8D1F7D2"
 				item: "biomancy:decomposer"
@@ -305,9 +305,9 @@
 		{
 			dependencies: ["2ECE65F4EECE9300"]
 			description: [
-				"This block allows you to create items and blocks by using the resources from decomposer."
+				"{ftbquests.chapter.biomancy.quest6822C517E79BE9B6.description1}"
 				""
-				"Can craft tons of things. You can use JEI to see them."
+				"{ftbquests.chapter.biomancy.quest6822C517E79BE9B6.description2}"
 			]
 			id: "6822C517E79BE9B6"
 			rewards: [{
@@ -316,7 +316,7 @@
 				xp: 5
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.biomancy.quest6822C517E79BE9B6.subtitle}"
 			tasks: [{
 				id: "482A57AB3303406B"
 				item: "biomancy:bio_forge"
@@ -328,13 +328,13 @@
 		{
 			dependencies: ["6822C517E79BE9B6"]
 			description: [
-				"In the bio-lab we can craft compounds, which are used to brew more complex potions."
+				"{ftbquests.chapter.biomancy.quest2A67220F6056E9CD.description1}"
 				""
-				"By combining compounds, you can make serums, stimulants, and curses."
+				"{ftbquests.chapter.biomancy.quest2A67220F6056E9CD.description2}"
 				""
-				"To use them we will need a &cbio-injector!&r"
+				"{ftbquests.chapter.biomancy.quest2A67220F6056E9CD.description3}"
 				""
-				"Serums can be applied to yourself. "
+				"{ftbquests.chapter.biomancy.quest2A67220F6056E9CD.description4}"
 			]
 			id: "2A67220F6056E9CD"
 			rewards: [
@@ -356,7 +356,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Creating Compounds"
+			subtitle: "{ftbquests.chapter.biomancy.quest2A67220F6056E9CD.subtitle}"
 			tasks: [{
 				id: "424749EED0956888"
 				item: "biomancy:bio_lab"
@@ -366,5 +366,5 @@
 			y: -3.5d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#FC3272 to=#FCAEC7>Biomancy</grad></shadow>"
+	title: "{ftbquests.chapter.biomancy.title}"
 }

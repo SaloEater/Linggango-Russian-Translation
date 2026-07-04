@@ -19,10 +19,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.companions.image.hovertext1"
+				"ftbquests.chapter.companions.image.hovertext2"
+				"ftbquests.chapter.companions.image.hovertext3"
+				"ftbquests.chapter.companions.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -33,7 +33,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.companions.image.hovertext5"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -46,9 +46,9 @@
 	quests: [
 		{
 			description: [
-				"### &eCompanions!&r"
-				"It's a Minecraft mod that introduces a world of &5magical&r constructs, &aquirky allies&r, and a &cboss fight&r."
-				"The mobs are really useful and fun to have around, enjoy the mod!"
+				"{ftbquests.chapter.companions.quest5C4290BFF336FEB5.description1}"
+				"{ftbquests.chapter.companions.quest5C4290BFF336FEB5.description2}"
+				"{ftbquests.chapter.companions.quest5C4290BFF336FEB5.description3}"
 			]
 			hide_until_deps_complete: true
 			icon: "companions:mutant_flesh"
@@ -61,43 +61,43 @@
 			}]
 			shape: "square"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.companions.quest5C4290BFF336FEB5.subtitle}"
 			tasks: [{
 				id: "7F36770F1F772860"
-				title: "Okay"
+				title: "{ftbquests.chapter.companions.quest5C4290BFF336FEB5.task.9166644998395340896.title}"
 				type: "checkmark"
 			}]
-			title: "Companions!"
+			title: "{ftbquests.chapter.companions.quest5C4290BFF336FEB5.title}"
 			x: 0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4D84A78B23EC8B0B"]
 			description: [
-				"### &ePuppet&r"
-				"He can be found in a structure located in the &2swamp biome&r."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"This place is home to Illusioners and Witches so be careful again!"
-				"On the top floor you should see a gloor sweeping the floor."
-				"In order to tame it, you have to play &dRock-Paper-Scissors&r &ewith him!"
-				"In order to represent each object you need"
-				"Cobblestone-Shears-Paper.&r"
-				"After right-clicking with any of the represented items, you can start the game!"
-				"The game rules are simple, you have to beat glove three times. If it beats you, it will punch you."
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description1}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description2}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description3}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description4}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description5}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description6}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description7}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description8}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description9}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description10}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description11}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description12}"
 				"{@pagebreak}"
-				"After beating the glove, craft an empty puppet and right-click on the glove with it."
-				"&8Empty puppet can also be found in factories and other structures.&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Once the puppet is assembled, you can craft special items to make it stronger!"
-				"&eLike&r Mutant Arm, Blade Arm, Whip Arm (?), Cannon Arm. "
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Each arm has its own characteristics, allowing you to personalize your very own puppet."
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description13}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description14}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description15}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description16}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description17}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description18}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description19}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description20}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description21}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description22}"
+				"{ftbquests.chapter.companions.quest85CD9D3CC0CD841.description23}"
 			]
 			icon: "companions:empty_puppet_block"
 			id: "085CD9D3CC0CD841"
@@ -117,7 +117,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&6Personal Assistant"
+			subtitle: "{ftbquests.chapter.companions.quest85CD9D3CC0CD841.subtitle}"
 			tasks: [
 				{
 					checkItem: false
@@ -131,7 +131,7 @@
 					}
 					id: "4F955FFD04489DF7"
 					nbt: { }
-					title: "Interact with Magic Glove."
+					title: "{ftbquests.chapter.companions.quest85CD9D3CC0CD841.task.5734595240829427191.title}"
 					type: "questsadditions:interaction"
 					value: 1L
 				}
@@ -141,72 +141,72 @@
 					type: "item"
 				}
 			]
-			title: "Tame Puppet"
+			title: "{ftbquests.chapter.companions.quest85CD9D3CC0CD841.title}"
 			x: -0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4D84A78B23EC8B0B"]
 			description: [
-				"### &eGolden Allay&r"
-				"They spawn in swamps and can be a companion."
-				"[gap=-5]"
-				"&8I am so tired of swamps&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"However, to do this, you need to craft &6Mage's Clothes&r for it to wear, which also tames it."
-				"After you craft the mage outfit, right-click the &6Golden Allay&r to tame it and turn it into a mage!"
-				"&8Don't forget to give it the staff too!&r"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description1}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description2}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description3}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description4}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description5}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description6}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description7}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description8}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description9}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description10}"
 				"{@pagebreak}"
-				"On its own the mage doesn't do anything, so we need to give it magical spell books!"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Right-click while sneaking on the mage to open the menu."
-				"These books can be found in loot chests, obtained by bartering with imps, or pulled from the gambling machine."
-				"&8yes, no way to craft them :(&r"
-				"Once the spell books are equipped, the mage can use spells!"
-				"&e&lExtra tip:&r &eIf you cook a candle in the Soul Furnace you can make totems for your mage and save it from death!&r"
-				"&eYou can use the spell books yourself too!"
-				"[gap=-5]"
-				"&eSee it on the next page.&r"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description11}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description12}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description13}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description14}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description15}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description16}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description17}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description18}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description19}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description20}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description21}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description22}"
 				"{@pagebreak}"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&bIce Shards&r create hovering ice shards that pierce through a target to freeze it."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&bIce Tornado&r invokes a freezing tornado that deals damage along its path."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&bFire Mark&r temporarily marks an enemy, causing an explosion if set on fire."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&bBlaze&r launches a small burst of fire towards a target to ignite it."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&bHeal Ring&r creates a ring around you that quickly heals you."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&bStone Spikes&r create spikes beneath your target to cause damage."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&bMagic Ray&r shoots a focused beam of magic that damages entities in its path."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&bBlack Hole&r creates a distortion that pulls all nearby enemies to its center."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description23}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description24}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description25}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description26}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description27}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description28}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description29}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description30}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description31}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description32}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description33}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description34}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description35}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description36}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description37}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description38}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description39}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description40}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description41}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description42}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description43}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description44}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description45}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description46}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description47}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description48}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description49}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description50}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description51}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description52}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description53}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description54}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description55}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description56}"
+				"{ftbquests.chapter.companions.quest5E54841FD82A6B7F.description57}"
 			]
 			icon: {
 				Count: 1
@@ -231,7 +231,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&6Very cute :P"
+			subtitle: "{ftbquests.chapter.companions.quest5E54841FD82A6B7F.subtitle}"
 			tasks: [
 				{
 					id: "1332DE4D3EEE4F44"
@@ -290,43 +290,43 @@
 						}
 					}
 					nbt: { }
-					title: "Interact the Golden Allay with Mage clothes"
+					title: "{ftbquests.chapter.companions.quest5E54841FD82A6B7F.task.2699729068768227452.title}"
 					type: "questsadditions:interaction"
 					value: 1L
 				}
 			]
-			title: "Tame Golden Allay (Mage)"
+			title: "{ftbquests.chapter.companions.quest5E54841FD82A6B7F.title}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["57CA4A33C563780D"]
 			description: [
-				"### &eImp&r"
-				"Imp can spawn in &6The Nether&r in a new tent structure."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"There's a chance to tame them into a minion by giving them a &cNether Coin&r."
-				"If you fail... they will try to attack you!"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description1}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description2}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description3}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description4}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description5}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description6}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description7}"
 				"{@pagebreak}"
-				"The minion changes forms in different dimensions, such as turning blue in &aThe Overworld&r."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"And into a Gargoyle in &5The End&r dimension."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"You can trade with them using the &6coins&r of that dimension to obtain rare items."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Minions have different attack patterns depending on their form."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"If you upgrade a chain to a &8Netherite Chain&r, you can force a minion to stay in its current form."
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description8}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description9}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description10}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description11}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description12}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description13}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description14}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description15}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description16}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description17}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description18}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description19}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description20}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description21}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description22}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description23}"
+				"{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.description24}"
 			]
 			id: "1161E35EEB1E8EC8"
 			rewards: [
@@ -343,7 +343,7 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "&6Little demons.."
+			subtitle: "{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.subtitle}"
 			tasks: [{
 				checkItem: true
 				entity: "mythsandlegends:imp"
@@ -351,40 +351,40 @@
 				id: "4C6630D82DB9BB64"
 				item: "companions:nether_coin"
 				nbt: { }
-				title: "Give nether coin to a imp"
+				title: "{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.task.5505141299545226084.title}"
 				type: "questsadditions:interaction"
 				value: 1L
 			}]
-			title: "Tame minions"
+			title: "{ftbquests.chapter.companions.quest1161E35EEB1E8EC8.title}"
 			x: -3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["57CA4A33C563780D"]
 			description: [
-				"### &eCornelius&r"
-				"He's a good-looking fella who can be found in &nswamp&r biomes."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"He istamed very.. weirdly in my opinion."
-				"To tame Cornelius you have to kill a bee near him, or make him kill one by dragging a bee close to him."
-				"On his own, Cornelius doesn't attack, but with coins you can make him call his goons."
-				"Certain coins affect the summon system differently."
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description1}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description2}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description3}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description4}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description5}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description6}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description7}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description8}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description9}"
 				"{@pagebreak}"
-				"&aCopper Coins&r make him summon firework frogs that shoot explosive projectiles."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&cNether Coins&r make him summon a fighter holding a sword."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&dEnd Coins&r make him summon a flying projectile-shooting frog."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"You can also play blackjack with him by bidding coins in his menu.. &8lol&r"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description10}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description11}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description12}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description13}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description14}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description15}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description16}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description17}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description18}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description19}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description20}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description21}"
+				"{ftbquests.chapter.companions.quest4ACD5D021355661A.description22}"
 			]
 			hide_until_deps_complete: true
 			id: "4ACD5D021355661A"
@@ -395,7 +395,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "&6Fancy frog"
+			subtitle: "{ftbquests.chapter.companions.quest4ACD5D021355661A.subtitle}"
 			tasks: [{
 				checkItem: true
 				entity: "companions:cornelius"
@@ -403,37 +403,37 @@
 				id: "3086A67456257B58"
 				item: "companions:copper_coin"
 				nbt: { }
-				title: "&6Give copper coin to cornelius"
+				title: "{ftbquests.chapter.companions.quest4ACD5D021355661A.task.3496665179291482968.title}"
 				type: "questsadditions:interaction"
 				value: 1L
 			}]
-			title: "Tame Cornelius"
+			title: "{ftbquests.chapter.companions.quest4ACD5D021355661A.title}"
 			x: -3.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4D84A78B23EC8B0B"]
 			description: [
-				"### &eTeddy&r"
-				"A &6Teddy Tower&r is a new structure that can be found in the Dark Forest biome."
-				"Be careful though, there are vindicators and witches inside!"
-				"At the top floor you will find a teddy bear. To tame it you need to craft a &6Needle&r."
-				"After crafting it, simply right-click the teddy to tame it :D"
-				"Now let's see what teddy can do!"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description1}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description2}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description3}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description4}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description5}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description6}"
 				"{@pagebreak}"
-				"Teddy attacks with its needle, causing an effect that makes needles pierce its target."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Related to teddy, you can craft a &6Netherite Dagger&r using copper and netherite."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Combining it with &cNetherrack&r creates a tool that produces an eternal flame."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"If you light teddy on fire, it will mutate and turn into an angel that gives you constant regeneration!"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description7}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description8}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description9}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description10}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description11}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description12}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description13}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description14}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description15}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description16}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description17}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description18}"
+				"{ftbquests.chapter.companions.quest6736CF50F17079BC.description19}"
 			]
 			icon: "plushie_buddies:plushie_polar_bear"
 			id: "6736CF50F17079BC"
@@ -459,7 +459,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&6I need a hug"
+			subtitle: "{ftbquests.chapter.companions.quest6736CF50F17079BC.subtitle}"
 			tasks: [
 				{
 					id: "2511B7EED760C325"
@@ -473,7 +473,7 @@
 					id: "2640E03DEB717A97"
 					item: "companions:needle"
 					nbt: { }
-					title: "Use needle on teddy"
+					title: "{ftbquests.chapter.companions.quest6736CF50F17079BC.task.2756449528498453143.title}"
 					type: "questsadditions:interaction"
 					value: 1L
 				}
@@ -486,40 +486,40 @@
 							Damage: 0
 						}
 					}
-					title: "Craft eternal lighter and use it on teddy (OPTIONAL)"
+					title: "{ftbquests.chapter.companions.quest6736CF50F17079BC.task.8652097097542440761.title}"
 					type: "item"
 				}
 			]
-			title: "Tame Teddy"
+			title: "{ftbquests.chapter.companions.quest6736CF50F17079BC.title}"
 			x: 1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4D84A78B23EC8B0B"]
 			description: [
-				"### &eCroissant Dragon&r"
-				"Let's start by making a &6BIG Bread&r by combining a &6Homunculus&r and &f8&r Bread."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Then put it in the &6Big Furnace&r and wait.. eventually a croissant will pop out. Wait for it to hatch."
-				"After a while, a &6Croissant Dragon&r will hatch! To make it stronger and bigger, feed it milk. &f4&r buckets is enough to max it out."
-				"Croissant Dragon slows down your enemies by creaming on them..? Yes.. sorry!"
-				"You can change its cream type by crafting different armors such as: &aCroissant Dragon Vanilla, Chocolate, or Strawberry Armor&r."
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description1}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description2}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description3}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description4}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description5}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description6}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description7}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description8}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description9}"
 				"{@pagebreak}"
-				"&nChocolate&r gives you speed when you walk on it."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&nStrawberry&r gives you regeneration when you walk on it."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&nVanilla&r gives you resistance when you walk on it."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Enemies will receive weakness as well."
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description10}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description11}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description12}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description13}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description14}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description15}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description16}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description17}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description18}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description19}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description20}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description21}"
+				"{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.description22}"
 			]
 			icon: "companions:croissant_egg_block"
 			id: "10FEBD4DD72AD55F"
@@ -531,7 +531,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&6Is it edible?"
+			subtitle: "{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.subtitle}"
 			tasks: [
 				{
 					id: "4140FEDE45CFDE57"
@@ -545,46 +545,46 @@
 					id: "43EE5E4FC73B3117"
 					isItemInteraction: false
 					item: "companions:big_bread"
-					title: "Use big bread on soul furnace"
+					title: "{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.task.4894953541736280343.title}"
 					type: "questsadditions:use"
 					value: 1L
 				}
 			]
-			title: "Tame Croissant Dragon"
+			title: "{ftbquests.chapter.companions.quest10FEBD4DD72AD55F.title}"
 			x: 1.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4D84A78B23EC8B0B"]
 			description: [
-				"### &eDinamo&r"
-				"Can be found in the factory structure, you'll have to find it yourself, sorry!"
-				"[gap=0]"
-				"This factory is overrun by pillagers so be aware!"
-				"After you clear out the pillagers, try finding a &ebroken doll&r on the ground. That's &eDinamo&r."
-				"&l&eHOWEVER&r&r if you don't want to waste your precious time to find him, you can alternatively do a raid!"
-				"Dinamos spawn in raids and attack you."
-				"&l&eANYWAYS&r back to the Dinamo lying on the ground."
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description1}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description2}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description3}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description4}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description5}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description6}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description7}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description8}"
 				"{@pagebreak}"
-				"### &eNow let's repair Dinamo!&r"
-				"&l&eFirst&r, craft a &eHomunculus&r and get &f29&r planks. Use them on Dinamo's broken body to repair it, and after you've used all of them craft a wrench and wake Dinamo up!"
-				"&l&eSecond&r, you will need &f29&r Iron and a &eTesla Coil&r. After giving it the required materials you will completely fix him!"
-				"Now let's see what Dinamo can do!"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description9}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description10}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description11}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description12}"
 				"{@pagebreak}"
-				"### &eDinamo's usage&r"
-				"While following you, it shoots electricity at nearby enemies to protect you."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"It can also interact with certain blocks mainly made of iron and planks, such as &eVoltaic Pillar&r, &eTesla Coil&r, &eVoltaic Relay&r and &ePlasma Lamp&r."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"While sitting, it conducts electricity which you can connect to certain blocks with a &eWrench&r, allowing you to chain connect blocks."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Lastly, there's a special block I didn't mention! It's called a &aRecall Platform&r, which lets you teleport between platforms powered by Dinamo!"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description13}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description14}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description15}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description16}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description17}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description18}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description19}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description20}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description21}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description22}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description23}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description24}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description25}"
+				"{ftbquests.chapter.companions.quest77F2F5224219FF96.description26}"
 			]
 			icon: "companions:tesla_coil_block"
 			id: "77F2F5224219FF96"
@@ -604,7 +604,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&6Enemies to friends"
+			subtitle: "{ftbquests.chapter.companions.quest77F2F5224219FF96.subtitle}"
 			tasks: [
 				{
 					id: "2BD9F05F246B442E"
@@ -634,41 +634,41 @@
 					id: "34D6B0FC21F7250F"
 					item: "knightlib:homunculus"
 					nbt: { }
-					title: "&6Stage I of fixing Dinamo"
+					title: "{ftbquests.chapter.companions.quest77F2F5224219FF96.task.3807425131936425231.title}"
 					type: "questsadditions:interaction"
 					value: 1L
 				}
 			]
-			title: "Tame Dinamo"
+			title: "{ftbquests.chapter.companions.quest77F2F5224219FF96.title}"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4D84A78B23EC8B0B"]
 			description: [
-				"### &eAntlion&r"
-				"The antlion is a giant ant that spawns in &ndeserts&r."
-				"If you get too close it will burrow itself into the ground and shoot burning projectiles at you."
-				"To tame it, you must approach silently and carefully, then feed it &cCrystallized Blood&r."
-				"After you tame it, the mob will evolve into 4 stages and cycles through them once a day."
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description1}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description2}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description3}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description4}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description5}"
 				"{@pagebreak}"
-				"&n&eFirst stage:&r It grows some fur which you should shear, as you can use it to craft items."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&n&eSecond stage:&r It turns into a rolling ball that helps you in combat."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&n&eThird stage:&r It grows wings and you can glide while riding it. It also gains a diving attack that deals nice damage."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&n&eFourth stage:&r It attacks with its fangs and shoots hot sand projectiles."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&7An Hourglass can be used to cycle through phases!&r"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description6}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description7}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description8}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description9}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description10}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description11}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description12}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description13}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description14}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description15}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description16}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description17}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description18}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description19}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description20}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description21}"
+				"{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.description22}"
 			]
 			icon: "minecraft:suspicious_sand"
 			id: "7D27ED187D2BB9EF"
@@ -687,7 +687,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&6Angry ant"
+			subtitle: "{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.subtitle}"
 			tasks: [
 				{
 					checkItem: true
@@ -696,7 +696,7 @@
 					id: "1B495A59157628C7"
 					item: "companions:crystallized_blood"
 					nbt: { }
-					title: "Tame antlion"
+					title: "{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.task.1966202050982586567.title}"
 					type: "questsadditions:interaction"
 					value: 1L
 				}
@@ -706,17 +706,17 @@
 					type: "item"
 				}
 			]
-			title: "Tame Antlion"
+			title: "{ftbquests.chapter.companions.quest7D27ED187D2BB9EF.title}"
 			x: -0.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["296B4AB5A70347F9"]
 			description: [
-				"### &cCrystallized Blood&r"
-				"Can be used to upgrade Netherite armor into a new set."
-				"You'll need &cDemon Flesh&r for that though, which can be obtained by slaying mobs in the Nether."
-				"When your &chealth&r is below half, it will reduce incoming damage based on the armor worn."
+				"{ftbquests.chapter.companions.quest19C4D004E0DE9E41.description1}"
+				"{ftbquests.chapter.companions.quest19C4D004E0DE9E41.description2}"
+				"{ftbquests.chapter.companions.quest19C4D004E0DE9E41.description3}"
+				"{ftbquests.chapter.companions.quest19C4D004E0DE9E41.description4}"
 			]
 			id: "19C4D004E0DE9E41"
 			rewards: [{
@@ -726,19 +726,19 @@
 			}]
 			shape: "octagon"
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.companions.quest19C4D004E0DE9E41.subtitle}"
 			tasks: [{
 				id: "5DCC935E5BA07E05"
 				item: "companions:crystallized_blood"
 				type: "item"
 			}]
-			title: "&eCrystallized Blood Tools N' Armor"
+			title: "{ftbquests.chapter.companions.quest19C4D004E0DE9E41.title}"
 			x: 3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["446059DB353391B2"]
-			description: ["You basically get more items \\& extra spin chances with these rarer coins."]
+			description: ["{ftbquests.chapter.companions.quest57CA4A33C563780D.description1}"]
 			id: "57CA4A33C563780D"
 			rewards: [{
 				id: "3673E55008127E3D"
@@ -747,7 +747,7 @@
 			}]
 			shape: "octagon"
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.companions.quest57CA4A33C563780D.subtitle}"
 			tasks: [
 				{
 					id: "124FFCC9FC1B102E"
@@ -760,20 +760,20 @@
 					type: "item"
 				}
 			]
-			title: "Other Coins"
+			title: "{ftbquests.chapter.companions.quest57CA4A33C563780D.title}"
 			x: -2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5C4290BFF336FEB5"]
 			description: [
-				"### &eFrog Bonanza&r"
-				"In certain loot chests you can find a &6Copper Coin&r, which can be used with &eFrog Bonanza&r!"
-				"&6Coins&r can also be placed on the floor as decoration."
-				"You basically gamble with a slot machine- I mean, &eFrog Bonanza&r."
-				"If you're very lucky, you can obtain some really nice loot!"
-				"## &c&lWARNING!&r"
-				"If you're unlucky... &cbad things&r may happen, refrain from gambling in your base.."
+				"{ftbquests.chapter.companions.quest446059DB353391B2.description1}"
+				"{ftbquests.chapter.companions.quest446059DB353391B2.description2}"
+				"{ftbquests.chapter.companions.quest446059DB353391B2.description3}"
+				"{ftbquests.chapter.companions.quest446059DB353391B2.description4}"
+				"{ftbquests.chapter.companions.quest446059DB353391B2.description5}"
+				"{ftbquests.chapter.companions.quest446059DB353391B2.description6}"
+				"{ftbquests.chapter.companions.quest446059DB353391B2.description7}"
 			]
 			icon: "companions:frog_bonanza_block"
 			icon_scale: 0.8d
@@ -785,7 +785,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "That's not really family friendly :("
+			subtitle: "{ftbquests.chapter.companions.quest446059DB353391B2.subtitle}"
 			tasks: [
 				{
 					id: "569A0D1FDA33D2FD"
@@ -804,19 +804,19 @@
 		{
 			dependencies: ["5C4290BFF336FEB5"]
 			description: [
-				"### &eGreat Chalice&r"
-				"The &6Great Chalice&r holds essences, which can be dropped by &cmobs&r or crafted from rare items."
-				"&eThese essences are placed into the chalice to fill it up.&r"
+				"{ftbquests.chapter.companions.quest296B4AB5A70347F9.description1}"
+				"{ftbquests.chapter.companions.quest296B4AB5A70347F9.description2}"
+				"{ftbquests.chapter.companions.quest296B4AB5A70347F9.description3}"
 				"{@pagebreak}"
-				"### &eEmpty Grail&r"
-				"A &6Filled Grail&r is an useful item needed for certain recipes in the game."
-				"&eGo to the next page to view information about a Soul Furnace&r"
+				"{ftbquests.chapter.companions.quest296B4AB5A70347F9.description4}"
+				"{ftbquests.chapter.companions.quest296B4AB5A70347F9.description5}"
+				"{ftbquests.chapter.companions.quest296B4AB5A70347F9.description6}"
 				"{@pagebreak}"
-				"### &eSoul Furnace&r"
-				"Just like the &6Great Chalice&r, it has to be filled with essences. Place the &6Soul Furnace&r on top of the &6Great Chalice&r to fill it!"
-				"The &6Soul Furnace&r can cook special items, such as:"
-				"&6Rotten Flesh&r to &cCrystalized Blood&r."
-				"&l&eNOW LET'S GET TO TAMING!&r"
+				"{ftbquests.chapter.companions.quest296B4AB5A70347F9.description7}"
+				"{ftbquests.chapter.companions.quest296B4AB5A70347F9.description8}"
+				"{ftbquests.chapter.companions.quest296B4AB5A70347F9.description9}"
+				"{ftbquests.chapter.companions.quest296B4AB5A70347F9.description10}"
+				"{ftbquests.chapter.companions.quest296B4AB5A70347F9.description11}"
 			]
 			icon: "knightlib:great_chalice"
 			id: "296B4AB5A70347F9"
@@ -827,7 +827,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.companions.quest296B4AB5A70347F9.subtitle}"
 			tasks: [
 				{
 					id: "6AAE73A82854C839"
@@ -861,15 +861,15 @@
 		{
 			dependencies: ["19C4D004E0DE9E41"]
 			description: [
-				"### &eShade Sword&r"
-				"&eShade Altars&r can be used to summon two new companions."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"To summon one of them you have to create a &eShade Sword Altar&r."
-				"You'll also need a &eShadow Bell&r, which can be linked to the altar. The altar requires &cCrystallized Blood&r as energy to operate."
-				"Once it has enough &cCrystallized Blood&r, use the linked bell to summon!"
-				"The sword floats around and deals massive damage."
+				"{ftbquests.chapter.companions.quest309816D51CC91576.description1}"
+				"{ftbquests.chapter.companions.quest309816D51CC91576.description2}"
+				"{ftbquests.chapter.companions.quest309816D51CC91576.description3}"
+				"{ftbquests.chapter.companions.quest309816D51CC91576.description4}"
+				"{ftbquests.chapter.companions.quest309816D51CC91576.description5}"
+				"{ftbquests.chapter.companions.quest309816D51CC91576.description6}"
+				"{ftbquests.chapter.companions.quest309816D51CC91576.description7}"
+				"{ftbquests.chapter.companions.quest309816D51CC91576.description8}"
+				"{ftbquests.chapter.companions.quest309816D51CC91576.description9}"
 			]
 			id: "309816D51CC91576"
 			rewards: [{
@@ -879,7 +879,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "&6Explaining Altars and Shade Sword"
+			subtitle: "{ftbquests.chapter.companions.quest309816D51CC91576.subtitle}"
 			tasks: [
 				{
 					id: "2875D474A7D73A64"
@@ -892,21 +892,21 @@
 					type: "item"
 				}
 			]
-			title: "Call a Shade Sword"
+			title: "{ftbquests.chapter.companions.quest309816D51CC91576.title}"
 			x: 4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["19C4D004E0DE9E41"]
 			description: [
-				"### &eShade Maw&r"
-				"&eShade Altars&r can be used to summon two new companions."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"The &eShade Maw&r primarily serves as a mount that can quickly traverse terrain."
-				"It can also go underwater, holding you in its mouth to prevent oxygen loss."
-				"It can also attack when left-clicked while mounted!"
+				"{ftbquests.chapter.companions.quest7876B70B905C9B1.description1}"
+				"{ftbquests.chapter.companions.quest7876B70B905C9B1.description2}"
+				"{ftbquests.chapter.companions.quest7876B70B905C9B1.description3}"
+				"{ftbquests.chapter.companions.quest7876B70B905C9B1.description4}"
+				"{ftbquests.chapter.companions.quest7876B70B905C9B1.description5}"
+				"{ftbquests.chapter.companions.quest7876B70B905C9B1.description6}"
+				"{ftbquests.chapter.companions.quest7876B70B905C9B1.description7}"
+				"{ftbquests.chapter.companions.quest7876B70B905C9B1.description8}"
 			]
 			id: "07876B70B905C9B1"
 			rewards: [{
@@ -916,7 +916,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "&6Big mouth buddy"
+			subtitle: "{ftbquests.chapter.companions.quest7876B70B905C9B1.subtitle}"
 			tasks: [
 				{
 					id: "4610E8D81AE62B1E"
@@ -929,26 +929,26 @@
 					type: "item"
 				}
 			]
-			title: "Call a Shade Maw"
+			title: "{ftbquests.chapter.companions.quest7876B70B905C9B1.title}"
 			x: 4.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4D84A78B23EC8B0B"]
 			description: [
-				"### &eSacred Pontiff&r"
-				"His structure can be found in the jungle."
-				"To start the fight, you must interrupt his prayer, which will cause him to attack you."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Defeating him will reward you with two special items that you can use"
-				"[gap=-5]"
-				"to craft armor!"
-				"[gap=5]"
-				"&eAlso make sure to loot the temple"
-				"[gap=-5]"
-				"before leaving!&r"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description1}"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description2}"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description3}"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description4}"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description5}"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description6}"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description7}"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description8}"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description9}"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description10}"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description11}"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description12}"
+				"{ftbquests.chapter.companions.quest5F3B413311D5162D.description13}"
 			]
 			id: "5F3B413311D5162D"
 			min_width: 220
@@ -959,7 +959,7 @@
 			}]
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "For some reason, I really want to call him Polnareff instead"
+			subtitle: "{ftbquests.chapter.companions.quest5F3B413311D5162D.subtitle}"
 			tasks: [{
 				entity: "companions:sacred_pontiff"
 				icon: {
@@ -970,71 +970,71 @@
 					}
 				}
 				id: "368347F1062E8983"
-				title: "&cThe Sacred Pontiff"
+				title: "{ftbquests.chapter.companions.quest5F3B413311D5162D.task.3928062400513608067.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&cKill The Sacred Pontiff"
+			title: "{ftbquests.chapter.companions.quest5F3B413311D5162D.title}"
 			x: 0.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5F3B413311D5162D"]
 			description: [
-				"### &eRespawn Totem&r"
-				"&bAfter you've defeated the Pontiff and obtained the special items, you can craft a &eRespawn Totem&r &bthat can revive your companions!&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"To respawn them, you need to craft an &bHourglass&r!"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Right-click the &eRespawn Totem&r with the &bHourglass&r to activate it."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Companions that died nearby will respawn instantly!"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description1}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description2}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description3}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description4}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description5}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description6}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description7}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description8}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description9}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description10}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description11}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description12}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description13}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description14}"
 				"{@pagebreak}"
-				"&eOh, there's also one thing I didn't tell you about, summoning new companions from the Respawn Totem! :O&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&bJust right-click the Totem with &6Relic Gold&b.&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&eThat will spawn a &bMankh&e in its place.&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&eThis companion generates rings of fire and shoots lasers from its position. (It can't move.)&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&bRight-clicking with &6Old Cloth&b summons a Cloak in its place instead.&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&eThis creature launches sacred stars that explode on impact, causing damage.&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&eIt can also turn you and itself invisible!&r"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description15}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description16}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description17}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description18}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description19}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description20}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description21}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description22}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description23}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description24}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description25}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description26}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description27}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description28}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description29}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description30}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description31}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description32}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description33}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description34}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description35}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description36}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description37}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description38}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description39}"
 				"{@pagebreak}"
-				"&bNaginata Spell Book:&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&eWhen used, Golden Naginatas fall onto the target to cause damage.&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&eIf you sneak, you will hit the target more precisely but with fewer Naginatas.&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"&l&aGOOD JOB FINISHING THE QUESTLINE!&r"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description40}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description41}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description42}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description43}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description44}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description45}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description46}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description47}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description48}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description49}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description50}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description51}"
+				"{ftbquests.chapter.companions.quest2982B1034CF1C3BF.description52}"
 			]
 			icon: "companions:respawn_totem_block"
 			icon_scale: 0.8d
@@ -1047,7 +1047,7 @@
 			}]
 			shape: "octagon"
 			size: 1.1d
-			subtitle: "Fortnite reboot card"
+			subtitle: "{ftbquests.chapter.companions.quest2982B1034CF1C3BF.subtitle}"
 			tasks: [
 				{
 					id: "64D65C1983617C88"
@@ -1071,13 +1071,13 @@
 					type: "item"
 				}
 			]
-			title: "&6The Respawn Totem!"
+			title: "{ftbquests.chapter.companions.quest2982B1034CF1C3BF.title}"
 			x: 0.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5C4290BFF336FEB5"]
-			description: ["Please checkmark me!"]
+			description: ["{ftbquests.chapter.companions.quest4D84A78B23EC8B0B.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1093,16 +1093,16 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "FTB Quests may not count as you taming them, so just cope for now!"
+			subtitle: "{ftbquests.chapter.companions.quest4D84A78B23EC8B0B.subtitle}"
 			tasks: [{
 				id: "258D4AD1FC0B6688"
-				title: "Read me again"
+				title: "{ftbquests.chapter.companions.quest4D84A78B23EC8B0B.task.2705901216856761992.title}"
 				type: "checkmark"
 			}]
-			title: "&dCheck&r to unlock companions"
+			title: "{ftbquests.chapter.companions.quest4D84A78B23EC8B0B.title}"
 			x: 0.5d
 			y: 0.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#F7E054 to=#9A820C>Companions</grad></shadow>"
+	title: "{ftbquests.chapter.companions.title}"
 }

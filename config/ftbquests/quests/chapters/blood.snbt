@@ -10,10 +10,10 @@
 		dev: true
 		height: 1.0d
 		hover: [
-			"All rights are reserved."
-			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			"ftbquests.chapter.blood.image.hovertext1"
+			"ftbquests.chapter.blood.image.hovertext2"
+			"ftbquests.chapter.blood.image.hovertext3"
+			"ftbquests.chapter.blood.image.hovertext4"
 		]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
@@ -38,13 +38,13 @@
 			id: "52C7C09BB8289628"
 			shape: "none"
 			size: 2.5d
-			subtitle: "BloodThe Blood school is themed around evil; you will find elements of necromancy, wither, and blood magic here, with spells focusing on damage that buffs the caster."
+			subtitle: "{ftbquests.chapter.blood.quest52C7C09BB8289628.subtitle}"
 			tasks: [{
 				id: "5A6D4F758FBEE61D"
 				item: "irons_spellbooks:blood_rune"
 				type: "item"
 			}]
-			title: "Blood magic"
+			title: "{ftbquests.chapter.blood.quest52C7C09BB8289628.title}"
 			x: 0.5d
 			y: -1.5d
 		}
@@ -60,7 +60,7 @@
 			icon_scale: 1.4d
 			id: "34FCD3DCDB805845"
 			shape: "square"
-			subtitle: "Around a targeted creature, create a field of blood needles in every direction, shooting down and healing you for 25% of damage done."
+			subtitle: "{ftbquests.chapter.blood.quest34FCD3DCDB805845.subtitle}"
 			tasks: [{
 				id: "53976AC5DBF6F41D"
 				item: {
@@ -83,7 +83,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Acupuncture"
+			title: "{ftbquests.chapter.blood.quest34FCD3DCDB805845.title}"
 			x: -0.5d
 			y: 0.0d
 		}
@@ -99,7 +99,7 @@
 			icon_scale: 1.4d
 			id: "7C567B724287B19F"
 			shape: "square"
-			subtitle: "Create a ring of needles made from blood and fire them forward, skewering targets and healing you for 25% of damage done."
+			subtitle: "{ftbquests.chapter.blood.quest7C567B724287B19F.subtitle}"
 			tasks: [{
 				id: "3D221D7110DEDDBB"
 				item: {
@@ -122,7 +122,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Blood Needles"
+			title: "{ftbquests.chapter.blood.quest7C567B724287B19F.title}"
 			x: 0.5d
 			y: 0.0d
 		}
@@ -138,7 +138,7 @@
 			icon_scale: 1.4d
 			id: "11CFCB84D544B611"
 			shape: "square"
-			subtitle: "Slash forward to send out a concentrated blade of blood, slicing through creatures and healing for 15% of damage done."
+			subtitle: "{ftbquests.chapter.blood.quest11CFCB84D544B611.subtitle}"
 			tasks: [{
 				id: "27867BDBA9222354"
 				item: {
@@ -161,7 +161,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Blood Slash"
+			title: "{ftbquests.chapter.blood.quest11CFCB84D544B611.title}"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -177,7 +177,7 @@
 			icon_scale: 1.4d
 			id: "6EE8B66A4F31C91C"
 			shape: "square"
-			subtitle: "Instantaneously teleport to where you are looking, or directly behind any targeted creature. Gain a short duration of true invisibility upon reaching your destination."
+			subtitle: "{ftbquests.chapter.blood.quest6EE8B66A4F31C91C.subtitle}"
 			tasks: [{
 				id: "5E62025CA0C7D9BD"
 				item: {
@@ -200,7 +200,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Blood Step"
+			title: "{ftbquests.chapter.blood.quest6EE8B66A4F31C91C.title}"
 			x: -0.5d
 			y: 1.0d
 		}
@@ -216,7 +216,7 @@
 			icon_scale: 1.4d
 			id: "04E55B301237F14B"
 			shape: "square"
-			subtitle: "Pull in a nearby creature and attack them with a bite, leeching 15% of damage done as health. If the creature is killed, you temporarily gain additional max HP. Created by the ancient magician known as Yorhavich."
+			subtitle: "{ftbquests.chapter.blood.quest4E55B301237F14B.subtitle}"
 			tasks: [{
 				id: "6ABDD53045061E6A"
 				item: {
@@ -239,7 +239,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Devour"
+			title: "{ftbquests.chapter.blood.quest4E55B301237F14B.title}"
 			x: 0.5d
 			y: 1.0d
 		}
@@ -255,7 +255,7 @@
 			icon_scale: 1.4d
 			id: "0EFA169E521A73F6"
 			shape: "square"
-			subtitle: "Cast to inflict yourself with Heartstop, an effect that makes you temporarily invulnerable. However, once it wears off, you take 50% of all damage accumulated while under its effects."
+			subtitle: "{ftbquests.chapter.blood.questEFA169E521A73F6.subtitle}"
 			tasks: [{
 				id: "408F07357E341763"
 				item: {
@@ -278,7 +278,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Heartstop"
+			title: "{ftbquests.chapter.blood.questEFA169E521A73F6.title}"
 			x: 1.5d
 			y: 1.0d
 		}
@@ -294,7 +294,7 @@
 			icon_scale: 1.4d
 			id: "2E2C3D02696C2298"
 			shape: "square"
-			subtitle: "Cast to summon undead minions from the earth beneath you. The higher the power, the better equipment they will have."
+			subtitle: "{ftbquests.chapter.blood.quest2E2C3D02696C2298.subtitle}"
 			tasks: [{
 				id: "0A20D76542159184"
 				item: {
@@ -317,7 +317,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Raise Dead"
+			title: "{ftbquests.chapter.blood.quest2E2C3D02696C2298.title}"
 			x: -0.5d
 			y: 2.0d
 		}
@@ -333,7 +333,7 @@
 			icon_scale: 1.4d
 			id: "6BB9C0339C46FFBB"
 			shape: "square"
-			subtitle: "Hold to cast a ray of necrotic energy that siphons health from creatures it hits, damaging them and healing you for 100% of damage done."
+			subtitle: "{ftbquests.chapter.blood.quest6BB9C0339C46FFBB.subtitle}"
 			tasks: [{
 				id: "2CF8CCDAD152BA72"
 				item: {
@@ -356,7 +356,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ray Of Siphoning"
+			title: "{ftbquests.chapter.blood.quest6BB9C0339C46FFBB.title}"
 			x: 0.5d
 			y: 2.0d
 		}
@@ -372,7 +372,7 @@
 			icon_scale: 1.4d
 			id: "54922EBD779EF184"
 			shape: "square"
-			subtitle: "Target one of your magic summons to cause them to explode, killing them instantly, and dealing large damage in the area around them. The summon's remaining health boosts the damage dealt and radius of explosion."
+			subtitle: "{ftbquests.chapter.blood.quest54922EBD779EF184.subtitle}"
 			tasks: [{
 				id: "3AF2B37CAA7C14E7"
 				item: {
@@ -395,7 +395,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Sacrifice"
+			title: "{ftbquests.chapter.blood.quest54922EBD779EF184.title}"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -411,7 +411,7 @@
 			icon_scale: 1.4d
 			id: "0174D6794BC14B32"
 			shape: "square"
-			subtitle: "Launch a wither skull forward that explodes in a small radius around the impact. The higher the level, the faster the projectile."
+			subtitle: "{ftbquests.chapter.blood.quest174D6794BC14B32.subtitle}"
 			tasks: [{
 				id: "2D80D0BDC95906C9"
 				item: {
@@ -434,7 +434,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Wither Skull"
+			title: "{ftbquests.chapter.blood.quest174D6794BC14B32.title}"
 			x: 0.5d
 			y: 3.0d
 		}
@@ -915,5 +915,5 @@
 			y: 7.0d
 		}
 	]
-	title: "<grad from=#910308 to=#9C6466>Blood Element</grad>"
+	title: "{ftbquests.chapter.blood.title}"
 }

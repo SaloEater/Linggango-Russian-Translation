@@ -20,10 +20,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.hostile_network.image.hovertext1"
+				"ftbquests.chapter.hostile_network.image.hovertext2"
+				"ftbquests.chapter.hostile_network.image.hovertext3"
+				"ftbquests.chapter.hostile_network.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -37,19 +37,19 @@
 	quests: [
 		{
 			description: [
-				"[gap=3]"
-				"&b&lHostile Neural Networks&r"
-				"[gap=2]"
-				"also known here as.."
-				"[gap=2]"
-				"## &4&lDrygmy Farm Successor&r"
-				"[gap=0]"
-				"---"
-				"[gap=4]"
-				"This mod lets you to capture a &2mob&r train him in a &especial item&r and after that produce the &eloot&r of this &2mob&r."
-				"It's actually really simple but i'll guide you through it anyway!"
-				"[spoiler]Well.. I have to."
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description1}"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description2}"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description3}"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description4}"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description5}"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description6}"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description7}"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description8}"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description9}"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description10}"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description11}"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description12}"
+				"{ftbquests.chapter.hostile_network.quest418241215D292A5D.description13}"
 			]
 			icon: {
 				Count: 1
@@ -62,100 +62,100 @@
 			min_width: 200
 			shape: "circle"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hostile_network.quest418241215D292A5D.subtitle}"
 			tasks: [{
 				id: "64EC87095F60C6FC"
-				title: "STOP!!! I KNOW!! or.. do I?"
+				title: "{ftbquests.chapter.hostile_network.quest418241215D292A5D.task.7272335972621141756.title}"
 				type: "checkmark"
 			}]
-			title: "More Automated Farm"
+			title: "{ftbquests.chapter.hostile_network.quest418241215D292A5D.title}"
 			x: 0.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["55F93CCB1D9F7BDB"]
 			description: [
-				"[gap=3]"
-				"I assume you have already upgraded your &bModel Data&r and started getting &2mob-specific&r &bpredictions&r, so it’s time"
-				"[gap=0]"
-				"to collect the ACTUAL &eloot&r."
+				"{ftbquests.chapter.hostile_network.questEAEB395BFF5ED6F.description1}"
+				"{ftbquests.chapter.hostile_network.questEAEB395BFF5ED6F.description2}"
+				"{ftbquests.chapter.hostile_network.questEAEB395BFF5ED6F.description3}"
+				"{ftbquests.chapter.hostile_network.questEAEB395BFF5ED6F.description4}"
 				""
-				"Place down this machine, power it with &cFE&r, insert a &bPrediction&r select the desired item on the left and wait"
-				"[gap=0]"
-				"a few seconds."
-				"Once it’s done, take the item from the right side."
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.questEAEB395BFF5ED6F.description5}"
+				"{ftbquests.chapter.hostile_network.questEAEB395BFF5ED6F.description6}"
+				"{ftbquests.chapter.hostile_network.questEAEB395BFF5ED6F.description7}"
+				"{ftbquests.chapter.hostile_network.questEAEB395BFF5ED6F.description8}"
+				"{ftbquests.chapter.hostile_network.questEAEB395BFF5ED6F.description9}"
 			]
 			id: "0EAEB395BFF5ED6F"
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hostile_network.questEAEB395BFF5ED6F.subtitle}"
 			tasks: [{
 				id: "17D6E4B02CCF7B2D"
 				item: "hostilenetworks:loot_fabricator"
 				type: "item"
 			}]
-			title: "I want the loot already!"
+			title: "{ftbquests.chapter.hostile_network.questEAEB395BFF5ED6F.title}"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3A205A0D5E20FC98"]
 			description: [
-				"[gap=3]"
-				"I hope you did everything you've been"
-				"[gap=0]"
-				"told earlier, crafted a &bModel Framework&r,"
-				"[gap=0]"
-				"used it on a mob, and uhh.. on top of that"
-				"[gap=0]"
-				"make &bPrediction&r &bMatrix&r, don't think much"
-				"[gap=0]"
-				"of it, it's like a fuel for the chamber. "
-				"---"
-				"[gap=4]"
-				"### &eLet's start!&r"
-				"[gap=5]"
-				"&e1)&r Craft a &bSimulation Chamber&r."
-				"[gap=1]"
-				"&e1.1)&r Place it down."
-				"[gap=1]"
-				"&e1.2)&r Power it with &cFE&r energy."
-				"[gap=1]"
-				"(Powah or Mekanism)"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description1}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description2}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description3}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description4}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description5}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description6}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description7}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description8}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description9}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description10}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description11}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description12}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description13}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description14}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description15}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description16}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description17}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description18}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description19}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description20}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description21}"
 				""
-				"&e2)&r Insert the &bMob’s Data Model&r."
-				"[gap=1]"
-				"&e2.1)&r Add &bPrediction Matrix&r."
-				"[gap=1]"
-				"&e2.2)&r Wait for the process to finish."
-				"[gap=6]"
-				"---"
-				"[gap=4]"
-				"Items called &b“Prediction”&r will begin to"
-				"[gap=0]"
-				"generate. You can convert them into"
-				"[gap=0]"
-				"specific items depending on the"
-				"[gap=0]"
-				"&2mob&r you've caught."
-				"However.. since your &bModel Data&r is"
-				"[gap=0]"
-				"still low tier, you will only receive"
-				"[gap=0]"
-				"dimension-based predictions not"
-				"[gap=0]"
-				"mob-specific ones."
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description22}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description23}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description24}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description25}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description26}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description27}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description28}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description29}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description30}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description31}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description32}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description33}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description34}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description35}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description36}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description37}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description38}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description39}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description40}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description41}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description42}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description43}"
 				""
-				"&8><You CAN actually get mob-specific predictions, but your tier is really low, you can view chance by pressing U on the Model Data"
-				"[gap=5]"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description44}"
+				"{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.description45}"
 			]
 			icon: "hostilenetworks:sim_chamber"
 			id: "55F93CCB1D9F7BDB"
 			min_width: 220
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.subtitle}"
 			tasks: [
 				{
 					id: "3A9F4C9F2CAE18E6"
@@ -168,65 +168,65 @@
 					type: "item"
 				}
 			]
-			title: "Tamagotchi Chamber"
+			title: "{ftbquests.chapter.hostile_network.quest55F93CCB1D9F7BDB.title}"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["418241215D292A5D"]
 			description: [
-				"### &eModel Framework&r"
-				"Used to capture mobs into &bData Models&r which later will be used for machines."
-				"---"
-				"[gap=3]"
-				"&eLet's try it out&r"
-				"Get &bDeep Learner&r and &bModel Framework&r, find any mob, right click on a mob with &bModel Framework&r and you'll get his &bModel Data&r."
-				"Put it into a &bDeep Learner&r, equip it in a curio slot. and kill the mob so you can &elevel up&r the model and use it later on."
-				"---"
-				"[gap=3]"
-				"&eGo to the next page for&r"
-				"[gap=0]"
-				"&einformation about Deep Learner&r"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description1}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description2}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description3}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description4}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description5}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description6}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description7}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description8}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description9}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description10}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description11}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description12}"
 				"{@pagebreak}"
-				"### &l&bDeep Learner&r"
-				"You can put up to &f4&r &bModel Data's&r"
-				"[gap=0]"
-				"right click with a &bDeep Learner&r to"
-				"[gap=0]"
-				"view information of your caught mob."
-				"[gap=3]"
-				"Putting your mouse on the item in the"
-				"[gap=0]"
-				"inventory while holding shift will show"
-				"[gap=0]"
-				"some more information about your"
-				"[gap=0]"
-				"caught mob."
-				"[gap=2]"
-				"We'll go through all of it so you can understand everything better."
-				"---"
-				"[gap=3]"
-				"&l&eTier&r"
-				"Indicates the level of a &bModel Data&r."
-				"Higher tiers increase the chance of obtaining mob predictions."
-				"&8(Mob predictions are loot)&r"
-				"---"
-				"[gap=3]"
-				"&l&eData Collected | Per Kill&r"
-				"Each time you kill a mob while a &bData Learner&r is equipped, the Data gains points."
-				"The number of points scales"
-				"[gap=0]"
-				"depending on the tier of a &bModel Data&r."
-				"---"
-				"[gap=3]"
-				"&l&eSimulation Cost&r"
-				"Represents how much FE is required"
-				"[gap=0]"
-				"to use this &bModel Data&r in machines."
-				"[gap=8]"
-				"---"
-				"[gap=6]"
-				"## That's it!"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description13}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description14}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description15}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description16}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description17}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description18}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description19}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description20}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description21}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description22}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description23}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description24}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description25}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description26}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description27}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description28}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description29}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description30}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description31}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description32}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description33}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description34}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description35}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description36}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description37}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description38}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description39}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description40}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description41}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description42}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description43}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description44}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description45}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description46}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description47}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description48}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description49}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description50}"
+				"{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.description51}"
 			]
 			icon: "hostilenetworks:deep_learner"
 			id: "3A205A0D5E20FC98"
@@ -239,7 +239,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.subtitle}"
 			tasks: [
 				{
 					id: "4DD7B32E45CA7883"
@@ -252,34 +252,34 @@
 					type: "item"
 				}
 			]
-			title: "Capture the mob"
+			title: "{ftbquests.chapter.hostile_network.quest3A205A0D5E20FC98.title}"
 			x: 0.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["24F3D0329C33AEBB"]
 			description: [
-				"[gap=3]"
-				"### &l&bUltimate Simulation Chamber V1&r"
-				"[gap=6]"
-				"You already know the logic behind this"
-				"[gap=0]"
-				"machine, but this one instead requires"
-				"[gap=0]"
-				"&b&lEXTRA&r &bModel Data&r, don't make this &bmachine&r"
-				"[gap=0]"
-				"if you haven't made &bMerger Camera&r."
-				"[gap=5]"
-				"Produces &l&f4&r &bPredictions&r of each type"
-				"[gap=0]"
-				"&8(mob-dimension predictions)&r"
-				"[gap=3]"
-				"Takes &l&f4&r &bPrediction Matrixes&r for every"
-				"[gap=0]"
-				"operation."
-				"[gap=5]"
-				"&eIt's also a bit faster than original&r"
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description1}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description2}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description3}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description4}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description5}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description6}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description7}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description8}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description9}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description10}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description11}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description12}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description13}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description14}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description15}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description16}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description17}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description18}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description19}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description20}"
+				"{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.description21}"
 			]
 			id: "445F40E320F27FFB"
 			min_width: 240
@@ -290,7 +290,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hostile_network.quest445F40E320F27FFB.subtitle}"
 			tasks: [{
 				id: "6E06B93CE260945D"
 				item: "extrahnn:ultimate_sim_chamber_v1"
@@ -302,17 +302,17 @@
 		{
 			dependencies: ["445F40E320F27FFB"]
 			description: [
-				"[gap=3]"
-				"&l&bUltimate Simulation Chamber V2&r"
-				"[gap=5]"
-				"Produces &l&f16&r &bPredictions&r of each type"
-				"[gap=0]"
-				"&8(mob-dimension predictions)&r"
-				"[gap=3]"
-				"Takes &l&f16&r &bPrediction Matrixes&r for every"
-				"[gap=0]"
-				"operation."
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest26E7645659EC8538.description1}"
+				"{ftbquests.chapter.hostile_network.quest26E7645659EC8538.description2}"
+				"{ftbquests.chapter.hostile_network.quest26E7645659EC8538.description3}"
+				"{ftbquests.chapter.hostile_network.quest26E7645659EC8538.description4}"
+				"{ftbquests.chapter.hostile_network.quest26E7645659EC8538.description5}"
+				"{ftbquests.chapter.hostile_network.quest26E7645659EC8538.description6}"
+				"{ftbquests.chapter.hostile_network.quest26E7645659EC8538.description7}"
+				"{ftbquests.chapter.hostile_network.quest26E7645659EC8538.description8}"
+				"{ftbquests.chapter.hostile_network.quest26E7645659EC8538.description9}"
+				"{ftbquests.chapter.hostile_network.quest26E7645659EC8538.description10}"
+				"{ftbquests.chapter.hostile_network.quest26E7645659EC8538.description11}"
 			]
 			id: "26E7645659EC8538"
 			min_width: 220
@@ -323,7 +323,7 @@
 			}]
 			shape: "octagon"
 			size: 1.05d
-			subtitle: "It's a bit faster than it's original version!"
+			subtitle: "{ftbquests.chapter.hostile_network.quest26E7645659EC8538.subtitle}"
 			tasks: [{
 				id: "3E537A40EF722084"
 				item: "extrahnn:ultimate_sim_chamber_v2"
@@ -335,17 +335,17 @@
 		{
 			dependencies: ["26E7645659EC8538"]
 			description: [
-				"[gap=3]"
-				"&l&bUltimate Simulation Chamber V3&r"
-				"[gap=5]"
-				"Produces &l&f32&r &bPredictions&r of each type"
-				"[gap=0]"
-				"&8(mob-dimension predictions)&r"
-				"[gap=3]"
-				"Takes &l&f32&r &bPrediction Matrixes&r for every"
-				"[gap=0]"
-				"operation."
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest166FC8C17C2392B2.description1}"
+				"{ftbquests.chapter.hostile_network.quest166FC8C17C2392B2.description2}"
+				"{ftbquests.chapter.hostile_network.quest166FC8C17C2392B2.description3}"
+				"{ftbquests.chapter.hostile_network.quest166FC8C17C2392B2.description4}"
+				"{ftbquests.chapter.hostile_network.quest166FC8C17C2392B2.description5}"
+				"{ftbquests.chapter.hostile_network.quest166FC8C17C2392B2.description6}"
+				"{ftbquests.chapter.hostile_network.quest166FC8C17C2392B2.description7}"
+				"{ftbquests.chapter.hostile_network.quest166FC8C17C2392B2.description8}"
+				"{ftbquests.chapter.hostile_network.quest166FC8C17C2392B2.description9}"
+				"{ftbquests.chapter.hostile_network.quest166FC8C17C2392B2.description10}"
+				"{ftbquests.chapter.hostile_network.quest166FC8C17C2392B2.description11}"
 			]
 			id: "166FC8C17C2392B2"
 			min_width: 220
@@ -356,7 +356,7 @@
 			}]
 			shape: "octagon"
 			size: 1.05d
-			subtitle: "Even mo-o-ore faster!"
+			subtitle: "{ftbquests.chapter.hostile_network.quest166FC8C17C2392B2.subtitle}"
 			tasks: [{
 				id: "31310B04BDA46544"
 				item: "extrahnn:ultimate_sim_chamber_v3"
@@ -368,17 +368,17 @@
 		{
 			dependencies: ["166FC8C17C2392B2"]
 			description: [
-				"[gap=3]"
-				"&l&bUltimate Simulation Chamber V4&r"
-				"[gap=5]"
-				"Produces &l&f64&r &bPredictions&r of each type"
-				"[gap=0]"
-				"&8(mob-dimension predictions)&r"
-				"[gap=3]"
-				"Takes &l&f64&r &bPrediction Matrixes&r for every"
-				"[gap=0]"
-				"operation."
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest76CDB7073BBADC20.description1}"
+				"{ftbquests.chapter.hostile_network.quest76CDB7073BBADC20.description2}"
+				"{ftbquests.chapter.hostile_network.quest76CDB7073BBADC20.description3}"
+				"{ftbquests.chapter.hostile_network.quest76CDB7073BBADC20.description4}"
+				"{ftbquests.chapter.hostile_network.quest76CDB7073BBADC20.description5}"
+				"{ftbquests.chapter.hostile_network.quest76CDB7073BBADC20.description6}"
+				"{ftbquests.chapter.hostile_network.quest76CDB7073BBADC20.description7}"
+				"{ftbquests.chapter.hostile_network.quest76CDB7073BBADC20.description8}"
+				"{ftbquests.chapter.hostile_network.quest76CDB7073BBADC20.description9}"
+				"{ftbquests.chapter.hostile_network.quest76CDB7073BBADC20.description10}"
+				"{ftbquests.chapter.hostile_network.quest76CDB7073BBADC20.description11}"
 			]
 			id: "76CDB7073BBADC20"
 			min_width: 220
@@ -389,7 +389,7 @@
 			}]
 			shape: "octagon"
 			size: 1.05d
-			subtitle: "Well, I don't know, the difference is insane."
+			subtitle: "{ftbquests.chapter.hostile_network.quest76CDB7073BBADC20.subtitle}"
 			tasks: [{
 				id: "47EE458C8DBBC02F"
 				item: "extrahnn:ultimate_sim_chamber_v4"
@@ -401,11 +401,11 @@
 		{
 			dependencies: ["55F93CCB1D9F7BDB"]
 			description: [
-				"[gap=3]"
-				"Once you've learned the basics, you're ready for the upgraded"
-				"&bSimulation Chamber&r and &eLoot Fabricator&r"
-				"Plus two brand new &bmachines&r to play with!"
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest24F3D0329C33AEBB.description1}"
+				"{ftbquests.chapter.hostile_network.quest24F3D0329C33AEBB.description2}"
+				"{ftbquests.chapter.hostile_network.quest24F3D0329C33AEBB.description3}"
+				"{ftbquests.chapter.hostile_network.quest24F3D0329C33AEBB.description4}"
+				"{ftbquests.chapter.hostile_network.quest24F3D0329C33AEBB.description5}"
 			]
 			id: "24F3D0329C33AEBB"
 			min_width: 230
@@ -415,30 +415,30 @@
 				xp_levels: 5
 			}]
 			shape: "circle"
-			subtitle: "Step up the game"
+			subtitle: "{ftbquests.chapter.hostile_network.quest24F3D0329C33AEBB.subtitle}"
 			tasks: [{
 				id: "4E6D4D4BCADF4855"
-				title: "Woo-hoo!"
+				title: "{ftbquests.chapter.hostile_network.quest24F3D0329C33AEBB.task.5651258095341357141.title}"
 				type: "checkmark"
 			}]
-			title: "Great upgrade!"
+			title: "{ftbquests.chapter.hostile_network.quest24F3D0329C33AEBB.title}"
 			x: 0.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["24F3D0329C33AEBB"]
 			description: [
-				"[gap=3]"
-				"### &e&lUltimate Loot Fabricator V1&r"
-				"It's kinda the same as regular one, but you"
-				"[gap=0]"
-				"can't put dimension-specific &bpredictions&r,"
-				"[gap=0]"
-				"and it also can process multiple"
-				"[gap=0]"
-				"&bpredictions&r at once."
-				"Can process &l&f4&r &bPredictions&r at once!"
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest92276E578A607BC.description1}"
+				"{ftbquests.chapter.hostile_network.quest92276E578A607BC.description2}"
+				"{ftbquests.chapter.hostile_network.quest92276E578A607BC.description3}"
+				"{ftbquests.chapter.hostile_network.quest92276E578A607BC.description4}"
+				"{ftbquests.chapter.hostile_network.quest92276E578A607BC.description5}"
+				"{ftbquests.chapter.hostile_network.quest92276E578A607BC.description6}"
+				"{ftbquests.chapter.hostile_network.quest92276E578A607BC.description7}"
+				"{ftbquests.chapter.hostile_network.quest92276E578A607BC.description8}"
+				"{ftbquests.chapter.hostile_network.quest92276E578A607BC.description9}"
+				"{ftbquests.chapter.hostile_network.quest92276E578A607BC.description10}"
+				"{ftbquests.chapter.hostile_network.quest92276E578A607BC.description11}"
 			]
 			id: "092276E578A607BC"
 			min_width: 240
@@ -449,7 +449,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hostile_network.quest92276E578A607BC.subtitle}"
 			tasks: [{
 				id: "725E9DFC69FF073B"
 				item: "extrahnn:ultimate_loot_fabricator_v1"
@@ -461,11 +461,11 @@
 		{
 			dependencies: ["15AD07A951EF8E74"]
 			description: [
-				"[gap=3]"
-				"&e&lUltimate Loot Fabricator V3&r"
-				"[gap=5]"
-				"Can process &l&f32&r &bPredictions&r at once!"
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.questFFF2515D18584F5.description1}"
+				"{ftbquests.chapter.hostile_network.questFFF2515D18584F5.description2}"
+				"{ftbquests.chapter.hostile_network.questFFF2515D18584F5.description3}"
+				"{ftbquests.chapter.hostile_network.questFFF2515D18584F5.description4}"
+				"{ftbquests.chapter.hostile_network.questFFF2515D18584F5.description5}"
 			]
 			id: "0FFF2515D18584F5"
 			rewards: [{
@@ -475,7 +475,7 @@
 			}]
 			shape: "octagon"
 			size: 1.05d
-			subtitle: "I love fabricating as well"
+			subtitle: "{ftbquests.chapter.hostile_network.questFFF2515D18584F5.subtitle}"
 			tasks: [{
 				id: "5B75E5879E8BC5F9"
 				item: "extrahnn:ultimate_loot_fabricator_v3"
@@ -487,11 +487,11 @@
 		{
 			dependencies: ["0FFF2515D18584F5"]
 			description: [
-				"[gap=3]"
-				"&e&lUltimate Loot Fabricator V4&r"
-				"[gap=5]"
-				"Can process &l&f64&r &bPredictions&r at once!"
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest5FC2A2FA67C2D422.description1}"
+				"{ftbquests.chapter.hostile_network.quest5FC2A2FA67C2D422.description2}"
+				"{ftbquests.chapter.hostile_network.quest5FC2A2FA67C2D422.description3}"
+				"{ftbquests.chapter.hostile_network.quest5FC2A2FA67C2D422.description4}"
+				"{ftbquests.chapter.hostile_network.quest5FC2A2FA67C2D422.description5}"
 			]
 			id: "5FC2A2FA67C2D422"
 			rewards: [{
@@ -501,7 +501,7 @@
 			}]
 			shape: "octagon"
 			size: 1.05d
-			subtitle: "Together we are a Loot Fabricator!"
+			subtitle: "{ftbquests.chapter.hostile_network.quest5FC2A2FA67C2D422.subtitle}"
 			tasks: [{
 				id: "54D381488234EC5E"
 				item: "extrahnn:ultimate_loot_fabricator_v4"
@@ -513,22 +513,22 @@
 		{
 			dependencies: ["24F3D0329C33AEBB"]
 			description: [
-				"[gap=3]"
-				"### &b&lMerger Camera&r&r "
-				"Combines &f4&r &bData Models&r with &6Self-Aware&r tier into one &b\"Extra Model Data\"&r"
-				"&eSteps:&r"
-				"&e1)&r Put \"Extra Model Framework\" into"
-				"[gap=0]"
-				"the machine"
-				"[gap=2]"
-				"&e2)&r Put &f4&r Model Data's with Self-aware"
-				"[gap=0]"
-				"Tier"
-				"[gap=2]"
-				"&e3)&r Obviously power it with FE and wait"
-				"[gap=0]"
-				"for a result."
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description1}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description2}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description3}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description4}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description5}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description6}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description7}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description8}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description9}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description10}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description11}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description12}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description13}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description14}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description15}"
+				"{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.description16}"
 			]
 			icon: "extrahnn:merger_camera"
 			id: "14DAD6EC439D145A"
@@ -540,7 +540,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.subtitle}"
 			tasks: [
 				{
 					id: "11805A287665A204"
@@ -553,29 +553,29 @@
 					type: "item"
 				}
 			]
-			title: "Merger Camera"
+			title: "{ftbquests.chapter.hostile_network.quest14DAD6EC439D145A.title}"
 			x: -1.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["24F3D0329C33AEBB"]
 			description: [
-				"[gap=3]"
-				"### &b&lSimulator Modeling&r&r"
-				"[gap=5]"
-				"Passively collects data for your"
-				"[gap=0]"
-				"&bModel Data&r"
-				"Not much to say about it, if while you hold"
-				"[gap=0]"
-				"shift it shows &b\"Data Per Kill\"&r of... &f16&r, it"
-				"[gap=0]"
-				"will generate &f16&r data for every"
-				"[gap=0]"
-				"operation."
-				"&eYou can also install upgrades to improve its perfomance even further!&r"
-				"[spoiler]&8Imagine you trap a Steve inside a machine and order him to kill mobs for you, this is kinda what this machine does, don't you feel bad about this? I don't.&r"
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description1}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description2}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description3}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description4}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description5}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description6}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description7}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description8}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description9}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description10}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description11}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description12}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description13}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description14}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description15}"
+				"{ftbquests.chapter.hostile_network.quest326A4160869A13E8.description16}"
 				""
 				""
 			]
@@ -596,7 +596,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hostile_network.quest326A4160869A13E8.subtitle}"
 			tasks: [{
 				id: "5CA48CD1BDFA5A47"
 				item: "extrahnn:simulator_modeling"
@@ -608,11 +608,11 @@
 		{
 			dependencies: ["326A4160869A13E8"]
 			description: [
-				"[gap=3]"
-				"Increases &bspeed&r of an operation by &l&f50%&r"
-				"[gap=0]"
-				"but also multiplies &benergy&r &bcost&r by &l&f2&r"
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest3515376E953E07EA.description1}"
+				"{ftbquests.chapter.hostile_network.quest3515376E953E07EA.description2}"
+				"{ftbquests.chapter.hostile_network.quest3515376E953E07EA.description3}"
+				"{ftbquests.chapter.hostile_network.quest3515376E953E07EA.description4}"
+				"{ftbquests.chapter.hostile_network.quest3515376E953E07EA.description5}"
 			]
 			hide_until_deps_complete: true
 			id: "3515376E953E07EA"
@@ -624,7 +624,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Speed up!"
+			subtitle: "{ftbquests.chapter.hostile_network.quest3515376E953E07EA.subtitle}"
 			tasks: [{
 				id: "431C10C87AEE1038"
 				item: "extrahnn:upgrade_speed"
@@ -636,16 +636,16 @@
 		{
 			dependencies: ["326A4160869A13E8"]
 			description: [
-				"[gap=3]"
-				"Instead of gaining &bData&r, it will just"
-				"[gap=1]"
-				"skip to the next tier."
-				"&eThat's cool&r &edon't you think?&r"
+				"{ftbquests.chapter.hostile_network.questD6A5159CB1B7155.description1}"
+				"{ftbquests.chapter.hostile_network.questD6A5159CB1B7155.description2}"
+				"{ftbquests.chapter.hostile_network.questD6A5159CB1B7155.description3}"
+				"{ftbquests.chapter.hostile_network.questD6A5159CB1B7155.description4}"
+				"{ftbquests.chapter.hostile_network.questD6A5159CB1B7155.description5}"
 				""
-				"One problem though, it will consume"
-				"## &l&c10,000,000 FE&r&r"
-				"per tick.."
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.questD6A5159CB1B7155.description6}"
+				"{ftbquests.chapter.hostile_network.questD6A5159CB1B7155.description7}"
+				"{ftbquests.chapter.hostile_network.questD6A5159CB1B7155.description8}"
+				"{ftbquests.chapter.hostile_network.questD6A5159CB1B7155.description9}"
 			]
 			hide_until_deps_complete: true
 			id: "0D6A5159CB1B7155"
@@ -656,7 +656,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Time-skip.. but at what cost"
+			subtitle: "{ftbquests.chapter.hostile_network.questD6A5159CB1B7155.subtitle}"
 			tasks: [{
 				id: "4086F5BD1CDBA583"
 				item: "extrahnn:upgrade_module_stack"
@@ -668,12 +668,12 @@
 		{
 			dependencies: ["326A4160869A13E8"]
 			description: [
-				"[gap=3]"
-				"Multiplies &b\"Data Per Kill\"&r income by &l&f2&r."
-				"&eActually really good because it&r"
-				"[gap=0]"
-				"&edoesn't debuff energy cost.&r"
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest819E4BFF930DC8.description1}"
+				"{ftbquests.chapter.hostile_network.quest819E4BFF930DC8.description2}"
+				"{ftbquests.chapter.hostile_network.quest819E4BFF930DC8.description3}"
+				"{ftbquests.chapter.hostile_network.quest819E4BFF930DC8.description4}"
+				"{ftbquests.chapter.hostile_network.quest819E4BFF930DC8.description5}"
+				"{ftbquests.chapter.hostile_network.quest819E4BFF930DC8.description6}"
 			]
 			hide_until_deps_complete: true
 			id: "00819E4BFF930DC8"
@@ -683,7 +683,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Double tro-... solution?"
+			subtitle: "{ftbquests.chapter.hostile_network.quest819E4BFF930DC8.subtitle}"
 			tasks: [{
 				id: "5EE54428837B82D9"
 				item: "extrahnn:upgrade_data_kill"
@@ -695,11 +695,11 @@
 		{
 			dependencies: ["092276E578A607BC"]
 			description: [
-				"[gap=3]"
-				"&e&lUltimate Loot Fabricator V2&r"
-				"[gap=5]"
-				"Can process &l&f16&r &bPredictions&r at once!"
-				"[gap=3]"
+				"{ftbquests.chapter.hostile_network.quest15AD07A951EF8E74.description1}"
+				"{ftbquests.chapter.hostile_network.quest15AD07A951EF8E74.description2}"
+				"{ftbquests.chapter.hostile_network.quest15AD07A951EF8E74.description3}"
+				"{ftbquests.chapter.hostile_network.quest15AD07A951EF8E74.description4}"
+				"{ftbquests.chapter.hostile_network.quest15AD07A951EF8E74.description5}"
 			]
 			id: "15AD07A951EF8E74"
 			rewards: [{
@@ -709,7 +709,7 @@
 			}]
 			shape: "octagon"
 			size: 1.05d
-			subtitle: "I love looting"
+			subtitle: "{ftbquests.chapter.hostile_network.quest15AD07A951EF8E74.subtitle}"
 			tasks: [{
 				id: "1341BAC7DE845F1D"
 				item: "extrahnn:ultimate_loot_fabricator_v2"
@@ -719,5 +719,5 @@
 			y: 8.0d
 		}
 	]
-	title: "<shadow><grad from=#61D0FC to=#122523>Hostile Neural Networks</grad></shadow>"
+	title: "{ftbquests.chapter.hostile_network.title}"
 }

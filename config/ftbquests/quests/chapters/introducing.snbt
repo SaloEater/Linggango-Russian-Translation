@@ -26,7 +26,7 @@
 		{
 			click: "https://www.patreon.com/MisanthropyDev"
 			height: 1.0d
-			hover: ["<shadow><grad from=#32CD32 to=#90EE90>Like the project?</grad></shadow> <neon p=6 r=1 a=0.08><shadow><grad from=#FF69B4 to=#FFB6C1 f=0.5>Consider supporting!</grad></shadow></neon>"]
+			hover: ["ftbquests.chapter.introducing.image.hovertext1"]
 			image: "customtextures:textures/patreon.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -36,7 +36,7 @@
 		{
 			click: "https://discord.gg/linggango"
 			height: 1.0d
-			hover: ["<neon p=6 r=1 a=0.08><shadow a=0.4><grad from=#ADD8E6 to=#87CEEB f=0.6>Official Linggango Discord Server!</grad></shadow></neon>"]
+			hover: ["ftbquests.chapter.introducing.image.hovertext2"]
 			image: "customtextures:textures/discord.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -47,10 +47,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @shuttheirprayer]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.introducing.image.hovertext3"
+				"ftbquests.chapter.introducing.image.hovertext4"
+				"ftbquests.chapter.introducing.image.hovertext5"
+				"ftbquests.chapter.introducing.image.hovertext6"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -62,7 +62,7 @@
 			alpha: 155
 			click: "https://www.kinetichosting.com/modpacks/lingango/order"
 			height: 1.0d
-			hover: ["<neon p=4 r=1 a=0.05><shadow a=0.4><grad from=#FF69B4 to=#FFB6C1>Play with your friends!</grad></shadow></neon>"]
+			hover: ["ftbquests.chapter.introducing.image.hovertext7"]
 			image: "ftblibrary:icons/friends"
 			rotation: 0.0d
 			width: 1.0d
@@ -72,7 +72,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Important!"]
+			hover: ["ftbquests.chapter.introducing.image.hovertext8"]
 			image: "fancymenu:textures/contextmenu/icons/arrow_horizontal.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -82,7 +82,7 @@
 		{
 			click: "https://github.com/Linggango/Linggango"
 			height: 1.0d
-			hover: ["<neon p=4 r=1 a=0.05><shadow a=0.4><grad from=#FFFFFF to=#C0C0C0 f=1.5>Linggango Github!</grad></shadow></neon>"]
+			hover: ["ftbquests.chapter.introducing.image.hovertext9"]
 			image: "supplementaries:textures/gui/book/icon/github.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -92,7 +92,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.introducing.image.hovertext10"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -105,25 +105,25 @@
 	quests: [
 		{
 			description: [
-				"## <shadow a=0.3><grad from=#FCE938 to=#FFF6A6 f=0.6>Introduction</grad></shadow>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>This is a </grad></shadow><grad from=#4DDB58 to=#C1F5C5 f=0.8><shadow a=0.3>Terraria-inspired</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>, </grad></shadow><shadow a=0.3><grad from=#FFC438 to=#FFE4A3 f=0.8>content-packed</grad></shadow><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> modpack built to give </grad></shadow><grad from=#4DDB58 to=#C1F5C5 f=0.8><shadow a=0.3>Minecraft</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> a whole new style of progression and adventure.</grad></shadow>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>The </grad></shadow><shadow a=0.3><grad from=#FCE938 to=#FFF6A6 f=0.8>quest book</grad></shadow><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> is your main guide. It will walk you through the features, mechanics, and progression paths so you don't get lost around.</grad></shadow>"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"## <shadow a=0.3><grad from=#FCE938 to=#FFF6A6 f=0.6>Things you need to know</grad></shadow>"
-				"&l<shadow a=0.3><grad from=#FCE938 to=#FFF6A6 f=0.8>Boss-locked progression:</grad></shadow>&r <shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>You can't just craft everything right away. Defeating bosses unlocks A LOT of new stuff.</grad></shadow>"
-				"&l<shadow a=0.3><grad from=#FCE938 to=#FFF6A6 f=0.8>Unique Difficulty System:</grad></shadow>&r <shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>The difficulty you choose at the start of the game will change a lot.</grad></shadow>"
-				"[gap=5]"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>For example:</grad></shadow>"
-				"[gap=3]"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>- </grad></shadow><grad from=#42E3D9 to=#B0EBE7 f=0.8><shadow a=0.3>FTB Essentials</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> cooldowns increase with the difficulty.</grad></shadow>"
-				"[gap=3]"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>- </grad></shadow><shadow a=0.3><grad from=#49FF38 to=#9FFF96 f=0.8>Parrying</grad></shadow><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> becomes harder with the difficulty.</grad></shadow>"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>This pack includes a </grad></shadow><shadow a=0.3><grad from=#DB762E to=#D9A37E f=0.8>unique progression system</grad></shadow><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>, thus I suggest checking out Main Progression questline.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description1}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description2}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description3}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description4}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description5}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description6}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description7}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description8}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description9}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description10}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description11}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description12}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description13}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description14}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description15}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description16}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description17}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description18}"
+				"{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.description19}"
 			]
 			disable_toast: true
 			icon: {
@@ -150,11 +150,11 @@
 			]
 			shape: "octagon"
 			size: 1.65d
-			subtitle: "<typewriter><grad from=CF8019 to=CF8019>We all start from somewhere.</grad>"
+			subtitle: "{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.subtitle}"
 			tasks: [
 				{
 					id: "56B04324579384A6"
-					title: "Okay!"
+					title: "{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.task.6246566506530047142.title}"
 					type: "checkmark"
 				}
 				{
@@ -168,29 +168,29 @@
 						}
 					}
 					id: "27BE71E5E81645EC"
-					title: "Checking you in.."
+					title: "{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.task.2863851645309437420.title}"
 					type: "dimension"
 				}
 			]
-			title: "<grad from=#FF9E1F to=#FF9E1F>Welcome to Linggango!</grad>"
+			title: "{ftbquests.chapter.introducing.quest19237C5BA8DDB6AF.title}"
 			x: 0.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Here is a list of the most important default keybinds to help you navigate the modpack:</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest74EAD55DC948F408.description1}"
 				""
-				"<grad from=#00960B to=#38BA43 f=0.8><shadow a=0.3>N</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - FTB Ultimine (hold to mine multiple blocks at once).</grad></shadow>"
-				"<grad from=#00960B to=#38BA43 f=0.8><shadow a=0.3>Z</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Zoom camera.</grad></shadow>"
-				"<grad from=#00960B to=#38BA43 f=0.8><shadow a=0.3>R (hovering over an item)</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Shows the crafting recipe for that item.</grad></shadow>"
-				"<grad from=#00960B to=#38BA43 f=0.8><shadow a=0.3>U (hovering over an item)</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Shows what recipes that item is used in.</grad></shadow>"
-				"<grad from=#00960B to=#38BA43 f=0.8><shadow a=0.3>R</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Roll / Dodge.</grad></shadow>"
-				"<grad from=#00960B to=#38BA43 f=0.8><shadow a=0.3>F</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Parry incoming attacks.</grad></shadow>"
-				"<grad from=#00960B to=#38BA43 f=0.8><shadow a=0.3>M</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Open the world map.</grad></shadow>"
-				"<grad from=#00960B to=#38BA43 f=0.8><shadow a=0.3>Shift + B</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Open your equipped backpack.</grad></shadow>"
-				"<grad from=#00960B to=#38BA43 f=0.8><shadow a=0.3>C</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Cast your selected spell.</grad></shadow>"
-				"<grad from=#00960B to=#38BA43 f=0.8><shadow a=0.3>G</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Activate your class skill.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest74EAD55DC948F408.description2}"
+				"{ftbquests.chapter.introducing.quest74EAD55DC948F408.description3}"
+				"{ftbquests.chapter.introducing.quest74EAD55DC948F408.description4}"
+				"{ftbquests.chapter.introducing.quest74EAD55DC948F408.description5}"
+				"{ftbquests.chapter.introducing.quest74EAD55DC948F408.description6}"
+				"{ftbquests.chapter.introducing.quest74EAD55DC948F408.description7}"
+				"{ftbquests.chapter.introducing.quest74EAD55DC948F408.description8}"
+				"{ftbquests.chapter.introducing.quest74EAD55DC948F408.description9}"
+				"{ftbquests.chapter.introducing.quest74EAD55DC948F408.description10}"
+				"{ftbquests.chapter.introducing.quest74EAD55DC948F408.description11}"
 			]
 			icon: {
 				Count: 1
@@ -209,43 +209,43 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "<typewriter><grad from=CF8019 to=CF8019>Let's get over with the keyboard.</grad>"
+			subtitle: "{ftbquests.chapter.introducing.quest74EAD55DC948F408.subtitle}"
 			tasks: [{
 				id: "1330ACF604376C79"
-				title: "Yea yea alr "
+				title: "{ftbquests.chapter.introducing.quest74EAD55DC948F408.task.1382795258235415673.title}"
 				type: "checkmark"
 			}]
-			title: "<grad from=#FF9E1F to=#FF9E1F>Keybinds</grad>"
+			title: "{ftbquests.chapter.introducing.quest74EAD55DC948F408.title}"
 			x: 2.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Parties allow you to team up with friends in </grad></shadow><grad from=#FF91F0 to=#C470B9 f=0.8><shadow a=0.3>multiplayer</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> to complete </grad></shadow><grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>quests</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> together and share your progress. You can find the party management icon in the top corner of your inventory screen.</grad></shadow>"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"<shadow a=0.3><grad from=#FF9E1F to=#FF9E1F f=0.6>1. Open the Teams Menu</grad></shadow>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Open your inventory and click on the Teams icon.</grad></shadow>"
-				"{image:customtextures:textures/team1.png width:300 height:150 align:center}"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"<shadow a=0.3><grad from=#FF9E1F to=#FF9E1F f=0.6>2. Create Your Party</grad></shadow>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Click the button to start a new party group.</grad></shadow>"
-				"{image:customtextures:textures/team2.png width:300 height:140 align:center}"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"<shadow a=0.3><grad from=#FF9E1F to=#FF9E1F f=0.6>3. Set a Name and Description</grad></shadow>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Enter a custom name and a short description for your party.</grad></shadow>"
-				"{image:customtextures:textures/team3.png width:300 height:200 align:center}"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"<shadow a=0.3><grad from=#FF9E1F to=#FF9E1F f=0.6>4. Invite Your Friends</grad></shadow>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Use the player list to send invites to your friends on the server.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description1}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description2}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description3}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description4}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description5}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description6}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.image0}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description7}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description8}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description9}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description10}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description11}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.image2}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description12}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description13}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description14}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description15}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description16}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.image4}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description17}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description18}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description19}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description20}"
+				"{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.description21}"
 			]
 			icon: {
 				Count: 1
@@ -263,44 +263,44 @@
 			}]
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "<typewriter><grad from=#C973BE to=#C973BE>Playing with friends makes the modpack much more fun!</grad>"
+			subtitle: "{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.subtitle}"
 			tasks: [{
 				id: "0F6C1CB9029FDB70"
-				title: "I got no friends.. :c"
+				title: "{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.task.1111294788992228208.title}"
 				type: "checkmark"
 			}]
-			title: "<grad from=#FF91F0 to=#FF91F0>Multiplayer:</grad><grad from=#FFD791 to=#FFD791> Parties</grad>"
+			title: "{ftbquests.chapter.introducing.quest7A545E5DF48EDB9B.title}"
 			x: 3.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"<grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>Dodging System and Movement</shadow></grad>"
+				"{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.description1}"
 				""
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Dodging is performed by pressing </grad></shadow><grad from=#00960B to=#38BA43 f=0.8><shadow a=0.3>R</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.description2}"
 				""
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>When activated, it grants a brief window of </grad></shadow><grad from=#6DE32D to=#BDDEAB f=0.8><shadow a=0.3>invincibility frames</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>, allowing you to completely avoid incoming </grad></shadow><grad from=#CC0000 to=#D64242 f=0.8><shadow a=0.3>damage</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>. It can also be used mid-air, making it a great utility tool for quick repositioning or maneuvering through tough spots.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.description3}"
 				""
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>The mechanic has a built-in </grad></shadow><grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>cooldown</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> so it cannot be spammed. However, certain enchantments can reduce this </grad></shadow><grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>cooldown</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> or enhance the dodge itself, turning it into a much more useful thing in the future.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.description4}"
 				""
-				"{image:customtextures:textures/dodge.png width:300 height:100 align:center}"
+				"{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.image0}"
 				""
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>-➤ Swipe to next page for parrying.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.description5}"
 				""
 				"{@pagebreak}"
 				""
-				"<grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>Parrying System</shadow></grad>"
+				"{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.description6}"
 				""
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Parrying is performed by pressing </grad></shadow><grad from=#00960B to=#38BA43 f=0.8><shadow a=0.3>F</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.description7}"
 				""
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Reflects incoming attacks, keeping you </grad></shadow><grad from=#6DE32D to=#BDDEAB f=0.8><shadow a=0.3>unharmed</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> while </grad></shadow><grad from=#CC0000 to=#D64242 f=0.8><shadow a=0.3>dishing back damage</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> to your attacker.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.description8}"
 				""
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>The more you parry in a row, the stronger it gets, eventually scaling up to %HP damage. Just like dodging, there’s a </grad></shadow><grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>cooldown</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>, so make sure to time it right.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.description9}"
 				""
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>The mechanic has a built-in </grad></shadow><grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>cooldown</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> so it cannot be spammed.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.description10}"
 				""
-				"{image:customtextures:textures/parry.png width:250 height:125 align:center}"
+				"{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.image2}"
 			]
 			icon: {
 				Count: 1
@@ -318,60 +318,60 @@
 			}]
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "<typewriter><grad from=#227FC9 to=#227FC9>It's not just about hitting back.</grad>"
+			subtitle: "{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.subtitle}"
 			tasks: [{
 				id: "05E7F702C670C8C6"
-				title: "I be rolling parrying movementing yay"
+				title: "{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.task.425580281101076678.title}"
 				type: "checkmark"
 			}]
-			title: "<grad from=#FF2B2B to=#FF2B2B>Combat:</grad><grad from=#2BA0FF to=#2BA0FF> Dodging Attacks, Movement \\& Parry</grad>"
+			title: "{ftbquests.chapter.introducing.quest380F36A98AAC4C2C.title}"
 			x: -2.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"<grad from=#1FFFF0 to=#1FFFF0><shadow a=0.3>FTB Essentials</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> provides a variety of </grad></shadow><grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>utility commands</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> to streamline your gameplay and make survival less frustrating.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description1}"
 				""
-				"<grad from=#BD0000 to=#BD2B2B f=0.8><shadow a=0.3>Their cooldowns vary depending on the difficulty you have chosen.</shadow></grad>"
-				""
-				"{@pagebreak}"
-				"## <grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>Misc Commands</shadow></grad>"
-				"[gap=3]"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/kickme</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Kicks you from the server (useful if the bed bug returns).</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/trashcan</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Opens an inventory screen that permanently deletes any items placed inside upon closing.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/hat</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Equips the item in your main hand into your helmet slot.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/nick</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Changes your display nickname in chat.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description2}"
 				""
 				"{@pagebreak}"
-				"## <grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>Cheat Commands</shadow></grad>"
-				"[gap=3]"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/heal</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Restores your health and food bars to full.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/fly</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Toggles creative-style flight.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/invsee</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Opens and allows you to edit another player's inventory.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/nickfor</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Changes another player's chat nickname.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/mute</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Mutes a player in chat.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/unmute</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Unmutes a player in chat.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/teleport_last</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Teleports you to a player's last known location.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description3}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description4}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description5}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description6}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description7}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description8}"
 				""
 				"{@pagebreak}"
-				"## <grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>Teleport Commands</shadow></grad>"
-				"[gap=3]"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/back</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Teleports you back to your previous location. Can be used multiple times to retrace your steps.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/spawn</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Teleports you to the world spawn point.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/rtp</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Teleports you to a random, safe location in the world (automatically avoids oceans).</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/home [name]</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Teleports you to a set home.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/sethome</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Sets a home at your current location.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/delhome</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Deletes a specific home.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/listhomes [player]</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Lists all registered homes for a player.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/warp</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Teleports you to a server warp point.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/setwarp</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Creates a server warp point at your location.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/delwarp</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Deletes a specific warp point.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/listwarps</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Lists all available server warps.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/tpa</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Sends a request to teleport to another player.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/tpahere</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Requests another player to teleport to your location.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/tpaccept [id]</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Accepts a pending teleport request (clickable buttons will also appear in chat).</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/tpadeny [id]</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Denies a pending teleport request.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description9}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description10}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description11}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description12}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description13}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description14}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description15}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description16}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description17}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description18}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description19}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description20}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description21}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description22}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description23}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description24}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description25}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description26}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description27}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description28}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description29}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description30}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description31}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description32}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description33}"
+				"{ftbquests.chapter.introducing.quest794D5970387D3A29.description34}"
 			]
 			icon: {
 				Count: 1
@@ -388,19 +388,19 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "<typewriter><grad from=18C7BB to=18C7BB>That's a bit.. too powerful?</grad>"
+			subtitle: "{ftbquests.chapter.introducing.quest794D5970387D3A29.subtitle}"
 			tasks: [{
 				id: "4BD28CA1DC129804"
-				title: "Woaw!"
+				title: "{ftbquests.chapter.introducing.quest794D5970387D3A29.task.5463583924763662340.title}"
 				type: "checkmark"
 			}]
-			title: "<grad from=#1FFFF0 to=#1FFFF0>FTB Essentials</grad>"
+			title: "{ftbquests.chapter.introducing.quest794D5970387D3A29.title}"
 			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
-			description: ["<grad from=#787878 to=#787878><shadow a=0.3>Explorer's Compass</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> allows you to </grad></shadow><grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>locate</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> any structure in the </grad></shadow><grad from=#6DE32D to=#BDDEAB f=0.8><shadow a=0.3>world</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>. Instead of pointing toward </grad></shadow><grad from=#6DE32D to=#BDDEAB f=0.8><shadow a=0.3>spawn</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>, you can select a specific </grad></shadow><grad from=#787878 to=#787878><shadow a=0.3>structure type</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> from its interface, and the needle will guide you directly to the nearest one.</grad></shadow>"]
+			description: ["{ftbquests.chapter.introducing.quest31EECB880BFA9F88.description1}"]
 			id: "31EECB880BFA9F88"
 			rewards: [{
 				id: "5A89C40E03C08163"
@@ -409,7 +409,7 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "<typewriter><grad from=#5E5E5E to=#5E5E5E>You'll have it in your inventory 24/7.</grad>"
+			subtitle: "{ftbquests.chapter.introducing.quest31EECB880BFA9F88.subtitle}"
 			tasks: [{
 				id: "56C9A1C5DB97BEB8"
 				item: {
@@ -437,40 +437,40 @@
 				}
 				type: "item"
 			}]
-			title: "<grad from=#787878 to=#787878>Explorer's Compass</grad>"
+			title: "{ftbquests.chapter.introducing.quest31EECB880BFA9F88.title}"
 			x: 2.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["7A545E5DF48EDB9B"]
 			description: [
-				"### <grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>Alliances System</shadow></grad>"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description1}"
 				""
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Alliances let players form groups to cooperate, share resources, and avoid accidental PvP. Once you are part of an alliance, you can invite others, manage friendly fire, and request items or </grad></shadow><grad from=#00D411 to=#36CF43 f=0.8><shadow a=0.3>XP</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> directly from your allies.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description2}"
 				""
-				"### <grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>Forming Alliances</shadow></grad>"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description3}"
 				""
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/ally invite</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Sends an invite. The recipient will see a clickable </grad></shadow><grad from=#00D411 to=#36CF43 f=0.8><shadow a=0.3>[ACCEPT]</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> button in chat.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/ally accept</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Accepts a pending invite and joins the alliance.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/ally disband</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Disbands the alliance, removes all members, and notifies everyone.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description4}"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description5}"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description6}"
 				""
-				"### <grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>Friendly Fire</shadow></grad>"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description7}"
 				""
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/ally rules friendlyfire <true/false></shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Toggles whether allies can damage each other.</grad></shadow>"
-				"<grad from=#00D411 to=#36CF43 f=0.8><shadow a=0.3>- true:</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> Allies can hurt each other.</grad></shadow>"
-				"<grad from=#CC0000 to=#D64242 f=0.8><shadow a=0.3>- false:</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> Attacks and harmful potion effects are completely blocked between allies.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description8}"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description9}"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description10}"
 				""
-				"### <grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>Resource Requests</shadow></grad>"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description11}"
 				""
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Allies can request resources directly from each other using these commands:</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/ally request item</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Asks for the item your ally is holding in their main hand.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/ally request xp</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Requests a specific number of </grad></shadow><grad from=#00D411 to=#36CF43 f=0.8><shadow a=0.3>XP</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> levels.</grad></shadow>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>/ally request accept</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> - Accepts the pending item or </grad></shadow><grad from=#00D411 to=#36CF43 f=0.8><shadow a=0.3>XP</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> request.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description12}"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description13}"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description14}"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description15}"
 				""
-				"### <grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>Additional Info</shadow></grad>"
-				"<shadow a=0.3><grad from=#A0A0A0 to=#606060>- All members share a unified alliance group once joined.</grad></shadow>"
-				"<shadow a=0.3><grad from=#A0A0A0 to=#606060>- Friendly fire rules apply to both direct physical attacks and harmful potion effects.</grad></shadow>"
-				"<shadow a=0.3><grad from=#A0A0A0 to=#606060>- Requests are stored until accepted. If the requester logs off, the pending request is automatically removed.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description16}"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description17}"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description18}"
+				"{ftbquests.chapter.introducing.quest3010F2D785FB8887.description19}"
 			]
 			icon: {
 				Count: 1
@@ -487,53 +487,53 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "<typewriter><grad from=#CCAC74 to=#CCAC74>Don't kill your friends, please.</grad>"
+			subtitle: "{ftbquests.chapter.introducing.quest3010F2D785FB8887.subtitle}"
 			tasks: [{
 				id: "74D1BD4A3C2D5C59"
-				title: "useful"
+				title: "{ftbquests.chapter.introducing.quest3010F2D785FB8887.task.8417717305067002969.title}"
 				type: "checkmark"
 			}]
-			title: "<grad from=#FF91F0 to=#FF91F0>Multiplayer:</grad><grad from=#FFD791 to=#FFD791> Allience</grad>"
+			title: "{ftbquests.chapter.introducing.quest3010F2D785FB8887.title}"
 			x: 4.0d
 			y: -3.75d
 		}
 		{
 			dependencies: ["380F36A98AAC4C2C"]
 			description: [
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Reforging your items is a straightforward way to get a lot stronger. It can provide nearly any buff in the game to your equipment.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description1}"
 				""
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Here is a quick guide on how to use it:</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description2}"
 				""
-				"<grad from=#FF9E1F to=#FF9E1F f=0.6><shadow a=0.3>1. Craft an Anvil</shadow></grad>"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description3}"
 				""
-				"{image:customtextures:textures/anvilcrafting.png width:100 height:50 align:center}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.image0}"
 				""
-				"<grad from=#FF9E1F to=#FF9E1F f=0.6><shadow a=0.3>2. Open the Reforge Tab</shadow></grad>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Right-click the anvil and select the Reforge Gear tab.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description4}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description5}"
 				""
-				"{image:customtextures:textures/reforgingtab.png width:150 height:150 align:center}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.image2}"
 				""
-				"<grad from=#FF9E1F to=#FF9E1F f=0.6><shadow a=0.3>3. Insert the Required Items</shadow></grad>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>The system requires three inputs:</grad></shadow>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>- The gear you want to reforge (</grad><grad from=#006EDB to=#3F91E0 f=0.8>swords, bows, and armor</grad><grad from=#FFFFFF to=#C7C7C7>).</grad></shadow>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>- The item's primary repair material (if nothing else works, use </grad><grad from=#006EDB to=#3F91E0 f=0.8>iron</grad><grad from=#FFFFFF to=#C7C7C7>).</grad></shadow>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>- A </grad><grad from=#006EDB to=#3F91E0 f=0.8>tier material</grad><grad from=#FFFFFF to=#C7C7C7> from the list below.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description6}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description7}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description8}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description9}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description10}"
 				""
-				"<grad from=#FF9E1F to=#FF9E1F f=0.6><shadow a=0.3>Material List:</shadow></grad>"
-				"<grad from=#30FF68 to=#B6FCC9 f=0.8><shadow a=0.3>Tier 1 / Common - Limestone Chunk</shadow></grad>"
-				"<grad from=#FCE938 to=#FFF6A6 f=0.8><shadow a=0.3>Tier 2 / Uncommon - Pyrite</shadow></grad>"
-				"<grad from=#006EDB to=#3F91E0 f=0.8><shadow a=0.3>Tier 3 / Rare - Galena</shadow></grad>"
-				"<grad from=#6E2BFF to=#CCB5FF f=0.8><shadow a=0.3>Tier 4 / Epic - Charoite</shadow></grad>"
-				"<grad from=#FA732A to=#FFCFB5 f=0.8><shadow a=0.3>Tier 5 / Legendary - Crown Topaz</shadow></grad>"
-				"<grad from=#910308 to=#9C6466 f=0.8><shadow a=0.3>Tier 6 / Mythic - Painite</shadow></grad>"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description11}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description12}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description13}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description14}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description15}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description16}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description17}"
 				""
-				"<grad from=#FF9E1F to=#FF9E1F f=0.6><shadow a=0.3>4. Perfect Rolls</shadow></grad>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>There is a 1.0% chance to trigger a </grad><grad from=#006EDB to=#3F91E0 f=0.8>Perfect</grad><grad from=#FFFFFF to=#C7C7C7> reforge. A perfect roll removes every single downside from the modifiers and adds a badass custom item border.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description18}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description19}"
 				""
-				"<grad from=#FF9E1F to=#FF9E1F f=0.6><shadow a=0.3>5. Cleansing Stones</shadow></grad>"
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>If you end up with modifiers you don't want, you can use a </grad><grad from=#006EDB to=#3F91E0 f=0.8>Cleansing Stone</grad><grad from=#FFFFFF to=#C7C7C7> to completely wipe the current reforge stats and try again.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description20}"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description21}"
 				""
-				"<shadow a=0.3><grad from=#A0A0A0 to=#606060>Thanks to </grad><wave a=0.3 f=0.4 w=0.4><grad from=#FCE938 to=#FFF6A6 f=0.8>@d0ugdimad0me</grad></wave><grad from=#A0A0A0 to=#606060> in our Discord server for creating this custom system just for Linggango.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest223AC6439F2B6007.description22}"
 			]
 			icon: {
 				Count: 1
@@ -558,19 +558,19 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "<typewriter><grad from=#A834CF to=#A834CF>I love Apotheo-... Oh, it's not it.</grad>"
+			subtitle: "{ftbquests.chapter.introducing.quest223AC6439F2B6007.subtitle}"
 			tasks: [{
 				id: "231D6EE5154A937D"
-				title: "So cool"
+				title: "{ftbquests.chapter.introducing.quest223AC6439F2B6007.task.2530300495835861885.title}"
 				type: "checkmark"
 			}]
-			title: "<grad from=#FF2B2B to=#FF2B2B>Combat:</grad><grad from=#D042FF to=#D042FF> Reforging System</grad>"
+			title: "{ftbquests.chapter.introducing.quest223AC6439F2B6007.title}"
 			x: -3.0d
 			y: -3.75d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
-			description: ["<grad from=#787878 to=#787878><shadow a=0.3>Explorer's Compass</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> functions similarly but tracks </grad></shadow><grad from=#787878 to=#787878><shadow a=0.3>structures</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> instead of </grad></shadow><grad from=#50FF1F to=#50FF1F><shadow a=0.3>biomes</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>. You can search for any </grad></shadow><grad from=#50FF1F to=#50FF1F><shadow a=0.3>biome</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> in the game through its menu, and it will display the </grad></shadow><grad from=#CC0000 to=#D64242 f=0.8><shadow a=0.3>distance</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> and point you toward the closest </grad></shadow><grad from=#CC0000 to=#D64242 f=0.8><shadow a=0.3>coordinates</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>.</grad></shadow>"]
+			description: ["{ftbquests.chapter.introducing.quest4C373F050CB18168.description1}"]
 			id: "4C373F050CB18168"
 			rewards: [{
 				id: "736826F99BFD964F"
@@ -578,22 +578,22 @@
 				xp: 5
 			}]
 			shape: "square"
-			subtitle: "<typewriter><grad from=#3DC217 to=#3DC217>To put it simple, it's a Biome Locator.</grad>"
+			subtitle: "{ftbquests.chapter.introducing.quest4C373F050CB18168.subtitle}"
 			tasks: [{
 				id: "150A313D2D0FB590"
 				item: "naturescompass:naturescompass"
 				type: "item"
 			}]
-			title: "<grad from=#50FF1F to=#50FF1F>Nature's Compass</grad>"
+			title: "{ftbquests.chapter.introducing.quest4C373F050CB18168.title}"
 			x: -1.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["19237C5BA8DDB6AF"]
 			description: [
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>Amulets provide </grad></shadow><grad from=#D126D1 to=#D18AD1 f=0.8><shadow a=0.3>unique buffs</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> at completely no cost. You will receive them right at the start of the </grad></shadow><grad from=#6DE32D to=#BDDEAB f=0.8><shadow a=0.3>world</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>, giving you a helpful boost for </grad></shadow><grad from=#6DE32D to=#BDDEAB f=0.8><shadow a=0.3>early-game survival</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> and progression.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest55A0C32438274E54.description1}"
 				""
-				"<shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>While they are great for getting your footing early on, they are strictly designed to </grad></shadow><grad from=#6DE32D to=#BDDEAB f=0.8><shadow a=0.3>help</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7> you get started. Do not expect them to carry you all the way into the </grad></shadow><grad from=#CC0000 to=#BF8080 f=0.8><shadow a=0.3>late game</shadow></grad><shadow a=0.3><grad from=#FFFFFF to=#C7C7C7>.</grad></shadow>"
+				"{ftbquests.chapter.introducing.quest55A0C32438274E54.description2}"
 			]
 			id: "55A0C32438274E54"
 			rewards: [{
@@ -602,7 +602,7 @@
 				xp: 1
 			}]
 			shape: "hexagon"
-			subtitle: "<typewriter><grad from=#C2A617 to=#C2A617>Please, don't rely on them.</grad>"
+			subtitle: "{ftbquests.chapter.introducing.quest55A0C32438274E54.subtitle}"
 			tasks: [{
 				id: "333118994581CFBE"
 				item: {
@@ -662,10 +662,10 @@
 						]
 					}
 				}
-				title: "Any Amulet"
+				title: "{ftbquests.chapter.introducing.quest55A0C32438274E54.task.3688756616368345022.title}"
 				type: "item"
 			}]
-			title: "<grad from=#FFDA1F to=#FFDA1F>Amulets</grad>"
+			title: "{ftbquests.chapter.introducing.quest55A0C32438274E54.title}"
 			x: 0.5d
 			y: -5.5d
 		}
@@ -682,15 +682,15 @@
 				type: "command"
 			}]
 			size: 1.0d
-			subtitle: "background stuff"
+			subtitle: "{ftbquests.chapter.introducing.quest7815ABBBFED86482.subtitle}"
 			tasks: [{
 				elapsedTime: 5L
 				gameTime: "game"
 				id: "1C500F8A4BA14B7E"
-				title: "INVCLEANER"
+				title: "{ftbquests.chapter.introducing.quest7815ABBBFED86482.task.2040147717847599998.title}"
 				type: "questsadditions:time"
 			}]
-			title: "inventory cleaner"
+			title: "{ftbquests.chapter.introducing.quest7815ABBBFED86482.title}"
 			x: 0.0d
 			y: 202.0d
 		}
@@ -716,14 +716,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "background stuff"
+			subtitle: "{ftbquests.chapter.introducing.quest65447435305B2B2B.subtitle}"
 			tasks: [{
 				elapsedTime: 9L
 				gameTime: "game"
 				id: "63D26F1794A569FE"
 				type: "questsadditions:time"
 			}]
-			title: "item giver"
+			title: "{ftbquests.chapter.introducing.quest65447435305B2B2B.title}"
 			x: 1.0d
 			y: 202.0d
 		}
@@ -741,7 +741,7 @@
 				elapsedTime: 120L
 				gameTime: "game"
 				id: "221FA1B02084AB57"
-				title: "effectreset"
+				title: "{ftbquests.chapter.introducing.quest53261C74380B5971.task.2458861699399461719.title}"
 				type: "questsadditions:time"
 			}]
 			x: 2.0d
@@ -749,23 +749,23 @@
 		}
 		{
 			description: [
-				"<shadow><grad from=#FFA333 to=#FCDFB8 f=0.8>Questline Status Icons</grad></shadow>"
+				"{ftbquests.chapter.introducing.questDEB446D1F7395DE.description1}"
 				""
-				"<shadow><grad from=#FFFFFF to=#C7C7C7 f=0.3>Certain </grad><grad from=#FFD700 to=#FFFF99 f=0.5>questlines</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> feature specific status icons near their titles. Pay attention to these indicators so you know exactly what to expect from that progression tree.</grad></shadow>"
+				"{ftbquests.chapter.introducing.questDEB446D1F7395DE.description2}"
 				""
-				"{image:fancymenu:textures/buddy/gui/button_close_normal.png width:35 height:35 align:left}"
-				"<shadow><grad from=#5FA9C0 to=#D1E8EE f=0.8>All Rights Reserved (ARR)</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> - This indicates the quest layout and content are proprietary to </grad><grad from=#FFA333 to=#FCDFB8 f=0.8>Linggango</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> and cannot be copied or redistributed. If a questline lacks this icon, it is open for public use.</grad></shadow>"
+				"{ftbquests.chapter.introducing.questDEB446D1F7395DE.image0}"
+				"{ftbquests.chapter.introducing.questDEB446D1F7395DE.description3}"
 				""
-				"{image:bloodmagic:models/alchemyarrays/wiparray width:35 height:35 align:left}"
-				"<shadow><grad from=#5FA9C0 to=#D1E8EE f=0.8>Work In Progress (WIP)</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> - The questline is currently unfinished. Some sections might feel rough or incomplete until a future patch.</grad></shadow>"
+				"{ftbquests.chapter.introducing.questDEB446D1F7395DE.image2}"
+				"{ftbquests.chapter.introducing.questDEB446D1F7395DE.description4}"
 				""
-				"{image:quark:item/hammer width:35 height:35 align:left}"
-				"<shadow><grad from=#5FA9C0 to=#D1E8EE f=0.8>Active Rework</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> - This questline is undergoing balance tuning. Expect changes to text and requirements in upcoming updates.</grad></shadow>"
+				"{ftbquests.chapter.introducing.questDEB446D1F7395DE.image4}"
+				"{ftbquests.chapter.introducing.questDEB446D1F7395DE.description5}"
 				""
-				"{image:industrialforegoing:item/iron_gear width:35 height:35 align:left}"
-				"<shadow><grad from=#5FA9C0 to=#D1E8EE f=0.8>Full Overhaul</grad><grad from=#FFFFFF to=#C7C7C7 f=0.3> - The entire questline is scheduled to be completely rebuilt from scratch. Major structural adjustments and breaking changes can happen here.</grad></shadow>"
+				"{ftbquests.chapter.introducing.questDEB446D1F7395DE.image6}"
+				"{ftbquests.chapter.introducing.questDEB446D1F7395DE.description6}"
 				""
-				"<shadow><wave a=0.3 f=0.5 w=0.5><grad from=#FF69B4 to=#FFD1E8 f=0.8>Here's a cookie for paying attention.</grad></wave></shadow>"
+				"{ftbquests.chapter.introducing.questDEB446D1F7395DE.description7}"
 			]
 			icon: {
 				Count: 1
@@ -783,27 +783,27 @@
 				type: "item"
 			}]
 			shape: "none"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.introducing.questDEB446D1F7395DE.subtitle}"
 			tasks: [{
 				id: "6C8D17C3A2231F7C"
-				title: "Okay sir!"
+				title: "{ftbquests.chapter.introducing.questDEB446D1F7395DE.task.7821934256818691964.title}"
 				type: "checkmark"
 			}]
-			title: "<shadow><grad from=#FF0000 to=#FF6666 f=2.0>Pay Attention!</grad></shadow>"
+			title: "{ftbquests.chapter.introducing.questDEB446D1F7395DE.title}"
 			x: 2.5d
 			y: -8.5d
 		}
 		{
 			description: [
-				"<shadow a=0.3><grad from=#FF4A9E to=#FF85BD f=1.5>FOR RETURNING PLAYERS!!</grad></shadow>"
+				"{ftbquests.chapter.introducing.questD71B38F690C38F3.description1}"
 				""
-				"<shadow a=0.3><grad from=#FF4A9E to=#FF85BD f=1.5>GUYS!!! IF YOU NOTICE THAT QUESTLINES DONT MATCH WITH EACH OTHER AND LOOK GOOFY PLEASE DONT MIND IT</grad></shadow>"
-				"<shadow a=0.3><grad from=#FF4A9E to=#FF85BD f=1.5>THAT WILL 100% BE FIXED IN FUTURE VERSIONS!</grad></shadow>"
-				"<shadow a=0.3><grad from=#FF4A9E to=#FF85BD f=1.5>ALSO PLEASE GO TO THE </grad><grad from=#3B7CFF to=#8CB2FF f=1.5>DISCORD SERVER</grad><grad from=#FF4A9E to=#FF85BD f=1.5> AND TELL YOUR FEEDBACK!!! </grad></shadow><shadow a=0.3><wiggle a=0.3 f=0.3 w=0.3><neon p=10 r=2 a=0.12><grad from=#F7FF00 to=#8B9100 f=2>MISANTHROPY SHUTTHEIRPRAYER</grad></neon></wiggle></shadow><shadow a=0.3><grad from=#FF4A9E to=#FF85BD f=1.5> MADE A LOT OF COOL MODS JUST FOR THIS </grad><rainb>6.5</rainb><grad from=#FF4A9E to=#FF85BD f=1.5> UPDATE</grad></shadow>"
-				"<shadow a=0.3><grad from=#FF4A9E to=#FF85BD f=1.5>PLEASE FEEDBACK FEEDBACK FEEBDACK</grad></shadow>"
+				"{ftbquests.chapter.introducing.questD71B38F690C38F3.description2}"
+				"{ftbquests.chapter.introducing.questD71B38F690C38F3.description3}"
+				"{ftbquests.chapter.introducing.questD71B38F690C38F3.description4}"
+				"{ftbquests.chapter.introducing.questD71B38F690C38F3.description5}"
 				""
-				"{image:customtextures:textures/hello.apng.png width:200 height:100 align:center}"
-				"<shadow a=0.3><wave a=0.3 f=0.4 w=0.4><grad from=#FF4A9E to=#FF85BD f=1.5>Wit Love, TOokover..</grad></wave></shadow>"
+				"{ftbquests.chapter.introducing.questD71B38F690C38F3.image0}"
+				"{ftbquests.chapter.introducing.questD71B38F690C38F3.description6}"
 			]
 			disable_toast: true
 			icon: {
@@ -818,19 +818,19 @@
 			tasks: [
 				{
 					id: "2623AC5854F97E23"
-					title: "GOOO!!!! I BELIEVE IN YOU ALL!!!"
+					title: "{ftbquests.chapter.introducing.questD71B38F690C38F3.task.2748229693008870947.title}"
 					type: "checkmark"
 				}
 				{
 					id: "4E0207AEB9A150A3"
-					title: "I DON'T CARE!!!"
+					title: "{ftbquests.chapter.introducing.questD71B38F690C38F3.task.5621063731931861155.title}"
 					type: "checkmark"
 				}
 			]
-			title: "<grad from=#FF4A9E to=#FF85BD f=1.5>PLEASE READ IF YOU'VE PLAYED THIS MODPACK BEFORE 6.5!"
+			title: "{ftbquests.chapter.introducing.questD71B38F690C38F3.title}"
 			x: 0.5d
 			y: -2.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#35FCF9 to=#B8FFFE>Introduction</grad></shadow>"
+	title: "{ftbquests.chapter.introducing.title}"
 }

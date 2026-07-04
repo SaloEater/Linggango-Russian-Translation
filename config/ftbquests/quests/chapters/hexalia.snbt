@@ -19,7 +19,7 @@
 		{
 			dev: true
 			height: 1.0d
-			hover: ["Questlines belong to me, and is protected by all rights reserved. Do not try to steal without an explicit permission from me."]
+			hover: ["ftbquests.chapter.hexalia.image.hovertext1"]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			order: 2
 			rotation: 0.0d
@@ -33,11 +33,11 @@
 	quests: [
 		{
 			description: [
-				"Hexalia is a mod rooted in natural magic, just like hexerei!"
+				"{ftbquests.chapter.hexalia.quest141BFAE95A5EB8E.description1}"
 				""
-				"This mod aims to have rustic application of magic through natural resources."
+				"{ftbquests.chapter.hexalia.quest141BFAE95A5EB8E.description2}"
 				""
-				"Verdant Grimiore works as a in-game wiki, allowing you to see possible rituals with everything!"
+				"{ftbquests.chapter.hexalia.quest141BFAE95A5EB8E.description3}"
 			]
 			icon: {
 				Count: 1
@@ -49,19 +49,19 @@
 			icon_scale: 1.2d
 			id: "0141BFAE95A5EB8E"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest141BFAE95A5EB8E.subtitle}"
 			tasks: [{
 				id: "6CEBFC1A1B12BE16"
 				item: "hexalia:verdant_grimoire"
 				type: "item"
 			}]
-			title: "Hexalia"
+			title: "{ftbquests.chapter.hexalia.quest141BFAE95A5EB8E.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0141BFAE95A5EB8E"]
-			description: ["Can be found in swamp biomes."]
+			description: ["{ftbquests.chapter.hexalia.quest66F939BEBEE58C0C.description1}"]
 			id: "66F939BEBEE58C0C"
 			rewards: [{
 				count: 3
@@ -69,7 +69,7 @@
 				item: "hexalia:spirit_bloom"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest66F939BEBEE58C0C.subtitle}"
 			tasks: [{
 				id: "580DB1BB0F6ADCE2"
 				item: "hexalia:spirit_bloom"
@@ -80,7 +80,7 @@
 		}
 		{
 			dependencies: ["0141BFAE95A5EB8E"]
-			description: ["Can be found in savanna, be careful it can burn you!"]
+			description: ["{ftbquests.chapter.hexalia.quest75C72C9A7A004B9F.description1}"]
 			id: "75C72C9A7A004B9F"
 			rewards: [{
 				count: 4
@@ -88,7 +88,7 @@
 				item: "hexalia:sunfire_tomato_seeds"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest75C72C9A7A004B9F.subtitle}"
 			tasks: [{
 				id: "4496DCBD0D2F0708"
 				item: "hexalia:sunfire_tomato_seeds"
@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["0141BFAE95A5EB8E"]
-			description: ["Wild Mandrakes can be found in forest biomes, they can be broken for seeds."]
+			description: ["{ftbquests.chapter.hexalia.quest59BB4F2BFA41C6EB.description1}"]
 			id: "59BB4F2BFA41C6EB"
 			rewards: [{
 				count: 3
@@ -107,7 +107,7 @@
 				item: "hexalia:mandrake_seeds"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest59BB4F2BFA41C6EB.subtitle}"
 			tasks: [{
 				id: "2BC4DA8C2C9B6CB1"
 				item: "hexalia:mandrake_seeds"
@@ -118,7 +118,7 @@
 		}
 		{
 			dependencies: ["0141BFAE95A5EB8E"]
-			description: ["Can be found in taiga biomes, when eaten grans you fire resistance."]
+			description: ["{ftbquests.chapter.hexalia.quest6B8EFF039ED7102A.description1}"]
 			id: "6B8EFF039ED7102A"
 			rewards: [{
 				count: 4
@@ -126,7 +126,7 @@
 				item: "hexalia:chillberries"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest6B8EFF039ED7102A.subtitle}"
 			tasks: [{
 				id: "6B99A3BE53BA5C7D"
 				item: "hexalia:chillberries"
@@ -137,7 +137,7 @@
 		}
 		{
 			dependencies: ["0141BFAE95A5EB8E"]
-			description: ["Can be found in old growth taiga or mushroom fields biomes."]
+			description: ["{ftbquests.chapter.hexalia.quest3173F4452E51AF0C.description1}"]
 			id: "3173F4452E51AF0C"
 			rewards: [{
 				count: 3
@@ -145,7 +145,7 @@
 				item: "hexalia:dreamshroom"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest3173F4452E51AF0C.subtitle}"
 			tasks: [{
 				id: "20C84DA614854528"
 				item: "hexalia:dreamshroom"
@@ -156,7 +156,7 @@
 		}
 		{
 			dependencies: ["0141BFAE95A5EB8E"]
-			description: ["Only in Enchanted bayou biome."]
+			description: ["{ftbquests.chapter.hexalia.quest37744E128DF93DE6.description1}"]
 			id: "37744E128DF93DE6"
 			rewards: [{
 				count: 3
@@ -164,7 +164,7 @@
 				item: "hexalia:ghost_fern"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest37744E128DF93DE6.subtitle}"
 			tasks: [{
 				id: "2414587E4644B2EB"
 				item: "hexalia:ghost_fern"
@@ -176,9 +176,9 @@
 		{
 			dependencies: ["0141BFAE95A5EB8E"]
 			description: [
-				"Can be found at the bottom of oceans."
+				"{ftbquests.chapter.hexalia.quest2382E4B2A5DB5913.description1}"
 				""
-				"When eaten, gives you oxygen."
+				"{ftbquests.chapter.hexalia.quest2382E4B2A5DB5913.description2}"
 			]
 			id: "2382E4B2A5DB5913"
 			rewards: [{
@@ -187,7 +187,7 @@
 				item: "hexalia:siren_kelp"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest2382E4B2A5DB5913.subtitle}"
 			tasks: [{
 				id: "39E1AE1AD3485CC0"
 				item: "hexalia:siren_kelp"
@@ -199,11 +199,11 @@
 		{
 			dependencies: ["2382E4B2A5DB5913"]
 			description: [
-				"If you bonemeal any magical source planted on this block, it will duplicate!"
+				"{ftbquests.chapter.hexalia.questB1B373D26963C09.description1}"
 				""
-				"Additionally, if you right-click with a hoe it can turn into a infused farmland."
+				"{ftbquests.chapter.hexalia.questB1B373D26963C09.description2}"
 				""
-				"The infused farmland doesnt require water and cant be trampled!"
+				"{ftbquests.chapter.hexalia.questB1B373D26963C09.description3}"
 			]
 			id: "0B1B373D26963C09"
 			rewards: [{
@@ -212,7 +212,7 @@
 				item: "hexalia:infused_dirt"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.questB1B373D26963C09.subtitle}"
 			tasks: [{
 				id: "62004E03A6FD9C0E"
 				item: "hexalia:infused_dirt"
@@ -227,9 +227,9 @@
 				"3173F4452E51AF0C"
 			]
 			description: [
-				"Turns the plants we've found in nature to pastes."
+				"{ftbquests.chapter.hexalia.quest63386E39017F51F.description1}"
 				""
-				"With these resources, let's get to brewing!"
+				"{ftbquests.chapter.hexalia.quest63386E39017F51F.description2}"
 			]
 			id: "063386E39017F51F"
 			rewards: [
@@ -246,7 +246,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest63386E39017F51F.subtitle}"
 			tasks: [{
 				id: "5E1008F99B281A5C"
 				item: {
@@ -263,9 +263,9 @@
 		}
 		{
 			dependencies: ["063386E39017F51F"]
-			description: ["Can get resin from dark oak trees."]
+			description: ["{ftbquests.chapter.hexalia.quest362E36A2770E5CF4.description1}"]
 			id: "362E36A2770E5CF4"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest362E36A2770E5CF4.subtitle}"
 			tasks: [{
 				id: "23A1BEC671727657"
 				item: {
@@ -285,10 +285,10 @@
 				"063386E39017F51F"
 				"199346B76D69C4FD"
 			]
-			description: ["Requires a heat source from below to brew potions."]
+			description: ["{ftbquests.chapter.hexalia.quest63E88501B41E0203.description1}"]
 			icon_scale: 1.3d
 			id: "63E88501B41E0203"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest63E88501B41E0203.subtitle}"
 			tasks: [{
 				id: "7E5A45E9E99164D1"
 				item: "hexalia:small_cauldron"
@@ -299,7 +299,7 @@
 		}
 		{
 			dependencies: ["0141BFAE95A5EB8E"]
-			description: ["Can be used to heat small cauldron!"]
+			description: ["{ftbquests.chapter.hexalia.quest199346B76D69C4FD.description1}"]
 			hide_dependency_lines: true
 			id: "199346B76D69C4FD"
 			rewards: [{
@@ -308,7 +308,7 @@
 				item: "hexalia:rustic_bottle"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest199346B76D69C4FD.subtitle}"
 			tasks: [{
 				id: "74B8EAA5C4091BFA"
 				item: "hexalia:rustic_oven"
@@ -320,19 +320,19 @@
 		{
 			dependencies: ["63E88501B41E0203"]
 			description: [
-				"Salt ores can be found mostly in caves at altitudes from Y80 to Y-80."
+				"{ftbquests.chapter.hexalia.quest4238A374896C2FFE.description1}"
 				""
-				"Used to make purifying salt."
+				"{ftbquests.chapter.hexalia.quest4238A374896C2FFE.description2}"
 			]
 			id: "4238A374896C2FFE"
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest4238A374896C2FFE.subtitle}"
 			tasks: [{
 				id: "2AF25294808A3403"
 				item: "hexalia:salt"
 				type: "item"
 			}]
-			title: "Rituals"
+			title: "{ftbquests.chapter.hexalia.quest4238A374896C2FFE.title}"
 			x: 1.0d
 			y: 8.5d
 		}
@@ -345,7 +345,7 @@
 				item: "hexalia:spicy_sandwich"
 				type: "item"
 			}]
-			subtitle: "Gives Speed II "
+			subtitle: "{ftbquests.chapter.hexalia.quest32A72D8204F7AF5.subtitle}"
 			tasks: [{
 				id: "7BDADB675AF80A30"
 				item: "hexalia:spicy_sandwich"
@@ -363,7 +363,7 @@
 				item: "hexalia:mandrake_stew"
 				type: "item"
 			}]
-			subtitle: "Saturates A Lot"
+			subtitle: "{ftbquests.chapter.hexalia.quest5A783F9A5A5DF1CF.subtitle}"
 			tasks: [{
 				id: "689FD002D5D928C2"
 				item: "hexalia:mandrake_stew"
@@ -381,7 +381,7 @@
 				item: "hexalia:chillberry_pie"
 				type: "item"
 			}]
-			subtitle: "Gives Fire Resistance II"
+			subtitle: "{ftbquests.chapter.hexalia.quest4DABDAAF440C2EC2.subtitle}"
 			tasks: [{
 				id: "11A0F11A40A2C96F"
 				item: "hexalia:chillberry_pie"
@@ -392,9 +392,9 @@
 		}
 		{
 			dependencies: ["63E88501B41E0203"]
-			description: ["Putting the brews in this bottle."]
+			description: ["{ftbquests.chapter.hexalia.quest49BFC99598B0D5F4.description1}"]
 			id: "49BFC99598B0D5F4"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest49BFC99598B0D5F4.subtitle}"
 			tasks: [{
 				id: "0ADEB5D38FD51295"
 				item: "hexalia:rustic_bottle"
@@ -405,10 +405,10 @@
 		}
 		{
 			dependencies: ["4238A374896C2FFE"]
-			description: ["Removes any effect from player, can cure rotten meat to leather aswell!"]
+			description: ["{ftbquests.chapter.hexalia.quest710675BA3E34488D.description1}"]
 			id: "710675BA3E34488D"
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest710675BA3E34488D.subtitle}"
 			tasks: [{
 				id: "6F7023560D7F1653"
 				item: {
@@ -426,23 +426,23 @@
 		{
 			dependencies: ["710675BA3E34488D"]
 			description: [
-				"The ritual block must be placed down, along with placing salt on each side. (with one block  distance)"
+				"{ftbquests.chapter.hexalia.quest514415BA59B1C3A6.description1}"
 				""
-				"The item to transmute must be placed on the ritual table and the ingredients on the salt."
+				"{ftbquests.chapter.hexalia.quest514415BA59B1C3A6.description2}"
 				""
-				"For example:"
+				"{ftbquests.chapter.hexalia.quest514415BA59B1C3A6.description3}"
 				""
-				"&8Let's transmute wheat into Rabbage seeds!"
+				"{ftbquests.chapter.hexalia.quest514415BA59B1C3A6.description4}"
 				""
-				"&81- Put seed on ritual table.&l"
+				"{ftbquests.chapter.hexalia.quest514415BA59B1C3A6.description5}"
 				""
-				"&82- Put spirit bloom, snowball, wooden sword, resin on salts."
+				"{ftbquests.chapter.hexalia.quest514415BA59B1C3A6.description6}"
 				""
-				"&83- Then Right-Click with Hex Focus!"
+				"{ftbquests.chapter.hexalia.quest514415BA59B1C3A6.description7}"
 			]
 			id: "514415BA59B1C3A6"
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest514415BA59B1C3A6.subtitle}"
 			tasks: [
 				{
 					id: "49B4E3D5A89A027C"
@@ -455,7 +455,7 @@
 					type: "item"
 				}
 			]
-			title: "Hex Focus And Ritual Table"
+			title: "{ftbquests.chapter.hexalia.quest514415BA59B1C3A6.title}"
 			x: 4.16326530612249d
 			y: 8.195578231292536d
 		}
@@ -480,13 +480,13 @@
 		{
 			dependencies: ["514415BA59B1C3A6"]
 			description: [
-				"A rare seed found in jungle pyramids or dug up by sniffers."
+				"{ftbquests.chapter.hexalia.quest71078380682D068E.description1}"
 				""
-				"Can be transmuted into kelpwave blade!"
+				"{ftbquests.chapter.hexalia.quest71078380682D068E.description2}"
 			]
 			id: "71078380682D068E"
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest71078380682D068E.subtitle}"
 			tasks: [{
 				id: "754294C2AA171FB1"
 				item: "hexalia:ancient_seed"
@@ -498,14 +498,14 @@
 		{
 			dependencies: ["71078380682D068E"]
 			description: [
-				"Can repair itself underwater."
+				"{ftbquests.chapter.hexalia.quest6B71E133C9890C56.description1}"
 				""
-				"Inflicts slowness on hit."
+				"{ftbquests.chapter.hexalia.quest6B71E133C9890C56.description2}"
 			]
 			id: "6B71E133C9890C56"
 			shape: "octagon"
 			size: 1.3d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.hexalia.quest6B71E133C9890C56.subtitle}"
 			tasks: [{
 				id: "438C76F457058B55"
 				item: {
@@ -521,5 +521,5 @@
 			y: 5.607142857142854d
 		}
 	]
-	title: "Hexalia"
+	title: "{ftbquests.chapter.hexalia.title}"
 }

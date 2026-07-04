@@ -34,10 +34,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.composite_materials.image.hovertext1"
+				"ftbquests.chapter.composite_materials.image.hovertext2"
+				"ftbquests.chapter.composite_materials.image.hovertext3"
+				"ftbquests.chapter.composite_materials.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -48,7 +48,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.composite_materials.image.hovertext5"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -62,11 +62,11 @@
 	quests: [
 		{
 			description: [
-				"&6&nComposite Materials&r"
+				"{ftbquests.chapter.composite_materials.quest5B405969C6A4170B.description1}"
 				""
-				"Composite Materials is a massive mod that introduces a wide array of new tools, armor sets, and unique mechanics. "
+				"{ftbquests.chapter.composite_materials.quest5B405969C6A4170B.description2}"
 				""
-				"Because the gear obtained through this mod is exceptionally powerful, this dedicated questline is designed to guide you cleanly through its progression."
+				"{ftbquests.chapter.composite_materials.quest5B405969C6A4170B.description3}"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -84,11 +84,11 @@
 			}]
 			shape: "square"
 			size: 1.7d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest5B405969C6A4170B.subtitle}"
 			tasks: [
 				{
 					id: "31CF6B033EC9CCC0"
-					title: "Okay!"
+					title: "{ftbquests.chapter.composite_materials.quest5B405969C6A4170B.task.3589205089720061120.title}"
 					type: "checkmark"
 				}
 				{
@@ -97,15 +97,15 @@
 					type: "item"
 				}
 			]
-			title: "Composite Materials!"
+			title: "{ftbquests.chapter.composite_materials.quest5B405969C6A4170B.title}"
 			x: 0.0d
 			y: -12.6d
 		}
 		{
 			description: [
-				"&cThe Elder Guardian&r was once the fierce protector of the ocean, though now it is, simply put, an old fish."
+				"{ftbquests.chapter.composite_materials.quest57734015B3527500.description1}"
 				""
-				"Anyways, we need to kill this boss in order to get a required material."
+				"{ftbquests.chapter.composite_materials.quest57734015B3527500.description2}"
 			]
 			icon: "plushie_buddies:plushie_elder_guardian"
 			icon_scale: 1.4d
@@ -119,12 +119,12 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest57734015B3527500.subtitle}"
 			tasks: [{
 				entity: "minecraft:elder_guardian"
 				icon: "plushie_buddies:plushie_elder_guardian"
 				id: "40460A4AA013F52B"
-				title: "&cKill&r The Elder Guardian"
+				title: "{ftbquests.chapter.composite_materials.quest57734015B3527500.task.4631400582426653995.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -143,7 +143,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Obtained by killing a Elder Guardian"
+			subtitle: "{ftbquests.chapter.composite_materials.quest68A929431E05F20F.subtitle}"
 			tasks: [{
 				id: "5B7D0D4E82A6C797"
 				item: "composite_material:guardian_elder_spike"
@@ -154,7 +154,7 @@
 		}
 		{
 			dependencies: ["68A929431E05F20F"]
-			description: ["When thrown near an activated conduit, it will turn into a Abyss Fang."]
+			description: ["{ftbquests.chapter.composite_materials.quest68751F3651BF7810.description1}"]
 			id: "68751F3651BF7810"
 			optional: true
 			rewards: [{
@@ -165,7 +165,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest68751F3651BF7810.subtitle}"
 			tasks: [{
 				id: "0F91E3866589FB0D"
 				item: "composite_material:abyss_fang"
@@ -186,7 +186,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Can be crafted with various aquatic materials"
+			subtitle: "{ftbquests.chapter.composite_materials.quest2D52DB3350AA83C.subtitle}"
 			tasks: [{
 				id: "3DF40D8657683E9E"
 				item: "composite_material:prismarine_alloy_ingot"
@@ -210,7 +210,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "Now it's craftable!"
+			subtitle: "{ftbquests.chapter.composite_materials.quest41A1389708C76431.subtitle}"
 			tasks: [{
 				id: "6E0B36F0944266FE"
 				item: {
@@ -230,7 +230,7 @@
 				"02D52DB3350AA83C"
 				"68751F3651BF7810"
 			]
-			description: ["This weapon has the ability to cause aquatic mobs to drop extra resources."]
+			description: ["{ftbquests.chapter.composite_materials.quest2C8792C34200438B.description1}"]
 			id: "2C8792C34200438B"
 			optional: true
 			rewards: [{
@@ -241,7 +241,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest2C8792C34200438B.subtitle}"
 			tasks: [{
 				id: "17A704B312E6F956"
 				item: {
@@ -267,7 +267,7 @@
 			}]
 			shape: "octagon"
 			size: 1.3d
-			subtitle: "Obtained Through mixing with &6Create"
+			subtitle: "{ftbquests.chapter.composite_materials.quest55CDFD704ACB58A.subtitle}"
 			tasks: [{
 				id: "309E040F6085A85C"
 				item: "composite_material:obsidian_steel_ingot"
@@ -279,9 +279,9 @@
 		{
 			dependencies: ["055CDFD704ACB58A"]
 			description: [
-				"The armor has the same attributes as diamond but higher enchantability."
+				"{ftbquests.chapter.composite_materials.quest235D4C802021ACF4.description1}"
 				""
-				"Wearing the armor will also make you neutral with the piglins."
+				"{ftbquests.chapter.composite_materials.quest235D4C802021ACF4.description2}"
 			]
 			id: "235D4C802021ACF4"
 			rewards: [{
@@ -292,7 +292,7 @@
 			}]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest235D4C802021ACF4.subtitle}"
 			tasks: [{
 				id: "1881474DF1581C26"
 				item: {
@@ -331,16 +331,16 @@
 						]
 					}
 				}
-				title: "Any obsidian armor"
+				title: "{ftbquests.chapter.composite_materials.quest235D4C802021ACF4.task.1765770928993082406.title}"
 				type: "item"
 			}]
-			title: "Obsidian Armor Set"
+			title: "{ftbquests.chapter.composite_materials.quest235D4C802021ACF4.title}"
 			x: 1.2d
 			y: -7.8d
 		}
 		{
 			dependencies: ["055CDFD704ACB58A"]
-			description: ["The tools are a mix of gold and diamond, though with less durability than the latter."]
+			description: ["{ftbquests.chapter.composite_materials.quest316187625F2B10B7.description1}"]
 			id: "316187625F2B10B7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -350,7 +350,7 @@
 			}]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest316187625F2B10B7.subtitle}"
 			tasks: [{
 				id: "52EE1CDBC56F816C"
 				item: {
@@ -403,16 +403,16 @@
 						]
 					}
 				}
-				title: "Any obsidian tool"
+				title: "{ftbquests.chapter.composite_materials.quest316187625F2B10B7.task.5975745485803061612.title}"
 				type: "item"
 			}]
-			title: "Obsidian Toolset"
+			title: "{ftbquests.chapter.composite_materials.quest316187625F2B10B7.title}"
 			x: -1.2d
 			y: -7.8d
 		}
 		{
 			dependencies: ["055CDFD704ACB58A"]
-			description: ["Holding Right-Click will shoot a fire. If you are in the Nether dimension, you will shoot fireballs instead."]
+			description: ["{ftbquests.chapter.composite_materials.questBDE37FDC6E1CFF6.description1}"]
 			id: "0BDE37FDC6E1CFF6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -422,7 +422,7 @@
 			}]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.questBDE37FDC6E1CFF6.subtitle}"
 			tasks: [{
 				id: "41E3A5A54731561D"
 				item: {
@@ -440,9 +440,9 @@
 		{
 			dependencies: ["055CDFD704ACB58A"]
 			description: [
-				"Use a cardboard box pick-up the spawners! Then bring it to home, and throw &dobsidian steel ingot&r on it."
+				"{ftbquests.chapter.composite_materials.quest1A79AC9048653A9D.description1}"
 				""
-				"There's a chance it will convert into &adungeon steel ingot!"
+				"{ftbquests.chapter.composite_materials.quest1A79AC9048653A9D.description2}"
 			]
 			id: "1A79AC9048653A9D"
 			rewards: [{
@@ -453,13 +453,13 @@
 			}]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest1A79AC9048653A9D.subtitle}"
 			tasks: [{
 				id: "31EBC07C628DB854"
 				item: "mekanism:cardboard_box"
 				type: "item"
 			}]
-			title: "Breaking a Spawner"
+			title: "{ftbquests.chapter.composite_materials.quest1A79AC9048653A9D.title}"
 			x: 3.0d
 			y: -10.0d
 		}
@@ -493,7 +493,7 @@
 			]
 			shape: "octagon"
 			size: 1.35d
-			subtitle: "Obtained by dropping obsidian steel ingot on a spawner."
+			subtitle: "{ftbquests.chapter.composite_materials.quest734425E2A8C791C7.subtitle}"
 			tasks: [{
 				id: "15A7004D2787311A"
 				item: "composite_material:dungeon_steel_ingot"
@@ -505,9 +505,9 @@
 		{
 			dependencies: ["734425E2A8C791C7"]
 			description: [
-				"Beheader heals you whenever you kill an enemy with the weapon."
+				"{ftbquests.chapter.composite_materials.quest6106FDF4BBD69EF3.description1}"
 				""
-				"It also has a chance to drop mobs head, increases with every fortune level."
+				"{ftbquests.chapter.composite_materials.quest6106FDF4BBD69EF3.description2}"
 			]
 			id: "6106FDF4BBD69EF3"
 			rewards: [
@@ -531,7 +531,7 @@
 			]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest6106FDF4BBD69EF3.subtitle}"
 			tasks: [{
 				id: "2E9FAF62CC4F77F0"
 				item: {
@@ -549,9 +549,9 @@
 		{
 			dependencies: ["734425E2A8C791C7"]
 			description: [
-				"The Sealer heals you for part of the damage dealt, with a chance to drop spawn eggs from the mob."
+				"{ftbquests.chapter.composite_materials.quest3640BFE607F6C3EA.description1}"
 				""
-				"The chance increases with looting."
+				"{ftbquests.chapter.composite_materials.quest3640BFE607F6C3EA.description2}"
 			]
 			id: "3640BFE607F6C3EA"
 			rewards: [
@@ -575,7 +575,7 @@
 			]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest3640BFE607F6C3EA.subtitle}"
 			tasks: [{
 				id: "500998F65C2391BE"
 				item: {
@@ -593,9 +593,9 @@
 		{
 			dependencies: ["734425E2A8C791C7"]
 			description: [
-				"The Thumper deals damage based on the distance fallen and negates fall damage."
+				"{ftbquests.chapter.composite_materials.questE70B42FC7FC2185.description1}"
 				""
-				"Basically a better version of the mace."
+				"{ftbquests.chapter.composite_materials.questE70B42FC7FC2185.description2}"
 			]
 			id: "0E70B42FC7FC2185"
 			rewards: [
@@ -619,7 +619,7 @@
 			]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.questE70B42FC7FC2185.subtitle}"
 			tasks: [{
 				id: "59CA8F5DB793982F"
 				item: {
@@ -636,7 +636,7 @@
 		}
 		{
 			dependencies: ["734425E2A8C791C7"]
-			description: ["The Breaker is a special pickaxe that allows you to mine mob spawners."]
+			description: ["{ftbquests.chapter.composite_materials.quest383F2E2B479DC3B0.description1}"]
 			id: "383F2E2B479DC3B0"
 			rewards: [
 				{
@@ -659,7 +659,7 @@
 			]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest383F2E2B479DC3B0.subtitle}"
 			tasks: [{
 				id: "2E5FDCD43D2B3A46"
 				item: {
@@ -677,9 +677,9 @@
 		{
 			dependencies: ["734425E2A8C791C7"]
 			description: [
-				"If you hit a mob with the bow, then hit another one with the arrow, you can make them fight eachother!"
+				"{ftbquests.chapter.composite_materials.quest6052859090CD29FA.description1}"
 				""
-				"Pretty confusing.."
+				"{ftbquests.chapter.composite_materials.quest6052859090CD29FA.description2}"
 			]
 			id: "6052859090CD29FA"
 			rewards: [
@@ -703,7 +703,7 @@
 			]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest6052859090CD29FA.subtitle}"
 			tasks: [{
 				id: "3E47543D1B2CBDF4"
 				item: {
@@ -720,7 +720,7 @@
 		}
 		{
 			dependencies: ["734425E2A8C791C7"]
-			description: ["The Opresser heals you whenever a enemy heals near you."]
+			description: ["{ftbquests.chapter.composite_materials.quest4566633CF8C7CC0A.description1}"]
 			id: "4566633CF8C7CC0A"
 			rewards: [
 				{
@@ -743,7 +743,7 @@
 			]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest4566633CF8C7CC0A.subtitle}"
 			tasks: [{
 				id: "6AC78B06AF7D96B5"
 				item: {
@@ -760,7 +760,7 @@
 		}
 		{
 			dependencies: ["734425E2A8C791C7"]
-			description: ["Allay will die in this process... :c!! "]
+			description: ["{ftbquests.chapter.composite_materials.questDD1C5FDF2692182.description1}"]
 			id: "0DD1C5FDF2692182"
 			rewards: [
 				{
@@ -778,7 +778,7 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "Obtained by giving a dungeon steel ingot to a allay."
+			subtitle: "{ftbquests.chapter.composite_materials.questDD1C5FDF2692182.subtitle}"
 			tasks: [{
 				id: "239263FD838879E5"
 				item: "composite_material:allay_steel_ingot"
@@ -790,11 +790,11 @@
 		{
 			dependencies: ["0DD1C5FDF2692182"]
 			description: [
-				"The armor has medium durability but less armor toughness, even less than diamond."
+				"{ftbquests.chapter.composite_materials.quest63810D5E4B311305.description1}"
 				""
-				"- &6Fall Damage Negation:&r It can negate fall damage, give you %10 move speed with each armor piece."
+				"{ftbquests.chapter.composite_materials.quest63810D5E4B311305.description2}"
 				""
-				"- &6Immunity to Negativity:&r You also become immune to wither, poison and hunger damage, recover quickly aswell!"
+				"{ftbquests.chapter.composite_materials.quest63810D5E4B311305.description3}"
 			]
 			icon: {
 				Count: 1
@@ -820,7 +820,7 @@
 			]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest63810D5E4B311305.subtitle}"
 			tasks: [{
 				id: "2AD9473CCBC4AABB"
 				item: {
@@ -861,13 +861,13 @@
 				}
 				type: "item"
 			}]
-			title: "Any Allay Armor Piece"
+			title: "{ftbquests.chapter.composite_materials.quest63810D5E4B311305.title}"
 			x: 9.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["0DD1C5FDF2692182"]
-			description: ["&6Super Efficiency:&r These tools can break up x64 of the same type block in an area."]
+			description: ["{ftbquests.chapter.composite_materials.quest26562D5DC2968A9D.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -892,7 +892,7 @@
 			]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest26562D5DC2968A9D.subtitle}"
 			tasks: [{
 				id: "2D2786F6E1E2CEED"
 				item: {
@@ -940,7 +940,7 @@
 				}
 				type: "item"
 			}]
-			title: "Any Allay Tool"
+			title: "{ftbquests.chapter.composite_materials.quest26562D5DC2968A9D.title}"
 			x: 10.0d
 			y: -8.0d
 		}
@@ -950,9 +950,9 @@
 				"26562D5DC2968A9D"
 			]
 			description: [
-				"&cThe Warden&r rests deep under the ground."
+				"{ftbquests.chapter.composite_materials.quest706326297CA26190.description1}"
 				""
-				"It resides a strange and worrying fauna that reacts to sounds. Don't make too much noise or you might wake it up."
+				"{ftbquests.chapter.composite_materials.quest706326297CA26190.description2}"
 			]
 			icon: "plushie_buddies:plushie_warden"
 			icon_scale: 1.4d
@@ -973,20 +973,20 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "Overworld / Ancient City"
+			subtitle: "{ftbquests.chapter.composite_materials.quest706326297CA26190.subtitle}"
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "132CA25AC2657937"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill &cThe Warden&r"
+			title: "{ftbquests.chapter.composite_materials.quest706326297CA26190.title}"
 			x: 9.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["706326297CA26190"]
-			description: ["This item can be used along with echo shards and diamond to craft an Echoium Ingot."]
+			description: ["{ftbquests.chapter.composite_materials.quest71F2374479DC95EE.description1}"]
 			id: "71F2374479DC95EE"
 			rewards: [
 				{
@@ -1004,7 +1004,7 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest71F2374479DC95EE.subtitle}"
 			tasks: [{
 				id: "57F7B3ACC5B81324"
 				item: "composite_material:warden_hand"
@@ -1016,11 +1016,11 @@
 		{
 			dependencies: ["71F2374479DC95EE"]
 			description: [
-				"Echoium Armor set has better attributes than netherite, grants you additional hearts, and grants darkness, even blindness immunity!"
+				"{ftbquests.chapter.composite_materials.quest38239F51F2B5E06A.description1}"
 				""
-				"- &6Aura Monster:&r Wardens won't spawn near you."
-				"- &6Fire Immunity:&r You won't take fire damage."
-				"- &6Strong Will.&r Immune to weakness effect."
+				"{ftbquests.chapter.composite_materials.quest38239F51F2B5E06A.description2}"
+				"{ftbquests.chapter.composite_materials.quest38239F51F2B5E06A.description3}"
+				"{ftbquests.chapter.composite_materials.quest38239F51F2B5E06A.description4}"
 			]
 			icon: {
 				Count: 1
@@ -1046,7 +1046,7 @@
 			]
 			shape: "square"
 			size: 1.25d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest38239F51F2B5E06A.subtitle}"
 			tasks: [
 				{
 					id: "0223FD58E063DEBE"
@@ -1093,16 +1093,16 @@
 					type: "item"
 				}
 			]
-			title: "Echoium Armor Set"
+			title: "{ftbquests.chapter.composite_materials.quest38239F51F2B5E06A.title}"
 			x: 8.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["71F2374479DC95EE"]
 			description: [
-				"Every tool has better attributes than netherite."
+				"{ftbquests.chapter.composite_materials.quest7472DB2463DD5262.description1}"
 				""
-				"- &6Punishing Heavy Armor:&r Deals additional damage based on the opponents armor while ignoring it!"
+				"{ftbquests.chapter.composite_materials.quest7472DB2463DD5262.description2}"
 			]
 			icon: {
 				Count: 1
@@ -1128,7 +1128,7 @@
 			]
 			shape: "square"
 			size: 1.25d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest7472DB2463DD5262.subtitle}"
 			tasks: [
 				{
 					id: "55A08D371FB4B367"
@@ -1186,16 +1186,16 @@
 					type: "item"
 				}
 			]
-			title: "Echoium Toolset"
+			title: "{ftbquests.chapter.composite_materials.quest7472DB2463DD5262.title}"
 			x: 8.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["7472DB2463DD5262"]
 			description: [
-				"Lacerator is not a normal bow. It's damage increases by how long you draw it."
+				"{ftbquests.chapter.composite_materials.quest6A03C826EEBA5BF8.description1}"
 				""
-				"If you hold it for a &elong time&r, you will deal a &cCRAZY&r amount of damage."
+				"{ftbquests.chapter.composite_materials.quest6A03C826EEBA5BF8.description2}"
 			]
 			id: "6A03C826EEBA5BF8"
 			rewards: [
@@ -1214,7 +1214,7 @@
 			]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest6A03C826EEBA5BF8.subtitle}"
 			tasks: [{
 				id: "4916BF0D2B4ABDDC"
 				item: {
@@ -1232,9 +1232,9 @@
 		{
 			dependencies: ["7472DB2463DD5262"]
 			description: [
-				"When charged, shoots the Sonic Boom Ability that &bThe Warden&r uses."
+				"{ftbquests.chapter.composite_materials.quest50B220574F3265A.description1}"
 				""
-				"This staff benefits from the Echoium Armor set and deals up to &e3X&r more damage."
+				"{ftbquests.chapter.composite_materials.quest50B220574F3265A.description2}"
 			]
 			id: "050B220574F3265A"
 			rewards: [
@@ -1253,7 +1253,7 @@
 			]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest50B220574F3265A.subtitle}"
 			tasks: [{
 				id: "7CA5428E1CB9AAE0"
 				item: {
@@ -1274,9 +1274,9 @@
 				"38239F51F2B5E06A"
 			]
 			description: [
-				"This material can turn &eleather armor into primitive armor.&r Which is a massive upgrade over leather.. of course."
+				"{ftbquests.chapter.composite_materials.quest6EA6750A1FDDC7EC.description1}"
 				""
-				"It can also upgrade the &eflint tools we had before into primitive tools!&r"
+				"{ftbquests.chapter.composite_materials.quest6EA6750A1FDDC7EC.description2}"
 			]
 			id: "6EA6750A1FDDC7EC"
 			rewards: [
@@ -1301,7 +1301,7 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest6EA6750A1FDDC7EC.subtitle}"
 			tasks: [{
 				id: "597D7EB61A0B6E24"
 				item: "composite_material:ancient_fiber"
@@ -1316,9 +1316,9 @@
 				"38239F51F2B5E06A"
 			]
 			description: [
-				"This material can turn &eleather armor into primitive armor.&r Which is a massive upgrade over leather.. of course."
+				"{ftbquests.chapter.composite_materials.quest12015F7226F39056.description1}"
 				""
-				"It can also upgrade the &eflint tools we had before into primitive tools!&r"
+				"{ftbquests.chapter.composite_materials.quest12015F7226F39056.description2}"
 			]
 			id: "12015F7226F39056"
 			rewards: [
@@ -1343,7 +1343,7 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest12015F7226F39056.subtitle}"
 			tasks: [{
 				id: "67D57CA5D1A50682"
 				item: "composite_material:primitive_tenacity"
@@ -1358,12 +1358,12 @@
 				"12015F7226F39056"
 			]
 			description: [
-				"The armor only provides small amount of armor, but has a lot of armor toughness."
+				"{ftbquests.chapter.composite_materials.quest5BF3464D9F640438.description1}"
 				""
-				"- &6Tanky:&r Extra lot of HP"
-				"- &6Athletic:&r %20 increased swim speed"
-				"- &6Long Arms:&r +1 block reach"
-				"- &6Strong Immune System:&r A lot of bad effect immunities."
+				"{ftbquests.chapter.composite_materials.quest5BF3464D9F640438.description2}"
+				"{ftbquests.chapter.composite_materials.quest5BF3464D9F640438.description3}"
+				"{ftbquests.chapter.composite_materials.quest5BF3464D9F640438.description4}"
+				"{ftbquests.chapter.composite_materials.quest5BF3464D9F640438.description5}"
 			]
 			icon: {
 				Count: 1
@@ -1400,7 +1400,7 @@
 			]
 			shape: "square"
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest5BF3464D9F640438.subtitle}"
 			tasks: [
 				{
 					id: "34CF18CF8B533D02"
@@ -1447,7 +1447,7 @@
 					type: "item"
 				}
 			]
-			title: "Primitive Armor Set"
+			title: "{ftbquests.chapter.composite_materials.quest5BF3464D9F640438.title}"
 			x: 3.5d
 			y: -3.5d
 		}
@@ -1457,9 +1457,9 @@
 				"6EA6750A1FDDC7EC"
 			]
 			description: [
-				"The attributes are way higher than netherite."
+				"{ftbquests.chapter.composite_materials.quest6B861C59DA04C374.description1}"
 				""
-				"Primitive Tools are even better with the more HP you got."
+				"{ftbquests.chapter.composite_materials.quest6B861C59DA04C374.description2}"
 			]
 			icon: {
 				Count: 1
@@ -1496,7 +1496,7 @@
 			]
 			shape: "square"
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest6B861C59DA04C374.subtitle}"
 			tasks: [
 				{
 					id: "5F9E38F6D0457031"
@@ -1554,7 +1554,7 @@
 					type: "item"
 				}
 			]
-			title: "Primitive Tools"
+			title: "{ftbquests.chapter.composite_materials.quest6B861C59DA04C374.title}"
 			x: 3.5d
 			y: -4.5d
 		}
@@ -1586,7 +1586,7 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "The last material to cover is Etherite, made from end-game items."
+			subtitle: "{ftbquests.chapter.composite_materials.quest69AE3351C85C0964.subtitle}"
 			tasks: [{
 				id: "5191D70C78A2211E"
 				item: "composite_material:etherite_ingot"
@@ -1623,7 +1623,7 @@
 			]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "The last material to cover is Perkin, made from end-game items."
+			subtitle: "{ftbquests.chapter.composite_materials.quest68C39719866B49B.subtitle}"
 			tasks: [{
 				id: "5EBABBD4CEEE7531"
 				item: "composite_material:perkin"
@@ -1638,9 +1638,9 @@
 				"068C39719866B49B"
 			]
 			description: [
-				"&n&6End-game Armors&r"
+				"{ftbquests.chapter.composite_materials.quest57CD81BFA66A35BD.description1}"
 				""
-				"Etherite Armor have incredibly high stats. To read all of them, check out the items tooltips!"
+				"{ftbquests.chapter.composite_materials.quest57CD81BFA66A35BD.description2}"
 			]
 			id: "57CD81BFA66A35BD"
 			rewards: [
@@ -1665,7 +1665,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest57CD81BFA66A35BD.subtitle}"
 			tasks: [
 				{
 					id: "4943DC9057E6B50C"
@@ -1712,7 +1712,7 @@
 					type: "item"
 				}
 			]
-			title: "&bEtherite Armor Set"
+			title: "{ftbquests.chapter.composite_materials.quest57CD81BFA66A35BD.title}"
 			x: -0.5d
 			y: -5.0d
 		}
@@ -1722,9 +1722,9 @@
 				"69AE3351C85C0964"
 			]
 			description: [
-				"&n&6End-game tools&r"
+				"{ftbquests.chapter.composite_materials.quest15B4A10DBC0ACB2E.description1}"
 				""
-				"Etherite Tools have incredibly high stats. To read all of them, check out the items tooltips!"
+				"{ftbquests.chapter.composite_materials.quest15B4A10DBC0ACB2E.description2}"
 			]
 			id: "15B4A10DBC0ACB2E"
 			rewards: [
@@ -1749,7 +1749,7 @@
 			]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest15B4A10DBC0ACB2E.subtitle}"
 			tasks: [
 				{
 					id: "4F571DD8EACD68E1"
@@ -1818,13 +1818,13 @@
 					type: "item"
 				}
 			]
-			title: "&bEtherite Toolset"
+			title: "{ftbquests.chapter.composite_materials.quest15B4A10DBC0ACB2E.title}"
 			x: -0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["15B4A10DBC0ACB2E"]
-			description: ["Fires wither skulls that deal nice amount of damage, can be buffed with full etherite armor set!"]
+			description: ["{ftbquests.chapter.composite_materials.quest3DC6FFA510DB5638.description1}"]
 			id: "3DC6FFA510DB5638"
 			rewards: [
 				{
@@ -1848,7 +1848,7 @@
 			]
 			shape: "square"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest3DC6FFA510DB5638.subtitle}"
 			tasks: [{
 				id: "2DFFF1E33ACAB989"
 				item: {
@@ -1866,14 +1866,14 @@
 		{
 			dependencies: ["5B405969C6A4170B"]
 			description: [
-				"&6&nDisenchanting Book&r"
+				"{ftbquests.chapter.composite_materials.quest5AAA22D68F7FC59F.description1}"
 				""
-				"To use this item, hold it in your main hand and place a piece of enchanted equipment in your off-hand. Right-click to completely transfer all of the existing enchantments from the gear onto an Enchanted Book."
+				"{ftbquests.chapter.composite_materials.quest5AAA22D68F7FC59F.description2}"
 			]
 			id: "5AAA22D68F7FC59F"
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest5AAA22D68F7FC59F.subtitle}"
 			tasks: [{
 				id: "087A36845BA04E53"
 				item: "composite_material:disenchanted_book"
@@ -1885,18 +1885,18 @@
 		{
 			dependencies: ["5B405969C6A4170B"]
 			description: [
-				"&6&nEnlightened Book&r"
+				"{ftbquests.chapter.composite_materials.quest32E8FC6195AA3D60.description1}"
 				""
-				"To use this item, hold it in your main hand and place the piece of equipment you want to upgrade in your off-hand. Right-click to enchant the gear based on your current XP level."
+				"{ftbquests.chapter.composite_materials.quest32E8FC6195AA3D60.description2}"
 				""
-				"Each attempt costs 3 XP levels and includes a random chance to grant rare treasure enchantments."
+				"{ftbquests.chapter.composite_materials.quest32E8FC6195AA3D60.description3}"
 				""
-				"&8Note: This process does not work if you are using a two-handed weapon.&r"
+				"{ftbquests.chapter.composite_materials.quest32E8FC6195AA3D60.description4}"
 			]
 			id: "32E8FC6195AA3D60"
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest32E8FC6195AA3D60.subtitle}"
 			tasks: [{
 				id: "3ECD8805F3307FA9"
 				item: "composite_material:enlightened_book"
@@ -1908,18 +1908,18 @@
 		{
 			dependencies: ["5B405969C6A4170B"]
 			description: [
-				"&6&nReinforced Book&r"
+				"{ftbquests.chapter.composite_materials.quest44AF82F2BB0640C0.description1}"
 				""
-				"Hold this book in your main hand and place an enchanted item in your off-hand. Right-click to upgrade all existing enchantments on that item."
+				"{ftbquests.chapter.composite_materials.quest44AF82F2BB0640C0.description2}"
 				""
-				"This upgrade only applies to enchantments that do not have a default maximum cap of level 1. It allows you to push eligible enchantments up to an additional 4 levels beyond their normal maximum limits."
+				"{ftbquests.chapter.composite_materials.quest44AF82F2BB0640C0.description3}"
 				""
-				"&8Note: This process does not work if you are using a two-handed weapon.&r"
+				"{ftbquests.chapter.composite_materials.quest44AF82F2BB0640C0.description4}"
 			]
 			id: "44AF82F2BB0640C0"
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest44AF82F2BB0640C0.subtitle}"
 			tasks: [{
 				id: "6D8B55A12A5E6F17"
 				item: "composite_material:reinforced_book"
@@ -1931,16 +1931,16 @@
 		{
 			dependencies: ["5B405969C6A4170B"]
 			description: [
-				"&6&nDuplichanted Book&r"
+				"{ftbquests.chapter.composite_materials.quest362E54481BED8B63.description1}"
 				""
-				"To use this item, hold it in your main hand and place the Enchanted Book you wish to copy in your off-hand. Right-click to successfully duplicate the book."
+				"{ftbquests.chapter.composite_materials.quest362E54481BED8B63.description2}"
 				""
-				"&aNote: This process is fully compatible with two-handed weapons with the new 6.5 update.&r"
+				"{ftbquests.chapter.composite_materials.quest362E54481BED8B63.description3}"
 			]
 			id: "362E54481BED8B63"
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest362E54481BED8B63.subtitle}"
 			tasks: [{
 				id: "7533515D4219B80C"
 				item: "composite_material:duplichanted_book"
@@ -1952,16 +1952,16 @@
 		{
 			dependencies: ["5B405969C6A4170B"]
 			description: [
-				"&6&nSepachanted Book&r"
+				"{ftbquests.chapter.composite_materials.quest5656AC847A0C534.description1}"
 				""
-				"Hold this book in your main hand and place an enchanted item in your off-hand. Right-click to successfully isolate and separate the very first enchantment from the off-hand item, removing it from the gear."
+				"{ftbquests.chapter.composite_materials.quest5656AC847A0C534.description2}"
 				""
-				"&8Note: This process does not work if you are using a two-handed weapon.&r"
+				"{ftbquests.chapter.composite_materials.quest5656AC847A0C534.description3}"
 			]
 			id: "05656AC847A0C534"
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest5656AC847A0C534.subtitle}"
 			tasks: [{
 				id: "1DA6BAD64F6D8C47"
 				item: "composite_material:sepachanted_book"
@@ -1973,22 +1973,22 @@
 		{
 			dependencies: ["5B405969C6A4170B"]
 			description: [
-				"&6&nAncient Book&r"
+				"{ftbquests.chapter.composite_materials.quest7CA08CD18837E3FB.description1}"
 				""
-				"This utility item features two distinct modes of operation based on its current enchantment state:"
+				"{ftbquests.chapter.composite_materials.quest7CA08CD18837E3FB.description2}"
 				""
-				"&e1. Unenchanted State:&r Right-click to absorb all existing enchantments from the item held in your off-hand."
+				"{ftbquests.chapter.composite_materials.quest7CA08CD18837E3FB.description3}"
 				""
-				"&e2. Enchanted State:&r Right-click to consume a portion of the book's durability, releasing and transferring all of its stored enchantments directly onto the item held in your off-hand."
+				"{ftbquests.chapter.composite_materials.quest7CA08CD18837E3FB.description4}"
 				""
-				"If duplicate enchantments conflict during a transfer, only the modifier with the highest level will be retained. Keep in mind that enchantments can only be successfully transferred onto valid, compatible equipment."
+				"{ftbquests.chapter.composite_materials.quest7CA08CD18837E3FB.description5}"
 				""
-				"&8Note: This function does not work if you are using a two-handed weapon.&r"
+				"{ftbquests.chapter.composite_materials.quest7CA08CD18837E3FB.description6}"
 			]
 			id: "7CA08CD18837E3FB"
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest7CA08CD18837E3FB.subtitle}"
 			tasks: [{
 				id: "3D51CD759CDFC2B8"
 				item: {
@@ -2006,9 +2006,9 @@
 		{
 			dependencies: ["57CD81BFA66A35BD"]
 			description: [
-				"Makes any item in your off-hand unbreakable."
+				"{ftbquests.chapter.composite_materials.quest387458C8E92C83B3.description1}"
 				""
-				"Can also work just normal as a totem of undying, but with a cooldown instead of breaking."
+				"{ftbquests.chapter.composite_materials.quest387458C8E92C83B3.description2}"
 			]
 			id: "387458C8E92C83B3"
 			rewards: [
@@ -2070,7 +2070,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Judge takes the hp of the last mob you killed and empowers your next attack."
+			subtitle: "{ftbquests.chapter.composite_materials.quest542872120DE28B24.subtitle}"
 			tasks: [{
 				id: "1BDADAA34AD3D670"
 				item: {
@@ -2104,7 +2104,7 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "The Seeker gets stronger by devouring your XP."
+			subtitle: "{ftbquests.chapter.composite_materials.quest383F1B5A7828A11D.subtitle}"
 			tasks: [{
 				id: "6531D85BA6CD9442"
 				item: {
@@ -2142,7 +2142,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Devourer gets stronger with every unique mob you kill. Scaling up to 40+"
+			subtitle: "{ftbquests.chapter.composite_materials.quest4585C9B8236A1542.subtitle}"
 			tasks: [{
 				id: "2E902B51523533BF"
 				item: {
@@ -2160,15 +2160,15 @@
 		{
 			dependencies: ["32E8FC6195AA3D60"]
 			description: [
-				"&6&nEvolutium"
+				"{ftbquests.chapter.composite_materials.quest694EF0E440F2A781.description1}"
 				""
-				"Obtained by using an Enlightened Book to enlighten the Infused Perkin when your XP level is 120 or higher."
-				"Composite Material"
+				"{ftbquests.chapter.composite_materials.quest694EF0E440F2A781.description2}"
+				"{ftbquests.chapter.composite_materials.quest694EF0E440F2A781.description3}"
 			]
 			icon_scale: 1.2d
 			id: "694EF0E440F2A781"
 			shape: "hexagon"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.composite_materials.quest694EF0E440F2A781.subtitle}"
 			tasks: [{
 				id: "4FD581B654DDACB9"
 				item: "composite_material:evolutium"
@@ -2178,5 +2178,5 @@
 			y: -12.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#43E4D0 to=#de8d7e>Composite Materials</grad></shadow>"
+	title: "{ftbquests.chapter.composite_materials.title}"
 }

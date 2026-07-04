@@ -19,10 +19,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.embers_rekindled.image.hovertext1"
+				"ftbquests.chapter.embers_rekindled.image.hovertext2"
+				"ftbquests.chapter.embers_rekindled.image.hovertext3"
+				"ftbquests.chapter.embers_rekindled.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -33,7 +33,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.embers_rekindled.image.hovertext5"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -46,11 +46,11 @@
 	quests: [
 		{
 			description: [
-				"Embers Rekindled is a not so really fun and unique tech mod."
+				"{ftbquests.chapter.embers_rekindled.quest719A32328F46BD2B.description1}"
 				""
-				"The in-game wiki is not really.. good, so follow the questline!"
+				"{ftbquests.chapter.embers_rekindled.quest719A32328F46BD2B.description2}"
 				""
-				"&8For now it's just the basics, later i will include more. I mean very later."
+				"{ftbquests.chapter.embers_rekindled.quest719A32328F46BD2B.description3}"
 			]
 			icon: {
 				Count: 1
@@ -67,13 +67,13 @@
 			}]
 			shape: "square"
 			size: 1.2d
-			subtitle: "In-game Wiki"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest719A32328F46BD2B.subtitle}"
 			tasks: [{
 				id: "7DFFC0DF5B29932B"
-				title: "Okay"
+				title: "{ftbquests.chapter.embers_rekindled.quest719A32328F46BD2B.task.9079187439341900587.title}"
 				type: "checkmark"
 			}]
-			title: "&6Welcome to Embers Rekindled"
+			title: "{ftbquests.chapter.embers_rekindled.quest719A32328F46BD2B.title}"
 			x: -0.5d
 			y: -0.5d
 		}
@@ -81,7 +81,7 @@
 			dependencies: ["719A32328F46BD2B"]
 			id: "74B9051690BBDCC1"
 			shape: "pentagon"
-			subtitle: "Can be dropped from ancient golem"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest74B9051690BBDCC1.subtitle}"
 			tasks: [{
 				id: "346193338CF78425"
 				item: "embers:archaic_brick"
@@ -94,7 +94,7 @@
 			dependencies: ["719A32328F46BD2B"]
 			id: "450B7C040D016AFC"
 			shape: "pentagon"
-			subtitle: "Can be dropped from ancient golem"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest450B7C040D016AFC.subtitle}"
 			tasks: [{
 				id: "5CAE7CAE1E1B6C9B"
 				item: "embers:ancient_motive_core"
@@ -114,7 +114,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "One of The Starting Materials"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest6DC1B39849CBC43.subtitle}"
 			tasks: [{
 				id: "5CF6EF97284F59E4"
 				item: "embers:caminite_blend"
@@ -159,10 +159,10 @@
 		}
 		{
 			dependencies: ["719A32328F46BD2B"]
-			description: ["Higher the gauge, the more ember!"]
+			description: ["{ftbquests.chapter.embers_rekindled.quest3922FCA222BAAE21.description1}"]
 			id: "3922FCA222BAAE21"
 			shape: "pentagon"
-			subtitle: "Checks how much ember is in the current chunk."
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest3922FCA222BAAE21.subtitle}"
 			tasks: [{
 				id: "0915259C3F1C044D"
 				item: "embers:atmospheric_gauge"
@@ -174,11 +174,11 @@
 		{
 			dependencies: ["16D7E1CECBFD1E1C"]
 			description: [
-				"Ember bores are machines that use solid fuel such as coal to literally grind bedrock."
+				"{ftbquests.chapter.embers_rekindled.quest7DFD238DE7574BFC.description1}"
 				""
-				"By grinding bedrock, they will also give us ember crystals."
+				"{ftbquests.chapter.embers_rekindled.quest7DFD238DE7574BFC.description2}"
 				""
-				"&eEmber bore is a multiblock structure that needs to be placed one block above bedrock."
+				"{ftbquests.chapter.embers_rekindled.quest7DFD238DE7574BFC.description3}"
 			]
 			id: "7DFD238DE7574BFC"
 			rewards: [{
@@ -187,7 +187,7 @@
 				type: "item"
 			}]
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest7DFD238DE7574BFC.subtitle}"
 			tasks: [{
 				id: "3D09B068DE28C235"
 				item: "embers:ember_bore"
@@ -215,11 +215,11 @@
 		{
 			dependencies: ["7DFD238DE7574BFC"]
 			description: [
-				"To fuel Ember Bore, or other machines you will need a item pipe, item extractor, and a lever! (any lever works.)"
+				"{ftbquests.chapter.embers_rekindled.quest39C024BDC0376A.description1}"
 				""
-				"Simply attach the item extractor to a chest, or other storage unit."
+				"{ftbquests.chapter.embers_rekindled.quest39C024BDC0376A.description2}"
 				""
-				"Then attach the pipes to the item extractor, in order to actually pull items though, we will need a redstone signal which can be done with a lever!"
+				"{ftbquests.chapter.embers_rekindled.quest39C024BDC0376A.description3}"
 			]
 			id: "0039C024BDC0376A"
 			rewards: [
@@ -236,7 +236,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest39C024BDC0376A.subtitle}"
 			tasks: [
 				{
 					id: "7591423021AB3BA3"
@@ -274,20 +274,20 @@
 							]
 						}
 					}
-					title: "Any lever"
+					title: "{ftbquests.chapter.embers_rekindled.quest39C024BDC0376A.task.6260979273497407521.title}"
 					type: "item"
 				}
 			]
-			title: "Fueling"
+			title: "{ftbquests.chapter.embers_rekindled.quest39C024BDC0376A.title}"
 			x: 7.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7DFD238DE7574BFC"]
 			description: [
-				"Pipes can input but not output, to solve this we can use a mechanical core! it will work like a gearbox from create.. i mean if that makes sense."
+				"{ftbquests.chapter.embers_rekindled.quest3C8F037BA497FDDF.description1}"
 				""
-				"Simply put it on  the fuel input of the ember bore. Then place pipe input on one side, then another pipe output to otherside!"
+				"{ftbquests.chapter.embers_rekindled.quest3C8F037BA497FDDF.description2}"
 			]
 			id: "3C8F037BA497FDDF"
 			rewards: [{
@@ -295,26 +295,26 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest3C8F037BA497FDDF.subtitle}"
 			tasks: [{
 				id: "409F004D53ACBDEE"
 				item: "embers:mechanical_core"
 				type: "item"
 			}]
-			title: "How to output the resources"
+			title: "{ftbquests.chapter.embers_rekindled.quest3C8F037BA497FDDF.title}"
 			x: 7.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7DFD238DE7574BFC"]
-			description: ["Ember crystal and ember shards can be used as energy in embers rekindled."]
+			description: ["{ftbquests.chapter.embers_rekindled.quest6AFB94AA8A6CC6BB.description1}"]
 			id: "6AFB94AA8A6CC6BB"
 			rewards: [{
 				id: "0D3A08A09B5FDC1D"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest6AFB94AA8A6CC6BB.subtitle}"
 			tasks: [
 				{
 					id: "6DB4A18ABC4D41AF"
@@ -332,13 +332,13 @@
 					type: "item"
 				}
 			]
-			title: "Ember Crystals"
+			title: "{ftbquests.chapter.embers_rekindled.quest6AFB94AA8A6CC6BB.title}"
 			x: 5.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6AFB94AA8A6CC6BB"]
-			description: ["Power with ember shards or crystals to turn it into ember energy."]
+			description: ["{ftbquests.chapter.embers_rekindled.questF700869C20EDF9.description1}"]
 			id: "00F700869C20EDF9"
 			rewards: [{
 				id: "29D75C346EB6357E"
@@ -347,7 +347,7 @@
 				type: "item"
 			}]
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.embers_rekindled.questF700869C20EDF9.subtitle}"
 			tasks: [{
 				id: "2FD4DCB05818233F"
 				item: "embers:ember_activator"
@@ -359,9 +359,9 @@
 		{
 			dependencies: ["771C0B06B5E4A06F"]
 			description: [
-				"Tinker hammer is used to make plates and configure ember emitters and receptors."
+				"{ftbquests.chapter.embers_rekindled.quest26B9C48BBA5ABA77.description1}"
 				""
-				"-Now shift+right-click to receptor, then to emitter. Finally, place a lever on the emitter. This will connect them and allow you to transport ember energy!"
+				"{ftbquests.chapter.embers_rekindled.quest26B9C48BBA5ABA77.description2}"
 			]
 			id: "26B9C48BBA5ABA77"
 			rewards: [{
@@ -369,7 +369,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest26B9C48BBA5ABA77.subtitle}"
 			tasks: [{
 				id: "562D5F430F25C158"
 				item: "embers:tinker_hammer"
@@ -380,14 +380,14 @@
 		}
 		{
 			dependencies: ["00F700869C20EDF9"]
-			description: ["Ember dial can be placed on blocks to see how much ember is that block / machine is holding."]
+			description: ["{ftbquests.chapter.embers_rekindled.quest540BD1495C1A827.description1}"]
 			id: "0540BD1495C1A827"
 			rewards: [{
 				id: "5388979BB250454C"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest540BD1495C1A827.subtitle}"
 			tasks: [{
 				id: "59F003FE17E7FB73"
 				item: "embers:ember_dial"
@@ -398,7 +398,7 @@
 		}
 		{
 			dependencies: ["00F700869C20EDF9"]
-			description: ["Place it to output ember energy from the ember activator"]
+			description: ["{ftbquests.chapter.embers_rekindled.quest476C62830CB2F147.description1}"]
 			id: "476C62830CB2F147"
 			rewards: [{
 				count: 2
@@ -406,7 +406,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest476C62830CB2F147.subtitle}"
 			tasks: [{
 				id: "219C6FEE7CEBD331"
 				item: "embers:ember_emitter"
@@ -417,14 +417,14 @@
 		}
 		{
 			dependencies: ["00F700869C20EDF9"]
-			description: ["Place it on the block that u want ember energy to be recieved."]
+			description: ["{ftbquests.chapter.embers_rekindled.quest39968AEEBCF5FF2E.description1}"]
 			id: "39968AEEBCF5FF2E"
 			rewards: [{
 				id: "321A4D92343623BF"
 				item: "embers:caminite_plate"
 				type: "item"
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest39968AEEBCF5FF2E.subtitle}"
 			tasks: [{
 				id: "2476A4E28584E4CF"
 				item: "embers:ember_receiver"
@@ -447,7 +447,7 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Stores Ember Energy"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest771C0B06B5E4A06F.subtitle}"
 			tasks: [{
 				id: "0950AED41C908AB4"
 				item: {
@@ -467,9 +467,9 @@
 		{
 			dependencies: ["771C0B06B5E4A06F"]
 			description: [
-				"Ember energy has no distance limit for traveling, but it loses energy on it's way. "
+				"{ftbquests.chapter.embers_rekindled.quest19C60AF2BABB295.description1}"
 				""
-				"To prevent this, use a ember relay, u can connect them with the tinker hammer."
+				"{ftbquests.chapter.embers_rekindled.quest19C60AF2BABB295.description2}"
 			]
 			id: "019C60AF2BABB295"
 			rewards: [{
@@ -477,7 +477,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.embers_rekindled.quest19C60AF2BABB295.subtitle}"
 			tasks: [{
 				id: "5E06ADA98135611D"
 				item: "embers:ember_relay"
@@ -487,5 +487,5 @@
 			y: -5.0d
 		}
 	]
-	title: "<shadow><grad from=#FC5100 to=#882A00>Embers Rekindled</grad></shadow>"
+	title: "{ftbquests.chapter.embers_rekindled.title}"
 }

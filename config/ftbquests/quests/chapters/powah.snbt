@@ -58,7 +58,7 @@
 		{
 			click: "a"
 			height: 0.7d
-			hover: ["Required to power the orb"]
+			hover: ["ftbquests.chapter.powah.image.hovertext1"]
 			image: "ftblibrary:icons/back"
 			rotation: 15.0d
 			width: 0.7d
@@ -68,7 +68,7 @@
 		{
 			click: "https://youtu.be/i59aKc9LGoQ?t=903"
 			height: 0.75d
-			hover: ["Vanilla Automation"]
+			hover: ["ftbquests.chapter.powah.image.hovertext2"]
 			image: "supplementaries:textures/gui/book/icon/youtube.png"
 			rotation: 0.0d
 			width: 0.75d
@@ -78,7 +78,7 @@
 		{
 			click: "https://youtu.be/CQZZTkxsK_Q?si=To05z46XAzLWFMpo"
 			height: 0.75d
-			hover: ["AE2 Automation"]
+			hover: ["ftbquests.chapter.powah.image.hovertext3"]
 			image: "supplementaries:textures/gui/book/icon/youtube.png"
 			rotation: 0.0d
 			width: 0.75d
@@ -97,10 +97,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.powah.image.hovertext4"
+				"ftbquests.chapter.powah.image.hovertext5"
+				"ftbquests.chapter.powah.image.hovertext6"
+				"ftbquests.chapter.powah.image.hovertext7"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -114,13 +114,13 @@
 	quests: [
 		{
 			description: [
-				"&ePowah&r is a mod that adds high &benergy &fgeneration options, including a multiblock, as well as a wireless way to transport said energy. Yes, thats right, &lwireless transfer &rof energy which does not have a range limit at all!"
+				"{ftbquests.chapter.powah.quest5A2DDE5D50DD8C35.description1}"
 				""
-				"It also introduces a way to wirelessly charge all your equipment and items, even across dimensions, for as long as your power source does not run out."
+				"{ftbquests.chapter.powah.quest5A2DDE5D50DD8C35.description2}"
 				""
-				"This questline will guide you through all you need to know about this mod, so make sure you check it regularly."
+				"{ftbquests.chapter.powah.quest5A2DDE5D50DD8C35.description3}"
 				""
-				"&8This questline was made by &e@cristoic&r &8in our discord server, thanks for his amazing work!"
+				"{ftbquests.chapter.powah.quest5A2DDE5D50DD8C35.description4}"
 			]
 			icon: {
 				Count: 1
@@ -137,19 +137,19 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest5A2DDE5D50DD8C35.subtitle}"
 			tasks: [{
 				id: "2316B1C5518B0F74"
-				title: "Hey"
+				title: "{ftbquests.chapter.powah.quest5A2DDE5D50DD8C35.task.2528403701849853812.title}"
 				type: "checkmark"
 			}]
-			title: "&eWelcome to Powah"
+			title: "{ftbquests.chapter.powah.quest5A2DDE5D50DD8C35.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5A2DDE5D50DD8C35"]
-			description: ["The Manual has all of the information you need about the blocks and items of this mod, so if you ever need a quick look at what something does or its stats, check it!"]
+			description: ["{ftbquests.chapter.powah.quest4694C207FEE09A3D.description1}"]
 			icon: "powah:book"
 			id: "4694C207FEE09A3D"
 			rewards: [
@@ -165,22 +165,22 @@
 				}
 			]
 			shape: "square"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest4694C207FEE09A3D.subtitle}"
 			tasks: [{
 				id: "054EF790743A3F44"
-				title: "Guide"
+				title: "{ftbquests.chapter.powah.quest4694C207FEE09A3D.task.382515218170396484.title}"
 				type: "checkmark"
 			}]
-			title: "In-Game Guide"
+			title: "{ftbquests.chapter.powah.quest4694C207FEE09A3D.title}"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5A2DDE5D50DD8C35"]
 			description: [
-				"The first step in creating your first &ePowah &fgenerator is making some &ndielectric paste&r. This does require you to get to the nether, so put your fireproof pants on and go slaying!"
+				"{ftbquests.chapter.powah.quest505A752D6BA43CED.description1}"
 				""
-				"Dielectric paste will also be required in almost all recipes, so make sure you stock well on this."
+				"{ftbquests.chapter.powah.quest505A752D6BA43CED.description2}"
 			]
 			id: "505A752D6BA43CED"
 			rewards: [
@@ -198,19 +198,19 @@
 				}
 			]
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest505A752D6BA43CED.subtitle}"
 			tasks: [{
 				id: "7642DD50C097E044"
 				item: "powah:dielectric_paste"
 				type: "item"
 			}]
-			title: "The first of many"
+			title: "{ftbquests.chapter.powah.quest505A752D6BA43CED.title}"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["424912134C999086"]
-			description: ["The furnator uses fuel like coal to generate power. "]
+			description: ["{ftbquests.chapter.powah.quest545200654EFDC0E2.description1}"]
 			id: "545200654EFDC0E2"
 			optional: true
 			rewards: [
@@ -226,7 +226,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest545200654EFDC0E2.subtitle}"
 			tasks: [{
 				id: "5E402EE9A5D51211"
 				item: "powah:furnator_starter"
@@ -237,7 +237,7 @@
 		}
 		{
 			dependencies: ["424912134C999086"]
-			description: ["The magmator generates power using lava. Make sure you have a stable supply."]
+			description: ["{ftbquests.chapter.powah.quest3A313AF01E7574C7.description1}"]
 			id: "3A313AF01E7574C7"
 			optional: true
 			rewards: [
@@ -253,7 +253,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest3A313AF01E7574C7.subtitle}"
 			tasks: [{
 				id: "42189D2514DDC8AE"
 				item: "powah:magmator_starter"
@@ -264,7 +264,7 @@
 		}
 		{
 			dependencies: ["424912134C999086"]
-			description: ["The thermo generator is a pretty interesting one. It requires water input to cool down and function, as well as a heat source under it. This can be a magma block or lava. Electricity output depends on the heat source used, lava being the highest one."]
+			description: ["{ftbquests.chapter.powah.quest486EE3BEE91A2AEF.description1}"]
 			id: "486EE3BEE91A2AEF"
 			optional: true
 			rewards: [
@@ -280,7 +280,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest486EE3BEE91A2AEF.subtitle}"
 			tasks: [{
 				id: "4163EADE47418B56"
 				item: "powah:thermo_generator_starter"
@@ -291,7 +291,7 @@
 		}
 		{
 			dependencies: ["424912134C999086"]
-			description: ["The solar panel is the lowest energy generator alongside the thermo generator, but its pretty simple to set up. Place the panel in an open space and it will generate power as long as its day and its not obstructed by any block."]
+			description: ["{ftbquests.chapter.powah.quest16A4C7E52762C983.description1}"]
 			id: "16A4C7E52762C983"
 			optional: true
 			rewards: [
@@ -308,7 +308,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest16A4C7E52762C983.subtitle}"
 			tasks: [{
 				id: "5F9D32C5DC7F70EA"
 				item: "powah:solar_panel_starter"
@@ -320,9 +320,9 @@
 		{
 			dependencies: ["424912134C999086"]
 			description: [
-				"The Reactor is a multiblock and the best power generator that this mod has to offer. You will require 36 reactor blocks to build it, and this is automatic. Place one block where you want it to be built, then right click it with the blocks in your main hand. This will build the multiblock in a 3x4 area, so make sure its clear."
+				"{ftbquests.chapter.powah.quest4161BC5BBC960899.description1}"
 				""
-				"The fuel used to power the reactor is Uraninite, and nothing else. The reactor can also be augmented using redstone and coal in their designated slots. Doing this will make the heat rise, which will increase the fuel consumption, alonside power generation. To cool it down you will require a coolant, which can be liquid or solid. This means ice blocks and/or a water source. For specific values and more information check the &nManual&r."
+				"{ftbquests.chapter.powah.quest4161BC5BBC960899.description2}"
 			]
 			id: "4161BC5BBC960899"
 			optional: true
@@ -340,14 +340,14 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest4161BC5BBC960899.subtitle}"
 			tasks: [{
 				count: 36L
 				id: "040A21A2CE175C2B"
 				item: "powah:reactor_starter"
 				type: "item"
 			}]
-			title: "Reactor (Starter)"
+			title: "{ftbquests.chapter.powah.quest4161BC5BBC960899.title}"
 			x: 6.499999999999999d
 			y: 1.9999999999999998d
 		}
@@ -922,7 +922,7 @@
 				item: "powah:solar_panel_basic"
 				type: "item"
 			}]
-			title: "Solar Panel"
+			title: "{ftbquests.chapter.powah.quest547BFFFFE4D79CAE.title}"
 			x: 4.0d
 			y: 10.5d
 		}
@@ -957,7 +957,7 @@
 				item: "powah:solar_panel_hardened"
 				type: "item"
 			}]
-			title: "Solar Panel"
+			title: "{ftbquests.chapter.powah.quest233DDC8EBCB536DE.title}"
 			x: 11.5d
 			y: 10.5d
 		}
@@ -991,7 +991,7 @@
 				item: "powah:solar_panel_blazing"
 				type: "item"
 			}]
-			title: "Solar Panel"
+			title: "{ftbquests.chapter.powah.quest3876D031499CA77F.title}"
 			x: 15.0d
 			y: 3.0d
 		}
@@ -1025,7 +1025,7 @@
 				item: "powah:solar_panel_niotic"
 				type: "item"
 			}]
-			title: "Solar Panel"
+			title: "{ftbquests.chapter.powah.quest4653427A2D2C86AB.title}"
 			x: 15.0d
 			y: -2.5d
 		}
@@ -1059,7 +1059,7 @@
 				item: "powah:solar_panel_spirited"
 				type: "item"
 			}]
-			title: "Solar Panel"
+			title: "{ftbquests.chapter.powah.quest683C8887E0C4CA72.title}"
 			x: 5.0d
 			y: -2.5d
 		}
@@ -1093,7 +1093,7 @@
 				item: "powah:solar_panel_nitro"
 				type: "item"
 			}]
-			title: "Solar Panel"
+			title: "{ftbquests.chapter.powah.quest38DC9A0F0D00C98E.title}"
 			x: 12.0d
 			y: -5.5d
 		}
@@ -1304,7 +1304,7 @@
 		}
 		{
 			dependencies: ["424912134C999086"]
-			description: ["Basic energy storage. To not be confused with the Ender Cell."]
+			description: ["{ftbquests.chapter.powah.quest7BAD04C4928867A3.description1}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "7BAD04C4928867A3"
@@ -1322,7 +1322,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest7BAD04C4928867A3.subtitle}"
 			tasks: [{
 				id: "79BF3BC3C2FCA36B"
 				item: "powah:energy_cell_starter"
@@ -1491,11 +1491,11 @@
 		{
 			dependencies: ["424912134C999086"]
 			description: [
-				"Ender Cells are the highlight of this mod, alongside Ender Gates."
-				"Store energy inside and use it wirelessly using ender gates, anywhere!"
-				"Capacity is increased by adding Batteries which get consumed."
+				"{ftbquests.chapter.powah.quest12C552C76EC4481.description1}"
+				"{ftbquests.chapter.powah.quest12C552C76EC4481.description2}"
+				"{ftbquests.chapter.powah.quest12C552C76EC4481.description3}"
 				""
-				"Make sure that power is being stored inside the right channel, and that the gates are set to the right channel as well. "
+				"{ftbquests.chapter.powah.quest12C552C76EC4481.description4}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1514,7 +1514,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest12C552C76EC4481.subtitle}"
 			tasks: [{
 				id: "5CD104A1FDF1DF08"
 				item: "powah:ender_cell_starter"
@@ -1718,9 +1718,9 @@
 		{
 			dependencies: ["4ECA971BF00DC34C"]
 			description: [
-				"This is the \"crafting bench\" you will use to progress through this mod. Be warned, higher tier materials will require more power to craft, which can get very high very fast. Check JEI or manual for values."
+				"{ftbquests.chapter.powah.quest6413B1F6B4549C7F.description1}"
 				""
-				"You can automate the orb, although it can be a bit tricky. For an in-depth tutorial check the links below."
+				"{ftbquests.chapter.powah.quest6413B1F6B4549C7F.description2}"
 			]
 			id: "6413B1F6B4549C7F"
 			rewards: [
@@ -1736,7 +1736,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest6413B1F6B4549C7F.subtitle}"
 			tasks: [{
 				id: "6D97CF103F243D53"
 				item: "powah:energizing_orb"
@@ -1747,7 +1747,7 @@
 		}
 		{
 			dependencies: ["424912134C999086"]
-			description: ["Just energy cables. Configurable using the &nWrench&r."]
+			description: ["{ftbquests.chapter.powah.quest4DB10CDB42EBFFF9.description1}"]
 			id: "4DB10CDB42EBFFF9"
 			optional: true
 			rewards: [
@@ -1764,7 +1764,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest4DB10CDB42EBFFF9.subtitle}"
 			tasks: [{
 				id: "04038D71D2267D46"
 				item: "powah:energy_cable_starter"
@@ -1931,7 +1931,7 @@
 		}
 		{
 			dependencies: ["424912134C999086"]
-			description: ["The Ender Gates transfer power from the Ender Cell network. Wirelessly! Just stick them to the machine or cable you want to power and make sure its set to the right channel. Don't forget you need power inside the Ender Cell to be able to transfer it ;). Higher tiers transfer power faster."]
+			description: ["{ftbquests.chapter.powah.quest7AA9032ACFDEC553.description1}"]
 			hide_dependency_lines: true
 			id: "7AA9032ACFDEC553"
 			optional: true
@@ -1948,7 +1948,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest7AA9032ACFDEC553.subtitle}"
 			tasks: [{
 				id: "5165FA13AA608CCE"
 				item: "powah:ender_gate_starter"
@@ -2135,7 +2135,7 @@
 				item: "powah:steel_energized"
 				type: "item"
 			}]
-			title: "Hardened Tier"
+			title: "{ftbquests.chapter.powah.quest1DF1E8B3EDE0742B.title}"
 			x: 12.0d
 			y: 6.5d
 		}
@@ -2162,7 +2162,7 @@
 				item: "powah:crystal_blazing"
 				type: "item"
 			}]
-			title: "Blazing Tier"
+			title: "{ftbquests.chapter.powah.quest69FCA0E73385330D.title}"
 			x: 12.0d
 			y: 3.5d
 		}
@@ -2189,7 +2189,7 @@
 				item: "powah:crystal_niotic"
 				type: "item"
 			}]
-			title: "Niotic Tier"
+			title: "{ftbquests.chapter.powah.questCC9824BA581EDD9.title}"
 			x: 12.0d
 			y: -2.0d
 		}
@@ -2216,7 +2216,7 @@
 				item: "powah:crystal_spirited"
 				type: "item"
 			}]
-			title: "Spirited Tier"
+			title: "{ftbquests.chapter.powah.quest7A0E503014D1CDF9.title}"
 			x: 8.0d
 			y: -2.0d
 		}
@@ -2243,13 +2243,13 @@
 				item: "powah:crystal_nitro"
 				type: "item"
 			}]
-			title: "Nitro Tier"
+			title: "{ftbquests.chapter.powah.quest3366BE04684F3413.title}"
 			x: 8.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["4161BC5BBC960899"]
-			description: ["Uraninite is an ore that can be found underground at y level 64 or lower. Its found in small veins but the mined amount can be increased using Fortune."]
+			description: ["{ftbquests.chapter.powah.quest95DD556225D210F.description1}"]
 			id: "095DD556225D210F"
 			rewards: [
 				{
@@ -2265,7 +2265,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest95DD556225D210F.subtitle}"
 			tasks: [{
 				id: "46B8068E9CE176E6"
 				item: "powah:uraninite_raw"
@@ -2276,7 +2276,7 @@
 		}
 		{
 			dependencies: ["095DD556225D210F"]
-			description: ["Obtained by smelting Raw Uraninite"]
+			description: ["{ftbquests.chapter.powah.quest4AA2061F0407417D.description1}"]
 			id: "4AA2061F0407417D"
 			rewards: [
 				{
@@ -2292,7 +2292,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest4AA2061F0407417D.subtitle}"
 			tasks: [{
 				id: "791886C1D13029BB"
 				item: "powah:uraninite"
@@ -2304,11 +2304,11 @@
 		{
 			dependencies: ["424912134C999086"]
 			description: [
-				"The energizing rod is used to power the orb by being placed near it, and you can also use multiple of them. It requires a power source so make sure its connected to a power generation system."
+				"{ftbquests.chapter.powah.quest1E62C8701ABA4944.description1}"
 				""
-				"I recommend making at least 2-3 for faster crafting speed."
+				"{ftbquests.chapter.powah.quest1E62C8701ABA4944.description2}"
 				""
-				"You can use the wrench to configure the rod to power a specific orb if there are multiple ones next to each other."
+				"{ftbquests.chapter.powah.quest1E62C8701ABA4944.description3}"
 			]
 			id: "1E62C8701ABA4944"
 			rewards: [
@@ -2325,7 +2325,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest1E62C8701ABA4944.subtitle}"
 			tasks: [{
 				id: "4E5E2599C4490DC7"
 				item: "powah:energizing_rod_starter"
@@ -2529,9 +2529,9 @@
 		{
 			dependencies: ["424912134C999086"]
 			description: [
-				"Can store and carry energy, which will charge equipment and items as long as its in your inventory. When added to an Ender Cell it will get consumed and increase the cell's capacity. Any power stored in the battery will get added to the network once consumed."
+				"{ftbquests.chapter.powah.quest7750A55ECB0356DA.description1}"
 				""
-				"Be careful which channel you add the Batteries to in the Ender Cell. This action cannot be reversed."
+				"{ftbquests.chapter.powah.quest7750A55ECB0356DA.description2}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -2550,7 +2550,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest7750A55ECB0356DA.subtitle}"
 			tasks: [{
 				id: "4270E11009C9311A"
 				item: "powah:battery_starter"
@@ -2753,7 +2753,7 @@
 		}
 		{
 			dependencies: ["424912134C999086"]
-			description: ["The Energy Hopper can charge all the items in the chest or block with an inventory that its connected to, when supplied with power. This works only on Batteries or Cells."]
+			description: ["{ftbquests.chapter.powah.quest57122BCD68F8C88F.description1}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "57122BCD68F8C88F"
@@ -2771,7 +2771,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest57122BCD68F8C88F.subtitle}"
 			tasks: [{
 				id: "34CD9625B1558B66"
 				item: "powah:energy_hopper_starter"
@@ -2782,7 +2782,7 @@
 		}
 		{
 			dependencies: ["424912134C999086"]
-			description: ["The Energy Discharger is used to drain the power from items put inside it and store it in an internal buffer, which then can be transferred or stored. This works only with Batteries or Cells."]
+			description: ["{ftbquests.chapter.powah.quest4C9BB0FA98D03CCF.description1}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "4C9BB0FA98D03CCF"
@@ -2800,7 +2800,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest4C9BB0FA98D03CCF.subtitle}"
 			tasks: [{
 				id: "21DF470BCC8D6B3B"
 				item: "powah:energy_discharger_starter"
@@ -2811,7 +2811,7 @@
 		}
 		{
 			dependencies: ["424912134C999086"]
-			description: ["The Player Transmitter is used to charge the player's equipment and items wirelessly. This can be done by connecting the transmitter to a power source, and putting a Binding Card inside it."]
+			description: ["{ftbquests.chapter.powah.quest31E9AE81FB8055D8.description1}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "31E9AE81FB8055D8"
@@ -2829,7 +2829,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest31E9AE81FB8055D8.subtitle}"
 			tasks: [{
 				id: "13431D2C82813571"
 				item: "powah:player_transmitter_starter"
@@ -2996,7 +2996,7 @@
 		}
 		{
 			dependencies: ["505A752D6BA43CED"]
-			description: ["Using the newly created dielectric paste and quite a bit of iron, we can finally make the first materials required to get into this mod."]
+			description: ["{ftbquests.chapter.powah.quest4ECA971BF00DC34C.description1}"]
 			id: "4ECA971BF00DC34C"
 			rewards: [
 				{
@@ -3016,7 +3016,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest4ECA971BF00DC34C.subtitle}"
 			tasks: [
 				{
 					id: "27889563DBBB3EDC"
@@ -3034,7 +3034,7 @@
 					type: "item"
 				}
 			]
-			title: "Basics"
+			title: "{ftbquests.chapter.powah.quest4ECA971BF00DC34C.title}"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -3061,7 +3061,7 @@
 				item: "powah:capacitor_basic"
 				type: "item"
 			}]
-			title: "Basic Tier"
+			title: "{ftbquests.chapter.powah.quest40447F9B8604C275.title}"
 			x: 4.5d
 			y: 6.5d
 		}
@@ -3088,7 +3088,7 @@
 				item: "powah:capacitor_basic_tiny"
 				type: "item"
 			}]
-			title: "Starter Tier"
+			title: "{ftbquests.chapter.powah.quest424912134C999086.title}"
 			x: 4.5d
 			y: 3.5d
 		}
@@ -3406,7 +3406,7 @@
 		}
 		{
 			dependencies: ["1F1D7F220D16B303"]
-			description: ["The Dimensional Binding Card allows charging across dimensions. Obtained by right-clicking an Enderman or Endermite with a binding card."]
+			description: ["{ftbquests.chapter.powah.quest7B0A4FE2724B8249.description1}"]
 			id: "7B0A4FE2724B8249"
 			optional: true
 			rewards: [{
@@ -3414,7 +3414,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest7B0A4FE2724B8249.subtitle}"
 			tasks: [{
 				id: "4DEF9FB748B850B5"
 				item: "powah:binding_card_dim"
@@ -3425,7 +3425,7 @@
 		}
 		{
 			dependencies: ["424912134C999086"]
-			description: ["The Binding Card can be binded to a player by right-clicking with it in your hand. This can be placed in the Player Transmitter to power any item or equipment in your inventory, as long as you are in the same dimension as the transmitter. "]
+			description: ["{ftbquests.chapter.powah.quest1F1D7F220D16B303.description1}"]
 			hide_dependency_lines: true
 			id: "1F1D7F220D16B303"
 			optional: true
@@ -3434,7 +3434,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest1F1D7F220D16B303.subtitle}"
 			tasks: [{
 				id: "3A1FBD45488DEE3B"
 				item: "powah:binding_card"
@@ -3445,7 +3445,7 @@
 		}
 		{
 			dependencies: ["16A4C7E52762C983"]
-			description: ["By using a photoelectric pane on an enderman or endermite, you can obtain the Lens of Ender. This can be used on a solar panel to make it generate power even through blocks."]
+			description: ["{ftbquests.chapter.powah.quest6EAAE0602565E43.description1}"]
 			id: "06EAAE0602565E43"
 			optional: true
 			rewards: [{
@@ -3453,7 +3453,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.powah.quest6EAAE0602565E43.subtitle}"
 			tasks: [{
 				id: "6138973C5C1F63CE"
 				item: "powah:lens_of_ender"
@@ -3464,7 +3464,7 @@
 		}
 		{
 			dependencies: ["6413B1F6B4549C7F"]
-			description: ["The power of thunder, in your hands."]
+			description: ["{ftbquests.chapter.powah.quest291E9301F3E95E80.description1}"]
 			id: "291E9301F3E95E80"
 			optional: true
 			rewards: [
@@ -3479,24 +3479,24 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Mildly Spicy"
+			subtitle: "{ftbquests.chapter.powah.quest291E9301F3E95E80.subtitle}"
 			tasks: [{
 				id: "57FC0A38AE98A7D1"
 				item: "powah:charged_snowball"
 				type: "item"
 			}]
-			title: "Thor would be proud"
+			title: "{ftbquests.chapter.powah.quest291E9301F3E95E80.title}"
 			x: -1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["505A752D6BA43CED"]
-			description: ["Used to pick up, config and rotate Powah blocks and cables."]
+			description: ["{ftbquests.chapter.powah.quest45A3458B67AFB546.description1}"]
 			hide_dependency_lines: false
 			id: "45A3458B67AFB546"
 			optional: true
 			shape: "square"
-			subtitle: "A mechanic's best friend"
+			subtitle: "{ftbquests.chapter.powah.quest45A3458B67AFB546.subtitle}"
 			tasks: [{
 				id: "3DE5370714F48B48"
 				item: {
@@ -3512,5 +3512,5 @@
 			y: 0.5d
 		}
 	]
-	title: "<shadow><grad from=#3f3f45 to=#2d2d30>Powah</grad></shadow>"
+	title: "{ftbquests.chapter.powah.title}"
 }

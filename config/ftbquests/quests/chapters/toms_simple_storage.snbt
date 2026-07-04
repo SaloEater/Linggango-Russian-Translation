@@ -17,10 +17,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.toms_simple_storage.image.hovertext1"
+				"ftbquests.chapter.toms_simple_storage.image.hovertext2"
+				"ftbquests.chapter.toms_simple_storage.image.hovertext3"
+				"ftbquests.chapter.toms_simple_storage.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -52,7 +52,7 @@
 		}
 		{
 			dependencies: ["1812A79944021D76"]
-			description: ["Extension cables, but instead of electricity, it is essentially an item cable."]
+			description: ["{ftbquests.chapter.toms_simple_storage.quest408C34432E394C2B.description1}"]
 			id: "408C34432E394C2B"
 			rewards: [{
 				id: "687A65A092B604B6"
@@ -60,7 +60,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Transport Items"
+			subtitle: "{ftbquests.chapter.toms_simple_storage.quest408C34432E394C2B.subtitle}"
 			tasks: [
 				{
 					id: "6D5ED7E8751D87C8"
@@ -77,7 +77,7 @@
 			y: 1.5d
 		}
 		{
-			description: ["Think of wires all connecting from several places into a single point."]
+			description: ["{ftbquests.chapter.toms_simple_storage.quest1812A79944021D76.description1}"]
 			id: "1812A79944021D76"
 			rewards: [
 				{
@@ -95,19 +95,19 @@
 			]
 			shape: "square"
 			size: 1.0d
-			subtitle: "The Brain"
+			subtitle: "{ftbquests.chapter.toms_simple_storage.quest1812A79944021D76.subtitle}"
 			tasks: [{
 				id: "3D7616496DA3521D"
 				item: "toms_storage:ts.inventory_connector"
 				type: "item"
 			}]
-			title: "Touch"
+			title: "{ftbquests.chapter.toms_simple_storage.quest1812A79944021D76.title}"
 			x: 0.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1812A79944021D76"]
-			description: ["If you know how Create's item vault and filters work, this is similar."]
+			description: ["{ftbquests.chapter.toms_simple_storage.quest3C1E7E02FDDFF8E3.description1}"]
 			id: "3C1E7E02FDDFF8E3"
 			rewards: [{
 				id: "6B5813BA6036A969"
@@ -115,7 +115,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Basically a advanced hopper with filter"
+			subtitle: "{ftbquests.chapter.toms_simple_storage.quest3C1E7E02FDDFF8E3.subtitle}"
 			tasks: [{
 				id: "57CCD702C6F8AD64"
 				item: "toms_storage:ts.inventory_hopper_basic"
@@ -126,7 +126,7 @@
 		}
 		{
 			dependencies: ["1812A79944021D76"]
-			description: ["You can craft while you're away from your main base, but remember that it is quite costly for such a benefit."]
+			description: ["{ftbquests.chapter.toms_simple_storage.quest5E783474BA6980E3.description1}"]
 			id: "5E783474BA6980E3"
 			rewards: [{
 				id: "2131E108868F53D5"
@@ -134,7 +134,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Bluetooth Crafting"
+			subtitle: "{ftbquests.chapter.toms_simple_storage.quest5E783474BA6980E3.subtitle}"
 			tasks: [
 				{
 					id: "4EA516B03DB9C790"
@@ -153,9 +153,9 @@
 		{
 			dependencies: ["1812A79944021D76"]
 			description: [
-				"Have a look at your entire inventory like a computer looking at all their files in one place and access them."
+				"{ftbquests.chapter.toms_simple_storage.quest4918B0939E4604A0.description1}"
 				""
-				"Mainly placed on an &6inventory connector block&r."
+				"{ftbquests.chapter.toms_simple_storage.quest4918B0939E4604A0.description2}"
 			]
 			id: "4918B0939E4604A0"
 			rewards: [{
@@ -164,7 +164,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "No more looking for 50 chests to find one item"
+			subtitle: "{ftbquests.chapter.toms_simple_storage.quest4918B0939E4604A0.subtitle}"
 			tasks: [
 				{
 					id: "51ABC8AF78B685AB"
@@ -177,7 +177,7 @@
 					type: "item"
 				}
 			]
-			title: "Terminals"
+			title: "{ftbquests.chapter.toms_simple_storage.quest4918B0939E4604A0.title}"
 			x: 1.0d
 			y: 2.0d
 		}
@@ -190,7 +190,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "What if you have 2 storages in different locations? Use this!"
+			subtitle: "{ftbquests.chapter.toms_simple_storage.quest2DB891E1024CAE0C.subtitle}"
 			tasks: [{
 				id: "186556212E037477"
 				item: "toms_storage:ts.inventory_cable_connector"
@@ -200,5 +200,5 @@
 			y: 1.5d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#FA732A to=#FFCFB5>Tom's Simple Storage</grad></shadow>"
+	title: "{ftbquests.chapter.toms_simple_storage.title}"
 }

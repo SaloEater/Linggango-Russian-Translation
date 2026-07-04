@@ -10,11 +10,11 @@
 		dev: true
 		height: 1.0d
 		hover: [
-			"All rights are reserved."
-			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
-			"Do not attempt to use or steal them without my explicit permission."
+			"ftbquests.chapter.create_new_age.image.hovertext1"
+			"ftbquests.chapter.create_new_age.image.hovertext2"
+			"ftbquests.chapter.create_new_age.image.hovertext3"
+			"ftbquests.chapter.create_new_age.image.hovertext4"
+			"ftbquests.chapter.create_new_age.image.hovertext5"
 		]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
@@ -31,7 +31,7 @@
 				"189649B54A50F311"
 				"005CAAA3685B5927"
 			]
-			description: ["Place 12 Magnetite blocks around a Generator Coil as shown in the Ponder screen."]
+			description: ["{ftbquests.chapter.create_new_age.quest551C411AF42EB74A.description1}"]
 			icon: "create_new_age:carbon_brushes"
 			id: "551C411AF42EB74A"
 			rewards: [
@@ -54,7 +54,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest551C411AF42EB74A.subtitle}"
 			tasks: [
 				{
 					id: "767A19C407967F2C"
@@ -73,16 +73,16 @@
 					type: "item"
 				}
 			]
-			title: "Create New Age"
+			title: "{ftbquests.chapter.create_new_age.quest551C411AF42EB74A.title}"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["005CAAA3685B5927"]
 			description: [
-				"Magnetite is the cornerstone of magnetic energy. "
+				"{ftbquests.chapter.create_new_age.quest189649B54A50F311.description1}"
 				""
-				"Found deep within caves around Y50 or Y70!"
+				"{ftbquests.chapter.create_new_age.quest189649B54A50F311.description2}"
 			]
 			hide_dependency_lines: true
 			id: "189649B54A50F311"
@@ -100,23 +100,23 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest189649B54A50F311.subtitle}"
 			tasks: [{
 				count: 6L
 				id: "0D8BCB0504FF47AE"
 				item: "create_new_age:magnetite_block"
 				type: "item"
 			}]
-			title: "Magnetite - Tier 1"
+			title: "{ftbquests.chapter.create_new_age.quest189649B54A50F311.title}"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["189649B54A50F311"]
 			description: [
-				"Once you’ve energized an Iron Block, use a Deployer to place the Overcharged Iron Block onto your Magnetite. "
+				"{ftbquests.chapter.create_new_age.quest14786991259A140A.description1}"
 				""
-				"Doing so will form the Redstone Magnet, the first step in channeling focused magnetic power."
+				"{ftbquests.chapter.create_new_age.quest14786991259A140A.description2}"
 			]
 			id: "14786991259A140A"
 			rewards: [
@@ -132,23 +132,23 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest14786991259A140A.subtitle}"
 			tasks: [{
 				count: 12L
 				id: "1619E366144848A4"
 				item: "create_new_age:redstone_magnet"
 				type: "item"
 			}]
-			title: "Redstone Magnet - Tier 2"
+			title: "{ftbquests.chapter.create_new_age.quest14786991259A140A.title}"
 			x: 2.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["14786991259A140A"]
 			description: [
-				"Progression demands power. Energize a Gold Block, then deploy it onto a Redstone Magnet to create a Layered Magnet. "
+				"{ftbquests.chapter.create_new_age.quest3FF4A1959A7A6B86.description1}"
 				""
-				"Gold is better at conducting power - expect stronger results and a higher SU cost."
+				"{ftbquests.chapter.create_new_age.quest3FF4A1959A7A6B86.description2}"
 			]
 			id: "3FF4A1959A7A6B86"
 			rewards: [
@@ -165,14 +165,14 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest3FF4A1959A7A6B86.subtitle}"
 			tasks: [{
 				count: 12L
 				id: "023145B68FC6764A"
 				item: "create_new_age:layered_magnet"
 				type: "item"
 			}]
-			title: "Layered Magnet - Tier 3"
+			title: "{ftbquests.chapter.create_new_age.quest3FF4A1959A7A6B86.title}"
 			x: 2.0d
 			y: -4.5d
 		}
@@ -198,16 +198,16 @@
 				item: "create_new_age:fluxuated_magnetite"
 				type: "item"
 			}]
-			title: "Fluxuated Magnet - Tier 4"
+			title: "{ftbquests.chapter.create_new_age.quest4415E5FE7E49E1EE.title}"
 			x: 3.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["4415E5FE7E49E1EE"]
 			description: [
-				"After energizing it, use a Deployer to mount it onto a Fluxuated Magnet."
+				"{ftbquests.chapter.create_new_age.quest6DF733C7DFC40BC1.description1}"
 				""
-				"Has highest magnetic attributes."
+				"{ftbquests.chapter.create_new_age.quest6DF733C7DFC40BC1.description2}"
 			]
 			id: "6DF733C7DFC40BC1"
 			rewards: [
@@ -224,23 +224,23 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest6DF733C7DFC40BC1.subtitle}"
 			tasks: [{
 				count: 12L
 				id: "1A8EED1AB0487A31"
 				item: "create_new_age:netherite_magnet"
 				type: "item"
 			}]
-			title: "Netherite Magnet - Tier 5"
+			title: "{ftbquests.chapter.create_new_age.quest6DF733C7DFC40BC1.title}"
 			x: 3.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["551C411AF42EB74A"]
 			description: [
-				"To start energizing, craft a Basic Energizer using an Andesite Casing and Lightning Rod."
+				"{ftbquests.chapter.create_new_age.quest472F303E962BE330.description1}"
 				""
-				"Provide it with rotation and energy, attach an Electrical Connector to the Carbon Brushes set to Pull, and another connector on the side/top set to Push."
+				"{ftbquests.chapter.create_new_age.quest472F303E962BE330.description2}"
 			]
 			icon: "create_new_age:basic_energiser"
 			id: "472F303E962BE330"
@@ -257,7 +257,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest472F303E962BE330.subtitle}"
 			tasks: [
 				{
 					count: 2L
@@ -271,7 +271,7 @@
 					type: "item"
 				}
 			]
-			title: "Basic Energizer"
+			title: "{ftbquests.chapter.create_new_age.quest472F303E962BE330.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -280,7 +280,7 @@
 				"472F303E962BE330"
 				"5523E65D4FDFDC65"
 			]
-			description: ["4× faster than the Basic Energizer and with a 100k FE buffer, making it perfect for energy needs."]
+			description: ["{ftbquests.chapter.create_new_age.quest7F83D0A86C6A2630.description1}"]
 			id: "7F83D0A86C6A2630"
 			rewards: [
 				{
@@ -295,7 +295,7 @@
 					xp: 30
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest7F83D0A86C6A2630.subtitle}"
 			tasks: [{
 				id: "1190FC973BFB2F3A"
 				item: "create_new_age:advanced_energiser"
@@ -309,7 +309,7 @@
 				"7F83D0A86C6A2630"
 				"0A97CA02BB7E91FB"
 			]
-			description: ["The Reinforced Energizer boosts production massively — 4× faster than the Advanced Energizer with a 1M SU buffer, designed for high-throughput energizing."]
+			description: ["{ftbquests.chapter.create_new_age.quest6802CDE4060B7C01.description1}"]
 			id: "6802CDE4060B7C01"
 			rewards: [
 				{
@@ -323,7 +323,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest6802CDE4060B7C01.subtitle}"
 			tasks: [{
 				id: "2E0F06A433813083"
 				item: "create_new_age:reinforced_energiser"
@@ -349,7 +349,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Obtained by energizing iron blocks or ingots."
+			subtitle: "{ftbquests.chapter.create_new_age.quest627D6929B6E6E721.subtitle}"
 			tasks: [{
 				id: "71EB3E9538E74A38"
 				item: "create_new_age:overcharged_iron"
@@ -376,7 +376,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Obtained by energizing gold ingots."
+			subtitle: "{ftbquests.chapter.create_new_age.quest5523E65D4FDFDC65.subtitle}"
 			tasks: [{
 				id: "2D78B518F6EC8208"
 				item: "create_new_age:overcharged_gold"
@@ -403,7 +403,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Obtained by energizing diamond ingots"
+			subtitle: "{ftbquests.chapter.create_new_age.questA97CA02BB7E91FB.subtitle}"
 			tasks: [{
 				id: "07B2E44DA6D738AF"
 				item: "create_new_age:overcharged_diamond"
@@ -419,11 +419,11 @@
 				"2EADBC3CE4CA5705"
 			]
 			description: [
-				"The Reactor Casing is the first step for making nuclear reactors."
+				"{ftbquests.chapter.create_new_age.quest2C758B7494E284DF.description1}"
 				""
-				"You’ll need many to build the outer shell, forming the structural base for fuel rods."
+				"{ftbquests.chapter.create_new_age.quest2C758B7494E284DF.description2}"
 				""
-				"Just like mekanism.. boring."
+				"{ftbquests.chapter.create_new_age.quest2C758B7494E284DF.description3}"
 			]
 			hide_dependency_lines: false
 			id: "2C758B7494E284DF"
@@ -441,22 +441,22 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest2C758B7494E284DF.subtitle}"
 			tasks: [{
 				id: "28228A343F00494D"
 				item: "create_new_age:reactor_casing"
 				type: "item"
 			}]
-			title: "Heat this, heat that"
+			title: "{ftbquests.chapter.create_new_age.quest2C758B7494E284DF.title}"
 			x: -5.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["627D6929B6E6E721"]
 			description: [
-				"The Basic Motor converts FE electricity into SU rotational force."
+				"{ftbquests.chapter.create_new_age.questD3EECF732EBB7B9.description1}"
 				""
-				"Nothing special."
+				"{ftbquests.chapter.create_new_age.questD3EECF732EBB7B9.description2}"
 			]
 			id: "0D3EECF732EBB7B9"
 			rewards: [
@@ -478,7 +478,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.questD3EECF732EBB7B9.subtitle}"
 			tasks: [{
 				id: "50262584A08D5D4D"
 				item: "create_new_age:basic_motor"
@@ -492,7 +492,7 @@
 				"5523E65D4FDFDC65"
 				"0D3EECF732EBB7B9"
 			]
-			description: ["The Strong Motor is the next step in converting FE to SU, producing 2,048 SU at 256 RPM."]
+			description: ["{ftbquests.chapter.create_new_age.quest5A0581571465F115.description1}"]
 			id: "5A0581571465F115"
 			require_sequential_tasks: false
 			rewards: [
@@ -510,7 +510,7 @@
 				}
 			]
 			shape: "goldtier"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest5A0581571465F115.subtitle}"
 			tasks: [{
 				id: "7383A36AC8AB8F23"
 				item: "create_new_age:advanced_motor"
@@ -525,9 +525,9 @@
 				"0A97CA02BB7E91FB"
 			]
 			description: [
-				"The Reinforced Motor is the top-tier motor in Create New Age, outputting 8,192 SU and storing 128K FE."
+				"{ftbquests.chapter.create_new_age.quest5BD7BEBC609A56B8.description1}"
 				""
-				"No extension for this one gng.."
+				"{ftbquests.chapter.create_new_age.quest5BD7BEBC609A56B8.description2}"
 			]
 			id: "5BD7BEBC609A56B8"
 			rewards: [
@@ -549,7 +549,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest5BD7BEBC609A56B8.subtitle}"
 			tasks: [{
 				id: "4D1109147E050A8B"
 				item: "create_new_age:reinforced_motor"
@@ -560,7 +560,7 @@
 		}
 		{
 			dependencies: ["0D3EECF732EBB7B9"]
-			description: ["If u think motor is not enough, use extensions! Attach it to behind."]
+			description: ["{ftbquests.chapter.create_new_age.quest15E4F233D77D9159.description1}"]
 			id: "15E4F233D77D9159"
 			rewards: [
 				{
@@ -581,7 +581,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest15E4F233D77D9159.subtitle}"
 			tasks: [{
 				id: "0F40EFD3747E774F"
 				item: "create_new_age:basic_motor_extension"
@@ -592,7 +592,7 @@
 		}
 		{
 			dependencies: ["5A0581571465F115"]
-			description: ["Attach it to a behind of a motor"]
+			description: ["{ftbquests.chapter.create_new_age.quest2558378C1CCA894E.description1}"]
 			id: "2558378C1CCA894E"
 			rewards: [
 				{
@@ -607,7 +607,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest2558378C1CCA894E.subtitle}"
 			tasks: [{
 				id: "049963F7CFC9E2F3"
 				item: "create_new_age:advanced_motor_extension"
@@ -639,7 +639,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Just like blaze burners!"
+			subtitle: "{ftbquests.chapter.create_new_age.quest4F54BDE5BD1DBEE9.subtitle}"
 			tasks: [
 				{
 					id: "05D891E3FA0A4755"
@@ -677,7 +677,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Takes more heat"
+			subtitle: "{ftbquests.chapter.create_new_age.quest2EADBC3CE4CA5705.subtitle}"
 			tasks: [{
 				id: "74EA8FD1B6AFCA81"
 				item: "create_new_age:advanced_solar_heating_plate"
@@ -709,7 +709,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Heating system"
+			subtitle: "{ftbquests.chapter.create_new_age.quest188844E8F93D9347.subtitle}"
 			tasks: [{
 				id: "2CBC2654897C15E2"
 				item: "create_new_age:stirling_engine"
@@ -721,9 +721,9 @@
 		{
 			dependencies: ["627D6929B6E6E721"]
 			description: [
-				"The Basic Solar Plate introduces thermal energy."
+				"{ftbquests.chapter.create_new_age.quest2978B72E45349EC4.description1}"
 				""
-				"Powa from da sun."
+				"{ftbquests.chapter.create_new_age.quest2978B72E45349EC4.description2}"
 			]
 			icon: "create_new_age:basic_solar_heating_plate"
 			id: "2978B72E45349EC4"
@@ -746,7 +746,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest2978B72E45349EC4.subtitle}"
 			tasks: [
 				{
 					id: "157D5BCC89DE07BE"
@@ -760,16 +760,16 @@
 					type: "item"
 				}
 			]
-			title: "Basic Heat Production"
+			title: "{ftbquests.chapter.create_new_age.quest2978B72E45349EC4.title}"
 			x: -2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2C758B7494E284DF"]
-			description: ["Reactor Glass is a stylish alternative to Reactor Casings, letting you see inside your nuclear setup without losing structural strength."]
+			description: ["{ftbquests.chapter.create_new_age.quest5512C16D82D27A4B.description1}"]
 			id: "5512C16D82D27A4B"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest5512C16D82D27A4B.subtitle}"
 			tasks: [{
 				id: "2DFA68CBB98624C3"
 				item: "create_new_age:reactor_glass"
@@ -781,14 +781,14 @@
 		{
 			dependencies: ["2C758B7494E284DF"]
 			description: [
-				"Fuel Inserter: automatically feeds fuel into the reactor rods."
+				"{ftbquests.chapter.create_new_age.quest9C6F70FAD426543.description1}"
 				""
-				"Heat Vent: removes heat from the core and transfers it to your heating network."
+				"{ftbquests.chapter.create_new_age.quest9C6F70FAD426543.description2}"
 			]
 			icon: "create_new_age:reactor_fuel_acceptor"
 			id: "09C6F70FAD426543"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest9C6F70FAD426543.subtitle}"
 			tasks: [
 				{
 					id: "7C7E5632F3C97694"
@@ -801,17 +801,17 @@
 					type: "item"
 				}
 			]
-			title: "Core Components"
+			title: "{ftbquests.chapter.create_new_age.quest9C6F70FAD426543.title}"
 			x: -6.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2C758B7494E284DF"]
-			description: ["Placed between the Fuel Inserter and Heat Vent, these rods enable fission and transfer heat through the reactor core."]
+			description: ["{ftbquests.chapter.create_new_age.quest1B6D21C4B3EFB0F3.description1}"]
 			icon: "create_new_age:reactor_rod"
 			id: "1B6D21C4B3EFB0F3"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest1B6D21C4B3EFB0F3.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -826,16 +826,16 @@
 					type: "item"
 				}
 			]
-			title: "Fueling The Reactor"
+			title: "{ftbquests.chapter.create_new_age.quest1B6D21C4B3EFB0F3.title}"
 			x: -6.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["551C411AF42EB74A"]
 			description: [
-				"Copper Wire is the first conductive material in Create: New Age, transferring up to 1,024 SU/tick."
+				"{ftbquests.chapter.create_new_age.quest6A8DA61B15FB4C3C.description1}"
 				""
-				"It’s easy to craft and perfect for small-scale setups and early power distribution."
+				"{ftbquests.chapter.create_new_age.quest6A8DA61B15FB4C3C.description2}"
 			]
 			id: "6A8DA61B15FB4C3C"
 			rewards: [
@@ -853,23 +853,23 @@
 			]
 			shape: "woodtier"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest6A8DA61B15FB4C3C.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "239C5089E2E927FC"
 				item: "create_new_age:copper_wire"
 				type: "item"
 			}]
-			title: "Copper Wire"
+			title: "{ftbquests.chapter.create_new_age.quest6A8DA61B15FB4C3C.title}"
 			x: -2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6A8DA61B15FB4C3C"]
 			description: [
-				"Overcharged Iron Wire is the second conductive material in Create: New Age."
+				"{ftbquests.chapter.create_new_age.quest185BCD0B4D9A9089.description1}"
 				""
-				"It transfers 2,048 SU/tick, double that of Copper Wire, making it a reliable choice for expanding power networks."
+				"{ftbquests.chapter.create_new_age.quest185BCD0B4D9A9089.description2}"
 			]
 			id: "185BCD0B4D9A9089"
 			rewards: [
@@ -887,23 +887,23 @@
 			]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest185BCD0B4D9A9089.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "65256C0B4220C923"
 				item: "create_new_age:overcharged_iron_wire"
 				type: "item"
 			}]
-			title: "Iron Wire"
+			title: "{ftbquests.chapter.create_new_age.quest185BCD0B4D9A9089.title}"
 			x: -2.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["185BCD0B4D9A9089"]
 			description: [
-				"Overcharged Gold Wire is the third conductive material in Create: New Age."
+				"{ftbquests.chapter.create_new_age.quest7E27C640D5CFBD0F.description1}"
 				""
-				"It transfers 4,096 SU/tick, ideal for mid-tier factories needing reliable power."
+				"{ftbquests.chapter.create_new_age.quest7E27C640D5CFBD0F.description2}"
 			]
 			id: "7E27C640D5CFBD0F"
 			rewards: [
@@ -927,23 +927,23 @@
 			]
 			shape: "goldtier"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest7E27C640D5CFBD0F.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "2D28906ED7AE253C"
 				item: "create_new_age:overcharged_golden_wire"
 				type: "item"
 			}]
-			title: "Gold Wire"
+			title: "{ftbquests.chapter.create_new_age.quest7E27C640D5CFBD0F.title}"
 			x: -2.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["7E27C640D5CFBD0F"]
 			description: [
-				"Overcharged Diamond Wire is the fourth conductive material in Create: New Age."
+				"{ftbquests.chapter.create_new_age.quest59852EA0BC7C93BA.description1}"
 				""
-				"It transfers 8,192 SU/tick, making it ideal for late-game machines and high-throughput setups."
+				"{ftbquests.chapter.create_new_age.quest59852EA0BC7C93BA.description2}"
 			]
 			id: "59852EA0BC7C93BA"
 			rewards: [
@@ -961,20 +961,20 @@
 			]
 			shape: "diamondtier"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest59852EA0BC7C93BA.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "20D419259D8F0643"
 				item: "create_new_age:overcharged_diamond_wire"
 				type: "item"
 			}]
-			title: "Diamond Wire"
+			title: "{ftbquests.chapter.create_new_age.quest59852EA0BC7C93BA.title}"
 			x: -3.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1742597D48E37800"]
-			description: ["Create: New Age adds electricity, letting you build real-world inspired machines."]
+			description: ["{ftbquests.chapter.create_new_age.quest5CAAA3685B5927.description1}"]
 			icon: "create_new_age:generator_coil"
 			icon_scale: 1.2d
 			id: "005CAAA3685B5927"
@@ -992,16 +992,16 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.create_new_age.quest5CAAA3685B5927.subtitle}"
 			tasks: [{
 				id: "623C763F2EDF3AB5"
-				title: "Cool!"
+				title: "{ftbquests.chapter.create_new_age.quest5CAAA3685B5927.task.7078662728060975797.title}"
 				type: "checkmark"
 			}]
-			title: "&6Welcome to Create New Age"
+			title: "{ftbquests.chapter.create_new_age.quest5CAAA3685B5927.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 	]
-	title: "<shadow><grad from=#EC8B35 to=#FCE083>Create: New Age</grad></shadow>"
+	title: "{ftbquests.chapter.create_new_age.title}"
 }

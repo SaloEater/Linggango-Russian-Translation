@@ -19,17 +19,17 @@
 	quests: [
 		{
 			description: [
-				"Terramity is a Terraria-inspired Minecraft mod that adds bosses, weapons, armor, accessories, structures and guns! "
+				"{ftbquests.chapter.terramityreworked.quest553132D99A8D47FE.description1}"
 				""
-				"All tied together with a clear and nice in-game guidebook."
+				"{ftbquests.chapter.terramityreworked.quest553132D99A8D47FE.description2}"
 				""
-				"This questline will guide you through the mod, have fun!"
+				"{ftbquests.chapter.terramityreworked.quest553132D99A8D47FE.description3}"
 				""
 			]
 			id: "553132D99A8D47FE"
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "In-game Wiki"
+			subtitle: "{ftbquests.chapter.terramityreworked.quest553132D99A8D47FE.subtitle}"
 			tasks: [{
 				id: "186DA194849080BE"
 				item: {
@@ -41,55 +41,55 @@
 				}
 				type: "item"
 			}]
-			title: "&aTerramity"
+			title: "{ftbquests.chapter.terramityreworked.quest553132D99A8D47FE.title}"
 			x: 0.0d
 			y: 2.25d
 		}
 		{
 			dependencies: ["553132D99A8D47FE"]
-			description: ["Topaz can be used to make armors \\& tools that have special traits."]
+			description: ["{ftbquests.chapter.terramityreworked.questC3293498BC391F2.description1}"]
 			id: "0C3293498BC391F2"
 			shape: "octagon"
 			size: 1.15d
-			subtitle: "Topaz is found in hot \\& arid biomes"
+			subtitle: "{ftbquests.chapter.terramityreworked.questC3293498BC391F2.subtitle}"
 			tasks: [{
 				id: "7C97AF8C63F51A79"
 				item: "terramity:topaz"
 				type: "item"
 			}]
-			title: "&eTopaz"
+			title: "{ftbquests.chapter.terramityreworked.questC3293498BC391F2.title}"
 			x: -1.15d
 			y: 4.0249999999999995d
 		}
 		{
 			dependencies: ["553132D99A8D47FE"]
-			description: ["Ruby can be used to make armors \\& tools that have special traits."]
+			description: ["{ftbquests.chapter.terramityreworked.quest3A06B25171543870.description1}"]
 			id: "3A06B25171543870"
 			shape: "hexagon"
 			size: 1.15d
-			subtitle: "Ruby can be found anywhere in nether"
+			subtitle: "{ftbquests.chapter.terramityreworked.quest3A06B25171543870.subtitle}"
 			tasks: [{
 				id: "76180F49AA3D1621"
 				item: "terramity:ruby"
 				type: "item"
 			}]
-			title: "&cRuby"
+			title: "{ftbquests.chapter.terramityreworked.quest3A06B25171543870.title}"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["553132D99A8D47FE"]
-			description: ["Sapphire can be used to make armors \\& tools that have special traits."]
+			description: ["{ftbquests.chapter.terramityreworked.quest5F9C404C4892457F.description1}"]
 			id: "5F9C404C4892457F"
 			shape: "octagon"
 			size: 1.15d
-			subtitle: "Sapphire can be found in cold \\& snowy biomes"
+			subtitle: "{ftbquests.chapter.terramityreworked.quest5F9C404C4892457F.subtitle}"
 			tasks: [{
 				id: "2D90A02E0E271A5D"
 				item: "terramity:sapphire"
 				type: "item"
 			}]
-			title: "&bSapphire"
+			title: "{ftbquests.chapter.terramityreworked.quest5F9C404C4892457F.title}"
 			x: 1.15d
 			y: 4.0249999999999995d
 		}
@@ -100,9 +100,9 @@
 				"5F9C404C4892457F"
 			]
 			description: [
-				"Now that you’ve got the starter materials, we can start diving into the mod. Here’s a graph that shows how the material progression works."
-				"{image:customtextures:textures/terramity_graph.png width:300 height:300 align:center}"
-				"For better understanding, the higher = better."
+				"{ftbquests.chapter.terramityreworked.quest3D185E0ACE4EBC80.description1}"
+				"{ftbquests.chapter.terramityreworked.quest3D185E0ACE4EBC80.image0}"
+				"{ftbquests.chapter.terramityreworked.quest3D185E0ACE4EBC80.description2}"
 			]
 			icon: {
 				Count: 1
@@ -114,16 +114,16 @@
 			id: "3D185E0ACE4EBC80"
 			shape: "square"
 			size: 1.25d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.terramityreworked.quest3D185E0ACE4EBC80.subtitle}"
 			tasks: [{
 				id: "62215E5E31610348"
-				title: "Oka"
+				title: "{ftbquests.chapter.terramityreworked.quest3D185E0ACE4EBC80.task.7071036648596767560.title}"
 				type: "checkmark"
 			}]
-			title: "&aProgressing Further"
+			title: "{ftbquests.chapter.terramityreworked.quest3D185E0ACE4EBC80.title}"
 			x: 0.0d
 			y: 5.5d
 		}
 	]
-	title: "Terramity-Reworked"
+	title: "{ftbquests.chapter.terramityreworked.title}"
 }

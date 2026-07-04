@@ -380,10 +380,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.l2_h.image.hovertext1"
+				"ftbquests.chapter.l2_h.image.hovertext2"
+				"ftbquests.chapter.l2_h.image.hovertext3"
+				"ftbquests.chapter.l2_h.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -398,13 +398,13 @@
 		{
 			dependencies: ["14C3ED2C7911FF14"]
 			description: [
-				"Getting started with L2 Hostility."
+				"{ftbquests.chapter.l2_h.quest306F89B40E7B275F.description1}"
 				""
-				"The Unpolished Looting Charm grants access to drops from certain mobs early, such as &ddragon breath&r and &eblaze rods&r, materials you’ll need later to craft the next looting charm."
+				"{ftbquests.chapter.l2_h.quest306F89B40E7B275F.description2}"
 				""
-				"If you’re wondering where to check the loot drops:"
+				"{ftbquests.chapter.l2_h.quest306F89B40E7B275F.description3}"
 				""
-				"- Open JEI and look at the trait drops for more information.&r"
+				"{ftbquests.chapter.l2_h.quest306F89B40E7B275F.description4}"
 			]
 			hide_dependency_lines: false
 			id: "306F89B40E7B275F"
@@ -415,7 +415,7 @@
 			}]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "&nStarting Point"
+			subtitle: "{ftbquests.chapter.l2_h.quest306F89B40E7B275F.subtitle}"
 			tasks: [{
 				id: "72247AD0D2588A57"
 				item: "l2hostility:charm_of_looting_1"
@@ -427,9 +427,9 @@
 		{
 			dependencies: ["306F89B40E7B275F"]
 			description: [
-				"Gives you access to more drops on higher level trait mobs, more to explore and check out! "
+				"{ftbquests.chapter.l2_h.quest7380E4BCAD9E622E.description1}"
 				""
-				"Will be the most important charm to get yourself across the biggest obstacle of this mod, &cthe chaos ingot."
+				"{ftbquests.chapter.l2_h.quest7380E4BCAD9E622E.description2}"
 			]
 			id: "7380E4BCAD9E622E"
 			rewards: [
@@ -446,7 +446,7 @@
 			]
 			shape: "octagon"
 			size: 1.3d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.l2_h.quest7380E4BCAD9E622E.subtitle}"
 			tasks: [{
 				id: "0FBE0518542C5879"
 				item: "l2hostility:charm_of_looting_2"
@@ -465,7 +465,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Obtained by killing ghasts with soul flame effect or find &bsoul burner&r mobs and kill them for a chance to drop it. "
+			subtitle: "{ftbquests.chapter.l2_h.quest16B2F4168A7F3861.subtitle}"
 			tasks: [{
 				id: "5F7C77CFC9ABF131"
 				item: "l2complements:soul_flame"
@@ -483,13 +483,13 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "Cab be obtained by withstanding an explosion damage, or kill a mob with &ereflect&r&r or &9counter strike&r&r traits."
+			subtitle: "{ftbquests.chapter.l2_h.quest72BDCF1B81780C33.subtitle}"
 			tasks: [{
 				id: "53C6961DE1497E4B"
 				item: "l2complements:explosion_shard"
 				type: "item"
 			}]
-			title: "&nRemnant Shard of Explosion"
+			title: "{ftbquests.chapter.l2_h.quest72BDCF1B81780C33.title}"
 			x: 0.5d
 			y: -6.5d
 		}
@@ -502,7 +502,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Obtained by killing drowned in powdered snow or killing mobs with &bFreezing&r trait"
+			subtitle: "{ftbquests.chapter.l2_h.quest42AC1136A1AC7C9B.subtitle}"
 			tasks: [{
 				id: "68709D3C3E4DF93C"
 				item: "l2complements:hard_ice"
@@ -514,11 +514,11 @@
 		{
 			dependencies: ["7380E4BCAD9E622E"]
 			description: [
-				"Obtained by moving semi‑fast, almost like the Flash."
+				"{ftbquests.chapter.l2_h.quest7204FEE113D9F120.description1}"
 				""
-				"&f&nPlease make sure to craft Wind‑Capturing Bottles first if you actually want to obtain this.&r"
+				"{ftbquests.chapter.l2_h.quest7204FEE113D9F120.description2}"
 				""
-				"At speeds of 200 blocks per second, your creativity truly begins."
+				"{ftbquests.chapter.l2_h.quest7204FEE113D9F120.description3}"
 			]
 			id: "7204FEE113D9F120"
 			rewards: [{
@@ -527,7 +527,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.l2_h.quest7204FEE113D9F120.subtitle}"
 			tasks: [{
 				id: "497EF13B1003C207"
 				item: "l2complements:captured_wind"
@@ -545,9 +545,9 @@
 				"72BDCF1B81780C33"
 			]
 			description: [
-				"Finally, you’ve obtained one of the core items of L2 Hostilty. Proof that you’re beginning to understand the mod."
+				"{ftbquests.chapter.l2_h.quest2A799FBA7CE6F650.description1}"
 				""
-				"Most of these charms grant powerful benefits, but always at the cost of higher difficulty."
+				"{ftbquests.chapter.l2_h.quest2A799FBA7CE6F650.description2}"
 			]
 			id: "2A799FBA7CE6F650"
 			rewards: [{
@@ -557,7 +557,7 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.l2_h.quest2A799FBA7CE6F650.subtitle}"
 			tasks: [{
 				id: "1DB81F94885CCEEA"
 				item: "l2hostility:chaos_ingot"
@@ -569,13 +569,13 @@
 		{
 			dependencies: ["7380E4BCAD9E622E"]
 			description: [
-				"Drops from &bundying&r&r and &dregenerating&r&r mobs. "
+				"{ftbquests.chapter.l2_h.quest37CEE2269EA5B7B0.description1}"
 				""
-				"- Check JEI for more info, if needed."
+				"{ftbquests.chapter.l2_h.quest37CEE2269EA5B7B0.description2}"
 				""
-				"There is, however, another way. "
+				"{ftbquests.chapter.l2_h.quest37CEE2269EA5B7B0.description3}"
 				""
-				"Suffer and throw most of the raw/cooked meat/cod, or even totem (which has a higher chance of 1/64) in lava, to obtain one of these."
+				"{ftbquests.chapter.l2_h.quest37CEE2269EA5B7B0.description4}"
 			]
 			id: "37CEE2269EA5B7B0"
 			rewards: [{
@@ -585,7 +585,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.l2_h.quest37CEE2269EA5B7B0.subtitle}"
 			tasks: [{
 				id: "1DA559397887C60F"
 				item: "l2complements:life_essence"
@@ -603,7 +603,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "Drops from mobs with the &dDrain&r&r trait."
+			subtitle: "{ftbquests.chapter.l2_h.questDD3210094E75454.subtitle}"
 			tasks: [{
 				id: "061A1C06D11F67B7"
 				item: "l2hostility:witch_droplet"
@@ -615,11 +615,11 @@
 		{
 			dependencies: ["2A799FBA7CE6F650"]
 			description: [
-				"This item grants access to trait items, which are essential for crafting most charms."
+				"{ftbquests.chapter.l2_h.quest780A3D90DE4CB7D1.description1}"
 				""
-				"Seek out the right ones, and you’ll be able to forge charms that may aid you."
+				"{ftbquests.chapter.l2_h.quest780A3D90DE4CB7D1.description2}"
 				""
-				"But &nremember&r, wearing these charms may also raise your difficulty level in return :)"
+				"{ftbquests.chapter.l2_h.quest780A3D90DE4CB7D1.description3}"
 			]
 			id: "780A3D90DE4CB7D1"
 			rewards: [{
@@ -629,7 +629,7 @@
 			}]
 			shape: "octagon"
 			size: 1.35d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.l2_h.quest780A3D90DE4CB7D1.subtitle}"
 			tasks: [{
 				id: "522CF4E62B12DA7B"
 				item: "l2hostility:curse_of_envy"
@@ -647,7 +647,7 @@
 				xp: 200
 			}]
 			shape: "hexagon"
-			subtitle: "2x Loot but much more difficulty"
+			subtitle: "{ftbquests.chapter.l2_h.quest7F3D40CBD65A180D.subtitle}"
 			tasks: [{
 				id: "0F0825999EEB9A4A"
 				item: "l2hostility:curse_of_greed"
@@ -660,7 +660,7 @@
 			dependencies: ["2A799FBA7CE6F650"]
 			id: "68A84D1C7AB7EB00"
 			shape: "diamond"
-			subtitle: "&e+2 Head Slots"
+			subtitle: "{ftbquests.chapter.l2_h.quest68A84D1C7AB7EB00.subtitle}"
 			tasks: [{
 				id: "50F3346F0B10806C"
 				item: "l2hostility:oddeyes_glasses"
@@ -679,7 +679,7 @@
 			}]
 			shape: "gear"
 			size: 1.1d
-			subtitle: "Makes you see invisible mobs, even when you're affected by blindness."
+			subtitle: "{ftbquests.chapter.l2_h.quest62B414D407812248.subtitle}"
 			tasks: [{
 				id: "126DDAF3F3004FB1"
 				item: "l2hostility:detector_glasses"
@@ -698,7 +698,7 @@
 			}]
 			shape: "gear"
 			size: 1.1d
-			subtitle: "Outputs the area's difficulty amount."
+			subtitle: "{ftbquests.chapter.l2_h.quest1D0B5409117D48E8.subtitle}"
 			tasks: [{
 				id: "25BE2E6E897047A6"
 				item: "l2hostility:hostility_detector"
@@ -710,9 +710,9 @@
 		{
 			dependencies: ["436E2DAADAE85080"]
 			description: [
-				"Drops a lot of bottles from mobs killed. "
+				"{ftbquests.chapter.l2_h.quest274955B599CD2DFB.description1}"
 				""
-				"Will be useful for gambling, trust me, you need this."
+				"{ftbquests.chapter.l2_h.quest274955B599CD2DFB.description2}"
 			]
 			id: "274955B599CD2DFB"
 			incompatible: ["7F3D40CBD65A180D"]
@@ -723,7 +723,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Ever need a lot of bottles?"
+			subtitle: "{ftbquests.chapter.l2_h.quest274955B599CD2DFB.subtitle}"
 			tasks: [{
 				id: "334136299B768684"
 				item: "l2hostility:curse_of_gluttony"
@@ -734,7 +734,7 @@
 		}
 		{
 			dependencies: ["780A3D90DE4CB7D1"]
-			description: ["Obtain a trait!"]
+			description: ["{ftbquests.chapter.l2_h.quest436E2DAADAE85080.description1}"]
 			id: "436E2DAADAE85080"
 			rewards: [{
 				id: "5C65E9E3BC545D06"
@@ -743,7 +743,7 @@
 			}]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "Obtain any Trait Items"
+			subtitle: "{ftbquests.chapter.l2_h.quest436E2DAADAE85080.subtitle}"
 			tasks: [{
 				id: "7BA9FB423D50D300"
 				item: {
@@ -753,16 +753,16 @@
 						value: "l2hostility:trait_item"
 					}
 				}
-				title: "Any #l2hostility:trait_item"
+				title: "{ftbquests.chapter.l2_h.quest436E2DAADAE85080.task.8910929599644357376.title}"
 				type: "item"
 			}]
-			title: "Any Trait Items"
+			title: "{ftbquests.chapter.l2_h.quest436E2DAADAE85080.title}"
 			x: 4.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["436E2DAADAE85080"]
-			description: ["Obtained from cooking traits"]
+			description: ["{ftbquests.chapter.l2_h.quest2612E8893184140A.description1}"]
 			id: "2612E8893184140A"
 			rewards: [{
 				id: "42E8C7875CA62F9F"
@@ -771,7 +771,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "A what powder?"
+			subtitle: "{ftbquests.chapter.l2_h.quest2612E8893184140A.subtitle}"
 			tasks: [{
 				id: "3100DA528D6B7EEB"
 				item: "l2hostility:miracle_powder"
@@ -794,13 +794,13 @@
 			}]
 			shape: "heart"
 			size: 1.25d
-			subtitle: "&c&lIncreases&r&r your player difficulty by 50."
+			subtitle: "{ftbquests.chapter.l2_h.quest2DAF7E4A19F7F6D6.subtitle}"
 			tasks: [{
 				id: "523D0C9F504168BB"
-				title: "MORE"
+				title: "{ftbquests.chapter.l2_h.quest2DAF7E4A19F7F6D6.task.5925906563075238075.title}"
 				type: "checkmark"
 			}]
-			title: "&cBottle Of Curse"
+			title: "{ftbquests.chapter.l2_h.quest2DAF7E4A19F7F6D6.title}"
 			x: -3.5d
 			y: -10.0d
 		}
@@ -817,19 +817,19 @@
 			}]
 			shape: "heart"
 			size: 1.25d
-			subtitle: "&b&lClears&r&r your player difficulty, back to 0"
+			subtitle: "{ftbquests.chapter.l2_h.quest55B41BA269706364.subtitle}"
 			tasks: [{
 				id: "4824E32B5EEA9383"
-				title: "yay"
+				title: "{ftbquests.chapter.l2_h.quest55B41BA269706364.task.5198529645307925379.title}"
 				type: "checkmark"
 			}]
-			title: "&bBottle Of Sanity"
+			title: "{ftbquests.chapter.l2_h.quest55B41BA269706364.title}"
 			x: 1.5d
 			y: -10.0d
 		}
 		{
 			dependencies: ["274955B599CD2DFB"]
-			description: ["This will be needed for the gambling in the next part."]
+			description: ["{ftbquests.chapter.l2_h.quest54449039A7AC1C34.description1}"]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
 			id: "54449039A7AC1C34"
@@ -840,7 +840,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "You will need this."
+			subtitle: "{ftbquests.chapter.l2_h.quest54449039A7AC1C34.subtitle}"
 			tasks: [{
 				id: "0C5CCB6670A1DC4A"
 				item: "l2hostility:bottle_of_curse"
@@ -858,7 +858,7 @@
 				xp_levels: 2
 			}]
 			shape: "hexagon"
-			subtitle: "Obtained by throwing cursed bottles in lava"
+			subtitle: "{ftbquests.chapter.l2_h.questD05401BC2D98886.subtitle}"
 			tasks: [{
 				id: "2A0E697DB1C4B355"
 				item: "l2hostility:hostility_essence"
@@ -881,7 +881,7 @@
 			}]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "One of the keypoints to the late game."
+			subtitle: "{ftbquests.chapter.l2_h.quest3F81AD86BE390658.subtitle}"
 			tasks: [{
 				id: "281FC2F212823950"
 				item: "l2hostility:miracle_ingot"
@@ -892,7 +892,7 @@
 		}
 		{
 			dependencies: ["436E2DAADAE85080"]
-			description: ["Drops every single equipment of the mob you kill. Unless they're equipped with &ccurse of vanishing&r enchant"]
+			description: ["{ftbquests.chapter.l2_h.quest44B7720AE2997AC8.description1}"]
 			id: "44B7720AE2997AC8"
 			rewards: [{
 				id: "0A400B032121468D"
@@ -900,7 +900,7 @@
 				xp: 500
 			}]
 			shape: "hexagon"
-			subtitle: "Maybe with this one you can make a museum of armors."
+			subtitle: "{ftbquests.chapter.l2_h.quest44B7720AE2997AC8.subtitle}"
 			tasks: [{
 				id: "0566F78EDB4A1FBE"
 				item: "l2hostility:curse_of_lust"
@@ -918,7 +918,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Disables difficulty scaling through mobs, at cost of loot drops."
+			subtitle: "{ftbquests.chapter.l2_h.quest150E22620F8E3E3D.subtitle}"
 			tasks: [{
 				id: "2E56333C2ED7DC5C"
 				item: "l2hostility:curse_of_sloth"
@@ -938,7 +938,7 @@
 			}]
 			shape: "octagon"
 			size: 1.3d
-			subtitle: "Access to even more great drops from higher trait mobs"
+			subtitle: "{ftbquests.chapter.l2_h.quest66987F4D01E6920F.subtitle}"
 			tasks: [{
 				id: "5B3CB0282823F6E7"
 				item: "l2hostility:charm_of_looting_3"
@@ -950,11 +950,11 @@
 		{
 			dependencies: ["3F81AD86BE390658"]
 			description: [
-				"The quest to obtain one of the greatest items, you’re almost there!"
+				"{ftbquests.chapter.l2_h.quest75A5A7D57C28BB0A.description1}"
 				""
-				"At this stage, you’ll gain access to plenty of chaos ingots and eternium nuggets, allowing you to craft powerful eternium gear."
+				"{ftbquests.chapter.l2_h.quest75A5A7D57C28BB0A.description2}"
 				""
-				"And even the &nImagine Breaker&r, a weapon capable of bypassing magical protections in melee combat."
+				"{ftbquests.chapter.l2_h.quest75A5A7D57C28BB0A.description3}"
 			]
 			id: "75A5A7D57C28BB0A"
 			rewards: [{
@@ -964,7 +964,7 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.l2_h.quest75A5A7D57C28BB0A.subtitle}"
 			tasks: [{
 				id: "3A5820121425BC70"
 				item: "l2hostility:charm_of_looting_4"
@@ -976,11 +976,11 @@
 		{
 			dependencies: ["3F81AD86BE390658"]
 			description: [
-				"Increases &aHP&r and &cdamage&r based on difficulty,"
-				"[gap=0]"
-				"but then you get spammed with &etraits&r."
-				"[gap=3]"
-				"&8Be careful, Ragnarok is waiting.. :)&r"
+				"{ftbquests.chapter.l2_h.quest7C2B84A275AD4DCD.description1}"
+				"{ftbquests.chapter.l2_h.quest7C2B84A275AD4DCD.description2}"
+				"{ftbquests.chapter.l2_h.quest7C2B84A275AD4DCD.description3}"
+				"{ftbquests.chapter.l2_h.quest7C2B84A275AD4DCD.description4}"
+				"{ftbquests.chapter.l2_h.quest7C2B84A275AD4DCD.description5}"
 			]
 			hide_until_deps_complete: false
 			id: "7C2B84A275AD4DCD"
@@ -990,7 +990,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "You wanna exchange power for death? Go ahead."
+			subtitle: "{ftbquests.chapter.l2_h.quest7C2B84A275AD4DCD.subtitle}"
 			tasks: [{
 				id: "6351A445C424A91B"
 				item: "l2hostility:curse_of_pride"
@@ -1008,7 +1008,7 @@
 				xp_levels: 2
 			}]
 			shape: "square"
-			subtitle: "Obtained when a chicken gets hit by a sonic boom and survives"
+			subtitle: "{ftbquests.chapter.l2_h.quest64AE2FA2E0DDF880.subtitle}"
 			tasks: [{
 				id: "32B4EF015274BD29"
 				item: "l2complements:resonant_feather"
@@ -1026,7 +1026,7 @@
 				xp: 300
 			}]
 			shape: "square"
-			subtitle: "&e+3 Back Slots."
+			subtitle: "{ftbquests.chapter.l2_h.quest3286779906157DB8.subtitle}"
 			tasks: [{
 				id: "4023BBD1E996DD2E"
 				item: "l2hostility:triple_strip_cape"
@@ -1044,7 +1044,7 @@
 				xp: 200
 			}]
 			shape: "square"
-			subtitle: "Ignores protections from dispel/dementor at cost of no loot drops"
+			subtitle: "{ftbquests.chapter.l2_h.quest523C73EEB4300FBA.subtitle}"
 			tasks: [{
 				id: "23375B8628785DD1"
 				item: "l2hostility:imagine_breaker"
@@ -1063,7 +1063,7 @@
 			}]
 			shape: "gear"
 			size: 1.4d
-			subtitle: "Late-Game"
+			subtitle: "{ftbquests.chapter.l2_h.questFF01D4C76F300B1.subtitle}"
 			tasks: [{
 				id: "3020F377B92FE20A"
 				item: "l2complements:eternium_ingot"
@@ -1074,7 +1074,7 @@
 		}
 		{
 			dependencies: ["0FF01D4C76F300B1"]
-			description: ["This stacks with curse of greed, will drop more and more loot, especially for higher level mobs."]
+			description: ["{ftbquests.chapter.l2_h.quest6F9FE378B487A89F.description1}"]
 			id: "6F9FE378B487A89F"
 			rewards: [{
 				id: "7C2C3A0C32FAFB9F"
@@ -1083,7 +1083,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "Stacks with &ncurse of greed&r, will drop more and more loot"
+			subtitle: "{ftbquests.chapter.l2_h.quest6F9FE378B487A89F.subtitle}"
 			tasks: [{
 				id: "20D6A67AD53E064C"
 				item: "l2hostility:greed_of_nidhoggur"
@@ -1102,7 +1102,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "Unbreakable and tuff"
+			subtitle: "{ftbquests.chapter.l2_h.quest602C583FA29A0354.subtitle}"
 			tasks: [
 				{
 					id: "2F1F7BBE28862CE3"
@@ -1155,9 +1155,9 @@
 		{
 			dependencies: ["0FF01D4C76F300B1"]
 			description: [
-				"Makes every single trait spawn on the mob depending on its lvl. "
+				"{ftbquests.chapter.l2_h.quest69F3068051F4D4E9.description1}"
 				""
-				"If you have curse of envy, the mob will drop all of the traits that it had."
+				"{ftbquests.chapter.l2_h.quest69F3068051F4D4E9.description2}"
 			]
 			id: "69F3068051F4D4E9"
 			rewards: [{
@@ -1167,7 +1167,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "I heard you were strong."
+			subtitle: "{ftbquests.chapter.l2_h.quest69F3068051F4D4E9.subtitle}"
 			tasks: [{
 				id: "36F996C5A028C0FD"
 				item: "l2hostility:abyssal_thorn"
@@ -1178,7 +1178,7 @@
 		}
 		{
 			dependencies: ["0FF01D4C76F300B1"]
-			description: ["Be immune to all traits, except your reprint."]
+			description: ["{ftbquests.chapter.l2_h.quest4276DB7656BC16E1.description1}"]
 			id: "4276DB7656BC16E1"
 			rewards: [{
 				id: "0FB5377AEAD47E3B"
@@ -1187,7 +1187,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "The end."
+			subtitle: "{ftbquests.chapter.l2_h.quest4276DB7656BC16E1.subtitle}"
 			tasks: [{
 				id: "791D9E424AA17576"
 				item: "l2hostility:abrahadabra"
@@ -1199,9 +1199,9 @@
 		{
 			dependencies: ["3F81AD86BE390658"]
 			description: [
-				"You deal higher damage to enemies that have a higher level than your difficulty level."
+				"{ftbquests.chapter.l2_h.quest4D061C40088A78CE.description1}"
 				""
-				"Also grants immunity to certain debuffs, pretty nice!"
+				"{ftbquests.chapter.l2_h.quest4D061C40088A78CE.description2}"
 			]
 			id: "4D061C40088A78CE"
 			rewards: [{
@@ -1210,7 +1210,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Are you tuff?"
+			subtitle: "{ftbquests.chapter.l2_h.quest4D061C40088A78CE.subtitle}"
 			tasks: [{
 				id: "05EF0A1D8F7B1BCB"
 				item: "l2hostility:curse_of_wrath"
@@ -1221,7 +1221,7 @@
 		}
 		{
 			dependencies: ["3F81AD86BE390658"]
-			description: ["Ignores iframes like they never existed."]
+			description: ["{ftbquests.chapter.l2_h.quest6B668363438F4C00.description1}"]
 			id: "6B668363438F4C00"
 			rewards: [{
 				id: "4C10810EB851C54B"
@@ -1229,7 +1229,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "Some reference, you know where it's from. :)"
+			subtitle: "{ftbquests.chapter.l2_h.quest6B668363438F4C00.subtitle}"
 			tasks: [{
 				id: "29C4F1A5ACE60A27"
 				item: "l2hostility:platinum_star"
@@ -1241,9 +1241,9 @@
 		{
 			dependencies: ["3F81AD86BE390658"]
 			description: [
-				"This synergizes with the Divinity Ring, granting magic immunity while ensuring that level 1 beneficial buffs remain active."
+				"{ftbquests.chapter.l2_h.questFB0C448CB5AECB7.description1}"
 				""
-				"That means you still have room for certain buffs, all while staying immune to negative status effects."
+				"{ftbquests.chapter.l2_h.questFB0C448CB5AECB7.description2}"
 			]
 			id: "0FB0C448CB5AECB7"
 			rewards: [{
@@ -1252,7 +1252,7 @@
 				xp_levels: 5
 			}]
 			shape: "hexagon"
-			subtitle: "But I wanna use divinity ring.."
+			subtitle: "{ftbquests.chapter.l2_h.questFB0C448CB5AECB7.subtitle}"
 			tasks: [{
 				id: "3BF10711F8F18EBD"
 				item: "l2hostility:divinity_cross"
@@ -1264,9 +1264,9 @@
 		{
 			dependencies: ["3F81AD86BE390658"]
 			description: [
-				"Your adaptive difficulty doesn't increase, but you still get loot."
+				"{ftbquests.chapter.l2_h.quest14B5BBD60D5EF09.description1}"
 				""
-				"Using this is quite funny. Are you that scared??"
+				"{ftbquests.chapter.l2_h.quest14B5BBD60D5EF09.description2}"
 			]
 			id: "014B5BBD60D5EF09"
 			rewards: [{
@@ -1275,7 +1275,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "Curse of sloth's big bro"
+			subtitle: "{ftbquests.chapter.l2_h.quest14B5BBD60D5EF09.subtitle}"
 			tasks: [{
 				id: "29ACFBA3DE110E8F"
 				item: "l2hostility:divinity_light"
@@ -1286,7 +1286,7 @@
 		}
 		{
 			dependencies: ["436E2DAADAE85080"]
-			description: ["+5 ring and +1 charm.. &eBAN THIS!!"]
+			description: ["{ftbquests.chapter.l2_h.quest6F5FE8A1EED63E78.description1}"]
 			id: "6F5FE8A1EED63E78"
 			rewards: [{
 				id: "1F0D8B97551979AD"
@@ -1294,7 +1294,7 @@
 				xp: 500
 			}]
 			shape: "hexagon"
-			subtitle: "Are you gonna snap with these or what?"
+			subtitle: "{ftbquests.chapter.l2_h.quest6F5FE8A1EED63E78.subtitle}"
 			tasks: [{
 				id: "355889E370336445"
 				item: "l2hostility:infinity_glove"
@@ -1306,9 +1306,9 @@
 		{
 			dependencies: ["3F81AD86BE390658"]
 			description: [
-				"Unseals items for a few seconds if it does get sealed, 2 items can be unsealed per charm of restoration at a time. "
+				"{ftbquests.chapter.l2_h.quest200CA689E285FF5C.description1}"
 				""
-				"Stackable, so if you go fighting against a ragnarok mob, &ebring a lot of these!"
+				"{ftbquests.chapter.l2_h.quest200CA689E285FF5C.description2}"
 			]
 			id: "200CA689E285FF5C"
 			rewards: [{
@@ -1317,7 +1317,7 @@
 				xp: 200
 			}]
 			shape: "hexagon"
-			subtitle: "One second! Let me unseal."
+			subtitle: "{ftbquests.chapter.l2_h.quest200CA689E285FF5C.subtitle}"
 			tasks: [{
 				id: "5266CAC0A2C10E8A"
 				item: {
@@ -1342,7 +1342,7 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Does not consume XP and unbreakable"
+			subtitle: "{ftbquests.chapter.l2_h.quest787936098E6CE255.subtitle}"
 			tasks: [{
 				id: "3FA522EBB1361EC2"
 				item: "l2complements:eternal_anvil"
@@ -1353,7 +1353,7 @@
 		}
 		{
 			dependencies: ["436E2DAADAE85080"]
-			description: ["Magic immunity, but you cant obtain any effects, so maybe a better pearl of the void."]
+			description: ["{ftbquests.chapter.l2_h.quest77B7B70098D656B8.description1}"]
 			id: "77B7B70098D656B8"
 			rewards: [{
 				count: 2
@@ -1362,7 +1362,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Typa thing Soot would wanna wear in every playthrough."
+			subtitle: "{ftbquests.chapter.l2_h.quest77B7B70098D656B8.subtitle}"
 			tasks: [{
 				id: "3EF5730F2CE38F57"
 				item: "l2hostility:ring_of_divinity"
@@ -1374,9 +1374,9 @@
 		{
 			dependencies: ["436E2DAADAE85080"]
 			description: [
-				"Reflects effects/traits back at mobs that apply some."
+				"{ftbquests.chapter.l2_h.quest35711B0148806946.description1}"
 				""
-				"&elike an uno reverse!"
+				"{ftbquests.chapter.l2_h.quest35711B0148806946.description2}"
 			]
 			id: "35711B0148806946"
 			rewards: [{
@@ -1385,7 +1385,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "NO YOU"
+			subtitle: "{ftbquests.chapter.l2_h.quest35711B0148806946.subtitle}"
 			tasks: [{
 				id: "7FA721DA1823F601"
 				item: "l2hostility:ring_of_reflection"
@@ -1396,7 +1396,7 @@
 		}
 		{
 			dependencies: ["436E2DAADAE85080"]
-			description: ["Heals you per second, I mean what else?"]
+			description: ["{ftbquests.chapter.l2_h.quest378CC1C0CC0FE6B5.description1}"]
 			id: "378CC1C0CC0FE6B5"
 			rewards: [{
 				id: "501E0AA56A82C46D"
@@ -1404,7 +1404,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "A ring that heals."
+			subtitle: "{ftbquests.chapter.l2_h.quest378CC1C0CC0FE6B5.subtitle}"
 			tasks: [{
 				id: "43CD44DBDDE615EA"
 				item: "l2hostility:ring_of_healing"
@@ -1416,11 +1416,11 @@
 		{
 			dependencies: ["436E2DAADAE85080"]
 			description: [
-				"Damages your equipment when you take damage, but if you deal damage, it will harm theirs instead."
+				"{ftbquests.chapter.l2_h.quest7E43D345900F87E3.description1}"
 				""
-				"Best used once you’ve obtained &2unbreakable&r armor to fully enjoy the benefit."
+				"{ftbquests.chapter.l2_h.quest7E43D345900F87E3.description2}"
 				""
-				"Honestly, it’s not the best choice for bosses but it shines when clearing mobs."
+				"{ftbquests.chapter.l2_h.quest7E43D345900F87E3.description3}"
 			]
 			id: "7E43D345900F87E3"
 			rewards: [{
@@ -1429,7 +1429,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Gambling?"
+			subtitle: "{ftbquests.chapter.l2_h.quest7E43D345900F87E3.subtitle}"
 			tasks: [{
 				id: "41999AA3EF437CB0"
 				item: "l2hostility:ring_of_corrosion"
@@ -1441,8 +1441,8 @@
 		{
 			dependencies: ["436E2DAADAE85080"]
 			description: [
-				"Avoids getting one shot, leaving you at 1 HP until you get hit again."
-				"At that point just hit /back honestly."
+				"{ftbquests.chapter.l2_h.quest72F409A31AE56979.description1}"
+				"{ftbquests.chapter.l2_h.quest72F409A31AE56979.description2}"
 			]
 			id: "72F409A31AE56979"
 			rewards: [{
@@ -1451,7 +1451,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "No more one shot shenanigans."
+			subtitle: "{ftbquests.chapter.l2_h.quest72F409A31AE56979.subtitle}"
 			tasks: [{
 				id: "703B0F66AD0D6E03"
 				item: "l2hostility:ring_of_life"
@@ -1463,9 +1463,9 @@
 		{
 			dependencies: ["436E2DAADAE85080"]
 			description: [
-				"You will be inflicted with wet status 24/7, as if you were in water everytime."
+				"{ftbquests.chapter.l2_h.quest7327DEB02B743682.description1}"
 				""
-				"&eMaybe some poseidite + drowned belt action?"
+				"{ftbquests.chapter.l2_h.quest7327DEB02B743682.description2}"
 			]
 			id: "7327DEB02B743682"
 			rewards: [{
@@ -1475,7 +1475,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "I mean, its from the ocean...."
+			subtitle: "{ftbquests.chapter.l2_h.quest7327DEB02B743682.subtitle}"
 			tasks: [{
 				id: "2DD5D215AC2CC9F9"
 				item: "l2hostility:ring_of_ocean"
@@ -1486,25 +1486,25 @@
 		}
 		{
 			description: [
-				"Welcome to L2 Hostility! "
+				"{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.description1}"
 				""
-				"This mod introduces difficulty scaling.. but don't be scared. It is not that bad, trust me."
+				"{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.description2}"
 				""
-				"Basically:"
-				"&cThe more mobs and bosses you defeat, the tougher the game becomes.&r"
+				"{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.description3}"
+				"{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.description4}"
 				""
-				"As your difficulty rises, mobs may spawn with extra &ntraits&r, making each encounter more challenging.&r"
+				"{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.description5}"
 				""
-				"You can check your current difficulty by clicking the zombie head icon at the top of your inventory screen.&r"
+				"{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.description6}"
 				""
 				""
-				"{image:customtextures:textures/l2hostilityzombiehead.png width:150 height:125 align:center}"
+				"{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.image0}"
 				""
-				"Your adaptive level grows as you keep grinding and slaying mobs.&r"
+				"{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.description7}"
 				""
-				"But don’t worry! If you &cdie&r, the difficulty will drop by an major amount. You decide if that's a bad thing or not.&r"
+				"{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.description8}"
 				""
-				"And if things get too overwhelming, sip a &bBottle of Sanity&r to ease the difficulty.&r"
+				"{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.description9}"
 			]
 			icon: {
 				Count: 1
@@ -1535,26 +1535,26 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.subtitle}"
 			tasks: [{
 				id: "7EA0B7220904C47C"
-				title: "Alright"
+				title: "{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.task.9124494201860703356.title}"
 				type: "checkmark"
 			}]
-			title: "L2 Hostility"
+			title: "{ftbquests.chapter.l2_h.quest14C3ED2C7911FF14.title}"
 			x: -1.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
 			description: [
-				"Has a chance to drop from &ccursed&r trait mobs, and later on from higher‑tier trait mobs. "
+				"{ftbquests.chapter.l2_h.quest3C42AD8EFC1413FD.description1}"
 				""
-				"- Check JEI for more details on item drops."
+				"{ftbquests.chapter.l2_h.quest3C42AD8EFC1413FD.description2}"
 				""
-				"There is, however, another way."
+				"{ftbquests.chapter.l2_h.quest3C42AD8EFC1413FD.description3}"
 				""
-				"If you’re patient and have your sweet time, try throwing rotten flesh, soul sand, soul soil, ghast tears, or even a nether star into lava. Each offers a chance to get one of these."
+				"{ftbquests.chapter.l2_h.quest3C42AD8EFC1413FD.description4}"
 			]
 			id: "3C42AD8EFC1413FD"
 			rewards: [{
@@ -1564,7 +1564,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.l2_h.quest3C42AD8EFC1413FD.subtitle}"
 			tasks: [{
 				id: "4B9BFD75E8A7CA07"
 				item: "l2complements:cursed_droplet"
@@ -1576,9 +1576,9 @@
 		{
 			dependencies: ["436E2DAADAE85080"]
 			description: [
-				"DOT = Damage Over Time"
+				"{ftbquests.chapter.l2_h.quest257AD659298AC65D.description1}"
 				""
-				"Example: A build that inflicts poison, wither etc etc."
+				"{ftbquests.chapter.l2_h.quest257AD659298AC65D.description2}"
 			]
 			id: "257AD659298AC65D"
 			rewards: [{
@@ -1596,7 +1596,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "More DOT build potential"
+			subtitle: "{ftbquests.chapter.l2_h.quest257AD659298AC65D.subtitle}"
 			tasks: [{
 				id: "7E6B840A0A229001"
 				item: "l2hostility:flaming_thorn"
@@ -1607,7 +1607,7 @@
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
-			description: ["I mean, it applies poison... and yes, would you rather make it apply a concussion in real life instead?"]
+			description: ["{ftbquests.chapter.l2_h.quest370ECA6F8CF3421A.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1618,37 +1618,37 @@
 			}
 			id: "370ECA6F8CF3421A"
 			shape: "square"
-			subtitle: "Its okay, it'll hurt for a bit, but it cant kill you, trust.."
+			subtitle: "{ftbquests.chapter.l2_h.quest370ECA6F8CF3421A.subtitle}"
 			tasks: [{
 				id: "016688091F2350F5"
 				type: "checkmark"
 			}]
-			title: "&nPoisonous"
+			title: "{ftbquests.chapter.l2_h.quest370ECA6F8CF3421A.title}"
 			x: 20.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
-			description: ["Maybe this is when you actually get to use your water buckets, because I know you ain't hitting that water bucket clutch at all :("]
+			description: ["{ftbquests.chapter.l2_h.quest33505B9538CD23D5.description1}"]
 			hide_dependency_lines: true
 			icon: "ars_nouveau:fire_essence"
 			id: "33505B9538CD23D5"
 			shape: "square"
-			subtitle: "Makes the mob immune to fire, and ignite the target on hit."
+			subtitle: "{ftbquests.chapter.l2_h.quest33505B9538CD23D5.subtitle}"
 			tasks: [{
 				id: "5523412B111F2FDF"
 				type: "checkmark"
 			}]
-			title: "&nFiery"
+			title: "{ftbquests.chapter.l2_h.quest33505B9538CD23D5.title}"
 			x: 24.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
 			description: [
-				"I mean, the mob is thicc. Literally gigabuffed, increased hp and armor. "
+				"{ftbquests.chapter.l2_h.quest2EB960ADEC1938F7.description1}"
 				""
-				"Dont tell me you were expecting them to actually turn into an actual tank..."
+				"{ftbquests.chapter.l2_h.quest2EB960ADEC1938F7.description2}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1660,97 +1660,97 @@
 			}
 			id: "2EB960ADEC1938F7"
 			shape: "square"
-			subtitle: "I mean.. the trait says it all..?"
+			subtitle: "{ftbquests.chapter.l2_h.quest2EB960ADEC1938F7.subtitle}"
 			tasks: [{
 				id: "34323D35F1699729"
 				type: "checkmark"
 			}]
-			title: "&nTank"
+			title: "{ftbquests.chapter.l2_h.quest2EB960ADEC1938F7.title}"
 			x: 23.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
 			description: [
-				"Imagine already being slow in real life, then getting hit by this? "
+				"{ftbquests.chapter.l2_h.quest442958852411C045.description1}"
 				""
-				"I cant imagine what happens next..."
+				"{ftbquests.chapter.l2_h.quest442958852411C045.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: false
 			icon: "plushie_buddies:plushie_stray"
 			id: "442958852411C045"
 			shape: "square"
-			subtitle: "Inflicts slowness to players when they take damage"
+			subtitle: "{ftbquests.chapter.l2_h.quest442958852411C045.subtitle}"
 			tasks: [{
 				id: "4AC28AD8C7107DD3"
 				type: "checkmark"
 			}]
-			title: "&nSlowness"
+			title: "{ftbquests.chapter.l2_h.quest442958852411C045.title}"
 			x: 21.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
 			description: [
-				"Applies blindness on hit."
+				"{ftbquests.chapter.l2_h.quest2BF28C51597CBE25.description1}"
 				""
-				"I mean, this is probably the debuff 80% of players already have both in game and irl."
+				"{ftbquests.chapter.l2_h.quest2BF28C51597CBE25.description2}"
 				""
-				"Perhaps a milk bucket will help if brought everytime?"
+				"{ftbquests.chapter.l2_h.quest2BF28C51597CBE25.description3}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: false
 			icon: "uniqueaccessories:devils_eyeball"
 			id: "2BF28C51597CBE25"
 			shape: "square"
-			subtitle: "These are players irl"
+			subtitle: "{ftbquests.chapter.l2_h.quest2BF28C51597CBE25.subtitle}"
 			tasks: [{
 				id: "109E9A7A013F3A12"
 				type: "checkmark"
 			}]
-			title: "&nBlinder"
+			title: "{ftbquests.chapter.l2_h.quest2BF28C51597CBE25.title}"
 			x: 22.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
-			description: ["Applies anti heal on you, allowing you to literally not be able to regen in any sources for a certain amount of time. "]
+			description: ["{ftbquests.chapter.l2_h.quest43600EDED77E4988.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: false
 			icon: "eeeabsmobs:bloody_altar_eye"
 			id: "43600EDED77E4988"
 			shape: "square"
-			subtitle: "MY HP DONT REGEN!!"
+			subtitle: "{ftbquests.chapter.l2_h.quest43600EDED77E4988.subtitle}"
 			tasks: [{
 				id: "02452B58CDD1BEA1"
 				type: "checkmark"
 			}]
-			title: "&nCursed"
+			title: "{ftbquests.chapter.l2_h.quest43600EDED77E4988.title}"
 			x: 23.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
-			description: ["Literally applies frost to players hit, the higher trait rank the longer it stays, goodluck moving :)"]
+			description: ["{ftbquests.chapter.l2_h.quest169305654247D2C3.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
 			icon: "thermal:ice_charge"
 			id: "169305654247D2C3"
 			shape: "square"
-			subtitle: "It's like December.."
+			subtitle: "{ftbquests.chapter.l2_h.quest169305654247D2C3.subtitle}"
 			tasks: [{
 				id: "2638A5F95B5D06A5"
 				type: "checkmark"
 			}]
-			title: "&nFreezing"
+			title: "{ftbquests.chapter.l2_h.quest169305654247D2C3.title}"
 			x: 24.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
-			description: ["Applies nausea to players hit."]
+			description: ["{ftbquests.chapter.l2_h.quest2B7CEF8FA2883D2.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: false
 			icon: {
@@ -1762,18 +1762,18 @@
 			}
 			id: "02B7CEF8FA2883D2"
 			shape: "square"
-			subtitle: "This is literally gonna be you after a taco bell special. - Callen"
+			subtitle: "{ftbquests.chapter.l2_h.quest2B7CEF8FA2883D2.subtitle}"
 			tasks: [{
 				id: "0664A99A7ADA9614"
 				type: "checkmark"
 			}]
-			title: "&nDistorter"
+			title: "{ftbquests.chapter.l2_h.quest2B7CEF8FA2883D2.title}"
 			x: 25.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
-			description: ["Mobs apply the weakness debuff to players hit."]
+			description: ["{ftbquests.chapter.l2_h.quest75EEFADA8EA11F82.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: false
 			icon: {
@@ -1785,107 +1785,107 @@
 			}
 			id: "75EEFADA8EA11F82"
 			shape: "square"
-			subtitle: "I heard you're WEAK"
+			subtitle: "{ftbquests.chapter.l2_h.quest75EEFADA8EA11F82.subtitle}"
 			tasks: [{
 				id: "02E1A930468537E8"
 				type: "checkmark"
 			}]
-			title: "&nWeakener"
+			title: "{ftbquests.chapter.l2_h.quest75EEFADA8EA11F82.title}"
 			x: 26.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
-			description: ["Applies the withering effect to players hit."]
+			description: ["{ftbquests.chapter.l2_h.quest4574566A888262E3.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: false
 			icon: "ars_nouveau:glyph_wither"
 			id: "4574566A888262E3"
 			shape: "square"
-			subtitle: "Its taking over.."
+			subtitle: "{ftbquests.chapter.l2_h.quest4574566A888262E3.subtitle}"
 			tasks: [{
 				id: "3D2EE561B293A56D"
 				type: "checkmark"
 			}]
-			title: "&nWithering"
+			title: "{ftbquests.chapter.l2_h.quest4574566A888262E3.title}"
 			x: 27.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
 			description: [
-				"Mobs are not able to be seen, unless if you're using a detector glasses. "
+				"{ftbquests.chapter.l2_h.quest19E09169CFE81B1F.description1}"
 				""
-				"Its kind of like your lovelife and employment, nowhere to be found :("
+				"{ftbquests.chapter.l2_h.quest19E09169CFE81B1F.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "irons_spellbooks:invisibility_ring"
 			id: "19E09169CFE81B1F"
 			shape: "square"
-			subtitle: "Tell me you get it please..."
+			subtitle: "{ftbquests.chapter.l2_h.quest19E09169CFE81B1F.subtitle}"
 			tasks: [{
 				id: "08EAF5AEAEDDD331"
 				type: "checkmark"
 			}]
-			title: "&nInvisibility"
+			title: "{ftbquests.chapter.l2_h.quest19E09169CFE81B1F.title}"
 			x: 25.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
 			description: [
-				"Mob heals overtime. What else counters healing? You either deal big pp dmg or you just straight up suck man, come on. Or you can stop it from healing with some enchantment."
+				"{ftbquests.chapter.l2_h.quest578E030E2D89FC0E.description1}"
 				""
-				"WOW! it took us 2026 years to find that out, right?"
+				"{ftbquests.chapter.l2_h.quest578E030E2D89FC0E.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "artifacts:crystal_heart"
 			id: "578E030E2D89FC0E"
 			shape: "square"
-			subtitle: "I mean... its regen so..."
+			subtitle: "{ftbquests.chapter.l2_h.quest578E030E2D89FC0E.subtitle}"
 			tasks: [{
 				id: "1B06FF0F80D060E0"
 				type: "checkmark"
 			}]
-			title: "&nRegenerating"
+			title: "{ftbquests.chapter.l2_h.quest578E030E2D89FC0E.title}"
 			x: 21.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
-			description: ["What, do you expect speed here per level? yea they reach the speed of light at speedy 5"]
+			description: ["{ftbquests.chapter.l2_h.quest3AEB6236A7838B3A.description1}"]
 			hide_dependency_lines: true
 			icon: "artifacts:running_shoes"
 			id: "3AEB6236A7838B3A"
 			shape: "square"
-			subtitle: "WAS THAT USAIN BOLT??"
+			subtitle: "{ftbquests.chapter.l2_h.quest3AEB6236A7838B3A.subtitle}"
 			tasks: [{
 				id: "7E4A2F03D73FFF2C"
 				type: "checkmark"
 			}]
-			title: "&nSpeedy"
+			title: "{ftbquests.chapter.l2_h.quest3AEB6236A7838B3A.title}"
 			x: 26.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
-			description: ["Mobs have the resistance effect, higher levels if the trait rank is higher."]
+			description: ["{ftbquests.chapter.l2_h.quest584162A4630F9A52.description1}"]
 			hide_dependency_lines: true
 			icon: "armageddon_mod:colossal_shield"
 			id: "584162A4630F9A52"
 			shape: "square"
-			subtitle: "Mobs having actual protection??"
+			subtitle: "{ftbquests.chapter.l2_h.quest584162A4630F9A52.subtitle}"
 			tasks: [{
 				id: "1051C39514C350A7"
 				type: "checkmark"
 			}]
-			title: "&nProtected"
+			title: "{ftbquests.chapter.l2_h.quest584162A4630F9A52.title}"
 			x: 22.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
-			description: ["Applies levitation on players hit, see you in the sky :)"]
+			description: ["{ftbquests.chapter.l2_h.quest36EC6B65D3EF9173.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1896,21 +1896,21 @@
 			}
 			id: "36EC6B65D3EF9173"
 			shape: "square"
-			subtitle: "Fly high soldier"
+			subtitle: "{ftbquests.chapter.l2_h.quest36EC6B65D3EF9173.subtitle}"
 			tasks: [{
 				id: "2E2404EBA478AA5D"
 				type: "checkmark"
 			}]
-			title: "&nLevitator"
+			title: "{ftbquests.chapter.l2_h.quest36EC6B65D3EF9173.title}"
 			x: 18.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"Reflects &cphysical damage&r taken as &dmagic damage&r in return."
-				"[gap=0]"
-				"&810-50% damage scales with trait rank&r"
+				"{ftbquests.chapter.l2_h.quest593EF6C87E187167.description1}"
+				"{ftbquests.chapter.l2_h.quest593EF6C87E187167.description2}"
+				"{ftbquests.chapter.l2_h.quest593EF6C87E187167.description3}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
@@ -1932,55 +1932,55 @@
 			}
 			id: "593EF6C87E187167"
 			shape: "square"
-			subtitle: "Reflects what?"
+			subtitle: "{ftbquests.chapter.l2_h.quest593EF6C87E187167.subtitle}"
 			tasks: [{
 				id: "49F3BBFDDD18034B"
 				type: "checkmark"
 			}]
-			title: "&nReflecting"
+			title: "{ftbquests.chapter.l2_h.quest593EF6C87E187167.title}"
 			x: 22.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"Increases gravity to players around it."
+				"{ftbquests.chapter.l2_h.quest19A544E8EE8D1287.description1}"
 				""
-				"Knocks attackers downward when damaged."
+				"{ftbquests.chapter.l2_h.quest19A544E8EE8D1287.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "terramity:anvil_talisman"
 			id: "19A544E8EE8D1287"
 			shape: "square"
-			subtitle: "Blame Newton for this"
+			subtitle: "{ftbquests.chapter.l2_h.quest19A544E8EE8D1287.subtitle}"
 			tasks: [{
 				id: "71C4C35F5FCB8B89"
 				type: "checkmark"
 			}]
-			title: "&nGravity"
+			title: "{ftbquests.chapter.l2_h.quest19A544E8EE8D1287.title}"
 			x: 27.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
-			description: ["Shoots bullets every 2 seconds, one after another. Avoid them if you're actually skilled, stop relying on dodge chance smh."]
+			description: ["{ftbquests.chapter.l2_h.quest40391CB94A600749.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "minecraft:shulker_box"
 			id: "40391CB94A600749"
 			shape: "square"
-			subtitle: "What do shulkers do?"
+			subtitle: "{ftbquests.chapter.l2_h.quest40391CB94A600749.subtitle}"
 			tasks: [{
 				id: "5B203B7147FC69F5"
 				type: "checkmark"
 			}]
-			title: "&nShulker"
+			title: "{ftbquests.chapter.l2_h.quest40391CB94A600749.title}"
 			x: 20.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
-			description: ["Kidding aside, mobs will try to teleport and attack you after you hit it."]
+			description: ["{ftbquests.chapter.l2_h.quest35D3D7D02124179D.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1991,18 +1991,18 @@
 			}
 			id: "35D3D7D02124179D"
 			shape: "square"
-			subtitle: "So drop the CS rating"
+			subtitle: "{ftbquests.chapter.l2_h.quest35D3D7D02124179D.subtitle}"
 			tasks: [{
 				id: "71CB35E0C1FC949A"
 				type: "checkmark"
 			}]
-			title: "&nCounter-Strike"
+			title: "{ftbquests.chapter.l2_h.quest35D3D7D02124179D.title}"
 			x: 18.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
-			description: ["Decreases gravity for the players around it."]
+			description: ["{ftbquests.chapter.l2_h.quest5A67871109F0B0C5.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2027,102 +2027,102 @@
 			}
 			id: "5A67871109F0B0C5"
 			shape: "square"
-			subtitle: "If you're curious to know what Neil Armstrong experienced.."
+			subtitle: "{ftbquests.chapter.l2_h.quest5A67871109F0B0C5.subtitle}"
 			tasks: [{
 				id: "1A662F19D1EFD28C"
 				type: "checkmark"
 			}]
-			title: "&nMoonwalk"
+			title: "{ftbquests.chapter.l2_h.quest5A67871109F0B0C5.title}"
 			x: 19.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
-			description: ["Inflicts soul burning effect on players hit, which hurts more than both fire and soulfire damage."]
+			description: ["{ftbquests.chapter.l2_h.quest225CB94C02C40352.description1}"]
 			hide_dependency_lines: true
 			icon: "quark:soul_bead"
 			id: "225CB94C02C40352"
 			shape: "square"
-			subtitle: "Just burns your soul to be honest"
+			subtitle: "{ftbquests.chapter.l2_h.quest225CB94C02C40352.subtitle}"
 			tasks: [{
 				id: "3A37D20B515CB15C"
 				type: "checkmark"
 			}]
-			title: "&nSoul Burner"
+			title: "{ftbquests.chapter.l2_h.quest225CB94C02C40352.title}"
 			x: 19.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"Mob splits into 2 everytime it dies, not endlessly of course."
-				"[gap=0]"
-				"&8Hope not&r"
+				"{ftbquests.chapter.l2_h.quest494C6E3F10486627.description1}"
+				"{ftbquests.chapter.l2_h.quest494C6E3F10486627.description2}"
+				"{ftbquests.chapter.l2_h.quest494C6E3F10486627.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "ars_nouveau:glyph_split"
 			id: "494C6E3F10486627"
 			shape: "square"
-			subtitle: "X squared?"
+			subtitle: "{ftbquests.chapter.l2_h.quest494C6E3F10486627.subtitle}"
 			tasks: [{
 				id: "5F81675A111737F3"
 				type: "checkmark"
 			}]
-			title: "&nSplit"
+			title: "{ftbquests.chapter.l2_h.quest494C6E3F10486627.title}"
 			x: 25.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"Slime will grow larger while at full health, will gain regeneration."
-				"&8So dont worry, only applies to slimes...&r"
-				"[gap=0]"
-				"&8Hopefully..&r"
+				"{ftbquests.chapter.l2_h.quest75E76654AA67730A.description1}"
+				"{ftbquests.chapter.l2_h.quest75E76654AA67730A.description2}"
+				"{ftbquests.chapter.l2_h.quest75E76654AA67730A.description3}"
+				"{ftbquests.chapter.l2_h.quest75E76654AA67730A.description4}"
 			]
 			hide_dependency_lines: true
 			icon: "quark:slime_in_a_bucket"
 			id: "75E76654AA67730A"
 			shape: "square"
-			subtitle: "I mean, might as well wait for it to reach infinite health"
+			subtitle: "{ftbquests.chapter.l2_h.quest75E76654AA67730A.subtitle}"
 			tasks: [{
 				id: "377165D015EDF02A"
 				type: "checkmark"
 			}]
-			title: "&nGrowth"
+			title: "{ftbquests.chapter.l2_h.quest75E76654AA67730A.title}"
 			x: 24.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"Shoots out AOE grenade projectiles (not literal grenades ofc) every 3 seconds after each one comes in contact with anything. "
+				"{ftbquests.chapter.l2_h.quest358368DEF9FF8C6D.description1}"
 				""
-				"Hurts more than shulker, so dont mess around with it."
+				"{ftbquests.chapter.l2_h.quest358368DEF9FF8C6D.description2}"
 				""
-				"Will need projectile protection if you wanna tank it."
+				"{ftbquests.chapter.l2_h.quest358368DEF9FF8C6D.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "brutality:holy_hand_grenade"
 			id: "358368DEF9FF8C6D"
 			shape: "square"
-			subtitle: "GRENADE! GET OUTTA THERE!"
+			subtitle: "{ftbquests.chapter.l2_h.quest358368DEF9FF8C6D.subtitle}"
 			tasks: [{
 				id: "4366A9849E79F006"
 				type: "checkmark"
 			}]
-			title: "&nGrenade"
+			title: "{ftbquests.chapter.l2_h.quest358368DEF9FF8C6D.title}"
 			x: 23.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"Targets 1-3 armor equipments, and increases their durability loss rate by 10-30% chance (scarier at high trait rank)"
+				"{ftbquests.chapter.l2_h.quest42AD82E24A296C96.description1}"
 				""
-				"Will also deal increased dmg to players each per armor piece missing."
+				"{ftbquests.chapter.l2_h.quest42AD82E24A296C96.description2}"
 				""
-				"So make sure you're wearing armor around these peepos :)"
+				"{ftbquests.chapter.l2_h.quest42AD82E24A296C96.description3}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -2135,92 +2135,92 @@
 			}
 			id: "42AD82E24A296C96"
 			shape: "square"
-			subtitle: "OH MY ARMOR PART 2"
+			subtitle: "{ftbquests.chapter.l2_h.quest42AD82E24A296C96.subtitle}"
 			tasks: [{
 				id: "022AA1F4E8E1D230"
 				type: "checkmark"
 			}]
-			title: "&nCorrosion"
+			title: "{ftbquests.chapter.l2_h.quest42AD82E24A296C96.title}"
 			x: 27.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"Selects 1-3 equipments to lose durability, actual durability, not just the speed of it taking dmg. "
+				"{ftbquests.chapter.l2_h.quest6B33C8DD9F9515C7.description1}"
 				""
-				"Increases dmg dealt by 25-75% per each piece of armor missing. "
+				"{ftbquests.chapter.l2_h.quest6B33C8DD9F9515C7.description2}"
 				""
-				"Imagine apollyon with this trait on phase 3? :)"
+				"{ftbquests.chapter.l2_h.quest6B33C8DD9F9515C7.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "mekanism:dirty_netherite_scrap"
 			id: "6B33C8DD9F9515C7"
 			shape: "square"
-			subtitle: "MY ARMOR PART 1"
+			subtitle: "{ftbquests.chapter.l2_h.quest6B33C8DD9F9515C7.subtitle}"
 			tasks: [{
 				id: "184299DF2C9E9EF1"
 				type: "checkmark"
 			}]
-			title: "&nErosion"
+			title: "{ftbquests.chapter.l2_h.quest6B33C8DD9F9515C7.title}"
 			x: 19.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"When players get hit by the mob, one or more of their positive effects will be taken, and will be applied applied a negative effect instead. "
+				"{ftbquests.chapter.l2_h.quest1ADCE06B26264492.description1}"
 				""
-				"The damage taken by players increases based on each negative effect applied on them."
+				"{ftbquests.chapter.l2_h.quest1ADCE06B26264492.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "create:item_drain"
 			id: "1ADCE06B26264492"
 			shape: "square"
-			subtitle: "Let that sink in.."
+			subtitle: "{ftbquests.chapter.l2_h.quest1ADCE06B26264492.subtitle}"
 			tasks: [{
 				id: "4427F7287210D657"
 				type: "checkmark"
 			}]
-			title: "&nDrain"
+			title: "{ftbquests.chapter.l2_h.quest1ADCE06B26264492.title}"
 			x: 26.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
-			description: ["You have no rights, players will not be able to break and build blocks near mobs with this trait."]
+			description: ["{ftbquests.chapter.l2_h.quest1353636CB6EE2E50.description1}"]
 			hide_dependency_lines: true
 			icon: "supplementaries:iron_gate"
 			id: "1353636CB6EE2E50"
 			shape: "square"
-			subtitle: "ITS YOU AND ME!"
+			subtitle: "{ftbquests.chapter.l2_h.quest1353636CB6EE2E50.subtitle}"
 			tasks: [{
 				id: "3DCBD85473F7C1B8"
 				type: "checkmark"
 			}]
-			title: "&nArena"
+			title: "{ftbquests.chapter.l2_h.quest1353636CB6EE2E50.title}"
 			x: 19.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"Mobs will teleport often, avoiding physical attacks on contact."
+				"{ftbquests.chapter.l2_h.quest56DD1F1AF789D452.description1}"
 				""
-				"Incarceration effect negates this trait completely."
+				"{ftbquests.chapter.l2_h.quest56DD1F1AF789D452.description2}"
 				""
-				"This doesn't mean its unable to be hit by a physical attack, it just tries to teleport away most of the time, just like your dream girl. Goodluck :"
+				"{ftbquests.chapter.l2_h.quest56DD1F1AF789D452.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "enigmaticlegacy:astral_potato"
 			id: "56DD1F1AF789D452"
 			shape: "square"
-			subtitle: "Insert random anime teleport noise here"
+			subtitle: "{ftbquests.chapter.l2_h.quest56DD1F1AF789D452.subtitle}"
 			tasks: [{
 				id: "1A0DEBB36B10F123"
 				type: "checkmark"
 			}]
-			title: "&nTeleport"
+			title: "{ftbquests.chapter.l2_h.quest56DD1F1AF789D452.title}"
 			x: 20.0d
 			y: -1.5d
 		}
@@ -2236,42 +2236,42 @@
 			}
 			id: "71F1105C305854E9"
 			shape: "square"
-			subtitle: "Immune to projectiles"
+			subtitle: "{ftbquests.chapter.l2_h.quest71F1105C305854E9.subtitle}"
 			tasks: [{
 				id: "66385442B01A5D6D"
 				type: "checkmark"
 			}]
-			title: "&nRepelling"
+			title: "{ftbquests.chapter.l2_h.quest71F1105C305854E9.title}"
 			x: 21.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"I mean, if this is named pulling, does it push you closer to it, or does it pull you closer to it? "
+				"{ftbquests.chapter.l2_h.quest1B47C278BAA1C349.description1}"
 				""
 				""
-				"Maybe an enchant helps with this effect to help our tryhard mage and forgotten projectile players :("
+				"{ftbquests.chapter.l2_h.quest1B47C278BAA1C349.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "alex_caves_dimensions:magnetic_caves_key"
 			id: "1B47C278BAA1C349"
 			shape: "square"
-			subtitle: "Repelling trait's bipolar twin."
+			subtitle: "{ftbquests.chapter.l2_h.quest1B47C278BAA1C349.subtitle}"
 			tasks: [{
 				id: "48BC4C75BC0AA5F0"
 				type: "checkmark"
 			}]
-			title: "&nPulling"
+			title: "{ftbquests.chapter.l2_h.quest1B47C278BAA1C349.title}"
 			x: 22.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"How about I print back the enchants you have back at you?"
-				"Copies every enchant, so if you have Prot 4, they get Prot 4 too. Yay!"
-				"Avoid exceeding the enchantment level cap, because they'll deal true damage once you do."
+				"{ftbquests.chapter.l2_h.quest2987E1FACFD0D091.description1}"
+				"{ftbquests.chapter.l2_h.quest2987E1FACFD0D091.description2}"
+				"{ftbquests.chapter.l2_h.quest2987E1FACFD0D091.description3}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -2283,136 +2283,136 @@
 			}
 			id: "2987E1FACFD0D091"
 			shape: "square"
-			subtitle: "Too much enchants?"
+			subtitle: "{ftbquests.chapter.l2_h.quest2987E1FACFD0D091.subtitle}"
 			tasks: [{
 				id: "3A014DF962A84B31"
 				type: "checkmark"
 			}]
-			title: "&nReprint"
+			title: "{ftbquests.chapter.l2_h.quest2987E1FACFD0D091.title}"
 			x: 20.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
-			description: ["The mob with this trait will constantly damage players near it, dealing magic dmg per second, it also inflicts effect traits on the player."]
+			description: ["{ftbquests.chapter.l2_h.quest49C41AC8436D1FF.description1}"]
 			hide_dependency_lines: true
 			icon: "dungeonnowloading:mending_aura_pane"
 			id: "049C41AC8436D1FF"
 			shape: "square"
-			subtitle: "You ever heard of those kill aura hacks back in the day?"
+			subtitle: "{ftbquests.chapter.l2_h.quest49C41AC8436D1FF.subtitle}"
 			tasks: [{
 				id: "02F4DA206D30CAE1"
 				type: "checkmark"
 			}]
-			title: "&nKiller Aura"
+			title: "{ftbquests.chapter.l2_h.quest49C41AC8436D1FF.title}"
 			x: 23.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"Seals curios, weapons, armors. "
+				"{ftbquests.chapter.l2_h.quest40BA6E2105F95486.description1}"
 				""
 				""
-				"Only charm of restoration and abrahadabra can help."
+				"{ftbquests.chapter.l2_h.quest40BA6E2105F95486.description2}"
 			]
 			hide_dependency_lines: true
 			icon: "companions:netherite_chains"
 			id: "40BA6E2105F95486"
 			shape: "square"
-			subtitle: "Where did my shi go??"
+			subtitle: "{ftbquests.chapter.l2_h.quest40BA6E2105F95486.subtitle}"
 			tasks: [{
 				id: "636FF90B9CF94564"
 				type: "checkmark"
 			}]
-			title: "&nRagnarok"
+			title: "{ftbquests.chapter.l2_h.quest40BA6E2105F95486.title}"
 			x: 24.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
-			description: ["The mob will summon minions around itself. Some will shield and protect their master, while others will charge straight at you with relentless aggression."]
+			description: ["{ftbquests.chapter.l2_h.questCC7085EF289A8C7.description1}"]
 			hide_dependency_lines: true
 			icon: "ars_nouveau:glyph_summon_undead"
 			id: "0CC7085EF289A8C7"
 			shape: "square"
-			subtitle: "Perhaps its their leader..."
+			subtitle: "{ftbquests.chapter.l2_h.questCC7085EF289A8C7.subtitle}"
 			tasks: [{
 				id: "45A6DC550F54B832"
 				type: "checkmark"
 			}]
-			title: "&nMaster"
+			title: "{ftbquests.chapter.l2_h.questCC7085EF289A8C7.title}"
 			x: 25.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"Has resistance against magic‑type damage, so for diehard magic users, this fight will be rough. But take heart, he is not immune, so there’s still hope!"
+				"{ftbquests.chapter.l2_h.quest574026F0A3212366.description1}"
 				""
-				"The mob’s attacks also bypass a player’s magical protection."
+				"{ftbquests.chapter.l2_h.quest574026F0A3212366.description2}"
 				""
-				"On top of that, it can seal the enchants on your armor and weapons for a few seconds."
+				"{ftbquests.chapter.l2_h.quest574026F0A3212366.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "ars_nouveau:glyph_dispel"
 			id: "574026F0A3212366"
 			shape: "square"
-			subtitle: "Mage users final boss"
+			subtitle: "{ftbquests.chapter.l2_h.quest574026F0A3212366.subtitle}"
 			tasks: [{
 				id: "77E0AACDD12AFB5E"
 				type: "checkmark"
 			}]
-			title: "&nDispel"
+			title: "{ftbquests.chapter.l2_h.quest574026F0A3212366.title}"
 			x: 26.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"Has damage resistance to physical attacks. "
+				"{ftbquests.chapter.l2_h.quest2C1D216F5A970C9D.description1}"
 				""
-				"Sorry in advance for those hold W key melee players. I mean it still works, its just gonna take a bit of time."
+				"{ftbquests.chapter.l2_h.quest2C1D216F5A970C9D.description2}"
 				""
-				"Damage dealt to players will bypass armor."
+				"{ftbquests.chapter.l2_h.quest2C1D216F5A970C9D.description3}"
 			]
 			hide_dependency_lines: true
 			icon: "goety_revelation:dementor_focus"
 			id: "2C1D216F5A970C9D"
 			shape: "square"
-			subtitle: "Soo.. uh.. Harry Potter?"
+			subtitle: "{ftbquests.chapter.l2_h.quest2C1D216F5A970C9D.subtitle}"
 			tasks: [{
 				id: "7AC746E5C4741D0D"
 				type: "checkmark"
 			}]
-			title: "&nDementor"
+			title: "{ftbquests.chapter.l2_h.quest2C1D216F5A970C9D.title}"
 			x: 27.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"The mob reduces damage taken from players based on a stored damage type, determined by its trait rank."
+				"{ftbquests.chapter.l2_h.quest7ABCA8B55C8737F2.description1}"
 				""
-				"For example, "
+				"{ftbquests.chapter.l2_h.quest7ABCA8B55C8737F2.description2}"
 				""
-				"&eAdaptive I mob will store a single damage type and reduce incoming damage from it.&r"
+				"{ftbquests.chapter.l2_h.quest7ABCA8B55C8737F2.description3}"
 				""
-				"&cAdaptive V mob, however, can store five damage types, cutting down damage across all of them.&r"
+				"{ftbquests.chapter.l2_h.quest7ABCA8B55C8737F2.description4}"
 				""
-				"This mechanic is easily countered by DOT builds, since they apply multiple damage sources such as burn, poison, flame, ice, soul flame, and more."
-				"Alternatively, you can switch things up with projectiles, spells, or physical attacks alongside DOT effects."
+				"{ftbquests.chapter.l2_h.quest7ABCA8B55C8737F2.description5}"
+				"{ftbquests.chapter.l2_h.quest7ABCA8B55C8737F2.description6}"
 			]
 			hide_dependency_lines: true
 			icon: "terramity:archangel_halo"
 			id: "7ABCA8B55C8737F2"
 			shape: "square"
-			subtitle: "No more one tricks!"
+			subtitle: "{ftbquests.chapter.l2_h.quest7ABCA8B55C8737F2.subtitle}"
 			tasks: [{
 				id: "77430D7024F9323E"
 				type: "checkmark"
 			}]
-			title: "&nAdaptive"
+			title: "{ftbquests.chapter.l2_h.quest7ABCA8B55C8737F2.title}"
 			x: 21.0d
 			y: -5.5d
 		}
@@ -2434,7 +2434,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "Extremely durable armor for early to mid-game if you prefer"
+			subtitle: "{ftbquests.chapter.l2_h.quest488A238E72B7910A.subtitle}"
 			tasks: [
 				{
 					id: "27DD1F1EB6115243"
@@ -2481,13 +2481,13 @@
 					type: "item"
 				}
 			]
-			title: "Shulkerate Set"
+			title: "{ftbquests.chapter.l2_h.quest488A238E72B7910A.title}"
 			x: -3.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["7380E4BCAD9E622E"]
-			description: ["Rumor has it this armor set works well with some &o&1ring&r&r and some lost &o&3belt&r&r which makes it better than netherite if paired with these said curios."]
+			description: ["{ftbquests.chapter.l2_h.quest229F06C89E4E2879.description1}"]
 			icon: {
 				Count: 1
 				id: "l2complements:poseidite_helmet"
@@ -2504,7 +2504,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "Wet or.. moisty"
+			subtitle: "{ftbquests.chapter.l2_h.quest229F06C89E4E2879.subtitle}"
 			tasks: [
 				{
 					id: "6B652557469347ED"
@@ -2551,16 +2551,16 @@
 					type: "item"
 				}
 			]
-			title: "Poseidite Set"
+			title: "{ftbquests.chapter.l2_h.quest229F06C89E4E2879.title}"
 			x: 1.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"Heals player when damaged, basically if your durability keeps going down, it heals you."
+				"{ftbquests.chapter.l2_h.quest10EB74551B204942.description1}"
 				""
-				"Works well when paired with Ring of Corrosion + Ring of Life + Safeguard, enjoy :)"
+				"{ftbquests.chapter.l2_h.quest10EB74551B204942.description2}"
 			]
 			icon: {
 				Count: 1
@@ -2577,7 +2577,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "For those who are masochistic irl"
+			subtitle: "{ftbquests.chapter.l2_h.quest10EB74551B204942.subtitle}"
 			tasks: [
 				{
 					id: "5C9FAEF1D224D2BF"
@@ -2624,18 +2624,18 @@
 					type: "item"
 				}
 			]
-			title: "Totemic Gold Set"
+			title: "{ftbquests.chapter.l2_h.quest10EB74551B204942.title}"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["66987F4D01E6920F"]
 			description: [
-				"You ever feel like just walking through ancient cities without making a noise? "
+				"{ftbquests.chapter.l2_h.quest1642D88CF842DFFD.description1}"
 				""
-				"Well heres the armor for you! "
+				"{ftbquests.chapter.l2_h.quest1642D88CF842DFFD.description2}"
 				""
-				"Now you dont gotta put your friends in trouble, alongside being immune to most debuffs."
+				"{ftbquests.chapter.l2_h.quest1642D88CF842DFFD.description3}"
 			]
 			icon: {
 				Count: 1
@@ -2652,7 +2652,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "Armor for those who like running around ancient cities"
+			subtitle: "{ftbquests.chapter.l2_h.quest1642D88CF842DFFD.subtitle}"
 			tasks: [
 				{
 					id: "567C94B18B2CBE17"
@@ -2699,7 +2699,7 @@
 					type: "item"
 				}
 			]
-			title: "Sculkium Set"
+			title: "{ftbquests.chapter.l2_h.quest1642D88CF842DFFD.title}"
 			x: -3.0d
 			y: -1.5d
 		}
@@ -2712,26 +2712,26 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Obtained by burning emerald in lava"
+			subtitle: "{ftbquests.chapter.l2_h.quest62B6DF4AE4776530.subtitle}"
 			tasks: [{
 				id: "17FA1F5933CAAC3A"
 				item: "l2complements:heirophant_green"
 				type: "item"
 			}]
-			title: "Heirophant Green"
+			title: "{ftbquests.chapter.l2_h.quest62B6DF4AE4776530.title}"
 			x: 9.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["436E2DAADAE85080"]
 			description: [
-				"Causes any entity nearby the Incarceration effect."
+				"{ftbquests.chapter.l2_h.quest151B222F668D8D9E.description1}"
 				""
-				"Not being able to move, or walk. Effective against Teleport Mobs."
+				"{ftbquests.chapter.l2_h.quest151B222F668D8D9E.description2}"
 			]
 			id: "151B222F668D8D9E"
 			shape: "hexagon"
-			subtitle: "FREEZE! DONT MOVE!!"
+			subtitle: "{ftbquests.chapter.l2_h.quest151B222F668D8D9E.subtitle}"
 			tasks: [{
 				id: "7F1581166452C488"
 				item: "l2hostility:ring_of_incarceration"
@@ -2741,5 +2741,5 @@
 			y: -7.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#8531CE to=#AF81B2>L2 Hostility</grad></shadow>"
+	title: "{ftbquests.chapter.l2_h.title}"
 }

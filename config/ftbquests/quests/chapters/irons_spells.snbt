@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 0.7d
-			hover: ["Enhanced Spell books"]
+			hover: ["ftbquests.chapter.irons_spells.image.hovertext1"]
 			image: "fancymenu:textures/warning_framed_24x24.png"
 			rotation: 0.0d
 			width: 0.7d
@@ -28,7 +28,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.irons_spells.image.hovertext2"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -42,19 +42,19 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &eOverview&r"
-				"[gap=-5]"
-				"The primary workstation for managing your arcane arsenal."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"The scrolls you find on your adventures can be inscribed directly into your spellbook using this table!"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eRequirements:&r"
-				"[gap=0]"
-				"A &dSpellbook&r in the main slot and a Scroll of your choice."
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description1}"
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description2}"
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description3}"
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description4}"
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description5}"
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description6}"
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description7}"
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description8}"
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description9}"
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description10}"
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description11}"
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description12}"
+				"{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.description13}"
 			]
 			id: "588B720757D1CAB7"
 			rewards: [
@@ -71,26 +71,26 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "This is where you add your skills to the book!"
+			subtitle: "{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.subtitle}"
 			tasks: [{
 				id: "109354D4CE78942F"
 				item: "irons_spellbooks:inscription_table"
 				type: "item"
 			}]
-			title: "Inscription Table"
+			title: "{ftbquests.chapter.irons_spells.quest588B720757D1CAB7.title}"
 			x: -0.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &eOverview&r"
-				"[gap=0]"
-				"The essential workstation used to craft and create new spells."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Allows you to forge powerful magic scrolls using raw magical resources."
+				"{ftbquests.chapter.irons_spells.quest7A92871ED681157F.description1}"
+				"{ftbquests.chapter.irons_spells.quest7A92871ED681157F.description2}"
+				"{ftbquests.chapter.irons_spells.quest7A92871ED681157F.description3}"
+				"{ftbquests.chapter.irons_spells.quest7A92871ED681157F.description4}"
+				"{ftbquests.chapter.irons_spells.quest7A92871ED681157F.description5}"
+				"{ftbquests.chapter.irons_spells.quest7A92871ED681157F.description6}"
+				"{ftbquests.chapter.irons_spells.quest7A92871ED681157F.description7}"
 			]
 			id: "7A92871ED681157F"
 			rewards: [{
@@ -99,38 +99,38 @@
 				xp: 100
 			}]
 			shape: "octagon"
-			subtitle: "Used to create spells."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7A92871ED681157F.subtitle}"
 			tasks: [{
 				id: "6A5C6AFA62154A35"
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			title: "Scroll Forge"
+			title: "{ftbquests.chapter.irons_spells.quest7A92871ED681157F.title}"
 			x: 0.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &eOverview&r"
-				"[gap=0]"
-				"A powerful workstation used to enhance your magical equipment."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Using ink and scrolls, you can increase the level of your spells to maximize their potential."
-				"[gap=2]"
-				"It also allows you to improve your gear with upgrade orbs and increase the overall capacity of your spellbooks."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eMain usage&r"
-				"[gap=0]"
-				"&6Leveling up scrolls&r with ink,"
-				"[gap=0]"
-				"&5Applying upgrade orbs&r to gear,"
-				"[gap=0]"
-				"&bIncreasing spellbook capacity&r."
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description1}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description2}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description3}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description4}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description5}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description6}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description7}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description8}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description9}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description10}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description11}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description12}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description13}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description14}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description15}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description16}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description17}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description18}"
+				"{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.description19}"
 			]
 			id: "06A71AE66FD06968"
 			rewards: [{
@@ -139,34 +139,34 @@
 				xp: 100
 			}]
 			shape: "octagon"
-			subtitle: "Used to improve items."
+			subtitle: "{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.subtitle}"
 			tasks: [{
 				id: "0E7AEB973767C57D"
 				item: "irons_spellbooks:arcane_anvil"
 				type: "item"
 			}]
-			title: "Arcane Anvil"
+			title: "{ftbquests.chapter.irons_spells.quest6A71AE66FD06968.title}"
 			x: 1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &eOverview&r"
-				"[gap=-5]"
-				"An essential apparatus for refining your magical fluids and reagents."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Allows you to salvage resources by dissolving scrolls back into ink, or combine lesser ingredients to improve the quality of your ink."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eMain usage&r"
-				"[gap=-5]"
-				"&6Dissolving scrolls&r into raw ink,"
-				"[gap=-5]"
-				"&6Upgrading ink quality&r to higher tiers."
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description1}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description2}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description3}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description4}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description5}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description6}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description7}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description8}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description9}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description10}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description11}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description12}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description13}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description14}"
+				"{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.description15}"
 			]
 			id: "3B66253B6D5388FF"
 			rewards: [{
@@ -175,28 +175,28 @@
 				xp: 100
 			}]
 			shape: "octagon"
-			subtitle: "Used for working with ink and potions."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.subtitle}"
 			tasks: [{
 				id: "787F9C309A473676"
 				item: "irons_spellbooks:alchemist_cauldron"
 				type: "item"
 			}]
-			title: "Alchemist Cauldron"
+			title: "{ftbquests.chapter.irons_spells.quest3B66253B6D5388FF.title}"
 			x: 2.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &eOverview&r"
-				"[gap=0]"
-				"Powerful magical implements that can be wielded alongside your main weapon."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Can be equipped in the left hand."
+				"{ftbquests.chapter.irons_spells.quest3B8EAE4FDCA05E67.description1}"
+				"{ftbquests.chapter.irons_spells.quest3B8EAE4FDCA05E67.description2}"
+				"{ftbquests.chapter.irons_spells.quest3B8EAE4FDCA05E67.description3}"
+				"{ftbquests.chapter.irons_spells.quest3B8EAE4FDCA05E67.description4}"
+				"{ftbquests.chapter.irons_spells.quest3B8EAE4FDCA05E67.description5}"
+				"{ftbquests.chapter.irons_spells.quest3B8EAE4FDCA05E67.description6}"
+				"{ftbquests.chapter.irons_spells.quest3B8EAE4FDCA05E67.description7}"
 				""
-				"When equipped, pressing &2RMB&r will cast your currently selected spell."
+				"{ftbquests.chapter.irons_spells.quest3B8EAE4FDCA05E67.description8}"
 			]
 			icon: "irons_spellbooks:artificer_cane"
 			id: "3B8EAE4FDCA05E67"
@@ -207,7 +207,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
-			subtitle: "Boosts spells when equipped."
+			subtitle: "{ftbquests.chapter.irons_spells.quest3B8EAE4FDCA05E67.subtitle}"
 			tasks: [
 				{
 					id: "59DDEE79C03B5E32"
@@ -235,21 +235,21 @@
 					type: "item"
 				}
 			]
-			title: "Magic Staffs"
+			title: "{ftbquests.chapter.irons_spells.quest3B8EAE4FDCA05E67.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &eOverview&r"
-				"[gap=0]"
-				"Essential magical fluids used for crafting and refining your scrolls."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"The quality of the ink directly affects the power of the scrolls created, and some higher-tier scrolls will strictly require high-quality ink."
-				"&6They are also fully craftable!"
+				"{ftbquests.chapter.irons_spells.quest53DC9A5CF68C84D5.description1}"
+				"{ftbquests.chapter.irons_spells.quest53DC9A5CF68C84D5.description2}"
+				"{ftbquests.chapter.irons_spells.quest53DC9A5CF68C84D5.description3}"
+				"{ftbquests.chapter.irons_spells.quest53DC9A5CF68C84D5.description4}"
+				"{ftbquests.chapter.irons_spells.quest53DC9A5CF68C84D5.description5}"
+				"{ftbquests.chapter.irons_spells.quest53DC9A5CF68C84D5.description6}"
+				"{ftbquests.chapter.irons_spells.quest53DC9A5CF68C84D5.description7}"
+				"{ftbquests.chapter.irons_spells.quest53DC9A5CF68C84D5.description8}"
 			]
 			icon: "irons_spellbooks:common_ink"
 			id: "53DC9A5CF68C84D5"
@@ -261,7 +261,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
-			subtitle: "Used to create magic scrolls."
+			subtitle: "{ftbquests.chapter.irons_spells.quest53DC9A5CF68C84D5.subtitle}"
 			tasks: [
 				{
 					id: "5E8CACE3FDB8B9C9"
@@ -289,20 +289,20 @@
 					type: "item"
 				}
 			]
-			title: "Inks"
+			title: "{ftbquests.chapter.irons_spells.quest53DC9A5CF68C84D5.title}"
 			x: 1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &eOverview&r"
-				"[gap=0]"
-				"Powerful catalytic items used to infuse your equipment with extra attributes."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"One item can be upgraded up to 3 times on the &dArcane Anvil&r."
+				"{ftbquests.chapter.irons_spells.quest2865334DD8DAB586.description1}"
+				"{ftbquests.chapter.irons_spells.quest2865334DD8DAB586.description2}"
+				"{ftbquests.chapter.irons_spells.quest2865334DD8DAB586.description3}"
+				"{ftbquests.chapter.irons_spells.quest2865334DD8DAB586.description4}"
+				"{ftbquests.chapter.irons_spells.quest2865334DD8DAB586.description5}"
+				"{ftbquests.chapter.irons_spells.quest2865334DD8DAB586.description6}"
+				"{ftbquests.chapter.irons_spells.quest2865334DD8DAB586.description7}"
 			]
 			icon: "irons_spellbooks:upgrade_orb"
 			id: "2865334DD8DAB586"
@@ -313,7 +313,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
-			subtitle: "Used to improve armor."
+			subtitle: "{ftbquests.chapter.irons_spells.quest2865334DD8DAB586.subtitle}"
 			tasks: [
 				{
 					id: "1246CFAA2FF2F8CD"
@@ -396,20 +396,20 @@
 					type: "item"
 				}
 			]
-			title: "Upgrade Orbs"
+			title: "{ftbquests.chapter.irons_spells.quest2865334DD8DAB586.title}"
 			x: 3.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &eOverview&r"
-				"[gap=0]"
-				"A valuable upgrade item used to expand the limits of your spellbook slots."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"To upgrade your spell capacity, combine a &aSpell Book&r and any &aSpell Slot Improvement&r item on the &bArcane Anvil&r."
+				"{ftbquests.chapter.irons_spells.quest48CBE8361506CA28.description1}"
+				"{ftbquests.chapter.irons_spells.quest48CBE8361506CA28.description2}"
+				"{ftbquests.chapter.irons_spells.quest48CBE8361506CA28.description3}"
+				"{ftbquests.chapter.irons_spells.quest48CBE8361506CA28.description4}"
+				"{ftbquests.chapter.irons_spells.quest48CBE8361506CA28.description5}"
+				"{ftbquests.chapter.irons_spells.quest48CBE8361506CA28.description6}"
+				"{ftbquests.chapter.irons_spells.quest48CBE8361506CA28.description7}"
 			]
 			id: "48CBE8361506CA28"
 			rewards: [{
@@ -419,7 +419,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
-			subtitle: "Improves Spell Book capacity, up to 15 slots!"
+			subtitle: "{ftbquests.chapter.irons_spells.quest48CBE8361506CA28.subtitle}"
 			tasks: [
 				{
 					id: "4D8FDE0B3DDEB22A"
@@ -437,22 +437,22 @@
 					type: "item"
 				}
 			]
-			title: "Spell Slot Improvement"
+			title: "{ftbquests.chapter.irons_spells.quest48CBE8361506CA28.title}"
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &eOverview&r"
-				"[gap=0]"
-				"The primary tools for holding and casting your collection of discovered spells."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"All basic spell books can be crafted from a combination of vanilla and arcane materials.  "
+				"{ftbquests.chapter.irons_spells.quest5626E43438CCA6BF.description1}"
+				"{ftbquests.chapter.irons_spells.quest5626E43438CCA6BF.description2}"
+				"{ftbquests.chapter.irons_spells.quest5626E43438CCA6BF.description3}"
+				"{ftbquests.chapter.irons_spells.quest5626E43438CCA6BF.description4}"
+				"{ftbquests.chapter.irons_spells.quest5626E43438CCA6BF.description5}"
+				"{ftbquests.chapter.irons_spells.quest5626E43438CCA6BF.description6}"
+				"{ftbquests.chapter.irons_spells.quest5626E43438CCA6BF.description7}"
 				""
-				"Each further tier crafted increases the slot count of the spell book and often comes with extra bonuses, increasing the power and quantity of spells it can contain."
+				"{ftbquests.chapter.irons_spells.quest5626E43438CCA6BF.description8}"
 			]
 			icon: {
 				Count: 1
@@ -474,7 +474,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
-			subtitle: "Can hold multiple spells."
+			subtitle: "{ftbquests.chapter.irons_spells.quest5626E43438CCA6BF.subtitle}"
 			tasks: [
 				{
 					id: "2A9DEE646EECF410"
@@ -573,23 +573,23 @@
 					type: "item"
 				}
 			]
-			title: "Basic Spell Books"
+			title: "{ftbquests.chapter.irons_spells.quest5626E43438CCA6BF.title}"
 			x: -1.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &8Grimoire of evocation&r"
-				"[gap=0]"
-				"A dangerous tome packed with the aggressive summoning and combat magic of the Illagers."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eOverview&r"
-				"[gap=0]"
-				"Can be dropped by &cEvokers&r or their more powerful cousin, &cArchevokers&r."
-				"The spells inside the book are initially locked but can be improved by combining the book in the &bArcane Anvil&r with a higher-level scroll of the same spell."
+				"{ftbquests.chapter.irons_spells.quest658C312ACFA0115A.description1}"
+				"{ftbquests.chapter.irons_spells.quest658C312ACFA0115A.description2}"
+				"{ftbquests.chapter.irons_spells.quest658C312ACFA0115A.description3}"
+				"{ftbquests.chapter.irons_spells.quest658C312ACFA0115A.description4}"
+				"{ftbquests.chapter.irons_spells.quest658C312ACFA0115A.description5}"
+				"{ftbquests.chapter.irons_spells.quest658C312ACFA0115A.description6}"
+				"{ftbquests.chapter.irons_spells.quest658C312ACFA0115A.description7}"
+				"{ftbquests.chapter.irons_spells.quest658C312ACFA0115A.description8}"
+				"{ftbquests.chapter.irons_spells.quest658C312ACFA0115A.description9}"
+				"{ftbquests.chapter.irons_spells.quest658C312ACFA0115A.description10}"
 			]
 			id: "658C312ACFA0115A"
 			min_width: 220
@@ -600,14 +600,14 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "A book full of foundational illager magicl"
+			subtitle: "{ftbquests.chapter.irons_spells.quest658C312ACFA0115A.subtitle}"
 			tasks: [{
 				id: "6A72554F9681766E"
 				item: {
 					Count: 1
 					id: "irons_spellbooks:evoker_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [
 								{
 									id: "irons_spellbooks:fang_strike"
@@ -642,16 +642,16 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &cNecronomicon&r"
-				"[gap=0]"
-				"A dark and powerful tome bound with forbidden, high-level necromancy magic."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eOverview&r"
-				"[gap=0]"
-				"Can only be acquired by taking it from its undead owner."
-				"The spells inside the book are initially locked but can be improved by combining the book in the &bArcane Anvil&r with a higher-level scroll of the same spell."
+				"{ftbquests.chapter.irons_spells.quest9288748C3158E41.description1}"
+				"{ftbquests.chapter.irons_spells.quest9288748C3158E41.description2}"
+				"{ftbquests.chapter.irons_spells.quest9288748C3158E41.description3}"
+				"{ftbquests.chapter.irons_spells.quest9288748C3158E41.description4}"
+				"{ftbquests.chapter.irons_spells.quest9288748C3158E41.description5}"
+				"{ftbquests.chapter.irons_spells.quest9288748C3158E41.description6}"
+				"{ftbquests.chapter.irons_spells.quest9288748C3158E41.description7}"
+				"{ftbquests.chapter.irons_spells.quest9288748C3158E41.description8}"
+				"{ftbquests.chapter.irons_spells.quest9288748C3158E41.description9}"
+				"{ftbquests.chapter.irons_spells.quest9288748C3158E41.description10}"
 			]
 			id: "09288748C3158E41"
 			min_width: 220
@@ -662,7 +662,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "An ancient book holding a host of dark spells."
+			subtitle: "{ftbquests.chapter.irons_spells.quest9288748C3158E41.subtitle}"
 			tasks: [{
 				id: "1F3C2260973374A8"
 				item: {
@@ -670,7 +670,7 @@
 					id: "irons_spellbooks:necronomicon_spell_book"
 					tag: {
 						ISBEnhance: "irons_spellbooks:raise_dead"
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [
 								{
 									id: "irons_spellbooks:blood_slash"
@@ -711,20 +711,20 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &aRotten spellbook&r"
-				"[gap=0]"
-				"A decayed spellbook containing remnants of weak magical energy."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eOverview&r"
-				"[gap=0]"
-				"They can be looted from equally rotten places all across the Overworld."
-				"&7What may have once been a more&r"
-				"[gap=-5]"
-				"&7powerful book has since rotted&r"
-				"[gap=-5]"
-				"&7away, leaving but three pages.&r"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description1}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description2}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description3}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description4}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description5}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description6}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description7}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description8}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description9}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description10}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description11}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description12}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description13}"
+				"{ftbquests.chapter.irons_spells.questA09D61DC2061A01.description14}"
 			]
 			id: "0A09D61DC2061A01"
 			min_width: 220
@@ -735,7 +735,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Yet, still more powerful than most Overworld spell books."
+			subtitle: "{ftbquests.chapter.irons_spells.questA09D61DC2061A01.subtitle}"
 			tasks: [{
 				id: "1ECE6E4FB3D33389"
 				item: {
@@ -758,15 +758,15 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &6Blaze instruction manual&r"
-				"[gap=0]"
-				"A scorched guide containing the volatile methods of high-tier fire casting."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eOverview&r"
-				"[gap=0]"
-				"The trick is killing &cBlazes&r and hoping this manual doesn't turn into ash along with them."
+				"{ftbquests.chapter.irons_spells.quest7F36F2B65B98328.description1}"
+				"{ftbquests.chapter.irons_spells.quest7F36F2B65B98328.description2}"
+				"{ftbquests.chapter.irons_spells.quest7F36F2B65B98328.description3}"
+				"{ftbquests.chapter.irons_spells.quest7F36F2B65B98328.description4}"
+				"{ftbquests.chapter.irons_spells.quest7F36F2B65B98328.description5}"
+				"{ftbquests.chapter.irons_spells.quest7F36F2B65B98328.description6}"
+				"{ftbquests.chapter.irons_spells.quest7F36F2B65B98328.description7}"
+				"{ftbquests.chapter.irons_spells.quest7F36F2B65B98328.description8}"
+				"{ftbquests.chapter.irons_spells.quest7F36F2B65B98328.description9}"
 			]
 			id: "07F36F2B65B98328"
 			min_width: 220
@@ -777,7 +777,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Every Blaze, unbeknownst to them, comes with one of these tucked away."
+			subtitle: "{ftbquests.chapter.irons_spells.quest7F36F2B65B98328.subtitle}"
 			tasks: [{
 				id: "59E4CFDF81461FD2"
 				item: {
@@ -800,15 +800,15 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &eVillagers bible&r"
-				"[gap=0]"
-				"A sacred tome filled with holy spells and protective villager magic."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eOverview&r"
-				"[gap=0]"
-				"Building a reputation with the villagers, especially by freeing captives from the &cArchevoker&r, will ensure one falls into your hands eventually. Or just craft it."
+				"{ftbquests.chapter.irons_spells.quest346DC035C0E16986.description1}"
+				"{ftbquests.chapter.irons_spells.quest346DC035C0E16986.description2}"
+				"{ftbquests.chapter.irons_spells.quest346DC035C0E16986.description3}"
+				"{ftbquests.chapter.irons_spells.quest346DC035C0E16986.description4}"
+				"{ftbquests.chapter.irons_spells.quest346DC035C0E16986.description5}"
+				"{ftbquests.chapter.irons_spells.quest346DC035C0E16986.description6}"
+				"{ftbquests.chapter.irons_spells.quest346DC035C0E16986.description7}"
+				"{ftbquests.chapter.irons_spells.quest346DC035C0E16986.description8}"
+				"{ftbquests.chapter.irons_spells.quest346DC035C0E16986.description9}"
 			]
 			id: "346DC035C0E16986"
 			min_width: 220
@@ -819,7 +819,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "A regular book with a little blessing makes a suitable channel for divine magic."
+			subtitle: "{ftbquests.chapter.irons_spells.quest346DC035C0E16986.subtitle}"
 			tasks: [{
 				id: "24AB49624019F871"
 				item: {
@@ -842,17 +842,17 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &aDruidic tome&r"
-				"[gap=0]"
-				"A sacred book brimming with nature magic and ancient forest blessings."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eOverview&r"
-				"[gap=0]"
-				"The book may be blessed anew if a proper remedy were applied to"
-				"[gap=-5]"
-				"restore its faded magic."
+				"{ftbquests.chapter.irons_spells.quest699C8E14223E8223.description1}"
+				"{ftbquests.chapter.irons_spells.quest699C8E14223E8223.description2}"
+				"{ftbquests.chapter.irons_spells.quest699C8E14223E8223.description3}"
+				"{ftbquests.chapter.irons_spells.quest699C8E14223E8223.description4}"
+				"{ftbquests.chapter.irons_spells.quest699C8E14223E8223.description5}"
+				"{ftbquests.chapter.irons_spells.quest699C8E14223E8223.description6}"
+				"{ftbquests.chapter.irons_spells.quest699C8E14223E8223.description7}"
+				"{ftbquests.chapter.irons_spells.quest699C8E14223E8223.description8}"
+				"{ftbquests.chapter.irons_spells.quest699C8E14223E8223.description9}"
+				"{ftbquests.chapter.irons_spells.quest699C8E14223E8223.description10}"
+				"{ftbquests.chapter.irons_spells.quest699C8E14223E8223.description11}"
 			]
 			id: "699C8E14223E8223"
 			min_width: 220
@@ -863,7 +863,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "A strong magical energy still persists within the Rotten Spell Book."
+			subtitle: "{ftbquests.chapter.irons_spells.quest699C8E14223E8223.subtitle}"
 			tasks: [{
 				id: "2701DF896E7BB617"
 				item: {
@@ -886,25 +886,25 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &eOverview&r"
-				"[gap=0]"
-				"The base material and the foundation for starting your journey into the arcane."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"After you understand the basics of this material, please choose a specific magic class and progress with it."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eAcquisition:&r"
-				"[gap=0]"
-				"Found sparsely in"
-				"[gap=-5]"
-				"&7abandoned structures&r,"
-				"[gap=3]"
-				"And drops from"
-				"[gap=-5]"
-				"&cenemies who wield magic&r."
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description1}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description2}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description3}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description4}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description5}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description6}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description7}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description8}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description9}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description10}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description11}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description12}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description13}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description14}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description15}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description16}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description17}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description18}"
+				"{ftbquests.chapter.irons_spells.quest639FF6600F71C061.description19}"
 			]
 			id: "639FF6600F71C061"
 			rewards: [{
@@ -914,7 +914,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
-			subtitle: "Basic material."
+			subtitle: "{ftbquests.chapter.irons_spells.quest639FF6600F71C061.subtitle}"
 			tasks: [{
 				id: "157E135E530BD01B"
 				item: "irons_spellbooks:arcane_essence"
@@ -926,13 +926,13 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &eOverview&r"
-				"[gap=0]"
-				"A rare and fiery material needed for high-tier fire and combat magic."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Dropped from &cAncient Knights&r, which can be awakened by breaking armor piles found within structures."
+				"{ftbquests.chapter.irons_spells.quest24B9A744A69E6209.description1}"
+				"{ftbquests.chapter.irons_spells.quest24B9A744A69E6209.description2}"
+				"{ftbquests.chapter.irons_spells.quest24B9A744A69E6209.description3}"
+				"{ftbquests.chapter.irons_spells.quest24B9A744A69E6209.description4}"
+				"{ftbquests.chapter.irons_spells.quest24B9A744A69E6209.description5}"
+				"{ftbquests.chapter.irons_spells.quest24B9A744A69E6209.description6}"
+				"{ftbquests.chapter.irons_spells.quest24B9A744A69E6209.description7}"
 			]
 			id: "24B9A744A69E6209"
 			rewards: [{
@@ -942,7 +942,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
-			subtitle: "Advanced material."
+			subtitle: "{ftbquests.chapter.irons_spells.quest24B9A744A69E6209.subtitle}"
 			tasks: [{
 				id: "3B7D1C96A4A3F100"
 				item: "irons_spellbooks:cinder_essence"
@@ -954,21 +954,21 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &bGuide to watery whispers&r"
-				"[gap=0]"
-				"A rare textbook detailing the deep secrets of high-tier water magic."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eOverview&r"
-				"[gap=0]"
-				"Return &9'The Sunken Fate'&r lore book to the &bAqua Grandmaster&r to obtain this guide."
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description1}"
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description2}"
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description3}"
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description4}"
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description5}"
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description6}"
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description7}"
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description8}"
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description9}"
 				""
-				"&9'The Sunken Fate'&r can be found"
-				"[gap=-5]"
-				"resting inside the dangerous"
-				"[gap=-5]"
-				"&3Aquamancer Tower&r."
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description10}"
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description11}"
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description12}"
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description13}"
+				"{ftbquests.chapter.irons_spells.quest357F635424C03A08.description14}"
 			]
 			id: "357F635424C03A08"
 			min_width: 220
@@ -979,7 +979,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Strengthen Your Aquatic Spells"
+			subtitle: "{ftbquests.chapter.irons_spells.quest357F635424C03A08.subtitle}"
 			tasks: [{
 				id: "2FE404F7EBA442B1"
 				item: {
@@ -1002,15 +1002,15 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &9Codex of the crushing depths&r"
-				"[gap=0]"
-				"A heavy, waterlogged tome containing the immense and destructive magic of the deep ocean."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eOverview&r"
-				"[gap=0]"
-				"Can be obtained by slaying the massive and dangerous &bHullbreaker&r."
+				"{ftbquests.chapter.irons_spells.quest48E7A868AB26C5EE.description1}"
+				"{ftbquests.chapter.irons_spells.quest48E7A868AB26C5EE.description2}"
+				"{ftbquests.chapter.irons_spells.quest48E7A868AB26C5EE.description3}"
+				"{ftbquests.chapter.irons_spells.quest48E7A868AB26C5EE.description4}"
+				"{ftbquests.chapter.irons_spells.quest48E7A868AB26C5EE.description5}"
+				"{ftbquests.chapter.irons_spells.quest48E7A868AB26C5EE.description6}"
+				"{ftbquests.chapter.irons_spells.quest48E7A868AB26C5EE.description7}"
+				"{ftbquests.chapter.irons_spells.quest48E7A868AB26C5EE.description8}"
+				"{ftbquests.chapter.irons_spells.quest48E7A868AB26C5EE.description9}"
 			]
 			id: "48E7A868AB26C5EE"
 			min_width: 220
@@ -1021,7 +1021,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Learn The Power Of Water"
+			subtitle: "{ftbquests.chapter.irons_spells.quest48E7A868AB26C5EE.subtitle}"
 			tasks: [{
 				id: "6B344D0E4E34749C"
 				item: {
@@ -1029,7 +1029,7 @@
 					id: "traveloptics:codex_of_the_crushing_depths"
 					tag: {
 						ISBEnhance: "traveloptics:vortex_of_the_deep"
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [{
 								id: "traveloptics:aqua_missiles"
 								index: 0
@@ -1050,15 +1050,15 @@
 		{
 			dependencies: ["26A7D1040CEE5059"]
 			description: [
-				"### &9Archive of abyssal secrets&r"
-				"[gap=0]"
-				"A legendary archive holding the dark, forgotten magic of the deep ocean."
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"### &eOverview&r"
-				"[gap=0]"
-				"This incredibly rare text can only be acquired as a drop by defeating the terrifying &dLeviathan&r."
+				"{ftbquests.chapter.irons_spells.quest7CCACE9185BBDF32.description1}"
+				"{ftbquests.chapter.irons_spells.quest7CCACE9185BBDF32.description2}"
+				"{ftbquests.chapter.irons_spells.quest7CCACE9185BBDF32.description3}"
+				"{ftbquests.chapter.irons_spells.quest7CCACE9185BBDF32.description4}"
+				"{ftbquests.chapter.irons_spells.quest7CCACE9185BBDF32.description5}"
+				"{ftbquests.chapter.irons_spells.quest7CCACE9185BBDF32.description6}"
+				"{ftbquests.chapter.irons_spells.quest7CCACE9185BBDF32.description7}"
+				"{ftbquests.chapter.irons_spells.quest7CCACE9185BBDF32.description8}"
+				"{ftbquests.chapter.irons_spells.quest7CCACE9185BBDF32.description9}"
 			]
 			id: "7CCACE9185BBDF32"
 			min_width: 220
@@ -1069,7 +1069,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "From the Abyss"
+			subtitle: "{ftbquests.chapter.irons_spells.quest7CCACE9185BBDF32.subtitle}"
 			tasks: [{
 				id: "6FBFED85A8AABF57"
 				item: {
@@ -1077,7 +1077,7 @@
 					id: "traveloptics:archive_of_abyssal_secrets"
 					tag: {
 						ISBEnhance: "traveloptics:cursed_minefield"
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [
 								{
 									id: "traveloptics:shadowed_miasma"
@@ -1114,7 +1114,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Spellbook Of The Imprisoned"
+			subtitle: "{ftbquests.chapter.irons_spells.questF59A4267B1D5CFB.subtitle}"
 			tasks: [{
 				id: "71247EB19614AC36"
 				item: {
@@ -1122,7 +1122,7 @@
 					id: "traveloptics:the_accused_codex"
 					tag: {
 						ISBEnhance: "traveloptics:cursed_blast"
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [{
 								id: "traveloptics:halberd_horizon"
 								index: 0
@@ -1151,7 +1151,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Spellbook of The Once Greatest"
+			subtitle: "{ftbquests.chapter.irons_spells.quest27868C09368C8ABA.subtitle}"
 			tasks: [{
 				id: "4154A761909FDD1A"
 				item: {
@@ -1159,7 +1159,7 @@
 					id: "traveloptics:chronicles_of_the_firelord"
 					tag: {
 						ISBEnhance: "traveloptics:burning_judgment"
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [
 								{
 									id: "irons_spellbooks:flaming_strike"
@@ -1196,7 +1196,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Spellbook of Nature.. a crab"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2B3B25F58765A240.subtitle}"
 			tasks: [{
 				id: "580BCBA3E9ADF88B"
 				item: {
@@ -1218,22 +1218,22 @@
 		}
 		{
 			description: [
-				"### &eOverview&r"
-				"[gap=0]"
-				"A guide book for the premier magic mod, featuring high-quality spell content and powerful magical abilities."
-				"[gap=2]"
-				"[gap=5]"
-				"This questline itself is highly inspired by the Beyond The Horizons modpack."
-				"[gap=3]"
-				"&8Nearly all credit for this questline goes to them. Thanks to their team for making such a beautiful questline.&r"
-				"[gap=5]"
-				"---"
-				"[gap=5]"
-				"Iron's Spellbooks introduces a complete magic system focused on casting powerful spells, upgrading your gear, and exploring dangerous structures."
-				"[gap=5]"
-				"[gap=5]"
-				"&eEssential materials and spell scrolls can be found in structures.&r"
-				"[gap=5]"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description1}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description2}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description3}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description4}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description5}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description6}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description7}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description8}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description9}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description10}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description11}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description12}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description13}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description14}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description15}"
+				"{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.description16}"
 			]
 			disable_toast: true
 			hide_dependency_lines: true
@@ -1260,13 +1260,13 @@
 			}]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Internal wiki"
+			subtitle: "{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.subtitle}"
 			tasks: [{
 				id: "488E193441A77827"
-				title: "Okay"
+				title: "{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.task.5228143929654212647.title}"
 				type: "checkmark"
 			}]
-			title: "Iron's Guidebook"
+			title: "{ftbquests.chapter.irons_spells.quest26A7D1040CEE5059.title}"
 			x: 1.0d
 			y: -5.2d
 		}
@@ -1281,7 +1281,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Spellbook Of The Stone Pillar"
+			subtitle: "{ftbquests.chapter.irons_spells.quest25461DBDB4AA8CF4.subtitle}"
 			tasks: [{
 				id: "083FF2171146445B"
 				item: {
@@ -1289,7 +1289,7 @@
 					id: "gtbcs_geomancy_plus:codex_of_shattered_horizons"
 					tag: {
 						ISBEnhance: "gtbcs_geomancy_plus:pillar_of_the_resounding_earth"
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [{
 								id: "gtbcs_geomancy_plus:geo_conductor"
 								index: 0
@@ -1318,7 +1318,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Spellbook Of The Geo Student"
+			subtitle: "{ftbquests.chapter.irons_spells.quest2B133ADA2F4DFF4B.subtitle}"
 			tasks: [{
 				id: "7AB49C6384FFBC5F"
 				item: {
@@ -1349,7 +1349,7 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "Magnetic Spellbook"
+			subtitle: "{ftbquests.chapter.irons_spells.quest36CC29620C8341CD.subtitle}"
 			tasks: [{
 				id: "41D65477FF887CC3"
 				item: {
@@ -1370,5 +1370,5 @@
 			y: 1.5d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#35FCF9 to=#6E2BFF>Iron's Spells</grad></shadow>"
+	title: "{ftbquests.chapter.irons_spells.title}"
 }

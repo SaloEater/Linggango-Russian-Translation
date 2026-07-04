@@ -10,10 +10,10 @@
 		dev: true
 		height: 1.0d
 		hover: [
-			"All rights are reserved."
-			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			"ftbquests.chapter.ender_element.image.hovertext1"
+			"ftbquests.chapter.ender_element.image.hovertext2"
+			"ftbquests.chapter.ender_element.image.hovertext3"
+			"ftbquests.chapter.ender_element.image.hovertext4"
 		]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
@@ -32,13 +32,13 @@
 			id: "54FA294EAFF09CCF"
 			shape: "none"
 			size: 2.5d
-			subtitle: "The Ender school is themed around all things arcane and mystical, with spells that range from damage to utility to mobility."
+			subtitle: "{ftbquests.chapter.ender_element.quest54FA294EAFF09CCF.subtitle}"
 			tasks: [{
 				id: "38B371DBBD36DD30"
 				item: "irons_spellbooks:ender_rune"
 				type: "item"
 			}]
-			title: "Ender magic"
+			title: "{ftbquests.chapter.ender_element.quest54FA294EAFF09CCF.title}"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -54,7 +54,7 @@
 			icon_scale: 1.4d
 			id: "47E6BAC77BA59093"
 			shape: "square"
-			subtitle: "Around a targeted location, create a fissure into the void, manifesting a black hole that will suck in nearby creatures and slowly crush them to death."
+			subtitle: "{ftbquests.chapter.ender_element.quest47E6BAC77BA59093.subtitle}"
 			tasks: [{
 				id: "7B1B830B4055E7C0"
 				item: {
@@ -77,18 +77,18 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Black Hole"
+			title: "{ftbquests.chapter.ender_element.quest47E6BAC77BA59093.title}"
 			x: -1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["54FA294EAFF09CCF"]
 			description: [
-				"Interrupt player and mob casting"
-				"Banishes summoned shield , blood slash , creeper head"
-				"Banishes summoned creatures"
-				"Removes root"
-				"Removes mob effects like fortify or evasion"
+				"{ftbquests.chapter.ender_element.questA50879F77A82D85.description1}"
+				"{ftbquests.chapter.ender_element.questA50879F77A82D85.description2}"
+				"{ftbquests.chapter.ender_element.questA50879F77A82D85.description3}"
+				"{ftbquests.chapter.ender_element.questA50879F77A82D85.description4}"
+				"{ftbquests.chapter.ender_element.questA50879F77A82D85.description5}"
 			]
 			icon: {
 				Count: 1
@@ -100,7 +100,7 @@
 			icon_scale: 1.4d
 			id: "0A50879F77A82D85"
 			shape: "square"
-			subtitle: "Stop effects of other magic."
+			subtitle: "{ftbquests.chapter.ender_element.questA50879F77A82D85.subtitle}"
 			tasks: [{
 				id: "7F5AC069BE9177AD"
 				item: {
@@ -123,7 +123,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Counterspell"
+			title: "{ftbquests.chapter.ender_element.questA50879F77A82D85.title}"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -139,7 +139,7 @@
 			icon_scale: 1.4d
 			id: "4DC9E88A5EE200B6"
 			shape: "square"
-			subtitle: "Hold to spew a cone of dragon breath forwards. Each time a creature is hit, there is a chance to create a pool of dragon breath at their feet."
+			subtitle: "{ftbquests.chapter.ender_element.quest4DC9E88A5EE200B6.subtitle}"
 			tasks: [{
 				id: "6184AAC6662345FF"
 				item: {
@@ -162,7 +162,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Dragon Breath"
+			title: "{ftbquests.chapter.ender_element.quest4DC9E88A5EE200B6.title}"
 			x: 1.0d
 			y: 0.5d
 		}
@@ -178,7 +178,7 @@
 			icon_scale: 1.4d
 			id: "4EA50CAF62FCD50A"
 			shape: "square"
-			subtitle: "While under the effects of the spell, non-magical attacks will leave an echo of ender energy behind, shortly thereafter exploding with an echo of the original attack's damage."
+			subtitle: "{ftbquests.chapter.ender_element.quest4EA50CAF62FCD50A.subtitle}"
 			tasks: [{
 				id: "4BEAEF3B5A6E5B63"
 				item: {
@@ -201,7 +201,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Echoing Strikes"
+			title: "{ftbquests.chapter.ender_element.quest4EA50CAF62FCD50A.title}"
 			x: -1.0d
 			y: 1.5d
 		}
@@ -217,7 +217,7 @@
 			icon_scale: 1.4d
 			id: "3F51C96AF372AAD1"
 			shape: "square"
-			subtitle: "Cast to imbue yourself with ender energy. Upon being attacked while under its effects, you will immediately teleport within a short radius and avoid taking any damage. Only a finite amount of hits can be dodged before the effect immediately wears off."
+			subtitle: "{ftbquests.chapter.ender_element.quest3F51C96AF372AAD1.subtitle}"
 			tasks: [{
 				id: "6DFC393F41F190D5"
 				item: {
@@ -240,7 +240,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Evasion"
+			title: "{ftbquests.chapter.ender_element.quest3F51C96AF372AAD1.title}"
 			x: 0.0d
 			y: 0.5d
 		}
@@ -256,7 +256,7 @@
 			icon_scale: 1.4d
 			id: "46B574404FE263A6"
 			shape: "square"
-			subtitle: "Hold to charge a piercing arrow made of arcane energy. This arrow has no gravity and can travel through blocks."
+			subtitle: "{ftbquests.chapter.ender_element.quest46B574404FE263A6.subtitle}"
 			tasks: [{
 				id: "0EDCCC979E802A30"
 				item: {
@@ -279,7 +279,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Magic Arrow"
+			title: "{ftbquests.chapter.ender_element.quest46B574404FE263A6.title}"
 			x: -1.0d
 			y: 3.5d
 		}
@@ -295,7 +295,7 @@
 			icon_scale: 1.4d
 			id: "09A524E6ECDFD5E9"
 			shape: "square"
-			subtitle: "Creates two portals that allows players to travel back and forth between them."
+			subtitle: "{ftbquests.chapter.ender_element.quest9A524E6ECDFD5E9.subtitle}"
 			tasks: [{
 				id: "28A15E441EADBA31"
 				item: {
@@ -318,7 +318,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Portal"
+			title: "{ftbquests.chapter.ender_element.quest9A524E6ECDFD5E9.title}"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -334,7 +334,7 @@
 			icon_scale: 1.4d
 			id: "2D8B5735A8E735A5"
 			shape: "square"
-			subtitle: "Warps you back to your spawn location, or world spawn if there is none."
+			subtitle: "{ftbquests.chapter.ender_element.quest2D8B5735A8E735A5.subtitle}"
 			tasks: [{
 				id: "4BE6CEDE538707BC"
 				item: {
@@ -357,7 +357,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Recall"
+			title: "{ftbquests.chapter.ender_element.quest2D8B5735A8E735A5.title}"
 			x: 1.0d
 			y: 1.5d
 		}
@@ -373,7 +373,7 @@
 			icon_scale: 1.4d
 			id: "50BA6B940B1C9527"
 			shape: "square"
-			subtitle: "Target a single area and continuously rain down arcane comets from above for the duration of the spell."
+			subtitle: "{ftbquests.chapter.ender_element.quest50BA6B940B1C9527.subtitle}"
 			tasks: [{
 				id: "09FA88693A4E8578"
 				item: {
@@ -396,7 +396,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Starfall"
+			title: "{ftbquests.chapter.ender_element.quest50BA6B940B1C9527.title}"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -412,7 +412,7 @@
 			icon_scale: 1.4d
 			id: "33447D646C027194"
 			shape: "square"
-			subtitle: "Apparate your Ender Chest inventory upon casting."
+			subtitle: "{ftbquests.chapter.ender_element.quest33447D646C027194.subtitle}"
 			tasks: [{
 				id: "59E985698DF222F6"
 				item: {
@@ -435,7 +435,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Summon Ender Chest"
+			title: "{ftbquests.chapter.ender_element.quest33447D646C027194.title}"
 			x: -1.0d
 			y: 2.5d
 		}
@@ -451,7 +451,7 @@
 			icon_scale: 1.4d
 			id: "23D9F676599C974B"
 			shape: "square"
-			subtitle: "Instantaneously teleport to where you are looking, leaving nothing but a cloud of ender energy behind."
+			subtitle: "{ftbquests.chapter.ender_element.quest23D9F676599C974B.subtitle}"
 			tasks: [{
 				id: "762CF98391E9C203"
 				item: {
@@ -474,7 +474,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Teleport"
+			title: "{ftbquests.chapter.ender_element.quest23D9F676599C974B.title}"
 			x: 1.0d
 			y: 2.5d
 		}
@@ -490,7 +490,7 @@
 			icon_scale: 1.4d
 			id: "56C07209A8A2139E"
 			shape: "square"
-			subtitle: "Shoot a bolt of concentrated arcane magic. Also a trademark of every wizard."
+			subtitle: "{ftbquests.chapter.ender_element.quest56C07209A8A2139E.subtitle}"
 			tasks: [{
 				id: "0E233C11B1C1539C"
 				item: {
@@ -513,7 +513,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Magic Missile"
+			title: "{ftbquests.chapter.ender_element.quest56C07209A8A2139E.title}"
 			x: 1.0d
 			y: 3.5d
 		}
@@ -1202,5 +1202,5 @@
 			y: 10.5d
 		}
 	]
-	title: "<grad from=#B82AFA to=#E5ADFF>Ender Element</grad>"
+	title: "{ftbquests.chapter.ender_element.title}"
 }

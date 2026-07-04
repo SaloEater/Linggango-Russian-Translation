@@ -10,10 +10,10 @@
 		dev: true
 		height: 1.0d
 		hover: [
-			"All rights are reserved."
-			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			"ftbquests.chapter.geo_element.image.hovertext1"
+			"ftbquests.chapter.geo_element.image.hovertext2"
+			"ftbquests.chapter.geo_element.image.hovertext3"
+			"ftbquests.chapter.geo_element.image.hovertext4"
 		]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
@@ -37,7 +37,7 @@
 			icon_scale: 1.4d
 			id: "19882BDEF9DECAE2"
 			shape: "square"
-			subtitle: "Conjure an earthquake around a targeted creature or location, causing tremors to ripple through the ground, damaging and slowing creatures in the area."
+			subtitle: "{ftbquests.chapter.geo_element.quest19882BDEF9DECAE2.subtitle}"
 			tasks: [{
 				id: "132808E03952C3AF"
 				item: {
@@ -60,7 +60,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Earthquake"
+			title: "{ftbquests.chapter.geo_element.quest19882BDEF9DECAE2.title}"
 			x: -0.5d
 			y: 6.5d
 		}
@@ -76,7 +76,7 @@
 			icon_scale: 1.4d
 			id: "178CF795805FBF3F"
 			shape: "square"
-			subtitle: "With a magic force, stomp the ground in front of you and send a short tremor forward through the ground, damaging creatures in its path."
+			subtitle: "{ftbquests.chapter.geo_element.quest178CF795805FBF3F.subtitle}"
 			tasks: [{
 				id: "510C77496647C2DF"
 				item: {
@@ -99,7 +99,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Stomp"
+			title: "{ftbquests.chapter.geo_element.quest178CF795805FBF3F.title}"
 			x: -2.5d
 			y: 7.5d
 		}
@@ -109,7 +109,7 @@
 			id: "48FDBB568F3CC566"
 			shape: "none"
 			size: 2.5d
-			subtitle: "Geo rune focuses on crowd control, dealing high damage with entire mop :D"
+			subtitle: "{ftbquests.chapter.geo_element.quest48FDBB568F3CC566.subtitle}"
 			tasks: [{
 				id: "2DF2E66A75EAC2D2"
 				item: "gtbcs_geomancy_plus:geo_rune"
@@ -130,7 +130,7 @@
 			icon_scale: 1.4d
 			id: "5E6F3BC05F4BF11E"
 			shape: "square"
-			subtitle: "Send fast, small drip stones to the target, piercing through."
+			subtitle: "{ftbquests.chapter.geo_element.quest5E6F3BC05F4BF11E.subtitle}"
 			tasks: [{
 				id: "293522ADAE1A2FD5"
 				item: {
@@ -152,7 +152,7 @@
 				}
 				type: "item"
 			}]
-			title: "Dripstone Bolt"
+			title: "{ftbquests.chapter.geo_element.quest5E6F3BC05F4BF11E.title}"
 			x: -2.5d
 			y: 2.5d
 		}
@@ -168,7 +168,7 @@
 			icon_scale: 1.4d
 			id: "713BC98027C7527A"
 			shape: "square"
-			subtitle: "Spawn a pillar that continuously slams the ground, dealing AoE damage."
+			subtitle: "{ftbquests.chapter.geo_element.quest713BC98027C7527A.subtitle}"
 			tasks: [{
 				id: "4CB4ED8A0613F205"
 				item: {
@@ -190,7 +190,7 @@
 				}
 				type: "item"
 			}]
-			title: "Pillar Of The Resounding Earth"
+			title: "{ftbquests.chapter.geo_element.quest713BC98027C7527A.title}"
 			x: -1.5d
 			y: 2.5d
 		}
@@ -206,7 +206,7 @@
 			icon_scale: 1.4d
 			id: "03E30AA86353E143"
 			shape: "rsquare"
-			subtitle: "Create a healing / Buffing Totem For Your Teammates."
+			subtitle: "{ftbquests.chapter.geo_element.quest3E30AA86353E143.subtitle}"
 			tasks: [{
 				id: "41D76FDEE83986D1"
 				item: {
@@ -228,7 +228,7 @@
 				}
 				type: "item"
 			}]
-			title: "Geo Conductor"
+			title: "{ftbquests.chapter.geo_element.quest3E30AA86353E143.title}"
 			x: -0.5d
 			y: 2.5d
 		}
@@ -244,7 +244,7 @@
 			icon_scale: 1.4d
 			id: "3DFC88D74FA0AF4D"
 			shape: "square"
-			subtitle: "Creates a rock that can be ridden for travelling."
+			subtitle: "{ftbquests.chapter.geo_element.quest3DFC88D74FA0AF4D.subtitle}"
 			tasks: [{
 				id: "5C7CE9E29324C7AC"
 				item: {
@@ -266,7 +266,7 @@
 				}
 				type: "item"
 			}]
-			title: "Seismic Surf"
+			title: "{ftbquests.chapter.geo_element.quest3DFC88D74FA0AF4D.title}"
 			x: -2.5d
 			y: 3.5d
 		}
@@ -282,7 +282,7 @@
 			icon_scale: 1.4d
 			id: "79E000C7EAE43F45"
 			shape: "square"
-			subtitle: "Create's a gigantic dirt ball crushing your enemy to death."
+			subtitle: "{ftbquests.chapter.geo_element.quest79E000C7EAE43F45.subtitle}"
 			tasks: [{
 				id: "37D2262C7C218FEE"
 				item: {
@@ -304,7 +304,7 @@
 				}
 				type: "item"
 			}]
-			title: "Chunker"
+			title: "{ftbquests.chapter.geo_element.quest79E000C7EAE43F45.title}"
 			x: -1.5d
 			y: 3.5d
 		}
@@ -320,7 +320,7 @@
 			icon_scale: 1.4d
 			id: "46436CC5A0CC1620"
 			shape: "square"
-			subtitle: "Heavy-Fast-Low mana usage."
+			subtitle: "{ftbquests.chapter.geo_element.quest46436CC5A0CC1620.subtitle}"
 			tasks: [{
 				id: "77642B43999BAFF5"
 				item: {
@@ -342,7 +342,7 @@
 				}
 				type: "item"
 			}]
-			title: "Eroding Boulder"
+			title: "{ftbquests.chapter.geo_element.quest46436CC5A0CC1620.title}"
 			x: -0.5d
 			y: 3.5d
 		}
@@ -358,7 +358,7 @@
 			icon_scale: 1.4d
 			id: "3D84967C158BD3F9"
 			shape: "square"
-			subtitle: "Every step causes small earth-quakes, shaking the entire area."
+			subtitle: "{ftbquests.chapter.geo_element.quest3D84967C158BD3F9.subtitle}"
 			tasks: [{
 				id: "296F153116B25F7D"
 				item: {
@@ -380,7 +380,7 @@
 				}
 				type: "item"
 			}]
-			title: "Tremor Step"
+			title: "{ftbquests.chapter.geo_element.quest3D84967C158BD3F9.title}"
 			x: -2.5d
 			y: 4.5d
 		}
@@ -396,7 +396,7 @@
 			icon_scale: 1.4d
 			id: "768CDD15609DD6C6"
 			shape: "square"
-			subtitle: "Summon Fierce sprikes front of you, surprising the enemy and killing them instantly."
+			subtitle: "{ftbquests.chapter.geo_element.quest768CDD15609DD6C6.subtitle}"
 			tasks: [{
 				id: "61BE6C4A062B1DFB"
 				item: {
@@ -418,7 +418,7 @@
 				}
 				type: "item"
 			}]
-			title: "Tremor Spike"
+			title: "{ftbquests.chapter.geo_element.quest768CDD15609DD6C6.title}"
 			x: -1.5d
 			y: 4.5d
 		}
@@ -434,7 +434,7 @@
 			icon_scale: 1.4d
 			id: "2D78755FA6CDF5A8"
 			shape: "square"
-			subtitle: "Slam the ground, causing a massive earth-quake, leading to land mass to pop out from far away."
+			subtitle: "{ftbquests.chapter.geo_element.quest2D78755FA6CDF5A8.subtitle}"
 			tasks: [{
 				id: "047DF2573A1A8C17"
 				item: {
@@ -456,7 +456,7 @@
 				}
 				type: "item"
 			}]
-			title: "Fissure"
+			title: "{ftbquests.chapter.geo_element.quest2D78755FA6CDF5A8.title}"
 			x: -0.5d
 			y: 4.5d
 		}
@@ -472,7 +472,7 @@
 			icon_scale: 1.4d
 			id: "013F97448EE40168"
 			shape: "square"
-			subtitle: "Summon two bedrock unbreakable walls, closing down on enemy turning them into toast!"
+			subtitle: "{ftbquests.chapter.geo_element.quest13F97448EE40168.subtitle}"
 			tasks: [{
 				id: "0F8B8225F0FF99EF"
 				item: {
@@ -494,7 +494,7 @@
 				}
 				type: "item"
 			}]
-			title: "Petrivise"
+			title: "{ftbquests.chapter.geo_element.quest13F97448EE40168.title}"
 			x: -1.5d
 			y: 5.5d
 		}
@@ -715,5 +715,5 @@
 			y: 7.5d
 		}
 	]
-	title: "<grad from=#FA732A to=#FFCFB5>Geo Element</grad>"
+	title: "{ftbquests.chapter.geo_element.title}"
 }

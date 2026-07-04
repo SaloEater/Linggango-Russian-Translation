@@ -10,10 +10,10 @@
 		dev: true
 		height: 1.0d
 		hover: [
-			"All rights are reserved."
-			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			"ftbquests.chapter.lightning_element.image.hovertext1"
+			"ftbquests.chapter.lightning_element.image.hovertext2"
+			"ftbquests.chapter.lightning_element.image.hovertext3"
+			"ftbquests.chapter.lightning_element.image.hovertext4"
 		]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
@@ -32,13 +32,13 @@
 			id: "52B98FB81E05F53B"
 			shape: "none"
 			size: 2.5d
-			subtitle: "The Lightning school is centered around concentrated damage."
+			subtitle: "{ftbquests.chapter.lightning_element.quest52B98FB81E05F53B.subtitle}"
 			tasks: [{
 				id: "201E923E0CFEE26A"
 				item: "irons_spellbooks:lightning_rune"
 				type: "item"
 			}]
-			title: "Lightning magic"
+			title: "{ftbquests.chapter.lightning_element.quest52B98FB81E05F53B.title}"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -54,7 +54,7 @@
 			icon_scale: 1.4d
 			id: "06C88AAAD05EFFCC"
 			shape: "square"
-			subtitle: "Cast to strike lightning at your feet and ascend quickly into the air, and gain reduced gravity for the next few seconds."
+			subtitle: "{ftbquests.chapter.lightning_element.quest6C88AAAD05EFFCC.subtitle}"
 			tasks: [{
 				id: "1068AFD3774C33ED"
 				item: {
@@ -77,7 +77,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ascension"
+			title: "{ftbquests.chapter.lightning_element.quest6C88AAAD05EFFCC.title}"
 			x: 0.0d
 			y: 0.5d
 		}
@@ -93,7 +93,7 @@
 			icon_scale: 1.4d
 			id: "4DE794DE317DF3B3"
 			shape: "square"
-			subtitle: "Conjure an orb of lightning that slowly moves forward, damaging creatures it phases through and bouncing off blocks."
+			subtitle: "{ftbquests.chapter.lightning_element.quest4DE794DE317DF3B3.subtitle}"
 			tasks: [{
 				id: "39E0CDA3934FA89D"
 				item: {
@@ -116,7 +116,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ball Lightning"
+			title: "{ftbquests.chapter.lightning_element.quest4DE794DE317DF3B3.title}"
 			x: 2.0d
 			y: 1.5d
 		}
@@ -132,7 +132,7 @@
 			icon_scale: 1.4d
 			id: "46FEC22AA8E22243"
 			shape: "square"
-			subtitle: "Start a chain of lightning from a targeted creature, causing waves of zapping magic to cascade to nearby creatures."
+			subtitle: "{ftbquests.chapter.lightning_element.quest46FEC22AA8E22243.subtitle}"
 			tasks: [{
 				id: "7D35BA9F75CEECA0"
 				item: {
@@ -155,7 +155,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Chain Lightning"
+			title: "{ftbquests.chapter.lightning_element.quest46FEC22AA8E22243.title}"
 			x: 1.0d
 			y: -0.5d
 		}
@@ -171,7 +171,7 @@
 			icon_scale: 1.4d
 			id: "1700885208337609"
 			shape: "square"
-			subtitle: "Imbue yourself with the power of lightning, increasing your speed and combat abilities."
+			subtitle: "{ftbquests.chapter.lightning_element.quest1700885208337609.subtitle}"
 			tasks: [{
 				id: "2194A61DB814A12F"
 				item: {
@@ -194,7 +194,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Charge"
+			title: "{ftbquests.chapter.lightning_element.quest1700885208337609.title}"
 			x: 1.0d
 			y: 0.5d
 		}
@@ -210,7 +210,7 @@
 			icon_scale: 1.4d
 			id: "2EEAF9EDC2085858"
 			shape: "square"
-			subtitle: "Hold to manifest a cone of electrical energy, damaging creatures in its path."
+			subtitle: "{ftbquests.chapter.lightning_element.quest2EEAF9EDC2085858.subtitle}"
 			tasks: [{
 				id: "7AF2F8882594CBAB"
 				item: {
@@ -233,7 +233,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Electrocute"
+			title: "{ftbquests.chapter.lightning_element.quest2EEAF9EDC2085858.title}"
 			x: 2.0d
 			y: 0.5d
 		}
@@ -249,7 +249,7 @@
 			icon_scale: 1.4d
 			id: "73DA876C6B35F311"
 			shape: "square"
-			subtitle: "Down from the heavens, summon a bolt of lightning."
+			subtitle: "{ftbquests.chapter.lightning_element.quest73DA876C6B35F311.subtitle}"
 			tasks: [{
 				id: "12D725FE5C9EAAB1"
 				item: {
@@ -272,7 +272,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Lightning Bolt"
+			title: "{ftbquests.chapter.lightning_element.quest73DA876C6B35F311.title}"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -288,7 +288,7 @@
 			icon_scale: 1.4d
 			id: "3341D5C8BED3A0A3"
 			shape: "square"
-			subtitle: "Hold to charge a spear made of lightning. Release to throw it like a javelin, dealing high damage to the creature it hits."
+			subtitle: "{ftbquests.chapter.lightning_element.quest3341D5C8BED3A0A3.subtitle}"
 			tasks: [{
 				id: "01821866800BAEEC"
 				item: {
@@ -311,7 +311,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Lightning Lance"
+			title: "{ftbquests.chapter.lightning_element.quest3341D5C8BED3A0A3.title}"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -327,7 +327,7 @@
 			icon_scale: 1.4d
 			id: "58A1874E6C623430"
 			shape: "square"
-			subtitle: "Coalesce a surge of electrical power, and unleash it in a devastating shockwave, blasting exposed creatures."
+			subtitle: "{ftbquests.chapter.lightning_element.quest58A1874E6C623430.subtitle}"
 			tasks: [{
 				id: "2A63DE9429D43F74"
 				item: {
@@ -350,7 +350,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Shockwave"
+			title: "{ftbquests.chapter.lightning_element.quest58A1874E6C623430.title}"
 			x: 1.0d
 			y: 1.5d
 		}
@@ -366,7 +366,7 @@
 			icon_scale: 1.4d
 			id: "79FF384713ABFCD8"
 			shape: "square"
-			subtitle: "Cast to conjure a thunderstorm centered around yourself, which strikes nearby creatures within sight with a small bolt of lightning every 2 seconds for the spell's duration."
+			subtitle: "{ftbquests.chapter.lightning_element.quest79FF384713ABFCD8.subtitle}"
 			tasks: [{
 				id: "290FD1F404EB5713"
 				item: {
@@ -389,7 +389,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Thunderstorm"
+			title: "{ftbquests.chapter.lightning_element.quest79FF384713ABFCD8.title}"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -1323,5 +1323,5 @@
 			y: 10.5d
 		}
 	]
-	title: "<grad from=#32A8FC to=#FFFFFF>Lightning Element</grad>"
+	title: "{ftbquests.chapter.lightning_element.title}"
 }

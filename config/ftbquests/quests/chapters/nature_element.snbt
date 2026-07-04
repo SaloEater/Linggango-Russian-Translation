@@ -10,10 +10,10 @@
 		dev: true
 		height: 1.0d
 		hover: [
-			"All rights are reserved."
-			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			"ftbquests.chapter.nature_element.image.hovertext1"
+			"ftbquests.chapter.nature_element.image.hovertext2"
+			"ftbquests.chapter.nature_element.image.hovertext3"
+			"ftbquests.chapter.nature_element.image.hovertext4"
 		]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
@@ -32,13 +32,13 @@
 			id: "1C623F82BF0611AE"
 			shape: "none"
 			size: 2.5d
-			subtitle: "The Nature school is focused on applying debuffs to enemies, with elements of damage to finish them off."
+			subtitle: "{ftbquests.chapter.nature_element.quest1C623F82BF0611AE.subtitle}"
 			tasks: [{
 				id: "59956592AB9D5145"
 				item: "irons_spellbooks:nature_rune"
 				type: "item"
 			}]
-			title: "Nature magic"
+			title: "{ftbquests.chapter.nature_element.quest1C623F82BF0611AE.title}"
 			x: -0.5d
 			y: 0.0d
 		}
@@ -54,7 +54,7 @@
 			icon_scale: 1.4d
 			id: "44BD776617D0E432"
 			shape: "square"
-			subtitle: "Spit an orb of acid, splashing in a radius upon impact and rending creatures hit, melting away and reducing their armor."
+			subtitle: "{ftbquests.chapter.nature_element.quest44BD776617D0E432.subtitle}"
 			tasks: [{
 				id: "686221AE0DA19965"
 				item: {
@@ -77,7 +77,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Acid Spit"
+			title: "{ftbquests.chapter.nature_element.quest44BD776617D0E432.title}"
 			x: 0.5d
 			y: 2.5d
 		}
@@ -93,7 +93,7 @@
 			icon_scale: 1.4d
 			id: "381B0A3B808B7004"
 			shape: "square"
-			subtitle: "Target a creature to blight them, reducing their incoming healing and outgoing damage."
+			subtitle: "{ftbquests.chapter.nature_element.quest381B0A3B808B7004.subtitle}"
 			tasks: [{
 				id: "221BCEA15A050BC4"
 				item: {
@@ -116,7 +116,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Blight"
+			title: "{ftbquests.chapter.nature_element.quest381B0A3B808B7004.title}"
 			x: -0.5d
 			y: 1.5d
 		}
@@ -132,7 +132,7 @@
 			icon_scale: 1.4d
 			id: "7F84C23C313E0BF9"
 			shape: "square"
-			subtitle: "Emanate a swarm of violent fireflies, following a targeted creature and dealing aoe damage. If the initial target dies, the last harmed creature will be targeted."
+			subtitle: "{ftbquests.chapter.nature_element.quest7F84C23C313E0BF9.subtitle}"
 			tasks: [{
 				id: "673F5D918328B23D"
 				item: {
@@ -155,7 +155,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Firefly Swarm"
+			title: "{ftbquests.chapter.nature_element.quest7F84C23C313E0BF9.title}"
 			x: -1.5d
 			y: 1.5d
 		}
@@ -171,7 +171,7 @@
 			icon_scale: 1.4d
 			id: "6C6CBA36CD3E5257"
 			shape: "square"
-			subtitle: "Turn your stomach into an arcane furnace, turning eaten food into mana for a duration."
+			subtitle: "{ftbquests.chapter.nature_element.quest6C6CBA36CD3E5257.subtitle}"
 			tasks: [{
 				id: "739CB807E24C8C0E"
 				item: {
@@ -194,7 +194,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Gluttony"
+			title: "{ftbquests.chapter.nature_element.quest6C6CBA36CD3E5257.title}"
 			x: -0.5d
 			y: 2.5d
 		}
@@ -210,7 +210,7 @@
 			icon_scale: 1.4d
 			id: "7E0949404FCF6F1C"
 			shape: "square"
-			subtitle: "The great power of oak infuses itself into your skin, granting damage reduction of any incoming damage for a duration."
+			subtitle: "{ftbquests.chapter.nature_element.quest7E0949404FCF6F1C.subtitle}"
 			tasks: [{
 				id: "10B2F1AB202DD2DE"
 				item: {
@@ -233,7 +233,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Oakskin"
+			title: "{ftbquests.chapter.nature_element.quest7E0949404FCF6F1C.title}"
 			x: 0.5d
 			y: 1.5d
 		}
@@ -249,7 +249,7 @@
 			icon_scale: 1.4d
 			id: "757AC0052C4D92B3"
 			shape: "square"
-			subtitle: "Charge a powerful arrow, imbued with poison magic, that will release a poisonous cloud upon impact."
+			subtitle: "{ftbquests.chapter.nature_element.quest757AC0052C4D92B3.subtitle}"
 			tasks: [{
 				id: "711A7DFE38B84410"
 				item: {
@@ -272,7 +272,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Poison Arrow"
+			title: "{ftbquests.chapter.nature_element.quest757AC0052C4D92B3.title}"
 			x: -1.5d
 			y: 3.5d
 		}
@@ -288,7 +288,7 @@
 			icon_scale: 1.4d
 			id: "27816321823042E7"
 			shape: "square"
-			subtitle: "Spew forth a cone of poison, damaging and poisoning creatures in its reach."
+			subtitle: "{ftbquests.chapter.nature_element.quest27816321823042E7.subtitle}"
 			tasks: [{
 				id: "712623CBFA8566BE"
 				item: {
@@ -311,7 +311,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Poison Spray"
+			title: "{ftbquests.chapter.nature_element.quest27816321823042E7.title}"
 			x: -0.5d
 			y: 4.5d
 		}
@@ -327,7 +327,7 @@
 			icon_scale: 1.4d
 			id: "729AEEA9EB61FF37"
 			shape: "square"
-			subtitle: "Around a targeted creature or block, conjure a wave of poisonous magic that splashes down, damaging creatures hit and leaving behind a poisonous cloud."
+			subtitle: "{ftbquests.chapter.nature_element.quest729AEEA9EB61FF37.subtitle}"
 			tasks: [{
 				id: "00BD5F35DD09DDFF"
 				item: {
@@ -350,7 +350,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Poison Splash"
+			title: "{ftbquests.chapter.nature_element.quest729AEEA9EB61FF37.title}"
 			x: 0.5d
 			y: 3.5d
 		}
@@ -366,7 +366,7 @@
 			icon_scale: 1.4d
 			id: "6CCB58DC5162F598"
 			shape: "square"
-			subtitle: "Around a targeted creature, sprout magical roots than entangle them and completely prevent non-magical movement."
+			subtitle: "{ftbquests.chapter.nature_element.quest6CCB58DC5162F598.subtitle}"
 			tasks: [{
 				id: "0885A7B7B89B4E3F"
 				item: {
@@ -389,7 +389,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Root"
+			title: "{ftbquests.chapter.nature_element.quest6CCB58DC5162F598.title}"
 			x: -1.5d
 			y: 2.5d
 		}
@@ -405,7 +405,7 @@
 			icon_scale: 1.4d
 			id: "6F751D658EAB4A5D"
 			shape: "square"
-			subtitle: "Instill yourself with poisonous magic, dealing additional melee, ranged, or spell damage creatures that are poisoned."
+			subtitle: "{ftbquests.chapter.nature_element.quest6F751D658EAB4A5D.subtitle}"
 			tasks: [{
 				id: "1AD5D962F40C461E"
 				item: {
@@ -428,7 +428,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Aspect of the Spider"
+			title: "{ftbquests.chapter.nature_element.quest6F751D658EAB4A5D.title}"
 			x: -0.5d
 			y: 3.5d
 		}
@@ -721,5 +721,5 @@
 			y: 6.5d
 		}
 	]
-	title: "<grad from=#30FF68 to=#B6FCC9>Nature Element</grad>"
+	title: "{ftbquests.chapter.nature_element.title}"
 }

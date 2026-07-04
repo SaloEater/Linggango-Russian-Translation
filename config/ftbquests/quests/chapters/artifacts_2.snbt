@@ -25,10 +25,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.artifacts_2.image.hovertext1"
+				"ftbquests.chapter.artifacts_2.image.hovertext2"
+				"ftbquests.chapter.artifacts_2.image.hovertext3"
+				"ftbquests.chapter.artifacts_2.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -41,13 +41,13 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"Artifacts are basically Curios!"
-			"[gap=0]"
-			"but with a fancy name"
-			"These items define your Build, they can either buff you, or they can debuff you, or they'll do both."
-			"All of them are findable anywhere, either chests, dungeons, drop from bosses or craftable."
+			"{ftbquests.chapter.artifacts_2.quest2D15E41222CF47D4.description1}"
+			"{ftbquests.chapter.artifacts_2.quest2D15E41222CF47D4.description2}"
+			"{ftbquests.chapter.artifacts_2.quest2D15E41222CF47D4.description3}"
+			"{ftbquests.chapter.artifacts_2.quest2D15E41222CF47D4.description4}"
+			"{ftbquests.chapter.artifacts_2.quest2D15E41222CF47D4.description5}"
 			""
-			"&ePress an arrow on the left to view artifacts for each Slot."
+			"{ftbquests.chapter.artifacts_2.quest2D15E41222CF47D4.description6}"
 		]
 		hide_dependency_lines: true
 		hide_dependent_lines: true
@@ -81,15 +81,15 @@
 		]
 		shape: "octagon"
 		size: 1.5d
-		subtitle: "&8[Click to read]"
+		subtitle: "{ftbquests.chapter.artifacts_2.quest2D15E41222CF47D4.subtitle}"
 		tasks: [{
 			id: "2C482E0BB12851B4"
-			title: "Great!"
+			title: "{ftbquests.chapter.artifacts_2.quest2D15E41222CF47D4.task.3190850963743723956.title}"
 			type: "checkmark"
 		}]
-		title: "Artifacts!"
+		title: "{ftbquests.chapter.artifacts_2.quest2D15E41222CF47D4.title}"
 		x: 1.7999999999999998d
 		y: -18.0d
 	}]
-	title: "<shadow a=0.4><grad from=#FAC14D to=#6D0200>Artifacts</grad></shadow>"
+	title: "{ftbquests.chapter.artifacts_2.title}"
 }

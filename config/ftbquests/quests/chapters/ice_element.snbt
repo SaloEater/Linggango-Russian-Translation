@@ -10,10 +10,10 @@
 		dev: true
 		height: 1.0d
 		hover: [
-			"All rights are reserved."
-			"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-			"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-			"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+			"ftbquests.chapter.ice_element.image.hovertext1"
+			"ftbquests.chapter.ice_element.image.hovertext2"
+			"ftbquests.chapter.ice_element.image.hovertext3"
+			"ftbquests.chapter.ice_element.image.hovertext4"
 		]
 		image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 		rotation: 0.0d
@@ -38,13 +38,13 @@
 			id: "6D46B1A605A04BE9"
 			shape: "none"
 			size: 2.5d
-			subtitle: "The Ice school is centered around damage and crowd control."
+			subtitle: "{ftbquests.chapter.ice_element.quest6D46B1A605A04BE9.subtitle}"
 			tasks: [{
 				id: "6454F8F463BDE1C5"
 				item: "irons_spellbooks:ice_rune"
 				type: "item"
 			}]
-			title: "Frost magic"
+			title: "{ftbquests.chapter.ice_element.quest6D46B1A605A04BE9.title}"
 			x: -1.0d
 			y: -0.5d
 		}
@@ -60,7 +60,7 @@
 			icon_scale: 1.4d
 			id: "49184739FC23FA4D"
 			shape: "square"
-			subtitle: "Hold to cast out a cone of cold energy, freezing creatures in its path."
+			subtitle: "{ftbquests.chapter.ice_element.quest49184739FC23FA4D.subtitle}"
 			tasks: [{
 				id: "47CF4B872E1418A0"
 				item: {
@@ -83,7 +83,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Cone Of Cold"
+			title: "{ftbquests.chapter.ice_element.quest49184739FC23FA4D.title}"
 			x: -2.0d
 			y: 1.5d
 		}
@@ -99,7 +99,7 @@
 			icon_scale: 1.4d
 			id: "40EA0A65E13F7EAB"
 			shape: "square"
-			subtitle: "Instantaneously teleport to where you are looking, leaving behind a shadow of ice. This shadow will shatter after 3 seconds or upon taking any damage, shooting out icicles in every direction."
+			subtitle: "{ftbquests.chapter.ice_element.quest40EA0A65E13F7EAB.subtitle}"
 			tasks: [{
 				id: "4430CCF65C614881"
 				item: {
@@ -122,7 +122,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Frost Step"
+			title: "{ftbquests.chapter.ice_element.quest40EA0A65E13F7EAB.title}"
 			x: -1.0d
 			y: 1.0d
 		}
@@ -138,7 +138,7 @@
 			icon_scale: 1.4d
 			id: "77EDF548D39AEF96"
 			shape: "square"
-			subtitle: "Cascade a wave of frost magic in a radius around you, afflicting creatures with chilled. Chilled creatures are slowed, and have their incoming freeze time doubled."
+			subtitle: "{ftbquests.chapter.ice_element.quest77EDF548D39AEF96.subtitle}"
 			tasks: [{
 				id: "56DCBCEF7A151B46"
 				item: {
@@ -161,7 +161,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Frostwave"
+			title: "{ftbquests.chapter.ice_element.quest77EDF548D39AEF96.title}"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -177,7 +177,7 @@
 			icon_scale: 1.4d
 			id: "5BA5CC9E9BA67619"
 			shape: "square"
-			subtitle: "Conjure a giant chunk of ice above a targeted creature or block. After a short delay, it will fall down and explode for area frost damage, doing additional damage to any creatures hit on the way down."
+			subtitle: "{ftbquests.chapter.ice_element.quest5BA5CC9E9BA67619.subtitle}"
 			tasks: [{
 				id: "71D0DF9CE53A9100"
 				item: {
@@ -200,7 +200,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ice Block"
+			title: "{ftbquests.chapter.ice_element.quest5BA5CC9E9BA67619.title}"
 			x: -2.0d
 			y: 2.5d
 		}
@@ -216,7 +216,7 @@
 			icon_scale: 1.4d
 			id: "4A790C7B4E7C9A44"
 			shape: "square"
-			subtitle: "Fire a piercing bolt of cold energy in the form of an icicle, freezing those it touches."
+			subtitle: "{ftbquests.chapter.ice_element.quest4A790C7B4E7C9A44.subtitle}"
 			tasks: [{
 				id: "47C54FE5554D4817"
 				item: {
@@ -239,7 +239,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Icicle"
+			title: "{ftbquests.chapter.ice_element.quest4A790C7B4E7C9A44.title}"
 			x: -1.0d
 			y: 2.0d
 		}
@@ -255,7 +255,7 @@
 			icon_scale: 1.4d
 			id: "5BF66A8EB5C27D54"
 			shape: "square"
-			subtitle: "Fire a beam of cold energy, dealing low damage but immediately applying freeze to the creature hit."
+			subtitle: "{ftbquests.chapter.ice_element.quest5BF66A8EB5C27D54.subtitle}"
 			tasks: [{
 				id: "318F6402FA975FA5"
 				item: {
@@ -278,7 +278,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ray Of Frost"
+			title: "{ftbquests.chapter.ice_element.quest5BF66A8EB5C27D54.title}"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -294,7 +294,7 @@
 			icon_scale: 1.4d
 			id: "37DB76DF7EEC9CC1"
 			shape: "square"
-			subtitle: "Cast to summon a polar bear who will follow, protect, and fight for you, as well as providing a mount."
+			subtitle: "{ftbquests.chapter.ice_element.quest37DB76DF7EEC9CC1.subtitle}"
 			tasks: [{
 				id: "5A74AA52F30FFC7A"
 				item: {
@@ -317,7 +317,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Summon Polar Bear"
+			title: "{ftbquests.chapter.ice_element.quest37DB76DF7EEC9CC1.title}"
 			x: -1.0d
 			y: 3.0d
 		}
@@ -466,5 +466,5 @@
 			y: 4.0d
 		}
 	]
-	title: "<grad from=#35FCF9 to=#B8FFFE>Ice Element</grad>"
+	title: "{ftbquests.chapter.ice_element.title}"
 }

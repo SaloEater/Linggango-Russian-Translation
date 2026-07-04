@@ -24,7 +24,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.building.image.hovertext1"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -35,10 +35,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @shuttheirprayer]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.building.image.hovertext2"
+				"ftbquests.chapter.building.image.hovertext3"
+				"ftbquests.chapter.building.image.hovertext4"
+				"ftbquests.chapter.building.image.hovertext5"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -88,7 +88,7 @@
 			]
 			shape: "square"
 			size: 1.0d
-			subtitle: "Decorate your base!"
+			subtitle: "{ftbquests.chapter.building.quest170397AACB20D4FC.subtitle}"
 			tasks: [
 				{
 					id: "4F7A9103EF28825F"
@@ -121,22 +121,22 @@
 					type: "item"
 				}
 			]
-			title: "Beautiful Wind Chimes"
+			title: "{ftbquests.chapter.building.quest170397AACB20D4FC.title}"
 			x: 1.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"&6&nBuilding \\& Decoration Tips&r"
+				"{ftbquests.chapter.building.quest5D1C5022E9C5A746.description1}"
 				""
-				"Make building easier by using the Just Enough Items (JEI) search bar to quickly filter through decoration and structural blocks."
+				"{ftbquests.chapter.building.quest5D1C5022E9C5A746.description2}"
 				""
-				"You can type these exact search terms into JEI to view the full catalog for each specific mod:"
+				"{ftbquests.chapter.building.quest5D1C5022E9C5A746.description3}"
 				""
-				"&b@mcwfurniture&r - Furniture and decorations."
-				"&b@hearth_and_home&r - Custom building blocks and decor."
-				"&b@bbb&r - Expanded building block options."
-				"&b@somemoreblocks&r - Additional block variations."
+				"{ftbquests.chapter.building.quest5D1C5022E9C5A746.description4}"
+				"{ftbquests.chapter.building.quest5D1C5022E9C5A746.description5}"
+				"{ftbquests.chapter.building.quest5D1C5022E9C5A746.description6}"
+				"{ftbquests.chapter.building.quest5D1C5022E9C5A746.description7}"
 			]
 			icon: {
 				Count: 1
@@ -154,23 +154,23 @@
 			}]
 			shape: "octagon"
 			size: 1.45d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.building.quest5D1C5022E9C5A746.subtitle}"
 			tasks: [{
 				id: "3AEDBAFA2E2F4A2F"
-				title: "Alright!"
+				title: "{ftbquests.chapter.building.quest5D1C5022E9C5A746.task.4246255607359687215.title}"
 				type: "checkmark"
 			}]
-			title: "Building"
+			title: "{ftbquests.chapter.building.quest5D1C5022E9C5A746.title}"
 			x: 0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5D1C5022E9C5A746"]
 			description: [
-				"<shadow><grad from=#4EF44E to=#BBFF99 f=0.5>Creeper</grad><grad from=#FFFFFF to=#C0C0C0> exploded and destroyed your </grad><grad from=#4EF44E to=#BBFF99 f=0.5>terrain</grad><grad from=#FFFFFF to=#C0C0C0>?</grad></shadow>"
-				"<shadow><grad from=#FFFFFF to=#C0C0C0>Just throw the </grad><grad from=#4EF44E to=#8B4513 f=0.5>hole filler</grad><grad from=#FFFFFF to=#C0C0C0> into a hole and it will start </grad><shake a=0.75 f=0.75><grad from=#FFFFFF to=#C0C0C0>expanding like crazy</grad></shake><grad from=#FFFFFF to=#C0C0C0>!</grad></shadow>"
-				"<shadow><grad from=#FFFFFF to=#C0C0C0>There's other variations check </grad><grad from=#FFA040 to=#FFD080 f=0.5>JEI</grad><grad from=#FFFFFF to=#C0C0C0> to see</grad></shadow>"
-				"<shadow><grad from=#FFA040 to=#FFD080 f=0.5>@hole_filler_mod</grad></shadow>"
+				"{ftbquests.chapter.building.quest49DA079E26B933C8.description1}"
+				"{ftbquests.chapter.building.quest49DA079E26B933C8.description2}"
+				"{ftbquests.chapter.building.quest49DA079E26B933C8.description3}"
+				"{ftbquests.chapter.building.quest49DA079E26B933C8.description4}"
 			]
 			icon_scale: 1.2d
 			id: "49DA079E26B933C8"
@@ -182,7 +182,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "Fills holes!..."
+			subtitle: "{ftbquests.chapter.building.quest49DA079E26B933C8.subtitle}"
 			tasks: [
 				{
 					id: "385FF1D3EF088248"
@@ -226,9 +226,9 @@
 		{
 			dependencies: ["5D1C5022E9C5A746"]
 			description: [
-				"&6&nCompact Machines&r"
+				"{ftbquests.chapter.building.quest18FF0716A49FF759.description1}"
 				""
-				"Right-clicking a compact block with the shrinking device will transport you inside of it, providing an isolated pocket dimension where you can build freely."
+				"{ftbquests.chapter.building.quest18FF0716A49FF759.description2}"
 			]
 			icon: "compactmachines:personal_shrinking_device"
 			icon_scale: 1.2d
@@ -248,7 +248,7 @@
 			]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.building.quest18FF0716A49FF759.subtitle}"
 			tasks: [
 				{
 					id: "3443C6206B271D78"
@@ -306,24 +306,24 @@
 		{
 			dependencies: ["5D1C5022E9C5A746"]
 			description: [
-				"&6&nBuilding Gadget Modes&r"
+				"{ftbquests.chapter.building.quest172804B70A29224.description1}"
 				""
-				"Press &b\"G\"&r to open the configuration menu and change settings."
+				"{ftbquests.chapter.building.quest172804B70A29224.description2}"
 				""
-				"&6&nSurface Mode:&r Places a layer of blocks that matches the exact contours of the wall or floor you are looking at."
+				"{ftbquests.chapter.building.quest172804B70A29224.description3}"
 				""
-				"&6&nVertical \\& Horizontal Wall Modes:&r Generates flat vertical or horizontal planes based on your configured radius (such as a 3x3 or 5x5 grid)."
+				"{ftbquests.chapter.building.quest172804B70A29224.description4}"
 				""
-				"&6&nBuild to Me:&r Generates a straight line of blocks starting from your targeted block directly to your position."
+				"{ftbquests.chapter.building.quest172804B70A29224.description5}"
 				""
-				"&6&nGrid \\& Column Modes:&r Creates spaced-out pillars or straight vertical and horizontal lines."
+				"{ftbquests.chapter.building.quest172804B70A29224.description6}"
 			]
 			icon: "buildinggadgets2:gadget_building"
 			id: "0172804B70A29224"
 			min_width: 450
 			shape: "square"
 			size: 1.0d
-			subtitle: "Primary tool for building. It draws blocks directly from your inventory."
+			subtitle: "{ftbquests.chapter.building.quest172804B70A29224.subtitle}"
 			tasks: [{
 				id: "719793BC2D5B979B"
 				item: "buildinggadgets2:gadget_building"
@@ -337,7 +337,7 @@
 			id: "2882F403ED5D74A1"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Main tool for redecorating or updating palettes. It swaps existing blocks in the world with blocks from your inventory."
+			subtitle: "{ftbquests.chapter.building.quest2882F403ED5D74A1.subtitle}"
 			tasks: [{
 				id: "5569EF7B7C2D881E"
 				item: "buildinggadgets2:gadget_exchanging"
@@ -349,14 +349,14 @@
 		{
 			dependencies: ["5D1C5022E9C5A746"]
 			description: [
-				"&6&nDestruction Gadget&r"
+				"{ftbquests.chapter.building.quest3D2C859382432B98.description1}"
 				""
-				"The primary tool for clearing out large areas quickly. It void-clears blocks instead of mining them, meaning the blocks will &cNOT&r drop as items. On the plus side, it completely ignores chests and other inventories to prevent accidental item loss, but you should still use it with caution."
+				"{ftbquests.chapter.building.quest3D2C859382432B98.description2}"
 			]
 			id: "3D2C859382432B98"
 			shape: "square"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.building.quest3D2C859382432B98.subtitle}"
 			tasks: [{
 				id: "4BCEDEB5E8B8479E"
 				item: "buildinggadgets2:gadget_destruction"
@@ -368,16 +368,16 @@
 		{
 			dependencies: ["5D1C5022E9C5A746"]
 			description: [
-				"&6&nCopy-Paste \\& Cut-Paste Gadgets&r"
+				"{ftbquests.chapter.building.quest49833EE440E5EF63.description1}"
 				""
-				"&b- Copy-Paste:&r Allows you to define a region by selecting two opposite corners, copy the layout, and paste it elsewhere. The tool checks your inventory and will only place the blocks if you have the required materials."
+				"{ftbquests.chapter.building.quest49833EE440E5EF63.description2}"
 				""
-				"&b- Cut-Paste:&r Functions like a clipboard move tool. It lifts an entire structure out of the world and pastes it into a new location, automatically clearing out the original spot."
+				"{ftbquests.chapter.building.quest49833EE440E5EF63.description3}"
 			]
 			id: "49833EE440E5EF63"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Main tool that will allow you to move or duplicate entire builds."
+			subtitle: "{ftbquests.chapter.building.quest49833EE440E5EF63.subtitle}"
 			tasks: [
 				{
 					id: "14D163FDCA30295E"
@@ -396,21 +396,21 @@
 					type: "item"
 				}
 			]
-			title: "Copy \\& Cut Paste"
+			title: "{ftbquests.chapter.building.quest49833EE440E5EF63.title}"
 			x: 0.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5D1C5022E9C5A746"]
 			description: [
-				"&6&nTemplate Manager&r"
+				"{ftbquests.chapter.building.quest51324B3CE2E05ACF.description1}"
 				""
-				"This is a separate block used alongside the Copy-Paste Gadget. It allows you to save your copied builds onto paper templates, which can then be converted into text codes to share online or import into different worlds."
+				"{ftbquests.chapter.building.quest51324B3CE2E05ACF.description2}"
 			]
 			id: "51324B3CE2E05ACF"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Save your copied builds onto paper template."
+			subtitle: "{ftbquests.chapter.building.quest51324B3CE2E05ACF.subtitle}"
 			tasks: [{
 				id: "670354235E90535A"
 				item: "buildinggadgets2:template_manager"
@@ -439,10 +439,10 @@
 		}
 		{
 			dependencies: ["5D1C5022E9C5A746"]
-			description: ["Make sure to use &eJEI&r in order to see the recipes."]
+			description: ["{ftbquests.chapter.building.quest428771C35C60373C.description1}"]
 			id: "428771C35C60373C"
 			shape: "square"
-			subtitle: "Thousands of new blocks can only be crafted here."
+			subtitle: "{ftbquests.chapter.building.quest428771C35C60373C.subtitle}"
 			tasks: [{
 				id: "5B6A8CA1ED8761A0"
 				item: "bf_blockpack:workbench"
@@ -452,5 +452,5 @@
 			y: -3.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#419506 to=#C0CDCD>Building</grad></shadow>"
+	title: "{ftbquests.chapter.building.title}"
 }

@@ -18,7 +18,7 @@
 		{
 			click: "https://discord.gg/linggango"
 			height: 1.0d
-			hover: ["Join Linggango Discord Server!"]
+			hover: ["ftbquests.chapter.progress.image.hovertext1"]
 			image: "ars_nouveau:textures/gui/discord_tab.png"
 			rotation: 0.0d
 			width: 1.1d
@@ -40,7 +40,7 @@
 			click: "a"
 			dependency: "19F19149E61D93AD"
 			height: 1.0d
-			hover: ["Eye Shop"]
+			hover: ["ftbquests.chapter.progress.image.hovertext2"]
 			image: "ftblibrary:icons/money_bag"
 			rotation: 0.0d
 			width: 1.0d
@@ -68,10 +68,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.progress.image.hovertext3"
+				"ftbquests.chapter.progress.image.hovertext4"
+				"ftbquests.chapter.progress.image.hovertext5"
+				"ftbquests.chapter.progress.image.hovertext6"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -96,14 +96,14 @@
 		{
 			dependencies: ["79097B7E3E4E2782"]
 			description: [
-				"&6&nIron Tools Progression&r"
-				"If you noticed your iron tools aren't working, you have officially hit the first major progression lock. "
-				"[gap=5]"
-				"To unlock the ability to use iron equipment, you must summon and defeat"
-				"[gap=0]"
-				"&cThe Iron Colossus.&r"
-				"[gap=5]"
-				"As the leader of the Iron Golems, this boss emits a passive aura that slows you down when you get close, and his direct hits will slow you even further. Time your strikes carefully, utilize your dodge mechanic, and avoid letting him corner you."
+				"{ftbquests.chapter.progress.quest5D3E8E9BCD0A9935.description1}"
+				"{ftbquests.chapter.progress.quest5D3E8E9BCD0A9935.description2}"
+				"{ftbquests.chapter.progress.quest5D3E8E9BCD0A9935.description3}"
+				"{ftbquests.chapter.progress.quest5D3E8E9BCD0A9935.description4}"
+				"{ftbquests.chapter.progress.quest5D3E8E9BCD0A9935.description5}"
+				"{ftbquests.chapter.progress.quest5D3E8E9BCD0A9935.description6}"
+				"{ftbquests.chapter.progress.quest5D3E8E9BCD0A9935.description7}"
+				"{ftbquests.chapter.progress.quest5D3E8E9BCD0A9935.description8}"
 			]
 			id: "5D3E8E9BCD0A9935"
 			rewards: [
@@ -148,7 +148,7 @@
 			]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest5D3E8E9BCD0A9935.subtitle}"
 			tasks: [{
 				id: "39392EAA73398E23"
 				item: {
@@ -160,22 +160,22 @@
 				}
 				type: "item"
 			}]
-			title: "&nIron Tools Locked?"
+			title: "{ftbquests.chapter.progress.quest5D3E8E9BCD0A9935.title}"
 			x: -10.5d
 			y: -15.5d
 		}
 		{
 			dependency_requirement: "one_started"
 			description: [
-				"&6&nGear Progression Overview&r"
+				"{ftbquests.chapter.progress.quest79097B7E3E4E2782.description1}"
 				""
-				"High-tier weapons and armor are locked behind specific boss milestones. This questline will guide you through the progression system so you can unlock better equipment tiers."
+				"{ftbquests.chapter.progress.quest79097B7E3E4E2782.description2}"
 				""
-				"The Armageddon mod completely overhauls vanilla progression, introducing custom mechanics and unique tiers of ores to discover as you advance."
+				"{ftbquests.chapter.progress.quest79097B7E3E4E2782.description3}"
 				""
-				"Every boss features unique combat gimmicks, meaning &nproper preparation&r is vital before jumping into the fight. Take your time, gear up, and don't rush in unprepared."
+				"{ftbquests.chapter.progress.quest79097B7E3E4E2782.description4}"
 				""
-				"{image:customtextures:textures/armageddonlogo.png width:200 height:50 align:center}"
+				"{ftbquests.chapter.progress.quest79097B7E3E4E2782.image0}"
 			]
 			disable_toast: true
 			icon: {
@@ -213,28 +213,28 @@
 			]
 			shape: "square"
 			size: 1.6d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest79097B7E3E4E2782.subtitle}"
 			tasks: [{
 				id: "517762E1AADD3638"
-				title: "Ok"
+				title: "{ftbquests.chapter.progress.quest79097B7E3E4E2782.task.5870269360674518584.title}"
 				type: "checkmark"
 			}]
-			title: "New Progression Mechanics"
+			title: "{ftbquests.chapter.progress.quest79097B7E3E4E2782.title}"
 			x: -10.5d
 			y: -17.5d
 		}
 		{
 			dependencies: ["5D3E8E9BCD0A9935"]
 			description: [
-				"&6&nGold Tier Progression&r"
+				"{ftbquests.chapter.progress.quest7D0C439E5D207DDE.description1}"
 				""
-				"Just like with iron, unlocking the use of gold ingots requires you to track down and"
-				"[gap=0]"
-				"&cdefeat The Goblin Lord&r."
+				"{ftbquests.chapter.progress.quest7D0C439E5D207DDE.description2}"
+				"{ftbquests.chapter.progress.quest7D0C439E5D207DDE.description3}"
+				"{ftbquests.chapter.progress.quest7D0C439E5D207DDE.description4}"
 				""
-				"This boss inflicts multiple heavy debuffs whenever he lands a hit, making it crucial to time your dodges carefully and avoid his direct attacks."
+				"{ftbquests.chapter.progress.quest7D0C439E5D207DDE.description5}"
 				""
-				"During the fight, he will summon minions that deal massive damage, potentially hitting harder than the boss itself, but they have very low health. Use this to your advantage and prioritize clearing out the summons quickly before they overwhelm you."
+				"{ftbquests.chapter.progress.quest7D0C439E5D207DDE.description6}"
 			]
 			icon_scale: 1.2d
 			id: "7D0C439E5D207DDE"
@@ -258,7 +258,7 @@
 			]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest7D0C439E5D207DDE.subtitle}"
 			tasks: [{
 				id: "2AEC50CF84DFB0EE"
 				item: {
@@ -270,20 +270,20 @@
 				}
 				type: "item"
 			}]
-			title: "&n&eThe Goblin Lord&r"
+			title: "{ftbquests.chapter.progress.quest7D0C439E5D207DDE.title}"
 			x: -10.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["7D0C439E5D207DDE"]
 			description: [
-				"&6&nEmerald Tier Progression&r"
+				"{ftbquests.chapter.progress.quest4F34F740CD095315.description1}"
 				""
-				"&cArion&r is an &8Elite Pillager&r who wields dangerous magical abilities."
+				"{ftbquests.chapter.progress.quest4F34F740CD095315.description2}"
 				""
-				"Be extremely careful during his second phase, as he will counter-attack whenever he takes damage. He also features a distinct power-up phase where he begins to glow, significantly increasing his damage output. Watch his tells and take caution when this happens."
+				"{ftbquests.chapter.progress.quest4F34F740CD095315.description3}"
 				""
-				"Defeating him unlocks a vast new tier of equipment, including access to &2Emerald&r crafting materials."
+				"{ftbquests.chapter.progress.quest4F34F740CD095315.description4}"
 			]
 			id: "4F34F740CD095315"
 			rewards: [
@@ -312,7 +312,7 @@
 			]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest4F34F740CD095315.subtitle}"
 			tasks: [{
 				id: "694DA8D87F0DA4F3"
 				item: {
@@ -324,22 +324,22 @@
 				}
 				type: "item"
 			}]
-			title: "&n&aArion, Tyrant Of The Emerald Wrath"
+			title: "{ftbquests.chapter.progress.quest4F34F740CD095315.title}"
 			x: -10.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["4F34F740CD095315"]
 			description: [
-				"&6&nDiamond Tier Progression&r"
+				"{ftbquests.chapter.progress.quest2EAC826E47A3A682.description1}"
 				""
-				"&cEldorath&r is an ancient warrior whose prime was long ago, but do not underestimate him. He remains incredibly powerful."
+				"{ftbquests.chapter.progress.quest2EAC826E47A3A682.description2}"
 				""
-				"During the battle, he will force you to levitate and launch dangerous projectiles that you must dodge. He also summons hostile Allays, which you should prioritize clearing out immediately. You can actually destroy his incoming projectiles by attacking them directly mid-air, helping you stay safe from both the boss and his summons."
+				"{ftbquests.chapter.progress.quest2EAC826E47A3A682.description3}"
 				""
-				"Defeating Eldorath unlocks a powerful new arsenal of weapons, access to core enchanting mechanics, and the key to &bDiamond&r crafting."
+				"{ftbquests.chapter.progress.quest2EAC826E47A3A682.description4}"
 				""
-				"&cImportant:&r Due to the levitation trait, make sure to bring a water bucket, Bunny Hoppers, or any curio that provides fall damage negation."
+				"{ftbquests.chapter.progress.quest2EAC826E47A3A682.description5}"
 			]
 			id: "2EAC826E47A3A682"
 			rewards: [
@@ -368,7 +368,7 @@
 			]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest2EAC826E47A3A682.subtitle}"
 			tasks: [{
 				id: "3FD1CCE976B9831B"
 				item: {
@@ -380,25 +380,25 @@
 				}
 				type: "item"
 			}]
-			title: "&n&bEldorath, The Ancient Builder"
+			title: "{ftbquests.chapter.progress.quest2EAC826E47A3A682.title}"
 			x: -10.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["177DFA9CBE995173"]
 			description: [
-				"&6&nNetherite Tier Progression&r"
+				"{ftbquests.chapter.progress.quest297F31BB6030C00F.description1}"
 				""
-				"&cZoranth&r is a fierce warrior who once fought against the armies of the Nether. Defeating this powerful boss breaks your next major progression lock, granting you full access to &8Netherite&r weapons and armor."
+				"{ftbquests.chapter.progress.quest297F31BB6030C00F.description2}"
 				""
-				"&e&nNote 1: Dimension Requirement&r"
-				"Zoranth can only be summoned and fought within the Nether dimension."
+				"{ftbquests.chapter.progress.quest297F31BB6030C00F.description3}"
+				"{ftbquests.chapter.progress.quest297F31BB6030C00F.description4}"
 				""
-				"&e&nNote 2: Invulnerability \\& Healing&r"
-				"Zoranth cannot take damage until all of his active summons are defeated. He will also continuously regenerate his health throughout the fight. To stop this regeneration, you must apply an anti-heal mechanic by keeping him afflicted with the &ccursed&r status effect, which you can apply via potions or the Cursed Blade enchantment."
+				"{ftbquests.chapter.progress.quest297F31BB6030C00F.description5}"
+				"{ftbquests.chapter.progress.quest297F31BB6030C00F.description6}"
 				""
-				"&e&nNote 3: Debuff Management&r"
-				"This encounter features severe negative status effects, particularly anti-heal. While Cleanse Potions and Milk Buckets will remove these dangerous conditions, they will also strip away your positive active buffs. Utilizing cleanse spells is a highly effective alternative to clear out the debuffs without losing your own status advantages."
+				"{ftbquests.chapter.progress.quest297F31BB6030C00F.description7}"
+				"{ftbquests.chapter.progress.quest297F31BB6030C00F.description8}"
 			]
 			id: "297F31BB6030C00F"
 			rewards: [
@@ -421,7 +421,7 @@
 			]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest297F31BB6030C00F.subtitle}"
 			tasks: [{
 				id: "7C71359E6E149A5C"
 				item: {
@@ -433,23 +433,23 @@
 				}
 				type: "item"
 			}]
-			title: "&6Zoranth, The Forgotten One"
+			title: "{ftbquests.chapter.progress.quest297F31BB6030C00F.title}"
 			x: -10.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2B69C369F7D0B25C"]
 			description: [
-				"&6&nElvenite Tier Progression&r"
+				"{ftbquests.chapter.progress.quest231B06216159E95A.description1}"
 				""
-				"&eElvenite&r is a powerful custom ore introduced by the Armageddon mod. Defeating this boss will grant you full access to crafting and utilizing &eElvenite tools and equipment&r."
+				"{ftbquests.chapter.progress.quest231B06216159E95A.description2}"
 				""
-				"&bCombat Mechanics:&r"
-				"This encounter features a severe durability-shredding mechanic. The boss inflicts massive durability damage to your equipped armor and weapons. Crucially, the boss's own &ndamage scaling increases&r for every point of durability your gear loses during the fight."
+				"{ftbquests.chapter.progress.quest231B06216159E95A.description3}"
+				"{ftbquests.chapter.progress.quest231B06216159E95A.description4}"
 				""
-				"Additionally, watch your strikes carefully; the boss utilizes a &creflect&r mechanic that can turn your own high damage back against you, ending the encounter instantly."
+				"{ftbquests.chapter.progress.quest231B06216159E95A.description5}"
 				""
-				"&eStrategy Tip:&r It is highly recommended to make your primary gear &eunbreakable&r or apply the &eHardened&r enchantment before attempting this challenge to completely neutralize the boss's scaling power."
+				"{ftbquests.chapter.progress.quest231B06216159E95A.description6}"
 			]
 			id: "231B06216159E95A"
 			rewards: [
@@ -466,7 +466,7 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest231B06216159E95A.subtitle}"
 			tasks: [{
 				id: "0E74AD81045EEB1A"
 				item: {
@@ -478,25 +478,25 @@
 				}
 				type: "item"
 			}]
-			title: "&eThe Elvenite Paladin"
+			title: "{ftbquests.chapter.progress.quest231B06216159E95A.title}"
 			x: -5.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["231B06216159E95A"]
 			description: [
-				"&6&nVaedric, the Void Wanderer&r"
+				"{ftbquests.chapter.progress.quest4E97AB0CAB1A3763.description1}"
 				""
-				"Vaedric was once a lone traveler of the End dimension. His journey met a dark end, and he now wields the volatile power of the Void itself."
+				"{ftbquests.chapter.progress.quest4E97AB0CAB1A3763.description2}"
 				""
-				"This power allows him to bring forth &nsummons&r that fight by his side. Exercise extreme caution during the battle, as both Vaedric and his minions have the ability to &npull&r you directly into their attack range."
+				"{ftbquests.chapter.progress.quest4E97AB0CAB1A3763.description3}"
 				""
-				"&c&nWarning: Do not use DOTs!&r"
-				"Avoid relying on damage-over-time effects against this boss. He is capable of completely slipping away from or neutralizing most status-based damage."
+				"{ftbquests.chapter.progress.quest4E97AB0CAB1A3763.description4}"
+				"{ftbquests.chapter.progress.quest4E97AB0CAB1A3763.description5}"
 				""
-				"Defeating him removes the next major progression lock, granting full access to powerful &bVoiderite&r tier items."
+				"{ftbquests.chapter.progress.quest4E97AB0CAB1A3763.description6}"
 				""
-				"&e&nNote:&r Vaedric must be summoned on the Outer End Islands."
+				"{ftbquests.chapter.progress.quest4E97AB0CAB1A3763.description7}"
 			]
 			id: "4E97AB0CAB1A3763"
 			rewards: [
@@ -513,7 +513,7 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest4E97AB0CAB1A3763.subtitle}"
 			tasks: [{
 				id: "7F803DA0A30DEC5E"
 				item: {
@@ -525,23 +525,23 @@
 				}
 				type: "item"
 			}]
-			title: "&n&dVaedric, The Fallen Wanderer"
+			title: "{ftbquests.chapter.progress.quest4E97AB0CAB1A3763.title}"
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4E97AB0CAB1A3763"]
 			description: [
-				"&6&nThe Core Gatekeeper&r"
+				"{ftbquests.chapter.progress.quest338DD0DDABBF130D.description1}"
 				""
-				"Defeating this entity is critical, as it drops a fundamental key item required to trigger all upcoming boss encounters in the pack."
+				"{ftbquests.chapter.progress.quest338DD0DDABBF130D.description2}"
 				""
-				"&e&nCombat Mechanic: Phase Immortality&r"
-				"Be warned that this foe becomes completely immortal for a short duration during its second phase. You will need to play defensively and wait for the status to expire before resuming your assault."
+				"{ftbquests.chapter.progress.quest338DD0DDABBF130D.description3}"
+				"{ftbquests.chapter.progress.quest338DD0DDABBF130D.description4}"
 				""
-				"However, if your setup utilizes a &bSoul Flame Blade&r, &bIce Blade&r, or &bSharp Blade&r, your attacks can actually bypass this immortality phase entirely."
+				"{ftbquests.chapter.progress.quest338DD0DDABBF130D.description5}"
 				""
-				"&8From this point forward, the hand-holding is over. It is time to optimize your own custom build for what lies ahead.&r"
+				"{ftbquests.chapter.progress.quest338DD0DDABBF130D.description6}"
 			]
 			id: "338DD0DDABBF130D"
 			rewards: [
@@ -570,7 +570,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest338DD0DDABBF130D.subtitle}"
 			tasks: [{
 				id: "7BD2921B77B302C6"
 				item: {
@@ -582,18 +582,18 @@
 				}
 				type: "item"
 			}]
-			title: "&cThe Bringer Of Doom"
+			title: "{ftbquests.chapter.progress.quest338DD0DDABBF130D.title}"
 			x: -2.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["338DD0DDABBF130D"]
 			description: [
-				"&6&nThe Four Calamities&r"
+				"{ftbquests.chapter.progress.quest4BFFC4F93792C4F7.description1}"
 				""
-				"The Four Calamities are directly responsible for the current state of the Overworld, serving as the primary reason it is now corrupted and overrun with undead monsters."
+				"{ftbquests.chapter.progress.quest4BFFC4F93792C4F7.description2}"
 				""
-				"Each of them possesses unique strengths, so approach these encounters with extreme caution."
+				"{ftbquests.chapter.progress.quest4BFFC4F93792C4F7.description3}"
 			]
 			id: "4BFFC4F93792C4F7"
 			rewards: [
@@ -622,7 +622,7 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest4BFFC4F93792C4F7.subtitle}"
 			tasks: [{
 				id: "7371A1AA3D9C1A4A"
 				item: {
@@ -634,26 +634,26 @@
 				}
 				type: "item"
 			}]
-			title: "&cThe&r &6Ca&r&dla&r&bmi&r&4ti&res."
+			title: "{ftbquests.chapter.progress.quest4BFFC4F93792C4F7.title}"
 			x: -2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4BFFC4F93792C4F7"]
 			description: [
-				"&6&nTinkerer's Accessory Template&r"
+				"{ftbquests.chapter.progress.quest5C70A89677BEAE60.description1}"
 				""
-				"Before you can craft Ankh's Tablet, you must first acquire the Tinkerer's Accessory Template."
+				"{ftbquests.chapter.progress.quest5C70A89677BEAE60.description2}"
 				""
-				"To create it, you need to harvest three unique types of &nSpirits&r dropped by vanilla mobs: &cDespair, Dread, and Chaos&r. "
+				"{ftbquests.chapter.progress.quest5C70A89677BEAE60.description3}"
 				""
-				"Note that different mobs (such as Zombies, Slimes, and Skeletons) drop different spirit types."
+				"{ftbquests.chapter.progress.quest5C70A89677BEAE60.description4}"
 				""
-				"Once you have gathered the spirits, complete the crafting process:"
+				"{ftbquests.chapter.progress.quest5C70A89677BEAE60.description5}"
 				""
-				"&b-&r Utilize the collection of Spirits to craft a Calamitous Core."
+				"{ftbquests.chapter.progress.quest5C70A89677BEAE60.description6}"
 				""
-				"&b-&r Combine the Calamitous Core with Khyros's Goldened Tear to successfully create the &dAccessory Template&r."
+				"{ftbquests.chapter.progress.quest5C70A89677BEAE60.description7}"
 			]
 			icon: "armageddon_mod:ankh_tablet"
 			icon_scale: 1.3d
@@ -682,7 +682,7 @@
 			]
 			shape: "gear"
 			size: 1.25d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest5C70A89677BEAE60.subtitle}"
 			tasks: [
 				{
 					id: "183C3929E8920459"
@@ -700,26 +700,26 @@
 					type: "item"
 				}
 			]
-			title: "Craft an Ankh Tablet"
+			title: "{ftbquests.chapter.progress.quest5C70A89677BEAE60.title}"
 			x: -2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4BFFC4F93792C4F7"]
 			description: [
-				"&6&nLord of the Blood Ore&r"
+				"{ftbquests.chapter.progress.quest25326B961DE6B5EA.description1}"
 				""
-				"Seems to be heavily inspired by Mohg, Lord of Blood from Elden Ring.."
+				"{ftbquests.chapter.progress.quest25326B961DE6B5EA.description2}"
 				""
-				"This boss possesses dangerous life-drain and area-of-effect mechanics."
+				"{ftbquests.chapter.progress.quest25326B961DE6B5EA.description3}"
 				""
-				"The boss is capable of &dregenerating&r his health continuously as long as his blood orbs remain active on the battlefield. "
+				"{ftbquests.chapter.progress.quest25326B961DE6B5EA.description4}"
 				""
-				"Prioritize destroying these orbs immediately to halt his healing. "
+				"{ftbquests.chapter.progress.quest25326B961DE6B5EA.description5}"
 				""
-				"Additionally, keep a close eye on the passive &cblood aura&r surrounding him, which deals constant damage every few seconds. "
+				"{ftbquests.chapter.progress.quest25326B961DE6B5EA.description6}"
 				""
-				"The blood orbs themselves also damage the area directly around them, which is marked by a clear visual indicator."
+				"{ftbquests.chapter.progress.quest25326B961DE6B5EA.description7}"
 			]
 			id: "25326B961DE6B5EA"
 			rewards: [
@@ -749,7 +749,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest25326B961DE6B5EA.subtitle}"
 			tasks: [{
 				id: "4359AEA5A7EC91E3"
 				item: {
@@ -761,18 +761,18 @@
 				}
 				type: "item"
 			}]
-			title: "&4&nSanghor, Lord Of Blood"
+			title: "{ftbquests.chapter.progress.quest25326B961DE6B5EA.title}"
 			x: 2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["25326B961DE6B5EA"]
 			description: [
-				"&6&nZoranth, Newborn&r"
+				"{ftbquests.chapter.progress.quest647CCE4CA1600E21.description1}"
 				""
-				"Reborn from the power of the sun, Zoranth returns far more powerful than before, securing his spot as one of the ultimate challenges in the pack."
+				"{ftbquests.chapter.progress.quest647CCE4CA1600E21.description2}"
 				""
-				"&cBe aware!:&r his attacks are capable of completely sealing your items in a single hit. You will need exceptional positioning and a solid counter-strategy to survive this encounter."
+				"{ftbquests.chapter.progress.quest647CCE4CA1600E21.description3}"
 			]
 			id: "647CCE4CA1600E21"
 			rewards: [{
@@ -783,7 +783,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest647CCE4CA1600E21.subtitle}"
 			tasks: [{
 				id: "2A6C4BFBB6B26F6D"
 				item: {
@@ -795,22 +795,22 @@
 				}
 				type: "item"
 			}]
-			title: "&e&n&lZoranth, Newborn Of The Sun"
+			title: "{ftbquests.chapter.progress.quest647CCE4CA1600E21.title}"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["647CCE4CA1600E21"]
 			description: [
-				"&6&nNyxaris, the Final Encounter&r"
+				"{ftbquests.chapter.progress.quest1116B72E3021814D.description1}"
 				""
-				"Nyxaris is a ruthless entity born of pure malice and the ultimate challenge of your journey. "
+				"{ftbquests.chapter.progress.quest1116B72E3021814D.description2}"
 				""
-				"Are you truly prepared for what he &4brings&r?"
+				"{ftbquests.chapter.progress.quest1116B72E3021814D.description3}"
 				""
-				"&eEverything you have learned and mastered throughout this entire progression line will be required to survive this fight.&r"
+				"{ftbquests.chapter.progress.quest1116B72E3021814D.description4}"
 				""
-				"To help manage the mechanics of this battle and ease the brutal difficulty, you must bring the &nAbsorbing Stone&r with you into the arena. Good luck."
+				"{ftbquests.chapter.progress.quest1116B72E3021814D.description5}"
 			]
 			hide_until_deps_complete: false
 			icon: {
@@ -829,7 +829,7 @@
 			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest1116B72E3021814D.subtitle}"
 			tasks: [
 				{
 					id: "449E223179E59B1B"
@@ -854,22 +854,22 @@
 					type: "item"
 				}
 			]
-			title: "&8&n&lNyxaris, The Veil Of Oblivion"
+			title: "{ftbquests.chapter.progress.quest1116B72E3021814D.title}"
 			x: 6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["297F31BB6030C00F"]
 			description: [
-				"&6&nThe Ender Dragon&r"
+				"{ftbquests.chapter.progress.quest2B69C369F7D0B25C.description1}"
 				""
-				"&dThe Ender Dragon&r is one of the most ancient beings in existence, guarding the gateway to the outer End Cities until the very end."
+				"{ftbquests.chapter.progress.quest2B69C369F7D0B25C.description2}"
 				""
-				"During the battle, she unleashes a constant barrage of high-damage projectiles. Getting hit by these will severely chunk your health bar, so continuous movement is essential."
+				"{ftbquests.chapter.progress.quest2B69C369F7D0B25C.description3}"
 				""
-				"Upon her defeat, she will drop a rare and vital material known as &eKhyros's Tears&r."
+				"{ftbquests.chapter.progress.quest2B69C369F7D0B25C.description4}"
 				""
-				"&c&nWARNING:&r Unlike other encounters, defeating the Ender Dragon will permanently shift your world's balance, unlocking new scaling mechanics and dangers."
+				"{ftbquests.chapter.progress.quest2B69C369F7D0B25C.description5}"
 			]
 			hide_until_deps_complete: true
 			icon: "plushie_buddies:plushie_enderdragon"
@@ -885,34 +885,34 @@
 					}
 				}
 				id: "6676B496DDE5726D"
-				title: "&l&4Glorious"
+				title: "{ftbquests.chapter.progress.quest2B69C369F7D0B25C.reward.7383287199181402733.title}"
 				type: "random"
 			}]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "End / Main island"
+			subtitle: "{ftbquests.chapter.progress.quest2B69C369F7D0B25C.subtitle}"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "plushie_buddies:plushie_enderdragon"
 				id: "21F49EA7FDB97296"
-				title: "&cEnder Dragon"
+				title: "{ftbquests.chapter.progress.quest2B69C369F7D0B25C.task.2446754941922538134.title}"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&dThe Ender Dragon"
+			title: "{ftbquests.chapter.progress.quest2B69C369F7D0B25C.title}"
 			x: -8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["297F31BB6030C00F"]
 			description: [
-				"Unlike standard Minecraft progression, which requires only one type of eye to activate the End Portal, Linggango necessitates several unique eyes to fill the frame."
+				"{ftbquests.chapter.progress.quest19F19149E61D93AD.description1}"
 				""
-				"Please keep these constraints in mind:"
+				"{ftbquests.chapter.progress.quest19F19149E61D93AD.description2}"
 				""
-				"- Unique Eyes Required: You must provide &ndistinct&r types of eyes. Duplicates don't work! "
+				"{ftbquests.chapter.progress.quest19F19149E61D93AD.description3}"
 				""
-				"- Drop Rates: Endermen have a &e0.5%&r chance to drop these unique eyes."
+				"{ftbquests.chapter.progress.quest19F19149E61D93AD.description4}"
 			]
 			hide_dependent_lines: true
 			icon: {
@@ -931,13 +931,13 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "Opens the eye shop"
+			subtitle: "{ftbquests.chapter.progress.quest19F19149E61D93AD.subtitle}"
 			tasks: [{
 				id: "2B699C669419D85D"
-				title: "YES I DO!!!!!!!!"
+				title: "{ftbquests.chapter.progress.quest19F19149E61D93AD.task.3128203380570839133.title}"
 				type: "checkmark"
 			}]
-			title: "Missing Any Eyes?"
+			title: "{ftbquests.chapter.progress.quest19F19149E61D93AD.title}"
 			x: -10.5d
 			y: 0.5d
 		}
@@ -973,7 +973,7 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "Lost Eye"
+			title: "{ftbquests.chapter.progress.questC9FD8DD49BD8880.title}"
 			x: -10.5d
 			y: 3.5d
 		}
@@ -1009,7 +1009,7 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "Corrupted Eye"
+			title: "{ftbquests.chapter.progress.quest6993578E8C624653.title}"
 			x: -10.5d
 			y: 2.5d
 		}
@@ -1045,7 +1045,7 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "&bCold Eye"
+			title: "{ftbquests.chapter.progress.quest2B3359A3BF539163.title}"
 			x: -9.5d
 			y: 4.5d
 		}
@@ -1081,7 +1081,7 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "Black Eye"
+			title: "{ftbquests.chapter.progress.quest1F20F3BEF1E39AF4.title}"
 			x: -11.0d
 			y: 3.0d
 		}
@@ -1117,7 +1117,7 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "&bEvil Eye"
+			title: "{ftbquests.chapter.progress.quest19ACEFF0281C992D.title}"
 			x: -10.0d
 			y: 3.0d
 		}
@@ -1153,7 +1153,7 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "Rogue Eye"
+			title: "{ftbquests.chapter.progress.quest5C303E7BA1022878.title}"
 			x: -11.0d
 			y: 4.0d
 		}
@@ -1189,7 +1189,7 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "Old Eye"
+			title: "{ftbquests.chapter.progress.quest659C358ABAFA089E.title}"
 			x: -10.0d
 			y: 5.0d
 		}
@@ -1225,7 +1225,7 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "&bNether Eye"
+			title: "{ftbquests.chapter.progress.quest7B075568B5999A06.title}"
 			x: -10.5d
 			y: 5.5d
 		}
@@ -1261,7 +1261,7 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "&dUndead Eye"
+			title: "{ftbquests.chapter.progress.quest70331FA0269B8924.title}"
 			x: -11.0d
 			y: 6.0d
 		}
@@ -1297,7 +1297,7 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "Witch Eye"
+			title: "{ftbquests.chapter.progress.quest51C116F74B449565.title}"
 			x: -11.0d
 			y: 5.0d
 		}
@@ -1333,7 +1333,7 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "&bGuardian Eye"
+			title: "{ftbquests.chapter.progress.quest31EAF80F4F2415B1.title}"
 			x: -10.0d
 			y: 4.0d
 		}
@@ -1369,16 +1369,16 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "&dWither Eye"
+			title: "{ftbquests.chapter.progress.quest6183ED22625BB4A4.title}"
 			x: -11.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["79097B7E3E4E2782"]
 			description: [
-				"&6&nEnigmatic Dies&r"
-				"Enigmatic Dies act as a modern reimagining of classic lucky blocks. You can obtain them by defeating powerful entities or by completing specific advancements."
-				"&8If you have experience with lucky blocks, you already know these outcomes should not be underestimated!&r"
+				"{ftbquests.chapter.progress.quest4F9FDBC9169FEBBF.description1}"
+				"{ftbquests.chapter.progress.quest4F9FDBC9169FEBBF.description2}"
+				"{ftbquests.chapter.progress.quest4F9FDBC9169FEBBF.description3}"
 			]
 			disable_toast: true
 			icon: "enigmaticdice:enigmatic_die"
@@ -1391,7 +1391,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "Lucky &mBlocks&r Dices!"
+			subtitle: "{ftbquests.chapter.progress.quest4F9FDBC9169FEBBF.subtitle}"
 			tasks: [{
 				disable_toast: true
 				id: "6ACEE3AA66C01647"
@@ -1404,17 +1404,17 @@
 		{
 			dependencies: ["4E97AB0CAB1A3763"]
 			description: [
-				"If you tick this questline, gambling quests will appear!"
+				"{ftbquests.chapter.progress.quest4E71596C7F2A17F4.description1}"
 				""
-				"&n&7You can go with:&r"
+				"{ftbquests.chapter.progress.quest4E71596C7F2A17F4.description2}"
 				""
-				"-&r &aLow Risk&r&r = Small chance of something bad happening, but the rewards aren’t great."
+				"{ftbquests.chapter.progress.quest4E71596C7F2A17F4.description3}"
 				""
-				"-&r &eMedium Risk&r&r = Higher chance of something bad happening, but the rewards are decent."
+				"{ftbquests.chapter.progress.quest4E71596C7F2A17F4.description4}"
 				""
-				"-&r &6High Risk&r&r = Very high chance of something bad happening, but the rewards are strong."
+				"{ftbquests.chapter.progress.quest4E71596C7F2A17F4.description5}"
 				""
-				"-&r &cSUPER RISK&r&r = The ultimate gamble. Would you dare?"
+				"{ftbquests.chapter.progress.quest4E71596C7F2A17F4.description6}"
 			]
 			icon: {
 				Count: 1
@@ -1433,13 +1433,13 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "Didn't had enough?"
+			subtitle: "{ftbquests.chapter.progress.quest4E71596C7F2A17F4.subtitle}"
 			tasks: [{
 				id: "2854EB5AD76019A3"
-				title: "HELL YEA"
+				title: "{ftbquests.chapter.progress.quest4E71596C7F2A17F4.task.2906206434953796003.title}"
 				type: "checkmark"
 			}]
-			title: "&dGambling&r &aActivator"
+			title: "{ftbquests.chapter.progress.quest4E71596C7F2A17F4.title}"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -1461,12 +1461,12 @@
 				auto: "enabled"
 				icon: "minecraft:oak_log"
 				id: "5873C870DB1AB730"
-				title: "Low risk reward"
+				title: "{ftbquests.chapter.progress.questE4DEBB21C0F69E3.reward.6373658284697237296.title}"
 				type: "random"
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "Submit the dices to proceed."
+			subtitle: "{ftbquests.chapter.progress.questE4DEBB21C0F69E3.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 4L
@@ -1474,7 +1474,7 @@
 				item: "enigmaticdice:enigmatic_die"
 				type: "item"
 			}]
-			title: "-&aLow risk-"
+			title: "{ftbquests.chapter.progress.questE4DEBB21C0F69E3.title}"
 			x: 2.0d
 			y: -1.5d
 		}
@@ -1495,12 +1495,12 @@
 			rewards: [{
 				icon: "minecraft:iron_block"
 				id: "213F511C9CC6D9DD"
-				title: "Medium Risk"
+				title: "{ftbquests.chapter.progress.quest52387E83E8FC83F2.reward.2395722710115604957.title}"
 				type: "random"
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "Submit the dices to proceed."
+			subtitle: "{ftbquests.chapter.progress.quest52387E83E8FC83F2.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 7L
@@ -1508,7 +1508,7 @@
 				item: { Count: 7, id: "enigmaticdice:enigmatic_die" }
 				type: "item"
 			}]
-			title: "-&eMedium Risk-"
+			title: "{ftbquests.chapter.progress.quest52387E83E8FC83F2.title}"
 			x: 3.0d
 			y: -1.5d
 		}
@@ -1529,12 +1529,12 @@
 			rewards: [{
 				icon: "minecraft:netherite_block"
 				id: "37A83654CB468ABB"
-				title: "High Risk"
+				title: "{ftbquests.chapter.progress.quest4BDAC08FA14C1C52.reward.4010515205988977339.title}"
 				type: "random"
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "Submit the dices to proceed."
+			subtitle: "{ftbquests.chapter.progress.quest4BDAC08FA14C1C52.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 13L
@@ -1542,7 +1542,7 @@
 				item: { Count: 15, id: "enigmaticdice:enigmatic_die" }
 				type: "item"
 			}]
-			title: "-&6High Risk&r-"
+			title: "{ftbquests.chapter.progress.quest4BDAC08FA14C1C52.title}"
 			x: 2.0d
 			y: -2.5d
 		}
@@ -1563,12 +1563,12 @@
 			rewards: [{
 				icon: "armageddon_mod:bloody_block"
 				id: "45143B090529DEA5"
-				title: "&4SUPER RISK!"
+				title: "{ftbquests.chapter.progress.quest6F07895B639F8B70.reward.4977668398078615205.title}"
 				type: "random"
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "Submit the dices to proceed."
+			subtitle: "{ftbquests.chapter.progress.quest6F07895B639F8B70.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 25L
@@ -1576,7 +1576,7 @@
 				item: { Count: 20, id: "enigmaticdice:enigmatic_die" }
 				type: "item"
 			}]
-			title: "-&cSUPER RISK&r-"
+			title: "{ftbquests.chapter.progress.quest6F07895B639F8B70.title}"
 			x: 3.0d
 			y: -2.5d
 		}
@@ -1611,7 +1611,7 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "&bMagical Eye"
+			title: "{ftbquests.chapter.progress.quest35DDA00473CAD95A.title}"
 			x: -10.5d
 			y: 6.5d
 		}
@@ -1646,20 +1646,20 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "&dCryptic Eye"
+			title: "{ftbquests.chapter.progress.quest28BC42C468822F49.title}"
 			x: -10.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["2EAC826E47A3A682"]
 			description: [
-				"&6&nJourney to the Undergarden&r"
+				"{ftbquests.chapter.progress.quest177DFA9CBE995173.description1}"
 				""
-				"To progress further, your next destination is the Undergarden. Crafting the next required boss item demands &cUtherium&r, a resource found exclusively within this deep, subterranean dimension."
+				"{ftbquests.chapter.progress.quest177DFA9CBE995173.description2}"
 				""
-				"To enter, construct a portal frame out of &bStone Bricks&r, using the same shape as a standard Nether portal. However, instead of using a regular flint and steel, you must ignite the frame using a specific &bCatalyst&r."
+				"{ftbquests.chapter.progress.quest177DFA9CBE995173.description3}"
 				""
-				"&8Refer to the dedicated Undergarden questline for more information on surviving this dimension.&r"
+				"{ftbquests.chapter.progress.quest177DFA9CBE995173.description4}"
 			]
 			icon: {
 				Count: 1
@@ -1677,7 +1677,7 @@
 			}]
 			shape: "square"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest177DFA9CBE995173.subtitle}"
 			tasks: [
 				{
 					id: "41289FFD0ABAA8ED"
@@ -1691,7 +1691,7 @@
 					type: "item"
 				}
 			]
-			title: "The Undergarden"
+			title: "{ftbquests.chapter.progress.quest177DFA9CBE995173.title}"
 			x: -10.5d
 			y: -4.5d
 		}
@@ -1701,7 +1701,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &firon&r tools. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest4EF54E009E9B845A.subtitle}"
 			tasks: [{
 				id: "59F5309E52BB1952"
 				item: {
@@ -1713,7 +1713,7 @@
 				}
 				type: "item"
 			}]
-			title: "Weapons Unlocked"
+			title: "{ftbquests.chapter.progress.quest4EF54E009E9B845A.title}"
 			x: -10.0d
 			y: -15.0d
 		}
@@ -1723,7 +1723,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &egolden&r tools. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest4ACDD865686A7489.subtitle}"
 			tasks: [{
 				id: "7F1DED289482915F"
 				item: {
@@ -1735,7 +1735,7 @@
 				}
 				type: "item"
 			}]
-			title: "Weapons Unlocked"
+			title: "{ftbquests.chapter.progress.quest4ACDD865686A7489.title}"
 			x: -11.0d
 			y: -11.5d
 		}
@@ -1745,7 +1745,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &aemerald&r tools. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.questC299EC24B475F74.subtitle}"
 			tasks: [{
 				id: "2F69731528083E3F"
 				item: {
@@ -1757,7 +1757,7 @@
 				}
 				type: "item"
 			}]
-			title: "Weapons Unlocked"
+			title: "{ftbquests.chapter.progress.questC299EC24B475F74.title}"
 			x: -10.0d
 			y: -9.0d
 		}
@@ -1767,7 +1767,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &bdiamond&r tools. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest5A6FA10321E5F644.subtitle}"
 			tasks: [{
 				id: "5F0FC3382B35F424"
 				item: {
@@ -1779,7 +1779,7 @@
 				}
 				type: "item"
 			}]
-			title: "Weapons Unlocked"
+			title: "{ftbquests.chapter.progress.quest5A6FA10321E5F644.title}"
 			x: -11.0d
 			y: -6.5d
 		}
@@ -1789,7 +1789,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &8netherite&r tools. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest4193DE39BA903063.subtitle}"
 			tasks: [{
 				id: "5DA075C25E4A93A7"
 				item: {
@@ -1801,7 +1801,7 @@
 				}
 				type: "item"
 			}]
-			title: "Weapons Unlocked"
+			title: "{ftbquests.chapter.progress.quest4193DE39BA903063.title}"
 			x: -11.0d
 			y: -1.5d
 		}
@@ -1811,7 +1811,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &6elvenite&r tools. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest5AAB57B3BC5BCB6F.subtitle}"
 			tasks: [{
 				id: "0918F1CE29BDA955"
 				item: {
@@ -1823,7 +1823,7 @@
 				}
 				type: "item"
 			}]
-			title: "Weapons Unlocked"
+			title: "{ftbquests.chapter.progress.quest5AAB57B3BC5BCB6F.title}"
 			x: -5.0d
 			y: -1.5d
 		}
@@ -1833,7 +1833,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &dvoiderite&r tools. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.questAC862963205C762.subtitle}"
 			tasks: [{
 				id: "7ADB5B200AAB9388"
 				item: {
@@ -1845,7 +1845,7 @@
 				}
 				type: "item"
 			}]
-			title: "Weapons Unlocked"
+			title: "{ftbquests.chapter.progress.questAC862963205C762.title}"
 			x: -1.5d
 			y: -3.0d
 		}
@@ -1855,7 +1855,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &cbloody&r tools. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest361AC6FC1B84C08C.subtitle}"
 			tasks: [{
 				id: "6F0E49E370FE6A45"
 				item: {
@@ -1867,7 +1867,7 @@
 				}
 				type: "item"
 			}]
-			title: "Weapons Unlocked"
+			title: "{ftbquests.chapter.progress.quest361AC6FC1B84C08C.title}"
 			x: 1.5d
 			y: 4.0d
 		}
@@ -1877,7 +1877,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &e&l&ohe&r&6&l&oli&r&e&l&oon&r&6&l&oite&r tools. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest1A27B4B467036C7C.subtitle}"
 			tasks: [{
 				id: "45F1E54849ACD54E"
 				item: {
@@ -1889,7 +1889,7 @@
 				}
 				type: "item"
 			}]
-			title: "Weapons Unlocked"
+			title: "{ftbquests.chapter.progress.quest1A27B4B467036C7C.title}"
 			x: 5.5d
 			y: 4.0d
 		}
@@ -1899,7 +1899,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &firon&r armors. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.questEA8DDB858E0594D.subtitle}"
 			tasks: [{
 				id: "003B055015D846FB"
 				item: {
@@ -1911,7 +1911,7 @@
 				}
 				type: "item"
 			}]
-			title: "Armors Unlocked"
+			title: "{ftbquests.chapter.progress.questEA8DDB858E0594D.title}"
 			x: -11.0d
 			y: -15.0d
 		}
@@ -1921,7 +1921,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &egolden&r armors. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest7649983C6DC1149B.subtitle}"
 			tasks: [{
 				id: "3BD44D6D390DCF4E"
 				item: {
@@ -1933,7 +1933,7 @@
 				}
 				type: "item"
 			}]
-			title: "Armors Unlocked"
+			title: "{ftbquests.chapter.progress.quest7649983C6DC1149B.title}"
 			x: -10.0d
 			y: -11.5d
 		}
@@ -1943,7 +1943,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &aemerald&r armors. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest157136D6ADE6B49.subtitle}"
 			tasks: [{
 				id: "4699687C8BCE29E5"
 				item: {
@@ -1955,7 +1955,7 @@
 				}
 				type: "item"
 			}]
-			title: "Armors Unlocked"
+			title: "{ftbquests.chapter.progress.quest157136D6ADE6B49.title}"
 			x: -11.0d
 			y: -9.0d
 		}
@@ -1965,7 +1965,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &bdiamond&r armors. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest4F4AB2978390ED1A.subtitle}"
 			tasks: [{
 				id: "27A08B5F5918484A"
 				item: {
@@ -1977,7 +1977,7 @@
 				}
 				type: "item"
 			}]
-			title: "Armors Unlocked"
+			title: "{ftbquests.chapter.progress.quest4F4AB2978390ED1A.title}"
 			x: -10.0d
 			y: -6.5d
 		}
@@ -1987,7 +1987,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &8netherite&r armors. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest345C9D25CEDF92E3.subtitle}"
 			tasks: [{
 				id: "25C2E78F025A431C"
 				item: {
@@ -1999,7 +1999,7 @@
 				}
 				type: "item"
 			}]
-			title: "Armors Unlocked"
+			title: "{ftbquests.chapter.progress.quest345C9D25CEDF92E3.title}"
 			x: -10.0d
 			y: -1.5d
 		}
@@ -2009,7 +2009,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &6elvenite&r armors. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest14F57F76AFFA764C.subtitle}"
 			tasks: [{
 				id: "3DB6F2F58686870E"
 				item: {
@@ -2021,7 +2021,7 @@
 				}
 				type: "item"
 			}]
-			title: "Armors Unlocked"
+			title: "{ftbquests.chapter.progress.quest14F57F76AFFA764C.title}"
 			x: -5.0d
 			y: -2.5d
 		}
@@ -2031,7 +2031,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &dvoiderite&r armors. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.questD67C763540ADF60.subtitle}"
 			tasks: [{
 				id: "233E5F573ED06B36"
 				item: {
@@ -2043,7 +2043,7 @@
 				}
 				type: "item"
 			}]
-			title: "Armors Unlocked"
+			title: "{ftbquests.chapter.progress.questD67C763540ADF60.title}"
 			x: -2.5d
 			y: -3.0d
 		}
@@ -2053,7 +2053,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &cbloody&r armors. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest679AAAB24CD1920D.subtitle}"
 			tasks: [{
 				id: "277522098B7222A0"
 				item: {
@@ -2065,7 +2065,7 @@
 				}
 				type: "item"
 			}]
-			title: "Armors Unlocked"
+			title: "{ftbquests.chapter.progress.quest679AAAB24CD1920D.title}"
 			x: 2.5d
 			y: 4.0d
 		}
@@ -2075,7 +2075,7 @@
 			optional: true
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "You have unlocked &e&l&ohe&r&6&l&oli&r&e&l&oon&r&6&l&oite&r armors. To see all of them, click on the item icon."
+			subtitle: "{ftbquests.chapter.progress.quest3B166461C373C0AF.subtitle}"
 			tasks: [{
 				id: "5A1312AC275743C5"
 				item: {
@@ -2087,16 +2087,16 @@
 				}
 				type: "item"
 			}]
-			title: "Armors Unlocked"
+			title: "{ftbquests.chapter.progress.quest3B166461C373C0AF.title}"
 			x: 6.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["79097B7E3E4E2782"]
 			description: [
-				"&6&nCombat&r"
+				"{ftbquests.chapter.progress.quest757965585FCEB233.description1}"
 				""
-				"The bosses that lie ahead are significantly tougher than anything you have faced so far. Approaching these fights requires patience, strategy, and careful judgment rather than raw force. Take your time progressing through these encounters, and make sure to read the guidance provided for each one."
+				"{ftbquests.chapter.progress.quest757965585FCEB233.description2}"
 			]
 			icon: "covenant_of_the_seven:virtue_ring"
 			id: "757965585FCEB233"
@@ -2197,23 +2197,23 @@
 			]
 			shape: "rsquare"
 			size: 1.2d
-			subtitle: "&eWill your fortitude be enough?"
+			subtitle: "{ftbquests.chapter.progress.quest757965585FCEB233.subtitle}"
 			tasks: [{
 				advancement: "covenant_of_the_seven:ring_of_the_seven_virtues"
 				criterion: ""
 				id: "75277E19638F8841"
 				type: "advancement"
 			}]
-			title: "&e&nPath To The Wisdom"
+			title: "{ftbquests.chapter.progress.quest757965585FCEB233.title}"
 			x: -13.0d
 			y: -16.0d
 		}
 		{
 			dependencies: ["79097B7E3E4E2782"]
 			description: [
-				"&6&nCombat&r"
+				"{ftbquests.chapter.progress.quest69CDDA76E83AA65F.description1}"
 				""
-				"These encounters are much tougher and cannot simply be speedrun without the proper armor, relics, and equipment. Defeat the bosses in order, and carefully study the mechanics detailed in the upcoming quests to ensure you are ready for the challenge."
+				"{ftbquests.chapter.progress.quest69CDDA76E83AA65F.description2}"
 			]
 			icon: "enigmaticlegacy:cursed_ring"
 			id: "69CDDA76E83AA65F"
@@ -2226,14 +2226,14 @@
 			}]
 			shape: "rsquare"
 			size: 1.2d
-			subtitle: "&cSo you have chosen to suffer."
+			subtitle: "{ftbquests.chapter.progress.quest69CDDA76E83AA65F.subtitle}"
 			tasks: [{
 				advancement: "enigmaticlegacy:main/cursed_ring"
 				criterion: ""
 				id: "07E6022F6591E66C"
 				type: "advancement"
 			}]
-			title: "&c&nPath To The Suffering"
+			title: "{ftbquests.chapter.progress.quest69CDDA76E83AA65F.title}"
 			x: -8.0d
 			y: -16.0d
 		}
@@ -2243,9 +2243,9 @@
 				"5D3E8E9BCD0A9935"
 			]
 			description: [
-				"The first obstacle requires courage and strategic methods."
+				"{ftbquests.chapter.progress.quest9D823B344678751.description1}"
 				""
-				"Since you are &c&nforbidden&r to use the melee weaponry that the cursed ones possess, rely on thy world's &ecompanions&r, &e&dsorcery&r&r, and the path of the hunt, perhaps archery could be your best friend."
+				"{ftbquests.chapter.progress.quest9D823B344678751.description2}"
 			]
 			icon: {
 				Count: 1
@@ -2261,13 +2261,13 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "&eThe first obstacle, lies ahead."
+			subtitle: "{ftbquests.chapter.progress.quest9D823B344678751.subtitle}"
 			tasks: [{
 				id: "75E350E30FDE0B74"
-				title: "Ok"
+				title: "{ftbquests.chapter.progress.quest9D823B344678751.task.8494722258304895860.title}"
 				type: "checkmark"
 			}]
-			title: "Genesis"
+			title: "{ftbquests.chapter.progress.quest9D823B344678751.title}"
 			x: -13.5d
 			y: -13.5d
 		}
@@ -2277,13 +2277,13 @@
 				"5D3E8E9BCD0A9935"
 			]
 			description: [
-				"This tests your strength and thinking on how you'd tackle this boss. "
+				"{ftbquests.chapter.progress.quest9120F171B0626F2.description1}"
 				""
-				"Find relics of the past that helps you survive the pain inflicted by everything near you. "
+				"{ftbquests.chapter.progress.quest9120F171B0626F2.description2}"
 				""
-				"Especially those that &e&nmitigate&r the pain, will definitely help."
+				"{ftbquests.chapter.progress.quest9120F171B0626F2.description3}"
 				""
-				"&cMagical books&r with powers that enhance your tools, and gear will also help you tackle on challenges further."
+				"{ftbquests.chapter.progress.quest9120F171B0626F2.description4}"
 			]
 			icon: {
 				Count: 1
@@ -2300,13 +2300,13 @@
 			}]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "&cThe first challenge, lies ahead."
+			subtitle: "{ftbquests.chapter.progress.quest9120F171B0626F2.subtitle}"
 			tasks: [{
 				id: "2CCAAEB9D3A0725E"
-				title: "Ok"
+				title: "{ftbquests.chapter.progress.quest9120F171B0626F2.task.3227584196107072094.title}"
 				type: "checkmark"
 			}]
-			title: "The impending doom starts."
+			title: "{ftbquests.chapter.progress.quest9120F171B0626F2.title}"
 			x: -7.5d
 			y: -13.5d
 		}
@@ -2316,13 +2316,13 @@
 				"7D0C439E5D207DDE"
 			]
 			description: [
-				"The challenge will demand a choice of priorities."
+				"{ftbquests.chapter.progress.quest23B4C927EB742384.description1}"
 				""
-				"Will you strike the boss until his servants arrive, or keep pressing forward without &cfear&r?"
+				"{ftbquests.chapter.progress.quest23B4C927EB742384.description2}"
 				""
-				"Remember, &cthese servants are more dangerous than the boss itself&r, so choose your focus carefully."
+				"{ftbquests.chapter.progress.quest23B4C927EB742384.description3}"
 				""
-				"Your decision matters, and the consequences will follow every wrong step."
+				"{ftbquests.chapter.progress.quest23B4C927EB742384.description4}"
 			]
 			icon: {
 				Count: 1
@@ -2339,13 +2339,13 @@
 			}]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "&cThe agony, resumes for a second time."
+			subtitle: "{ftbquests.chapter.progress.quest23B4C927EB742384.subtitle}"
 			tasks: [{
 				id: "4F3154A23AF571C5"
-				title: "Ok"
+				title: "{ftbquests.chapter.progress.quest23B4C927EB742384.task.5706435258605728197.title}"
 				type: "checkmark"
 			}]
-			title: "The suffering goes on."
+			title: "{ftbquests.chapter.progress.quest23B4C927EB742384.title}"
 			x: -8.0d
 			y: -11.5d
 		}
@@ -2355,11 +2355,11 @@
 				"7D0C439E5D207DDE"
 			]
 			description: [
-				"This time, the obstacle you'll face is a tougher opponent, capable of inflicting distracting  effects that will make this journey difficult, avoid those,  and you will easily triumph through."
+				"{ftbquests.chapter.progress.quest1C546D49239E73BA.description1}"
 				""
-				"Perhaps the &ebow of the ancient sage&r may help you the most with this task, although you can resort to using your &epure brute strength&r, or &eother methods &rthat the virtues path provides."
+				"{ftbquests.chapter.progress.quest1C546D49239E73BA.description2}"
 				""
-				"This obstacle will test your wisdom of knowing which one to prioritize, the bigger one? or its summon instead?"
+				"{ftbquests.chapter.progress.quest1C546D49239E73BA.description3}"
 			]
 			icon: {
 				Count: 1
@@ -2376,13 +2376,13 @@
 			}]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "&eThe expedition, continues"
+			subtitle: "{ftbquests.chapter.progress.quest1C546D49239E73BA.subtitle}"
 			tasks: [{
 				id: "42424762C5F59992"
-				title: "Ok"
+				title: "{ftbquests.chapter.progress.quest1C546D49239E73BA.task.4774457044519721362.title}"
 				type: "checkmark"
 			}]
-			title: "Courage, should be shown."
+			title: "{ftbquests.chapter.progress.quest1C546D49239E73BA.title}"
 			x: -13.0d
 			y: -11.5d
 		}
@@ -2392,9 +2392,9 @@
 				"4F34F740CD095315"
 			]
 			description: [
-				"For those who pursue the path of virtues, the relic of the&e annointed handward&r will now be accessible for players to get, improving strength further, and at the same time promoting the use of tougher protecton for thyself to gain power."
+				"{ftbquests.chapter.progress.quest69A33780D2B0CA64.description1}"
 				""
-				"But the choice is still up to the user, whether to stick with &ecompanions&r, esorcery&r, &epure strength&r, &earchery&r, or any methods."
+				"{ftbquests.chapter.progress.quest69A33780D2B0CA64.description2}"
 			]
 			icon: "covenant_of_the_seven:holy_essence"
 			id: "69A33780D2B0CA64"
@@ -2405,13 +2405,13 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "&eThe journey moves on!"
+			subtitle: "{ftbquests.chapter.progress.quest69A33780D2B0CA64.subtitle}"
 			tasks: [{
 				id: "129A40092179BD9D"
-				title: "Ok"
+				title: "{ftbquests.chapter.progress.quest69A33780D2B0CA64.task.1340454247056653725.title}"
 				type: "checkmark"
 			}]
-			title: "Patience, is a virtue."
+			title: "{ftbquests.chapter.progress.quest69A33780D2B0CA64.title}"
 			x: -14.0d
 			y: -9.5d
 		}
@@ -2421,15 +2421,15 @@
 				"4F34F740CD095315"
 			]
 			description: [
-				"The opponent before you has strong &4malicious&r intent."
+				"{ftbquests.chapter.progress.quest4D17B764CDE93844.description1}"
 				""
-				"You shall proceed to be &4cautious&r, and prepare yourself for the worst."
+				"{ftbquests.chapter.progress.quest4D17B764CDE93844.description2}"
 				""
-				"Use your &aexperience&r to your advantage to obtain the most unrivaled &dmagic augmentations&r to your equipments."
+				"{ftbquests.chapter.progress.quest4D17B764CDE93844.description3}"
 				""
-				"Obtain the best &eartifacts&r that you could find to help you survive."
+				"{ftbquests.chapter.progress.quest4D17B764CDE93844.description4}"
 				""
-				"Beware of the dangers that the &esecond coming&r of the obstacle has, observe with your keen eyes and you shall see the dangers."
+				"{ftbquests.chapter.progress.quest4D17B764CDE93844.description5}"
 			]
 			icon: "enigmaticlegacy:evil_essence"
 			id: "4D17B764CDE93844"
@@ -2440,13 +2440,13 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "&cMalice, strikes in the third challenge."
+			subtitle: "{ftbquests.chapter.progress.quest4D17B764CDE93844.subtitle}"
 			tasks: [{
 				id: "21AFA0867AE5BB05"
-				title: "Ok"
+				title: "{ftbquests.chapter.progress.quest4D17B764CDE93844.task.2427335223623924485.title}"
 				type: "checkmark"
 			}]
-			title: "Malice strikes."
+			title: "{ftbquests.chapter.progress.quest4D17B764CDE93844.title}"
 			x: -7.0d
 			y: -9.5d
 		}
@@ -2456,11 +2456,11 @@
 				"2EAC826E47A3A682"
 			]
 			description: [
-				"Fighting against one of the overworld's greatest, the ancient one."
+				"{ftbquests.chapter.progress.quest1BE503F8BE00138A.description1}"
 				""
-				"With enough strength, and keen judgement of which to prioritize, and evade, you will be able to easily triumph through."
+				"{ftbquests.chapter.progress.quest1BE503F8BE00138A.description2}"
 				""
-				"Use what you've learned in your previous experiences, and it shall end up in the same result."
+				"{ftbquests.chapter.progress.quest1BE503F8BE00138A.description3}"
 			]
 			icon: "covenant_of_the_seven:sacred_ingot"
 			id: "1BE503F8BE00138A"
@@ -2472,13 +2472,13 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "&eAll of thy preparation, has come to this moment."
+			subtitle: "{ftbquests.chapter.progress.quest1BE503F8BE00138A.subtitle}"
 			tasks: [{
 				id: "183E0A2570B5E730"
-				title: "Ok"
+				title: "{ftbquests.chapter.progress.quest1BE503F8BE00138A.task.1746844861387368240.title}"
 				type: "checkmark"
 			}]
-			title: "The test of thy strength"
+			title: "{ftbquests.chapter.progress.quest1BE503F8BE00138A.title}"
 			x: -14.0d
 			y: -7.5d
 		}
@@ -2488,15 +2488,15 @@
 				"2EAC826E47A3A682"
 			]
 			description: [
-				"Now that you've fought some of the tough challenges, are you ready to fight someone from the ancient times?"
+				"{ftbquests.chapter.progress.quest1D3C73CC5BDBC847.description1}"
 				""
-				"Has your observation and thought process improved?"
+				"{ftbquests.chapter.progress.quest1D3C73CC5BDBC847.description2}"
 				""
-				"Fighting one of the ancients will test out what you've learned so far."
+				"{ftbquests.chapter.progress.quest1D3C73CC5BDBC847.description3}"
 				""
-				"&4Avoid the trouble that comes from him and his harbingers&r, and you'll see yourself succeeding through."
+				"{ftbquests.chapter.progress.quest1D3C73CC5BDBC847.description4}"
 				""
-				"Lets put that to the test, shall we?"
+				"{ftbquests.chapter.progress.quest1D3C73CC5BDBC847.description5}"
 			]
 			icon: "enigmaticlegacy:evil_ingot"
 			id: "1D3C73CC5BDBC847"
@@ -2508,13 +2508,13 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "&cA price to pay."
+			subtitle: "{ftbquests.chapter.progress.quest1D3C73CC5BDBC847.subtitle}"
 			tasks: [{
 				id: "4D91E74D5DF179C1"
-				title: "Ok"
+				title: "{ftbquests.chapter.progress.quest1D3C73CC5BDBC847.task.5589502932018100673.title}"
 				type: "checkmark"
 			}]
-			title: "Toll of the cursed."
+			title: "{ftbquests.chapter.progress.quest1D3C73CC5BDBC847.title}"
 			x: -7.0d
 			y: -7.5d
 		}
@@ -2524,11 +2524,11 @@
 				"177DFA9CBE995173"
 			]
 			description: [
-				"By opening the gates of nether, a new path unfolds, one that grants the followers of virtues a chance to gain strength."
+				"{ftbquests.chapter.progress.quest77CD0120B138D317.description1}"
 				""
-				"&eNew curios lie hidden in the depths of nether, waiting to be wielded..&r"
+				"{ftbquests.chapter.progress.quest77CD0120B138D317.description2}"
 				""
-				"Among these discoveries are relics of immense power: the Eye that sees all things from within, and Mnestia’s Raiment, a garment woven with divine essence. These treasures are now within reach for those bold enough to claim them."
+				"{ftbquests.chapter.progress.quest77CD0120B138D317.description3}"
 			]
 			icon: "regions_unexplored:mycotoxic_moss"
 			icon_scale: 1.25d
@@ -2541,11 +2541,11 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "&eThy strength is growing, bit by bit."
+			subtitle: "{ftbquests.chapter.progress.quest77CD0120B138D317.subtitle}"
 			tasks: [
 				{
 					id: "430D6656E55531BA"
-					title: "Ok"
+					title: "{ftbquests.chapter.progress.quest77CD0120B138D317.task.4831630498639196602.title}"
 					type: "checkmark"
 				}
 				{
@@ -2559,11 +2559,11 @@
 						}
 					}
 					id: "35D46730BD3AA97A"
-					title: "&4Conquer The Overworld"
+					title: "{ftbquests.chapter.progress.quest77CD0120B138D317.task.3878838638103669114.title}"
 					type: "advancement"
 				}
 			]
-			title: "The slow resonance to the light."
+			title: "{ftbquests.chapter.progress.quest77CD0120B138D317.title}"
 			x: -13.5d
 			y: -5.5d
 		}
@@ -2573,11 +2573,11 @@
 				"177DFA9CBE995173"
 			]
 			description: [
-				"The realm of &chell&r, a place that shouldn't suprise you."
+				"{ftbquests.chapter.progress.quest3CBFE187EE7EB1A9.description1}"
 				""
-				"This welcomes you to &cnew artifacts&r that you can fully use to prevent the agony from slowly devouring you. "
+				"{ftbquests.chapter.progress.quest3CBFE187EE7EB1A9.description2}"
 				""
-				"This should also serve as a time for you to fully strengthen up to the true test."
+				"{ftbquests.chapter.progress.quest3CBFE187EE7EB1A9.description3}"
 			]
 			hide_dependency_lines: false
 			icon: "minecraft:netherrack"
@@ -2591,11 +2591,11 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "&cYou have sunken deeper in the abyss."
+			subtitle: "{ftbquests.chapter.progress.quest3CBFE187EE7EB1A9.subtitle}"
 			tasks: [
 				{
 					id: "626D1BFC2F577215"
-					title: "Ok"
+					title: "{ftbquests.chapter.progress.quest3CBFE187EE7EB1A9.task.7092355758118367765.title}"
 					type: "checkmark"
 				}
 				{
@@ -2609,30 +2609,30 @@
 						}
 					}
 					id: "0016BDA8FD3492C3"
-					title: "&4Conquer The Overworld"
+					title: "{ftbquests.chapter.progress.quest3CBFE187EE7EB1A9.task.6400982987870915.title}"
 					type: "advancement"
 				}
 			]
-			title: "To the depths of hell we go."
+			title: "{ftbquests.chapter.progress.quest3CBFE187EE7EB1A9.title}"
 			x: -7.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["77CD0120B138D317"]
 			description: [
-				"You have finally &eascended&r and claimed what was meant to be yours from the very beginning."
+				"{ftbquests.chapter.progress.quest5DFA8A8CFACBFE3D.description1}"
 				""
-				"You have shown the traits and values that embody true virtue."
+				"{ftbquests.chapter.progress.quest5DFA8A8CFACBFE3D.description2}"
 				""
-				"From this point forward, you must walk your own path and take control of your actions without guidance. The choice is now yours."
+				"{ftbquests.chapter.progress.quest5DFA8A8CFACBFE3D.description3}"
 				""
-				"If you ever lose your way or struggle to see the road ahead, remember these &nimportant&r artifacts:"
+				"{ftbquests.chapter.progress.quest5DFA8A8CFACBFE3D.description4}"
 				""
-				"&e- The scroll that holds a thousand virtues.&r"
+				"{ftbquests.chapter.progress.quest5DFA8A8CFACBFE3D.description5}"
 				""
-				"&e- The insignia of lightforged benediction.&r"
+				"{ftbquests.chapter.progress.quest5DFA8A8CFACBFE3D.description6}"
 				""
-				"&e- The pearl of potioneers.&r"
+				"{ftbquests.chapter.progress.quest5DFA8A8CFACBFE3D.description7}"
 			]
 			hide_until_deps_complete: true
 			icon: "covenant_of_the_seven:the_aeternum"
@@ -2645,30 +2645,30 @@
 			}]
 			shape: "gear"
 			size: 1.25d
-			subtitle: "Is this heaven?"
+			subtitle: "{ftbquests.chapter.progress.quest5DFA8A8CFACBFE3D.subtitle}"
 			tasks: [{
 				id: "69F6046BE7854DF8"
-				title: "Ouu shi"
+				title: "{ftbquests.chapter.progress.quest5DFA8A8CFACBFE3D.task.7635295079745539576.title}"
 				type: "checkmark"
 			}]
-			title: "The ascension."
+			title: "{ftbquests.chapter.progress.quest5DFA8A8CFACBFE3D.title}"
 			x: -13.125d
 			y: -3.75d
 		}
 		{
 			dependencies: ["3CBFE187EE7EB1A9"]
 			description: [
-				"The deepest part of the abyss cannot be reached, and now you face these challenges on your own."
+				"{ftbquests.chapter.progress.quest6C86FCEA2AA02167.description1}"
 				""
-				"&cTrust your abilities, and use what you’ve learned&r, and you will carve your own path forward."
+				"{ftbquests.chapter.progress.quest6C86FCEA2AA02167.description2}"
 				""
-				"&cKeep these powerful artifacts in mind, they may guide you if you ever get lost on your way.&r"
+				"{ftbquests.chapter.progress.quest6C86FCEA2AA02167.description3}"
 				""
-				"&c- The core that seeps etherium from within&r"
+				"{ftbquests.chapter.progress.quest6C86FCEA2AA02167.description4}"
 				""
-				"&c- The heart of the fossil taken down, the caged heart.&r"
+				"{ftbquests.chapter.progress.quest6C86FCEA2AA02167.description5}"
 				""
-				"&c- The pact with the eternal dark night.&r"
+				"{ftbquests.chapter.progress.quest6C86FCEA2AA02167.description6}"
 			]
 			hide_until_deps_complete: false
 			icon: "enigmaticlegacy:the_infinitum"
@@ -2681,37 +2681,37 @@
 			}]
 			shape: "gear"
 			size: 1.25d
-			subtitle: "You have finally descended in the deepest pits."
+			subtitle: "{ftbquests.chapter.progress.quest6C86FCEA2AA02167.subtitle}"
 			tasks: [{
 				id: "4820E7E151B546EC"
-				title: "Ouu.. shi"
+				title: "{ftbquests.chapter.progress.quest6C86FCEA2AA02167.task.5197408924910044908.title}"
 				type: "checkmark"
 			}]
-			title: "The Abyss."
+			title: "{ftbquests.chapter.progress.quest6C86FCEA2AA02167.title}"
 			x: -8.125d
 			y: -3.75d
 		}
 		{
 			dependencies: ["231B06216159E95A"]
 			description: [
-				"&6&nPreparation for Vaedric&r"
+				"{ftbquests.chapter.progress.quest41964C08E1EA199E.description1}"
 				""
-				"Like every other major encounter, your next boss fight requires strategy over mindless left-clicking. Unless, of course, you are completely overprepared."
+				"{ftbquests.chapter.progress.quest41964C08E1EA199E.description2}"
 				""
-				"Here are the essential mechanics and strategies you need to know before engaging him:"
+				"{ftbquests.chapter.progress.quest41964C08E1EA199E.description3}"
 				""
-				"&d&nMechanic: Reprint&r"
-				"Vaedric possesses the dangerous &bReprint&r trait. This means he will automatically copy the exact enchantments currently active on your equipped gear."
-				"&8(For a complete breakdown of how this mechanic scales, check the L2 Hostility -> Legendary Traits questline).&r"
+				"{ftbquests.chapter.progress.quest41964C08E1EA199E.description4}"
+				"{ftbquests.chapter.progress.quest41964C08E1EA199E.description5}"
+				"{ftbquests.chapter.progress.quest41964C08E1EA199E.description6}"
 				""
-				"&d&nCountering the Pull Move&r"
-				"Vaedric utilizes a powerful magic pull to drag you into danger. Utilizing the &eInsulator&r enchantment on your gear can block this pulling effect entirely, allowing you to maintain your spacing."
+				"{ftbquests.chapter.progress.quest41964C08E1EA199E.description7}"
+				"{ftbquests.chapter.progress.quest41964C08E1EA199E.description8}"
 				""
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:300 height:15 align:center}"
+				"{ftbquests.chapter.progress.quest41964C08E1EA199E.image0}"
 				""
-				"If you prefer to freestyle the encounter, you can opt out of the enchantment and instead use his pulling mechanic to your advantage to rapidly close the distance."
+				"{ftbquests.chapter.progress.quest41964C08E1EA199E.description9}"
 				""
-				"Additionally, the &eIncarceration&r status effect is incredibly effective here for locking him in place. Look into utilizing a specific &ering&r or &epotion effect&r capable of applying this condition to completely control his movement."
+				"{ftbquests.chapter.progress.quest41964C08E1EA199E.description10}"
 			]
 			icon: {
 				Count: 1
@@ -2730,29 +2730,29 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest41964C08E1EA199E.subtitle}"
 			tasks: [{
 				id: "35328A6B768C7B6F"
 				type: "checkmark"
 			}]
-			title: "Do's and Dont's"
+			title: "{ftbquests.chapter.progress.quest41964C08E1EA199E.title}"
 			x: -4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["338DD0DDABBF130D"]
 			description: [
-				"What is this quest for? You may ask... "
-				"&8why are you asking, I already answered it."
+				"{ftbquests.chapter.progress.quest2222AD8D5BEBDC96.description1}"
+				"{ftbquests.chapter.progress.quest2222AD8D5BEBDC96.description2}"
 				""
-				"Your next boss fight, just like every other one. Is not a brain-dead m1 spam. "
-				"&8Unless you are overprepared."
+				"{ftbquests.chapter.progress.quest2222AD8D5BEBDC96.description3}"
+				"{ftbquests.chapter.progress.quest2222AD8D5BEBDC96.description4}"
 				""
-				"&c&nDO NOT&r: "
-				"-Spawn this boss near your base, spawn it farther."
+				"{ftbquests.chapter.progress.quest2222AD8D5BEBDC96.description5}"
+				"{ftbquests.chapter.progress.quest2222AD8D5BEBDC96.description6}"
 				""
-				"&e&nDO&r:"
-				"-Bring an elytra with you&r, especially for 2nd phase. "
+				"{ftbquests.chapter.progress.quest2222AD8D5BEBDC96.description7}"
+				"{ftbquests.chapter.progress.quest2222AD8D5BEBDC96.description8}"
 			]
 			icon: {
 				Count: 1
@@ -2770,25 +2770,25 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.quest2222AD8D5BEBDC96.subtitle}"
 			tasks: [{
 				id: "4743BC92D23FDE01"
 				type: "checkmark"
 			}]
-			title: "Do's and Dont's 2"
+			title: "{ftbquests.chapter.progress.quest2222AD8D5BEBDC96.title}"
 			x: -0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4BFFC4F93792C4F7"]
 			description: [
-				"&6&nFamine and Thorns&r"
+				"{ftbquests.chapter.progress.quest2FC648D9011BC621.description1}"
 				""
-				"This monster forces you into a state of &6constant hunger&r, rapidly draining your food bar throughout the fight. "
+				"{ftbquests.chapter.progress.quest2FC648D9011BC621.description2}"
 				""
-				"In addition to the starvation threat, it features a reflection mechanic that inflicts direct back-damage to you every single time you land a hit. "
+				"{ftbquests.chapter.progress.quest2FC648D9011BC621.description3}"
 				""
-				"Balance your health and food carefully before playing aggressively."
+				"{ftbquests.chapter.progress.quest2FC648D9011BC621.description4}"
 			]
 			icon: {
 				Count: 1
@@ -2806,23 +2806,23 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "The hunger."
+			subtitle: "{ftbquests.chapter.progress.quest2FC648D9011BC621.subtitle}"
 			tasks: [{
 				id: "14D49FBEA6F01CC8"
 				type: "checkmark"
 			}]
-			title: "Famine"
+			title: "{ftbquests.chapter.progress.quest2FC648D9011BC621.title}"
 			x: -1.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4BFFC4F93792C4F7"]
 			description: [
-				"&6&nThe Unseen Calamity&r"
+				"{ftbquests.chapter.progress.quest3F362F1039C60545.description1}"
 				""
-				"This entity remains completely hidden from the naked eye, meaning you will need an &8L2 Detector&r or a similar tracking utility just to locate and target it."
+				"{ftbquests.chapter.progress.quest3F362F1039C60545.description2}"
 				""
-				"Getting hit by this boss triggers a dangerous mechanic where &dyour enchantments can get sealed&r, temporarily disabling your gear's active modifiers. If you are struggling with this effect, check the &oL2 Hostility&r questline for full details on how to manage enchantment sealing."
+				"{ftbquests.chapter.progress.quest3F362F1039C60545.description3}"
 			]
 			icon: {
 				Count: 1
@@ -2839,25 +2839,25 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "Destruction."
+			subtitle: "{ftbquests.chapter.progress.quest3F362F1039C60545.subtitle}"
 			tasks: [{
 				id: "3622D87298016559"
 				type: "checkmark"
 			}]
-			title: "Chaos."
+			title: "{ftbquests.chapter.progress.quest3F362F1039C60545.title}"
 			x: -3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4BFFC4F93792C4F7"]
 			description: [
-				"&6&nDuplication and Dispel&r"
+				"{ftbquests.chapter.progress.quest638BAC3C7A19961B.description1}"
 				""
-				"This boss is capable of duplicating itself alongside its active summons, rapidly multiplying the threats on the battlefield."
+				"{ftbquests.chapter.progress.quest638BAC3C7A19961B.description2}"
 				""
-				"Be on high alert for its &bDispel&r ability. If you allow yourself to get cornered, it will systematically seal your gear's enchantments one by one. "
+				"{ftbquests.chapter.progress.quest638BAC3C7A19961B.description3}"
 				""
-				"To counter this, look into your enchantment options, as a specific modifier can help suppress the boss and prevent it from splitting entirely."
+				"{ftbquests.chapter.progress.quest638BAC3C7A19961B.description4}"
 			]
 			icon: {
 				Count: 1
@@ -2874,25 +2874,25 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "Not the app"
+			subtitle: "{ftbquests.chapter.progress.quest638BAC3C7A19961B.subtitle}"
 			tasks: [{
 				id: "3220853A26CEE64F"
 				type: "checkmark"
 			}]
-			title: "Discord"
+			title: "{ftbquests.chapter.progress.quest638BAC3C7A19961B.title}"
 			x: -2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["25326B961DE6B5EA"]
 			description: [
-				"&6&nBlood Ore: Phase 2&r"
+				"{ftbquests.chapter.progress.questD90EED080E71C74.description1}"
 				""
-				"The second phase of this fight escalates significantly and is much tougher than it initialy appears."
+				"{ftbquests.chapter.progress.questD90EED080E71C74.description2}"
 				""
-				"Be extremely cautious around his blood aura, as any direct hit you take has a chance to completely &ndisable&r your active gear enchantments. "
+				"{ftbquests.chapter.progress.questD90EED080E71C74.description3}"
 				""
-				"This effect entirely bypasses your standard protection modifiers, leaving you highly vulnerable. Approach this phase with patience, focus on avoiding his attacks, and time your strikes perfectly."
+				"{ftbquests.chapter.progress.questD90EED080E71C74.description4}"
 			]
 			icon: {
 				Count: 1
@@ -2908,22 +2908,22 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.progress.questD90EED080E71C74.subtitle}"
 			tasks: [{
 				id: "2F00DDB8E198E72D"
-				title: "ouu so scary"
+				title: "{ftbquests.chapter.progress.questD90EED080E71C74.task.3386950705911228205.title}"
 				type: "checkmark"
 			}]
-			title: "&cBlood Aura"
+			title: "{ftbquests.chapter.progress.questD90EED080E71C74.title}"
 			x: 2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["231B06216159E95A"]
 			description: [
-				"Crafted with one of the most toughest materials, elvenite, this is capable of tanking a hit for you, making sure you dont get one shotted by opponents anytime."
+				"{ftbquests.chapter.progress.quest41BD6AB08A6B8086.description1}"
 				""
-				"&n&e(Only applies if you're above 80% hp)"
+				"{ftbquests.chapter.progress.quest41BD6AB08A6B8086.description2}"
 			]
 			id: "41BD6AB08A6B8086"
 			rewards: [{
@@ -2933,7 +2933,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "The ring for vitality"
+			subtitle: "{ftbquests.chapter.progress.quest41BD6AB08A6B8086.subtitle}"
 			tasks: [{
 				id: "6ABC1C7F5B376DE3"
 				item: "l2hostility:ring_of_life"
@@ -2947,7 +2947,7 @@
 			id: "053C19D5C5DDF641"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "&e+2 Head Slots"
+			subtitle: "{ftbquests.chapter.progress.quest53C19D5C5DDF641.subtitle}"
 			tasks: [{
 				id: "3FCEE07FE745D8AC"
 				item: "l2hostility:oddeyes_glasses"
@@ -2966,7 +2966,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "&eUnseals the sealed items"
+			subtitle: "{ftbquests.chapter.progress.quest2A6C2BA17A6A7D7E.subtitle}"
 			tasks: [{
 				id: "4C68BEC77E00C5BA"
 				item: {
@@ -2984,13 +2984,13 @@
 		{
 			dependencies: ["647CCE4CA1600E21"]
 			description: [
-				"&6&nTrue Armor Piercing&r"
+				"{ftbquests.chapter.progress.quest2BD02C0C0DD76A55.description1}"
 				""
-				"This attribute pierces entirely through any armor rating, applying consistently to both physical and magical damage types. "
+				"{ftbquests.chapter.progress.quest2BD02C0C0DD76A55.description2}"
 				""
-				"This makes it exceptionally useful in almost any late-game combat scenario."
+				"{ftbquests.chapter.progress.quest2BD02C0C0DD76A55.description3}"
 				""
-				"&8Note: Defeating entities using this mechanic will not yield standard hostility loot drops.&r"
+				"{ftbquests.chapter.progress.quest2BD02C0C0DD76A55.description4}"
 			]
 			id: "2BD02C0C0DD76A55"
 			rewards: [{
@@ -3000,7 +3000,7 @@
 			}]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "The power of zoranth himself."
+			subtitle: "{ftbquests.chapter.progress.quest2BD02C0C0DD76A55.subtitle}"
 			tasks: [{
 				id: "64EE1CFDA25F75B0"
 				item: "l2hostility:imagine_breaker"
@@ -3011,7 +3011,7 @@
 		}
 		{
 			dependencies: ["25326B961DE6B5EA"]
-			description: ["Perhaps wonder of you \\& shieldweave and majestic elytra can all come together now. "]
+			description: ["{ftbquests.chapter.progress.quest6E7951BFBA34A81C.description1}"]
 			id: "6E7951BFBA34A81C"
 			rewards: [{
 				id: "588570E52DB7DBD4"
@@ -3020,7 +3020,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "&e+3 Back Slots"
+			subtitle: "{ftbquests.chapter.progress.quest6E7951BFBA34A81C.subtitle}"
 			tasks: [{
 				id: "30EA9A8902822F37"
 				item: "l2hostility:triple_strip_cape"
@@ -3032,9 +3032,9 @@
 		{
 			dependencies: ["177DFA9CBE995173"]
 			description: [
-				"&cNegates healing&r when obtained. It can be crafted into splash potions or tipped arrows."
+				"{ftbquests.chapter.progress.quest1ABCE51A1920577C.description1}"
 				""
-				"Melee weapons may also carry an enchantment that applies the curse, known as &cCursed Blade&r."
+				"{ftbquests.chapter.progress.quest1ABCE51A1920577C.description2}"
 			]
 			icon: {
 				Count: 1
@@ -3058,7 +3058,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "Corrupt."
+			subtitle: "{ftbquests.chapter.progress.quest1ABCE51A1920577C.subtitle}"
 			tasks: [{
 				id: "53E05D62CE197120"
 				item: {
@@ -3070,18 +3070,18 @@
 				}
 				type: "item"
 			}]
-			title: "Cursed"
+			title: "{ftbquests.chapter.progress.quest1ABCE51A1920577C.title}"
 			x: -9.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["177DFA9CBE995173"]
 			description: [
-				"This makes you &eimmune&r to certain negative effects, but not those caused by &ebosses&r or other &especial debuffs&r."
+				"{ftbquests.chapter.progress.questF69D3A906404B30.description1}"
 				""
-				"You are also &eimmune to positive effects&r, with &eabsorption&r and &eregeneration&r being the only exceptions."
+				"{ftbquests.chapter.progress.questF69D3A906404B30.description2}"
 				""
-				"Use this whenever you find yourself stuck under potion effects."
+				"{ftbquests.chapter.progress.questF69D3A906404B30.description3}"
 			]
 			id: "0F69D3A906404B30"
 			rewards: [
@@ -3098,7 +3098,7 @@
 			]
 			shape: "gear"
 			size: 1.0d
-			subtitle: "Purity."
+			subtitle: "{ftbquests.chapter.progress.questF69D3A906404B30.subtitle}"
 			tasks: [{
 				id: "0C7ED12EA8ECA5EB"
 				item: {
@@ -3110,10 +3110,10 @@
 				}
 				type: "item"
 			}]
-			title: "Cleanse"
+			title: "{ftbquests.chapter.progress.questF69D3A906404B30.title}"
 			x: -11.5d
 			y: -4.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#676161 to=#959595>Main Progression</grad></shadow>"
+	title: "{ftbquests.chapter.progress.title}"
 }

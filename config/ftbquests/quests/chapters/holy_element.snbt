@@ -19,10 +19,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.holy_element.image.hovertext1"
+				"ftbquests.chapter.holy_element.image.hovertext2"
+				"ftbquests.chapter.holy_element.image.hovertext3"
+				"ftbquests.chapter.holy_element.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -41,13 +41,13 @@
 			id: "5FFC7A8048BC650C"
 			shape: "none"
 			size: 2.5d
-			subtitle: "The Holy school is centered around support, healing, and buffing allies."
+			subtitle: "{ftbquests.chapter.holy_element.quest5FFC7A8048BC650C.subtitle}"
 			tasks: [{
 				id: "00301155A37773A1"
 				item: "irons_spellbooks:holy_rune"
 				type: "item"
 			}]
-			title: "Holy magic"
+			title: "{ftbquests.chapter.holy_element.quest5FFC7A8048BC650C.title}"
 			x: 2.0d
 			y: -1.0d
 		}
@@ -63,7 +63,7 @@
 			icon_scale: 1.4d
 			id: "30DFF086B00CDBB2"
 			shape: "square"
-			subtitle: "Cast to gain wings made of holy energy, acting as an elytra, for a brief period of time."
+			subtitle: "{ftbquests.chapter.holy_element.quest30DFF086B00CDBB2.subtitle}"
 			tasks: [{
 				id: "37DFA46766AE9609"
 				item: {
@@ -86,7 +86,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Angel Wings"
+			title: "{ftbquests.chapter.holy_element.quest30DFF086B00CDBB2.title}"
 			x: 1.0d
 			y: 0.5d
 		}
@@ -102,7 +102,7 @@
 			icon_scale: 1.4d
 			id: "2839D10D16E7F51E"
 			shape: "square"
-			subtitle: "Cast to target any creature, showing a glowing outline. Completing the cast will heal this creature."
+			subtitle: "{ftbquests.chapter.holy_element.quest2839D10D16E7F51E.subtitle}"
 			tasks: [{
 				id: "1FA7F22C691A6834"
 				item: {
@@ -125,7 +125,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Blessing of Life"
+			title: "{ftbquests.chapter.holy_element.quest2839D10D16E7F51E.title}"
 			x: 2.0d
 			y: 0.5d
 		}
@@ -141,7 +141,7 @@
 			icon_scale: 1.4d
 			id: "7917F1D8E6176365"
 			shape: "square"
-			subtitle: "With a fervor of holy energy, swing forth your weapon, doing a melee area attack. This spell is uninterruptible. The damage scales off of your held weapon's melee damage and enchantments."
+			subtitle: "{ftbquests.chapter.holy_element.quest7917F1D8E6176365.subtitle}"
 			tasks: [{
 				id: "466C637941DF69C4"
 				item: {
@@ -164,7 +164,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Divine Smite"
+			title: "{ftbquests.chapter.holy_element.quest7917F1D8E6176365.title}"
 			x: 3.0d
 			y: 0.5d
 		}
@@ -180,7 +180,7 @@
 			icon_scale: 1.4d
 			id: "6D4F6397F129EE19"
 			shape: "square"
-			subtitle: "Upon casting, fortify every friendly creature within a radius around you, giving them temporary HP."
+			subtitle: "{ftbquests.chapter.holy_element.quest6D4F6397F129EE19.subtitle}"
 			tasks: [{
 				id: "55464AA9FBC21B88"
 				item: {
@@ -203,7 +203,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Fortify"
+			title: "{ftbquests.chapter.holy_element.quest6D4F6397F129EE19.title}"
 			x: 1.0d
 			y: 1.5d
 		}
@@ -219,7 +219,7 @@
 			icon_scale: 1.4d
 			id: "1F6B2F0496BF329E"
 			shape: "square"
-			subtitle: "A more powerful but much slower version of heal, this spell will completely heal yourself upon being casted."
+			subtitle: "{ftbquests.chapter.holy_element.quest1F6B2F0496BF329E.subtitle}"
 			tasks: [{
 				id: "5EC397908132EB59"
 				item: {
@@ -242,7 +242,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Greater Heal"
+			title: "{ftbquests.chapter.holy_element.quest1F6B2F0496BF329E.title}"
 			x: 2.0d
 			y: 1.5d
 		}
@@ -258,7 +258,7 @@
 			icon_scale: 1.4d
 			id: "2D8B8DA3C9293CCD"
 			shape: "square"
-			subtitle: "Fire a slow bolt of holy energy. Creatures hit will gain the Guided effect, homing nearby projectiles in towards them."
+			subtitle: "{ftbquests.chapter.holy_element.quest2D8B8DA3C9293CCD.subtitle}"
 			tasks: [{
 				id: "1EBECEA527DACFEA"
 				item: {
@@ -281,7 +281,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Guiding Bolt"
+			title: "{ftbquests.chapter.holy_element.quest2D8B8DA3C9293CCD.title}"
 			x: 3.0d
 			y: 1.5d
 		}
@@ -297,7 +297,7 @@
 			icon_scale: 1.4d
 			id: "42E62E00C6E77055"
 			shape: "square"
-			subtitle: "In a radius around a targeted creature, or yourself if no creature is targeted, apply the Hastened effect, increasing movement speed, attack speed, mining speed, mana regeneration, and cast time reduction for a duration."
+			subtitle: "{ftbquests.chapter.holy_element.quest42E62E00C6E77055.subtitle}"
 			tasks: [{
 				id: "3FC33E14F699AD0D"
 				item: {
@@ -320,7 +320,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Haste"
+			title: "{ftbquests.chapter.holy_element.quest42E62E00C6E77055.title}"
 			x: 1.0d
 			y: 2.5d
 		}
@@ -337,7 +337,7 @@
 			icon_scale: 1.4d
 			id: "4E864208804FBA46"
 			shape: "square"
-			subtitle: "Cast to infuse yourself with holy energy and immediately regain health."
+			subtitle: "{ftbquests.chapter.holy_element.quest4E864208804FBA46.subtitle}"
 			tasks: [{
 				id: "0D1D45EF74AD0874"
 				item: {
@@ -360,7 +360,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Heal"
+			title: "{ftbquests.chapter.holy_element.quest4E864208804FBA46.title}"
 			x: 2.0d
 			y: 2.5d
 		}
@@ -376,7 +376,7 @@
 			icon_scale: 1.4d
 			id: "23A1A47894E1CEB8"
 			shape: "square"
-			subtitle: "Around a targeted creature or block, place a stationary circle of holy magic that heals allies within."
+			subtitle: "{ftbquests.chapter.holy_element.quest23A1A47894E1CEB8.subtitle}"
 			tasks: [{
 				id: "6B50BA80EBA5AEC9"
 				item: {
@@ -399,7 +399,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Healing Circle"
+			title: "{ftbquests.chapter.holy_element.quest23A1A47894E1CEB8.title}"
 			x: 3.0d
 			y: 2.5d
 		}
@@ -415,7 +415,7 @@
 			icon_scale: 1.4d
 			id: "10CC6BC52C658BDC"
 			shape: "square"
-			subtitle: "Conjure a projectile of holy energy that will float towards nearby targets and deal damage upon impact."
+			subtitle: "{ftbquests.chapter.holy_element.quest10CC6BC52C658BDC.subtitle}"
 			tasks: [{
 				id: "6F73E32FAE90C372"
 				item: {
@@ -438,7 +438,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Wisp"
+			title: "{ftbquests.chapter.holy_element.quest10CC6BC52C658BDC.title}"
 			x: 2.0d
 			y: 3.5d
 		}
@@ -454,7 +454,7 @@
 			icon_scale: 1.4d
 			id: "1E51C1CEC318809D"
 			shape: "square"
-			subtitle: "Send a concentrated beam of light to your way, pierching through the undead."
+			subtitle: "{ftbquests.chapter.holy_element.quest1E51C1CEC318809D.subtitle}"
 			tasks: [{
 				id: "465CA1F99B84F4D2"
 				item: {
@@ -476,7 +476,7 @@
 				}
 				type: "item"
 			}]
-			title: "Solar Beam"
+			title: "{ftbquests.chapter.holy_element.quest1E51C1CEC318809D.title}"
 			x: 1.0d
 			y: 3.5d
 		}
@@ -492,7 +492,7 @@
 			icon_scale: 1.4d
 			id: "539DF0D4702A77F9"
 			shape: "square"
-			subtitle: "Cast a storm of light around you, creating a defensive walls."
+			subtitle: "{ftbquests.chapter.holy_element.quest539DF0D4702A77F9.subtitle}"
 			tasks: [{
 				id: "19C0FCAF4B45B74A"
 				item: {
@@ -514,7 +514,7 @@
 				}
 				type: "item"
 			}]
-			title: "Solar Storm"
+			title: "{ftbquests.chapter.holy_element.quest539DF0D4702A77F9.title}"
 			x: 3.0d
 			y: 3.5d
 		}
@@ -915,5 +915,5 @@
 			y: 7.5d
 		}
 	]
-	title: "<grad from=#FCE938 to=#FFF6A6>Holy Element</grad>"
+	title: "{ftbquests.chapter.holy_element.title}"
 }

@@ -26,10 +26,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.the_undergarden.image.hovertext1"
+				"ftbquests.chapter.the_undergarden.image.hovertext2"
+				"ftbquests.chapter.the_undergarden.image.hovertext3"
+				"ftbquests.chapter.the_undergarden.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -43,7 +43,7 @@
 	quests: [
 		{
 			dependencies: ["6C4B93FE64BD418D"]
-			description: ["Undergarden is a massive dimension mod filled with biomes (They're lowkey ugly) BUT worth exploring!"]
+			description: ["{ftbquests.chapter.the_undergarden.quest1C232674CD04024D.description1}"]
 			hide_dependent_lines: true
 			icon: "undergarden:goo_ball"
 			id: "1C232674CD04024D"
@@ -54,14 +54,14 @@
 			}]
 			shape: "octagon"
 			size: 1.25d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.the_undergarden.quest1C232674CD04024D.subtitle}"
 			tasks: [{
 				dimension: "undergarden:undergarden"
 				id: "0F2860523070BF25"
-				title: "Visit undergarden"
+				title: "{ftbquests.chapter.the_undergarden.quest1C232674CD04024D.task.1092228815753625381.title}"
 				type: "dimension"
 			}]
-			title: "Welcome to Undergarden!"
+			title: "{ftbquests.chapter.the_undergarden.quest1C232674CD04024D.title}"
 			x: 0.0d
 			y: -3.75d
 		}
@@ -90,7 +90,7 @@
 				id: "7C9EF32C628CA0A8"
 				type: "biome"
 			}]
-			title: "Gronglegrowth"
+			title: "{ftbquests.chapter.the_undergarden.quest647A87E800C703C3.title}"
 			x: 3.5999999999999996d
 			y: -1.7999999999999998d
 		}
@@ -119,7 +119,7 @@
 				id: "518049B7B94DEA7A"
 				type: "biome"
 			}]
-			title: "Ancient Sea"
+			title: "{ftbquests.chapter.the_undergarden.quest353AEEC116A5DEEF.title}"
 			x: 3.0000000000000004d
 			y: -2.4d
 		}
@@ -148,7 +148,7 @@
 				id: "7FFA960B8F3CC151"
 				type: "biome"
 			}]
-			title: "Wigglewood Forest"
+			title: "{ftbquests.chapter.the_undergarden.quest50D8480EE9D8E62.title}"
 			x: 2.4d
 			y: -1.7999999999999998d
 		}
@@ -177,7 +177,7 @@
 				id: "12E13E7D8732BC65"
 				type: "biome"
 			}]
-			title: "Forgotten Fields"
+			title: "{ftbquests.chapter.the_undergarden.quest4E3D548E5D8D7D26.title}"
 			x: 0.0d
 			y: -1.2d
 		}
@@ -206,13 +206,13 @@
 				id: "5F65CF932582E4D4"
 				type: "biome"
 			}]
-			title: "Veil mushroom bog"
+			title: "{ftbquests.chapter.the_undergarden.quest7E3DA4168D352B42.title}"
 			x: -3.0d
 			y: -2.4d
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["This greataxe with knockback II aand pulsation is fun."]
+			description: ["{ftbquests.chapter.the_undergarden.questD91A6B36BD2F526.description1}"]
 			id: "0D91A6B36BD2F526"
 			rewards: [
 				{
@@ -229,7 +229,7 @@
 			]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.the_undergarden.questD91A6B36BD2F526.subtitle}"
 			tasks: [{
 				id: "5E0BED0B76D91B6F"
 				item: {
@@ -241,7 +241,7 @@
 				}
 				type: "item"
 			}]
-			title: "Axe of the legends"
+			title: "{ftbquests.chapter.the_undergarden.questD91A6B36BD2F526.title}"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -270,7 +270,7 @@
 				id: "7F8993963938570B"
 				type: "biome"
 			}]
-			title: "Barren Abyss"
+			title: "{ftbquests.chapter.the_undergarden.quest36389696767EFB4E.title}"
 			x: 1.2d
 			y: -1.2d
 		}
@@ -299,7 +299,7 @@
 				id: "19FD2A6FBA7368C4"
 				type: "biome"
 			}]
-			title: "Blood Mushroom Bog"
+			title: "{ftbquests.chapter.the_undergarden.quest6D13E319C26C949.title}"
 			x: -3.0d
 			y: -1.1999999999999997d
 		}
@@ -328,7 +328,7 @@
 				id: "01BCE3270B3EEDA9"
 				type: "biome"
 			}]
-			title: "Dead Sea"
+			title: "{ftbquests.chapter.the_undergarden.quest1BAE1519E44E40CE.title}"
 			x: 0.6d
 			y: 0.0d
 		}
@@ -357,7 +357,7 @@
 				id: "4AA288827E383289"
 				type: "biome"
 			}]
-			title: "Dense Forest"
+			title: "{ftbquests.chapter.the_undergarden.quest15A8F04BC10E619E.title}"
 			x: -1.2d
 			y: -1.2d
 		}
@@ -386,7 +386,7 @@
 				id: "38C521FBA84E18B7"
 				type: "biome"
 			}]
-			title: "Frostfields"
+			title: "{ftbquests.chapter.the_undergarden.quest1E13D7CE5A9EFF74.title}"
 			x: -1.7999999999999998d
 			y: -3.5999999999999996d
 		}
@@ -415,7 +415,7 @@
 				id: "7425F62E6014D327"
 				type: "biome"
 			}]
-			title: "Frosty Smogstem Forest"
+			title: "{ftbquests.chapter.the_undergarden.questC98503A2F20484D.title}"
 			x: 0.0d
 			y: -2.4d
 		}
@@ -444,7 +444,7 @@
 				id: "13998128201A3AD4"
 				type: "biome"
 			}]
-			title: "Icy Sea"
+			title: "{ftbquests.chapter.the_undergarden.quest73BA8470EA37A00.title}"
 			x: 1.7999999999999998d
 			y: -3.5999999999999996d
 		}
@@ -473,7 +473,7 @@
 				id: "3CCDB2BDBD680158"
 				type: "biome"
 			}]
-			title: "Indigo Mushroom Bog"
+			title: "{ftbquests.chapter.the_undergarden.questA0A991BAC99092C.title}"
 			x: -3.5999999999999996d
 			y: -1.8000000000000003d
 		}
@@ -502,7 +502,7 @@
 				id: "2489A0C2542332E1"
 				type: "biome"
 			}]
-			title: "Ink mushroom Bog"
+			title: "{ftbquests.chapter.the_undergarden.quest278D34BBC13356DF.title}"
 			x: -2.4000000000000004d
 			y: -1.8000000000000003d
 		}
@@ -531,7 +531,7 @@
 				id: "283BFDA10C3530EC"
 				type: "biome"
 			}]
-			title: "Smog Spires"
+			title: "{ftbquests.chapter.the_undergarden.quest511144EF336BFAF5.title}"
 			x: -0.6d
 			y: 0.0d
 		}
@@ -560,15 +560,15 @@
 				id: "44D8BAEAA4D0CA1D"
 				type: "biome"
 			}]
-			title: "Smogstem Forest"
+			title: "{ftbquests.chapter.the_undergarden.quest43FD4AEBB9548E57.title}"
 			x: 3.0000000000000004d
 			y: -1.1999999999999997d
 		}
 		{
 			description: [
-				"In order to enter the Undergarden, you have to create a portal just like nether but with stone bricks!"
+				"{ftbquests.chapter.the_undergarden.quest6C4B93FE64BD418D.description1}"
 				""
-				"Instead of lighting it up with a lighter, we need something else, a catalyst!"
+				"{ftbquests.chapter.the_undergarden.quest6C4B93FE64BD418D.description2}"
 			]
 			icon: {
 				Count: 1
@@ -585,7 +585,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.the_undergarden.quest6C4B93FE64BD418D.subtitle}"
 			tasks: [
 				{
 					id: "6582E66B9320B94B"
@@ -599,13 +599,13 @@
 					type: "item"
 				}
 			]
-			title: "How to go to undergarden?"
+			title: "{ftbquests.chapter.the_undergarden.quest6C4B93FE64BD418D.title}"
 			x: 0.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["Slingshot is a very fun weapon added by Undergarden. "]
+			description: ["{ftbquests.chapter.the_undergarden.quest1190BB433EFA3945.description1}"]
 			id: "1190BB433EFA3945"
 			rewards: [
 				{
@@ -623,7 +623,7 @@
 			]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.the_undergarden.quest1190BB433EFA3945.subtitle}"
 			tasks: [{
 				id: "5C5E12080C612D23"
 				item: {
@@ -640,7 +640,7 @@
 		}
 		{
 			dependencies: ["1C232674CD04024D"]
-			description: ["With blisterbombs you can craft a boomgourd!"]
+			description: ["{ftbquests.chapter.the_undergarden.quest5E63C78CDC44FF95.description1}"]
 			id: "5E63C78CDC44FF95"
 			rewards: [
 				{
@@ -658,7 +658,7 @@
 			]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.the_undergarden.quest5E63C78CDC44FF95.subtitle}"
 			tasks: [
 				{
 					id: "245333BAF2116325"
@@ -671,10 +671,10 @@
 					type: "item"
 				}
 			]
-			title: "Explosives"
+			title: "{ftbquests.chapter.the_undergarden.quest5E63C78CDC44FF95.title}"
 			x: 1.0d
 			y: 1.5d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#232D1B to=#56874B>The Undergarden</grad></shadow>"
+	title: "{ftbquests.chapter.the_undergarden.title}"
 }

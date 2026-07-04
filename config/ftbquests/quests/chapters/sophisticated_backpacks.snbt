@@ -17,10 +17,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.sophisticated_backpacks.image.hovertext1"
+				"ftbquests.chapter.sophisticated_backpacks.image.hovertext2"
+				"ftbquests.chapter.sophisticated_backpacks.image.hovertext3"
+				"ftbquests.chapter.sophisticated_backpacks.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -35,17 +35,17 @@
 	quests: [
 		{
 			description: [
-				"&lA Backpack is a classic!"
+				"{ftbquests.chapter.sophisticated_backpacks.quest368F6A7C3C3134DB.description1}"
 				""
-				"Customizable backpacks that can be placed, colored upgraded for more space, and enhanced with functional features. "
+				"{ftbquests.chapter.sophisticated_backpacks.quest368F6A7C3C3134DB.description2}"
 				""
-				"See the JEI to look at recipes."
+				"{ftbquests.chapter.sophisticated_backpacks.quest368F6A7C3C3134DB.description3}"
 				""
 				"{@pagebreak}"
 				""
-				"Press \"&bShift+&bB&r\" to open your Backpack."
+				"{ftbquests.chapter.sophisticated_backpacks.quest368F6A7C3C3134DB.description4}"
 				""
-				"Press \"&bMiddle Mouse/Wheel&r\" for Inventory sorting."
+				"{ftbquests.chapter.sophisticated_backpacks.quest368F6A7C3C3134DB.description5}"
 			]
 			disable_toast: true
 			id: "368F6A7C3C3134DB"
@@ -63,13 +63,13 @@
 			]
 			shape: "square"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest368F6A7C3C3134DB.subtitle}"
 			tasks: [{
 				id: "1F31ED9AC15544DE"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			title: "A Backpack!"
+			title: "{ftbquests.chapter.sophisticated_backpacks.quest368F6A7C3C3134DB.title}"
 			x: 0.0d
 			y: 0.5d
 		}
@@ -83,7 +83,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "First upgrade to the basic backpack."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest777043DD01F5451B.subtitle}"
 			tasks: [{
 				id: "692CEA0D85BF4752"
 				item: "sophisticatedbackpacks:copper_backpack"
@@ -102,7 +102,7 @@
 			}]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Better upgrade to the basic backpack."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest1CA1A661F3BF6E96.subtitle}"
 			tasks: [{
 				id: "6D21A63F94425D37"
 				item: "sophisticatedbackpacks:iron_backpack"
@@ -128,7 +128,7 @@
 			]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "An upgrade to iron backpack."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest2E238434D53E064F.subtitle}"
 			tasks: [{
 				id: "7B05646F964A3419"
 				item: "sophisticatedbackpacks:gold_backpack"
@@ -154,7 +154,7 @@
 			]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "An upgrade to gold backpack."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest513A529E4CE4791A.subtitle}"
 			tasks: [{
 				id: "702DD5BA53FAFA56"
 				item: "sophisticatedbackpacks:diamond_backpack"
@@ -180,7 +180,7 @@
 			]
 			shape: "circle"
 			size: 0.5d
-			subtitle: "An upgrade to diamond backpack."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest41F81A30F205201C.subtitle}"
 			tasks: [{
 				id: "04DBDC1174C6FACD"
 				item: "sophisticatedbackpacks:netherite_backpack"
@@ -197,7 +197,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Makes backpack pickup items"
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest75F60B6BB48461E3.subtitle}"
 			tasks: [{
 				id: "30A6EC2AE61268FD"
 				item: "sophisticatedbackpacks:pickup_upgrade"
@@ -214,7 +214,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Makes backpack pick up items but with filtering options."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest5AD1C94BEAED060E.subtitle}"
 			tasks: [{
 				id: "193EADBB84774BD8"
 				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
@@ -243,7 +243,7 @@
 					type: "item"
 				}
 			]
-			title: "Void Upgrades"
+			title: "{ftbquests.chapter.sophisticated_backpacks.quest466ABB7EA8C15831.title}"
 			x: -1.75d
 			y: 1.25d
 		}
@@ -255,7 +255,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Compacts items, supports 3x3 with more filtering options."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.questC56B6B429BFD09.subtitle}"
 			tasks: [{
 				id: "70AB1C649278000D"
 				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
@@ -272,7 +272,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Compacts items into their compressed variants."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest1D2DF8EA5F03F50E.subtitle}"
 			tasks: [{
 				id: "5D0B391BD86BEB28"
 				item: "sophisticatedbackpacks:compacting_upgrade"
@@ -289,7 +289,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Feeds food but with more options."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest6ABA97549AAF013B.subtitle}"
 			tasks: [{
 				id: "2AC025E0DFA85065"
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
@@ -306,7 +306,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Feeds player from food inside of the backpack automatically."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest147C6195A1E600EF.subtitle}"
 			tasks: [{
 				id: "1151DD49CBADE205"
 				item: "sophisticatedbackpacks:feeding_upgrade"
@@ -323,7 +323,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Pulls items in a wide range with filtering options."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest2E15008622831995.subtitle}"
 			tasks: [{
 				id: "2A35406395A9D69E"
 				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
@@ -340,7 +340,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Pulls items in a range."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest6924ABC3F55E11D8.subtitle}"
 			tasks: [{
 				id: "11B1536A417CA035"
 				item: "sophisticatedbackpacks:magnet_upgrade"
@@ -357,7 +357,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Filters items piped in or out of the backpack but with more filtering options."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest4881DDB7D8353D8A.subtitle}"
 			tasks: [{
 				id: "070A93367A5A5F93"
 				item: "sophisticatedbackpacks:advanced_filter_upgrade"
@@ -374,7 +374,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Automatically uses potions, milk buckets or foods with effects. has extra filtering options."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest46CC3D5177364AE5.subtitle}"
 			tasks: [{
 				id: "1BED9118042B7766"
 				item: "sophisticatedbackpacks:advanced_alchemy_upgrade"
@@ -391,7 +391,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "16.0x stack capacity multiplier."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest181A3A067093F193.subtitle}"
 			tasks: [{
 				id: "3CD1CD44F1432AF7"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
@@ -408,7 +408,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "2.0x stack capacity multiplier."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest4F015F4769F732A.subtitle}"
 			tasks: [{
 				id: "04B7F0FF51B3FFC2"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
@@ -425,7 +425,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "4.0x stack capacity multiplier."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest54C5C7E1A3EE2810.subtitle}"
 			tasks: [{
 				id: "778A27F1C2AF6F34"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
@@ -442,7 +442,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "8.0x stack capacity multiplier."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest2B7B2E6FFA22628E.subtitle}"
 			tasks: [{
 				id: "2E14660112314C4F"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
@@ -459,7 +459,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "33,554,431x stack capacity multiplier."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest70494C015BE40B04.subtitle}"
 			tasks: [{
 				id: "11041808905969CF"
 				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
@@ -476,7 +476,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Stonecutter tab."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest5B116797DE0B34DD.subtitle}"
 			tasks: [{
 				id: "3AEE51247E6CAD6A"
 				item: "sophisticatedbackpacks:stonecutter_upgrade"
@@ -493,7 +493,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "1.5x stack capacity multiplier."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest1C687E71269C14A3.subtitle}"
 			tasks: [{
 				id: "18F33B835452738C"
 				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
@@ -510,7 +510,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Keeps refilling the selected item from players inventory from the backpack. has more options."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest728E3F40AB157894.subtitle}"
 			tasks: [{
 				id: "30A2A21276E08743"
 				item: "sophisticatedbackpacks:advanced_refill_upgrade"
@@ -527,7 +527,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Makes it possible to put backpacks in a backpack."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest39F4AB263B7750EA.subtitle}"
 			tasks: [{
 				id: "5C0ADF18D9EFF79E"
 				item: "sophisticatedbackpacks:inception_upgrade"
@@ -544,7 +544,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Filters items piped in or out of the backpack."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest6EEFC5528E5CA0A7.subtitle}"
 			tasks: [{
 				id: "084359E07BB389FB"
 				item: "sophisticatedbackpacks:filter_upgrade"
@@ -561,7 +561,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Smelting tab."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest11F79EB58D2E45D6.subtitle}"
 			tasks: [{
 				id: "1690E59F19C4AAFD"
 				item: "sophisticatedbackpacks:smelting_upgrade"
@@ -578,7 +578,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Smelting tab, automatically smelts."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest11A6BBC12A362A00.subtitle}"
 			tasks: [{
 				id: "29B7325BE036B2D4"
 				item: "sophisticatedbackpacks:auto_smelting_upgrade"
@@ -595,7 +595,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Pumps fluids between backpack upgrade and adjacent blocks."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest4C87E8E97404EDFB.subtitle}"
 			tasks: [{
 				id: "2EEF7571D05B5BBD"
 				item: "sophisticatedbackpacks:pump_upgrade"
@@ -612,7 +612,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Pumps fluids between backpack upgrade and adjacent blocks. works with fluid containers and has filters."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest73003D1BAC44C5A.subtitle}"
 			tasks: [{
 				id: "785D5F16D490FBC9"
 				item: "sophisticatedbackpacks:advanced_pump_upgrade"
@@ -629,7 +629,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Pumps experience between tank upgrade and player."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest7C862949C08D83CD.subtitle}"
 			tasks: [{
 				id: "6C51EE4380E6D2F2"
 				item: "sophisticatedbackpacks:xp_pump_upgrade"
@@ -646,7 +646,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Automatically switches to the needed tool for breaking an block, etc."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest61539FD03AAD1F55.subtitle}"
 			tasks: [{
 				id: "412AA42F4E8C4346"
 				item: "sophisticatedbackpacks:tool_swapper_upgrade"
@@ -663,7 +663,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Crafting table tab."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest7433B5B0BF5E6D46.subtitle}"
 			tasks: [{
 				id: "0D1961423E9EBC9E"
 				item: "sophisticatedbackpacks:crafting_upgrade"
@@ -680,7 +680,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Portable jukebox with more disc compatibility. with more configuration options."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest7AC1813BD96016F0.subtitle}"
 			tasks: [{
 				id: "3DFF225565739432"
 				item: "sophisticatedbackpacks:advanced_jukebox_upgrade"
@@ -697,7 +697,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Deposits items from backpack into sneak right-clicked inventory. has filtering options."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest7D91E1195D243636.subtitle}"
 			tasks: [{
 				id: "5C93F7D5BDBC5097"
 				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
@@ -714,7 +714,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Restocks backpack froım shift right-clicked inventory. has more filtering options."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest6BD369EF4F54904B.subtitle}"
 			tasks: [{
 				id: "66E3681025C3B58B"
 				item: "sophisticatedbackpacks:advanced_restock_upgrade"
@@ -731,7 +731,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Replaces a part of the backpacks inventory with a fluid storage."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest73B4959CAE15AC5F.subtitle}"
 			tasks: [{
 				id: "398B7D3EB88AB23E"
 				item: "sophisticatedbackpacks:tank_upgrade"
@@ -748,7 +748,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Smoking tab."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest39E00089527FED93.subtitle}"
 			tasks: [{
 				id: "4192C7B346861A99"
 				item: "sophisticatedbackpacks:smoking_upgrade"
@@ -765,7 +765,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Smoking tab, automatic smoking."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest39A12AE0E1FE377.subtitle}"
 			tasks: [{
 				id: "48EA3A6DB8032041"
 				item: "sophisticatedbackpacks:auto_smoking_upgrade"
@@ -782,7 +782,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Blasting tab, automatically blasts items."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest4A78F47555A3555.subtitle}"
 			tasks: [{
 				id: "3C664A8EFBE3FDA1"
 				item: "sophisticatedbackpacks:auto_blasting_upgrade"
@@ -799,7 +799,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Blasting tab."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest4CB008495D0FF647.subtitle}"
 			tasks: [{
 				id: "184F7D497F48F969"
 				item: "sophisticatedbackpacks:blasting_upgrade"
@@ -816,7 +816,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Keeps refilling the selected item from players inventory from the backpack."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest3329F06FD9C55E2E.subtitle}"
 			tasks: [{
 				id: "2DB3DFEEC06B0530"
 				item: "sophisticatedbackpacks:refill_upgrade"
@@ -833,7 +833,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Deposits items from backpack into sneak right-clicked inventory. "
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest3CF30ACCFBF8952A.subtitle}"
 			tasks: [{
 				id: "2EA69786CF9D2903"
 				item: "sophisticatedbackpacks:deposit_upgrade"
@@ -850,7 +850,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Restocks backpack froım shift right-clicked inventory."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest592D214355CECE2A.subtitle}"
 			tasks: [{
 				id: "59DC3AC153671E40"
 				item: "sophisticatedbackpacks:restock_upgrade"
@@ -867,7 +867,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Portable jukebox."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest5BB17066F9726F34.subtitle}"
 			tasks: [{
 				id: "0537CF81DED01C2D"
 				item: "sophisticatedbackpacks:jukebox_upgrade"
@@ -884,7 +884,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Automatically switches to the needed tool for breaking an block, etc. has extra configuration options."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest4A2DB68BCCD476C.subtitle}"
 			tasks: [{
 				id: "7BA79C3E02CA36F8"
 				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
@@ -901,7 +901,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Backpack becomes indestructible."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest5326DEA45AFD61C0.subtitle}"
 			tasks: [{
 				id: "46ECD0B77A78A85C"
 				item: "sophisticatedbackpacks:everlasting_upgrade"
@@ -918,7 +918,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Automatically uses potions, milk buckets or foods with effects."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest1443A27682898E42.subtitle}"
 			tasks: [{
 				id: "37DE0C32AD509A95"
 				item: "sophisticatedbackpacks:alchemy_upgrade"
@@ -935,7 +935,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Smithing table tab."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest3231D7A8EFA588B9.subtitle}"
 			tasks: [{
 				id: "5EEB7EC938B09FF6"
 				item: "sophisticatedbackpacks:smithing_upgrade"
@@ -952,7 +952,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Anvil tab."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest58F6862D90B5F72F.subtitle}"
 			tasks: [{
 				id: "5FCB697E97D58239"
 				item: "sophisticatedbackpacks:anvil_upgrade"
@@ -969,7 +969,7 @@
 				xp: 5
 			}]
 			size: 0.5d
-			subtitle: "Replaces a part of the backpacks inventory with energy storage."
+			subtitle: "{ftbquests.chapter.sophisticated_backpacks.quest2A33C1FC06B321BA.subtitle}"
 			tasks: [{
 				id: "008EC455F2678D1C"
 				item: "sophisticatedbackpacks:battery_upgrade"
@@ -979,5 +979,5 @@
 			y: 1.75d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#FA732A to=#FFCFB5>Sophisticated Backpacks</grad></shadow>"
+	title: "{ftbquests.chapter.sophisticated_backpacks.title}"
 }

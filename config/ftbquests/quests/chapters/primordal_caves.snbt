@@ -27,10 +27,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.primordal_caves.image.hovertext1"
+				"ftbquests.chapter.primordal_caves.image.hovertext2"
+				"ftbquests.chapter.primordal_caves.image.hovertext3"
+				"ftbquests.chapter.primordal_caves.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -44,7 +44,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Find the primordial caves!"]
+			description: ["{ftbquests.chapter.primordal_caves.quest2F1254B3AF8A1556.description1}"]
 			id: "2F1254B3AF8A1556"
 			rewards: [{
 				id: "1E99FFF89A0DCE95"
@@ -52,12 +52,12 @@
 				xp: 20
 			}]
 			size: 2.0d
-			subtitle: "The Cave that Time Forgot"
+			subtitle: "{ftbquests.chapter.primordal_caves.quest2F1254B3AF8A1556.subtitle}"
 			tasks: [{
 				biome: "alexscaves:primordial_caves"
 				icon: "alexscaves:flytrap"
 				id: "7D9A57535DBFCAAE"
-				title: "Find Primordial Caves"
+				title: "{ftbquests.chapter.primordal_caves.quest2F1254B3AF8A1556.task.9050642416721185454.title}"
 				type: "biome"
 			}]
 			x: 0.5d
@@ -66,7 +66,7 @@
 		{
 			dependencies: ["2F1254B3AF8A1556"]
 			id: "49FE1271DC918D78"
-			subtitle: "Craft an Ominous Catalyst"
+			subtitle: "{ftbquests.chapter.primordal_caves.quest49FE1271DC918D78.subtitle}"
 			tasks: [{
 				id: "6537CAF0D02DDFF3"
 				item: "alexscaves:ominous_catalyst"
@@ -80,9 +80,9 @@
 				"7D2336B063F65A9D"
 				"49FE1271DC918D78"
 			]
-			description: ["Extinction spear? is this the spear that killed the the the yk the the the the"]
+			description: ["{ftbquests.chapter.primordal_caves.quest39705CED3E4D9BB2.description1}"]
 			id: "39705CED3E4D9BB2"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.primordal_caves.quest39705CED3E4D9BB2.subtitle}"
 			tasks: [{
 				id: "569B0EC8831DD76F"
 				item: {
@@ -105,7 +105,7 @@
 				item: "alexscaves:amber_curiosity"
 				type: "item"
 			}]
-			subtitle: "A primal weapon."
+			subtitle: "{ftbquests.chapter.primordal_caves.quest7D2336B063F65A9D.subtitle}"
 			tasks: [{
 				id: "7D0C1C9093F83347"
 				item: "alexscaves:limestone_spear"
@@ -116,20 +116,20 @@
 		}
 		{
 			dependencies: ["2F1254B3AF8A1556"]
-			description: ["Would recommend have decent gear for this objective. They bite..."]
+			description: ["{ftbquests.chapter.primordal_caves.quest2EBDAB081637B055.description1}"]
 			id: "2EBDAB081637B055"
 			rewards: [{
 				id: "2E8227288206D1ED"
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Slay a Large Dinosaur within the Cave"
+			subtitle: "{ftbquests.chapter.primordal_caves.quest2EBDAB081637B055.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/defeat_big_dinosaur"
 				criterion: ""
 				icon: "alexscaves:heavy_bone"
 				id: "0D484D31E5750497"
-				title: "Re-Extinct"
+				title: "{ftbquests.chapter.primordal_caves.quest2EBDAB081637B055.task.957099797514618007.title}"
 				type: "advancement"
 			}]
 			x: 2.5d
@@ -138,7 +138,7 @@
 		{
 			dependencies: ["7D2336B063F65A9D"]
 			id: "49CA206710FD1EBE"
-			subtitle: "Even more primal.."
+			subtitle: "{ftbquests.chapter.primordal_caves.quest49CA206710FD1EBE.subtitle}"
 			tasks: [{
 				id: "3D4A6AAC7C5EB093"
 				item: {
@@ -154,5 +154,5 @@
 			y: 1.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#63BC04 to=#737373>Primordial Caves</grad></shadow>"
+	title: "{ftbquests.chapter.primordal_caves.title}"
 }

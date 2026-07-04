@@ -19,10 +19,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.research.image.hovertext1"
+				"ftbquests.chapter.research.image.hovertext2"
+				"ftbquests.chapter.research.image.hovertext3"
+				"ftbquests.chapter.research.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -35,7 +35,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Spelunkery table's are crucial to find caves, u definitely need one!"]
+			description: ["{ftbquests.chapter.research.questE9E3DDE7643EB26.description1}"]
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
@@ -52,7 +52,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.research.questE9E3DDE7643EB26.subtitle}"
 			tasks: [{
 				id: "5F5B3D9823310E69"
 				item: "alexscaves:spelunkery_table"
@@ -70,7 +70,7 @@
 				xp: 100
 			}]
 			shape: "octagon"
-			subtitle: "Craft A Cave Compendium."
+			subtitle: "{ftbquests.chapter.research.quest790E0A82B6846101.subtitle}"
 			tasks: [{
 				id: "0A2CA0D386115474"
 				item: "alexscaves:cave_book"
@@ -88,7 +88,7 @@
 				xp: 100
 			}]
 			shape: "octagon"
-			subtitle: "Crack The Code By Doing The Puzzle!"
+			subtitle: "{ftbquests.chapter.research.quest45293836B9897C26.subtitle}"
 			tasks: [{
 				id: "180003CC328E9983"
 				item: {
@@ -141,19 +141,19 @@
 						]
 					}
 				}
-				title: "Cave Tablets"
+				title: "{ftbquests.chapter.research.quest45293836B9897C26.task.1729386432466688387.title}"
 				type: "item"
 			}]
-			title: "Obtain any cave tablet"
+			title: "{ftbquests.chapter.research.quest45293836B9897C26.title}"
 			x: -1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["0E9E3DDE7643EB26"]
 			description: [
-				"In Order to Find Spelunkery Table, You Have to Find Underground Cabins."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Underground Cabins Will Include Spelunkery Table and Cave Tablets Which Will Be Useful Later."
+				"{ftbquests.chapter.research.quest77DB346AB1659089.description1}"
+				"{ftbquests.chapter.research.quest77DB346AB1659089.image0}"
+				"{ftbquests.chapter.research.quest77DB346AB1659089.description2}"
 			]
 			icon: {
 				Count: 1
@@ -164,15 +164,15 @@
 			}
 			id: "77DB346AB1659089"
 			shape: "circle"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.research.quest77DB346AB1659089.subtitle}"
 			tasks: [{
 				id: "7D99932B5E7CCE72"
-				title: "Where to find?"
+				title: "{ftbquests.chapter.research.quest77DB346AB1659089.task.9050426740655836786.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: -2.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#9D4E2C to=#F7D349>Alex's Caves</grad></shadow>"
+	title: "{ftbquests.chapter.research.title}"
 }

@@ -35,10 +35,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.toxic_caves.image.hovertext1"
+				"ftbquests.chapter.toxic_caves.image.hovertext2"
+				"ftbquests.chapter.toxic_caves.image.hovertext3"
+				"ftbquests.chapter.toxic_caves.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -52,19 +52,19 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Find the toxic caves!"]
+			description: ["{ftbquests.chapter.toxic_caves.quest7C2C7D8176150769.description1}"]
 			id: "7C2C7D8176150769"
 			shape: "square"
 			size: 2.0d
-			subtitle: "Radiation Vibe"
+			subtitle: "{ftbquests.chapter.toxic_caves.quest7C2C7D8176150769.subtitle}"
 			tasks: [{
 				biome: "alexscaves:toxic_caves"
 				icon: "alexscaves:waste_drum"
 				id: "19F7601A44EDD553"
-				title: "Find Toxic Caves"
+				title: "{ftbquests.chapter.toxic_caves.quest7C2C7D8176150769.task.1871069836137583955.title}"
 				type: "biome"
 			}]
-			title: "So &aToxic!"
+			title: "{ftbquests.chapter.toxic_caves.quest7C2C7D8176150769.title}"
 			x: 0.0d
 			y: -0.9920586545975283d
 		}
@@ -90,7 +90,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Found in Geothermal Vents"
+			subtitle: "{ftbquests.chapter.toxic_caves.quest23261799A2240DD0.subtitle}"
 			tasks: [{
 				id: "35E3E531243EC4FE"
 				item: "alexscaves:radon_bottle"
@@ -104,16 +104,16 @@
 			icon: "alexscaves:spelunkie"
 			id: "2F622667D3C17E14"
 			shape: "heart"
-			subtitle: "Feed a Spelunkie to a Gammaroach"
+			subtitle: "{ftbquests.chapter.toxic_caves.quest2F622667D3C17E14.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/feed_gammaroach"
 				criterion: ""
 				icon: "alexscaves:spelunkie"
 				id: "02D0152EF6E10615"
-				title: "Feed a Spelunkie to a Gammaroach"
+				title: "{ftbquests.chapter.toxic_caves.quest2F622667D3C17E14.task.202685274686293525.title}"
 				type: "advancement"
 			}]
-			title: "Radioactive Friend"
+			title: "{ftbquests.chapter.toxic_caves.quest2F622667D3C17E14.title}"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -121,13 +121,13 @@
 			dependencies: ["7C2C7D8176150769"]
 			id: "4E6FE5D0BB8C97F8"
 			shape: "gear"
-			subtitle: "Obtain Toxic Paste"
+			subtitle: "{ftbquests.chapter.toxic_caves.quest4E6FE5D0BB8C97F8.subtitle}"
 			tasks: [{
 				id: "41465724A56AE9CC"
 				item: "alexscaves:toxic_paste"
 				type: "item"
 			}]
-			title: "Toxic goo"
+			title: "{ftbquests.chapter.toxic_caves.quest4E6FE5D0BB8C97F8.title}"
 			x: 1.5d
 			y: -1.5d
 		}
@@ -140,13 +140,13 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "Can be obtained from sulfur clusts."
+			subtitle: "{ftbquests.chapter.toxic_caves.quest3F2C740E3816AD38.subtitle}"
 			tasks: [{
 				id: "752FBF63FF7DCDC9"
 				item: "alexscaves:sulfur_dust"
 				type: "item"
 			}]
-			title: "Sulfur Dust"
+			title: "{ftbquests.chapter.toxic_caves.quest3F2C740E3816AD38.title}"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -172,7 +172,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Enter Acid While Wearing Armour"
+			subtitle: "{ftbquests.chapter.toxic_caves.quest3719344AD458019C.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/enter_acid_with_armor"
 				criterion: ""
@@ -180,7 +180,7 @@
 				id: "43FBF4EAD55D7F06"
 				type: "advancement"
 			}]
-			title: "Tank a acid bath"
+			title: "{ftbquests.chapter.toxic_caves.quest3719344AD458019C.title}"
 			x: -2.0d
 			y: -0.5d
 		}
@@ -199,13 +199,13 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Craft a Nuclear Bomb"
+			subtitle: "{ftbquests.chapter.toxic_caves.quest1598BB0C59976629.subtitle}"
 			tasks: [{
 				id: "3C15ABF877527C57"
 				item: "alexscaves:nuclear_bomb"
 				type: "item"
 			}]
-			title: "&a&lI Have Become Death"
+			title: "{ftbquests.chapter.toxic_caves.quest1598BB0C59976629.title}"
 			x: -1.0d
 			y: 1.0d
 		}
@@ -218,13 +218,13 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "Crafting Material"
+			subtitle: "{ftbquests.chapter.toxic_caves.quest4650C286C1F28CC6.subtitle}"
 			tasks: [{
 				id: "33DB5006C0568589"
 				item: "alexscaves:polymer_plate"
 				type: "item"
 			}]
-			title: "Polymer Plate"
+			title: "{ftbquests.chapter.toxic_caves.quest4650C286C1F28CC6.title}"
 			x: 1.0d
 			y: 1.0d
 		}
@@ -256,7 +256,7 @@
 				}
 				type: "item"
 			}]
-			title: "&eHazmat Boots"
+			title: "{ftbquests.chapter.toxic_caves.quest24E53B14181B639F.title}"
 			x: 1.5d
 			y: 3.0d
 		}
@@ -288,7 +288,7 @@
 				}
 				type: "item"
 			}]
-			title: "&eHazmat Leggings"
+			title: "{ftbquests.chapter.toxic_caves.quest72108EF224E687C8.title}"
 			x: 0.5d
 			y: 3.0d
 		}
@@ -320,7 +320,7 @@
 				}
 				type: "item"
 			}]
-			title: "&eHazmat Chestplate"
+			title: "{ftbquests.chapter.toxic_caves.quest282D501F55248AE5.title}"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -352,10 +352,10 @@
 				}
 				type: "item"
 			}]
-			title: "&eHazmat Mask"
+			title: "{ftbquests.chapter.toxic_caves.quest737169B7D20D3EEB.title}"
 			x: 0.5d
 			y: 2.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#63BC04 to=#8D8D8D>Toxic Caves</grad></shadow>"
+	title: "{ftbquests.chapter.toxic_caves.title}"
 }

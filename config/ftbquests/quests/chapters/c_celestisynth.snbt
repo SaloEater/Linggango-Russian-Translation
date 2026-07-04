@@ -36,7 +36,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["Monolith Shop"]
+			hover: ["ftbquests.chapter.c_celestisynth.image.hovertext1"]
 			image: "ftbquests:textures/gui/shop.png"
 			order: 25
 			rotation: 0.0d
@@ -156,10 +156,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.c_celestisynth.image.hovertext2"
+				"ftbquests.chapter.c_celestisynth.image.hovertext3"
+				"ftbquests.chapter.c_celestisynth.image.hovertext4"
+				"ftbquests.chapter.c_celestisynth.image.hovertext5"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -170,7 +170,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.c_celestisynth.image.hovertext6"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -184,13 +184,13 @@
 		{
 			dependencies: ["4EF580AC5FCD5F9B"]
 			description: [
-				"Discover a new way of crafting powerful weapons."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Use &dHeated Celestial Core&r to supply the &dStarlit Factory&r."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Additionally you can use amethyst shards too but it's &nPAINFULLY&r slow.."
+				"{ftbquests.chapter.c_celestisynth.quest62CBC92E2098C4F3.description1}"
+				"{ftbquests.chapter.c_celestisynth.quest62CBC92E2098C4F3.image0}"
+				"{ftbquests.chapter.c_celestisynth.quest62CBC92E2098C4F3.description2}"
+				"{ftbquests.chapter.c_celestisynth.quest62CBC92E2098C4F3.image2}"
+				"{ftbquests.chapter.c_celestisynth.quest62CBC92E2098C4F3.description3}"
 				""
-				"-Craft all of the weapons for a surprise"
+				"{ftbquests.chapter.c_celestisynth.quest62CBC92E2098C4F3.description4}"
 			]
 			hide_until_deps_complete: false
 			id: "62CBC92E2098C4F3"
@@ -201,21 +201,21 @@
 			}]
 			shape: "octagon"
 			size: 1.3d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest62CBC92E2098C4F3.subtitle}"
 			tasks: [{
 				id: "740FC3B872ABA194"
 				item: "celestisynth:starlit_factory"
 				type: "item"
 			}]
-			title: "Starlit Factory"
+			title: "{ftbquests.chapter.c_celestisynth.quest62CBC92E2098C4F3.title}"
 			x: -2.0d
 			y: 1.5d
 		}
 		{
 			description: [
-				"Celestisynth weapons are harder to craft, they use a special workbench to be assembled.  "
+				"{ftbquests.chapter.c_celestisynth.questD211706C748C3DF.description1}"
 				""
-				"Each weapon comes with its own selection of unique skills with spectacular animations and effects which is beautiful!"
+				"{ftbquests.chapter.c_celestisynth.questD211706C748C3DF.description2}"
 			]
 			hide_until_deps_complete: false
 			icon: {
@@ -234,19 +234,19 @@
 			}]
 			shape: "diamond"
 			size: 1.8d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.c_celestisynth.questD211706C748C3DF.subtitle}"
 			tasks: [{
 				id: "11F849758B2291D8"
-				title: "Oki bro!"
+				title: "{ftbquests.chapter.c_celestisynth.questD211706C748C3DF.task.1294865662063317464.title}"
 				type: "checkmark"
 			}]
-			title: "Welcome to Celestisynth!"
+			title: "{ftbquests.chapter.c_celestisynth.questD211706C748C3DF.title}"
 			x: -2.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["0D211706C748C3DF"]
-			description: ["Can fuel the starlit factory significantly, also a important item for making celestisynth weapons."]
+			description: ["{ftbquests.chapter.c_celestisynth.quest11B848D1C9A86444.description1}"]
 			hide_until_deps_complete: false
 			id: "11B848D1C9A86444"
 			rewards: [{
@@ -256,7 +256,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest11B848D1C9A86444.subtitle}"
 			tasks: [{
 				id: "562BE0AC1951A6F3"
 				item: "celestisynth:celestial_core"
@@ -267,7 +267,7 @@
 		}
 		{
 			dependencies: ["11B848D1C9A86444"]
-			description: ["Can fuel more. u can also make a magical book with it!"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest4EF580AC5FCD5F9B.description1}"]
 			hide_text_until_complete: false
 			id: "4EF580AC5FCD5F9B"
 			rewards: [{
@@ -277,7 +277,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest4EF580AC5FCD5F9B.subtitle}"
 			tasks: [{
 				id: "38F6563ADB5F4A48"
 				item: "celestisynth:celestial_core_heated"
@@ -288,7 +288,7 @@
 		}
 		{
 			dependencies: ["62CBC92E2098C4F3"]
-			description: ["This dagger can deliver quick slasher and burn the enemy in your way!"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest1524A4297ACCA718.description1}"]
 			id: "1524A4297ACCA718"
 			rewards: [{
 				id: "7D14FF57DDE05828"
@@ -297,7 +297,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "A Dagger from The Hell itself."
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest1524A4297ACCA718.subtitle}"
 			tasks: [{
 				id: "5CB38A8AFDB9C299"
 				item: {
@@ -315,7 +315,7 @@
 		}
 		{
 			dependencies: ["62CBC92E2098C4F3"]
-			description: ["Control the wind itself with breezebreeker!"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest3348DC8BA9B603F5.description1}"]
 			id: "3348DC8BA9B603F5"
 			rewards: [{
 				id: "3BB03FAFC78140BE"
@@ -324,7 +324,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "Light as a feather, Sharp as a razor."
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest3348DC8BA9B603F5.subtitle}"
 			tasks: [{
 				id: "59974C498051DA1F"
 				item: {
@@ -343,7 +343,7 @@
 		}
 		{
 			dependencies: ["62CBC92E2098C4F3"]
-			description: ["Flashy and Destructive!"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest46E66D4893EDC597.description1}"]
 			id: "46E66D4893EDC597"
 			rewards: [{
 				id: "211A115098289478"
@@ -352,7 +352,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "Flashy! (That's it)"
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest46E66D4893EDC597.subtitle}"
 			tasks: [{
 				id: "2D51EF0C61905619"
 				item: {
@@ -379,9 +379,9 @@
 				"714EF0551098E46D"
 			]
 			description: [
-				"Absolute destruction is in your mere hands."
+				"{ftbquests.chapter.c_celestisynth.quest249D0167FBF7B6B4.description1}"
 				""
-				"&eCrafted through create mechanical crafting"
+				"{ftbquests.chapter.c_celestisynth.quest249D0167FBF7B6B4.description2}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -402,7 +402,7 @@
 			]
 			shape: "gear"
 			size: 1.4d
-			subtitle: "Devastation."
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest249D0167FBF7B6B4.subtitle}"
 			tasks: [{
 				id: "453029AB3DCE695D"
 				item: {
@@ -425,13 +425,13 @@
 				}
 				type: "item"
 			}]
-			title: "&l&4Keres"
+			title: "{ftbquests.chapter.c_celestisynth.quest249D0167FBF7B6B4.title}"
 			x: -2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["62CBC92E2098C4F3"]
-			description: ["Deliver heavy devastating hits with every hit! You do feel like those eyes are looking at you.. too deeply."]
+			description: ["{ftbquests.chapter.c_celestisynth.quest7192D0E7214BE36F.description1}"]
 			id: "7192D0E7214BE36F"
 			rewards: [{
 				id: "2B116A6DA44A4872"
@@ -440,7 +440,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "This Greataxe has merged with a vile thing."
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest7192D0E7214BE36F.subtitle}"
 			tasks: [{
 				id: "7CDC00175A699D7D"
 				item: {
@@ -468,7 +468,7 @@
 		}
 		{
 			dependencies: ["62CBC92E2098C4F3"]
-			description: ["Light and fragile but deadly as hell."]
+			description: ["{ftbquests.chapter.c_celestisynth.quest785392DECB5F6627.description1}"]
 			id: "785392DECB5F6627"
 			rewards: [{
 				id: "5A799644EDC74858"
@@ -477,7 +477,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "Lightspeed"
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest785392DECB5F6627.subtitle}"
 			tasks: [{
 				id: "1902A7A5FBC71C7F"
 				item: {
@@ -495,7 +495,7 @@
 		}
 		{
 			dependencies: ["62CBC92E2098C4F3"]
-			description: ["Pierces through anything!"]
+			description: ["{ftbquests.chapter.c_celestisynth.quest714EF0551098E46D.description1}"]
 			id: "714EF0551098E46D"
 			rewards: [{
 				id: "1D72D470D63CC1A8"
@@ -504,7 +504,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "Headshot"
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest714EF0551098E46D.subtitle}"
 			tasks: [{
 				id: "7753558EAFCEE36A"
 				item: {
@@ -525,7 +525,7 @@
 		}
 		{
 			dependencies: ["0D211706C748C3DF"]
-			description: ["A craft material for weapons in celestisynth mod."]
+			description: ["{ftbquests.chapter.c_celestisynth.quest84A80F90D32E2F5.description1}"]
 			hide_until_deps_complete: false
 			icon_scale: 1.2d
 			id: "084A80F90D32E2F5"
@@ -536,7 +536,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest84A80F90D32E2F5.subtitle}"
 			tasks: [{
 				id: "3589DD4E1E029494"
 				item: "celestisynth:supernal_netherite_ingot"
@@ -547,7 +547,7 @@
 		}
 		{
 			dependencies: ["0D211706C748C3DF"]
-			description: ["A craft material for weapons in celestisynth mod."]
+			description: ["{ftbquests.chapter.c_celestisynth.quest303BDFA774DB5275.description1}"]
 			hide_until_deps_complete: false
 			icon_scale: 1.2d
 			id: "303BDFA774DB5275"
@@ -558,7 +558,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest303BDFA774DB5275.subtitle}"
 			tasks: [{
 				id: "771188E5F094F4F1"
 				item: "celestisynth:celestial_netherite_ingot"
@@ -569,7 +569,7 @@
 		}
 		{
 			dependencies: ["62CBC92E2098C4F3"]
-			description: ["Made with the coldest material ever, holding it freezes your hands slowly."]
+			description: ["{ftbquests.chapter.c_celestisynth.quest55D1E5C62B2716D3.description1}"]
 			id: "55D1E5C62B2716D3"
 			rewards: [{
 				id: "0EAECD70D106C4B6"
@@ -578,7 +578,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "A Frostbitten Scythe."
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest55D1E5C62B2716D3.subtitle}"
 			tasks: [{
 				id: "2F66572FD3884892"
 				item: {
@@ -611,13 +611,13 @@
 			id: "275E5D37F0DEF045"
 			shape: "square"
 			size: 1.0d
-			subtitle: "Check me!"
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest275E5D37F0DEF045.subtitle}"
 			tasks: [{
 				id: "5016A44975D7DF62"
-				title: "YES PLEAS HELP!"
+				title: "{ftbquests.chapter.c_celestisynth.quest275E5D37F0DEF045.task.5770980607938518882.title}"
 				type: "checkmark"
 			}]
-			title: "Having hard time finding celestial monoliths?"
+			title: "{ftbquests.chapter.c_celestisynth.quest275E5D37F0DEF045.title}"
 			x: 0.0d
 			y: -3.5d
 		}
@@ -635,7 +635,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Submit 2 Netherites"
+			subtitle: "{ftbquests.chapter.c_celestisynth.quest5A8486FD8C1DC081.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 2L
@@ -643,10 +643,10 @@
 				item: { Count: 2, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			title: "Blood Rune Monolith"
+			title: "{ftbquests.chapter.c_celestisynth.quest5A8486FD8C1DC081.title}"
 			x: 1.5d
 			y: -3.5d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#F0948C to=#373A3B>Celestisynth</grad></shadow>"
+	title: "{ftbquests.chapter.c_celestisynth.title}"
 }

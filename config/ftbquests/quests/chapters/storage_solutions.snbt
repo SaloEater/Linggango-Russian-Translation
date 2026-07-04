@@ -11,10 +11,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.storage_solutions.image.hovertext1"
+				"ftbquests.chapter.storage_solutions.image.hovertext2"
+				"ftbquests.chapter.storage_solutions.image.hovertext3"
+				"ftbquests.chapter.storage_solutions.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -25,7 +25,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.storage_solutions.image.hovertext5"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -37,10 +37,10 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"This questline used to have messy layout of storage mods, but now all of them were moved below the questline!"
+			"{ftbquests.chapter.storage_solutions.quest6E8C623BAF15A9FA.description1}"
 			""
-			"Later, there'll be something more useful than this silly message."
-			"Click on an arrow to the left of a questline and you'll see what I'm talking about."
+			"{ftbquests.chapter.storage_solutions.quest6E8C623BAF15A9FA.description2}"
+			"{ftbquests.chapter.storage_solutions.quest6E8C623BAF15A9FA.description3}"
 		]
 		id: "6E8C623BAF15A9FA"
 		rewards: [{
@@ -52,12 +52,12 @@
 		size: 1.3d
 		tasks: [{
 			id: "49B650C1DDBA5C93"
-			title: "Got it!"
+			title: "{ftbquests.chapter.storage_solutions.quest6E8C623BAF15A9FA.task.5311521604108967059.title}"
 			type: "checkmark"
 		}]
-		title: "Stora-.. where's everyone..? =("
+		title: "{ftbquests.chapter.storage_solutions.quest6E8C623BAF15A9FA.title}"
 		x: -8.0d
 		y: 7.5d
 	}]
-	title: "<shadow><grad from=#D37654 to=#888E8E>Storage Solutions</grad></shadow>"
+	title: "{ftbquests.chapter.storage_solutions.title}"
 }

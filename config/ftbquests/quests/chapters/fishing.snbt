@@ -33,7 +33,7 @@
 			alpha: 155
 			click: "https://www.kinetichosting.com/modpacks/lingango/order"
 			height: 1.0d
-			hover: ["Play with your friends!"]
+			hover: ["ftbquests.chapter.fishing.image.hovertext1"]
 			image: "ftblibrary:icons/friends"
 			rotation: 45.0d
 			width: 1.0d
@@ -44,10 +44,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.fishing.image.hovertext2"
+				"ftbquests.chapter.fishing.image.hovertext3"
+				"ftbquests.chapter.fishing.image.hovertext4"
+				"ftbquests.chapter.fishing.image.hovertext5"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -65,15 +65,15 @@
 				"595999C02CD3F6D4"
 			]
 			description: [
-				"Let's start with the basics."
+				"{ftbquests.chapter.fishing.quest60867E1B797B1E0F.description1}"
 				""
-				"&eBobbers:"
+				"{ftbquests.chapter.fishing.quest60867E1B797B1E0F.description2}"
 				""
-				"Just like hooks, bobbers provide different modifications."
+				"{ftbquests.chapter.fishing.quest60867E1B797B1E0F.description3}"
 				""
-				"&eTreasures:"
+				"{ftbquests.chapter.fishing.quest60867E1B797B1E0F.description4}"
 				""
-				"Stronger fishes drop treasure chests. Through them you can progress the mod!"
+				"{ftbquests.chapter.fishing.quest60867E1B797B1E0F.description5}"
 			]
 			id: "60867E1B797B1E0F"
 			rewards: [{
@@ -83,7 +83,7 @@
 			}]
 			shape: "gear"
 			size: 1.6d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.fishing.quest60867E1B797B1E0F.subtitle}"
 			tasks: [{
 				id: "52C687DEF791D700"
 				item: "starcatcher:starcatcher_rod"
@@ -95,9 +95,9 @@
 		{
 			dependencies: ["65A032D6DE748E06"]
 			description: [
-				"Hooks provide different buffs and also some fishes may require a specific hook aswell."
+				"{ftbquests.chapter.fishing.quest741A7B974CB2ED7.description1}"
 				""
-				"Only iron hook is craftable, the rest is obtained through treasure chests that u get from fishing."
+				"{ftbquests.chapter.fishing.quest741A7B974CB2ED7.description2}"
 			]
 			id: "0741A7B974CB2ED7"
 			rewards: [{
@@ -107,7 +107,7 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.fishing.quest741A7B974CB2ED7.subtitle}"
 			tasks: [{
 				id: "1662F52C293AAEDE"
 				item: "starcatcher:hook"
@@ -126,7 +126,7 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest595999C02CD3F6D4.subtitle}"
 			tasks: [{
 				id: "6506271F0CD5E282"
 				item: "starcatcher:starcatcher_twine"
@@ -136,7 +136,7 @@
 			y: -4.5d
 		}
 		{
-			description: ["Starcatcher is one of the new fishing mods out here. It makes fishing fun and.. time consuming but hey fishing requires patience."]
+			description: ["{ftbquests.chapter.fishing.quest65A032D6DE748E06.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -152,13 +152,13 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.fishing.quest65A032D6DE748E06.subtitle}"
 			tasks: [{
 				id: "3C2AED28098A57D5"
-				title: "Woaw!"
+				title: "{ftbquests.chapter.fishing.quest65A032D6DE748E06.task.4335538347512059861.title}"
 				type: "checkmark"
 			}]
-			title: "Starcatcher!"
+			title: "{ftbquests.chapter.fishing.quest65A032D6DE748E06.title}"
 			x: -0.5d
 			y: -6.0d
 		}
@@ -172,7 +172,7 @@
 			}]
 			shape: "octagon"
 			size: 1.2d
-			subtitle: "Handy in-game Wiki :)"
+			subtitle: "{ftbquests.chapter.fishing.quest32A7CF6ABAAE7D95.subtitle}"
 			tasks: [{
 				id: "33CFF0C7BB68EA61"
 				item: "starcatcher:starcatcher_guide"
@@ -190,7 +190,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest4CAAAFA2134606.subtitle}"
 			tasks: [{
 				id: "1F572B175EACFF9E"
 				item: "starcatcher:split_hook"
@@ -208,7 +208,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest6A4F7342A739AFC4.subtitle}"
 			tasks: [{
 				id: "1DF482D9558CFC74"
 				item: "starcatcher:stone_hook"
@@ -226,7 +226,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest7E72918CA1B1D629.subtitle}"
 			tasks: [{
 				id: "1E0E08FADF85360D"
 				item: "starcatcher:mossy_hook"
@@ -244,7 +244,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest13BFD6607F7A5866.subtitle}"
 			tasks: [{
 				id: "41A014A15A9AC1BA"
 				item: "starcatcher:gold_hook"
@@ -262,7 +262,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest6CBE38450D5DB6B6.subtitle}"
 			tasks: [{
 				id: "5BD5C13EA1C1C8EE"
 				item: "starcatcher:shiny_hook"
@@ -280,7 +280,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest1DF4028EAA44A63F.subtitle}"
 			tasks: [{
 				id: "1C2E4B81E5C2463F"
 				item: "starcatcher:steady_bobber"
@@ -298,7 +298,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest29EBC39DAFD39F48.subtitle}"
 			tasks: [{
 				id: "3CB849F86DC033E1"
 				item: "starcatcher:lush_bait"
@@ -316,7 +316,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest139E970DE3A8F3E5.subtitle}"
 			tasks: [{
 				id: "1F1331D86B59AE51"
 				item: "starcatcher:meteorological_bait"
@@ -334,7 +334,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest48233B3E34D19ABE.subtitle}"
 			tasks: [{
 				id: "70C8897CFF68113B"
 				item: "starcatcher:sculk_bait"
@@ -352,7 +352,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest37D0D9038D7DF40A.subtitle}"
 			tasks: [{
 				id: "2715FA73193C852F"
 				item: "starcatcher:cherry_bait"
@@ -370,7 +370,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest7FD901B1D9A05164.subtitle}"
 			tasks: [{
 				id: "569F7409A97D71B0"
 				item: "starcatcher:dripstone_bait"
@@ -388,7 +388,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest5457A957E2789AD3.subtitle}"
 			tasks: [{
 				id: "1979AC4EBFDDC2A1"
 				item: "starcatcher:murkwater_bait"
@@ -406,7 +406,7 @@
 				xp: 10
 			}]
 			shape: "square"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest25D8F923401B2B45.subtitle}"
 			tasks: [{
 				id: "53E55CD0EFD8A3DA"
 				item: "starcatcher:legendary_bait"
@@ -1817,7 +1817,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "???"
+			subtitle: "{ftbquests.chapter.fishing.quest6534ED1529051426.subtitle}"
 			tasks: [{
 				id: "22C8B25CE6C43CB7"
 				item: "starcatcher:missingno"
@@ -1887,7 +1887,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["Want to do a fish catching tournament? here it is!"]
+			description: ["{ftbquests.chapter.fishing.quest48BE6F017C907A44.description1}"]
 			id: "48BE6F017C907A44"
 			rewards: [{
 				id: "02255DDDFD59E2F0"
@@ -1896,17 +1896,17 @@
 			}]
 			tasks: [{
 				id: "136B591589CA06FD"
-				title: "woa"
+				title: "{ftbquests.chapter.fishing.quest48BE6F017C907A44.task.1399310058269574909.title}"
 				type: "checkmark"
 			}]
-			title: "Tournament!"
+			title: "{ftbquests.chapter.fishing.quest48BE6F017C907A44.title}"
 			x: 2.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["60867E1B797B1E0F"]
 			id: "518A33534D5AAFA1"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest518A33534D5AAFA1.subtitle}"
 			tasks: [{
 				id: "3E75F0FF68F1A16E"
 				item: "starcatcher:bobber"
@@ -1918,7 +1918,7 @@
 		{
 			dependencies: ["60867E1B797B1E0F"]
 			id: "319D430E8AE7F54C"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest319D430E8AE7F54C.subtitle}"
 			tasks: [{
 				id: "643974DCE7B17EE8"
 				item: "starcatcher:clear_bobber"
@@ -1930,7 +1930,7 @@
 		{
 			dependencies: ["60867E1B797B1E0F"]
 			id: "0F40E5C07CA2336D"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.questF40E5C07CA2336D.subtitle}"
 			tasks: [{
 				id: "3DA69F91816DD96E"
 				item: "starcatcher:aqua_bobber"
@@ -1942,7 +1942,7 @@
 		{
 			dependencies: ["60867E1B797B1E0F"]
 			id: "3FB50F24BDBAE301"
-			subtitle: "Hold Shift to see item description"
+			subtitle: "{ftbquests.chapter.fishing.quest3FB50F24BDBAE301.subtitle}"
 			tasks: [{
 				id: "2B06257D84088E52"
 				item: "starcatcher:vanilla_bobber"
@@ -1973,5 +1973,5 @@
 			y: 12.0d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#35FCF9 to=#B8FFFE>Starcatcher</grad></shadow>"
+	title: "{ftbquests.chapter.fishing.title}"
 }

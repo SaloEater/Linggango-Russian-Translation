@@ -19,10 +19,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.dungeons_delight.image.hovertext1"
+				"ftbquests.chapter.dungeons_delight.image.hovertext2"
+				"ftbquests.chapter.dungeons_delight.image.hovertext3"
+				"ftbquests.chapter.dungeons_delight.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -44,7 +44,7 @@
 				xp: 75
 			}]
 			shape: "octagon"
-			subtitle: "We are not making this to cook normal food"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6355A3D761DCCD31.subtitle}"
 			tasks: [{
 				id: "06E8C5F50367A76F"
 				item: "farmersdelight:cooking_pot"
@@ -63,7 +63,7 @@
 				xp: 75
 			}]
 			shape: "octagon"
-			subtitle: "Same with this one"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest279477D449273B24.subtitle}"
 			tasks: [{
 				id: "63BF4F0E27AFF8BE"
 				item: "farmersdelight:stove"
@@ -93,21 +93,21 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Breaking a monster spawner will drop stained scraps."
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest7D34CC9610D8D159.subtitle}"
 			tasks: [{
 				advancement: "dungeonsdelight:main/get_stained_scrap"
 				criterion: ""
 				id: "103DC05372ADE4A8"
-				title: "Destroy a monster spawner."
+				title: "{ftbquests.chapter.dungeons_delight.quest7D34CC9610D8D159.task.1170302942825014440.title}"
 				type: "advancement"
 			}]
-			title: "Break a monster spawner."
+			title: "{ftbquests.chapter.dungeons_delight.quest7D34CC9610D8D159.title}"
 			x: 2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7D34CC9610D8D159"]
-			description: ["A lot.. a LOT of things."]
+			description: ["{ftbquests.chapter.dungeons_delight.quest46F6298E14685B3E.description1}"]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "46F6298E14685B3E"
@@ -117,7 +117,7 @@
 				xp: 75
 			}]
 			shape: "pentagon"
-			subtitle: "What will we cook?"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest46F6298E14685B3E.subtitle}"
 			tasks: [
 				{
 					id: "3684B7AEEED532BC"
@@ -135,9 +135,9 @@
 		}
 		{
 			description: [
-				"Killing A Mob With &nCleaver&r Will Drop Their Body Parts."
-				"{image:fzzy_config:textures/gui/sprites/widget/popup/divider.png width:200 height:15 align:center}"
-				"Cleaver Is Also Throwable So They're Not Escaping!"
+				"{ftbquests.chapter.dungeons_delight.questD619B44384ADD4A.description1}"
+				"{ftbquests.chapter.dungeons_delight.questD619B44384ADD4A.image0}"
+				"{ftbquests.chapter.dungeons_delight.questD619B44384ADD4A.description2}"
 			]
 			id: "0D619B44384ADD4A"
 			rewards: [{
@@ -147,7 +147,7 @@
 			}]
 			shape: "circle"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.dungeons_delight.questD619B44384ADD4A.subtitle}"
 			tasks: [{
 				id: "12FE79568F9504A1"
 				item: {
@@ -200,10 +200,10 @@
 						]
 					}
 				}
-				title: "Any Cleaver"
+				title: "{ftbquests.chapter.dungeons_delight.questD619B44384ADD4A.task.1368664749450265761.title}"
 				type: "item"
 			}]
-			title: "Obtain any cleaver."
+			title: "{ftbquests.chapter.dungeons_delight.questD619B44384ADD4A.title}"
 			x: 2.5d
 			y: 1.0d
 		}
@@ -212,7 +212,7 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "7C3230C980D8D43B"
-			subtitle: "Ehh.."
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest7C3230C980D8D43B.subtitle}"
 			tasks: [{
 				id: "61E9A30A3ECFDE29"
 				item: "dungeonsdelight:snifferwurst"
@@ -224,7 +224,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "5B505F1112745946"
-			subtitle: "Omelette is omelette, yummy."
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5B505F1112745946.subtitle}"
 			tasks: [{
 				id: "108C226FC59089AE"
 				item: "dungeonsdelight:ominous_omelette"
@@ -236,7 +236,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "201842ACDB5DF656"
-			subtitle: "Some nasty thing.."
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest201842ACDB5DF656.subtitle}"
 			tasks: [{
 				id: "4B1BE0C51ABFF719"
 				item: "dungeonsdelight:slime_bar"
@@ -248,7 +248,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "12B75B5134422273"
-			subtitle: "More appetizing?"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest12B75B5134422273.subtitle}"
 			tasks: [{
 				id: "57237AEFE18E2620"
 				item: "dungeonsdelight:cooked_snifferwurst"
@@ -260,7 +260,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "6BBDDA9922734F5F"
-			subtitle: "Yummy!"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6BBDDA9922734F5F.subtitle}"
 			tasks: [{
 				id: "6497A965E39444C9"
 				item: "dungeonsdelight:slime_noodles"
@@ -272,7 +272,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "39AA38122A5F4E87"
-			subtitle: "Looks tasty ngl."
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest39AA38122A5F4E87.subtitle}"
 			tasks: [{
 				id: "0A9C598A13072FCB"
 				item: "dungeonsdelight:sniffer_shank"
@@ -284,7 +284,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "5FDCB5CDF418A2A4"
-			subtitle: "Slimy salad... EW"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5FDCB5CDF418A2A4.subtitle}"
 			tasks: [{
 				id: "1241A16C26B55E8E"
 				item: "dungeonsdelight:gelled_salad"
@@ -296,7 +296,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "5E23F33443166702"
-			subtitle: "It doesn't look that good now :(("
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5E23F33443166702.subtitle}"
 			tasks: [{
 				id: "4137CF641BD0A843"
 				item: "dungeonsdelight:cooked_sniffer_shank"
@@ -308,7 +308,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "1A28C0488BD5CB42"
-			subtitle: "Exotic looking"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1A28C0488BD5CB42.subtitle}"
 			tasks: [{
 				id: "266FB82E1AC5BBC8"
 				item: "dungeonsdelight:chloropasta"
@@ -320,7 +320,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "6862531587B7B91E"
-			subtitle: "My guardian angel"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6862531587B7B91E.subtitle}"
 			tasks: [{
 				id: "5C78EDDBC6662327"
 				item: "dungeonsdelight:guardian_angel_block"
@@ -332,7 +332,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "0F2CC27A9F769E1A"
-			subtitle: "My plate of guardian angel.."
+			subtitle: "{ftbquests.chapter.dungeons_delight.questF2CC27A9F769E1A.subtitle}"
 			tasks: [{
 				id: "1BAB56B0D434EAA6"
 				item: "dungeonsdelight:guardian_angel"
@@ -344,7 +344,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "5FBE680FC7A6E342"
-			subtitle: "Slimy weird sniffer egg"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5FBE680FC7A6E342.subtitle}"
 			tasks: [{
 				id: "376C4F71BF5018E2"
 				item: "dungeonsdelight:soft_serve_sniffer_egg"
@@ -355,9 +355,9 @@
 		}
 		{
 			dependencies: ["46F6298E14685B3E"]
-			description: ["Hey no racist intentions."]
+			description: ["{ftbquests.chapter.dungeons_delight.quest2C607E6D6E898563.description1}"]
 			id: "2C607E6D6E898563"
-			subtitle: "Sounds like a asian dish"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2C607E6D6E898563.subtitle}"
 			tasks: [{
 				id: "414E71C5D0663CFA"
 				item: "dungeonsdelight:tokayaki"
@@ -369,7 +369,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "4F875B5934841DF3"
-			subtitle: "Rice with eggplant"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest4F875B5934841DF3.subtitle}"
 			tasks: [{
 				id: "3A2E32A2E0EA6015"
 				item: "dungeonsdelight:sinigang"
@@ -381,7 +381,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "793C5CF5B97E5F99"
-			subtitle: "Yummy yummy"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest793C5CF5B97E5F99.subtitle}"
 			tasks: [{
 				id: "7CC66ED562A50F59"
 				item: "dungeonsdelight:monster_cake"
@@ -393,7 +393,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "0426203CDB102987"
-			subtitle: "Weird name"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest426203CDB102987.subtitle}"
 			tasks: [{
 				id: "53A71B1359F5A247"
 				item: "dungeonsdelight:poi"
@@ -405,16 +405,16 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			description: [
-				"Please, i just wanna die!"
+				"{ftbquests.chapter.dungeons_delight.quest6F0EFB5C1C572DFC.description1}"
 				""
-				"Hey somebody kill me. Please It's muffin time!"
+				"{ftbquests.chapter.dungeons_delight.quest6F0EFB5C1C572DFC.description2}"
 				""
-				"Have you had a muffin today? "
+				"{ftbquests.chapter.dungeons_delight.quest6F0EFB5C1C572DFC.description3}"
 				""
-				"I wanna die, die die!!"
+				"{ftbquests.chapter.dungeons_delight.quest6F0EFB5C1C572DFC.description4}"
 			]
 			id: "6F0EFB5C1C572DFC"
-			subtitle: "WHOO WANTS A MUFFINN?"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6F0EFB5C1C572DFC.subtitle}"
 			tasks: [{
 				id: "1C3B1502C026452C"
 				item: "dungeonsdelight:monster_muffin"
@@ -426,7 +426,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "7781CFFB3A0C7738"
-			subtitle: "bubblegum gummy"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest7781CFFB3A0C7738.subtitle}"
 			tasks: [{
 				id: "39E5AE3B957EBCFC"
 				item: {
@@ -444,7 +444,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "51CF9A93202AE0D6"
-			subtitle: "Ehh just chew on it twin"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest51CF9A93202AE0D6.subtitle}"
 			tasks: [{
 				id: "63012FDBEBF812DC"
 				item: "dungeonsdelight:slicorice"
@@ -456,7 +456,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "722B91543A197E3B"
-			subtitle: "Wait, this looks nice"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest722B91543A197E3B.subtitle}"
 			tasks: [{
 				id: "48F26BDE600D73BE"
 				item: "dungeonsdelight:sculk_tart"
@@ -468,7 +468,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "523732013A04A2A1"
-			subtitle: "Warden soup yes "
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest523732013A04A2A1.subtitle}"
 			tasks: [{
 				id: "050D2891C8EB3B33"
 				item: "dungeonsdelight:wardenzola"
@@ -480,7 +480,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "721BCA24FD584E20"
-			subtitle: "Who ate my ice cream"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest721BCA24FD584E20.subtitle}"
 			tasks: [{
 				id: "18C44F779D4E45E3"
 				item: "dungeonsdelight:soaked_skewer"
@@ -492,7 +492,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "201575D56AF9313E"
-			subtitle: "Looks like ice cream or its js me"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest201575D56AF9313E.subtitle}"
 			tasks: [{
 				id: "79C58325295DAC17"
 				item: "dungeonsdelight:brined_flesh"
@@ -504,7 +504,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "651F3BCF1D305CF3"
-			subtitle: "Devils balls"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest651F3BCF1D305CF3.subtitle}"
 			tasks: [{
 				id: "1443B4AE5814D2D9"
 				item: "dungeonsdelight:devilish_eggs"
@@ -516,7 +516,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "6107F86945A22261"
-			subtitle: "Don't forget the sauce"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6107F86945A22261.subtitle}"
 			tasks: [{
 				id: "263C951FD94D8C61"
 				item: "dungeonsdelight:sculk_mayo"
@@ -528,7 +528,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "3543514DEA32A13F"
-			subtitle: "Magical egg wow"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest3543514DEA32A13F.subtitle}"
 			tasks: [{
 				id: "15E7857CA7C6564E"
 				item: "dungeonsdelight:cleaved_ancient_egg"
@@ -540,7 +540,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "487AD67BE1184920"
-			subtitle: "hmm NGL good"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest487AD67BE1184920.subtitle}"
 			tasks: [{
 				id: "0193D60B3C3067CE"
 				item: "dungeonsdelight:sculk_apple"
@@ -552,7 +552,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "0E7AA5A657D35F7C"
-			subtitle: "Naa looks moldy"
+			subtitle: "{ftbquests.chapter.dungeons_delight.questE7AA5A657D35F7C.subtitle}"
 			tasks: [{
 				id: "59F924DC37F21E97"
 				item: "dungeonsdelight:sculk_tart_slice"
@@ -564,7 +564,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "73995A712389A318"
-			subtitle: "Fuh no"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest73995A712389A318.subtitle}"
 			tasks: [{
 				id: "4672423D283CB149"
 				item: "dungeonsdelight:spider_meat"
@@ -576,7 +576,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "1DCF68B5D247710F"
-			subtitle: "Warden ballsack"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1DCF68B5D247710F.subtitle}"
 			tasks: [{
 				id: "51188C92D0B4B2A2"
 				item: "dungeonsdelight:wardenzola_crumbles"
@@ -588,7 +588,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "5C2EAC215DF4B614"
-			subtitle: "Looks.. soury?"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5C2EAC215DF4B614.subtitle}"
 			tasks: [{
 				id: "25AFFAA47E314B43"
 				item: "dungeonsdelight:salt_soaked_stew"
@@ -600,7 +600,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "02A596ABD3EAE308"
-			subtitle: "Yea looks nice"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2A596ABD3EAE308.subtitle}"
 			tasks: [{
 				id: "7AE5D464E477C5A9"
 				item: "dungeonsdelight:spider_pie_slice"
@@ -612,7 +612,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "3FFE45E100F214ED"
-			subtitle: "Ts rotten "
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest3FFE45E100F214ED.subtitle}"
 			tasks: [{
 				id: "6E13EE1859A9B4B1"
 				item: "dungeonsdelight:snuffledog"
@@ -635,7 +635,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "0E615DA69BD7E99A"
-			subtitle: "Hmm might not wanna eat it"
+			subtitle: "{ftbquests.chapter.dungeons_delight.questE615DA69BD7E99A.subtitle}"
 			tasks: [{
 				id: "4B0A3A4CB13F0197"
 				item: "dungeonsdelight:malicious_sandwich"
@@ -647,7 +647,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "4684FAE97C6846A3"
-			subtitle: "Nah did someone vomit on ts"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest4684FAE97C6846A3.subtitle}"
 			tasks: [{
 				id: "494481B159314BF7"
 				item: "dungeonsdelight:spider_pie"
@@ -659,7 +659,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "266D1B93430E625F"
-			subtitle: "Calamari calamariii"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest266D1B93430E625F.subtitle}"
 			tasks: [{
 				id: "07B8943A2626C5ED"
 				item: "dungeonsdelight:fried_ghast_calamari"
@@ -671,7 +671,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "46F965CA26C7703C"
-			subtitle: "Looks really nice"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest46F965CA26C7703C.subtitle}"
 			tasks: [{
 				id: "4D1B4AA6C7F4932F"
 				item: "dungeonsdelight:candied_vex_sucker"
@@ -683,7 +683,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "4B374E1EB19B1297"
-			subtitle: "Less flashy"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest4B374E1EB19B1297.subtitle}"
 			tasks: [{
 				id: "63F86C99957FA021"
 				item: "dungeonsdelight:amethyst_rock_candy"
@@ -695,7 +695,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "4B060B48230DA906"
-			subtitle: "Ouu yes this ones a bit flashy"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest4B060B48230DA906.subtitle}"
 			tasks: [{
 				id: "03C3529E8E11358E"
 				item: "dungeonsdelight:candied_silverfish_sucker"
@@ -707,7 +707,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "2904CD2DD6F88E48"
-			subtitle: "Looks fine"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2904CD2DD6F88E48.subtitle}"
 			tasks: [{
 				id: "543EDB941E4B6C6C"
 				item: "dungeonsdelight:silverfish_and_chips_block"
@@ -719,7 +719,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "313435AC37A83ADB"
-			subtitle: "Same sht"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest313435AC37A83ADB.subtitle}"
 			tasks: [{
 				id: "169DC89636213822"
 				item: "dungeonsdelight:silverfish_and_chips"
@@ -731,7 +731,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "5C597EC5D55EC6D0"
-			subtitle: "SAME sht"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5C597EC5D55EC6D0.subtitle}"
 			tasks: [{
 				id: "370BAE8BCDFECCE8"
 				item: "dungeonsdelight:glow_berry_gelatin"
@@ -743,7 +743,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "1F88275096D061BA"
-			subtitle: "Ouuhh sure yes wth"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1F88275096D061BA.subtitle}"
 			tasks: [{
 				id: "0DEFD3DD24BA719F"
 				item: "dungeonsdelight:glow_berry_gelatin_block"
@@ -755,7 +755,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "0AD677919F89E15C"
-			subtitle: "Cook this thing omg"
+			subtitle: "{ftbquests.chapter.dungeons_delight.questAD677919F89E15C.subtitle}"
 			tasks: [{
 				id: "2C41ED48229F6488"
 				item: "dungeonsdelight:spider_tanghulu"
@@ -767,7 +767,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "1055F3245FC92EBB"
-			subtitle: "Nice nice"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1055F3245FC92EBB.subtitle}"
 			tasks: [{
 				id: "70F75C51A9DB0F84"
 				item: "dungeonsdelight:ghoulash"
@@ -779,7 +779,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "3F7454A0B0EAA28E"
-			subtitle: "Stupid skeleton soup"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest3F7454A0B0EAA28E.subtitle}"
 			tasks: [{
 				id: "39FB7502D5713DF0"
 				item: "dungeonsdelight:ossobuco_block"
@@ -791,7 +791,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "6FF8567AB9D01C1F"
-			subtitle: "I dont even know"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest6FF8567AB9D01C1F.subtitle}"
 			tasks: [{
 				id: "64AF8B25B59725F2"
 				item: "dungeonsdelight:ossobuco"
@@ -803,7 +803,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "4960D2610C5A7498"
-			subtitle: "Looks like tentacles"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest4960D2610C5A7498.subtitle}"
 			tasks: [{
 				id: "7258E764AD177AB1"
 				item: "dungeonsdelight:poisonous_poutine"
@@ -815,7 +815,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "5D93FE1757A6AD16"
-			subtitle: "What am i looking at"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5D93FE1757A6AD16.subtitle}"
 			tasks: [{
 				id: "541ABFB045E90B5F"
 				item: "dungeonsdelight:shiokara"
@@ -827,7 +827,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "12C817998FC46C55"
-			subtitle: "Yeah hell no"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest12C817998FC46C55.subtitle}"
 			tasks: [{
 				id: "0128DE70C52A7389"
 				item: "dungeonsdelight:gritty_flesh"
@@ -839,7 +839,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "2E7A7C77323E4978"
-			subtitle: "Spider eyes.. hmm "
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2E7A7C77323E4978.subtitle}"
 			tasks: [{
 				id: "673E31033954C26E"
 				item: "dungeonsdelight:spider_salmagundi"
@@ -851,7 +851,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "0B44A730B7E48D78"
-			subtitle: "Is this poop"
+			subtitle: "{ftbquests.chapter.dungeons_delight.questB44A730B7E48D78.subtitle}"
 			tasks: [{
 				id: "3B8A79C969FC1F7C"
 				item: "dungeonsdelight:rotten_tripe"
@@ -863,7 +863,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "48F432A647C118E5"
-			subtitle: "wait what"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest48F432A647C118E5.subtitle}"
 			tasks: [{
 				id: "3F01F9DB439202A8"
 				item: "dungeonsdelight:chicken_jockey_sandwich"
@@ -875,7 +875,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "1841B742ADDC3096"
-			subtitle: "Calamar calamarrii"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1841B742ADDC3096.subtitle}"
 			tasks: [{
 				id: "07BBA3F7D545C6AB"
 				item: "dungeonsdelight:ghast_calamari"
@@ -887,7 +887,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "7A8A848719ABCA27"
-			subtitle: "POPSICLE"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest7A8A848719ABCA27.subtitle}"
 			tasks: [{
 				id: "6D5ED5B6D0F2504F"
 				item: {
@@ -905,7 +905,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "371829A07835F086"
-			subtitle: "Looks really nice ngl"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest371829A07835F086.subtitle}"
 			tasks: [{
 				id: "7F495BA55889966A"
 				item: "dungeonsdelight:ghast_roll"
@@ -917,7 +917,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "15A17FE9373919B0"
-			subtitle: "yeah.. we tasted this before?"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest15A17FE9373919B0.subtitle}"
 			tasks: [{
 				id: "567C66B4FEDA22EE"
 				item: "dungeonsdelight:ghast_tentacle"
@@ -929,7 +929,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "5122A050B7B2ACA2"
-			subtitle: "Egg with meat?"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5122A050B7B2ACA2.subtitle}"
 			tasks: [{
 				id: "19C24DCC91CDD923"
 				item: "dungeonsdelight:gyudon"
@@ -941,7 +941,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "5BFA23B6D9F967E7"
-			subtitle: "Snake head lookin fud"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5BFA23B6D9F967E7.subtitle}"
 			tasks: [{
 				id: "218D1E522ABEABE3"
 				item: "dungeonsdelight:smoked_spider_meat"
@@ -953,7 +953,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "4F40CC42DD49CFB9"
-			subtitle: "Fuh no!"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest4F40CC42DD49CFB9.subtitle}"
 			tasks: [{
 				id: "6A05D5E44E99A7A7"
 				item: "dungeonsdelight:silverfish_abdomen"
@@ -965,7 +965,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "426ECEFD5D448758"
-			subtitle: "Yea hell no"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest426ECEFD5D448758.subtitle}"
 			tasks: [{
 				id: "3453D64A3D3F2B01"
 				item: "dungeonsdelight:au_rotten_potatoes"
@@ -977,7 +977,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "1CE34E859B79C200"
-			subtitle: "Cherry cake"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest1CE34E859B79C200.subtitle}"
 			tasks: [{
 				id: "45849022FB32791D"
 				item: "dungeonsdelight:monster_cake_slice"
@@ -989,7 +989,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "5864FAC519B9B505"
-			subtitle: "Fuh yu"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest5864FAC519B9B505.subtitle}"
 			tasks: [{
 				id: "3EFCDB9DD99193C3"
 				item: "dungeonsdelight:silverfish_fried_rice"
@@ -1001,7 +1001,7 @@
 		{
 			dependencies: ["46F6298E14685B3E"]
 			id: "2B32A187462E0EA7"
-			subtitle: "Maybe ye?"
+			subtitle: "{ftbquests.chapter.dungeons_delight.quest2B32A187462E0EA7.subtitle}"
 			tasks: [{
 				id: "6C94E98A03883349"
 				item: "dungeonsdelight:bloated_baked_potato"
@@ -1011,5 +1011,5 @@
 			y: 13.5d
 		}
 	]
-	title: "<shadow><grad from=#B579B7 to=#4C1E5E>Dungeon's Delight</grad></shadow>"
+	title: "{ftbquests.chapter.dungeons_delight.title}"
 }

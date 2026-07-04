@@ -26,10 +26,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.abyssal_chasm.image.hovertext1"
+				"ftbquests.chapter.abyssal_chasm.image.hovertext2"
+				"ftbquests.chapter.abyssal_chasm.image.hovertext3"
+				"ftbquests.chapter.abyssal_chasm.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -43,7 +43,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Find the abyssal chasm!"]
+			description: ["{ftbquests.chapter.abyssal_chasm.quest2FEDD41D90377E8.description1}"]
 			id: "02FEDD41D90377E8"
 			rewards: [{
 				id: "5B930C75107E8BF0"
@@ -51,12 +51,12 @@
 				xp: 20
 			}]
 			size: 2.0d
-			subtitle: "Beyond the Ocean"
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest2FEDD41D90377E8.subtitle}"
 			tasks: [{
 				biome: "alexscaves:abyssal_chasm"
 				icon: "alexscaves:submarine"
 				id: "68FB2263D550FE8B"
-				title: "Find Abyssal Chasm"
+				title: "{ftbquests.chapter.abyssal_chasm.quest2FEDD41D90377E8.task.7564677811274841739.title}"
 				type: "biome"
 			}]
 			x: 0.5d
@@ -64,26 +64,26 @@
 		}
 		{
 			dependencies: ["02FEDD41D90377E8"]
-			description: ["Break sum mussles"]
+			description: ["{ftbquests.chapter.abyssal_chasm.quest118A433B49A36D3D.description1}"]
 			id: "118A433B49A36D3D"
 			rewards: [{
 				id: "5DE4F57CA3B5B3B7"
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Diamonds of the Sea"
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest118A433B49A36D3D.subtitle}"
 			tasks: [{
 				id: "273F79FD793C2CBF"
 				item: "alexscaves:pearl"
 				type: "item"
 			}]
-			title: "Find A Pearl"
+			title: "{ftbquests.chapter.abyssal_chasm.quest118A433B49A36D3D.title}"
 			x: 1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["02FEDD41D90377E8"]
-			description: ["Obtained by trading with creatures in the deep."]
+			description: ["{ftbquests.chapter.abyssal_chasm.quest3A216BE3D4A58CC0.description1}"]
 			id: "3A216BE3D4A58CC0"
 			rewards: [
 				{
@@ -102,7 +102,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest3A216BE3D4A58CC0.subtitle}"
 			tasks: [
 				{
 					id: "25B2AD82CB75AFA5"
@@ -143,7 +143,7 @@
 					type: "item"
 				}
 			]
-			title: "Powers Of The Deep Ocean!"
+			title: "{ftbquests.chapter.abyssal_chasm.quest3A216BE3D4A58CC0.title}"
 			x: -0.18571428571429038d
 			y: 0.29999999999999716d
 		}
@@ -155,12 +155,12 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Slay an Explosive Foe"
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest6649AA1E55F1AFF1.subtitle}"
 			tasks: [{
 				entity: "alexscaves:mine_guardian"
 				icon: "alexscaves:depth_charge"
 				id: "7B45B69882886BC9"
-				title: "Mine Guardian"
+				title: "{ftbquests.chapter.abyssal_chasm.quest6649AA1E55F1AFF1.task.8882706606199434185.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -175,12 +175,12 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "An Offering"
+			subtitle: "{ftbquests.chapter.abyssal_chasm.questDB35801E4A3BBD.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/pearl_on_abyssal_altar"
 				criterion: ""
 				id: "006318633BCDCD20"
-				title: "Place a Pearl on an Abyssal Altar"
+				title: "{ftbquests.chapter.abyssal_chasm.questDB35801E4A3BBD.task.27892837178527008.title}"
 				type: "advancement"
 			}]
 			x: 0.8999999999999915d
@@ -188,19 +188,19 @@
 		}
 		{
 			dependencies: ["00DB35801E4A3BBD"]
-			description: ["They're not that bad after all"]
+			description: ["{ftbquests.chapter.abyssal_chasm.questA212A8840947543.description1}"]
 			id: "0A212A8840947543"
 			rewards: [{
 				id: "71640AF390D2D100"
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.abyssal_chasm.questA212A8840947543.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/trade_with_deep_one"
 				criterion: ""
 				id: "2CC08710D9E7AE34"
-				title: "Trade with the Deep Ones"
+				title: "{ftbquests.chapter.abyssal_chasm.questA212A8840947543.task.3224725839642340916.title}"
 				type: "advancement"
 			}]
 			x: 0.3928571428571388d
@@ -213,20 +213,20 @@
 				"399DBC14B72D707C"
 				"00C40ED8951B9359"
 			]
-			description: ["Now u are ready for underwater!"]
+			description: ["{ftbquests.chapter.abyssal_chasm.quest5B920CB70BB22CC2.description1}"]
 			id: "5B920CB70BB22CC2"
 			rewards: [{
 				id: "24C614CFCE1F9A75"
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Own a Full Diving Suit"
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest5B920CB70BB22CC2.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/diving_armor"
 				criterion: ""
 				icon: "create:copper_valve_handle"
 				id: "1D1D421E5680E016"
-				title: "The Cyclops"
+				title: "{ftbquests.chapter.abyssal_chasm.quest5B920CB70BB22CC2.task.2097905699492257814.title}"
 				type: "advancement"
 			}]
 			x: -0.5d
@@ -240,12 +240,12 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "They come for your help now i guess!"
+			subtitle: "{ftbquests.chapter.abyssal_chasm.quest279105874F511E31.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/deep_ones_become_helpful"
 				criterion: ""
 				id: "430FD15BDE49CA02"
-				title: "Buddies Now"
+				title: "{ftbquests.chapter.abyssal_chasm.quest279105874F511E31.task.4832311117693438466.title}"
 				type: "advancement"
 			}]
 			x: -1.0d
@@ -380,5 +380,5 @@
 			y: 0.5d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#1717A0 to=#737373>Abyssal Chasm</grad></shadow>"
+	title: "{ftbquests.chapter.abyssal_chasm.title}"
 }

@@ -21,10 +21,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.deeper_and_darker_2.image.hovertext1"
+				"ftbquests.chapter.deeper_and_darker_2.image.hovertext2"
+				"ftbquests.chapter.deeper_and_darker_2.image.hovertext3"
+				"ftbquests.chapter.deeper_and_darker_2.image.hovertext4"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -38,9 +38,9 @@
 	quests: [
 		{
 			description: [
-				"Deeper and Darker is a mod that aims to enhance the Deep Dark in Minecraft. "
+				"{ftbquests.chapter.deeper_and_darker_2.quest19D7DDEA580BBD3A.description1}"
 				""
-				"It adds many new features related to the Deep Dark and a new dimension called the &bOther&r&6side.&r"
+				"{ftbquests.chapter.deeper_and_darker_2.quest19D7DDEA580BBD3A.description2}"
 			]
 			icon: "minecraft:sculk_sensor"
 			id: "19D7DDEA580BBD3A"
@@ -51,24 +51,24 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest19D7DDEA580BBD3A.subtitle}"
 			tasks: [{
 				biome: "minecraft:deep_dark"
 				icon: "minecraft:sculk_shrieker"
 				id: "1EB17C5F502ABBB2"
-				title: "&bDeep Dark"
+				title: "{ftbquests.chapter.deeper_and_darker_2.quest19D7DDEA580BBD3A.task.2211685640824339378.title}"
 				type: "biome"
 			}]
-			title: "Find the &bDeep Dark&r biome"
+			title: "{ftbquests.chapter.deeper_and_darker_2.quest19D7DDEA580BBD3A.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["19D7DDEA580BBD3A"]
 			description: [
-				"To activate the &bBig Portal&r in the Deep Dark, you'll need to slay the Warden and claim its &bheart.&r "
+				"{ftbquests.chapter.deeper_and_darker_2.quest51EEA50609DFF126.description1}"
 				""
-				"Be careful! The Warden in this modpack is far more formidable than the one you're used to."
+				"{ftbquests.chapter.deeper_and_darker_2.quest51EEA50609DFF126.description2}"
 			]
 			icon_scale: 1.2d
 			id: "51EEA50609DFF126"
@@ -87,7 +87,7 @@
 			]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest51EEA50609DFF126.subtitle}"
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: {
@@ -100,7 +100,7 @@
 					}
 				}
 				id: "29A910D7FD1C8445"
-				title: "Kill &bThe Warden"
+				title: "{ftbquests.chapter.deeper_and_darker_2.quest51EEA50609DFF126.task.3001949146469663813.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -110,12 +110,12 @@
 		{
 			dependencies: ["51EEA50609DFF126"]
 			description: [
-				"Once you found the portal, light it up with &bHeart Of The Deep&r &8(Make sure theres no sculk veins around it)"
+				"{ftbquests.chapter.deeper_and_darker_2.quest449CBD47F373F9E2.description1}"
 				""
-				"&bOther&r&6side&r is a dimension below the bedrock, It has a cavernous landscape with some cool biomes!"
+				"{ftbquests.chapter.deeper_and_darker_2.quest449CBD47F373F9E2.description2}"
 				""
-				"Here you will find bunch of &enew mobs and ores!&r If that doesn't sound good enough, you can even set your spawn point here with a bed."
-				"&8(I am not lying)"
+				"{ftbquests.chapter.deeper_and_darker_2.quest449CBD47F373F9E2.description3}"
+				"{ftbquests.chapter.deeper_and_darker_2.quest449CBD47F373F9E2.description4}"
 			]
 			icon: "deeperdarker:smooth_sculk_stone"
 			icon_scale: 1.35d
@@ -127,25 +127,25 @@
 			}]
 			shape: "square"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest449CBD47F373F9E2.subtitle}"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				icon: "deeperdarker:blooming_sculk_stone"
 				id: "3F5639D4F2C8EBF5"
 				type: "dimension"
 			}]
-			title: "Enter the &bOther&r&6side&r"
+			title: "{ftbquests.chapter.deeper_and_darker_2.quest449CBD47F373F9E2.title}"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["449CBD47F373F9E2"]
 			description: [
-				"The &b&lBlooming Caverns&r is distinguished by its glowing vegetation and water pools, this biome offers a strikingly different atmosphere from the dark Sculk-dominated regions of the dimension."
+				"{ftbquests.chapter.deeper_and_darker_2.questED2EF4E6824B54A.description1}"
 				""
-				"They contain edible food as well."
+				"{ftbquests.chapter.deeper_and_darker_2.questED2EF4E6824B54A.description2}"
 				""
-				"In here, you can find \"Sludge\" mobs. They drop &bResonarium&r which will be.. no it won't be important but if you are interested, with &bresonarium&r, you can make a armor and tools!"
+				"{ftbquests.chapter.deeper_and_darker_2.questED2EF4E6824B54A.description3}"
 			]
 			icon: "deeperdarker:blooming_sculk_stone"
 			id: "0ED2EF4E6824B54A"
@@ -163,26 +163,26 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.questED2EF4E6824B54A.subtitle}"
 			tasks: [{
 				biome: "deeperdarker:blooming_caverns"
 				icon: "deeperdarker:blooming_sculk_stone"
 				id: "3DC19F5C997A0BDC"
-				title: "Explore &bBlooming Caverns"
+				title: "{ftbquests.chapter.deeper_and_darker_2.questED2EF4E6824B54A.task.4450013126879480796.title}"
 				type: "biome"
 			}]
-			title: "Explore &b&lBlooming Caverns"
+			title: "{ftbquests.chapter.deeper_and_darker_2.questED2EF4E6824B54A.title}"
 			x: -1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["449CBD47F373F9E2"]
 			description: [
-				"The &lDeeplands&r are primarily composed of sculk and sculk stone."
+				"{ftbquests.chapter.deeper_and_darker_2.quest405AA569B7ACE9AB.description1}"
 				""
-				"- In this biome, you will encounter:"
+				"{ftbquests.chapter.deeper_and_darker_2.quest405AA569B7ACE9AB.description2}"
 				""
-				"Phantoms, sculk centipedes, sculk snappers, ground-dwelling sculk jaws, and infested sculk."
+				"{ftbquests.chapter.deeper_and_darker_2.quest405AA569B7ACE9AB.description3}"
 			]
 			id: "405AA569B7ACE9AB"
 			rewards: [{
@@ -191,26 +191,26 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest405AA569B7ACE9AB.subtitle}"
 			tasks: [{
 				biome: "deeperdarker:deeplands"
 				icon: "deeperdarker:sculk_gleam"
 				id: "58759106B2A3D11D"
-				title: "Explore &fDeeplands"
+				title: "{ftbquests.chapter.deeper_and_darker_2.quest405AA569B7ACE9AB.task.6374160305565716765.title}"
 				type: "biome"
 			}]
-			title: "Explore &f&lDeeplands"
+			title: "{ftbquests.chapter.deeper_and_darker_2.quest405AA569B7ACE9AB.title}"
 			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["449CBD47F373F9E2"]
 			description: [
-				"The &d&lEchoing Forest&r is a beautiful biome."
+				"{ftbquests.chapter.deeper_and_darker_2.quest286461494ADF352.description1}"
 				""
-				"It generates with many echo trees and echo soil covering the ground."
+				"{ftbquests.chapter.deeper_and_darker_2.quest286461494ADF352.description2}"
 				""
-				"Here, you will find shattered and sculk snappers, though they pose no threat."
+				"{ftbquests.chapter.deeper_and_darker_2.quest286461494ADF352.description3}"
 			]
 			id: "0286461494ADF352"
 			rewards: [{
@@ -219,27 +219,27 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest286461494ADF352.subtitle}"
 			tasks: [{
 				biome: "deeperdarker:echoing_forest"
 				icon: "deeperdarker:echo_soil"
 				id: "3897F84E22991976"
-				title: "Explore &d&lEchoing Forest"
+				title: "{ftbquests.chapter.deeper_and_darker_2.quest286461494ADF352.task.4078001002078869878.title}"
 				type: "biome"
 			}]
-			title: "Explore &d&lEchoing Forest"
+			title: "{ftbquests.chapter.deeper_and_darker_2.quest286461494ADF352.title}"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["449CBD47F373F9E2"]
 			description: [
-				"The &6&lOvercast Columns&r"
+				"{ftbquests.chapter.deeper_and_darker_2.quest1CCCCA7E20B877A7.description1}"
 				""
-				"In this biome, you will find plenty of crystallized amber blocks and ember pillars."
+				"{ftbquests.chapter.deeper_and_darker_2.quest1CCCCA7E20B877A7.description2}"
 				""
-				"There are also geysers on the ground. When you walk over them, they'll shoot you upwards, though they don't deal any damage."
-				"&8(There's ofc fall damage)"
+				"{ftbquests.chapter.deeper_and_darker_2.quest1CCCCA7E20B877A7.description3}"
+				"{ftbquests.chapter.deeper_and_darker_2.quest1CCCCA7E20B877A7.description4}"
 			]
 			id: "1CCCCA7E20B877A7"
 			rewards: [{
@@ -248,21 +248,21 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest1CCCCA7E20B877A7.subtitle}"
 			tasks: [{
 				biome: "deeperdarker:overcast_columns"
 				icon: "deeperdarker:gloomy_sculk"
 				id: "60452EE3EADE1395"
-				title: "Explore &6&lOvercast Columns&r"
+				title: "{ftbquests.chapter.deeper_and_darker_2.quest1CCCCA7E20B877A7.task.6937002357466993557.title}"
 				type: "biome"
 			}]
-			title: "Explore &6&lOvercast Columns&r"
+			title: "{ftbquests.chapter.deeper_and_darker_2.quest1CCCCA7E20B877A7.title}"
 			x: 1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["449CBD47F373F9E2"]
-			description: ["&bAncient Temple&r is the only structure that this mod provides, It contains some mediocre loot in general but still, there's some important stuff!"]
+			description: ["{ftbquests.chapter.deeper_and_darker_2.quest3B1E28D454DCF8D4.description1}"]
 			icon: "minecraft:deepslate_bricks"
 			id: "3B1E28D454DCF8D4"
 			rewards: [{
@@ -272,11 +272,11 @@
 			}]
 			shape: "octagon"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest3B1E28D454DCF8D4.subtitle}"
 			tasks: [{
 				id: "06C97CF6CF87C3AF"
 				structure: "deeperdarker:ancient_temple"
-				title: "Find &bAncient Temple&r"
+				title: "{ftbquests.chapter.deeper_and_darker_2.quest3B1E28D454DCF8D4.task.489059434031989679.title}"
 				type: "structure"
 			}]
 			x: 0.0d
@@ -285,13 +285,13 @@
 		{
 			dependencies: ["3B1E28D454DCF8D4"]
 			description: [
-				"When &bsneaking and right-clicking&r a block, the Sculk Transmitter will be &nlinked&r to it. This can include &bCrafting Tables, Chests, Anvils, Looms, Enchanting Tables, Brewing Stands, and more.&r Essentially, it is any block that you can normally interact with."
+				"{ftbquests.chapter.deeper_and_darker_2.quest59FD763E876997B1.description1}"
 				""
-				"By holding the Sculk Transmitter and &bright-clicking,&r the linked blocks GUI will then be opened, allowing you to craft while on the move, and access distant inventories, among other useful features."
+				"{ftbquests.chapter.deeper_and_darker_2.quest59FD763E876997B1.description2}"
 				""
-				"The Sculk Transmitter works at huge distances, over hundreds of blocks. However, &nit doesn’t work across different dimensions.&r Doing so will cause the Sculk Transmitter to become unlinked, but this can also be done manually by sneaking and right-clicking."
+				"{ftbquests.chapter.deeper_and_darker_2.quest59FD763E876997B1.description3}"
 				""
-				"&8Can be found in the ancient temple structure."
+				"{ftbquests.chapter.deeper_and_darker_2.quest59FD763E876997B1.description4}"
 			]
 			id: "59FD763E876997B1"
 			rewards: [{
@@ -300,7 +300,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest59FD763E876997B1.subtitle}"
 			tasks: [{
 				id: "279D453B4F9AEC27"
 				item: "deeperdarker:sculk_transmitter"
@@ -336,7 +336,7 @@
 			]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "&fBetter Than Netherite&r (That's it)"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest55A7F2EA6A0CEB7.subtitle}"
 			tasks: [
 				{
 					id: "666C39F58B68B188"
@@ -394,7 +394,7 @@
 					type: "item"
 				}
 			]
-			title: "Craft Warden Toolset"
+			title: "{ftbquests.chapter.deeper_and_darker_2.quest55A7F2EA6A0CEB7.title}"
 			x: -1.5d
 			y: 7.0d
 		}
@@ -416,7 +416,7 @@
 			]
 			shape: "octagon"
 			size: 0.4d
-			subtitle: "Better Than Diamond"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest452F9E4C192FA00.subtitle}"
 			tasks: [
 				{
 					id: "60E023AD771ACC0F"
@@ -495,7 +495,7 @@
 			]
 			shape: "octagon"
 			size: 0.4d
-			subtitle: "Better Than Diamond"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest5FA3018980844CF5.subtitle}"
 			tasks: [
 				{
 					id: "4F728FE446D269B9"
@@ -548,13 +548,13 @@
 		{
 			dependencies: ["1C89B122F8DF31FA"]
 			description: [
-				"&bThe Warden Helmet&r grants immunity to Darkness and Blindness effects."
+				"{ftbquests.chapter.deeper_and_darker_2.quest44937B2D2EB38094.description1}"
 				""
-				"&bThe Warden Leggings&r grants speed boost."
+				"{ftbquests.chapter.deeper_and_darker_2.quest44937B2D2EB38094.description2}"
 				""
-				"&bThe Warden Chestplate&r grants HP boost."
+				"{ftbquests.chapter.deeper_and_darker_2.quest44937B2D2EB38094.description3}"
 				""
-				"&bThe Warden Boots&r &8grants.. &8nothing."
+				"{ftbquests.chapter.deeper_and_darker_2.quest44937B2D2EB38094.description4}"
 			]
 			icon: {
 				Count: 1
@@ -572,7 +572,7 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest44937B2D2EB38094.subtitle}"
 			tasks: [
 				{
 					id: "42CA7AAF304767E7"
@@ -619,16 +619,16 @@
 					type: "item"
 				}
 			]
-			title: "Craft Warden Armor Set"
+			title: "{ftbquests.chapter.deeper_and_darker_2.quest44937B2D2EB38094.title}"
 			x: 1.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["7BA06C91408097F3"]
 			description: [
-				"&bThe Soul Elytra&r can be equipped into the Chest slot, and compared to the regular Elytra, it offers &b+3&r armor points. "
+				"{ftbquests.chapter.deeper_and_darker_2.quest3625A4D55155720F.description1}"
 				""
-				"It also comes with the ability to use a boost without Firework Rockets, which can be done every 30 seconds by pressing the &nB&r key."
+				"{ftbquests.chapter.deeper_and_darker_2.quest3625A4D55155720F.description2}"
 			]
 			id: "3625A4D55155720F"
 			rewards: [
@@ -651,7 +651,7 @@
 			]
 			shape: "octagon"
 			size: 0.7d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest3625A4D55155720F.subtitle}"
 			tasks: [{
 				id: "7D40DD4D3E42FCC6"
 				item: {
@@ -669,11 +669,11 @@
 		{
 			dependencies: ["7BA06C91408097F3"]
 			description: [
-				"&bThe Sonorous Staff&r functions as a chargeable ranged weapon. Hold right-click to charge the staff, then release to fire a sonic boom in the direction you’re facing. "
+				"{ftbquests.chapter.deeper_and_darker_2.quest7C18745F2E5B8E64.description1}"
 				""
-				"The longer you charge, the more damage and range the attack gains. "
+				"{ftbquests.chapter.deeper_and_darker_2.quest7C18745F2E5B8E64.description2}"
 				""
-				"&8&nIt caps at 6 seconds.&r"
+				"{ftbquests.chapter.deeper_and_darker_2.quest7C18745F2E5B8E64.description3}"
 			]
 			id: "7C18745F2E5B8E64"
 			rewards: [{
@@ -683,7 +683,7 @@
 			}]
 			shape: "octagon"
 			size: 0.7d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest7C18745F2E5B8E64.subtitle}"
 			tasks: [{
 				id: "3A5F7B7473A2021B"
 				item: {
@@ -702,11 +702,11 @@
 		{
 			dependencies: ["3B1E28D454DCF8D4"]
 			description: [
-				"Here is your straight-up upgrade! This smithing template is key to making &b\"Warden\"&r tools. "
+				"{ftbquests.chapter.deeper_and_darker_2.quest1C89B122F8DF31FA.description1}"
 				""
-				"They have special traits and are better than netherite!"
+				"{ftbquests.chapter.deeper_and_darker_2.quest1C89B122F8DF31FA.description2}"
 				""
-				"&8Can be found in the ancient temple structure."
+				"{ftbquests.chapter.deeper_and_darker_2.quest1C89B122F8DF31FA.description3}"
 			]
 			id: "1C89B122F8DF31FA"
 			rewards: [{
@@ -716,7 +716,7 @@
 			}]
 			shape: "gear"
 			size: 1.15d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest1C89B122F8DF31FA.subtitle}"
 			tasks: [{
 				id: "09B87EE74D15AB2C"
 				item: "deeperdarker:warden_upgrade_smithing_template"
@@ -728,11 +728,11 @@
 		{
 			dependencies: ["3B1E28D454DCF8D4"]
 			description: [
-				"&bStalker&r is a &cmini-boss&r that this mod offers. He can be summoned with a chance when breaking vases inside ancient temple."
+				"{ftbquests.chapter.deeper_and_darker_2.quest7BA06C91408097F3.description1}"
 				""
-				"He is pretty easy to kill but can be annoying, depending on how much leeches that he will spawn."
+				"{ftbquests.chapter.deeper_and_darker_2.quest7BA06C91408097F3.description2}"
 				""
-				"Killing him drops &bsoul crystal&r which will be useful!"
+				"{ftbquests.chapter.deeper_and_darker_2.quest7BA06C91408097F3.description3}"
 			]
 			icon: {
 				Count: 1
@@ -747,7 +747,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.deeper_and_darker_2.quest7BA06C91408097F3.subtitle}"
 			tasks: [{
 				entity: "deeperdarker:stalker"
 				icon: {
@@ -758,7 +758,7 @@
 					}
 				}
 				id: "63C00D89D1700637"
-				title: "Kill &bThe Stalker&r"
+				title: "{ftbquests.chapter.deeper_and_darker_2.quest7BA06C91408097F3.task.7187759890858772023.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -766,5 +766,5 @@
 			y: 5.5d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#004D4D to=#35FCF9>Deeper And Darker</grad></shadow>"
+	title: "{ftbquests.chapter.deeper_and_darker_2.title}"
 }

@@ -58,7 +58,7 @@
 		{
 			click: "a"
 			height: 1.0d
-			hover: ["This questline is being reworked"]
+			hover: ["ftbquests.chapter.celestial_enchantments.image.hovertext1"]
 			image: "quark:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
@@ -69,10 +69,10 @@
 			dev: true
 			height: 1.0d
 			hover: [
-				"All rights are reserved."
-				"Questlines are the exclusive property of Misanthropy. [DISCORD USER - @Misanthropy]"
-				"No part of these questlines may be utilized, redistributed, or modified for any project other than Linggango without explicit written permission from the owner. "
-				"Unauthorized use or theft of this content is strictly prohibited and protected under copyright law."
+				"ftbquests.chapter.celestial_enchantments.image.hovertext2"
+				"ftbquests.chapter.celestial_enchantments.image.hovertext3"
+				"ftbquests.chapter.celestial_enchantments.image.hovertext4"
+				"ftbquests.chapter.celestial_enchantments.image.hovertext5"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
@@ -86,11 +86,11 @@
 	quests: [
 		{
 			description: [
-				"Now this is a new enchanting system with extra stuff for armors, tools, and weapons!"
-				"Just like vanilla tables, put bookshelves around it to increase the &elevel&r of the table, and use chiseled bookshelves to filter out enchants you don't want, it's that easy!"
-				"&eGeneric enchants work with"
-				"[gap=0]"
-				"&eanything by the way, heads up!&r"
+				"{ftbquests.chapter.celestial_enchantments.quest545103DBF0B5A701.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest545103DBF0B5A701.description2}"
+				"{ftbquests.chapter.celestial_enchantments.quest545103DBF0B5A701.description3}"
+				"{ftbquests.chapter.celestial_enchantments.quest545103DBF0B5A701.description4}"
+				"{ftbquests.chapter.celestial_enchantments.quest545103DBF0B5A701.description5}"
 			]
 			id: "545103DBF0B5A701"
 			min_width: 230
@@ -101,7 +101,7 @@
 			}]
 			shape: "square"
 			size: 1.3d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest545103DBF0B5A701.subtitle}"
 			tasks: [{
 				id: "225EAFE6238CD15F"
 				item: "celestial_enchantments:celestial_enchanting_table"
@@ -113,8 +113,8 @@
 		{
 			dependencies: ["545103DBF0B5A701"]
 			description: [
-				"This is what you use instead of lapis to enchant items."
-				"This allows you to enchant &7basic&r to more advanced &bcelestial&r enchants, try your luck and watch out for &4curses&r as well, just like regular enchanting."
+				"{ftbquests.chapter.celestial_enchantments.quest62EFA926F50A9456.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest62EFA926F50A9456.description2}"
 			]
 			id: "62EFA926F50A9456"
 			min_width: 220
@@ -125,7 +125,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.1d
-			subtitle: "Overworld level of enchanting"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest62EFA926F50A9456.subtitle}"
 			tasks: [{
 				id: "04B9ED6207A7D4D9"
 				item: "celestial_enchantments:basic_celestial_catalyst"
@@ -137,12 +137,12 @@
 		{
 			dependencies: ["62EFA926F50A9456"]
 			description: [
-				"Entering &6Nether level&r already?"
-				"This would help with getting access to &9advanced&r and &elegendary&r enchants."
-				"[gap=0]"
-				"&8if lucky, idk man, luck might&r"
-				"[gap=0]"
-				"&8not be on your side&r"
+				"{ftbquests.chapter.celestial_enchantments.quest7D58E9069A981BC9.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest7D58E9069A981BC9.description2}"
+				"{ftbquests.chapter.celestial_enchantments.quest7D58E9069A981BC9.description3}"
+				"{ftbquests.chapter.celestial_enchantments.quest7D58E9069A981BC9.description4}"
+				"{ftbquests.chapter.celestial_enchantments.quest7D58E9069A981BC9.description5}"
+				"{ftbquests.chapter.celestial_enchantments.quest7D58E9069A981BC9.description6}"
 			]
 			id: "7D58E9069A981BC9"
 			min_width: 220
@@ -153,7 +153,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.2d
-			subtitle: "Nether level enchanting"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest7D58E9069A981BC9.subtitle}"
 			tasks: [{
 				id: "588D18D56024324E"
 				item: "celestial_enchantments:advanced_celestial_catalyst"
@@ -165,11 +165,11 @@
 		{
 			dependencies: ["7D58E9069A981BC9"]
 			description: [
-				"Surely you've conquered &5The End&r by now and you're entering late game."
-				"This unlocks the best of the best enchants, more options, more utility for each piece."
-				"Explore and see what you get."
-				"[gap=0]"
-				"&8good luck with those curses once more&r"
+				"{ftbquests.chapter.celestial_enchantments.quest25731A62AB0EB990.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest25731A62AB0EB990.description2}"
+				"{ftbquests.chapter.celestial_enchantments.quest25731A62AB0EB990.description3}"
+				"{ftbquests.chapter.celestial_enchantments.quest25731A62AB0EB990.description4}"
+				"{ftbquests.chapter.celestial_enchantments.quest25731A62AB0EB990.description5}"
 			]
 			id: "25731A62AB0EB990"
 			min_width: 220
@@ -180,7 +180,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.4d
-			subtitle: "End-level enchants"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest25731A62AB0EB990.subtitle}"
 			tasks: [{
 				id: "2AA7FA10932BA5EE"
 				item: "celestial_enchantments:legendary_celestial_catalyst"
@@ -209,12 +209,12 @@
 			}]
 			shape: "hexagon"
 			size: 1.15d
-			subtitle: "New enchantment types for armors!"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest53C5B020EDD07EC5.subtitle}"
 			tasks: [{
 				id: "6A55E25C4E32EB90"
 				type: "checkmark"
 			}]
-			title: "Armors"
+			title: "{ftbquests.chapter.celestial_enchantments.quest53C5B020EDD07EC5.title}"
 			x: -11.750242512129162d
 			y: -2.6034954982113874d
 		}
@@ -238,12 +238,12 @@
 			}]
 			shape: "hexagon"
 			size: 1.15d
-			subtitle: "New enchantment types for weapons!"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest1DC4498DEC9BA8C1.subtitle}"
 			tasks: [{
 				id: "40856C8E0C3A341F"
 				type: "checkmark"
 			}]
-			title: "Weapons"
+			title: "{ftbquests.chapter.celestial_enchantments.quest1DC4498DEC9BA8C1.title}"
 			x: -9.250242512129162d
 			y: -2.6034954982113874d
 		}
@@ -267,12 +267,12 @@
 			}]
 			shape: "hexagon"
 			size: 1.15d
-			subtitle: "New enchant for shields!"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest5B2360E603B29B31.subtitle}"
 			tasks: [{
 				id: "6FC7A97C97E1CA7C"
 				type: "checkmark"
 			}]
-			title: "Shields"
+			title: "{ftbquests.chapter.celestial_enchantments.quest5B2360E603B29B31.title}"
 			x: -14.250242512129162d
 			y: -2.6034954982113874d
 		}
@@ -296,21 +296,21 @@
 			}]
 			shape: "hexagon"
 			size: 1.15d
-			subtitle: "New enchants for bows!"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest63747E0B53B550FB.subtitle}"
 			tasks: [{
 				id: "4E969345E2BE9B9B"
 				type: "checkmark"
 			}]
-			title: "Bows"
+			title: "{ftbquests.chapter.celestial_enchantments.quest63747E0B53B550FB.title}"
 			x: -6.750242512129162d
 			y: -2.6034954982113874d
 		}
 		{
 			dependencies: ["53C5B020EDD07EC5"]
 			description: [
-				"Gives you enough experience so that you can play the pack while not being brainless."
-				"Okay kidding aside, it enhances XP gain in general, I mean what else could experience mean?"
-				"And no, this doesn't mean you can put linggango in your resume experiences."
+				"{ftbquests.chapter.celestial_enchantments.quest7823BFF5CFC490FC.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest7823BFF5CFC490FC.description2}"
+				"{ftbquests.chapter.celestial_enchantments.quest7823BFF5CFC490FC.description3}"
 			]
 			icon: "minecraft:experience_bottle"
 			id: "7823BFF5CFC490FC"
@@ -320,20 +320,20 @@
 				xp: 150
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest7823BFF5CFC490FC.subtitle}"
 			tasks: [{
 				id: "1AC6C4F24D895888"
 				type: "checkmark"
 			}]
-			title: "Experience"
+			title: "{ftbquests.chapter.celestial_enchantments.quest7823BFF5CFC490FC.title}"
 			x: -12.250242512129162d
 			y: -5.103495498211387d
 		}
 		{
 			dependencies: ["53C5B020EDD07EC5"]
 			description: [
-				"This essentially applies an &5effect&r on you based on enchant conditions."
-				"I mean, this is why it's called coating, right?"
+				"{ftbquests.chapter.celestial_enchantments.questE98FF539F4B6F45.description1}"
+				"{ftbquests.chapter.celestial_enchantments.questE98FF539F4B6F45.description2}"
 			]
 			icon: {
 				Count: 1
@@ -345,18 +345,18 @@
 			id: "0E98FF539F4B6F45"
 			min_width: 240
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.questE98FF539F4B6F45.subtitle}"
 			tasks: [{
 				id: "5A1F477D5C754CF3"
 				type: "checkmark"
 			}]
-			title: "Coating"
+			title: "{ftbquests.chapter.celestial_enchantments.questE98FF539F4B6F45.title}"
 			x: -11.250242512129162d
 			y: -5.103495498211387d
 		}
 		{
 			dependencies: ["53C5B020EDD07EC5"]
-			description: ["The enchant gives an effect/does a certain thing whenever a condition is met. "]
+			description: ["{ftbquests.chapter.celestial_enchantments.quest1EEAA365F3383FF6.description1}"]
 			icon: "starcatcher:missingno"
 			id: "1EEAA365F3383FF6"
 			min_width: 230
@@ -366,23 +366,23 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest1EEAA365F3383FF6.subtitle}"
 			tasks: [{
 				id: "3D375FFC534CF614"
-				title: "I see bro."
+				title: "{ftbquests.chapter.celestial_enchantments.quest1EEAA365F3383FF6.task.4411099897366640148.title}"
 				type: "checkmark"
 			}]
-			title: "Reactive"
+			title: "{ftbquests.chapter.celestial_enchantments.quest1EEAA365F3383FF6.title}"
 			x: -11.750242512129162d
 			y: -4.603495498211387d
 		}
 		{
 			dependencies: ["53C5B020EDD07EC5"]
 			description: [
-				"The enchant has a &apositive&r and a &4negative&r drawback, 1 for 1 right?"
-				"An eye for an eye??"
-				"[gap=0]"
-				"Double-edged sword??"
+				"{ftbquests.chapter.celestial_enchantments.quest6E55253254F35193.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest6E55253254F35193.description2}"
+				"{ftbquests.chapter.celestial_enchantments.quest6E55253254F35193.description3}"
+				"{ftbquests.chapter.celestial_enchantments.quest6E55253254F35193.description4}"
 			]
 			icon: "born_in_chaos_v1:double_troubleicon"
 			id: "6E55253254F35193"
@@ -392,23 +392,23 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest6E55253254F35193.subtitle}"
 			tasks: [{
 				id: "431AEDAC300533E6"
-				title: "haha"
+				title: "{ftbquests.chapter.celestial_enchantments.quest6E55253254F35193.task.4835438473731453926.title}"
 				type: "checkmark"
 			}]
-			title: "Double-Edge"
+			title: "{ftbquests.chapter.celestial_enchantments.quest6E55253254F35193.title}"
 			x: -11.250242512129162d
 			y: -4.103495498211387d
 		}
 		{
 			dependencies: ["53C5B020EDD07EC5"]
 			description: [
-				"Death enchants usually trigger something on death, figure it out!"
-				"Who knows, maybe dying 24/7"
-				"[gap=0]"
-				"has its &abenefits&r at times..."
+				"{ftbquests.chapter.celestial_enchantments.quest6CEAD71AFB5AAD73.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest6CEAD71AFB5AAD73.description2}"
+				"{ftbquests.chapter.celestial_enchantments.quest6CEAD71AFB5AAD73.description3}"
+				"{ftbquests.chapter.celestial_enchantments.quest6CEAD71AFB5AAD73.description4}"
 			]
 			icon: "born_in_chaos_v1:shattered_skull"
 			id: "6CEAD71AFB5AAD73"
@@ -418,22 +418,22 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest6CEAD71AFB5AAD73.subtitle}"
 			tasks: [{
 				id: "325F6B81D669E462"
 				type: "checkmark"
 			}]
-			title: "Death"
+			title: "{ftbquests.chapter.celestial_enchantments.quest6CEAD71AFB5AAD73.title}"
 			x: -12.250242512129162d
 			y: -4.103495498211387d
 		}
 		{
 			dependencies: ["1DC4498DEC9BA8C1"]
 			description: [
-				"The weapon is infused with a certain &5effect&r or &econdition&r, for example"
-				"[gap=0]"
-				"applying the wither effect."
-				"I mean, it is &ainfused&r after all, \"dipping\" would be a far better word but bow enchants already have this sadly :("
+				"{ftbquests.chapter.celestial_enchantments.quest71E2E85FE7AF550.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest71E2E85FE7AF550.description2}"
+				"{ftbquests.chapter.celestial_enchantments.quest71E2E85FE7AF550.description3}"
+				"{ftbquests.chapter.celestial_enchantments.quest71E2E85FE7AF550.description4}"
 			]
 			icon: {
 				Count: 1
@@ -455,23 +455,23 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest71E2E85FE7AF550.subtitle}"
 			tasks: [{
 				id: "16FDC0759662B25B"
 				type: "checkmark"
 			}]
-			title: "Infused"
+			title: "{ftbquests.chapter.celestial_enchantments.quest71E2E85FE7AF550.title}"
 			x: -9.750242512129162d
 			y: -5.103495498211387d
 		}
 		{
 			dependencies: ["1DC4498DEC9BA8C1"]
 			description: [
-				"I mean the name says it all, it's for blades, blade blade blade, swords."
-				"[gap=3]"
-				"&eI swear if someone asks if this is&r"
-				"[gap=0]"
-				"&efor bows I'm gonna lose it bro.&r"
+				"{ftbquests.chapter.celestial_enchantments.quest84ACAE4FC1867EB.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest84ACAE4FC1867EB.description2}"
+				"{ftbquests.chapter.celestial_enchantments.quest84ACAE4FC1867EB.description3}"
+				"{ftbquests.chapter.celestial_enchantments.quest84ACAE4FC1867EB.description4}"
+				"{ftbquests.chapter.celestial_enchantments.quest84ACAE4FC1867EB.description5}"
 			]
 			icon: {
 				Count: 1
@@ -489,22 +489,22 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest84ACAE4FC1867EB.subtitle}"
 			tasks: [{
 				id: "30620D8521B69456"
 				type: "checkmark"
 			}]
-			title: "Blade"
+			title: "{ftbquests.chapter.celestial_enchantments.quest84ACAE4FC1867EB.title}"
 			x: -8.750242512129162d
 			y: -5.103495498211387d
 		}
 		{
 			dependencies: ["1DC4498DEC9BA8C1"]
 			description: [
-				"Enchants like these usually aim to &cbypass armor&r or &cpenetrate defenses&r, read as you will on the descriptions."
-				"I mean, what do you think a meat shredder would do to meat?"
-				"[gap=0]"
-				"Think about the rest."
+				"{ftbquests.chapter.celestial_enchantments.quest59A2A184BD3AF4C0.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest59A2A184BD3AF4C0.description2}"
+				"{ftbquests.chapter.celestial_enchantments.quest59A2A184BD3AF4C0.description3}"
+				"{ftbquests.chapter.celestial_enchantments.quest59A2A184BD3AF4C0.description4}"
 			]
 			icon: "cataclysm:meat_shredder"
 			id: "59A2A184BD3AF4C0"
@@ -515,24 +515,24 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest59A2A184BD3AF4C0.subtitle}"
 			tasks: [{
 				id: "1FB83C1B007F5512"
 				type: "checkmark"
 			}]
-			title: "Shredding"
+			title: "{ftbquests.chapter.celestial_enchantments.quest59A2A184BD3AF4C0.title}"
 			x: -9.250242512129162d
 			y: -4.603495498211387d
 		}
 		{
 			dependencies: ["1DC4498DEC9BA8C1"]
 			description: [
-				"Usually deals damage that scales"
-				"[gap=0]"
-				"based on a certain condition."
-				"Depends on which one,"
-				"[gap=0]"
-				"so choose as you wish."
+				"{ftbquests.chapter.celestial_enchantments.quest6550F7C5E5251A21.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest6550F7C5E5251A21.description2}"
+				"{ftbquests.chapter.celestial_enchantments.quest6550F7C5E5251A21.description3}"
+				"{ftbquests.chapter.celestial_enchantments.quest6550F7C5E5251A21.description4}"
+				"{ftbquests.chapter.celestial_enchantments.quest6550F7C5E5251A21.description5}"
+				"{ftbquests.chapter.celestial_enchantments.quest6550F7C5E5251A21.description6}"
 			]
 			icon: "ars_elemental:mark_of_mastery"
 			id: "6550F7C5E5251A21"
@@ -544,18 +544,18 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest6550F7C5E5251A21.subtitle}"
 			tasks: [{
 				id: "68E459668B62A4B9"
 				type: "checkmark"
 			}]
-			title: "Master"
+			title: "{ftbquests.chapter.celestial_enchantments.quest6550F7C5E5251A21.title}"
 			x: -8.750242512129162d
 			y: -4.103495498211387d
 		}
 		{
 			dependencies: ["1DC4498DEC9BA8C1"]
-			description: ["Usually helps with normal gameplay outside of combat, feel free to browse through which one would specifically help you."]
+			description: ["{ftbquests.chapter.celestial_enchantments.questA6FD22ABD65A6D3.description1}"]
 			icon: "supplementaries:faucet"
 			id: "0A6FD22ABD65A6D3"
 			rewards: [{
@@ -565,18 +565,18 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.questA6FD22ABD65A6D3.subtitle}"
 			tasks: [{
 				id: "072353ABCA57D781"
 				type: "checkmark"
 			}]
-			title: "Utility"
+			title: "{ftbquests.chapter.celestial_enchantments.questA6FD22ABD65A6D3.title}"
 			x: -9.750242512129162d
 			y: -4.103495498211387d
 		}
 		{
 			dependencies: ["5B2360E603B29B31"]
-			description: ["Effects activate when meeting the condition of blocking attacks."]
+			description: ["{ftbquests.chapter.celestial_enchantments.quest3AFBC615C3FBF428.description1}"]
 			icon: {
 				Count: 1
 				id: "cataclysm:azure_sea_shield"
@@ -591,12 +591,12 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "&8[Click to read]"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest3AFBC615C3FBF428.subtitle}"
 			tasks: [{
 				id: "2F7B7F23BA7F8D06"
 				type: "checkmark"
 			}]
-			title: "Shielding"
+			title: "{ftbquests.chapter.celestial_enchantments.quest3AFBC615C3FBF428.title}"
 			x: -14.250242512129162d
 			y: -4.103495498211387d
 		}
@@ -606,10 +606,10 @@
 				"63747E0B53B550FB"
 			]
 			description: [
-				"Might add something extra to bows,"
-				"[gap=0]"
-				"ain't that powerful?"
-				"&8Acting as if bows didn't get a lot of love already in this update&r"
+				"{ftbquests.chapter.celestial_enchantments.quest106561376E7CC45B.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest106561376E7CC45B.description2}"
+				"{ftbquests.chapter.celestial_enchantments.quest106561376E7CC45B.description3}"
+				"{ftbquests.chapter.celestial_enchantments.quest106561376E7CC45B.description4}"
 			]
 			icon: {
 				Count: 1
@@ -625,21 +625,21 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "Enhanced bow powers"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest106561376E7CC45B.subtitle}"
 			tasks: [{
 				id: "07F377F6ED204307"
 				type: "checkmark"
 			}]
-			title: "Archery"
+			title: "{ftbquests.chapter.celestial_enchantments.quest106561376E7CC45B.title}"
 			x: -6.250242512129162d
 			y: -4.103495498211387d
 		}
 		{
 			dependencies: ["63747E0B53B550FB"]
 			description: [
-				"Infuses the arrow with a certain effect, similar to melee's &a\"Infused\"&r enchant, same ideology."
-				"If only you could infuse swords with bows so they throw out daggers, right?"
-				"Yeah no."
+				"{ftbquests.chapter.celestial_enchantments.quest4A6089646DC5BBD9.description1}"
+				"{ftbquests.chapter.celestial_enchantments.quest4A6089646DC5BBD9.description2}"
+				"{ftbquests.chapter.celestial_enchantments.quest4A6089646DC5BBD9.description3}"
 			]
 			icon: "quark:torch_arrow"
 			id: "4A6089646DC5BBD9"
@@ -650,15 +650,15 @@
 				xp: 100
 			}]
 			size: 1.0d
-			subtitle: "Dipped, mixed with what tho"
+			subtitle: "{ftbquests.chapter.celestial_enchantments.quest4A6089646DC5BBD9.subtitle}"
 			tasks: [{
 				id: "40139549C11720AA"
 				type: "checkmark"
 			}]
-			title: "Dipped"
+			title: "{ftbquests.chapter.celestial_enchantments.quest4A6089646DC5BBD9.title}"
 			x: -7.250242512129162d
 			y: -4.103495498211387d
 		}
 	]
-	title: "<shadow a=0.4><grad from=#52F3EE to=#3BDF9B>Celestial Enchants</grad></shadow>"
+	title: "{ftbquests.chapter.celestial_enchantments.title}"
 }
