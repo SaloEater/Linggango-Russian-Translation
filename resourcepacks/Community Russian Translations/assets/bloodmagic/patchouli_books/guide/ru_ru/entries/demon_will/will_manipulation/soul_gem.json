@@ -1,0 +1,52 @@
+{
+  "name": "Тартарские драгоценные камни",
+  "icon": "bloodmagic:soulgemgreater",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() — очень полезный ресурс, но фрагментам, которые вы получили до сих пор, явно не хватает мощности. Что вам нужно, так это предмет для хранения; $(item)Tartaric Gem$() кажется именно тем, что нужно. Более того, он может поглотить любые остатки $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$(), которые могут у вас валяться. Просто бросьте их на пол, и ваш новый блестящий драгоценный камень поглотит их."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Мелкий тартаровый драгоценный камень",
+      "recipe": "bloodmagic:soulforge/pettytartaricgem",
+      "text": "Ваш первый драгоценный камень будет содержать максимум 64 $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will$(). Гораздо компактнее, чем раньше! $(br2)Если вы когда-нибудь захотите перенести $(raw)Will$() из одного драгоценного камня в другой, просто удерживайте [$(k:use)], удерживая драгоценный камень, который хотите очистить, и он перенесет свою волю в первый действительный драгоценный камень, который он найдет в вашем инвентаре."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ваш $(item)Petty Tartaric Gem$() — полезный инструмент, но ему явно не хватает мощности. Тщательно проработав его с $(item)Diamond$(), $(item)Lapis$() и $(item)Redstone$(), вы нашли способ увеличить его возможности хранения в четыре раза."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Малый тартарский драгоценный камень",
+      "recipe": "bloodmagic:soulforge/lessertartaricgem",
+      "text": "Этот усиленный драгоценный камень может вместить до 256 $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will$(). $(br2)Примечание: при обновлении вам понадобится только один драгоценный камень — $(item)Hellfire Forge$() извлечет $(raw)Will$() из драгоценного камня, который он создает, прежде чем пытаться использовать волю драгоценного камня в своем слоте для драгоценных камней. Не волнуйтесь, вновь созданный драгоценный камень будет содержать все остатки $(raw)Will$() от процесса."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ваш $(item)Малый татарский драгоценный камень$() — заметное улучшение, но вы снова раздражаетесь его ограничениями. Для дальнейшего продвижения потребуется сосредоточиться на своем $(l:bloodmagic:altar/blood_altar)Кровавом алтаре$(), так как вам потребуются силы $(l:bloodmagic:altar/slates)Пропитанная плита$(). Объединив этот сланец с вашим драгоценным камнем и дополнив его еще одним $(item)Diamond$() и $(item)Block of Gold$(), вы нашли способ еще раз увеличить в четыре раза его возможности хранения."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Обыкновенный татарский драгоценный камень",
+      "recipe": "bloodmagic:soulforge/commontartaricgem",
+      "text": "Этот замысловатый драгоценный камень может вместить впечатляющие 1024 $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Вы явно превзошли себя, создав $(item)Общий тартарский драгоценный камень$(), но чувствуете, что можете сделать еще больше. Однако получение большей отдачи от вашего драгоценного камня станет кульминацией всей вашей работы на данный момент. Вам понадобится не только $(l:bloodmagic:altar/slates)Demonic Slate$(), вам также потребуется $(l:bloodmagic:utility/alchemical_reaction_chamber#blood_shard)Weak Blood Shard$() $(o)and$() и $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Demon Will Crystal$(). Конечно, за это будут соответствующие награды, которые обеспечат работу ваших $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$(), как ничто из того, что вы видели раньше..."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Большой татарский драгоценный камень",
+      "recipe": "bloodmagic:soulforge/greatertartaricgem",
+      "text": "Этот шедевр искусственного искусства может вместить поразительные 4096 $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will$()."
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Поскольку у вас установлен $(thing)Curios API$(), вы можете использовать $(item)Tartaric Gems$() в качестве ожерелья. Если вы хотите носить больше сувениров одновременно, рассмотрите возможность использования $(l:bloodmagic:alchemy_array/sigil/holding)Sigil of Holding$() или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$() для вашего $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живая броня$()."
+    }
+  ]
+}

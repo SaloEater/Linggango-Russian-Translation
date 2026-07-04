@@ -1,0 +1,23 @@
+{
+  "name": "Край скрытого мира",
+  "icon": "bloodmagic:simplekey",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Край скрытого мира",
+      "multiblock_id": "bloodmagic:simple_dungeon",
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(/l) для упрощения сборки."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "simple_dungeon",
+      "text_overrides": [
+        [
+          "Царство Демонов",
+          "thing"
+        ]
+      ]
+    }
+  ]
+}

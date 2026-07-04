@@ -1,0 +1,35 @@
+{
+  "name": "Лавовый Сигил",
+  "icon": "bloodmagic:lavasigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Сестринский символ $(l:bloodmagic:alchemy_array/sigil/water)Сигила Воды$(/l). Нажмите [$(k:use)], удерживая $(item)Lava Sigil$(), чтобы создать на земле исходный блок $(fire)lava$() за $(blood)1000 LP$(). Созданный в $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Alchemy Array$(/l) с использованием $(item)Lava Reagent$() и $(item)Чистого листа,$() он высосет у вас 5 сердец, если у вас недостаточно LP в вашей $(l:bloodmagic:altar/soul_network)душе Сеть.$(/л)"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Лавовый реагент",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_lava",
+      "array.heading": "Лавовый Сигил",
+      "array.recipe": "bloodmagic:array/lavasigil",
+      "array.text": "$(курсив)ГОРЯЧИЙ! НЕ ЕШЬТЕ $()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/lava_sigil1.png",
+        "bloodmagic:images/entries/sigil/lava_sigil2.png"
+      ],
+      "title": "Массив лавовых сигил",
+      "border": true,
+      "text": "Лавовый знак рядом с его набором для изготовления и его основным назначением."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ведро лавы",
+      "recipe": "bloodmagic:alchemytable/sigil_lava_bucket",
+      "text": "Более того, его можно использовать в $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$() для автоматизации производства $(fire)Ведер лавы$(). Сигил в этом рецепте не расходуется."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Speed",
+  "icon": "minecraft:sugar",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Speed$() увеличивает скорость передвижения цели на 20% за уровень."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Скорость (3:00)",
+      "a.recipe": "bloodmagic:flask/speed_boost",
+      "b.heading": "Скорость (8:00)",
+      "b.recipe": "bloodmagic:flask/length_speed_boost",
+      "c.heading": "Скорость II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_speed_boost"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() может еще больше улучшить ваши зелья."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Скорость III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_speed_boost",
+      "b.heading": "Скорость (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_speed_boost"
+    }
+  ]
+}

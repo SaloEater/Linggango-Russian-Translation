@@ -1,0 +1,34 @@
+{
+  "name": "Основы жилого оборудования",
+  "icon": "bloodmagic:reagentbinding",
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "extra_recipe_mappings": {
+    "bloodmagic:reagentbinding": 1,
+    "bloodmagic:livinghelmet": 3,
+    "bloodmagic:livingplate": 3,
+    "bloodmagic:livingleggings": 3,
+    "bloodmagic:livingboots": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы создать $(item)Живое оборудование$(), вам сначала понадобится $(item)Iron Armor$() (или $(item)Iron Armour$(), если хотите), немного $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Чародейского пепла$() и немного $(item)Связующего реагента$(). Вам также понадобится как минимум $(br)$(l:bloodmagic:demon_will/will_manipulation/soul_gem)Обычный татарский драгоценный камень$(), чтобы хранить необходимый $(item)Demon Will$()."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Связующий реагент",
+      "recipe": "bloodmagic:alchemytable/reagent_binding",
+      "text": "$(italic)Он крепко прилипает ко мне...$() $(br2)$(br2)$(item)Живое оборудование$() по прочности эквивалентно $(item)Алмазной броне$() и может быть отремонтировано в $(thing)Наковальне$() с помощью большего количества $(thing)Связующего реагента.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "как и в случае с любым другим алхимическим массивом, нажмите [$(k:use)], глядя на блок с $(item)Arcane Ashes$() в руке, затем примените $(item)Binding Reagent$(). Затем наденьте свой $(item)Железный шлем$(), $(item)Железный нагрудник$(), $(item)Железные поножи$() или $(item)Железные сапоги$(), отойдите назад и наблюдайте за представлением. $(br2) Жилое снаряжение поначалу эквивалентно железу, но у него есть $(thing)Очки улучшения$(), которые при осторожном обращении можно потратить на его специфическую подготовку. Оно начинается со 100, но могут быть способы обойти это ограничение..."
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "Ритуал связывания",
+      "recipe": "bloodmagic:array/living_helmet",
+      "text": "Да, оно живое... и оно учится у вас. Вам лучше быть осторожным с тем, чему вы его учите. $(br2)Вы можете внимательно следить за тем, чему он научился, удерживая [$(k:sneak)], когда смотрите на него."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Зевота пустоты",
+  "icon": "minecraft:black_stained_glass",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Зевота пустоты",
+      "multiblock_id": "bloodmagic:yawning_void",
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "yawning_void"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "raw",
+      "text_overrides": [
+        [
+          "сырая воля",
+          "raw"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "corrosive",
+      "text_overrides": [
+        [
+          "filter",
+          "item"
+        ]
+      ],
+      "text": "Чтобы установить фильтр, поместите любую форму $(item)Item Filter$() в связанный $(item)Chest$(). Ритуал будет использовать только первый найденный фильтр, но будет принимать $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Standard$(), $(l:bloodmagic:demon_will/item_routing/tag_item_filter)Tag$(), $(l:bloodmagic:demon_will/item_routing/mod_item_filter)Mod$() и $(l:bloodmagic:demon_will/item_routing/composite_item_filter)Фильтры составных предметов$(). Черный список тоже работает!"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "quarryRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "chest",
+      "text_overrides": [
+        [
+          "Фильтр предметов",
+          "item"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "placementRange"
+    }
+  ]
+}

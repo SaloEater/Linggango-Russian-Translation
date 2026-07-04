@@ -1,0 +1,39 @@
+{
+  "name": "Основы алхимических массивов",
+  "icon": "bloodmagic:arcaneashes",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Чародейский пепел$() — это предмет, который играет решающую роль в создании алхимических массивов. $(item)Чародейский пепел$() можно создать на $(l:bloodmagic:alchemy_table/alchemy_table)Алхимическом столе$() с использованием некоторых предметов ранней игры."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Чародейский пепел",
+      "recipe": "bloodmagic:alchemytable/arcane_ash"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы создать алхимический массив, нажмите [$(k:use)], глядя на блок с $(item)Arcane Ashes$() в руке. Это потребует 1 единицу прочности из 20 от $(item)Arcane Ashes$() и создаст простой $(thing)Alchemy Array$(), который сам по себе не имеет никаких эффектов. $(br2)Когда вы нажимаете на $(thing)Alchemy Array$(), он потребляет один $(item)item$() из стека в вашей руке и удерживает его в массиве. Эти элементы затем используются для определения эффекта $(thing)Alchemy Array$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_array/simple_array.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_1.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_2.png"
+      ],
+      "title": "Алхимический массив",
+      "border": true,
+      "text": "$(thing)Alchemy Array$() показывает массив с: нет входных данных; только базовый элемент $(item)$(); как $(item)base$(), так и $(item)catalyst$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Для каждого эффекта требуется два элемента: $(item)base$() и $(item)catalyst$(). $(item)base$() — это первый элемент, по которому вы щелкаете массив после его рисования, а $(item)catalyst$() — второй элемент. Когда вы применяете базовый элемент, дизайн массива изменится, если он действителен, и массив активируется, как только вы примените катализатор."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Хотя в настоящее время реализовано лишь несколько массивов, в конечном итоге вы будете иметь массивы, которые варьируются от простых $(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)массивов крафта$(/l) до даже массивов телепортации."
+    }
+  ]
+}

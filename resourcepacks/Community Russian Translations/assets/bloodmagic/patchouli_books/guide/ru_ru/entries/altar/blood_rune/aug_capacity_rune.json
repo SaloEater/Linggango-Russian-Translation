@@ -1,0 +1,26 @@
+{
+  "name": "Руна Августа. Вместимость",
+  "icon": "bloodmagic:bettercapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна увеличенной мощности$() увеличивает мощность $(l:bloodmagic:altar/blood_altar)Кровавого алтаря$(/l) на мультипликативную величину +7,5% за каждую руну. Руны расширенной мощности применяют $(o)after$() обычные руны $(l:bloodmagic:altar/blood_rune/capacity_rune)мощности$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Руна Августа. Вместимость",
+      "recipe": "bloodmagic:blood_rune_aug_capacity"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_aug_capacity_2",
+      "text": "Имея $(item)Нетеритовый мусор$() и $(item)Замысловатые детали адской кузни$(), добытые из $(l:bloodmagic:dungeons/endless_realm)Demon Realm$(), вы можете удвоить силу своей $(item)Руны увеличенной мощности$(), увеличивая емкость $(l:bloodmagic:altar/blood_altar)Крови Алтарь$(/l) на мультипликатив +15% за руну."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/aug_capacity",
+      "text": "Если вы передумаете, вы можете отменить рецепт в ARC."
+    }
+  ]
+}

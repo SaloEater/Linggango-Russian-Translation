@@ -1,0 +1,31 @@
+{
+  "name": "Усиление прыжка",
+  "icon": "minecraft:rabbit_foot",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Jump Boost$() увеличивает высоту прыжка цели на 50% за уровень. Это также уменьшает урон от падения на 1 очко за уровень."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Ускорение прыжка (3:00)",
+      "a.recipe": "bloodmagic:flask/jump_boost",
+      "b.heading": "Ускорение прыжка (8:00)",
+      "b.recipe": "bloodmagic:flask/length_jump_boost",
+      "c.heading": "Усиление прыжка II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_jump_boost"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() может еще больше улучшить ваши зелья."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Усиление прыжка III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_jump_boost",
+      "b.heading": "Ускорение прыжка (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_jump_boost"
+    }
+  ]
+}

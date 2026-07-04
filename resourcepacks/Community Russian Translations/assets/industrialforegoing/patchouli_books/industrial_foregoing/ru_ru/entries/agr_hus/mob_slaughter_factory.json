@@ -1,0 +1,17 @@
+{
+  "name": "Завод-Резня мобов",
+  "icon": "industrialforegoing:mob_slaughter_factory",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 9,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, используемая для переработки мобов и животных в $(l:agr_hus/meat)жидкое мясо$() и $(l:agr_hus/pink_slime)розовую слизь$(). Существа, убитые этой машиной, не оставляют после себя предметов или опыта. $(br2)Мирные мобы производят больше розовой слизи, чем враждебные."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_slaughter_factory"
+    }
+  ]
+}

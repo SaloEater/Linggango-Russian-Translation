@@ -1,0 +1,17 @@
+{
+  "name": "Основа жидкостного лазера",
+  "icon": "industrialforegoing:fluid_laser_base",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 15,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "При зарядке с помощью $(l:resource_production/laser_drill)лазерной дрели$() это устройство вырабатывает жидкости. Для работы требуется особый катализатор (не расходуется), а сама машина должна находиться в определённом биоме и бурить на определённой глубине. $(br2)Для некоторых жидкостей под машиной должно находиться живое существо. $(br2)Проверьте значения в JEI."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_laser_base"
+    }
+  ]
+}

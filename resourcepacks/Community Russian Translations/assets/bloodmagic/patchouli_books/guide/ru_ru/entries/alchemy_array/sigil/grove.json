@@ -1,0 +1,38 @@
+{
+  "name": "Сигил Зеленой Рощи",
+  "icon": "bloodmagic:growthsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Сигил Зеленой Рощи$() — это предмет, который имеет множество применений. Созданный в виде массива с $(item)Growth Reagent$() и $(item)Reinforced Slate$(), сигил может использовать $(thing)Soul Network$() $(blood)LP$() вашей $(thing)Soul Network$() для питания и выращивания близлежащих растений."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент для роста",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_growth",
+      "array.heading": "Сигил Зеленой Рощи",
+      "array.recipe": "bloodmagic:array/growthsigil"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/grove_sigil1.png",
+        "bloodmagic:images/entries/sigil/grove_sigil2.png",
+        "bloodmagic:images/entries/sigil/grove_sigil3.png"
+      ],
+      "title": "Массив сигил Зеленой рощи",
+      "border": true,
+      "text": "Символ Зеленой Рощи, а также его основное использование."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если вы нажмете [$(k:use)] на блоке $(2)IGrowable$(), он применит эффект костной муки, потребляя $(blood)150 LP$(). $(br2)Однако, если вы удерживаете [$(k:sneak)] и [$(k:use)], целясь в воздух, он загорится, показывая, что он активирован, и будет потреблять $(blood)150 LP$() каждые 5 секунд, пока не будет деактивирован. К каждому блоку в большом объеме 7x7x5 с центром на игроке будет применена отметка роста. Хорошо для фарма этих картошек!"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Поскольку у вас установлен $(thing)Curios API$(), вы можете использовать этот $(item)Sigil$() как брелок. Если вы хотите носить больше сувениров одновременно, рассмотрите возможность использования $(l:bloodmagic:alchemy_array/sigil/holding)Sigil of Holding$() или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$() для вашего $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живая броня$()."
+    }
+  ]
+}

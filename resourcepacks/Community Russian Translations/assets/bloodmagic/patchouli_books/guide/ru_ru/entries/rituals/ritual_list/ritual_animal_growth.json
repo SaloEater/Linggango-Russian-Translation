@@ -1,0 +1,60 @@
+{
+  "name": "Ритуал Пастыря",
+  "icon": "minecraft:white_wool",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал Пастыря",
+      "multiblock_id": "bloodmagic:animal_growth",
+      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "animal_growth"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "raw",
+      "text_overrides": [
+        [
+          "сырая воля",
+          "raw"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "vengeful"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "destructive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "steadfast",
+      "text_overrides": [
+        [
+          "chest",
+          "item"
+        ]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "growing"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "animal_growth",
+      "page_type": "chest",
+      "text": "Требуется $(steadfast)Steadfast Will$()."
+    }
+  ]
+}

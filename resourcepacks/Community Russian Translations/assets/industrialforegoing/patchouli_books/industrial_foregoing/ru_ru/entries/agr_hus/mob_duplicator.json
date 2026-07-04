@@ -1,0 +1,20 @@
+{
+  "name": "Дубликатор мобов",
+  "icon": "industrialforegoing:mob_duplicator",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, используемая для призыва мобов. При подаче энергии, $(l:agr_hus/essence)эссенции$() и наличии любой сущности в $(l:tools/mib)инструменте заключения мобов$(), она будет призывать их вокруг себя. $(br2)Машина учитывает количество существ поблизости и остановится, если их станет слишком много."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_duplicator"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_imprisonment_tool"
+    }
+  ]
+}

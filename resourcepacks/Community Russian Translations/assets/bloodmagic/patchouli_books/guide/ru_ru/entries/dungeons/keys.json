@@ -1,0 +1,36 @@
+{
+  "name": "Ключи от подземелий",
+  "icon": "bloodmagic:simplekey",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:mineentrancekey": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Keys$() — это начальный способ навигации по $(thing)Dungeons$(). Их можно найти в сундуках подземелий в $(thing)Demon Realm$() или их можно создать. Самый простой вид — это $(item)Iron Keys$(), которые появляются внутри $(thing)The Antechamber$(), а также на ближайших уровнях собственно $(thing)Demon Realm$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "В конце концов, вы можете столкнуться с $(thing)Spatial Distortion$() при поиске в подземелье. Они приведут вас либо к уникальному, не поддающемуся созданию ключу, либо к двери, которую может открыть только этот ключ. Пространственные искажения образуются только в самом Царстве Демонов, и вы никогда не найдете их в Прихожей."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:mineentrancekey",
+      "title": "Шахты",
+      "text": "Вход в $(thing)The Mines$() можно открыть только с помощью неизготовляемого $(thing)Keys Foreman$(), в то время как все остальные двери за его пределами можно открыть с помощью $(thing)Miner\u0027s Keys$(). Шахты предоставят вам доступ к $(l:bloodmagic:dungeons/demonite)Демонитовой руде$(), а также к более редкой добыче, но вам придется столкнуться с некоторыми трудностями."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Железный Ключ",
+      "recipe": "bloodmagic:soulforge/simple_key",
+      "text": "$(курсив)Если это так просто, почему мы не можем просто взломать замок?$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Ключ шахтера",
+      "recipe": "bloodmagic:soulforge/mine_key",
+      "text": "$(курсив)Поехали на работу!$()"
+    }
+  ]
+}

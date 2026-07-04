@@ -1,0 +1,16 @@
+{
+  "name": "Кровавые кирпичи",
+  "icon": "bloodmagic:largebloodstonebrick",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Bloodstone Bricks$() — это декоративный блок, используемый в качестве $(thing)capstones$() для $(l:bloodmagic:altar/blood_altar)Blood Altar$() уровня 4. Для этого требуются $(item)Осколки слабой крови$(), которые можно получить, поместив $(l:bloodmagic:dungeons/tau_fruit)Насыщенный Тау$() в $(l:bloodmagic:utility/alchemical_reaction_chamber)Алхимическую реакционную камеру$() с $(l:bloodmagic:utility/alchemical_reaction_chamber#blood_shard)Сангвинический ревертер$() в этом."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:largebloodstonebrick",
+      "recipe2": "bloodmagic:bloodstonebrick"
+    }
+  ]
+}

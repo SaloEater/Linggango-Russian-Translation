@@ -1,0 +1,31 @@
+{
+  "name": "Strength",
+  "icon": "minecraft:blaze_powder",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Strength$() увеличивает урон от атаки цели на 3 очка за уровень."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Сила (3:00)",
+      "a.recipe": "bloodmagic:flask/strength",
+      "b.heading": "Сила (8:00)",
+      "b.recipe": "bloodmagic:flask/length_strength",
+      "c.heading": "Сила II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_strength"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() может еще больше улучшить ваши зелья."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Сила III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_strength",
+      "b.heading": "Сила (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_strength"
+    }
+  ]
+}

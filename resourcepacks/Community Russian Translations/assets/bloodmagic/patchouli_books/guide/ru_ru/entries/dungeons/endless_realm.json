@@ -1,0 +1,54 @@
+{
+  "name": "Бесконечное царство",
+  "icon": "bloodmagic:special_dungeon_seal",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:special_dungeon_seal": 0,
+    "bloodmagic:bleedingedge": 0,
+    "bloodmagic:hellforgedparts": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Как и в случае с его младшим братом, ритуалом $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Грань Скрытого Царства$(), вы можете получить доступ к самому $(thing)Царству Демонов$() с помощью $(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)Пути в Бесконечное Царство$(). вы снова обнаружите, что смотрите на $(thing)Inversion Pillar$(). Как и в случае с $(thing)Antechamber$(), вы найдете простой сундук с добычей, оставленный неосторожным демоном (или, возможно, менее удачливым сангвимансом), а также несколько дверных проемов рядом с"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "еще один столп инверсии, который вернет вас домой. $(br2)Эти комнаты в подземельях будут заполнены более грозными врагами, чем вы нашли в прихожей, и там будет соответствующая добыча. Обязательно следите за любыми $(thing)Пространственными искажениями$(), а также редкими $(l:bloodmagic:dungeons/keys)keys$(), такими как $(item)Ключ Формана$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Пространственные искажения сообщат о себе в сообщении чата — если вы увидите одно из этих сообщений, это означает, что в комнате, в которой вы находитесь, установлен особый замок. В настоящее время это будет либо вход в $(thing)Шахты$(), либо вход в небольшую комнату, содержащую $(thing)Ключ мастера$(), которую можно открыть с помощью $(thing)Железного ключа$(). Вход в шахту всегда будет появляться перед ключом, поэтому может потребоваться возврат."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/dungeon/mine_key.png"
+      ],
+      "title": "Ключ мастера",
+      "border": true,
+      "text": "Эту дверь можно открыть железным ключом, за ней скрывается ключ мастера."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/dungeon/mine_entrance.png"
+      ],
+      "title": "Вход в шахту",
+      "border": true,
+      "text": "Эту дверь можно открыть только ключом мастера. Возможно, вам придется отступить!"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "mines",
+      "text": "Ключ мастера позволит войти в $(thing)The Mines$(), что является еще одним шагом вперед как по сложности, так и по наградам. Наряду с $(l:bloodmagic:dungeons/demonite)Demonite Ore$(), которая необходима для высокого уровня $(l:bloodmagic:alchemy_table/potions)зельеварения$() и $(l:bloodmagic:altar/blood_altar)Кровавого алтаря 5-го уровня$() и сопровождающего его $(l:bloodmagic:altar/soul_network)Orb$(), вы найдете множество более обыденной добычи, зачарованного оружия и инструментов, мазей, зелий и многого другого."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:hellforgedparts",
+      "title": "Замысловатые детали из адской закалки",
+      "anchor": "hellforged_parts",
+      "text": "Исследуйте достаточно, и, возможно, вам повезет найти $(item)Intricate Hellforged Parts$(), которые можно использовать для удвоения силы существующих $(item)Runes$(). Это как объединить два $(blood)Кровавых Алтаря$() в одном!"
+    }
+  ]
+}
