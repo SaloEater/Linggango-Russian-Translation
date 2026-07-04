@@ -1,4 +1,4 @@
-name: Create Release with 7z Archive
+name: Create Release with Zip Archive
 
 on: push
 
@@ -28,10 +28,11 @@ jobs:
           zip -r ../../build_temp/resourcepacks/Community_RussianTranslations.zip .
           cd ../..
 
-      - name: Create 7z archive
-        uses: edgarrc/action-7z@v1
-        with:
-          args: 7z a -t7z -mx=9 CommunityRussianTranslation.7z ./build_temp/* -r
+      - name: Create zip archive
+        run: |
+          cd build_temp
+          zip -r -9 ../CommunityRussianTranslation.zip . -x '*.DS_Store'
+          cd ..
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
