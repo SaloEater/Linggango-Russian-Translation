@@ -429,14 +429,29 @@ def merge_translations(original, translated):
     return original
 
 
-def translate_chunk(chunk, backend, model, url, api_key, timeout):
+def _debug_dump(label, text):
+    bar = '─' * 12
+    print(f'\n{bar} DEBUG {label} {bar}\n{text}\n{bar} end {label} {bar}', file=sys.stderr, flush=True)
+
+
+def translate_chunk(chunk, backend, model, url, api_key, timeout, debug=False):
     content = USER_PREFIX_FLAT + json.dumps(chunk, indent=2, ensure_ascii=False)
-    return parse_json_response(llm_translate(content, backend, model, url, api_key, timeout))
+    if debug:
+        _debug_dump('sent', content)
+    raw = llm_translate(content, backend, model, url, api_key, timeout)
+    if debug:
+        _debug_dump('received', raw)
+    return parse_json_response(raw)
 
 
-def translate_nested(data, backend, model, url, api_key, timeout):
+def translate_nested(data, backend, model, url, api_key, timeout, debug=False):
     content = USER_PREFIX_NESTED + json.dumps(data, indent=2, ensure_ascii=False)
-    return parse_json_response(llm_translate(content, backend, model, url, api_key, timeout))
+    if debug:
+        _debug_dump('sent', content)
+    raw = llm_translate(content, backend, model, url, api_key, timeout)
+    if debug:
+        _debug_dump('received', raw)
+    return parse_json_response(raw)
 
 
 TRANSLATE_ERRORS = (urllib.error.URLError, subprocess.TimeoutExpired,
@@ -490,8 +505,15 @@ def run_translate(cfg, args):
                     time.sleep(args.delay)
                 try:
                     translated_chunk = translate_chunk(chunk, args.backend, model,
-                                                       args.url, args.api_key, args.timeout)
+                                                       args.url, args.api_key, args.timeout,
+                                                       debug=args.debug)
                     merged = merge_translations(chunk, translated_chunk)
+                    if args.debug:
+                        applied_dbg = count_russian(merged)
+                        if applied_dbg == 0:
+                            _debug_dump('parsed', json.dumps(translated_chunk, ensure_ascii=False, indent=2))
+                            print('  DEBUG: 0 applied — parsed response above had no Cyrillic '
+                                  'values matching the sent keys.', file=sys.stderr, flush=True)
                     applied = count_russian(merged)
                     total_translated += applied
                     data.update(merged)
@@ -510,7 +532,8 @@ def run_translate(cfg, args):
                 time.sleep(args.delay)
             try:
                 translated = translate_nested(subset, args.backend, model,
-                                              args.url, args.api_key, args.timeout)
+                                              args.url, args.api_key, args.timeout,
+                                              debug=args.debug)
                 before = count_russian(data)
                 data = merge_translations(data, translated)
                 applied = count_russian(data) - before
@@ -802,6 +825,9 @@ def build_parser():
     p_tr.add_argument('--timeout', type=float, default=300.0)
     p_tr.add_argument('--limit', type=int, help='process only first N files')
     p_tr.add_argument('--file', help='limit to one relative json path')
+    p_tr.add_argument('--debug', action='store_true',
+                      help='print the exact content sent to and raw text received from the LLM '
+                           '(to stderr); also dumps the parsed response when a chunk applies 0 keys')
 
     p_sync = sub.add_parser('sync', help='pull translations + full sync -> resourcepacks')
     p_sync.add_argument('--type', required=True, choices=type_choices)
