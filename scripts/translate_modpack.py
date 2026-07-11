@@ -56,6 +56,11 @@ import urllib.request
 RUSSIAN_RE = re.compile(r'[а-яА-ЯёЁ]')
 # Matches dotted identifier values like "guide.animus.entry.foo" or "mod:cat.sub"
 TRANSLATION_KEY_RE = re.compile(r'^[\w:]+(?:\.[\w:]+)+$')
+# Matches keys whose final segment is an image reference: "image", "image0", …
+# (e.g. quest key "...questXXX.image4" → an {image:...} node, not translatable).
+IMAGE_KEY_RE = re.compile(r'(?:^|\.)image\d*$')
+# Matches quest spacing entries like "[gap=8]" — layout, not translatable text.
+GAP_VALUE_RE = re.compile(r'^\[gap=\d+\]$')
 # Patchouli: only string leaves under these keys are translatable text.
 TARGET_KEYS = frozenset({'name', 'description', 'title', 'text', 'landing_text'})
 
@@ -143,6 +148,17 @@ def has_russian(text):
 
 def is_translation_key(text):
     return bool(TRANSLATION_KEY_RE.match(text))
+
+
+def is_image_key(key):
+    """True if the key's final dotted segment is an image reference (image, imageN)."""
+    return bool(IMAGE_KEY_RE.search(key))
+
+
+def is_non_translatable_value(text):
+    """True for values that are layout/separators, not text: "---", "[gap=N]"."""
+    t = text.strip()
+    return t == '---' or bool(GAP_VALUE_RE.match(t))
 
 
 def is_lang_file(rel_path):
@@ -255,6 +271,8 @@ def build_to_translate(artifact, resource, kind, current_key=None):
     if isinstance(artifact, str):
         if not artifact:
             return None
+        if is_non_translatable_value(artifact):
+            return None  # "---" separator or "[gap=N]" spacing — not text
         if kind == 'patchouli':
             if current_key not in TARGET_KEYS:
                 return None
@@ -269,6 +287,8 @@ def build_to_translate(artifact, resource, kind, current_key=None):
     if isinstance(artifact, dict):
         result = {}
         for key, val in artifact.items():
+            if is_image_key(key):
+                continue  # image reference node ({image:...}) — not translatable
             res_val = resource.get(key) if isinstance(resource, dict) else None
             child_key = key if kind == 'patchouli' else None
             filtered = build_to_translate(val, res_val, kind, current_key=child_key)

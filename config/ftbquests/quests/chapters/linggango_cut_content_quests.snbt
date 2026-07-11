@@ -1096,6 +1096,54 @@
 			x: 15.5d
 			y: 2.0d
 		}
+		{
+			description: [
+				"{ftbquests.chapter.linggango_cut_content_quests.quest698F9CC807ACCC14.description1}"
+				""
+				"{ftbquests.chapter.linggango_cut_content_quests.quest698F9CC807ACCC14.description2}"
+				""
+				"{ftbquests.chapter.linggango_cut_content_quests.quest698F9CC807ACCC14.image0}"
+			]
+			icon: "eeeabsmobs:coreforge_ruins_eye"
+			icon_scale: 1.2d
+			id: "698F9CC807ACCC14"
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BE731045D3D3373"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.linggango_cut_content_quests.quest698F9CC807ACCC14.subtitle}"
+			tasks: [
+				{
+					entity: "eeeabsmobs:nameless_guardian"
+					icon: {
+						Count: 1
+						id: "eeeabsmobs:guardian_axe"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+						}
+					}
+					id: "2F013747EBF8730D"
+					title: "{ftbquests.chapter.linggango_cut_content_quests.quest698F9CC807ACCC14.task.3387049176800457485.title}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "605E2137BC8B7A49"
+					item: "eeeabsmobs:coreforge_ruins_eye"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.linggango_cut_content_quests.quest698F9CC807ACCC14.title}"
+			x: 4.0d
+			y: 0.5d
+		}
 	]
 	title: "{ftbquests.chapter.linggango_cut_content_quests.title}"
 }
