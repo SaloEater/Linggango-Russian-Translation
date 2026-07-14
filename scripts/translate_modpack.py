@@ -61,6 +61,9 @@ TRANSLATION_KEY_RE = re.compile(r'^[\w:]+(?:\.[\w:]+)+$')
 IMAGE_KEY_RE = re.compile(r'(?:^|\.)image\d*$')
 # Matches quest spacing entries like "[gap=8]" — layout, not translatable text.
 GAP_VALUE_RE = re.compile(r'^\[gap=\d+\]$')
+# Matches a patchouli anchor/link reference: "#" + a run with no spaces
+# (e.g. "#chapter_intro"), not translatable text.
+ANCHOR_VALUE_RE = re.compile(r'^#\S+$')
 # Patchouli: only string leaves under these keys are translatable text.
 TARGET_KEYS = frozenset({'name', 'description', 'title', 'text', 'landing_text'})
 
@@ -159,6 +162,11 @@ def is_non_translatable_value(text):
     """True for values that are layout/separators, not text: "---", "[gap=N]"."""
     t = text.strip()
     return t == '---' or bool(GAP_VALUE_RE.match(t))
+
+
+def is_anchor_value(text):
+    """True for a patchouli anchor reference: "#" + a run with no spaces."""
+    return bool(ANCHOR_VALUE_RE.match(text.strip()))
 
 
 def is_lang_file(rel_path):
@@ -278,6 +286,8 @@ def build_to_translate(artifact, resource, kind, current_key=None):
                 return None
             if is_translation_key(artifact):
                 return None
+            if is_anchor_value(artifact):
+                return None  # "#anchor" link reference — not translatable
         if has_russian(artifact):
             return None  # artifact already Russian (sync handles it)
         if isinstance(resource, str) and has_russian(resource):

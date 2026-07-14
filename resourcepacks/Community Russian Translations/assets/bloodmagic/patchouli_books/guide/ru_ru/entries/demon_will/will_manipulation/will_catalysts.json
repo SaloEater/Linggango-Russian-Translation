@@ -1,15 +1,15 @@
 {
-  "name": "Will Catalysts",
+  "name": "Катализаторы Воли",
   "icon": "bloodmagic:rawcatalyst",
   "category": "bloodmagic:demon_will/will_manipulation",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "if $(raw)Demon Will$() has one drawback, it\u0027s that collecting it is a slow, tedious process. Even with an almost full $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() and a $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sentient Sword$() enchanted with $(thing)Looting III$() and further buffed with $(l:bloodmagic:alchemy_table/anointments/looting_anointment)Plunderer\u0027s Glint II$(), it\u0027s still a manual process, and you have better things to do with your genius than scramble about splatting spiders and slaying skeletons."
+      "text": "если у $(raw)Демонической Воли$() есть один недостаток, то это то, что её сбор — медленный и утомительный процесс. Даже с почти полным $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартаритовым Камнем$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Разумным Мечом$(), зачарованным на $(thing)Добычу III$() и дополнительно усиленным $(l:bloodmagic:alchemy_table/anointments/looting_anointment)Блеском Грабителя II$(), это всё ещё ручной процесс, а у вас есть дела поважнее, чем бегать и размазывать пауков или убивать скелетов."
     },
     {
       "type": "patchouli:text",
-      "text": "Fortunately, it\u0027s possible to completely automate this procedure, leaving you with more time on your hands to expand your evil empire. (Or go back to farming beets, if you prefer.) $(br2)The first step is to get some $(l:bloodmagic/demon_will/will_manipulation/crystallized_will)Will Crystals$(). We can use any kind - $(raw)Raw$(), $(steadfast)Steadfast$(), $(destructive)Destructive$(), $(vengeful)Vengeful$() or $(corrosive)Corrosive$() Will, as long as we have 4 of the same kind of crystal."
+      "text": "К счастью, этот процесс можно полностью автоматизировать, оставив вам больше времени для расширения вашей злой империи. (Или для выращивания свёклы, если хотите.) $(br2)Первый шаг — получить $(l:bloodmagic/demon_will/will_manipulation/crystallized_will)Кристаллы Воли$(). Мы можем использовать любой вид — $(raw)Сырую$(), $(steadfast)Стойкую$(), $(destructive)Разрушительную$(), $(vengeful)Мстительную$() или $(corrosive)Коррозийную$() Волю, главное, чтобы у нас было 4 кристалла одного типа."
     },
     {
       "type": "bloodmagic:3x_crafting_soulforge",
@@ -29,11 +29,11 @@
     },
     {
       "type": "patchouli:text",
-      "text": "once you have this cluster, simply place it down in any chunk, supply the chunk with will of the matching type, and wait. Eventually, new spires will grow, just like clusters growing atop a $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Demon Crystallizer$(). $(br2)You can even automate the breaking of these additional spires with the $(l:bloodmagic:rituals/ritual_list/ritual_crystal_harvest)Crack of the fractured Crystal$() ritual, and the collection of the resulting crystals with the $(l:bloodmagic:rituals/ritual_list/ritual_zephyr)Call of the Zephyr$()."
+      "text": "как только у вас появится этот кластер, просто установите его в любом чанке, обеспечьте чанк Волей соответствующего типа и ждите. В конечном итоге вырастут новые шпили, точно так же, как кластеры растут на $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Демоническом Кристаллизаторе$(). $(br2)Вы даже можете автоматизировать разрушение этих дополнительных шпилей с помощью ритуала $(l:bloodmagic:rituals/ritual_list/ritual_crystal_harvest)Раскол Разрушенного Кристалла$(), а сбор полученных кристаллов — с помощью $(l:bloodmagic:rituals/ritual_list/ritual_zephyr)Зова Зефира$()."
     },
     {
       "type": "patchouli:text",
-      "text": "With a basic $(l:bloodmagic:demon_will/item_routing/routing_nodes)Routing Node system$(), you can even feed these excess crystals back into a $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Demon Crucible$() for a totally automatic, net-positive loop. $(br2)You may have noticed a bit of a problem, however - this setup is slow. Very, very slow. Each crystal only sprouts a new spire once every few minutes, and takes almost as much will to spawn as you gain from burning it - on average, it comes out to about 1 will / minute / spire."
+      "text": "С помощью базовой $(l:bloodmagic:demon_will/item_routing/routing_nodes)Системы Маршрутизирующих Узлов$() вы даже можете возвращать эти избыточные кристаллы в $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Демонический Тигель$() для полностью автоматического, чисто-положительного цикла. $(br2)Однако вы могли заметить небольшую проблему — эта установка медленная. Очень, очень медленная. Каждый кристалл выпускает новый шпиль лишь раз в несколько минут, и для его появления требуется почти столько же Воли, сколько вы получаете от его сжигания — в среднем, это около 1 Воли / минута / шпиль."
     },
     {
       "type": "bloodmagic:3x_crafting_soulforge",
@@ -53,15 +53,15 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Fortunately, this is where our new friends, $(item)Will Catalysts$() step in. While holding one of these Catalysts, simply press [$(k:use)] on a $(thing)Crystal Cluster$() of the same type to turbocharge its growth! Each catalyst reduces the amount of will required to grow a spire from 45 to just 25, and it speeds the growth up tenfold. Every dose is good for ten spires worth of growth, which makes for a net bonus of 200 will per Catalyst."
+      "text": "К счастью, именно здесь на помощь приходят наши новые друзья, $(item)Катализаторы Воли$(). Держа один из этих Катализаторов, просто нажмите [$(k:use)] на $(thing)Кристаллическом Кластере$() того же типа, чтобы ускорить его рост! Каждый катализатор уменьшает количество Воли, необходимое для роста шпиля, с 45 до всего лишь 25, и ускоряет рост в десять раз. Каждая доза хватает на десять шпилей, что даёт чистый бонус в 200 Воли за Катализатор."
     },
     {
       "type": "patchouli:text",
-      "text": "You can even double-dose your clusters - though this only makes the effect last for 20 growths instead of 10 and has no other benefit. $(br2)Of course, the canny Sanguimancer will have realised that this has replaced one manual problem - running around and bopping monsters with a sword - with another one - running around and bopping crystals with a catalyst."
+      "text": "Вы даже можете удвоить дозу для своих кластеров — хотя это лишь продлевает эффект до 20 ростов вместо 10 и не даёт других преимуществ. $(br2)Конечно, проницательный Сангвимант поймёт, что это заменило одну ручную проблему — беготню и избиение монстров мечом — другой — беготню и избиение кристаллов катализатором."
     },
     {
       "type": "patchouli:text",
-      "text": "Fortunately, there\u0027s a ritual for that too! the $(l:bloodmagic:rituals/ritual_list/ritual_crystal_catalyst)Gathering of the Forsaken Souls$() will automatically apply catalysts to any crystals in its area of effect. With a few farms and a very, very clever $(thing)Routing Node$() setup, you can automate the whole thing, top to bottom... But as they say, that\u0027s left as an exercise for the reader."
+      "text": "К счастью, для этого тоже есть ритуал! $(l:bloodmagic:rituals/ritual_list/ritual_crystal_catalyst)Сбор Забытых Душ$() автоматически применит катализаторы ко всем кристаллам в зоне его действия. С помощью нескольких ферм и очень, очень умной установки $(thing)Маршрутизирующего Узла$() вы сможете автоматизировать всё это, от начала до конца... Но, как говорится, это остаётся на усмотрение читателя."
     }
   ]
 }

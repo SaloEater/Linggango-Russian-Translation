@@ -5,18 +5,18 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Mining and foresting is all well and good for those who refuse to dream big, but what self-respecting sanguimancer would ever stoop to that? $(br2)With this in mind, you have devised some devious little devices. Simply throw them at some pesky trees, rocks, or whatever else you wish to cease to be and wait for them to self-ignite."
+      "text": "Добыча руды и заготовка леса — это, конечно, хорошо для тех, кто не осмеливается мечтать о большем, но какой уважающий себя сангвимант опустится до такого? $(br2)Помня об этом, вы разработали несколько хитрых маленьких устройств. Просто бросьте их в надоедливые деревья, камни или что-либо еще, что вы хотите уничтожить, и ждите, пока они самовоспламенятся."
     },
     {
       "type": "patchouli:text",
-      "text": "Not only that, you can improve their functionality by $(item)Anointing$() them with certain ingredients and a little $(raw)Will$(), as described after each entry.$(br2)The currently available anointments are as follows: $(li)Fortunate - broken blocks are affected by $(thing)Fortune$(). $(li)Heated Tool - Broken blocks are $(thing)Smelted$(). $(li)Soft Touch - Broken blocks are affected by $(thing)Silk Touch$(). $(li)Voiding - \u0027Junk\u0027 blocks are voided rather than dropping as items."
+      "text": "Мало того, вы можете улучшить их функциональность, $(item)помазав$() их определенными ингредиентами и небольшой $(raw)Волей$(), как описано после каждой записи.$(br2)В настоящее время доступны следующие помазания: $(li)Удачливое — на разрушенные блоки действует $(thing)Удача$(). $(li)Нагретый инструмент — разрушенные блоки $(thing)переплавляются$(). $(li)Нежное касание — на разрушенные блоки действует $(thing)Шелковое касание$(). $(li)Аннигиляция — 'ненужные' блоки аннигилируются, а не выпадают как предметы."
     },
     {
       "type": "bloodmagic:crafting_soulforge",
       "heading": "Shaped Charge",
       "recipe": "bloodmagic:soulforge/shaped_charge",
       "anchor": "shaped_charge",
-      "text": "The $(item)Shaped Charge$() will destroy a 5x5x5 cube facing whichever side of a block it lands on, dropping all blocks as though mined with a pickaxe. It even works on Obsidian, and provides a most satisfying $(o)KABOOM$() whilst doing so."
+      "text": "$(item)Направленный заряд$() уничтожит куб 5x5x5, ориентированный на ту сторону блока, на которую он приземлится, выбрасывая все блоки, как если бы они были добыты киркой. Он даже работает на обсидиане и при этом производит самое удовлетворительное $(o)БА-БАХ$()."
     },
     {
       "type": "bloodmagic:3x_crafting_soulforge",
@@ -37,7 +37,7 @@
       "heading": "Augmented Shaped Charge",
       "recipe": "bloodmagic:soulforge/aug_shaped_charge",
       "anchor": "shaped_charge_2",
-      "text": "The $(item)Augmented Shaped Charge$() is a direct upgrade from the standard Shaped Charge. It will destroy a 7x7x7 cube facing whichever side of a block it lands on, dropping all blocks as though mined with a pickaxe. It can also be anointed with $(thing)Fortune II$()."
+      "text": "$(item)Усиленный направленный заряд$() является прямым улучшением стандартного Направленного заряда. Он уничтожит куб 7x7x7, ориентированный на ту сторону блока, на которую он приземлится, выбрасывая все блоки, как если бы они были добыты киркой. Его также можно помазать $(thing)Удачей II$()."
     },
     {
       "type": "bloodmagic:3x_crafting_soulforge",
@@ -60,7 +60,7 @@
       "heading": "Tunnelling Shaped Charge",
       "recipe": "bloodmagic:soulforge/shaped_charge",
       "anchor": "shaped_charge_tunneling",
-      "text": "The $(item)Tunnelling Shaped Charge$() will destroy a 5x5x20 tunnel facing whichever side of a block it lands on, dropping all blocks as though mined with a pickaxe. Good for mining."
+      "text": "$(item)Туннельный направленный заряд$() уничтожит туннель 5x5x20, ориентированный на ту сторону блока, на которую он приземлится, выбрасывая все блоки, как если бы они были добыты киркой. Хорошо подходит для добычи."
     },
     {
       "type": "bloodmagic:3x_crafting_soulforge",
@@ -83,7 +83,7 @@
       "heading": "Deforester Charge",
       "recipe": "bloodmagic:soulforge/deforester_charge",
       "anchor": "deforester_charge",
-      "text": "The $(item)Deforester Charge$() is for felling trees. It can be used on logs or leaves, and will fell all but the mightiest of trees, breaking up to $(item)two stacks$() of logs at a time (and neatly stripping away any leaves it encounters in the process!) Even the giant trees of the Jungle will fall in a matter of seconds."
+      "text": "$(item)Заряд-лесоруб$() предназначен для рубки деревьев. Его можно использовать на бревнах или листьях, и он срубит все, кроме самых могучих деревьев, разрушая до $(item)двух стаков$() бревен за раз (и аккуратно удаляя все листья, которые он встречает в процессе!). Даже гигантские деревья джунглей падут за считанные секунды."
     },
     {
       "type": "bloodmagic:3x_crafting_soulforge",
@@ -104,7 +104,7 @@
       "heading": "Deforester Charge II",
       "recipe": "bloodmagic:soulforge/deforester_charge_2",
       "anchor": "deforester_charge_2",
-      "text": "The $(item)Deforester Charge II$(), much like the standard Deforester Charge, is for breaking wood and trees. It can break up to 8x64 logs, clearing away any connecting leaves. Excellent for making yourself a nice clearing in any Dark Oak Forest or Jungle you might happen to like the look of."
+      "text": "$(item)Заряд-лесоруб II$(), как и стандартный Заряд-лесоруб, предназначен для разрушения древесины и деревьев. Он может разрушить до 8x64 бревен, убирая все связанные листья. Отлично подходит для создания красивой поляны в любом Темном дубовом лесу или Джунглях, которые вам могут понравиться."
     },
     {
       "type": "bloodmagic:3x_crafting_soulforge",
@@ -127,7 +127,7 @@
       "heading": "Controlled Charge",
       "recipe": "bloodmagic:soulforge/vein_charge",
       "anchor": "controlled_charge",
-      "text": "The $(item)Controlled Charge$() only destroys blocks $(thing)identical to the block it lands on$(). It will destroy up to 3 stacks of blocks, seeking out from the original point. As with other charges, all mined blocks will be dropped."
+      "text": "$(item)Контролируемый заряд$() уничтожает только блоки, $(thing)идентичные блоку, на который он приземляется$(). Он уничтожит до 3 стаков блоков, распространяясь от исходной точки. Как и в случае с другими зарядами, все добытые блоки будут выброшены."
     },
     {
       "type": "bloodmagic:3x_crafting_soulforge",
@@ -148,7 +148,7 @@
       "heading": "Controlled Charge II",
       "recipe": "bloodmagic:soulforge/vein_charge_2",
       "anchor": "controlled_charge_2",
-      "text": "The $(item)Controlled Charge II$() behaves identically to the $(item)Controlled Charge$(), however It will destroy up to 8 stacks of blocks at a time."
+      "text": "$(item)Контролируемый заряд II$() ведет себя идентично $(item)Контролируемому заряду$(), однако он уничтожит до 8 стаков блоков за раз."
     },
     {
       "type": "bloodmagic:3x_crafting_soulforge",
@@ -171,7 +171,7 @@
       "heading": "Fungal Charge",
       "recipe": "bloodmagic:soulforge/fungal_charge",
       "anchor": "fungal_charge",
-      "text": "The $(item)Fungal Charge$() is for felling giant mushrooms, both in the Overworld and the Nether. Although doubtful that you will ever reach this in a single charge, it can break up to $(item)three stacks of blocks$()."
+      "text": "$(item)Грибной заряд$() предназначен для рубки гигантских грибов, как в Верхнем мире, так и в Нижнем мире. Хотя сомнительно, что вы когда-либо достигнете этого за один заряд, он может разрушить до $(item)трех стаков блоков$()."
     },
     {
       "type": "bloodmagic:3x_crafting_soulforge",
@@ -192,7 +192,7 @@
       "heading": "Fungal Charge II",
       "recipe": "bloodmagic:soulforge/fungal_charge",
       "anchor": "fungal_charge_2",
-      "text": "The $(item)Fungal Charge II$() is for felling giant mushrooms, both in the Overworld and the Nether. It can destroy up to 8 stacks of mushroomy goodness per charge. $(br2)Why would you ever need this?"
+      "text": "$(item)Грибной заряд II$() предназначен для рубки гигантских грибов, как в Верхнем мире, так и в Нижнем мире. Он может уничтожить до 8 стаков грибного добра за заряд. $(br2)Зачем вам это вообще может понадобиться?"
     },
     {
       "type": "bloodmagic:3x_crafting_soulforge",

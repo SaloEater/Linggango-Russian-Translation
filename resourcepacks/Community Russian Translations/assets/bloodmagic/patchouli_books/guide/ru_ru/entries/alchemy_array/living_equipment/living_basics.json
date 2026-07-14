@@ -1,5 +1,5 @@
 {
-  "name": "Living Equipment Basics",
+  "name": "Основы Живого Снаряжения",
   "icon": "bloodmagic:reagentbinding",
   "category": "bloodmagic:alchemy_array/living_equipment",
   "extra_recipe_mappings": {
@@ -12,23 +12,23 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "To create $(item)Living Equipment$(), you will first need $(item)Iron Armor$() (or $(item)Iron Armour$(), if you prefer), some $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Arcane Ash$(), and some $(item)Binding Reagent$(). You\u0027ll also need at least a $(br)$(l:bloodmagic:demon_will/will_manipulation/soul_gem)Common Tartaric Gem$() in order to hold the $(item)Demon Will$() required."
+      "text": "Для создания $(item)Живого Снаряжения$(), вам сначала понадобится $(item)Железная Броня$() (или $(item)Железные Доспехи$(), если вам так больше нравится), немного $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Тайного Пепла$(), и немного $(item)Связующего Реагента$(). Вам также понадобится как минимум $(br)$(l:bloodmagic:demon_will/will_manipulation/soul_gem)Обычный Тартарский Камень$(), чтобы вместить необходимую $(item)Демоническую Волю$()."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
       "heading": "Binding Reagent",
       "recipe": "bloodmagic:alchemytable/reagent_binding",
-      "text": "$(italic)It clings to me tightly...$() $(br2)$(br2)$(item)Living Equipment$() is equivalent in durability to $(item)Diamond Armour$(), and can be repaired in an $(thing)Anvil$() with more $(thing)Binding Reagent.$()"
+      "text": "$(italic)Оно крепко цепляется за меня...$() $(br2)$(br2)$(item)Живое Снаряжение$() эквивалентно по прочности $(item)Алмазной Броне$(), и может быть отремонтировано на $(thing)Наковальне$() с помощью дополнительного $(thing)Связующего Реагента.$()"
     },
     {
       "type": "patchouli:text",
-      "text": "as with any other Alchemy Array, press [$(k:use)] while looking at a block with the $(item)Arcane Ashes$() in hand, then apply the $(item)Binding Reagent$(). Then place in your $(item)Iron Helmet$(), $(item)Iron Chestplate$(), $(item)Iron Leggings$() or $(item)Iron Boots$(), stand back, and watch the show.$(br2) Living Equipment starts off equivalent to Iron, but it has $(thing)Upgrade Points$() that can, with care, be spent to train it in specific ways. It starts with 100, but there may be ways to surpass this limitation..."
+      "text": "как и с любым другим Алхимическим Массивом, нажмите [$(k:use)], глядя на блок с $(item)Тайным Пеплом$() в руке, затем примените $(item)Связующий Реагент$(). Затем поместите туда ваш $(item)Железный Шлем$(), $(item)Железный Нагрудник$(), $(item)Железные Поножи$() или $(item)Железные Ботинки$(), отойдите назад и наблюдайте за представлением.$(br2)Живое Снаряжение$() изначально эквивалентно Железному, но у него есть $(thing)Очки Улучшения$(), которые, при должном внимании, можно потратить на его обучение определенным способам. Оно начинается со 100, но могут быть способы преодолеть это ограничение..."
     },
     {
       "type": "bloodmagic:crafting_array",
       "heading": "Ritual of Binding",
       "recipe": "bloodmagic:array/living_helmet",
-      "text": "It\u0027s alive, all right... and it\u0027s learning from you. You\u0027d best be careful what you teach it. $(br2)You can keep a closer eye on what it\u0027s learned so far by holding [$(k:sneak)] when you look at it."
+      "text": "Оно живо, и оно учится у вас. Вам лучше быть осторожным с тем, чему вы его учите. $(br2)Вы можете внимательнее следить за тем, что оно уже выучило, удерживая [$(k:sneak)], когда смотрите на него."
     }
   ]
 }

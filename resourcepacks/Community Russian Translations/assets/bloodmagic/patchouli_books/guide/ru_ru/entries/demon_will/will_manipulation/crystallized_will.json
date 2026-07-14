@@ -1,5 +1,5 @@
 {
-  "name": "Crystallized Will",
+  "name": "Кристаллизованная Воля",
   "icon": "bloodmagic:defaultcrystal",
   "category": "bloodmagic:demon_will/will_manipulation",
   "extra_recipe_mappings": {
@@ -11,27 +11,27 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Now that you have plenty of $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() in your $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$(), it\u0027s time to explore what happens when you unleash it upon the world. $(br2)First off, you\u0027ll need to get $(raw)Will$() into the $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$().  Next, you\u0027ll need to make a $(thing)Demon Crystallizer$()."
+      "text": "Теперь, когда у вас есть много $(l:bloodmagic:demon_will/will_manipulation/demon_will)Демонической Воли$() в вашем $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарском Камне$(), пришло время исследовать, что произойдет, если вы выпустите ее в мир. $(br2)Прежде всего, вам нужно будет получить $(raw)Волю$() в $(l:bloodmagic:demon_will/will_manipulation/aura)Ауру$(). Затем вам нужно будет создать $(thing)Демонический Кристаллизатор$()."
     },
     {
       "type": "bloodmagic:crafting_soulforge",
       "heading": "Demon Crystallizer",
       "recipe": "bloodmagic:soulforge/demon_crystallizer",
-      "text": "This will slowly consume $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() from the $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$() to produce $(item)Will Crystals$(). The first spire costs 100 $(raw)Will$() to form, and all subsequent spires cost 45 each, but can be burned for 50 in the $(item)Demon Crucible$(), for a net gain of 5. The largest $(item)Crystal Cluster$() can be up to 7 spires."
+      "text": "Это будет медленно поглощать $(l:bloodmagic:demon_will/will_manipulation/demon_will)Демоническую Волю$() из $(l:bloodmagic:demon_will/will_manipulation/aura)Ауры$() для производства $(item)Кристаллов Воли$(). Первый шпиль стоит 100 $(raw)Воли$() для формирования, а все последующие шпили стоят по 45 каждый, но могут быть сожжены за 50 в $(item)Демоническом Тигле$(), что дает чистую прибыль в 5. Самый большой $(item)Кристаллический Кластер$() может состоять до 7 шпилей."
     },
     {
       "type": "patchouli:text",
-      "text": "If you have more than 512 total $(raw)Will$() in your inventory (Across any number of $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gems$() and of any one type), you can harvest these crystals by right-clicking the spire with an empty hand. This will remove all but the central spire. $(br2)However, if you do not have enough $(raw)will$(), $(italic)really$() need that central spire\u0027s Crystal, or are just in a hurry, you can harvest the whole lot with a pickaxe."
+      "text": "Если у вас более 512 общей $(raw)Воли$() в инвентаре (в любом количестве $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарских Камней$() и любого типа), вы можете собрать эти кристаллы, щелкнув правой кнопкой мыши по шпилю пустой рукой. Это удалит все, кроме центрального шпиля. $(br2)Однако, если у вас недостаточно $(raw)воли$(), вы $(italic)действительно$() нуждаетесь в Кристалле центрального шпиля, или просто спешите, вы можете собрать все киркой."
     },
     {
       "type": "patchouli:relations",
-      "title": "Related Links",
+      "title": "Связанные ссылки",
       "entries": [
         "bloodmagic:rituals/ritual_list/ritual_crystal_split",
         "bloodmagic:rituals/ritual_list/ritual_crystal_catalyst",
         "bloodmagic:rituals/ritual_list/ritual_crystal_harvest"
       ],
-      "text": "5 will per harvested crystal isn\u0027t a particularly impressive haul, but the above rituals (alongside $(l:bloodmagic:demon_will/will_manipulation/will_catalysts)Will Catalysts$()) should allow you to boost and automate their production for some impressive gains."
+      "text": "5 воли за собранный кристалл — не особо впечатляющая добыча, но вышеупомянутые ритуалы (наряду с $(l:bloodmagic:demon_will/will_manipulation/will_catalysts)Катализаторами Воли$()) должны позволить вам увеличить и автоматизировать их производство для получения впечатляющих результатов."
     }
   ]
 }

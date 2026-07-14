@@ -1,11 +1,11 @@
 {
-  "name": "Sigil of the Green Grove",
+  "name": "Печать Зелёной Рощи",
   "icon": "bloodmagic:growthsigil",
   "category": "bloodmagic:alchemy_array/sigil",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Sigil of the Green Grove$() is an item that has multiple uses. Crafted in an array with a $(item)Growth Reagent$() and a $(item)Reinforced Slate$(), the sigil can use your $(thing)Soul Network$()\u0027s $(blood)LP$() to nourish and grow nearby plants."
+      "text": "$(item)Печать Зелёной Рощи$() — это предмет, имеющий множество применений. Созданная в алхимическом массиве с $(item)Реагентом Роста$() и $(item)Укреплённым Сланцем$(), печать может использовать $(blood)ОЖ$() вашей $(thing)Сети Душ$(), чтобы питать и выращивать близлежащие растения."
     },
     {
       "type": "bloodmagic:crafting_2-step_sigil",
@@ -21,18 +21,18 @@
         "bloodmagic:images/entries/sigil/grove_sigil2.png",
         "bloodmagic:images/entries/sigil/grove_sigil3.png"
       ],
-      "title": "Green Grove Sigil Array",
+      "title": "Алхимический массив Печати Зелёной Рощи",
       "border": true,
-      "text": "The Sigil of the Green Grove\u0027s array, plus its primary uses."
+      "text": "Алхимический массив Печати Зелёной Рощи, а также её основные применения."
     },
     {
       "type": "patchouli:text",
-      "text": "If you press [$(k:use)] on a block that is $(2)IGrowable$(), it will apply the bonemeal effect while consuming $(blood)150 LP$(). $(br2)However, if you hold [$(k:sneak)] and [$(k:use)] while aiming at the air, it will light up to indicate that it is activated, and will consume $(blood)150 LP$() every 5 seconds until deactivated. Every block in a 7x7x5 high volume centered on the player will have a growth tick applied to it. Good for farming those taters!"
+      "text": "Если вы нажмёте [$(k:use)] на блок, который является $(2)IGrowable$(), он применит эффект костной муки, потребляя $(blood)150 ОЖ$(). $(br2)Однако, если вы зажмёте [$(k:sneak)] и [$(k:use)], целясь в воздух, она загорится, указывая на активацию, и будет потреблять $(blood)150 ОЖ$() каждые 5 секунд, пока не будет деактивирована. Каждый блок в объёме 7x7x5 блоков, центрированном на игроке, получит тик роста. Отлично подходит для выращивания картошки!"
     },
     {
       "type": "patchouli:text",
       "flag": "mod:curios",
-      "text": "As you have the $(thing)Curios API$() installed, you can equip this $(item)Sigil$() as a charm. If you want to wear more curios at once, consider using a $(l:bloodmagic:alchemy_array/sigil/holding)Sigil of Holding$(), or the $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$() for your $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$()."
+      "text": "Поскольку у вас установлен $(thing)Curios API$(), вы можете экипировать эту $(item)Печать$() как амулет. Если вы хотите носить больше диковинок одновременно, рассмотрите возможность использования $(l:bloodmagic:alchemy_array/sigil/holding)Печати Хранения$() или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Улучшения с Гнёздами$() для вашей $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой Брони$()."
     }
   ]
 }
