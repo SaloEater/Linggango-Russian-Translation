@@ -12,16 +12,20 @@
       "recipe": "goety:storm_robe"
     },
     {
-      "text": "Существа бурь медленно исцеляют себя энергией души своего призывателя, если они носят эту мантию."
+      "type": "patchouli:text",
+      "text": "Creatures of the storms slowly heal themselves with their summoner\u0027s soul energy, should they wear this robe."
     },
     {
-      "text": "Корона Бури сокращает время сотворения заклинаний Бури вдвое и не даёт вашим слугам бури погибать, как Вексы."
+      "type": "goety:ritual",
+      "recipe": "goety:storm_crown"
     },
     {
-      "text": "Корона Бури сокращает время сотворения заклинаний Бури вдвое и не даёт вашим слугам бури погибать, как Вексы."
+      "type": "patchouli:text",
+      "text": "The Storm Crown reduce the amount of time to cast Storm spells by half and keeps your storm servants from dying off like Vexes."
     }
   ],
   "extra_recipe_mappings": {
-    "goety:storm_robe": 1
+    "goety:storm_robe": 1,
+    "goety:storm_crown": 3
   }
 }

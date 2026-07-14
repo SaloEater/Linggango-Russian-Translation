@@ -1,18 +1,19 @@
 {
-  "name": "Abyssal Mine Focus",
+  "name": "Фокус глубинной мины",
   "icon": "goety_cataclysm:abyssal_mine_focus",
   "category": "goety:cataclysm/focuses/abyss",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "While they don't leave behind clouds of acids, these ethereal purple mines are not only more numerous but will also grant Abyssal Fear upon any victims it exploded on."
+      "text": "Пусть эти мины, состоящие из фиолетового эфира, не оставляют после себя облака кислоты, зато они не только более многочисленны, но и накладывают эффект Страха Глубины на всех жертв, попавших под взрыв."
     },
     {
       "type": "goety:ritual",
       "recipe": "goety_cataclysm:focus/abyssal_mine_focus"
     },
     {
-      "text": "При использовании $(l:crafts/staff/abyss_staff)Посоха Бездны$() призывает больше фиолетовых мин."
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/abyss_staff)Abyss Staff$() summons more purple mines."
     }
   ],
   "extra_recipe_mappings": {

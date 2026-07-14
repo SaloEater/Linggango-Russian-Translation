@@ -62,7 +62,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Скелеты-прислужники могут носить любую броню, мечи и луки, то есть могут атаковать как на расстоянии, так и в ближнем бою."
+      "entity": "goety:skeleton_pillager"
     },
     {
       "type": "patchouli:text",
@@ -70,22 +70,26 @@
     },
     {
       "type": "patchouli:entity",
-      "advancement": "goety:goety/read_bygone_scroll",
-      "entity": "goety:wither_skeleton_servant",
-      "text": "Скелеты-слуги могут носить любую броню, но только мечи/луки, что означает, что они могут быть как дальнобойными, так и рукопашными бойцами."
+      "text": "Skeleton Servants can accept any Armor but only Swords/Bows meaning they can either be range or melee attackers."
     },
     {
       "type": "patchouli:text",
-      "advancement": "goety:goety/read_bygone_scroll",
       "text": "После долгих поисков вы нашли способ призвать бывших обитателей крепости и подчинить их своей воле. Они накладывают иссушение в ближнем бою и стреляют огненными стрелами, если им дать лук."
     },
     {
       "type": "goety:ritual",
       "advancement": "goety:goety/read_bygone_scroll",
-      "recipe": "goety:thrall/summon_wither_skeleton_thrall"
+      "entity": "goety:wither_skeleton_servant"
     },
     {
-      "text": "После долгих исследований вы нашли способ призвать бывшего обитателя Крепости и подчинить его своей воле. Они накладывают Иссушение в ближнем бою и стреляют огненными стрелами, если дать им лук."
+      "type": "patchouli:text",
+      "advancement": "goety:goety/read_bygone_scroll",
+      "text": "After much research, you\u0027ve found a way to call forth a former inhabitant of the Fortress, and bind it to your will. They inflict Wither on melee and shoot fire arrows when given a bow."
+    },
+    {
+      "type": "goety:ritual",
+      "advancement": "goety:goety/read_bygone_scroll",
+      "recipe": "goety:thrall/summon_wither_skeleton_thrall"
     }
   ]
 }

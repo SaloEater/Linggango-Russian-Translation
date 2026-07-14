@@ -1,18 +1,19 @@
 {
-  "name": "Void Rune Focus",
+  "name": "Фокус руны пустоты",
   "icon": "goety_cataclysm:void_rune_focus",
   "category": "goety:cataclysm/focuses/void",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "While one simply use a Void Rune, you figured it would be much better to simply turn it into a spell."
+      "text": "Хотя можно просто использовать Руну Пустоты, вы решили, что будет гораздо лучше превратить её в заклинание."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "goety_cataclysm:focus/void_rune_focus"
     },
     {
-      "text": "При использовании $(l:crafts/staff/void_staff)Посоха Пустоты$() призывается больше рядов Рун Пустоты."
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/void_staff)Void Staff$() summons more rows of Void Runes."
     }
   ]
 }

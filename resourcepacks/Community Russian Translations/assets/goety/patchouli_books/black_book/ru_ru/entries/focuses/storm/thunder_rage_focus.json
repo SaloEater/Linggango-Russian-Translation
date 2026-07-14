@@ -1,18 +1,19 @@
 {
-  "name": "Thunder Rage Focus",
+  "name": "Фокус грозовой ярости",
   "icon": "goety_cataclysm:thunder_rage_focus",
   "category": "goety:cataclysm/focuses/storm",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Replicating Scylla's wrath, this spell requires continuous casting, where the caster will emit whirlwinds and storm clouds around them, before unleashing a barrage of water and lightning spears at where they're looking from the clouds above."
+      "text": "Это заклинание, копирующее гнев Сциллы, требует непрерывного произнесения. Вы создаёте вокруг себя вихри и грозовые тучи, а затем обрушиваете поток воды и грозовые копья в направлении своего взгляда."
     },
     {
       "type": "goety:ritual",
       "recipe": "goety_cataclysm:focus/thunder_rage_focus"
     },
     {
-      "text": "Использование с $(l:crafts/staff/storm_staff)Storm Staff$() выпускает больше молниеносных копий и заставляет их наносить дополнительный урон в зависимости от максимального здоровья цели."
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/storm_staff)Storm Staff$() shoots more lightning spears and causes them to deal extra damage based on the target\u0027s max health."
     }
   ],
   "extra_recipe_mappings": {

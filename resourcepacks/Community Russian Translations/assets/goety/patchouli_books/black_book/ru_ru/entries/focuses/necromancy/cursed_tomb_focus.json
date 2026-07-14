@@ -1,18 +1,19 @@
 {
-  "name": "Cursed Tomb Focus",
+  "name": "Фокус проклятой гробницы",
   "icon": "goety_cataclysm:cursed_tomb_focus",
   "category": "goety:cataclysm/focuses/necromancy",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Like regular Draugrs, but equipped with a shield that they occasionally used to block attacks."
+      "text": "Как обычные драугры, но носят щиты, которыми они иногда блокируют атаки."
     },
     {
       "type": "goety:ritual",
       "recipe": "goety_cataclysm:focus/cursed_tomb_focus"
     },
     {
-      "text": "При использовании $(l:crafts/staff/necro_staff)Некро-посоха$() призывается больше Драугров за раз."
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/necro_staff)Necro Staff$() summons more Draugrs at once."
     }
   ],
   "extra_recipe_mappings": {

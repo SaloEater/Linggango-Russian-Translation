@@ -1,14 +1,19 @@
 {
-  "name": "Символ замерзшего озера [NYI]",
+  "name": "Sigil of the Frozen Lake",
   "icon": "bloodmagic:icesigil",
   "category": "bloodmagic:alchemy_array/sigil",
-  "extra_recipe_mappings": {
-    "bloodmagic:icesigil": 0
-  },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "[НЗП]$(br)[Пока не реализовано]$(br2)Чары Ледохода как символ."
+      "text": "you\u0027ve heard tell of ancient boots enchanted with $(thing)Frost-walking$(), freezing the ground and water beneath the wearer\u0027s feet. That sounds like fine inspiration for a sigil! It\u0027s even able to be toggled, so you\u0027re not in danger of freezing over your farmlands every time you get close."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "frost Reagent",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_frost",
+      "array.heading": "Frost Sigil",
+      "array.recipe": "bloodmagic:array/frostsigil",
+      "array.text": "$(italic)Slippy-Slidey Ice World!$()"
     }
   ]
 }

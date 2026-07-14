@@ -1,18 +1,19 @@
 {
-  "name": "Storm Serpent Focus",
+  "name": "Фокус штормового змея",
   "icon": "goety_cataclysm:storm_serpent_focus",
   "category": "goety:cataclysm/focuses/storm",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The spell calls upon phantasmal serpents to lunge at your foes and explode in a stormy tempest, making them vulnerable to other lightning attacks."
+      "text": "Это заклинание призывает призрачных змей, которые бросаются на ваших врагов и взрываются в бурном вихре, оставляя выживших уязвимыми для других атак молнией."
     },
     {
       "type": "goety:ritual",
       "recipe": "goety_cataclysm:focus/storm_serpent_focus"
     },
     {
-      "text": "При использовании $(l:crafts/staff/storm_staff)Посоха Бури$() призывается больше змей в конце заклинания."
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/storm_staff)Storm Staff$() summons more serpents at the end of the spell."
     }
   ],
   "extra_recipe_mappings": {

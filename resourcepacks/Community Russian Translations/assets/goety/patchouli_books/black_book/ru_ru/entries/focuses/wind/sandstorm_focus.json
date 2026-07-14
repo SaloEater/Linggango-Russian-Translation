@@ -1,18 +1,19 @@
 {
-  "name": "Sandstorm Focus",
+  "name": "Фокус песчаной бури",
   "icon": "goety_cataclysm:sandstorm_focus",
   "category": "goety:cataclysm/focuses/wind",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Rather than shooting out a simple cyclone, the spell conjures multiple sandy cyclones that orbits around the caster, damaging any non-allied targets caught into them."
+      "text": "Вместо того, чтобы выпустить простой циклон, заклинание создает несколько песчаных циклонов, которые вращаются вокруг вас, нанося урон всем несоюзным целям, попавшим в них."
     },
     {
       "type": "goety:ritual",
       "recipe": "goety_cataclysm:focus/sandstorm_focus"
     },
     {
-      "text": "При использовании $(l:crafts/staff/wind_staff)Посоха Ветра$() призывается больше песчаных бурь."
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/wind_staff)Wind Staff$() summons more sandstorms."
     }
   ],
   "extra_recipe_mappings": {

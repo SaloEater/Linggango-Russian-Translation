@@ -1,18 +1,19 @@
 {
-  "name": "Desert Raid Focus",
+  "name": "Фокус пустынного рейда",
   "icon": "goety_cataclysm:desert_raid_focus",
   "category": "goety:cataclysm/focuses/necromancy",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "You felt that Koboletons can be quite a powerful force to command, so you've devised a spell that summons and binds them to your will."
+      "text": "Вы чувствуете, что кобольды могут стать довольно могущественной силой, которой возможно управлять, поэтому создали заклинание, которое призывает их и подчиняет вашей воле."
     },
     {
       "type": "goety:ritual",
       "recipe": "goety_cataclysm:focus/desert_raid_focus"
     },
     {
-      "text": "Применение $(l:crafts/staff/necro_staff)Посоха некроманта$() призывает больше Драугров одновременно."
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/necro_staff)Necro Staff$() summons more Draugrs at once."
     }
   ],
   "extra_recipe_mappings": {

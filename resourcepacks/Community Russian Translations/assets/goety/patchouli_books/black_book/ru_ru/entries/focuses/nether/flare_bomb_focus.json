@@ -1,18 +1,19 @@
 {
-  "name": "Flare Bomb Focus",
+  "name": "Фокус пламенной бомбы",
   "icon": "goety_cataclysm:flare_bomb_focus",
   "category": "goety:cataclysm/focuses/nether",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The spell replicates the infernal machine's flare bombs, which will not only explode upon impact, but also sends waves of flaming blades to jet out of the ground."
+      "text": "Это заклинание копирует пламенные бомбы адской машины. ОНи не только взрываются при ударе, но и выбрасывают из-под земли волны пылающих лезвий."
     },
     {
       "type": "goety:ritual",
       "recipe": "goety_cataclysm:focus/flare_bomb_focus"
     },
     {
-      "text": "При использовании $(l:crafts/staff/nether_staff)Адского посоха$() выпускается больше сигнальных бомб."
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/nether_staff)Nether Staff$() shoots more flare bombs."
     }
   ],
   "extra_recipe_mappings": {

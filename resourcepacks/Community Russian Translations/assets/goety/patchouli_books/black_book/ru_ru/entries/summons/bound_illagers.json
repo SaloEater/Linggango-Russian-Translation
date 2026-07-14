@@ -33,24 +33,61 @@
       "recipe": "goety:thrall/summon_bound_iceologer"
     },
     {
+      "type": "patchouli:entity",
+      "entity": "goety:bound_cryologer"
+    },
+    {
       "type": "patchouli:text",
-      "text": "Подчинённых злодеян можно исцелять, нажав по ним ПКМ эктоплазмой."
+      "text": "Подчинённые криологи, хоть и остались плаксами, обрушивают на врагов град и воздвигают ледяные стены. По какой-то причине, несмотря на заплаканные глаза, они кажутся менее несчастными и более равнодушными к своему нынешнему положению, чем другие подчинённые злодеяне."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_bound_cryologer"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:bound_wind_caller"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Эти злодеяне сохранянили свою власть над ветром даже после смерти, с одной лишь оговоркой: они действительно способны летать, а не медленно опускаться на землю."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_bound_wind_caller"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:bound_storm_caster",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Даже смерть не смогла успокоить бурю внутри этих злодеян, и они готовы продемонстрировать её своим врагам во всей красе."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_bound_storm_caster"
+    },
+    {
+      "type": "patchouli:text",
+      "entity": "goety:bound_storm_caster"
     },
     {
       "type": "patchouli:text",
       "text": "Поскольку они сохраняют свои умственные способности, то могут нести ваш $(l:goety:mutations/illager_servants#banner)личный флаг$() и возглавлять ваших $(l:goety:mutations/illager_servants)злодеян-прислужников$()."
     },
     {
-      "text": "Эти связанные души можно исцелить, щелкнув по ним правой кнопкой мыши с помощью Эктоплазмы."
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_bound_storm_caster"
     },
     {
-      "text": "Поскольку они все еще сохраняют свои умственные способности, этим душам можно дать ваш $(l:goety:mutations/illager_servants#banner)личный штандарт$() и они могут возглавить ваших $(l:goety:mutations/illager_servants)слуг-разбойников$() также."
+      "type": "patchouli:text",
+      "text": "These bound souls can be healed by right-clicking on them with Ectoplasm."
     },
     {
-      "text": "Эти связанные души можно исцелить, щелкнув по ним правой кнопкой мыши с помощью Эктоплазмы."
-    },
-    {
-      "text": "Поскольку они все еще сохраняют свои умственные способности, этим душам можно дать ваш $(l:goety:mutations/illager_servants#banner)личный штандарт$() и они могут возглавить ваших $(l:goety:mutations/illager_servants)слуг-разбойников$() также."
+      "type": "patchouli:text",
+      "text": "As they still retain their mental faculties, these souls can be given your $(l:goety:mutations/illager_servants#banner)personal banner$() and lead your $(l:goety:mutations/illager_servants)Illager servants$() as well."
     }
   ]
 }

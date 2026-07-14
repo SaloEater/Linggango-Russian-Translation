@@ -1,18 +1,19 @@
 {
-  "name": "Cursed Cairn Focus",
+  "name": "Фокус проклятого кургана",
   "icon": "goety_cataclysm:cursed_cairn_focus",
   "category": "goety:cataclysm/focuses/necromancy",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The spell calls forth tall fallen crossbowmen that would pelt their foes with arrows."
+      "text": "Это заклинание призывает высоких арбалетчиков, которые пронзят своих врагов стрелами."
     },
     {
       "type": "goety:ritual",
       "recipe": "goety_cataclysm:focus/cursed_cairn_focus"
     },
     {
-      "text": "При использовании $(l:crafts/staff/necro_staff)Посоха Некроманта$() призывается больше Драугров одновременно."
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/necro_staff)Necro Staff$() summons more Draugrs at once."
     }
   ],
   "extra_recipe_mappings": {

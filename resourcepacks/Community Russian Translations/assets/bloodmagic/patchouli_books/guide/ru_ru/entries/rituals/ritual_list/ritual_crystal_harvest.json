@@ -1,20 +1,20 @@
 {
-  "name": "Трещина расколотого кристалла",
+  "name": "Crack of the Fractured Crystal",
   "icon": "bloodmagic:defaultcrystal",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Трещина расколотого кристалла",
+      "name": "Crack of the Fractured Crystal",
       "multiblock_id": "bloodmagic:crystal_harvest",
-      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
+      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l) for easier construction."
     },
     {
       "type": "bloodmagic:ritual_info",
       "ritual": "crystal_harvest",
       "text_overrides": [
         [
-          "Кластеры кристаллов Демонической Воли",
+          "Demon Will Crystal Clusters",
           "l:bloodmagic:demon_will/will_manipulation/crystallized_will"
         ],
         [
@@ -29,7 +29,7 @@
       "page_type": "crystal",
       "text_overrides": [
         [
-          "Демон Воля",
+          "Demon Will",
           "raw"
         ]
       ]

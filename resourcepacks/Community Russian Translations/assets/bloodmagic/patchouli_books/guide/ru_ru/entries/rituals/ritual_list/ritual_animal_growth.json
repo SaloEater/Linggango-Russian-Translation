@@ -1,13 +1,13 @@
 {
-  "name": "Ритуал Пастыря",
+  "name": "Ritual of the Shepherd",
   "icon": "minecraft:white_wool",
   "category": "bloodmagic:rituals/ritual_list",
   "pages": [
     {
       "type": "multiblock",
-      "name": "Ритуал Пастыря",
+      "name": "Ritual of the Shepherd",
       "multiblock_id": "bloodmagic:animal_growth",
-      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный прорицатель [Сумерки]$(/l) для облегчения сборки."
+      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l) for easier construction."
     },
     {
       "type": "bloodmagic:ritual_info",
@@ -19,7 +19,7 @@
       "page_type": "raw",
       "text_overrides": [
         [
-          "сырая воля",
+          "Raw Will",
           "raw"
         ]
       ]
@@ -54,7 +54,7 @@
       "type": "bloodmagic:ritual_data",
       "ritual": "animal_growth",
       "page_type": "chest",
-      "text": "Требуется $(steadfast)Steadfast Will$()."
+      "text": "Requires $(steadfast)Steadfast Will$()."
     }
   ]
 }
