@@ -39,12 +39,14 @@ Examples:
 """
 
 import argparse
+import concurrent.futures
 import json
 import os
 import re
 import shutil
 import subprocess
 import sys
+import threading
 import time
 import urllib.error
 import urllib.request
@@ -487,6 +489,92 @@ def translate_nested(data, backend, model, url, api_key, timeout, debug=False):
 TRANSLATE_ERRORS = (urllib.error.URLError, subprocess.TimeoutExpired,
                     json.JSONDecodeError, KeyError, ValueError)
 
+_print_lock = threading.Lock()
+
+
+def log(line):
+    """Thread-safe single-line print (workers emit one complete line each)."""
+    with _print_lock:
+        print(line, flush=True)
+
+
+class RateLimiter:
+    """Enforce a minimum interval between the START of successive requests.
+
+    Callers reserve a monotonically increasing start slot under the lock (without
+    sleeping while holding it), then sleep until their own slot. Different workers
+    sleep for different slots concurrently, so request starts are >= min_interval
+    apart while the calls themselves may overlap. min_interval == 0 disables it.
+    """
+
+    def __init__(self, min_interval):
+        self._min = max(0.0, min_interval)
+        self._lock = threading.Lock()
+        self._next = 0.0  # monotonic time the next start is allowed
+
+    def acquire(self):
+        if self._min <= 0:
+            return
+        with self._lock:
+            start_at = max(time.monotonic(), self._next)
+            self._next = start_at + self._min
+        wait = start_at - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+
+
+def _call_with_retry(fn, rate, retries, backoff_base):
+    """Run fn() honoring the rate limiter, retrying transient errors with backoff."""
+    for attempt in range(retries + 1):
+        rate.acquire()
+        try:
+            return fn()
+        except TRANSLATE_ERRORS as e:
+            if attempt == retries:
+                raise
+            time.sleep(backoff_base * (2 ** attempt))
+            _last = e  # noqa: F841 (kept for clarity)
+
+
+def _build_translate_tasks(json_files, to_translate_dir, chunk_size, file_state):
+    """Preload files and return a flat list of work units.
+
+    Each task: dict(path, rel, kind='flat'|'nested', label, chunk=<snapshot dict>).
+    Populates file_state[path] = {'data': data, 'lock': Lock()} for files with work.
+    """
+    tasks = []
+    for rel_path in json_files:
+        full_path = os.path.join(to_translate_dir, rel_path)
+        data = load_json(full_path)
+        if data is None:
+            log(f'{rel_path} — skipped (empty/unreadable)')
+            continue
+
+        if is_flat(data):
+            keys = [k for k, v in data.items() if v is not None and not has_russian(v)]
+            if not keys:
+                continue
+            file_state[full_path] = {'data': data, 'lock': threading.Lock()}
+            n_chunks = max(1, (len(keys) + chunk_size - 1) // chunk_size)
+            for chunk_idx in range(n_chunks):
+                chunk_keys = keys[chunk_idx * chunk_size:(chunk_idx + 1) * chunk_size]
+                tasks.append(dict(
+                    path=full_path, rel=rel_path, kind='flat',
+                    label=f'{rel_path} chunk {chunk_idx + 1}/{n_chunks}',
+                    chunk={k: data[k] for k in chunk_keys},  # snapshot: disjoint keys
+                ))
+        else:
+            subset = strip_translated(data)
+            if subset is None or count_strings(subset) == 0:
+                continue
+            file_state[full_path] = {'data': data, 'lock': threading.Lock()}
+            tasks.append(dict(
+                path=full_path, rel=rel_path, kind='nested',
+                label=f'{rel_path} (nested, {count_strings(subset)} strings)',
+                chunk=subset,
+            ))
+    return tasks
+
 
 def run_translate(cfg, args):
     to_translate_dir = d(cfg, 'to_translate')
@@ -499,8 +587,7 @@ def run_translate(cfg, args):
         json_files = [f for f in json_files if f.replace('\\', '/') == args.file]
     if args.limit is not None:
         json_files = json_files[:args.limit]
-    total_files = len(json_files)
-    if total_files == 0:
+    if not json_files:
         print(f'No files to translate in {to_translate_dir}.')
         return
 
@@ -511,69 +598,57 @@ def run_translate(cfg, args):
         if d0 is not None:
             total_keys += count_strings(d0) - count_russian(d0)
 
+    file_state = {}
+    tasks = _build_translate_tasks(json_files, to_translate_dir, args.chunk_size, file_state)
+    if not tasks:
+        print('Nothing to translate — all files already translated.')
+        return
+
+    rate = RateLimiter(args.delay)
+    workers = max(1, args.workers)
+    log(f'Translating {len(tasks)} chunk(s) across {len(file_state)} file(s) '
+        f'with {workers} worker(s), >={args.delay}s between request starts.')
+
+    def do_task(task):
+        path, chunk = task['path'], task['chunk']
+        state = file_state[path]
+        if task['kind'] == 'flat':
+            def call():
+                return merge_translations(chunk, translate_chunk(
+                    chunk, args.backend, model, args.url, args.api_key, args.timeout,
+                    debug=args.debug))
+            merged = _call_with_retry(call, rate, args.retries, args.backoff)
+            applied = count_russian(merged)
+            with state['lock']:
+                state['data'].update(merged)
+                save_json(path, state['data'])  # atomic; lock serializes same-file saves
+            log(f'{task["label"]}: ok ({applied}/{len(chunk)} translated)')
+            return applied
+        else:  # nested
+            def call():
+                return translate_nested(
+                    chunk, args.backend, model, args.url, args.api_key, args.timeout,
+                    debug=args.debug)
+            translated = _call_with_retry(call, rate, args.retries, args.backoff)
+            with state['lock']:
+                before = count_russian(state['data'])
+                state['data'] = merge_translations(state['data'], translated)
+                applied = count_russian(state['data']) - before
+                save_json(path, state['data'])
+            log(f'{task["label"]}: ok ({applied} translated)')
+            return applied
+
     total_translated = 0
-    for file_idx, rel_path in enumerate(json_files, start=1):
-        full_path = os.path.join(to_translate_dir, rel_path)
-        data = load_json(full_path)
-        if data is None:
-            print(f'[{file_idx}/{total_files}] {rel_path} — skipped (empty/unreadable)')
-            continue
-
-        if is_flat(data):
-            keys = [k for k, v in data.items() if v is not None and not has_russian(v)]
-            if not keys:
-                print(f'[{file_idx}/{total_files}] {rel_path} — already translated, skipped')
-                continue
-            n_chunks = max(1, (len(keys) + args.chunk_size - 1) // args.chunk_size)
-            print(f'[{file_idx}/{total_files}] {rel_path} '
-                  f'({len(keys)} keys, {n_chunks} chunk{"s" if n_chunks > 1 else ""})')
-            for chunk_idx in range(n_chunks):
-                chunk_keys = keys[chunk_idx * args.chunk_size:(chunk_idx + 1) * args.chunk_size]
-                chunk = {k: data[k] for k in chunk_keys}
-                print(f'  chunk {chunk_idx + 1}/{n_chunks} ... ', end='', flush=True)
-                if args.delay and (file_idx > 1 or chunk_idx > 0):
-                    time.sleep(args.delay)
-                try:
-                    translated_chunk = translate_chunk(chunk, args.backend, model,
-                                                       args.url, args.api_key, args.timeout,
-                                                       debug=args.debug)
-                    merged = merge_translations(chunk, translated_chunk)
-                    if args.debug:
-                        applied_dbg = count_russian(merged)
-                        if applied_dbg == 0:
-                            _debug_dump('parsed', json.dumps(translated_chunk, ensure_ascii=False, indent=2))
-                            print('  DEBUG: 0 applied — parsed response above had no Cyrillic '
-                                  'values matching the sent keys.', file=sys.stderr, flush=True)
-                    applied = count_russian(merged)
-                    total_translated += applied
-                    data.update(merged)
-                    save_json(full_path, data)  # persist per chunk (crash-safe)
-                    print(f'ok ({applied}/{len(chunk_keys)} translated)')
-                except TRANSLATE_ERRORS as e:
-                    print(f'FAILED ({e})')
-        else:
-            subset = strip_translated(data)
-            remaining = count_strings(subset) if subset is not None else 0
-            if remaining == 0:
-                print(f'[{file_idx}/{total_files}] {rel_path} — already translated, skipped')
-                continue
-            print(f'[{file_idx}/{total_files}] {rel_path} (nested, {remaining} strings)')
-            if args.delay and file_idx > 1:
-                time.sleep(args.delay)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(do_task, t): t for t in tasks}
+        for fut in concurrent.futures.as_completed(futures):
+            task = futures[fut]
             try:
-                translated = translate_nested(subset, args.backend, model,
-                                              args.url, args.api_key, args.timeout,
-                                              debug=args.debug)
-                before = count_russian(data)
-                data = merge_translations(data, translated)
-                applied = count_russian(data) - before
-                total_translated += applied
-                save_json(full_path, data)
-                print(f'  ok ({applied}/{remaining} translated)')
+                total_translated += fut.result()
             except TRANSLATE_ERRORS as e:
-                print(f'  FAILED ({e})')
+                log(f'{task["label"]}: FAILED ({e})')
 
-    print(f'\nDone. {total_translated}/{total_keys} keys translated across {total_files} files.')
+    print(f'\nDone. {total_translated}/{total_keys} keys translated across {len(file_state)} files.')
     if total_translated < total_keys:
         print(f'{total_keys - total_translated} keys still need translation — re-run.')
 
@@ -851,7 +926,15 @@ def build_parser():
     p_tr.add_argument('--model', default=os.environ.get('PROXY_MODEL'),
                       help='default: gemini_cli/gemini-2.5-flash (proxy) or claude-haiku-4-5 (claude)')
     p_tr.add_argument('--chunk-size', type=int, default=80)
-    p_tr.add_argument('--delay', type=float, default=0.0)
+    p_tr.add_argument('--workers', type=int, default=4,
+                      help='concurrent translation workers (default 4; 1 = serial)')
+    p_tr.add_argument('--delay', type=float, default=2.0,
+                      help='minimum seconds between request STARTS, enforced globally '
+                           'across workers (default 2.0; 0 disables throttling)')
+    p_tr.add_argument('--retries', type=int, default=3,
+                      help='retry attempts per chunk on transient errors (default 3)')
+    p_tr.add_argument('--backoff', type=float, default=2.0,
+                      help='base seconds for exponential retry backoff (default 2.0 -> 2,4,8)')
     p_tr.add_argument('--timeout', type=float, default=300.0)
     p_tr.add_argument('--limit', type=int, help='process only first N files')
     p_tr.add_argument('--file', help='limit to one relative json path')
