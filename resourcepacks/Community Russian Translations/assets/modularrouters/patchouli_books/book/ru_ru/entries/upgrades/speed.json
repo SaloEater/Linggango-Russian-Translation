@@ -1,15 +1,15 @@
 {
-  "name": "Speed Upgrade",
+  "name": "Улучшение скорости",
   "category": "modularrouters:upgrades",
   "icon": "modularrouters:speed_upgrade",
   "pages": [
     {
       "type": "text",
-      "text": "By default, a $(l:router/modular_router)router/$ ticks every 20 server ticks, or once per second. On each tick, every installed module is executed in order, left to right.$(p)If you need a router to run faster than this, add $(thing)Speed Upgrades/$; each Speed Upgrade reduces the tick interval by 2 server ticks, down to a minimum of every 2 server ticks (or 10 times per second)."
+      "text": "По умолчанию, $(l:router/modular_router)маршрутизатор/$ срабатывает каждые 20 серверных тиков, или один раз в секунду. При каждом срабатывании каждый установленный модуль выполняется по порядку, слева направо.$(p)Если вам нужно, чтобы маршрутизатор работал быстрее, добавьте $(thing)Улучшения скорости/$; каждое Улучшение скорости уменьшает интервал срабатывания на 2 серверных тика, вплоть до минимума в 2 серверных тика (или 10 раз в секунду)."
     },
     {
       "type": "text",
-      "text": "The base tick rate, tick increase per upgrade, and hard minimum tick rate are all configurable in the module\u0027s config (config/modularrouters-common.toml).$(p)For performance reasons, $(l:upgrades/stack)Stack Upgrades/$ should be preferred over Speed Upgrades where possible; use Speed Upgrades judiciously and only where absolutely required for maximum item transfer rate.$(p)Be Kind To Your Server (tm)."
+      "text": "Базовая частота тиков, увеличение тиков за улучшение и жесткий минимальный порог тиков — все это настраивается в конфигурации модуля (config/modularrouters-common.toml).$(p)По соображениям производительности, $(l:upgrades/stack)Улучшения стака/$ следует предпочитать Улучшениям скорости, где это возможно; используйте Улучшения скорости разумно и только там, где это абсолютно необходимо для максимальной скорости передачи предметов.$(p)Будьте добры к своему серверу (tm)."
     },
     {
       "type": "crafting",

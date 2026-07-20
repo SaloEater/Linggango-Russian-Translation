@@ -1,11 +1,11 @@
 {
-  "name": "Water Sigil",
+  "name": "Водная Сигила",
   "icon": "bloodmagic:watersigil",
   "category": "bloodmagic:alchemy_array/sigil",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Water Sigil$() is a rather simple sigil. When you press [$(k:use)] while looking at a block, you can drain 100LP from your $(l:bloodmagic:altar/soul_network)Soul Network$(/l) to place a source block of water in the world. If there\u0027s not enough LP, it will instead drain the toll from your health. Crafted using a $(item)Water Reagent$() and a $(item)Blank Slate.$()"
+      "text": "$(item)Водная Сигила$() — довольно простая сигила. Когда вы нажимаете [$(k:use)], глядя на блок, вы можете слить 100 ОЖ из вашей $(l:bloodmagic:altar/soul_network)Сети Душ$(/l), чтобы разместить исходный блок воды в мире. Если ОЖ недостаточно, вместо этого будет взиматься плата с вашего здоровья. Создаётся с использованием $(item)Водного Реагента$() и $(item)Пустой Плиты.$()"
     },
     {
       "type": "bloodmagic:crafting_2-step_sigil",
@@ -21,15 +21,15 @@
         "bloodmagic:images/entries/sigil/water_sigil1.png",
         "bloodmagic:images/entries/sigil/water_sigil2.png"
       ],
-      "title": "Water Sigil Array",
+      "title": "Массив Водной Сигилы",
       "border": true,
-      "text": "The Water Sigil, next to its crafting array, plus its primary use."
+      "text": "Водная Сигила, рядом с её схемой крафта, а также её основное применение."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
       "heading": "Water Bucket",
       "recipe": "bloodmagic:alchemytable/sigil_water_bucket",
-      "text": "What\u0027s more, it can be used in the $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$() to automate the production of $(water)Water Buckets$(). The Sigil is not consumed in this recipe."
+      "text": "Более того, её можно использовать в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимическом Столе$() для автоматизации производства $(water)Вёдер Воды$(). Сигила не расходуется в этом рецепте."
     }
   ]
 }

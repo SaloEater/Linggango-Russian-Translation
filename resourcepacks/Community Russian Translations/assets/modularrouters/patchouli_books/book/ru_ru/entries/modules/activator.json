@@ -1,30 +1,30 @@
 {
-  "name": "Activator Module",
+  "name": "Модуль активатора",
   "category": "modularrouters:modules",
   "icon": "modularrouters:activator_module",
   "pages": [
     {
       "type": "text",
-      "text": "This powerful module acts like a $(italic)fake player/$ which can use an item in the router\u0027s buffer, against nearby blocks or entities. There are three modes, which can be selected via the controls on the right of the GUI. Each mode is detailed in the following pages."
+      "text": "Этот мощный модуль действует как $(italic)фальшивый игрок/$, который может использовать предмет из буфера маршрутизатора против ближайших блоков или сущностей. Существует три режима, которые можно выбрать с помощью элементов управления справа в графическом интерфейсе. Каждый режим подробно описан на следующих страницах."
     },
     {
       "type": "text",
-      "title": "Right-click",
-      "text": "This mode performs a right-click with the item in the router\u0027s buffer, just as if a player had done so. The logic used is the same as for player clicks, e.g. right-clicking a $(item)Flint and Steel/$ on a door will open the door, not start a fire.$(p)The targeted block (if any) depends on the router\u0027s facing, module direction, and also the Look Above/Below/Level module setting."
+      "title": "Правый клик",
+      "text": "Этот режим выполняет правый клик предметом из буфера маршрутизатора, как если бы это сделал игрок. Используемая логика та же, что и для кликов игрока, например, правый клик $(item)Кремнем и сталью/$ по двери откроет дверь, а не подожжет ее.$(p)Целевой блок (если таковой имеется) зависит от ориентации маршрутизатора, направления модуля, а также от настройки модуля «Смотреть вверх/вниз/на уровне»."
     },
     {
       "type": "text",
-      "title": "Right-click Entity",
-      "text": "This mode performs a right-click with the item in the router\u0027s buffer on a nearby $(thing)entity/$. You could use this to milk a cow for example, or shear a sheep.$(p)This can result in items being dropped on the ground, e.g. if a cow is clicked with a stack of more than one bucket in the router\u0027s buffer."
+      "title": "Правый клик по сущности",
+      "text": "Этот режим выполняет правый клик предметом из буфера маршрутизатора по ближайшей $(thing)сущности/$. Вы можете использовать это, например, чтобы подоить корову или постричь овцу.$(p)Это может привести к выпадению предметов на землю, например, если по корове кликнуть стопкой из нескольких ведер в буфере маршрутизатора."
     },
     {
       "type": "text",
-      "title": "Attack Entity",
-      "text": "This mode performs a left-click with the item in the router\u0027s buffer on a nearby $(thing)entity/$, attacking it. This mode costs $(l:upgrades/energy)Forge Energy/$ by default, unlike other modules.$(p)Note: while $(l:upgrades/speed)Speed Upgrades/$ can be useful here, weapon cooldowns do apply, so excessive Speed Upgrades will just end up wasting energy and weapon durability."
+      "title": "Атака сущности",
+      "text": "Этот режим выполняет левый клик предметом из буфера маршрутизатора по ближайшей $(thing)сущности/$, атакуя ее. Этот режим по умолчанию потребляет $(l:upgrades/energy)Энергию Forge/$, в отличие от других модулей.$(p)Примечание: хотя $(l:upgrades/speed)Улучшения скорости/$ могут быть полезны здесь, перезарядка оружия применяется, поэтому чрезмерные Улучшения скорости просто приведут к потере энергии и прочности оружия."
     },
     {
       "type": "text",
-      "text": "The Activator has a range of about 4 blocks, similar to what an actual player has. The module can also be configured to look $(thing)Above/$ or $(thing)Below/$ (default is $(thing)Level/$).$(p)$(thing)Above/$ is particularly handy for planting things on top of a solid block beside or above the router, while $(thing)Below/$ is useful when you want to target the ground directly adjacent to the router, rather than a more distant block."
+      "text": "Активатор имеет радиус действия около 4 блоков, аналогично тому, что имеет настоящий игрок. Модуль также можно настроить на взгляд $(thing)Вверх/$ или $(thing)Вниз/$ (по умолчанию $(thing)На уровне/$).$(p)$(thing)Вверх/$ особенно удобно для посадки чего-либо на твердый блок рядом или над маршрутизатором, тогда как $(thing)Вниз/$ полезно, когда вы хотите нацелиться на землю непосредственно рядом с маршрутизатором, а не на более отдаленный блок."
     },
     {
       "type": "crafting",

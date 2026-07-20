@@ -1,24 +1,24 @@
 {
-  "name": "Redstone Aura Vaporizer",
+  "name": "Испаритель ауры красного камня",
   "icon": "naturesaura:aura_timer",
   "category": "naturesaura:devices",
   "advancement": "naturesaura:infused_materials",
   "pages": [
     {
       "type": "text",
-      "text": "Some $(thing)redstone$() contraptions, especially more complicated ones, may require the construction of a device that activates in a certain $(thing)interval$() - a $(item)timer$(). To the unexperienced engineer, this may seem like a daunting task, but the $(item)Redstone Aura Vaporizer$() simplifies it quite a bit.$(br)The infused iron bowl in the center of the device can hold any type of $(l:practices/aura_bottle)Bottled Aura$(),"
+      "text": "Некоторые $(thing)краснокаменные$() механизмы, особенно более сложные, могут требовать создания устройства, которое активируется через определённый $(thing)интервал$() — $(item)таймера$(). Для неопытного инженера это может показаться сложной задачей, но $(item)Испаритель ауры красного камня$() значительно её упрощает.$(br)Наполненная железная чаша в центре устройства может вмещать любой тип $(l:practices/aura_bottle)Запечатанной ауры$(),"
     },
     {
       "type": "text",
-      "text": "which will be vaporized at a precise speed. Each time a vaporization is finished, a $(thing)redstone signal$() is emitted for a brief moment, and the $(aura) flows back into the bowl.$(br)The type of $(aura) inserted, as well as the amount of bottles, determine the time between activations: A bottle of $(thing)sunlight$() lasts for a second, a bottle of $(thing)ghosts$() for a minute and a bottle of $(thing)darkness$() for an hour. This means that a redstone signal can be emitted as infrequently as once every sixty-four hours, if required."
+      "text": "которая будет испаряться с точной скоростью. Каждый раз, когда испарение завершается, на короткий момент испускается $(thing)краснокаменный сигнал$(), и $(aura) возвращается в чашу.$(br)Тип вставленной $(aura)$, а также количество бутылок, определяют время между активациями: Бутылка $(thing)солнечного света$() длится секунду, бутылка $(thing)призраков$() — минуту, а бутылка $(thing)тьмы$() — час. Это означает, что краснокаменный сигнал может испускаться так редко, как раз в шестьдесят четыре часа, если это необходимо."
     },
     {
       "type": "text",
-      "text": "Inserting the bottles by hand should suffice in most situations, but if necessary, bottles can also be inserted and extracted through any kind of $(thing)automation$().$(br)The device\u0027s vaporization progress can easily be reset by supplying a $(thing)redstone signal$().$(br)Additionally, the total amount of time, as well as the remaining time for each vaporization, can be viewed by looking at the device with an $(l:items/eye)Environmental Eye$() equipped."
+      "text": "В большинстве ситуаций достаточно вставлять бутылки вручную, но при необходимости бутылки также можно вставлять и извлекать с помощью любой $(thing)автоматизации$().$(br)Прогресс испарения устройства можно легко сбросить, подав $(thing)краснокаменный сигнал$().$(br)Кроме того, общее время, а также оставшееся время для каждого испарения, можно просмотреть, взглянув на устройство с помощью $(l:items/eye)Экологического глаза$()."
     },
     {
       "type": "crafting",
-      "text": "Creating the $(item)Redstone Aura Vaporizer$()",
+      "text": "Создание $(item)Испарителя ауры красного камня$()",
       "recipe": "naturesaura:aura_timer"
     }
   ]

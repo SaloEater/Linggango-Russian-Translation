@@ -1,19 +1,19 @@
 {
-  "name": "Breaker Module",
+  "name": "Модуль Разрушитель",
   "category": "modularrouters:modules",
   "icon": "modularrouters:breaker_module",
   "pages": [
     {
       "type": "text",
-      "text": "This module tries to break a block, adjacent to the $(l:router/item_router)Router/$ in the module\u0027s $(l:intro/modules#direction)configured direction/$.$(p)Most blocks are breakable, although anything with an unbreakable hardness (e.g. vanilla $(item)Bedrock/$ or $(item)End Portal/$) can not be broken, nor can any fluid blocks. If the block is broken, its primary drop(s) will be automatically inserted into the item router\u0027s buffer, if possible."
+      "text": "Этот модуль пытается сломать блок, прилегающий к $(l:router/item_router)Маршрутизатору/$ в $(l:intro/modules#direction)настроенном направлении/$ модуля.$(p)Большинство блоков разрушаемы, хотя ничего с неразрушимой прочностью (например, ванильный $(item)Коренная порода/$ или $(item)Портал Края/$) не может быть сломано, как и любые жидкие блоки. Если блок сломан, его основные выпавшие предметы будут автоматически помещены в буфер маршрутизатора предметов, если это возможно."
     },
     {
       "type": "text",
-      "text": "The Breaker Module can be crafted with any type of pickaxe (including modded pickaxes), but the pickaxe used to craft the module determines its harvest level.  E.g. if you create a Breaker Module with an $(item)Iron Pickaxe/$, it will not be able to break $(item)Obsidian/$.$(p)Additionally, any $(thing)enchantments/$ on the pickaxe used will be noted in the module ($(thing)Silk Touch/$ and $(thing)Fortune/$ are of particular use)."
+      "text": "Модуль Разрушитель может быть создан с помощью любого типа кирки (включая кирки из модов), но кирка, использованная для создания модуля, определяет его уровень добычи. Например, если вы создадите Модуль Разрушитель с $(item)Железной киркой/$, он не сможет сломать $(item)Обсидиан/$.$(p)Кроме того, любые $(thing)чары/$ на использованной кирке будут учтены в модуле ($(thing)Шёлковое касание/$ и $(thing)Удача/$ особенно полезны)."
     },
     {
       "type": "text",
-      "text": "By default the Breaker Module filter works on $(thing)items that would be dropped/$, rather than on the block itself. E.g. filtering on $(item)Stone/$ would not work to break Stone, unless the module has $(thing)Silk Touch/$ enabled. In this case, you should filter on $(item)Cobblestone/$.$(p)You can set the module to match by the $(thing)block/$ via the module GUI; this can be useful to distinguish between blocks that both drop nothing, e.g. $(item)Ice/$ and $(item)Packed Ice/$."
+      "text": "По умолчанию фильтр Модуля Разрушителя работает по $(thing)выпадающим предметам/$, а не по самому блоку. Например, фильтрация по $(item)Камню/$ не сработает для разрушения Камня, если только модуль не имеет включенного $(thing)Шёлкового касания/$. В этом случае вам следует фильтровать по $(item)Булыжнику/$.$(p)Вы можете настроить модуль на совпадение по $(thing)блоку/$ через графический интерфейс модуля; это может быть полезно для различения блоков, которые оба ничего не выпадают, например, $(item)Лёд/$ и $(item)Плотный лёд/$."
     },
     {
       "type": "crafting",

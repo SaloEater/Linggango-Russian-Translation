@@ -6,23 +6,23 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Admin Commands",
-      "text": "Animus provides a set of $(animus)/animus$() admin commands for server operators (permission level 2+). These are useful for testing rituals, debugging LP issues, and managing demon will.$(br2)All commands are executed as $(item)/animus \u003csubcommand\u003e$()"
+      "title": "Команды администратора",
+      "text": "Animus предоставляет набор $(animus)/animus$() административных команд для операторов сервера (уровень разрешений 2+). Они полезны для тестирования ритуалов, отладки проблем с LP и управления демонической волей.$(br2)Все команды выполняются как $(item)/animus <подкоманда>$()"
     },
     {
       "type": "patchouli:text",
-      "title": "LP Commands",
-      "text": "$(bold)/animus getlp$()$(br)Displays your current Life Essence (LP) stored in your Soul Network.$(br2)$(bold)/animus setlp \u003camount\u003e$()$(br)Sets your Soul Network LP to the specified amount. Useful for testing rituals and sigils without needing to sacrifice.$(br2)Example: $(item)/animus setlp 1000000$()"
+      "title": "Команды LP",
+      "text": "$(bold)/animus getlp$()$(br)Отображает вашу текущую Жизненную Эссенцию (LP), хранящуюся в вашей Сети Душ.$(br2)$(bold)/animus setlp <количество>$()$(br)Устанавливает LP вашей Сети Душ на указанное количество. Полезно для тестирования ритуалов и сигилов без необходимости жертвовать.$(br2)Пример: $(item)/animus setlp 1000000$()"
     },
     {
       "type": "patchouli:text",
-      "title": "Demon Will Commands",
-      "text": "$(bold)/animus fillwill \u003ctype\u003e$()$(br)Fills the current chunk with demon will of the specified type (up to 100).$(br2)Valid types: $(will)default$(), $(will)corrosive$(), $(will)destructive$(), $(will)vengeful$(), $(will)steadfast$()$(br2)Example: $(item)/animus fillwill destructive$()"
+      "title": "Команды Демонической Воли",
+      "text": "$(bold)/animus fillwill <тип>$()$(br)Заполняет текущий чанк демонической волей указанного типа (до 100).$(br2)Допустимые типы: $(will)default$(), $(will)corrosive$(), $(will)destructive$(), $(will)vengeful$(), $(will)steadfast$()$(br2)Пример: $(item)/animus fillwill destructive$()"
     },
     {
       "type": "patchouli:text",
-      "title": "Gem Commands",
-      "text": "$(bold)/animus gemtype \u003ctype\u003e$()$(br)Changes the demon will type of the tartaric gem you are holding. The gem\u0027s current will amount is preserved.$(br2)$(bold)/animus fillgem$()$(br)Fills the tartaric gem you are holding to its maximum capacity.$(br2)Both commands require you to hold a tartaric gem in your main hand."
+      "title": "Команды Камней",
+      "text": "$(bold)/animus gemtype <тип>$()$(br)Изменяет тип демонической воли тартарического камня, который вы держите. Текущее количество воли камня сохраняется.$(br2)$(bold)/animus fillgem$()$(br)Заполняет тартарический камень, который вы держите, до его максимальной вместимости.$(br2)Обе команды требуют, чтобы вы держали тартарический камень в основной руке."
     }
   ]
 }

@@ -1,23 +1,23 @@
 {
-  "name": "Termination",
+  "name": "Прекращение",
   "icon": "minecraft:barrier",
   "category": "modularrouters:router",
   "pages": [
     {
       "type": "text",
-      "text": "This a slightly esoteric topic which in most cases you won\u0027t need to worry about. However, when you do need it, it\u0027ll be very useful!"
+      "text": "Это немного эзотерическая тема, о которой в большинстве случаев вам не придется беспокоиться. Однако, когда она вам понадобится, она будет очень полезной!"
     },
     {
       "type": "text",
-      "text": "Termination is configured on a per-module basis, by the \u0027T\u0027 button beneath the filter slots. By default, it\u0027s inactive; if you switch if on for a module, then $(italic)if/$ the module does any work this router tick, the router will stop there. No further modules (i.e. to the right of this module) will be executed this time round."
+      "text": "Прекращение настраивается для каждого модуля отдельно, с помощью кнопки 'T' под слотами фильтров. По умолчанию оно неактивно; если вы включите его для модуля, то $(italic)если/$ модуль выполнит какую-либо работу в этот тик маршрутизатора, маршрутизатор остановится. Никакие последующие модули (т.е. справа от этого модуля) не будут выполнены в этот раз."
     },
     {
       "type": "text",
-      "text": "Why would this be useful? Imagine a scenario where your router is being supplied with many items, e.g. from a quarry. You want to void $(item)Cobblestone/$, and send everything else to another inventory; so you would add a $(l:modules/void)Void Module/$ with a whitelist of Cobblestone, followed by a $(l:modules/sender_1)Sender Module/$ to send anything else onwards."
+      "text": "Зачем это может быть полезно? Представьте сценарий, когда ваш маршрутизатор получает много предметов, например, из карьера. Вы хотите уничтожить $(item)Булыжник/$, а все остальное отправить в другой инвентарь; поэтому вы добавите $(l:modules/void)Модуль Пустоты/$ с белым списком Булыжника, за которым последует $(l:modules/sender_1)Модуль Отправителя/$ для отправки всего остального дальше."
     },
     {
       "type": "text",
-      "text": "When the router runs, say there\u0027s already a stack of Cobblestone in the buffer.  The Void Module will void a Cobblestone, and then the Sender module will send the remaining 63 Cobblestone on to your storage. This is probably not you want.$(p)However, if you switch on Termination on the Void Module, then when it runs, the router will stop for that tick; the Sender module won\u0027t run until the Void Module has nothing else to do."
+      "text": "Когда маршрутизатор работает, предположим, что в буфере уже есть стак Булыжника. Модуль Пустоты уничтожит один Булыжник, а затем Модуль Отправителя отправит оставшиеся 63 Булыжника в ваше хранилище. Вероятно, это не то, что вам нужно.$(p)Однако, если вы включите Прекращение на Модуле Пустоты, то когда он сработает, маршрутизатор остановится на этот тик; Модуль Отправителя не будет работать, пока Модулю Пустоты нечего будет делать."
     }
   ]
 }

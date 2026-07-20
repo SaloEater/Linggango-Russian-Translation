@@ -1,5 +1,5 @@
 {
-  "name": "Quick Swaps",
+  "name": "Быстрые Смены",
   "icon": "l2backpack:arrow_bag",
   "category": "l2backpack:items",
   "sortnum": 4,
@@ -8,14 +8,14 @@
     {
       "type": "patchouli:spotlight",
       "item": "l2backpack:arrow_bag,l2backpack:tool_swap,l2backpack:armor_swap",
-      "text": "Swap UI can be activated by shift. Then you can select items using up / down arrow button, or mouse scrolling.$(br2)For Quiver, the UI will appear when you hold a bow, and you will shoot the selected arrow.$(br2)For Tool Swap and Armor Swap, you need to press R to swap the item."
+      "text": "Интерфейс смены можно активировать, зажав Shift. Затем вы можете выбирать предметы, используя стрелки вверх/вниз или прокрутку колесика мыши.$(br2)Для колчана интерфейс появится, когда вы держите лук, и вы выстрелите выбранной стрелой.$(br2)Для смены инструментов и смены брони вам нужно нажать R, чтобы поменять предмет."
     },
     "Swap UI condition:$(li)Quiver UI: hold a bow in main hand or off hand.$(li)Tool Swap: hold a non-stackable item in your main hand.$(li)Armor Swap: hold nothing in your main hand.$(li)If you press ALT, Tool Swap UI will appear even when you are in Quiver or Armor Swap mode. Then allows you to swap bows, or get weapon from tool swap while holding nothing.",
     "The new version adds a wheel switching system for the swap bag. By default, it disables the display of the previously mentioned switching system, but the keybindings are not disabled. You need to manually unbind the corresponding keys. If you want to try the old switching system, you can enable it in the configuration. $(br2) There are two operation modes for the wheel, which can be changed in the L2ItemSelector configuration. You can try switching to find the one that suits you best. $(br2) The configuration option is useFastSwitchWheel $(li) Default mode: false $(li) Fast switching mode: true",
     {
       "type": "patchouli:spotlight",
       "item": "l2backpack:ender_backpack",
-      "text": "And you can put Quick Swap items in your ender backpacks. Swaps can trigger inside ender backpack as well. Keeping swaps in your ender backpack allows you to not lose precious weapons and gears in swaps when killed."
+      "text": "Вы также можете помещать предметы для Быстрых Смен в свои эндер-рюкзаки. Смены могут срабатывать и внутри эндер-рюкзака. Хранение предметов для смен в эндер-рюкзаке позволит вам не потерять ценное оружие и снаряжение при смене, если вас убьют."
     },
     "Features:$(li)This can be put on chest slot (or back slot of Curios), and can be opened via key bind.$(li)$(l:mechanics/inv_access)Quick Inventory Access$(/l)$(li)$(l:mechanics/chest)Load / Dump with Chest$(/l)$(li)$(l:mechanics/quick_insert)Quick Insert$(/l)$(li)$(l:mechanics/exit)Menu Stacking$(/l)$(li)$(l:mechanics/pickup)Recursive Pickup$(/l)"
   ]

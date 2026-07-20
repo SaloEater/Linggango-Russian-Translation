@@ -1,24 +1,24 @@
 {
-  "name": "Advanced Sensor",
+  "name": "Продвинутый датчик",
   "sortnum": 10,
   "category": "justdirethings:machines",
   "icon": "justdirethings:sensort2",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Advanced Sensor is an upgraded version of the $(l:justdirethings:mach_sensort1)Simple Sensor$(/l).$(br2)It can detect how MANY matches exist in its target area. By default, this is set to \u003e 0, meaning if there is 1 or more matches in an area, it emits a redstone signal."
+      "text": "Продвинутый датчик является улучшенной версией $(l:justdirethings:mach_sensort1)Простого датчика$(/l).$(br2)Он может определять, СКОЛЬКО совпадений находится в целевой области. По умолчанию установлено > 0, что означает, что если в области есть 1 или более совпадений, он испускает сигнал красного камня."
     },
     {
       "type": "patchouli:text",
-      "text": "You can toggle the greater-than button to less-than or equals to, and then use the number button to the right to increase this.$(br2)Example use cases include, sensing if there are less than 10 adult cows, and then emitting a signal to enable a clicker to feed them."
+      "text": "Вы можете переключать кнопку 'больше' на 'меньше' или 'равно', а затем использовать числовую кнопку справа, чтобы увеличить это значение.$(br2)Примеры использования включают: определение, если взрослых коров меньше 10, и затем испускание сигнала для активации кликера, чтобы их покормить."
     },
     {
       "type": "patchouli:text",
-      "text": "The filter options work the same as with the simple sensor, and you can right click the filter slots to control blockstate detection."
+      "text": "Параметры фильтра работают так же, как и у простого датчика, и вы можете щелкнуть правой кнопкой мыши по слотам фильтра, чтобы управлять обнаружением состояний блоков."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Advanced Sensor",
+      "title": "Продвинутый датчик",
       "recipe": "justdirethings:sensort2"
     }
   ]

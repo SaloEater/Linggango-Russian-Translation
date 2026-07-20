@@ -1,34 +1,34 @@
 {
-  "name": "Rails of the Worlds",
+  "name": "Рельсы Миров",
   "icon": "naturesaura:dimension_rail_nether",
   "category": "naturesaura:using",
   "advancement": "naturesaura:sky_ingot",
   "pages": [
     {
       "type": "text",
-      "text": "While $(item)Minecarts$() have a limited ability to travel through any kind of $(thing)portals$(), it is definitely a complicated setup to create. The $(item)Rails of the Worlds$() solve that problem easily: There are three kinds, one for each of the known dimensions. When a minecart travels over one of them, it is transported to the rail\u0027s assigned dimension directly, while using some $(aura) in the process."
+      "text": "Хотя $(item)Вагонетки$() имеют ограниченную способность перемещаться через любые виды $(thing)порталов$(), создание такой системы, безусловно, является сложной задачей. $(item)Рельсы Миров$() легко решают эту проблему: существует три вида, по одному для каждого из известных измерений. Когда вагонетка проезжает по одному из них, она напрямую переносится в назначенное рельсом измерение, используя при этом некоторое количество $(aura)."
     },
     {
       "type": "text",
-      "text": "The selection of the $(thing)position$() to which the minecarts are sent is based on the dimensions involved in the travel:$(br)Traveling between the overworld and the nether will cause the minecart to be sent to an eighth of its position and back, similary to how normal portals work.$(br)Traveling between the overworld and the end will cause the minecart to be sent to the $(thing)obsidian platform$(), and to the overworld\u0027s spawn point when traveling the other way."
+      "text": "Выбор $(thing)позиции$(), куда отправляются вагонетки, зависит от измерений, участвующих в перемещении:$(br)Перемещение между обычным миром и Нижним миром приведет к тому, что вагонетка будет отправлена на одну восьмую от своей позиции и обратно, аналогично тому, как работают обычные порталы.$(br)Перемещение между обычным миром и Краем приведет к тому, что вагонетка будет отправлена на $(thing)обсидиановую платформу$(), а при перемещении в обратном направлении — в точку спавна обычного мира."
     },
     {
       "type": "text",
-      "text": "Using a $(l:items/range_visualizer)Mystical Magnifier$() on any of the rails will cause the destination position to be highlighted in the destination dimension, with the highlight being visible $(thing)through walls$(), making it easy to find without much hassle.$(p)The only known caveat to these rails is that it seems that they do not have enough power to transport carts containing $(thing)living beings$()."
+      "text": "Использование $(l:items/range_visualizer)Мистического Увеличителя$() на любом из рельсов приведет к тому, что позиция назначения будет подсвечена в целевом измерении, причем подсветка будет видна $(thing)сквозь стены$(), что облегчает поиск без особых хлопот.$(p)Единственный известный недостаток этих рельсов заключается в том, что, похоже, у них недостаточно энергии для транспортировки вагонеток, содержащих $(thing)живых существ$()."
     },
     {
       "type": "crafting",
-      "text": "Creating the $(item)Rail of the Overworld$()",
+      "text": "Создание $(item)Рельса Обычного Мира$()",
       "recipe": "naturesaura:dimension_rail_overworld"
     },
     {
       "type": "crafting",
-      "text": "Creating the $(item)Rail of the Nether$()",
+      "text": "Создание $(item)Рельса Нижнего Мира$()",
       "recipe": "naturesaura:dimension_rail_nether"
     },
     {
       "type": "crafting",
-      "text": "Creating the $(item)Rail of the End$()",
+      "text": "Создание $(item)Рельса Края$()",
       "recipe": "naturesaura:dimension_rail_end"
     }
   ]

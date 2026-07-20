@@ -1,23 +1,23 @@
 {
-  "name": "Regulator Augment",
+  "name": "Улучшение: Регулятор",
   "category": "modularrouters:augments",
   "icon": "modularrouters:regulator_augment",
   "pages": [
     {
       "type": "text",
-      "text": "This augment allows for precise control over how many items may be sent to or pulled from an inventory, or the router\u0027s buffer.$(p)When a module has a Regulator Augment, you will see an extra numeric textfield in its GUI where you can configure a limit. This limit is interpreted differently depending on the particular module:"
+      "text": "Это улучшение позволяет точно контролировать, сколько предметов может быть отправлено в инвентарь или извлечено из него, или из буфера маршрутизатора.$(p)Когда модуль имеет улучшение «Регулятор», вы увидите дополнительное числовое текстовое поле в его графическом интерфейсе, где вы сможете настроить лимит. Этот лимит интерпретируется по-разному в зависимости от конкретного модуля:"
     },
     {
       "type": "text",
-      "text": "$(li)For the Sender $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$ / $(l:modules/sender_3)Mk3/$ Modules and $(l:modules/player)Player Module/$ (in insert mode), the modules will only send an item to the inventory if there are fewer than the configured number of that item already in the inventory.$(li)For the Puller $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$ and $(l:modules/player)Player Module/$ (in extract mode), the modules will only pull an item from the inventory if there are more than the configured number of that item in the inventory."
+      "text": "$(li)Для модулей Отправитель $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$ / $(l:modules/sender_3)Mk3/$ и $(l:modules/player)Модуля Игрока/$ (в режиме вставки) модули будут отправлять предмет в инвентарь только в том случае, если в инвентаре уже находится меньше настроенного количества этого предмета.$(li)Для модулей Извлекатель $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$ и $(l:modules/player)Модуля Игрока/$ (в режиме извлечения) модули будут извлекать предмет из инвентаря только в том случае, если в инвентаре находится больше настроенного количества этого предмета."
     },
     {
       "type": "text",
-      "text": "$(li)For the $(l:modules/dropper)Dropper/$, $(l:modules/flinger)Flinger/$, $(l:modules/placer)Placer/$ \u0026 $(l:modules/void)Void/$ Modules, the modules will only run if there are more than the configured number of that item in the router\u0027s buffer.$(li)For the $(l:modules/breaker)Breaker/$ \u0026 $(l:modules/vacuum)Vacuum/$ Modules, the modules will only run if there are fewer than the configured number of that item in the router\u0027s buffer."
+      "text": "$(li)Для модулей $(l:modules/dropper)Выбрасыватель/$, $(l:modules/flinger)Метатель/$, $(l:modules/placer)Установщик/$ и $(l:modules/void)Пустота/$ модули будут работать только в том случае, если в буфере маршрутизатора находится больше настроенного количества этого предмета.$(li)Для модулей $(l:modules/breaker)Разрушитель/$ и $(l:modules/vacuum)Пылесос/$ модули будут работать только в том случае, если в буфере маршрутизатора находится меньше настроенного количества этого предмета."
     },
     {
       "type": "text",
-      "text": "$(li)For the Fluid $(l:modules/fluid)Mk1/$ / $(l:modules/fluid_2)Mk2/$ modules, the limit can be a percentage of the target tank\u0027s capacity or an absolute amount in mB (selectable in the GUI) rather than a number of items. When pulling fluid, the module will only run if there is $(italic)more/$ fluid in the target than the configured amount; when pushing fluid, it will only run if there is $(italic)less/$ fluid than the configured amount."
+      "text": "$(li)Для модулей Жидкостный $(l:modules/fluid)Mk1/$ / $(l:modules/fluid_2)Mk2/$ лимит может быть процентом от вместимости целевого резервуара или абсолютным количеством в мБ (выбирается в графическом интерфейсе), а не количеством предметов. При извлечении жидкости модуль будет работать только в том случае, если в целевом резервуаре находится $(italic)больше/$ жидкости, чем настроенное количество; при закачивании жидкости он будет работать только в том случае, если жидкости $(italic)меньше/$ настроенного количества."
     },
     {
       "type": "crafting",

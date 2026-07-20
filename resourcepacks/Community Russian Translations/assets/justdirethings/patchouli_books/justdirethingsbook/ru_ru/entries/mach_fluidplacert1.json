@@ -1,20 +1,20 @@
 {
-  "name": "Simple Fluid Placer",
+  "name": "Простой Размещатель Жидкостей",
   "sortnum": 15,
   "category": "justdirethings:machines",
   "icon": "justdirethings:fluidplacert1",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Simple Fluid Placer allows you to automate the placement of fluids in the world, much like its partner block the $(l:justdirethings:mach_blockplacert1)Simple Placer$(/l) does with blocks.$(br2)It has a slot in the UI for inserting buckets, or other fluid containing items like the Fluid Canister."
+      "text": "Простой Размещатель Жидкостей позволяет автоматизировать размещение жидкостей в мире, подобно тому, как его блок-партнер $(l:justdirethings:mach_blockplacert1)Простой Размещатель$(/l) делает это с блоками.$(br2)В его интерфейсе есть слот для вставки ведер или других предметов, содержащих жидкость, таких как Канистра для Жидкостей."
     },
     {
       "type": "patchouli:text",
-      "text": "On the left side of the UI is a fluid tank, indicating which fluid is stored in the machine. If more than 1,000mb of fluid are available, and there isn\u0027t already a fluid or block in front of the machine, it will place the fluid into the world."
+      "text": "В левой части интерфейса находится резервуар для жидкости, показывающий, какая жидкость хранится в машине. Если доступно более 1000 мБ жидкости, и перед машиной нет другой жидкости или блока, она разместит жидкость в мире."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Simple Fluid Placer",
+      "title": "Простой Размещатель Жидкостей",
       "recipe": "justdirethings:fluidplacert1"
     }
   ]

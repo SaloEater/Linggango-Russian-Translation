@@ -1,15 +1,15 @@
 {
-  "name": "Distributor Module",
+  "name": "Модуль Распределителя",
   "category": "modularrouters:modules",
   "icon": "modularrouters:distributor_module",
   "pages": [
     {
       "type": "text",
-      "text": "This is an extended version of the $(l:modules/sender_2)Sender Module Mk2/$, which can send items to multiple targets. $(thing)Sneak-right-click/$ an inventory to add it to the Distributor Module, and $(thing)Sneak-right-click/$ the inventory again to remove it.$(p)The Distributor Module can distribute to up to 8 targets."
+      "text": "Это расширенная версия $(l:modules/sender_2)Модуля Отправителя Mk2/$, который может отправлять предметы в несколько целей. $(thing)Нажмите ПКМ с Шифтом/$ по инвентарю, чтобы добавить его в Модуль Распределителя, и снова $(thing)нажмите ПКМ с Шифтом/$ по инвентарю, чтобы удалить его.$(p)Модуль Распределителя может распределять предметы до 8 целей."
     },
     {
       "type": "text",
-      "text": "A little extra control over distribution strategy is available via the GUI control on the right:$(li)$(bold)Round Robin/$ - distribute to each inventory in turn, as evenly as possible$(li)$(bold)Random/$ - pick one of the targets at random$(li)$(bold)Nearest/$ - always fill the closest target with space for the item$(li)$(bold)Furthest/$ - always fill the furthest target with space for the item"
+      "text": "Небольшой дополнительный контроль над стратегией распределения доступен через элемент управления графического интерфейса справа:$(li)$(bold)По кругу (Round Robin)/$ - распределяет по каждому инвентарю по очереди, максимально равномерно$(li)$(bold)Случайно (Random)/$ - выбирает одну из целей случайным образом$(li)$(bold)Ближайший (Nearest)/$ - всегда заполняет ближайшую цель, в которой есть место для предмета$(li)$(bold)Дальний (Furthest)/$ - всегда заполняет самую дальнюю цель, в которой есть место для предмета"
     },
     {
       "type": "crafting",

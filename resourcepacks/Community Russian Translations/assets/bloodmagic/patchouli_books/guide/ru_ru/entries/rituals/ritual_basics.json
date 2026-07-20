@@ -1,32 +1,32 @@
 {
-  "name": "Rituals - Getting Started",
+  "name": "Ритуалы - Начало работы",
   "icon": "bloodmagic:activationcrystalcreative",
   "category": "bloodmagic:rituals",
   "priority": "true",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Once you have gotten your $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l) to Tier 3, you can delve into the wonderful world of Rituals. $(br2)For working with rituals, you will require the following: $(li)An $(l:bloodmagic:rituals/activation_crystals)Activation Crystal$(). At tier 3 only the $(item)Weak Crystal$() is available. $(li)A $(item)Master Ritual Stone$(). Every ritual requires exactly one of these at its centre."
+      "text": "Как только ваш $(l:bloodmagic:altar/blood_altar)Кровавый Алтарь$(/l) достигнет 3-го уровня, вы сможете погрузиться в удивительный мир Ритуалов. $(br2)Для работы с ритуалами вам потребуется следующее: $(li) $(l:bloodmagic:rituals/activation_crystals)Кристалл Активации$(). На 3-м уровне доступен только $(item)Слабый Кристалл$(). $(li) $(item)Главный Ритуальный Камень$(). Каждый ритуал требует ровно один такой камень в своём центре."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Enough Ritual Stones to build the Ritual. $(li)(Recommended) A $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(). Although not required, it will make ritual construction significantly easier. $(br2)Building a ritual is relatively straightforward. Simply press [$(k:sneak)] + [$(k:use)] with the Ritual Diviner in hand until it displays the name of the desired ritual. Check the number of runes required by mousing over it in your"
+      "text": "$(li)Достаточно Ритуальных Камней для постройки Ритуала. $(li)(Рекомендуется) $(l:bloodmagic:rituals/ritual_diviner)Ритуальный Прорицатель$(). Хотя он и не обязателен, он значительно упростит постройку ритуала. $(br2)Постройка ритуала относительно проста. Просто нажмите [$(k:sneak)] + [$(k:use)], держа Ритуальный Прорицатель в руке, пока он не покажет название желаемого ритуала. Проверьте количество необходимых рун, наведя на него курсор в вашем"
     },
     {
       "type": "patchouli:text",
-      "text": "inventory and holding [$(k:sneak)]. $(br2)Place down a Master Ritual Stone, and hold [$(k:use)] until all the stones have been placed and painted with the correct element. Finally, press [$(k:use)] on the Master Ritual Stone with your Activation Crystal in hand. If you\u0027ve done everything right, you should get a message saying \u0027A rush of energy flows through the ritual!\u0027. The ritual is now active."
+      "text": "инвентаре и удерживая [$(k:sneak)]. $(br2)Установите Главный Ритуальный Камень и удерживайте [$(k:use)], пока все камни не будут размещены и окрашены правильным элементом. Наконец, нажмите [$(k:use)] на Главном Ритуальном Камне, держа в руке Кристалл Активации. Если вы всё сделали правильно, вы должны получить сообщение: 'Поток энергии пронзает ритуал!'. Ритуал теперь активен."
     },
     {
       "type": "patchouli:text",
-      "text": "If this does not occur, a few things may have gone wrong. If you instead get text saying \u0027You feel a push, but are too weak to complete this ritual\u0027, then you do not have enough $(blood)LP$() in your $(thing)Soul Network$() to activate the ritual. $(br2)If the message reads \u0027You feel that these runes are not configured correctly...\u0027, then something has gone wrong in the placement of the runes. Check the area for any blockages and try assembling the ritual again."
+      "text": "Если этого не произошло, возможно, что-то пошло не так. Если вместо этого вы получили сообщение: 'Вы чувствуете толчок, но слишком слабы, чтобы завершить этот ритуал', значит, у вас недостаточно $(blood)ОЖ$() в вашей $(thing)Сети Душ$() для активации ритуала. $(br2)Если сообщение гласит: 'Вы чувствуете, что эти руны настроены неправильно...', значит, что-то пошло не так при размещении рун. Проверьте область на наличие препятствий и попробуйте собрать ритуал снова."
     },
     {
       "type": "patchouli:text",
-      "text": "Remember that some rituals extend several blocks above and below the Master Ritual Stone. If you get no error, ensure that the activation crystal is bound to your soul network - this can be accomplished by pressing [$(k:use)] while holding it. $(br2) It is important to note that the crystal does not have to be bound to YOUR network - if you can get a hold of another player\u0027s crystal, you can activate rituals using their $(blood)LP$(). Guard yours well!"
+      "text": "Помните, что некоторые ритуалы простираются на несколько блоков выше и ниже Главного Ритуального Камня. Если вы не получили ошибок, убедитесь, что кристалл активации привязан к вашей сети душ — это можно сделать, нажав [$(k:use)], держа его в руке. $(br2)Важно отметить, что кристалл не обязательно должен быть привязан к ВАШЕЙ сети — если вы сможете заполучить кристалл другого игрока, вы сможете активировать ритуалы, используя их $(blood)ОЖ$(). Хорошо оберегайте свой!"
     },
     {
       "type": "patchouli:text",
-      "text": "one last note; all rituals respond to a $(fire)redstone$() signal, so sticking a lever on the side of the Master Ritual Stone is a good way to deactivate it. You can combine this knowledge with some of the information in $(l:bloodmagic:altar/redstone_automation)Redstone and Automation$() to ensure your rituals shut down automatically long before your $(thing)Soul Network$() runs dry."
+      "text": "И последнее замечание; все ритуалы реагируют на сигнал $(fire)редстоуна$(), поэтому установка рычага на боковой стороне Главного Ритуального Камня — хороший способ деактивировать его. Вы можете объединить эти знания с информацией из $(l:bloodmagic:altar/redstone_automation)Редстоун и Автоматизация$(), чтобы ваши ритуалы автоматически отключались задолго до того, как ваша $(thing)Сеть Душ$() иссякнет."
     }
   ]
 }

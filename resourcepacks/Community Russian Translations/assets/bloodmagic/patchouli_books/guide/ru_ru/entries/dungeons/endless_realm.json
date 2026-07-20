@@ -1,5 +1,5 @@
 {
-  "name": "The Endless Realm",
+  "name": "Бесконечное Царство",
   "icon": "bloodmagic:special_dungeon_seal",
   "category": "bloodmagic:dungeons",
   "extra_recipe_mappings": {
@@ -10,45 +10,45 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Much as with its little brother, the $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Edge of the Hidden Realm$() ritual, you can access the $(thing)Demon Realm$() proper with the $(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)Pathway to the Endless Realm$(). you will once again find yourself looking at an $(thing)Inversion Pillar$(). As with the $(thing)Antechamber$(), you\u0027ll find a simple loot chest left by a careless demon (or perhaps a less-lucky sanguimancer) and a number of doorways, alongside"
+      "text": "Подобно своему младшему брату, ритуалу $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Край Скрытого Царства$(), вы можете получить доступ к самому $(thing)Демоническому Царству$() с помощью ритуала $(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)Путь в Бесконечное Царство$(). Вы снова увидите перед собой $(thing)Столб Инверсии$(). Как и в $(thing)Прихожей$(), вы найдете простой сундук с добычей, оставленный небрежным демоном (или, возможно, менее удачливым сангвимантом), и несколько дверных проемов, а также"
     },
     {
       "type": "patchouli:text",
-      "text": "another Inversion Pillar to return you home. $(br2)These dungeon rooms will be filled with more fearsome foes than you found in the antechamber, and will have loot to match. Be sure to keep your eyes peeled for any $(thing)Spatial Distortions$(), as well as rare $(l:bloodmagic:dungeons/keys)keys$() such as the $(item)Foreman\u0027s Key$()."
+      "text": "еще один Столб Инверсии, чтобы вернуть вас домой. $(br2)Эти комнаты подземелья будут заполнены более грозными врагами, чем те, что вы нашли в прихожей, и добыча будет соответствующей. Обязательно следите за любыми $(thing)Пространственными Искажениями$(), а также за редкими $(l:bloodmagic:dungeons/keys)ключами$(), такими как $(item)Ключ Мастера$()."
     },
     {
       "type": "patchouli:text",
-      "text": "Spatial Distortions will announce themselves with a chat message - if you see one of these messages, it means the room you\u0027re in has a very special lock. Currently, it will be either the entrance to $(thing)The Mines$(), or the entrance to a small room containing $(thing)The Foreman\u0027s Key$(), which can be opened with an $(thing)Iron Key$(). The Mine entrance will always spawn before the key, so some backtracking might be needed. "
+      "text": "Пространственные Искажения будут объявлять о себе сообщением в чате — если вы увидите одно из таких сообщений, это означает, что в комнате, в которой вы находитесь, есть очень особый замок. В настоящее время это будет либо вход в $(thing)Шахты$(), либо вход в небольшую комнату, содержащую $(thing)Ключ Мастера$(), который можно открыть с помощью $(thing)Железного Ключа$(). Вход в Шахты всегда появляется раньше ключа, поэтому может потребоваться некоторое возвращение назад. "
     },
     {
       "type": "patchouli:image",
       "images": [
         "bloodmagic:images/entries/dungeon/mine_key.png"
       ],
-      "title": "The Foreman\u0027s Key",
+      "title": "Ключ Мастера",
       "border": true,
-      "text": "This door can be opened with an Iron Key, and hides the Foreman\u0027s Key behind it."
+      "text": "Эту дверь можно открыть Железным Ключом, и за ней скрывается Ключ Мастера."
     },
     {
       "type": "patchouli:image",
       "images": [
         "bloodmagic:images/entries/dungeon/mine_entrance.png"
       ],
-      "title": "The Mine Entrance",
+      "title": "Вход в Шахты",
       "border": true,
-      "text": "This door can only be opened with the Foreman\u0027s Key. You may need to backtrack!"
+      "text": "Эту дверь можно открыть только Ключом Мастера. Возможно, вам придется вернуться назад!"
     },
     {
       "type": "patchouli:text",
       "anchor": "mines",
-      "text": "The Foreman\u0027s Key will allow entrance into $(thing)The Mines$(), which is another step up in both difficulty and rewards. Along with $(l:bloodmagic:dungeons/demonite)Demonite Ore$(), which is essential for high tier $(l:bloodmagic:alchemy_table/potions)potioncrafting$() and $(l:bloodmagic:altar/blood_altar)the Tier-5 Blood Altar$() and its accompanying $(l:bloodmagic:altar/soul_network)Orb$(), you\u0027ll find scads of more mundane loot, enchanted weapons and tools, anointments, potions, and more."
+      "text": "Ключ Мастера позволит войти в $(thing)Шахты$(), что является еще одним шагом вперед как по сложности, так и по наградам. Наряду с $(l:bloodmagic:dungeons/demonite)Демонитовой Рудой$(), которая необходима для высокоуровневого $(l:bloodmagic:alchemy_table/potions)зельеварения$() и $(l:bloodmagic:altar/blood_altar)Алтарю Крови 5-го уровня$() с его сопутствующим $(l:bloodmagic:altar/soul_network)Шаром Душ$(), вы найдете множество более обыденной добычи, зачарованного оружия и инструментов, помазаний, зелий и многого другого."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:hellforgedparts",
-      "title": "Intricate Hellforged Parts",
+      "title": "Сложные Адские Детали",
       "anchor": "hellforged_parts",
-      "text": "Explore enough, and you may be lucky enough to find $(item)Intricate Hellforged Parts$(), which can be used to double the power of your existing $(item)Runes$(). It\u0027s like having two $(blood)Blood Altars$() in one!"
+      "text": "Исследуйте достаточно, и вам может посчастливиться найти $(item)Сложные Адские Детали$(), которые можно использовать для удвоения силы ваших существующих $(item)Рун$(). Это как иметь два $(blood)Алтарю Крови$() в одном!"
     }
   ]
 }

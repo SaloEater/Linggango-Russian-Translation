@@ -1,16 +1,16 @@
 {
-  "name": "Powder Manipulator",
+  "name": "Манипулятор Порошка",
   "icon": "naturesaura:powder_placer",
   "category": "naturesaura:devices",
   "advancement": "naturesaura:positive_imbalance",
   "pages": [
     {
       "type": "text",
-      "text": "Using $(l:effects/effect_powder)Effect Powder$() can prove to be quite useful when trying to inhibit or start certain $(thing)Aura Imbalance$() effects. The $(item)Powder Manipulator$() helps with this greatly: Placing a chest on any side of it and placing any kind of $(item)Effect Powder$() into it will cause it to, upon receiving a $(thing)redstone pulse$(), place that powder down in the world."
+      "text": "Использование $(l:effects/effect_powder)Порошка Эффектов$() может быть весьма полезным при попытке подавить или вызвать определённые эффекты $(thing)Дисбаланса Ауры$(). $(item)Манипулятор Порошка$() значительно помогает в этом: если установить сундук с любой стороны от него и поместить в него любой $(item)Порошок Эффектов$(), то при получении $(thing)редстоун-импульса$() он разместит этот порошок в мире."
     },
     {
       "type": "crafting",
-      "text": "Similarly, upon giving it another pulse, it will collect the powder that it has placed on top of it once again and deposit it in a nearby chest.",
+      "text": "Аналогично, при подаче ещё одного импульса, он снова соберёт порошок, который был размещён над ним, и поместит его в ближайший сундук.",
       "recipe": "naturesaura:powder_placer"
     }
   ]

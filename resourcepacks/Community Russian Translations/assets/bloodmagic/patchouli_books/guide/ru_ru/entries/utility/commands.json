@@ -1,17 +1,17 @@
 {
-  "name": "Commands",
+  "name": "Команды",
   "icon": "minecraft:command_block",
   "category": "bloodmagic:utility",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:command_block",
-      "title": "Commands",
-      "text": "for server admins and those with cheat mode enabled, $(6)Blood Magic$() now has some useful commands: $(li)$(l)/bloodmagic network \u003cusername\u003e add [amount]$() adds the given amount of LP to the listed player\u0027s $(l:bloodmagic:altar/soul_network)Soul Network$()$(li)$(l)/bloodmagic network \u003cusername\u003e query$() lists the current total for"
+      "title": "Команды",
+      "text": "для администраторов сервера и тех, у кого включен чит-режим, $(6)Кровавая Магия$() теперь имеет несколько полезных команд: $(li)$(l)/bloodmagic network <username> add [amount]$() добавляет указанное количество LP в $(l:bloodmagic:altar/soul_network)Сеть Душ$() указанного игрока$(li)$(l)/bloodmagic network <username> query$() показывает текущее общее количество для"
     },
     {
       "type": "patchouli:text",
-      "text": "that player\u0027s Soul Network (akin to using a $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$() bound to them)$(li)$(l)/bloodmagic network \u003cusername\u003e reset$() empties their Soul Network$(li)$(l)/bloodmagic network \u003cusername\u003e set [amount]$() sets the total LP in their soul network to the given amount."
+      "text": "Сети Душ этого игрока (подобно использованию $(l:bloodmagic:alchemy_array/sigil/divination)Сигила Предсказания$(), привязанного к нему)$(li)$(l)/bloodmagic network <username> reset$() очищает их Сеть Душ$(li)$(l)/bloodmagic network <username> set [amount]$() устанавливает общее количество LP в их Сети Душ на указанное значение."
     }
   ]
 }

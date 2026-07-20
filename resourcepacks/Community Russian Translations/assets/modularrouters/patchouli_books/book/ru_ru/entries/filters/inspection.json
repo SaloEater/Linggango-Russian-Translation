@@ -1,19 +1,19 @@
 {
-  "name": "Inspection Filter",
+  "name": "Фильтр проверки",
   "category": "modularrouters:filters",
   "icon": "modularrouters:inspection_filter",
   "pages": [
     {
       "type": "text",
-      "text": "This filter allows for matching of items by various miscellaneous integer properties of the item. The current inspections supported are:$(li)For fluid container items (buckets, tanks...), the fluid level as a percentage.$(li)For energy container items (batteries, powered tools...), the energy level as a percentage."
+      "text": "Этот фильтр позволяет сопоставлять предметы по различным дополнительным целочисленным свойствам предмета. В настоящее время поддерживаются следующие проверки:$(li)Для предметов-контейнеров для жидкостей (вёдра, цистерны и т.д.) — уровень жидкости в процентах.$(li)Для предметов-контейнеров для энергии (батареи, электрические инструменты и т.д.) — уровень энергии в процентах."
     },
     {
       "type": "text",
-      "text": "$(li)The highest enchantment level of enchantments on the item (can be used to filter out enchanted items, e.g. from a mob farm)$(li)The durability of items (tools, weapons) as a percentage of the max durability.$(li)For edible items, the food value as the number of half-shanks restored (e.g. steak has a value of 8)."
+      "text": "$(li)Наивысший уровень зачарования на предмете (может использоваться для отсеивания зачарованных предметов, например, из фермы мобов)$(li)Прочность предметов (инструментов, оружия) в процентах от максимальной прочности.$(li)Для съедобных предметов — пищевая ценность как количество восстановленных полу-иконок еды (например, стейк имеет ценность 8)."
     },
     {
       "type": "text",
-      "text": "For items which don\u0027t have the inspected property at all, the returned value will always be -1, e.g. a piece of $(item)Cobblestone/$ has a durability value of -1. This is distinct from a 0 return, since a tool with \u003c1% durability remaining would return a value of 0.$(p)This filter can be useful to automatically pull out damaged or discharged items for repair/recharging, etc."
+      "text": "Для предметов, у которых вообще нет проверяемого свойства, возвращаемое значение всегда будет -1, например, кусок $(item)Булыжника/$ имеет значение прочности -1. Это отличается от возврата 0, так как инструмент с оставшейся прочностью менее 1% вернет значение 0.$(p)Этот фильтр может быть полезен для автоматического извлечения поврежденных или разряженных предметов для ремонта/перезарядки и т.д."
     },
     {
       "type": "crafting",

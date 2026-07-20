@@ -1,23 +1,23 @@
 {
-  "name": "Soul Network",
+  "name": "Сеть Душ",
   "icon": "bloodmagic:weakbloodorb",
   "category": "bloodmagic:altar",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(thing)Soul Network$() is the network that connects your $(thing)Soul$() to all of your bound items, rituals and blocks. Functionally, it is a global storage of $(blood)LP$() unique to each player that can be added to and extracted from, using the player\u0027s bound items as an intermediary. When you first press [$(k:use)] with an item that can be bound to a $(thing)Soul Network$(), it will bind to you and will be labeled as"
+      "text": "$(thing)Сеть Душ$() — это сеть, которая соединяет вашу $(thing)Душу$() со всеми вашими привязанными предметами, ритуалами и блоками. Функционально, это глобальное хранилище $(blood)ОЖ$(), уникальное для каждого игрока, в которое можно добавлять и из которого можно извлекать, используя привязанные предметы игрока в качестве посредника. Когда вы впервые нажимаете [$(k:use)] с предметом, который может быть привязан к $(thing)Сети Душ$(), он привяжется к вам и будет помечен как"
     },
     {
       "type": "patchouli:text",
-      "text": "being \"owned\" by you. As such, any action that the item does that has an $(blood)LP cost$() will drain from your $(thing)Soul Network$(). In some cases, if the item cannot get its $(blood)LP$() from the $(thing)Soul Network$(), it will instead directly take the $(blood)LP$() cost from your health.$(br2)in other cases (such as when an ongoing $(thing)Ritual$() drains your network completely), they will merely cause unceasing nausea until either the Ritual is deactivated or your $(thing)Soul Network$() is re-filled. "
+      "text": "«принадлежащий» вам. Таким образом, любое действие предмета, имеющее $(blood)стоимость ОЖ$(), будет расходовать $(blood)ОЖ$() из вашей $(thing)Сети Душ$(). В некоторых случаях, если предмет не может получить свои $(blood)ОЖ$() из $(thing)Сети Душ$(), он вместо этого напрямую заберет $(blood)стоимость ОЖ$() из вашего здоровья.$(br2)В других случаях (например, когда текущий $(thing)Ритуал$() полностью истощает вашу сеть), они будут просто вызывать непрекращающуюся тошноту до тех пор, пока Ритуал не будет деактивирован или ваша $(thing)Сеть Душ$() не будет пополнена. "
     },
     {
       "type": "patchouli:text",
-      "text": "In order to fill your $(thing)Soul Network$(), you will need to construct a $(item)Blood Orb$(). $(br2)Blood Orbs can be charged with $(blood)LP$() in one of two ways. $(li)A player can sacrifice 1 heart of health by pressing [$(k:use)] with the $(item)Blood Orb$(), providing the bound $(thing)Soul Network$() with $(blood)200 LP$(). $(li)The $(item)Blood Orb$() can be placed inside a $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l) with some $(blood)Life Essence$() in it. The Orb will absorb it as fast as it can, limited by your Altar\u0027s $(item)Speed Runes$()."
+      "text": "Чтобы заполнить вашу $(thing)Сеть Душ$(), вам понадобится создать $(item)Кровавый Шар$(). $(br2)Кровавые Шары можно заряжать $(blood)ОЖ$() одним из двух способов. $(li)Игрок может пожертвовать 1 сердце здоровья, нажав [$(k:use)] с $(item)Кровавым Шаром$(), обеспечивая привязанную $(thing)Сеть Душ$() $(blood)200 ОЖ$(). $(li)$(item)Кровавый Шар$() можно поместить в $(l:bloodmagic:altar/blood_altar)Кровавый Алтарь$(/l) с некоторым количеством $(blood)Жизненной Эссенции$() внутри. Шар будет поглощать её так быстро, как только сможет, что ограничено $(item)Рунами Скорости$() вашего Алтаря."
     },
     {
       "type": "patchouli:text",
-      "text": "There is a separate $(item)Blood Orb$() that can be created for each Tier of the $(item)Blood Altar$(). Their recipes are documented overleaf. $(li)$(item)Weak Blood Orb$() - Max capacity: $(blood)5k LP$(). $(li)$(item)Apprentice Blood Orb$() - Max capacity: $(blood)25k LP$(). $(li)$(item)Magician Blood Orb$() - Max capacity: $(blood)150k LP$(). $(li)$(item)Master Blood Orb$() - Max capacity: $(blood)1M LP$(). $(li)$(item)Archmage Blood Orb$() - Max capacity: $(blood)10M LP$()."
+      "text": "Для каждого уровня $(item)Кровавого Алтаря$() можно создать отдельный $(item)Кровавый Шар$(). Их рецепты задокументированы на следующей странице. $(li)$(item)Слабый Кровавый Шар$() - Макс. вместимость: $(blood)5k ОЖ$(). $(li)$(item)Кровавый Шар Ученика$() - Макс. вместимость: $(blood)25k ОЖ$(). $(li)$(item)Кровавый Шар Мага$() - Макс. вместимость: $(blood)150k ОЖ$(). $(li)$(item)Кровавый Шар Мастера$() - Макс. вместимость: $(blood)1M ОЖ$(). $(li)$(item)Кровавый Шар Архимага$() - Макс. вместимость: $(blood)10M ОЖ$()."
     },
     {
       "type": "bloodmagic:2x_crafting_altar",
@@ -37,7 +37,7 @@
       "type": "bloodmagic:crafting_altar",
       "heading": "Archmage Blood Orb",
       "recipe": "bloodmagic:altar/archmagebloodorb",
-      "text": "If that\u0027s still not enough $(blood)LP storage$() for you, consider using $(l:bloodmagic:altar/blood_rune/orb_rune)Runes of the Orb$()."
+      "text": "Если этого всё ещё недостаточно для $(blood)хранения ОЖ$(), рассмотрите возможность использования $(l:bloodmagic:altar/blood_rune/orb_rune)Рун Шара$()."
     }
   ]
 }

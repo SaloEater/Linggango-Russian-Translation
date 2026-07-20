@@ -1,15 +1,15 @@
 {
-  "name": "Energy Distributor Module",
+  "name": "Модуль Распределителя Энергии",
   "category": "modularrouters:modules",
   "icon": "modularrouters:energy_distributor_module",
   "pages": [
     {
       "type": "text",
-      "text": "This module is like a combination of an $(l:modules/energy_output)Energy Output/$ and a $(l:modules/distributor)Distributor/$ Module, in that it can wirelessly distribute FE (Forge Energy) to up to 8 nearby energy-accepting blocks.$(p)$(thing)Sneak-right-click/$ a block to add it to the Energy Distributor Module, and $(thing)Sneak-right-click/$ the block again to remove it."
+      "text": "Этот модуль похож на комбинацию $(l:modules/energy_output)Модуля Вывода Энергии/$ и $(l:modules/distributor)Модуля Распределителя/$, поскольку он может беспроводным образом распределять FE (Forge Energy) до 8 ближайших блоков, принимающих энергию.$(p)$(thing)Присядьте и нажмите ПКМ/$ по блоку, чтобы добавить его в Модуль Распределителя Энергии, и $(thing)Присядьте и нажмите ПКМ/$ по блоку снова, чтобы удалить его."
     },
     {
       "type": "text",
-      "text": "Like the $(l:modules/energy_output)Energy Output Module/$, this module can extract energy from either the router\u0027s internal energy buffer (if any $(l:upgrades/energy)Energy Upgrades/$ are installed) or from an energy-containing item in the router\u0027s item buffer. The internal energy buffer is used by preference."
+      "text": "Как и $(l:modules/energy_output)Модуль Вывода Энергии/$, этот модуль может извлекать энергию либо из внутреннего энергетического буфера маршрутизатора (если установлены какие-либо $(l:upgrades/energy)Улучшения Энергии/$), либо из предмета, содержащего энергию, в буфере предметов маршрутизатора. Внутренний энергетический буфер используется в первую очередь."
     },
     {
       "type": "crafting",

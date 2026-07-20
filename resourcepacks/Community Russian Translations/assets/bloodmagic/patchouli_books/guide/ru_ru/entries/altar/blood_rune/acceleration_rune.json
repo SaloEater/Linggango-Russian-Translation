@@ -1,11 +1,11 @@
 {
-  "name": "Acceleration Rune",
+  "name": "Руна Ускорения",
   "icon": "bloodmagic:accelerationrune",
   "category": "bloodmagic:altar/blood_rune",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(item)Acceleration Rune$() increases the rate of a couple operations. While normally the operations of the $(l:bloodmagic:altar/blood_rune/charging_rune)Charging Rune$(/l) and $(l:bloodmagic:altar/blood_rune/dislocation_rune)Displacement Rune$(/l) occur every 20 ticks, one tick of the delay is removed per rune, down to a minimum of 1 operation per tick."
+      "text": "$(item)Руна Ускорения$() увеличивает скорость нескольких операций. В то время как обычно операции $(l:bloodmagic:altar/blood_rune/charging_rune)Руны Зарядки$(/l) и $(l:bloodmagic:altar/blood_rune/dislocation_rune)Руны Перемещения$(/l) происходят каждые 20 тиков, один тик задержки удаляется за каждую руну, вплоть до минимума в 1 операцию за тик."
     },
     {
       "type": "patchouli:crafting",
@@ -14,12 +14,12 @@
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:blood_rune_acceleration_2",
-      "text": "With some $(item)Netherite Scrap$() and some $(item)Intricate Hellforged Parts$() looted from the $(l:bloodmagic:dungeons/endless_realm)Demon Realm$(), you can double the power of your $(item)Acceleration Rune$(), removing two ticks per rune instead of one, freeing up other slots around your altar."
+      "text": "Используя $(item)Незеритовые Обломки$() и $(item)Сложные Адские Детали$(), добытые в $(l:bloodmagic:dungeons/endless_realm)Царстве Демонов$(), вы можете удвоить силу вашей $(item)Руны Ускорения$(), удаляя два тика за руну вместо одного, тем самым освобождая другие слоты вокруг вашего алтаря."
     },
     {
       "type": "bloodmagic:crafting_arc",
       "recipe": "bloodmagic:arc/reversion/acceleration",
-      "text": "If you change your mind, you can undo the recipe in the ARC."
+      "text": "Если вы передумаете, вы можете отменить рецепт в АРК."
     }
   ]
 }

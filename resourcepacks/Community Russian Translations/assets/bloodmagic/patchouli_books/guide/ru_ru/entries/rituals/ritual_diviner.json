@@ -1,38 +1,38 @@
 {
-  "name": "The Ritual Diviner",
+  "name": "Ритуальный Прорицатель",
   "icon": "bloodmagic:ritualdiviner",
   "category": "bloodmagic:rituals",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Crafting rituals is an intricate business; Even if you have the correct $(item)Inscription Tools$(), you can\u0027t just slap runic inscriptions down any old how and expect things to happen. Luckily, the $(item)Ritual Diviner$() is here to help. $(br2)Hold [$(k:sneak)] and press [$(k:use)] or [$(k:attack)] to cycle through the avaliable rituals in either direction."
+      "text": "Создание ритуалов — дело непростое; даже если у вас есть правильные $(item)Инструменты для Начертания$(), вы не можете просто так наносить рунические надписи и ожидать, что что-то произойдет. К счастью, $(item)Ритуальный Прорицатель$() здесь, чтобы помочь. $(br2)Удерживайте [$(k:sneak)] и нажмите [$(k:use)] или [$(k:attack)], чтобы переключаться между доступными ритуалами в любом направлении."
     },
     {
       "type": "patchouli:text",
-      "text": "you can also change the direction that the completed ritual will face by pressing [$(k:use)]. This will only affect a small number of rituals, such as the $(l:bloodmagic:rituals/ritual_list/ritual_speed)Ritual of Speed$(), as most rituals are symmetrical."
+      "text": "Вы также можете изменить направление, в котором будет обращен завершенный ритуал, нажав [$(k:use)]. Это повлияет лишь на небольшое количество ритуалов, таких как $(l:bloodmagic:rituals/ritual_list/ritual_speed)Ритуал Скорости$(), поскольку большинство ритуалов симметричны."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:ritual_diviner_0",
-      "text": "simply tap [$(k:use)] while looking at a $(item)Master Ritual Stone$() to make the Diviner build the currently selected ritual out of any $(item)Ritual Stones$() you may be carrying. It\u0027s almost like magic!"
+      "text": "Просто нажмите [$(k:use)], глядя на $(item)Камень Главного Ритуала$(), чтобы Прорицатель построил выбранный в данный момент ритуал из любых $(item)Ритуальных Камней$(), которые вы, возможно, несете. Это почти как магия!"
     },
     {
       "type": "patchouli:text",
-      "text": "The Ritual Diviner can break replaceable blocks (like tall grass, snow, etc), but not solid ones such as stone or dirt, so make sure the area is clear before you commence construction, or the $(l:bloodmagic:rituals/activation_crystals)Activation Crystal$() will be unable to do its job. $(br2)It\u0027s also worth noting that the base ritual diviner can only create some of the more basic rituals. If you want the most out of your diviner, you\u0027ll have to upgrade it with $(dusk)Dusk Inscription Tools$()."
+      "text": "Ритуальный Прорицатель может ломать заменяемые блоки (такие как высокая трава, снег и т.д.), но не твердые, такие как камень или земля, поэтому убедитесь, что область чиста, прежде чем начинать строительство, иначе $(l:bloodmagic:rituals/activation_crystals)Кристалл Активации$() не сможет выполнить свою работу. $(br2)Также стоит отметить, что базовый ритуальный прорицатель может создавать только некоторые из более простых ритуалов. Если вы хотите получить максимум от своего прорицателя, вам придется улучшить его с помощью $(dusk)Сумеречных Инструментов для Начертания$()."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:ritual_diviner_1",
       "anchor": "dusk",
-      "text": "Unlike the Elemental Inscription Tools, the Ritual Diviner and Ritual Diviner [Dusk] will never run out."
+      "text": "В отличие от Элементарных Инструментов для Начертания, Ритуальный Прорицатель и Ритуальный Прорицатель [Сумерки] никогда не закончатся."
     },
     {
       "type": "patchouli:text",
-      "text": "The base Ritual Diviner requires one of each $(item)Elemental Inscription Tool$() for its construction, and thus a tier 3 $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l). $(br2)The four base Elemental Inscription Tools can be crafted in your Altar for $(blood)1,000 LP$() each, as defined on the following pages. The Ritual Diviner [Dusk] similarly requires a Tier 4 Altar to make two Dusk Elemental Inscription Tools, at a cost of $(blood)2,000 LP$() each."
+      "text": "Базовый Ритуальный Прорицатель требует по одному $(item)Элементарному Инструменту для Начертания$() для своего создания, и, следовательно, $(l:bloodmagic:altar/blood_altar)Кровавый Алтарь$(/l) третьего уровня. $(br2)Четыре базовых Элементарных Инструмента для Начертания могут быть созданы в вашем Алтаре за $(blood)1,000 LP$() каждый, как описано на следующих страницах. Ритуальный Прорицатель [Сумерки] аналогично требует Алтарь четвертого уровня для создания двух Сумеречных Элементарных Инструментов для Начертания, стоимостью $(blood)2,000 LP$() каждый."
     },
     {
       "type": "patchouli:text",
-      "text": "You can also use these tools to inscribe runes by hand, but this should only seriously be used for decorative purposes, as it is both slow and inaccurate."
+      "text": "Вы также можете использовать эти инструменты для начертания рун вручную, но это следует использовать только в декоративных целях, так как это медленно и неточно."
     },
     {
       "type": "bloodmagic:2x_crafting_altar",

@@ -1,11 +1,11 @@
 {
-  "name": "Detector Module",
+  "name": "Модуль Детектора",
   "category": "modularrouters:modules",
   "icon": "modularrouters:detector_module",
   "pages": [
     {
       "type": "text",
-      "text": "This module doesn\u0027t actually manipulate items, but instead detects specific items in the router\u0027s buffer. If the buffer contents are matched by the module\u0027s filter, it will make the router emit a redstone signal in the $(l:intro/modules#direction)configured direction/$.$(p)The signal level (default: 15) and signal type (default: weak) can be adjusted via the module GUI."
+      "text": "Этот модуль на самом деле не манипулирует предметами, а вместо этого обнаруживает определённые предметы в буфере маршрутизатора. Если содержимое буфера соответствует фильтру модуля, он заставит маршрутизатор испускать сигнал красного камня в $(l:intro/modules#direction)настроенном направлении/$.$(p)Уровень сигнала (по умолчанию: 15) и тип сигнала (по умолчанию: слабый) можно настроить через графический интерфейс модуля."
     },
     {
       "type": "crafting",

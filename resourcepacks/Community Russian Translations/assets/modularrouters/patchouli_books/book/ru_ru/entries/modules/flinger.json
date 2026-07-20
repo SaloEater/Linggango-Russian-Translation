@@ -1,15 +1,15 @@
 {
-  "name": "Flinger Module",
+  "name": "Модуль-выбрасыватель",
   "category": "modularrouters:modules",
   "icon": "modularrouters:flinger_module",
   "pages": [
     {
       "type": "text",
-      "text": "This module behaves like the $(l:modules/dropper)Dropper Module/$, except that it also imparts a configurable velocity to the dropped item, potentially throwing the item a considerable distance. You can adjust the item\u0027s speed, pitch and yaw via the module\u0027s GUI.$(li)Pitch and Yaw are in degrees, relative to a base pitch or yaw."
+      "text": "Этот модуль работает как $(l:modules/dropper)Модуль-выбрасыватель/$, за исключением того, что он также придает настраиваемую скорость выброшенному предмету, потенциально отбрасывая его на значительное расстояние. Вы можете настроить скорость, тангаж и рыскание предмета через графический интерфейс модуля.$(li)Тангаж и рыскание указываются в градусах относительно базового тангажа или рыскания."
     },
     {
       "type": "text",
-      "text": "$(li)If the module ejects Up or Down, the base pitch is +90° or -90°, respectively. Otherwise, the base pitch is 0°.$(li)If the module ejects Up or Down, the base yaw is the router\u0027s facing direction. Otherwise the base yaw is taken from the module\u0027s direction.$(li)Example: a speed of 1.0, pitch/yaw of 0°, and a horizontal module direction, will throw an item along the ground for a distance of about 7 blocks."
+      "text": "$(li)Если модуль выбрасывает предмет вверх или вниз, базовый тангаж составляет +90° или -90° соответственно. В противном случае базовый тангаж равен 0°.$(li)Если модуль выбрасывает предмет вверх или вниз, базовое рыскание соответствует направлению, в котором смотрит маршрутизатор. В противном случае базовое рыскание берется из направления модуля.$(li)Пример: скорость 1.0, тангаж/рыскание 0° и горизонтальное направление модуля выбросят предмет по земле на расстояние около 7 блоков."
     },
     {
       "type": "crafting",

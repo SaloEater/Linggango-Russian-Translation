@@ -6,22 +6,22 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A powerful ritual of death that destroys all living things in its domain. The Ritual of Culling silently kills entities within its range, adding their life force to your Blood Altar."
+      "text": "Мощный ритуал смерти, который уничтожает все живое в своей области. Ритуал Забоя бесшумно убивает сущностей в своем радиусе действия, добавляя их жизненную силу в ваш Кровавый Алтарь."
     },
     {
       "type": "patchouli:text",
-      "title": "Costs \u0026 Details",
-      "text": "$(bold)Activation:$() 50000 LP$(br)$(bold)Refresh:$() 75 LP per entity$(br)$(bold)Refresh Time:$() 25 ticks$(br2)$(bold)Effect Range:$() 21x21x10 blocks; configurable$(br)$(italic)Horizontal:$() 10 blocks radius$(br)$(italic)Vertical:$() 10 blocks upward from 1 block above ritual stone$(br)$(bold)Altar Range:$() Searches 11x21x11 for a Blood Altar$(br2)Each kill provides 200 LP (configurable) to the altar. Works on all non-boss entities."
+      "title": "Затраты и Детали",
+      "text": "$(bold)Активация:$() 50000 LP$(br)$(bold)Обновление:$() 75 LP за сущность$(br)$(bold)Время обновления:$() 25 тиков$(br2)$(bold)Радиус действия:$() 21x21x10 блоков; настраиваемо$(br)$(italic)Горизонтально:$() 10 блоков радиус$(br)$(italic)Вертикально:$() 10 блоков вверх от 1 блока над ритуальным камнем$(br)$(bold)Радиус Алтаря:$() Ищет Кровавый Алтарь в области 11x21x11$(br2)Каждое убийство дает 200 LP (настраиваемо) алтарю. Работает на всех сущностях, кроме боссов."
     },
     {
       "type": "patchouli:text",
-      "title": "Boss Killing",
-      "text": "$(bold)Boss Entities:$()$(br)Can kill boss entities with sufficient $(will)Destructive Will$()!$(br2)$(li)Requires 99+ Destructive Will$(li)Extra LP cost (configurable)$(li)Makes bosses vulnerable$(br2)$(bold)Protection:$() Entities tagged $(#888888)animus:disallow_culling$() cannot be killed."
+      "title": "Убийство Боссов",
+      "text": "$(bold)Сущности-боссы:$()$(br)Может убивать сущностей-боссов при наличии достаточной $(will)Разрушительной Воли$()!$(br2)$(li)Требует 99+ Разрушительной Воли$(li)Дополнительная стоимость LP (настраиваемо)$(li)Делает боссов уязвимыми$(br2)$(bold)Защита:$() Сущности, помеченные тегом $(#888888)animus:disallow_culling$(), не могут быть убиты."
     },
     {
       "type": "patchouli:text",
-      "title": "Will \u0026 TNT",
-      "text": "$(bold)Demon Will:$() Generates $(will)Destructive Will$() from kills (3%% chance per cycle, max 100 will).$(br2)$(bold)TNT Destruction:$() If configured, this ritual can also destroy Primed TNT entities, making it useful for defense.$(br2)$(italic)With great power comes great responsibility.$()"
+      "title": "Воля и ТНТ",
+      "text": "$(bold)Воля Демона:$() Генерирует $(will)Разрушительную Волю$() от убийств (3%% шанс за цикл, макс. 100 воли).$(br2)$(bold)Уничтожение ТНТ:$() Если настроено, этот ритуал также может уничтожать активированные сущности ТНТ, что делает его полезным для защиты.$(br2)$(italic)С большой силой приходит большая ответственность.$()"
     }
   ]
 }

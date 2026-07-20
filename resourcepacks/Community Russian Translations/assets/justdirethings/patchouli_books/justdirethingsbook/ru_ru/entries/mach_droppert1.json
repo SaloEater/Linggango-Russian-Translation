@@ -1,24 +1,24 @@
 {
-  "name": "Simple Dropper",
+  "name": "Простой Выбрасыватель",
   "sortnum": 11,
   "category": "justdirethings:machines",
   "icon": "justdirethings:droppert1",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Simple Dropper is designed to drop items into the world.$(br2)The direction button changes the direction in which items are dropped - by default this is \u0027downwards\u0027 like a normal dropper. Keep in mind that it\u0027ll drop in the block space that the dropper is facing."
+      "text": "Простой Выбрасыватель предназначен для выбрасывания предметов в мир.$(br2)Кнопка направления изменяет направление, в котором выбрасываются предметы — по умолчанию это 'вниз', как у обычного выбрасывателя. Имейте в виду, что он будет выбрасывать предметы в то блочное пространство, куда направлен выбрасыватель."
     },
     {
       "type": "patchouli:text",
-      "text": "The number button on this screen controls the stack size thats dropped.$(br2)By default this is 1, meaning 1 item at a time will be dropped, but increasing it will mean more items will be dropped at a time.$(br2)When set to 64, it\u0027ll drop an entire stack at once.$(br2)Note: When set to 64, it doesn\u0027t NEED to have 64 items to drop, it\u0027ll just drop as many as it has."
+      "text": "Кнопка с числом на этом экране контролирует размер стака, который выбрасывается.$(br2)По умолчанию это 1, что означает, что будет выбрасываться 1 предмет за раз, но увеличение этого значения будет означать, что за раз будет выбрасываться больше предметов.$(br2)При установке на 64, он выбросит весь стак за раз.$(br2)Примечание: При установке на 64, ему НЕ ОБЯЗАТЕЛЬНО иметь 64 предмета для выбрасывания, он просто выбросит столько, сколько у него есть."
     },
     {
       "type": "patchouli:text",
-      "text": "The \u0027pickup delay\u0027 button on this screen controls the pickup delay applied to the items dropped.$(br2)By default in minecraft, when you drop an item on the ground, theres a short period of time before you can pick it up again. This button controls that delay for items dropped by the dropper.$(br2)The default is 0, meaning items can be picked up immediately."
+      "text": "Кнопка 'задержка подбора' на этом экране контролирует задержку подбора, применяемую к выброшенным предметам.$(br2)По умолчанию в Minecraft, когда вы выбрасываете предмет на землю, есть короткий промежуток времени, прежде чем вы сможете подобрать его снова. Эта кнопка контролирует эту задержку для предметов, выброшенных выбрасывателем.$(br2)По умолчанию это 0, что означает, что предметы можно подобрать немедленно."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Simple Dropper",
+      "title": "Простой Выбрасыватель",
       "recipe": "justdirethings:droppert1"
     }
   ]

@@ -1,27 +1,27 @@
 {
-  "name": "Fluid Module Mk1",
+  "name": "Жидкостный Модуль Mk1",
   "category": "modularrouters:modules",
   "icon": "modularrouters:fluid_module",
   "pages": [
     {
       "type": "text",
-      "text": "While Routers can\u0027t handle fluids directly (they don\u0027t have an internal tank), they can manipulate fluids if there is a (single) fluid container item in the buffer. This includes buckets and any fluid containers added by other mods."
+      "text": "Хотя Маршрутизаторы не могут напрямую работать с жидкостями (у них нет внутреннего резервуара), они могут манипулировать жидкостями, если в буфере находится (один) предмет-контейнер для жидкости. Это включает в себя вёдра и любые контейнеры для жидкости, добавленные другими модами."
     },
     {
       "type": "text",
-      "text": "The Fluid Module\u0027s GUI allows the transfer direction to be set:$(li)$(bold)Transfer To Router/$ means the router will try to pull fluids from an adjacent block (either a fluid in the world or a fluid-holding block) into a fluid-holding item in the buffer.$(li)$(bold)Transfer From Router/$ means the router will try to push fluids from a fluid-holding item in the buffer to the world; either pouring fluid out, or putting fluid into an adjacent tank."
+      "text": "Графический интерфейс Жидкостного Модуля позволяет установить направление передачи:$(li)$(bold)Передача в Маршрутизатор/$ означает, что маршрутизатор будет пытаться вытягивать жидкости из соседнего блока (либо жидкость в мире, либо блок, содержащий жидкость) в предмет-контейнер для жидкости в буфере.$(li)$(bold)Передача из Маршрутизатора/$ означает, что маршрутизатор будет пытаться выталкивать жидкости из предмета-контейнера для жидкости в буфере в мир; либо выливая жидкость, либо помещая жидкость в соседний резервуар."
     },
     {
       "type": "text",
-      "text": "The GUI also allows the maximum transfer rate to be set. Note this is the maximum that will be $(italic)attempted/$, and is still limited by the Router\u0027s overall transfer rate, which is 1 bucket per second, and the transfer rate of the external fluid or fluid container.$(p)The Fluid Module\u0027s filter slots will only accept fluid-containing items, and will filter by the contained fluid, not by the container item."
+      "text": "Графический интерфейс также позволяет установить максимальную скорость передачи. Обратите внимание, что это максимальная скорость, которая будет $(italic)попытана/$, и она по-прежнему ограничена общей скоростью передачи Маршрутизатора, которая составляет 1 ведро в секунду, а также скоростью передачи внешней жидкости или контейнера для жидкости.$(p)Слоты фильтра Жидкостного Модуля будут принимать только предметы, содержащие жидкость, и будут фильтровать по содержащейся жидкости, а не по предмету-контейнеру."
     },
     {
       "type": "text",
-      "text": "Adding $(l:upgrades/speed)Speed Upgrades/$ will not transfer fluids any faster, only more often. A Router with 9 speed upgrades will still only transfer 1 bucket per second, just more often and in smaller quantities. To increase the overall transfer rate, add $(l:upgrades/fluid)Fluid Transfer Upgrades/$.$(p)Be very careful tinkering with Fluid Module settings if the router holds any dangerous fluids, such as a lava bucket. The router will not hesitate to pour lava over you if you get it wrong..."
+      "text": "Добавление $(l:upgrades/speed)Улучшений Скорости/$ не ускорит передачу жидкостей, а лишь сделает её чаще. Маршрутизатор с 9 улучшениями скорости по-прежнему будет передавать только 1 ведро в секунду, просто чаще и меньшими порциями. Чтобы увеличить общую скорость передачи, добавьте $(l:upgrades/fluid)Улучшения Передачи Жидкости/$.$(p)Будьте очень осторожны при настройке Жидкостного Модуля, если маршрутизатор содержит опасные жидкости, такие как ведро лавы. Маршрутизатор без колебаний выльет на вас лаву, если вы ошибетесь..."
     },
     {
       "type": "text",
-      "text": "Note that you can also connect fluid pipes from other mods to a router, $(bold)if/$ the buffer has a fluid container in it, and pump fluids in and out of the router; fluids will be directed to/from the container item.$(p)You $(italic)don\u0027t/$ need a Fluid Module installed to do this; Fluid Modules are only required if you want to actively push or pull fluids."
+      "text": "Обратите внимание, что вы также можете подключать жидкостные трубы из других модов к маршрутизатору, $(bold)если/$ в буфере есть контейнер для жидкости, и перекачивать жидкости в маршрутизатор и из него; жидкости будут направляться к/от предмета-контейнера.$(p)Вам $(italic)не/$ нужен установленный Жидкостный Модуль для этого; Жидкостные Модули требуются только в том случае, если вы хотите активно выталкивать или вытягивать жидкости."
     },
     {
       "type": "crafting",

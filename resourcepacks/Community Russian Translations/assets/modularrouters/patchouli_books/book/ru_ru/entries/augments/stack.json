@@ -1,15 +1,15 @@
 {
-  "name": "Stack Augment",
+  "name": "Улучшение стака",
   "category": "modularrouters:augments",
   "icon": "modularrouters:stack_augment",
   "pages": [
     {
       "type": "text",
-      "text": "This module can be added to any module which handles $(italic)items/$ (as opposed to $(italic)blocks/$, $(italic)fluids/$ or $(italic)energy/$).$(p)Adding Stack Augments to a module increases the number of items it can process per tick; each Stack Augment doubles the number of items, up to a maximum of the item\u0027s natural stack size (64 for most items)."
+      "text": "Этот модуль можно добавить к любому модулю, который работает с $(italic)предметами/$ (в отличие от $(italic)блоков/$, $(italic)жидкостей/$ или $(italic)энергии/$).$(p)Добавление улучшений стака к модулю увеличивает количество предметов, которые он может обрабатывать за такт; каждое улучшение стака удваивает количество предметов, вплоть до максимального естественного размера стака предмета (64 для большинства предметов)."
     },
     {
       "type": "text",
-      "text": "If the $(l:router/modular_router)router/$ also has $(l:upgrades/stack)Stack Upgrades/$ installed, the module\u0027s Stack Augments will override that; e.g. if a router has 6 Stack Upgrades, and a module has 2 Stack Augments, the module will process 4 items per tick, not 64."
+      "text": "Если $(l:router/modular_router)маршрутизатор/$ также имеет установленные $(l:upgrades/stack)улучшения стака/$, улучшения стака модуля будут иметь приоритет над ними; например, если маршрутизатор имеет 6 улучшений стака, а модуль имеет 2 улучшения стака, модуль будет обрабатывать 4 предмета за такт, а не 64."
     },
     {
       "type": "crafting",

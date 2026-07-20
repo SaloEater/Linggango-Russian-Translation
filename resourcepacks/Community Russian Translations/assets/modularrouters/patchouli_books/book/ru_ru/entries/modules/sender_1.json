@@ -1,11 +1,11 @@
 {
-  "name": "Sender Module Mk1",
+  "name": "Модуль Отправителя Mk1",
   "category": "modularrouters:modules",
   "icon": "modularrouters:sender_module_1",
   "pages": [
     {
       "type": "text",
-      "text": "This module tries to send an item from the router\u0027s buffer to an inventory in the module\u0027s $(l:intro/modules#direction)configured direction/$:$(li)The target inventory can be up to 8 blocks away (up to 16 with $(l:augments/range_up)Range Up Augments/$)$(li)The target inventory $(italic)must/$ be directly along the X, Y, or Z axis.$(li)The router $(italic)must/$ have clear line of sight to the target; no opaque blocks, but blocks such as glass, fences, iron bars etc. are OK."
+      "text": "Этот модуль пытается отправить предмет из буфера маршрутизатора в инвентарь в $(l:intro/modules#direction)настроенном направлении/$:$(li)Целевой инвентарь может находиться на расстоянии до 8 блоков (до 16 с $(l:augments/range_up)Улучшениями Дальности/$)$(li)Целевой инвентарь $(italic)должен/$ находиться строго вдоль оси X, Y или Z.$(li)Маршрутизатор $(italic)должен/$ иметь прямую видимость до цели; никаких непрозрачных блоков, но такие блоки, как стекло, заборы, железные решетки и т.д., допустимы."
     },
     {
       "type": "crafting",

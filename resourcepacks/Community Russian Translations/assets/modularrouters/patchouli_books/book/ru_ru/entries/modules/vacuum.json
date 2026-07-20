@@ -1,15 +1,15 @@
 {
-  "name": "Vacuum Module",
+  "name": "Вакуумный модуль",
   "category": "modularrouters:modules",
   "icon": "modularrouters:vacuum_module",
   "pages": [
     {
       "type": "text",
-      "text": "This module scans for dropped items in a 13x13x13 cubic area around the router (i.e. up to 6 blocks in each direction), and absorbs them into the router\u0027s buffer, if possible.$(p)The range can be increased up to 25x25x25 (12 blocks in each direction) with $(l:augments/range_up)Range Up Augments/$, or shrunk to just 3x3x3 with $(l:augments/range_down)Range Down Augments/$."
+      "text": "Этот модуль сканирует выброшенные предметы в кубической области 13x13x13 вокруг маршрутизатора (т.е. до 6 блоков в каждом направлении) и поглощает их в буфер маршрутизатора, если это возможно.$(p)Диапазон может быть увеличен до 25x25x25 (12 блоков в каждом направлении) с помощью $(l:augments/range_up)Улучшений дальности/$, или уменьшен до 3x3x3 с помощью $(l:augments/range_down)Улучшений уменьшения дальности/$."
     },
     {
       "type": "text",
-      "text": "The scanned area is centered on the router if the module\u0027s $(l:intro/modules#direction)configured direction/$ is $(bold)All/$ (the default).$(p)If the module has an actual direction configured, the area is offset in that direction by 6 blocks, plus one for each Range Up Augment installed, minus one for each Range Down Augment installed.$(p)E.g. with a direction of $(bold)UP/$, the module will only scan an area directly above the router."
+      "text": "Сканируемая область центрируется на маршрутизаторе, если $(l:intro/modules#direction)настроенное направление/$ модуля — $(bold)Все/$ (по умолчанию).$(p)Если для модуля настроено конкретное направление, область смещается в этом направлении на 6 блоков, плюс один за каждое установленное Улучшение дальности, минус один за каждое установленное Улучшение уменьшения дальности.$(p)Например, при направлении $(bold)ВВЕРХ/$, модуль будет сканировать только область непосредственно над маршрутизатором."
     },
     {
       "type": "crafting",

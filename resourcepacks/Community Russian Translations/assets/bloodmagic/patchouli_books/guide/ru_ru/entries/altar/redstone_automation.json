@@ -1,31 +1,31 @@
 {
-  "name": "Redstone and Automation",
+  "name": "Редстоун и Автоматизация",
   "icon": "minecraft:redstone",
   "category": "bloodmagic:altar",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(l:bloodmagic:altar/blood_altar)Blood Altar$() is a fantastic tool, but standing around and waiting for slates to craft is not your idea of a good time. Luckily, items and $(blood)LP$() can be automatically piped in and out of the altar, albeit with a few caveats. $(br2)While a simple $(item)Hopper$() lets you pipe items in, the Altar won\u0027t stop it from inputting more than 1 at a time. It will happily craft 64 slates in one"
+      "text": "$(l:bloodmagic:altar/blood_altar)Кровавый Алтарь$() — фантастический инструмент, но стоять и ждать, пока создадутся плиты, — это не ваше представление о хорошем времяпровождении. К счастью, предметы и $(blood)ОЖ$() могут автоматически подаваться в алтарь и выводиться из него, хотя и с некоторыми оговорками. $(br2)Хотя простая $(item)Воронка$() позволяет подавать предметы, Алтарь не помешает ей вводить более 1 за раз. Он с радостью создаст 64 плиты за один"
     },
     {
       "type": "patchouli:text",
-      "text": "go, consuming 64 times as much $(blood)LP$() as usual to do so - but if you can\u0027t supply said $(blood)LP$() fast enough, you\u0027re going to run into trouble. $(br2)Additionally, the altar makes no distinction between input and output, so without some sort of filter, items will be pulled in and out as fast as your item transfer system can handle. Perhaps a look at the $(l:bloodmagic:demon_will/item_routing/routing_nodes)Routing Nodes$() will be helpful..."
+      "text": "раз, потребляя в 64 раза больше $(blood)ОЖ$(), чем обычно, — но если вы не сможете подавать указанную $(blood)ОЖ$() достаточно быстро, у вас возникнут проблемы. $(br2)Кроме того, алтарь не делает различий между входом и выходом, поэтому без какого-либо фильтра предметы будут втягиваться и вытягиваться так быстро, как сможет справиться ваша система передачи предметов. Возможно, взгляд на $(l:bloodmagic:demon_will/item_routing/routing_nodes)Узлы Маршрутизации$() будет полезен..."
     },
     {
       "type": "patchouli:text",
-      "text": "The altar also supports the transfer of $(blood)Life Essence$(), both to and from an external tank. Simply hook up your fluid pipe of choice and you can store excess $(blood)Life Essence$() for later crafts. $(br2)Note that the transfer speed is very slow by default. If you want to speed it up, you\u0027d best look into $(l:bloodmagic:altar/blood_rune/acceleration_rune)Acceleration Runes$() and $(l:bloodmagic:altar/blood_rune/dislocation_rune)Displacement Runes$()."
+      "text": "Алтарь также поддерживает передачу $(blood)Жизненной Эссенции$(), как в внешний резервуар, так и из него. Просто подключите выбранную вами трубу для жидкостей, и вы сможете хранить излишки $(blood)Жизненной Эссенции$() для последующих крафтов. $(br2)Обратите внимание, что скорость передачи по умолчанию очень низкая. Если вы хотите ускорить ее, вам лучше изучить $(l:bloodmagic:altar/blood_rune/acceleration_rune)Руны Ускорения$() и $(l:bloodmagic:altar/blood_rune/dislocation_rune)Руны Смещения$()."
     },
     {
       "type": "patchouli:text",
-      "text": "Don\u0027t forget that this $(blood)Life Essence$() isn\u0027t taken directly from the $(l:bloodmagic:altar/blood_altar)altar$() itself, but rather from a second, secret internal tank. This tank can hold $(thing)up to 10%$() of the $(blood)Life Essence$() that the altar itself can, so if the numbers don\u0027t appear to be adding up exactly right, or if $(blood)Life Essence$() appears to be vanishing from your altar, this is probably where it\u0027s going. The same limitations apply to $(blood)Life Essence$() being piped in."
+      "text": "Не забывайте, что эта $(blood)Жизненная Эссенция$() берется не напрямую из самого $(l:bloodmagic:altar/blood_altar)алтаря$(), а из второго, секретного внутреннего резервуара. Этот резервуар может вмещать $(thing)до 10%$() от количества $(blood)Жизненной Эссенции$(), которое может вместить сам алтарь, поэтому, если цифры не сходятся точно, или если $(blood)Жизненная Эссенция$(), кажется, исчезает из вашего алтаря, вероятно, она уходит сюда. Те же ограничения применяются к подаваемой $(blood)Жизненной Эссенции$()."
     },
     {
       "type": "patchouli:text",
-      "text": "The amount of $(blood)Life Essence$() in the $(l:bloodmagic:altar/blood_altar)Blood Altar$() can be read via a comparator on the side, similarly to a vanilla chest. $(br2)If you place a $(item)Bloodstone Brick$() underneath the altar, the comparator will instead read the value of the $(l:bloodmagic:altar/soul_network)Soul Network$(/l) of the owner of any orb that is placed into the Altar. $(br2)The signal strength depends on the size of the orb in the altar, not the maximum $(blood)LP$() of the network."
+      "text": "Количество $(blood)Жизненной Эссенции$() в $(l:bloodmagic:altar/blood_altar)Кровавом Алтаре$() можно прочитать с помощью компаратора сбоку, аналогично ванильному сундуку. $(br2)Если вы поместите $(item)Кирпич из Кровавого Камня$() под алтарь, компаратор вместо этого будет считывать значение $(l:bloodmagic:altar/soul_network)Сети Душ$(/l) владельца любого шара, помещенного в Алтарь. $(br2)Сила сигнала зависит от размера шара в алтаре, а не от максимального количества $(blood)ОЖ$() в сети."
     },
     {
       "type": "patchouli:text",
-      "text": "For example, if you have $(blood)500,000 LP$(), a Weak Blood Orb would show as completely full, but a Master Blood Orb would show as only half full. This can be used to, for example, deactivate certain rituals when you are running low on $(blood)LP$(), to ensure you don\u0027t run out. $(br2)Lastly, placing a $(item)Redstone Lamp$() underneath the altar will make it output a redstone signal upon finishing a crafting operation."
+      "text": "Например, если у вас есть $(blood)500,000 ОЖ$(), Слабый Кровавый Шар будет отображаться как полностью заполненный, но Мастерский Кровавый Шар будет отображаться как заполненный только наполовину. Это можно использовать, например, для деактивации определенных ритуалов, когда у вас заканчивается $(blood)ОЖ$(), чтобы убедиться, что она не иссякнет. $(br2)Наконец, размещение $(item)Редстоуновой Лампы$() под алтарем заставит его выдавать редстоун-сигнал по завершении операции крафта."
     }
   ]
 }

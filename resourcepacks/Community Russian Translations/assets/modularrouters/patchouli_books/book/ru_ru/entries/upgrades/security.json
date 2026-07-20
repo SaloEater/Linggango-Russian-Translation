@@ -1,36 +1,36 @@
 {
-  "name": "Security Upgrade",
+  "name": "Улучшение безопасности",
   "category": "modularrouters:upgrades",
   "icon": "modularrouters:security_upgrade",
   "pages": [
     {
       "type": "text",
-      "text": "The $(thing)Security Upgrade/$ has several important functions, detailed in the following pages."
+      "text": "У $(thing)Улучшения безопасности/$ есть несколько важных функций, подробно описанных на следующих страницах."
     },
     {
       "type": "text",
-      "title": "Protection",
-      "text": "A Router with a Security Upgrade installed can $(italic)only/$ be opened by players whitelisted by that upgrade. The upgrade doesn\u0027t prevent a router being broken; but since upgrades and modules remain in a broken router, players can\u0027t break a router to steal modules/upgrades or reconfigure the router. If you want to prevent a router being broken, you may wish to explore other mods\u0027 block protection capabilities."
+      "title": "Защита",
+      "text": "Маршрутизатор с установленным Улучшением безопасности может быть открыт $(italic)только/$ игроками, внесенными в белый список этим улучшением. Улучшение не предотвращает разрушение маршрутизатора; но поскольку улучшения и модули остаются в сломанном маршрутизаторе, игроки не могут сломать маршрутизатор, чтобы украсть модули/улучшения или перенастроить его. Если вы хотите предотвратить разрушение маршрутизатора, вы можете изучить возможности защиты блоков других модов."
     },
     {
       "type": "text",
-      "title": "Fake Players",
-      "text": "Several modules ($(l:modules/placer)Placer/$, $(l:modules/breaker)Breaker/$, $(l:modules/activator)Activator/$) do their work as a $(thing)fake player/$. By default this is a player with the username $(thing)[Modular Routers]/$, but when a security upgrade is installed, those modules operate as the upgrade\u0027s owner. This is much safer on multiplayer servers with claim protection than simply allowing $(thing)[Modular Routers]/$ to do anything with your claims."
+      "title": "Фальшивые игроки",
+      "text": "Некоторые модули ($(l:modules/placer)Установщик/$, $(l:modules/breaker)Разрушитель/$, $(l:modules/activator)Активатор/$) выполняют свою работу как $(thing)фальшивый игрок/$. По умолчанию это игрок с именем пользователя $(thing)[Modular Routers]/$, но когда установлено улучшение безопасности, эти модули действуют от имени владельца улучшения. Это гораздо безопаснее на многопользовательских серверах с защитой территорий, чем просто позволять $(thing)[Modular Routers]/$ делать что угодно с вашими территориями."
     },
     {
       "type": "text",
-      "title": "Activator Attack Mode",
-      "text": "When the $(l:modules/activator)Activator Module/$ is in $(thing)Attack Mode/$, it will ignore any players whitelisted by a Security Upgrade installed in the Router. This is generally a good idea to avoid pain \u0026 suffering if you have a high-damage weapon in your Router..."
+      "title": "Режим атаки Активатора",
+      "text": "Когда $(l:modules/activator)Модуль Активатора/$ находится в $(thing)Режиме атаки/$, он будет игнорировать любых игроков, внесенных в белый список Улучшением безопасности, установленным в Маршрутизаторе. Это, как правило, хорошая идея, чтобы избежать боли и страданий, если у вас есть мощное оружие в вашем Маршрутизаторе..."
     },
     {
       "type": "spotlight",
       "item": "modularrouters:override_card",
       "anchor": "override",
-      "text": "$(li)There is a non-craftable item called the $(thing)Security Override Card/$ - this can be obtained in creative mode or by cheating the item in via JEI etc. A player who holds one of these in either hand is not affected by any Security Upgrade, and can access any router."
+      "text": "$(li)Существует некрафтовый предмет, называемый $(thing)Карта обхода безопасности/$ — его можно получить в творческом режиме или с помощью читов через JEI и т.д. Игрок, держащий одну из таких карт в любой руке, не подвержен влиянию какого-либо Улучшения безопасности и может получить доступ к любому маршрутизатору."
     },
     {
       "type": "text",
-      "text": "You can add extra players to a Security Upgrade by $(thing)right-clicking/$ the player with the upgrade in your main hand.$(p)You can remove players from a Security Upgrade by $(thing)sneak-right-clicking/$ the player.$(p)There is a maximum of 6 additional players per Security Upgrade (so 7 in total, including the creator), but you can install more than one Security Upgrade in a router if necessary."
+      "text": "Вы можете добавить дополнительных игроков в Улучшение безопасности, $(thing)щелкнув правой кнопкой мыши/$ по игроку, держа улучшение в основной руке.$(p)Вы можете удалить игроков из Улучшения безопасности, $(thing)присев и щелкнув правой кнопкой мыши/$ по игроку.$(p)Максимальное количество дополнительных игроков на одно Улучшение безопасности — 6 (то есть всего 7, включая создателя), но при необходимости вы можете установить несколько Улучшений безопасности в один маршрутизатор."
     },
     {
       "type": "crafting",

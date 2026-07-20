@@ -1,42 +1,42 @@
 {
-  "name": "Cut Paste Gadget",
+  "name": "Гаджет Вырезать-Вставить",
   "sortnum": 4,
   "category": "buildinggadgets2:gadgets",
   "icon": "buildinggadgets2:gadget_cut_paste{energy:50000000}",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The cut paste gadget makes moving structures a breeze, and works just like the $(l:buildinggadgets2:copypaste)Copy Paste Gadget$(/l)! To start, ensure you\u0027re in \u0027cut\u0027 mode in the settings menu. $(br2)Right click one corner of a structure,and then shift-right click an opposing corner.  If done correctly, a red outline will surround your structure."
+      "text": "Гаджет Вырезать-Вставить значительно упрощает перемещение структур и работает точно так же, как $(l:buildinggadgets2:copypaste)Гаджет Копировать-Вставить$(/l)! Для начала убедитесь, что в меню настроек выбран режим 'вырезать'. $(br2)Щелкните правой кнопкой мыши по одному углу структуры, а затем щелкните правой кнопкой мыши с зажатым Shift по противоположному углу. Если все сделано правильно, вашу структуру окружит красная рамка."
     },
     {
       "type": "patchouli:image",
-      "title": "Cutting",
+      "title": "Вырезание",
       "images": [
         "buildinggadgets2:textures/book/images/cut.png"
       ],
       "border": true,
-      "text": "Cutting a structure"
+      "text": "Вырезание структуры"
     },
     {
       "type": "patchouli:text",
-      "text": "The structure will not be removed until you click the \u0027cut\u0027 button in the settings menu. $(br2)Switch the gadget to \u0027paste\u0027 mode, and you\u0027ll see a ghostly preview of the structure you\u0027ve copied. $(br2)To place the structure in world, simply right click! No items are necessary for this, as its using the blocks you removed earlier."
+      "text": "Структура не будет удалена, пока вы не нажмете кнопку 'вырезать' в меню настроек. $(br2)Переключите гаджет в режим 'вставить', и вы увидите призрачный предварительный просмотр скопированной структуры. $(br2)Чтобы разместить структуру в мире, просто щелкните правой кнопкой мыши! Для этого не нужны никакие предметы, так как используются блоки, которые вы удалили ранее."
     },
     {
       "type": "patchouli:image",
-      "title": "Paste Preview",
+      "title": "Предварительный просмотр вставки",
       "images": [
         "buildinggadgets2:textures/book/images/paste.png"
       ],
       "border": true,
-      "text": "Previewing a paste"
+      "text": "Предварительный просмотр вставки"
     },
     {
       "type": "patchouli:text",
-      "text": "You can only have one structure stored on the gadget at a time. Placing it in the world will erased the stored information on the gadget.$(br2)Be careful when pasting the structure, you only get one chance, $(l:buildinggadgets2:exchangemode)exchange mode$(/l) is recommended! $(br2)If you attempt to cut a new area while data already exists, you\u0027ll be prompted to confirm. If you do this, the first set of data will be lost forever!"
+      "text": "На гаджете может храниться только одна структура за раз. Размещение ее в мире сотрет сохраненную информацию с гаджета.$(br2)Будьте осторожны при вставке структуры, у вас есть только один шанс, рекомендуется использовать $(l:buildinggadgets2:exchangemode)режим обмена$(/l)! $(br2)Если вы попытаетесь вырезать новую область, когда данные уже существуют, вам будет предложено подтвердить действие. Если вы это сделаете, первый набор данных будет утерян навсегда!"
     },
     {
       "type": "patchouli:text",
-      "text": "All block-entity data will be moved along with the structure, including the contents of chests and block configurations. $(br2)Much like the $(l:buildinggadgets2:copypaste)Copy Paste Gadget$(/l), you can modify the cut or paste positions with the appropriate settings menu option. See that chapter for details!"
+      "text": "Все данные блочных сущностей будут перемещены вместе со структурой, включая содержимое сундуков и конфигурации блоков. $(br2)Как и в случае с $(l:buildinggadgets2:copypaste)Гаджетом Копировать-Вставить$(/l), вы можете изменять позиции вырезания или вставки с помощью соответствующей опции в меню настроек. Подробности смотрите в этой главе!"
     }
   ]
 }

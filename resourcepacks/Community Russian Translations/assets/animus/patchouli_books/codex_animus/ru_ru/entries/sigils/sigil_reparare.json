@@ -7,17 +7,17 @@
     {
       "type": "patchouli:spotlight",
       "item": "animus:sigil_reparare",
-      "text": "A toggleable sigil that mends your equipment over time. While active, damaged items in your inventory slowly repair themselves at the cost of LP."
+      "text": "Переключаемая печать, которая со временем чинит ваше снаряжение. В активном состоянии поврежденные предметы в вашем инвентаре медленно восстанавливаются за счет ОЖ."
     },
     {
       "type": "patchouli:text",
-      "title": "Usage",
-      "text": "$(bold)Toggle:$() Right-click to activate/deactivate$(br)$(bold)LP Cost:$() Configurable per durability point$(br)$(bold)Scope:$() All inventory slots, armor, and offhand$(br2)The sigil periodically scans for damaged items and repairs them. It will deactivate if you run out of LP."
+      "title": "Использование",
+      "text": "$(bold)Переключение:$() Нажмите ПКМ для активации/деактивации$(br)$(bold)Стоимость ОЖ:$() Настраивается за единицу прочности$(br)$(bold)Область действия:$() Все слоты инвентаря, броня и вторая рука$(br2)Печать периодически сканирует инвентарь на наличие поврежденных предметов и чинит их. Она деактивируется, если у вас закончится ОЖ."
     },
     {
       "type": "patchouli:text",
-      "title": "Limitations",
-      "text": "$(bold)Blacklist:$() Items tagged with $(thing)animus:disallow_repair$() cannot be repaired by this sigil.$(br2)$(bold)Repair Rate:$() Configurable repair amount per interval.$(br2)$(italic)Blood mends what time breaks.$()"
+      "title": "Ограничения",
+      "text": "$(bold)Черный список:$() Предметы, помеченные тегом $(thing)animus:disallow_repair$(), не могут быть отремонтированы этой печатью.$(br2)$(bold)Скорость ремонта:$() Настраиваемое количество ремонта за интервал.$(br2)$(italic)Кровь чинит то, что ломает время.$()"
     }
   ]
 }

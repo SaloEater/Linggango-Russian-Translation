@@ -1,23 +1,23 @@
 {
-  "name": "Bulk Item Filter",
+  "name": "Массовый фильтр предметов",
   "category": "modularrouters:filters",
   "icon": "modularrouters:bulk_item_filter",
   "pages": [
     {
       "type": "text",
-      "text": "This filter allows for high-performance matching of up to 54 different items, including optional NBT matching. The Bulk Item Filter can be configured in a few different ways:$(p)$(li)$(thing)Sneak+Right-click/$ the filter against any inventory to merge a copy of that inventory\u0027s contents into the filter."
+      "text": "Этот фильтр обеспечивает высокопроизводительное сопоставление до 54 различных предметов, включая опциональное сопоставление NBT. Массовый фильтр предметов может быть настроен несколькими способами:$(p)$(li)$(thing)Присядьте+ПКМ/$ по фильтру, направленному на любой инвентарь, чтобы объединить копию содержимого этого инвентаря с фильтром."
     },
     {
       "type": "text",
-      "text": "$(li)$(thing)Right-click/$ the filter to open a GUI showing the items currently in the filter. You can add (ghost copies of) items to the filter here, click items to remove them, or press the red $(bold)$(4)X/$ button to clear the filter completely."
+      "text": "$(li)$(thing)ПКМ/$ по фильтру, чтобы открыть графический интерфейс, показывающий предметы, находящиеся в фильтре. Здесь вы можете добавить (призрачные копии) предметов в фильтр, нажать на предметы, чтобы удалить их, или нажать красную кнопку $(bold)$(4)X/$ для полной очистки фильтра."
     },
     {
       "type": "text",
-      "text": "$(li)When the filter is in a module that is in a router, you can open the filter\u0027s GUI by middle-clicking it, or pressing $(bold)$(4)[$(k:modularrouters.configure)]/$ over it.$(p)$(bold)If/$ the module has a valid inventory targeted, two extra buttons appear on the GUI: a green $(bold)$(2)+/$ button to $(italic)merge/$ the target inventory\u0027s items, and a blue $(bold)$(1)\u003d/$ button to $(italic)load/$ the target inventory\u0027s items (overwriting the filter\u0027s current contents)."
+      "text": "$(li)Когда фильтр находится в модуле, который находится в маршрутизаторе, вы можете открыть его графический интерфейс, нажав средней кнопкой мыши или нажав $(bold)$(4)[$(k:modularrouters.configure)]/$ над ним.$(p)$(bold)Если/$ модуль нацелен на действительный инвентарь, в графическом интерфейсе появятся две дополнительные кнопки: зеленая кнопка $(bold)$(2)+/$ для $(italic)объединения/$ предметов целевого инвентаря и синяя кнопка $(bold)$(1)=/$ для $(italic)загрузки/$ предметов целевого инвентаря (с перезаписью текущего содержимого фильтра)."
     },
     {
       "type": "text",
-      "text": "This last configuration method is particularly useful combined with a $(l:modules/sender_2)Sender Module/$ to implement a sorting system, since the Bulk Item Filter will remember what should be in an inventory, even if the actual inventory later gets emptied."
+      "text": "Этот последний метод настройки особенно полезен в сочетании с $(l:modules/sender_2)Модулем Отправителя/$ для реализации системы сортировки, поскольку массовый фильтр предметов будет помнить, что должно быть в инвентаре, даже если фактический инвентарь позже опустеет."
     },
     {
       "type": "crafting",
