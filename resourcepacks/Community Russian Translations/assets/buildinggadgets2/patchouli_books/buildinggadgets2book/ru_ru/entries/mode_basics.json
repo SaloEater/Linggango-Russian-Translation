@@ -1,34 +1,34 @@
 {
-  "name": "Основы",
+  "name": "Basics",
   "sortnum": 0,
   "category": "buildinggadgets2:modes",
   "icon": "buildinggadgets2:template",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Как строительные, так и обменные гаджеты имеют настройку 'дальности', которая определяет радиус действия затрагиваемых блоков. Каждый режим имеет немного отличающийся подход к этому, но в целом это представляет собой область.$(br2)Например, в режиме 'Горизонтальный ряд' дальность 3 будет означать 3 блока в общей сложности, по 1 с каждой стороны от блока, на который вы смотрите. Это округляется, если вы выбираете четное число."
+      "text": "The building and exchanging gadgets both have a \u0027range\u0027 setting, that specifies the range of blocks affected. Each mode has a slightly different take on this, but in general this represents an area.$(br2)For example, in Horizontal Row mode a range of 3 will be 3 blocks total, 1 on each side of the block you\u0027re looking at. This is rounded if you choose an even number."
     },
     {
       "type": "patchouli:image",
-      "title": "Дальность 3",
+      "title": "Range of 3",
       "images": [
         "buildinggadgets2:textures/book/images/horzrow4.png"
       ],
       "border": true,
-      "text": "Дальность 3"
+      "text": "A range of 3"
     },
     {
       "type": "patchouli:text",
-      "text": "Для стен дальность 3 построит стену 3x3. Четные числа немного изменяют высоту стены. $(br2) Экспериментируйте с предварительным просмотром, чтобы получить желаемый результат!"
+      "text": "For walls, a range of 3 will build a 3x3 wall. Even numbers modify the height of the wall slightly. $(br2) Experiment with the preview to get the outcome you are looking for!"
     },
     {
       "type": "patchouli:image",
-      "title": "Дальность 3",
+      "title": "Range of 3",
       "images": [
         "buildinggadgets2:textures/book/images/vertwall1.png"
       ],
       "border": true,
-      "text": "Дальность 3"
+      "text": "A range of 3"
     }
   ]
 }

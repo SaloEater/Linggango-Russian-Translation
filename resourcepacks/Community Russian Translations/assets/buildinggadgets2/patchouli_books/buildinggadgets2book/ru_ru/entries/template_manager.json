@@ -1,60 +1,60 @@
 {
-  "name": "Менеджер Шаблонов",
+  "name": "Template Manager",
   "sortnum": 1,
   "category": "buildinggadgets2:templates",
   "icon": "buildinggadgets2:template_manager",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Менеджер шаблонов позволяет сохранять ваши любимые структуры из $(l:buildinggadgets2:copypaste)Гаджета Копирования-Вставки$(/l)! $(br2)С помощью этого блока вы можете сохранять структуры в предметы в вашем мире или даже делиться ими за пределами вашего мира!$(br2)Для начала поместите гаджет копирования-вставки в верхний слот, а лист бумаги — в нижний."
+      "text": "The template manager allows you to save your favorite structures from the $(l:buildinggadgets2:copypaste)Copy Paste Gadget$(/l)!  $(br2)With this block, you can save the structures to items in your world, or even share them outside your world!$(br2)To get started, place a copy paste gadget in the top slot, and a piece of paper in the bottom."
     },
     {
       "type": "patchouli:image",
-      "title": "Менеджер Шаблонов",
+      "title": "Template Manager",
       "images": [
         "buildinggadgets2:textures/book/images/templatemanager1.png"
       ],
       "border": true,
-      "text": "Шаг 1"
+      "text": "Step 1"
     },
     {
       "type": "patchouli:text",
-      "text": "Нажмите 'Сохранить', чтобы превратить бумагу в шаблон. Одновременно на вашем экране появится рендер структуры.$(br2)Вы можете панорамировать и вращать рендер кнопками мыши или масштабировать колесиком прокрутки. $(br2)Чтобы скопировать структуру из шаблона обратно в гаджет, нажмите кнопку 'Загрузить'."
+      "text": "Click \u0027Save\u0027 to convert the paper into a template. At the same time, a render of the structure will appear on your screen.$(br2)You can pan and spin the render with the mouse buttons, or zoom with the scroll wheel. $(br2)To copy the structure from a template back to the gadget, click the \u0027load\u0027 button."
     },
     {
       "type": "patchouli:image",
-      "title": "Привязка Инвентаря",
+      "title": "Bind Inventory",
       "images": [
         "buildinggadgets2:textures/book/images/templatemanager2.png"
       ],
       "border": true,
-      "text": "Причудливый рендер — это причудливо"
+      "text": "Fancy render is fancy"
     },
     {
       "type": "patchouli:text",
-      "text": "Нажмите кнопку 'Рендер', чтобы переключить ее в режим материалов, который покажет список необходимых материалов для этой структуры, так же, как это делает Список Материалов.$(br2)Нажмите кнопку материалов, чтобы вернуться в режим рендера."
+      "text": "Click the \u0027Render\u0027 button to toggle it to Materials Mode, which will show a list of the needed materials for this structure, in much the same way the Material List does.$(br2)Click the materials button to toggle back to Render mode."
     },
     {
       "type": "patchouli:image",
-      "title": "Список Материалов",
+      "title": "Material List",
       "images": [
         "buildinggadgets2:textures/book/images/templatemanager3.png"
       ],
       "border": true,
-      "text": "Так много предметов"
+      "text": "So many items"
     },
     {
       "type": "patchouli:text",
-      "text": "Шаблоны можно называть. Имя появится на предмете-шаблоне.$(br2)Нажатие 'Копировать' создаст JSON-строку и поместит ее в буфер обмена вашего компьютера. Вы можете поделиться этим с друзьями за пределами Minecraft. Если они скопируют ту же строку в свой буфер обмена и нажмут кнопку 'Вставить' в этом интерфейсе, это воспроизведет вашу структуру для них!$(br2)Убедитесь, что в нижнем слоте есть бумага, когда вы нажимаете 'Вставить'."
+      "text": "Templates can be named. The name will appear on the template item.$(br2)Clicking \u0027copy\u0027 will create a json string and put it on your computers clipboard. You can share this will friends outside of minecraft. If they copy the same string to their clipboard and click the \u0027paste\u0027 button in this GUI it\u0027ll replicate your structure for them!$(br2)Make sure theres paper in the bottom slot when you click paste."
     },
     {
       "type": "patchouli:image",
-      "title": "Именование",
+      "title": "Naming",
       "images": [
         "buildinggadgets2:textures/book/images/templatemanager4.png"
       ],
       "border": true,
-      "text": "Это действительно хороший дом, однако."
+      "text": "It really is a nice house though."
     }
   ]
 }

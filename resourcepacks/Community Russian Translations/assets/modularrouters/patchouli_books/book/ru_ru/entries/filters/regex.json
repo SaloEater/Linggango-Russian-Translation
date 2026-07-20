@@ -1,30 +1,30 @@
 {
-  "name": "Регекс-фильтр",
+  "name": "Regex Filter",
   "category": "modularrouters:filters",
   "icon": "modularrouters:regex_filter",
   "pages": [
     {
       "type": "text",
-      "text": "Этот фильтр позволяет сопоставлять блоки и предметы с помощью регулярных выражений, используя $(strong)регистрационное имя/$ предмета. Регулярные выражения очень мощные, но для полного освоения требуется практика. Однако базовое использование regex освоить несложно. Существуют сайты с уроками по регулярным выражениям, например $(l:https://regexone.com/)RegexOne/$."
+      "text": "This filter allows for matching of blocks and items with a regular expression, against the item\u0027s $(strong)registry name/$. Regular expressions are very powerful, but take some learning to unlock their full potential. However, basic regex usage isn\u0027t too difficult. There are many websites with tutorial information on regular expressions, e.g. $(l:https://regexone.com/)RegexOne/$."
     },
     {
       "type": "text",
-      "title": "Регистрационные имена",
-      "text": "Поскольку фильтрация предметов выполняется только на сервере, она не знает точно, какой текст отображается для предмета. Поэтому все совпадения происходят по внутреннему $(thing)регистрационному имени/$ предмета. Вы можете узнать это имя, включив расширенные подсказки с $(thing)F3+H/$.$(p)Учтите, что сравнение ведётся только по части имени $(italic)после/$ двоеточия."
+      "title": "Registry Names",
+      "text": "Because item filtering is done purely on the server, it can\u0027t know for sure what an item\u0027s displayed text is.  Therefore, all filtering matches are made against the item\u0027s internal $(thing)registry name/$. You can find this registry name by toggling on advanced tooltip display with $(thing)F3+H/$.$(p)Note that matching is done against only the part of the registry name $(italic)after/$ the colon."
     },
     {
       "type": "text",
-      "text": "$(thing)Чтобы открыть интерфейс модуля, $(thing)правый клик/$ по фильтру или $(thing)средний клик/$ / нажмите $(bold)$(4)[$(k:modularrouters.configure)]/$ на фильтре, установленном в модуле.$(li)Введите регулярное выражение в текстовое поле сверху и нажмите $(thing)Enter/$ или кликните зелёную кнопку $(bold)$(2)+/$ . Ваш regex будет добавлен в список, если его синтаксис корректен. В одном фильтре можно иметь до 6 записей.$(li)Нажмите красную кнопку $(bold)$(4)X/$ рядом с любым regex, чтобы удалить его из списка.$(li)Сопоставление регистронезависимое."
+      "text": "$(thing)To open the module GUI, $(thing)right-click/$ the filter, or $(thing)middle-click/$ / press $(bold)$(4)[$(k:modularrouters.configure)]/$ on a filter which is installed in a module.$(li)Type your regex into the textfield at the top, and hit $(thing)Return/$ or click the green $(bold)$(2)+/$ button. Your regex will be added to the list, assuming its syntax is valid. You can have up to 6 entries in one filter.$(li)Click the red $(bold)$(4)X/$ next to any regex to remove it from the list.$(li)Matches are case-insensitive."
     },
     {
       "type": "text",
-      "title": "Пример 1",
-      "text": "Регулярное выражение 'ore' сопоставит любые предметы с 'ore' в регистрационном имени (\"iron_ore\", \"gold_ore\", \"redstone_ore\"). К сожалению, оно также совпадёт с \"drill_core\", но этого можно избежать, используя regex $(1)_ore/$. Для большей точности можно использовать $(1)_ore$/$, что гарантирует, что строка \"_ore\" находится в конце регистрационного имени предмета."
+      "title": "Example 1",
+      "text": "A regex of \u0027ore\u0027 will match any items with \u0027ore\u0027 in their registry name (\"iron_ore\", \"gold_ore\", \"redstone_ore\"). Unfortunately, it will also match \"drill_core\", but you can avoid this by using a regex of $(1)_ore/$. To be even more specific, you could use $(1)_ore$/$, which also ensures that the string \"_ore\" is at the end of the item\u0027s registry name."
     },
     {
       "type": "text",
-      "title": "Пример 2",
-      "text": "Настройте $(l:modules/player)Модуль Игрока/$ для извлечения из основного инвентаря игрока и установите в модуль регекс-фильтр с $(1)_ore/$. Это позволит извлекать любые руды из вашего инвентаря независимо от местоположения и отправлять их в систему переработки руды; очень удобно, если вы добываете руду далеко от базы и хотите, чтобы добытая руда сразу отправлялась домой."
+      "title": "Example 2",
+      "text": "Configure a $(l:modules/player)Player Module/$ to extract from the player\u0027s main inventory, and put a regex filter containing $(1)_ore/$ in the module. This can be used to extract any ores from your inventory, regardless of where you are, into your ore processing system; very handy if you\u0027re mining far from your base and you want ores that you\u0027ve mined to be sent home immediately."
     },
     {
       "type": "crafting",

@@ -1,24 +1,24 @@
 {
-  "name": "Создатель Поля Ауры",
+  "name": "Aura Field Creator",
   "icon": "naturesaura:field_creator",
   "category": "naturesaura:using",
   "advancement": "naturesaura:sky_ingot",
   "pages": [
     {
       "type": "text",
-      "text": "Одно из двух занятий, которыми в основном занимаются люди, это $(thing)ломание$() блоков. Это требует немало сил и усилий, и, если заниматься этим долго, может стать довольно утомительным.$(br)$(item)Создатель Поля Ауры$() создает плотное поле движущейся $(aura), достаточно сильное, чтобы $(thing)разрушать блоки$() внутри него."
+      "text": "One of the two activities mostly done by humans is $(thing)breaking$() blocks. This requires quite a bit of strengh and effort, and, if done for long amounts of time, can become quite tiring.$(br)The $(item)Aura Field Creator$() creates a dense field of moving $(aura) that is strong enough for it to $(thing)destroy blocks$() within it."
     },
     {
       "type": "text",
-      "text": "Чтобы создать такое поле, два $(item)Создателя Поля Ауры$() должны быть размещены на расстоянии нескольких блоков друг от друга. Затем, взаимодействие с одним из них при приседании и взаимодействие с другим без приседания приведет к образованию связи между ними.$(br)Как только вы подадите на один из них $(thing)сигнал редстоуна$(), и после короткого времени активации, поле будет создано между ними, позволяя любым размещенным там блокам быть сломанными, а их предметы будут выброшены в мир."
+      "text": "To set up a field like this, two $(item)Aura Field Creators$() need to be placed a couple of blocks apart. Then, interacting with one of them while sneaking and interacting with the other while not sneaking will cause a connection between the two to form.$(br)Once supplying one of them with a $(thing)redstone signal$(), and after a short channel time, the field will be created between the two, allowing any blocks being placed there to be broken and their items being dropped into the world."
     },
     {
       "type": "text",
-      "text": "Конечно, ломание блоков, и особенно начальное время активации, потребует немного $(aura) из окружающей среды. Кроме того, пока поле активно, небольшое количество потребляется в качестве своего рода платы за поддержание.$(br)Любой ботаник, которому требуется, чтобы блоки ломались определенным образом, может не беспокоиться: размещение $(item)Рамки для предметов$() с $(item)Ножницами$() или $(item)зачарованным инструментом$() на любом из двух $(item)Создателей Поля Ауры$() приведет к тому, что все блоки между ними будут сломаны, как если бы использовался этот инструмент."
+      "text": "Of course, breaking blocks and especially the initial channel time will require a bit of $(aura) from the environment. Additionally, while the field is active, a small amount is consumed as a sort of upkeep cost.$(br)Any botanist that requires that blocks be broken in a specific manner doesn\u0027t have to worry: Placing an $(item)Item Frame$() with $(item)Shears$() or an $(item)enchanted tool$() on any of the two $(item)Aura Field Creators$() will cause all blocks inbetween to be broken as if using that tool."
     },
     {
       "type": "crafting",
-      "text": "Создание двух $(item)Создателей Поля Ауры$()",
+      "text": "Creating two $(item)Aura Field Creators$()",
       "recipe": "naturesaura:field_creator"
     }
   ]

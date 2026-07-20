@@ -1,11 +1,11 @@
 {
-  "name": "Водная Сигила",
+  "name": "Water Sigil",
   "icon": "bloodmagic:watersigil",
   "category": "bloodmagic:alchemy_array/sigil",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Водная Сигила$() — довольно простая сигила. При нажатии [$(k:use)] на блок вы можете потратить 100 ОЖ из вашей $(l:bloodmagic:altar/soul_network)Сети Душ$(/l), чтобы разместить источник воды в мире. Если ОЖ недостаточно, плата будет взиматься из вашего здоровья. Создаётся с использованием $(item)Водного Реагента$() и $(item)Пустой Плиты$()."
+      "text": "The $(item)Water Sigil$() is a rather simple sigil. When you press [$(k:use)] while looking at a block, you can drain 100LP from your $(l:bloodmagic:altar/soul_network)Soul Network$(/l) to place a source block of water in the world. If there\u0027s not enough LP, it will instead drain the toll from your health. Crafted using a $(item)Water Reagent$() and a $(item)Blank Slate.$()"
     },
     {
       "type": "bloodmagic:crafting_2-step_sigil",
@@ -21,15 +21,15 @@
         "bloodmagic:images/entries/sigil/water_sigil1.png",
         "bloodmagic:images/entries/sigil/water_sigil2.png"
       ],
-      "title": "Массив Водной Сигилы",
+      "title": "Water Sigil Array",
       "border": true,
-      "text": "Водная Сигила, рядом с её массивом крафта, плюс её основное применение."
+      "text": "The Water Sigil, next to its crafting array, plus its primary use."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
       "heading": "Water Bucket",
       "recipe": "bloodmagic:alchemytable/sigil_water_bucket",
-      "text": "Более того, её можно использовать в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимическом Столе$(/l) для автоматизации производства $(water)Вёдер Воды$(). Сигила не расходуется в этом рецепте."
+      "text": "What\u0027s more, it can be used in the $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$() to automate the production of $(water)Water Buckets$(). The Sigil is not consumed in this recipe."
     }
   ]
 }

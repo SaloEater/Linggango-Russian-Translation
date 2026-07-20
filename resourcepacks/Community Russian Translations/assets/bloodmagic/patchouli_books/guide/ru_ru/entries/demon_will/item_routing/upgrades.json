@@ -1,27 +1,27 @@
 {
-  "name": "Улучшения",
+  "name": "Upgrades",
   "icon": "bloodmagic:mastercore",
   "category": "bloodmagic:demon_will/item_routing",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "В настоящее время для Маршрутизирующей Сети доступно два улучшения. $(br2)Во-первых, $(item)Базовое Улучшение Логики Маршрутизации$() увеличивает общее количество предметов, передаваемых за операцию. (один раз в секунду, но см. на следующей странице). По умолчанию сеть будет передавать 16 предметов за раз, но каждое из этих улучшений увеличит этот лимит на 8."
+      "text": "there are two upgrades currently available for the Routing Network. $(br2)Firstly, the $(item)Basic Routing Logic Upgrade$() increases the total amount of items transferred per operation. (once per second, but see overleaf). By default, the network will transfer 16 items at a time, but each of these will raise that cap by 8."
     },
     {
       "type": "bloodmagic:crafting_soulforge",
       "heading": "Basic Routing Logic Upgrade",
       "recipe": "bloodmagic:soulforge/master_node_upgrade",
-      "text": "Эти улучшения стакаются до 16, позволяя передавать в общей сложности 144 предмета в секунду. Обратите внимание, что это может быть распределено по нескольким стакам, если необходимо передать много разных предметов одновременно."
+      "text": "These upgrades stack to 16, allowing for a sum total of 144 items to be transferred per second. Note that this can be split over multiple stacks, if many different items need to be transferred at once."
     },
     {
       "type": "patchouli:text",
-      "text": "Второе улучшение — это $(item)Базовое Улучшение Скорости Маршрутизации$(), которое увеличивает скорость передачи предметов. Скорость по умолчанию составляет одну операцию каждые 20 тиков (1 секунда), но каждое улучшение скорости будет уменьшать это значение на 1 тик, до максимума в каждый тик с 19 улучшениями."
+      "text": "The second upgrade is the $(item)Basic Routing Speed Upgrade$(), which increases the rate at which items are transferred. The default rate is one operation every 20 ticks (1 second), but each speed upgrade will bring this down by 1 tick, to a maximum of every tick with 19 upgrades."
     },
     {
       "type": "bloodmagic:crafting_soulforge",
       "heading": "Basic Routing Speed Upgrade",
       "recipe": "bloodmagic:soulforge/master_node_upgrade_speed",
-      "text": "$(italic)Они стакаются до 19? Это кажется... $(underline)неправильным$()$(italic), как-то, но это было либо это, либо изменить вселенную так, чтобы всё тикало 65 раз в секунду, и это расстроило бы людей ещё больше.$()"
+      "text": "$(italic)they stack to 19? that feels ... $(underline)wrong$()$(italic), somehow, but it was this or alter the universe such that everything ticks 65 times a second, and that would have made people even more upset.$()"
     }
   ]
 }

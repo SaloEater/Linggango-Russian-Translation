@@ -1,23 +1,23 @@
 {
-  "name": "Улучшение синхронизации (Sync Upgrade)",
+  "name": "Sync Upgrade",
   "category": "modularrouters:upgrades",
   "icon": "modularrouters:sync_upgrade",
   "pages": [
     {
       "type": "text",
-      "text": "Это улучшение используется для гарантии того, что два или более маршрутизаторов будут работать одновременно. У Sync Upgrade есть значение настройки от 0 до 19 (т.е. на 1 меньше базового интервала тика маршрутизатора 20). Это значение можно задать, $(thing)кликнув правой кнопкой/$ по улучшению для открытия его GUI, или быстро установить случайное значение, $(thing)зажав Shift и кликнув правой кнопкой/$."
+      "text": "This upgrade is used to guarantee that two or more routers run at the same time. The Sync Upgrade has a tuning value of 0 .. 19 (i.e. 1 less than the base router tick rate of 20). This tuning value can be set by $(thing)right-clicking/$ the Sync Upgrade to open its GUI, or quickly set to a random value by $(thing)sneak-right-clicking/$ the upgrade."
     },
     {
       "type": "text",
-      "text": "Любые маршрутизаторы с этим улучшением, с одинаковым значением настройки и с одинаковым количеством $(l:upgrades/speed)Speed Upgrades/$, всегда будут работать в один и тот же тик. Фактическое значение настройки не имеет значения; важно, чтобы оно было одинаковым для всех маршрутизаторов, которые нужно синхронизировать.$(p)Это особенно полезно, если у вас есть группа маршрутизаторов с $(l:modules/extruder_1)Extruder Modules/$ и вы хотите, чтобы все модули одновременно выдвигались и втягивались."
+      "text": "Any routers with this upgrade installed, with same the tuning value, and with the same number of $(l:upgrades/speed)Speed Upgrades/$ installed, will always run on the same tick. The actual tuning value doesn\u0027t matter; only that the value is consistent across the routers you want to synchronise.$(p)This is particularly useful if you have a group of routers with $(l:modules/extruder_1)Extruder Modules/$ installed, and want to ensure all modules extend/retract at exactly the same time."
     },
     {
       "type": "text",
-      "text": "Продвинутые заметки #1: значение настройки Sync Upgrade фактически определяет точный момент, когда маршрутизатор будет работать относительно его интервала тика. Например, по умолчанию маршрутизаторы тикают каждые 20 серверных тиков; Sync Upgrade с настройкой 15 гарантирует, что маршрутизатор $(italic)всегда/$ работает через 15 тиков после этого, и это применимо ко $(italic)всем/$ маршрутизаторам с настройкой 15. А улучшение с настройкой 16 всегда срабатывает на 1 тик позже, чем 15-настроенное, по крайней мере для маршрутизаторов с одинаковым количеством $(l:upgrades/speed)Speed Upgrades/$..."
+      "text": "Advanced notes #1: the Sync Upgrade\u0027s tuning value actually specifies precisely when the router will run relative to its tick rate. E.g. routers tick every 20 server ticks by default; a Sync Upgrade with a tuning upgrade of 15 ensures the router $(italic)always/$ runs 15 ticks after that, and that applies to $(italic)all/$ routers with a 15-tuned Sync Upgrade. And a 16-tuned Sync Upgrade always runs 1 tick after a 15-tuned Sync Upgrade, at least for routers with the same number of $(l:upgrades/speed)Speed Upgrades/$ installed..."
     },
     {
       "type": "text",
-      "text": "Продвинутые заметки #2: так как $(l:upgrades/speed)Speed Upgrades/$ заставляют маршрутизаторы тикать чаще, это влияет на работу Sync Upgrade. Маршрутизатор с 9 Speed Upgrades тикает каждые 2 серверных тика (вместо 20). Для Sync Upgrade в таком маршрутизаторе важно только, четное или нечетное значение настройки; 2 (или 4/6/8…) тика позже фактически то же самое, что 0 тиков позже! В общем случае: значение настройки рассчитывается по модулю фактического интервала тика маршрутизатора после учета Speed Upgrades."
+      "text": "Advanced notes #2: Because $(l:upgrades/speed)Speed Upgrades/$ make routers tick more frequently, they affect how Sync Upgrades work. A router with 9 Speed Upgrades ticks every 2 server ticks (instead of every 20). For Sync Upgrades in such a router, it only matters whether the tuning value is even or odd; 2 (or 4/6/8...) ticks later is effectively the same as 0 ticks later! General case: the tuning value is calculated modulo the router\u0027s actual tick rate after Speed Upgrades are accounted for."
     },
     {
       "type": "crafting",
@@ -25,4 +25,3 @@
     }
   ]
 }
-

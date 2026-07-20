@@ -1,27 +1,27 @@
 {
-  "name": "Модуль Игрока",
+  "name": "Player Module",
   "category": "modularrouters:modules",
   "icon": "modularrouters:player_module",
   "pages": [
     {
       "type": "text",
-      "text": "Этот модуль пытается перемещать предметы между маршрутизатором и инвентарем игрока. Игрок может находиться в любой точке и в любом измерении, что делает этот модуль довольно мощным.$(p)Модуль может передавать предметы как от игрока, так и к игроку; это настраивается в GUI модуля."
+      "text": "This module tries to transfer items between the router and a player\u0027s own inventory. The player can be anywhere in any dimension, making this a rather powerful module.$(p)The module can transfer items either from or to the player; you can set this in the module\u0027s GUI."
     },
     {
       "type": "text",
-      "text": "$(p)Модуль может работать с основным 36-слотовым инвентарем игрока, 4-слотовым инвентарем брони, слотом вторичной руки или Эндор-инкубатором (как показывают ванильные $(item)Эндер-сундуки/$). Это также настраивается в GUI модуля.$(p)Извлекаемые/вставляемые предметы, конечно, могут фильтроваться модулем."
+      "text": "$(p)The module can operate on either the player\u0027s main 36-slot inventory, their 4-slot armor inventory, their offhand slot, or their Ender inventory (as shown by vanilla $(item)Ender Chests/$). This can also be set in the module\u0027s GUI.$(p)Extracted/inserted items can, of course, be filtered by the module."
     },
     {
       "type": "text",
-      "text": "Хорошее применение этого модуля — извлечение руд/камня/земли и т.д. из инвентаря игрока и отправка их в основную систему хранения на базе. С небольшим проектированием можно создать систему для автоматической смены наборов брони (возможно даже прямо в поле, используя беспроводной редстоун из другого мода...)."
+      "text": "A good use-case for this module would be to extract ores/cobblestone/dirt etc. from the player\u0027s inventory, and send it on to the player\u0027s main storage system in their base. With a little design, it should be possible to build a system to auto-swap your armor sets (maybe even in the field, with some wireless redstone from another mod...)"
     },
     {
       "type": "text",
-      "text": "Модуль Игрока привязан к конкретному игроку; в подсказке предмета отображается владелец. Изначально это игрок, который создал модуль, но можно изменить, удерживая модуль и делая sneak-right-click. Это может понадобиться, если модуль получен другим способом (креатив, режим читов JEI...)."
+      "text": "The Player Module is keyed to a specific player; the item tooltip shows the owner. This is set to the player who initially crafted the module, but can be overridden by holding the module and sneak-right-clicking it. You might also need to do this if you obtained the module by other means (creative, JEI cheat mode...)."
     },
     {
       "type": "text",
-      "text": "Использование Модуля Безопасности вместе с этим модулем — хорошая идея на серверах, где игрокам нельзя полностью доверять; вы не хотите, чтобы враждебный игрок украл этот модуль..."
+      "text": "Using a Security Upgrade in conjunction with this module is probably wise on servers where you don\u0027t trust the players; you don\u0027t want a hostile player stealing this module..."
     },
     {
       "type": "crafting",
@@ -29,4 +29,3 @@
     }
   ]
 }
-

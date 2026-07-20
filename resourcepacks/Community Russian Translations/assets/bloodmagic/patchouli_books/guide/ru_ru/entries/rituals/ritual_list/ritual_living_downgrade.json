@@ -1,5 +1,5 @@
 {
-  "name": "Покаяние Свинцовой Души",
+  "name": "Penance of the Leaden Soul",
   "icon": "bloodmagic:upgradescraps",
   "category": "bloodmagic:rituals/ritual_list",
   "extra_recipe_mappings": {
@@ -8,9 +8,9 @@
   "pages": [
     {
       "type": "multiblock",
-      "name": "Покаяние Свинцовой Души",
+      "name": "Penance of the Leaden Soul",
       "multiblock_id": "bloodmagic:downgrade",
-      "text": "Используйте $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный Искатель [Сумерки]$(/l) для упрощения постройки."
+      "text": "Use a $(l:bloodmagic:rituals/ritual_diviner#dusk)Ritual Diviner [Dusk]$(/l) for easier construction."
     },
     {
       "type": "bloodmagic:ritual_info",
@@ -19,30 +19,30 @@
     {
       "type": "patchouli:text",
       "anchor": "downgrades",
-      "text": "Этот ритуал потребляет избыточные $(thing)Очки Улучшения$() (в виде $(item)Томов$(), $(item)Обрывков$() и $(item)Синтетических Очков Улучшения$()) вместе с одним $(item)Ключевым Предметом$() за каждый уровень, чтобы применить Понижения к вашей надетой $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой Броне$(). Ключевой предмет отличается для каждого понижения и изображен в каждой Записи Понижения. Эти понижения сильно ограничат ваши способности, но предоставят вам множество дополнительных $(thing)Очков Улучшения$() для экспериментов, что позволит гораздо более глубокую специализацию, чем было доступно ранее."
+      "text": "This ritual consumes excess $(thing)Upgrade Points$() (in the form of $(item)Tomes$(), $(item)Scraps$(), and $(item)Synthetic Upgrade Points$()) alongside one  $(item)Key Item$() per level, in order to apply Downgrades to your worn $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$(). The key item is different for each downgrade, and is pictured in each Downgrade Entry. These downgrades will harshly limit your abilities, but will provide you with a wealth of additional $(thing)Upgrade Points$() to play around with, allowing for much more specialisation than was previously available to you."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:synthetic_point",
-      "text": "Если у вас недостаточно доступных очков, вы можете создать Синтетические Очки Улучшения. Каждое из них стоит одно Очко Улучшения. "
+      "text": "If you do not have enough points avaliable to you, you can craft Synthetic Upgrade Points. Each one of these is worth a single Upgrade Point. "
     },
     {
       "type": "patchouli:text",
-      "text": "Чтобы использовать ритуал, просто поместите свои тома (или другие источники Очков Улучшения) и необходимые Предмет(ы) для конкретного понижения, которое вы задумали, в прикрепленный сундук (см. предыдущую страницу), надев при этом свою Живую Броню. Ритуал потребит очки и применит понижение к вашей броне. Порядок потребления: $(item)Обрывки Улучшения Живой Брони$(), затем $(item)Тома Улучшения Живой Брони$(), и наконец $(item)Синтетические Очки Улучшения$()."
+      "text": "To use the ritual, simply place your tomes (or other sources of Upgrade Points) and the required Item(s) for the particular downgrade you have in mind into the attached chest (see the previous page), while wearing your Living Armour. The ritual will consume the points and apply the downgrade to your armour. The order of consumption is $(item)Living Armour Upgrade Scraps$(), then $(item)Living Armour Upgrade Tomes$(), and finally $(item)Synthetic Upgrade Points$()."
     },
     {
       "type": "patchouli:text",
-      "text": "Понижения, применяемые к вашей броне, зависят от того, какие Предмет(ы) вы поместите в сундук. Каждый предмет, соответствующий определенному понижению, увеличит уровень желаемого понижения на единицу. Таким образом, несколько понижений могут быть применены одновременно с одной активацией ритуала. Так, если бы вы хотели, скажем, Боевой Голод 3-го уровня, вы бы положили 3 $(item)Гнилой Плоти$() и предметы стоимостью 35 $(thing)Очков Улучшения$() в сундук, и активировали ритуал, будучи одетым в полный комплект $(thing)Живой Брони$()."
+      "text": "The downgrades applied to your armour depends on what Item(s) you place in the chest. Each item that matches a particular downgrade will increase the desired downgrade\u0027s level by one. In this manner, multiple downgrades can be applied at once with a single ritual activation. So if you wanted, say, Battle Hungry level 3, you\u0027d put 3 $(item)Rotten Flesh$() and items worth 35 $(thing)Upgrade Points$() into the chest, and activate the ritual whilst wearing a full set of $(thing)Living Armour$()."
     },
     {
       "type": "patchouli:text",
-      "text": "Ритуал будет учитывать любые настройки, которые вы установили на своем $(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)Тренировочном Браслете Живой Брони$(), поэтому, если вы установили 'не разрешать другие улучшения', ритуал не сможет применить понижения к вам. Если сомневаетесь, снимите свой Тренировочный Браслет!"
+      "text": "The ritual will respect any settings you have configured on your $(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)Living Armour Training Bracelet$(), so if you have it set to \u0027do not allow other upgrades\u0027 then the ritual will fail to apply the downgrades to you. If in doubt, put your Training Bracelet away!"
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:upgradescraps",
-      "title": "Обрывки Улучшения Живой Брони",
-      "text": "Избыточные очки будут возвращены в виде $(item)Обрывков Улучшения Живой Брони$(), которые можно использовать в последующих ритуалах."
+      "title": "LA Upgrade Scraps",
+      "text": "Excess points will be returned in the form of $(item)Living Armour Upgrade Scraps$(), which can be used in subsequent rituals."
     }
   ]
 }

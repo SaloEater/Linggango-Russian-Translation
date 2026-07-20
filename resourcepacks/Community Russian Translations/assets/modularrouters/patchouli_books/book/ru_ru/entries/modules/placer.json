@@ -1,15 +1,15 @@
 {
-  "name": "Модуль Размещения",
+  "name": "Placer Module",
   "category": "modularrouters:modules",
   "icon": "modularrouters:placer_module",
   "pages": [
     {
       "type": "text",
-      "text": "Этот модуль пытается разместить предмет из буфера маршрутизатора в виде блока рядом с маршрутизатором в $(l:intro/modules#direction)заданном направлении/$.$(li)Если предмет не является блоком или место назначения занято, ничего не произойдет.$(li)Следуются стандартные правила размещения Minecraft; например, тростник можно ставить только рядом с водой на песке или земле."
+      "text": "This module tries to place an item from the router\u0027s buffer as a block, adjacent to the router in the module\u0027s $(l:intro/modules#direction)configured direction/$.$(li)If the item isn\u0027t a block or the destination block space is obstructed, nothing will be done.$(li)Normal Minecraft placement rules are followed; e.g. sugar cane can only be placed next to water on sand/dirt."
     },
     {
       "type": "text",
-      "text": "$(li)Блоки жидкости будут заменены, как и заменяемые блоки, например высокая трава.$(li)Модуль Размещения может сажать семена на фермерской земле и какао-бобы на соседнем джунглевом бревне."
+      "text": "$(li)Fluid blocks will be replaced, as will replaceable blocks such as tall grass.$(li)The Placer module can plant seeds on farmland, and cocoa beans on an adjacent jungle log."
     },
     {
       "type": "crafting",
@@ -17,4 +17,3 @@
     }
   ]
 }
-

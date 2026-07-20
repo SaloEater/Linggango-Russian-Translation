@@ -1,31 +1,31 @@
 {
-  "name": "Улучшение Энергии (Energy Upgrade)",
+  "name": "Energy Upgrade",
   "category": "modularrouters:upgrades",
   "icon": "modularrouters:energy_upgrade",
   "pages": [
     {
       "type": "text",
-      "text": "Это улучшение даёт маршрутизатору внутренний энергетический буфер. Каждое улучшение увеличивает размер буфера на 50 000 FE и скорость передачи на 1 000 FE за $(italic)тик маршрутизатора/$ (эти значения можно настроить в конфиге мода).$(p)Есть несколько сценариев, где улучшение Энергии полезно, которые описаны на следующих страницах."
+      "text": "This upgrade gives the Router an internal energy buffer. Each upgrade increases the buffer size by 50,000 FE and the transfer rate by 1,000 FE per $(italic)router tick/$ (these figures are adjustable in mod config).$(p)There are several scenarios where an Energy Upgrade is useful, detailed in the following pages."
     },
     {
       "type": "text",
-      "title": "1. Передача энергии",
-      "text": "Модули $(l:modules/energy_output)Energy Output/$ и $(l:modules/energy_distributor)Energy Distributor/$ могут активно передавать энергию из буфера маршрутизатора к соседним или близким блокам.$(p)С помощью этих модулей можно фактически создать энергетический блок с ограниченной возможностью беспроводной передачи энергии."
+      "title": "1. Routing Energy",
+      "text": "The $(l:modules/energy_output)Energy Output/$ and $(l:modules/energy_distributor)Energy Distributor/$ modules are both capable of actively pushing energy from the router\u0027s buffer to adjacent or nearby blocks.$(p)With these modules, you can effectively build an energy cell with limited wireless energy transfer capabilities."
     },
     {
       "type": "text",
-      "title": "2. Питание модулей",
-      "text": "По умолчанию модули маршрутизатора не тратят энергию при работе, за исключением $(l:modules/activator)Activator Module/$ в режиме атаки.$(p)Однако использование энергии настраиваемо, и возможно, что в вашем мод-паке другие модули тоже будут потреблять энергию; все модули, где это применимо, показывают расход энергии в подсказке."
+      "title": "2. Powering Modules",
+      "text": "By default, router modules do not cost any energy to run, with the exception of the $(l:modules/activator)Activator Module/$ in attack mode. $(p)However, energy usage is configurable and it\u0027s possible that energy costs may apply to other modules in the pack you\u0027re playing; all modules list energy usage numbers in their tooltip where it applies."
     },
     {
       "type": "text",
-      "title": "3. Зарядка предметов",
-      "text": "Любой предмет с энергией в буфере маршрутизатора может опционально получать энергию из внутреннего буфера маршрутизатора или отдавать её обратно.$(p)Если предмет с энергией находится в буфере, в GUI маршрутизатора появится переключаемая кнопка между буфером и индикатором энергии для установки направления передачи."
+      "title": "3. Charging Items",
+      "text": "Any energy-holding item in the router\u0027s buffer can optionally have energy transferred from the router\u0027s internal buffer to the item, or vice versa.$(p)When an energy-holding item is in the item buffer, the router GUI will show a switchable button between the buffer and the energy bar to set the energy transfer direction."
     },
     {
       "type": "text",
-      "title": "Скорости передачи",
-      "text": "Важно заметить, что указанные скорости передачи в подсказках указаны в FE за $(italic)тик маршрутизатора/$, что не то же самое, что FE/т. Скорость тика маршрутизатора зависит от $(l:upgrades/speed)Speed Upgrades/$; без улучшений скорости тик маршрутизатора происходит каждые 20 серверных тиков. Поэтому общая скорость передачи может быть ниже ожидаемой."
+      "title": "Transfer Rates",
+      "text": "It is important to note that stated transfer rates on tooltips are in FE per $(italic)router tick/$, which is not the same as FE/t. A Router\u0027s tick rate depends on its $(l:upgrades/speed)Speed Upgrades/$; with no Speed Upgrades, a router tick is every 20 server ticks. Therefore, the overall transfer rate may be lower than you might expect."
     },
     {
       "type": "crafting",

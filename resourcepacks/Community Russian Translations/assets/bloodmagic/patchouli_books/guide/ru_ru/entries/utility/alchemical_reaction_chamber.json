@@ -1,11 +1,11 @@
 {
-  "name": "Алхимическая Камера Реакций",
+  "name": "Alchemical Reaction Chamber",
   "icon": "bloodmagic:alchemicalreactionchamber",
   "category": "bloodmagic:utility",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Алхимическая Камера Реакций$(), или АКР сокращённо, может функционировать как $(thing)Печь$(), предлагает форму $(l:bloodmagic:utility/ore_processing)Утроения Руды$(), может обратить $(l:bloodmagic:altar/soul_network)Кровавые Сферы$(), $(item)Незерит$() и $(item)Усиленные Руны$(), и в настоящее время является единственным способом получить $(blood)Слабые Осколки Крови$(), в частности, из $(l:bloodmagic:dungeons/tau_fruit)Насыщенного Тау$(). $(br)Большинство инструментов, используемых в АКР, со временем изнашиваются, но могут быть зачарованы на Прочность или Починку, чтобы компенсировать это."
+      "text": "The $(item)Alchemical Reaction Chamber$(), or ARC for short, can function as a $(thing)Furnace$(), offers a form of $(l:bloodmagic:utility/ore_processing)Ore-Tripling$(), can revert $(l:bloodmagic:altar/soul_network)Blood Orbs$(), $(item)Netherrite$() and $(item)Reinforced Runes$(), and is currently the only way to get $(blood)Weak Blood Shards$(), specifically from a $(l:bloodmagic:dungeons/tau_fruit)Saturated Tau$(). $(br)Most tools used within the ARC degrade over time, but can be enchanted with unbreaking or mending to compensate."
     },
     {
       "type": "patchouli:crafting",
@@ -16,7 +16,7 @@
       "heading": "Sanguine Reverter",
       "recipe": "bloodmagic:soulforge/sanguine_reverter",
       "anchor": "blood_shard",
-      "text": "$(item)Сангвинический Ревертер$() используется для создания $(blood)Слабых Осколков Крови$(), а также для обращения $(l:bloodmagic:altar/soul_network)Кровавых Сфер$(), $(item)Незерита$() и $(item)Усиленных Рун$() в их исходный предмет для крафта."
+      "text": "The $(item)Sanguine Reverter$() is used to create $(blood)Weak Blood Shards$(), and revert $(l:bloodmagic:altar/soul_network)Blood Orbs$(), $(item)Netherrite$() and $(item)Reinforced Runes$() to their input crafting item."
     },
     {
       "type": "bloodmagic:3x_crafting_arc",
@@ -40,12 +40,12 @@
       "type": "bloodmagic:crafting_arc",
       "heading": "Revert Reinforced Rune",
       "recipe": "bloodmagic:arc/reversion/speed",
-      "text": "Все Усиленные Руны могут быть обращены таким образом — это всего лишь демонстрация."
+      "text": "All Reinforced Runes can be reverted in this way - this is just a demonstration."
     },
     {
       "type": "patchouli:text",
       "heading": "Automation",
-      "text": "Если вы захотите автоматизировать АКР, возможно, как часть цепочки $(l:bloodmagic:utility/ore_processing)Утроения Руды$(), вам может быть полезно знать, что она $(thing)имеет стороны$(), подобно $(item)печи$(). Инструменты могут быть вставлены или извлечены только сверху, входы с боков, и выходы снизу. Имейте это в виду при размещении ваших $(item)Воронок$() или $(l:bloodmagic:demon_will/item_routing/routing_nodes)Узлов Маршрутизации$()."
+      "text": "Should you wish to automate the ARC, perhaps as part of an $(l:bloodmagic:utility/ore_processing)Ore-Tripling$() chain, you may want to know that it is $(thing)sided$(), much like a $(item)furnace$(). Tools can only be inserted or extracted from the top, inputs from the sides, and outputs from the bottom. Keep this in mind when placing your $(item)Hoppers$() or $(l:bloodmagic:demon_will/item_routing/routing_nodes)Routing Nodes$()."
     }
   ]
 }

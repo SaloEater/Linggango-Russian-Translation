@@ -1,33 +1,33 @@
 {
-  "name": "Алхимический Стол",
+  "name": "Alchemy Table",
   "icon": "bloodmagic:alchemytable",
   "category": "bloodmagic:alchemy_table",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Алхимический Стол$() создает предметы, используя $(blood)ОЖ$() из $(l:bloodmagic:altar/soul_network)Сети Душ$(/l). Используемая $(thing)Сеть Душ$() и доступный Уровень рецептов определяются $(item)Кровавым Шаром$(), вставленным в правую часть интерфейса. $(br2)$(item)Алхимический Стол$() используется для создания нескольких компонентов $(6)Кровавой Магии$(), а также предоставляет альтернативные рецепты для некоторых ванильных предметов."
+      "text": "The $(item)Alchemy Table$() crafts items using $(blood)LP$() from a $(l:bloodmagic:altar/soul_network)Soul Network$(/l). The $(thing)Soul Network$() used and Tier of recipes available are determined by the $(item)Blood Orb$() inserted on the right side of the GUI. $(br2)The $(item)Alchemy Table$() is used to craft a handful of $(6)Blood Magic$() components, and provides alternate recipes for some vanilla items as well."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:alchemy_table",
-      "text": "При просмотре рецептов $(item)Алхимического Стола$() в этой книге (или в $(thing)JEI$()), наведите курсор на стрелку с меткой \"ОЖ\", чтобы просмотреть информацию о Времени, расходе $(blood)ОЖ$() и Уровне."
+      "text": "When looking at $(item)Alchemy Table$() recipes in this book (or in $(thing)JEI$()), please hover over the arrow with an \"LP\" label to view Time, $(blood)LP$() drain, and Tier information."
     },
     {
       "type": "patchouli:image",
       "images": [
         "bloodmagic:images/entries/alchemy_table/alchemy_table_gui.png"
       ],
-      "title": "Интерфейс Алхимического Стола",
+      "title": "Alchemy Table GUI",
       "border": true,
-      "text": "Предметы могут быть вставлены в Алхимический Стол или извлечены из него с помощью этих кнопок."
+      "text": "The Alchemy Table can be inserted into or extracted from using these buttons."
     },
     {
       "type": "patchouli:text",
-      "text": "У $(item)Алхимического Стола$() есть несколько кнопок справа. Это, по порядку: $(bold)В$()низ, $(bold)В$()верх, $(bold)С$()евер, $(bold)Ю$()г, $(bold)З$()апад и $(bold)В$()осток. Чтобы использовать их, сначала нажмите на любой слот в Алхимическом Столе. (Здесь для демонстрации мы выбрали центральный слот 'готового предмета'.) Затем нажмите на одну из этих шести кнопок, чтобы переключить, должен ли $(item)Алхимический Стол$() разрешать $(item)Воронкам$(), трубам или другим подобным внешним вмешательствам с этой стороны. Чтобы вернуться к обычной функции стола,"
+      "text": "The $(item)Alchemy Table$() has a number of buttons on its right hand side. These are, in order, $(bold)D$()own, $(bold)U$()p, $(bold)N$()orth, $(bold)S$()outh, $(bold)W$()est, and $(bold)E$()ast. To use them, first click on any slot in the Alchemy Table. (Here, we have selected the central \u0027finished item\u0027 slot, for demonstration.) Next, click on one of these six buttons to toggle whether or not the $(item)Alchemy Table$() should allow $(item)Hoppers$(), pipes, or other such external interference from this face. To return to the table\u0027s normal function,"
     },
     {
       "type": "patchouli:text",
-      "text": "просто нажмите на слот еще раз, чтобы снять выделение. Значок, отображаемый в слоте, показывает, принимает ли он входные данные или предоставляет выходные. На примере мы разрешаем трубам забирать предметы из нашего центрального слота только со стороны $(bold)В$()низу, и любые попытки извлечь предметы с других сторон не увенчаются успехом."
+      "text": "simply click the slot again to deselect it. The icon displayed in the slot shows whether it is accepting inputs or providing outputs. In the example picture, we are allowing pipes to take from our central slot only on the $(bold)D$()own slot, and any attempts to extract items from other sides will not succeed."
     },
     {
       "type": "patchouli:image",
@@ -35,14 +35,14 @@
         "bloodmagic:images/entries/alchemy_table/alchemy_table_orb_error.png",
         "bloodmagic:images/entries/alchemy_table/alchemy_table_soul_error.png"
       ],
-      "title": "Ошибки Алхимического Стола",
+      "title": "Alchemy Table Errors",
       "anchor": "errors",
       "border": true,
-      "text": "Алхимический Стол сообщит вам, когда что-то пойдет не так."
+      "text": "The Alchemy Table will tell you when something is wrong."
     },
     {
       "type": "patchouli:text",
-      "text": "Две наиболее распространенные причины, по которым рецепт не работает в Алхимическом Столе, следующие: $(li)$(bold)Ошибка Шара$(): Либо в соответствующем слоте нет Кровавого Шара, либо Шар, который вы пытаетесь использовать, недостаточно высокого уровня для этого рецепта. $(li)$(bold)Ошибка Сети Душ$(): Шар имеет допустимый уровень, но либо вы не привязали его к себе (щелчок правой кнопкой мыши, держа его в руке), либо в вашей Сети Душ недостаточно ОЖ. $(br2)На следующих страницах описаны некоторые рецепты, доступные для Алхимического Стола."
+      "text": "The two most common reasons for a recipe to not work in the Alchemy Table are as follows: $(li)$(bold)Orb Error$(): Either there is no Blood Orb present in the relevant slot, or the Orb you are trying to use is not a high enough level for this recipe. $(li)$(bold)Soul Network Error$(): The orb is of a valid level, but either you have not bound it to yourself (right click while holding it), or your Soul Network does not have enough LP in it. $(br2)The following pages document a number of recipes currently available for the Alchemy Table."
     },
     {
       "type": "bloodmagic:3x_crafting_alchemy_table",
@@ -96,7 +96,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(l:bloodmagic:alchemy_array/sigil/lava)Лавовая$() и $(l:bloodmagic:alchemy_array/sigil/water)Водная Печати$() не расходуются ни в одном из этих рецептов. Более того, $(item)Водная Печать$() может быть использована вместо $(water)Ведра Воды$() в любом рецепте Алхимического Стола."
+      "text": "The $(l:bloodmagic:alchemy_array/sigil/lava)Lava$() and $(l:bloodmagic:alchemy_array/sigil/water)Water Sigils$() are not consumed in either of these recipes. What\u0027s more, the $(item)Water Sigil$() can be used in place of a $(water)Water Bucket$() in any Alchemy Table Recipe."
     }
   ]
 }

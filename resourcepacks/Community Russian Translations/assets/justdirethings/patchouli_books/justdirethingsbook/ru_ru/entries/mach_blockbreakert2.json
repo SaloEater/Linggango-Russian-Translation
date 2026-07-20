@@ -1,24 +1,24 @@
 {
-  "name": "Улучшенный Разрушитель Блоков",
+  "name": "Advanced Block Breaker",
   "sortnum": 4,
   "category": "justdirethings:machines",
   "icon": "justdirethings:blockbreakert2",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Улучшенный разрушитель блоков — это улучшенная версия $(l:justdirethings:mach_blockbreakert1)Простого Разрушителя Блоков$(/l). Он может разрушать блоки на гораздо большей площади. Ниже приведены подробности каждой функции пользовательского интерфейса.$(br2)$(l)Фильтр Блоков против Фильтра Предметов.$()$(br2)Раздел фильтра позволяет указать, какие блоки разрушать. "
+      "text": "The advanced block breaker is an upgraded version of the $(l:justdirethings:mach_blockbreakert1)Simple Block Breaker$(/l). It can break blocks in a much larger area. Details of each feature of the UI follow.$(br2)$(l)Filter Block vs Filter Item.$()$(br2)The filter section allows you to specify what blocks to break. "
     },
     {
       "type": "patchouli:text",
-      "text": "В режиме 'фильтра блоков' вы сможете указать, какие БЛОКИ разрушать. Например, если вы поместите туда булыжник, он будет разрушать только булыжные блоки.$(br2)В режиме 'фильтра предметов' указывается, какие выпадающие предметы разрешены. Например, если вы поместите туда булыжник, он сможет разрушать либо камень, либо булыжник, так как при разрушении камня выпадает булыжник (если кирка не имеет 'Шёлкового касания')."
+      "text": "In \u0027filter block\u0027 mode, this will let you specify which BLOCKS to break. For example, if you place cobblestone in there, it will only break cobblestone blocks.$(br2)In filter ITEMS mode, it specifies which item drops to allow. For example, if you place cobblestone in there, it can break either stone or cobblestone, since breaking stone will drop cobblestone (unless the pick has silk touch)."
     },
     {
       "type": "patchouli:text",
-      "text": "$(l)Кнопка Направления.$()$(br2)Кнопка направления позволяет указать, с какой стороны блока разрушать. Обычно это не имеет значения, но если ваш инструмент обладает способностью, похожей на 'молот', это позволяет вам указать, какую 'сторону' блока вы ударяете при его разрушении, чтобы вы могли контролировать направление молота."
+      "text": "$(l)Direction Button.$()$(br2)The direction button lets you specify which block face to break from. Normally this doesn\u0027t matter, but if your tool has a \u0027hammer\u0027 like ability, it lets you specify which \u0027side\u0027 of the block you\u0027re hitting when you break it, so you can control the hammers direction."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Улучшенный Разрушитель Блоков",
+      "title": "Advanced Block Breaker",
       "recipe": "justdirethings:blockbreakert2"
     }
   ]

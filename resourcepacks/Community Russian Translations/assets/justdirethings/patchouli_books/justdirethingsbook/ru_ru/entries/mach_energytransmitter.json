@@ -1,24 +1,24 @@
 {
-  "name": "Передатчик энергии",
+  "name": "Energy Transmitter",
   "sortnum": 1,
   "category": "justdirethings:machines",
   "icon": "justdirethings:energytransmitter",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Передатчик энергии — это революционный способ передачи энергии от ваших генераторов к механизмам!$(br2)Сначала подключите этот механизм к источнику энергии, например, к $(l:justdirethings:mach_generatort1)Угольному$(/l) или $(l:justdirethings:mach_generatorfluidt1)Жидкостному$(/l) генераторам. Это приведёт к заполнению внутреннего буфера энергией Forge."
+      "text": "The energy transmitter is a revolutionary way to transmit energy from your generators to machines!$(br2)First, connect this machine to a power source, like the $(l:justdirethings:mach_generatort1)Coal$(/l) or $(l:justdirethings:mach_generatorfluidt1)Fuel$(/l) generators. This will cause the internal buffer to fill with Forge Energy."
     },
     {
       "type": "patchouli:text",
-      "text": "Во-вторых, определите Зону Действия, как и в большинстве $(l:justdirethings:mach_advanced_controls)Продвинутых Механизмов$(/l).$(br2)Любые блоки внутри зоны действия, способные принимать энергию Forge, начнут заполняться из внутреннего буфера.$(br2)ПРИМЕЧАНИЕ: В результате этой беспроводной передачи энергии происходит небольшая потеря энергии. Это сделано намеренно и служит для балансировки 'беспроводной передачи энергии'. Эту потерю можно настроить."
+      "text": "Second, define the Area of Effect, like you can with most $(l:justdirethings:mach_advanced_controls)Advanced Machines$(/l).$(br2)Any blocks inside the area of effect that can receive Forge Energy will start getting filled up by the internal buffer.$(br2)NOTE: There is a small amount of energy loss as a result of this wireless energy transfer. This is intended, and is meant as a balance for \u0027wireless energy\u0027 transfer. This loss is configurable."
     },
     {
       "type": "patchouli:text",
-      "text": "При желании вы можете отфильтровать механизмы, получающие энергию, используя слоты фильтра в интерфейсе, как и в большинстве других $(l:justdirethings:mach_advanced_controls)Продвинутых Механизмов$(/l).$(br2)Если другой передатчик энергии находится внутри зоны действия, они будут автоматически поддерживать баланс друг с другом. Балансировка энергии не приводит к потерям энергии. Вы можете отключить рендеринг частиц с помощью кнопки в интерфейсе."
+      "text": "If you wish, you may filter the machines that receive power using the filter slots in the UI, same with most other $(l:justdirethings:mach_advanced_controls)Advanced Machines$(/l).$(br2)If another energy transmitter is inside the area of effect, they will keep each other balanced automatically. Energy balancing does not incur any energy loss. You can disable particle rendering with a button in the UI."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Передатчик энергии",
+      "title": "Energy Transmitter",
       "recipe": "justdirethings:energytransmitter"
     }
   ]

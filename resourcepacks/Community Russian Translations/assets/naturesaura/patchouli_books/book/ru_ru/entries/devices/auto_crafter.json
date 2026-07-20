@@ -1,25 +1,25 @@
 {
-  "name": "Автоматический Конструктор",
+  "name": "Automatic Constructor",
   "icon": "naturesaura:auto_crafter",
   "category": "naturesaura:devices",
   "advancement": "naturesaura:sky_ingot",
   "pages": [
     {
       "type": "text",
-      "text": "Большая часть жизни любого ботаника — это $(thing)создание$() предметов, особенно в $(item)Верстаке$(). Однако это может легко стать утомительным и отнимающим много времени, особенно для рецептов, которые создаются и используются на регулярной основе. Для этого пригодится $(item)Автоматический Конструктор$(): он будет создавать, без чьей-либо помощи, любой предмет, который обычно можно изготовить с помощью крафта."
+      "text": "A big part of any botanist\u0027s life is the $(thing)construction$() of items, specifically in a $(item)Crafting Table$(). This, however, can easily become tedious and time consuming, especially for recipes that are created and used on a regular basis. For this, the $(item)Automatic Constructor$() comes in handy: It will create, without the help of anyone required, any item that can regularly be made by crafting."
     },
     {
       "type": "text",
-      "text": "Для этого сначала необходимо построить $(thing)структуру$(), показанную на следующей странице, с $(item)Автоматическим Конструктором$() в центре. При установке направление стрелки указывает на $(thing)верхнюю часть рецепта$(), как если бы она указывала на самый верхний ряд слотов в $(item)Верстаке$(). Затем необходимые ингредиенты должны быть сброшены на $(item)Древние Брёвна$() в их обычной конфигурации. После установки, через пару секунд, полученный предмет выпадет из $(thing)нижней части$() $(item)Автоматического Конструктора$()."
+      "text": "To achieve this, first, the $(thing)structure$() on the following page has to be constructed with the $(item)Automatic Constructor$() in the center. When placed, the facing of the arrow indicates the $(thing)top of the recipe$(), as if pointing to the uppermost row of slots in a $(item)Crafting Table$(). The required ingredients then have to be dropped on the $(item)Ancient Logs$() in their normal configuration. Once in place, after a couple of seconds, the resulting item will drop out of $(thing)the bottom$() of the $(item)Automatic Constructor$()."
     },
     {
       "type": "multiblock",
       "multiblock_id": "naturesaura:auto_crafter",
-      "text": "Создание структуры, необходимой для автоматического процесса крафта"
+      "text": "Creating the structure required for the automatic crafting process"
     },
     {
       "type": "crafting",
-      "text": "Создание $(item)Автоматического Конструктора$()",
+      "text": "Creating the $(item)Automatic Constructor$()",
       "recipe": "naturesaura:auto_crafter"
     }
   ]

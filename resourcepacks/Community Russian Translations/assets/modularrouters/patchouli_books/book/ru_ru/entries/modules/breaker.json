@@ -1,19 +1,19 @@
 {
-  "name": "Модуль Ломателя",
+  "name": "Breaker Module",
   "category": "modularrouters:modules",
   "icon": "modularrouters:breaker_module",
   "pages": [
     {
       "type": "text",
-      "text": "Этот модуль пытается разрушить блок, находящийся рядом с $(l:router/item_router)Маршрутизатором/$ в $(l:intro/modules#direction)направлении, указанном в настройках модуля/$.$(p)Большинство блоков можно разрушить, хотя любые блоки с непробиваемой прочностью (например, ванильный $(item)Нижний камень/$ или $(item)Портал Края/$) не поддаются разрушению, как и любые блоки жидкости. Если блок будет разрушен, его основные дропы автоматически помещаются в буфер маршрутизатора предметов, если это возможно."
+      "text": "This module tries to break a block, adjacent to the $(l:router/item_router)Router/$ in the module\u0027s $(l:intro/modules#direction)configured direction/$.$(p)Most blocks are breakable, although anything with an unbreakable hardness (e.g. vanilla $(item)Bedrock/$ or $(item)End Portal/$) can not be broken, nor can any fluid blocks. If the block is broken, its primary drop(s) will be automatically inserted into the item router\u0027s buffer, if possible."
     },
     {
       "type": "text",
-      "text": "Модуль Ломателя можно скрафтить с использованием любого типа кирки (включая модифицированные кирки), но уровень добычи модуля зависит от кирки, использованной для крафта. Например, если создать Модуль Ломателя с $(item)Железной киркой/$, он не сможет разрушить $(item)Обсидиан/$.$(p)Кроме того, любые $(thing)зачарования/$ на используемой кирке будут учтены в модуле ($(thing)Шелковое касание/$ и $(thing)Удача/$ особенно полезны)."
+      "text": "The Breaker Module can be crafted with any type of pickaxe (including modded pickaxes), but the pickaxe used to craft the module determines its harvest level.  E.g. if you create a Breaker Module with an $(item)Iron Pickaxe/$, it will not be able to break $(item)Obsidian/$.$(p)Additionally, any $(thing)enchantments/$ on the pickaxe used will be noted in the module ($(thing)Silk Touch/$ and $(thing)Fortune/$ are of particular use)."
     },
     {
       "type": "text",
-      "text": "По умолчанию фильтр Модуля Ломателя работает на $(thing)предметах, которые выпадут/$, а не на самом блоке. Например, фильтрация по $(item)Камень/$ не позволит разрушить камень, если у модуля не включено $(thing)Шелковое касание/$. В этом случае следует фильтровать по $(item)Булыжник/$. $(p)Вы можете настроить модуль на сопоставление по $(thing)блоку/$ через интерфейс модуля; это полезно, чтобы различать блоки, которые не дают дропов, например $(item)Лёд/$ и $(item)Уплотнённый лёд/$."
+      "text": "By default the Breaker Module filter works on $(thing)items that would be dropped/$, rather than on the block itself. E.g. filtering on $(item)Stone/$ would not work to break Stone, unless the module has $(thing)Silk Touch/$ enabled. In this case, you should filter on $(item)Cobblestone/$.$(p)You can set the module to match by the $(thing)block/$ via the module GUI; this can be useful to distinguish between blocks that both drop nothing, e.g. $(item)Ice/$ and $(item)Packed Ice/$."
     },
     {
       "type": "crafting",
@@ -21,4 +21,3 @@
     }
   ]
 }
-

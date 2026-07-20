@@ -52,33 +52,8 @@
     },
     {
       "type": "patchouli:text",
-      "recipe": "goety:thrall/summon_winter_wolf_thrall"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "goety:stormhound",
-      "scale": 0.5
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Легенды о дьявольских гончих, появляющихся с раскатом грома, были повсюду, теперь их молниеносные челюсти в вашем распоряжении. Их призывают, используя $(l:focuses/wild/hunting_focus)заклинание Охоты$() с $(l:crafts/staff/frost_staff)Грозовым Посохом$(), призывая во время открытой грозы или с помощью другого ритуала."
-    },
-    {
-      "type": "goety:ritual",
-      "recipe": "goety:thrall/summon_stormhound_thrall"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "goety:hellhound",
-      "scale": 0.5
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Вы слышали истории и мифы о гончих, тащащих проклятых в огни Незера, возможно, пришло время приручить этих гончих. Их призывают, используя $(l:focuses/wild/hunting_focus)заклинание Охоты$() с $(l:crafts/staff/nether_staff)Незерским Посохом$(), призывая в биомах Незера или с помощью другого ритуала."
-    },
-    {
-      "type": "goety:ritual",
-      "recipe": "goety:thrall/summon_hellhound_thrall"
+      "advancement": "goety:goety/read_bygone_scroll",
+      "text": "Также их можно вызвать, вставив $(l:focuses/wild/hunting_focus)фокус охоты$() в $(l:crafts/staff/nether_staff)незерский посох$()."
     }
   ]
 }

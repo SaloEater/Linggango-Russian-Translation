@@ -1,11 +1,11 @@
 {
-  "name": "Усилитель увеличения дальности",
+  "name": "Range Up Augment",
   "category": "modularrouters:augments",
   "icon": "modularrouters:range_up_augment",
   "pages": [
     {
       "type": "text",
-      "text": "Этот усилитель можно добавить в любой модуль, который имеет дальность действия (Отправитель $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$, Захват $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$, Экструдер $(l:modules/extruder_1)Mk1/$ / $(l:modules/extruder_2)Mk2/$, $(l:modules/fluid_2)Жидкость Mk2/$, $(l:modules/vacuum)Вакуум/$).$(p)Его можно ставить несколько раз; каждый усилитель увеличивает дальность модуля на один блок."
+      "text": "This augment can be added to any module which has a range (Sender $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$, Puller $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$, Extruder $(l:modules/extruder_1)Mk1/$ / $(l:modules/extruder_2)Mk2/$, $(l:modules/fluid_2)Fluid Mk2/$, $(l:modules/vacuum)Vacuum/$).$(p)It can be stacked; each augment will increase the range of the module by one block."
     },
     {
       "type": "crafting",
@@ -14,4 +14,3 @@
     }
   ]
 }
-

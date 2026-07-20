@@ -1,61 +1,61 @@
 {
-  "name": "Приношение Богам",
+  "name": "Offering to the Gods",
   "icon": "naturesaura:offering_table",
   "category": "naturesaura:practices",
   "advancement": "naturesaura:infused_materials",
   "pages": [
     {
       "type": "text",
-      "text": "$(item)Насыщенное железо$() хорошо и само по себе обладает достаточной природной силой для выполнения различных задач. Но для более сложных механизмов требуется более мощный металл. Для этого, а также для многих других целей, требуется $(item)Приношение Богам$().$(br)Боги долгое время были сильнейшими и могущественнейшими существами, и как таковые, они также обладают самыми крепкими металлами, известными человеку."
+      "text": "$(item)Infused Iron$() is good and well, and it has enough natural power to do a variety of things on its own. But for more advanced mechanisms, a more powerful metal is required. For that, and for a lot of other things, the $(item)Offering to the Gods$() is required.$(br)The Gods have been, for a long time, the strongest and most powerful beings, and as such, also posess the strongest metals known to man."
     },
     {
       "type": "text",
-      "text": "Чтобы создать способ призыва самих Богов, просто установите $(item)Стол для приношений$() с цветами вокруг него, как показано на следующей странице. Затем, чтобы начать приношение, поместите любое количество предметов, которые вы хотите предложить, в чашу на столе, а затем бросьте предмет, который призовет самих Богов, в большинстве случаев это $(item)Дух Призыва$(), рядом со столом.$(br)Запрошенные предметы затем, если повезет, прольются с неба."
+      "text": "To construct a way to call to the Gods themselves, simply place down an $(item)Offering Table$() with some flowers around it as depicted on the next page. Then, to start an offering, place any amount of items you want to offer into the bowl on the table, and then throw down the item that will call the Gods themselves, in most cases, the $(item)Spirit of Calling$(), close to the table.$(br)The requested items will then, with any luck, rain down from the sky."
     },
     {
       "type": "multiblock",
       "multiblock_id": "naturesaura:offering_table",
-      "text": "Подготовка $(item)Приношения Богам$(). Можно использовать любой тип цветка."
+      "text": "Preparing the $(item)Offering to the Gods$(). Any type of flower can be used."
     },
     {
       "type": "crafting",
-      "text": "Создание $(item)Стола для приношений$()",
+      "text": "Creating the $(item)Offering Table$()",
       "recipe": "naturesaura:offering_table"
     },
     {
       "type": "crafting",
-      "text": "Создание $(item)Духов Призыва$()",
+      "text": "Creating $(item)Spirits of Calling$()",
       "recipe": "naturesaura:calling_spirit"
     },
     {
       "type": "naturesaura:offering",
-      "text": "Просьба о $(item)Слитках Небес$(), мощном металле, наполненном божественной энергией.",
+      "text": "Asking for $(item)Ingots of the Sky$(), a powerful metal infused with divine energy.",
       "recipe": "naturesaura:sky_ingot"
     },
     {
       "type": "naturesaura:offering",
-      "text": "Просьба о $(item)Слитках Небес$() с использованием $(item)Испорченного Золота$() приводит к большему выходу.",
+      "text": "Asking for $(item)Ingots of the Sky$() using $(item)Tainted Gold$() results in a higher yield.",
       "recipe": "naturesaura:sky_ingot_from_gold"
     },
     {
       "type": "naturesaura:offering",
-      "text": "Обмен $(item)Жетона Радости$() на гораздо более сильную версию, $(item)Жетон Эйфории$()",
+      "text": "Exchanging the $(item)Token of Joy$() for a much stronger version, the $(item)Token of Euphoria$()",
       "recipe": "naturesaura:token_euphoria"
     },
     {
       "type": "naturesaura:offering",
-      "text": "Обмен $(item)Жетона Страха$() на гораздо более сильную версию, $(item)Жетон Ужаса$()",
+      "text": "Exchanging the $(item)Token of Fear$() for a much stronger version, the $(item)Token of Terror$()",
       "recipe": "naturesaura:token_terror",
       "anchor": "terror"
     },
     {
       "type": "naturesaura:offering",
-      "text": "Обмен $(item)Жетона Гнева$() на гораздо более сильную версию, $(item)Жетон Ярости$()",
+      "text": "Exchanging the $(item)Token of Anger$() for a much stronger version, the $(item)Token of Rage$()",
       "recipe": "naturesaura:token_rage"
     },
     {
       "type": "naturesaura:offering",
-      "text": "Обмен $(item)Жетона Печали$() на гораздо более сильную версию, $(item)Жетон Горя$()",
+      "text": "Exchanging the $(item)Token of Sorrow$() for a much stronger version, the $(item)Token of Grief$()",
       "recipe": "naturesaura:token_grief"
     }
   ]

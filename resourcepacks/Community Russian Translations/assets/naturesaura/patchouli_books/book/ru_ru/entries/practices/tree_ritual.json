@@ -1,5 +1,5 @@
 {
-  "name": "Ритуал Леса",
+  "name": "Ritual of the Forest",
   "icon": "naturesaura:wood_stand",
   "category": "naturesaura:practices",
   "advancement": "naturesaura:gold_leaf",
@@ -8,45 +8,45 @@
   "pages": [
     {
       "type": "text",
-      "text": "Начиная свой путь в качестве магического ботаника, полезно использовать силы природы на более прямом уровне, прежде чем углубляться непосредственно в саму $(aura). $(item)Ритуал Леса$() использует свойства $(l:practices/gold_trees)Золотого Порошка$(), чтобы напрямую внедрить силу природных ингредиентов в свежее, растущее дерево, поглощая его в процессе, но в то же время превращая его в полезные инструменты и предметы."
+      "text": "When starting out as a magical botanist, it proves beneficial to use the powers of nature on a more direct level before delving directly into $(aura) itself. The $(item)Ritual of the Forest$() uses properties of $(l:practices/gold_trees)Gold Powder$() to encorporate the power of natural ingredients directly into a fresh, growing tree, devouring it in the process, but at the same time, transforming it into useful tools and items."
     },
     {
       "type": "text",
-      "text": "Чтобы провести этот $(thing)ритуал$(), необходимо разместить $(item)Золотой Порошок$() в конфигурации, показанной на следующей странице, с несколькими $(item)Деревянными Подставками$() вокруг, которые будут удерживать ингредиенты.$(br)Затем, правильный $(item)Саженец$() должен быть помещен в центр, и, либо с помощью какого-либо удобрения, либо с течением времени, его рост приведет к началу ритуала.$(br)Обратите внимание, что следует быть осторожным, так как ритуалы требуют $(bold)определенных типов саженцев$()."
+      "text": "To construct this $(thing)ritual$(), one has to place $(item)Gold Powder$() in the configuration shown on the next page, with some $(item)Wooden Stands$() around that which will hold the ingredients.$(br)Then, the correct $(item)Sapling$() must be placed in the middle, and, either through some kind of fertilizer, or through the inevitability of time, its growth will cause the ritual to start.$(br)Note that care needs to be taken as rituals require $(bold)specific types of saplings$()."
     },
     {
       "type": "multiblock",
       "multiblock_id": "naturesaura:tree_ritual",
-      "text": "Подготовка $(item)Ритуала Леса$(). Не обязательно иметь все $(item)Деревянные Подставки$() на месте."
+      "text": "Preparing the $(item)Ritual of the Forest$(). It is not required to have all $(item)Wood Stands$() present."
     },
     {
       "type": "crafting",
-      "text": "Создание $(item)Деревянных Подставок$()",
+      "text": "Creating $(item)Wooden Stands$()",
       "recipe": "naturesaura:wood_stand"
     },
     {
       "type": "text",
-      "text": "Вместе с ритуалом можно получить знания о $(item)Токенах$(): Деревянные фигурки, изображающие ключевые эмоции — созданные из деревьев, наполненных соответствующими символами. Эти фигурки содержат комбинацию огромной силы самой $(aura) и силы эмоций, которые они представляют.$(p)В дальнейшем эти $(item)Токены$() станут ключевым строительным ингредиентом."
+      "text": "Together with the ritual, knowledge of $(item)Tokens$() can be gained: Wooden figurines, depicting key emotions - created from trees infused with their respective symbols. These figurines contain a combination of the vast power of $(aura) itself and the power of the emotions they represent.$(p)Going forward, these $(item)Tokens$() will be a key construction ingredient."
     },
     {
       "type": "naturesaura:tree_ritual",
       "recipe": "naturesaura:token_joy",
-      "text": "Создание $(item)Токена Радости$(), наполненного предметами, которые вызывают радость, найденными в природе, исследованиях и красоте"
+      "text": "Creating the $(item)Token of Joy$(), infused with items that spark joy, found in nature, exploration and beauty"
     },
     {
       "type": "naturesaura:tree_ritual",
       "recipe": "naturesaura:token_fear",
-      "text": "Создание $(item)Токена Страха$(), наполненного предметами, символизирующими мимолетность, падение"
+      "text": "Creating the $(item)Token of Fear$(), infused with items representing transience, falling"
     },
     {
       "type": "naturesaura:tree_ritual",
       "recipe": "naturesaura:token_anger",
-      "text": "Создание $(item)Токена Гнева$(), наполненного темными компонентами — взрывчатостью, огнем, тьмой"
+      "text": "Creating the $(item)Token of Anger$(), infused with dark components - explosiveness, fire, darkness"
     },
     {
       "type": "naturesaura:tree_ritual",
       "recipe": "naturesaura:token_sorrow",
-      "text": "Создание $(item)Токена Печали$(), наполненного слезами, хрупкостью и смертью"
+      "text": "Creating the $(item)Token of Sorrow$(), infused with tears, fragility and death"
     }
   ]
 }

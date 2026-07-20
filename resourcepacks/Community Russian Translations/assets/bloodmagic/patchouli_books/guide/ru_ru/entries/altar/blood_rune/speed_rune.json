@@ -1,11 +1,11 @@
 {
-  "name": "Руна Скорости",
+  "name": "Speed Rune",
   "icon": "bloodmagic:speedrune",
   "category": "bloodmagic:altar/blood_rune",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Руна Скорости$() увеличивает скорость всех операций крафта Кровавого Алтаря. Скорость крафта (и скорость потери прогресса при отсутствии ресурсов) увеличивается на дополнительные +20% за каждую руну."
+      "text": "The $(item)Speed Rune$() increases all of the crafting operations of the Blood Altar. The crafting speed (and speed that the progress is lost when empty) increases by an additive +20% per rune."
     },
     {
       "type": "patchouli:crafting",
@@ -14,12 +14,12 @@
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:blood_rune_speed_2",
-      "text": "Используя $(item)Незеритовый Скрап$() и $(item)Сложные Адские Детали$(), добытые в $(l:bloodmagic:dungeons/endless_realm)Царстве Демонов$(), вы можете удвоить силу вашей $(item)Руны Скорости$(), увеличивая скорость крафта на дополнительные +40% за каждую руну."
+      "text": "With some $(item)Netherite Scrap$() and some $(item)Intricate Hellforged Parts$() looted from the $(l:bloodmagic:dungeons/endless_realm)Demon Realm$(), you can double the power of your $(item)Speed Rune$(), increasing the crafting rate by an additive +40% per rune."
     },
     {
       "type": "bloodmagic:crafting_arc",
       "recipe": "bloodmagic:arc/reversion/speed",
-      "text": "Если вы передумаете, вы можете отменить рецепт в АРК."
+      "text": "If you change your mind, you can undo the recipe in the ARC."
     }
   ]
 }

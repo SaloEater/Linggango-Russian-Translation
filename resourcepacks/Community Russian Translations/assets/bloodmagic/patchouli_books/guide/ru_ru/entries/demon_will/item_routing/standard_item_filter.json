@@ -1,21 +1,21 @@
 {
-  "name": "Стандартный предметный фильтр",
+  "name": "Standard Item Filter",
   "icon": "bloodmagic:itemrouterfilterexact",
   "category": "bloodmagic:demon_will/item_routing",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Стандартный предметный фильтр позволяет выбрать до 9 предметов для извлечения или вставки в соседний инвентарь при установке в $(l:bloodmagic:demon_will/item_routing/routing_nodes)Узел маршрутизации$(). $(br2)Каждый предмет имеет количество — если оставить это поле пустым, по умолчанию будет 'все'. $(br2)Фильтр также имеет функции разрешения и запрета. В режиме запрета количества игнорируются. "
+      "text": "The Standard Item Filter lets you select up to 9 items to withdraw from, or insert into, the adjacent inventory when inserted into a $(l:bloodmagic:demon_will/item_routing/routing_nodes)Routing Node$(). $(br2)Each item has a quantity - leaving this blank will default to \u0027all\u0027. $(br2)The Filter also has an Allow and Deny function. In Deny mode, quantities are ignored. "
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
       "heading": "Standard Item Filter",
       "recipe": "bloodmagic:alchemytable/router_filter",
-      "text": "$(br)При использовании в $(item)Узле маршрутизации ввода$(), количество указывает узлу, сколько этого предмета оставить в выбранном инвентаре. Всё, что превышает это количество, будет импортировано в сеть."
+      "text": "$(br)When used in an $(item)Input Routing Node$(), the quantity tells the node how many of that item to leave in the selected inventory. Anything above this amount will be imported into the network."
     },
     {
       "type": "patchouli:text",
-      "text": "При использовании в $(item)Узле маршрутизации вывода$(), количество указывает узлу, сколько этого предмета заполнить в выбранном инвентаре. Всё, что превышает это количество, останется в сети — либо будет передано в другой подходящий инвентарь, либо останется на месте."
+      "text": "When used in an $(item)Output Routing Node$(), the quantity tells the node how many of that item to fill in the selected inventory with. Anything above this amount will be left in the network - either passed into another valid inventory, or left where it is."
     },
     {
       "type": "patchouli:image",
@@ -23,9 +23,9 @@
         "bloodmagic:images/entries/routing/standard_item_filter_gui.png",
         "bloodmagic:images/entries/routing/standard_item_filter_mouseover.png"
       ],
-      "title": "Интерфейс стандартного предметного фильтра",
+      "title": "Standard Item Filter GUI",
       "border": true,
-      "text": "Интерфейс и текст всплывающей подсказки настроенного фильтра."
+      "text": "The GUI and the mouseover text of a configured filter."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Плод Тау",
+  "name": "Tau Fruit",
   "icon": "bloodmagic:weak_tau",
   "category": "bloodmagic:dungeons",
   "extra_recipe_mappings": {
@@ -8,23 +8,23 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Плод Тау можно найти в $(l:bloodmagic:dungeons/lobby)Простых Подземельях$(), после чего его можно будет выращивать. Будучи коренным обитателем $(thing)Измерения Демонов$(), его жизненный цикл, к сожалению, немного сложнее, чем у скромного $(item)Картофеля$(). $(br2)Плод Тау созревает в один из двух видов, в зависимости от условий, в которых он был выращен. По умолчанию он вырастет в $(item)Плод Тау$(), который можно переработать в $(item)Масло Тау$()."
+      "text": "Tau Fruit can be found within $(l:bloodmagic:dungeons/lobby)Simple Dungeons$(), after which it can be farmed. Being a native denizen of the $(thing)Demon Realm$(), its lifecycle is unfortunately a tad more complex than that of the humble $(item)Potato$(). $(br2)The Tau Fruit will mature into one of two varieties, depending on the conditions in which it was raised. By default, it will grow into $(item)Tau Fruit$(), which can be converted into $(item)Tau Oil$()."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
       "heading": "Tau Oil",
       "recipe": "bloodmagic:alchemytable/tau_oil",
-      "text": "$(italic)На вкус как кровавый апельсин, только другой.$()"
+      "text": "$(italic)Tastes like a Blood Orange, except different.$()"
     },
     {
       "type": "patchouli:text",
-      "text": "Масло Тау в настоящее время имеет два основных применения. Оно может увеличить продолжительность действия любого $(l:bloodmagic:alchemy_table/anointments)помазания$() в четыре раза, или его можно использовать для создания $(item)Промежуточной Смазочно-Охлаждающей Жидкости$(), которая функционирует аналогично $(l:bloodmagic:utility/alchemical_reaction_chamber#basic_cutting_fluid)Базовой Смазочно-Охлаждающей Жидкости$(), но действует в восемь раз дольше и обеспечивает 25% увеличение скорости."
+      "text": "Tau Oil currently has two main uses. It can extend the duration of any $(l:bloodmagic:alchemy_table/anointments)anointment$() by a factor of four, or it can be used to craft $(item)Intermediate Cutting Fluid$(), which functions similarly to $(l:bloodmagic:utility/alchemical_reaction_chamber#basic_cutting_fluid)Basic Cutting Fluid$(), but lasts eight times longer and provides a 25% speed boost."
     },
     {
       "type": "patchouli:spotlight",
       "item": "bloodmagic:strong_tau",
       "link_recipe": "true",
-      "text": "Однако, $(item)Плод Тау$() имеет альтернативный, более сложный путь роста. Если растение созревает, пока $(thing)Моб$() (например, корова) стоит на нём, оно будет вытягивать здоровье из сущности, чтобы утолить свою тёмную жажду. Таким образом, $(item)Насыщенный Тау$() может быть выращен."
+      "text": "However, $(item)Tau Fuit$() has an alternate, more challenging route of growth. If the plant matures while a $(thing)Mob$() (a cow, for example) is standing atop it, it will leach health from the entity to satiate its dark hungers. In this way, $(item)Saturated Tau$() can be grown."
     }
   ]
 }

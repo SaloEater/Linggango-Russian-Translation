@@ -1,15 +1,15 @@
 {
-  "name": "Обзор Модульного Маршрутизатора",
+  "name": "Modular Router Overview",
   "icon": "modularrouters:modular_router",
   "category": "modularrouters:intro",
   "pages": [
     {
       "type": "text",
-      "text": "$(item)Модульный Маршрутизатор/$ является центральным блоком системы маршрутизации. Сам по себе он ничего не делает, кроме как служит инвентарем на один слот (в который можно подавать предметы и извлекать их с помощью воронок и других систем перекачки из модов).$(p)Однако, чтобы маршрутизатор делал что-то полезное, вам нужно установить один или несколько (до девяти) $(l:intro/modules)Модулей/$."
+      "text": "The $(item)Modular Router/$ is the central block of the routing system.  By itself, it does nothing other than serve as a one-slot inventory (which can be piped into and out of by hoppers and other mod piping systems).$(p)To do anything useful with a router, however, you need to install one or more (up to nine) $(l:intro/modules)Modules/$."
     },
     {
       "type": "text",
-      "text": "Каждый раз, когда маршрутизатор срабатывает (по умолчанию раз в секунду), он будет выполнять каждый установленный модуль по порядку. Каждый из этих модулей будет работать с предметами в буфере или с миром вокруг маршрутизатора определенным образом — см. раздел $(bold)Модули/$ для получения информации о каждом отдельном типе модуля.$(p)Работу маршрутизатора также можно изменить с помощью $(bold)Улучшений/$ — ускорить его, позволить ему обрабатывать больше предметов за такт, увеличить радиус действия определенных модулей..."
+      "text": "Every time a router ticks - once per second by default - it will execute every installed module, in order.  Each of these modules will operate on the item(s) in the buffer or on the world around the router in a specific way - see the $(bold)Modules/$ section for info on each individual module type.$(p)The router\u0027s operation can also be modified with $(bold)Upgrades/$ - speed it up, let it handle more items per tick, increase the range of certain modules..."
     }
   ]
 }

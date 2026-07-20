@@ -1,18 +1,18 @@
 {
-  "name": "Маршрутизатор узлов",
+  "name": "Node Router",
   "icon": "bloodmagic:noderouter",
   "category": "bloodmagic:demon_will/item_routing",
   "priority": "true",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Маршрутизатор узлов$() используется для связывания Узлов в Сеть. Его функциональность проста — просто зажмите [$(k:sneak)] и [$(k:use)], целясь в узел, затем повторите то же самое на другом узле в пределах 16 блоков. Эти два узла теперь связаны. Если вы хотите отменить выбор узла, [$(k:use)] на любом другом блоке. Дополнительную информацию смотрите в записи о $(l:bloodmagic:demon_will/item_routing/routing_nodes)Узлах Маршрутизации$()."
+      "text": "The $(item)Node Router$() is used to link Nodes together into a Network. Its functionality is straightforward - Simply hold [$(k:sneak)] and [$(k:use)] while aiming at  a node, then do the same to another node within 16 blocks. These two nodes are now linked. If you want to de-select a node, [$(k:use)] on any other block. See the entry on $(l:bloodmagic:demon_will/item_routing/routing_nodes)Routing Nodes$() for more information."
     },
     {
       "type": "bloodmagic:crafting_soulforge",
       "heading": "Node Router",
       "recipe": "bloodmagic:soulforge/node_router",
-      "text": "$(italic)Слегка магическая палочка.$()"
+      "text": "$(italic)A slightly magical stick.$()"
     }
   ]
 }

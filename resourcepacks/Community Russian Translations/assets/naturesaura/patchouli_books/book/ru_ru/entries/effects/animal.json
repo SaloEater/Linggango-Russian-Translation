@@ -1,21 +1,21 @@
 {
-  "name": "Повышение плодородия",
+  "name": "Increase of Fertility",
   "icon": "minecraft:egg",
   "category": "naturesaura:effects",
   "advancement": "naturesaura:positive_imbalance",
   "pages": [
     {
       "type": "text",
-      "text": "Когда количество $(aura) в области превышает примерно две трети шкалы $(l:items/eye)Экологического Ока$(), и поблизости находится некоторое количество $(l:effects/effect_powder)Порошка Плодородия$(), это начинает влиять на $(item)животных$() в этой области: коровы, овцы, свиньи и им подобные начнут $(thing)размножаться$() без какого-либо поощрения, время от времени, истощая часть $(aura) в процессе, как будто влюбляясь из-за его силы."
+      "text": "When the amount of $(aura) in an area increases beyond about two thirds of the $(l:items/eye)Environmental Eye$()\u0027s gauge, and there is some $(l:effects/effect_powder)Powder of Fertility$() nearby, it starts to affect the $(item)animals$() in the area: Cows, sheep, pigs and the like will start $(thing)mating$() without any encouragement occasionally, draining some of the $(aura) in the process as if falling in love because of its power."
     },
     {
       "type": "text",
-      "text": "Кроме того, $(item)Яйца$(), которые некоторое время пролежали на земле как предмет, $(thing)вылупятся$() в цыпленка без необходимости их бросать.$(p)Обратите внимание, что оба этих эффекта прекратятся, как только в области будет достаточно животных, что предотвратит перенаселение."
+      "text": "Additionally, $(item)Eggs$() that have been laying around on the ground as an item for a while will $(thing)hatch$() into a chicken without needing to be thrown.$(p)Note that both of these effects will cease to occur once there are enough animals present in the area, preventing overpopulation."
     },
     {
       "type": "naturesaura:tree_ritual",
       "recipe": "naturesaura:animal_powder",
-      "text": "Создание $(l:effects/effect_powder)Порошка Плодородия$()."
+      "text": "Creating the $(l:effects/effect_powder)Powder of Fertility$()."
     }
   ]
 }

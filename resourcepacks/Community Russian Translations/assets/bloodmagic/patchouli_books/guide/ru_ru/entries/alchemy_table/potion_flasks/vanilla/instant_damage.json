@@ -1,11 +1,11 @@
 {
-  "name": "Мгновенный урон",
+  "name": "Instant Damage",
   "icon": "minecraft:iron_sword",
   "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Мгновенный урон$() наносит 6 единиц $(thing)Магического урона$() цели за уровень. Если цель является $(thing)Нежитью$(), она будет исцелена на 6 единиц за уровень вместо этого.$(br2)Создаётся из зелья $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/instant_health)Мгновенного исцеления$() или $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/poison)Яда$()."
+      "text": "$(thing)Instant Damage$() inflicts 6 points of $(thing)Magic Damage$() to the target per level. If the target is $(thing)Undead$(), they will be healed for 6 points per level instead.$(br2)It\u0027s made from a potion of either $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/instant_health)Instant Health$() or $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/poison)Poison$()."
     },
     {
       "type": "bloodmagic:3x_crafting_flask",
@@ -18,7 +18,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Стандартных катализаторов$() может ещё больше усилить ваши зелья."
+      "text": "adding $(l:bloodmagic:alchemy_table/potions#average_potions)Standard Catalysts$() can further boost your potions."
     },
     {
       "type": "bloodmagic:crafting_flask",

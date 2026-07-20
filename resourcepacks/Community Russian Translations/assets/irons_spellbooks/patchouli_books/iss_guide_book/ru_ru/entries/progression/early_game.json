@@ -1,5 +1,5 @@
 {
-  "name": "Ранняя игра",
+  "name": "Early Game",
   "icon": "irons_spellbooks:inscription_table",
   "category": "irons_spellbooks:root",
   "sortnum": -3,
@@ -7,19 +7,19 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Обзор",
-      "text": "Прогресс в ранней игре в основном сосредоточен на исследовании и поиске добычи. Мир полон магических предметов, особенно в новых магических структурах, разбросанных по всей земле. Но будьте осторожны! Каждая магическая структура является домом для могущественного мага, который не будет рад вашему появлению."
+      "title": "Overview",
+      "text": "Early game progression is dominated by exploring and looting. The world is full of magic loot, especially in new magic structures that can be found dotted across the lands. But be careful! Each magic structure is home to a powerful mage, who will not take kindly to you."
     },
     {
       "type": "patchouli:spotlight",
       "item": "irons_spellbooks:scroll",
-      "title": "Свитки",
-      "text": "Свитки станут вашим первым знакомством с магией. Хотя их можно использовать для произнесения заклинания, которое они содержат, лучше сохранить их до тех пор, пока вы не сможете вписать его в книгу заклинаний, где его можно будет использовать многократно, с помощью Стола для надписей >>>"
+      "title": "Scrolls",
+      "text": "Scrolls will be your first taste of magic. While they can be consumed to cast the spell they hold, it is better to save them until you can inscribe it into a spell book, where it can be used repeatedly, via an Inscription Table \u003e\u003e\u003e"
     },
     {
       "type": "patchouli:text",
-      "title": "Стол для надписей",
-      "text": "Чтобы правильно использовать Книгу заклинаний, вы должны вписывать в неё заклинания с помощью Стола для надписей, используя свитки. Свитки можно извлечь из Книги заклинаний, но это приведёт к удалению заклинания. Книги заклинаний для начинающих можно изготовить из базовых материалов."
+      "title": "Inscription Table",
+      "text": "In order to properly use a Spell Book, you must inscribe spells into it with the Inscription Table by using scrolls. Scrolls can be retrieved once put into a Spell Book, but it will uninscribe the spell. Beginner spell books can be crafted with basic materials."
     },
     {
       "type": "patchouli:crafting",
@@ -29,13 +29,13 @@
     {
       "type": "patchouli:spotlight",
       "item": "irons_spellbooks:arcane_essence",
-      "title": "Базовые материалы",
-      "text": "Некоторые базовые материалы можно даже найти в небольших количествах в ванильных структурах.$(br2)Тайную эссенцию можно комбинировать с кожаной бронёй для создания брони Странствующего мага, раннего источника дополнительной максимальной маны."
+      "title": "Basic Materials",
+      "text": "Some basic materials can even be found sparsely in vanilla structures.$(br2)Arcane Essence can be combined with leather armor to craft Wandering Magician armor, an early source of additional max mana."
     },
     {
       "type": "patchouli:entity",
-      "name": "Броня Странствующего мага",
-      "entity": "minecraft:armor_stand{ArmorItems:[{id:'irons_spellbooks:wandering_magician_boots',Count:1b},{id:'irons_spellbooks:wandering_magician_leggings',Count:1b},{id:'irons_spellbooks:wandering_magician_chestplate',Count:1b},{id:'irons_spellbooks:wandering_magician_helmet',Count:1b}],NoBasePlate:1b}"
+      "name": "Wandering Magician Armor",
+      "entity": "minecraft:armor_stand{ArmorItems:[{id:\u0027irons_spellbooks:wandering_magician_boots\u0027,Count:1b},{id:\u0027irons_spellbooks:wandering_magician_leggings\u0027,Count:1b},{id:\u0027irons_spellbooks:wandering_magician_chestplate\u0027,Count:1b},{id:\u0027irons_spellbooks:wandering_magician_helmet\u0027,Count:1b}],NoBasePlate:1b}"
     }
   ]
 }

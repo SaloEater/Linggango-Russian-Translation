@@ -1,11 +1,11 @@
 {
-  "name": "Руна Жертвоприношения",
+  "name": "Rune of Sacrifice",
   "icon": "bloodmagic:sacrificerune",
   "category": "bloodmagic:altar/blood_rune",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Руна Жертвоприношения$() увеличивает количество $(blood)Жизненной Эссенции$(), получаемой в Кровавом Алтаре способами, которые отнимают здоровье у сущностей, не являющихся игроками. Каждая руна даёт дополнительный бонус +10% за руну."
+      "text": "The $(item)Rune of Sacrifice$() increases the amount of $(blood)Life Essence$() gained in the Blood Altar through means that take health from non-player entities. Each rune gives a bonus of +10% additively per rune."
     },
     {
       "type": "patchouli:crafting",
@@ -14,12 +14,12 @@
     {
       "type": "patchouli:crafting",
       "recipe": "bloodmagic:blood_rune_sac_2",
-      "text": "Используя $(item)Незеритовый Скрап$() и $(item)Сложные Адские Детали$(), добытые в $(l:bloodmagic:dungeons/endless_realm)Измерении Демонов$(), вы можете удвоить силу вашей $(item)Руны Жертвоприношения$(), увеличивая бонус до дополнительных +20% за руну."
+      "text": "With some $(item)Netherite Scrap$() and some $(item)Intricate Hellforged Parts$() looted from the $(l:bloodmagic:dungeons/endless_realm)Demon Realm$(), you can double the power of your $(item)Rune of Sacrifice$(), increasing the bonus to an additive +20% per rune."
     },
     {
       "type": "bloodmagic:crafting_arc",
       "recipe": "bloodmagic:arc/reversion/sac",
-      "text": "Если вы передумаете, вы можете отменить рецепт в АРК."
+      "text": "If you change your mind, you can undo the recipe in the ARC."
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
-  "name": "Улучшенный Выбрасыватель",
+  "name": "Advanced Dropper",
   "sortnum": 12,
   "category": "justdirethings:machines",
   "icon": "justdirethings:droppert2",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Улучшенный Выбрасыватель — это улучшенная версия $(l:justdirethings:mach_droppert1)Простого Выбрасывателя$(/l).$(br2)В отличие от большинства Улучшенных механизмов, вы не можете изменить радиус, но можете изменить смещение, что означает, что вы можете выбрасывать предметы дальше от самого выбрасывателя."
+      "text": "The Advanced Dropper is an upgraded version of the $(l:justdirethings:mach_droppert1)Simple Dropper$(/l).$(br2)Unlike most Advanced machines, you can\u0027t change the radius, but can you change the offset, meaning you can drop items further away from the dropper itself."
     },
     {
       "type": "patchouli:text",
-      "text": "Имеется сетка 3x3 для заполнения выбрасываемыми предметами.$(br2)Слоты фильтра внизу можно использовать для указания того, какие предметы разрешено выбрасывать, и, что более важно, в каком ПОРЯДКЕ они выбрасываются! Например, если вы поместите булыжник, а затем редстоун, он сначала выбросит булыжник, а затем редстоун.$(br2)Если у вас закончится редстоун, он перестанет выбрасывать предметы, пока не получит больше."
+      "text": "There is a 3x3 grid to fill with droppable items.$(br2)The filter slots at the bottom can be used to specify which items are allowed to be dropped, and more importantly, which ORDER they drop in! For example, if you put cobblestone, followed by redstone, it will drop cobblestone first, then redstone next.$(br2)If you run out of redstone, it\u0027ll stop dropping until it gets more."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Улучшенный Выбрасыватель",
+      "title": "Advanced Dropper",
       "recipe": "justdirethings:droppert2"
     }
   ]

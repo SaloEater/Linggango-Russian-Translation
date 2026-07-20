@@ -1,28 +1,28 @@
 {
-  "name": "Простой Датчик",
+  "name": "Simple Sensor",
   "sortnum": 9,
   "category": "justdirethings:machines",
   "icon": "justdirethings:sensort1",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Простой Датчик обнаруживает блоки или сущности в своей области действия и испускает сигнал красного камня, когда его условия выполнены. Слот в пользовательском интерфейсе — это единственный слот фильтра, позволяющий фильтровать по блоку или мобу.$(br2)В режиме по умолчанию, 'блок' с пустым фильтром, он будет испускать сигнал красного камня, если перед ним есть блок."
+      "text": "The Simple Sensor detects blocks or entities in its area of effect, and emits a redstone signal when its conditions are met. The slot in the UI is a single filter slot, allowing you to filter on a block or mob.$(br2)In its default mode, of \u0027block\u0027 with an empty filter, it\u0027ll emit a redstone signal if theres a block in front of it."
     },
     {
       "type": "patchouli:text",
-      "text": "Кнопка $(l)красный камень$() позволяет переключаться между испусканием сильного или слабого сигнала красного камня при выполнении условий.$(br2)Кнопка $(l)Список Разрешений$() переключает слот фильтра между списком разрешений и списком запретов. Помните, если вы нацелены на блок, установите его в режим разрешения. По умолчанию, в режиме запрета с пустым фильтром он будет испускать сигнал на любой блок."
+      "text": "The $(l)redstone$() button lets you toggle between emitting a strong or weak redstone signal when conditions are met.$(br2)The $(l)Allow List$() button toggles between the filter slot being an allow list or deny list. Remember if you\u0027re targeting a block, to set this to allow. By default, in deny mode with an empty filter it will emit a signal on any block."
     },
     {
       "type": "patchouli:text",
-      "text": "Кнопка $(l)цель$() позволяет переключаться между нацеливанием на Блоки, Воздух, Враждебных, Пассивных, Взрослых, Детей, Игроков, Всех Живых и Предметы. Подробности о том, что делает каждый из них, смотрите в записи книги $(l:justdirethings:mach_clickert1)Простой Кликер$(/l).$(br2)Режим Предметов будет обнаруживать предметы, лежащие в мире перед блоком."
+      "text": "The $(l)target$() button lets you cycle between targeting Blocks, Air, Hostile, Passive, Adult, Child, Player, All Living, and Item entities. See the $(l:justdirethings:mach_clickert1)Simple Clicker$(/l) book entry for details on what each of these do.$(br2)Items mode will detect items sitting in the world in front of the block."
     },
     {
       "type": "patchouli:text",
-      "text": "При нацеливании на блоки вы можете щелкнуть правой кнопкой мыши по слоту фильтра, чтобы указать конкретное СОСТОЯНИЕ блока для фильтрации!$(br)Например, вы можете определить, открыта или закрыта дверь, или включен или выключен рычаг.$(br2)Просто щелкните правой кнопкой мыши по слоту фильтра, когда в нем находится блок, и вы увидите список всех состояний блока слева. Нажимайте на каждое, чтобы переключаться между опциями."
+      "text": "When targeting blocks, you can right click the filter slot to designate a specific block STATE to filter on!$(br)For example, you can detect whether a door is opened or closed, or a level is on or off.$(br2)Simply right click on the filter slot when a block is in it, and you\u0027ll see a list of all blockstates on the left. Click on each one to cycle through the options."
     },
     {
       "type": "patchouli:crafting",
-      "title": "Простой Датчик",
+      "title": "Simple Sensor",
       "recipe": "justdirethings:sensort1"
     }
   ]

@@ -1,28 +1,28 @@
 {
-  "name": "Простой Обменник",
+  "name": "Simple Swapper",
   "sortnum": 13,
   "category": "justdirethings:machines",
   "icon": "justdirethings:blockswappert1",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Простой Обменник предназначен для обмена блоками и/или сущностями в мире между собой и связанным с ним партнером.$(br2)Начните с размещения двух обменников в мире. Затем используйте гаечный ключ Ferricore, нажмите правой кнопкой мыши на первый обменник, затем на второй. Сообщение сообщит вам, что они связаны.$(br2)В пользовательском интерфейсе также будет зеленая кнопка, показывающая, к чему он привязан."
+      "text": "The Simple Swapper is designed to swap blocks and/or entities in the world between it and a paired partner.$(br2)Start by placing two swappers in the world. Then use a Ferricore Wrench, right click the first swapper, then the 2nd. A message will tell you that they are bound.$(br2)The UI will also have a green button showing where its bound to."
     },
     {
       "type": "patchouli:text",
-      "text": "Кнопка $(l)блоки$() позволяет переключаться между обменом блоками или нет. Когда она включена, она будет обменивать блоки перед обменниками друг с другом. Когда она отключена, она будет их игнорировать.$(br2)Кнопка $(l)сущности$() соответствует функциональности фильтров для сущностей $(l:justdirethings:mach_clickert1)Простого Кликера$(/l)."
+      "text": "The $(l)blocks$() button lets you toggle between swapping blocks or not. When enabled, it\u0027ll swap blocks in front of the swappers with each other. When disabled, it\u0027ll ignore them.$(br2)The $(l)entities$() button matches the functionality of the  $(l:justdirethings:mach_clickert1)Simple Clicker$(/l) filters for entities."
     },
     {
       "type": "patchouli:text",
-      "text": "При обмене блоками, блочные сущности, такие как сундуки, будут обмениваться без проблем.$(br2)Вы можете использовать это для замены различных сундуков или механизмов, или для обмена двух типов блоков в мире."
+      "text": "When swapping blocks, block entities like chests will swap just fine.$(br2)You can use this to switch out different chests or machines, or swap two types of blocks in the world."
     },
     {
       "type": "patchouli:text",
-      "text": "При нацеливании на сущности, вы можете использовать его как раннюю форму телепортации между двумя локациями (целевые игроки), или ловить мобов или сущностей и отправлять их в другое место.$(br2)Например, вы можете поместить перед ним детеныша животного и настроить его на телепортацию только взрослых особей. Как только детеныш вырастет, он телепортируется!"
+      "text": "When targetting entities, you can use it as an early form of teleporting between two locations (target players), or catch some mobs or entities and send them elsewhere.$(br2)For example, you could place a baby animal in front of it, and set it to teleport adults only. Once the baby grows up, it\u0027ll teleport away!"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Простой Обменник",
+      "title": "Simple Swapper",
       "recipe": "justdirethings:blockswappert1"
     }
   ]

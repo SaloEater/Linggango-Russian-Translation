@@ -1,24 +1,24 @@
 {
-  "name": "Умелая воронка",
+  "name": "Adept Hopper",
   "icon": "naturesaura:grated_chute",
   "category": "naturesaura:devices",
   "advancement": "naturesaura:infused_materials",
   "pages": [
     {
       "type": "text",
-      "text": "Часто при работе с механическими устройствами $(thing)транспортировка предметов$() имеет большое значение и может стать проблемой при крупномасштабном использовании, особенно из-за отсутствия возможностей $(thing)фильтрации$(). $(item)Умелая воронка$() позволяет с легкостью фильтровать предметы, проходящие через $(item)воронки$()."
+      "text": "A lot of times when dealing with mechanical devices, $(thing)transporting items$() is of great importance and can become a nuisance if done on a large scale, especially because of the lack of $(thing)filtering$() abilities. The $(item)Adept Hopper$() creates the ability to filter items travelling through $(item)Hoppers$() with ease."
     },
     {
       "type": "text",
-      "text": "$(item)Умелая воронка$() работает так же, как обычная $(item)воронка$(), за исключением того, что она немного быстрее и может фильтровать предметы следующим образом: прикрепление любого количества $(item)предметных рамок$() к любой из ее сторон и размещение предметов внутри приведет к тому, что будут пропускаться $(thing)только эти предметы$(). Это относится как к извлечению предметов из сундуков и мира, так и к вставке предметов в нее.$(p)Следует также отметить, что $(l:using/hopper_upgrade)Улучшение воронки$() может быть скомбинировано с ней для подбора только отфильтрованных предметов."
+      "text": "The $(item)Adept Hopper$() works just like a normal $(item)Hopper$(), except that it is a bit faster and that it can filter items as follows: Attaching any number of $(item)Item Frames$() to any side of it and placing items inside will cause $(thing)only those items$() to be let through. This counts both for pulling items from chests and the world and for having items inserted into it.$(p)It should additionally be noted that the $(l:using/hopper_upgrade)Hopper Enhancement$() can be combined with this to pick up only filtered items."
     },
     {
       "type": "text",
-      "text": "Кроме того, функциональность $(item)Умелой воронки$() может быть $(thing)инвертирована$() простым взаимодействием с ней: это приведет к тому, что будут приниматься не предметы, $(italic)находящиеся$() в рамках, а все предметы, которые $(italic)не$() находятся в рамках. Это, кроме того, позволяет пропускать любой предмет, просто не устанавливая никаких рамок вообще."
+      "text": "Additionally, the $(item)Adept Hopper$()\u0027s functionality can be $(thing)inverted$() simply by interacting with it: This will cause not items $(italic)in$() the frames to be accepted, but all items that are $(italic)not$() in the frames. This, additionally, allows for throughput of any item, simply by not placing down any frames at all."
     },
     {
       "type": "crafting",
-      "text": "Создание $(item)Умелой воронки$()$(p)Следует отметить, что при экипировке $(l:items/eye)Экологического глаза$() можно увидеть количество предметов, хранящихся в воронке, а также ее текущий режим.",
+      "text": "Creating the $(item)Adept Hopper$()$(p)It should be noted that, when equipping an $(l:items/eye)Environmental Eye$(), the amount of items currently stored in the hopper, as well as its current mode, can be seen.",
       "recipe": "naturesaura:grated_chute"
     }
   ]

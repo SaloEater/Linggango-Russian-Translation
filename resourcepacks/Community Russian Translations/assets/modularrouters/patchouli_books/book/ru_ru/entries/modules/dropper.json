@@ -1,11 +1,11 @@
 {
-  "name": "Модуль Бросателя",
+  "name": "Dropper Module",
   "category": "modularrouters:modules",
   "icon": "modularrouters:dropper_module",
   "pages": [
     {
       "type": "text",
-      "text": "Этот модуль пытается выбросить предмет из буфера маршрутизатора в виде сущности предмета в мире. Предмет будет помещён рядом с маршрутизатором в $(l:intro/modules#direction)направлении, указанном в настройках модуля/$. Сущность предмета будет помещена с нулевой скоростью, в отличие от ванильного $(item)Бросателя/$, который добавляет неприятную случайную скорость предмету."
+      "text": "This module tries to drop an item from the router\u0027s buffer as an item entity in the world. The drop will be adjacent to the router in the module\u0027s $(l:intro/modules#direction)configured direction/$. The item entity will be placed with a zero velocity, unlike the vanilla $(item)Dropper/$ which adds an irritating random velocity to the item."
     },
     {
       "type": "crafting",
@@ -13,4 +13,3 @@
     }
   ]
 }
-

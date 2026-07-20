@@ -1,11 +1,11 @@
 {
-  "name": "Модуль Выдачи Энергии",
+  "name": "Energy Output Module",
   "category": "modularrouters:modules",
   "icon": "modularrouters:energy_output_module",
   "pages": [
     {
       "type": "text",
-      "text": "Этот модуль пытается выдавать FE (Forge Energy) из маршрутизатора в соседний блок, принимающий энергию, в направлении, указанном в настройках модуля. Модуль может извлекать энергию либо из внутреннего энерго-буфера маршрутизатора (если установлены $(l:upgrades/energy)Улучшения Энергии/$), либо из предмета, содержащего энергию, в буфере предметов маршрутизатора. В первую очередь используется внутренний буфер энергии."
+      "text": "This module attempts to output FE (Forge Energy) from the Router to an adjacent energy-receiving block, in its configured direction. The module can extract energy from either the router\u0027s internal energy buffer (if any $(l:upgrades/energy)Energy Upgrades/$ are installed) or from an energy-containing item in the router\u0027s item buffer. The internal energy buffer is used by preference."
     },
     {
       "type": "crafting",

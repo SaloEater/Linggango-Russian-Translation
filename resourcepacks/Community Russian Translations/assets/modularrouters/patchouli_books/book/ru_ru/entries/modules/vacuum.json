@@ -1,15 +1,15 @@
 {
-  "name": "Модуль Вакуума",
+  "name": "Vacuum Module",
   "category": "modularrouters:modules",
   "icon": "modularrouters:vacuum_module",
   "pages": [
     {
       "type": "text",
-      "text": "Этот модуль сканирует выпавшие предметы в кубической области размером 13x13x13 блоков вокруг маршрутизатора (т.е. до 6 блоков в каждом направлении) и забирает их в буфер маршрутизатора, если это возможно.$(p)Диапазон можно увеличить до 25x25x25 (12 блоков в каждом направлении) с помощью $(l:augments/range_up)Range Up Augments/$ или уменьшить до 3x3x3 с помощью $(l:augments/range_down)Range Down Augments/$."
+      "text": "This module scans for dropped items in a 13x13x13 cubic area around the router (i.e. up to 6 blocks in each direction), and absorbs them into the router\u0027s buffer, if possible.$(p)The range can be increased up to 25x25x25 (12 blocks in each direction) with $(l:augments/range_up)Range Up Augments/$, or shrunk to just 3x3x3 with $(l:augments/range_down)Range Down Augments/$."
     },
     {
       "type": "text",
-      "text": "Сканируемая область центрируется на маршрутизаторе, если у модуля в $(l:intro/modules#direction)настроенном направлении/$ выбрано $(bold)Все/$ (по умолчанию).$(p)Если у модуля настроено конкретное направление, область смещается в этом направлении на 6 блоков, плюс один блок за каждый установленный Range Up Augment, минус один блок за каждый Range Down Augment.$(p)Например, при направлении $(bold)ВВЕРХ/$ модуль будет сканировать только область прямо над маршрутизатором."
+      "text": "The scanned area is centered on the router if the module\u0027s $(l:intro/modules#direction)configured direction/$ is $(bold)All/$ (the default).$(p)If the module has an actual direction configured, the area is offset in that direction by 6 blocks, plus one for each Range Up Augment installed, minus one for each Range Down Augment installed.$(p)E.g. with a direction of $(bold)UP/$, the module will only scan an area directly above the router."
     },
     {
       "type": "crafting",

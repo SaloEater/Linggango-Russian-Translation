@@ -1,40 +1,40 @@
 {
-  "name": "Основы улучшений",
+  "name": "Upgrade Basics",
   "sortnum": 0,
   "category": "justdirethings:upgrades",
   "icon": "justdirethings:upgrade_mobscanner",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Улучшения устанавливаются в $(l:justdirethings:tools)Инструменты$(/l) или $(l:justdirethings:armor)Броню$(/l), чтобы наделить их определёнными способностями. Их можно установить с помощью Кузнечного стола, рецепт можно найти в JEI.$(br2)Существует несколько видов способностей."
+      "text": "Upgrades are installed in $(l:justdirethings:tools)Tools$(/l) or $(l:justdirethings:armor)Armor$(/l) to grant them certain abilities. They can be installed using the Smithing Table, you should be able to look the recipe up with JEI.$(br2)There are several kinds of abilities."
     },
     {
       "type": "patchouli:text",
-      "text": "$(l)Активные способности$() используются для активации. Например, Сканер мобов — это активная способность, которая при активации покажет положение всех ближайших мобов.$(br2)$(l)Пассивные способности$() влияют на работу вашего инструмента. Например, способность молота позволяет вашему инструменту ломать блоки в области 3x3, 5x5 или 7x7 при добыче блока."
+      "text": "$(l)Use Abilities$() are used to activate. For example, Mob Scanner is a use ability that when activated will show the position of all nearby mobs.$(br2)$(l)Passive Abilities$() affect how your tool operates. For example, the hammer ability allows your tool to break in a 3x3, 5x5, or 7x7 area whenever you mine a block."
     },
     {
       "type": "patchouli:text",
-      "text": "Некоторые способности имеют $(l)перезарядки$(), например, способность неуязвимости сделает вас неуязвимым на несколько секунд, но не сможет быть использована снова в течение нескольких минут. Как $(l)пассивные$(), так и $(l)активные$() способности могут иметь перезарядки, но не все из них. Подробнее см. в разделах отдельных улучшений."
+      "text": "Some abilities have $(l)cooldowns$(), like the invulnerability ability will make you invulnerable for a few seconds, but can\u0027t be used again for a few minutes. Both $(l)passive$() and $(l)active$() abilities can have cooldowns, but not all of them do. See the individual upgrade sections for more details."
     },
     {
       "type": "patchouli:text",
-      "text": "Способности можно контролировать с помощью $(l)Экрана настроек инструмента$(), который можно активировать, нажав Shift + ПКМ по любому инструменту.$(br2)Находясь на этом экране, вы можете получить доступ к настройкам других инструментов, нажав на них в интерфейсе. Например, нажмите Shift + ПКМ по Ферроядровому мечу, чтобы открыть интерфейс, а затем нажмите на свой Ферроядровый шлем, чтобы получить доступ к его настройкам."
+      "text": "Abilities can be controlled using the $(l)Tool Settings Screen$() which can be activated by shift-right clicking any tool.$(br2)Once in this screen, you can access the settings for other tools by clicking on them from the UI.  For example, shift-right click a Ferricore Sword to open the UI, and then click on your Ferricore Helmet to access it\u0027s settings."
     },
     {
       "type": "patchouli:text",
-      "text": "При просмотре предмета вы увидите значок, представляющий каждую из его способностей. Вы можете нажать левой кнопкой мыши на этот значок, чтобы включить или выключить способность.$(br2)В выключенном состоянии способности не будут активироваться горячей клавишей, если они активны, и не будут вызывать свои эффекты, если они пассивны.$(br2)Например, если вы отключите способность молота, ваша кирка будет добывать только 1 блок."
+      "text": "When looking at an item, you\u0027ll see an icon representing each of its abilities. You can left click this icon to toggle the ability on or off.$(br2)When off, the abilities won\u0027t activate by their hotkey if they are active, and won\u0027t cause their effects if passive.$(br2)For example, if you toggle off the hammer ability, your pickaxe will only mine 1 block."
     },
     {
       "type": "patchouli:text",
-      "text": "Нажмите ПКМ по способности, чтобы получить доступ к её экрану опций. Для $(l)активных$() способностей вы можете указать, какая горячая клавиша (или щелчок мыши) их активирует.$(br2)Для пассивных способностей назначение горячей клавиши будет включать или выключать её при нажатии этой горячей клавиши.$(br2)Способности можно активировать или переключать, даже если предмет не экипирован! Но сначала переключите кнопку 'активировать, если экипировано' на 'активировать из инвентаря'"
+      "text": "Right click the ability to access it\u0027s options screen. For $(l)active$() abilities, you can specify which hotkey (or mouse click) activates them.$(br2)For passive abilities, the hotkey assignment will toggle it on or off when that hotkey is pressed.$(br2)Abilities can be activated or toggled even if the item isn\u0027t equipped! But first, toggle the \u0027activate if equipped\u0027 button to \u0027activate from inventory\u0027"
     },
     {
       "type": "patchouli:text",
-      "text": "Это означает, что вы можете активировать способность 'воздушный взрыв' или способность 'сканер руды', даже если жезл или кирка не находятся в вашей руке. Пока предмет находится *где-то* в вашем инвентаре, вы можете использовать эти способности.$(br2)Поддержка Curios планируется для некоторых предметов."
+      "text": "This means that you can activate the \u0027air burst\u0027 ability, or \u0027ore scanner\u0027 ability, even if the wand or pickaxe isn\u0027t in your hand.  As long as its *somewhere* in your inventory, you can use these abilities.$(br2)Curios support is planned for some items."
     },
     {
       "type": "patchouli:text",
-      "text": "Некоторые способности также имеют пользовательские настройки. Например, способности скорости бега или высоты прыжка имеют ползунки (доступные после брони 2-го уровня), которые контролируют, насколько быстрее вы бегаете или насколько выше прыгаете.$(br2)Некоторые способности улучшаются в зависимости от уровня инструмента, в который они установлены. Например, способность Молота составляет 3x3 в $(l:justdirethings:tool_blazegold_pickaxe)Кирке из Золота Пламени$(/l), и 7x7 в $(l:justdirethings:tool_eclipse_alloy_pickaxe)Кирке из Сплава Затмения$(/l)."
+      "text": "Some abilities have custom settings as well. For example, the run speed or jump height abilities have sliders (available after Tier 2 armor), that control how much faster you run, or how much higher you jump.$(br2)Some abilities improve based on the tier of tool they are installed in. For example, the Hammer ability is 3x3 in a $(l:justdirethings:tool_blazegold_pickaxe)Blazegold Pickaxe$(/l), and 7x7 in $(l:justdirethings:tool_eclipse_alloy_pickaxe)Eclipse Alloy Pickaxe$(/l)."
     }
   ]
 }
