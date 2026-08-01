@@ -991,42 +991,6 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "alshanex_familiars:textures/gui/spell_icons/end_mayhem.png"
-				}
-			}
-			icon_scale: 1.4d
-			id: "46897631C9F045A5"
-			shape: "square"
-			tasks: [{
-				id: "62ED19611D120C27"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "alshanex_familiars:end_mayhem"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["54FA294EAFF09CCF"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
 					Icon: "irons_spellbooks:textures/gui/spell_icons/summon_swords.png"
 				}
 			}
@@ -1091,42 +1055,6 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["54FA294EAFF09CCF"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "irons_spellbooks:textures/gui/spell_icons/arcane_shackle.png"
-				}
-			}
-			icon_scale: 1.4d
-			id: "76C7432026427C5F"
-			shape: "square"
-			tasks: [{
-				id: "46ABFD85518762C9"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:arcane_shackle"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
 			y: 9.5d
 		}
 		{

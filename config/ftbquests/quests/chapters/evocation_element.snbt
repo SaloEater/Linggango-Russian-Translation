@@ -702,42 +702,6 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "irons_spellbooks:textures/gui/spell_icons/fang_swirl.png"
-				}
-			}
-			icon_scale: 1.4d
-			id: "4B08AA3067660528"
-			shape: "square"
-			tasks: [{
-				id: "03E04B4A8626F884"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:fang_swirl"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["784BE338677490B5"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
 					Icon: "somakespells:textures/gui/spell_icons/evocation_fortitude.png"
 				}
 			}

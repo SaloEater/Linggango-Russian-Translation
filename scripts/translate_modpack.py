@@ -20,6 +20,16 @@ Modes:
 
 Pipeline:  find  ->  translate  ->  sync
 
+Patchouli snapshot (content-based alignment): patchouli books are lists of pages,
+so a page inserted/removed upstream would shift index-aligned translations onto
+the wrong pages. To prevent this, `find --type patchouli` keeps a committed English
+snapshot (patchouli_snapshot/) of the source each translation was made from. It
+matches new raw text to the snapshot by CONTENT (English -> Russian pairs), rebases
+the resource to the new page structure (carrying translations to their new
+positions), emits only genuinely-new text to to_translate, and updates the snapshot.
+Files whose snapshot no longer matches the resource (diverged before any snapshot
+existed) are reported "NEEDS RECONCILE" and left untouched — re-translate those once.
+
 Note: `mods` and `patchouli` share the resourcepacks/.../assets root but stay
 disjoint — `mods` (lang) only touches */lang/*.json, `patchouli` only touches
 non-lang files (is_lang_file). Directory pruning during a lang sync unions ALL
@@ -97,6 +107,11 @@ CONTENT_TYPES = {
         artifacts=('artifacts', 'assets_patchouli'),
         resourcepacks=('resourcepacks', 'Community Russian Translations', 'assets'),
         to_translate=('artifacts', 'to_translate_patchouli'),
+        # Committed English snapshot of the source each translation was made from.
+        # Used for content-based 3-way alignment so inserted/removed patchouli
+        # pages don't shift translations. `find` updates it. (Not gitignored,
+        # unlike artifacts/.)
+        snapshot=('patchouli_snapshot',),
     ),
     'kjs': dict(
         kind='lang',
@@ -169,6 +184,15 @@ def is_non_translatable_value(text):
 def is_anchor_value(text):
     """True for a patchouli anchor reference: "#" + a run with no spaces."""
     return bool(ANCHOR_VALUE_RE.match(text.strip()))
+
+
+def has_letters(text):
+    """True if the text contains at least one alphabetic character.
+
+    Filters out non-text values like version strings ("3.0.4-9") or pure
+    numbers/symbols that shouldn't be translated.
+    """
+    return any(c.isalpha() for c in text)
 
 
 def is_lang_file(rel_path):
@@ -279,8 +303,8 @@ def build_to_translate(artifact, resource, kind, current_key=None):
     pull_translations can realign by index.
     """
     if isinstance(artifact, str):
-        if not artifact:
-            return None
+        if not artifact.strip():
+            return None  # empty or whitespace-only (e.g. " ") — nothing to translate
         if is_non_translatable_value(artifact):
             return None  # "---" separator or "[gap=N]" spacing — not text
         if kind == 'patchouli':
@@ -290,6 +314,8 @@ def build_to_translate(artifact, resource, kind, current_key=None):
                 return None
             if is_anchor_value(artifact):
                 return None  # "#anchor" link reference — not translatable
+            if not has_letters(artifact):
+                return None  # no letters (e.g. version "3.0.4-9") — not translatable
         if has_russian(artifact):
             return None  # artifact already Russian (sync handles it)
         if isinstance(resource, str) and has_russian(resource):
@@ -324,7 +350,197 @@ def build_to_translate(artifact, resource, kind, current_key=None):
     return None  # non-string leaf
 
 
+def is_translatable_leaf(text, current_key):
+    """Patchouli eligibility for a string leaf (same gates as build_to_translate)."""
+    if not text.strip():
+        return False
+    if is_non_translatable_value(text):
+        return False
+    if current_key not in TARGET_KEYS:
+        return False
+    if is_translation_key(text):
+        return False
+    if is_anchor_value(text):
+        return False
+    if not has_letters(text):
+        return False
+    if has_russian(text):
+        return False
+    return True
+
+
+def build_pairs(snapshot, resource, pairs):
+    """Collect English->Russian pairs by walking snapshot and resource in parallel.
+
+    snapshot (old English) and resource (Russian) are structurally aligned because
+    the resource was translated from the snapshot in place. Returns True if fully
+    aligned; False if any list-length / type mismatch was seen — which means the
+    snapshot no longer matches the resource and the pairs cannot be trusted.
+    """
+    if isinstance(snapshot, str):
+        if isinstance(resource, str) and has_russian(resource) and not has_russian(snapshot):
+            pairs[snapshot] = resource
+        return True
+    if isinstance(snapshot, dict) and isinstance(resource, dict):
+        aligned = True
+        for k in snapshot:
+            if k in resource:
+                aligned = build_pairs(snapshot[k], resource[k], pairs) and aligned
+        return aligned
+    if isinstance(snapshot, list) and isinstance(resource, list):
+        aligned = len(snapshot) == len(resource)
+        for i in range(min(len(snapshot), len(resource))):
+            aligned = build_pairs(snapshot[i], resource[i], pairs) and aligned
+        return aligned
+    # Non-container leaf (num/bool/null) — nothing to pair.
+    if not isinstance(snapshot, (dict, list)):
+        return True
+    return False  # container-type mismatch
+
+
+def build_to_translate_pairs(raw, pairs, current_key=None):
+    """Patchouli to_translate aligned to raw, using content-based pairs.
+
+    A leaf needs translation when it's an eligible string not already present in
+    `pairs` (i.e. no known translation for that exact English text). Lists keep
+    None placeholders so pull can realign by index against the rebased resource.
+    """
+    if isinstance(raw, str):
+        if not is_translatable_leaf(raw, current_key):
+            return None
+        if raw in pairs:
+            return None  # a translation already exists for this exact text
+        return raw
+    if isinstance(raw, dict):
+        result = {}
+        for key, val in raw.items():
+            if is_image_key(key):
+                continue
+            filtered = build_to_translate_pairs(val, pairs, current_key=key)
+            if filtered is not None:
+                result[key] = filtered
+        return result if result else None
+    if isinstance(raw, list):
+        result = []
+        has_any = False
+        for item in raw:
+            filtered = build_to_translate_pairs(item, pairs, current_key=None)
+            result.append(filtered)
+            if filtered is not None:
+                has_any = True
+        return result if has_any else None
+    return None
+
+
+def rebuild_with_pairs(raw, pairs, current_key=None):
+    """Rebase: return raw's structure with eligible leaves replaced by their known
+    Russian (from pairs). New/changed leaves stay English; everything else stays raw.
+    """
+    if isinstance(raw, str):
+        if is_translatable_leaf(raw, current_key) and raw in pairs:
+            return pairs[raw]
+        return raw
+    if isinstance(raw, dict):
+        return {k: rebuild_with_pairs(v, pairs, current_key=k) for k, v in raw.items()}
+    if isinstance(raw, list):
+        return [rebuild_with_pairs(item, pairs, current_key=None) for item in raw]
+    return raw
+
+
+def run_find_patchouli(cfg, dry_run=False, only_file=None):
+    """Content-based 3-way find for patchouli (see build_pairs / rebuild_with_pairs).
+
+    For each raw book: build English->Russian pairs from the committed snapshot and
+    the current resource, emit to_translate for genuinely-new leaves aligned to raw,
+    rebase the resource to raw's structure (carrying translations to their new
+    positions), and update the snapshot to raw. Structurally-diverged files (whose
+    snapshot no longer matches the resource) are reported for a one-time reconcile
+    and left untouched, so nothing gets scrambled.
+    """
+    artifacts_dir = d(cfg, 'artifacts')
+    resource_dir = d(cfg, 'resourcepacks')
+    to_translate_dir = d(cfg, 'to_translate')
+    snapshot_dir = d(cfg, 'snapshot')
+
+    if not os.path.isdir(artifacts_dir):
+        print(f'Error: {artifacts_dir} not found.', file=sys.stderr)
+        return
+
+    json_files = collect_json_files(artifacts_dir, patchouli_only=True)
+    total = len(json_files)
+    if total == 0:
+        print(f'No JSON files found in {artifacts_dir}.')
+        return
+
+    tag = ' [dry-run]' if dry_run else ''
+    total_keys = files_written = rebased = snaps = 0
+    reconcile = []
+    for idx, rel_path in enumerate(json_files, start=1):
+        if only_file and rel_path.replace('\\', '/') != only_file:
+            continue
+        raw = load_json(os.path.join(artifacts_dir, rel_path))
+        if raw is None:
+            print(f'[{idx}/{total}] {rel_path} — skipped (empty/unreadable artifact)')
+            continue
+        resource = load_json(os.path.join(resource_dir, rel_path))
+        snapshot_on_disk = load_json(os.path.join(snapshot_dir, rel_path))
+        snapshot = snapshot_on_disk if snapshot_on_disk is not None else raw
+
+        pairs = {}
+        aligned = True
+        if resource is not None:
+            aligned = build_pairs(snapshot, resource, pairs)
+
+        if resource is not None and not aligned:
+            # Snapshot no longer matches resource — can't safely realign. Leave the
+            # resource/snapshot as-is and flag for a manual reconcile (re-translate).
+            reconcile.append(rel_path)
+            print(f'[{idx}/{total}] {rel_path} — NEEDS RECONCILE (structure diverged)')
+            continue
+
+        to_translate = build_to_translate_pairs(raw, pairs)
+        if to_translate:
+            n = count_strings(to_translate)
+            total_keys += n
+            files_written += 1
+            print(f'[{idx}/{total}] {rel_path} — {n} untranslated{tag}')
+            if not dry_run:
+                save_json(os.path.join(to_translate_dir, rel_path), to_translate)
+        else:
+            print(f'[{idx}/{total}] {rel_path}')
+
+        # Rebase an existing translation to raw's structure (skip brand-new files —
+        # sync copies those). Only writes when the structure/content actually moved.
+        if resource is not None:
+            rebased_res = rebuild_with_pairs(raw, pairs)
+            if rebased_res != resource:
+                rebased += 1
+                print(f'    rebased resource -> raw structure{tag}')
+                if not dry_run:
+                    save_json(os.path.join(resource_dir, rel_path), rebased_res)
+
+        # Update the snapshot to the current raw.
+        if raw != snapshot_on_disk:
+            snaps += 1
+            if not dry_run:
+                save_json(os.path.join(snapshot_dir, rel_path), raw)
+
+    verb = 'would extract' if dry_run else 'extracted'
+    print(f'Done. {verb} {total_keys} untranslated keys across {files_written} files; '
+          f'{rebased} rebased, {snaps} snapshot(s) updated.')
+    if reconcile:
+        print(f'\n{len(reconcile)} file(s) NEED RECONCILE (structure diverged before a '
+              f'snapshot existed). Re-translate these once (e.g. delete the resource '
+              f'file and re-run find/translate/sync):')
+        for r in reconcile:
+            print(f'  {r}')
+
+
 def run_find(cfg, dry_run=False, only_file=None):
+    if cfg['kind'] == 'patchouli':
+        run_find_patchouli(cfg, dry_run=dry_run, only_file=only_file)
+        return
+
     artifacts_dir = d(cfg, 'artifacts')
     resource_dir = d(cfg, 'resourcepacks')
     to_translate_dir = d(cfg, 'to_translate')
@@ -894,11 +1110,23 @@ def sync_patchouli(cfg, dry_run=False):
 
 
 def run_sync(cfg, dry_run=False):
-    """Mode 3: pull translated lines, THEN full sync artifacts -> resourcepacks."""
-    run_pull(cfg, dry_run=dry_run)
+    """Mode 3: bring translated lines + artifact structure into resourcepacks.
+
+    lang: PULL then SYNC — merge_recursive keeps the just-pulled Russian (artifact
+    leaf has no Russian) and has the last word on structure/pruning.
+
+    patchouli: SYNC then PULL — the resource for a book must carry the FULL artifact
+    structure (type/title/icon/...), but to_translate is a SPARSE subset (translatable
+    leaves only). If pull ran first onto a missing resource it would build a
+    structurally-incomplete file from that subset, and the set-diff sync would then
+    skip it as "already present". Copying the English book first, then overlaying
+    translations, guarantees the complete structure.
+    """
     if cfg['kind'] == 'patchouli':
         sync_patchouli(cfg, dry_run=dry_run)
+        run_pull(cfg, dry_run=dry_run)
     else:
+        run_pull(cfg, dry_run=dry_run)
         sync_lang(cfg, dry_run=dry_run)
 
 

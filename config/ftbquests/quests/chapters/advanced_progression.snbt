@@ -1243,6 +1243,70 @@
 			x: -6.0d
 			y: 4.5d
 		}
+		{
+			can_repeat: true
+			dependencies: ["43ACAF3A3EA50806"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/sniffer_egg"
+				}
+			}
+			id: "64CC93C566C4BC82"
+			optional: true
+			rewards: [{
+				id: "60AEA299516DCACB"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			size: 0.6d
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3A6D886BF6310C67"
+				item: { Count: 4, id: "terramity:onyx" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest64CC93C566C4BC82.title}"
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43ACAF3A3EA50806"]
+			icon: {
+				Count: 1
+				id: "terramity:red_gnome_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "472B62A519AFB3F2"
+			optional: true
+			rewards: [{
+				id: "7342D7CED4D998EE"
+				item: {
+					Count: 1
+					id: "terramity:red_gnome_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 0.6d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "105D8AE17AFDE86C"
+				item: { Count: 3, id: "terramity:prismatic_jewel" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest472B62A519AFB3F2.title}"
+			x: -11.0d
+			y: -8.0d
+		}
 	]
 	title: "{ftbquests.chapter.advanced_progression.title}"
 }

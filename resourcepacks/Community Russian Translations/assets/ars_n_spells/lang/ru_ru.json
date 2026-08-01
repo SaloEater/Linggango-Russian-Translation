@@ -138,5 +138,12 @@
   "tooltip.ars_n_spells.cross_spell.cast_hint": "Нажмите ПКМ, чтобы применить",
   "tooltip.ars_n_spells.cross_spell.cycle_hint": "Нажмите Shift+ПКМ, чтобы переключить",
   "tooltip.ars_n_spells.cross_spell.entry": "%1$s/%2$s: %3$s",
-  "tooltip.ars_n_spells.cross_spell.header": "Начертанные заклинания"
+  "tooltip.ars_n_spells.cross_spell.header": "Начертанные заклинания",
+  "arsnspells.crosscast.invalid.ars_spell_unreadable": "Перекрестное применение не удалось: связанное заклинание Ars не может быть прочитано. Перепривяжите его со свежеэкспортированного свитка.",
+  "arsnspells.crosscast.proxy.book_missing": "Перекрестное применение не удалось: книга, содержащая это заклинание (слот колеса %1$s), не найдена. Убедитесь, что она экипирована в вашем слоте для книги заклинаний.",
+  "arsnspells.crosscast.proxy.entry_missing": "Перекрестное применение не удалось: эта книга больше не содержит заклинания Ars для слота колеса %1$s. Перепривяжите заклинание.",
+  "commands.ans.bind.book_full": "Эта книга заклинаний уже содержит максимум %1$s заклинаний Ars.",
+  "commands.ans.bind.uncastable": "Заклинание Ars этого свитка не может быть прочитано (было ли оно экспортировано в другой версии Ars Nouveau?). Переэкспортируйте заклинание и привяжите новый свиток.",
+  "ritual.ars_n_spells.spellbook_binding.error.bind_failed": "Привязка книги заклинаний: %1$s не смогла принять заклинание. Книга осталась без изменений — проверьте журнал сервера для получения подробностей.",
+  "ritual.ars_n_spells.spellbook_binding.error.uncastable": "Привязка книги заклинаний: %1$s содержит заклинание Ars, которое не может быть прочитано (экспортировано в другой версии Ars Nouveau?). Переэкспортируйте заклинание и используйте новый свиток."
 }

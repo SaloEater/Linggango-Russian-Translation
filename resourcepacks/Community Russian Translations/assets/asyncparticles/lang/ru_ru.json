@@ -1,4 +1,10 @@
 {
+  "chat.asyncparticles.warn.error_during_async_gpu_particle_tick": "Неожиданная ошибка при асинхронном обновлении GPU частиц: %s\nПричина в настоящее время неизвестна.\n'%s' был временно отключен внутренне.\nПожалуйста, сообщите об этой ошибке %s, чтобы помочь автору выявить и исправить проблему.",
+  "chat.asyncparticles.warn.error_during_async_incompatible_injection": "Неожиданная ошибка во время '%2$s': %1$s.\nВероятно, это вызвано несовместимой инъекцией в метод %3$s.\n'%2$s' был временно отключен внутренне. Вам также следует отключить его вручную, иначе эта ошибка повторится после перезапуска игры.",
+  "chat.asyncparticles.warn.error_during_async_particle_tick": "Неожиданная ошибка при асинхронном обновлении частиц: %s\nВероятно, это вызвано состоянием гонки между методами обновления и рендеринга частиц.\n'%s' был временно включен внутренне. Вам также следует включить его вручную, иначе эта ошибка повторится после перезапуска игры.\nНастоятельно рекомендуется сообщить об этой ошибке %s для получения более точных рекомендаций и помощи автору в выявлении и устранении потенциальных проблем.",
+  "chat.asyncparticles.warn.error_during_main_thread_particle_rendering": "Неожиданная ошибка при рендеринге частиц в основном потоке: %s\nВероятно, это вызвано состоянием гонки между методами обновления и рендеринга частиц.\n'%s' был временно включен внутренне. Вам также следует включить его вручную, иначе эта ошибка повторится после перезапуска игры.\nНастоятельно рекомендуется сообщить об этой ошибке %s для получения более точных рекомендаций и помощи автору в выявлении и устранении потенциальных проблем.",
+  "chat.asyncparticles.warn.get_block_entity_off_main_thread": "Доступ к сущности блока вне основного потока! Подробности смотрите в latest.log.\nВозможно, вам потребуется включить '%s'. Настоятельно рекомендуется сообщить об этой проблеме автору для получения более точного совета.",
+  "chat.asyncparticles.warn.get_entities_off_main_thread": "Доступ к сущности вне основного потока! Подробности смотрите в latest.log.\nВозможно, вам потребуется включить '%s'. Настоятельно рекомендуется сообщить об этой проблеме автору для получения более точного совета.",
   "config.asyncparticles.category.mixin": "Миксины",
   "config.asyncparticles.category.mod-compat": "Совместимость",
   "config.asyncparticles.category.mod-compat.create": "Create",
@@ -6,6 +12,7 @@
   "config.asyncparticles.category.particle": "Частицы",
   "config.asyncparticles.category.rendering": "Рендеринг",
   "config.asyncparticles.category.tick": "Тик",
+  "config.asyncparticles.deprecated": "Устарело.",
   "config.asyncparticles.enum.FailBehavior.MARK_AS_SYNC": "Считать синхронным",
   "config.asyncparticles.enum.FailBehavior.RAISE_CRASH": "Вызвать сбой",
   "config.asyncparticles.enum.ParticleCullingMode.AABB": "AABB (в реальном времени)",
@@ -89,6 +96,8 @@
   "config.asyncparticles.tick.failBehavior.tooltip": "Что делать при превышении лимита ошибок тика.",
   "config.asyncparticles.tick.failPerSecLimit": "Порог ошибок тика в сек.",
   "config.asyncparticles.tick.failPerSecLimit.tooltip": "Макс. число сбоев обновления в секунду.\nПревышение вызовет выбранное 'Действие при сбое'.",
+  "config.asyncparticles.tick.gpuOnlyAsyncParticleTick": "Асинхронное обновление частиц только на GPU",
+  "config.asyncparticles.tick.gpuOnlyAsyncParticleTick.tooltip": "Если включено, только частицы GPU будут обновляться асинхронно.\nДействует только при включенной опции 'Асинхронное обновление частиц'.",
   "config.asyncparticles.tick.particleTickMode": "Режим тика частиц",
   "config.asyncparticles.tick.particleTickMode.tooltip": "Как обрабатывать логику частиц. 'Синхронно' — без оптимизации.",
   "config.asyncparticles.tick.suppressCME": "Подавлять CME",
@@ -110,10 +119,5 @@
   "gui.asyncparticles.reset": "Сбросить конфиг",
   "gui.asyncparticles.reset-confirmation": "Вы уверены, что хотите сбросить всё до настроек по умолчанию?",
   "gui.asyncparticles.reset-successfully": "Успешно сброшено!",
-  "gui.asyncparticles.revert": "Отменить",
-  "chat.asyncparticles.warn.get_block_entity_off_main_thread": "Доступ к сущности блока вне основного потока! Подробности смотрите в latest.log.\nВозможно, вам потребуется включить '%s'. Настоятельно рекомендуется сообщить об этой проблеме автору для получения более точного совета.",
-  "chat.asyncparticles.warn.get_entities_off_main_thread": "Доступ к сущности вне основного потока! Подробности смотрите в latest.log.\nВозможно, вам потребуется включить '%s'. Настоятельно рекомендуется сообщить об этой проблеме автору для получения более точного совета.",
-  "chat.asyncparticles.warn.temporary_mark_gpuOnlyAsyncParticleTick": "Неожиданная ошибка при рендеринге частиц в основном потоке: %s\nВероятно, это вызвано состоянием гонки между методами обновления и рендеринга частиц.\n'%s' был временно включен внутренне. Вам также следует включить его вручную, иначе эта ошибка повторится после перезапуска игры.\nНастоятельно рекомендуется сообщить об этой ошибке %s для получения более точного совета и помощи автору в выявлении и устранении потенциальных проблем.",
-  "config.asyncparticles.tick.gpuOnlyAsyncParticleTick": "Асинхронное обновление частиц только на GPU",
-  "config.asyncparticles.tick.gpuOnlyAsyncParticleTick.tooltip": "Если включено, только частицы GPU будут обновляться асинхронно.\nДействует только при включенной опции 'Асинхронное обновление частиц'."
+  "gui.asyncparticles.revert": "Отменить"
 }

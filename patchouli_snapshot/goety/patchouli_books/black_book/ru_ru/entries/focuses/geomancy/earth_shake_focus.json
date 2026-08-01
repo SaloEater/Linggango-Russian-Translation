@@ -1,0 +1,22 @@
+{
+  "name": "Earth Shake Focus",
+  "icon": "goety_cataclysm:earth_shake_focus",
+  "category": "goety:cataclysm/focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Summons tiny shockwaves that shoots from the caster's feet, damaging enemies in its way."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_cataclysm:focus/earth_shake_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/geo_staff)Geo Staff$() summons more shockwaves that moves a bit more quicker."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_cataclysm:earth_shake_focus": 1
+  }
+}

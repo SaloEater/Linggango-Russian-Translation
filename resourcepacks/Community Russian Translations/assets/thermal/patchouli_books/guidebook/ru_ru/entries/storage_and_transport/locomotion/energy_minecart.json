@@ -1,5 +1,5 @@
 {
-  "name": "Вагонетка с Редстоун Потоком",
+  "name": "Вагонетка с RF-энергией",
   "icon": "thermal:energy_minecart",
   "read_by_default": true,
   "flag": "mod:thermal_locomotion",
@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Вагонетка с Редстоун Потоком может использоваться для хранения Редстоун Потока (RF). Вагонетка RF изначально имеет ёмкость 1 000 000 RF и максимальную скорость передачи 1 000 RF/т, которые можно улучшить с помощью модификаторов. Используйте графический интерфейс для заполнения и опустошения предметов, содержащих RF."
+      "text": "Вагонетка с RF-энергией может использоваться для хранения энергии Красного камня (RF). Вагонетка с RF-энергией изначально имеет ёмкость 1 000 000 RF и максимальную скорость передачи 1000 RF/т, которые можно улучшить с помощью модификаторов. Используйте графический интерфейс для заполнения и опустошения предметов, содержащих RF-энергию."
     },
     {
       "type": "thermal:double_crafting_page",
@@ -21,7 +21,7 @@
     {
       "type": "patchouli:text",
       "title": "Совместимость с модификаторами",
-      "text": "$(li)$(l:thermal:technology/augments/integral_components)Встроенные компоненты$(/l)$(li)$(l:thermal:technology/augments/rf_coil)Расширенная RF катушка$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)Стабилизированная RF катушка$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)Высокопоточная RF катушка$(/l)"
+      "text": "$(li)$(l:thermal:technology/augments/integral_components)Интегральные компоненты$(/l)$(li)$(l:thermal:technology/augments/rf_coil)Расширенная RF-катушка$(/l)$(li)$(l:thermal:technology/augments/rf_coil_storage)Стабилизированная RF-катушка$(/l)$(li)$(l:thermal:technology/augments/rf_coil_xfer)Высокопоточная RF-катушка$(/l)"
     }
   ]
 }
