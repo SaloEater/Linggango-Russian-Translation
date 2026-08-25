@@ -2177,6 +2177,51 @@
 			x: -3.5d
 			y: -12.0d
 		}
+		{
+			dependencies: ["734425E2A8C791C7"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "legendary_monsters:textures/particle/warning.png"
+				}
+			}
+			id: "16F570C334B2B782"
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.composite_materials.quest16F570C334B2B782.subtitle}"
+			tasks: [{
+				id: "675D64CFA5A77B6A"
+				title: "{ftbquests.chapter.composite_materials.quest16F570C334B2B782.task.7448220201740893034.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.composite_materials.quest16F570C334B2B782.title}"
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["16F570C334B2B782"]
+			id: "148EA871C27C7C15"
+			rewards: [{
+				count: 5
+				id: "6B7C783F0D296A27"
+				item: "minecraft:allay_spawn_egg"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.composite_materials.quest148EA871C27C7C15.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "72D3F4A43F2FD42C"
+				item: { Count: 5, id: "composite_material:dungeon_steel_ingot" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.composite_materials.quest148EA871C27C7C15.title}"
+			x: 7.0d
+			y: -13.0d
+		}
 	]
 	title: "{ftbquests.chapter.composite_materials.title}"
 }

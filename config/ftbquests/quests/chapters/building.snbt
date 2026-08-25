@@ -6,9 +6,9 @@
 	group: "48ABEFC98EDF2F24"
 	icon: {
 		Count: 1
-		id: "ftbquests:custom_icon"
+		id: "constructionwand:infinity_wand"
 		tag: {
-			Icon: "buildinggadgets2:item/gadget_building"
+			wand_options: { }
 		}
 	}
 	id: "203854E03D2C7BB2"
@@ -305,140 +305,6 @@
 		}
 		{
 			dependencies: ["5D1C5022E9C5A746"]
-			description: [
-				"{ftbquests.chapter.building.quest172804B70A29224.description1}"
-				""
-				"{ftbquests.chapter.building.quest172804B70A29224.description2}"
-				""
-				"{ftbquests.chapter.building.quest172804B70A29224.description3}"
-				""
-				"{ftbquests.chapter.building.quest172804B70A29224.description4}"
-				""
-				"{ftbquests.chapter.building.quest172804B70A29224.description5}"
-				""
-				"{ftbquests.chapter.building.quest172804B70A29224.description6}"
-			]
-			icon: "buildinggadgets2:gadget_building"
-			id: "0172804B70A29224"
-			min_width: 450
-			shape: "square"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.building.quest172804B70A29224.subtitle}"
-			tasks: [{
-				id: "719793BC2D5B979B"
-				item: "buildinggadgets2:gadget_building"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5D1C5022E9C5A746"]
-			id: "2882F403ED5D74A1"
-			shape: "square"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.building.quest2882F403ED5D74A1.subtitle}"
-			tasks: [{
-				id: "5569EF7B7C2D881E"
-				item: "buildinggadgets2:gadget_exchanging"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5D1C5022E9C5A746"]
-			description: [
-				"{ftbquests.chapter.building.quest3D2C859382432B98.description1}"
-				""
-				"{ftbquests.chapter.building.quest3D2C859382432B98.description2}"
-			]
-			id: "3D2C859382432B98"
-			shape: "square"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.building.quest3D2C859382432B98.subtitle}"
-			tasks: [{
-				id: "4BCEDEB5E8B8479E"
-				item: "buildinggadgets2:gadget_destruction"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5D1C5022E9C5A746"]
-			description: [
-				"{ftbquests.chapter.building.quest49833EE440E5EF63.description1}"
-				""
-				"{ftbquests.chapter.building.quest49833EE440E5EF63.description2}"
-				""
-				"{ftbquests.chapter.building.quest49833EE440E5EF63.description3}"
-			]
-			id: "49833EE440E5EF63"
-			shape: "square"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.building.quest49833EE440E5EF63.subtitle}"
-			tasks: [
-				{
-					id: "14D163FDCA30295E"
-					item: "buildinggadgets2:gadget_copy_paste"
-					type: "item"
-				}
-				{
-					id: "21C3C46E8A83ED91"
-					item: {
-						Count: 1
-						id: "buildinggadgets2:gadget_cut_paste"
-						tag: {
-							pastereplace: 1b
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.building.quest49833EE440E5EF63.title}"
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["5D1C5022E9C5A746"]
-			description: [
-				"{ftbquests.chapter.building.quest51324B3CE2E05ACF.description1}"
-				""
-				"{ftbquests.chapter.building.quest51324B3CE2E05ACF.description2}"
-			]
-			id: "51324B3CE2E05ACF"
-			shape: "square"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.building.quest51324B3CE2E05ACF.subtitle}"
-			tasks: [{
-				id: "670354235E90535A"
-				item: "buildinggadgets2:template_manager"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5D1C5022E9C5A746"]
-			id: "68828599BE41D465"
-			rewards: [{
-				count: 4
-				id: "7772B9247B438CFA"
-				item: "minecraft:coal_block"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "2E9253BCBEA0E04A"
-				item: "charginggadgets:charging_station"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["5D1C5022E9C5A746"]
 			description: ["{ftbquests.chapter.building.quest428771C35C60373C.description1}"]
 			id: "428771C35C60373C"
 			shape: "square"
@@ -450,6 +316,175 @@
 			}]
 			x: 0.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			description: [
+				"{ftbquests.chapter.building.quest39D7DAC67252109.description1}"
+				"{ftbquests.chapter.building.quest39D7DAC67252109.description2}"
+				""
+				"{ftbquests.chapter.building.quest39D7DAC67252109.description3}"
+				"{ftbquests.chapter.building.quest39D7DAC67252109.description4}"
+				"{ftbquests.chapter.building.quest39D7DAC67252109.description5}"
+			]
+			id: "039D7DAC67252109"
+			rewards: [{
+				id: "53EB893D67B5C642"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "{ftbquests.chapter.building.quest39D7DAC67252109.subtitle}"
+			tasks: [{
+				id: "1F062E3B47F408CA"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["039D7DAC67252109"]
+			description: [
+				"{ftbquests.chapter.building.quest4E66DE420E120E49.description1}"
+				"{ftbquests.chapter.building.quest4E66DE420E120E49.description2}"
+				""
+				"{ftbquests.chapter.building.quest4E66DE420E120E49.description3}"
+				"{ftbquests.chapter.building.quest4E66DE420E120E49.description4}"
+				"{ftbquests.chapter.building.quest4E66DE420E120E49.description5}"
+			]
+			id: "4E66DE420E120E49"
+			rewards: [{
+				id: "0BEE69703EAB4B25"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "{ftbquests.chapter.building.quest4E66DE420E120E49.subtitle}"
+			tasks: [{
+				id: "69C8F08567A24856"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E66DE420E120E49"]
+			description: [
+				"{ftbquests.chapter.building.quest27EB5AD5C0F4F0C2.description1}"
+				"{ftbquests.chapter.building.quest27EB5AD5C0F4F0C2.description2}"
+				""
+				"{ftbquests.chapter.building.quest27EB5AD5C0F4F0C2.description3}"
+				"{ftbquests.chapter.building.quest27EB5AD5C0F4F0C2.description4}"
+				"{ftbquests.chapter.building.quest27EB5AD5C0F4F0C2.description5}"
+			]
+			id: "27EB5AD5C0F4F0C2"
+			rewards: [{
+				id: "7C82C48FAE9EE20C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "{ftbquests.chapter.building.quest27EB5AD5C0F4F0C2.subtitle}"
+			tasks: [{
+				id: "5660B2405AEC0887"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27EB5AD5C0F4F0C2"]
+			description: [
+				"{ftbquests.chapter.building.quest2614F2BBD76FB187.description1}"
+				"{ftbquests.chapter.building.quest2614F2BBD76FB187.description2}"
+				""
+				"{ftbquests.chapter.building.quest2614F2BBD76FB187.description3}"
+				"{ftbquests.chapter.building.quest2614F2BBD76FB187.description4}"
+				"{ftbquests.chapter.building.quest2614F2BBD76FB187.description5}"
+			]
+			id: "2614F2BBD76FB187"
+			rewards: [{
+				id: "579CD580C6358BA2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "{ftbquests.chapter.building.quest2614F2BBD76FB187.subtitle}"
+			tasks: [{
+				id: "432F59915A1F56D9"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			description: [
+				"{ftbquests.chapter.building.quest48583E6BDD7B0C38.description1}"
+				"{ftbquests.chapter.building.quest48583E6BDD7B0C38.description2}"
+			]
+			id: "48583E6BDD7B0C38"
+			rewards: [{
+				id: "0319181BEAF988BB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "{ftbquests.chapter.building.quest48583E6BDD7B0C38.subtitle}"
+			tasks: [{
+				id: "357F9C2C63B542AF"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5D1C5022E9C5A746"]
+			description: [
+				"{ftbquests.chapter.building.quest16098973CD3C90BA.description1}"
+				"{ftbquests.chapter.building.quest16098973CD3C90BA.description2}"
+			]
+			id: "16098973CD3C90BA"
+			rewards: [{
+				id: "19DCDA1506EC56F1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "{ftbquests.chapter.building.quest16098973CD3C90BA.subtitle}"
+			tasks: [{
+				id: "493B6A515B07BA14"
+				item: "constructionwand:core_destruction"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
 		}
 	]
 	title: "{ftbquests.chapter.building.title}"

@@ -136,7 +136,7 @@ PRUNE_EXCLUDE = {
     'ftbquestlocalizer',
 }
 
-DEFAULT_MODEL = {'proxy': 'gemini_cli/gemini-2.5-flash', 'claude': 'claude-haiku-4-5'}
+DEFAULT_MODEL = {'proxy': 'gemini/gemini-3.6-flash', 'claude': 'claude-haiku-4-5'}
 
 
 def d(cfg, key):
@@ -320,6 +320,9 @@ def build_to_translate(artifact, resource, kind, current_key=None):
             return None  # artifact already Russian (sync handles it)
         if isinstance(resource, str) and has_russian(resource):
             return None  # already translated in resourcepacks
+        if isinstance(resource, str) and resource == artifact:
+            return None  # resource already holds the identical value — treat as
+            #              untranslatable (kept same), don't keep re-sending it
         return artifact
 
     if isinstance(artifact, dict):
@@ -378,8 +381,12 @@ def build_pairs(snapshot, resource, pairs):
     snapshot no longer matches the resource and the pairs cannot be trusted.
     """
     if isinstance(snapshot, str):
-        if isinstance(resource, str) and has_russian(resource) and not has_russian(snapshot):
-            pairs[snapshot] = resource
+        if isinstance(resource, str) and not has_russian(snapshot):
+            # Resolved leaves: either translated (resource is Russian) OR kept
+            # identical (untranslatable) — record both so build_to_translate_pairs
+            # skips them and we stop re-sending untranslatable values.
+            if has_russian(resource) or resource == snapshot:
+                pairs[snapshot] = resource
         return True
     if isinstance(snapshot, dict) and isinstance(resource, dict):
         aligned = True
@@ -705,6 +712,10 @@ def translate_nested(data, backend, model, url, api_key, timeout, debug=False):
 TRANSLATE_ERRORS = (urllib.error.URLError, subprocess.TimeoutExpired,
                     json.JSONDecodeError, KeyError, ValueError)
 
+# Seconds to wait before retrying after the proxy returns an HTTP 5xx (e.g. 500),
+# instead of the usual exponential backoff — gives an overloaded proxy time to recover.
+SERVER_ERROR_COOLDOWN = 30.0
+
 _print_lock = threading.Lock()
 
 
@@ -739,17 +750,33 @@ class RateLimiter:
             time.sleep(wait)
 
 
-def _call_with_retry(fn, rate, retries, backoff_base):
-    """Run fn() honoring the rate limiter, retrying transient errors with backoff."""
-    for attempt in range(retries + 1):
+def _call_with_retry(fn, rate, retries, backoff_base, label=''):
+    """Run fn() honoring the rate limiter, retrying transient errors.
+
+    retries < 0 means retry forever (the default) — useful for waiting out proxy
+    downtime. A proxy HTTP 5xx (e.g. a 500) waits SERVER_ERROR_COOLDOWN (30s)
+    before the next attempt; other transient errors use exponential backoff
+    (capped at 60s so infinite retries don't grow unbounded).
+    """
+    attempt = 0
+    limit = '∞' if retries < 0 else retries
+    while True:
         rate.acquire()
         try:
             return fn()
         except TRANSLATE_ERRORS as e:
-            if attempt == retries:
+            if retries >= 0 and attempt >= retries:
                 raise
-            time.sleep(backoff_base * (2 ** attempt))
-            _last = e  # noqa: F841 (kept for clarity)
+            attempt += 1
+            if isinstance(e, urllib.error.HTTPError) and e.code >= 500:
+                wait = SERVER_ERROR_COOLDOWN
+                log(f'  proxy HTTP {e.code} on {label or "chunk"} — cooling down '
+                    f'{wait:.0f}s (retry {attempt}/{limit})')
+            else:
+                wait = min(backoff_base * (2 ** (attempt - 1)), 60.0)
+                log(f'  error on {label or "chunk"}: {e} — retry {attempt}/{limit} '
+                    f'in {wait:.0f}s')
+            time.sleep(wait)
 
 
 def _build_translate_tasks(json_files, to_translate_dir, chunk_size, file_state):
@@ -833,7 +860,7 @@ def run_translate(cfg, args):
                 return merge_translations(chunk, translate_chunk(
                     chunk, args.backend, model, args.url, args.api_key, args.timeout,
                     debug=args.debug))
-            merged = _call_with_retry(call, rate, args.retries, args.backoff)
+            merged = _call_with_retry(call, rate, args.retries, args.backoff, task['label'])
             applied = count_russian(merged)
             with state['lock']:
                 state['data'].update(merged)
@@ -845,7 +872,7 @@ def run_translate(cfg, args):
                 return translate_nested(
                     chunk, args.backend, model, args.url, args.api_key, args.timeout,
                     debug=args.debug)
-            translated = _call_with_retry(call, rate, args.retries, args.backoff)
+            translated = _call_with_retry(call, rate, args.retries, args.backoff, task['label'])
             with state['lock']:
                 before = count_russian(state['data'])
                 state['data'] = merge_translations(state['data'], translated)
@@ -1159,8 +1186,9 @@ def build_parser():
     p_tr.add_argument('--delay', type=float, default=2.0,
                       help='minimum seconds between request STARTS, enforced globally '
                            'across workers (default 2.0; 0 disables throttling)')
-    p_tr.add_argument('--retries', type=int, default=3,
-                      help='retry attempts per chunk on transient errors (default 3)')
+    p_tr.add_argument('--retries', type=int, default=-1,
+                      help='retry attempts per chunk on transient errors '
+                           '(default -1 = retry forever; use N for a finite cap, 0 to disable)')
     p_tr.add_argument('--backoff', type=float, default=2.0,
                       help='base seconds for exponential retry backoff (default 2.0 -> 2,4,8)')
     p_tr.add_argument('--timeout', type=float, default=300.0)
