@@ -12,15 +12,32 @@
 		}
 	}
 	id: "1B16478E2C3AD080"
-	images: [{
-		height: 15.0d
-		image: "customtextures:textures/hearts.png"
-		rotation: 0.0d
-		width: 16.0d
-		x: -0.5d
-		y: 0.5d
-	}]
-	order_index: 17
+	images: [
+		{
+			height: 15.0d
+			image: "customtextures:textures/hearts.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.hearts.image.hovertext1"
+				"ftbquests.chapter.hearts.image.hovertext2"
+				"ftbquests.chapter.hearts.image.hovertext3"
+				"ftbquests.chapter.hearts.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -0.5d
+		}
+	]
+	order_index: 21
 	parent: "44F86CB070F12FF2"
 	quest_links: [ ]
 	quests: [

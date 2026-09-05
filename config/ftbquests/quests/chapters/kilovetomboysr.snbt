@@ -1,131 +1,100 @@
 {
-	autofocus_id: "0D94E02715E74F99"
+	autofocus_id: "705B7789F8F62571"
 	default_hide_dependency_lines: false
-	default_min_width: 300
+	default_min_width: 320
 	default_quest_shape: "square"
 	filename: "kilovetomboysr"
 	group: "0FD8C2D2A2339C0B"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_complete: true
-	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "animus:item/blood_infused_spellbook"
+			Icon: "brutality:item/sword/royal_guardian_sword/royal_guardian_sword_inventory"
 		}
 	}
 	id: "3AE3B2BE4A65CEF6"
 	images: [
 		{
-			height: 5.0d
-			image: "customtextures:textures/lethality_and_brutality.png"
+			height: 2.0d
+			image: "customtextures:textures/brutality_title.png"
 			rotation: 0.0d
-			width: 12.0d
-			x: -5.0d
-			y: -12.0d
+			width: 9.46d
+			x: 0.0d
+			y: -16.0d
 		}
 		{
 			color: 5592405
-			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
 			order: -8
 			rotation: 0.0d
 			width: 6.0d
-			x: -7.0d
-			y: 5.5d
+			x: 0.0d
+			y: -12.5d
 		}
 		{
 			color: 5592405
-			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
 			order: -7
 			rotation: 45.0d
 			width: 6.0d
-			x: -7.0d
-			y: 5.5d
+			x: 0.0d
+			y: -12.5d
 		}
 		{
 			color: 5592405
-			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
 			order: -6
 			rotation: 90.0d
 			width: 6.0d
-			x: -7.0d
-			y: 5.5d
+			x: 0.0d
+			y: -12.5d
 		}
 		{
 			color: 5592405
-			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
 			order: -5
 			rotation: 135.0d
 			width: 6.0d
-			x: -7.0d
-			y: 5.5d
+			x: 0.0d
+			y: -12.5d
 		}
 		{
 			color: 5592405
-			dependency: "2B69C369F7D0B25C"
 			height: 6.0d
 			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
 			order: -4
 			rotation: 175.0d
 			width: 6.0d
-			x: -7.0d
-			y: 5.5d
+			x: 0.0d
+			y: -12.5d
 		}
 		{
-			color: 5592405
-			dependency: "2B69C369F7D0B25C"
-			height: 6.0d
-			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
-			order: -3
-			rotation: -90.0d
-			width: 6.0d
-			x: -7.0d
-			y: 5.5d
-		}
-		{
-			color: 5592405
-			dependency: "2B69C369F7D0B25C"
-			height: 6.0d
-			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
+			alpha: 70
+			height: 2.0d
+			image: "brutality:item/quantite_ingot"
 			order: -2
-			rotation: -45.0d
-			width: 6.0d
-			x: -7.0d
-			y: 5.5d
+			rotation: -14.0d
+			width: 2.0d
+			x: -12.5d
+			y: -6.0d
 		}
 		{
-			color: 5592405
-			dependency: "2B69C369F7D0B25C"
-			height: 6.0d
-			image: "brutality:textures/particle/murasama_slash/murasama_slash_particle_7.png"
-			order: -1
-			rotation: -135.0d
-			width: 6.0d
-			x: -7.0d
-			y: 5.5d
-		}
-		{
-			color: 16777045
-			dependency: "2B69C369F7D0B25C"
-			height: 5.0d
-			image: "bloodmagic:models/alchemyarrays/sunarray"
-			rotation: 0.0d
-			width: 5.0d
-			x: -2.0d
-			y: 5.5d
+			alpha: 70
+			height: 2.0d
+			image: "brutality:item/high_frequency_alloy"
+			order: -2
+			rotation: 14.0d
+			width: 2.0d
+			x: 9.0d
+			y: 10.5d
 		}
 		{
 			dev: true
-			height: 1.0d
+			height: 0.9d
 			hover: [
 				"ftbquests.chapter.kilovetomboysr.image.hovertext1"
 				"ftbquests.chapter.kilovetomboysr.image.hovertext2"
@@ -134,964 +103,2748 @@
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -15.0d
+			width: 0.9d
+			x: 5.8d
+			y: -16.0d
 		}
 	]
-	order_index: 7
+	order_index: 9
+	parent: "2F1A384416C57A23"
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description3}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description6}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description7}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description9}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description10}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description11}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description12}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description13}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description14}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description15}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description16}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description17}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description18}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description19}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description20}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description21}"
+				"{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.description22}"
+				""
+				"[\"\",{\"color\":\"#8FCB3F\",\"underlined\":true,\"translate\":\"ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2F1A384416C57A23\"}}]"
+				"[\"\",{\"color\":\"#A31419\",\"underlined\":true,\"translate\":\"ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"20FAEEFB40B0A5B7\"}}]"
+			]
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				id: "brutality:crown_of_tyranny"
 				tag: {
-					Icon: "lethality:item/stop_sign"
+					Damage: 0
 				}
 			}
-			icon_scale: 1.5d
-			id: "0D94E02715E74F99"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6790CA626C71C1D0"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.questD94E02715E74F99.subtitle}"
+			id: "705B7789F8F62571"
+			rewards: [
+				{
+					id: "1AFD928377DA4683"
+					item: {
+						Count: 1
+						id: "brutality:empty_anklet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4064D979095DE482"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			size: 2.2d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.subtitle}"
 			tasks: [{
-				id: "7EAB472665C3FBE3"
+				id: "6CCAB234869C2286"
 				item: {
 					Count: 1
-					id: "lethality:stop_sign"
+					id: "brutality:iron_knife"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -3.75d
-			y: -8.25d
+			title: "{ftbquests.chapter.kilovetomboysr.quest705B7789F8F62571.title}"
+			x: 0.0d
+			y: -12.5d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/tainted_blade"
-				}
-			}
-			icon_scale: 1.5d
-			id: "4BFD6C3409511222"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6A3E1B8F9FFAFBA8"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4BFD6C3409511222.subtitle}"
-			tasks: [{
-				id: "08EE67A0515EAB5B"
-				item: {
-					Count: 1
-					id: "lethality:tainted_blade"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"4BFD6C3409511222"
-				"2B69C369F7D0B25C"
+			dependencies: ["705B7789F8F62571"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest4F1B11DA09383C16.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4F1B11DA09383C16.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4F1B11DA09383C16.description3}"
 			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "lethality:item/caustic_edge"
+					Icon: "brutality:textures/gui/rage_bar_icon.png"
 				}
 			}
-			icon_scale: 1.5d
-			id: "7234C8C15A34BEEA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6B8B06E4CBF968F5"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7234C8C15A34BEEA.subtitle}"
-			tasks: [{
-				id: "5A98C421129E32F6"
-				item: {
-					Count: 1
-					id: "lethality:caustic_edge"
-					tag: {
-						Damage: 0
-					}
+			icon_scale: 0.8d
+			id: "4F1B11DA09383C16"
+			rewards: [
+				{
+					id: "321A28C8557022DE"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
+				{
+					exclude_from_claim_all: true
+					id: "62F777F3828F040C"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4F1B11DA09383C16.subtitle}"
+			tasks: [{
+				id: "3CAA847147767D4C"
+				title: "{ftbquests.chapter.kilovetomboysr.quest4F1B11DA09383C16.task.4371452010381606220.title}"
+				type: "checkmark"
 			}]
-			x: -6.0d
-			y: -3.75d
+			title: "{ftbquests.chapter.kilovetomboysr.quest4F1B11DA09383C16.title}"
+			x: 0.0d
+			y: -9.0d
 		}
 		{
-			dependencies: [
-				"7234C8C15A34BEEA"
-				"2B69C369F7D0B25C"
+			dependencies: ["4F1B11DA09383C16"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest52F1263B6C9F7D51.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest52F1263B6C9F7D51.description2}"
 			]
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				id: "brutality:rage_stone"
 				tag: {
-					Icon: "lethality:item/blighted_cleaver"
+					Damage: 0
 				}
 			}
-			icon_scale: 1.5d
-			id: "71161551B9BDC76E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3E39674D215326B1"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest71161551B9BDC76E.subtitle}"
+			id: "52F1263B6C9F7D51"
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest52F1263B6C9F7D51.subtitle}"
 			tasks: [{
-				id: "2CECF9542AC77860"
+				id: "720E390605DE0237"
 				item: {
 					Count: 1
-					id: "lethality:blighted_cleaver"
+					id: "brutality:rage_stone"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -8.25d
-			y: -3.75d
-		}
-		{
-			dependencies: [
-				"71161551B9BDC76E"
-				"2B69C369F7D0B25C"
-			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/defiled_greatsword"
-				}
-			}
-			icon_scale: 1.5d
-			id: "70A53D4527A0AC62"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5CCB2332091580E3"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest70A53D4527A0AC62.subtitle}"
-			tasks: [{
-				id: "606374A923B36A86"
-				item: {
-					Count: 1
-					id: "lethality:defiled_greatsword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -10.5d
-			y: -3.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/bladecrest_oathsword"
-				}
-			}
-			icon_scale: 1.5d
-			id: "71252E3A290B4439"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7E306F38B732CC51"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest71252E3A290B4439.subtitle}"
-			tasks: [{
-				id: "71BF59812EFF4665"
-				item: {
-					Count: 1
-					id: "lethality:bladecrest_oathsword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.75d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"71252E3A290B4439"
-				"2B69C369F7D0B25C"
-			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/forbidden_oathblade"
-				}
-			}
-			icon_scale: 1.5d
-			id: "0DB7F1007E89A3BB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "16E780AE9D19F0BF"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.questDB7F1007E89A3BB.subtitle}"
-			tasks: [{
-				id: "60D0F4D28866E551"
-				item: {
-					Count: 1
-					id: "lethality:forbidden_oathblade"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.75d
-			y: -3.75d
-		}
-		{
-			dependencies: [
-				"0DB7F1007E89A3BB"
-				"2B69C369F7D0B25C"
-			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/exalted_oathblade"
-				}
-			}
-			icon_scale: 1.5d
-			id: "2D5D554F1FC2110E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "18E510BC6C7E4F90"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2D5D554F1FC2110E.subtitle}"
-			tasks: [{
-				id: "3FA23E06FAEA15BD"
-				item: {
-					Count: 1
-					id: "lethality:exalted_oathblade"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: -3.75d
-		}
-		{
-			dependencies: [
-				"2D5D554F1FC2110E"
-				"2B69C369F7D0B25C"
-			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/devils_devastation"
-				}
-			}
-			icon_scale: 1.5d
-			id: "614A815D1C166137"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4500082CFE7F60F7"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest614A815D1C166137.subtitle}"
-			tasks: [{
-				id: "140384E22EE504D9"
-				item: {
-					Count: 1
-					id: "lethality:devils_devastation"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.75d
-			y: -3.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/gaels_greatsword"
-				}
-			}
-			icon_scale: 1.5d
-			id: "3679047E4E198911"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7D475C9B94684322"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3679047E4E198911.subtitle}"
-			tasks: [{
-				id: "0E1D0FD752A352A5"
-				item: {
-					Count: 1
-					id: "lethality:gaels_greatsword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: 0.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/violence"
-				}
-			}
-			icon_scale: 1.5d
-			id: "4E2EEF7EFFC1D7D1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4CEDE87F6CCEE430"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4E2EEF7EFFC1D7D1.subtitle}"
-			tasks: [{
-				id: "086D0EB92F9453F7"
-				item: {
-					Count: 1
-					id: "lethality:violence"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/sacrifice"
-				}
-			}
-			icon_scale: 1.5d
-			id: "747886A6E6AA53C7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "50A1CDE7876458A4"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest747886A6E6AA53C7.subtitle}"
-			tasks: [{
-				id: "04A51220226C1922"
-				item: {
-					Count: 1
-					id: "lethality:sacrifice"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -15.0d
-			y: 0.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/vehemence"
-				}
-			}
-			icon_scale: 1.5d
-			id: "5DB58CFF1D5E1500"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "613B6C62B112C894"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5DB58CFF1D5E1500.subtitle}"
-			tasks: [{
-				id: "2465A65CC848317A"
-				item: {
-					Count: 1
-					id: "lethality:vehemence"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.25d
-			y: 0.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/grievance"
-				}
-			}
-			icon_scale: 1.5d
-			id: "2CBC0596965F65D3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "598165571F28DCE0"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2CBC0596965F65D3.subtitle}"
-			tasks: [{
-				id: "13BC1A2C80262086"
-				item: {
-					Count: 1
-					id: "lethality:grievance"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -17.25d
-			y: 0.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/starlight"
-				}
-			}
-			icon_scale: 1.2d
-			id: "781F862F4161A7F0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2DB26D8FB440647F"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest781F862F4161A7F0.subtitle}"
-			tasks: [{
-				id: "6B7CF2D6E98998E4"
-				item: {
-					Count: 1
-					id: "lethality:starlight"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/real_knife"
-				}
-			}
-			icon_scale: 1.2d
-			id: "1259106DE450DD03"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5FFFF1B054194EAE"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest1259106DE450DD03.subtitle}"
-			tasks: [{
-				id: "11CE14D9410F5C1C"
-				item: {
-					Count: 1
-					id: "lethality:real_knife"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -12.75d
-			y: 0.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/pickle_paddle"
-				}
-			}
-			id: "2B861D38FB7C46D4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6D44BE6190C97291"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2B861D38FB7C46D4.subtitle}"
-			tasks: [{
-				id: "7CB299E6E75788F2"
-				item: {
-					Count: 1
-					id: "lethality:pickle_paddle"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -12.75d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/midas_touch"
-				}
-			}
-			icon_scale: 1.5d
-			id: "7D4FD0BD78F6179B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1AF6EF0A5325BC7B"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7D4FD0BD78F6179B.subtitle}"
-			tasks: [{
-				id: "21092E0B639FBD2D"
-				item: {
-					Count: 1
-					id: "lethality:midas_touch"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -15.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/gamblers_blade"
-				}
-			}
-			icon_scale: 1.5d
-			id: "59C60FA63B60635A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "59E49E5A3FD7832D"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest59C60FA63B60635A.subtitle}"
-			tasks: [{
-				id: "18A1B2E697A9D697"
-				item: {
-					Count: 1
-					id: "lethality:gamblers_blade"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -19.5d
-			y: 0.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			description: ["{ftbquests.chapter.kilovetomboysr.quest34BE09B8A1696826.description1}"]
-			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/nightmare_sword"
-				}
-			}
-			icon_scale: 2.0d
-			id: "34BE09B8A1696826"
-			min_width: 500
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "19D0160DF5AE21FB"
-				table_id: 8699295573854160387L
-				type: "random"
-			}]
-			shape: "none"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest34BE09B8A1696826.subtitle}"
-			tasks: [{
-				id: "045B115D604E0B9A"
-				item: {
-					Count: 1
-					id: "lethality:nightmare_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/nightfall"
-				}
-			}
-			icon_scale: 1.5d
-			id: "65FEE070A6F998F7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "71CB00ECD81B49F6"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest65FEE070A6F998F7.subtitle}"
-			tasks: [{
-				id: "54F08A942D4AD796"
-				item: {
-					Count: 1
-					id: "lethality:nightfall"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -12.75d
-			y: -3.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/hf_meowrasama"
-				}
-			}
-			icon_scale: 1.5d
-			id: "7890349A10B01114"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3F93B0FCFB84CFD3"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7890349A10B01114.subtitle}"
-			tasks: [{
-				id: "641563654B90FAC2"
-				item: {
-					Count: 1
-					id: "lethality:hf_meowrasama"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.75d
-			y: 0.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "lethality:item/foreign_hook"
-				}
-			}
-			icon_scale: 1.5d
-			id: "704E71AD888B523E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5F137739865E217A"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest704E71AD888B523E.subtitle}"
-			tasks: [{
-				id: "4890A897B7E8DEEF"
-				item: {
-					Count: 1
-					id: "lethality:foreign_hook"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: -8.25d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "brutality:item/sword/royal_guardian_sword/royal_guardian_sword_handheld"
-				}
-			}
-			icon_scale: 2.0d
-			id: "6EB580601CB06CAE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4D5BFF739CA7FA82"
-				table_id: 8699295573854160387L
-				type: "random"
-			}]
-			shape: "none"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6EB580601CB06CAE.subtitle}"
-			tasks: [{
-				id: "6F7E5F28457FA90E"
-				item: {
-					Count: 1
-					id: "brutality:royal_guardian_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest52F1263B6C9F7D51.title}"
 			x: -2.0d
-			y: 5.627551020408163d
+			y: -9.0d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
-			id: "5200FF3FD8E93CA0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2F6482845C850488"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5200FF3FD8E93CA0.subtitle}"
-			tasks: [{
-				id: "413093382BA7F710"
-				item: {
-					Count: 1
-					id: "brutality:dull_knife"
-					tag: {
-						Damage: 0
-						texture: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: -8.25d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
+			dependencies: ["52F1263B6C9F7D51"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest63290C00E96E54BC.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest63290C00E96E54BC.description2}"
+			]
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				id: "brutality:pain_catalyst"
 				tag: {
-					Icon: "brutality:item/sword/frostmourne/frostmourne_handheld"
+					Damage: 0
 				}
 			}
-			icon_scale: 2.0d
-			id: "759B047763E511D9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7F994A9678E0153A"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest759B047763E511D9.subtitle}"
+			id: "63290C00E96E54BC"
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest63290C00E96E54BC.subtitle}"
 			tasks: [{
-				id: "688DBB1189B5F1AC"
+				id: "7AB0E8B1DE2D81DC"
 				item: {
 					Count: 1
-					id: "brutality:frostmourne"
+					id: "brutality:pain_catalyst"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest63290C00E96E54BC.title}"
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["63290C00E96E54BC"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest5B9EBA581514CC97.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest5B9EBA581514CC97.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:blood_howl_pendant"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B9EBA581514CC97"
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5B9EBA581514CC97.subtitle}"
+			tasks: [{
+				id: "23ADBF68F91B91B5"
+				item: {
+					Count: 1
+					id: "brutality:blood_howl_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest5B9EBA581514CC97.title}"
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5B9EBA581514CC97"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest763BD408AB6B253E.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest763BD408AB6B253E.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:battle_scars"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "763BD408AB6B253E"
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest763BD408AB6B253E.subtitle}"
+			tasks: [{
+				id: "4750F420AC05A228"
+				item: {
+					Count: 1
+					id: "brutality:battle_scars"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest763BD408AB6B253E.title}"
 			x: -6.0d
-			y: -1.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			dependencies: ["4F1B11DA09383C16"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest7EB1A3E54795F212.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest7EB1A3E54795F212.description2}"
+			]
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				id: "brutality:grudge_totem"
 				tag: {
-					Icon: "brutality:item/axe/rhitta/rhitta_handheld"
+					Damage: 0
 				}
 			}
-			icon_scale: 2.0d
-			id: "7183193022F7944C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7ADC80B95811C7A4"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7183193022F7944C.subtitle}"
+			id: "7EB1A3E54795F212"
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7EB1A3E54795F212.subtitle}"
 			tasks: [{
-				id: "66B602AC3681272A"
+				id: "76741361EBDB227B"
 				item: {
 					Count: 1
-					id: "brutality:rhitta"
+					id: "brutality:grudge_totem"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -8.25d
-			y: -1.5d
+			title: "{ftbquests.chapter.kilovetomboysr.quest7EB1A3E54795F212.title}"
+			x: 2.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			dependencies: ["7EB1A3E54795F212"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest15C007DC741837D8.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest15C007DC741837D8.description2}"
+			]
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				id: "brutality:rampage_clock"
 				tag: {
-					Icon: "brutality:item/scythe/darkin_scythe/darkin_scythe_handheld"
+					Damage: 0
 				}
 			}
-			icon_scale: 2.0d
-			id: "06C47BEF7CDD5F6E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "05227A32408A0871"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6C47BEF7CDD5F6E.subtitle}"
+			id: "15C007DC741837D8"
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest15C007DC741837D8.subtitle}"
 			tasks: [{
-				id: "7D1F6BDBFF4661C9"
+				id: "6F8C5F5F6A6FB22C"
 				item: {
 					Count: 1
-					id: "brutality:darkin_scythe"
+					id: "brutality:rampage_clock"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -12.75d
-			y: -8.25d
+			title: "{ftbquests.chapter.kilovetomboysr.quest15C007DC741837D8.title}"
+			x: 4.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			dependencies: ["15C007DC741837D8"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest5B29A2E7C1277AF0.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest5B29A2E7C1277AF0.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:blood_pulse_gauntlets"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B29A2E7C1277AF0"
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5B29A2E7C1277AF0.subtitle}"
+			tasks: [{
+				id: "4E362A07FE3ABE2A"
+				item: {
+					Count: 1
+					id: "brutality:blood_pulse_gauntlets"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest5B29A2E7C1277AF0.title}"
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5B29A2E7C1277AF0"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest15AB41B91241927B.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest15AB41B91241927B.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:anger_management"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "15AB41B91241927B"
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest15AB41B91241927B.subtitle}"
+			tasks: [{
+				id: "3226AB25A63D788A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:anger_management"
+							}
+							{
+								Count: 1b
+								id: "brutality:fury_band"
+							}
+							{
+								Count: 1b
+								id: "brutality:hate_sigil"
+							}
+							{
+								Count: 1b
+								id: "brutality:heart_of_wrath"
+							}
+							{
+								Count: 1b
+								id: "brutality:spite_shard"
+							}
+							{
+								Count: 1b
+								id: "brutality:mechanical_aorta"
+							}
+							{
+								Count: 1b
+								id: "brutality:eye_for_violence"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest15AB41B91241927B.task.3613763929202587786.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest15AB41B91241927B.title}"
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4F1B11DA09383C16"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest14DC7D665C4DCB6C.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest14DC7D665C4DCB6C.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest14DC7D665C4DCB6C.description3}"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "brutality:item/sword/darkin_blade/darkin_blade_handheld"
+					Icon: "brutality:item/red_seal"
 				}
 			}
-			icon_scale: 2.0d
+			id: "14DC7D665C4DCB6C"
+			rewards: [
+				{
+					id: "3C748CE33C222EEE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23B31C3852C21224"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest14DC7D665C4DCB6C.subtitle}"
+			tasks: [{
+				id: "2139873C73E9AA88"
+				title: "{ftbquests.chapter.kilovetomboysr.quest14DC7D665C4DCB6C.task.2394093370636610184.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest14DC7D665C4DCB6C.title}"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["14DC7D665C4DCB6C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest6506A4F4D796E5C6.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest6506A4F4D796E5C6.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest6506A4F4D796E5C6.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest6506A4F4D796E5C6.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest6506A4F4D796E5C6.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest6506A4F4D796E5C6.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest6506A4F4D796E5C6.description7}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6506A4F4D796E5C6.description8}"
+			]
+			icon: "brutality:red_seal"
+			id: "6506A4F4D796E5C6"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6506A4F4D796E5C6.subtitle}"
+			tasks: [{
+				id: "2687FA02341FBD64"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:red_seal"
+							}
+							{
+								Count: 1b
+								id: "brutality:blue_seal"
+							}
+							{
+								Count: 1b
+								id: "brutality:cyan_seal"
+							}
+							{
+								Count: 1b
+								id: "brutality:yellow_seal"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest6506A4F4D796E5C6.task.2776462582668574052.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest6506A4F4D796E5C6.title}"
+			x: -2.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6506A4F4D796E5C6"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest1E0CBB8215D52282.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest1E0CBB8215D52282.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest1E0CBB8215D52282.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest1E0CBB8215D52282.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest1E0CBB8215D52282.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest1E0CBB8215D52282.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest1E0CBB8215D52282.description7}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest1E0CBB8215D52282.description8}"
+			]
+			icon: "brutality:orange_seal"
+			id: "1E0CBB8215D52282"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest1E0CBB8215D52282.subtitle}"
+			tasks: [{
+				id: "49F9C28139369B8B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:orange_seal"
+							}
+							{
+								Count: 1b
+								id: "brutality:green_seal"
+							}
+							{
+								Count: 1b
+								id: "brutality:pink_seal"
+							}
+							{
+								Count: 1b
+								id: "brutality:purple_seal"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest1E0CBB8215D52282.task.5330505494236142475.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest1E0CBB8215D52282.title}"
+			x: -4.95d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1E0CBB8215D52282"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest3239C4B336B8FC2B.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest3239C4B336B8FC2B.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest3239C4B336B8FC2B.description3}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest3239C4B336B8FC2B.description4}"
+			]
+			icon: "brutality:void_seal"
+			id: "3239C4B336B8FC2B"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3239C4B336B8FC2B.subtitle}"
+			tasks: [{
+				id: "1DB296F7D1C40FB3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:void_seal"
+							}
+							{
+								Count: 1b
+								id: "brutality:quantite_seal"
+							}
+							{
+								Count: 1b
+								id: "brutality:black_seal"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest3239C4B336B8FC2B.task.2139938764074782643.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest3239C4B336B8FC2B.title}"
+			x: -4.95d
+			y: -3.85d
+		}
+		{
+			dependencies: ["14DC7D665C4DCB6C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest57EAEB9361163918.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest57EAEB9361163918.description2}"
+			]
+			icon: "brutality:glass_seal"
+			id: "57EAEB9361163918"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest57EAEB9361163918.subtitle}"
+			tasks: [{
+				id: "55E30671AA8C8FA6"
+				item: "brutality:glass_seal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest57EAEB9361163918.title}"
+			x: 2.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["57EAEB9361163918"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest2045FA44A728489D.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest2045FA44A728489D.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest2045FA44A728489D.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest2045FA44A728489D.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest2045FA44A728489D.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest2045FA44A728489D.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest2045FA44A728489D.description7}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest2045FA44A728489D.description8}"
+			]
+			icon: "brutality:cosmic_seal"
+			id: "2045FA44A728489D"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2045FA44A728489D.subtitle}"
+			tasks: [{
+				id: "13D840CF27A1B9CD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:bomb_seal"
+							}
+							{
+								Count: 1b
+								id: "brutality:cosmic_seal"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest2045FA44A728489D.task.1429964140157450701.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest2045FA44A728489D.title}"
+			x: 4.95d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2045FA44A728489D"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest74D00CE73A24C5BB.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest74D00CE73A24C5BB.description2}"
+			]
+			icon: "brutality:quantite_ingot"
+			id: "74D00CE73A24C5BB"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest74D00CE73A24C5BB.subtitle}"
+			tasks: [{
+				id: "7334F739CD9E8376"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:quantite_ingot"
+							}
+							{
+								Count: 1b
+								id: "brutality:high_frequency_alloy"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest74D00CE73A24C5BB.task.8301531840785580918.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest74D00CE73A24C5BB.title}"
+			x: 4.95d
+			y: -3.85d
+		}
+		{
+			dependencies: ["14DC7D665C4DCB6C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest24C83C380C2492A1.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest24C83C380C2492A1.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest24C83C380C2492A1.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/curio/anklet/anklent/anklent_inventory"
+				}
+			}
+			id: "24C83C380C2492A1"
+			rewards: [
+				{
+					id: "3F687345F3BF4C37"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CB7E16AE84FCBCA"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest24C83C380C2492A1.subtitle}"
+			tasks: [{
+				id: "6424C69B6CB10A8D"
+				title: "{ftbquests.chapter.kilovetomboysr.quest24C83C380C2492A1.task.7216110873800149645.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest24C83C380C2492A1.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24C83C380C2492A1"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.description9}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.description10}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:ruby_anklet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6646C86B3553A927"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.subtitle}"
+			tasks: [{
+				id: "74C9ACD3ECF84D27"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:ruby_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:sapphire_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:topaz_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:onyx_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:emerald_anklet"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.task.8415447404932255015.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest6646C86B3553A927.title}"
+			x: -2.75d
+			y: -1.6500000000000001d
+		}
+		{
+			dependencies: ["6646C86B3553A927"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.description9}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.description10}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:conductite_anklet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1DB924A3C5E05555"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.subtitle}"
+			tasks: [{
+				id: "6EF5B04618A0EEDB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:conductite_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:void_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:exodium_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:nyxium_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:virentium_anklet"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.task.7995490528573583067.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest1DB924A3C5E05555.title}"
+			x: -4.95d
+			y: -1.6500000000000001d
+		}
+		{
+			dependencies: ["1DB924A3C5E05555"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.description9}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.description10}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:gnome_kings_anklet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "270C29931977C026"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.subtitle}"
+			tasks: [{
+				id: "408EA92507BD724D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:gnome_kings_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:trial_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:gundalfs_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:davys_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:devils_anklet"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.task.4651841441629041229.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest270C29931977C026.title}"
+			x: -4.95d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24C83C380C2492A1"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest330E9ADFC4D8518D.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest330E9ADFC4D8518D.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest330E9ADFC4D8518D.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:ultra_dodge_anklet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "330E9ADFC4D8518D"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest330E9ADFC4D8518D.subtitle}"
+			tasks: [{
+				id: "58E4940ACBBAE34C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:ultra_dodge_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:super_dodge_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:sacred_speed_anklet"
+							}
+							{
+								Count: 1b
+								id: "brutality:ironclad_anklet"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest330E9ADFC4D8518D.task.6405407344116294476.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest330E9ADFC4D8518D.title}"
+			x: 2.75d
+			y: -1.6500000000000001d
+		}
+		{
+			dependencies: ["330E9ADFC4D8518D"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest73F52B8F9C99E644.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest73F52B8F9C99E644.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest73F52B8F9C99E644.description3}"
+				""
+				"[\"\",{\"color\":\"#E29AD2\",\"underlined\":true,\"translate\":\"ftbquests.chapter.kilovetomboysr.quest73F52B8F9C99E644.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6EDF4B2777923E7D\"}}]"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:anklent"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73F52B8F9C99E644"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest73F52B8F9C99E644.subtitle}"
+			tasks: [{
+				id: "35D8AA109C75A310"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:anklent"
+							}
+							{
+								Count: 1b
+								id: "brutality:phantom_finger"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest73F52B8F9C99E644.task.3880038067300836112.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest73F52B8F9C99E644.title}"
+			x: 5.5d
+			y: -1.6500000000000001d
+		}
+		{
+			dependencies: ["73F52B8F9C99E644"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest3CBC9ACA6F4E02D2.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest3CBC9ACA6F4E02D2.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest3CBC9ACA6F4E02D2.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:anklet_of_the_imprisoned"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3CBC9ACA6F4E02D2"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3CBC9ACA6F4E02D2.subtitle}"
+			tasks: [{
+				id: "105D19CB3EC84DE5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:anklet_of_the_imprisoned"
+							}
+							{
+								Count: 1b
+								id: "brutality:ankle_monitor"
+							}
+							{
+								Count: 1b
+								id: "brutality:handcuffs"
+							}
+							{
+								Count: 1b
+								id: "brutality:prison_key"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest3CBC9ACA6F4E02D2.task.1179127038163308005.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest3CBC9ACA6F4E02D2.title}"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24C83C380C2492A1"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest63ACC8EBF1EC7262.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest63ACC8EBF1EC7262.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest63ACC8EBF1EC7262.description3}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest63ACC8EBF1EC7262.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "composite_material:item/ancient_book"
+				}
+			}
+			id: "63ACC8EBF1EC7262"
+			rewards: [
+				{
+					id: "591D527BED32B30A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2493923391FBE16D"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest63ACC8EBF1EC7262.subtitle}"
+			tasks: [{
+				id: "2E84EB79424689CE"
+				title: "{ftbquests.chapter.kilovetomboysr.quest63ACC8EBF1EC7262.task.3352062928705980878.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest63ACC8EBF1EC7262.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63ACC8EBF1EC7262"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.description9}"
+				"{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.description10}"
+				"{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.description11}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:void_tome"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.9d
+			id: "7FC50B3E0EA80506"
+			shape: "square"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.subtitle}"
+			tasks: [{
+				id: "30CE4450211486A1"
+				item: {
+					Count: 1
+					id: "brutality:void_tome"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest7FC50B3E0EA80506.title}"
+			x: -2.4d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["7FC50B3E0EA80506"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest29ECCE2E67DC8A44.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest29ECCE2E67DC8A44.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest29ECCE2E67DC8A44.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest29ECCE2E67DC8A44.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest29ECCE2E67DC8A44.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest29ECCE2E67DC8A44.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest29ECCE2E67DC8A44.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest29ECCE2E67DC8A44.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest29ECCE2E67DC8A44.description9}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:celestia_tome"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.8d
+			id: "29ECCE2E67DC8A44"
+			shape: "square"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest29ECCE2E67DC8A44.subtitle}"
+			tasks: [{
+				id: "28F901998D1BE452"
+				item: {
+					Count: 1
+					id: "brutality:celestia_tome"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest29ECCE2E67DC8A44.title}"
+			x: -4.8d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["29ECCE2E67DC8A44"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest43849CE183D55553.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest43849CE183D55553.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest43849CE183D55553.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest43849CE183D55553.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest43849CE183D55553.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest43849CE183D55553.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest43849CE183D55553.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest43849CE183D55553.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest43849CE183D55553.description9}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:cosmic_tome"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.9d
+			id: "43849CE183D55553"
+			shape: "square"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest43849CE183D55553.subtitle}"
+			tasks: [{
+				id: "2ED9B02576782209"
+				item: {
+					Count: 1
+					id: "brutality:cosmic_tome"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest43849CE183D55553.title}"
+			x: -7.199999999999999d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["43849CE183D55553"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest207EB0D0BF97A526.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest207EB0D0BF97A526.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest207EB0D0BF97A526.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest207EB0D0BF97A526.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest207EB0D0BF97A526.description5}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest207EB0D0BF97A526.description6}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:brimwielder_tome"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.9d
+			id: "207EB0D0BF97A526"
+			shape: "square"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest207EB0D0BF97A526.subtitle}"
+			tasks: [{
+				id: "79A41F36845FDFC0"
+				item: {
+					Count: 1
+					id: "brutality:brimwielder_tome"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest207EB0D0BF97A526.title}"
+			x: -7.199999999999999d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["63ACC8EBF1EC7262"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest6561C8C402912375.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest6561C8C402912375.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest6561C8C402912375.description3}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6561C8C402912375.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:umbral_tome"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.9d
+			id: "6561C8C402912375"
+			shape: "square"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6561C8C402912375.subtitle}"
+			tasks: [{
+				id: "3C450EF4B0FCB8D0"
+				item: {
+					Count: 1
+					id: "brutality:umbral_tome"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest6561C8C402912375.title}"
+			x: 2.4d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["6561C8C402912375"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest62B60CF98466B5D7.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest62B60CF98466B5D7.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest62B60CF98466B5D7.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:exodic_tome"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.9d
+			id: "62B60CF98466B5D7"
+			shape: "square"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest62B60CF98466B5D7.subtitle}"
+			tasks: [{
+				id: "3EE9564D2B327EC3"
+				item: {
+					Count: 1
+					id: "brutality:exodic_tome"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest62B60CF98466B5D7.title}"
+			x: 4.8d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["62B60CF98466B5D7"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest71BBFA395E76C1F2.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest71BBFA395E76C1F2.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:daemonic_tome"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.9d
+			id: "71BBFA395E76C1F2"
+			shape: "square"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest71BBFA395E76C1F2.subtitle}"
+			tasks: [{
+				id: "6B0AFB9DBC40845B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:daemonic_tome"
+							}
+							{
+								Count: 1b
+								id: "brutality:darkist_tome"
+							}
+							{
+								Count: 1b
+								id: "brutality:evergreen_tome"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest71BBFA395E76C1F2.task.7713253966712177755.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest71BBFA395E76C1F2.title}"
+			x: 7.199999999999999d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["71BBFA395E76C1F2"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description9}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description10}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description11}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description12}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description13}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description14}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description15}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description16}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description17}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description18}"
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description19}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.description20}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:blood_orb"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5466C77E6959C7DB"
+			shape: "square"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.subtitle}"
+			tasks: [{
+				id: "770E1A961A78BD24"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:blood_orb"
+							}
+							{
+								Count: 1b
+								id: "brutality:archmages_trick"
+							}
+							{
+								Count: 1b
+								id: "brutality:mana_syringe"
+							}
+							{
+								Count: 1b
+								id: "brutality:soul_stone"
+							}
+							{
+								Count: 1b
+								id: "brutality:echo_chamber"
+							}
+							{
+								Count: 1b
+								id: "brutality:onyx_idol"
+							}
+							{
+								Count: 1b
+								id: "brutality:scribes_index"
+							}
+							{
+								Count: 1b
+								id: "brutality:rune_of_delta"
+							}
+							{
+								Count: 1b
+								id: "brutality:conservative_concoction"
+							}
+							{
+								Count: 1b
+								id: "brutality:emergency_flask"
+							}
+							{
+								Count: 1b
+								id: "brutality:ring_of_mana"
+							}
+							{
+								Count: 1b
+								id: "brutality:ring_of_mana_plus"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.task.8578823572178910500.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest5466C77E6959C7DB.title}"
+			x: 7.199999999999999d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["63ACC8EBF1EC7262"]
+			description: ["{ftbquests.chapter.kilovetomboysr.quest39365765E979CAF3.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:slot/empty_heart_slot"
+				}
+			}
+			icon_scale: 0.8d
+			id: "39365765E979CAF3"
+			rewards: [
+				{
+					id: "70D8E1A13CB28224"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "410AA7BEBA2B1A5F"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest39365765E979CAF3.subtitle}"
+			tasks: [{
+				id: "18354CF2E8EA6305"
+				title: "{ftbquests.chapter.kilovetomboysr.quest39365765E979CAF3.task.1744385036849406725.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest39365765E979CAF3.title}"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39365765E979CAF3"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest50F6066201E0BD11.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest50F6066201E0BD11.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest50F6066201E0BD11.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:brutal_heart"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.8d
+			id: "50F6066201E0BD11"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest50F6066201E0BD11.subtitle}"
+			tasks: [{
+				id: "1DFBBD4119FEE6E9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:brutal_heart"
+							}
+							{
+								Count: 1b
+								id: "brutality:crown_of_tyranny"
+							}
+							{
+								Count: 1b
+								id: "brutality:pride"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest50F6066201E0BD11.task.2160528533560944361.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest50F6066201E0BD11.title}"
+			x: -2.2d
+			y: 4.95d
+		}
+		{
+			dependencies: ["50F6066201E0BD11"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest733CA50A9B9D0873.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest733CA50A9B9D0873.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest733CA50A9B9D0873.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest733CA50A9B9D0873.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest733CA50A9B9D0873.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest733CA50A9B9D0873.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest733CA50A9B9D0873.description7}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:heart_of_gold"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.8d
+			id: "733CA50A9B9D0873"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest733CA50A9B9D0873.subtitle}"
+			tasks: [{
+				id: "597728471C128526"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:heart_of_gold"
+							}
+							{
+								Count: 1b
+								id: "brutality:uvogre_heart"
+							}
+							{
+								Count: 1b
+								id: "brutality:dragonheart"
+							}
+							{
+								Count: 1b
+								id: "brutality:hemomatic_locket"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest733CA50A9B9D0873.task.6446665677482919206.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest733CA50A9B9D0873.title}"
+			x: -2.75d
+			y: 6.05d
+		}
+		{
+			dependencies: ["39365765E979CAF3"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest35B3474BBBFB54EB.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest35B3474BBBFB54EB.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest35B3474BBBFB54EB.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest35B3474BBBFB54EB.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest35B3474BBBFB54EB.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest35B3474BBBFB54EB.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest35B3474BBBFB54EB.description7}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:zombie_heart"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.83d
+			id: "35B3474BBBFB54EB"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest35B3474BBBFB54EB.subtitle}"
+			tasks: [{
+				id: "4EC75A6B55D75089"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:zombie_heart"
+							}
+							{
+								Count: 1b
+								id: "brutality:frozen_heart"
+							}
+							{
+								Count: 1b
+								id: "brutality:bloodstained_mirror"
+							}
+							{
+								Count: 1b
+								id: "brutality:yata_no_kagami"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest35B3474BBBFB54EB.task.5676605272371974281.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest35B3474BBBFB54EB.title}"
+			x: 2.2d
+			y: 4.95d
+		}
+		{
+			dependencies: ["35B3474BBBFB54EB"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest3193DD6FA975BB61.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest3193DD6FA975BB61.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest3193DD6FA975BB61.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest3193DD6FA975BB61.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest3193DD6FA975BB61.description5}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest3193DD6FA975BB61.description6}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:silver_respawn_card"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.9d
+			id: "3193DD6FA975BB61"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3193DD6FA975BB61.subtitle}"
+			tasks: [{
+				id: "148353C69BD70D5B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:silver_respawn_card"
+							}
+							{
+								Count: 1b
+								id: "brutality:diamond_respawn_card"
+							}
+							{
+								Count: 1b
+								id: "brutality:evil_king_respawn_card"
+							}
+							{
+								Count: 1b
+								id: "brutality:silver_booster_pack"
+							}
+							{
+								Count: 1b
+								id: "brutality:diamond_booster_pack"
+							}
+							{
+								Count: 1b
+								id: "brutality:evil_king_booster_pack"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest3193DD6FA975BB61.task.1478117215190846811.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest3193DD6FA975BB61.title}"
+			x: 2.75d
+			y: 6.05d
+		}
+		{
+			dependencies: ["705B7789F8F62571"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.description9}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.description10}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:the_clock_of_frozen_time"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E70E18B47A478B1"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.subtitle}"
+			tasks: [{
+				id: "1A6DB1F2C135E2EA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:broken_clock"
+							}
+							{
+								Count: 1b
+								id: "brutality:shattered_clock"
+							}
+							{
+								Count: 1b
+								id: "brutality:sundered_clock"
+							}
+							{
+								Count: 1b
+								id: "brutality:timekeepers_clock"
+							}
+							{
+								Count: 1b
+								id: "brutality:the_clock_of_frozen_time"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.task.1904373873629324010.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest4E70E18B47A478B1.title}"
+			x: 0.0d
+			y: -14.3d
+		}
+		{
+			dependencies: ["39365765E979CAF3"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest532317E149B22035.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest532317E149B22035.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:textures/mob_effect/salted.png"
+				}
+			}
+			icon_scale: 0.8d
+			id: "532317E149B22035"
+			rewards: [
+				{
+					id: "7E1D1F8937D1A75B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "171284E0DB100BD9"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest532317E149B22035.subtitle}"
+			tasks: [{
+				id: "1DD4F8DA9BFCD1E6"
+				title: "{ftbquests.chapter.kilovetomboysr.quest532317E149B22035.task.2149616539966165478.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest532317E149B22035.title}"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["532317E149B22035"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description9}"
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description10}"
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description11}"
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description12}"
+				"{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.description13}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:the_golden_spatula"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7EA1A63728D5CF7B"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.subtitle}"
+			tasks: [{
+				id: "168A4FC3AB9AF1C4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:the_golden_spatula"
+							}
+							{
+								Count: 1b
+								id: "brutality:spatula"
+							}
+							{
+								Count: 1b
+								id: "brutality:frying_pan"
+							}
+							{
+								Count: 1b
+								id: "brutality:potato_masher"
+							}
+							{
+								Count: 1b
+								id: "brutality:whisk"
+							}
+							{
+								Count: 1b
+								id: "brutality:bamboo_steamer"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.task.1624198317436760516.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest7EA1A63728D5CF7B.title}"
+			x: -2.2d
+			y: 8.8d
+		}
+		{
+			dependencies: ["7EA1A63728D5CF7B"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest2C724A47333A8FB1.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest2C724A47333A8FB1.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest2C724A47333A8FB1.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest2C724A47333A8FB1.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest2C724A47333A8FB1.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest2C724A47333A8FB1.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest2C724A47333A8FB1.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest2C724A47333A8FB1.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest2C724A47333A8FB1.description9}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:salt_and_pepper_charm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C724A47333A8FB1"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2C724A47333A8FB1.subtitle}"
+			tasks: [{
+				id: "474600E84BF0A07F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:salt_shaker_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:pepper_shaker_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:salt_and_pepper_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:hot_sauce_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:olive_oil_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:extra_virgin_olive_oil_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:tomato_sauce_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:cheese_sauce_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:pizza_slop_charm"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest2C724A47333A8FB1.task.5135793422769102975.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest2C724A47333A8FB1.title}"
+			x: -3.85d
+			y: 8.8d
+		}
+		{
+			dependencies: ["532317E149B22035"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest42242F64198C83C4.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest42242F64198C83C4.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest42242F64198C83C4.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest42242F64198C83C4.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest42242F64198C83C4.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest42242F64198C83C4.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest42242F64198C83C4.description7}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest42242F64198C83C4.description8}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:lollipop_of_eternity"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "42242F64198C83C4"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest42242F64198C83C4.subtitle}"
+			tasks: [{
+				id: "29E9424E260D522B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:rainbow_sprinkles"
+							}
+							{
+								Count: 1b
+								id: "brutality:sugar_glaze"
+							}
+							{
+								Count: 1b
+								id: "brutality:seared_sugar_brooch"
+							}
+							{
+								Count: 1b
+								id: "brutality:rock_candy_ring"
+							}
+							{
+								Count: 1b
+								id: "brutality:dunked_donut"
+							}
+							{
+								Count: 1b
+								id: "brutality:caramel_crunch_medallion"
+							}
+							{
+								Count: 1b
+								id: "brutality:lollipop_of_eternity"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest42242F64198C83C4.task.3020017928541917739.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest42242F64198C83C4.title}"
+			x: 2.2d
+			y: 8.8d
+		}
+		{
+			dependencies: ["42242F64198C83C4"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest71FE38A557C6F56E.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest71FE38A557C6F56E.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest71FE38A557C6F56E.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:smart_fridge_charm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "71FE38A557C6F56E"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest71FE38A557C6F56E.subtitle}"
+			tasks: [{
+				id: "4DD4ECD735532525"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:smart_fridge_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:fridge_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:mortar_and_pestle_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:the_smokehouse"
+							}
+							{
+								Count: 1b
+								id: "brutality:smoke_stone"
+							}
+							{
+								Count: 1b
+								id: "brutality:essential_oils"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest71FE38A557C6F56E.task.5608367845039875365.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest71FE38A557C6F56E.title}"
+			x: 3.85d
+			y: 8.8d
+		}
+		{
+			dependencies: ["71FE38A557C6F56E"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest50B7412DC913155F.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest50B7412DC913155F.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest50B7412DC913155F.description3}"
+			]
+			icon: "brutality:mug"
+			id: "50B7412DC913155F"
+			optional: true
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest50B7412DC913155F.subtitle}"
+			tasks: [{
+				id: "7B24A7EC38580667"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:mug"
+							}
+							{
+								Count: 1b
+								id: "brutality:styrofoam_cup"
+							}
+							{
+								Count: 1b
+								id: "brutality:coffee_machine"
+							}
+							{
+								Count: 1b
+								id: "brutality:water_cooler"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest50B7412DC913155F.task.8873401798826133095.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest50B7412DC913155F.title}"
+			x: 5.5d
+			y: 8.8d
+		}
+		{
+			dependencies: ["532317E149B22035"]
+			description: ["{ftbquests.chapter.kilovetomboysr.quest527AFEF81FC22F00.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:item/krampus_horn"
+				}
+			}
+			id: "527AFEF81FC22F00"
+			rewards: [
+				{
+					id: "37B58EB4497C5573"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3640CA263F9CB868"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest527AFEF81FC22F00.subtitle}"
+			tasks: [{
+				id: "49014B949E6DF56B"
+				title: "{ftbquests.chapter.kilovetomboysr.quest527AFEF81FC22F00.task.5260568941430699371.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest527AFEF81FC22F00.title}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["527AFEF81FC22F00"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description9}"
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description10}"
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description11}"
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description12}"
+				"{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.description13}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:pride"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "498B38B5449ADEA3"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.subtitle}"
+			tasks: [{
+				id: "60842467C0166489"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:pride"
+							}
+							{
+								Count: 1b
+								id: "brutality:greed"
+							}
+							{
+								Count: 1b
+								id: "brutality:envy"
+							}
+							{
+								Count: 1b
+								id: "brutality:gluttony"
+							}
+							{
+								Count: 1b
+								id: "brutality:sloth"
+							}
+							{
+								Count: 1b
+								id: "brutality:wrath"
+							}
+							{
+								Count: 1b
+								id: "brutality:lust"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.task.6954723752589812873.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest498B38B5449ADEA3.title}"
+			x: -2.2d
+			y: 12.1d
+		}
+		{
+			dependencies: ["498B38B5449ADEA3"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.description9}"
+				"{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.description10}"
+				"{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.description11}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.description12}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:pi_charm"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.7d
+			id: "62A347E841B614B0"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.subtitle}"
+			tasks: [{
+				id: "475154C650E82009"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:pi_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:sine_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:cosine_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:exponential_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:sum_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:addition_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:subtraction_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:multiplication_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:division_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:scientific_calculator"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.task.5138981860544094217.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest62A347E841B614B0.title}"
+			x: -2.2d
+			y: 13.75d
+		}
+		{
+			dependencies: ["527AFEF81FC22F00"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest38C46CFAED856F4C.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest38C46CFAED856F4C.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest38C46CFAED856F4C.description3}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest38C46CFAED856F4C.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:crypto_wallet_charm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "38C46CFAED856F4C"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest38C46CFAED856F4C.subtitle}"
+			tasks: [{
+				id: "23802C71CDB4ACE0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:crypto_wallet_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:portable_mining_rig_charm"
+							}
+							{
+								Count: 1b
+								id: "brutality:the_cloud"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest38C46CFAED856F4C.task.2558093455640538336.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest38C46CFAED856F4C.title}"
+			x: 2.2d
+			y: 12.1d
+		}
+		{
+			dependencies: ["38C46CFAED856F4C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest3A79CBEA2F890781.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest3A79CBEA2F890781.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest3A79CBEA2F890781.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest3A79CBEA2F890781.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest3A79CBEA2F890781.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest3A79CBEA2F890781.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest3A79CBEA2F890781.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest3A79CBEA2F890781.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest3A79CBEA2F890781.description9}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:emergency_meeting"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3A79CBEA2F890781"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3A79CBEA2F890781.subtitle}"
+			tasks: [{
+				id: "343C09BD48F75B52"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:emergency_meeting"
+							}
+							{
+								Count: 1b
+								id: "brutality:light_switch"
+							}
+							{
+								Count: 1b
+								id: "brutality:escape_key"
+							}
+							{
+								Count: 1b
+								id: "brutality:miracle_cure"
+							}
+							{
+								Count: 1b
+								id: "brutality:nanomachines"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest3A79CBEA2F890781.task.3763894097152531282.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest3A79CBEA2F890781.title}"
+			x: 2.2d
+			y: 13.75d
+		}
+		{
+			dependencies: ["3A79CBEA2F890781"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.description9}"
+				"{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.description10}"
+				"{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.description11}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:target_cube"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.7d
+			id: "3645ADA6AF317FD9"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.subtitle}"
+			tasks: [{
+				id: "2A3DDE9BC9359A60"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:target_cube"
+							}
+							{
+								Count: 1b
+								id: "brutality:lucky_insoles"
+							}
+							{
+								Count: 1b
+								id: "brutality:fuzzy_dice"
+							}
+							{
+								Count: 1b
+								id: "brutality:black_matter_necklace"
+							}
+							{
+								Count: 1b
+								id: "brutality:knuckle_wraps"
+							}
+							{
+								Count: 1b
+								id: "brutality:knights_pendant"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.task.3043833683849353824.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest3645ADA6AF317FD9.title}"
+			x: 4.4d
+			y: 13.75d
+		}
+		{
+			dependencies: ["3645ADA6AF317FD9"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description8}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description9}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description10}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description11}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description12}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description13}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description14}"
+				"{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.description15}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:celestial_starboard"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.9d
+			id: "7BE6CFF0C828AD56"
+			optional: true
+			shape: "circle"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.subtitle}"
+			tasks: [{
+				id: "7A780D8773FD9C2D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:celestial_starboard"
+							}
+							{
+								Count: 1b
+								id: "brutality:canopy_of_shadows"
+							}
+							{
+								Count: 1b
+								id: "brutality:hyperbolic_feather"
+							}
+							{
+								Count: 1b
+								id: "brutality:old_guillotine"
+							}
+							{
+								Count: 1b
+								id: "brutality:crowbar"
+							}
+							{
+								Count: 1b
+								id: "brutality:dueling_glove"
+							}
+							{
+								Count: 1b
+								id: "brutality:pincushion"
+							}
+							{
+								Count: 1b
+								id: "brutality:plunder_chest_charm"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.task.8824818345250233389.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest7BE6CFF0C828AD56.title}"
+			x: 4.4d
+			y: 12.1d
+		}
+		{
+			dependencies: ["527AFEF81FC22F00"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest1EE06DC605E46EBB.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest1EE06DC605E46EBB.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.75d
+			id: "1EE06DC605E46EBB"
+			rewards: [
+				{
+					id: "222180E4B0CBC9E4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18A8B0656310D880"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest1EE06DC605E46EBB.subtitle}"
+			tasks: [{
+				id: "7984DD5FBAB5273D"
+				title: "{ftbquests.chapter.kilovetomboysr.quest1EE06DC605E46EBB.task.8756366978739152701.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest1EE06DC605E46EBB.title}"
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest6D1BD29B2FD77FC8.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6D1BD29B2FD77FC8.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:darkin_blade"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6D1BD29B2FD77FC8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1099,7 +2852,8 @@
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
+			shape: "square"
+			size: 1.1d
 			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6D1BD29B2FD77FC8.subtitle}"
 			tasks: [{
 				id: "4216468BDD2332DB"
@@ -1112,172 +2866,145 @@
 				}
 				type: "item"
 			}]
-			x: -3.75d
-			y: 0.75d
+			title: "{ftbquests.chapter.kilovetomboysr.quest6D1BD29B2FD77FC8.title}"
+			x: -2.75d
+			y: 15.950000000000001d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest6C47BEF7CDD5F6E.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6C47BEF7CDD5F6E.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6C47BEF7CDD5F6E.description3}"
+			]
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				id: "brutality:darkin_scythe"
 				tag: {
-					Icon: "brutality:item/axe/old_gpu/old_gpu_handheld"
+					Damage: 0
 				}
 			}
-			icon_scale: 2.0d
-			id: "4F7F77866139D3EB"
+			id: "06C47BEF7CDD5F6E"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "18004C27FC782805"
+				id: "05227A32408A0871"
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4F7F77866139D3EB.subtitle}"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6C47BEF7CDD5F6E.subtitle}"
 			tasks: [{
-				id: "799CDBA966A615E2"
+				id: "7D1F6BDBFF4661C9"
 				item: {
 					Count: 1
-					id: "brutality:old_gpu"
+					id: "brutality:darkin_scythe"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.75d
+			title: "{ftbquests.chapter.kilovetomboysr.quest6C47BEF7CDD5F6E.title}"
+			x: -4.4d
+			y: 15.950000000000001d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest759B047763E511D9.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest759B047763E511D9.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest759B047763E511D9.description3}"
+			]
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				id: "brutality:frostmourne"
 				tag: {
-					Icon: "brutality:item/sword/supernova/supernova_inventory"
+					Damage: 0
 				}
 			}
-			icon_scale: 1.5d
-			id: "3D0947A8675C23AC"
+			id: "759B047763E511D9"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1CD109BE4013CE34"
+				id: "7F994A9678E0153A"
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3D0947A8675C23AC.subtitle}"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest759B047763E511D9.subtitle}"
 			tasks: [{
-				id: "48E58AB1B9C1CCB4"
+				id: "688DBB1189B5F1AC"
 				item: {
 					Count: 1
-					id: "brutality:supernova"
+					id: "brutality:frostmourne"
 					tag: {
 						Damage: 0
-						Enchantments: [{
-							id: "minecraft:knockback"
-							lvl: 3s
-						}]
-						GeckoLibID: 2L
 					}
 				}
 				type: "item"
 			}]
-			x: -8.25d
-			y: 0.75d
+			title: "{ftbquests.chapter.kilovetomboysr.quest759B047763E511D9.title}"
+			x: -6.05d
+			y: 15.950000000000001d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest7183193022F7944C.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest7183193022F7944C.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest7183193022F7944C.description3}"
+			]
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				id: "brutality:rhitta"
 				tag: {
-					Icon: "brutality:item/sword/whisperwaltz/whisperwaltz_handheld"
+					Damage: 0
 				}
 			}
-			icon_scale: 2.0d
-			id: "57A8805535468893"
+			id: "7183193022F7944C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4B8B303B71621B33"
+				id: "7ADC80B95811C7A4"
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest57A8805535468893.subtitle}"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7183193022F7944C.subtitle}"
 			tasks: [{
-				id: "4126ECF63FA1FFA9"
+				id: "66B602AC3681272A"
 				item: {
 					Count: 1
-					id: "brutality:whisperwaltz"
+					id: "brutality:rhitta"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.0d
+			title: "{ftbquests.chapter.kilovetomboysr.quest7183193022F7944C.title}"
+			x: -7.7d
+			y: 15.950000000000001d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
-			id: "367262EC3D2FB8A5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "09D232EE42ED29F5"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest367262EC3D2FB8A5.subtitle}"
-			tasks: [{
-				id: "4F39B77DB2CD577E"
-				item: {
-					Count: 1
-					id: "brutality:paper_cut"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.75d
-			y: -6.0d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			id: "0E6A8B65275BD791"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0AAFA428EE8337B2"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "1F2B3F68CB44BB27"
-				item: {
-					Count: 1
-					id: "brutality:seventh_star"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.75d
-			y: 0.75d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest48CCFC55D416DE7.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest48CCFC55D416DE7.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest48CCFC55D416DE7.description3}"
+			]
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				id: "brutality:providence"
 				tag: {
-					Icon: "brutality:item/bow/providence/providence_handheld"
+					Damage: 0
 				}
 			}
-			icon_scale: 2.0d
 			id: "048CCFC55D416DE7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1285,7 +3012,8 @@
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
+			shape: "square"
+			size: 1.1d
 			subtitle: "{ftbquests.chapter.kilovetomboysr.quest48CCFC55D416DE7.subtitle}"
 			tasks: [{
 				id: "0B9127A81DB07BD4"
@@ -1299,120 +3027,556 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 0.75d
+			title: "{ftbquests.chapter.kilovetomboysr.quest48CCFC55D416DE7.title}"
+			x: -9.35d
+			y: 15.950000000000001d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
-			id: "7A149B26A765873D"
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest2360941E59454374.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest2360941E59454374.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:shadowstep"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2360941E59454374"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3AFC03B5C16B54F2"
+				id: "76BBE0BBCE7833B8"
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7A149B26A765873D.subtitle}"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2360941E59454374.subtitle}"
 			tasks: [{
-				id: "63931E4E9FF83C77"
+				id: "381E795388198D56"
 				item: {
 					Count: 1
-					id: "brutality:jackpot"
+					id: "brutality:shadowstep"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest2360941E59454374.title}"
+			x: -11.0d
+			y: 15.950000000000001d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest57A8805535468893.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest57A8805535468893.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:whisperwaltz"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "57A8805535468893"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B8B303B71621B33"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest57A8805535468893.subtitle}"
+			tasks: [{
+				id: "4126ECF63FA1FFA9"
+				item: {
+					Count: 1
+					id: "brutality:whisperwaltz"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest57A8805535468893.title}"
+			x: -12.65d
+			y: 15.950000000000001d
+		}
+		{
+			dependencies: ["705B7789F8F62571"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest6EB580601CB06CAE.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6EB580601CB06CAE.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6EB580601CB06CAE.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:royal_guardian_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6EB580601CB06CAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D5BFF739CA7FA82"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
+			shape: "star"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6EB580601CB06CAE.subtitle}"
+			tasks: [{
+				id: "6F7E5F28457FA90E"
+				item: {
+					Count: 1
+					id: "brutality:royal_guardian_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest6EB580601CB06CAE.title}"
 			x: 3.0d
-			y: -6.0d
+			y: -12.5d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
-			id: "2217081F3ABF9265"
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest2F516986EF0C5AED.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest2F516986EF0C5AED.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:bamboo_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F516986EF0C5AED"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "76D250EA7F12F504"
+				id: "1A0CA4D91DABC70E"
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2217081F3ABF9265.subtitle}"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2F516986EF0C5AED.subtitle}"
 			tasks: [{
-				id: "3C9D37C604132FEE"
+				id: "307C2F0370997E6A"
 				item: {
 					Count: 1
-					id: "brutality:event_horizon"
+					id: "brutality:bamboo_staff"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.75d
+			title: "{ftbquests.chapter.kilovetomboysr.quest2F516986EF0C5AED.title}"
+			x: -14.3d
+			y: 15.950000000000001d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
-			id: "4BDE4EB2B5AAB121"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "13760CA462DB6417"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4BDE4EB2B5AAB121.subtitle}"
-			tasks: [{
-				id: "589EB0D6ECB7C1D4"
-				item: {
-					Count: 1
-					id: "brutality:crease_of_creation"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:knockback"
-							lvl: 4s
-						}]
-					}
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest5BE205618361B970.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest5BE205618361B970.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest5BE205618361B970.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:blade_of_the_ruined_king"
+				tag: {
+					Damage: 0
 				}
-				type: "item"
-			}]
-			x: -10.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			id: "3C0A7905C44B0EB4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4B3520C9165A9FB9"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3C0A7905C44B0EB4.subtitle}"
+			}
+			id: "5BE205618361B970"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5BE205618361B970.subtitle}"
 			tasks: [{
-				id: "263BA566C799881C"
+				id: "7396B6972EE9EAAE"
 				item: {
 					Count: 1
-					id: "brutality:atomic_judgement"
+					id: "brutality:blade_of_the_ruined_king"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -3.75d
-			y: -1.5d
+			title: "{ftbquests.chapter.kilovetomboysr.quest5BE205618361B970.title}"
+			x: 2.75d
+			y: 15.950000000000001d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest111576C288653AE1.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest111576C288653AE1.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:prismatic_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "111576C288653AE1"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest111576C288653AE1.subtitle}"
+			tasks: [{
+				id: "46FFC81FD6A6FBE6"
+				item: {
+					Count: 1
+					id: "brutality:prismatic_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest111576C288653AE1.title}"
+			x: 4.4d
+			y: 15.950000000000001d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest3BC43C484FA99367.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest3BC43C484FA99367.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:crimson_scissor_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3BC43C484FA99367"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3BC43C484FA99367.subtitle}"
+			tasks: [{
+				id: "13447F977E215850"
+				item: {
+					Count: 1
+					id: "brutality:crimson_scissor_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest3BC43C484FA99367.title}"
+			x: 6.05d
+			y: 15.950000000000001d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest7F13A50DCC45BFF1.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest7F13A50DCC45BFF1.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:shadowflame_scissor_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7F13A50DCC45BFF1"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7F13A50DCC45BFF1.subtitle}"
+			tasks: [{
+				id: "494C616EB13D7925"
+				item: {
+					Count: 1
+					id: "brutality:shadowflame_scissor_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest7F13A50DCC45BFF1.title}"
+			x: 7.7d
+			y: 15.950000000000001d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest4ACAC8081596C121.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4ACAC8081596C121.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4ACAC8081596C121.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:deathsaw"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4ACAC8081596C121"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4ACAC8081596C121.subtitle}"
+			tasks: [{
+				id: "6BB010C8A0556D99"
+				item: {
+					Count: 1
+					id: "brutality:deathsaw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest4ACAC8081596C121.title}"
+			x: 9.35d
+			y: 15.950000000000001d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest3A8647EE36964E6B.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest3A8647EE36964E6B.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:tsukuyomi"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3A8647EE36964E6B"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3A8647EE36964E6B.subtitle}"
+			tasks: [{
+				id: "6EC90674CFB90331"
+				item: {
+					Count: 1
+					id: "brutality:tsukuyomi"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest3A8647EE36964E6B.title}"
+			x: 11.0d
+			y: 15.950000000000001d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest43E9818FFD98A5BE.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest43E9818FFD98A5BE.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:amaterasu"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "43E9818FFD98A5BE"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest43E9818FFD98A5BE.subtitle}"
+			tasks: [{
+				id: "1758E2A890849B63"
+				item: {
+					Count: 1
+					id: "brutality:amaterasu"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest43E9818FFD98A5BE.title}"
+			x: 12.65d
+			y: 15.950000000000001d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest6292CF4255F3D09B.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6292CF4255F3D09B.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest6292CF4255F3D09B.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest6292CF4255F3D09B.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest6292CF4255F3D09B.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest6292CF4255F3D09B.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest6292CF4255F3D09B.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest6292CF4255F3D09B.description8}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6292CF4255F3D09B.description9}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:void_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6292CF4255F3D09B"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6292CF4255F3D09B.subtitle}"
+			tasks: [{
+				id: "638D5FD15E0A8DD6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:iron_knife"
+							}
+							{
+								Count: 1b
+								id: "brutality:gold_knife"
+							}
+							{
+								Count: 1b
+								id: "brutality:diamond_knife"
+							}
+							{
+								Count: 1b
+								id: "brutality:void_knife"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest6292CF4255F3D09B.task.7173495134301621718.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest6292CF4255F3D09B.title}"
+			x: 14.3d
+			y: 15.950000000000001d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest27A2B6E1D1592206.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest27A2B6E1D1592206.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:onyx_phasesaber"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.9d
+			id: "27A2B6E1D1592206"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest27A2B6E1D1592206.subtitle}"
+			tasks: [{
+				id: "38DE4D0CBBA356DF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:ruby_phasesaber"
+							}
+							{
+								Count: 1b
+								id: "brutality:onyx_phasesaber"
+							}
+							{
+								Count: 1b
+								id: "brutality:topaz_phasesaber"
+							}
+							{
+								Count: 1b
+								id: "brutality:sapphire_phasesaber"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest27A2B6E1D1592206.task.4097797428036720351.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest27A2B6E1D1592206.title}"
+			x: 15.950000000000001d
+			y: 15.950000000000001d
+		}
+		{
+			dependencies: ["1EE06DC605E46EBB"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest3861CE678A64855A.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest3861CE678A64855A.description2}"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "brutality:item/trident/gungnir/gungnir_inventory"
+					Icon: "brutality:item/throwing/cavendish/cavendish_inventory"
+				}
+			}
+			icon_scale: 0.9d
+			id: "3861CE678A64855A"
+			rewards: [
+				{
+					id: "6FD89595603DAE1E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34C7526E35109038"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3861CE678A64855A.subtitle}"
+			tasks: [{
+				id: "515F0CBFB06454A2"
+				title: "{ftbquests.chapter.kilovetomboysr.quest3861CE678A64855A.task.5863419257297327266.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest3861CE678A64855A.title}"
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest4376F20CE571B8D1.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4376F20CE571B8D1.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4376F20CE571B8D1.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:gungnir"
+				tag: {
+					Damage: 0
 				}
 			}
 			id: "4376F20CE571B8D1"
@@ -1422,7 +3586,8 @@
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
+			shape: "rsquare"
+			size: 1.1d
 			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4376F20CE571B8D1.subtitle}"
 			tasks: [{
 				id: "49B33EC6A16E24A5"
@@ -1439,11 +3604,25 @@
 				}
 				type: "item"
 			}]
-			x: 5.25d
-			y: -1.5d
+			title: "{ftbquests.chapter.kilovetomboysr.quest4376F20CE571B8D1.title}"
+			x: -2.75d
+			y: 19.25d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest4D8CFBE614148155.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4D8CFBE614148155.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4D8CFBE614148155.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:thunderbolt"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4D8CFBE614148155"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1451,7 +3630,8 @@
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
+			shape: "rsquare"
+			size: 1.1d
 			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4D8CFBE614148155.subtitle}"
 			tasks: [{
 				id: "41EA38CE03FF08B5"
@@ -1474,11 +3654,17 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -8.25d
+			title: "{ftbquests.chapter.kilovetomboysr.quest4D8CFBE614148155.title}"
+			x: -4.4d
+			y: 19.25d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest6BCE1CB1C178CC01.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6BCE1CB1C178CC01.description2}"
+			]
+			icon: "brutality:depth_crusher"
 			id: "6BCE1CB1C178CC01"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1486,43 +3672,947 @@
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
+			shape: "rsquare"
+			size: 1.1d
 			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6BCE1CB1C178CC01.subtitle}"
 			tasks: [{
 				id: "5F693974C50E7809"
 				item: "brutality:depth_crusher"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -6.0d
+			title: "{ftbquests.chapter.kilovetomboysr.quest6BCE1CB1C178CC01.title}"
+			x: -6.05d
+			y: 19.25d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
-			id: "2360941E59454374"
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest169DE465DD8A003D.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest169DE465DD8A003D.description2}"
+			]
+			icon: "brutality:biomech_reactor"
+			id: "169DE465DD8A003D"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "76BBE0BBCE7833B8"
+				id: "5607D407382D1063"
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2360941E59454374.subtitle}"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest169DE465DD8A003D.subtitle}"
 			tasks: [{
-				id: "381E795388198D56"
+				id: "32F1D1519705C561"
+				item: "brutality:biomech_reactor"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest169DE465DD8A003D.title}"
+			x: -7.7d
+			y: 19.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest44E71BCEFB587DA7.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest44E71BCEFB587DA7.description2}"
+			]
+			icon: "brutality:vampire_knives"
+			id: "44E71BCEFB587DA7"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest44E71BCEFB587DA7.subtitle}"
+			tasks: [{
+				id: "53D4F7A12915378B"
+				item: "brutality:vampire_knives"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest44E71BCEFB587DA7.title}"
+			x: -9.35d
+			y: 19.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest18611210D8CAD841.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest18611210D8CAD841.description2}"
+			]
+			icon: "brutality:photon"
+			id: "18611210D8CAD841"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest18611210D8CAD841.subtitle}"
+			tasks: [{
+				id: "70D77516AE3195E4"
 				item: {
 					Count: 1
-					id: "brutality:shadowstep"
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:photon"
+							}
+							{
+								Count: 1b
+								id: "brutality:pouch_o_photons"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest18611210D8CAD841.task.8131096392512935396.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest18611210D8CAD841.title}"
+			x: -11.0d
+			y: 19.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest24212F2A09853A1D.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest24212F2A09853A1D.description2}"
+			]
+			icon: "brutality:deck_of_fate"
+			id: "24212F2A09853A1D"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest24212F2A09853A1D.subtitle}"
+			tasks: [{
+				id: "642B851148FD5513"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:deck_of_fate"
+							}
+							{
+								Count: 1b
+								id: "brutality:deck_of_cards"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest24212F2A09853A1D.task.7218009137076851987.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest24212F2A09853A1D.title}"
+			x: -12.65d
+			y: 19.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest476ACB28A833DFCD.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest476ACB28A833DFCD.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest476ACB28A833DFCD.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest476ACB28A833DFCD.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest476ACB28A833DFCD.description5}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest476ACB28A833DFCD.description6}"
+			]
+			icon: "brutality:dynamite"
+			id: "476ACB28A833DFCD"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest476ACB28A833DFCD.subtitle}"
+			tasks: [{
+				id: "10E187ED2356CB8B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:dynamite"
+							}
+							{
+								Count: 1b
+								id: "brutality:sticky_dynamite"
+							}
+							{
+								Count: 1b
+								id: "brutality:bouncy_dynamite"
+							}
+							{
+								Count: 1b
+								id: "brutality:sticky_bomb"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest476ACB28A833DFCD.task.1216402826936634251.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest476ACB28A833DFCD.title}"
+			x: 2.75d
+			y: 19.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest77B95454F76F4A21.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest77B95454F76F4A21.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest77B95454F76F4A21.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest77B95454F76F4A21.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest77B95454F76F4A21.description5}"
+			]
+			icon: "brutality:holy_hand_grenade"
+			id: "77B95454F76F4A21"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest77B95454F76F4A21.subtitle}"
+			tasks: [{
+				id: "3CE86EFA2DD8E6E5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:holy_hand_grenade"
+							}
+							{
+								Count: 1b
+								id: "brutality:sculk_grenade"
+							}
+							{
+								Count: 1b
+								id: "brutality:blast_barrel"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest77B95454F76F4A21.task.4388879857662617317.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest77B95454F76F4A21.title}"
+			x: 4.4d
+			y: 19.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest2ED6210644B80E5E.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest2ED6210644B80E5E.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest2ED6210644B80E5E.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest2ED6210644B80E5E.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest2ED6210644B80E5E.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest2ED6210644B80E5E.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest2ED6210644B80E5E.description7}"
+			]
+			icon: "brutality:absolute_zero"
+			id: "2ED6210644B80E5E"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2ED6210644B80E5E.subtitle}"
+			tasks: [{
+				id: "40862CAD02B3C25C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:absolute_zero"
+							}
+							{
+								Count: 1b
+								id: "brutality:permafrost_cube"
+							}
+							{
+								Count: 1b
+								id: "brutality:ice_cube"
+							}
+							{
+								Count: 1b
+								id: "brutality:winter_melon"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest2ED6210644B80E5E.task.4649452786892915292.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest2ED6210644B80E5E.title}"
+			x: 6.05d
+			y: 19.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest513E63CF2538B540.description1}"
+				"{ftbquests.chapter.kilovetomboysr.quest513E63CF2538B540.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest513E63CF2538B540.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest513E63CF2538B540.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest513E63CF2538B540.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest513E63CF2538B540.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest513E63CF2538B540.description7}"
+			]
+			icon: "brutality:cavendish"
+			id: "513E63CF2538B540"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest513E63CF2538B540.subtitle}"
+			tasks: [{
+				id: "40C73ECFA25C5CB8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:cavendish"
+							}
+							{
+								Count: 1b
+								id: "brutality:stick_of_butter"
+							}
+							{
+								Count: 1b
+								id: "brutality:cannonball_cabbage"
+							}
+							{
+								Count: 1b
+								id: "brutality:beach_ball"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest513E63CF2538B540.task.4667768600295922872.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest513E63CF2538B540.title}"
+			x: 7.7d
+			y: 19.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest51E6489E77C37D5D.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest51E6489E77C37D5D.description2}"
+			]
+			icon: "brutality:overclocked_toaster"
+			id: "51E6489E77C37D5D"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest51E6489E77C37D5D.subtitle}"
+			tasks: [{
+				id: "5E12AA8B72CA9324"
+				item: "brutality:overclocked_toaster"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest51E6489E77C37D5D.title}"
+			x: 9.35d
+			y: 19.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest320CC106D0E8711F.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest320CC106D0E8711F.description2}"
+			]
+			icon: "brutality:perfume_bottle"
+			id: "320CC106D0E8711F"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest320CC106D0E8711F.subtitle}"
+			tasks: [{
+				id: "2D5919BE37867585"
+				item: "brutality:perfume_bottle"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest320CC106D0E8711F.title}"
+			x: 11.0d
+			y: 19.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest6E7693BB1C2F445E.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6E7693BB1C2F445E.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest6E7693BB1C2F445E.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:double_down"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E7693BB1C2F445E"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest6E7693BB1C2F445E.subtitle}"
+			tasks: [{
+				id: "46639A90609A8A6E"
+				item: {
+					Count: 1
+					id: "brutality:double_down"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -12.75d
-			y: -6.0d
+			title: "{ftbquests.chapter.kilovetomboysr.quest6E7693BB1C2F445E.title}"
+			x: 12.65d
+			y: 19.25d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest5DA1CB6EB8EE1663.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest5DA1CB6EB8EE1663.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:wire_cutters"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DA1CB6EB8EE1663"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5DA1CB6EB8EE1663.subtitle}"
+			tasks: [{
+				id: "79748F36AE7DDFAB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:wire_cutters"
+							}
+							{
+								Count: 1b
+								id: "brutality:pencil_sharpener"
+							}
+							{
+								Count: 1b
+								id: "brutality:fire_extinguisher"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest5DA1CB6EB8EE1663.task.8751777440906207147.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest5DA1CB6EB8EE1663.title}"
+			x: 14.3d
+			y: 19.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest39813D8F3C1091DE.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest39813D8F3C1091DE.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:soldiers_syringe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "39813D8F3C1091DE"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest39813D8F3C1091DE.subtitle}"
+			tasks: [{
+				id: "5F2C980829D5208F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "brutality:vindicator_steroids"
+							}
+							{
+								Count: 1b
+								id: "brutality:soldiers_syringe"
+							}
+							{
+								Count: 1b
+								id: "brutality:hemograft_needle"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.kilovetomboysr.quest39813D8F3C1091DE.task.6858023493407416463.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest39813D8F3C1091DE.title}"
+			x: -15.950000000000001d
+			y: 15.950000000000001d
+		}
+		{
+			dependencies: ["3861CE678A64855A"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest208615C8059F411A.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest208615C8059F411A.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest208615C8059F411A.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "brutality:item/curio/charm/celestial_starboard/celestial_starboard_inventory"
+				}
+			}
+			icon_scale: 0.9d
+			id: "208615C8059F411A"
+			rewards: [
+				{
+					id: "4972EBCBB42DAD2C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26B517A6A8213A51"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest208615C8059F411A.subtitle}"
+			tasks: [{
+				id: "233E5ECADCEFD924"
+				title: "{ftbquests.chapter.kilovetomboysr.quest208615C8059F411A.task.2539571465266649380.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest208615C8059F411A.title}"
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.questE6A8B65275BD791.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.questE6A8B65275BD791.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.questE6A8B65275BD791.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:seventh_star"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E6A8B65275BD791"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AAFA428EE8337B2"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.questE6A8B65275BD791.subtitle}"
+			tasks: [{
+				id: "1F2B3F68CB44BB27"
+				item: {
+					Count: 1
+					id: "brutality:seventh_star"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.questE6A8B65275BD791.title}"
+			x: -1.6500000000000004d
+			y: 24.2d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest2217081F3ABF9265.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest2217081F3ABF9265.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:event_horizon"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2217081F3ABF9265"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76D250EA7F12F504"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2217081F3ABF9265.subtitle}"
+			tasks: [{
+				id: "3C9D37C604132FEE"
+				item: {
+					Count: 1
+					id: "brutality:event_horizon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest2217081F3ABF9265.title}"
+			x: -2.75d
+			y: 24.2d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest3D0947A8675C23AC.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest3D0947A8675C23AC.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest3D0947A8675C23AC.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:supernova"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3D0947A8675C23AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CD109BE4013CE34"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3D0947A8675C23AC.subtitle}"
+			tasks: [{
+				id: "48E58AB1B9C1CCB4"
+				item: {
+					Count: 1
+					id: "brutality:supernova"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:knockback"
+							lvl: 3s
+						}]
+						GeckoLibID: 2L
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest3D0947A8675C23AC.title}"
+			x: -3.8499999999999996d
+			y: 24.2d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest4BDE4EB2B5AAB121.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4BDE4EB2B5AAB121.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4BDE4EB2B5AAB121.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:crease_of_creation"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4BDE4EB2B5AAB121"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13760CA462DB6417"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4BDE4EB2B5AAB121.subtitle}"
+			tasks: [{
+				id: "589EB0D6ECB7C1D4"
+				item: {
+					Count: 1
+					id: "brutality:crease_of_creation"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:knockback"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest4BDE4EB2B5AAB121.title}"
+			x: -4.95d
+			y: 24.2d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest3C0A7905C44B0EB4.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest3C0A7905C44B0EB4.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest3C0A7905C44B0EB4.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:atomic_judgement"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C0A7905C44B0EB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B3520C9165A9FB9"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3C0A7905C44B0EB4.subtitle}"
+			tasks: [{
+				id: "263BA566C799881C"
+				item: {
+					Count: 1
+					id: "brutality:atomic_judgement"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest3C0A7905C44B0EB4.title}"
+			x: -6.05d
+			y: 24.2d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest5A3E73D9AC07B01E.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest5A3E73D9AC07B01E.description2}"
+			]
+			icon: "brutality:last_prism"
+			id: "5A3E73D9AC07B01E"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5A3E73D9AC07B01E.subtitle}"
+			tasks: [{
+				id: "59BC28788331EB13"
+				item: "brutality:last_prism"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest5A3E73D9AC07B01E.title}"
+			x: -7.15d
+			y: 24.2d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest4E727B287FE8701B.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4E727B287FE8701B.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:rhongomyniad"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E727B287FE8701B"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4E727B287FE8701B.subtitle}"
+			tasks: [{
+				id: "368314E33DCBE0B0"
+				item: {
+					Count: 1
+					id: "brutality:rhongomyniad"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest4E727B287FE8701B.title}"
+			x: -8.25d
+			y: 24.2d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest3883D201CFDBB837.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest3883D201CFDBB837.description2}"
+			]
+			icon: "brutality:golden_phoenix"
+			id: "3883D201CFDBB837"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest3883D201CFDBB837.subtitle}"
+			tasks: [{
+				id: "7CB886AC456D680F"
+				item: "brutality:golden_phoenix"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest3883D201CFDBB837.title}"
+			x: -14.3d
+			y: 19.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest7A149B26A765873D.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest7A149B26A765873D.description2}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest7A149B26A765873D.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:jackpot"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A149B26A765873D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AFC03B5C16B54F2"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest7A149B26A765873D.subtitle}"
+			tasks: [{
+				id: "63931E4E9FF83C77"
+				item: {
+					Count: 1
+					id: "brutality:jackpot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest7A149B26A765873D.title}"
+			x: -0.5499999999999998d
+			y: 24.2d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest4F7F77866139D3EB.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest4F7F77866139D3EB.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:old_gpu"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4F7F77866139D3EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18004C27FC782805"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest4F7F77866139D3EB.subtitle}"
+			tasks: [{
+				id: "799CDBA966A615E2"
+				item: {
+					Count: 1
+					id: "brutality:old_gpu"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest4F7F77866139D3EB.title}"
+			x: 0.5500000000000007d
+			y: 24.2d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest5200FF3FD8E93CA0.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest5200FF3FD8E93CA0.description2}"
+				"{ftbquests.chapter.kilovetomboysr.quest5200FF3FD8E93CA0.description3}"
+				"{ftbquests.chapter.kilovetomboysr.quest5200FF3FD8E93CA0.description4}"
+				"{ftbquests.chapter.kilovetomboysr.quest5200FF3FD8E93CA0.description5}"
+				"{ftbquests.chapter.kilovetomboysr.quest5200FF3FD8E93CA0.description6}"
+				"{ftbquests.chapter.kilovetomboysr.quest5200FF3FD8E93CA0.description7}"
+				"{ftbquests.chapter.kilovetomboysr.quest5200FF3FD8E93CA0.description8}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest5200FF3FD8E93CA0.description9}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:dull_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5200FF3FD8E93CA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F6482845C850488"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest5200FF3FD8E93CA0.subtitle}"
+			tasks: [{
+				id: "413093382BA7F710"
+				item: {
+					Count: 1
+					id: "brutality:dull_knife"
+					tag: {
+						Damage: 0
+						texture: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest5200FF3FD8E93CA0.title}"
+			x: 1.6500000000000004d
+			y: 24.2d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest82D924DE701D033.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest82D924DE701D033.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:wooden_ruler"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "082D924DE701D033"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1530,7 +4620,9 @@
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest82D924DE701D033.subtitle}"
 			tasks: [{
 				id: "3B30217A2D2AD04E"
 				item: {
@@ -1542,11 +4634,23 @@
 				}
 				type: "item"
 			}]
-			x: 0.75d
-			y: -1.5d
+			title: "{ftbquests.chapter.kilovetomboysr.quest82D924DE701D033.title}"
+			x: 2.75d
+			y: 24.2d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest43347BF37E5531A6.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest43347BF37E5531A6.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:metal_ruler"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "43347BF37E5531A6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1554,7 +4658,9 @@
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest43347BF37E5531A6.subtitle}"
 			tasks: [{
 				id: "2D48899D72264E7B"
 				item: {
@@ -1570,44 +4676,61 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			title: "{ftbquests.chapter.kilovetomboysr.quest43347BF37E5531A6.title}"
+			x: 3.8499999999999996d
+			y: 24.2d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest367262EC3D2FB8A5.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest367262EC3D2FB8A5.description2}"
+			]
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				id: "brutality:paper_cut"
 				tag: {
-					Icon: "brutality:item/sword/meloncholy/meloncholy_handheld"
+					Damage: 0
 				}
 			}
-			icon_scale: 2.0d
-			id: "2595B836FB1A2EE6"
+			id: "367262EC3D2FB8A5"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4515409E92596FD0"
+				id: "09D232EE42ED29F5"
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2595B836FB1A2EE6.subtitle}"
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest367262EC3D2FB8A5.subtitle}"
 			tasks: [{
-				id: "1B62422A6BF88889"
+				id: "4F39B77DB2CD577E"
 				item: {
 					Count: 1
-					id: "brutality:meloncholy"
+					id: "brutality:paper_cut"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -8.25d
-			y: -8.25d
+			title: "{ftbquests.chapter.kilovetomboysr.quest367262EC3D2FB8A5.title}"
+			x: 4.949999999999999d
+			y: 24.2d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest772DBF3AB29C360B.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest772DBF3AB29C360B.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:apple_core"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "772DBF3AB29C360B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1615,7 +4738,8 @@
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
+			shape: "square"
+			size: 1.1d
 			subtitle: "{ftbquests.chapter.kilovetomboysr.quest772DBF3AB29C360B.subtitle}"
 			tasks: [{
 				id: "30DD988D3CAF2B3C"
@@ -1628,11 +4752,61 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: -8.25d
+			title: "{ftbquests.chapter.kilovetomboysr.quest772DBF3AB29C360B.title}"
+			x: 6.050000000000001d
+			y: 24.2d
 		}
 		{
-			dependencies: ["2B69C369F7D0B25C"]
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest2595B836FB1A2EE6.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest2595B836FB1A2EE6.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:meloncholy"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2595B836FB1A2EE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4515409E92596FD0"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2595B836FB1A2EE6.subtitle}"
+			tasks: [{
+				id: "1B62422A6BF88889"
+				item: {
+					Count: 1
+					id: "brutality:meloncholy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.kilovetomboysr.quest2595B836FB1A2EE6.title}"
+			x: 7.15d
+			y: 24.2d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.kilovetomboysr.quest527B87442915A41.description1}"
+				""
+				"{ftbquests.chapter.kilovetomboysr.quest527B87442915A41.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "brutality:chopstick"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0527B87442915A41"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1640,7 +4814,8 @@
 				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			size: 1.5d
+			shape: "square"
+			size: 1.1d
 			subtitle: "{ftbquests.chapter.kilovetomboysr.quest527B87442915A41.subtitle}"
 			tasks: [{
 				id: "77AD4BF2449C93D2"
@@ -1653,51 +4828,9 @@
 				}
 				type: "item"
 			}]
-			x: 0.75d
-			y: -8.25d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			id: "2F516986EF0C5AED"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1A0CA4D91DABC70E"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.kilovetomboysr.quest2F516986EF0C5AED.subtitle}"
-			tasks: [{
-				id: "307C2F0370997E6A"
-				item: {
-					Count: 1
-					id: "brutality:bamboo_staff"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -8.25d
-			y: -6.0d
-		}
-		{
-			dependencies: ["2B69C369F7D0B25C"]
-			id: "169DE465DD8A003D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5607D407382D1063"
-				table_id: 1534136396462519031L
-				type: "random"
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "32F1D1519705C561"
-				item: "brutality:biomech_reactor"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.5d
+			title: "{ftbquests.chapter.kilovetomboysr.quest527B87442915A41.title}"
+			x: 8.25d
+			y: 24.2d
 		}
 	]
 	title: "{ftbquests.chapter.kilovetomboysr.title}"

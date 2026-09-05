@@ -1,0 +1,638 @@
+{
+	autofocus_id: "22176FD50BF22849"
+	default_hide_dependency_lines: false
+	default_min_width: 330
+	default_quest_shape: "square"
+	filename: "enigmatic_charms"
+	group: "0361FC25A57730F8"
+	icon: "enigmaticlegacy:mining_charm"
+	id: "1758E7C06345B6C3"
+	images: [
+		{
+			alpha: 60
+			height: 1.7d
+			image: "enigmaticlegacy:item/mining_charm"
+			rotation: -14.0d
+			width: 1.7d
+			x: -7.2d
+			y: 0.6d
+		}
+		{
+			alpha: 60
+			height: 1.7d
+			image: "enigmaticlegacy:item/ascension_amulet"
+			rotation: 14.0d
+			width: 1.7d
+			x: 7.2d
+			y: 0.6d
+		}
+		{
+			alpha: 50
+			height: 1.5d
+			image: "enigmaticlegacy:item/enigmatic_eye"
+			rotation: 32.0d
+			width: 1.5d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.enigmatic_charms.image.hovertext1"
+				"ftbquests.chapter.enigmatic_charms.image.hovertext2"
+				"ftbquests.chapter.enigmatic_charms.image.hovertext3"
+				"ftbquests.chapter.enigmatic_charms.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			height: 2.0d
+			image: "enigmaticdelicacy:item/weapon_charm"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 10
+	parent: "31575DEBB2A21CCD"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.description3}"
+				"{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.description4}"
+				"{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.description5}"
+				"{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.description6}"
+				"{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.description7}"
+				"{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.description8}"
+				"{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.description9}"
+				"{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.description10}"
+				"{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.description11}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.description12}"
+			]
+			icon: "enigmaticlegacy:ichor_bottle"
+			id: "22176FD50BF22849"
+			min_width: 350
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.subtitle}"
+			tasks: [{
+				id: "579EC01A5E09D3BB"
+				title: "{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.task.6313694947099399099.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest22176FD50BF22849.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.questE690A6DB91DBCAE.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.questE690A6DB91DBCAE.description2}"
+				"{ftbquests.chapter.enigmatic_charms.questE690A6DB91DBCAE.description3}"
+				"{ftbquests.chapter.enigmatic_charms.questE690A6DB91DBCAE.description4}"
+				"{ftbquests.chapter.enigmatic_charms.questE690A6DB91DBCAE.description5}"
+				"{ftbquests.chapter.enigmatic_charms.questE690A6DB91DBCAE.description6}"
+				"{ftbquests.chapter.enigmatic_charms.questE690A6DB91DBCAE.description7}"
+				"{ftbquests.chapter.enigmatic_charms.questE690A6DB91DBCAE.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.questE690A6DB91DBCAE.description9}"
+			]
+			id: "0E690A6DB91DBCAE"
+			min_width: 340
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.enigmatic_charms.questE690A6DB91DBCAE.subtitle}"
+			tasks: [{
+				id: "241FD3CA5F660E75"
+				item: "enigmaticlegacy:mining_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.questE690A6DB91DBCAE.title}"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest28656E06CF9CD32D.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest28656E06CF9CD32D.description2}"
+				"{ftbquests.chapter.enigmatic_charms.quest28656E06CF9CD32D.description3}"
+				"{ftbquests.chapter.enigmatic_charms.quest28656E06CF9CD32D.description4}"
+				"{ftbquests.chapter.enigmatic_charms.quest28656E06CF9CD32D.description5}"
+				"{ftbquests.chapter.enigmatic_charms.quest28656E06CF9CD32D.description6}"
+				"{ftbquests.chapter.enigmatic_charms.quest28656E06CF9CD32D.description7}"
+				"{ftbquests.chapter.enigmatic_charms.quest28656E06CF9CD32D.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest28656E06CF9CD32D.description9}"
+			]
+			id: "28656E06CF9CD32D"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest28656E06CF9CD32D.subtitle}"
+			tasks: [{
+				id: "0C91074AE05431E2"
+				item: "enigmaticlegacy:monster_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest28656E06CF9CD32D.title}"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest5E6801D7411BBA66.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest5E6801D7411BBA66.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest5E6801D7411BBA66.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest5E6801D7411BBA66.description4}"
+			]
+			id: "5E6801D7411BBA66"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest5E6801D7411BBA66.subtitle}"
+			tasks: [{
+				id: "1E3385FAFF0EA81D"
+				item: "enigmaticlegacy:insignia"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest5E6801D7411BBA66.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest549B3129B6BEB358.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest549B3129B6BEB358.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest549B3129B6BEB358.description3}"
+			]
+			id: "549B3129B6BEB358"
+			min_width: 330
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest549B3129B6BEB358.subtitle}"
+			tasks: [{
+				id: "1C8ABE53113916BA"
+				item: "enigmaticlegacy:ascension_amulet"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest549B3129B6BEB358.title}"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest60AFE6322CC55E93.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest60AFE6322CC55E93.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest60AFE6322CC55E93.description3}"
+				"{ftbquests.chapter.enigmatic_charms.quest60AFE6322CC55E93.description4}"
+				"{ftbquests.chapter.enigmatic_charms.quest60AFE6322CC55E93.description5}"
+				"{ftbquests.chapter.enigmatic_charms.quest60AFE6322CC55E93.description6}"
+				"{ftbquests.chapter.enigmatic_charms.quest60AFE6322CC55E93.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest60AFE6322CC55E93.description8}"
+			]
+			id: "60AFE6322CC55E93"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest60AFE6322CC55E93.subtitle}"
+			tasks: [{
+				id: "5C0DC10D856D7A5B"
+				item: "enigmaticlegacy:eldritch_amulet"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest60AFE6322CC55E93.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest2DC1C0FAAB255199.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest2DC1C0FAAB255199.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest2DC1C0FAAB255199.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest2DC1C0FAAB255199.description4}"
+			]
+			id: "2DC1C0FAAB255199"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest2DC1C0FAAB255199.subtitle}"
+			tasks: [{
+				id: "1A72E8AE53590AC0"
+				item: "enigmaticlegacy:enigmatic_eye"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest2DC1C0FAAB255199.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest20987CA8244275BB.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest20987CA8244275BB.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest20987CA8244275BB.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest20987CA8244275BB.description4}"
+			]
+			id: "20987CA8244275BB"
+			min_width: 320
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest20987CA8244275BB.subtitle}"
+			tasks: [{
+				id: "7954E0CC03D03F35"
+				item: "enigmaticlegacy:mega_sponge"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest20987CA8244275BB.title}"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest9B6409CDDE2D0A9.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest9B6409CDDE2D0A9.description2}"
+				"{ftbquests.chapter.enigmatic_charms.quest9B6409CDDE2D0A9.description3}"
+				"{ftbquests.chapter.enigmatic_charms.quest9B6409CDDE2D0A9.description4}"
+				"{ftbquests.chapter.enigmatic_charms.quest9B6409CDDE2D0A9.description5}"
+				"{ftbquests.chapter.enigmatic_charms.quest9B6409CDDE2D0A9.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest9B6409CDDE2D0A9.description7}"
+			]
+			id: "09B6409CDDE2D0A9"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest9B6409CDDE2D0A9.subtitle}"
+			tasks: [{
+				id: "0AFC17EEA388115C"
+				item: "enigmaticaddons:forger_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest9B6409CDDE2D0A9.title}"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest3FC095DD75A58A36.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest3FC095DD75A58A36.description2}"
+				"{ftbquests.chapter.enigmatic_charms.quest3FC095DD75A58A36.description3}"
+				"{ftbquests.chapter.enigmatic_charms.quest3FC095DD75A58A36.description4}"
+				"{ftbquests.chapter.enigmatic_charms.quest3FC095DD75A58A36.description5}"
+				"{ftbquests.chapter.enigmatic_charms.quest3FC095DD75A58A36.description6}"
+				"{ftbquests.chapter.enigmatic_charms.quest3FC095DD75A58A36.description7}"
+				"{ftbquests.chapter.enigmatic_charms.quest3FC095DD75A58A36.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest3FC095DD75A58A36.description9}"
+			]
+			id: "3FC095DD75A58A36"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest3FC095DD75A58A36.subtitle}"
+			tasks: [{
+				id: "3E711D7F0DF311D1"
+				item: "enigmaticaddons:scorched_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest3FC095DD75A58A36.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.description3}"
+				"{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.description4}"
+				"{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.description5}"
+				"{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.description6}"
+				"{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.description7}"
+				"{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.description8}"
+				"{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.description10}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.description11}"
+			]
+			id: "5EDC5F0D31FEF4F7"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.subtitle}"
+			tasks: [{
+				id: "76A5A4D0E671C5BB"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest5EDC5F0D31FEF4F7.title}"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest35B03131AB84BE21.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest35B03131AB84BE21.description2}"
+				"{ftbquests.chapter.enigmatic_charms.quest35B03131AB84BE21.description3}"
+				"{ftbquests.chapter.enigmatic_charms.quest35B03131AB84BE21.description4}"
+				"{ftbquests.chapter.enigmatic_charms.quest35B03131AB84BE21.description5}"
+				"{ftbquests.chapter.enigmatic_charms.quest35B03131AB84BE21.description6}"
+				"{ftbquests.chapter.enigmatic_charms.quest35B03131AB84BE21.description7}"
+				"{ftbquests.chapter.enigmatic_charms.quest35B03131AB84BE21.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest35B03131AB84BE21.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest35B03131AB84BE21.description10}"
+			]
+			id: "35B03131AB84BE21"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest35B03131AB84BE21.subtitle}"
+			tasks: [{
+				id: "086ADAA9104B4632"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest35B03131AB84BE21.title}"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest55C3757651948AA9.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest55C3757651948AA9.description2}"
+				"{ftbquests.chapter.enigmatic_charms.quest55C3757651948AA9.description3}"
+				"{ftbquests.chapter.enigmatic_charms.quest55C3757651948AA9.description4}"
+				"{ftbquests.chapter.enigmatic_charms.quest55C3757651948AA9.description5}"
+				"{ftbquests.chapter.enigmatic_charms.quest55C3757651948AA9.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest55C3757651948AA9.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest55C3757651948AA9.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest55C3757651948AA9.description9}"
+			]
+			id: "55C3757651948AA9"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest55C3757651948AA9.subtitle}"
+			tasks: [{
+				id: "6B859FE33372E1B2"
+				item: "enigmaticaddons:hell_blade_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest55C3757651948AA9.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest2ECAD815BA02DFED.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest2ECAD815BA02DFED.description2}"
+				"{ftbquests.chapter.enigmatic_charms.quest2ECAD815BA02DFED.description3}"
+				"{ftbquests.chapter.enigmatic_charms.quest2ECAD815BA02DFED.description4}"
+				"{ftbquests.chapter.enigmatic_charms.quest2ECAD815BA02DFED.description5}"
+				"{ftbquests.chapter.enigmatic_charms.quest2ECAD815BA02DFED.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest2ECAD815BA02DFED.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest2ECAD815BA02DFED.description8}"
+			]
+			id: "2ECAD815BA02DFED"
+			min_width: 330
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest2ECAD815BA02DFED.subtitle}"
+			tasks: [{
+				id: "3D564ED21FE7B295"
+				item: "enigmaticaddons:despair_insignia"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest2ECAD815BA02DFED.title}"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest53FB9A5028747487.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest53FB9A5028747487.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest53FB9A5028747487.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest53FB9A5028747487.description4}"
+			]
+			id: "53FB9A5028747487"
+			min_width: 330
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest53FB9A5028747487.subtitle}"
+			tasks: [{
+				id: "1478A76EB5590A4E"
+				item: "enigmaticaddons:adventure_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest53FB9A5028747487.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest4BB2F03BDCD9473D.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest4BB2F03BDCD9473D.description2}"
+				"{ftbquests.chapter.enigmatic_charms.quest4BB2F03BDCD9473D.description3}"
+				"{ftbquests.chapter.enigmatic_charms.quest4BB2F03BDCD9473D.description4}"
+				"{ftbquests.chapter.enigmatic_charms.quest4BB2F03BDCD9473D.description5}"
+				"{ftbquests.chapter.enigmatic_charms.quest4BB2F03BDCD9473D.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest4BB2F03BDCD9473D.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest4BB2F03BDCD9473D.description8}"
+			]
+			id: "4BB2F03BDCD9473D"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest4BB2F03BDCD9473D.subtitle}"
+			tasks: [{
+				id: "4F7EDFF21F7A6ACC"
+				item: "enigmaticaddons:totem_of_malice"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest4BB2F03BDCD9473D.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest4AA80B5D36C6E15B.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest4AA80B5D36C6E15B.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest4AA80B5D36C6E15B.description3}"
+			]
+			id: "4AA80B5D36C6E15B"
+			min_width: 330
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest4AA80B5D36C6E15B.subtitle}"
+			tasks: [{
+				id: "46EA47B8333E2504"
+				item: "enigmaticlegacy:unwitnessed_amulet"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest4AA80B5D36C6E15B.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest4CDE25E68780985F.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest4CDE25E68780985F.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest4CDE25E68780985F.description3}"
+				"{ftbquests.chapter.enigmatic_charms.quest4CDE25E68780985F.description4}"
+				"{ftbquests.chapter.enigmatic_charms.quest4CDE25E68780985F.description5}"
+				"{ftbquests.chapter.enigmatic_charms.quest4CDE25E68780985F.description6}"
+				"{ftbquests.chapter.enigmatic_charms.quest4CDE25E68780985F.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest4CDE25E68780985F.description8}"
+			]
+			id: "4CDE25E68780985F"
+			min_width: 340
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest4CDE25E68780985F.subtitle}"
+			tasks: [{
+				id: "695B744B4680D5BD"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:deception_amulet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest4CDE25E68780985F.title}"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest79114D02A5F4E201.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest79114D02A5F4E201.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest79114D02A5F4E201.description3}"
+			]
+			id: "79114D02A5F4E201"
+			min_width: 320
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest79114D02A5F4E201.subtitle}"
+			tasks: [{
+				id: "13C4598557065C32"
+				item: "enigmaticdelicacy:weapon_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest79114D02A5F4E201.title}"
+			x: -2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest2475C1717B75E13.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest2475C1717B75E13.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest2475C1717B75E13.description3}"
+			]
+			id: "02475C1717B75E13"
+			min_width: 320
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest2475C1717B75E13.subtitle}"
+			tasks: [{
+				id: "3E8CCD76801B754D"
+				item: "enigmaticdelicacy:hungry_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest2475C1717B75E13.title}"
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest387478A42BF43567.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest387478A42BF43567.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest387478A42BF43567.description3}"
+			]
+			id: "387478A42BF43567"
+			min_width: 320
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest387478A42BF43567.subtitle}"
+			tasks: [{
+				id: "4CDE5B168E3C2CCF"
+				item: "enigmaticdelicacy:gluttony_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest387478A42BF43567.title}"
+			x: 0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22176FD50BF22849"]
+			description: [
+				"{ftbquests.chapter.enigmatic_charms.quest5118A09EF5074B8A.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest5118A09EF5074B8A.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_charms.quest5118A09EF5074B8A.description3}"
+			]
+			id: "5118A09EF5074B8A"
+			min_width: 320
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_charms.quest5118A09EF5074B8A.subtitle}"
+			tasks: [{
+				id: "3CA8B272CFB1018A"
+				item: "enigmaticdelicacy:curse_crystal_pendant"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_charms.quest5118A09EF5074B8A.title}"
+			x: 2.25d
+			y: 4.5d
+		}
+	]
+	title: "{ftbquests.chapter.enigmatic_charms.title}"
+}

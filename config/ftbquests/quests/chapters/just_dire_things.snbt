@@ -1,29 +1,3610 @@
 {
-	always_invisible: true
 	autofocus_id: "4291392EA42254CB"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_min_width: 320
+	default_quest_shape: "square"
 	filename: "just_dire_things"
-	group: "32971C057A9888A1"
+	group: "336B0783FD524DD2"
 	icon: "justdirethings:gooblock_tier3"
 	id: "66A81A94AEC96787"
-	order_index: 1
+	images: [
+		{
+			height: 2.9d
+			image: "customtextures:textures/just_dire_things_title.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			alpha: 55
+			height: 1.8d
+			image: "justdirethings:item/ferricore_ingot"
+			order: -1
+			rotation: -20.0d
+			width: 1.8d
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			alpha: 55
+			height: 1.8d
+			image: "justdirethings:item/blazegold_ingot"
+			order: -1
+			rotation: 20.0d
+			width: 1.8d
+			x: 5.5d
+			y: 13.5d
+		}
+		{
+			alpha: 50
+			height: 1.8d
+			image: "justdirethings:item/celestigem"
+			order: -1
+			rotation: -16.0d
+			width: 1.8d
+			x: -5.5d
+			y: 22.5d
+		}
+		{
+			alpha: 50
+			height: 1.8d
+			image: "justdirethings:item/eclipsealloy_ingot"
+			order: -1
+			rotation: 16.0d
+			width: 1.8d
+			x: 5.5d
+			y: 31.5d
+		}
+		{
+			alpha: 45
+			height: 2.0d
+			image: "justdirethings:item/time_wand"
+			order: -1
+			rotation: -12.0d
+			width: 2.0d
+			x: -5.0d
+			y: 39.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.just_dire_things.image.hovertext1"
+				"ftbquests.chapter.just_dire_things.image.hovertext2"
+				"ftbquests.chapter.just_dire_things.image.hovertext3"
+				"ftbquests.chapter.just_dire_things.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+	order_index: 8
 	quest_links: [ ]
-	quests: [{
-		id: "4291392EA42254CB"
-		tasks: [{
-			id: "0DFF9C016E889D00"
-			item: {
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description4}"
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description5}"
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description8}"
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description9}"
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description10}"
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description11}"
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description12}"
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description13}"
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description14}"
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description15}"
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description16}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description17}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description18}"
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description19}"
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description20}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.description21}"
+			]
+			icon: "justdirethings:gooblock_tier3"
+			icon_scale: 1.2d
+			id: "4291392EA42254CB"
+			min_width: 340
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.subtitle}"
+			tasks: [
+				{
+					id: "0DFF9C016E889D00"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "justdirethings:justdirethingsbook"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6285895B303497B9"
+					title: "{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.task.7099231412363237305.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.just_dire_things.quest4291392EA42254CB.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4291392EA42254CB"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description2}"
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description3}"
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description4}"
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description5}"
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description8}"
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description9}"
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description12}"
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description13}"
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description14}"
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description15}"
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description16}"
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description17}"
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description18}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.description19}"
+			]
+			icon: "justdirethings:gooblock_tier1"
+			id: "4B9616ECBF32D941"
+			min_width: 330
+			optional: true
+			rewards: [{
+				id: "610899089DE37EC3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.subtitle}"
+			tasks: [{
+				id: "4A4DFA25BD09029B"
+				title: "{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.task.5354210572005606043.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest4B9616ECBF32D941.title}"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4291392EA42254CB"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description3}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description4}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description7}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description8}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description9}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description10}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description11}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description12}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description13}"
+				""
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description15}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description16}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description17}"
+				""
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description18}"
+				""
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description19}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description20}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description21}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description22}"
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description23}"
+				""
+				"{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.description24}"
+			]
+			icon: "justdirethings:upgrade_flight"
+			id: "0B44DCEA89D75E6E"
+			min_width: 330
+			optional: true
+			rewards: [{
+				id: "6ECF8A1937AE28B0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.subtitle}"
+			tasks: [{
+				id: "39966A0B8763259C"
+				title: "{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.task.4149620704417097116.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.questB44DCEA89D75E6E.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4291392EA42254CB"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description4}"
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description5}"
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description8}"
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description9}"
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description12}"
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description13}"
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.questEA1353D79064115.description15}"
+			]
+			icon: "justdirethings:gooblock_tier1"
+			id: "0EA1353D79064115"
+			min_width: 330
+			rewards: [
+				{
+					id: "3DBFA1DFE4147FB2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "720E544F78451143"
+					table_id: 4067690183644308744L
+					type: "random"
+				}
+			]
+			shape: "star"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.just_dire_things.questEA1353D79064115.subtitle}"
+			tasks: [{
+				id: "35AF4D570BBE8A2B"
+				item: "justdirethings:gooblock_tier1"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.questEA1353D79064115.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0EA1353D79064115"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description2}"
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description3}"
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description6}"
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description7}"
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description8}"
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description9}"
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description10}"
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description11}"
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description13}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.description14}"
+			]
+			icon: "minecraft:sugar"
+			id: "79FEE284D9109F3E"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "15440DF31CF9A439"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.subtitle}"
+			tasks: [{
+				id: "43A126179786F481"
+				title: "{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.task.4873218154559894657.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest79FEE284D9109F3E.title}"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0EA1353D79064115"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description3}"
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description4}"
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description7}"
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description8}"
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description9}"
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description10}"
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description11}"
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description12}"
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description13}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.description15}"
+			]
+			icon: "justdirethings:coal_t1"
+			id: "357F3BEC94B9261F"
+			min_width: 320
+			rewards: [{
+				id: "34D18AFC62B57A1A"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.subtitle}"
+			tasks: [{
+				id: "080B6EA48B1BA475"
+				item: "justdirethings:coal_t1"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest357F3BEC94B9261F.title}"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0EA1353D79064115"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest110C73B6109A3466.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest110C73B6109A3466.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest110C73B6109A3466.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest110C73B6109A3466.description4}"
+			]
+			icon: "justdirethings:raw_ferricore_ore"
+			id: "110C73B6109A3466"
+			min_width: 310
+			rewards: [{
+				id: "7627D89B6CDF6ED4"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest110C73B6109A3466.subtitle}"
+			tasks: [{
+				icon: "justdirethings:raw_ferricore_ore"
+				id: "181ABF413003CB09"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.just_dire_things.quest110C73B6109A3466.task.1736910893004081929.title}"
+				to_observe: "justdirethings:raw_ferricore_ore"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest110C73B6109A3466.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["110C73B6109A3466"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description3}"
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description4}"
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description7}"
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description8}"
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description9}"
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description10}"
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description13}"
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description14}"
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description15}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.description16}"
+			]
+			icon: "justdirethings:ferricore_ingot"
+			id: "3C09296DEE9D1D7F"
+			min_width: 330
+			rewards: [
+				{
+					id: "77955947382E809B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1712EAD34A1BA4D5"
+					table_id: 4067690183644308744L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "0BC40BDD5CCFCF02"
+				item: { Count: 8, id: "justdirethings:ferricore_ingot" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest3C09296DEE9D1D7F.title}"
+			x: 0.0d
+			y: 6.500000000000001d
+		}
+		{
+			dependencies: ["3C09296DEE9D1D7F"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description2}"
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description3}"
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description6}"
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description7}"
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description8}"
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description9}"
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description10}"
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description11}"
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description12}"
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description13}"
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description15}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.description16}"
+			]
+			icon: {
 				Count: 1
-				id: "patchouli:guide_book"
+				id: "justdirethings:ferricore_pickaxe"
 				tag: {
-					"patchouli:book": "justdirethings:justdirethingsbook"
+					Damage: 0
 				}
 			}
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+			id: "5C17CF3C62716EF7"
+			min_width: 330
+			rewards: [{
+				id: "531DFC77471AAE45"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.subtitle}"
+			tasks: [{
+				id: "1A51D0CF05E067BB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:ferricore_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:ferricore_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:ferricore_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:ferricore_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:ferricore_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.task.1896526505675089851.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest5C17CF3C62716EF7.title}"
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C09296DEE9D1D7F"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description2}"
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description3}"
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description6}"
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description7}"
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description8}"
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description9}"
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description10}"
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description11}"
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description13}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.description14}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:ferricore_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A1E5AF339A47F27"
+			min_width: 320
+			rewards: [{
+				id: "481EB28A731EDFCB"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.subtitle}"
+			tasks: [{
+				id: "061A3A04C215D403"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:ferricore_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:ferricore_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:ferricore_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:ferricore_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.task.439727705732535299.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest7A1E5AF339A47F27.title}"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C09296DEE9D1D7F"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description2}"
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description3}"
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description6}"
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description7}"
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description8}"
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description9}"
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description10}"
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description11}"
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description13}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.description14}"
+			]
+			icon: "justdirethings:upgrade_blank"
+			id: "69F748CBC42D721D"
+			min_width: 330
+			rewards: [{
+				id: "2C4362A979F26241"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			size: 1.15d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.subtitle}"
+			tasks: [{
+				id: "74EED5FE4DBD36AC"
+				item: "justdirethings:upgrade_blank"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest69F748CBC42D721D.title}"
+			x: 0.0d
+			y: 8.625d
+		}
+		{
+			dependencies: ["3C09296DEE9D1D7F"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest3B961DDF19D1E25E.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3B961DDF19D1E25E.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3B961DDF19D1E25E.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3B961DDF19D1E25E.description4}"
+			]
+			icon: "justdirethings:ferricore_wrench"
+			id: "3B961DDF19D1E25E"
+			min_width: 310
+			rewards: [{
+				id: "38DA2C1DAD51E496"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest3B961DDF19D1E25E.subtitle}"
+			tasks: [{
+				id: "33C2CB66698133A4"
+				item: "justdirethings:ferricore_wrench"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest3B961DDF19D1E25E.title}"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C09296DEE9D1D7F"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest5A05A287E5629F2.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5A05A287E5629F2.description2}"
+				"{ftbquests.chapter.just_dire_things.quest5A05A287E5629F2.description3}"
+				"{ftbquests.chapter.just_dire_things.quest5A05A287E5629F2.description4}"
+				"{ftbquests.chapter.just_dire_things.quest5A05A287E5629F2.description5}"
+				"{ftbquests.chapter.just_dire_things.quest5A05A287E5629F2.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5A05A287E5629F2.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5A05A287E5629F2.description8}"
+			]
+			icon: "justdirethings:fuel_canister"
+			id: "05A05A287E5629F2"
+			min_width: 330
+			rewards: [{
+				id: "3A5A88884DBC10AF"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest5A05A287E5629F2.subtitle}"
+			tasks: [{
+				id: "4FCDD1B9F183A7C3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:fluid_canister"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:fuel_canister"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:potion_canister"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest5A05A287E5629F2.task.5750482895773083587.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest5A05A287E5629F2.title}"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C09296DEE9D1D7F"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.description2}"
+				"{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.description3}"
+				"{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.description6}"
+				"{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.description7}"
+				"{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.description8}"
+				"{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.description9}"
+				"{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.description12}"
+			]
+			icon: "justdirethings:generatort1"
+			id: "6532EC7C9344E26C"
+			min_width: 330
+			rewards: [{
+				id: "6BFDD878E215871F"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.subtitle}"
+			tasks: [{
+				id: "02B123DE9AFE08C3"
+				item: "justdirethings:generatort1"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest6532EC7C9344E26C.title}"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C17CF3C62716EF7"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description3}"
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description4}"
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description7}"
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description8}"
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description9}"
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description10}"
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description11}"
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description12}"
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description13}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description15}"
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description16}"
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description17}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description18}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description19}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest39838A16648163FE.description20}"
+			]
+			icon: "justdirethings:goosoil_tier1"
+			id: "39838A16648163FE"
+			min_width: 340
+			rewards: [
+				{
+					id: "1948C8976BEECAC2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CB1D2B04E043253"
+					table_id: 4067690183644308744L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest39838A16648163FE.subtitle}"
+			tasks: [{
+				id: "7F2379FCF4BF4604"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:goosoil_tier1"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:goosoil_tier2"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:goosoil_tier3"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:goosoil_tier4"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest39838A16648163FE.task.9161300194346616324.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest39838A16648163FE.title}"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3B961DDF19D1E25E"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description2}"
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description3}"
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description6}"
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description7}"
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description8}"
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description9}"
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description10}"
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description11}"
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description12}"
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description13}"
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description14}"
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description15}"
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description16}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description17}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description18}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5C778C836160320.description19}"
+			]
+			icon: "justdirethings:blockbreakert1"
+			id: "05C778C836160320"
+			min_width: 340
+			rewards: [{
+				id: "3619F3DD18AD62D9"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			size: 1.15d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest5C778C836160320.subtitle}"
+			tasks: [{
+				id: "682862DDDCDFD694"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:blockbreakert1"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:blockplacert1"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:blockswappert1"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:clickert1"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:droppert1"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:sensort1"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:fluidcollectort1"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:fluidplacert1"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest5C778C836160320.task.7505357484045883028.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest5C778C836160320.title}"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["05C778C836160320"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest6EAD3E0671D7A13.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6EAD3E0671D7A13.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6EAD3E0671D7A13.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6EAD3E0671D7A13.description4}"
+			]
+			icon: "justdirethings:itemcollector"
+			id: "06EAD3E0671D7A13"
+			min_width: 310
+			rewards: [{
+				id: "3D9096483926EA00"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest6EAD3E0671D7A13.subtitle}"
+			tasks: [{
+				id: "6BA0F96CBF312635"
+				item: "justdirethings:itemcollector"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest6EAD3E0671D7A13.title}"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6532EC7C9344E26C"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest53F8BBDF19A32A5.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest53F8BBDF19A32A5.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest53F8BBDF19A32A5.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest53F8BBDF19A32A5.description4}"
+			]
+			icon: "justdirethings:pocket_generator"
+			id: "053F8BBDF19A32A5"
+			min_width: 320
+			rewards: [
+				{
+					id: "695D58CA45F18B3A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39A206F739CADDC4"
+					table_id: 4067690183644308744L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest53F8BBDF19A32A5.subtitle}"
+			tasks: [{
+				id: "1957EFA3BF0B7E01"
+				item: "justdirethings:pocket_generator"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest53F8BBDF19A32A5.title}"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C09296DEE9D1D7F"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description4}"
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description5}"
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description8}"
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description9}"
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description10}"
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description11}"
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description12}"
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description13}"
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description15}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.description16}"
+			]
+			icon: "justdirethings:gooblock_tier2"
+			id: "3F1BC6949197DE23"
+			min_width: 330
+			rewards: [
+				{
+					id: "3DBA180A61B18F21"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4493BA5CD552FA0D"
+					table_id: 4067690183644308744L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.subtitle}"
+			tasks: [{
+				id: "52878BF732E31A3E"
+				item: "justdirethings:gooblock_tier2"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest3F1BC6949197DE23.title}"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3F1BC6949197DE23"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest4569F4A1C111C8F5.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4569F4A1C111C8F5.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4569F4A1C111C8F5.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4569F4A1C111C8F5.description4}"
+			]
+			icon: "justdirethings:raw_blazegold_ore"
+			id: "4569F4A1C111C8F5"
+			min_width: 300
+			rewards: [{
+				id: "4A436E804BFA7637"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest4569F4A1C111C8F5.subtitle}"
+			tasks: [{
+				icon: "justdirethings:raw_blazegold_ore"
+				id: "785F238924C69DFB"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.just_dire_things.quest4569F4A1C111C8F5.task.8673690479273352699.title}"
+				to_observe: "justdirethings:raw_blazegold_ore"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest4569F4A1C111C8F5.title}"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4569F4A1C111C8F5"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description4}"
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description5}"
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description8}"
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description9}"
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description10}"
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description11}"
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description12}"
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description13}"
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description15}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description16}"
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description17}"
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description18}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.description19}"
+			]
+			icon: "justdirethings:blazegold_ingot"
+			id: "2E6AE00249CD47DB"
+			min_width: 340
+			rewards: [
+				{
+					id: "72B5883688E198B3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CA309E81A976C28"
+					table_id: 523655846730814564L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "5BB0FF4ED83502CF"
+				item: { Count: 8, id: "justdirethings:blazegold_ingot" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest2E6AE00249CD47DB.title}"
+			x: 0.0d
+			y: 14.65d
+		}
+		{
+			dependencies: ["2E6AE00249CD47DB"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description2}"
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description3}"
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description6}"
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description7}"
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description8}"
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description9}"
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description10}"
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description11}"
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description12}"
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description13}"
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description15}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.description16}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:blazegold_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24222A16692AA8BF"
+			min_width: 330
+			rewards: [{
+				id: "65FA1C775E345C11"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.subtitle}"
+			tasks: [{
+				id: "10FCE697A4080B33"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:blazegold_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:blazegold_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:blazegold_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:blazegold_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:blazegold_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.task.1224106737704373043.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest24222A16692AA8BF.title}"
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2E6AE00249CD47DB"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description3}"
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description4}"
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description7}"
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description8}"
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description9}"
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description10}"
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description11}"
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description12}"
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description13}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.description15}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:blazegold_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67108F9BA7107BC4"
+			min_width: 320
+			rewards: [{
+				id: "3717AC8C3AED71BA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.subtitle}"
+			tasks: [{
+				id: "05501E4E1733B47F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:blazegold_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:blazegold_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:blazegold_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:blazegold_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.task.382839289072039039.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest67108F9BA7107BC4.title}"
+			x: -3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["67108F9BA7107BC4"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest42347016F6EF28B4.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest42347016F6EF28B4.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest42347016F6EF28B4.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest42347016F6EF28B4.description4}"
+			]
+			icon: "justdirethings:totem_of_death_recall"
+			id: "42347016F6EF28B4"
+			min_width: 320
+			rewards: [{
+				id: "3D8008BF468A2FCA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest42347016F6EF28B4.subtitle}"
+			tasks: [{
+				id: "35691D488E7E2C3E"
+				item: "justdirethings:totem_of_death_recall"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest42347016F6EF28B4.title}"
+			x: -3.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["24222A16692AA8BF"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.description3}"
+				"{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.description4}"
+				"{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.description7}"
+				"{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.description8}"
+				"{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.description9}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.description11}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:blazejet_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4F8153E59C4BC13C"
+			min_width: 330
+			rewards: [{
+				id: "5CDA164127424121"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.subtitle}"
+			tasks: [{
+				id: "77642FEB8014721E"
+				item: {
+					Count: 1
+					id: "justdirethings:blazejet_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest4F8153E59C4BC13C.title}"
+			x: -2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["2E6AE00249CD47DB"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest5ECDBD8F8165AF36.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5ECDBD8F8165AF36.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5ECDBD8F8165AF36.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5ECDBD8F8165AF36.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5ECDBD8F8165AF36.description5}"
+			]
+			icon: "justdirethings:creaturecatcher"
+			id: "5ECDBD8F8165AF36"
+			min_width: 310
+			optional: true
+			rewards: [{
+				id: "1FC6C47609383C16"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest5ECDBD8F8165AF36.subtitle}"
+			tasks: [{
+				id: "62A29992A6521801"
+				item: "justdirethings:creaturecatcher"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest5ECDBD8F8165AF36.title}"
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2E6AE00249CD47DB"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.description4}"
+				"{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.description5}"
+				"{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.description8}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.description9}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.description11}"
+			]
+			icon: "justdirethings:inventoryholder"
+			id: "56FDDC24033484D9"
+			min_width: 330
+			optional: true
+			rewards: [{
+				id: "6F73D7A3CC77A810"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.subtitle}"
+			tasks: [{
+				id: "4E8306FBDD6347CB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:inventoryholder"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:experienceholder"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.task.5657373235728304075.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest56FDDC24033484D9.title}"
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2E6AE00249CD47DB"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.questF8EF5C2870A88A6.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.questF8EF5C2870A88A6.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.questF8EF5C2870A88A6.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.questF8EF5C2870A88A6.description4}"
+			]
+			icon: "justdirethings:polymorphic_catalyst"
+			id: "0F8EF5C2870A88A6"
+			min_width: 320
+			rewards: [{
+				id: "016AD06E1241927B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.questF8EF5C2870A88A6.subtitle}"
+			tasks: [{
+				id: "52BAA450AA0D49E9"
+				item: "justdirethings:polymorphic_catalyst"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.questF8EF5C2870A88A6.title}"
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0F8EF5C2870A88A6"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest6778673B692997E8.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6778673B692997E8.description2}"
+				"{ftbquests.chapter.just_dire_things.quest6778673B692997E8.description3}"
+				"{ftbquests.chapter.just_dire_things.quest6778673B692997E8.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6778673B692997E8.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6778673B692997E8.description6}"
+				"{ftbquests.chapter.just_dire_things.quest6778673B692997E8.description7}"
+				"{ftbquests.chapter.just_dire_things.quest6778673B692997E8.description8}"
+				"{ftbquests.chapter.just_dire_things.quest6778673B692997E8.description9}"
+				"{ftbquests.chapter.just_dire_things.quest6778673B692997E8.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6778673B692997E8.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6778673B692997E8.description12}"
+			]
+			icon: "justdirethings:polymorphic_fluid_bucket"
+			id: "6778673B692997E8"
+			min_width: 340
+			rewards: [{
+				id: "188E712C36B8FC2B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest6778673B692997E8.subtitle}"
+			tasks: [{
+				id: "674498B7208BF489"
+				item: "justdirethings:polymorphic_fluid_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest6778673B692997E8.title}"
+			x: 2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["6778673B692997E8"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest7809AC0C086154D.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7809AC0C086154D.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7809AC0C086154D.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7809AC0C086154D.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7809AC0C086154D.description5}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:polymorphic_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "07809AC0C086154D"
+			min_width: 330
+			rewards: [{
+				id: "41849254F24E5E3C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest7809AC0C086154D.subtitle}"
+			tasks: [{
+				id: "236E4928C5E05555"
+				item: {
+					Count: 1
+					id: "justdirethings:polymorphic_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest7809AC0C086154D.title}"
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["6778673B692997E8"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest5BC13A7781DD7C69.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5BC13A7781DD7C69.description2}"
+				"{ftbquests.chapter.just_dire_things.quest5BC13A7781DD7C69.description3}"
+				"{ftbquests.chapter.just_dire_things.quest5BC13A7781DD7C69.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5BC13A7781DD7C69.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5BC13A7781DD7C69.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5BC13A7781DD7C69.description7}"
+			]
+			icon: "justdirethings:refined_t2_fluid_bucket"
+			id: "5BC13A7781DD7C69"
+			min_width: 340
+			rewards: [
+				{
+					id: "1DE9C05AC7EA571F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "567B338B67DC8A44"
+					table_id: 523655846730814564L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest5BC13A7781DD7C69.subtitle}"
+			tasks: [
+				{
+					id: "641FAC34BF97A526"
+					item: "justdirethings:coal_t2"
+					type: "item"
+				}
+				{
+					id: "0BCED83EA56C19F2"
+					item: "justdirethings:refined_t2_fluid_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.just_dire_things.quest5BC13A7781DD7C69.title}"
+			x: 3.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5BC13A7781DD7C69"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description2}"
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description3}"
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description6}"
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description7}"
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description8}"
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description9}"
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.description13}"
+			]
+			icon: "justdirethings:generatorfluidt1"
+			id: "13EF4D5908F14EDC"
+			min_width: 330
+			rewards: [{
+				id: "638131E188CD8EFD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.subtitle}"
+			tasks: [{
+				id: "596CD1D2BBFB54EB"
+				item: "justdirethings:generatorfluidt1"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest13EF4D5908F14EDC.title}"
+			x: 3.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["2E6AE00249CD47DB"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description4}"
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description5}"
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description8}"
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description9}"
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description10}"
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description11}"
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description12}"
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description13}"
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description15}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.description16}"
+			]
+			icon: "justdirethings:gooblock_tier3"
+			id: "7DBA91EE333E2504"
+			min_width: 330
+			rewards: [
+				{
+					id: "4F9C386247A478B1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "451AB9EF86462FC2"
+					table_id: 523655846730814564L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.subtitle}"
+			tasks: [{
+				id: "3331907838E4948E"
+				item: "justdirethings:gooblock_tier3"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest7DBA91EE333E2504.title}"
+			x: 0.0d
+			y: 18.2d
+		}
+		{
+			dependencies: ["7DBA91EE333E2504"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest180FA5311DE1FE5B.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest180FA5311DE1FE5B.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest180FA5311DE1FE5B.description3}"
+			]
+			icon: "justdirethings:raw_celestigem_ore"
+			id: "180FA5311DE1FE5B"
+			min_width: 300
+			rewards: [{
+				id: "6E62CE2D449ADEA3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest180FA5311DE1FE5B.subtitle}"
+			tasks: [{
+				icon: "justdirethings:raw_celestigem_ore"
+				id: "45F120F05188D9F5"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.just_dire_things.quest180FA5311DE1FE5B.task.5039845674536458741.title}"
+				to_observe: "justdirethings:raw_celestigem_ore"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest180FA5311DE1FE5B.title}"
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["180FA5311DE1FE5B"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description4}"
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description5}"
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description8}"
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description9}"
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description10}"
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description11}"
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description12}"
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description13}"
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description15}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description16}"
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description17}"
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description18}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.description19}"
+			]
+			icon: "justdirethings:celestigem"
+			id: "0631904FB4C3B18E"
+			min_width: 340
+			rewards: [
+				{
+					id: "59916B69AF317FD9"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09F5326C022AED84"
+					table_id: 523655846730814564L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "5EB2B2021596C121"
+				item: { Count: 8, id: "justdirethings:celestigem" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest631904FB4C3B18E.title}"
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["0631904FB4C3B18E"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest50E1FEE686B6342E.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest50E1FEE686B6342E.description2}"
+				"{ftbquests.chapter.just_dire_things.quest50E1FEE686B6342E.description3}"
+				"{ftbquests.chapter.just_dire_things.quest50E1FEE686B6342E.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest50E1FEE686B6342E.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest50E1FEE686B6342E.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest50E1FEE686B6342E.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest50E1FEE686B6342E.description8}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest50E1FEE686B6342E.description9}"
+			]
+			icon: "justdirethings:refined_t3_fluid_bucket"
+			id: "50E1FEE686B6342E"
+			min_width: 330
+			rewards: [{
+				id: "3ABE7A1367D3031F"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest50E1FEE686B6342E.subtitle}"
+			tasks: [
+				{
+					id: "2A1873998A64855A"
+					item: "justdirethings:coal_t3"
+					type: "item"
+				}
+				{
+					id: "62184484D8CAD841"
+					item: "justdirethings:refined_t3_fluid_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.just_dire_things.quest50E1FEE686B6342E.title}"
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["0631904FB4C3B18E"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description2}"
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description3}"
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description6}"
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description7}"
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description8}"
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description9}"
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description10}"
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description11}"
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description13}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.description14}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:celestigem_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6F2497C57A1A76DA"
+			min_width: 330
+			rewards: [{
+				id: "089701CBCF72A8A8"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.subtitle}"
+			tasks: [{
+				id: "38833041D0E8711F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:celestigem_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:celestigem_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:celestigem_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:celestigem_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:celestigem_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.task.4072151547308962079.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest6F2497C57A1A76DA.title}"
+			x: -2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["0631904FB4C3B18E"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.description2}"
+				"{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.description3}"
+				"{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.description6}"
+				"{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.description7}"
+				"{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.description8}"
+				"{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.description9}"
+				"{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.description12}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:celestigem_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "70E4C9E120A58DBA"
+			min_width: 320
+			rewards: [{
+				id: "1782123B9B4396DC"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.subtitle}"
+			tasks: [{
+				id: "54218572059F411A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:celestigem_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:celestigem_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:celestigem_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:celestigem_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.task.6062273298184487194.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest70E4C9E120A58DBA.title}"
+			x: -3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6F2497C57A1A76DA"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest7C6E562364A40190.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7C6E562364A40190.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7C6E562364A40190.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7C6E562364A40190.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:celestigem_paxel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7C6E562364A40190"
+			min_width: 320
+			rewards: [
+				{
+					id: "7970495D548D23D9"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "221B1FE01FAB3AC3"
+					table_id: 523655846730814564L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest7C6E562364A40190.subtitle}"
+			tasks: [{
+				id: "3182CB8974876F06"
+				item: {
+					Count: 1
+					id: "justdirethings:celestigem_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest7C6E562364A40190.title}"
+			x: -2.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["0631904FB4C3B18E"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description2}"
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description3}"
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description6}"
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description7}"
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description8}"
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description9}"
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.description13}"
+			]
+			icon: "justdirethings:blockbreakert2"
+			id: "7C5E9DCE4FE671A0"
+			min_width: 340
+			rewards: [{
+				id: "74812312E670482E"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			size: 1.15d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.subtitle}"
+			tasks: [{
+				id: "22283D23266F1C92"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:blockbreakert2"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:blockplacert2"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:blockswappert2"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:clickert2"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:droppert2"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:sensort2"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:fluidcollectort2"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:fluidplacert2"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.task.2461284417535941778.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest7C5E9DCE4FE671A0.title}"
+			x: 2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["0631904FB4C3B18E"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.description2}"
+				"{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.description3}"
+				"{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.description6}"
+				"{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.description7}"
+				"{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.description8}"
+				"{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.description9}"
+				"{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.description12}"
+			]
+			icon: "justdirethings:energytransmitter"
+			id: "206C38935E2D53DE"
+			min_width: 340
+			rewards: [{
+				id: "015DC2B76EE4B205"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.subtitle}"
+			tasks: [{
+				id: "7BE3D3C846F4D763"
+				item: "justdirethings:energytransmitter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest206C38935E2D53DE.title}"
+			x: -2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7C5E9DCE4FE671A0"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest5427576A46D70937.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5427576A46D70937.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5427576A46D70937.description3}"
+				"{ftbquests.chapter.just_dire_things.quest5427576A46D70937.description4}"
+				"{ftbquests.chapter.just_dire_things.quest5427576A46D70937.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5427576A46D70937.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5427576A46D70937.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5427576A46D70937.description8}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5427576A46D70937.description9}"
+			]
+			icon: "justdirethings:blockswappert2"
+			id: "5427576A46D70937"
+			min_width: 340
+			rewards: [
+				{
+					id: "7CF9DA8FF8B77FF7"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "556583EAFD94D197"
+					table_id: 523655846730814564L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest5427576A46D70937.subtitle}"
+			tasks: [{
+				id: "0CE6A1C659CCED5F"
+				item: "justdirethings:blockswappert2"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest5427576A46D70937.title}"
+			x: 2.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["70E4C9E120A58DBA"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest4B62B9CE4A7D81AC.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4B62B9CE4A7D81AC.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4B62B9CE4A7D81AC.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4B62B9CE4A7D81AC.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:voidshift_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B62B9CE4A7D81AC"
+			min_width: 330
+			rewards: [{
+				id: "260BC42C236B74B3"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest4B62B9CE4A7D81AC.subtitle}"
+			tasks: [{
+				id: "5F4D14DE42982CCA"
+				item: {
+					Count: 1
+					id: "justdirethings:voidshift_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest4B62B9CE4A7D81AC.title}"
+			x: -3.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["206C38935E2D53DE"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest1596144535860CC2.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1596144535860CC2.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1596144535860CC2.description3}"
+				"{ftbquests.chapter.just_dire_things.quest1596144535860CC2.description4}"
+				"{ftbquests.chapter.just_dire_things.quest1596144535860CC2.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1596144535860CC2.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1596144535860CC2.description7}"
+				"{ftbquests.chapter.just_dire_things.quest1596144535860CC2.description8}"
+				"{ftbquests.chapter.just_dire_things.quest1596144535860CC2.description9}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1596144535860CC2.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1596144535860CC2.description11}"
+			]
+			icon: "justdirethings:portal_gun"
+			id: "1596144535860CC2"
+			min_width: 330
+			rewards: [{
+				id: "404AF8FA5469561F"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest1596144535860CC2.subtitle}"
+			tasks: [{
+				id: "74AB91D1E057A2FD"
+				item: "justdirethings:portal_gun"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest1596144535860CC2.title}"
+			x: -4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["1596144535860CC2"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description4}"
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description5}"
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description8}"
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description9}"
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description10}"
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description11}"
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description12}"
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description13}"
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description14}"
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description15}"
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description16}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description17}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest62C882D852678217.description18}"
+			]
+			icon: "justdirethings:portal_fluid_bucket"
+			id: "62C882D852678217"
+			min_width: 350
+			rewards: [
+				{
+					id: "40A68B69771CC984"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B5DE447359CB4AC"
+					table_id: 3488080005486828330L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest62C882D852678217.subtitle}"
+			tasks: [{
+				id: "2859E5DA707C4FEE"
+				item: "justdirethings:portal_fluid_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest62C882D852678217.title}"
+			x: -4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["62C882D852678217"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description3}"
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description4}"
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description7}"
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description8}"
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description9}"
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description10}"
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.description13}"
+			]
+			icon: "justdirethings:portal_gun_v2"
+			id: "719A34FFB91C6F37"
+			min_width: 340
+			rewards: [
+				{
+					id: "55FFC2AAB7C43C90"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F0EBDA89CF89C15"
+					table_id: 3488080005486828330L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.subtitle}"
+			tasks: [{
+				id: "5DD22D3FE1BEA4E3"
+				item: "justdirethings:portal_gun_v2"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest719A34FFB91C6F37.title}"
+			x: -4.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["0631904FB4C3B18E"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description4}"
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description5}"
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description8}"
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description9}"
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description10}"
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description11}"
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description12}"
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description13}"
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description15}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description16}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.description17}"
+			]
+			icon: "justdirethings:gooblock_tier4"
+			id: "5A869BCC9CDD03B9"
+			min_width: 330
+			rewards: [
+				{
+					id: "27CA9DA00EFA2CD4"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3715D2C0E3965282"
+					table_id: 3488080005486828330L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.subtitle}"
+			tasks: [{
+				id: "4A05DC2BF0C4A75D"
+				item: "justdirethings:gooblock_tier4"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest5A869BCC9CDD03B9.title}"
+			x: 0.0d
+			y: 26.599999999999998d
+		}
+		{
+			dependencies: ["5A869BCC9CDD03B9"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest3EBF8B885F91B612.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3EBF8B885F91B612.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3EBF8B885F91B612.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3EBF8B885F91B612.description4}"
+			]
+			icon: "justdirethings:raw_eclipsealloy_ore"
+			id: "3EBF8B885F91B612"
+			min_width: 300
+			rewards: [{
+				id: "175196B71D88E30C"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest3EBF8B885F91B612.subtitle}"
+			tasks: [{
+				icon: "justdirethings:raw_eclipsealloy_ore"
+				id: "420D21003CE83924"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.just_dire_things.quest3EBF8B885F91B612.task.4759496666106050852.title}"
+				to_observe: "justdirethings:raw_eclipsealloy_ore"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest3EBF8B885F91B612.title}"
+			x: 0.0d
+			y: 29.5d
+		}
+		{
+			dependencies: ["3EBF8B885F91B612"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description4}"
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description5}"
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description8}"
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description9}"
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description10}"
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description11}"
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description12}"
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description13}"
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description15}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description16}"
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description17}"
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description18}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.description19}"
+			]
+			icon: "justdirethings:eclipsealloy_ingot"
+			id: "3C3D8ADA9002A2EF"
+			min_width: 340
+			rewards: [
+				{
+					id: "4CE1FE54C4BE1E5D"
+					type: "xp"
+					xp: 400
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31E786AA09546348"
+					table_id: 3488080005486828330L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "5F99FB48CA389357"
+				item: { Count: 4, id: "justdirethings:eclipsealloy_ingot" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest3C3D8ADA9002A2EF.title}"
+			x: 0.0d
+			y: 31.5d
+		}
+		{
+			dependencies: ["3C3D8ADA9002A2EF"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest7FC8C50B43645680.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7FC8C50B43645680.description2}"
+				"{ftbquests.chapter.just_dire_things.quest7FC8C50B43645680.description3}"
+				"{ftbquests.chapter.just_dire_things.quest7FC8C50B43645680.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7FC8C50B43645680.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7FC8C50B43645680.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7FC8C50B43645680.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7FC8C50B43645680.description8}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7FC8C50B43645680.description9}"
+			]
+			icon: "justdirethings:refined_t4_fluid_bucket"
+			id: "7FC8C50B43645680"
+			min_width: 330
+			rewards: [
+				{
+					id: "00ACC190BB7C2C16"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5374D3E71F94F587"
+					table_id: 3488080005486828330L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest7FC8C50B43645680.subtitle}"
+			tasks: [
+				{
+					id: "42FDD63A1BC58E4D"
+					item: "justdirethings:coal_t4"
+					type: "item"
+				}
+				{
+					id: "40B0260B6E14B82C"
+					item: "justdirethings:refined_t4_fluid_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.just_dire_things.quest7FC8C50B43645680.title}"
+			x: 2.5d
+			y: 31.5d
+		}
+		{
+			dependencies: ["3C3D8ADA9002A2EF"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.description3}"
+				"{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.description4}"
+				"{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.description7}"
+				"{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.description8}"
+				"{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.description9}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.description11}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:eclipsealloy_paxel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DA4EE985DDD6ED3"
+			min_width: 340
+			rewards: [{
+				id: "38FA402B27449FE4"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.subtitle}"
+			tasks: [{
+				id: "33F6F26589CA1EA8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:eclipsealloy_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:eclipsealloy_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:eclipsealloy_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:eclipsealloy_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:eclipsealloy_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:eclipsealloy_paxel"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.task.3744446658122489512.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest5DA4EE985DDD6ED3.title}"
+			x: -2.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["3C3D8ADA9002A2EF"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description2}"
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description3}"
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description6}"
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description7}"
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description8}"
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description9}"
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description10}"
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description11}"
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description13}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.description15}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:eclipsealloy_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "01A45D6BBA40CC8A"
+			min_width: 330
+			rewards: [
+				{
+					id: "2DAE4F3478E98471"
+					type: "xp"
+					xp: 400
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4ECC33AF6C7F816A"
+					table_id: 3488080005486828330L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.subtitle}"
+			tasks: [{
+				id: "4DC0F9F08323292A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:eclipsealloy_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:eclipsealloy_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:eclipsealloy_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:eclipsealloy_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.task.5602752747836483882.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest1A45D6BBA40CC8A.title}"
+			x: -3.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["3C3D8ADA9002A2EF"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description4}"
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description5}"
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description8}"
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description9}"
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description10}"
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description11}"
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description13}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.description14}"
+			]
+			icon: "justdirethings:template_eclipsealloy"
+			id: "64E1738A294FCC4D"
+			min_width: 340
+			rewards: [{
+				id: "23EB0D47BCBD9D05"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			size: 1.15d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.subtitle}"
+			tasks: [{
+				id: "145348F359B2EF60"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:template_ferricore"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:template_blazegold"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:template_celestigem"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:template_eclipsealloy"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.task.1464594513844694880.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest64E1738A294FCC4D.title}"
+			x: 2.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["3C3D8ADA9002A2EF"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest50E8E903D95B02B.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest50E8E903D95B02B.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest50E8E903D95B02B.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest50E8E903D95B02B.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest50E8E903D95B02B.description5}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:eclipsegate_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "050E8E903D95B02B"
+			min_width: 330
+			rewards: [{
+				id: "629F29FBE23510E5"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest50E8E903D95B02B.subtitle}"
+			tasks: [{
+				id: "71C9FBCDB83CA5B2"
+				item: {
+					Count: 1
+					id: "justdirethings:eclipsegate_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest50E8E903D95B02B.title}"
+			x: -2.5d
+			y: 31.5d
+		}
+		{
+			dependencies: ["5DA4EE985DDD6ED3"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description2}"
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description3}"
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description4}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description6}"
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description7}"
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description8}"
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description9}"
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description10}"
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description11}"
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description13}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.description14}"
+			]
+			icon: {
+				Count: 1
+				id: "justdirethings:bow_eclipsealloy"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7EAA02D736C6E15B"
+			min_width: 340
+			rewards: [{
+				id: "7B170A7D910F630E"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.subtitle}"
+			tasks: [{
+				id: "7984AB282B69A669"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "justdirethings:bow_ferricore"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:bow_blazegold"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:bow_celestigem"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "justdirethings:bow_eclipsealloy"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.task.8756311764530472553.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest7EAA02D736C6E15B.title}"
+			x: -2.0d
+			y: 34.5d
+		}
+		{
+			dependencies: ["050E8E903D95B02B"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description3}"
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description4}"
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description7}"
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description8}"
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description9}"
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description10}"
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.description13}"
+			]
+			icon: "justdirethings:polymorphic_wand_v2"
+			id: "1CB23995DF742CC9"
+			min_width: 330
+			rewards: [
+				{
+					id: "4DC0B0779062597B"
+					type: "xp"
+					xp: 400
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7491B5EFA10567F4"
+					table_id: 3488080005486828330L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.subtitle}"
+			tasks: [{
+				id: "428B004653C5C9F2"
+				item: "justdirethings:polymorphic_wand_v2"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest1CB23995DF742CC9.title}"
+			x: -4.5d
+			y: 31.5d
+		}
+		{
+			dependencies: ["3C3D8ADA9002A2EF"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description4}"
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description5}"
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description8}"
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description9}"
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description10}"
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description11}"
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description12}"
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description13}"
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description15}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest6412692933594D56.description16}"
+			]
+			icon: "justdirethings:time_crystal_budding_block"
+			id: "6412692933594D56"
+			min_width: 350
+			rewards: [{
+				id: "362CD7D561B62A82"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			size: 1.15d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest6412692933594D56.subtitle}"
+			tasks: [{
+				icon: "justdirethings:time_crystal_budding_block"
+				id: "0583878BD7D9616E"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.just_dire_things.quest6412692933594D56.task.397310226830287214.title}"
+				to_observe: "justdirethings:time_crystal_budding_block"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest6412692933594D56.title}"
+			x: 0.0d
+			y: 33.349999999999994d
+		}
+		{
+			dependencies: ["6412692933594D56"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description3}"
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description4}"
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description8}"
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description9}"
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description10}"
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description11}"
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description12}"
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description13}"
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description14}"
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description15}"
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description16}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description17}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description18}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest64175C78D1366404.description19}"
+			]
+			icon: "justdirethings:blockswappert2"
+			id: "64175C78D1366404"
+			min_width: 350
+			rewards: [{
+				id: "0A094FD67573964D"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			size: 1.15d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest64175C78D1366404.subtitle}"
+			tasks: [{
+				id: "54940DFB502DE7CC"
+				title: "{ftbquests.chapter.just_dire_things.quest64175C78D1366404.task.6094511568772261836.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest64175C78D1366404.title}"
+			x: 0.0d
+			y: 35.65d
+		}
+		{
+			dependencies: ["64175C78D1366404"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description3}"
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description4}"
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description7}"
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description8}"
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description9}"
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description10}"
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.description13}"
+			]
+			icon: "justdirethings:time_crystal"
+			id: "61E85AF1FB767DBF"
+			min_width: 340
+			rewards: [
+				{
+					id: "4077FBD366814DFB"
+					type: "xp"
+					xp: 400
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35848E76CA4151B2"
+					table_id: 3488080005486828330L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "05C305A915E8E038"
+				item: { Count: 4, id: "justdirethings:time_crystal" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest61E85AF1FB767DBF.title}"
+			x: 0.0d
+			y: 37.7d
+		}
+		{
+			dependencies: ["61E85AF1FB767DBF"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.questFE946F6C03C9A8A.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.questFE946F6C03C9A8A.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.questFE946F6C03C9A8A.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.questFE946F6C03C9A8A.description4}"
+			]
+			icon: "justdirethings:time_fluid_bucket"
+			id: "0FE946F6C03C9A8A"
+			min_width: 320
+			rewards: [{
+				id: "26D69E3771CE52F9"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.questFE946F6C03C9A8A.subtitle}"
+			tasks: [{
+				id: "7DE04F64DA0D9A5E"
+				item: "justdirethings:time_fluid_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.questFE946F6C03C9A8A.title}"
+			x: 0.0d
+			y: 39.5d
+		}
+		{
+			dependencies: ["0FE946F6C03C9A8A"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description3}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description4}"
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description5}"
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description8}"
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description9}"
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description10}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.description13}"
+			]
+			icon: "justdirethings:time_wand"
+			id: "748FA4E80BF2C431"
+			min_width: 350
+			rewards: [
+				{
+					id: "0B93B7F870AC524D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "088881555AD1634F"
+					table_id: 3488080005486828330L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.subtitle}"
+			tasks: [{
+				id: "2042D7DDE014645D"
+				item: "justdirethings:time_wand"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest748FA4E80BF2C431.title}"
+			x: 0.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["748FA4E80BF2C431"]
+			description: [
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description1}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description2}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description3}"
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description4}"
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description5}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description6}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description7}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description8}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description9}"
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description10}"
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description11}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description12}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description13}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description14}"
+				""
+				"{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.description15}"
+			]
+			icon: "justdirethings:paradoxmachine"
+			id: "4D0A42D2E8ACA609"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "52BA35D8C300C783"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.subtitle}"
+			tasks: [{
+				id: "4347A3423BDF2324"
+				title: "{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.task.4848023028755276580.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.just_dire_things.quest4D0A42D2E8ACA609.title}"
+			x: 0.0d
+			y: 43.0d
+		}
+	]
 	title: "{ftbquests.chapter.just_dire_things.title}"
 }

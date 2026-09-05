@@ -12,15 +12,32 @@
 		}
 	}
 	id: "73B231DF20CA1528"
-	images: [{
-		height: 15.0d
-		image: "customtextures:textures/anklets.png"
-		rotation: 0.0d
-		width: 16.0d
-		x: 1.0d
-		y: 0.0d
-	}]
-	order_index: 15
+	images: [
+		{
+			height: 15.0d
+			image: "customtextures:textures/anklets.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.anklets.image.hovertext1"
+				"ftbquests.chapter.anklets.image.hovertext2"
+				"ftbquests.chapter.anklets.image.hovertext3"
+				"ftbquests.chapter.anklets.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	order_index: 19
 	parent: "44F86CB070F12FF2"
 	quest_links: [ ]
 	quests: [

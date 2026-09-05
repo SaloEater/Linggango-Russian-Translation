@@ -1,0 +1,735 @@
+{
+	autofocus_id: "142264209DE37EC3"
+	default_hide_dependency_lines: false
+	default_min_width: 330
+	default_quest_shape: "square"
+	filename: "enigmatic_oddities"
+	group: "0361FC25A57730F8"
+	icon: "enigmaticlegacy:loot_generator"
+	id: "6AC08CFA49DD17A6"
+	images: [
+		{
+			alpha: 60
+			height: 1.7d
+			image: "enigmaticlegacy:item/enchantment_transposer"
+			rotation: -13.0d
+			width: 1.7d
+			x: -7.4d
+			y: 0.6d
+		}
+		{
+			alpha: 60
+			height: 1.7d
+			image: "enigmaticlegacy:item/void_stone"
+			rotation: 13.0d
+			width: 1.7d
+			x: 7.4d
+			y: 0.6d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.enigmatic_oddities.image.hovertext1"
+				"ftbquests.chapter.enigmatic_oddities.image.hovertext2"
+				"ftbquests.chapter.enigmatic_oddities.image.hovertext3"
+				"ftbquests.chapter.enigmatic_oddities.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "enigmaticaddons:item/hell_blade_charm"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 12
+	parent: "31575DEBB2A21CCD"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest142264209DE37EC3.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest142264209DE37EC3.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest142264209DE37EC3.description3}"
+				"{ftbquests.chapter.enigmatic_oddities.quest142264209DE37EC3.description4}"
+				"{ftbquests.chapter.enigmatic_oddities.quest142264209DE37EC3.description5}"
+				"{ftbquests.chapter.enigmatic_oddities.quest142264209DE37EC3.description6}"
+				"{ftbquests.chapter.enigmatic_oddities.quest142264209DE37EC3.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest142264209DE37EC3.description8}"
+			]
+			icon: "enigmaticlegacy:mending_mixture"
+			id: "142264209DE37EC3"
+			min_width: 350
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest142264209DE37EC3.subtitle}"
+			tasks: [{
+				id: "1393278720A58DBA"
+				title: "{ftbquests.chapter.enigmatic_oddities.quest142264209DE37EC3.task.1410514569618886074.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest142264209DE37EC3.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest65873A02ECE96B9.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest65873A02ECE96B9.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest65873A02ECE96B9.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest65873A02ECE96B9.description4}"
+			]
+			id: "065873A02ECE96B9"
+			min_width: 340
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest65873A02ECE96B9.subtitle}"
+			tasks: [{
+				id: "3F35AA702175572C"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest65873A02ECE96B9.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["065873A02ECE96B9"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest4C956F782320F662.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest4C956F782320F662.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest4C956F782320F662.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest4C956F782320F662.description4}"
+			]
+			hide_dependency_lines: false
+			id: "4C956F782320F662"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest4C956F782320F662.subtitle}"
+			tasks: [{
+				id: "5E8F93172DC4782A"
+				item: "enigmaticlegacy:curse_transposer"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest4C956F782320F662.title}"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["065873A02ECE96B9"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest19315EDD1D4773D5.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest19315EDD1D4773D5.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest19315EDD1D4773D5.description3}"
+			]
+			hide_dependency_lines: false
+			id: "19315EDD1D4773D5"
+			min_width: 340
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest19315EDD1D4773D5.subtitle}"
+			tasks: [{
+				id: "49717AE7378B355B"
+				item: "enigmaticaddons:bless_amplifier"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest19315EDD1D4773D5.title}"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["065873A02ECE96B9"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest5D5CB2E7BFF3D929.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest5D5CB2E7BFF3D929.description2}"
+			]
+			hide_dependency_lines: false
+			id: "5D5CB2E7BFF3D929"
+			min_width: 320
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest5D5CB2E7BFF3D929.subtitle}"
+			tasks: [{
+				id: "2C27F9FE469FBB01"
+				item: "enigmaticdelicacy:enchantment_duplicator"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest5D5CB2E7BFF3D929.title}"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest544B33FE3196E35B.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest544B33FE3196E35B.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest544B33FE3196E35B.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest544B33FE3196E35B.description4}"
+			]
+			id: "544B33FE3196E35B"
+			min_width: 330
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest544B33FE3196E35B.subtitle}"
+			tasks: [{
+				id: "521FA85EC7C2F271"
+				item: "enigmaticlegacy:mending_mixture"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest544B33FE3196E35B.title}"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest78F852F9952817A0.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest78F852F9952817A0.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest78F852F9952817A0.description3}"
+				"{ftbquests.chapter.enigmatic_oddities.quest78F852F9952817A0.description4}"
+				"{ftbquests.chapter.enigmatic_oddities.quest78F852F9952817A0.description5}"
+				"{ftbquests.chapter.enigmatic_oddities.quest78F852F9952817A0.description6}"
+				"{ftbquests.chapter.enigmatic_oddities.quest78F852F9952817A0.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest78F852F9952817A0.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest78F852F9952817A0.description9}"
+			]
+			id: "78F852F9952817A0"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest78F852F9952817A0.subtitle}"
+			tasks: [{
+				id: "2826664017142E55"
+				item: "enigmaticlegacy:void_stone"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest78F852F9952817A0.title}"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest393A1814F9362C83.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest393A1814F9362C83.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest393A1814F9362C83.description3}"
+				"{ftbquests.chapter.enigmatic_oddities.quest393A1814F9362C83.description4}"
+				"{ftbquests.chapter.enigmatic_oddities.quest393A1814F9362C83.description5}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest393A1814F9362C83.description6}"
+			]
+			id: "393A1814F9362C83"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest393A1814F9362C83.subtitle}"
+			tasks: [{
+				id: "5152956EC23FCA68"
+				item: "enigmaticlegacy:loot_generator"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest393A1814F9362C83.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest1BD146576CE0FDEF.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest1BD146576CE0FDEF.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest1BD146576CE0FDEF.description3}"
+				"{ftbquests.chapter.enigmatic_oddities.quest1BD146576CE0FDEF.description4}"
+				"{ftbquests.chapter.enigmatic_oddities.quest1BD146576CE0FDEF.description5}"
+				"{ftbquests.chapter.enigmatic_oddities.quest1BD146576CE0FDEF.description6}"
+				"{ftbquests.chapter.enigmatic_oddities.quest1BD146576CE0FDEF.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest1BD146576CE0FDEF.description8}"
+			]
+			id: "1BD146576CE0FDEF"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest1BD146576CE0FDEF.subtitle}"
+			tasks: [{
+				id: "11E3F9552B50FE3B"
+				item: "enigmaticlegacy:lore_inscriber"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest1BD146576CE0FDEF.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BD146576CE0FDEF"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest35408CBDA02F0A05.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest35408CBDA02F0A05.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest35408CBDA02F0A05.description3}"
+			]
+			hide_dependency_lines: false
+			id: "35408CBDA02F0A05"
+			min_width: 320
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest35408CBDA02F0A05.subtitle}"
+			tasks: [{
+				id: "550B30AD7042137F"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:lore_fragment"
+					tag: {
+						display: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest35408CBDA02F0A05.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest203873B984D7F566.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest203873B984D7F566.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest203873B984D7F566.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest203873B984D7F566.description4}"
+			]
+			id: "203873B984D7F566"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest203873B984D7F566.subtitle}"
+			tasks: [{
+				id: "7644BE3D888A159B"
+				item: "enigmaticlegacy:extradimensional_eye"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest203873B984D7F566.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest3424A7A15507EBD.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest3424A7A15507EBD.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest3424A7A15507EBD.description3}"
+			]
+			hide_dependency_lines: true
+			id: "03424A7A15507EBD"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest3424A7A15507EBD.subtitle}"
+			tasks: [{
+				id: "63383E6F26C59B09"
+				item: "enigmaticlegacy:recall_potion"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest3424A7A15507EBD.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03424A7A15507EBD"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest2C29284C443852C2.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest2C29284C443852C2.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest2C29284C443852C2.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest2C29284C443852C2.description4}"
+			]
+			hide_dependency_lines: false
+			id: "2C29284C443852C2"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest2C29284C443852C2.subtitle}"
+			tasks: [{
+				id: "49B2126FAC599186"
+				item: "enigmaticlegacy:twisted_mirror"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest2C29284C443852C2.title}"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest6855E0D1D14F57B2.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest6855E0D1D14F57B2.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest6855E0D1D14F57B2.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest6855E0D1D14F57B2.description4}"
+			]
+			hide_dependency_lines: true
+			id: "6855E0D1D14F57B2"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest6855E0D1D14F57B2.subtitle}"
+			tasks: [{
+				id: "312A7D229515E1B2"
+				item: "enigmaticaddons:antique_bag"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest6855E0D1D14F57B2.title}"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest4194A6281F3AF5FE.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest4194A6281F3AF5FE.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest4194A6281F3AF5FE.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest4194A6281F3AF5FE.description4}"
+			]
+			hide_dependency_lines: true
+			id: "4194A6281F3AF5FE"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest4194A6281F3AF5FE.subtitle}"
+			tasks: [{
+				id: "0015C35A8A5D41E2"
+				item: "enigmaticlegacy:animal_guidebook"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest4194A6281F3AF5FE.title}"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4194A6281F3AF5FE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest6BECDF798C694280.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest6BECDF798C694280.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest6BECDF798C694280.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest6BECDF798C694280.description4}"
+			]
+			hide_dependency_lines: false
+			id: "6BECDF798C694280"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest6BECDF798C694280.subtitle}"
+			tasks: [{
+				id: "5855592C7CA99842"
+				item: "enigmaticlegacy:hunter_guidebook"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest6BECDF798C694280.title}"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4194A6281F3AF5FE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest6289EAE60A0F0184.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest6289EAE60A0F0184.description2}"
+				"{ftbquests.chapter.enigmatic_oddities.quest6289EAE60A0F0184.description3}"
+				"{ftbquests.chapter.enigmatic_oddities.quest6289EAE60A0F0184.description4}"
+				"{ftbquests.chapter.enigmatic_oddities.quest6289EAE60A0F0184.description5}"
+				"{ftbquests.chapter.enigmatic_oddities.quest6289EAE60A0F0184.description6}"
+				"{ftbquests.chapter.enigmatic_oddities.quest6289EAE60A0F0184.description7}"
+				"{ftbquests.chapter.enigmatic_oddities.quest6289EAE60A0F0184.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest6289EAE60A0F0184.description9}"
+			]
+			hide_dependency_lines: false
+			id: "6289EAE60A0F0184"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest6289EAE60A0F0184.subtitle}"
+			tasks: [{
+				id: "00FE6B7B2581C22F"
+				item: "enigmaticaddons:ode_to_living"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest6289EAE60A0F0184.title}"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6BECDF798C694280"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest831FD7840512AAF.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest831FD7840512AAF.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest831FD7840512AAF.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest831FD7840512AAF.description4}"
+			]
+			hide_dependency_lines: false
+			id: "0831FD7840512AAF"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest831FD7840512AAF.subtitle}"
+			tasks: [{
+				id: "27E3000DE1BE421C"
+				item: "enigmaticaddons:sanguinary_handbook"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest831FD7840512AAF.title}"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest1A587DDB467E7AE0.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest1A587DDB467E7AE0.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest1A587DDB467E7AE0.description3}"
+			]
+			hide_dependency_lines: true
+			id: "1A587DDB467E7AE0"
+			min_width: 340
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest1A587DDB467E7AE0.subtitle}"
+			tasks: [{
+				id: "1130C4864AEE8F4D"
+				item: "enigmaticaddons:false_justice"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest1A587DDB467E7AE0.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest22EB75F6DC75F64E.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest22EB75F6DC75F64E.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest22EB75F6DC75F64E.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest22EB75F6DC75F64E.description4}"
+			]
+			id: "22EB75F6DC75F64E"
+			min_width: 330
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest22EB75F6DC75F64E.subtitle}"
+			tasks: [{
+				id: "41B9588E64A40190"
+				item: "enigmaticlegacy:cosmic_heart"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest22EB75F6DC75F64E.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22EB75F6DC75F64E"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.questD24F4EE539256CC.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.questD24F4EE539256CC.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.questD24F4EE539256CC.description3}"
+			]
+			hide_dependency_lines: false
+			id: "0D24F4EE539256CC"
+			min_width: 320
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.questD24F4EE539256CC.subtitle}"
+			tasks: [{
+				id: "6D42FB001C02011D"
+				item: "enigmaticlegacy:cosmic_cake"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.questD24F4EE539256CC.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest28A668350AE84078.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest28A668350AE84078.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest28A668350AE84078.description3}"
+			]
+			hide_dependency_lines: true
+			id: "28A668350AE84078"
+			min_width: 320
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest28A668350AE84078.subtitle}"
+			tasks: [{
+				id: "6E42BB23F627B02E"
+				item: "enigmaticlegacy:astral_potato"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest28A668350AE84078.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest524E62112A7D0449.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest524E62112A7D0449.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest524E62112A7D0449.description3}"
+			]
+			hide_dependency_lines: true
+			id: "524E62112A7D0449"
+			min_width: 320
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest524E62112A7D0449.subtitle}"
+			tasks: [{
+				id: "4AA8A4FFBBAA349B"
+				item: "enigmaticaddons:astral_potion"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest524E62112A7D0449.title}"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest32FB6F35534360F8.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest32FB6F35534360F8.description2}"
+			]
+			hide_dependency_lines: true
+			id: "32FB6F35534360F8"
+			min_width: 320
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest32FB6F35534360F8.subtitle}"
+			tasks: [{
+				id: "72F4743D6482A26A"
+				item: "enigmaticaddons:ichoroot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest32FB6F35534360F8.title}"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest6E84814D809363ED.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest6E84814D809363ED.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest6E84814D809363ED.description3}"
+			]
+			hide_dependency_lines: true
+			id: "6E84814D809363ED"
+			min_width: 320
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest6E84814D809363ED.subtitle}"
+			tasks: [{
+				id: "7C194B447851A2AB"
+				item: "enigmaticaddons:ichor_droplet"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest6E84814D809363ED.title}"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest3E3C94D9692DA75E.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest3E3C94D9692DA75E.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest3E3C94D9692DA75E.description3}"
+			]
+			hide_dependency_lines: true
+			id: "3E3C94D9692DA75E"
+			min_width: 330
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest3E3C94D9692DA75E.subtitle}"
+			tasks: [{
+				id: "37F338D0B550D6E5"
+				item: "enigmaticaddons:artificial_flower"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest3E3C94D9692DA75E.title}"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest20C95703B97AD05D.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest20C95703B97AD05D.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest20C95703B97AD05D.description3}"
+			]
+			hide_dependency_lines: true
+			id: "20C95703B97AD05D"
+			min_width: 320
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest20C95703B97AD05D.subtitle}"
+			tasks: [{
+				id: "286BEBCBDEADF0E3"
+				item: "enigmaticaddons:primeval_cube"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest20C95703B97AD05D.title}"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["142264209DE37EC3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_oddities.quest7D8EE79E04E932A3.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest7D8EE79E04E932A3.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest7D8EE79E04E932A3.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_oddities.quest7D8EE79E04E932A3.description4}"
+			]
+			hide_dependency_lines: true
+			id: "7D8EE79E04E932A3"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_oddities.quest7D8EE79E04E932A3.subtitle}"
+			tasks: [{
+				id: "1A5360E4FDC6FB14"
+				item: "enigmaticlegacy:infinimeal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_oddities.quest7D8EE79E04E932A3.title}"
+			x: -1.5d
+			y: 3.0d
+		}
+	]
+	title: "{ftbquests.chapter.enigmatic_oddities.title}"
+}

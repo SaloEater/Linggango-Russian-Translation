@@ -122,23 +122,13 @@
 			title: "SECRET"
 			type: "command"
 		}
-		{
-			item: {
-				Count: 1
-				id: "knightquest:creeper_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-		}
 		{ item: "enigmaticaddons:adventure_charm", title: "SECRET", weight: 0.5f }
 		{
 			item: {
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "irons_spellbooks:angel_wing"
 							index: 0

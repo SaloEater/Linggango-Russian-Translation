@@ -1,0 +1,802 @@
+{
+	autofocus_id: "18A26E53B576F0DC"
+	default_hide_dependency_lines: true
+	default_min_width: 330
+	default_quest_shape: "square"
+	filename: "enigmatic_arsenal"
+	group: "0361FC25A57730F8"
+	icon: {
+		Count: 1
+		id: "enigmaticlegacy:etherium_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6D10D65B617CD7E8"
+	images: [
+		{
+			alpha: 60
+			height: 1.7d
+			image: "enigmaticlegacy:item/etherium_ingot"
+			rotation: -16.0d
+			width: 1.7d
+			x: -6.6d
+			y: 0.6d
+		}
+		{
+			alpha: 60
+			height: 1.7d
+			image: "enigmaticlegacy:item/forbidden_axe"
+			rotation: 16.0d
+			width: 1.7d
+			x: 6.6d
+			y: 0.6d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.enigmatic_arsenal.image.hovertext1"
+				"ftbquests.chapter.enigmatic_arsenal.image.hovertext2"
+				"ftbquests.chapter.enigmatic_arsenal.image.hovertext3"
+				"ftbquests.chapter.enigmatic_arsenal.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "enigmaticaddons:item/etherium_frame"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 11
+	parent: "31575DEBB2A21CCD"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.description3}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.description4}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.description5}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.description7}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.description8}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.description9}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.description10}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.description11}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.description12}"
+			]
+			icon: "enigmaticlegacy:etherium_ingot"
+			id: "18A26E53B576F0DC"
+			min_width: 350
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.subtitle}"
+			tasks: [{
+				id: "1FEC3BEC860BF338"
+				title: "{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.task.2300279396726731576.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest18A26E53B576F0DC.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest42C8E654DF742CC9.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest42C8E654DF742CC9.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest42C8E654DF742CC9.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest42C8E654DF742CC9.description4}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest42C8E654DF742CC9.description5}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest42C8E654DF742CC9.description6}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest42C8E654DF742CC9.description7}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest42C8E654DF742CC9.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest42C8E654DF742CC9.description9}"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "42C8E654DF742CC9"
+			min_width: 350
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest42C8E654DF742CC9.subtitle}"
+			tasks: [{
+				id: "1EF0FF2DF70D37DD"
+				title: "{ftbquests.chapter.enigmatic_arsenal.quest42C8E654DF742CC9.task.2229562388431845341.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest42C8E654DF742CC9.title}"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42C8E654DF742CC9"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest71E573B0FA06F143.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest71E573B0FA06F143.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest71E573B0FA06F143.description3}"
+			]
+			hide_dependency_lines: false
+			id: "71E573B0FA06F143"
+			min_width: 310
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest71E573B0FA06F143.subtitle}"
+			tasks: [{
+				id: "11F6A283407D298A"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest71E573B0FA06F143.title}"
+			x: -6.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42C8E654DF742CC9"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest29ACA6AB63C3E7AA.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest29ACA6AB63C3E7AA.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest29ACA6AB63C3E7AA.description3}"
+			]
+			hide_dependency_lines: false
+			id: "29ACA6AB63C3E7AA"
+			min_width: 310
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest29ACA6AB63C3E7AA.subtitle}"
+			tasks: [{
+				id: "5CFC21859730938B"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest29ACA6AB63C3E7AA.title}"
+			x: -5.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42C8E654DF742CC9"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest4453C89C2093494D.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest4453C89C2093494D.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest4453C89C2093494D.description3}"
+			]
+			hide_dependency_lines: false
+			id: "4453C89C2093494D"
+			min_width: 310
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest4453C89C2093494D.subtitle}"
+			tasks: [{
+				id: "50DE74B0C7512F5B"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest4453C89C2093494D.title}"
+			x: -3.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42C8E654DF742CC9"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest51EFFA8C1E59A886.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest51EFFA8C1E59A886.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest51EFFA8C1E59A886.description3}"
+			]
+			hide_dependency_lines: false
+			id: "51EFFA8C1E59A886"
+			min_width: 310
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest51EFFA8C1E59A886.subtitle}"
+			tasks: [{
+				id: "784CE35D545550EE"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest51EFFA8C1E59A886.title}"
+			x: -2.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest205D71E0D1366404.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest205D71E0D1366404.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest205D71E0D1366404.description3}"
+			]
+			hide_dependency_lines: false
+			id: "205D71E0D1366404"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest205D71E0D1366404.subtitle}"
+			tasks: [{
+				id: "28C6413EB4C3B18E"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest205D71E0D1366404.title}"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest11B0608FB7FF91A9.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest11B0608FB7FF91A9.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest11B0608FB7FF91A9.description3}"
+			]
+			hide_dependency_lines: false
+			id: "11B0608FB7FF91A9"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest11B0608FB7FF91A9.subtitle}"
+			tasks: [{
+				id: "39E41B32E9183EB9"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest11B0608FB7FF91A9.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest659797E984ABA406.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest659797E984ABA406.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest659797E984ABA406.description3}"
+			]
+			hide_dependency_lines: false
+			id: "659797E984ABA406"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest659797E984ABA406.subtitle}"
+			tasks: [{
+				id: "1387FB9B86B6342E"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest659797E984ABA406.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest4FA51BD9C03C9A8A.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest4FA51BD9C03C9A8A.description2}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest4FA51BD9C03C9A8A.description3}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest4FA51BD9C03C9A8A.description4}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest4FA51BD9C03C9A8A.description5}"
+			]
+			hide_dependency_lines: false
+			id: "4FA51BD9C03C9A8A"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest4FA51BD9C03C9A8A.subtitle}"
+			tasks: [{
+				id: "59D19E53A6D6CE48"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest4FA51BD9C03C9A8A.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest5066ACAB7AC9DCD3.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest5066ACAB7AC9DCD3.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest5066ACAB7AC9DCD3.description3}"
+			]
+			hide_dependency_lines: false
+			id: "5066ACAB7AC9DCD3"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest5066ACAB7AC9DCD3.subtitle}"
+			tasks: [{
+				id: "48BF8CC0663FFD75"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest5066ACAB7AC9DCD3.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"205D71E0D1366404"
+				"11B0608FB7FF91A9"
+				"659797E984ABA406"
+			]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest15F96218B42CFC97.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest15F96218B42CFC97.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest15F96218B42CFC97.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest15F96218B42CFC97.description4}"
+			]
+			hide_dependency_lines: false
+			id: "15F96218B42CFC97"
+			min_width: 340
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest15F96218B42CFC97.subtitle}"
+			tasks: [{
+				id: "4D0D3B6DCC9CD9D5"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:astral_breaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest15F96218B42CFC97.title}"
+			x: 0.0d
+			y: 3.125d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest41818BD20DC4C176.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest41818BD20DC4C176.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest41818BD20DC4C176.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest41818BD20DC4C176.description4}"
+			]
+			hide_dependency_lines: true
+			id: "41818BD20DC4C176"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest41818BD20DC4C176.subtitle}"
+			tasks: [{
+				id: "06AB3E2C10150404"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:forbidden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest41818BD20DC4C176.title}"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest642242E190E9BFA4.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest642242E190E9BFA4.description2}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest642242E190E9BFA4.description3}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest642242E190E9BFA4.description4}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest642242E190E9BFA4.description5}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest642242E190E9BFA4.description6}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest642242E190E9BFA4.description7}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest642242E190E9BFA4.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest642242E190E9BFA4.description9}"
+			]
+			hide_dependency_lines: true
+			id: "642242E190E9BFA4"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest642242E190E9BFA4.subtitle}"
+			tasks: [{
+				id: "66BE5C39C3BECBA8"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest642242E190E9BFA4.title}"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.description2}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.description3}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.description4}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.description5}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.description6}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.description7}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.description8}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.description9}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.description10}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.description11}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.description12}"
+			]
+			hide_dependency_lines: true
+			id: "65F5B2791E81AA6D"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.subtitle}"
+			tasks: [{
+				id: "43D25BF95A328CD3"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest65F5B2791E81AA6D.title}"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest68ACB4E9247D2742.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest68ACB4E9247D2742.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest68ACB4E9247D2742.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest68ACB4E9247D2742.description4}"
+			]
+			hide_dependency_lines: false
+			id: "68ACB4E9247D2742"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest68ACB4E9247D2742.subtitle}"
+			tasks: [{
+				id: "4F1AFDB07924BE28"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest68ACB4E9247D2742.title}"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68ACB4E9247D2742"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest4E1098110E3352E3.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest4E1098110E3352E3.description2}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest4E1098110E3352E3.description3}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest4E1098110E3352E3.description4}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest4E1098110E3352E3.description5}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest4E1098110E3352E3.description6}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest4E1098110E3352E3.description7}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest4E1098110E3352E3.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest4E1098110E3352E3.description9}"
+			]
+			hide_dependency_lines: false
+			id: "4E1098110E3352E3"
+			min_width: 340
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest4E1098110E3352E3.subtitle}"
+			tasks: [{
+				id: "6206947D1EB0C8B1"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:chaos_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest4E1098110E3352E3.title}"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest53239CED2D9CC957.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest53239CED2D9CC957.description2}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest53239CED2D9CC957.description3}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest53239CED2D9CC957.description4}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest53239CED2D9CC957.description5}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest53239CED2D9CC957.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest53239CED2D9CC957.description7}"
+			]
+			hide_dependency_lines: true
+			id: "53239CED2D9CC957"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest53239CED2D9CC957.subtitle}"
+			tasks: [{
+				id: "4EE0054F29977C76"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:disaster_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest53239CED2D9CC957.title}"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest642C07B8AC31E455.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest642C07B8AC31E455.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest642C07B8AC31E455.description3}"
+			]
+			hide_dependency_lines: true
+			id: "642C07B8AC31E455"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest642C07B8AC31E455.subtitle}"
+			tasks: [{
+				id: "7962A3B910FC247D"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:evil_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest642C07B8AC31E455.title}"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5066ACAB7AC9DCD3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest400B9AD568521693.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest400B9AD568521693.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest400B9AD568521693.description3}"
+			]
+			hide_dependency_lines: false
+			id: "400B9AD568521693"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest400B9AD568521693.subtitle}"
+			tasks: [{
+				id: "591DA8BD972A5DFF"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:astral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest400B9AD568521693.title}"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest7A77A75C1DE40FB4.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest7A77A75C1DE40FB4.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest7A77A75C1DE40FB4.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest7A77A75C1DE40FB4.description4}"
+			]
+			hide_dependency_lines: true
+			id: "7A77A75C1DE40FB4"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest7A77A75C1DE40FB4.subtitle}"
+			tasks: [{
+				id: "397491991D032BC0"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:dragon_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest7A77A75C1DE40FB4.title}"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest5B91776E989EBB4C.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest5B91776E989EBB4C.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest5B91776E989EBB4C.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest5B91776E989EBB4C.description4}"
+			]
+			hide_dependency_lines: true
+			id: "5B91776E989EBB4C"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest5B91776E989EBB4C.subtitle}"
+			tasks: [{
+				id: "1298154DB9DD93A4"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:quartz_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest5B91776E989EBB4C.title}"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest42A761E574B74D3C.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest42A761E574B74D3C.description2}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest42A761E574B74D3C.description3}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest42A761E574B74D3C.description4}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest42A761E574B74D3C.description5}"
+			]
+			hide_dependency_lines: true
+			id: "42A761E574B74D3C"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest42A761E574B74D3C.subtitle}"
+			tasks: [{
+				id: "62660DC4F238DC48"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:extradimensional_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest42A761E574B74D3C.title}"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18A26E53B576F0DC"]
+			description: [
+				"{ftbquests.chapter.enigmatic_arsenal.quest609597A5D62420E5.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest609597A5D62420E5.description2}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest609597A5D62420E5.description3}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest609597A5D62420E5.description4}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest609597A5D62420E5.description5}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest609597A5D62420E5.description6}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest609597A5D62420E5.description7}"
+				"{ftbquests.chapter.enigmatic_arsenal.quest609597A5D62420E5.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_arsenal.quest609597A5D62420E5.description9}"
+			]
+			hide_dependency_lines: true
+			id: "609597A5D62420E5"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_arsenal.quest609597A5D62420E5.subtitle}"
+			tasks: [{
+				id: "7A570560DFCDC247"
+				item: "enigmaticaddons:the_bless"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_arsenal.quest609597A5D62420E5.title}"
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "{ftbquests.chapter.enigmatic_arsenal.title}"
+}

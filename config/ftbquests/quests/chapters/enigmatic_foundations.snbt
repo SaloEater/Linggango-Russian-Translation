@@ -1,0 +1,483 @@
+{
+	autofocus_id: "4AFE2E225F91B612"
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: "square"
+	filename: "enigmatic_foundations"
+	group: "0361FC25A57730F8"
+	icon: "enigmaticlegacy:iron_ring"
+	id: "74B48BCBAAAB8006"
+	images: [
+		{
+			alpha: 60
+			height: 1.7d
+			image: "enigmaticlegacy:item/iron_ring"
+			rotation: -14.0d
+			width: 1.7d
+			x: -6.6d
+			y: 0.4d
+		}
+		{
+			alpha: 60
+			height: 1.7d
+			image: "enigmaticlegacy:item/astral_dust"
+			rotation: 16.0d
+			width: 1.7d
+			x: 4.432937878388188d
+			y: -0.3255406273902821d
+		}
+		{
+			alpha: 55
+			height: 1.5d
+			image: "enigmaticlegacy:item/etherium_ingot"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 5.4d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.enigmatic_foundations.image.hovertext1"
+				"ftbquests.chapter.enigmatic_foundations.image.hovertext2"
+				"ftbquests.chapter.enigmatic_foundations.image.hovertext3"
+				"ftbquests.chapter.enigmatic_foundations.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "createdeco:block/palettes/hull/industrial_iron_hull_front"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 3
+	parent: "31575DEBB2A21CCD"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest4AFE2E225F91B612.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest4AFE2E225F91B612.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest4AFE2E225F91B612.description3}"
+				"{ftbquests.chapter.enigmatic_foundations.quest4AFE2E225F91B612.description4}"
+				"{ftbquests.chapter.enigmatic_foundations.quest4AFE2E225F91B612.description5}"
+				"{ftbquests.chapter.enigmatic_foundations.quest4AFE2E225F91B612.description6}"
+				"{ftbquests.chapter.enigmatic_foundations.quest4AFE2E225F91B612.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest4AFE2E225F91B612.description8}"
+			]
+			icon: "enigmaticlegacy:iron_ring"
+			id: "4AFE2E225F91B612"
+			min_width: 340
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest4AFE2E225F91B612.subtitle}"
+			tasks: [{
+				id: "50B2D79BB68FA88E"
+				title: "{ftbquests.chapter.enigmatic_foundations.quest4AFE2E225F91B612.task.5814947132671502478.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest4AFE2E225F91B612.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AFE2E225F91B612"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest609C4C39B3D25D8C.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest609C4C39B3D25D8C.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest609C4C39B3D25D8C.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest609C4C39B3D25D8C.description4}"
+			]
+			id: "609C4C39B3D25D8C"
+			min_width: 320
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest609C4C39B3D25D8C.subtitle}"
+			tasks: [{
+				id: "5F22421CF73253E9"
+				item: "enigmaticlegacy:iron_ring"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest609C4C39B3D25D8C.title}"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["609C4C39B3D25D8C"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest31D8D91AF9F289D0.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest31D8D91AF9F289D0.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest31D8D91AF9F289D0.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest31D8D91AF9F289D0.description4}"
+			]
+			id: "31D8D91AF9F289D0"
+			min_width: 320
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest31D8D91AF9F289D0.subtitle}"
+			tasks: [{
+				id: "37D6A4F01E503160"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest31D8D91AF9F289D0.title}"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["609C4C39B3D25D8C"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest1483A802D8EFAEF7.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest1483A802D8EFAEF7.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest1483A802D8EFAEF7.description3}"
+			]
+			id: "1483A802D8EFAEF7"
+			min_width: 320
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest1483A802D8EFAEF7.subtitle}"
+			tasks: [{
+				id: "55468ED0903C3792"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest1483A802D8EFAEF7.title}"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1483A802D8EFAEF7"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest781B6272347D309E.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest781B6272347D309E.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest781B6272347D309E.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest781B6272347D309E.description4}"
+			]
+			id: "781B6272347D309E"
+			min_width: 320
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest781B6272347D309E.subtitle}"
+			tasks: [{
+				id: "5388679080F4FC76"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest781B6272347D309E.title}"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["609C4C39B3D25D8C"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest5AA763A72417F48A.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest5AA763A72417F48A.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest5AA763A72417F48A.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest5AA763A72417F48A.description4}"
+			]
+			id: "5AA763A72417F48A"
+			min_width: 320
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest5AA763A72417F48A.subtitle}"
+			tasks: [{
+				id: "6FBE617E0CDEDB15"
+				item: "enigmaticlegacy:ender_ring"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest5AA763A72417F48A.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31D8D91AF9F289D0"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest2D5FF6F8E26B6743.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest2D5FF6F8E26B6743.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest2D5FF6F8E26B6743.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest2D5FF6F8E26B6743.description4}"
+			]
+			id: "2D5FF6F8E26B6743"
+			min_width: 320
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest2D5FF6F8E26B6743.subtitle}"
+			tasks: [{
+				id: "381058C0DB4F2053"
+				item: "enigmaticaddons:quartz_ring"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest2D5FF6F8E26B6743.title}"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31D8D91AF9F289D0"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest1E44EF435BBA4EE0.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest1E44EF435BBA4EE0.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest1E44EF435BBA4EE0.description3}"
+				"{ftbquests.chapter.enigmatic_foundations.quest1E44EF435BBA4EE0.description4}"
+				"{ftbquests.chapter.enigmatic_foundations.quest1E44EF435BBA4EE0.description5}"
+				"{ftbquests.chapter.enigmatic_foundations.quest1E44EF435BBA4EE0.description6}"
+				"{ftbquests.chapter.enigmatic_foundations.quest1E44EF435BBA4EE0.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest1E44EF435BBA4EE0.description8}"
+			]
+			id: "1E44EF435BBA4EE0"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest1E44EF435BBA4EE0.subtitle}"
+			tasks: [{
+				id: "6E2D55613391DCA0"
+				item: "enigmaticaddons:avarice_ring"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest1E44EF435BBA4EE0.title}"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5AA763A72417F48A"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.description3}"
+				"{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.description4}"
+				"{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.description5}"
+				"{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.description6}"
+				"{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.description7}"
+				"{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.description8}"
+				"{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.description10}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.description11}"
+			]
+			id: "6BEEE075C859F8A9"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.subtitle}"
+			tasks: [{
+				id: "0B4613ABBC761A0B"
+				item: "enigmaticaddons:earth_promise"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest6BEEE075C859F8A9.title}"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4AFE2E225F91B612"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest7D7AA8A5C409FDB4.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest7D7AA8A5C409FDB4.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest7D7AA8A5C409FDB4.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest7D7AA8A5C409FDB4.description4}"
+			]
+			id: "7D7AA8A5C409FDB4"
+			min_width: 330
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest7D7AA8A5C409FDB4.subtitle}"
+			tasks: [{
+				id: "73EF9B85778AE4B1"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest7D7AA8A5C409FDB4.title}"
+			x: 0.0d
+			y: 1.875d
+		}
+		{
+			dependencies: ["7D7AA8A5C409FDB4"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest40F62B6A9002A2EF.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest40F62B6A9002A2EF.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest40F62B6A9002A2EF.description3}"
+			]
+			id: "40F62B6A9002A2EF"
+			min_width: 320
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest40F62B6A9002A2EF.subtitle}"
+			tasks: [{
+				id: "5EB70ED13BC53F38"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest40F62B6A9002A2EF.title}"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["40F62B6A9002A2EF"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest4DEAFFF39B392F5F.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest4DEAFFF39B392F5F.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest4DEAFFF39B392F5F.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest4DEAFFF39B392F5F.description4}"
+				"[\"\",{\"color\":\"#D9A5FF\",\"underlined\":true,\"translate\":\"ftbquests.chapter.enigmatic_foundations.quest4DEAFFF39B392F5F.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6D10D65B617CD7E8\"}}]"
+			]
+			id: "4DEAFFF39B392F5F"
+			min_width: 330
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest4DEAFFF39B392F5F.subtitle}"
+			tasks: [{
+				id: "2BF77091033484D9"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest4DEAFFF39B392F5F.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D7AA8A5C409FDB4"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest4F23142E43645680.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest4F23142E43645680.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest4F23142E43645680.description3}"
+			]
+			id: "4F23142E43645680"
+			min_width: 320
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest4F23142E43645680.subtitle}"
+			tasks: [{
+				id: "7288C89B954DF357"
+				item: "enigmaticlegacy:ender_rod"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest4F23142E43645680.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DEAFFF39B392F5F"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest6B8B602A57DBEFE0.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest6B8B602A57DBEFE0.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest6B8B602A57DBEFE0.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest6B8B602A57DBEFE0.description4}"
+			]
+			id: "6B8B602A57DBEFE0"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest6B8B602A57DBEFE0.subtitle}"
+			tasks: [{
+				id: "59569304002F22C5"
+				item: "enigmaticlegacy:end_anchor"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest6B8B602A57DBEFE0.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4AFE2E225F91B612"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest627BD1C191884874.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest627BD1C191884874.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest627BD1C191884874.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest627BD1C191884874.description4}"
+			]
+			id: "627BD1C191884874"
+			min_width: 340
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest627BD1C191884874.subtitle}"
+			tasks: [{
+				id: "22A3E55184C3283C"
+				item: "enigmaticlegacy:astral_fruit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest627BD1C191884874.title}"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4AFE2E225F91B612"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest35BDB4F583629CCF.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest35BDB4F583629CCF.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest35BDB4F583629CCF.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest35BDB4F583629CCF.description4}"
+			]
+			id: "35BDB4F583629CCF"
+			min_width: 340
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest35BDB4F583629CCF.subtitle}"
+			tasks: [{
+				id: "67C864774F5581B8"
+				item: "enigmaticlegacy:ichor_bottle"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest35BDB4F583629CCF.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4AFE2E225F91B612"]
+			description: [
+				"{ftbquests.chapter.enigmatic_foundations.quest4661EAA8FBF0B944.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest4661EAA8FBF0B944.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest4661EAA8FBF0B944.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_foundations.quest4661EAA8FBF0B944.description4}"
+			]
+			id: "4661EAA8FBF0B944"
+			min_width: 340
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_foundations.quest4661EAA8FBF0B944.subtitle}"
+			tasks: [{
+				id: "5CE095BDD9BC4897"
+				item: "enigmaticaddons:void_tome"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_foundations.quest4661EAA8FBF0B944.title}"
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+	title: "{ftbquests.chapter.enigmatic_foundations.title}"
+}

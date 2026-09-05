@@ -1,0 +1,2437 @@
+{
+	autofocus_id: "47B10479B0543EA2"
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: "square"
+	filename: "lethality"
+	group: "0FD8C2D2A2339C0B"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "lethality:item/gaels_greatsword_gui"
+		}
+	}
+	id: "20FAEEFB40B0A5B7"
+	images: [
+		{
+			height: 2.0d
+			image: "customtextures:textures/lethality_title.png"
+			rotation: 0.0d
+			width: 9.46d
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			alpha: 70
+			height: 2.2d
+			image: "lethality:item/nihilite"
+			order: -2
+			rotation: -16.0d
+			width: 2.2d
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dev: true
+			height: 0.9d
+			hover: [
+				"ftbquests.chapter.lethality.image.hovertext1"
+				"ftbquests.chapter.lethality.image.hovertext2"
+				"ftbquests.chapter.lethality.image.hovertext3"
+				"ftbquests.chapter.lethality.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 0.9d
+			x: -8.0d
+			y: -9.0d
+		}
+	]
+	order_index: 11
+	parent: "2F1A384416C57A23"
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description3}"
+				""
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description4}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description5}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description6}"
+				""
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description7}"
+				""
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description8}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description9}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description10}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description11}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description12}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description13}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description14}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description15}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description16}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description17}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description18}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description19}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description20}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description21}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description22}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description23}"
+				"{ftbquests.chapter.lethality.quest47B10479B0543EA2.description24}"
+				""
+				"[\"\",{\"color\":\"#8FCB3F\",\"underlined\":true,\"translate\":\"ftbquests.chapter.lethality.quest47B10479B0543EA2.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2F1A384416C57A23\"}}]"
+				"[\"\",{\"color\":\"#C0392B\",\"underlined\":true,\"translate\":\"ftbquests.chapter.lethality.quest47B10479B0543EA2.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3AE3B2BE4A65CEF6\"}}]"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/gaels_greatsword_gui"
+				}
+			}
+			id: "47B10479B0543EA2"
+			rewards: [
+				{
+					id: "49421FC3898640B9"
+					item: "lethality:mate"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16B1FF8C7E383909"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			size: 2.2d
+			subtitle: "{ftbquests.chapter.lethality.quest47B10479B0543EA2.subtitle}"
+			tasks: [{
+				id: "7054753E3C6068B7"
+				item: {
+					Count: 1
+					id: "lethality:wooden_bafs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest47B10479B0543EA2.title}"
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["47B10479B0543EA2"]
+			description: ["{ftbquests.chapter.lethality.quest272241CEF3ADBE95.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/nihilite"
+				}
+			}
+			id: "272241CEF3ADBE95"
+			rewards: [
+				{
+					id: "35BC0AB123D853E7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D96324F314A26ED"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest272241CEF3ADBE95.subtitle}"
+			tasks: [{
+				id: "5A44F007B99D5A5A"
+				title: "{ftbquests.chapter.lethality.quest272241CEF3ADBE95.task.6504587677799373402.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.lethality.quest272241CEF3ADBE95.title}"
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["272241CEF3ADBE95"]
+			description: [
+				"{ftbquests.chapter.lethality.quest3A4691ECB57299D6.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest3A4691ECB57299D6.description2}"
+			]
+			icon: "lethality:nihilite"
+			id: "3A4691ECB57299D6"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest3A4691ECB57299D6.subtitle}"
+			tasks: [{
+				id: "223F0F1D27190EA5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lethality:nihilite"
+							}
+							{
+								Count: 1b
+								id: "lethality:raw_nihilite"
+							}
+							{
+								Count: 1b
+								id: "lethality:nihilite_ore"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.lethality.quest3A4691ECB57299D6.task.2467707738706742949.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest3A4691ECB57299D6.title}"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A4691ECB57299D6"]
+			description: [
+				"{ftbquests.chapter.lethality.quest26CB66594B824AE9.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest26CB66594B824AE9.description2}"
+			]
+			icon: "lethality:annihilation_alloy"
+			id: "26CB66594B824AE9"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest26CB66594B824AE9.subtitle}"
+			tasks: [{
+				id: "643B86D6A4ABC76A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lethality:pixie_alloy"
+							}
+							{
+								Count: 1b
+								id: "lethality:annihilation_alloy"
+							}
+							{
+								Count: 1b
+								id: "lethality:improbability_steel"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.lethality.quest26CB66594B824AE9.task.7222514683862566762.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest26CB66594B824AE9.title}"
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26CB66594B824AE9"]
+			description: [
+				"{ftbquests.chapter.lethality.quest722E0C808E7ECD5A.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest722E0C808E7ECD5A.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest722E0C808E7ECD5A.description3}"
+			]
+			icon: "lethality:blood_coin"
+			id: "722E0C808E7ECD5A"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest722E0C808E7ECD5A.subtitle}"
+			tasks: [{
+				id: "37676C635647C354"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lethality:blood_coin"
+							}
+							{
+								Count: 1b
+								id: "lethality:soft_cloth"
+							}
+							{
+								Count: 1b
+								id: "lethality:escarapela"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.lethality.quest722E0C808E7ECD5A.task.3992278768592339796.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest722E0C808E7ECD5A.title}"
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["272241CEF3ADBE95"]
+			description: [
+				"{ftbquests.chapter.lethality.quest69CAEEFF31FF3F3B.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest69CAEEFF31FF3F3B.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/battle_maid_helmet"
+				}
+			}
+			id: "69CAEEFF31FF3F3B"
+			rewards: [
+				{
+					id: "29E088D2F80627E8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C27F3A3B5A670E1"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest69CAEEFF31FF3F3B.subtitle}"
+			tasks: [{
+				id: "7B076BE425369180"
+				title: "{ftbquests.chapter.lethality.quest69CAEEFF31FF3F3B.task.8865173019123159424.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.lethality.quest69CAEEFF31FF3F3B.title}"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69CAEEFF31FF3F3B"]
+			description: [
+				"{ftbquests.chapter.lethality.quest186C7F821FAB3AC3.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest186C7F821FAB3AC3.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest186C7F821FAB3AC3.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:battle_maid_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "186C7F821FAB3AC3"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest186C7F821FAB3AC3.subtitle}"
+			tasks: [{
+				id: "34DBB9D103BEF0EC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lethality:battle_maid_helmet"
+							}
+							{
+								Count: 1b
+								id: "lethality:battle_maid_chestplate"
+							}
+							{
+								Count: 1b
+								id: "lethality:battle_maid_leggings"
+							}
+							{
+								Count: 1b
+								id: "lethality:battle_maid_boots"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.lethality.quest186C7F821FAB3AC3.task.3808842217234034924.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest186C7F821FAB3AC3.title}"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["186C7F821FAB3AC3"]
+			description: [
+				"{ftbquests.chapter.lethality.quest16435E4634C146E2.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest16435E4634C146E2.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest16435E4634C146E2.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:hf_battle_maid_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "16435E4634C146E2"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest16435E4634C146E2.subtitle}"
+			tasks: [{
+				id: "316AF068E7293B49"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lethality:hf_battle_maid_helmet"
+							}
+							{
+								Count: 1b
+								id: "lethality:hf_battle_maid_chestplate"
+							}
+							{
+								Count: 1b
+								id: "lethality:hf_battle_maid_leggings"
+							}
+							{
+								Count: 1b
+								id: "lethality:hf_battle_maid_boots"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.lethality.quest16435E4634C146E2.task.3560922788735302473.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest16435E4634C146E2.title}"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["69CAEEFF31FF3F3B"]
+			description: ["{ftbquests.chapter.lethality.quest4A43B783C917EF0B.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lethality:item/pale_branch"
+				}
+			}
+			id: "4A43B783C917EF0B"
+			rewards: [
+				{
+					id: "2B47752B18AB5FA5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4851A0EC5B3A6F37"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest4A43B783C917EF0B.subtitle}"
+			tasks: [{
+				id: "52E169436DEC07D8"
+				title: "{ftbquests.chapter.lethality.quest4A43B783C917EF0B.task.5972170319197898712.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.lethality.quest4A43B783C917EF0B.title}"
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A43B783C917EF0B"]
+			description: [
+				"{ftbquests.chapter.lethality.quest6200695B0C165C4A.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest6200695B0C165C4A.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest6200695B0C165C4A.description3}"
+			]
+			icon: "lethality:pale_branch"
+			id: "6200695B0C165C4A"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest6200695B0C165C4A.subtitle}"
+			tasks: [{
+				id: "7F3671129860E7D2"
+				item: "lethality:pale_branch"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest6200695B0C165C4A.title}"
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6200695B0C165C4A"]
+			description: [
+				"{ftbquests.chapter.lethality.quest7A37821E24091892.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest7A37821E24091892.description2}"
+			]
+			icon: "lethality:warden_spine"
+			id: "7A37821E24091892"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest7A37821E24091892.subtitle}"
+			tasks: [{
+				id: "45B23FC8B2AB00E2"
+				item: "lethality:warden_spine"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest7A37821E24091892.title}"
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A37821E24091892"]
+			description: [
+				"{ftbquests.chapter.lethality.quest2460652088617EB3.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest2460652088617EB3.description2}"
+			]
+			icon: "lethality:charged_redstone_piece"
+			id: "2460652088617EB3"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest2460652088617EB3.subtitle}"
+			tasks: [{
+				id: "7E5F2F67BE81DE5F"
+				item: "lethality:charged_redstone_piece"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest2460652088617EB3.title}"
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2460652088617EB3"]
+			description: [
+				"{ftbquests.chapter.lethality.quest18A0F48E266F1C92.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest18A0F48E266F1C92.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest18A0F48E266F1C92.description3}"
+			]
+			icon: "lethality:backup_sos"
+			id: "18A0F48E266F1C92"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest18A0F48E266F1C92.subtitle}"
+			tasks: [{
+				id: "16BF6DA2E11B447A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lethality:backup_sos"
+							}
+							{
+								Count: 1b
+								id: "lethality:ultra_backup_sos"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.lethality.quest18A0F48E266F1C92.task.1639149335714940026.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest18A0F48E266F1C92.title}"
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["18A0F48E266F1C92"]
+			description: [
+				"{ftbquests.chapter.lethality.quest6FC707AB838F5571.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest6FC707AB838F5571.description2}"
+			]
+			icon: "lethality:flowey"
+			id: "6FC707AB838F5571"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest6FC707AB838F5571.subtitle}"
+			tasks: [{
+				id: "649774C74403E06E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lethality:flowey"
+							}
+							{
+								Count: 1b
+								id: "lethality:sorrowful_ghast"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.lethality.quest6FC707AB838F5571.task.7248390524464521326.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest6FC707AB838F5571.title}"
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A43B783C917EF0B"]
+			description: ["{ftbquests.chapter.lethality.quest505B94628A699EFC.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "farmersdelight:item/chocolate_pie"
+				}
+			}
+			id: "505B94628A699EFC"
+			rewards: [
+				{
+					id: "7016152F9FE73828"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CC4B4F947F0FCA6"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest505B94628A699EFC.subtitle}"
+			tasks: [{
+				id: "1624D990136FFC7C"
+				title: "{ftbquests.chapter.lethality.quest505B94628A699EFC.task.1595639380820622460.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.lethality.quest505B94628A699EFC.title}"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["505B94628A699EFC"]
+			description: [
+				"{ftbquests.chapter.lethality.quest12E236249D82D39F.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest12E236249D82D39F.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest12E236249D82D39F.description3}"
+			]
+			icon: "lethality:mate"
+			id: "12E236249D82D39F"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest12E236249D82D39F.subtitle}"
+			tasks: [{
+				id: "16A4098E56A1A0BC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lethality:mate"
+							}
+							{
+								Count: 1b
+								id: "lethality:mate_dulce"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.lethality.quest12E236249D82D39F.task.1631439471958401212.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest12E236249D82D39F.title}"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12E236249D82D39F"]
+			description: [
+				"{ftbquests.chapter.lethality.quest15770ADE6EE4B205.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest15770ADE6EE4B205.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest15770ADE6EE4B205.description3}"
+			]
+			icon: "lethality:alfajor_de_maicena"
+			id: "15770ADE6EE4B205"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest15770ADE6EE4B205.subtitle}"
+			tasks: [{
+				id: "4F8912743D3CABCC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lethality:alfajor_de_maicena"
+							}
+							{
+								Count: 1b
+								id: "lethality:fairy_pickle"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.lethality.quest15770ADE6EE4B205.task.5731132291258559436.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest15770ADE6EE4B205.title}"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47B10479B0543EA2"]
+			description: [
+				"{ftbquests.chapter.lethality.quest1E99C5C6761C465C.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest1E99C5C6761C465C.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest1E99C5C6761C465C.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:iron_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E99C5C6761C465C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34219D3AA6C2BF0E"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.lethality.quest1E99C5C6761C465C.subtitle}"
+			tasks: [{
+				id: "342CE2FECB2ED5C9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lethality:wooden_bafs"
+							}
+							{
+								Count: 1b
+								id: "lethality:stone_bafs"
+							}
+							{
+								Count: 1b
+								id: "lethality:iron_bafs"
+							}
+							{
+								Count: 1b
+								id: "lethality:golden_bafs"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.lethality.quest1E99C5C6761C465C.task.3759629372905936329.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest1E99C5C6761C465C.title}"
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E99C5C6761C465C"]
+			description: ["{ftbquests.chapter.lethality.quest337A6BB1E127DE9B.description1}"]
+			icon: {
+				Count: 1
+				id: "lethality:diamond_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "337A6BB1E127DE9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "200320510C10FC73"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.lethality.quest337A6BB1E127DE9B.subtitle}"
+			tasks: [{
+				id: "76AED4F47313005E"
+				item: {
+					Count: 1
+					id: "lethality:diamond_bafs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest337A6BB1E127DE9B.title}"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["337A6BB1E127DE9B"]
+			description: [
+				"{ftbquests.chapter.lethality.quest4C863D0B5F1E9E42.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest4C863D0B5F1E9E42.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:ruby_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C863D0B5F1E9E42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BEAD22E8F556B66"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.lethality.quest4C863D0B5F1E9E42.subtitle}"
+			tasks: [{
+				id: "515034ED510BD89F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lethality:ruby_bafs"
+							}
+							{
+								Count: 1b
+								id: "lethality:topaz_bafs"
+							}
+							{
+								Count: 1b
+								id: "lethality:sapphire_bafs"
+							}
+							{
+								Count: 1b
+								id: "lethality:onyx_bafs"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.lethality.quest4C863D0B5F1E9E42.task.5859241309080639647.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest4C863D0B5F1E9E42.title}"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4C863D0B5F1E9E42"]
+			description: ["{ftbquests.chapter.lethality.quest74BB7C906B5413C0.description1}"]
+			icon: {
+				Count: 1
+				id: "lethality:netherite_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "74BB7C906B5413C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68013DE4BE392F2C"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.lethality.quest74BB7C906B5413C0.subtitle}"
+			tasks: [{
+				id: "65FD8A1B9F1B6AB7"
+				item: {
+					Count: 1
+					id: "lethality:netherite_bafs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest74BB7C906B5413C0.title}"
+			x: 2.1d
+			y: -3.5d
+		}
+		{
+			dependencies: ["74BB7C906B5413C0"]
+			description: ["{ftbquests.chapter.lethality.quest43E76A3CF8B77FF7.description1}"]
+			icon: {
+				Count: 1
+				id: "lethality:dimlite_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "43E76A3CF8B77FF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C89CB50F0A503BF"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.lethality.quest43E76A3CF8B77FF7.subtitle}"
+			tasks: [{
+				id: "1FEFA9EAC86DEE54"
+				item: {
+					Count: 1
+					id: "lethality:dimlite_bafs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest43E76A3CF8B77FF7.title}"
+			x: 4.8999999999999995d
+			y: -3.5d
+		}
+		{
+			dependencies: ["43E76A3CF8B77FF7"]
+			description: ["{ftbquests.chapter.lethality.quest38F1FD26591D5F7D.description1}"]
+			icon: {
+				Count: 1
+				id: "lethality:virentium_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "38F1FD26591D5F7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "317F23839EC4805A"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.lethality.quest38F1FD26591D5F7D.subtitle}"
+			tasks: [{
+				id: "150FF08CDBA0C4CB"
+				item: {
+					Count: 1
+					id: "lethality:virentium_bafs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest38F1FD26591D5F7D.title}"
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["38F1FD26591D5F7D"]
+			description: ["{ftbquests.chapter.lethality.quest130E2CBBE367AF22.description1}"]
+			icon: {
+				Count: 1
+				id: "lethality:cosmilite_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "130E2CBBE367AF22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "452154A1D72B8B00"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.lethality.quest130E2CBBE367AF22.subtitle}"
+			tasks: [{
+				id: "1254C100CF63E82B"
+				item: {
+					Count: 1
+					id: "lethality:cosmilite_bafs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest130E2CBBE367AF22.title}"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["130E2CBBE367AF22"]
+			description: ["{ftbquests.chapter.lethality.quest4A2891DDA921E782.description1}"]
+			icon: {
+				Count: 1
+				id: "lethality:iridium_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4A2891DDA921E782"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ADB8AF3A16343B8"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.lethality.quest4A2891DDA921E782.subtitle}"
+			tasks: [{
+				id: "718F8EB10CC958E4"
+				item: {
+					Count: 1
+					id: "lethality:iridium_bafs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest4A2891DDA921E782.title}"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A2891DDA921E782"]
+			description: [
+				"{ftbquests.chapter.lethality.quest161E8CD92B2C1F55.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest161E8CD92B2C1F55.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:conductite_bafpb"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "161E8CD92B2C1F55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66F3C4159ADCE431"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.lethality.quest161E8CD92B2C1F55.subtitle}"
+			tasks: [{
+				id: "2F6D5086A486B769"
+				item: {
+					Count: 1
+					id: "lethality:conductite_bafpb"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest161E8CD92B2C1F55.title}"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["161E8CD92B2C1F55"]
+			description: ["{ftbquests.chapter.lethality.quest439A871959CCED5F.description1}"]
+			icon: {
+				Count: 1
+				id: "lethality:hellspec_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "439A871959CCED5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E713C81424110A7"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.lethality.quest439A871959CCED5F.subtitle}"
+			tasks: [{
+				id: "6B931B1498A98B28"
+				item: {
+					Count: 1
+					id: "lethality:hellspec_bafs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest439A871959CCED5F.title}"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["439A871959CCED5F"]
+			description: ["{ftbquests.chapter.lethality.quest24D4BE97D9F0CE61.description1}"]
+			icon: {
+				Count: 1
+				id: "lethality:void_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24D4BE97D9F0CE61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "678216AFD391D6A3"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.lethality.quest24D4BE97D9F0CE61.subtitle}"
+			tasks: [{
+				id: "45827F68C38CA283"
+				item: {
+					Count: 1
+					id: "lethality:void_bafs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest24D4BE97D9F0CE61.title}"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24D4BE97D9F0CE61"]
+			description: [
+				"{ftbquests.chapter.lethality.quest282F10B2236B74B3.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest282F10B2236B74B3.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:nyxium_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "282F10B2236B74B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E74A9DB12602273"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.lethality.quest282F10B2236B74B3.subtitle}"
+			tasks: [{
+				id: "53EBA62FD0F0CD9B"
+				item: {
+					Count: 1
+					id: "lethality:nyxium_bafs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest282F10B2236B74B3.title}"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["282F10B2236B74B3"]
+			description: ["{ftbquests.chapter.lethality.quest3B9A53EBE60DB6FE.description1}"]
+			icon: {
+				Count: 1
+				id: "lethality:exodium_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3B9A53EBE60DB6FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "459FDFF5D326BD20"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.lethality.quest3B9A53EBE60DB6FE.subtitle}"
+			tasks: [{
+				id: "482CE2B568E632A5"
+				item: {
+					Count: 1
+					id: "lethality:exodium_bafs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest3B9A53EBE60DB6FE.title}"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B9A53EBE60DB6FE"]
+			description: [
+				"{ftbquests.chapter.lethality.quest4D34537842982CCA.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest4D34537842982CCA.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:reverium_bafs"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4D34537842982CCA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6622F54734019078"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.lethality.quest4D34537842982CCA.subtitle}"
+			tasks: [{
+				id: "156F67A628D2B225"
+				item: {
+					Count: 1
+					id: "lethality:reverium_bafs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest4D34537842982CCA.title}"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4C863D0B5F1E9E42"]
+			description: [
+				"{ftbquests.chapter.lethality.quest31F84204D9ABC677.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest31F84204D9ABC677.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:skysplitter_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "31F84204D9ABC677"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AE76BEE37D06538"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest31F84204D9ABC677.subtitle}"
+			tasks: [{
+				id: "63D3BBD67D148B13"
+				item: {
+					Count: 1
+					id: "lethality:skysplitter_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest31F84204D9ABC677.title}"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4C863D0B5F1E9E42"]
+			description: [
+				"{ftbquests.chapter.lethality.quest112BE3EB5469561F.description1}"
+				"{ftbquests.chapter.lethality.quest112BE3EB5469561F.description2}"
+				"{ftbquests.chapter.lethality.quest112BE3EB5469561F.description3}"
+				"{ftbquests.chapter.lethality.quest112BE3EB5469561F.description4}"
+				"{ftbquests.chapter.lethality.quest112BE3EB5469561F.description5}"
+				""
+				"{ftbquests.chapter.lethality.quest112BE3EB5469561F.description6}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:sword_of_majesty"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "112BE3EB5469561F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D4EB3C69B4CD5C3"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest112BE3EB5469561F.subtitle}"
+			tasks: [{
+				id: "3583DF5E5525B8FC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "lethality:sword_of_acclaim"
+							}
+							{
+								Count: 1b
+								id: "lethality:sword_of_splendor"
+							}
+							{
+								Count: 1b
+								id: "lethality:sword_of_majesty"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.lethality.quest112BE3EB5469561F.task.3856171302207731964.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest112BE3EB5469561F.title}"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43E76A3CF8B77FF7"]
+			description: [
+				"{ftbquests.chapter.lethality.quest4BFD6C3409511222.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest4BFD6C3409511222.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:tainted_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4BFD6C3409511222"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A3E1B8F9FFAFBA8"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest4BFD6C3409511222.subtitle}"
+			tasks: [{
+				id: "08EE67A0515EAB5B"
+				item: {
+					Count: 1
+					id: "lethality:tainted_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest4BFD6C3409511222.title}"
+			x: 4.95d
+			y: -4.95d
+		}
+		{
+			dependencies: ["43E76A3CF8B77FF7"]
+			description: [
+				"{ftbquests.chapter.lethality.quest7234C8C15A34BEEA.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest7234C8C15A34BEEA.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest7234C8C15A34BEEA.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:caustic_edge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7234C8C15A34BEEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B8B06E4CBF968F5"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest7234C8C15A34BEEA.subtitle}"
+			tasks: [{
+				id: "5A98C421129E32F6"
+				item: {
+					Count: 1
+					id: "lethality:caustic_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest7234C8C15A34BEEA.title}"
+			x: 4.95d
+			y: -1.6500000000000001d
+		}
+		{
+			dependencies: ["4BFD6C3409511222"]
+			description: [
+				"{ftbquests.chapter.lethality.quest71252E3A290B4439.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest71252E3A290B4439.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:bladecrest_oathsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "71252E3A290B4439"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E306F38B732CC51"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest71252E3A290B4439.subtitle}"
+			tasks: [{
+				id: "71BF59812EFF4665"
+				item: {
+					Count: 1
+					id: "lethality:bladecrest_oathsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest71252E3A290B4439.title}"
+			x: 4.95d
+			y: -6.6000000000000005d
+		}
+		{
+			dependencies: ["7234C8C15A34BEEA"]
+			description: [
+				"{ftbquests.chapter.lethality.questDB7F1007E89A3BB.description1}"
+				""
+				"{ftbquests.chapter.lethality.questDB7F1007E89A3BB.description2}"
+				""
+				"{ftbquests.chapter.lethality.questDB7F1007E89A3BB.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:forbidden_oathblade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0DB7F1007E89A3BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16E780AE9D19F0BF"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.questDB7F1007E89A3BB.subtitle}"
+			tasks: [{
+				id: "60D0F4D28866E551"
+				item: {
+					Count: 1
+					id: "lethality:forbidden_oathblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.questDB7F1007E89A3BB.title}"
+			x: 4.95d
+			y: 0.0d
+		}
+		{
+			dependencies: ["161E8CD92B2C1F55"]
+			description: [
+				"{ftbquests.chapter.lethality.quest71161551B9BDC76E.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest71161551B9BDC76E.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:blighted_cleaver"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "71161551B9BDC76E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E39674D215326B1"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest71161551B9BDC76E.subtitle}"
+			tasks: [{
+				id: "2CECF9542AC77860"
+				item: {
+					Count: 1
+					id: "lethality:blighted_cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest71161551B9BDC76E.title}"
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["161E8CD92B2C1F55"]
+			description: [
+				"{ftbquests.chapter.lethality.quest2D5D554F1FC2110E.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest2D5D554F1FC2110E.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:exalted_oathblade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2D5D554F1FC2110E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18E510BC6C7E4F90"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest2D5D554F1FC2110E.subtitle}"
+			tasks: [{
+				id: "3FA23E06FAEA15BD"
+				item: {
+					Count: 1
+					id: "lethality:exalted_oathblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest2D5D554F1FC2110E.title}"
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["71161551B9BDC76E"]
+			description: [
+				"{ftbquests.chapter.lethality.quest72655EF47D24736A.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest72655EF47D24736A.description2}"
+				"{ftbquests.chapter.lethality.quest72655EF47D24736A.description3}"
+				"{ftbquests.chapter.lethality.quest72655EF47D24736A.description4}"
+				"{ftbquests.chapter.lethality.quest72655EF47D24736A.description5}"
+				"{ftbquests.chapter.lethality.quest72655EF47D24736A.description6}"
+				"{ftbquests.chapter.lethality.quest72655EF47D24736A.description7}"
+				"{ftbquests.chapter.lethality.quest72655EF47D24736A.description8}"
+				"{ftbquests.chapter.lethality.quest72655EF47D24736A.description9}"
+				"{ftbquests.chapter.lethality.quest72655EF47D24736A.description10}"
+				""
+				"{ftbquests.chapter.lethality.quest72655EF47D24736A.description11}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:broken_biome_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72655EF47D24736A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E3AB859667576AA"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest72655EF47D24736A.subtitle}"
+			tasks: [{
+				id: "6EF16F6D6E6334F0"
+				item: {
+					Count: 1
+					id: "lethality:broken_biome_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest72655EF47D24736A.title}"
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["439A871959CCED5F"]
+			description: [
+				"{ftbquests.chapter.lethality.quest70A53D4527A0AC62.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest70A53D4527A0AC62.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:defiled_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "70A53D4527A0AC62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CCB2332091580E3"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest70A53D4527A0AC62.subtitle}"
+			tasks: [{
+				id: "606374A923B36A86"
+				item: {
+					Count: 1
+					id: "lethality:defiled_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest70A53D4527A0AC62.title}"
+			x: 4.95d
+			y: 1.6500000000000001d
+		}
+		{
+			dependencies: ["439A871959CCED5F"]
+			description: [
+				"{ftbquests.chapter.lethality.quest614A815D1C166137.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest614A815D1C166137.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:devils_devastation"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "614A815D1C166137"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4500082CFE7F60F7"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest614A815D1C166137.subtitle}"
+			tasks: [{
+				id: "140384E22EE504D9"
+				item: {
+					Count: 1
+					id: "lethality:devils_devastation"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest614A815D1C166137.title}"
+			x: 4.95d
+			y: 4.4d
+		}
+		{
+			dependencies: ["70A53D4527A0AC62"]
+			description: [
+				"{ftbquests.chapter.lethality.quest23F37AE0F7958D26.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest23F37AE0F7958D26.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest23F37AE0F7958D26.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:miasma"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "23F37AE0F7958D26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56A60C0A12B4A266"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest23F37AE0F7958D26.subtitle}"
+			tasks: [{
+				id: "26D32E53651FC8A0"
+				item: {
+					Count: 1
+					id: "lethality:miasma"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest23F37AE0F7958D26.title}"
+			x: 3.3000000000000003d
+			y: 1.6500000000000001d
+		}
+		{
+			dependencies: ["614A815D1C166137"]
+			description: [
+				"{ftbquests.chapter.lethality.quest398E5309969E1C14.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest398E5309969E1C14.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest398E5309969E1C14.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:horseless_headless_horsemanns_headtaker"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "398E5309969E1C14"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EDCFAC5C29BD7CC"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest398E5309969E1C14.subtitle}"
+			tasks: [{
+				id: "2A103861C85717A9"
+				item: {
+					Count: 1
+					id: "lethality:horseless_headless_horsemanns_headtaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest398E5309969E1C14.title}"
+			x: 3.3000000000000003d
+			y: 4.4d
+		}
+		{
+			dependencies: ["24D4BE97D9F0CE61"]
+			description: [
+				"{ftbquests.chapter.lethality.quest4E2EEF7EFFC1D7D1.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest4E2EEF7EFFC1D7D1.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:violence"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E2EEF7EFFC1D7D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CEDE87F6CCEE430"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest4E2EEF7EFFC1D7D1.subtitle}"
+			tasks: [{
+				id: "086D0EB92F9453F7"
+				item: {
+					Count: 1
+					id: "lethality:violence"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest4E2EEF7EFFC1D7D1.title}"
+			x: 1.6500000000000001d
+			y: 4.4d
+		}
+		{
+			dependencies: ["24D4BE97D9F0CE61"]
+			description: [
+				"{ftbquests.chapter.lethality.quest747886A6E6AA53C7.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest747886A6E6AA53C7.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:sacrifice"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "747886A6E6AA53C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50A1CDE7876458A4"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest747886A6E6AA53C7.subtitle}"
+			tasks: [{
+				id: "04A51220226C1922"
+				item: {
+					Count: 1
+					id: "lethality:sacrifice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest747886A6E6AA53C7.title}"
+			x: 1.6500000000000001d
+			y: 1.6500000000000001d
+		}
+		{
+			dependencies: ["4E2EEF7EFFC1D7D1"]
+			description: [
+				"{ftbquests.chapter.lethality.quest5DB58CFF1D5E1500.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest5DB58CFF1D5E1500.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:vehemence"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DB58CFF1D5E1500"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "613B6C62B112C894"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest5DB58CFF1D5E1500.subtitle}"
+			tasks: [{
+				id: "2465A65CC848317A"
+				item: {
+					Count: 1
+					id: "lethality:vehemence"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest5DB58CFF1D5E1500.title}"
+			x: 1.6500000000000001d
+			y: 6.05d
+		}
+		{
+			dependencies: ["747886A6E6AA53C7"]
+			description: [
+				"{ftbquests.chapter.lethality.quest2CBC0596965F65D3.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest2CBC0596965F65D3.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest2CBC0596965F65D3.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:grievance"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2CBC0596965F65D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "598165571F28DCE0"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest2CBC0596965F65D3.subtitle}"
+			tasks: [{
+				id: "13BC1A2C80262086"
+				item: {
+					Count: 1
+					id: "lethality:grievance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest2CBC0596965F65D3.title}"
+			x: 1.6500000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DB58CFF1D5E1500"]
+			description: [
+				"{ftbquests.chapter.lethality.quest781F862F4161A7F0.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest781F862F4161A7F0.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:starlight"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "781F862F4161A7F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DB26D8FB440647F"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest781F862F4161A7F0.subtitle}"
+			tasks: [{
+				id: "6B7CF2D6E98998E4"
+				item: {
+					Count: 1
+					id: "lethality:starlight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest781F862F4161A7F0.title}"
+			x: 1.6500000000000001d
+			y: 7.7d
+		}
+		{
+			dependencies: ["2CBC0596965F65D3"]
+			description: [
+				"{ftbquests.chapter.lethality.quest704E71AD888B523E.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest704E71AD888B523E.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest704E71AD888B523E.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:foreign_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "704E71AD888B523E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F137739865E217A"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest704E71AD888B523E.subtitle}"
+			tasks: [{
+				id: "4890A897B7E8DEEF"
+				item: {
+					Count: 1
+					id: "lethality:foreign_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest704E71AD888B523E.title}"
+			x: 1.6500000000000001d
+			y: -1.6500000000000001d
+		}
+		{
+			dependencies: ["3B9A53EBE60DB6FE"]
+			description: [
+				"{ftbquests.chapter.lethality.quest7D4FD0BD78F6179B.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest7D4FD0BD78F6179B.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest7D4FD0BD78F6179B.description3}"
+				""
+				"{ftbquests.chapter.lethality.quest7D4FD0BD78F6179B.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:midas_touch"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D4FD0BD78F6179B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AF6EF0A5325BC7B"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest7D4FD0BD78F6179B.subtitle}"
+			tasks: [{
+				id: "21092E0B639FBD2D"
+				item: {
+					Count: 1
+					id: "lethality:midas_touch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest7D4FD0BD78F6179B.title}"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B9A53EBE60DB6FE"]
+			description: [
+				"{ftbquests.chapter.lethality.quest59C60FA63B60635A.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest59C60FA63B60635A.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest59C60FA63B60635A.description3}"
+				""
+				"{ftbquests.chapter.lethality.quest59C60FA63B60635A.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:gamblers_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "59C60FA63B60635A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59E49E5A3FD7832D"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest59C60FA63B60635A.subtitle}"
+			tasks: [{
+				id: "18A1B2E697A9D697"
+				item: {
+					Count: 1
+					id: "lethality:gamblers_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest59C60FA63B60635A.title}"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D4FD0BD78F6179B"]
+			description: [
+				"{ftbquests.chapter.lethality.quest65FEE070A6F998F7.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest65FEE070A6F998F7.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest65FEE070A6F998F7.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:nightfall"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "65FEE070A6F998F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71CB00ECD81B49F6"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest65FEE070A6F998F7.subtitle}"
+			tasks: [{
+				id: "54F08A942D4AD796"
+				item: {
+					Count: 1
+					id: "lethality:nightfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest65FEE070A6F998F7.title}"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["59C60FA63B60635A"]
+			description: [
+				"{ftbquests.chapter.lethality.quest3679047E4E198911.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest3679047E4E198911.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest3679047E4E198911.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:gaels_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3679047E4E198911"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D475C9B94684322"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest3679047E4E198911.subtitle}"
+			tasks: [{
+				id: "0E1D0FD752A352A5"
+				item: {
+					Count: 1
+					id: "lethality:gaels_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest3679047E4E198911.title}"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			background: "dungeonnowloading:textures/particle/redstone_shockwave_4.png"
+			dependencies: ["1259106DE450DD03"]
+			description: [
+				"{ftbquests.chapter.lethality.quest34BE09B8A1696826.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest34BE09B8A1696826.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest34BE09B8A1696826.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:nightmare_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.8d
+			id: "34BE09B8A1696826"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19D0160DF5AE21FB"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 2.5d
+			subtitle: "{ftbquests.chapter.lethality.quest34BE09B8A1696826.subtitle}"
+			tasks: [{
+				id: "045B115D604E0B9A"
+				item: {
+					Count: 1
+					id: "lethality:nightmare_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest34BE09B8A1696826.title}"
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4D34537842982CCA"]
+			description: [
+				"{ftbquests.chapter.lethality.quest7890349A10B01114.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest7890349A10B01114.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest7890349A10B01114.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:hf_meowrasama"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7890349A10B01114"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F93B0FCFB84CFD3"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.quest7890349A10B01114.subtitle}"
+			tasks: [{
+				id: "641563654B90FAC2"
+				item: {
+					Count: 1
+					id: "lethality:hf_meowrasama"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest7890349A10B01114.title}"
+			x: -2.2d
+			y: 7.7d
+		}
+		{
+			dependencies: ["4D34537842982CCA"]
+			description: [
+				"{ftbquests.chapter.lethality.quest1259106DE450DD03.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest1259106DE450DD03.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest1259106DE450DD03.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:real_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1259106DE450DD03"
+			shape: "square"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.lethality.quest1259106DE450DD03.subtitle}"
+			tasks: [{
+				id: "11CE14D9410F5C1C"
+				item: {
+					Count: 1
+					id: "lethality:real_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest1259106DE450DD03.title}"
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7890349A10B01114"]
+			description: [
+				"{ftbquests.chapter.lethality.questD94E02715E74F99.description1}"
+				""
+				"{ftbquests.chapter.lethality.questD94E02715E74F99.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:stop_sign"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D94E02715E74F99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6790CA626C71C1D0"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.lethality.questD94E02715E74F99.subtitle}"
+			tasks: [{
+				id: "7EAB472665C3FBE3"
+				item: {
+					Count: 1
+					id: "lethality:stop_sign"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.questD94E02715E74F99.title}"
+			x: -3.85d
+			y: 7.7d
+		}
+		{
+			dependencies: ["1259106DE450DD03"]
+			description: [
+				"{ftbquests.chapter.lethality.quest2B861D38FB7C46D4.description1}"
+				""
+				"{ftbquests.chapter.lethality.quest2B861D38FB7C46D4.description2}"
+				""
+				"{ftbquests.chapter.lethality.quest2B861D38FB7C46D4.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "lethality:pickle_paddle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2B861D38FB7C46D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D44BE6190C97291"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.lethality.quest2B861D38FB7C46D4.subtitle}"
+			tasks: [{
+				id: "7CB299E6E75788F2"
+				item: {
+					Count: 1
+					id: "lethality:pickle_paddle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lethality.quest2B861D38FB7C46D4.title}"
+			x: 1.5d
+			y: 10.0d
+		}
+	]
+	title: "{ftbquests.chapter.lethality.title}"
+}

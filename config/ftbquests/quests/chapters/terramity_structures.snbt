@@ -1,0 +1,714 @@
+{
+	autofocus_id: "4C1EDFDF328D84F4"
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: "diamond"
+	filename: "terramity_structures"
+	group: "0FD8C2D2A2339C0B"
+	icon: "terramity:warp_whistle"
+	id: "55CF3612F2588EA7"
+	images: [
+		{
+			height: 2.0d
+			image: "customtextures:textures/terramity_structures_title.png"
+			rotation: 0.0d
+			width: 10.8d
+			x: 0.0d
+			y: -19.5d
+		}
+		{
+			alpha: 70
+			height: 2.0d
+			image: "terramity:item/spire_key"
+			order: -2
+			rotation: -18.0d
+			width: 2.0d
+			x: -6.0d
+			y: -18.5d
+		}
+		{
+			alpha: 70
+			height: 2.0d
+			image: "terramity:item/occult_fabric"
+			order: -2
+			rotation: 14.0d
+			width: 2.0d
+			x: 4.5d
+			y: -18.5d
+		}
+		{
+			alpha: 70
+			height: 2.0d
+			image: "terramity:item/fairy_dust"
+			order: -2
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -15.0d
+		}
+		{
+			dev: true
+			height: 0.9d
+			hover: [
+				"ftbquests.chapter.terramity_structures.image.hovertext1"
+				"ftbquests.chapter.terramity_structures.image.hovertext2"
+				"ftbquests.chapter.terramity_structures.image.hovertext3"
+				"ftbquests.chapter.terramity_structures.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 0.9d
+			x: 0.0d
+			y: -21.0d
+		}
+	]
+	order_index: 4
+	parent: "2F1A384416C57A23"
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.description2}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.description3}"
+				"{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.description4}"
+				"{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.description5}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.description6}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.description7}"
+				"{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.description8}"
+				"{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.description9}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.description10}"
+				""
+				"[\"\",{\"color\":\"#8FCB3F\",\"underlined\":true,\"translate\":\"ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2F1A384416C57A23\"}}]"
+			]
+			icon: "terramity:warp_whistle"
+			id: "4C1EDFDF328D84F4"
+			rewards: [
+				{
+					id: "158302DE2066867E"
+					item: "terramity:warp_whistle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C53D55CF28C0700"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "star"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.subtitle}"
+			tasks: [{
+				id: "171E67B6AAA41DC3"
+				title: "{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.task.1665882946418253251.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest4C1EDFDF328D84F4.title}"
+			x: 0.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["4C1EDFDF328D84F4"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest781ADC1BA1C81715.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest781ADC1BA1C81715.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "terramity:item/spire_key"
+				}
+			}
+			id: "781ADC1BA1C81715"
+			rewards: [
+				{
+					id: "7D73B1ABC19A1955"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29535080FF32D3D3"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest781ADC1BA1C81715.subtitle}"
+			tasks: [{
+				id: "293BA821E1EEC1D3"
+				title: "{ftbquests.chapter.terramity_structures.quest781ADC1BA1C81715.task.2971153242658882003.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest781ADC1BA1C81715.title}"
+			x: -1.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest5A5C930FB49EFC24.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest5A5C930FB49EFC24.description2}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest5A5C930FB49EFC24.image0}"
+			]
+			icon: "terramity:gnome_statue"
+			id: "5A5C930FB49EFC24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6750B3338E8CF7F3"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest5A5C930FB49EFC24.subtitle}"
+			tasks: [{
+				id: "16DBF707E97D8DDC"
+				structure: "terramity:court_of_gnomes"
+				title: "{ftbquests.chapter.terramity_structures.quest5A5C930FB49EFC24.task.1647181702088199644.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest5A5C930FB49EFC24.title}"
+			x: -5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest536579C32BF9DF64.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest536579C32BF9DF64.description2}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest536579C32BF9DF64.description3}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest536579C32BF9DF64.image0}"
+			]
+			icon: "terramity:spire_key"
+			id: "536579C32BF9DF64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E584FD5F95A4FFB"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest536579C32BF9DF64.subtitle}"
+			tasks: [{
+				id: "3CC7C952ACDF9EA6"
+				structure: "terramity:trial_spire"
+				title: "{ftbquests.chapter.terramity_structures.quest536579C32BF9DF64.task.4379690519565934246.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest536579C32BF9DF64.title}"
+			x: -5.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest1DBA3175F890DDA9.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest1DBA3175F890DDA9.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:hero_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1DBA3175F890DDA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "495C4E2D61749EF3"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest1DBA3175F890DDA9.subtitle}"
+			tasks: [{
+				id: "5BDF08C2D174DD24"
+				structure: "terramity:sword_shrine"
+				title: "{ftbquests.chapter.terramity_structures.quest1DBA3175F890DDA9.task.6620019610088693028.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest1DBA3175F890DDA9.title}"
+			x: -4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest1431CEDB109A3466.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest1431CEDB109A3466.description2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 4
+					}
+				}
+				id: "terramity:ocarina_of_power"
+				tag: {
+					Inventory: {
+						Items: [ ]
+						Size: 4
+					}
+				}
+			}
+			id: "1431CEDB109A3466"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "568BD27E967CBCAD"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest1431CEDB109A3466.subtitle}"
+			tasks: [{
+				id: "2206E62F468CFB96"
+				structure: "terramity:mudhut"
+				title: "{ftbquests.chapter.terramity_structures.quest1431CEDB109A3466.task.2451900137871309718.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest1431CEDB109A3466.title}"
+			x: -4.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest290860B1FFCA64C5.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest290860B1FFCA64C5.description2}"
+			]
+			icon: "terramity:lost_soul"
+			id: "290860B1FFCA64C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AA68CF5529459D7"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest290860B1FFCA64C5.subtitle}"
+			tasks: [{
+				id: "675DD2149365BCA7"
+				structure: "terramity:mausoleum"
+				title: "{ftbquests.chapter.terramity_structures.quest290860B1FFCA64C5.task.7448340344554765479.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest290860B1FFCA64C5.title}"
+			x: -4.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest4024A5B7EE9D1D7F.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest4024A5B7EE9D1D7F.description2}"
+			]
+			icon: "minecraft:snow_block"
+			id: "4024A5B7EE9D1D7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B9C87746F2D8D2E"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest4024A5B7EE9D1D7F.subtitle}"
+			tasks: [{
+				id: "74604792C6B14615"
+				structure: "terramity:snow_fort"
+				title: "{ftbquests.chapter.terramity_structures.quest4024A5B7EE9D1D7F.task.8385781201888167445.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest4024A5B7EE9D1D7F.title}"
+			x: -6.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest4138B77B57D72983.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest4138B77B57D72983.description2}"
+			]
+			icon: "minecraft:campfire"
+			id: "4138B77B57D72983"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "520C5BC7B96C9882"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest4138B77B57D72983.subtitle}"
+			tasks: [{
+				id: "55070AE670BA62A6"
+				structure: "terramity:fire_lookout_tower"
+				title: "{ftbquests.chapter.terramity_structures.quest4138B77B57D72983.task.6126877802910868134.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest4138B77B57D72983.title}"
+			x: -6.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest749EEB6F60BE79E4.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest749EEB6F60BE79E4.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:brush"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "749EEB6F60BE79E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EF52F76A58B0F58"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest749EEB6F60BE79E4.subtitle}"
+			tasks: [{
+				id: "731EEFD1F450A7D2"
+				structure: "terramity:suspicious_shrine"
+				title: "{ftbquests.chapter.terramity_structures.quest749EEB6F60BE79E4.task.8295331248689162194.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest749EEB6F60BE79E4.title}"
+			x: -3.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest616249C579CB4DEE.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest616249C579CB4DEE.description2}"
+			]
+			icon: "terramity:electronic_scrap"
+			id: "616249C579CB4DEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A40CED49E5DE067"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest616249C579CB4DEE.subtitle}"
+			tasks: [{
+				id: "242F61438893331D"
+				structure: "terramity:overgrown_facility"
+				title: "{ftbquests.chapter.terramity_structures.quest616249C579CB4DEE.task.2607409651952857885.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest616249C579CB4DEE.title}"
+			x: -6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest65673A1C98957EE7.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest65673A1C98957EE7.description2}"
+			]
+			icon: "terramity:pink_fairy_bottle"
+			id: "65673A1C98957EE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "593A02E57883DC77"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest65673A1C98957EE7.subtitle}"
+			tasks: [{
+				id: "7C6BFFAFCF8AC837"
+				structure: "terramity:fairy_fountain"
+				title: "{ftbquests.chapter.terramity_structures.quest65673A1C98957EE7.task.8965540613777442871.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest65673A1C98957EE7.title}"
+			x: -4.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest2CD23F93B26CDC75.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest2CD23F93B26CDC75.description2}"
+			]
+			icon: "terramity:prism_solution_bucket"
+			id: "2CD23F93B26CDC75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DDD77016F7A52E1"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest2CD23F93B26CDC75.subtitle}"
+			tasks: [{
+				id: "489F122A29483298"
+				structure: "terramity:prismatic_pond"
+				title: "{ftbquests.chapter.terramity_structures.quest2CD23F93B26CDC75.task.5232921264318329496.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest2CD23F93B26CDC75.title}"
+			x: -5.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest4409634250F2D79C.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest4409634250F2D79C.description2}"
+			]
+			icon: "minecraft:chiseled_deepslate"
+			id: "4409634250F2D79C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71147B0D3B2D9D72"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest4409634250F2D79C.subtitle}"
+			tasks: [{
+				id: "3E8AECCE2DD97127"
+				structure: "terramity:subterranean_shrine"
+				title: "{ftbquests.chapter.terramity_structures.quest4409634250F2D79C.task.4506674747414245671.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest4409634250F2D79C.title}"
+			x: -4.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest37DD232DC42D721D.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest37DD232DC42D721D.description2}"
+			]
+			icon: "terramity:circuit_board"
+			id: "37DD232DC42D721D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66111AB982340F2B"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest37DD232DC42D721D.subtitle}"
+			tasks: [{
+				id: "5807D9F13E45F133"
+				structure: "terramity:infested_laboratory"
+				title: "{ftbquests.chapter.terramity_structures.quest37DD232DC42D721D.task.6343278230329749811.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest37DD232DC42D721D.title}"
+			x: -4.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["781ADC1BA1C81715"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest3870BA2D3DD901B3.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest3870BA2D3DD901B3.description2}"
+			]
+			icon: "minecraft:deepslate"
+			id: "3870BA2D3DD901B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EFFC12C7A54FB17"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest3870BA2D3DD901B3.subtitle}"
+			tasks: [{
+				id: "7450AC702CBF0084"
+				structure: "terramity:ancient_outcrop"
+				title: "{ftbquests.chapter.terramity_structures.quest3870BA2D3DD901B3.task.8381388504323522692.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest3870BA2D3DD901B3.title}"
+			x: -4.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["4C1EDFDF328D84F4"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest45CFFECCDDC28F3B.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest45CFFECCDDC28F3B.description2}"
+			]
+			icon: "terramity:occult_fabric"
+			id: "45CFFECCDDC28F3B"
+			rewards: [
+				{
+					id: "7366B5855660378E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "397EDB3764457118"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest45CFFECCDDC28F3B.subtitle}"
+			tasks: [{
+				id: "49C5FE5EEEFE4AF6"
+				title: "{ftbquests.chapter.terramity_structures.quest45CFFECCDDC28F3B.task.5315934618870762230.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest45CFFECCDDC28F3B.title}"
+			x: 1.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["45CFFECCDDC28F3B"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest1CE8F12FBA58FE9A.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest1CE8F12FBA58FE9A.description2}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest1CE8F12FBA58FE9A.description3}"
+			]
+			icon: "terramity:occult_fabric"
+			id: "1CE8F12FBA58FE9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BEC7874F55EC4E1"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest1CE8F12FBA58FE9A.subtitle}"
+			tasks: [{
+				id: "715DF57873017FC1"
+				structure: "terramity:chthonic_dungeon"
+				title: "{ftbquests.chapter.terramity_structures.quest1CE8F12FBA58FE9A.task.8168955196794306497.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest1CE8F12FBA58FE9A.title}"
+			x: 3.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["45CFFECCDDC28F3B"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest6018B1605CB0EEF9.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest6018B1605CB0EEF9.description2}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest6018B1605CB0EEF9.description3}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest6018B1605CB0EEF9.image0}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "terramity:item/gundalfs_pointed_hat"
+				}
+			}
+			id: "6018B1605CB0EEF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B233C9F3BD59F1B"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest6018B1605CB0EEF9.subtitle}"
+			tasks: [{
+				id: "796B3003FB0378C0"
+				structure: "terramity:chthonic_cathedral"
+				title: "{ftbquests.chapter.terramity_structures.quest6018B1605CB0EEF9.task.8749139494751664320.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest6018B1605CB0EEF9.title}"
+			x: 3.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["45CFFECCDDC28F3B"]
+			description: [
+				"{ftbquests.chapter.terramity_structures.quest4F2B14F9087E6FEA.description1}"
+				""
+				"{ftbquests.chapter.terramity_structures.quest4F2B14F9087E6FEA.description2}"
+			]
+			icon: "terramity:chthonic_crystal"
+			id: "4F2B14F9087E6FEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BDD3CC03299A902"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_structures.quest4F2B14F9087E6FEA.subtitle}"
+			tasks: [{
+				id: "2FD4E1444382194C"
+				structure: "terramity:chthonian_breach"
+				title: "{ftbquests.chapter.terramity_structures.quest4F2B14F9087E6FEA.task.3446627298151897420.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.terramity_structures.quest4F2B14F9087E6FEA.title}"
+			x: 3.5d
+			y: -15.5d
+		}
+	]
+	title: "{ftbquests.chapter.terramity_structures.title}"
+}

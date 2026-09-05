@@ -1,19 +1,19 @@
 {
 	autofocus_id: "24174700F7FB771C"
 	default_hide_dependency_lines: false
-	default_quest_shape: "netheritetier"
+	default_quest_shape: "square"
 	filename: "mekanism_pro"
 	group: "336B0783FD524DD2"
 	icon: "mekanism:sps_port"
 	id: "1608F5BC7B90120F"
 	images: [
 		{
-			height: 1.95d
+			height: 2.2d
 			image: "customtextures:textures/mekanism_logo.png"
 			rotation: 0.0d
-			width: 8.0d
-			x: -5.0d
-			y: 0.0d
+			width: 9.0d
+			x: 8.0d
+			y: -6.5d
 		}
 		{
 			click: "https://wiki.aidancbrady.com/"
@@ -22,11 +22,40 @@
 			image: "customtextures:textures/wikipng.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: 2.0d
+			x: 3.5d
+			y: -6.5d
 		}
 		{
-			dev: true
+			alpha: 46
+			height: 2.2d
+			image: "mekanism:item/yellow_cake_uranium"
+			order: -1
+			rotation: -14.0d
+			width: 2.2d
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			alpha: 46
+			height: 2.2d
+			image: "mekanism:item/pellet_antimatter"
+			order: -1
+			rotation: 14.0d
+			width: 2.2d
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			alpha: 40
+			height: 2.4d
+			image: "mekanismgenerators:item/turbine_blade"
+			order: -1
+			rotation: 0.0d
+			width: 2.4d
+			x: 9.8d
+			y: 16.5d
+		}
+		{
 			height: 1.0d
 			hover: [
 				"ftbquests.chapter.mekanism_pro.image.hovertext2"
@@ -37,11 +66,11 @@
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
-			y: -1.5d
+			x: 8.0d
+			y: -8.0d
 		}
 	]
-	order_index: 6
+	order_index: 13
 	parent: "23983F4DC524B14B"
 	quest_links: [ ]
 	quests: [
@@ -51,6 +80,10 @@
 				"{ftbquests.chapter.mekanism_pro.quest36B1995B495AA674.description1}"
 				""
 				"{ftbquests.chapter.mekanism_pro.quest36B1995B495AA674.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest36B1995B495AA674.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest36B1995B495AA674.description4}"
 			]
 			id: "36B1995B495AA674"
 			rewards: [{
@@ -59,6 +92,7 @@
 				xp: 10
 			}]
 			shape: "hexagon"
+			size: 1.35d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest36B1995B495AA674.subtitle}"
 			tasks: [
 				{
@@ -83,25 +117,25 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest36B1995B495AA674.title}"
-			x: -5.0d
-			y: 3.5d
+			x: 5.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["36B1995B495AA674"]
+			dependencies: ["1BF3A5C3BDE6371E"]
 			description: [
 				"{ftbquests.chapter.mekanism_pro.quest1482F2D45E8F761D.description1}"
 				""
 				"{ftbquests.chapter.mekanism_pro.quest1482F2D45E8F761D.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest1482F2D45E8F761D.description3}"
 			]
 			hide_until_deps_visible: false
-			icon: "mekanismgenerators:fission_reactor_casing"
 			id: "1482F2D45E8F761D"
 			rewards: [{
 				id: "0792BEFF2D7C604C"
 				type: "xp"
 				xp: 100
 			}]
-			shape: "netheritetier"
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest1482F2D45E8F761D.subtitle}"
 			tasks: [
 				{
@@ -118,13 +152,26 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest1482F2D45E8F761D.title}"
-			x: -5.0d
+			x: 4.0d
 			y: 5.0d
 		}
 		{
-			dependencies: ["1482F2D45E8F761D"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest696B725E840B996.description1}"]
-			icon: "mekanismgenerators:fission_reactor_port"
+			dependencies: ["1BF3A5C3BDE6371E"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest696B725E840B996.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest696B725E840B996.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest696B725E840B996.description3}"
+				"{ftbquests.chapter.mekanism_pro.quest696B725E840B996.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest696B725E840B996.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest696B725E840B996.description6}"
+				"{ftbquests.chapter.mekanism_pro.quest696B725E840B996.description7}"
+				"{ftbquests.chapter.mekanism_pro.quest696B725E840B996.description8}"
+				"{ftbquests.chapter.mekanism_pro.quest696B725E840B996.description9}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest696B725E840B996.description10}"
+			]
 			id: "0696B725E840B996"
 			rewards: [{
 				id: "11FABC06766669F5"
@@ -139,18 +186,35 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest696B725E840B996.title}"
-			x: -6.0d
-			y: 6.0d
+			x: 7.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["1482F2D45E8F761D"]
-			icon: "mekanismgenerators:fission_fuel_assembly"
+			dependencies: [
+				"1482F2D45E8F761D"
+				"0696B725E840B996"
+			]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest3F5010269469EBE0.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3F5010269469EBE0.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3F5010269469EBE0.description3}"
+				"{ftbquests.chapter.mekanism_pro.quest3F5010269469EBE0.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest3F5010269469EBE0.description5}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3F5010269469EBE0.description6}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3F5010269469EBE0.description7}"
+			]
 			id: "3F5010269469EBE0"
 			rewards: [{
 				id: "6819DA9F73BA383C"
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest3F5010269469EBE0.subtitle}"
 			tasks: [
 				{
 					count: 2L
@@ -165,20 +229,26 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest3F5010269469EBE0.title}"
-			x: -4.0d
+			x: 5.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["3B81800EE6E77EF2"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest7E17AB5A4492929E.description1}"]
-			icon: "immersiveengineering:ingot_uranium"
+			dependencies: ["36B1995B495AA674"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest7E17AB5A4492929E.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest7E17AB5A4492929E.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest7E17AB5A4492929E.description3}"
+			]
 			id: "7E17AB5A4492929E"
 			rewards: [{
 				id: "48CC9D36035B2625"
 				type: "xp"
 				xp: 25
 			}]
-			shape: "gear"
+			shape: "pentagon"
+			size: 1.2d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest7E17AB5A4492929E.subtitle}"
 			tasks: [
 				{
@@ -194,12 +264,18 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest7E17AB5A4492929E.title}"
-			x: -6.5d
-			y: 8.0d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7E17AB5A4492929E"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest3AF4E5D4839CEF8B.description1}"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest3AF4E5D4839CEF8B.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3AF4E5D4839CEF8B.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3AF4E5D4839CEF8B.description3}"
+			]
 			id: "3AF4E5D4839CEF8B"
 			rewards: [{
 				id: "147637FB74512198"
@@ -213,8 +289,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest3AF4E5D4839CEF8B.title}"
-			x: -6.5d
-			y: 10.0d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			description: [
@@ -223,15 +299,30 @@
 				"{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.description2}"
 				""
 				"{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.description6}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.description7}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.description8}"
+				"{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.description9}"
+				"{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.description10}"
+				"{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.description11}"
+				"{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.description12}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.description13}"
+				"[\"\",{\"color\":\"#3FA9C8\",\"underlined\":true,\"translate\":\"ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"23983F4DC524B14B\"}}]"
 			]
-			icon: "mekanismgenerators:control_rod_assembly"
+			icon: "mekanism:digital_miner"
 			id: "24174700F7FB771C"
+			min_width: 360
 			rewards: [{
 				id: "73F5CE911AC4474C"
 				type: "xp"
 				xp: 10
 			}]
-			shape: "square"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.subtitle}"
 			tasks: [{
@@ -240,26 +331,41 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest24174700F7FB771C.title}"
-			x: -5.0d
-			y: 2.0d
+			x: 8.0d
+			y: -4.5d
 		}
 		{
-			dependencies: [
-				"0696B725E840B996"
-				"3F5010269469EBE0"
-			]
+			dependencies: ["16A6C47E35F3B9D0"]
 			description: [
 				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description1}"
 				""
 				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description6}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description7}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description8}"
+				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description9}"
+				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description10}"
+				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description11}"
+				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description12}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.description13}"
 			]
-			icon: "create_new_age:nuclear_fuel"
 			id: "3B81800EE6E77EF2"
+			min_width: 340
 			rewards: [{
 				id: "21A507B60A7721B0"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "hexagon"
+			size: 1.2d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.subtitle}"
 			tasks: [{
 				id: "382818E289EC83A6"
@@ -267,13 +373,20 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest3B81800EE6E77EF2.title}"
-			x: -5.0d
-			y: 7.0d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["3B81800EE6E77EF2"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest187A3F5B41D1C923.description1}"]
-			icon: "mekanism:chemical_dissolution_chamber"
+			dependencies: ["7E17AB5A4492929E"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest187A3F5B41D1C923.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest187A3F5B41D1C923.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest187A3F5B41D1C923.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest187A3F5B41D1C923.description4}"
+			]
 			id: "187A3F5B41D1C923"
 			rewards: [{
 				id: "5AEF7913046DC6FB"
@@ -294,21 +407,28 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest187A3F5B41D1C923.title}"
-			x: -3.5d
-			y: 8.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
-				"187A3F5B41D1C923"
 				"3AF4E5D4839CEF8B"
+				"187A3F5B41D1C923"
 			]
-			description: ["{ftbquests.chapter.mekanism_pro.quest3663E93E169EF8E3.description1}"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest3663E93E169EF8E3.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3663E93E169EF8E3.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3663E93E169EF8E3.description3}"
+			]
 			id: "3663E93E169EF8E3"
 			rewards: [{
 				id: "1AA24CF536807D83"
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.2d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest3663E93E169EF8E3.subtitle}"
 			tasks: [{
 				id: "73C5F4AC41EE5123"
@@ -316,20 +436,28 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest3663E93E169EF8E3.title}"
-			x: -3.5d
-			y: 10.0d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3663E93E169EF8E3"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest16A6C47E35F3B9D0.description1}"]
-			icon: "mekanism:isotopic_centrifuge"
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest16A6C47E35F3B9D0.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest16A6C47E35F3B9D0.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest16A6C47E35F3B9D0.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest16A6C47E35F3B9D0.description4}"
+			]
 			id: "16A6C47E35F3B9D0"
 			rewards: [{
 				id: "04AA88C4D9B33E34"
 				type: "xp"
 				xp: 100
 			}]
-			size: 1.0d
+			shape: "gear"
+			size: 1.2d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest16A6C47E35F3B9D0.subtitle}"
 			tasks: [{
 				id: "3F2371FD486D4F0E"
@@ -337,12 +465,20 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest16A6C47E35F3B9D0.title}"
-			x: 0.0d
-			y: 10.0d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["16A6C47E35F3B9D0"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest3FFF9018DA2A2763.description1}"]
+			dependencies: ["71DB87166603A239"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest3FFF9018DA2A2763.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3FFF9018DA2A2763.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3FFF9018DA2A2763.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3FFF9018DA2A2763.description4}"
+			]
 			id: "3FFF9018DA2A2763"
 			rewards: [{
 				id: "1EEAAB174D95E4B6"
@@ -357,12 +493,20 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest3FFF9018DA2A2763.title}"
-			x: 0.0d
-			y: 8.0d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3FFF9018DA2A2763"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest2E9FC7DC2AC6FD8E.description1}"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest2E9FC7DC2AC6FD8E.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest2E9FC7DC2AC6FD8E.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest2E9FC7DC2AC6FD8E.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest2E9FC7DC2AC6FD8E.description4}"
+			]
 			id: "2E9FC7DC2AC6FD8E"
 			rewards: [{
 				id: "353657D187263DAA"
@@ -370,18 +514,28 @@
 				xp: 100
 			}]
 			shape: "gear"
+			size: 1.35d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest2E9FC7DC2AC6FD8E.subtitle}"
 			tasks: [{
 				id: "6B40312EE7C8875D"
 				item: "mekanism:pellet_plutonium"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			title: "{ftbquests.chapter.mekanism_pro.quest2E9FC7DC2AC6FD8E.title}"
+			x: 3.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["3FFF9018DA2A2763"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest1FAAF8216CDC3AC6.description1}"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest1FAAF8216CDC3AC6.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest1FAAF8216CDC3AC6.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest1FAAF8216CDC3AC6.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest1FAAF8216CDC3AC6.description4}"
+			]
 			id: "1FAAF8216CDC3AC6"
 			rewards: [{
 				id: "316FC7C98CC22E11"
@@ -389,23 +543,42 @@
 				xp: 100
 			}]
 			shape: "gear"
+			size: 1.15d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest1FAAF8216CDC3AC6.subtitle}"
 			tasks: [{
 				id: "38A344B697C93B3B"
 				item: "mekanism:pellet_polonium"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			title: "{ftbquests.chapter.mekanism_pro.quest1FAAF8216CDC3AC6.title}"
+			x: 1.15d
+			y: 7.475d
 		}
 		{
-			dependencies: [
-				"2E9FC7DC2AC6FD8E"
-				"1FAAF8216CDC3AC6"
+			dependencies: ["1FAAF8216CDC3AC6"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description6}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description7}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description8}"
+				"{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description9}"
+				"{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description10}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description11}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description12}"
 			]
-			description: ["{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.description1}"]
-			icon: "mekanism:sps_casing"
 			id: "068728DE3B9B13C3"
+			min_width: 340
 			rewards: [
 				{
 					id: "34DCA3CB7F03E0E4"
@@ -418,8 +591,8 @@
 					xp: 100
 				}
 			]
-			shape: "netheritetier"
-			size: 1.0d
+			shape: "hexagon"
+			size: 1.25d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.subtitle}"
 			tasks: [
 				{
@@ -442,8 +615,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest68728DE3B9B13C3.title}"
-			x: 0.0d
-			y: 2.5d
+			x: -1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["068728DE3B9B13C3"]
@@ -451,6 +624,8 @@
 				"{ftbquests.chapter.mekanism_pro.quest2331FCDD2F2B709A.description1}"
 				""
 				"{ftbquests.chapter.mekanism_pro.quest2331FCDD2F2B709A.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest2331FCDD2F2B709A.description3}"
 			]
 			id: "2331FCDD2F2B709A"
 			rewards: [
@@ -472,27 +647,37 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest2331FCDD2F2B709A.title}"
-			x: 0.0d
-			y: 0.7738095238095255d
+			x: -1.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2331FCDD2F2B709A"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.questEFC7B327E79076.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.questEFC7B327E79076.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.questEFC7B327E79076.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.questEFC7B327E79076.description4}"
+			]
 			id: "00EFC7B327E79076"
 			rewards: [{
 				id: "377C6F58639E8469"
 				type: "xp"
 				xp: 1000
 			}]
-			shape: "gear"
-			size: 1.3d
+			shape: "star"
+			size: 1.35d
 			subtitle: "{ftbquests.chapter.mekanism_pro.questEFC7B327E79076.subtitle}"
 			tasks: [{
 				id: "3B83170BC4E75158"
 				item: "mekanism:pellet_antimatter"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.7261904761904745d
+			title: "{ftbquests.chapter.mekanism_pro.questEFC7B327E79076.title}"
+			x: -1.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["79757F66DF263FA0"]
@@ -500,6 +685,10 @@
 				"{ftbquests.chapter.mekanism_pro.quest320CC038A64A3195.description1}"
 				""
 				"{ftbquests.chapter.mekanism_pro.quest320CC038A64A3195.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest320CC038A64A3195.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest320CC038A64A3195.description4}"
 			]
 			id: "320CC038A64A3195"
 			rewards: [
@@ -531,48 +720,70 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest320CC038A64A3195.title}"
-			x: 5.0d
-			y: 5.0d
+			x: 13.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["12D271359D48210E"]
+			dependencies: ["4ABF0727AA569DD9"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest57534FA0E09C4975.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest57534FA0E09C4975.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest57534FA0E09C4975.description3}"
+			]
 			id: "57534FA0E09C4975"
 			rewards: [{
 				id: "464CDFABB1935067"
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest57534FA0E09C4975.subtitle}"
 			tasks: [{
 				id: "6C40D1088C211675"
 				item: "mekanism:solar_neutron_activator"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest57534FA0E09C4975.title}"
-			x: 4.5d
-			y: 3.0d
+			x: 12.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["12D271359D48210E"]
-			icon: "mekanism:electric_pump"
+			dependencies: ["0FF852DE33E41C90"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest4ABF0727AA569DD9.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest4ABF0727AA569DD9.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest4ABF0727AA569DD9.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest4ABF0727AA569DD9.description4}"
+			]
 			id: "4ABF0727AA569DD9"
 			rewards: [{
 				id: "5A40C3DB56EDA0E3"
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest4ABF0727AA569DD9.subtitle}"
 			tasks: [{
 				id: "34228001011C4524"
 				item: "mekanism:electric_pump"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest4ABF0727AA569DD9.title}"
-			x: 4.5d
-			y: 1.0d
+			x: 12.5d
+			y: -3.0d
 		}
 		{
-			dependencies: [
-				"57534FA0E09C4975"
-				"4ABF0727AA569DD9"
+			dependencies: ["12D271359D48210E"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest3593D955361B0C6D.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3593D955361B0C6D.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest3593D955361B0C6D.description3}"
 			]
 			id: "3593D955361B0C6D"
 			rewards: [{
@@ -580,19 +791,25 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest3593D955361B0C6D.subtitle}"
 			tasks: [{
 				id: "789B4C8031BCDBDA"
 				item: "mekanismgenerators:hohlraum"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest3593D955361B0C6D.title}"
-			x: 7.0d
-			y: 3.0d
+			x: 11.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["1FAAF8216CDC3AC6"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest79757F66DF263FA0.description1}"]
-			icon: "mekanism:laser"
+			dependencies: ["12D271359D48210E"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest79757F66DF263FA0.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest79757F66DF263FA0.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest79757F66DF263FA0.description3}"
+			]
 			id: "79757F66DF263FA0"
 			rewards: [{
 				id: "27476AD1A921D6BC"
@@ -606,13 +823,18 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest79757F66DF263FA0.title}"
-			x: 3.0d
-			y: 5.0d
+			x: 13.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["1FAAF8216CDC3AC6"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest12D271359D48210E.description1}"]
-			icon: "mekanismgenerators:fusion_fuel_bucket"
+			dependencies: ["57534FA0E09C4975"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest12D271359D48210E.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest12D271359D48210E.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest12D271359D48210E.description3}"
+			]
 			id: "12D271359D48210E"
 			rewards: [{
 				id: "771198694F018CFC"
@@ -620,6 +842,7 @@
 				xp: 10
 			}]
 			shape: "heart"
+			size: 1.25d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest12D271359D48210E.subtitle}"
 			tasks: [{
 				id: "2A6E713A062510B6"
@@ -627,16 +850,40 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest12D271359D48210E.title}"
-			x: 2.0d
-			y: 3.0d
+			x: 12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
-				"320CC038A64A3195"
 				"3593D955361B0C6D"
+				"320CC038A64A3195"
 			]
-			icon: "terramity:battery"
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description6}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description7}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description8}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description9}"
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description10}"
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description11}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description12}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.description13}"
+			]
+			icon_scale: 1.2d
 			id: "26D306418545A2D6"
+			min_width: 350
 			rewards: [
 				{
 					id: "3D24F967DBB74D71"
@@ -654,7 +901,7 @@
 					type: "random"
 				}
 			]
-			size: 1.0d
+			size: 1.35d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.subtitle}"
 			tasks: [{
 				id: "1EEEE30BA51757D6"
@@ -664,24 +911,47 @@
 				value: 50000000L
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest26D306418545A2D6.title}"
-			x: 7.0d
-			y: 5.0d
+			x: 11.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["3FFF9018DA2A2763"]
+			dependencies: ["028276414303BEA2"]
 			description: [
 				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description1}"
 				""
 				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description2}"
 				""
 				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description6}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description7}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description8}"
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description9}"
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description10}"
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description11}"
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description12}"
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description13}"
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description14}"
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description15}"
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description16}"
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description17}"
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description18}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest6313B18820445882.description19}"
 			]
 			id: "6313B18820445882"
+			min_width: 350
 			rewards: [{
 				id: "0963F21E8369E149"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "hexagon"
+			size: 1.45d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest6313B18820445882.subtitle}"
 			tasks: [
 				{
@@ -698,12 +968,24 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest6313B18820445882.title}"
-			x: 2.0d
-			y: 8.0d
+			x: 8.2d
+			y: 13.7d
 		}
 		{
 			dependencies: ["6313B18820445882"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest233E438357CD89F6.description1}"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest233E438357CD89F6.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest233E438357CD89F6.description2}"
+				"{ftbquests.chapter.mekanism_pro.quest233E438357CD89F6.description3}"
+				"{ftbquests.chapter.mekanism_pro.quest233E438357CD89F6.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest233E438357CD89F6.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest233E438357CD89F6.description6}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest233E438357CD89F6.description7}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest233E438357CD89F6.description8}"
+			]
 			id: "233E438357CD89F6"
 			rewards: [{
 				id: "0A4A1734D68DC205"
@@ -732,8 +1014,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest233E438357CD89F6.title}"
-			x: 2.0d
-			y: 6.5d
+			x: 6.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["6313B18820445882"]
@@ -741,6 +1023,10 @@
 				"{ftbquests.chapter.mekanism_pro.quest5D20B506213A449.description1}"
 				""
 				"{ftbquests.chapter.mekanism_pro.quest5D20B506213A449.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest5D20B506213A449.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest5D20B506213A449.description4}"
 			]
 			id: "05D20B506213A449"
 			rewards: [{
@@ -775,12 +1061,18 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest5D20B506213A449.title}"
-			x: 3.5d
-			y: 8.0d
+			x: 10.399999999999999d
+			y: 15.5d
 		}
 		{
 			dependencies: ["6313B18820445882"]
-			description: ["{ftbquests.chapter.mekanism_pro.quest7C61906C6C87C97D.description1}"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest7C61906C6C87C97D.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest7C61906C6C87C97D.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest7C61906C6C87C97D.description3}"
+			]
 			id: "7C61906C6C87C97D"
 			rewards: [{
 				id: "18AE58687D78BB0F"
@@ -794,14 +1086,14 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest7C61906C6C87C97D.title}"
-			x: 2.0d
-			y: 9.5d
+			x: 8.2d
+			y: 16.3d
 		}
 		{
 			dependencies: [
 				"233E438357CD89F6"
-				"7C61906C6C87C97D"
 				"05D20B506213A449"
+				"7C61906C6C87C97D"
 			]
 			description: [
 				"{ftbquests.chapter.mekanism_pro.quest4189BC3DFB551F4C.description1}"
@@ -809,6 +1101,8 @@
 				"{ftbquests.chapter.mekanism_pro.quest4189BC3DFB551F4C.description2}"
 				""
 				"{ftbquests.chapter.mekanism_pro.quest4189BC3DFB551F4C.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest4189BC3DFB551F4C.description4}"
 			]
 			id: "4189BC3DFB551F4C"
 			rewards: [{
@@ -816,7 +1110,8 @@
 				type: "xp"
 				xp: 250
 			}]
-			size: 1.2d
+			shape: "star"
+			size: 1.6d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest4189BC3DFB551F4C.subtitle}"
 			tasks: [{
 				id: "2FFE6CDB1C5E6BA6"
@@ -824,13 +1119,18 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.quest4189BC3DFB551F4C.title}"
-			x: 5.5d
-			y: 8.0d
+			x: 8.2d
+			y: 18.9d
 		}
 		{
 			dependencies: ["24174700F7FB771C"]
-			description: ["{ftbquests.chapter.mekanism_pro.questFF852DE33E41C90.description1}"]
-			icon: "mekanism:dust_lithium"
+			description: [
+				"{ftbquests.chapter.mekanism_pro.questFF852DE33E41C90.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.questFF852DE33E41C90.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.questFF852DE33E41C90.description3}"
+			]
 			id: "0FF852DE33E41C90"
 			rewards: [{
 				id: "6FBC38ABC17E2BFF"
@@ -838,6 +1138,7 @@
 				xp: 100
 			}]
 			shape: "gear"
+			size: 1.35d
 			subtitle: "{ftbquests.chapter.mekanism_pro.questFF852DE33E41C90.subtitle}"
 			tasks: [{
 				id: "31A1425AA09C33F8"
@@ -852,32 +1153,43 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.mekanism_pro.questFF852DE33E41C90.title}"
-			x: -3.5d
-			y: 2.0d
+			x: 11.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
 			description: [
 				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description1}"
-				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.image0}"
+				""
 				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description2}"
 				""
 				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description3}"
 				""
 				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description4}"
-				""
 				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description5}"
-				""
 				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description6}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description7}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description8}"
+				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description9}"
+				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description10}"
+				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description11}"
+				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description12}"
+				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description13}"
+				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description14}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.description15}"
 			]
 			hide_until_deps_visible: false
-			icon: "mekanism:induction_port"
 			id: "673FCBF8685D0EEE"
+			min_width: 340
 			rewards: [{
 				id: "47EF9E0FC6A57445"
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.25d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.subtitle}"
 			tasks: [
 				{
@@ -900,21 +1212,25 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest673FCBF8685D0EEE.title}"
-			x: -2.5d
-			y: 2.5d
+			x: 9.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["0FF852DE33E41C90"]
+			dependencies: ["673FCBF8685D0EEE"]
 			description: [
 				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.description1}"
-				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.image0}"
-				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.description2}"
-				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.image2}"
-				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.description3}"
 				""
+				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.description2}"
+				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.description3}"
+				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.description6}"
+				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.description7}"
+				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.description8}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.description9}"
 			]
 			hide_until_deps_visible: false
-			icon: "mekanism:ultimate_induction_provider"
 			id: "14D772808D1BEAE2"
 			rewards: [{
 				id: "3CC428CF1A7974C7"
@@ -983,24 +1299,28 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest14D772808D1BEAE2.title}"
-			x: -2.5d
-			y: 1.5d
+			x: 9.5d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"673FCBF8685D0EEE"
-				"14D772808D1BEAE2"
+			dependencies: ["14D772808D1BEAE2"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest7ECC87DFF2D3991.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest7ECC87DFF2D3991.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest7ECC87DFF2D3991.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest7ECC87DFF2D3991.description4}"
 			]
-			description: ["{ftbquests.chapter.mekanism_pro.quest7ECC87DFF2D3991.description1}"]
-			icon: "mekanism:induction_casing"
 			id: "07ECC87DFF2D3991"
 			rewards: [{
 				id: "19F7348CFE7A14C9"
 				type: "xp"
 				xp: 100
 			}]
-			shape: "netheritetier"
-			size: 1.0d
+			shape: "hexagon"
+			size: 1.45d
 			subtitle: "{ftbquests.chapter.mekanism_pro.quest7ECC87DFF2D3991.subtitle}"
 			tasks: [
 				{
@@ -1081,8 +1401,484 @@
 				}
 			]
 			title: "{ftbquests.chapter.mekanism_pro.quest7ECC87DFF2D3991.title}"
-			x: -1.5d
-			y: 2.0d
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B81800EE6E77EF2"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description6}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description7}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description8}"
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description9}"
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description10}"
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description11}"
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description12}"
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description13}"
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description14}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description15}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.description16}"
+			]
+			icon: "mekanismgenerators:fission_reactor_casing"
+			id: "1BF3A5C3BDE6371E"
+			min_width: 350
+			rewards: [
+				{
+					count: 8
+					id: "46484A2BAA9AFBD1"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "5202025D1555C610"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.subtitle}"
+			tasks: [{
+				id: "278BC4BAAEDB34BC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanismgenerators:fission_reactor_casing"
+							}
+							{
+								Count: 1b
+								id: "mekanismgenerators:reactor_glass"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.task.2849587495318533308.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_pro.quest1BF3A5C3BDE6371E.title}"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0696B725E840B996"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest5D6C9BC7A836B7E8.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest5D6C9BC7A836B7E8.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest5D6C9BC7A836B7E8.description3}"
+				"{ftbquests.chapter.mekanism_pro.quest5D6C9BC7A836B7E8.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest5D6C9BC7A836B7E8.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest5D6C9BC7A836B7E8.description6}"
+				"{ftbquests.chapter.mekanism_pro.quest5D6C9BC7A836B7E8.description7}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest5D6C9BC7A836B7E8.description8}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest5D6C9BC7A836B7E8.description9}"
+			]
+			icon: "mekanismgenerators:fission_reactor_logic_adapter"
+			id: "5D6C9BC7A836B7E8"
+			optional: true
+			rewards: [{
+				id: "04799965EE020AE7"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest5D6C9BC7A836B7E8.subtitle}"
+			tasks: [{
+				id: "032C5FBE8F9EECEA"
+				item: "mekanismgenerators:fission_reactor_logic_adapter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_pro.quest5D6C9BC7A836B7E8.title}"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F5010269469EBE0"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description6}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description7}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description8}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description9}"
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description10}"
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description11}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description12}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.description13}"
+			]
+			icon: "mekanismgenerators:control_rod_assembly"
+			id: "71DB87166603A239"
+			min_width: 350
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19DA61E613D23839"
+					table_id: 523655846730814564L
+					type: "random"
+				}
+				{
+					id: "634BDAC58A579570"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "star"
+			size: 1.35d
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.subtitle}"
+			tasks: [{
+				id: "306F3598029A438A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "mekanismgenerators:control_rod_assembly"
+						}]
+					}
+				}
+				title: "{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.task.3490067163230389130.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_pro.quest71DB87166603A239.title}"
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["71DB87166603A239"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.questE8928B0A3D82364.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.questE8928B0A3D82364.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.questE8928B0A3D82364.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.questE8928B0A3D82364.description4}"
+			]
+			icon: "minecraft:tnt"
+			id: "0E8928B0A3D82364"
+			optional: true
+			rewards: [{
+				id: "7EB9468C3280AEBA"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.mekanism_pro.questE8928B0A3D82364.subtitle}"
+			tasks: [{
+				id: "42CCA7B3E4C4479C"
+				title: "{ftbquests.chapter.mekanism_pro.questE8928B0A3D82364.task.4813406492831270812.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.mekanism_pro.questE8928B0A3D82364.title}"
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71DB87166603A239"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest7340E02192978732.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest7340E02192978732.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest7340E02192978732.description3}"
+				"{ftbquests.chapter.mekanism_pro.quest7340E02192978732.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest7340E02192978732.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest7340E02192978732.description6}"
+				"{ftbquests.chapter.mekanism_pro.quest7340E02192978732.description7}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest7340E02192978732.description8}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest7340E02192978732.description9}"
+			]
+			icon: "mekanism:geiger_counter"
+			id: "7340E02192978732"
+			optional: true
+			rewards: [{
+				id: "5B90BF8F5F86788E"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest7340E02192978732.subtitle}"
+			tasks: [{
+				id: "6B127CD09FBBEEFC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:geiger_counter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:dosimeter"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.mekanism_pro.quest7340E02192978732.task.7715366347114016508.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_pro.quest7340E02192978732.title}"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E9FC7DC2AC6FD8E"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest6BEDDD356FF51508.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest6BEDDD356FF51508.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest6BEDDD356FF51508.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest6BEDDD356FF51508.description4}"
+			]
+			icon: "mekanism:reprocessed_fissile_fragment"
+			id: "6BEDDD356FF51508"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D1990CF13D1689E"
+					table_id: 3488080005486828330L
+					type: "random"
+				}
+				{
+					id: "720D8CE095E82E00"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest6BEDDD356FF51508.subtitle}"
+			tasks: [{
+				id: "1E8D0C9240A044A9"
+				item: "mekanism:reprocessed_fissile_fragment"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_pro.quest6BEDDD356FF51508.title}"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["71DB87166603A239"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest35EF76F0B951BFA8.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest35EF76F0B951BFA8.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest35EF76F0B951BFA8.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest35EF76F0B951BFA8.description4}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest35EF76F0B951BFA8.description5}"
+			]
+			icon: "mekanism:sodium_bucket"
+			id: "35EF76F0B951BFA8"
+			rewards: [{
+				id: "23E9BA6396030791"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest35EF76F0B951BFA8.subtitle}"
+			tasks: [{
+				id: "3E1D03802344E8FC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:sodium_bucket"
+							}
+							{
+								Count: 1b
+								id: "mekanism:salt"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.mekanism_pro.quest35EF76F0B951BFA8.task.4475737453558556924.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_pro.quest35EF76F0B951BFA8.title}"
+			x: 8.2d
+			y: 7.5d
+		}
+		{
+			dependencies: ["35EF76F0B951BFA8"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description4}"
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description5}"
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description6}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description7}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description8}"
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description9}"
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description10}"
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description11}"
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description12}"
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description13}"
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description14}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest244269497F76692E.description15}"
+			]
+			icon: "mekanism:boiler_casing"
+			id: "244269497F76692E"
+			min_width: 340
+			rewards: [
+				{
+					count: 8
+					id: "0AFF4D7EB4C57E3D"
+					item: "mekanism:boiler_casing"
+					type: "item"
+				}
+				{
+					id: "468663F13810FC81"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest244269497F76692E.subtitle}"
+			tasks: [{
+				id: "410731F486E954F7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:boiler_casing"
+							}
+							{
+								Count: 1b
+								id: "mekanism:boiler_valve"
+							}
+							{
+								Count: 1b
+								id: "mekanism:pressure_disperser"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.mekanism_pro.quest244269497F76692E.task.4685768863607510263.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_pro.quest244269497F76692E.title}"
+			x: 8.2d
+			y: 9.899999999999999d
+		}
+		{
+			dependencies: ["244269497F76692E"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest44C667C5803DFAF0.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest44C667C5803DFAF0.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest44C667C5803DFAF0.description3}"
+			]
+			icon: "mekanism:boiler_valve"
+			id: "44C667C5803DFAF0"
+			rewards: [{
+				id: "5F8D218502B15CCE"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest44C667C5803DFAF0.subtitle}"
+			tasks: [{
+				id: "04F5BBA289A0BEB3"
+				item: "mekanism:boiler_valve"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_pro.quest44C667C5803DFAF0.title}"
+			x: 6.0d
+			y: 11.7d
+		}
+		{
+			dependencies: ["244269497F76692E"]
+			description: [
+				"{ftbquests.chapter.mekanism_pro.quest28276414303BEA2.description1}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest28276414303BEA2.description2}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest28276414303BEA2.description3}"
+				""
+				"{ftbquests.chapter.mekanism_pro.quest28276414303BEA2.description4}"
+			]
+			icon: "mekanism:superheating_element"
+			id: "028276414303BEA2"
+			rewards: [
+				{
+					count: 4
+					id: "2ED762DBD2216868"
+					item: "mekanism:superheating_element"
+					type: "item"
+				}
+				{
+					id: "2610D7181ECA47F8"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.mekanism_pro.quest28276414303BEA2.subtitle}"
+			tasks: [{
+				id: "3026450C7DC6E8EE"
+				item: "mekanism:superheating_element"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_pro.quest28276414303BEA2.title}"
+			x: 10.399999999999999d
+			y: 11.7d
 		}
 	]
 	title: "{ftbquests.chapter.mekanism_pro.title}"

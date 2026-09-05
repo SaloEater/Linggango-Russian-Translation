@@ -6,15 +6,32 @@
 	group: "0FD8C2D2A2339C0B"
 	icon: "terramity:tearstone_ring"
 	id: "6EDF4B2777923E7D"
-	images: [{
-		height: 15.0d
-		image: "customtextures:textures/ring.png"
-		rotation: 0.0d
-		width: 16.0d
-		x: -0.5d
-		y: -1.0d
-	}]
-	order_index: 21
+	images: [
+		{
+			height: 15.0d
+			image: "customtextures:textures/ring.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.rings.image.hovertext1"
+				"ftbquests.chapter.rings.image.hovertext2"
+				"ftbquests.chapter.rings.image.hovertext3"
+				"ftbquests.chapter.rings.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.0d
+		}
+	]
+	order_index: 25
 	parent: "44F86CB070F12FF2"
 	quest_links: [ ]
 	quests: [
@@ -193,6 +210,11 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest1834F18BD3D850C9.description1}"
+				""
+				"{ftbquests.chapter.rings.quest1834F18BD3D850C9.description2}"
+			]
 			id: "1834F18BD3D850C9"
 			subtitle: "{ftbquests.chapter.rings.quest1834F18BD3D850C9.subtitle}"
 			tasks: [{
@@ -204,6 +226,13 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest5065A6B6A1217CF1.description1}"
+				""
+				"{ftbquests.chapter.rings.quest5065A6B6A1217CF1.description2}"
+				""
+				"{ftbquests.chapter.rings.quest5065A6B6A1217CF1.description3}"
+			]
 			id: "5065A6B6A1217CF1"
 			subtitle: "{ftbquests.chapter.rings.quest5065A6B6A1217CF1.subtitle}"
 			tasks: [{
@@ -215,6 +244,11 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest7CC24B52ED87515D.description1}"
+				""
+				"{ftbquests.chapter.rings.quest7CC24B52ED87515D.description2}"
+			]
 			id: "7CC24B52ED87515D"
 			subtitle: "{ftbquests.chapter.rings.quest7CC24B52ED87515D.subtitle}"
 			tasks: [{
@@ -226,6 +260,11 @@
 			y: 1.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest713F9FB48C9DBC8.description1}"
+				""
+				"{ftbquests.chapter.rings.quest713F9FB48C9DBC8.description2}"
+			]
 			id: "0713F9FB48C9DBC8"
 			subtitle: "{ftbquests.chapter.rings.quest713F9FB48C9DBC8.subtitle}"
 			tasks: [{
@@ -237,6 +276,11 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest4D52E174B16FCF20.description1}"
+				""
+				"{ftbquests.chapter.rings.quest4D52E174B16FCF20.description2}"
+			]
 			id: "4D52E174B16FCF20"
 			subtitle: "{ftbquests.chapter.rings.quest4D52E174B16FCF20.subtitle}"
 			tasks: [{
@@ -248,6 +292,11 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest79DAC840038E434E.description1}"
+				""
+				"{ftbquests.chapter.rings.quest79DAC840038E434E.description2}"
+			]
 			id: "79DAC840038E434E"
 			subtitle: "{ftbquests.chapter.rings.quest79DAC840038E434E.subtitle}"
 			tasks: [{
@@ -259,6 +308,11 @@
 			y: 1.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest1B0FB81362C9472E.description1}"
+				""
+				"{ftbquests.chapter.rings.quest1B0FB81362C9472E.description2}"
+			]
 			id: "1B0FB81362C9472E"
 			subtitle: "{ftbquests.chapter.rings.quest1B0FB81362C9472E.subtitle}"
 			tasks: [{
@@ -270,6 +324,11 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest2EDF4CC76E5EFC3A.description1}"
+				""
+				"{ftbquests.chapter.rings.quest2EDF4CC76E5EFC3A.description2}"
+			]
 			id: "2EDF4CC76E5EFC3A"
 			subtitle: "{ftbquests.chapter.rings.quest2EDF4CC76E5EFC3A.subtitle}"
 			tasks: [{
@@ -281,6 +340,11 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest636B09B2CE855992.description1}"
+				""
+				"{ftbquests.chapter.rings.quest636B09B2CE855992.description2}"
+			]
 			id: "636B09B2CE855992"
 			subtitle: "{ftbquests.chapter.rings.quest636B09B2CE855992.subtitle}"
 			tasks: [{
@@ -292,6 +356,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest31E8FA32E0E6619B.description1}"
+				""
+				"{ftbquests.chapter.rings.quest31E8FA32E0E6619B.description2}"
+			]
 			id: "31E8FA32E0E6619B"
 			subtitle: "{ftbquests.chapter.rings.quest31E8FA32E0E6619B.subtitle}"
 			tasks: [{
@@ -303,6 +372,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest78514B867139E74F.description1}"
+				""
+				"{ftbquests.chapter.rings.quest78514B867139E74F.description2}"
+			]
 			id: "78514B867139E74F"
 			subtitle: "{ftbquests.chapter.rings.quest78514B867139E74F.subtitle}"
 			tasks: [{
@@ -314,6 +388,13 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest11E7F8696C1193A6.description1}"
+				""
+				"{ftbquests.chapter.rings.quest11E7F8696C1193A6.description2}"
+				""
+				"{ftbquests.chapter.rings.quest11E7F8696C1193A6.description3}"
+			]
 			id: "11E7F8696C1193A6"
 			subtitle: "{ftbquests.chapter.rings.quest11E7F8696C1193A6.subtitle}"
 			tasks: [{
@@ -402,6 +483,13 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest7AFC43ACC89FE7A6.description1}"
+				""
+				"{ftbquests.chapter.rings.quest7AFC43ACC89FE7A6.description2}"
+				""
+				"{ftbquests.chapter.rings.quest7AFC43ACC89FE7A6.description3}"
+			]
 			id: "7AFC43ACC89FE7A6"
 			subtitle: "{ftbquests.chapter.rings.quest7AFC43ACC89FE7A6.subtitle}"
 			tasks: [{
@@ -413,6 +501,13 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest499083226F0329E5.description1}"
+				""
+				"{ftbquests.chapter.rings.quest499083226F0329E5.description2}"
+				""
+				"{ftbquests.chapter.rings.quest499083226F0329E5.description3}"
+			]
 			id: "499083226F0329E5"
 			subtitle: "{ftbquests.chapter.rings.quest499083226F0329E5.subtitle}"
 			tasks: [{
@@ -424,6 +519,13 @@
 			y: 1.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest64377C5BB421268C.description1}"
+				""
+				"{ftbquests.chapter.rings.quest64377C5BB421268C.description2}"
+				""
+				"{ftbquests.chapter.rings.quest64377C5BB421268C.description3}"
+			]
 			id: "64377C5BB421268C"
 			subtitle: "{ftbquests.chapter.rings.quest64377C5BB421268C.subtitle}"
 			tasks: [{
@@ -435,6 +537,13 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.questC2E0D5D1D3BA3A7.description1}"
+				""
+				"{ftbquests.chapter.rings.questC2E0D5D1D3BA3A7.description2}"
+				""
+				"{ftbquests.chapter.rings.questC2E0D5D1D3BA3A7.description3}"
+			]
 			id: "0C2E0D5D1D3BA3A7"
 			subtitle: "{ftbquests.chapter.rings.questC2E0D5D1D3BA3A7.subtitle}"
 			tasks: [{
@@ -446,6 +555,13 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest7220760843871D2E.description1}"
+				""
+				"{ftbquests.chapter.rings.quest7220760843871D2E.description2}"
+				""
+				"{ftbquests.chapter.rings.quest7220760843871D2E.description3}"
+			]
 			id: "7220760843871D2E"
 			subtitle: "{ftbquests.chapter.rings.quest7220760843871D2E.subtitle}"
 			tasks: [{
@@ -457,6 +573,13 @@
 			y: 1.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest32F6A357865057EC.description1}"
+				""
+				"{ftbquests.chapter.rings.quest32F6A357865057EC.description2}"
+				""
+				"{ftbquests.chapter.rings.quest32F6A357865057EC.description3}"
+			]
 			id: "32F6A357865057EC"
 			subtitle: "{ftbquests.chapter.rings.quest32F6A357865057EC.subtitle}"
 			tasks: [{
@@ -468,6 +591,13 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest7074FE0A7BD7CE43.description1}"
+				""
+				"{ftbquests.chapter.rings.quest7074FE0A7BD7CE43.description2}"
+				""
+				"{ftbquests.chapter.rings.quest7074FE0A7BD7CE43.description3}"
+			]
 			id: "7074FE0A7BD7CE43"
 			subtitle: "{ftbquests.chapter.rings.quest7074FE0A7BD7CE43.subtitle}"
 			tasks: [{
@@ -479,6 +609,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest40156F8EEDC53DA7.description1}"
+				""
+				"{ftbquests.chapter.rings.quest40156F8EEDC53DA7.description2}"
+			]
 			id: "40156F8EEDC53DA7"
 			subtitle: "{ftbquests.chapter.rings.quest40156F8EEDC53DA7.subtitle}"
 			tasks: [{
@@ -490,6 +625,11 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest18752D6C104928DE.description1}"
+				""
+				"{ftbquests.chapter.rings.quest18752D6C104928DE.description2}"
+			]
 			id: "18752D6C104928DE"
 			subtitle: "{ftbquests.chapter.rings.quest18752D6C104928DE.subtitle}"
 			tasks: [{
@@ -501,6 +641,11 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest1C433429C8D04C02.description1}"
+				""
+				"{ftbquests.chapter.rings.quest1C433429C8D04C02.description2}"
+			]
 			id: "1C433429C8D04C02"
 			subtitle: "{ftbquests.chapter.rings.quest1C433429C8D04C02.subtitle}"
 			tasks: [{
@@ -512,6 +657,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest37964C94D2B19600.description1}"
+				""
+				"{ftbquests.chapter.rings.quest37964C94D2B19600.description2}"
+			]
 			id: "37964C94D2B19600"
 			subtitle: "{ftbquests.chapter.rings.quest37964C94D2B19600.subtitle}"
 			tasks: [{
@@ -523,6 +673,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest634FB0F2E03A245B.description1}"
+				""
+				"{ftbquests.chapter.rings.quest634FB0F2E03A245B.description2}"
+			]
 			id: "634FB0F2E03A245B"
 			subtitle: "{ftbquests.chapter.rings.quest634FB0F2E03A245B.subtitle}"
 			tasks: [{
@@ -534,6 +689,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest6B08B3B8AB7EB711.description1}"
+				""
+				"{ftbquests.chapter.rings.quest6B08B3B8AB7EB711.description2}"
+			]
 			id: "6B08B3B8AB7EB711"
 			subtitle: "{ftbquests.chapter.rings.quest6B08B3B8AB7EB711.subtitle}"
 			tasks: [{
@@ -545,6 +705,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest7AE9E56FE64E7DDC.description1}"
+				""
+				"{ftbquests.chapter.rings.quest7AE9E56FE64E7DDC.description2}"
+			]
 			id: "7AE9E56FE64E7DDC"
 			subtitle: "{ftbquests.chapter.rings.quest7AE9E56FE64E7DDC.subtitle}"
 			tasks: [{
@@ -556,6 +721,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest2F02804B7FC1AAAD.description1}"
+				""
+				"{ftbquests.chapter.rings.quest2F02804B7FC1AAAD.description2}"
+			]
 			id: "2F02804B7FC1AAAD"
 			subtitle: "{ftbquests.chapter.rings.quest2F02804B7FC1AAAD.subtitle}"
 			tasks: [{
@@ -567,6 +737,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest19506CF1EB2FC49C.description1}"
+				""
+				"{ftbquests.chapter.rings.quest19506CF1EB2FC49C.description2}"
+			]
 			id: "19506CF1EB2FC49C"
 			subtitle: "{ftbquests.chapter.rings.quest19506CF1EB2FC49C.subtitle}"
 			tasks: [{
@@ -578,6 +753,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest32EEE4A35D25E049.description1}"
+				""
+				"{ftbquests.chapter.rings.quest32EEE4A35D25E049.description2}"
+			]
 			id: "32EEE4A35D25E049"
 			subtitle: "{ftbquests.chapter.rings.quest32EEE4A35D25E049.subtitle}"
 			tasks: [{
@@ -595,6 +775,11 @@
 			y: 9.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest4A552A035A3296B9.description1}"
+				""
+				"{ftbquests.chapter.rings.quest4A552A035A3296B9.description2}"
+			]
 			id: "4A552A035A3296B9"
 			subtitle: "{ftbquests.chapter.rings.quest4A552A035A3296B9.subtitle}"
 			tasks: [{
@@ -733,6 +918,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest798D8F9F5CCD6172.description1}"
+				""
+				"{ftbquests.chapter.rings.quest798D8F9F5CCD6172.description2}"
+			]
 			id: "798D8F9F5CCD6172"
 			subtitle: "{ftbquests.chapter.rings.quest798D8F9F5CCD6172.subtitle}"
 			tasks: [{
@@ -744,6 +934,11 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest5D7044B795890A78.description1}"
+				""
+				"{ftbquests.chapter.rings.quest5D7044B795890A78.description2}"
+			]
 			id: "5D7044B795890A78"
 			subtitle: "{ftbquests.chapter.rings.quest5D7044B795890A78.subtitle}"
 			tasks: [{
@@ -755,6 +950,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest6ED67F824E8DADF0.description1}"
+				""
+				"{ftbquests.chapter.rings.quest6ED67F824E8DADF0.description2}"
+			]
 			id: "6ED67F824E8DADF0"
 			subtitle: "{ftbquests.chapter.rings.quest6ED67F824E8DADF0.subtitle}"
 			tasks: [{
@@ -766,6 +966,13 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.rings.quest134B4EFAA8F24FFD.description1}"
+				""
+				"{ftbquests.chapter.rings.quest134B4EFAA8F24FFD.description2}"
+				""
+				"{ftbquests.chapter.rings.quest134B4EFAA8F24FFD.description3}"
+			]
 			id: "134B4EFAA8F24FFD"
 			subtitle: "{ftbquests.chapter.rings.quest134B4EFAA8F24FFD.subtitle}"
 			tasks: [{

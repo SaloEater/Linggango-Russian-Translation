@@ -1,0 +1,603 @@
+{
+	autofocus_id: "453718D66065CA4A"
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: "square"
+	filename: "enigmatic_scrolls"
+	group: "0361FC25A57730F8"
+	icon: "enigmaticlegacy:heaven_scroll"
+	id: "7EE5D96E5925CA07"
+	images: [
+		{
+			alpha: 60
+			height: 1.7d
+			image: "enigmaticlegacy:item/thicc_scroll"
+			rotation: -12.0d
+			width: 1.7d
+			x: -6.2d
+			y: 0.5d
+		}
+		{
+			alpha: 60
+			height: 1.7d
+			image: "enigmaticlegacy:item/fabulous_scroll"
+			rotation: 14.0d
+			width: 1.7d
+			x: 6.2d
+			y: 0.5d
+		}
+		{
+			alpha: 50
+			height: 1.5d
+			image: "enigmaticlegacy:item/cursed_scroll"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.enigmatic_scrolls.image.hovertext1"
+				"ftbquests.chapter.enigmatic_scrolls.image.hovertext2"
+				"ftbquests.chapter.enigmatic_scrolls.image.hovertext3"
+				"ftbquests.chapter.enigmatic_scrolls.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "alexscaves:item/pure_darkness"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.015404905435381977d
+			y: 0.6457397460299319d
+		}
+	]
+	order_index: 4
+	parent: "31575DEBB2A21CCD"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest3EEEB769A9ED43C7.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest3EEEB769A9ED43C7.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest3EEEB769A9ED43C7.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest3EEEB769A9ED43C7.description4}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest3EEEB769A9ED43C7.description5}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest3EEEB769A9ED43C7.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest3EEEB769A9ED43C7.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest3EEEB769A9ED43C7.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest3EEEB769A9ED43C7.description9}"
+			]
+			icon: "enigmaticlegacy:thicc_scroll"
+			id: "3EEEB769A9ED43C7"
+			min_width: 350
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest3EEEB769A9ED43C7.subtitle}"
+			tasks: [{
+				id: "538544539428BF27"
+				title: "{ftbquests.chapter.enigmatic_scrolls.quest3EEEB769A9ED43C7.task.6018291602809208615.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest3EEEB769A9ED43C7.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3EEEB769A9ED43C7"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest6D90E585D2406F72.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest6D90E585D2406F72.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest6D90E585D2406F72.description3}"
+			]
+			id: "6D90E585D2406F72"
+			min_width: 320
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest6D90E585D2406F72.subtitle}"
+			tasks: [{
+				id: "6079CB0880B7608F"
+				item: "enigmaticlegacy:thicc_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest6D90E585D2406F72.title}"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3EEEB769A9ED43C7"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest453718D66065CA4A.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest453718D66065CA4A.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest453718D66065CA4A.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest453718D66065CA4A.description4}"
+			]
+			id: "453718D66065CA4A"
+			min_width: 330
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest453718D66065CA4A.subtitle}"
+			tasks: [{
+				id: "1C00411329331083"
+				item: "enigmaticlegacy:darkest_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest453718D66065CA4A.title}"
+			x: 0.0d
+			y: 0.625d
+		}
+		{
+			dependencies: ["3EEEB769A9ED43C7"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest594DE634D568F698.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest594DE634D568F698.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest594DE634D568F698.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest594DE634D568F698.description4}"
+			]
+			id: "594DE634D568F698"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest594DE634D568F698.subtitle}"
+			tasks: [{
+				id: "524C8D72217C8856"
+				item: "covenant_of_the_seven:brightest_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest594DE634D568F698.title}"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D90E585D2406F72"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest1CB5C629D6E2424A.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest1CB5C629D6E2424A.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest1CB5C629D6E2424A.description3}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest1CB5C629D6E2424A.description4}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest1CB5C629D6E2424A.description5}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest1CB5C629D6E2424A.description6}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest1CB5C629D6E2424A.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest1CB5C629D6E2424A.description8}"
+			]
+			id: "1CB5C629D6E2424A"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest1CB5C629D6E2424A.subtitle}"
+			tasks: [{
+				id: "71FC854EA40D4E32"
+				item: "enigmaticlegacy:xp_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest1CB5C629D6E2424A.title}"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D90E585D2406F72"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest18362E8AD6EE9A8C.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest18362E8AD6EE9A8C.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest18362E8AD6EE9A8C.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest18362E8AD6EE9A8C.description4}"
+			]
+			id: "18362E8AD6EE9A8C"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest18362E8AD6EE9A8C.subtitle}"
+			tasks: [{
+				id: "5E705F45FEECA425"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest18362E8AD6EE9A8C.title}"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D90E585D2406F72"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest4EF80EAF25964BE6.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest4EF80EAF25964BE6.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest4EF80EAF25964BE6.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest4EF80EAF25964BE6.description4}"
+			]
+			id: "4EF80EAF25964BE6"
+			min_width: 340
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest4EF80EAF25964BE6.subtitle}"
+			tasks: [{
+				id: "4AEB539432E655DF"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest4EF80EAF25964BE6.title}"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4EF80EAF25964BE6"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest71B31311EAC896B.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest71B31311EAC896B.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest71B31311EAC896B.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest71B31311EAC896B.description4}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest71B31311EAC896B.description5}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest71B31311EAC896B.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest71B31311EAC896B.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest71B31311EAC896B.description8}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest71B31311EAC896B.description9}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest71B31311EAC896B.description10}"
+			]
+			id: "071B31311EAC896B"
+			min_width: 350
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest71B31311EAC896B.subtitle}"
+			tasks: [{
+				id: "7748817D95D587F7"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest71B31311EAC896B.title}"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D90E585D2406F72"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest5121864C6D2774C5.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest5121864C6D2774C5.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest5121864C6D2774C5.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest5121864C6D2774C5.description4}"
+			]
+			id: "5121864C6D2774C5"
+			min_width: 320
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest5121864C6D2774C5.subtitle}"
+			tasks: [{
+				id: "4494CBF4655F667A"
+				item: "enigmaticaddons:survivor_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest5121864C6D2774C5.title}"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5121864C6D2774C5"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest6F209D8BFD97F332.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest6F209D8BFD97F332.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest6F209D8BFD97F332.description3}"
+			]
+			id: "6F209D8BFD97F332"
+			min_width: 320
+			optional: true
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest6F209D8BFD97F332.subtitle}"
+			tasks: [{
+				id: "68D8A5753BC339DE"
+				item: "enigmaticaddons:explorer_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest6F209D8BFD97F332.title}"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5121864C6D2774C5"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest6D2066450170FF50.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest6D2066450170FF50.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest6D2066450170FF50.description3}"
+			]
+			id: "6D2066450170FF50"
+			min_width: 320
+			optional: true
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest6D2066450170FF50.subtitle}"
+			tasks: [{
+				id: "70430AA6025EEF55"
+				item: "enigmaticaddons:hunter_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest6D2066450170FF50.title}"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["453718D66065CA4A"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.questAA1567557149D5C.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.questAA1567557149D5C.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.questAA1567557149D5C.description3}"
+				"{ftbquests.chapter.enigmatic_scrolls.questAA1567557149D5C.description4}"
+				"{ftbquests.chapter.enigmatic_scrolls.questAA1567557149D5C.description5}"
+				"{ftbquests.chapter.enigmatic_scrolls.questAA1567557149D5C.description6}"
+				"{ftbquests.chapter.enigmatic_scrolls.questAA1567557149D5C.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.questAA1567557149D5C.description8}"
+			]
+			id: "0AA1567557149D5C"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.questAA1567557149D5C.subtitle}"
+			tasks: [{
+				id: "73AF42474FA9063C"
+				item: "enigmaticaddons:night_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.questAA1567557149D5C.title}"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0AA1567557149D5C"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest1D5A7FA7C73BA7AB.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest1D5A7FA7C73BA7AB.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest1D5A7FA7C73BA7AB.description3}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest1D5A7FA7C73BA7AB.description4}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest1D5A7FA7C73BA7AB.description5}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest1D5A7FA7C73BA7AB.description6}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest1D5A7FA7C73BA7AB.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest1D5A7FA7C73BA7AB.description8}"
+			]
+			id: "1D5A7FA7C73BA7AB"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest1D5A7FA7C73BA7AB.subtitle}"
+			tasks: [{
+				id: "062DDD7A61E9D782"
+				item: "enigmaticaddons:thunder_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest1D5A7FA7C73BA7AB.title}"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["453718D66065CA4A"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest684D08CDB9CD24B2.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest684D08CDB9CD24B2.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest684D08CDB9CD24B2.description3}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest684D08CDB9CD24B2.description4}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest684D08CDB9CD24B2.description5}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest684D08CDB9CD24B2.description6}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest684D08CDB9CD24B2.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest684D08CDB9CD24B2.description8}"
+			]
+			id: "684D08CDB9CD24B2"
+			min_width: 350
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest684D08CDB9CD24B2.subtitle}"
+			tasks: [{
+				id: "765EBB8F36745B1A"
+				item: "enigmaticaddons:violence_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest684D08CDB9CD24B2.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["453718D66065CA4A"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest3CC6763FA003F3C9.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest3CC6763FA003F3C9.description2}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest3CC6763FA003F3C9.description3}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest3CC6763FA003F3C9.description4}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest3CC6763FA003F3C9.description5}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest3CC6763FA003F3C9.description6}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest3CC6763FA003F3C9.description7}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest3CC6763FA003F3C9.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest3CC6763FA003F3C9.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest3CC6763FA003F3C9.description10}"
+			]
+			id: "3CC6763FA003F3C9"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest3CC6763FA003F3C9.subtitle}"
+			tasks: [{
+				id: "30EA6E2D6D4430DF"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest3CC6763FA003F3C9.title}"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["453718D66065CA4A"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest74D03B0A580FBCEA.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest74D03B0A580FBCEA.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest74D03B0A580FBCEA.description3}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest74D03B0A580FBCEA.description4}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest74D03B0A580FBCEA.description5}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest74D03B0A580FBCEA.description6}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest74D03B0A580FBCEA.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest74D03B0A580FBCEA.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest74D03B0A580FBCEA.description9}"
+			]
+			id: "74D03B0A580FBCEA"
+			min_width: 350
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest74D03B0A580FBCEA.subtitle}"
+			tasks: [{
+				id: "4DFC7C820D14CBD4"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest74D03B0A580FBCEA.title}"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CB5C629D6E2424A"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest172C4ECEC40C15C7.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest172C4ECEC40C15C7.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest172C4ECEC40C15C7.description3}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest172C4ECEC40C15C7.description4}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest172C4ECEC40C15C7.description5}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest172C4ECEC40C15C7.description6}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest172C4ECEC40C15C7.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest172C4ECEC40C15C7.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest172C4ECEC40C15C7.description9}"
+			]
+			id: "172C4ECEC40C15C7"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest172C4ECEC40C15C7.subtitle}"
+			tasks: [{
+				id: "464E4B54D0D2A67B"
+				item: "enigmaticaddons:cursed_xp_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest172C4ECEC40C15C7.title}"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["594DE634D568F698"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest73B63202E26F1DD6.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest73B63202E26F1DD6.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest73B63202E26F1DD6.description3}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest73B63202E26F1DD6.description4}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest73B63202E26F1DD6.description5}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest73B63202E26F1DD6.description6}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest73B63202E26F1DD6.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest73B63202E26F1DD6.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest73B63202E26F1DD6.description9}"
+			]
+			id: "73B63202E26F1DD6"
+			min_width: 350
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest73B63202E26F1DD6.subtitle}"
+			tasks: [{
+				id: "2B1F6FF80D80F990"
+				item: "covenant_of_the_seven:divine_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest73B63202E26F1DD6.title}"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["071B31311EAC896B"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest442352EF0D22EB59.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest442352EF0D22EB59.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest442352EF0D22EB59.description3}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest442352EF0D22EB59.description4}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest442352EF0D22EB59.description5}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest442352EF0D22EB59.description6}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest442352EF0D22EB59.description7}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest442352EF0D22EB59.description8}"
+				"{ftbquests.chapter.enigmatic_scrolls.quest442352EF0D22EB59.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest442352EF0D22EB59.description10}"
+			]
+			id: "442352EF0D22EB59"
+			min_width: 350
+			optional: true
+			shape: "star"
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest442352EF0D22EB59.subtitle}"
+			tasks: [{
+				id: "74149D713C04D606"
+				item: "enigmaticlegacy:cosmic_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest442352EF0D22EB59.title}"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["453718D66065CA4A"]
+			description: [
+				"{ftbquests.chapter.enigmatic_scrolls.quest2855775BA72310E0.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest2855775BA72310E0.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_scrolls.quest2855775BA72310E0.description3}"
+			]
+			hide_dependency_lines: false
+			id: "2855775BA72310E0"
+			min_width: 320
+			optional: true
+			subtitle: "{ftbquests.chapter.enigmatic_scrolls.quest2855775BA72310E0.subtitle}"
+			tasks: [{
+				id: "3C84236F73E3BF3C"
+				item: "enigmaticdelicacy:fading_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_scrolls.quest2855775BA72310E0.title}"
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	title: "{ftbquests.chapter.enigmatic_scrolls.title}"
+}

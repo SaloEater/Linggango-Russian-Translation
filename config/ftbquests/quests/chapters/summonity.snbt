@@ -1,0 +1,1749 @@
+{
+	autofocus_id: "65D24349F4F35A99"
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: "square"
+	filename: "summonity"
+	group: "0FD8C2D2A2339C0B"
+	icon: "summonity:stardust_dragon_staff"
+	id: "1972E6247504B332"
+	images: [
+		{
+			height: 2.0d
+			image: "customtextures:textures/summonity_title.png"
+			rotation: 0.0d
+			width: 9.46d
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dev: true
+			height: 0.9d
+			hover: [
+				"ftbquests.chapter.summonity.image.hovertext1"
+				"ftbquests.chapter.summonity.image.hovertext2"
+				"ftbquests.chapter.summonity.image.hovertext3"
+				"ftbquests.chapter.summonity.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 0.9d
+			x: 0.0d
+			y: -16.5d
+		}
+	]
+	order_index: 8
+	parent: "2F1A384416C57A23"
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description3}"
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description4}"
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description5}"
+				""
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description6}"
+				""
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description7}"
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description8}"
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description9}"
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description10}"
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description11}"
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description12}"
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description13}"
+				""
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description14}"
+				""
+				"{ftbquests.chapter.summonity.quest65D24349F4F35A99.description15}"
+				""
+				"[\"\",{\"color\":\"#8FCB3F\",\"underlined\":true,\"translate\":\"ftbquests.chapter.summonity.quest65D24349F4F35A99.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2F1A384416C57A23\"}}]"
+			]
+			icon: "summonity:stardust_dragon_staff"
+			id: "65D24349F4F35A99"
+			rewards: [
+				{
+					id: "6AA071561D7BC70D"
+					item: "summonity:slime_staff"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1389704DC55E5E33"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "star"
+			size: 2.2d
+			subtitle: "{ftbquests.chapter.summonity.quest65D24349F4F35A99.subtitle}"
+			tasks: [{
+				id: "4123713F042D92BC"
+				item: "summonity:leather_whip"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest65D24349F4F35A99.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65D24349F4F35A99"]
+			description: [
+				"{ftbquests.chapter.summonity.quest31F7F509255C8E88.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest31F7F509255C8E88.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest31F7F509255C8E88.description3}"
+			]
+			icon: "summonity:slime_staff"
+			id: "31F7F509255C8E88"
+			rewards: [
+				{
+					id: "592AAD7636BFDAD1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6761C2794E4485F4"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			subtitle: "{ftbquests.chapter.summonity.quest31F7F509255C8E88.subtitle}"
+			tasks: [{
+				id: "36A3B9820EB0DA53"
+				title: "{ftbquests.chapter.summonity.quest31F7F509255C8E88.task.3937194467495303763.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.summonity.quest31F7F509255C8E88.title}"
+			x: 0.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["31F7F509255C8E88"]
+			description: [
+				"{ftbquests.chapter.summonity.quest129A2DA7771CC984.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest129A2DA7771CC984.description2}"
+			]
+			icon: "summonity:slime_staff"
+			id: "129A2DA7771CC984"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22A50875003A9C58"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest129A2DA7771CC984.subtitle}"
+			tasks: [{
+				id: "159D4A2B65F37457"
+				item: "summonity:slime_staff"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest129A2DA7771CC984.title}"
+			x: -1.6500000000000001d
+			y: -4.4d
+		}
+		{
+			dependencies: ["129A2DA7771CC984"]
+			description: [
+				"{ftbquests.chapter.summonity.quest79538DA6AAEEBCC5.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest79538DA6AAEEBCC5.description2}"
+			]
+			icon: "summonity:parrot_staff"
+			id: "79538DA6AAEEBCC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "129F48B7B7FB671D"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest79538DA6AAEEBCC5.subtitle}"
+			tasks: [{
+				id: "2A0EB06273E566B6"
+				item: "summonity:parrot_staff"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest79538DA6AAEEBCC5.title}"
+			x: -1.6500000000000001d
+			y: -6.05d
+		}
+		{
+			dependencies: ["79538DA6AAEEBCC5"]
+			description: [
+				"{ftbquests.chapter.summonity.quest14BE7D5F599E6B1F.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest14BE7D5F599E6B1F.description2}"
+			]
+			icon: "summonity:gnome_staff"
+			id: "14BE7D5F599E6B1F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45F9064E505DE975"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest14BE7D5F599E6B1F.subtitle}"
+			tasks: [{
+				id: "351E99EF4083A28A"
+				item: "summonity:gnome_staff"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest14BE7D5F599E6B1F.title}"
+			x: -1.6500000000000001d
+			y: -7.7d
+		}
+		{
+			dependencies: ["14BE7D5F599E6B1F"]
+			description: [
+				"{ftbquests.chapter.summonity.quest3CFEA8A7E20893DC.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest3CFEA8A7E20893DC.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest3CFEA8A7E20893DC.description3}"
+			]
+			icon: "summonity:spider_staff"
+			id: "3CFEA8A7E20893DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "784DFC5992617FE1"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest3CFEA8A7E20893DC.subtitle}"
+			tasks: [{
+				id: "68FBD6AD470D5DE0"
+				item: "summonity:spider_staff"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest3CFEA8A7E20893DC.title}"
+			x: -1.6500000000000001d
+			y: -9.35d
+		}
+		{
+			dependencies: ["3CFEA8A7E20893DC"]
+			description: [
+				"{ftbquests.chapter.summonity.quest2ACE5A56BEB88E37.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest2ACE5A56BEB88E37.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest2ACE5A56BEB88E37.description3}"
+			]
+			icon: "summonity:turret_staff"
+			id: "2ACE5A56BEB88E37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15A6537FC9E576FE"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest2ACE5A56BEB88E37.subtitle}"
+			tasks: [{
+				id: "35684E10C4BE33D7"
+				item: "summonity:turret_staff"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest2ACE5A56BEB88E37.title}"
+			x: -1.6500000000000001d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2ACE5A56BEB88E37"]
+			description: [
+				"{ftbquests.chapter.summonity.quest5F0A9F305AEF2239.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest5F0A9F305AEF2239.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest5F0A9F305AEF2239.description3}"
+				"{ftbquests.chapter.summonity.quest5F0A9F305AEF2239.description4}"
+				"{ftbquests.chapter.summonity.quest5F0A9F305AEF2239.description5}"
+				""
+				"{ftbquests.chapter.summonity.quest5F0A9F305AEF2239.description6}"
+			]
+			icon: "summonity:conductive_staff"
+			id: "5F0A9F305AEF2239"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F18EDDFDE3F464F"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest5F0A9F305AEF2239.subtitle}"
+			tasks: [{
+				id: "775A22A0F6CDC00B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "summonity:conductive_staff"
+							}
+							{
+								Count: 1b
+								id: "summonity:copper_controller"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.summonity.quest5F0A9F305AEF2239.task.8600224513148174347.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest5F0A9F305AEF2239.title}"
+			x: -0.55d
+			y: -12.65d
+		}
+		{
+			dependencies: ["31F7F509255C8E88"]
+			description: [
+				"{ftbquests.chapter.summonity.quest7B782DCD2515C8CF.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest7B782DCD2515C8CF.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest7B782DCD2515C8CF.description3}"
+			]
+			icon: "summonity:imp_staff"
+			id: "7B782DCD2515C8CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1453E23F8A895E2F"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest7B782DCD2515C8CF.subtitle}"
+			tasks: [{
+				id: "2024D5F2DEACB387"
+				item: "summonity:imp_staff"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest7B782DCD2515C8CF.title}"
+			x: 1.6500000000000001d
+			y: -4.4d
+		}
+		{
+			dependencies: ["7B782DCD2515C8CF"]
+			description: [
+				"{ftbquests.chapter.summonity.quest255E67F7897B375E.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest255E67F7897B375E.description2}"
+			]
+			icon: "summonity:sculk_mite_staff"
+			id: "255E67F7897B375E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "553E9D48DBA97AD3"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest255E67F7897B375E.subtitle}"
+			tasks: [{
+				id: "798540E1A14B409C"
+				item: "summonity:sculk_mite_staff"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest255E67F7897B375E.title}"
+			x: 1.6500000000000001d
+			y: -6.05d
+		}
+		{
+			dependencies: ["255E67F7897B375E"]
+			description: [
+				"{ftbquests.chapter.summonity.quest6E8151E39F1AAF3E.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest6E8151E39F1AAF3E.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest6E8151E39F1AAF3E.description3}"
+			]
+			icon: "summonity:crystal_scepter"
+			id: "6E8151E39F1AAF3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67F512E52D46FC48"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest6E8151E39F1AAF3E.subtitle}"
+			tasks: [{
+				id: "7FD139E888848986"
+				item: "summonity:crystal_scepter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest6E8151E39F1AAF3E.title}"
+			x: 1.6500000000000001d
+			y: -7.7d
+		}
+		{
+			dependencies: ["6E8151E39F1AAF3E"]
+			description: [
+				"{ftbquests.chapter.summonity.quest5B0F58DB9721978E.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest5B0F58DB9721978E.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest5B0F58DB9721978E.description3}"
+			]
+			icon: "summonity:sanguine_staff"
+			id: "5B0F58DB9721978E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "253E53E0C66E2A71"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest5B0F58DB9721978E.subtitle}"
+			tasks: [{
+				id: "38B537702DBF5B57"
+				item: "summonity:sanguine_staff"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest5B0F58DB9721978E.title}"
+			x: 1.6500000000000001d
+			y: -9.35d
+		}
+		{
+			dependencies: ["5B0F58DB9721978E"]
+			description: [
+				"{ftbquests.chapter.summonity.quest483E27F7F82151F4.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest483E27F7F82151F4.description2}"
+			]
+			icon: "summonity:stardust_dragon_staff"
+			id: "483E27F7F82151F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "778C9690D5195C64"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest483E27F7F82151F4.subtitle}"
+			tasks: [{
+				id: "399351623CC08ED3"
+				item: "summonity:stardust_dragon_staff"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest483E27F7F82151F4.title}"
+			x: 1.6500000000000001d
+			y: -11.0d
+		}
+		{
+			dependencies: ["483E27F7F82151F4"]
+			description: [
+				"{ftbquests.chapter.summonity.quest7C267BE042CF2ED0.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest7C267BE042CF2ED0.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest7C267BE042CF2ED0.description3}"
+			]
+			icon: "summonity:warriors_arsenal"
+			id: "7C267BE042CF2ED0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D1AF06C6039AB38"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest7C267BE042CF2ED0.subtitle}"
+			tasks: [{
+				id: "1AE6D234DFD76204"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "summonity:warriors_arsenal"
+							}
+							{
+								Count: 1b
+								id: "summonity:fairy_staff"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.summonity.quest7C267BE042CF2ED0.task.1938467814165144068.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest7C267BE042CF2ED0.title}"
+			x: 0.55d
+			y: -12.65d
+		}
+		{
+			dependencies: ["65D24349F4F35A99"]
+			description: [
+				"{ftbquests.chapter.summonity.quest6BE21E485E58288F.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest6BE21E485E58288F.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest6BE21E485E58288F.description3}"
+				""
+				"{ftbquests.chapter.summonity.quest6BE21E485E58288F.description4}"
+			]
+			icon: "summonity:leather_whip"
+			id: "6BE21E485E58288F"
+			rewards: [
+				{
+					id: "7BE03D2E68B5D8FB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B1A69DF4757FDAE"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			subtitle: "{ftbquests.chapter.summonity.quest6BE21E485E58288F.subtitle}"
+			tasks: [{
+				id: "493D77F2EB172D0A"
+				title: "{ftbquests.chapter.summonity.quest6BE21E485E58288F.task.5277506223558044938.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.summonity.quest6BE21E485E58288F.title}"
+			x: 2.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BE21E485E58288F"]
+			description: [
+				"{ftbquests.chapter.summonity.quest3F902AE72FFE1550.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest3F902AE72FFE1550.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest3F902AE72FFE1550.description3}"
+			]
+			icon: "summonity:leather_whip"
+			id: "3F902AE72FFE1550"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76127612B1EAD216"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest3F902AE72FFE1550.subtitle}"
+			tasks: [{
+				id: "211A63307C0B8331"
+				item: "summonity:leather_whip"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest3F902AE72FFE1550.title}"
+			x: 3.85d
+			y: -1.1d
+		}
+		{
+			dependencies: ["3F902AE72FFE1550"]
+			description: [
+				"{ftbquests.chapter.summonity.quest72540E814F188224.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest72540E814F188224.description2}"
+			]
+			icon: "summonity:spinal_whip"
+			id: "72540E814F188224"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C220145012A0B67"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest72540E814F188224.subtitle}"
+			tasks: [{
+				id: "43C5A81D70C32507"
+				item: "summonity:spinal_whip"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest72540E814F188224.title}"
+			x: 4.95d
+			y: -1.1d
+		}
+		{
+			dependencies: ["72540E814F188224"]
+			description: [
+				"{ftbquests.chapter.summonity.quest4C3AF6A19CF89C15.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest4C3AF6A19CF89C15.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest4C3AF6A19CF89C15.description3}"
+				""
+				"{ftbquests.chapter.summonity.quest4C3AF6A19CF89C15.description4}"
+			]
+			icon: "summonity:amethyst_whip"
+			id: "4C3AF6A19CF89C15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C3DBF4E2925B860"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest4C3AF6A19CF89C15.subtitle}"
+			tasks: [{
+				id: "75E3FE8BCA8A229C"
+				item: "summonity:amethyst_whip"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest4C3AF6A19CF89C15.title}"
+			x: 6.05d
+			y: -1.1d
+		}
+		{
+			dependencies: ["6BE21E485E58288F"]
+			description: [
+				"{ftbquests.chapter.summonity.quest247F01B36E9169F9.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest247F01B36E9169F9.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest247F01B36E9169F9.description3}"
+				""
+				"{ftbquests.chapter.summonity.quest247F01B36E9169F9.description4}"
+				""
+				"{ftbquests.chapter.summonity.quest247F01B36E9169F9.description5}"
+			]
+			icon: "summonity:magma_whip"
+			id: "247F01B36E9169F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "596426D4DD6A0AD5"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest247F01B36E9169F9.subtitle}"
+			tasks: [{
+				id: "6170D7B6F56C4F4D"
+				item: "summonity:magma_whip"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest247F01B36E9169F9.title}"
+			x: 3.85d
+			y: 1.1d
+		}
+		{
+			dependencies: ["247F01B36E9169F9"]
+			description: [
+				"{ftbquests.chapter.summonity.quest7B87A301714AE631.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest7B87A301714AE631.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest7B87A301714AE631.description3}"
+				""
+				"{ftbquests.chapter.summonity.quest7B87A301714AE631.description4}"
+			]
+			icon: "summonity:soul_whip"
+			id: "7B87A301714AE631"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53C2FE0952817AA1"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest7B87A301714AE631.subtitle}"
+			tasks: [{
+				id: "7F4E358C25EF60D1"
+				item: "summonity:soul_whip"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest7B87A301714AE631.title}"
+			x: 4.95d
+			y: 1.1d
+		}
+		{
+			dependencies: ["7B87A301714AE631"]
+			description: [
+				"{ftbquests.chapter.summonity.quest68342B11B83E43BC.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest68342B11B83E43BC.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest68342B11B83E43BC.description3}"
+				""
+				"{ftbquests.chapter.summonity.quest68342B11B83E43BC.description4}"
+				""
+				"{ftbquests.chapter.summonity.quest68342B11B83E43BC.description5}"
+			]
+			icon: "summonity:hemorrhage"
+			id: "68342B11B83E43BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DF25B6F0444821A"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest68342B11B83E43BC.subtitle}"
+			tasks: [{
+				id: "705093CEEA1915D7"
+				item: "summonity:hemorrhage"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest68342B11B83E43BC.title}"
+			x: 6.05d
+			y: 1.1d
+		}
+		{
+			dependencies: ["65D24349F4F35A99"]
+			description: [
+				"{ftbquests.chapter.summonity.quest2F2A76810EFA2CD4.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest2F2A76810EFA2CD4.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest2F2A76810EFA2CD4.description3}"
+			]
+			icon: "summonity:necromantic_scroll"
+			id: "2F2A76810EFA2CD4"
+			rewards: [
+				{
+					id: "6DFBA6B158935837"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "707B09FED0D9E54C"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			subtitle: "{ftbquests.chapter.summonity.quest2F2A76810EFA2CD4.subtitle}"
+			tasks: [{
+				id: "69EF48BD117C8724"
+				title: "{ftbquests.chapter.summonity.quest2F2A76810EFA2CD4.task.7633399870295672612.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.summonity.quest2F2A76810EFA2CD4.title}"
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["2F2A76810EFA2CD4"]
+			description: [
+				"{ftbquests.chapter.summonity.quest28D3C989F8DD5F44.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest28D3C989F8DD5F44.description2}"
+			]
+			icon: "summonity:pygmy_necklace"
+			id: "28D3C989F8DD5F44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D9C6B254ACB00D7"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest28D3C989F8DD5F44.subtitle}"
+			tasks: [{
+				id: "19FD84BF454DCD27"
+				item: "summonity:pygmy_necklace"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest28D3C989F8DD5F44.title}"
+			x: -1.6500000000000001d
+			y: 3.85d
+		}
+		{
+			dependencies: ["28D3C989F8DD5F44"]
+			description: [
+				"{ftbquests.chapter.summonity.quest5AC9A08BE20C3E61.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest5AC9A08BE20C3E61.description2}"
+			]
+			icon: "summonity:ring_of_summoning"
+			id: "5AC9A08BE20C3E61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "497DED3C9043345C"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest5AC9A08BE20C3E61.subtitle}"
+			tasks: [{
+				id: "60699E533E75694C"
+				item: "summonity:ring_of_summoning"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest5AC9A08BE20C3E61.title}"
+			x: -1.6500000000000001d
+			y: 4.95d
+		}
+		{
+			dependencies: ["5AC9A08BE20C3E61"]
+			description: [
+				"{ftbquests.chapter.summonity.quest2C574B03E3965282.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest2C574B03E3965282.description2}"
+			]
+			icon: "summonity:ring_of_summoning_plus"
+			id: "2C574B03E3965282"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22320A3EE73FA715"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest2C574B03E3965282.subtitle}"
+			tasks: [{
+				id: "78C21E2B16E89E9B"
+				item: "summonity:ring_of_summoning_plus"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest2C574B03E3965282.title}"
+			x: -1.6500000000000001d
+			y: 6.05d
+		}
+		{
+			dependencies: ["2C574B03E3965282"]
+			description: [
+				"{ftbquests.chapter.summonity.quest58D10BEF502EE15C.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest58D10BEF502EE15C.description2}"
+			]
+			icon: "summonity:necromantic_scroll"
+			id: "58D10BEF502EE15C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39D96342AD0348DC"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest58D10BEF502EE15C.subtitle}"
+			tasks: [{
+				id: "6D438F6BE3C472E1"
+				item: "summonity:necromantic_scroll"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest58D10BEF502EE15C.title}"
+			x: -1.6500000000000001d
+			y: 7.15d
+		}
+		{
+			dependencies: ["58D10BEF502EE15C"]
+			description: [
+				"{ftbquests.chapter.summonity.quest606DF404CBF34F7C.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest606DF404CBF34F7C.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest606DF404CBF34F7C.description3}"
+			]
+			icon: "summonity:papyrus_scarab"
+			id: "606DF404CBF34F7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CB2E31054B5E227"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest606DF404CBF34F7C.subtitle}"
+			tasks: [{
+				id: "23E5A288907D95B8"
+				item: "summonity:papyrus_scarab"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest606DF404CBF34F7C.title}"
+			x: -2.2d
+			y: 8.25d
+		}
+		{
+			dependencies: ["606DF404CBF34F7C"]
+			description: [
+				"{ftbquests.chapter.summonity.quest3D5AD54CC785AC29.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest3D5AD54CC785AC29.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest3D5AD54CC785AC29.description3}"
+				""
+				"{ftbquests.chapter.summonity.quest3D5AD54CC785AC29.description4}"
+			]
+			icon: "summonity:hercules_beetle"
+			id: "3D5AD54CC785AC29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "645234565ADE7D60"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest3D5AD54CC785AC29.subtitle}"
+			tasks: [{
+				id: "5BE61BA6AD78FC4B"
+				item: "summonity:hercules_beetle"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest3D5AD54CC785AC29.title}"
+			x: -2.75d
+			y: 9.35d
+		}
+		{
+			dependencies: ["2F2A76810EFA2CD4"]
+			description: [
+				"{ftbquests.chapter.summonity.quest1EC47186B1874163.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest1EC47186B1874163.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest1EC47186B1874163.description3}"
+			]
+			icon: "summonity:whipping_gloves"
+			id: "1EC47186B1874163"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AEC25827D53B024"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest1EC47186B1874163.subtitle}"
+			tasks: [{
+				id: "77F70D6685295AE0"
+				item: "summonity:whipping_gloves"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest1EC47186B1874163.title}"
+			x: 1.6500000000000001d
+			y: 3.85d
+		}
+		{
+			dependencies: ["1EC47186B1874163"]
+			description: [
+				"{ftbquests.chapter.summonity.quest500E08703A8CB5BC.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest500E08703A8CB5BC.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest500E08703A8CB5BC.description3}"
+			]
+			icon: "summonity:zoom_glasses"
+			id: "500E08703A8CB5BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7178381410E88AB5"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest500E08703A8CB5BC.subtitle}"
+			tasks: [{
+				id: "485C0749FD001252"
+				item: "summonity:zoom_glasses"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest500E08703A8CB5BC.title}"
+			x: 1.6500000000000001d
+			y: 4.95d
+		}
+		{
+			dependencies: ["500E08703A8CB5BC"]
+			description: [
+				"{ftbquests.chapter.summonity.quest32D82EF8C3ACD1A3.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest32D82EF8C3ACD1A3.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest32D82EF8C3ACD1A3.description3}"
+			]
+			icon: "summonity:lead_bell"
+			id: "32D82EF8C3ACD1A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2730E53C1D132CD6"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest32D82EF8C3ACD1A3.subtitle}"
+			tasks: [{
+				id: "1DC6BE4A84DE5910"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "summonity:lead_bell"
+							}
+							{
+								Count: 1b
+								id: "summonity:metronome"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.summonity.quest32D82EF8C3ACD1A3.task.2145611499754641680.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest32D82EF8C3ACD1A3.title}"
+			x: 1.6500000000000001d
+			y: 6.05d
+		}
+		{
+			dependencies: ["32D82EF8C3ACD1A3"]
+			description: [
+				"{ftbquests.chapter.summonity.quest183484023CE83924.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest183484023CE83924.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest183484023CE83924.description3}"
+			]
+			icon: "summonity:soloists_seal"
+			id: "183484023CE83924"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32D243C385AD72E1"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest183484023CE83924.subtitle}"
+			tasks: [{
+				id: "309FBD29A1C64529"
+				item: "summonity:soloists_seal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest183484023CE83924.title}"
+			x: 1.6500000000000001d
+			y: 7.15d
+		}
+		{
+			dependencies: ["183484023CE83924"]
+			description: [
+				"{ftbquests.chapter.summonity.quest3065A6A2E5B6A3CE.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest3065A6A2E5B6A3CE.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest3065A6A2E5B6A3CE.description3}"
+			]
+			icon: "summonity:glass_scarab"
+			id: "3065A6A2E5B6A3CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E53AC3112924561"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest3065A6A2E5B6A3CE.subtitle}"
+			tasks: [{
+				id: "120DAD27005A1C11"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "summonity:glass_scarab"
+							}
+							{
+								Count: 1b
+								id: "summonity:polychromic_necklace"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.summonity.quest3065A6A2E5B6A3CE.task.1300886250401176593.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest3065A6A2E5B6A3CE.title}"
+			x: 2.2d
+			y: 8.25d
+		}
+		{
+			dependencies: ["3065A6A2E5B6A3CE"]
+			description: [
+				"{ftbquests.chapter.summonity.quest7CEEA10DD9A5B2D3.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest7CEEA10DD9A5B2D3.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest7CEEA10DD9A5B2D3.description3}"
+			]
+			icon: "summonity:war_horn"
+			id: "7CEEA10DD9A5B2D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C41D0AB8C6BF93F"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest7CEEA10DD9A5B2D3.subtitle}"
+			tasks: [{
+				id: "18785F37E0ABAE07"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "summonity:thorned_bracelets"
+							}
+							{
+								Count: 1b
+								id: "summonity:conductive_battery"
+							}
+							{
+								Count: 1b
+								id: "summonity:war_horn"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.summonity.quest7CEEA10DD9A5B2D3.task.1763263947712736775.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest7CEEA10DD9A5B2D3.title}"
+			x: 2.75d
+			y: 9.35d
+		}
+		{
+			dependencies: ["65D24349F4F35A99"]
+			description: [
+				"{ftbquests.chapter.summonity.quest6CF7EEB4EFEBA852.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest6CF7EEB4EFEBA852.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest6CF7EEB4EFEBA852.description3}"
+			]
+			icon: "summonity:carved_mask"
+			id: "6CF7EEB4EFEBA852"
+			rewards: [
+				{
+					id: "459F305C4B556D4F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79D56AE1ADC6F091"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			subtitle: "{ftbquests.chapter.summonity.quest6CF7EEB4EFEBA852.subtitle}"
+			tasks: [{
+				id: "291C31E66CB69FA7"
+				title: "{ftbquests.chapter.summonity.quest6CF7EEB4EFEBA852.task.2962297520639090599.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.summonity.quest6CF7EEB4EFEBA852.title}"
+			x: -2.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CF7EEB4EFEBA852"]
+			description: [
+				"{ftbquests.chapter.summonity.quest4387F951C4BE1E5D.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest4387F951C4BE1E5D.description2}"
+			]
+			icon: "summonity:carved_mask"
+			id: "4387F951C4BE1E5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A63A68C494C42DB"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest4387F951C4BE1E5D.subtitle}"
+			tasks: [{
+				id: "35AB8DCC6C9FBE94"
+				item: "summonity:carved_mask"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest4387F951C4BE1E5D.title}"
+			x: -3.85d
+			y: -1.1d
+		}
+		{
+			dependencies: ["4387F951C4BE1E5D"]
+			description: [
+				"{ftbquests.chapter.summonity.quest2FE7B405C9FF43A3.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest2FE7B405C9FF43A3.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest2FE7B405C9FF43A3.description3}"
+			]
+			icon: "summonity:tidecaller_mask"
+			id: "2FE7B405C9FF43A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1169760A4E52F1FA"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest2FE7B405C9FF43A3.subtitle}"
+			tasks: [{
+				id: "2CDE5FD0FC878D0F"
+				item: "summonity:tidecaller_mask"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest2FE7B405C9FF43A3.title}"
+			x: -5.5d
+			y: -1.1d
+		}
+		{
+			dependencies: ["2FE7B405C9FF43A3"]
+			description: [
+				"{ftbquests.chapter.summonity.quest61BEB0F7A11B6C8A.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest61BEB0F7A11B6C8A.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest61BEB0F7A11B6C8A.description3}"
+			]
+			icon: "summonity:raiders_mask"
+			id: "61BEB0F7A11B6C8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E183C8A8F4BAD81"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest61BEB0F7A11B6C8A.subtitle}"
+			tasks: [{
+				id: "49BC66197DB01D6F"
+				item: "summonity:raiders_mask"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest61BEB0F7A11B6C8A.title}"
+			x: -7.15d
+			y: -1.1d
+		}
+		{
+			dependencies: ["61BEB0F7A11B6C8A"]
+			description: [
+				"{ftbquests.chapter.summonity.quest179E1AAA09546348.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest179E1AAA09546348.description2}"
+			]
+			icon: "summonity:realmward_mask"
+			id: "179E1AAA09546348"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "677EBB87E76BB77D"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest179E1AAA09546348.subtitle}"
+			tasks: [{
+				id: "758A93B3CBBF2C92"
+				item: "summonity:realmward_mask"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest179E1AAA09546348.title}"
+			x: -8.8d
+			y: -1.1d
+		}
+		{
+			dependencies: ["179E1AAA09546348"]
+			description: [
+				"{ftbquests.chapter.summonity.quest6C6AF5D5E3A12774.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest6C6AF5D5E3A12774.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest6C6AF5D5E3A12774.description3}"
+				""
+				"{ftbquests.chapter.summonity.quest6C6AF5D5E3A12774.description4}"
+			]
+			icon: "summonity:dragon_mask"
+			id: "6C6AF5D5E3A12774"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E2E51FBCB2F22F1"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest6C6AF5D5E3A12774.subtitle}"
+			tasks: [{
+				id: "6620D0E6B3F8FF07"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "summonity:withered_visage"
+							}
+							{
+								Count: 1b
+								id: "summonity:deepward_mask"
+							}
+							{
+								Count: 1b
+								id: "summonity:dragon_mask"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.summonity.quest6C6AF5D5E3A12774.task.7359111480403885831.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest6C6AF5D5E3A12774.title}"
+			x: -8.8d
+			y: 0.55d
+		}
+		{
+			dependencies: ["6C6AF5D5E3A12774"]
+			description: [
+				"{ftbquests.chapter.summonity.quest38047146CA9588A9.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest38047146CA9588A9.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest38047146CA9588A9.description3}"
+			]
+			icon: "summonity:vanquishers_mask"
+			id: "38047146CA9588A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14EFB2B23F9BDE25"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest38047146CA9588A9.subtitle}"
+			tasks: [{
+				id: "26CC8806727C991A"
+				item: "summonity:vanquishers_mask"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest38047146CA9588A9.title}"
+			x: -8.8d
+			y: 2.2d
+		}
+		{
+			dependencies: ["38047146CA9588A9"]
+			description: [
+				"{ftbquests.chapter.summonity.quest53B41EE46D2999AE.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest53B41EE46D2999AE.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest53B41EE46D2999AE.description3}"
+			]
+			icon: "summonity:gobs_mask"
+			id: "53B41EE46D2999AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66A5644BB2C37D8B"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest53B41EE46D2999AE.subtitle}"
+			tasks: [{
+				id: "3C47233E64E15C79"
+				item: "summonity:gobs_mask"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest53B41EE46D2999AE.title}"
+			x: -7.15d
+			y: 2.2d
+		}
+		{
+			dependencies: ["53B41EE46D2999AE"]
+			description: [
+				"{ftbquests.chapter.summonity.quest6B620E1DA60D7D49.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest6B620E1DA60D7D49.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest6B620E1DA60D7D49.description3}"
+				""
+				"{ftbquests.chapter.summonity.quest6B620E1DA60D7D49.description4}"
+			]
+			icon: "summonity:spireguard_mask"
+			id: "6B620E1DA60D7D49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DC3F481E9CBD633"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest6B620E1DA60D7D49.subtitle}"
+			tasks: [{
+				id: "2C138758C4EFBF4B"
+				item: "summonity:spireguard_mask"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest6B620E1DA60D7D49.title}"
+			x: -5.5d
+			y: 2.2d
+		}
+		{
+			dependencies: ["6B620E1DA60D7D49"]
+			description: [
+				"{ftbquests.chapter.summonity.quest7737EAC5278A3931.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest7737EAC5278A3931.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest7737EAC5278A3931.description3}"
+			]
+			icon: "summonity:seraphic_mask"
+			id: "7737EAC5278A3931"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AE942EAE032588C"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.summonity.quest7737EAC5278A3931.subtitle}"
+			tasks: [{
+				id: "7533425C859D73EC"
+				item: "summonity:seraphic_mask"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest7737EAC5278A3931.title}"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7737EAC5278A3931"]
+			description: [
+				"{ftbquests.chapter.summonity.quest4E67ED20CA389357.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest4E67ED20CA389357.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest4E67ED20CA389357.description3}"
+			]
+			icon: "summonity:ultra_sniffer_mask"
+			id: "4E67ED20CA389357"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41B5C45DBA0215B3"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest4E67ED20CA389357.subtitle}"
+			tasks: [{
+				id: "6BF3DB4417CAFE4C"
+				item: "summonity:ultra_sniffer_mask"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest4E67ED20CA389357.title}"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E67ED20CA389357"]
+			description: [
+				"{ftbquests.chapter.summonity.quest14ACE0BBB03516A4.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest14ACE0BBB03516A4.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest14ACE0BBB03516A4.description3}"
+				""
+				"{ftbquests.chapter.summonity.quest14ACE0BBB03516A4.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "summonity:obsidian_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "14ACE0BBB03516A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28C724C1E6B591DC"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest14ACE0BBB03516A4.subtitle}"
+			tasks: [{
+				id: "25392B4D92AEB223"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "summonity:obsidian_helmet"
+							}
+							{
+								Count: 1b
+								id: "summonity:obsidian_chestplate"
+							}
+							{
+								Count: 1b
+								id: "summonity:obsidian_leggings"
+							}
+							{
+								Count: 1b
+								id: "summonity:obsidian_boots"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.summonity.quest14ACE0BBB03516A4.task.2682222665249239587.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest14ACE0BBB03516A4.title}"
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14ACE0BBB03516A4"]
+			description: [
+				"{ftbquests.chapter.summonity.quest7B8445C9E2042521.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest7B8445C9E2042521.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest7B8445C9E2042521.description3}"
+				""
+				"{ftbquests.chapter.summonity.quest7B8445C9E2042521.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "summonity:spider_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B8445C9E2042521"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E721C0B8AFBF3C8"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest7B8445C9E2042521.subtitle}"
+			tasks: [{
+				id: "3BF10C05367256EB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "summonity:spider_helmet"
+							}
+							{
+								Count: 1b
+								id: "summonity:spider_chestplate"
+							}
+							{
+								Count: 1b
+								id: "summonity:spider_leggings"
+							}
+							{
+								Count: 1b
+								id: "summonity:spider_boots"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.summonity.quest7B8445C9E2042521.task.4319246734152849131.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest7B8445C9E2042521.title}"
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B8445C9E2042521"]
+			description: [
+				"{ftbquests.chapter.summonity.quest7D060D8B291F74FB.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest7D060D8B291F74FB.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest7D060D8B291F74FB.description3}"
+				""
+				"{ftbquests.chapter.summonity.quest7D060D8B291F74FB.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "summonity:virentium_summoner_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D060D8B291F74FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C5F1E66D63E298A"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.summonity.quest7D060D8B291F74FB.subtitle}"
+			tasks: [{
+				id: "6C9FC00888B1A80F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "summonity:virentium_summoner_helmet"
+							}
+							{
+								Count: 1b
+								id: "summonity:virentium_summoner_chestplate"
+							}
+							{
+								Count: 1b
+								id: "summonity:virentium_summoner_leggings"
+							}
+							{
+								Count: 1b
+								id: "summonity:virentium_summoner_boots"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.summonity.quest7D060D8B291F74FB.task.7827185820278827023.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest7D060D8B291F74FB.title}"
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D060D8B291F74FB"]
+			description: [
+				"{ftbquests.chapter.summonity.quest12B30643BB7C2C16.description1}"
+				""
+				"{ftbquests.chapter.summonity.quest12B30643BB7C2C16.description2}"
+				""
+				"{ftbquests.chapter.summonity.quest12B30643BB7C2C16.description3}"
+				""
+				"{ftbquests.chapter.summonity.quest12B30643BB7C2C16.description4}"
+				""
+				"{ftbquests.chapter.summonity.quest12B30643BB7C2C16.description5}"
+			]
+			icon: {
+				Count: 1
+				id: "summonity:sniffer_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "12B30643BB7C2C16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "280460CE4F8788C3"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "star"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.summonity.quest12B30643BB7C2C16.subtitle}"
+			tasks: [{
+				id: "6801F105A2D617D8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "summonity:sniffer_helmet"
+							}
+							{
+								Count: 1b
+								id: "summonity:sniffer_chestplate"
+							}
+							{
+								Count: 1b
+								id: "summonity:sniffer_leggings"
+							}
+							{
+								Count: 1b
+								id: "summonity:sniffer_boots"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.summonity.quest12B30643BB7C2C16.task.7494536261430286296.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.summonity.quest12B30643BB7C2C16.title}"
+			x: -13.0d
+			y: 2.0d
+		}
+	]
+	title: "{ftbquests.chapter.summonity.title}"
+}

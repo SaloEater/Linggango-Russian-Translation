@@ -1,0 +1,1279 @@
+{
+	autofocus_id: "6540D9003E61F4E2"
+	default_hide_dependency_lines: false
+	default_min_width: 340
+	default_quest_shape: "square"
+	filename: "enigmatic_virtues"
+	group: "0361FC25A57730F8"
+	icon: "covenant_of_the_seven:virtue_ring"
+	id: "2482696E9E09D728"
+	images: [
+		{
+			alpha: 60
+			height: 1.8d
+			image: "covenant_of_the_seven:item/pure_heart"
+			rotation: -16.0d
+			width: 1.8d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			alpha: 60
+			height: 1.8d
+			image: "covenant_of_the_seven:item/seraphic_heart"
+			rotation: 16.0d
+			width: 1.8d
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			alpha: 55
+			height: 1.5d
+			image: "covenant_of_the_seven:item/virtue_ring"
+			rotation: 32.0d
+			width: 1.5d
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.enigmatic_virtues.image.hovertext1"
+				"ftbquests.chapter.enigmatic_virtues.image.hovertext2"
+				"ftbquests.chapter.enigmatic_virtues.image.hovertext3"
+				"ftbquests.chapter.enigmatic_virtues.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "placebo:textures/wings/angel.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "terramity:item/archangel_halo"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	order_index: 13
+	parent: "31575DEBB2A21CCD"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description10}"
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description11}"
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description12}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description13}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description14}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description15}"
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description16}"
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description17}"
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description18}"
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description19}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description20}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.description21}"
+			]
+			icon: "covenant_of_the_seven:virtue_ring"
+			id: "6540D9003E61F4E2"
+			min_width: 380
+			shape: "hexagon"
+			size: 1.75d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.subtitle}"
+			tasks: [{
+				id: "6D2250AF98AA3BEF"
+				title: "{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.task.7863936614453099503.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest6540D9003E61F4E2.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6540D9003E61F4E2"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest12A55B549C0DA083.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest12A55B549C0DA083.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest12A55B549C0DA083.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest12A55B549C0DA083.description4}"
+			]
+			id: "12A55B549C0DA083"
+			min_width: 340
+			rewards: [{
+				id: "06A0CB3C00C375B5"
+				item: "enigmaticlegacy:earth_heart"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest12A55B549C0DA083.subtitle}"
+			tasks: [{
+				id: "1AEA6A2562B2AB5F"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest12A55B549C0DA083.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12A55B549C0DA083"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest2F35D1ABDCAD56AA.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest2F35D1ABDCAD56AA.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest2F35D1ABDCAD56AA.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest2F35D1ABDCAD56AA.description4}"
+			]
+			hide_dependency_lines: false
+			id: "2F35D1ABDCAD56AA"
+			min_width: 350
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest2F35D1ABDCAD56AA.subtitle}"
+			tasks: [{
+				id: "7CB46AB0E26B9B2D"
+				item: "covenant_of_the_seven:infinity_spirit"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest2F35D1ABDCAD56AA.title}"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6540D9003E61F4E2"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest3B4E460F4C196406.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest3B4E460F4C196406.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest3B4E460F4C196406.description3}"
+			]
+			id: "3B4E460F4C196406"
+			min_width: 340
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest3B4E460F4C196406.subtitle}"
+			tasks: [{
+				id: "108DCE2EBCC7F871"
+				item: "covenant_of_the_seven:holy_essence"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest3B4E460F4C196406.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12A55B549C0DA083"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest73B4B9E39A9A5152.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest73B4B9E39A9A5152.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest73B4B9E39A9A5152.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest73B4B9E39A9A5152.description4}"
+			]
+			id: "73B4B9E39A9A5152"
+			min_width: 350
+			rewards: [{
+				id: "2122AA31685FBB30"
+				item: "covenant_of_the_seven:pure_heart"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest73B4B9E39A9A5152.subtitle}"
+			tasks: [{
+				id: "185EB6BA2E66C94F"
+				item: "covenant_of_the_seven:pure_heart"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest73B4B9E39A9A5152.title}"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B4E460F4C196406"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest4F6B085E6DFD0EFA.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest4F6B085E6DFD0EFA.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest4F6B085E6DFD0EFA.description3}"
+			]
+			hide_dependency_lines: false
+			id: "4F6B085E6DFD0EFA"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest4F6B085E6DFD0EFA.subtitle}"
+			tasks: [{
+				id: "592AD606B1D21438"
+				item: "covenant_of_the_seven:sacred_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest4F6B085E6DFD0EFA.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6540D9003E61F4E2"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest5EF3157D4471721F.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5EF3157D4471721F.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5EF3157D4471721F.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5EF3157D4471721F.description4}"
+			]
+			id: "5EF3157D4471721F"
+			min_width: 360
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest5EF3157D4471721F.subtitle}"
+			tasks: [{
+				id: "2377324EF5171829"
+				item: "covenant_of_the_seven:seraphic_heart"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest5EF3157D4471721F.title}"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6540D9003E61F4E2"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest197E8EB199BDFA5A.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest197E8EB199BDFA5A.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest197E8EB199BDFA5A.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest197E8EB199BDFA5A.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest197E8EB199BDFA5A.description5}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest197E8EB199BDFA5A.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest197E8EB199BDFA5A.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest197E8EB199BDFA5A.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest197E8EB199BDFA5A.description9}"
+			]
+			id: "197E8EB199BDFA5A"
+			min_width: 360
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest197E8EB199BDFA5A.subtitle}"
+			tasks: [{
+				id: "5CFE1F728D87A974"
+				item: "covenant_of_the_seven:ambrosial_arbor"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest197E8EB199BDFA5A.title}"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["197E8EB199BDFA5A"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest1839513C78451143.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest1839513C78451143.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest1839513C78451143.description3}"
+			]
+			hide_dependency_lines: false
+			id: "1839513C78451143"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest1839513C78451143.subtitle}"
+			tasks: [{
+				id: "3933C10B620927F2"
+				item: "covenant_of_the_seven:damnation_potion"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest1839513C78451143.title}"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73B4B9E39A9A5152"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.description7}"
+				"{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.description8}"
+				"{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.description10}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.description11}"
+			]
+			hide_dependency_lines: false
+			id: "581F2A1C0FD00B9F"
+			min_width: 360
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.subtitle}"
+			tasks: [{
+				id: "651AA491DB41E82F"
+				item: "covenant_of_the_seven:benediction_charm"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest581F2A1C0FD00B9F.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B4E460F4C196406"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.questED765E7AE95722C.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questED765E7AE95722C.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questED765E7AE95722C.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questED765E7AE95722C.description4}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questED765E7AE95722C.description5}"
+			]
+			id: "0ED765E7AE95722C"
+			min_width: 350
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.questED765E7AE95722C.subtitle}"
+			tasks: [{
+				id: "39D9E01527C3ECF3"
+				item: "covenant_of_the_seven:potioneer_pearl"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.questED765E7AE95722C.title}"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73B4B9E39A9A5152"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest222DD8E1BA730F76.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest222DD8E1BA730F76.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest222DD8E1BA730F76.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest222DD8E1BA730F76.description4}"
+			]
+			id: "222DD8E1BA730F76"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest222DD8E1BA730F76.subtitle}"
+			tasks: [{
+				id: "20C942128C0FEB5F"
+				item: "covenant_of_the_seven:righteous_mirror"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest222DD8E1BA730F76.title}"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73B4B9E39A9A5152"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description7}"
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description8}"
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description9}"
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description10}"
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description11}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description12}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.description13}"
+			]
+			id: "0148E8EE617361F9"
+			min_width: 360
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.subtitle}"
+			tasks: [{
+				id: "32E3F3758A3357B0"
+				item: "covenant_of_the_seven:the_just"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest148E8EE617361F9.title}"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0148E8EE617361F9"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest6251E52D66AA014C.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6251E52D66AA014C.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6251E52D66AA014C.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest6251E52D66AA014C.description4}"
+			]
+			hide_dependency_lines: false
+			id: "6251E52D66AA014C"
+			min_width: 360
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest6251E52D66AA014C.subtitle}"
+			tasks: [{
+				id: "1A6485080D4C46F1"
+				item: "covenant_of_the_seven:the_aeternum"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest6251E52D66AA014C.title}"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["73B4B9E39A9A5152"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description7}"
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description8}"
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description9}"
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description10}"
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description11}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description12}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.description13}"
+			]
+			id: "15DF45153882F214"
+			min_width: 360
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.subtitle}"
+			tasks: [{
+				id: "4BAD387C164416C7"
+				item: {
+					Count: 1
+					id: "covenant_of_the_seven:glacial_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest15DF45153882F214.title}"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6540D9003E61F4E2"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest14CD90939DDC7470.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest14CD90939DDC7470.description2}"
+				"{ftbquests.chapter.enigmatic_virtues.quest14CD90939DDC7470.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest14CD90939DDC7470.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest14CD90939DDC7470.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest14CD90939DDC7470.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest14CD90939DDC7470.description7}"
+				"{ftbquests.chapter.enigmatic_virtues.quest14CD90939DDC7470.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest14CD90939DDC7470.description9}"
+			]
+			id: "14CD90939DDC7470"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest14CD90939DDC7470.subtitle}"
+			tasks: [{
+				id: "7C3AB20CB821525E"
+				item: "covenant_of_the_seven:serendipity_feast"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest14CD90939DDC7470.title}"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6540D9003E61F4E2"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest323DE80B83B7249.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest323DE80B83B7249.description2}"
+				"{ftbquests.chapter.enigmatic_virtues.quest323DE80B83B7249.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest323DE80B83B7249.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest323DE80B83B7249.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest323DE80B83B7249.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest323DE80B83B7249.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest323DE80B83B7249.description8}"
+			]
+			id: "0323DE80B83B7249"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest323DE80B83B7249.subtitle}"
+			tasks: [{
+				id: "402C11BF61293B90"
+				item: "covenant_of_the_seven:melodious_harmony"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest323DE80B83B7249.title}"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F35D1ABDCAD56AA"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.questC9D3679760D48F9.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questC9D3679760D48F9.description2}"
+				"{ftbquests.chapter.enigmatic_virtues.questC9D3679760D48F9.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.questC9D3679760D48F9.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.questC9D3679760D48F9.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.questC9D3679760D48F9.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.questC9D3679760D48F9.description7}"
+				"{ftbquests.chapter.enigmatic_virtues.questC9D3679760D48F9.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questC9D3679760D48F9.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questC9D3679760D48F9.description10}"
+			]
+			hide_dependency_lines: false
+			id: "0C9D3679760D48F9"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.questC9D3679760D48F9.subtitle}"
+			tasks: [{
+				id: "0D807C21019439CC"
+				item: "covenant_of_the_seven:annointed_handward"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.questC9D3679760D48F9.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["73B4B9E39A9A5152"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest52F9F43E737A777F.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest52F9F43E737A777F.description2}"
+				"{ftbquests.chapter.enigmatic_virtues.quest52F9F43E737A777F.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest52F9F43E737A777F.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest52F9F43E737A777F.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest52F9F43E737A777F.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest52F9F43E737A777F.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest52F9F43E737A777F.description8}"
+			]
+			id: "52F9F43E737A777F"
+			min_width: 350
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest52F9F43E737A777F.subtitle}"
+			tasks: [{
+				id: "5B8B8A7E77AFA806"
+				item: "covenant_of_the_seven:hallowed_steps"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest52F9F43E737A777F.title}"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C9D3679760D48F9"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest5D728979987BBA27.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5D728979987BBA27.description2}"
+				"{ftbquests.chapter.enigmatic_virtues.quest5D728979987BBA27.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest5D728979987BBA27.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest5D728979987BBA27.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest5D728979987BBA27.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5D728979987BBA27.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5D728979987BBA27.description8}"
+			]
+			hide_dependency_lines: false
+			id: "5D728979987BBA27"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest5D728979987BBA27.subtitle}"
+			tasks: [{
+				id: "25646CB0FC0D4203"
+				item: "covenant_of_the_seven:deliverance_albarest"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest5D728979987BBA27.title}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12A55B549C0DA083"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.questC34BF60C19E626C.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questC34BF60C19E626C.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questC34BF60C19E626C.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questC34BF60C19E626C.description4}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questC34BF60C19E626C.description5}"
+			]
+			id: "0C34BF60C19E626C"
+			min_width: 340
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.questC34BF60C19E626C.subtitle}"
+			tasks: [{
+				id: "6BEA7311C29D64FD"
+				item: "covenant_of_the_seven:all_seeing_eye"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.questC34BF60C19E626C.title}"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["581F2A1C0FD00B9F"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest5FACF4DC370F191D.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5FACF4DC370F191D.description2}"
+				"{ftbquests.chapter.enigmatic_virtues.quest5FACF4DC370F191D.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest5FACF4DC370F191D.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest5FACF4DC370F191D.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest5FACF4DC370F191D.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5FACF4DC370F191D.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5FACF4DC370F191D.description8}"
+			]
+			hide_dependency_lines: false
+			id: "5FACF4DC370F191D"
+			min_width: 360
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest5FACF4DC370F191D.subtitle}"
+			tasks: [{
+				id: "48E83B33624C6595"
+				item: "covenant_of_the_seven:mnestia_raiment"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest5FACF4DC370F191D.title}"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7327D16EC0A90842"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.questB14F71F5D42F3DA.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questB14F71F5D42F3DA.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questB14F71F5D42F3DA.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questB14F71F5D42F3DA.description4}"
+			]
+			id: "0B14F71F5D42F3DA"
+			min_width: 340
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.questB14F71F5D42F3DA.subtitle}"
+			tasks: [{
+				id: "78B2A822984AAC83"
+				item: "covenant_of_the_seven:broken_mask"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.questB14F71F5D42F3DA.title}"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FACF4DC370F191D"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest424CD132B689387E.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest424CD132B689387E.description2}"
+				"{ftbquests.chapter.enigmatic_virtues.quest424CD132B689387E.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest424CD132B689387E.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest424CD132B689387E.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest424CD132B689387E.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest424CD132B689387E.description7}"
+				"{ftbquests.chapter.enigmatic_virtues.quest424CD132B689387E.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest424CD132B689387E.description9}"
+			]
+			hide_dependency_lines: false
+			id: "424CD132B689387E"
+			min_width: 350
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest424CD132B689387E.subtitle}"
+			tasks: [{
+				id: "1617E519C6EA8762"
+				item: "covenant_of_the_seven:rebirth_egg"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest424CD132B689387E.title}"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4F6B085E6DFD0EFA"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest559B3D44287481DA.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest559B3D44287481DA.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest559B3D44287481DA.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest559B3D44287481DA.description4}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest559B3D44287481DA.description5}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest559B3D44287481DA.description6}"
+			]
+			hide_dependency_lines: false
+			id: "559B3D44287481DA"
+			min_width: 360
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BF1158346E71DF0"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest559B3D44287481DA.subtitle}"
+			tasks: [{
+				id: "299660CA12F4CDF6"
+				item: "covenant_of_the_seven:holy_stone"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest559B3D44287481DA.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5EF3157D4471721F"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest66918E2E73AD841F.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest66918E2E73AD841F.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest66918E2E73AD841F.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest66918E2E73AD841F.description4}"
+			]
+			hide_dependency_lines: false
+			id: "66918E2E73AD841F"
+			min_width: 350
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest66918E2E73AD841F.subtitle}"
+			tasks: [{
+				id: "61C1D9F98ED77B69"
+				item: "covenant_of_the_seven:exaltation_ring"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest66918E2E73AD841F.title}"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66918E2E73AD841F"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description2}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description8}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description9}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description10}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description11}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description12}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description13}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description14}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description15}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description16}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description17}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description18}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description19}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description20}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description21}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description22}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description23}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.description24}"
+			]
+			hide_dependency_lines: false
+			id: "7327D16EC0A90842"
+			min_width: 380
+			shape: "star"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.subtitle}"
+			tasks: [{
+				id: "44F30F3A721A44BF"
+				item: "covenant_of_the_seven:consecration"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest7327D16EC0A90842.title}"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5EF3157D4471721F"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description5}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description9}"
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description10}"
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description11}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description12}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description13}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.description14}"
+			]
+			id: "72680109513597DE"
+			min_width: 370
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.subtitle}"
+			tasks: [{
+				id: "7AAE74F84EFCFE70"
+				item: "covenant_of_the_seven:dormant_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest72680109513597DE.title}"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72680109513597DE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest2505A2A7619191CA.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest2505A2A7619191CA.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest2505A2A7619191CA.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest2505A2A7619191CA.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest2505A2A7619191CA.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest2505A2A7619191CA.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest2505A2A7619191CA.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest2505A2A7619191CA.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest2505A2A7619191CA.description9}"
+			]
+			hide_dependency_lines: true
+			id: "2505A2A7619191CA"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest2505A2A7619191CA.subtitle}"
+			tasks: [{
+				id: "189AFD8778875C65"
+				item: "covenant_of_the_seven:fire_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest2505A2A7619191CA.title}"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72680109513597DE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest7FC6E9391B087ABF.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest7FC6E9391B087ABF.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest7FC6E9391B087ABF.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7FC6E9391B087ABF.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7FC6E9391B087ABF.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7FC6E9391B087ABF.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest7FC6E9391B087ABF.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest7FC6E9391B087ABF.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest7FC6E9391B087ABF.description9}"
+			]
+			hide_dependency_lines: true
+			id: "7FC6E9391B087ABF"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest7FC6E9391B087ABF.subtitle}"
+			tasks: [{
+				id: "3EC969C43A2F019F"
+				item: "covenant_of_the_seven:ice_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest7FC6E9391B087ABF.title}"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72680109513597DE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest235D991688DFBE26.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest235D991688DFBE26.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest235D991688DFBE26.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest235D991688DFBE26.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest235D991688DFBE26.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest235D991688DFBE26.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest235D991688DFBE26.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest235D991688DFBE26.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest235D991688DFBE26.description9}"
+			]
+			hide_dependency_lines: true
+			id: "235D991688DFBE26"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest235D991688DFBE26.subtitle}"
+			tasks: [{
+				id: "4915B9554DF8851A"
+				item: "covenant_of_the_seven:lightning_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest235D991688DFBE26.title}"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72680109513597DE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest773E1AB3E9B6F735.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest773E1AB3E9B6F735.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest773E1AB3E9B6F735.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest773E1AB3E9B6F735.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest773E1AB3E9B6F735.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest773E1AB3E9B6F735.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest773E1AB3E9B6F735.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest773E1AB3E9B6F735.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest773E1AB3E9B6F735.description9}"
+			]
+			hide_dependency_lines: true
+			id: "773E1AB3E9B6F735"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest773E1AB3E9B6F735.subtitle}"
+			tasks: [{
+				id: "28137C653528B763"
+				item: "covenant_of_the_seven:holy_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest773E1AB3E9B6F735.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72680109513597DE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest69E8EE8A7882D3CA.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest69E8EE8A7882D3CA.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest69E8EE8A7882D3CA.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest69E8EE8A7882D3CA.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest69E8EE8A7882D3CA.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest69E8EE8A7882D3CA.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest69E8EE8A7882D3CA.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest69E8EE8A7882D3CA.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest69E8EE8A7882D3CA.description9}"
+			]
+			hide_dependency_lines: true
+			id: "69E8EE8A7882D3CA"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest69E8EE8A7882D3CA.subtitle}"
+			tasks: [{
+				id: "44FC33E9AB60C2D6"
+				item: "covenant_of_the_seven:ender_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest69E8EE8A7882D3CA.title}"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72680109513597DE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest5BED52DA71A54D38.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5BED52DA71A54D38.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5BED52DA71A54D38.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest5BED52DA71A54D38.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest5BED52DA71A54D38.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest5BED52DA71A54D38.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest5BED52DA71A54D38.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5BED52DA71A54D38.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest5BED52DA71A54D38.description9}"
+			]
+			hide_dependency_lines: true
+			id: "5BED52DA71A54D38"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest5BED52DA71A54D38.subtitle}"
+			tasks: [{
+				id: "2349A50ABAE3E35B"
+				item: "covenant_of_the_seven:blood_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest5BED52DA71A54D38.title}"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72680109513597DE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest56C1527E1CB5EB67.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest56C1527E1CB5EB67.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest56C1527E1CB5EB67.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest56C1527E1CB5EB67.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest56C1527E1CB5EB67.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest56C1527E1CB5EB67.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest56C1527E1CB5EB67.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest56C1527E1CB5EB67.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest56C1527E1CB5EB67.description9}"
+			]
+			hide_dependency_lines: true
+			id: "56C1527E1CB5EB67"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest56C1527E1CB5EB67.subtitle}"
+			tasks: [{
+				id: "13D017D178DFE4E9"
+				item: "covenant_of_the_seven:evocation_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest56C1527E1CB5EB67.title}"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72680109513597DE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest33B84060D76DAABA.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest33B84060D76DAABA.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest33B84060D76DAABA.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest33B84060D76DAABA.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest33B84060D76DAABA.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest33B84060D76DAABA.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest33B84060D76DAABA.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest33B84060D76DAABA.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest33B84060D76DAABA.description9}"
+			]
+			hide_dependency_lines: true
+			id: "33B84060D76DAABA"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest33B84060D76DAABA.subtitle}"
+			tasks: [{
+				id: "1E7CB85631BCF9DC"
+				item: "covenant_of_the_seven:nature_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest33B84060D76DAABA.title}"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72680109513597DE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.questB28BC1C6577C488.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questB28BC1C6577C488.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questB28BC1C6577C488.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.questB28BC1C6577C488.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.questB28BC1C6577C488.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.questB28BC1C6577C488.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.questB28BC1C6577C488.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questB28BC1C6577C488.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.questB28BC1C6577C488.description9}"
+			]
+			hide_dependency_lines: true
+			id: "0B28BC1C6577C488"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.questB28BC1C6577C488.subtitle}"
+			tasks: [{
+				id: "543188BA99D0916E"
+				item: "covenant_of_the_seven:aqua_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.questB28BC1C6577C488.title}"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["72680109513597DE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest2F949E516B2AC544.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest2F949E516B2AC544.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest2F949E516B2AC544.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest2F949E516B2AC544.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest2F949E516B2AC544.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest2F949E516B2AC544.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest2F949E516B2AC544.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest2F949E516B2AC544.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest2F949E516B2AC544.description9}"
+			]
+			hide_dependency_lines: true
+			id: "2F949E516B2AC544"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest2F949E516B2AC544.subtitle}"
+			tasks: [{
+				id: "2BE54DE39B5FE458"
+				item: "covenant_of_the_seven:eldritch_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest2F949E516B2AC544.title}"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["72680109513597DE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest738870660D263223.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest738870660D263223.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest738870660D263223.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest738870660D263223.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest738870660D263223.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest738870660D263223.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest738870660D263223.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest738870660D263223.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest738870660D263223.description9}"
+			]
+			hide_dependency_lines: true
+			id: "738870660D263223"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest738870660D263223.subtitle}"
+			tasks: [{
+				id: "1974EE72855B8C2A"
+				item: "covenant_of_the_seven:geo_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest738870660D263223.title}"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["72680109513597DE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_virtues.quest719EDFC724C0127.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest719EDFC724C0127.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest719EDFC724C0127.description3}"
+				"{ftbquests.chapter.enigmatic_virtues.quest719EDFC724C0127.description4}"
+				"{ftbquests.chapter.enigmatic_virtues.quest719EDFC724C0127.description5}"
+				"{ftbquests.chapter.enigmatic_virtues.quest719EDFC724C0127.description6}"
+				"{ftbquests.chapter.enigmatic_virtues.quest719EDFC724C0127.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest719EDFC724C0127.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_virtues.quest719EDFC724C0127.description9}"
+			]
+			hide_dependency_lines: true
+			id: "0719EDFC724C0127"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_virtues.quest719EDFC724C0127.subtitle}"
+			tasks: [{
+				id: "53D5F6ACB40CB6C3"
+				item: "covenant_of_the_seven:wind_sacrament"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_virtues.quest719EDFC724C0127.title}"
+			x: -3.0d
+			y: 6.0d
+		}
+	]
+	title: "{ftbquests.chapter.enigmatic_virtues.title}"
+}

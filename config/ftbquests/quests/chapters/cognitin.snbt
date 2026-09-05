@@ -1,0 +1,1841 @@
+{
+	autofocus_id: "31AD328D0AFB4DE7"
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: "square"
+	filename: "cognitin"
+	group: "336B0783FD524DD2"
+	icon: "experienceobelisk:experience_obelisk"
+	id: "5E0DA360560995A4"
+	images: [
+		{
+			height: 1.96d
+			image: "customtextures:textures/cognition_title.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			color: 1700384
+			height: 2.6d
+			image: "tiered:textures/gui/halo1.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.6d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "experienceobelisk:item/attunement_staff"
+			order: -1
+			rotation: -45.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.cognitin.image.hovertext1"
+				"ftbquests.chapter.cognitin.image.hovertext2"
+				"ftbquests.chapter.cognitin.image.hovertext3"
+				"ftbquests.chapter.cognitin.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description4}"
+				""
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description5}"
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description6}"
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description8}"
+				""
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description9}"
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description10}"
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description11}"
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description12}"
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description13}"
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description14}"
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description15}"
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description16}"
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description17}"
+				""
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description18}"
+				""
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description19}"
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description20}"
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description21}"
+				""
+				"{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.description22}"
+			]
+			icon: "experienceobelisk:experience_obelisk"
+			id: "31AD328D0AFB4DE7"
+			min_width: 340
+			rewards: [
+				{
+					count: 8
+					id: "57397A5466D71886"
+					item: "experienceobelisk:cognitive_flux"
+					type: "item"
+				}
+				{
+					id: "362A5DBB4148AFBB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.subtitle}"
+			tasks: [{
+				id: "7A4C26541A32429B"
+				title: "{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.task.8812460713515827867.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest31AD328D0AFB4DE7.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31AD328D0AFB4DE7"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest569AB8201C2EEEDA.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest569AB8201C2EEEDA.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest569AB8201C2EEEDA.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest569AB8201C2EEEDA.description4}"
+			]
+			id: "569AB8201C2EEEDA"
+			rewards: [
+				{
+					count: 8
+					id: "5A578EADC11B54D1"
+					item: "experienceobelisk:cognitive_flux"
+					type: "item"
+				}
+				{
+					id: "000088BE60246096"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest569AB8201C2EEEDA.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "547C00B731C4B140"
+				item: { Count: 4, id: "experienceobelisk:cognitive_flux" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest569AB8201C2EEEDA.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["569AB8201C2EEEDA"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest72ED150B587B6761.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest72ED150B587B6761.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest72ED150B587B6761.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest72ED150B587B6761.description4}"
+				"{ftbquests.chapter.cognitin.quest72ED150B587B6761.description5}"
+				"{ftbquests.chapter.cognitin.quest72ED150B587B6761.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest72ED150B587B6761.description7}"
+			]
+			id: "72ED150B587B6761"
+			rewards: [
+				{
+					count: 8
+					id: "0191D5E701410972"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "1CF0B41AD9C1B5EA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.cognitin.quest72ED150B587B6761.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "33F7CCE1D24C51D3"
+				item: { Count: 8, id: "experienceobelisk:cognitive_amalgam" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest72ED150B587B6761.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72ED150B587B6761"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest63126208641E8A64.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest63126208641E8A64.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest63126208641E8A64.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest63126208641E8A64.description4}"
+			]
+			id: "63126208641E8A64"
+			rewards: [
+				{
+					count: 2
+					id: "2F3F13843A2D8F58"
+					item: "experienceobelisk:cognitive_alloy"
+					type: "item"
+				}
+				{
+					id: "29150A959E0309C3"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest63126208641E8A64.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "6E93D2D2ADFF07FF"
+				item: { Count: 2, id: "experienceobelisk:cognitive_alloy" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest63126208641E8A64.title}"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72ED150B587B6761"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest77F6F6AF4D2CCACD.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest77F6F6AF4D2CCACD.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest77F6F6AF4D2CCACD.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest77F6F6AF4D2CCACD.description4}"
+			]
+			id: "77F6F6AF4D2CCACD"
+			rewards: [
+				{
+					count: 2
+					id: "1A4DD1F6E8A3A169"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+				{
+					id: "353D5F30BDEAA979"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest77F6F6AF4D2CCACD.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "13AC9757F84A676A"
+				item: { Count: 2, id: "experienceobelisk:cognitive_crystal" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest77F6F6AF4D2CCACD.title}"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"63126208641E8A64"
+				"77F6F6AF4D2CCACD"
+			]
+			description: [
+				"{ftbquests.chapter.cognitin.quest4D55306979E35CD0.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest4D55306979E35CD0.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest4D55306979E35CD0.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest4D55306979E35CD0.description4}"
+				""
+				"{ftbquests.chapter.cognitin.quest4D55306979E35CD0.description5}"
+				"{ftbquests.chapter.cognitin.quest4D55306979E35CD0.description6}"
+				"{ftbquests.chapter.cognitin.quest4D55306979E35CD0.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest4D55306979E35CD0.description8}"
+			]
+			id: "4D55306979E35CD0"
+			rewards: [
+				{
+					count: 2
+					id: "6A04BB566E3ABD0D"
+					item: "experienceobelisk:astute_assembly"
+					type: "item"
+				}
+				{
+					id: "4EA6745BAC398ECB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.cognitin.quest4D55306979E35CD0.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "6873B7987DC25DA5"
+				item: { Count: 2, id: "experienceobelisk:astute_assembly" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest4D55306979E35CD0.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D55306979E35CD0"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description3}"
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description4}"
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description5}"
+				""
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description8}"
+				""
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description9}"
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description10}"
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description11}"
+				""
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description12}"
+				""
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description13}"
+				""
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description14}"
+				""
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description15}"
+				""
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description16}"
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description17}"
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description18}"
+				""
+				"{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.description19}"
+			]
+			id: "4EBDD061F42EECF2"
+			min_width: 340
+			rewards: [
+				{
+					id: "044AEFA1C5FF3FFD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4166C03032CFF270"
+					table_id: 4067690183644308744L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.subtitle}"
+			tasks: [{
+				id: "7D8407514BB5F7C9"
+				item: "experienceobelisk:experience_obelisk"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest4EBDD061F42EECF2.title}"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EBDD061F42EECF2"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description4}"
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description5}"
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description8}"
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description9}"
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description10}"
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description11}"
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description12}"
+				""
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description13}"
+				""
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description14}"
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description15}"
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description16}"
+				""
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description17}"
+				""
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description18}"
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description19}"
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description20}"
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description21}"
+				"{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.description22}"
+			]
+			id: "5B5E37AE77ADAA11"
+			min_width: 330
+			rewards: [{
+				id: "62E2AA4B3ED72E72"
+				type: "xp"
+				xp: 25
+			}]
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.subtitle}"
+			tasks: [{
+				id: "338BAE146FE07F39"
+				item: "experienceobelisk:attunement_staff"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest5B5E37AE77ADAA11.title}"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B5E37AE77ADAA11"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description4}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description5}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description8}"
+				""
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description9}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description10}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description11}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description12}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description13}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description14}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description15}"
+				""
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description16}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description17}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description18}"
+				""
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description19}"
+				""
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description20}"
+				""
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description21}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description22}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description23}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description24}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description25}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description26}"
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description27}"
+				""
+				"{ftbquests.chapter.cognitin.quest652CB9296B0B8433.description28}"
+			]
+			id: "652CB9296B0B8433"
+			min_width: 340
+			rewards: [
+				{
+					count: 16
+					id: "208F3B3958E1119D"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "782D5D6F83662575"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest652CB9296B0B8433.subtitle}"
+			tasks: [{
+				id: "41E57E8E86FE9CB2"
+				item: "experienceobelisk:experience_fountain"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest652CB9296B0B8433.title}"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["652CB9296B0B8433"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest26F8C8E10F7FC978.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest26F8C8E10F7FC978.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest26F8C8E10F7FC978.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest26F8C8E10F7FC978.description4}"
+				""
+				"{ftbquests.chapter.cognitin.quest26F8C8E10F7FC978.description5}"
+				"{ftbquests.chapter.cognitin.quest26F8C8E10F7FC978.description6}"
+				"{ftbquests.chapter.cognitin.quest26F8C8E10F7FC978.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest26F8C8E10F7FC978.description8}"
+			]
+			icon: "experienceobelisk:cognitium_bucket"
+			id: "26F8C8E10F7FC978"
+			optional: true
+			rewards: [{
+				id: "4D735EDC4BF64FA7"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest26F8C8E10F7FC978.subtitle}"
+			tasks: [{
+				id: "7580C82485E2695A"
+				item: "experienceobelisk:cognitium_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest26F8C8E10F7FC978.title}"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4EBDD061F42EECF2"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest2B805115CE3F48E8.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest2B805115CE3F48E8.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest2B805115CE3F48E8.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest2B805115CE3F48E8.description4}"
+				"{ftbquests.chapter.cognitin.quest2B805115CE3F48E8.description5}"
+				"{ftbquests.chapter.cognitin.quest2B805115CE3F48E8.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest2B805115CE3F48E8.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest2B805115CE3F48E8.description8}"
+				""
+				"{ftbquests.chapter.cognitin.quest2B805115CE3F48E8.description9}"
+				""
+				"{ftbquests.chapter.cognitin.quest2B805115CE3F48E8.description10}"
+			]
+			id: "2B805115CE3F48E8"
+			rewards: [
+				{
+					id: "641A7BFAEDF6801B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3786B9A596A7D1EE"
+					table_id: 4067690183644308744L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest2B805115CE3F48E8.subtitle}"
+			tasks: [{
+				id: "3288B52481D05AA0"
+				item: "experienceobelisk:precision_dispeller"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest2B805115CE3F48E8.title}"
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D55306979E35CD0"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.description4}"
+				"{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.description5}"
+				"{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.description7}"
+				"{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.description8}"
+				"{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.description9}"
+				"{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.description10}"
+				"{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.description11}"
+				""
+				"{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.description12}"
+			]
+			id: "2D2F8971015D57C0"
+			rewards: [
+				{
+					count: 2
+					id: "0604E7DF04628643"
+					item: "experienceobelisk:accelerator"
+					type: "item"
+				}
+				{
+					id: "60059C3828987D4C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.15d
+			subtitle: "{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.subtitle}"
+			tasks: [{
+				id: "249D3F47FF67AC09"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "experienceobelisk:accelerator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:linear_accelerator"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.task.2638334535169190921.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest2D2F8971015D57C0.title}"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D2F8971015D57C0"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest4C1F33A37F958841.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest4C1F33A37F958841.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest4C1F33A37F958841.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest4C1F33A37F958841.description4}"
+			]
+			id: "4C1F33A37F958841"
+			optional: true
+			rewards: [{
+				id: "623D16CA897140A8"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest4C1F33A37F958841.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "7676E7063073210A"
+				item: { Count: 8, id: "experienceobelisk:whisperglass" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest4C1F33A37F958841.title}"
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2D2F8971015D57C0"
+				"5B5E37AE77ADAA11"
+			]
+			description: [
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description4}"
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description5}"
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description8}"
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description9}"
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description10}"
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description11}"
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description12}"
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description13}"
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description14}"
+				""
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description15}"
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description16}"
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description17}"
+				""
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description18}"
+				""
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description19}"
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description20}"
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description21}"
+				""
+				"{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.description22}"
+			]
+			id: "50CD9ED26DBA55C6"
+			min_width: 340
+			rewards: [
+				{
+					id: "705CEFB4094848DD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00733132EA69A35F"
+					table_id: 4067690183644308744L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.subtitle}"
+			tasks: [{
+				id: "182B1B5EBD8BB7AE"
+				item: "experienceobelisk:molecular_metamorpher"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest50CD9ED26DBA55C6.title}"
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50CD9ED26DBA55C6"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.description4}"
+				"{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.description5}"
+				"{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.description8}"
+				""
+				"{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.description9}"
+				""
+				"{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.description10}"
+				""
+				"{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.description11}"
+			]
+			id: "11428F88DF5A6D45"
+			min_width: 340
+			rewards: [
+				{
+					count: 8
+					id: "6795D30A6AAD137A"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "725409A602424B80"
+					type: "xp"
+					xp: 30
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.subtitle}"
+			tasks: [{
+				id: "742AD5A70B94FE13"
+				item: {
+					Count: 1
+					id: "experienceobelisk:transforming_focus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest11428F88DF5A6D45.title}"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50CD9ED26DBA55C6"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest5041B0BFA02E6253.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest5041B0BFA02E6253.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest5041B0BFA02E6253.description3}"
+			]
+			id: "5041B0BFA02E6253"
+			rewards: [
+				{
+					count: 8
+					id: "43A0ABEDC4432084"
+					item: "experienceobelisk:experience_jelly"
+					type: "item"
+				}
+				{
+					id: "46A4EA49674B992D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest5041B0BFA02E6253.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "19EB82EF034D49E2"
+				item: { Count: 4, id: "experienceobelisk:experience_jelly" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest5041B0BFA02E6253.title}"
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50CD9ED26DBA55C6"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest6C8BC462702B425F.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest6C8BC462702B425F.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest6C8BC462702B425F.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest6C8BC462702B425F.description4}"
+			]
+			id: "6C8BC462702B425F"
+			rewards: [{
+				id: "650543F3D0E69963"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest6C8BC462702B425F.subtitle}"
+			tasks: [{
+				id: "08A652DB53F7107F"
+				item: "experienceobelisk:primordial_assembly"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest6C8BC462702B425F.title}"
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C8BC462702B425F"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest33480F8C0D7B6D06.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest33480F8C0D7B6D06.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest33480F8C0D7B6D06.description3}"
+				"{ftbquests.chapter.cognitin.quest33480F8C0D7B6D06.description4}"
+				"{ftbquests.chapter.cognitin.quest33480F8C0D7B6D06.description5}"
+				"{ftbquests.chapter.cognitin.quest33480F8C0D7B6D06.description6}"
+				"{ftbquests.chapter.cognitin.quest33480F8C0D7B6D06.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest33480F8C0D7B6D06.description8}"
+				""
+				"{ftbquests.chapter.cognitin.quest33480F8C0D7B6D06.description9}"
+			]
+			id: "33480F8C0D7B6D06"
+			rewards: [{
+				id: "4C529A3A7F386877"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest33480F8C0D7B6D06.subtitle}"
+			tasks: [{
+				id: "06193E1A415E7A95"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "experienceobelisk:flask_of_poseidon"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:flask_of_hades"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:flask_of_chaos"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.cognitin.quest33480F8C0D7B6D06.task.439450721132116629.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest33480F8C0D7B6D06.title}"
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"50CD9ED26DBA55C6"
+				"23867C85CA873A5C"
+			]
+			description: [
+				"{ftbquests.chapter.cognitin.quest28472D6F2F48EE28.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest28472D6F2F48EE28.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest28472D6F2F48EE28.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest28472D6F2F48EE28.description4}"
+			]
+			id: "28472D6F2F48EE28"
+			rewards: [
+				{
+					id: "6573308C459AFA9A"
+					item: "experienceobelisk:calcarine_matrix"
+					type: "item"
+				}
+				{
+					id: "7E61F38C9E117330"
+					type: "xp"
+					xp: 40
+				}
+			]
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.cognitin.quest28472D6F2F48EE28.subtitle}"
+			tasks: [{
+				id: "409EF3B71C531B74"
+				item: "experienceobelisk:calcarine_matrix"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest28472D6F2F48EE28.title}"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"28472D6F2F48EE28"
+				"5041B0BFA02E6253"
+			]
+			description: [
+				"{ftbquests.chapter.cognitin.quest53FF24A5DE425417.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest53FF24A5DE425417.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest53FF24A5DE425417.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest53FF24A5DE425417.description4}"
+				"{ftbquests.chapter.cognitin.quest53FF24A5DE425417.description5}"
+				"{ftbquests.chapter.cognitin.quest53FF24A5DE425417.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest53FF24A5DE425417.description7}"
+			]
+			id: "53FF24A5DE425417"
+			rewards: [
+				{
+					count: 4
+					id: "2FCF0CA512DEF2F8"
+					item: "experienceobelisk:mending_neurogel_blob"
+					type: "item"
+				}
+				{
+					id: "35BE9FD4F35B13EC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest53FF24A5DE425417.subtitle}"
+			tasks: [{
+				id: "114359663D8022B2"
+				item: "experienceobelisk:mending_neurogel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest53FF24A5DE425417.title}"
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["28472D6F2F48EE28"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description4}"
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description5}"
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description8}"
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description9}"
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description10}"
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description11}"
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description12}"
+				""
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description13}"
+				""
+				"{ftbquests.chapter.cognitin.quest1890C63932993CC5.description14}"
+			]
+			icon_scale: 1.15d
+			id: "1890C63932993CC5"
+			min_width: 340
+			rewards: [
+				{
+					id: "376A7446A4261653"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FDB44A242A52ACE"
+					table_id: 4067690183644308744L
+					type: "random"
+				}
+			]
+			shape: "star"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest1890C63932993CC5.subtitle}"
+			tasks: [{
+				id: "2DAB85D4896BFD15"
+				item: "experienceobelisk:memory_tablet"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest1890C63932993CC5.title}"
+			x: 22.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["77F6F6AF4D2CCACD"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest5CF97444B5AFA286.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest5CF97444B5AFA286.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest5CF97444B5AFA286.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest5CF97444B5AFA286.description4}"
+				"{ftbquests.chapter.cognitin.quest5CF97444B5AFA286.description5}"
+				"{ftbquests.chapter.cognitin.quest5CF97444B5AFA286.description6}"
+				"{ftbquests.chapter.cognitin.quest5CF97444B5AFA286.description7}"
+				"{ftbquests.chapter.cognitin.quest5CF97444B5AFA286.description8}"
+			]
+			id: "5CF97444B5AFA286"
+			rewards: [{
+				id: "76B4984CBCD5D878"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest5CF97444B5AFA286.subtitle}"
+			tasks: [{
+				id: "74895CC0EEF34A16"
+				item: "experienceobelisk:enlightened_amulet"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest5CF97444B5AFA286.title}"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D55306979E35CD0"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest1219145C2379D908.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest1219145C2379D908.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest1219145C2379D908.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest1219145C2379D908.description4}"
+				""
+				"{ftbquests.chapter.cognitin.quest1219145C2379D908.description5}"
+				"{ftbquests.chapter.cognitin.quest1219145C2379D908.description6}"
+				"{ftbquests.chapter.cognitin.quest1219145C2379D908.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest1219145C2379D908.description8}"
+			]
+			id: "1219145C2379D908"
+			rewards: [
+				{
+					count: 2
+					id: "1967678FCAF17ADA"
+					item: "experienceobelisk:cognitive_alloy"
+					type: "item"
+				}
+				{
+					id: "3AFA6C0AA6FC7766"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest1219145C2379D908.subtitle}"
+			tasks: [{
+				id: "482FC7395F0FED5A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitive_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitive_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitive_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitive_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitive_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.cognitin.quest1219145C2379D908.task.5201595143858154842.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest1219145C2379D908.title}"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4D55306979E35CD0"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest43CC90EA26568840.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest43CC90EA26568840.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest43CC90EA26568840.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest43CC90EA26568840.description4}"
+			]
+			id: "43CC90EA26568840"
+			rewards: [
+				{
+					count: 2
+					id: "1FC99E9352DAA807"
+					item: "experienceobelisk:cognitive_alloy"
+					type: "item"
+				}
+				{
+					id: "7552320397300EFF"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest43CC90EA26568840.subtitle}"
+			tasks: [{
+				id: "6C3339CC6098E548"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitive_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitive_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitive_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitive_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.cognitin.quest43CC90EA26568840.task.7796638929865205064.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest43CC90EA26568840.title}"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4D55306979E35CD0"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest460CDAA713A6E76E.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest460CDAA713A6E76E.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest460CDAA713A6E76E.description3}"
+				"{ftbquests.chapter.cognitin.quest460CDAA713A6E76E.description4}"
+				"{ftbquests.chapter.cognitin.quest460CDAA713A6E76E.description5}"
+			]
+			id: "460CDAA713A6E76E"
+			optional: true
+			rewards: [{
+				id: "6F9BD1E4D2A31155"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest460CDAA713A6E76E.subtitle}"
+			tasks: [{
+				id: "202510AF9C332A0A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitive_bow"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitive_rod"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitive_shears"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.cognitin.quest460CDAA713A6E76E.task.2316275929777908234.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest460CDAA713A6E76E.title}"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["28472D6F2F48EE28"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest7207564FDA28148F.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest7207564FDA28148F.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest7207564FDA28148F.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest7207564FDA28148F.description4}"
+				"{ftbquests.chapter.cognitin.quest7207564FDA28148F.description5}"
+				"{ftbquests.chapter.cognitin.quest7207564FDA28148F.description6}"
+				"{ftbquests.chapter.cognitin.quest7207564FDA28148F.description7}"
+				"{ftbquests.chapter.cognitin.quest7207564FDA28148F.description8}"
+				""
+				"{ftbquests.chapter.cognitin.quest7207564FDA28148F.description9}"
+			]
+			id: "7207564FDA28148F"
+			rewards: [{
+				id: "0A72DBE4F91968B3"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest7207564FDA28148F.subtitle}"
+			tasks: [{
+				id: "4D5BFE1EC7291586"
+				item: "experienceobelisk:fortuitous_amulet"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest7207564FDA28148F.title}"
+			x: 22.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["31AD328D0AFB4DE7"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest49CF8452AC9B6F2.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest49CF8452AC9B6F2.description2}"
+				"{ftbquests.chapter.cognitin.quest49CF8452AC9B6F2.description3}"
+				"{ftbquests.chapter.cognitin.quest49CF8452AC9B6F2.description4}"
+				""
+				"{ftbquests.chapter.cognitin.quest49CF8452AC9B6F2.description5}"
+			]
+			id: "049CF8452AC9B6F2"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "4C58C1C38C6A8D6B"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "7C207121C836AB7C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest49CF8452AC9B6F2.subtitle}"
+			tasks: [{
+				id: "4A96E2385CEC18B2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "experienceobelisk:daydream_bottle"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:nightmare_bottle"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.cognitin.quest49CF8452AC9B6F2.task.5374731937018288306.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest49CF8452AC9B6F2.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C8BC462702B425F"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description4}"
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description5}"
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description8}"
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description9}"
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description10}"
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description11}"
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description12}"
+				""
+				"{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.description13}"
+			]
+			id: "48ECD4E9E75EC8C4"
+			min_width: 340
+			rewards: [
+				{
+					count: 8
+					id: "5705ABD03CBF41EA"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+				{
+					id: "7E4CE2353B76A060"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F9A219ABE00DB57"
+					table_id: 4067690183644308744L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "1B62FBD20D68A810"
+				item: { Count: 2, id: "experienceobelisk:bibliophage" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest48ECD4E9E75EC8C4.title}"
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48ECD4E9E75EC8C4"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description4}"
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description5}"
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description8}"
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description9}"
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description10}"
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description11}"
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description12}"
+				""
+				"{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.description13}"
+			]
+			icon: "experienceobelisk:infected_bookshelf"
+			id: "51E80E0758CFF02D"
+			rewards: [{
+				id: "24D183B7ED920FFA"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.subtitle}"
+			tasks: [{
+				id: "16FF7004C5661492"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.task.1657166353689613458.title}"
+				to_observe: "experienceobelisk:infected_bookshelf"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest51E80E0758CFF02D.title}"
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["51E80E0758CFF02D"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest7065A619B87F8F1D.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest7065A619B87F8F1D.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest7065A619B87F8F1D.description3}"
+				"{ftbquests.chapter.cognitin.quest7065A619B87F8F1D.description4}"
+				"{ftbquests.chapter.cognitin.quest7065A619B87F8F1D.description5}"
+				""
+				"{ftbquests.chapter.cognitin.quest7065A619B87F8F1D.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest7065A619B87F8F1D.description7}"
+			]
+			id: "7065A619B87F8F1D"
+			rewards: [
+				{
+					count: 6
+					id: "4D4CCE629CD60D3A"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "1BE932F7B775C110"
+					type: "xp"
+					xp: 40
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest7065A619B87F8F1D.subtitle}"
+			tasks: [
+				{
+					id: "7F9FAF82FF3468CC"
+					item: "experienceobelisk:archivers_bookshelf"
+					type: "item"
+				}
+				{
+					id: "0283471CE4AB1594"
+					item: "experienceobelisk:enchanted_bookshelf"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.cognitin.quest7065A619B87F8F1D.title}"
+			x: 14.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["51E80E0758CFF02D"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest23867C85CA873A5C.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest23867C85CA873A5C.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest23867C85CA873A5C.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest23867C85CA873A5C.description4}"
+			]
+			id: "23867C85CA873A5C"
+			rewards: [
+				{
+					count: 8
+					id: "2F6F77806E4B0FAA"
+					item: "experienceobelisk:forgotten_dust"
+					type: "item"
+				}
+				{
+					id: "6F7190AA3636A222"
+					type: "xp"
+					xp: 30
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest23867C85CA873A5C.subtitle}"
+			tasks: [{
+				count: 8L
+				id: "6C737383498082FB"
+				item: { Count: 8, id: "experienceobelisk:forgotten_dust" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest23867C85CA873A5C.title}"
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23867C85CA873A5C"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest172C9DD0B3E1DDF6.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest172C9DD0B3E1DDF6.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest172C9DD0B3E1DDF6.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest172C9DD0B3E1DDF6.description4}"
+			]
+			id: "172C9DD0B3E1DDF6"
+			rewards: [
+				{
+					count: 5
+					id: "460157511F922662"
+					item: "experienceobelisk:experience_jelly"
+					type: "item"
+				}
+				{
+					id: "7A88FE4CCE74B9BC"
+					type: "xp"
+					xp: 40
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest172C9DD0B3E1DDF6.subtitle}"
+			tasks: [{
+				id: "23C896DDCB8CF83D"
+				item: "experienceobelisk:fluorescent_agar"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest172C9DD0B3E1DDF6.title}"
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["172C9DD0B3E1DDF6"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest7FDCD56A3ABB5128.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest7FDCD56A3ABB5128.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest7FDCD56A3ABB5128.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest7FDCD56A3ABB5128.description4}"
+				""
+				"{ftbquests.chapter.cognitin.quest7FDCD56A3ABB5128.description5}"
+				"{ftbquests.chapter.cognitin.quest7FDCD56A3ABB5128.description6}"
+				"{ftbquests.chapter.cognitin.quest7FDCD56A3ABB5128.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest7FDCD56A3ABB5128.description8}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "experienceobelisk:block/nutrient_agar_outer"
+				}
+			}
+			id: "7FDCD56A3ABB5128"
+			rewards: [{
+				id: "05D21E6D56C7E429"
+				type: "xp"
+				xp: 60
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest7FDCD56A3ABB5128.subtitle}"
+			tasks: [{
+				id: "1C9A17C39D0F3318"
+				observe_type: 0
+				timer: 0L
+				title: "{ftbquests.chapter.cognitin.quest7FDCD56A3ABB5128.task.2060985908396503832.title}"
+				to_observe: "experienceobelisk:nutrient_agar"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest7FDCD56A3ABB5128.title}"
+			x: 20.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7FDCD56A3ABB5128"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description4}"
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description5}"
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description8}"
+				""
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description9}"
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description10}"
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description11}"
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description12}"
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description13}"
+				""
+				"{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.description14}"
+			]
+			id: "4BA5534A7C39FC92"
+			rewards: [
+				{
+					count: 4
+					id: "396A8053C847BA51"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "2C1F925C57CBE366"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.subtitle}"
+			tasks: [{
+				id: "000733B576F8F9FD"
+				item: "experienceobelisk:insightful_agar"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest4BA5534A7C39FC92.title}"
+			x: 20.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7FDCD56A3ABB5128"]
+			description: [
+				"{ftbquests.chapter.cognitin.quest5C542B43FDE93EFD.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest5C542B43FDE93EFD.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest5C542B43FDE93EFD.description3}"
+				""
+				"{ftbquests.chapter.cognitin.quest5C542B43FDE93EFD.description4}"
+				""
+				"{ftbquests.chapter.cognitin.quest5C542B43FDE93EFD.description5}"
+				"{ftbquests.chapter.cognitin.quest5C542B43FDE93EFD.description6}"
+				"{ftbquests.chapter.cognitin.quest5C542B43FDE93EFD.description7}"
+				""
+				"{ftbquests.chapter.cognitin.quest5C542B43FDE93EFD.description8}"
+			]
+			id: "5C542B43FDE93EFD"
+			rewards: [
+				{
+					count: 4
+					id: "22E98A5BABED10D8"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "06E8C40AB28D6955"
+					type: "xp"
+					xp: 75
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest5C542B43FDE93EFD.subtitle}"
+			tasks: [{
+				id: "7E77B8B079858F30"
+				item: "experienceobelisk:extravagant_agar"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest5C542B43FDE93EFD.title}"
+			x: 21.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4BA5534A7C39FC92"
+				"5C542B43FDE93EFD"
+			]
+			description: [
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description1}"
+				""
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description2}"
+				""
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description3}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description4}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description5}"
+				""
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description6}"
+				""
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description7}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description8}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description9}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description10}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description11}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description12}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description13}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description14}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description15}"
+				""
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description16}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description17}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description18}"
+				""
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description19}"
+				""
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description20}"
+				""
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description21}"
+				""
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description22}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description23}"
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description24}"
+				""
+				"{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.description25}"
+			]
+			icon: "experienceobelisk:infected_enchanted_bookshelf"
+			id: "67A3BC2A105A39B0"
+			min_width: 340
+			rewards: [
+				{
+					id: "4AA58E69153D5BF1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "705A5F0615F2BB21"
+					table_id: 4067690183644308744L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.subtitle}"
+			tasks: [{
+				id: "308C4EF8F8FD9C22"
+				title: "{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.task.3498257841796258850.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.cognitin.quest67A3BC2A105A39B0.title}"
+			x: 22.0d
+			y: 3.0d
+		}
+	]
+	title: "{ftbquests.chapter.cognitin.title}"
+}

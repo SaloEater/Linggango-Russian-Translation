@@ -1,0 +1,2822 @@
+{
+	autofocus_id: "4495545F21463756"
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: "square"
+	filename: "terramity_arsenal"
+	group: "0FD8C2D2A2339C0B"
+	icon: {
+		Count: 1
+		id: "terramity:advanced_automatic_rifle"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7B2049B841F6A946"
+	images: [
+		{
+			height: 2.4d
+			image: "customtextures:textures/terramity_arsenal_title.png"
+			rotation: 0.0d
+			width: 9.36d
+			x: 0.32564142279645836d
+			y: -9.956564652042314d
+		}
+		{
+			alpha: 70
+			height: 1.8d
+			image: "terramity:item/gold_round"
+			order: -2
+			rotation: -20.0d
+			width: 1.8d
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			alpha: 70
+			height: 2.2d
+			image: "terramity:item/advanced_gun_parts"
+			order: -2
+			rotation: 56.0d
+			width: 2.2d
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			alpha: 70
+			height: 2.6d
+			image: "terramity:item/ocarina_of_power"
+			order: -2
+			rotation: 54.0d
+			width: 2.6d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dev: true
+			height: 0.9d
+			hover: [
+				"ftbquests.chapter.terramity_arsenal.image.hovertext1"
+				"ftbquests.chapter.terramity_arsenal.image.hovertext2"
+				"ftbquests.chapter.terramity_arsenal.image.hovertext3"
+				"ftbquests.chapter.terramity_arsenal.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 0.9d
+			x: 0.0d
+			y: -11.5d
+		}
+	]
+	order_index: 6
+	parent: "2F1A384416C57A23"
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description3}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description4}"
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description5}"
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description6}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description7}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description8}"
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description9}"
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description10}"
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description11}"
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description12}"
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description13}"
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description14}"
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description15}"
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description16}"
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description17}"
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description18}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.description19}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:advanced_automatic_rifle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4495545F21463756"
+			rewards: [
+				{
+					count: 8
+					id: "51AE29B2526715AC"
+					item: "terramity:copper_round"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A2F9A7AF3EB2D3F"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "star"
+			size: 1.8d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.subtitle}"
+			tasks: [{
+				id: "3281AB2B307F915D"
+				item: {
+					Count: 1
+					id: "terramity:flintlock_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest4495545F21463756.title}"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest477663A6D064377C.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest477663A6D064377C.description2}"
+			]
+			icon: "terramity:advanced_gun_parts"
+			id: "477663A6D064377C"
+			rewards: [
+				{
+					id: "4E3D2C0A915C9AC6"
+					item: "terramity:advanced_gun_parts"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1205CB6AD36DD954"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest477663A6D064377C.subtitle}"
+			tasks: [{
+				id: "1C96B3F254051E25"
+				item: "terramity:advanced_gun_parts"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest477663A6D064377C.title}"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest7A3C5D7814AD5D9C.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest7A3C5D7814AD5D9C.description2}"
+			]
+			icon: "terramity:gunsmith_station"
+			id: "7A3C5D7814AD5D9C"
+			optional: true
+			rewards: [
+				{
+					id: "407C21072E0AF51A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DAFBDABB769A853"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest7A3C5D7814AD5D9C.subtitle}"
+			tasks: [{
+				id: "276CD1AE5F23CEFA"
+				item: "terramity:gunsmith_station"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest7A3C5D7814AD5D9C.title}"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7A3C5D7814AD5D9C"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest1C4337952D7A6ABE.description1}"
+				"{ftbquests.chapter.terramity_arsenal.quest1C4337952D7A6ABE.description2}"
+				"{ftbquests.chapter.terramity_arsenal.quest1C4337952D7A6ABE.description3}"
+				"{ftbquests.chapter.terramity_arsenal.quest1C4337952D7A6ABE.description4}"
+				"{ftbquests.chapter.terramity_arsenal.quest1C4337952D7A6ABE.description5}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest1C4337952D7A6ABE.description6}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest1C4337952D7A6ABE.description7}"
+			]
+			icon: "terramity:ammo_box"
+			id: "1C4337952D7A6ABE"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56599C549E073DB3"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest1C4337952D7A6ABE.subtitle}"
+			tasks: [{
+				id: "421A5322828A88F5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "terramity:ammo_bag"
+							}
+							{
+								Count: 1b
+								id: "terramity:ammo_box"
+							}
+							{
+								Count: 1b
+								id: "terramity:bottomless_ammo_box"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.terramity_arsenal.quest1C4337952D7A6ABE.task.4763210963581831413.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest1C4337952D7A6ABE.title}"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest6CE296DFAE2FED6D.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest6CE296DFAE2FED6D.description2}"
+			]
+			icon: "minecraft:iron_nugget"
+			id: "6CE296DFAE2FED6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "320005EAF5BB40F5"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest6CE296DFAE2FED6D.subtitle}"
+			tasks: [{
+				id: "62C54F4DDC153B0F"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest6CE296DFAE2FED6D.title}"
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest251037CC1CF9A439.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest251037CC1CF9A439.description2}"
+			]
+			icon: "terramity:copper_round"
+			id: "251037CC1CF9A439"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4302EF3699CB6630"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest251037CC1CF9A439.subtitle}"
+			tasks: [{
+				id: "1DC78C15E3595A03"
+				item: "terramity:copper_round"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest251037CC1CF9A439.title}"
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest65D4D79DECDE43BC.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest65D4D79DECDE43BC.description2}"
+			]
+			icon: "terramity:gold_round"
+			id: "65D4D79DECDE43BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F2D7DB5DBE2A951"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest65D4D79DECDE43BC.subtitle}"
+			tasks: [{
+				id: "5A0C316672C97A7A"
+				item: "terramity:gold_round"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest65D4D79DECDE43BC.title}"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest5BC37A40EAE6BCAD.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest5BC37A40EAE6BCAD.description2}"
+			]
+			icon: "terramity:daemonium_shotshells"
+			id: "5BC37A40EAE6BCAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "477AA71BD75CBB79"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest5BC37A40EAE6BCAD.subtitle}"
+			tasks: [{
+				id: "5C36D55AAD92723C"
+				item: "terramity:daemonium_shotshells"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest5BC37A40EAE6BCAD.title}"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest7C7F93111D0930BA.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest7C7F93111D0930BA.description2}"
+			]
+			icon: "terramity:dimlite_round"
+			id: "7C7F93111D0930BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BFF009FE1458C48"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest7C7F93111D0930BA.subtitle}"
+			tasks: [{
+				id: "6F8851DCF5809C4A"
+				item: "terramity:dimlite_round"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest7C7F93111D0930BA.title}"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest415ABD0D3D2AF652.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest415ABD0D3D2AF652.description2}"
+			]
+			icon: "terramity:hellspec_shotshells"
+			id: "415ABD0D3D2AF652"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E482186AB55937C"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest415ABD0D3D2AF652.subtitle}"
+			tasks: [{
+				id: "2BF091311CDFB121"
+				item: "terramity:hellspec_shotshells"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest415ABD0D3D2AF652.title}"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest54C15EC5268C57E5.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest54C15EC5268C57E5.description2}"
+			]
+			icon: "terramity:iridium_round"
+			id: "54C15EC5268C57E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "575E9E7B4D762A01"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest54C15EC5268C57E5.subtitle}"
+			tasks: [{
+				id: "216892CAE420AA6A"
+				item: "terramity:iridium_round"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest54C15EC5268C57E5.title}"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest161208EBDB07EB89.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest161208EBDB07EB89.description2}"
+			]
+			icon: "terramity:antimatter_round"
+			id: "161208EBDB07EB89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35523ABE3490722F"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest161208EBDB07EB89.subtitle}"
+			tasks: [{
+				id: "79A1DD2815248C70"
+				item: "terramity:antimatter_round"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest161208EBDB07EB89.title}"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest66CB412D01E94FC9.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest66CB412D01E94FC9.description2}"
+			]
+			icon: "terramity:battery"
+			id: "66CB412D01E94FC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BF129E0B2DF4443"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest66CB412D01E94FC9.subtitle}"
+			tasks: [{
+				id: "407F7E0D58B20D50"
+				item: "terramity:battery"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest66CB412D01E94FC9.title}"
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest302DBA928B1BA475.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest302DBA928B1BA475.description2}"
+			]
+			icon: "terramity:virentium_rocket"
+			id: "302DBA928B1BA475"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2739266E79558236"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest302DBA928B1BA475.subtitle}"
+			tasks: [{
+				id: "4BE1D1B4425F4C5E"
+				item: "terramity:virentium_rocket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest302DBA928B1BA475.title}"
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CE296DFAE2FED6D"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest466FB76AF0086435.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest466FB76AF0086435.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:flintlock_pistol"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "466FB76AF0086435"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CD370592AFF45F4"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest466FB76AF0086435.subtitle}"
+			tasks: [{
+				id: "2E5CE6460526027B"
+				item: {
+					Count: 1
+					id: "terramity:flintlock_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest466FB76AF0086435.title}"
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CE296DFAE2FED6D"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest5119C474313EC4DE.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest5119C474313EC4DE.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:blunderbuss"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5119C474313EC4DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62C1E4A53FC81903"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest5119C474313EC4DE.subtitle}"
+			tasks: [{
+				id: "600C4800D0AB8A69"
+				item: {
+					Count: 1
+					id: "terramity:blunderbuss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest5119C474313EC4DE.title}"
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["251037CC1CF9A439"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest74BC07CE164CA114.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest74BC07CE164CA114.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:basic_pistol"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "74BC07CE164CA114"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C552F2DEE2DE2C9"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest74BC07CE164CA114.subtitle}"
+			tasks: [{
+				id: "4EDB6280E0B2B7EB"
+				item: {
+					Count: 1
+					id: "terramity:basic_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest74BC07CE164CA114.title}"
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["251037CC1CF9A439"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest71916372D1E0D7B3.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest71916372D1E0D7B3.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:six_shooter"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "71916372D1E0D7B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D6928282802B020"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest71916372D1E0D7B3.subtitle}"
+			tasks: [{
+				id: "4D39E5BF74088E90"
+				item: {
+					Count: 1
+					id: "terramity:six_shooter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest71916372D1E0D7B3.title}"
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["251037CC1CF9A439"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest5370B256C0CD1130.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest5370B256C0CD1130.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:flare_gun"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5370B256C0CD1130"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56E5A511C258F835"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest5370B256C0CD1130.subtitle}"
+			tasks: [{
+				id: "109889FA3692D16B"
+				item: {
+					Count: 1
+					id: "terramity:flare_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest5370B256C0CD1130.title}"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65D4D79DECDE43BC"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest1E2FD85CCEB6C7CF.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest1E2FD85CCEB6C7CF.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:basic_rifle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E2FD85CCEB6C7CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73C74BB74BC8A592"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest1E2FD85CCEB6C7CF.subtitle}"
+			tasks: [{
+				id: "1AD6327D8EDE61E9"
+				item: {
+					Count: 1
+					id: "terramity:basic_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest1E2FD85CCEB6C7CF.title}"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65D4D79DECDE43BC"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest24510FB8CC063047.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest24510FB8CC063047.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:advanced_pistol"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24510FB8CC063047"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "340683897B859B5C"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest24510FB8CC063047.subtitle}"
+			tasks: [{
+				id: "34D6E895939259BE"
+				item: {
+					Count: 1
+					id: "terramity:advanced_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest24510FB8CC063047.title}"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65D4D79DECDE43BC"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest2801E584F4FD9D7D.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest2801E584F4FD9D7D.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:big_iron"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2801E584F4FD9D7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A66E371D27D3B4B"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest2801E584F4FD9D7D.subtitle}"
+			tasks: [{
+				id: "7AA55C73BD3C0F39"
+				item: {
+					Count: 1
+					id: "terramity:big_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest2801E584F4FD9D7D.title}"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65D4D79DECDE43BC"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest4EE2581840D5FA09.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest4EE2581840D5FA09.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:suppressed_advanced_pistol"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4EE2581840D5FA09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "485F7E4CF7620A96"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest4EE2581840D5FA09.subtitle}"
+			tasks: [{
+				id: "10C22A6B0C414049"
+				item: {
+					Count: 1
+					id: "terramity:suppressed_advanced_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest4EE2581840D5FA09.title}"
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["65D4D79DECDE43BC"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest621507A69818D625.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest621507A69818D625.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:advanced_burst_rifle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "621507A69818D625"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "149BEA8C42F6286E"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest621507A69818D625.subtitle}"
+			tasks: [{
+				id: "1FD1A8E883BBB51A"
+				item: {
+					Count: 1
+					id: "terramity:advanced_burst_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest621507A69818D625.title}"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["65D4D79DECDE43BC"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest65CFBB5AD133A1C9.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest65CFBB5AD133A1C9.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest65CFBB5AD133A1C9.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:advanced_automatic_rifle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "65CFBB5AD133A1C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AE1FF2088D70ECB"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest65CFBB5AD133A1C9.subtitle}"
+			tasks: [{
+				id: "674B87E383273D09"
+				item: {
+					Count: 1
+					id: "terramity:advanced_automatic_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest65CFBB5AD133A1C9.title}"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["65D4D79DECDE43BC"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest2E55651C382E809B.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest2E55651C382E809B.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:elite_rifle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2E55651C382E809B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67937357F1196246"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest2E55651C382E809B.subtitle}"
+			tasks: [{
+				id: "6C46372EB5B9C42D"
+				item: {
+					Count: 1
+					id: "terramity:elite_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest2E55651C382E809B.title}"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65D4D79DECDE43BC"]
+			description: ["{ftbquests.chapter.terramity_arsenal.quest5B1712BD968609EA.description1}"]
+			icon: {
+				Count: 1
+				id: "terramity:plague_pistol"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B1712BD968609EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5197C92DCA9D3606"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest5B1712BD968609EA.subtitle}"
+			tasks: [{
+				id: "2F896FC2AB4DCDF2"
+				item: {
+					Count: 1
+					id: "terramity:plague_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest5B1712BD968609EA.title}"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65D4D79DECDE43BC"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest246532391D34E66C.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest246532391D34E66C.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:celestial_sixty"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "246532391D34E66C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F5102FB5F38ACAB"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest246532391D34E66C.subtitle}"
+			tasks: [{
+				id: "561A5E416359EF45"
+				item: {
+					Count: 1
+					id: "terramity:celestial_sixty"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest246532391D34E66C.title}"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5BC37A40EAE6BCAD"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest350DD26AC7A9F2E7.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest350DD26AC7A9F2E7.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:sawed_off_shotgun"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "350DD26AC7A9F2E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "717C2C087F863008"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest350DD26AC7A9F2E7.subtitle}"
+			tasks: [{
+				id: "61E4A48A29331542"
+				item: {
+					Count: 1
+					id: "terramity:sawed_off_shotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest350DD26AC7A9F2E7.title}"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BC37A40EAE6BCAD"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest7659E0C63897569B.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest7659E0C63897569B.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:pump_action_shotgun"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7659E0C63897569B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58941A53E60355EE"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest7659E0C63897569B.subtitle}"
+			tasks: [{
+				id: "3961B4EF1EABABA7"
+				item: {
+					Count: 1
+					id: "terramity:pump_action_shotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest7659E0C63897569B.title}"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BC37A40EAE6BCAD"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest3E67E7810B082999.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest3E67E7810B082999.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:plaguebringer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E67E7810B082999"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5576337B2E43C63C"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest3E67E7810B082999.subtitle}"
+			tasks: [{
+				id: "5CE11E40968DA67A"
+				item: {
+					Count: 1
+					id: "terramity:plaguebringer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest3E67E7810B082999.title}"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BC37A40EAE6BCAD"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest3E06452C5E205EE9.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest3E06452C5E205EE9.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:onyx_storm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E06452C5E205EE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B9989B74DAD93B8"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest3E06452C5E205EE9.subtitle}"
+			tasks: [{
+				id: "45814CC83C1A66FF"
+				item: {
+					Count: 1
+					id: "terramity:onyx_storm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest3E06452C5E205EE9.title}"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BC37A40EAE6BCAD"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest5A0CE7D030440177.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest5A0CE7D030440177.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:cosmic_storm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A0CE7D030440177"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30CC0E1A76CAD2CF"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest5A0CE7D030440177.subtitle}"
+			tasks: [{
+				id: "1CB2D696C864CD32"
+				item: {
+					Count: 1
+					id: "terramity:cosmic_storm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest5A0CE7D030440177.title}"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C7F93111D0930BA"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest1C77F1DC471AAE45.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest1C77F1DC471AAE45.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest1C77F1DC471AAE45.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:anti_material_rifle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C77F1DC471AAE45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44BB4CC1404A1EAE"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest1C77F1DC471AAE45.subtitle}"
+			tasks: [{
+				id: "452F7D5538C63561"
+				item: {
+					Count: 1
+					id: "terramity:anti_material_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest1C77F1DC471AAE45.title}"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C7F93111D0930BA"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest327644EA134D09F8.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest327644EA134D09F8.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:davy_jones"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "327644EA134D09F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78035462A2B4C1DC"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest327644EA134D09F8.subtitle}"
+			tasks: [{
+				id: "1D169EE2F49961E2"
+				item: {
+					Count: 1
+					id: "terramity:davy_jones"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest327644EA134D09F8.title}"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C7F93111D0930BA"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest1C717AE7D115F9DB.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest1C717AE7D115F9DB.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:fortunes_favor"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C717AE7D115F9DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D29BDB078915D8A"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest1C717AE7D115F9DB.subtitle}"
+			tasks: [{
+				id: "46CFCE876DFFEDBE"
+				item: {
+					Count: 1
+					id: "terramity:fortunes_favor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest1C717AE7D115F9DB.title}"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["415ABD0D3D2AF652"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest12F033DDB3BA18BD.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest12F033DDB3BA18BD.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:hellfire_flurry"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "12F033DDB3BA18BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F277917FF3156D8"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest12F033DDB3BA18BD.subtitle}"
+			tasks: [{
+				id: "7AEAE7953C3BE6D2"
+				item: {
+					Count: 1
+					id: "terramity:hellfire_flurry"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest12F033DDB3BA18BD.title}"
+			x: 0.9499999999999993d
+			y: -1.1d
+		}
+		{
+			dependencies: ["415ABD0D3D2AF652"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest340EFFDE528E867E.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest340EFFDE528E867E.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:asphodel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "340EFFDE528E867E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "675A2179C99AFAEC"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest340EFFDE528E867E.subtitle}"
+			tasks: [{
+				id: "1FE7AA2044E041B5"
+				item: {
+					Count: 1
+					id: "terramity:asphodel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest340EFFDE528E867E.title}"
+			x: 2.0500000000000007d
+			y: -1.1d
+		}
+		{
+			dependencies: ["415ABD0D3D2AF652"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest307ACA28731EDFCB.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest307ACA28731EDFCB.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:olympus"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "307ACA28731EDFCB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D6F7CCE50EF4983"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest307ACA28731EDFCB.subtitle}"
+			tasks: [{
+				id: "1AD00A7E8A4E47A6"
+				item: {
+					Count: 1
+					id: "terramity:olympus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest307ACA28731EDFCB.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54C15EC5268C57E5"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest710AEA01090CB6B7.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest710AEA01090CB6B7.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:vulcan"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "710AEA01090CB6B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D810A0FA03C061B"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest710AEA01090CB6B7.subtitle}"
+			tasks: [{
+				id: "1A6D10EF6023E373"
+				item: {
+					Count: 1
+					id: "terramity:vulcan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest710AEA01090CB6B7.title}"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54C15EC5268C57E5"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest27A3597330D1D020.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest27A3597330D1D020.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:nihility"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "27A3597330D1D020"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49522170ECC17C8F"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest27A3597330D1D020.subtitle}"
+			tasks: [{
+				id: "4E00D8FD88EB3FFF"
+				item: {
+					Count: 1
+					id: "terramity:nihility"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest27A3597330D1D020.title}"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54C15EC5268C57E5"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest703F3C037E8E62E6.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest703F3C037E8E62E6.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:titanomachy"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "703F3C037E8E62E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "215BFADE09E5CDA2"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest703F3C037E8E62E6.subtitle}"
+			tasks: [{
+				id: "79EBF996699B621F"
+				item: {
+					Count: 1
+					id: "terramity:titanomachy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest703F3C037E8E62E6.title}"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54C15EC5268C57E5"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest708C0BBC91A9FF49.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest708C0BBC91A9FF49.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:divine_intervention"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "708C0BBC91A9FF49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FBE3F4E6EB82BA7"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest708C0BBC91A9FF49.subtitle}"
+			tasks: [{
+				id: "7D431298D019C71A"
+				item: {
+					Count: 1
+					id: "terramity:divine_intervention"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest708C0BBC91A9FF49.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54C15EC5268C57E5"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest6A2FFE2C3B31C598.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest6A2FFE2C3B31C598.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:stairway_to_heaven"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6A2FFE2C3B31C598"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C522CA8759BC8E5"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest6A2FFE2C3B31C598.subtitle}"
+			tasks: [{
+				id: "69C0AB3B257E5D2A"
+				item: {
+					Count: 1
+					id: "terramity:stairway_to_heaven"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest6A2FFE2C3B31C598.title}"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["161208EBDB07EB89"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest6E6370E39E0B7B87.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest6E6370E39E0B7B87.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:antimatter_rifle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E6370E39E0B7B87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AE4E83BAAB8D864"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest6E6370E39E0B7B87.subtitle}"
+			tasks: [{
+				id: "4D642D0EF3189547"
+				item: {
+					Count: 1
+					id: "terramity:antimatter_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest6E6370E39E0B7B87.title}"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["161208EBDB07EB89"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest410D8AA579F26241.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest410D8AA579F26241.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:five_thousand_magnum"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "410D8AA579F26241"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "112DFABCA48B575B"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest410D8AA579F26241.subtitle}"
+			tasks: [{
+				id: "6BA893239E73525E"
+				item: {
+					Count: 1
+					id: "terramity:five_thousand_magnum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest410D8AA579F26241.title}"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["161208EBDB07EB89"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest536A6CDC816D9C6E.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest536A6CDC816D9C6E.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:blasphemic_rapture"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "536A6CDC816D9C6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A0DCADA91F4F0E9"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest536A6CDC816D9C6E.subtitle}"
+			tasks: [{
+				id: "315A9ABBB335378A"
+				item: {
+					Count: 1
+					id: "terramity:blasphemic_rapture"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest536A6CDC816D9C6E.title}"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66CB412D01E94FC9"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest36DE9B56893BFEC7.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest36DE9B56893BFEC7.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:conductite_laser_rifle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "36DE9B56893BFEC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72A5820D0096104C"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest36DE9B56893BFEC7.subtitle}"
+			tasks: [{
+				id: "34E7E682B04591FC"
+				item: {
+					Count: 1
+					id: "terramity:conductite_laser_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest36DE9B56893BFEC7.title}"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["302DBA928B1BA475"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest5CB3C9C42776AFF5.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest5CB3C9C42776AFF5.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:rocket_launcher"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5CB3C9C42776AFF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D2722E2DE8A6988"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest5CB3C9C42776AFF5.subtitle}"
+			tasks: [{
+				id: "2CA1C7D573D3A8B2"
+				item: {
+					Count: 1
+					id: "terramity:rocket_launcher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest5CB3C9C42776AFF5.title}"
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["302DBA928B1BA475"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest2355C5B23EB3C832.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest2355C5B23EB3C832.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:meteor_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2355C5B23EB3C832"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "285152CDBDF8F6B1"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest2355C5B23EB3C832.subtitle}"
+			tasks: [{
+				id: "211CAC45B0F26385"
+				item: {
+					Count: 1
+					id: "terramity:meteor_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest2355C5B23EB3C832.title}"
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: ["{ftbquests.chapter.terramity_arsenal.quest30153658C6CABCC1.description1}"]
+			icon: {
+				Count: 1
+				id: "terramity:handcannon"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "30153658C6CABCC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A70D8DB33F184D3"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest30153658C6CABCC1.subtitle}"
+			tasks: [{
+				id: "6DFA73E424F6761E"
+				item: {
+					Count: 1
+					id: "terramity:handcannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest30153658C6CABCC1.title}"
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4495545F21463756"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest66A8F24BC5E9C795.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest66A8F24BC5E9C795.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest66A8F24BC5E9C795.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:railgun"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "66A8F24BC5E9C795"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39A84AB06A479B34"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest66A8F24BC5E9C795.subtitle}"
+			tasks: [{
+				id: "6F15D829C7C42E01"
+				item: {
+					Count: 1
+					id: "terramity:railgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest66A8F24BC5E9C795.title}"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["66A8F24BC5E9C795"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest610B310E46D160EB.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest610B310E46D160EB.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest610B310E46D160EB.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:planet_buster"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "610B310E46D160EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4948AFB940FC3404"
+				table_id: 4685405885777276503L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest610B310E46D160EB.subtitle}"
+			tasks: [{
+				id: "73066156780E86F0"
+				item: {
+					Count: 1
+					id: "terramity:planet_buster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest610B310E46D160EB.title}"
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["251037CC1CF9A439"]
+			description: ["{ftbquests.chapter.terramity_arsenal.quest2A16E074388F6A30.description1}"]
+			icon: {
+				Count: 1
+				id: "terramity:gaias_tempest"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2A16E074388F6A30"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B449B5B6ED51392"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest2A16E074388F6A30.subtitle}"
+			tasks: [{
+				id: "40F832DD1970A62F"
+				item: {
+					Count: 1
+					id: "terramity:gaias_tempest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest2A16E074388F6A30.title}"
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["65D4D79DECDE43BC"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest6DD54279B9D63454.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest6DD54279B9D63454.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:requiem"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6DD54279B9D63454"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69875DE3980467C4"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest6DD54279B9D63454.subtitle}"
+			tasks: [{
+				id: "146EABB5937B94FB"
+				item: {
+					Count: 1
+					id: "terramity:requiem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest6DD54279B9D63454.title}"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest44C099D2D5AE4A16.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest44C099D2D5AE4A16.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest44C099D2D5AE4A16.description3}"
+				"{ftbquests.chapter.terramity_arsenal.quest44C099D2D5AE4A16.description4}"
+				"{ftbquests.chapter.terramity_arsenal.quest44C099D2D5AE4A16.description5}"
+				"{ftbquests.chapter.terramity_arsenal.quest44C099D2D5AE4A16.description6}"
+				"{ftbquests.chapter.terramity_arsenal.quest44C099D2D5AE4A16.description7}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest44C099D2D5AE4A16.description8}"
+				""
+				"[\"\",{\"color\":\"#B98A5E\",\"underlined\":true,\"translate\":\"ftbquests.chapter.terramity_arsenal.quest44C099D2D5AE4A16.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"55CF3612F2588EA7\"}}]"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 4
+					}
+				}
+				id: "terramity:ocarina_of_power"
+				tag: {
+					Inventory: {
+						Items: [ ]
+						Size: 4
+					}
+				}
+			}
+			id: "44C099D2D5AE4A16"
+			rewards: [
+				{
+					id: "5DEFD0A6644AE09C"
+					item: "terramity:music_sheet_of_tempo"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47DC21F510B78565"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "star"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest44C099D2D5AE4A16.subtitle}"
+			tasks: [{
+				id: "333CFE31113A54D6"
+				item: "terramity:ocarina_of_power"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest44C099D2D5AE4A16.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest2DF1D4BE1E165B33.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest2DF1D4BE1E165B33.description2}"
+				"{ftbquests.chapter.terramity_arsenal.quest2DF1D4BE1E165B33.description3}"
+				"{ftbquests.chapter.terramity_arsenal.quest2DF1D4BE1E165B33.description4}"
+				"{ftbquests.chapter.terramity_arsenal.quest2DF1D4BE1E165B33.description5}"
+				"{ftbquests.chapter.terramity_arsenal.quest2DF1D4BE1E165B33.description6}"
+				"{ftbquests.chapter.terramity_arsenal.quest2DF1D4BE1E165B33.description7}"
+				"{ftbquests.chapter.terramity_arsenal.quest2DF1D4BE1E165B33.description8}"
+			]
+			icon: "terramity:music_sheet_of_power"
+			id: "2DF1D4BE1E165B33"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2998E1CC6F7624F3"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest2DF1D4BE1E165B33.subtitle}"
+			tasks: [{
+				id: "5762FC1B23D9310E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_power"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_tempo"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_perception"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_defense"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.terramity_arsenal.quest2DF1D4BE1E165B33.task.6296872422513127694.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest2DF1D4BE1E165B33.title}"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest396A22214DBC10AF.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest396A22214DBC10AF.description2}"
+				"{ftbquests.chapter.terramity_arsenal.quest396A22214DBC10AF.description3}"
+				"{ftbquests.chapter.terramity_arsenal.quest396A22214DBC10AF.description4}"
+				"{ftbquests.chapter.terramity_arsenal.quest396A22214DBC10AF.description5}"
+				"{ftbquests.chapter.terramity_arsenal.quest396A22214DBC10AF.description6}"
+				"{ftbquests.chapter.terramity_arsenal.quest396A22214DBC10AF.description7}"
+				"{ftbquests.chapter.terramity_arsenal.quest396A22214DBC10AF.description8}"
+			]
+			icon: "terramity:music_sheet_of_resilience"
+			id: "396A22214DBC10AF"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A68E96C67BA7D06"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest396A22214DBC10AF.subtitle}"
+			tasks: [{
+				id: "1F6E773F204FF692"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_resilience"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_the_aegis"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_rejuvenation"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_incombustibility"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.terramity_arsenal.quest396A22214DBC10AF.task.2264878775622694546.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest396A22214DBC10AF.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest661D13C3ADA67CCF.description1}"
+				"{ftbquests.chapter.terramity_arsenal.quest661D13C3ADA67CCF.description2}"
+				"{ftbquests.chapter.terramity_arsenal.quest661D13C3ADA67CCF.description3}"
+				"{ftbquests.chapter.terramity_arsenal.quest661D13C3ADA67CCF.description4}"
+				"{ftbquests.chapter.terramity_arsenal.quest661D13C3ADA67CCF.description5}"
+			]
+			icon: "terramity:music_sheet_of_daedalus"
+			id: "661D13C3ADA67CCF"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D32C3C4EAB9F5A7"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest661D13C3ADA67CCF.subtitle}"
+			tasks: [{
+				id: "3242A75F97EDAF0C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_daedalus"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_oceanus"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_ghosts"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.terramity_arsenal.quest661D13C3ADA67CCF.task.3621641079371968268.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest661D13C3ADA67CCF.title}"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest3632D2E2FB8E2C0E.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest3632D2E2FB8E2C0E.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest3632D2E2FB8E2C0E.description3}"
+			]
+			icon: "terramity:music_sheet_of_the_indomitable"
+			id: "3632D2E2FB8E2C0E"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A16F543D8D571F1"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest3632D2E2FB8E2C0E.subtitle}"
+			tasks: [{
+				id: "5F4538B9C3E60214"
+				item: "terramity:music_sheet_of_the_indomitable"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest3632D2E2FB8E2C0E.title}"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest4F3746E7F183A7C3.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest4F3746E7F183A7C3.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest4F3746E7F183A7C3.description3}"
+			]
+			icon: "terramity:music_sheet_of_good_fortune"
+			id: "4F3746E7F183A7C3"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "192F0E3EAFB966FA"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest4F3746E7F183A7C3.subtitle}"
+			tasks: [{
+				id: "40BDDF43F0BD3DF5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_good_fortune"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_prosperity"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.terramity_arsenal.quest4F3746E7F183A7C3.task.4665130271920438773.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest4F3746E7F183A7C3.title}"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest14D7866B5FEEC3C7.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest14D7866B5FEEC3C7.description2}"
+			]
+			icon: "terramity:music_sheet_of_vampirism"
+			id: "14D7866B5FEEC3C7"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "646332E22DE878FE"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest14D7866B5FEEC3C7.subtitle}"
+			tasks: [{
+				id: "5A9A2907864ABD5F"
+				item: "terramity:music_sheet_of_vampirism"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest14D7866B5FEEC3C7.title}"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest1AC48F789AFE08C3.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest1AC48F789AFE08C3.description2}"
+				"{ftbquests.chapter.terramity_arsenal.quest1AC48F789AFE08C3.description3}"
+				"{ftbquests.chapter.terramity_arsenal.quest1AC48F789AFE08C3.description4}"
+				"{ftbquests.chapter.terramity_arsenal.quest1AC48F789AFE08C3.description5}"
+				"{ftbquests.chapter.terramity_arsenal.quest1AC48F789AFE08C3.description6}"
+				"{ftbquests.chapter.terramity_arsenal.quest1AC48F789AFE08C3.description7}"
+				"{ftbquests.chapter.terramity_arsenal.quest1AC48F789AFE08C3.description8}"
+			]
+			icon: "terramity:music_sheet_of_debilitation"
+			id: "1AC48F789AFE08C3"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B914D4C77B84104"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest1AC48F789AFE08C3.subtitle}"
+			tasks: [{
+				id: "4A9CE95A121C0686"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_debilitation"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_weakness"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_levitation"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_destruction"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.terramity_arsenal.quest1AC48F789AFE08C3.task.5376428628233684614.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest1AC48F789AFE08C3.title}"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest5515BA8993F4B7AC.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest5515BA8993F4B7AC.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest5515BA8993F4B7AC.description3}"
+			]
+			icon: "terramity:music_sheet_of_life"
+			id: "5515BA8993F4B7AC"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B5ADD4BE2966EFA"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest5515BA8993F4B7AC.subtitle}"
+			tasks: [{
+				id: "6D6B2313E1377763"
+				item: "terramity:music_sheet_of_life"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest5515BA8993F4B7AC.title}"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest1DE8E6CD99A8E3A1.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest1DE8E6CD99A8E3A1.description2}"
+				"{ftbquests.chapter.terramity_arsenal.quest1DE8E6CD99A8E3A1.description3}"
+				"{ftbquests.chapter.terramity_arsenal.quest1DE8E6CD99A8E3A1.description4}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest1DE8E6CD99A8E3A1.description5}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest1DE8E6CD99A8E3A1.description6}"
+			]
+			icon: "terramity:music_sheet_of_everlasting"
+			id: "1DE8E6CD99A8E3A1"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E712D3650F302CF"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest1DE8E6CD99A8E3A1.subtitle}"
+			tasks: [{
+				id: "421EB8968816CBBC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_everlasting"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_bolstering"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.terramity_arsenal.quest1DE8E6CD99A8E3A1.task.4764448412472363964.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest1DE8E6CD99A8E3A1.title}"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest3523225F6BEECAC2.description1}"
+				"{ftbquests.chapter.terramity_arsenal.quest3523225F6BEECAC2.description2}"
+				"{ftbquests.chapter.terramity_arsenal.quest3523225F6BEECAC2.description3}"
+			]
+			icon: "terramity:music_sheet_of_time"
+			id: "3523225F6BEECAC2"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "642A1A6877EA7836"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest3523225F6BEECAC2.subtitle}"
+			tasks: [{
+				id: "15CFED4B5D43AEF1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_time"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_storms"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.terramity_arsenal.quest3523225F6BEECAC2.task.1571735702918639345.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest3523225F6BEECAC2.title}"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest132E0808AC3F2596.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest132E0808AC3F2596.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest132E0808AC3F2596.description3}"
+			]
+			icon: "terramity:music_sheet_of_cleansing"
+			id: "132E0808AC3F2596"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BE9F376BE201DEC"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest132E0808AC3F2596.subtitle}"
+			tasks: [{
+				id: "74B4DBAEEBE6F19C"
+				item: "terramity:music_sheet_of_cleansing"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest132E0808AC3F2596.title}"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest73583233EF39D8CB.description1}"
+				"{ftbquests.chapter.terramity_arsenal.quest73583233EF39D8CB.description2}"
+				"{ftbquests.chapter.terramity_arsenal.quest73583233EF39D8CB.description3}"
+				"{ftbquests.chapter.terramity_arsenal.quest73583233EF39D8CB.description4}"
+				"{ftbquests.chapter.terramity_arsenal.quest73583233EF39D8CB.description5}"
+				"{ftbquests.chapter.terramity_arsenal.quest73583233EF39D8CB.description6}"
+				"{ftbquests.chapter.terramity_arsenal.quest73583233EF39D8CB.description7}"
+			]
+			icon: "terramity:music_sheet_of_the_gnome_king"
+			id: "73583233EF39D8CB"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CA732BAF572ED76"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest73583233EF39D8CB.subtitle}"
+			tasks: [{
+				id: "7BB61D09CC8C177C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_the_gnome_king"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_the_legendary_super_sniffer"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_the_trial_guardian"
+							}
+							{
+								Count: 1b
+								id: "terramity:music_sheet_of_the_shadow_wizards"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.terramity_arsenal.quest73583233EF39D8CB.task.8914344440350119804.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest73583233EF39D8CB.title}"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest42C74AC04E043253.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest42C74AC04E043253.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest42C74AC04E043253.description3}"
+			]
+			icon: "terramity:music_sheet_of_null"
+			id: "42C74AC04E043253"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7124ACE15F699F2E"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest42C74AC04E043253.subtitle}"
+			tasks: [{
+				id: "1DD4D77499978222"
+				item: "terramity:music_sheet_of_null"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest42C74AC04E043253.title}"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest4D92F745D62E6790.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest4D92F745D62E6790.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest4D92F745D62E6790.description3}"
+			]
+			icon: "terramity:music_sheet_of_the_omnipotent_ultra_sniffer"
+			id: "4D92F745D62E6790"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "450692D9B7027F3D"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest4D92F745D62E6790.subtitle}"
+			tasks: [{
+				id: "57186AB437CC3040"
+				item: "terramity:music_sheet_of_the_omnipotent_ultra_sniffer"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest4D92F745D62E6790.title}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44C099D2D5AE4A16"]
+			description: [
+				"{ftbquests.chapter.terramity_arsenal.quest7676352EB9888CD3.description1}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest7676352EB9888CD3.description2}"
+				""
+				"{ftbquests.chapter.terramity_arsenal.quest7676352EB9888CD3.description3}"
+			]
+			icon: "terramity:music_sheet_of_untimely_death"
+			id: "7676352EB9888CD3"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D5364D27DBF9238"
+				table_id: 1534136396462519031L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.terramity_arsenal.quest7676352EB9888CD3.subtitle}"
+			tasks: [{
+				id: "1CE028B74281972A"
+				item: "terramity:music_sheet_of_untimely_death"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.terramity_arsenal.quest7676352EB9888CD3.title}"
+			x: 2.0d
+			y: 3.5d
+		}
+	]
+	title: "{ftbquests.chapter.terramity_arsenal.title}"
+}

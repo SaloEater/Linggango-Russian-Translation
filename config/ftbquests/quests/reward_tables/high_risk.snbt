@@ -27,13 +27,25 @@
 			type: "command"
 			weight: 5.0f
 		}
-		{ item: "goety:void_staff", title: "SECRET" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 1
+					}
+				}
+				id: "goety:void_staff"
+			}
+			title: "SECRET"
+		}
 		{
 			item: {
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "gtbcs_geomancy_plus:tremor_spike"
 							index: 0
@@ -53,7 +65,7 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "gtbcs_geomancy_plus:dripstone_bolt"
 							index: 0
@@ -73,7 +85,7 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "gtbcs_geomancy_plus:dripstone_bolt"
 							index: 0
@@ -93,7 +105,7 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "traveloptics:hydroshot"
 							index: 0
@@ -113,7 +125,7 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "traveloptics:aqua_missiles"
 							index: 0
@@ -133,7 +145,7 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "traveloptics:mechanized_predator"
 							index: 0
@@ -153,7 +165,7 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "irons_spellbooks:invisibility"
 							index: 0
@@ -173,7 +185,7 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "irons_spellbooks:ascension"
 							index: 0
@@ -193,7 +205,7 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "irons_spellbooks:ice_block"
 							index: 0
@@ -208,7 +220,6 @@
 			}
 			title: "SECRET"
 		}
-		{ item: "aquamirae:ship_graveyard_echo", title: "SECRET" }
 		{ item: "enigmaticlegacy:thicc_scroll", title: "SECRET" }
 		{ count: 9000, item: "minecraft:stick", title: "SECRET" }
 		{
@@ -275,20 +286,9 @@
 		{
 			item: {
 				Count: 1
-				id: "knightquest:creeper_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-		}
-		{ item: "winteroverhaul:top_hat", title: "SECRET" }
-		{
-			item: {
-				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "traveloptics:primal_pack"
 							index: 0
@@ -308,7 +308,7 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "irons_spellbooks:arrow_volley"
 							index: 0
@@ -328,7 +328,7 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "traveloptics:blood_howl"
 							index: 0
@@ -349,7 +349,7 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "traveloptics:ignited_onslaught"
 							index: 0
@@ -369,7 +369,7 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_Spells: {
+					"irons_spellbooks:spell_container": {
 						data: [{
 							id: "gtbcs_geomancy_plus:seismic_surf"
 							index: 0
@@ -386,57 +386,6 @@
 		}
 		{ item: "irons_spellbooks:inscription_table", title: "SECRET" }
 		{ item: "irons_spellbooks:firefly_jar", title: "SECRET" }
-		{
-			item: {
-				Count: 1
-				id: "cataclysm:ignitium_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-		}
-		{
-			item: {
-				Count: 1
-				id: "cataclysm:ignitium_elytra_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-		}
-		{
-			item: {
-				Count: 1
-				id: "cataclysm:ignitium_leggings"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-		}
-		{
-			item: {
-				Count: 1
-				id: "cataclysm:ignitium_boots"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-		}
-		{
-			item: {
-				Count: 1
-				id: "cataclysm:ignitium_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			title: "SECRET"
-		}
-		{ count: 3, item: "cataclysm:ignitium_ingot", title: "SECRET" }
 		{ item: "minecraft:oak_button", title: "SECRET", weight: 5.0f }
 		{ item: "armageddon_mod:iron_colossus_lore_scroll", title: "SECRET", weight: 5.0f }
 		{ item: "armageddon_mod:gobelin_lord_lore_scroll", title: "SECRET", weight: 3.0f }

@@ -19,15 +19,32 @@
 		}
 	}
 	id: "3D0AB1A1AAC063F4"
-	images: [{
-		height: 15.0d
-		image: "customtextures:textures/belts.png"
-		rotation: 0.0d
-		width: 16.0d
-		x: -1.5d
-		y: 0.0d
-	}]
-	order_index: 18
+	images: [
+		{
+			height: 15.0d
+			image: "customtextures:textures/belts.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.belts.image.hovertext1"
+				"ftbquests.chapter.belts.image.hovertext2"
+				"ftbquests.chapter.belts.image.hovertext3"
+				"ftbquests.chapter.belts.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.0d
+		}
+	]
+	order_index: 22
 	parent: "44F86CB070F12FF2"
 	quest_links: [ ]
 	quests: [
@@ -507,6 +524,11 @@
 			y: 2.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest1073E8F3DDF337F7.description1}"
+				""
+				"{ftbquests.chapter.belts.quest1073E8F3DDF337F7.description2}"
+			]
 			id: "1073E8F3DDF337F7"
 			tasks: [{
 				id: "576828A0058B5548"
@@ -517,6 +539,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.questC0DDB3F8F45EF60.description1}"
+				""
+				"{ftbquests.chapter.belts.questC0DDB3F8F45EF60.description2}"
+			]
 			id: "0C0DDB3F8F45EF60"
 			tasks: [{
 				id: "6FB1447CC42A5254"
@@ -527,6 +554,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest501385DA70AC1D47.description1}"
+				""
+				"{ftbquests.chapter.belts.quest501385DA70AC1D47.description2}"
+			]
 			id: "501385DA70AC1D47"
 			tasks: [{
 				id: "5E23CE29AC25F869"
@@ -537,6 +569,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.questADD9EBFE9F1A1E2.description1}"
+				""
+				"{ftbquests.chapter.belts.questADD9EBFE9F1A1E2.description2}"
+			]
 			id: "0ADD9EBFE9F1A1E2"
 			tasks: [{
 				id: "4E40622E67228E2C"
@@ -547,6 +584,11 @@
 			y: 2.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest5EA44444BDBA9CEE.description1}"
+				""
+				"{ftbquests.chapter.belts.quest5EA44444BDBA9CEE.description2}"
+			]
 			id: "5EA44444BDBA9CEE"
 			tasks: [{
 				id: "6631741DFE89022F"
@@ -557,6 +599,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest659843631320710D.description1}"
+				""
+				"{ftbquests.chapter.belts.quest659843631320710D.description2}"
+			]
 			id: "659843631320710D"
 			tasks: [{
 				id: "4CA9C588FB26447F"
@@ -567,6 +614,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest71561BD79691330C.description1}"
+				""
+				"{ftbquests.chapter.belts.quest71561BD79691330C.description2}"
+			]
 			id: "71561BD79691330C"
 			tasks: [{
 				id: "460A767711185756"
@@ -577,6 +629,13 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest540B410226A6599C.description1}"
+				""
+				"{ftbquests.chapter.belts.quest540B410226A6599C.description2}"
+				""
+				"{ftbquests.chapter.belts.quest540B410226A6599C.description3}"
+			]
 			id: "540B410226A6599C"
 			tasks: [{
 				id: "1FBA5E2C3CD0AFCE"
@@ -587,6 +646,13 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest2611C0CB3D75C6.description1}"
+				""
+				"{ftbquests.chapter.belts.quest2611C0CB3D75C6.description2}"
+				""
+				"{ftbquests.chapter.belts.quest2611C0CB3D75C6.description3}"
+			]
 			id: "002611C0CB3D75C6"
 			tasks: [{
 				id: "45E9428A03C8645A"
@@ -727,6 +793,13 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest7C31AEAD6C00241.description1}"
+				""
+				"{ftbquests.chapter.belts.quest7C31AEAD6C00241.description2}"
+				""
+				"{ftbquests.chapter.belts.quest7C31AEAD6C00241.description3}"
+			]
 			id: "07C31AEAD6C00241"
 			tasks: [{
 				id: "7C70C8DECFCF0320"
@@ -737,6 +810,11 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest1965308D2EA5EFBB.description1}"
+				""
+				"{ftbquests.chapter.belts.quest1965308D2EA5EFBB.description2}"
+			]
 			id: "1965308D2EA5EFBB"
 			tasks: [{
 				id: "379EB55B61364D21"
@@ -747,6 +825,11 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest56D8DDEE80DF1917.description1}"
+				""
+				"{ftbquests.chapter.belts.quest56D8DDEE80DF1917.description2}"
+			]
 			id: "56D8DDEE80DF1917"
 			tasks: [{
 				id: "4977BDD4E3D4A88F"
@@ -827,6 +910,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest7AA514CCF0D3E0F1.description1}"
+				""
+				"{ftbquests.chapter.belts.quest7AA514CCF0D3E0F1.description2}"
+			]
 			id: "7AA514CCF0D3E0F1"
 			tasks: [{
 				id: "16EDCA2F26C9D191"
@@ -837,6 +925,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest5658B047B192CF46.description1}"
+				""
+				"{ftbquests.chapter.belts.quest5658B047B192CF46.description2}"
+			]
 			id: "5658B047B192CF46"
 			tasks: [{
 				id: "4E3CC19998A3BADE"
@@ -847,6 +940,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest58F9EBC7FC71DC11.description1}"
+				""
+				"{ftbquests.chapter.belts.quest58F9EBC7FC71DC11.description2}"
+			]
 			id: "58F9EBC7FC71DC11"
 			tasks: [{
 				id: "08D898B16C5ABEE5"
@@ -857,6 +955,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest393F96EC8DC8201C.description1}"
+				""
+				"{ftbquests.chapter.belts.quest393F96EC8DC8201C.description2}"
+			]
 			id: "393F96EC8DC8201C"
 			tasks: [{
 				id: "70F064C56443B2D0"
@@ -867,6 +970,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest7860B2BAD7D8393A.description1}"
+				""
+				"{ftbquests.chapter.belts.quest7860B2BAD7D8393A.description2}"
+			]
 			id: "7860B2BAD7D8393A"
 			tasks: [{
 				id: "0A831C1620CEBE99"
@@ -877,6 +985,11 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest7DBF7A333C333536.description1}"
+				""
+				"{ftbquests.chapter.belts.quest7DBF7A333C333536.description2}"
+			]
 			id: "7DBF7A333C333536"
 			tasks: [{
 				id: "49AB331CEF82D1CD"
@@ -887,6 +1000,13 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest7E8902B03CF889FC.description1}"
+				""
+				"{ftbquests.chapter.belts.quest7E8902B03CF889FC.description2}"
+				""
+				"{ftbquests.chapter.belts.quest7E8902B03CF889FC.description3}"
+			]
 			id: "7E8902B03CF889FC"
 			tasks: [{
 				id: "4C89C4DAF84ADF6E"
@@ -897,6 +1017,11 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest32951D9B744E1713.description1}"
+				""
+				"{ftbquests.chapter.belts.quest32951D9B744E1713.description2}"
+			]
 			id: "32951D9B744E1713"
 			tasks: [{
 				id: "1D7F561F02CCECEB"
@@ -907,6 +1032,13 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.belts.quest6311027E9D35C878.description1}"
+				""
+				"{ftbquests.chapter.belts.quest6311027E9D35C878.description2}"
+				""
+				"{ftbquests.chapter.belts.quest6311027E9D35C878.description3}"
+			]
 			id: "6311027E9D35C878"
 			tasks: [{
 				id: "53636C48CBDBDFC7"

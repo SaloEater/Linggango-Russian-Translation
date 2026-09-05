@@ -41,15 +41,32 @@
 		}
 	}
 	id: "4C2CE7874D6AFE9A"
-	images: [{
-		height: 15.0d
-		image: "customtextures:textures/curios.png"
-		rotation: 0.0d
-		width: 16.0d
-		x: 0.5d
-		y: 0.0d
-	}]
-	order_index: 20
+	images: [
+		{
+			height: 15.0d
+			image: "customtextures:textures/curios.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.curios.image.hovertext1"
+				"ftbquests.chapter.curios.image.hovertext2"
+				"ftbquests.chapter.curios.image.hovertext3"
+				"ftbquests.chapter.curios.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.0d
+		}
+	]
+	order_index: 24
 	parent: "44F86CB070F12FF2"
 	quest_links: [ ]
 	quests: [

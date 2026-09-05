@@ -1,0 +1,1037 @@
+{
+	autofocus_id: "6412FB58E7FE363A"
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: "hexagon"
+	filename: "mekanism_storage"
+	group: "336B0783FD524DD2"
+	icon: "mekanism:qio_dashboard"
+	id: "4B90E2D7C6153AF6"
+	images: [
+		{
+			height: 2.0d
+			image: "customtextures:textures/mekanism_logo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			click: "https://wiki.aidancbrady.com/"
+			height: 1.0d
+			hover: ["ftbquests.chapter.mekanism_storage.image.hovertext1"]
+			image: "customtextures:textures/wikipng.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			alpha: 44
+			height: 2.0d
+			image: "mekanism:item/qio_drive_supermassive"
+			order: -1
+			rotation: -12.0d
+			width: 2.0d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			alpha: 44
+			height: 2.0d
+			image: "appmek:item/chemical_storage_cell_64k"
+			order: -1
+			rotation: 12.0d
+			width: 2.0d
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.mekanism_storage.image.hovertext2"
+				"ftbquests.chapter.mekanism_storage.image.hovertext3"
+				"ftbquests.chapter.mekanism_storage.image.hovertext4"
+				"ftbquests.chapter.mekanism_storage.image.hovertext5"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -10.0d
+		}
+	]
+	order_index: 17
+	parent: "23983F4DC524B14B"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1853010034C61C45"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest693F9F233FE73CFB.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest693F9F233FE73CFB.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest693F9F233FE73CFB.description3}"
+			]
+			id: "693F9F233FE73CFB"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest693F9F233FE73CFB.subtitle}"
+			tasks: [{
+				id: "07F3C8F354F9A762"
+				item: "evolvedmekanism:qio_drive_boosted"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest693F9F233FE73CFB.title}"
+			x: 1.5d
+			y: 6.8d
+		}
+		{
+			dependencies: ["40A325D43A32C462"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest7A370E853E81B74D.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest7A370E853E81B74D.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest7A370E853E81B74D.description3}"
+			]
+			id: "7A370E853E81B74D"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest7A370E853E81B74D.subtitle}"
+			tasks: [{
+				id: "559FB3101A2A3B63"
+				item: "evolvedmekanism:qio_drive_hypra_solidified"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest7A370E853E81B74D.title}"
+			x: 1.5d
+			y: 10.2d
+		}
+		{
+			dependencies: ["693F9F233FE73CFB"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest40A325D43A32C462.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest40A325D43A32C462.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest40A325D43A32C462.description3}"
+			]
+			id: "40A325D43A32C462"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest40A325D43A32C462.subtitle}"
+			tasks: [{
+				id: "261502B5433822A0"
+				item: "evolvedmekanism:qio_drive_singularity"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest40A325D43A32C462.title}"
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7A370E853E81B74D"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest51952F8D88A7F3BD.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest51952F8D88A7F3BD.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest51952F8D88A7F3BD.description3}"
+			]
+			id: "51952F8D88A7F3BD"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest51952F8D88A7F3BD.subtitle}"
+			tasks: [{
+				id: "6FAFAD621975702E"
+				item: "evolvedmekanism:qio_drive_black_hole"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest51952F8D88A7F3BD.title}"
+			x: 1.5d
+			y: 11.9d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description3}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description4}"
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description5}"
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description6}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description7}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description8}"
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description9}"
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description10}"
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description11}"
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description12}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.description13}"
+				"[\"\",{\"color\":\"#3FA9C8\",\"underlined\":true,\"translate\":\"ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"23983F4DC524B14B\"}}]"
+				"[\"\",{\"color\":\"#B47CFF\",\"underlined\":true,\"translate\":\"ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"607FC85B97E241AE\"}}]"
+			]
+			icon: "mekanism:qio_dashboard"
+			id: "6412FB58E7FE363A"
+			min_width: 360
+			rewards: [{
+				id: "3CFABF1E473CBBEA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.6d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.subtitle}"
+			tasks: [{
+				id: "0B0D9B858CB1E3F0"
+				title: "{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.task.796463707007869936.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest6412FB58E7FE363A.title}"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6412FB58E7FE363A"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest62A49E5F3D0C4452.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest62A49E5F3D0C4452.description2}"
+			]
+			icon: "mekanism:basic_bin"
+			id: "62A49E5F3D0C4452"
+			rewards: [{
+				id: "4324FC4B1E15645C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest62A49E5F3D0C4452.subtitle}"
+			tasks: [{
+				id: "73545278369AB821"
+				title: "{ftbquests.chapter.mekanism_storage.quest62A49E5F3D0C4452.task.8310357888671070241.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest62A49E5F3D0C4452.title}"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["62A49E5F3D0C4452"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.description3}"
+				"{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.description4}"
+				"{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.description5}"
+				"{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.description6}"
+				"{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.description7}"
+				"{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.description8}"
+				"{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.description9}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.description10}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.description11}"
+			]
+			icon: "mekanism:basic_bin"
+			id: "76C66AF0B44823E9"
+			rewards: [{
+				id: "279E8A60367D479B"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.subtitle}"
+			tasks: [{
+				id: "257D1AD540C5965B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:basic_bin"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_bin"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_bin"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_bin"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.task.2701344854709212763.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest76C66AF0B44823E9.title}"
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["76C66AF0B44823E9"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest7BC5C59CE980FF07.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest7BC5C59CE980FF07.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest7BC5C59CE980FF07.description3}"
+			]
+			icon: "mekanism:personal_chest"
+			id: "7BC5C59CE980FF07"
+			rewards: [{
+				id: "20DA0DCA94B3955F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest7BC5C59CE980FF07.subtitle}"
+			tasks: [{
+				id: "706D3F16331F205D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:personal_chest"
+							}
+							{
+								Count: 1b
+								id: "mekanism:personal_barrel"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.mekanism_storage.quest7BC5C59CE980FF07.task.8101200669288898653.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest7BC5C59CE980FF07.title}"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7BC5C59CE980FF07"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest4A72A59547A24D2F.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest4A72A59547A24D2F.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest4A72A59547A24D2F.description3}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest4A72A59547A24D2F.description4}"
+				"{ftbquests.chapter.mekanism_storage.quest4A72A59547A24D2F.description5}"
+				"{ftbquests.chapter.mekanism_storage.quest4A72A59547A24D2F.description6}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest4A72A59547A24D2F.description7}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest4A72A59547A24D2F.description8}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest4A72A59547A24D2F.description9}"
+			]
+			icon: "mekanism:cardboard_box"
+			id: "4A72A59547A24D2F"
+			min_width: 340
+			rewards: [
+				{
+					count: 8
+					id: "3D6EA5FB0CFFEDBA"
+					item: "mekanism:cardboard_box"
+					type: "item"
+				}
+				{
+					id: "77FFB0124C7274D3"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.35d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest4A72A59547A24D2F.subtitle}"
+			tasks: [{
+				id: "67ECBFF5DF5A11B6"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest4A72A59547A24D2F.title}"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4A72A59547A24D2F"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest5CF0DDD0B96D906B.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest5CF0DDD0B96D906B.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest5CF0DDD0B96D906B.description3}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest5CF0DDD0B96D906B.description4}"
+			]
+			icon: "mekanism:logistical_sorter"
+			id: "5CF0DDD0B96D906B"
+			rewards: [{
+				id: "2C699BE12CF4E924"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest5CF0DDD0B96D906B.subtitle}"
+			tasks: [{
+				id: "1E4C09C1CDF5604F"
+				item: "mekanism:logistical_sorter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest5CF0DDD0B96D906B.title}"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CF0DDD0B96D906B"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest73271DE75069BEA6.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest73271DE75069BEA6.description2}"
+				"{ftbquests.chapter.mekanism_storage.quest73271DE75069BEA6.description3}"
+				"{ftbquests.chapter.mekanism_storage.quest73271DE75069BEA6.description4}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest73271DE75069BEA6.description5}"
+			]
+			icon: "mekanism:diversion_transporter"
+			id: "73271DE75069BEA6"
+			optional: true
+			rewards: [{
+				id: "2DFBB68ABCF52D48"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest73271DE75069BEA6.subtitle}"
+			tasks: [{
+				id: "49E1475081F175CC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:diversion_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:restrictive_transporter"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.mekanism_storage.quest73271DE75069BEA6.task.5323614645631677900.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest73271DE75069BEA6.title}"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73271DE75069BEA6"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest3C2C81EF4AD0A9DF.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest3C2C81EF4AD0A9DF.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest3C2C81EF4AD0A9DF.description3}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest3C2C81EF4AD0A9DF.description4}"
+			]
+			icon: "mekanism:oredictionificator"
+			id: "3C2C81EF4AD0A9DF"
+			rewards: [{
+				id: "245F25AFC3C99E91"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest3C2C81EF4AD0A9DF.subtitle}"
+			tasks: [{
+				id: "3E1C41BB772AC418"
+				item: "mekanism:oredictionificator"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest3C2C81EF4AD0A9DF.title}"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C2C81EF4AD0A9DF"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.questC7F657CFED12D10.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.questC7F657CFED12D10.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.questC7F657CFED12D10.description3}"
+			]
+			icon: "mekanism:security_desk"
+			id: "0C7F657CFED12D10"
+			optional: true
+			rewards: [{
+				id: "442184BF56539D3F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.mekanism_storage.questC7F657CFED12D10.subtitle}"
+			tasks: [{
+				id: "6AD4C712019D4DCB"
+				item: "mekanism:security_desk"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.questC7F657CFED12D10.title}"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6412FB58E7FE363A"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description3}"
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description4}"
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description5}"
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description6}"
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description7}"
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description8}"
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description9}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description10}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description11}"
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description12}"
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description13}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description14}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description15}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.description16}"
+			]
+			icon: "mekanism:qio_dashboard"
+			id: "126E54223C67AF37"
+			min_width: 350
+			rewards: [{
+				id: "0C4AC24B727C9963"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.subtitle}"
+			tasks: [{
+				id: "368766ACC31FE755"
+				title: "{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.task.3929222092098103125.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest126E54223C67AF37.title}"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["126E54223C67AF37"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest7198CA73267732F5.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest7198CA73267732F5.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest7198CA73267732F5.description3}"
+			]
+			icon: "mekanism:qio_dashboard"
+			id: "7198CA73267732F5"
+			rewards: [{
+				id: "69FB4252409519AF"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest7198CA73267732F5.subtitle}"
+			tasks: [{
+				id: "30DE11A9EE60EE7B"
+				item: "mekanism:qio_dashboard"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest7198CA73267732F5.title}"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7198CA73267732F5"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest4AD0A273050589D4.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest4AD0A273050589D4.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest4AD0A273050589D4.description3}"
+			]
+			icon: "mekanism:portable_qio_dashboard"
+			id: "4AD0A273050589D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "091DEB4492CFE0C1"
+					table_id: 523655846730814564L
+					type: "random"
+				}
+				{
+					id: "7558D468B4B1FD7C"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest4AD0A273050589D4.subtitle}"
+			tasks: [{
+				id: "5CECC8A3992C0109"
+				item: "mekanism:portable_qio_dashboard"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest4AD0A273050589D4.title}"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["126E54223C67AF37"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest19D7A77D2AF335D8.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest19D7A77D2AF335D8.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest19D7A77D2AF335D8.description3}"
+			]
+			icon: "mekanism:qio_drive_array"
+			id: "19D7A77D2AF335D8"
+			rewards: [{
+				id: "563DE4615B004003"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			size: 1.35d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest19D7A77D2AF335D8.subtitle}"
+			tasks: [{
+				id: "16C63031ED0BBC5B"
+				item: "mekanism:qio_drive_array"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest19D7A77D2AF335D8.title}"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["126E54223C67AF37"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest49A606FA00B27656.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest49A606FA00B27656.description2}"
+			]
+			icon: "mekanism:qio_importer"
+			id: "49A606FA00B27656"
+			rewards: [{
+				id: "54F9365BCE568BC5"
+				type: "xp"
+				xp: 15
+			}]
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest49A606FA00B27656.subtitle}"
+			tasks: [{
+				id: "6C7AB70B508774EF"
+				item: "mekanism:qio_importer"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest49A606FA00B27656.title}"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["49A606FA00B27656"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest235623687EA866BF.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest235623687EA866BF.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest235623687EA866BF.description3}"
+			]
+			icon: "mekanism:qio_exporter"
+			id: "235623687EA866BF"
+			rewards: [{
+				id: "0A081351A2ED845B"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest235623687EA866BF.subtitle}"
+			tasks: [{
+				id: "240FCF9D33D04980"
+				item: "mekanism:qio_exporter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest235623687EA866BF.title}"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["235623687EA866BF"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest74391CD10C596CFD.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest74391CD10C596CFD.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest74391CD10C596CFD.description3}"
+			]
+			icon: "mekanism:qio_redstone_adapter"
+			id: "74391CD10C596CFD"
+			optional: true
+			rewards: [{
+				id: "35AF984124B46E1E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest74391CD10C596CFD.subtitle}"
+			tasks: [{
+				id: "7FEFB9BB03BDEE02"
+				item: "mekanism:qio_redstone_adapter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest74391CD10C596CFD.title}"
+			x: 3.5d
+			y: 0.7000000000000002d
+		}
+		{
+			dependencies: ["19D7A77D2AF335D8"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest3D267B81984EB678.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest3D267B81984EB678.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest3D267B81984EB678.description3}"
+			]
+			icon: "mekanism:qio_drive_base"
+			id: "3D267B81984EB678"
+			rewards: [{
+				id: "1CE7016946C6FB55"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest3D267B81984EB678.subtitle}"
+			tasks: [{
+				id: "03569B73CBFA7484"
+				item: "mekanism:qio_drive_base"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest3D267B81984EB678.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D267B81984EB678"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest25D7A7A81CCCF9C7.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest25D7A7A81CCCF9C7.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest25D7A7A81CCCF9C7.description3}"
+			]
+			icon: "mekanism:qio_drive_hyper_dense"
+			id: "25D7A7A81CCCF9C7"
+			rewards: [{
+				id: "1D9FA0714D9357AD"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest25D7A7A81CCCF9C7.subtitle}"
+			tasks: [{
+				id: "5EBFBDD243B7D2DB"
+				item: "mekanism:qio_drive_hyper_dense"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest25D7A7A81CCCF9C7.title}"
+			x: 1.5d
+			y: 1.7d
+		}
+		{
+			dependencies: ["25D7A7A81CCCF9C7"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest7D76351CAE80320F.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest7D76351CAE80320F.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest7D76351CAE80320F.description3}"
+			]
+			icon: "mekanism:qio_drive_time_dilating"
+			id: "7D76351CAE80320F"
+			rewards: [{
+				id: "3D9621EE377A1148"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest7D76351CAE80320F.subtitle}"
+			tasks: [{
+				id: "6058E42668B28018"
+				item: "mekanism:qio_drive_time_dilating"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest7D76351CAE80320F.title}"
+			x: 1.5d
+			y: 3.4d
+		}
+		{
+			dependencies: ["7D76351CAE80320F"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest1853010034C61C45.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest1853010034C61C45.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest1853010034C61C45.description3}"
+			]
+			icon: "mekanism:qio_drive_supermassive"
+			id: "1853010034C61C45"
+			rewards: [{
+				id: "04BB1107ACF04B36"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest1853010034C61C45.subtitle}"
+			tasks: [{
+				id: "3299BB7D9C3C4399"
+				item: "mekanism:qio_drive_supermassive"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest1853010034C61C45.title}"
+			x: 1.5d
+			y: 5.1d
+		}
+		{
+			dependencies: ["126E54223C67AF37"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest295D22B564E7CA71.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest295D22B564E7CA71.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest295D22B564E7CA71.description3}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest295D22B564E7CA71.description4}"
+			]
+			icon: "appmek:chemical_storage_cell_64k"
+			id: "295D22B564E7CA71"
+			min_width: 340
+			rewards: [{
+				id: "6F2D02553DEF823B"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest295D22B564E7CA71.subtitle}"
+			tasks: [{
+				id: "3FFC6E8C85EF404F"
+				title: "{ftbquests.chapter.mekanism_storage.quest295D22B564E7CA71.task.4610681668342071375.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest295D22B564E7CA71.title}"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["295D22B564E7CA71"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest1BF1775031A5323.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest1BF1775031A5323.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest1BF1775031A5323.description3}"
+			]
+			icon: "appmek:chemical_cell_housing"
+			id: "01BF1775031A5323"
+			rewards: [{
+				id: "5CEF9D0AD688F6F4"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest1BF1775031A5323.subtitle}"
+			tasks: [{
+				id: "6E7E2CE3B1CDE6E3"
+				item: "appmek:chemical_cell_housing"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest1BF1775031A5323.title}"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01BF1775031A5323"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest5A72365C52EAD776.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest5A72365C52EAD776.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest5A72365C52EAD776.description3}"
+			]
+			icon: "appmek:chemical_storage_cell_64k"
+			id: "5A72365C52EAD776"
+			rewards: [{
+				id: "05A20DA6651867E8"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest5A72365C52EAD776.subtitle}"
+			tasks: [{
+				id: "514583411EDBF852"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_1k"
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_4k"
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_16k"
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_64k"
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_256k"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.mekanism_storage.quest5A72365C52EAD776.task.5856231206179043410.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest5A72365C52EAD776.title}"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01BF1775031A5323"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest27719D5A5D04EDC6.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest27719D5A5D04EDC6.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest27719D5A5D04EDC6.description3}"
+			]
+			icon: "appmek:portable_chemical_storage_cell_64k"
+			id: "27719D5A5D04EDC6"
+			optional: true
+			rewards: [{
+				id: "55710DFF55758FC8"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest27719D5A5D04EDC6.subtitle}"
+			tasks: [{
+				id: "14C6E23D6272CA9A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "appmek:portable_chemical_storage_cell_1k"
+							}
+							{
+								Count: 1b
+								id: "appmek:portable_chemical_storage_cell_4k"
+							}
+							{
+								Count: 1b
+								id: "appmek:portable_chemical_storage_cell_16k"
+							}
+							{
+								Count: 1b
+								id: "appmek:portable_chemical_storage_cell_64k"
+							}
+							{
+								Count: 1b
+								id: "appmek:portable_chemical_storage_cell_256k"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.mekanism_storage.quest27719D5A5D04EDC6.task.1497132679419841178.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest27719D5A5D04EDC6.title}"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A72365C52EAD776"]
+			description: [
+				"{ftbquests.chapter.mekanism_storage.quest33FDCF5BCC8E38D.description1}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest33FDCF5BCC8E38D.description2}"
+				""
+				"{ftbquests.chapter.mekanism_storage.quest33FDCF5BCC8E38D.description3}"
+			]
+			icon: "appmek:chemical_p2p_tunnel"
+			id: "033FDCF5BCC8E38D"
+			rewards: [{
+				id: "6B0E08AAA3455058"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.mekanism_storage.quest33FDCF5BCC8E38D.subtitle}"
+			tasks: [{
+				id: "426FB3D69CD800DC"
+				item: "appmek:chemical_p2p_tunnel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mekanism_storage.quest33FDCF5BCC8E38D.title}"
+			x: 6.5d
+			y: -0.5d
+		}
+	]
+	title: "{ftbquests.chapter.mekanism_storage.title}"
+}

@@ -1,67 +1,58 @@
 {
 	autofocus_id: "43ACAF3A3EA50806"
 	default_hide_dependency_lines: false
-	default_min_width: 250
-	default_quest_shape: "netheritetier"
+	default_min_width: 320
+	default_quest_shape: "square"
 	filename: "advanced_progression"
 	group: "0FD8C2D2A2339C0B"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "companions:item/book_heal_ring"
-		}
-	}
+	icon: "terramity:prismatic_jewel"
 	id: "2F1A384416C57A23"
 	images: [
 		{
-			height: 1.0d
-			image: "terramity:textures/particle/ultra_glint_no_gravity_4.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.7403603418780875d
-			y: 3.499235506510942d
-		}
-		{
-			height: 1.52d
+			height: 1.75d
 			image: "customtextures:textures/terramity.png"
 			rotation: 0.0d
-			width: 10.0d
-			x: -11.5d
-			y: -11.0d
+			width: 13.0d
+			x: 0.0d
+			y: -14.5d
 		}
 		{
-			height: 1.0d
-			image: "terramity:textures/particle/ultra_glint_no_gravity_4.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.8475031990209416d
-			y: 5.034949792225234d
-		}
-		{
-			dev: true
-			height: 1.0d
+			alpha: 190
+			height: 15.0d
 			hover: [
 				"ftbquests.chapter.advanced_progression.image.hovertext1"
 				"ftbquests.chapter.advanced_progression.image.hovertext2"
-				"ftbquests.chapter.advanced_progression.image.hovertext3"
-				"ftbquests.chapter.advanced_progression.image.hovertext4"
 			]
-			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			image: "customtextures:textures/terramity_graph.png"
+			order: 1
 			rotation: 0.0d
-			width: 1.0d
-			x: -11.0d
-			y: -12.5d
+			width: 15.0d
+			x: 0.0d
+			y: -21.5d
 		}
 		{
-			click: "a"
-			height: 1.0d
-			hover: ["ftbquests.chapter.advanced_progression.image.hovertext5"]
-			image: "quark:item/hammer"
+			dev: true
+			height: 0.9d
+			hover: [
+				"ftbquests.chapter.advanced_progression.image.hovertext3"
+				"ftbquests.chapter.advanced_progression.image.hovertext4"
+				"ftbquests.chapter.advanced_progression.image.hovertext5"
+				"ftbquests.chapter.advanced_progression.image.hovertext6"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			order: 4
 			rotation: 0.0d
-			width: 1.0d
-			x: -12.0d
-			y: -12.5d
+			width: 0.9d
+			x: 0.0d
+			y: -17.0d
+		}
+		{
+			height: 14.0d
+			image: "industrialforegoing:textures/gui/book_back.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 0.0d
+			y: -22.0d
 		}
 	]
 	order_index: 2
@@ -71,17 +62,41 @@
 		{
 			description: [
 				"{ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.description1}"
+				""
 				"{ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.description2}"
+				""
 				"{ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.description3}"
+				""
 				"{ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.description4}"
 				"{ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.description5}"
+				"{ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.description6}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.description7}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.description8}"
+				""
+				"[\"\",{\"color\":\"#B98A5E\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"55CF3612F2588EA7\"}}]"
+				"[\"\",{\"color\":\"#C89A5A\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7B2049B841F6A946\"}}]"
+				"[\"\",{\"color\":\"#E29AD2\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.rich_description3\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"44F86CB070F12FF2\"}}]"
+				"[\"\",{\"color\":\"#C0392B\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.rich_description4\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3AE3B2BE4A65CEF6\"}}]"
+				"[\"\",{\"color\":\"#A31419\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.rich_description5\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"20FAEEFB40B0A5B7\"}}]"
+				"[\"\",{\"color\":\"#6EC5E8\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.rich_description6\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1972E6247504B332\"}}]"
+				""
 			]
-			disable_toast: true
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 0
+					}
+				}
+				id: "terramity:blood_contract"
 				tag: {
-					Icon: "terramity:item/terramity_guidebook"
+					Inventory: {
+						Items: [ ]
+						Size: 0
+					}
 				}
 			}
 			id: "43ACAF3A3EA50806"
@@ -96,8 +111,7 @@
 				}
 				type: "item"
 			}]
-			shape: "square"
-			size: 1.5d
+			size: 1.6d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.subtitle}"
 			tasks: [{
 				id: "5D3C1ADD7DE70815"
@@ -105,28 +119,504 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.advanced_progression.quest43ACAF3A3EA50806.title}"
-			x: -11.5d
-			y: -9.0d
+			x: 0.0d
+			y: -11.5d
 		}
 		{
-			dependencies: ["0F67904477CEA3A9"]
+			dependencies: ["43ACAF3A3EA50806"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest335A39A6D119AC50.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest335A39A6D119AC50.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest335A39A6D119AC50.description3}"
+				""
+				"[\"\",{\"color\":\"#E29AD2\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest335A39A6D119AC50.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"44F86CB070F12FF2\"}}]"
+			]
+			icon: "terramity:ring_of_rejuvenation"
+			id: "335A39A6D119AC50"
+			optional: true
+			rewards: [{
+				id: "176DBB7E50F8BE10"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest335A39A6D119AC50.subtitle}"
+			tasks: [{
+				id: "10790F00C0B5C7F7"
+				item: "terramity:cardboard_necklace"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest335A39A6D119AC50.title}"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["43ACAF3A3EA50806"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest3E585BB3BF32D941.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest3E585BB3BF32D941.description2}"
+				"{ftbquests.chapter.advanced_progression.quest3E585BB3BF32D941.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest3E585BB3BF32D941.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:red_gnome_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E585BB3BF32D941"
+			optional: true
+			rewards: [
+				{
+					id: "35A52C069F9ADCD4"
+					item: "terramity:fairy_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "73B31C568AD2EE18"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest3E585BB3BF32D941.subtitle}"
+			tasks: [{
+				id: "76BBAFC7BB91E610"
+				item: {
+					Count: 1
+					id: "terramity:red_gnome_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest3E585BB3BF32D941.title}"
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["43ACAF3A3EA50806"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest2E0F67FB9C0282BF.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest2E0F67FB9C0282BF.description2}"
+			]
+			icon: "terramity:iridescent_shard"
+			id: "2E0F67FB9C0282BF"
+			rewards: [{
+				count: 2
+				id: "5071044F723A77A2"
+				item: "terramity:iridescent_shard"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest2E0F67FB9C0282BF.subtitle}"
+			tasks: [{
+				id: "01BA2B99B8049585"
+				item: "terramity:iridescent_shard"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest2E0F67FB9C0282BF.title}"
+			x: -2.75d
+			y: -9.35d
+		}
+		{
+			dependencies: ["43ACAF3A3EA50806"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest6442ABD9DDC76217.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest6442ABD9DDC76217.description2}"
+			]
+			icon: "terramity:sapphire"
+			id: "6442ABD9DDC76217"
+			rewards: [{
+				count: 2
+				id: "5C87560134DFED32"
+				item: "terramity:sapphire"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest6442ABD9DDC76217.subtitle}"
+			tasks: [{
+				id: "5BD101640D05FE6B"
+				item: "terramity:sapphire"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest6442ABD9DDC76217.title}"
+			x: -1.65d
+			y: -9.9d
+		}
+		{
+			dependencies: ["43ACAF3A3EA50806"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest3504B2BF2F45FD01.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest3504B2BF2F45FD01.description2}"
+			]
+			icon: "terramity:ruby"
+			id: "3504B2BF2F45FD01"
+			rewards: [{
+				count: 2
+				id: "4ED8B97007830594"
+				item: "terramity:ruby"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest3504B2BF2F45FD01.subtitle}"
+			tasks: [{
+				id: "05F41E9686691A07"
+				item: "terramity:ruby"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest3504B2BF2F45FD01.title}"
+			x: 0.0d
+			y: -9.35d
+		}
+		{
+			dependencies: ["43ACAF3A3EA50806"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.questA37C6F6EC6CF4EB.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.questA37C6F6EC6CF4EB.description2}"
+			]
+			icon: "terramity:topaz"
+			id: "0A37C6F6EC6CF4EB"
+			rewards: [{
+				count: 2
+				id: "4CA5AD3E6781C9B8"
+				item: "terramity:topaz"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.advanced_progression.questA37C6F6EC6CF4EB.subtitle}"
+			tasks: [{
+				id: "74E07EBD4B70E98C"
+				item: "terramity:topaz"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.questA37C6F6EC6CF4EB.title}"
+			x: 1.6500000000000001d
+			y: -9.9d
+		}
+		{
+			dependencies: ["43ACAF3A3EA50806"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.questF67904477CEA3A9.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.questF67904477CEA3A9.description2}"
+			]
+			icon: "terramity:onyx"
+			id: "0F67904477CEA3A9"
+			rewards: [{
+				count: 2
+				id: "7636E68C35E2BC3D"
+				item: "terramity:onyx"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.advanced_progression.questF67904477CEA3A9.subtitle}"
+			tasks: [{
+				id: "57648D70AFE78E97"
+				item: "terramity:onyx"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.questF67904477CEA3A9.title}"
+			x: 2.75d
+			y: -9.35d
+		}
+		{
+			dependencies: [
+				"2E0F67FB9C0282BF"
+				"6442ABD9DDC76217"
+				"3504B2BF2F45FD01"
+				"0A37C6F6EC6CF4EB"
+				"0F67904477CEA3A9"
+			]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest16127A006FEEAF69.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest16127A006FEEAF69.description2}"
+			]
+			icon: "terramity:prismatic_jewel"
+			id: "16127A006FEEAF69"
+			rewards: [{
+				count: 2
+				id: "09EFE0F011698006"
+				item: "terramity:prismatic_jewel"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest16127A006FEEAF69.subtitle}"
+			tasks: [{
+				id: "3DF64E7EE149B64C"
+				item: "terramity:prismatic_jewel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest16127A006FEEAF69.title}"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["16127A006FEEAF69"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest129CA702D22BA869.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest129CA702D22BA869.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:ruby_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "129CA702D22BA869"
+			optional: true
+			rewards: [
+				{
+					id: "47C7D22B27558922"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A3D23D2242E9B98"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest129CA702D22BA869.subtitle}"
+			tasks: [{
+				id: "3C80B4C9DE684447"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "terramity:ruby_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "terramity:sapphire_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "terramity:topaz_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "terramity:onyx_pickaxe"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.advanced_progression.quest129CA702D22BA869.task.4359683218407441479.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest129CA702D22BA869.title}"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16127A006FEEAF69"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest5805C204F8CC89BA.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5805C204F8CC89BA.description2}"
+				"{ftbquests.chapter.advanced_progression.quest5805C204F8CC89BA.description3}"
+				"{ftbquests.chapter.advanced_progression.quest5805C204F8CC89BA.description4}"
+				"{ftbquests.chapter.advanced_progression.quest5805C204F8CC89BA.description5}"
+				"{ftbquests.chapter.advanced_progression.quest5805C204F8CC89BA.description6}"
+				"{ftbquests.chapter.advanced_progression.quest5805C204F8CC89BA.description7}"
+				"{ftbquests.chapter.advanced_progression.quest5805C204F8CC89BA.description8}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5805C204F8CC89BA.description9}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:ruby_armor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5805C204F8CC89BA"
+			optional: true
+			rewards: [
+				{
+					id: "4AD11CF4B24E8C34"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63E882243AE23A73"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest5805C204F8CC89BA.subtitle}"
+			tasks: [{
+				id: "6C89C3BC648CCF70"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "terramity:ruby_armor_chestplate"
+							}
+							{
+								Count: 1b
+								id: "terramity:sapphire_armor_chestplate"
+							}
+							{
+								Count: 1b
+								id: "terramity:topaz_armor_chestplate"
+							}
+							{
+								Count: 1b
+								id: "terramity:onyx_armor_chestplate"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.advanced_progression.quest5805C204F8CC89BA.task.7820997441813794672.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest5805C204F8CC89BA.title}"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3E585BB3BF32D941"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest64CC93C566C4BC82.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest64CC93C566C4BC82.description2}"
+			]
+			icon: "minecraft:sniffer_egg"
+			id: "64CC93C566C4BC82"
+			optional: true
+			rewards: [{
+				id: "60AEA299516DCACB"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest64CC93C566C4BC82.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3A6D886BF6310C67"
+				item: { Count: 4, id: "terramity:onyx" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest64CC93C566C4BC82.title}"
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["64CC93C566C4BC82"]
+			description: ["{ftbquests.chapter.advanced_progression.quest472B62A519AFB3F2.description1}"]
+			icon: {
+				Count: 1
+				id: "terramity:red_gnome_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "472B62A519AFB3F2"
+			optional: true
+			rewards: [{
+				id: "7342D7CED4D998EE"
+				item: {
+					Count: 1
+					id: "terramity:red_gnome_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest472B62A519AFB3F2.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "105D8AE17AFDE86C"
+				item: { Count: 3, id: "terramity:prismatic_jewel" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest472B62A519AFB3F2.title}"
+			x: 4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["16127A006FEEAF69"]
 			description: [
 				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.description1}"
+				""
 				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.description2}"
 				""
 				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.image0}"
+				""
 				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.description4}"
 				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.description5}"
-				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.image0}"
 				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.description6}"
+				""
 				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.description7}"
+				""
 				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.description8}"
-				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.description9}"
+				""
 				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.image2}"
 				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.image4}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.description9}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.description10}"
+				""
+				"[\"\",{\"color\":\"#B98A5E\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"55CF3612F2588EA7\"}}]"
 			]
-			hide_dependency_lines: false
-			icon_scale: 0.8d
+			icon: {
+				Count: 1
+				id: "terramity:gobs_gilded_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 0.9d
 			id: "5BF85D0A3254B959"
 			rewards: [
 				{
@@ -142,7 +632,7 @@
 				}
 			]
 			shape: "octagon"
-			size: 1.0d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.subtitle}"
 			tasks: [{
 				entity: "terramity:gob"
@@ -159,26 +649,35 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.advanced_progression.quest5BF85D0A3254B959.title}"
-			x: -11.0d
-			y: -7.0d
+			x: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["16127A006FEEAF69"]
 			description: [
 				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.description1}"
+				""
 				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.description2}"
+				""
 				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.image0}"
+				""
 				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.description4}"
-				""
 				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.description5}"
-				""
 				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.description6}"
 				""
 				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.description7}"
 				""
-				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.image0}"
+				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.description8}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.description9}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.description10}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.description11}"
 			]
-			hide_dependency_lines: false
+			icon: "terramity:super_sniffers_pelt"
 			id: "157C39FF1051EA3E"
 			rewards: [
 				{
@@ -194,7 +693,7 @@
 				}
 			]
 			shape: "octagon"
-			size: 1.0d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.subtitle}"
 			tasks: [{
 				entity: "terramity:super_sniffer"
@@ -205,42 +704,295 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.advanced_progression.quest157C39FF1051EA3E.title}"
-			x: -12.0d
-			y: -7.0d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["2932C7DEBC10B9D3"]
+			dependencies: ["5805C204F8CC89BA"]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest2C6FC2D93C93E3DC.description1}"
+				"{ftbquests.chapter.advanced_progression.quest7AB5991916AAD95A.description1}"
 				""
-				"{ftbquests.chapter.advanced_progression.quest2C6FC2D93C93E3DC.description2}"
+				"{ftbquests.chapter.advanced_progression.quest7AB5991916AAD95A.description2}"
 			]
-			hide_dependency_lines: false
-			icon: "terramity:black_matter"
-			id: "2C6FC2D93C93E3DC"
+			icon: {
+				Count: 1
+				id: "terramity:lightning_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7AB5991916AAD95A"
+			optional: true
 			rewards: [
 				{
-					id: "23455E466D4E94CC"
-					item: "terramity:black_matter"
-					random_bonus: 3
+					id: "5C41C4A207CD78A9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31037062DFFD1DD5"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest7AB5991916AAD95A.subtitle}"
+			tasks: [{
+				id: "633E13F75D1732DD"
+				item: {
+					Count: 1
+					id: "terramity:lightning_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest7AB5991916AAD95A.title}"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5BF85D0A3254B959"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest10F6E5FD5819F5CE.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest10F6E5FD5819F5CE.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest10F6E5FD5819F5CE.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest10F6E5FD5819F5CE.description4}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest10F6E5FD5819F5CE.description5}"
+			]
+			icon: "terramity:dimlite_ingot"
+			id: "10F6E5FD5819F5CE"
+			rewards: [
+				{
+					id: "0C7B2750F2B0BDE6"
+					item: "terramity:dimlite_ingot"
+					random_bonus: 1
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0A927510EF512044"
-					table_id: 1534136396462519031L
+					id: "4CA3D2B7D18BD90E"
+					table_id: 1583014704848680533L
 					type: "random"
 				}
 			]
 			shape: "hexagon"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest2C6FC2D93C93E3DC.subtitle}"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest10F6E5FD5819F5CE.subtitle}"
 			tasks: [{
-				id: "24B395F87DFFF9B8"
-				item: "terramity:black_matter"
+				id: "41817A70FF7C81C4"
+				item: "terramity:dimlite_ingot"
 				type: "item"
 			}]
-			x: -11.5d
+			title: "{ftbquests.chapter.advanced_progression.quest10F6E5FD5819F5CE.title}"
+			x: -3.0d
+			y: -3.5999999999999996d
+		}
+		{
+			dependencies: [
+				"5BF85D0A3254B959"
+				"157C39FF1051EA3E"
+			]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest5CB32CEF85677707.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5CB32CEF85677707.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5CB32CEF85677707.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5CB32CEF85677707.description4}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5CB32CEF85677707.description5}"
+			]
+			icon: "terramity:virentium_alloy_ingot"
+			id: "5CB32CEF85677707"
+			rewards: [
+				{
+					id: "112FC54833ED4A37"
+					item: "terramity:virentium_alloy_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "336C97B1B21AB52F"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest5CB32CEF85677707.subtitle}"
+			tasks: [{
+				id: "613E26502A5C9C68"
+				item: "terramity:virentium_alloy_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest5CB32CEF85677707.title}"
+			x: 0.0d
+			y: -3.5999999999999996d
+		}
+		{
+			dependencies: ["157C39FF1051EA3E"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest51B5E776DCBBA146.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest51B5E776DCBBA146.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest51B5E776DCBBA146.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest51B5E776DCBBA146.description4}"
+			]
+			icon: "terramity:cosmilite_ingot"
+			id: "51B5E776DCBBA146"
+			rewards: [
+				{
+					id: "0025FA7A56067B1B"
+					item: "terramity:cosmilite_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63C603FDBA2919E5"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest51B5E776DCBBA146.subtitle}"
+			tasks: [{
+				id: "02A4B577F0D9CDBD"
+				item: "terramity:cosmilite_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest51B5E776DCBBA146.title}"
+			x: 3.0d
+			y: -3.5999999999999996d
+		}
+		{
+			dependencies: [
+				"157C39FF1051EA3E"
+				"5BF85D0A3254B959"
+			]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest6FAFE2F8AFDAB075.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest6FAFE2F8AFDAB075.description2}"
+				""
+				"[\"\",{\"color\":\"#C89A5A\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest6FAFE2F8AFDAB075.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7B2049B841F6A946\"}}]"
+			]
+			icon: "terramity:daemonium"
+			id: "6FAFE2F8AFDAB075"
+			rewards: [
+				{
+					id: "1A4FA3D7E3DE645C"
+					item: "terramity:daemonium"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A438D01D9B6E948"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest6FAFE2F8AFDAB075.subtitle}"
+			tasks: [{
+				id: "433B0FA81A1F66B0"
+				item: "terramity:daemonium"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest6FAFE2F8AFDAB075.title}"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"10F6E5FD5819F5CE"
+				"5CB32CEF85677707"
+				"51B5E776DCBBA146"
+				"6FAFE2F8AFDAB075"
+			]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest516A877FEC4701DD.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest516A877FEC4701DD.description2}"
+			]
+			icon: "terramity:iridium"
+			id: "516A877FEC4701DD"
+			rewards: [
+				{
+					id: "7FCC2D472500CA05"
+					item: "terramity:iridium"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "725E9B13C5A43BD9"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.4d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest516A877FEC4701DD.subtitle}"
+			tasks: [{
+				id: "3A4BFB330EE194B8"
+				item: "terramity:iridium"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest516A877FEC4701DD.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FAFE2F8AFDAB075"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest3D1373AA89D75E6E.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest3D1373AA89D75E6E.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest3D1373AA89D75E6E.description3}"
+			]
+			icon: "terramity:chthonic_crystal"
+			id: "3D1373AA89D75E6E"
+			rewards: [
+				{
+					id: "624958C76E756FBC"
+					item: "terramity:chthonic_crystal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "193B70D2609560F9"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest3D1373AA89D75E6E.subtitle}"
+			tasks: [{
+				id: "6289CAA160839D5F"
+				item: "terramity:chthonic_crystal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest3D1373AA89D75E6E.title}"
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -250,17 +1002,28 @@
 				""
 				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.description2}"
 				""
+				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.description3}"
 				""
 				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.image0}"
 				""
-				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.description3}"
+				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.description4}"
+				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.description5}"
+				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.description6}"
 				""
+				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.description7}"
 				""
-				"[\"\",{\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"27E7F8F02A4ED69E\"}}]"
+				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.description8}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.description9}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.description10}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.description11}"
 				""
 				"{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.image2}"
+				""
+				"[\"\",{\"color\":\"#B98A5E\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"55CF3612F2588EA7\"}}]"
 			]
-			hide_dependency_lines: false
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -289,8 +1052,8 @@
 					type: "random"
 				}
 			]
-			shape: "square"
-			size: 1.0d
+			shape: "octagon"
+			size: 1.6d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.subtitle}"
 			tasks: [{
 				entity: "terramity:trial_guardian"
@@ -306,61 +1069,324 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -11.5d
-			y: -3.0d
+			title: "{ftbquests.chapter.advanced_progression.quest2932C7DEBC10B9D3.title}"
+			x: 0.0d
+			y: 2.4d
 		}
 		{
-			dependencies: [
-				"7B8D5CEBA193AC34"
-				"4095D45E6F47975A"
-				"004807CDCE0EEB28"
-			]
+			dependencies: ["2932C7DEBC10B9D3"]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description1}"
+				"{ftbquests.chapter.advanced_progression.quest12243AEFECECD1BF.description1}"
 				""
-				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description2}"
-				""
-				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description3}"
-				""
-				""
-				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.image0}"
+				"{ftbquests.chapter.advanced_progression.quest12243AEFECECD1BF.description2}"
 			]
-			hide_dependency_lines: false
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
+				id: "terramity:perish_staff"
 				tag: {
-					Icon: "terramity:item/ultra_sniffers_pelt"
+					Damage: 0
 				}
 			}
-			id: "05D0AF91008E3155"
+			id: "12243AEFECECD1BF"
 			rewards: [
 				{
+					id: "41454E640EBC487E"
+					type: "xp"
+					xp: 25
+				}
+				{
 					exclude_from_claim_all: true
-					id: "2984844649081FA8"
+					id: "7E176E73F3FC3BE0"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest12243AEFECECD1BF.subtitle}"
+			tasks: [{
+				id: "30F2AABCC755A49E"
+				item: {
+					Count: 1
+					id: "terramity:perish_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest12243AEFECECD1BF.title}"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2932C7DEBC10B9D3"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest2C6FC2D93C93E3DC.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest2C6FC2D93C93E3DC.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest2C6FC2D93C93E3DC.description3}"
+			]
+			icon: "terramity:black_matter"
+			id: "2C6FC2D93C93E3DC"
+			rewards: [
+				{
+					id: "23455E466D4E94CC"
+					item: "terramity:black_matter"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A927510EF512044"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest2C6FC2D93C93E3DC.subtitle}"
+			tasks: [{
+				id: "24B395F87DFFF9B8"
+				item: "terramity:black_matter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest2C6FC2D93C93E3DC.title}"
+			x: 0.0d
+			y: 5.15d
+		}
+		{
+			dependencies: ["2932C7DEBC10B9D3"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest690BFAF49ED2212F.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest690BFAF49ED2212F.description2}"
+			]
+			icon: "terramity:decayed_bedrock_dust"
+			id: "690BFAF49ED2212F"
+			rewards: [
+				{
+					id: "4CBFF428F96688A1"
+					item: "terramity:decayed_bedrock_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16F3B3FAF12EA256"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest690BFAF49ED2212F.subtitle}"
+			tasks: [{
+				id: "28089950BB043B5F"
+				item: "terramity:decayed_bedrock_dust"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest690BFAF49ED2212F.title}"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12243AEFECECD1BF"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest34C2AA103214C77F.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest34C2AA103214C77F.description2}"
+			]
+			icon: "terramity:spectral_soul"
+			id: "34C2AA103214C77F"
+			optional: true
+			rewards: [
+				{
+					id: "7D4479C96B6EFD13"
+					item: "terramity:spectral_soul"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "584F232D6DD58E2F"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest34C2AA103214C77F.subtitle}"
+			tasks: [{
+				id: "5E7EBFD54ED9E2B4"
+				item: "terramity:spectral_soul"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest34C2AA103214C77F.title}"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C6FC2D93C93E3DC"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest5CB177CF227CCD27.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5CB177CF227CCD27.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5CB177CF227CCD27.description3}"
+			]
+			icon: "terramity:empty_essence"
+			id: "5CB177CF227CCD27"
+			rewards: [
+				{
+					id: "7E00DC193979B21A"
+					item: "terramity:cracked_microcosm"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0872AFE698073D2F"
 					table_id: 4685405885777276503L
 					type: "random"
 				}
+			]
+			shape: "diamond"
+			size: 1.1d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest5CB177CF227CCD27.subtitle}"
+			tasks: [
+				{
+					id: "3903D638F7E06982"
+					item: "terramity:cracked_microcosm"
+					type: "item"
+				}
+				{
+					id: "0B50E7D823B8369C"
+					item: "terramity:empty_essence"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.advanced_progression.quest5CB177CF227CCD27.title}"
+			x: 0.0d
+			y: 6.6000000000000005d
+		}
+		{
+			dependencies: ["2C6FC2D93C93E3DC"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest3284A47CBF5B8EE9.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest3284A47CBF5B8EE9.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest3284A47CBF5B8EE9.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest3284A47CBF5B8EE9.description4}"
+			]
+			icon: "terramity:hellspec_alloy"
+			id: "3284A47CBF5B8EE9"
+			rewards: [
+				{
+					id: "24C5E388C0EFFDA6"
+					item: "terramity:hellspec_alloy"
+					random_bonus: 1
+					type: "item"
+				}
 				{
 					exclude_from_claim_all: true
-					id: "14EF042F25D4838A"
-					table_id: 1690105744798928825L
+					id: "145CA1DDEC07E889"
+					table_id: 1534136396462519031L
 					type: "random"
 				}
 			]
-			shape: "octagon"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.subtitle}"
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest3284A47CBF5B8EE9.subtitle}"
 			tasks: [{
-				entity: "terramity:ultra_sniffer"
-				icon: "terramity:kamehameha"
-				id: "73EC49CF0D0ADE5A"
-				title: "{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.task.8353132562491301466.title}"
-				type: "kill"
-				value: 1L
+				id: "3706B61460A1D8C5"
+				item: "terramity:hellspec_alloy"
+				type: "item"
 			}]
-			x: 1.0d
-			y: 4.5d
+			title: "{ftbquests.chapter.advanced_progression.quest3284A47CBF5B8EE9.title}"
+			x: -2.4d
+			y: 7.199999999999999d
+		}
+		{
+			dependencies: ["2C6FC2D93C93E3DC"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest1E35A72FD965B419.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest1E35A72FD965B419.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest1E35A72FD965B419.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest1E35A72FD965B419.description4}"
+			]
+			icon: "terramity:void_alloy"
+			id: "1E35A72FD965B419"
+			rewards: [
+				{
+					id: "1ADA80F74894A42C"
+					item: "terramity:void_alloy"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F2EE2D0DBE9C19D"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest1E35A72FD965B419.subtitle}"
+			tasks: [{
+				id: "091D40B466EB0AE9"
+				item: "terramity:void_alloy"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest1E35A72FD965B419.title}"
+			x: 0.0d
+			y: 7.8d
+		}
+		{
+			dependencies: ["2C6FC2D93C93E3DC"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest1B0DEADF966579CF.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest1B0DEADF966579CF.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest1B0DEADF966579CF.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest1B0DEADF966579CF.description4}"
+			]
+			icon: "terramity:conductite"
+			id: "1B0DEADF966579CF"
+			rewards: [
+				{
+					id: "4C49D9A1349E2B00"
+					item: "terramity:conductite"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EBCE325138D9DC8"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest1B0DEADF966579CF.subtitle}"
+			tasks: [{
+				id: "0DC73E3F383415C1"
+				item: "terramity:conductite"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest1B0DEADF966579CF.title}"
+			x: 2.4d
+			y: 7.199999999999999d
 		}
 		{
 			dependencies: [
@@ -372,8 +1398,9 @@
 				"{ftbquests.chapter.advanced_progression.quest5D9252B669B888FE.description1}"
 				""
 				"{ftbquests.chapter.advanced_progression.quest5D9252B669B888FE.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5D9252B669B888FE.description3}"
 			]
-			hide_dependency_lines: false
 			icon: "terramity:profanum"
 			id: "5D9252B669B888FE"
 			rewards: [
@@ -390,36 +1417,169 @@
 					type: "random"
 				}
 			]
-			shape: "hexagon"
-			size: 1.2d
+			shape: "pentagon"
+			size: 1.4d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest5D9252B669B888FE.subtitle}"
 			tasks: [{
 				id: "0A5230F6121DBEF7"
 				item: "terramity:profanum"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 1.5d
+			title: "{ftbquests.chapter.advanced_progression.quest5D9252B669B888FE.title}"
+			x: 0.0d
+			y: 9.15d
+		}
+		{
+			dependencies: ["5D9252B669B888FE"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest4824216451CB93E3.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest4824216451CB93E3.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest4824216451CB93E3.description3}"
+				"{ftbquests.chapter.advanced_progression.quest4824216451CB93E3.description4}"
+				"{ftbquests.chapter.advanced_progression.quest4824216451CB93E3.description5}"
+				"{ftbquests.chapter.advanced_progression.quest4824216451CB93E3.description6}"
+				"{ftbquests.chapter.advanced_progression.quest4824216451CB93E3.description7}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest4824216451CB93E3.description8}"
+			]
+			icon: "terramity:moondrill_cannon"
+			id: "4824216451CB93E3"
+			rewards: [
+				{
+					id: "292B985497C34338"
+					item: "terramity:circuit_board"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B15A10BA76D15BA"
+					table_id: 1690105744798928825L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest4824216451CB93E3.subtitle}"
+			tasks: [{
+				id: "16176F5879D5F410"
+				item: "terramity:moondrill_cannon"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest4824216451CB93E3.title}"
+			x: -1.7999999999999998d
+			y: 9.6d
+		}
+		{
+			dependencies: ["5D9252B669B888FE"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest6406B2D8A9A618D.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest6406B2D8A9A618D.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:unholy_lance"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "06406B2D8A9A618D"
+			rewards: [
+				{
+					id: "389BFE3FF16FCBCC"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B5B2E84BA5F9591"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest6406B2D8A9A618D.subtitle}"
+			tasks: [{
+				id: "6C85DE5E7FCB2D1C"
+				item: {
+					Count: 1
+					id: "terramity:unholy_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest6406B2D8A9A618D.title}"
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5D9252B669B888FE"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest7699A48EA0F36CD5.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest7699A48EA0F36CD5.description2}"
+			]
+			icon: "terramity:black_hole_bomb"
+			id: "7699A48EA0F36CD5"
+			rewards: [
+				{
+					id: "4754296CEF33025F"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2373136E8496055E"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest7699A48EA0F36CD5.subtitle}"
+			tasks: [{
+				id: "068EBA36E0C4E384"
+				item: "terramity:black_hole_bomb"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest7699A48EA0F36CD5.title}"
+			x: 1.7999999999999998d
+			y: 9.6d
 		}
 		{
 			dependencies: ["06406B2D8A9A618D"]
 			description: [
 				"{ftbquests.chapter.advanced_progression.quest19CBC92610B35600.description1}"
 				""
+				"{ftbquests.chapter.advanced_progression.quest19CBC92610B35600.description2}"
 				""
 				"{ftbquests.chapter.advanced_progression.quest19CBC92610B35600.image0}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest19CBC92610B35600.description3}"
+				"{ftbquests.chapter.advanced_progression.quest19CBC92610B35600.description4}"
+				"{ftbquests.chapter.advanced_progression.quest19CBC92610B35600.description5}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest19CBC92610B35600.description6}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest19CBC92610B35600.description7}"
 			]
-			hide_dependency_lines: false
+			icon: "terramity:archangel_halo"
 			icon_scale: 1.2d
 			id: "19CBC92610B35600"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2506107646BD496B"
-				table_id: 1690105744798928825L
+				id: "6714328793CA25BE"
+				table_id: 1534136396462519031L
 				type: "random"
 			}]
-			shape: "square"
-			size: 1.2d
+			shape: "octagon"
+			size: 1.4d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest19CBC92610B35600.subtitle}"
 			tasks: [{
 				entity: "terramity:virtue"
@@ -429,11 +1589,76 @@
 				value: 1L
 			}]
 			title: "{ftbquests.chapter.advanced_progression.quest19CBC92610B35600.title}"
-			x: -11.5d
-			y: 4.5d
+			x: 2.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["19CBC92610B35600"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest73317396BA69E10B.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest73317396BA69E10B.description2}"
+			]
+			icon: "terramity:angel_feather"
+			id: "73317396BA69E10B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EAAE299D9AABED8"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest73317396BA69E10B.subtitle}"
+			tasks: [{
+				id: "397BEC9661600B86"
+				item: "terramity:angel_feather"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest73317396BA69E10B.title}"
+			x: 2.5d
+			y: 16.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest65C1AD0572949E56.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest65C1AD0572949E56.description2}"
+				""
+				"[\"\",{\"color\":\"#B98A5E\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest65C1AD0572949E56.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"55CF3612F2588EA7\"}}]"
+			]
+			icon: "terramity:occult_fabric"
+			id: "65C1AD0572949E56"
+			rewards: [
+				{
+					id: "656EC9288CFE9889"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58E0E5812FF36A5A"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest65C1AD0572949E56.subtitle}"
+			tasks: [{
+				id: "5ED3669C35D5E49D"
+				item: "terramity:occult_fabric"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest65C1AD0572949E56.title}"
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"65C1AD0572949E56"
+				"19CBC92610B35600"
+			]
 			description: [
 				"{ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.description1}"
 				""
@@ -441,11 +1666,29 @@
 				""
 				"{ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.description3}"
 				""
-				"[\"\",{\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"59DE95EEFF65D48F\"}}]"
+				"{ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.description4}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.description5}"
+				"{ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.description6}"
+				"{ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.description7}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.description8}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.description9}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.description10}"
 				""
 				"{ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.image0}"
+				""
+				"[\"\",{\"color\":\"#B98A5E\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"55CF3612F2588EA7\"}}]"
 			]
-			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:item/electromancer_helmet"
+				}
+			}
 			id: "041A90EFD4A3D846"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -454,7 +1697,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
-			size: 1.2d
+			size: 1.4d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.subtitle}"
 			tasks: [
 				{
@@ -485,12 +1728,67 @@
 				}
 			]
 			title: "{ftbquests.chapter.advanced_progression.quest41A90EFD4A3D846.title}"
-			x: -8.7d
-			y: 4.5d
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["041A90EFD4A3D846"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.description4}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.description5}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.image0}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "terramity:item/gundalfs_pointed_hat"
+				}
+			}
+			id: "1005B36B7451F531"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "588FFCE84F0EB6EC"
+				table_id: 1690105744798928825L
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.subtitle}"
+			tasks: [{
+				entity: "terramity:gundalf"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "goety:item/witch_hat"
+					}
+				}
+				id: "55052F54E5FBCD2C"
+				title: "{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.task.6126354909789670700.title}"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.title}"
+			x: -3.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["1005B36B7451F531"]
-			hide_dependency_lines: false
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest14DDBB7CA3A71F56.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest14DDBB7CA3A71F56.description2}"
+			]
+			icon: "terramity:antiprism"
 			id: "14DDBB7CA3A71F56"
 			rewards: [
 				{
@@ -506,7 +1804,7 @@
 					type: "random"
 				}
 			]
-			shape: "diamond"
+			shape: "pentagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.advanced_progression.quest14DDBB7CA3A71F56.subtitle}"
 			tasks: [{
@@ -514,462 +1812,57 @@
 				item: "terramity:antiprism"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.5d
+			title: "{ftbquests.chapter.advanced_progression.quest14DDBB7CA3A71F56.title}"
+			x: -3.0d
+			y: 16.0d
 		}
 		{
-			dependencies: ["43ACAF3A3EA50806"]
+			dependencies: ["14DDBB7CA3A71F56"]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest16127A006FEEAF69.description1}"
+				"{ftbquests.chapter.advanced_progression.quest4E24EF436028EC67.description1}"
 				""
-				"{ftbquests.chapter.advanced_progression.quest16127A006FEEAF69.description2}"
+				"{ftbquests.chapter.advanced_progression.quest4E24EF436028EC67.description2}"
 			]
-			id: "16127A006FEEAF69"
-			rewards: [{
-				count: 2
-				id: "09EFE0F011698006"
-				item: "terramity:prismatic_jewel"
-				random_bonus: 1
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest16127A006FEEAF69.subtitle}"
-			tasks: [{
-				id: "3DF64E7EE149B64C"
-				item: "terramity:prismatic_jewel"
-				type: "item"
-			}]
-			x: -13.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["5D9252B669B888FE"]
-			hide_dependency_lines: false
-			id: "06406B2D8A9A618D"
+			icon: "terramity:opaline_moonstone"
+			id: "4E24EF436028EC67"
 			rewards: [
 				{
-					id: "389BFE3FF16FCBCC"
-					type: "xp"
-					xp: 15
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3B5B2E84BA5F9591"
-					table_id: 1690105744798928825L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest6406B2D8A9A618D.subtitle}"
-			tasks: [{
-				id: "6C85DE5E7FCB2D1C"
-				item: {
-					Count: 1
-					id: "terramity:unholy_lance"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -11.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5D9252B669B888FE"]
-			description: ["{ftbquests.chapter.advanced_progression.quest4824216451CB93E3.description1}"]
-			hide_dependency_lines: false
-			id: "4824216451CB93E3"
-			rewards: [
-				{
-					id: "292B985497C34338"
-					item: "terramity:circuit_board"
-					random_bonus: 3
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5B15A10BA76D15BA"
-					table_id: 1690105744798928825L
-					type: "loot"
-				}
-			]
-			shape: "hexagon"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest4824216451CB93E3.subtitle}"
-			tasks: [{
-				id: "16176F5879D5F410"
-				item: "terramity:moondrill_cannon"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5D9252B669B888FE"]
-			hide_dependency_lines: false
-			id: "7699A48EA0F36CD5"
-			rewards: [
-				{
-					id: "4754296CEF33025F"
-					item: "terramity:void_alloy"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2373136E8496055E"
-					table_id: 1690105744798928825L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest7699A48EA0F36CD5.subtitle}"
-			tasks: [{
-				id: "068EBA36E0C4E384"
-				item: "terramity:black_hole_bomb"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2C6FC2D93C93E3DC"]
-			hide_dependency_lines: false
-			id: "34C2AA103214C77F"
-			optional: true
-			rewards: [
-				{
-					id: "7D4479C96B6EFD13"
-					item: "terramity:spectral_soul"
+					id: "44D44AB81422A6CA"
+					item: "terramity:opaline_moonstone"
 					random_bonus: 1
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "584F232D6DD58E2F"
-					table_id: 1534136396462519031L
+					id: "051D7142121E2327"
+					table_id: 4685405885777276503L
 					type: "random"
 				}
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest34C2AA103214C77F.subtitle}"
+			subtitle: "{ftbquests.chapter.advanced_progression.quest4E24EF436028EC67.subtitle}"
 			tasks: [{
-				id: "5E7EBFD54ED9E2B4"
-				item: "terramity:spectral_soul"
+				id: "4021F9413CBE89E9"
+				item: "terramity:opaline_moonstone"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["43ACAF3A3EA50806"]
-			description: ["{ftbquests.chapter.advanced_progression.questA37C6F6EC6CF4EB.description1}"]
-			id: "0A37C6F6EC6CF4EB"
-			rewards: [{
-				count: 2
-				id: "4CA5AD3E6781C9B8"
-				item: "terramity:topaz"
-				random_bonus: 2
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.questA37C6F6EC6CF4EB.subtitle}"
-			tasks: [{
-				id: "74E07EBD4B70E98C"
-				item: "terramity:topaz"
-				type: "item"
-			}]
-			x: -13.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["43ACAF3A3EA50806"]
-			description: ["{ftbquests.chapter.advanced_progression.quest3504B2BF2F45FD01.description1}"]
-			id: "3504B2BF2F45FD01"
-			rewards: [{
-				count: 2
-				id: "4ED8B97007830594"
-				item: "terramity:ruby"
-				random_bonus: 2
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest3504B2BF2F45FD01.subtitle}"
-			tasks: [{
-				id: "05F41E9686691A07"
-				item: "terramity:ruby"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["43ACAF3A3EA50806"]
-			description: ["{ftbquests.chapter.advanced_progression.quest6442ABD9DDC76217.description1}"]
-			id: "6442ABD9DDC76217"
-			rewards: [{
-				count: 2
-				id: "5C87560134DFED32"
-				item: "terramity:sapphire"
-				random_bonus: 2
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest6442ABD9DDC76217.subtitle}"
-			tasks: [{
-				id: "5BD101640D05FE6B"
-				item: "terramity:sapphire"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["43ACAF3A3EA50806"]
-			description: ["{ftbquests.chapter.advanced_progression.questF67904477CEA3A9.description1}"]
-			id: "0F67904477CEA3A9"
-			rewards: [{
-				count: 2
-				id: "7636E68C35E2BC3D"
-				item: "terramity:onyx"
-				random_bonus: 2
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.questF67904477CEA3A9.subtitle}"
-			tasks: [{
-				id: "57648D70AFE78E97"
-				item: "terramity:onyx"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["43ACAF3A3EA50806"]
-			description: ["{ftbquests.chapter.advanced_progression.quest2E0F67FB9C0282BF.description1}"]
-			id: "2E0F67FB9C0282BF"
-			rewards: [{
-				count: 2
-				id: "5071044F723A77A2"
-				item: "terramity:iridescent_shard"
-				random_bonus: 2
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest2E0F67FB9C0282BF.subtitle}"
-			tasks: [{
-				id: "01BA2B99B8049585"
-				item: "terramity:iridescent_shard"
-				type: "item"
-			}]
-			x: -13.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["157C39FF1051EA3E"]
-			description: ["{ftbquests.chapter.advanced_progression.quest10F6E5FD5819F5CE.description1}"]
-			hide_dependency_lines: false
-			id: "10F6E5FD5819F5CE"
-			rewards: [
-				{
-					id: "0C7B2750F2B0BDE6"
-					item: "terramity:dimlite_ingot"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4CA3D2B7D18BD90E"
-					table_id: 1583014704848680533L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest10F6E5FD5819F5CE.subtitle}"
-			tasks: [{
-				id: "41817A70FF7C81C4"
-				item: "terramity:dimlite_ingot"
-				type: "item"
-			}]
-			x: -13.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["5BF85D0A3254B959"]
-			description: ["{ftbquests.chapter.advanced_progression.quest5CB32CEF85677707.description1}"]
-			hide_dependency_lines: false
-			id: "5CB32CEF85677707"
-			rewards: [
-				{
-					id: "112FC54833ED4A37"
-					item: "terramity:virentium_alloy_ingot"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "336C97B1B21AB52F"
-					table_id: 1583014704848680533L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest5CB32CEF85677707.subtitle}"
-			tasks: [{
-				id: "613E26502A5C9C68"
-				item: "terramity:virentium_alloy_ingot"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["5BF85D0A3254B959"]
-			description: [
-				"{ftbquests.chapter.advanced_progression.quest51B5E776DCBBA146.description1}"
-				"{ftbquests.chapter.advanced_progression.quest51B5E776DCBBA146.description2}"
-			]
-			hide_dependency_lines: false
-			id: "51B5E776DCBBA146"
-			rewards: [
-				{
-					id: "0025FA7A56067B1B"
-					item: "terramity:cosmilite_ingot"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "63C603FDBA2919E5"
-					table_id: 1583014704848680533L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest51B5E776DCBBA146.subtitle}"
-			tasks: [{
-				id: "02A4B577F0D9CDBD"
-				item: "terramity:cosmilite_ingot"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -5.5d
-		}
-		{
-			dependencies: [
-				"5CB32CEF85677707"
-				"10F6E5FD5819F5CE"
-				"51B5E776DCBBA146"
-				"6FAFE2F8AFDAB075"
-			]
-			description: [
-				"{ftbquests.chapter.advanced_progression.quest516A877FEC4701DD.description1}"
-				"{ftbquests.chapter.advanced_progression.quest516A877FEC4701DD.description2}"
-			]
-			hide_dependency_lines: false
-			id: "516A877FEC4701DD"
-			rewards: [
-				{
-					id: "7FCC2D472500CA05"
-					item: "terramity:iridium"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "725E9B13C5A43BD9"
-					table_id: 1534136396462519031L
-					type: "random"
-				}
-			]
-			shape: "octagon"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest516A877FEC4701DD.subtitle}"
-			tasks: [{
-				id: "3A4BFB330EE194B8"
-				item: "terramity:iridium"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["157C39FF1051EA3E"]
-			description: [
-				"{ftbquests.chapter.advanced_progression.quest6FAFE2F8AFDAB075.description1}"
-				"{ftbquests.chapter.advanced_progression.quest6FAFE2F8AFDAB075.description2}"
-			]
-			id: "6FAFE2F8AFDAB075"
-			rewards: [
-				{
-					id: "1A4FA3D7E3DE645C"
-					item: "terramity:daemonium"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2A438D01D9B6E948"
-					table_id: 1583014704848680533L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest6FAFE2F8AFDAB075.subtitle}"
-			tasks: [{
-				id: "433B0FA81A1F66B0"
-				item: "terramity:daemonium"
-				type: "item"
-			}]
-			x: -12.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["2C6FC2D93C93E3DC"]
-			hide_dependency_lines: false
-			id: "1B0DEADF966579CF"
-			rewards: [
-				{
-					id: "4C49D9A1349E2B00"
-					item: "terramity:conductite"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4EBCE325138D9DC8"
-					table_id: 1534136396462519031L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest1B0DEADF966579CF.subtitle}"
-			tasks: [{
-				id: "0DC73E3F383415C1"
-				item: "terramity:conductite"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 0.0d
+			title: "{ftbquests.chapter.advanced_progression.quest4E24EF436028EC67.title}"
+			x: -4.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["4E24EF436028EC67"]
-			hide_dependency_lines: false
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest4095D45E6F47975A.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest4095D45E6F47975A.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest4095D45E6F47975A.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest4095D45E6F47975A.description4}"
+			]
+			icon: "terramity:nyxium"
 			id: "4095D45E6F47975A"
 			rewards: [
 				{
@@ -993,41 +1886,55 @@
 				item: "terramity:nyxium"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			title: "{ftbquests.chapter.advanced_progression.quest4095D45E6F47975A.title}"
+			x: -6.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["14DDBB7CA3A71F56"]
-			hide_dependency_lines: false
-			id: "004807CDCE0EEB28"
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest4A84D4F479064115.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest4A84D4F479064115.description2}"
+			]
+			icon: "terramity:cracked_microcosm"
+			id: "4A84D4F479064115"
 			rewards: [
 				{
-					id: "2B7BA07FA63AB22F"
-					item: "terramity:reverium"
+					id: "2BEEB6E4EB25373C"
+					item: "terramity:cracked_microcosm"
 					random_bonus: 1
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0E008A982B0A87A4"
+					id: "1775696BD815726C"
 					table_id: 4685405885777276503L
 					type: "random"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest4807CDCE0EEB28.subtitle}"
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest4A84D4F479064115.subtitle}"
 			tasks: [{
-				id: "09705C8441A9031D"
-				item: "terramity:reverium"
+				id: "78A5AF671565A9CE"
+				item: "terramity:cracked_microcosm"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			title: "{ftbquests.chapter.advanced_progression.quest4A84D4F479064115.title}"
+			x: -3.0d
+			y: 17.5d
 		}
 		{
-			dependencies: ["5CB177CF227CCD27"]
-			hide_dependency_lines: false
+			dependencies: ["4A84D4F479064115"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest7B8D5CEBA193AC34.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest7B8D5CEBA193AC34.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest7B8D5CEBA193AC34.description3}"
+			]
+			icon: "terramity:exodium_superalloy"
 			id: "7B8D5CEBA193AC34"
 			rewards: [
 				{
@@ -1051,261 +1958,812 @@
 				item: "terramity:exodium_superalloy"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.0d
+			title: "{ftbquests.chapter.advanced_progression.quest7B8D5CEBA193AC34.title}"
+			x: -3.0d
+			y: 19.0d
 		}
 		{
-			dependencies: ["14DDBB7CA3A71F56"]
-			hide_dependency_lines: false
-			id: "5CB177CF227CCD27"
-			rewards: [
-				{
-					id: "7E00DC193979B21A"
-					item: "terramity:cracked_microcosm"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0872AFE698073D2F"
-					table_id: 4685405885777276503L
-					type: "random"
-				}
+			dependencies: [
+				"14DDBB7CA3A71F56"
+				"73317396BA69E10B"
 			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest5CB177CF227CCD27.subtitle}"
-			tasks: [
-				{
-					id: "3903D638F7E06982"
-					item: "terramity:cracked_microcosm"
-					type: "item"
-				}
-				{
-					id: "0B50E7D823B8369C"
-					item: "terramity:empty_essence"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.advanced_progression.quest5CB177CF227CCD27.title}"
-			x: -3.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["14DDBB7CA3A71F56"]
-			hide_dependency_lines: false
-			id: "4E24EF436028EC67"
-			rewards: [
-				{
-					id: "44D44AB81422A6CA"
-					item: "terramity:opaline_moonstone"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "051D7142121E2327"
-					table_id: 4685405885777276503L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest4E24EF436028EC67.subtitle}"
-			tasks: [{
-				id: "4021F9413CBE89E9"
-				item: "terramity:opaline_moonstone"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["19CBC92610B35600"]
-			hide_dependency_lines: false
-			id: "73317396BA69E10B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6EAAE299D9AABED8"
-				table_id: 1690105744798928825L
-				type: "random"
-			}]
-			shape: "diamond"
-			size: 1.2d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest73317396BA69E10B.subtitle}"
-			tasks: [{
-				id: "397BEC9661600B86"
-				item: "terramity:angel_feather"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["2C6FC2D93C93E3DC"]
-			id: "3284A47CBF5B8EE9"
-			rewards: [
-				{
-					id: "24C5E388C0EFFDA6"
-					item: "terramity:hellspec_alloy"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "145CA1DDEC07E889"
-					table_id: 1534136396462519031L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest3284A47CBF5B8EE9.subtitle}"
-			tasks: [{
-				id: "3706B61460A1D8C5"
-				item: "terramity:hellspec_alloy"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2C6FC2D93C93E3DC"]
-			id: "1E35A72FD965B419"
-			rewards: [
-				{
-					id: "1ADA80F74894A42C"
-					item: "terramity:void_alloy"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0F2EE2D0DBE9C19D"
-					table_id: 1534136396462519031L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.advanced_progression.quest1E35A72FD965B419.subtitle}"
-			tasks: [{
-				id: "091D40B466EB0AE9"
-				item: "terramity:void_alloy"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["041A90EFD4A3D846"]
 			description: [
-				"{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.description1}"
+				"{ftbquests.chapter.advanced_progression.quest4807CDCE0EEB28.description1}"
 				""
-				"{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.description2}"
+				"{ftbquests.chapter.advanced_progression.quest4807CDCE0EEB28.description2}"
 				""
-				"{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.description3}"
+				"{ftbquests.chapter.advanced_progression.quest4807CDCE0EEB28.description3}"
 				""
-				"{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.description4}"
+				"{ftbquests.chapter.advanced_progression.quest4807CDCE0EEB28.description4}"
+			]
+			icon: "terramity:reverium"
+			id: "004807CDCE0EEB28"
+			rewards: [
+				{
+					id: "2B7BA07FA63AB22F"
+					item: "terramity:reverium"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E008A982B0A87A4"
+					table_id: 4685405885777276503L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest4807CDCE0EEB28.subtitle}"
+			tasks: [{
+				id: "09705C8441A9031D"
+				item: "terramity:reverium"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest4807CDCE0EEB28.title}"
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"4095D45E6F47975A"
+				"7B8D5CEBA193AC34"
+				"004807CDCE0EEB28"
+			]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description1}"
 				""
-				"{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.image0}"
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.image0}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description4}"
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description5}"
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description6}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description7}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description8}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description9}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description10}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description11}"
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description12}"
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description13}"
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description14}"
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description15}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.description16}"
 			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "terramity:item/gundalfs_pointed_hat"
+					Icon: "terramity:item/ultra_sniffers_pelt"
 				}
 			}
-			id: "1005B36B7451F531"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "588FFCE84F0EB6EC"
-				table_id: 1690105744798928825L
-				type: "random"
-			}]
-			shape: "pentagon"
-			size: 1.2d
-			tasks: [{
-				entity: "terramity:gundalf"
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "goety:item/witch_hat"
-					}
+			id: "05D0AF91008E3155"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2984844649081FA8"
+					table_id: 4685405885777276503L
+					type: "random"
 				}
-				id: "55052F54E5FBCD2C"
-				title: "{ftbquests.chapter.advanced_progression.quest1005B36B7451F531.task.6126354909789670700.title}"
+				{
+					exclude_from_claim_all: true
+					id: "14EF042F25D4838A"
+					table_id: 1690105744798928825L
+					type: "random"
+				}
+			]
+			shape: "star"
+			size: 1.7d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.subtitle}"
+			tasks: [{
+				entity: "terramity:ultra_sniffer"
+				icon: "terramity:kamehameha"
+				id: "73EC49CF0D0ADE5A"
+				title: "{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.task.8353132562491301466.title}"
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.0d
-			y: 4.5d
+			title: "{ftbquests.chapter.advanced_progression.quest5D0AF91008E3155.title}"
+			x: -3.0d
+			y: 21.0d
 		}
 		{
-			can_repeat: true
-			dependencies: ["43ACAF3A3EA50806"]
+			dependencies: ["05D0AF91008E3155"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest4A273E7AB9354237.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest4A273E7AB9354237.description2}"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "minecraft:item/sniffer_egg"
+					Icon: "terramity:item/ultra_sniffers_pelt"
 				}
 			}
-			id: "64CC93C566C4BC82"
-			optional: true
+			id: "4A273E7AB9354237"
 			rewards: [{
-				id: "60AEA299516DCACB"
-				item: "minecraft:sniffer_egg"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6706F35D3215BCF5"
+				table_id: 4685405885777276503L
+				type: "random"
 			}]
-			size: 0.6d
+			shape: "diamond"
+			size: 1.6d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest4A273E7AB9354237.subtitle}"
 			tasks: [{
-				consume_items: true
-				count: 4L
-				id: "3A6D886BF6310C67"
-				item: { Count: 4, id: "terramity:onyx" }
+				id: "504BCF2CEC023B53"
+				item: "terramity:ultra_sniffers_pelt"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.advanced_progression.quest64CC93C566C4BC82.title}"
-			x: -12.0d
-			y: -8.0d
+			title: "{ftbquests.chapter.advanced_progression.quest4A273E7AB9354237.title}"
+			x: -4.5d
+			y: 22.5d
 		}
 		{
-			can_repeat: true
-			dependencies: ["43ACAF3A3EA50806"]
+			dependencies: ["05D0AF91008E3155"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest37FB8A12D9109F3E.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest37FB8A12D9109F3E.description2}"
+			]
+			icon: "terramity:ultra_sniffer_fur"
+			id: "37FB8A12D9109F3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "786E827F41A7E161"
+				table_id: 4685405885777276503L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.6d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest37FB8A12D9109F3E.subtitle}"
+			tasks: [{
+				id: "6FBF4FFDAE212DD4"
+				item: "terramity:ultra_sniffer_fur"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest37FB8A12D9109F3E.title}"
+			x: -1.5d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"4A273E7AB9354237"
+				"37FB8A12D9109F3E"
+			]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.description1}"
+				""
+				"[\"\",{\"color\":\"#B98A5E\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"55CF3612F2588EA7\"}}]"
+				"{ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.description3}"
+				""
+				"[\"\",{\"color\":\"#C89A5A\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7B2049B841F6A946\"}}]"
+				"{ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.description5}"
+				""
+				"[\"\",{\"color\":\"#E29AD2\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.rich_description3\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"44F86CB070F12FF2\"}}]"
+				"{ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.description7}"
+				""
+				"[\"\",{\"color\":\"#C0392B\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.rich_description4\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3AE3B2BE4A65CEF6\"}}]"
+				"{ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.description9}"
+				""
+				"[\"\",{\"color\":\"#A31419\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.rich_description5\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"20FAEEFB40B0A5B7\"}}]"
+				"{ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.description11}"
+				""
+				"[\"\",{\"color\":\"#6EC5E8\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.rich_description6\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1972E6247504B332\"}}]"
+				"{ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.description13}"
+			]
+			icon: "terramity:gold_medal"
+			id: "55FC9737FFF7DEA7"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "314A59CCF5C9AEFE"
+				table_id: 8699295573854160387L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.6d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.subtitle}"
+			tasks: [{
+				id: "7D7576F141AB6D24"
+				title: "{ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.task.9040262605577088292.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest55FC9737FFF7DEA7.title}"
+			x: -3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["2C6FC2D93C93E3DC"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest464B695A2D02D140.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest464B695A2D02D140.description2}"
+			]
+			icon: "terramity:lost_soul"
+			id: "464B695A2D02D140"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest464B695A2D02D140.subtitle}"
+			tasks: [{
+				id: "54AFDE21973EC88A"
+				title: "{ftbquests.chapter.advanced_progression.quest464B695A2D02D140.task.6102340255963072650.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest464B695A2D02D140.title}"
+			x: 2.0d
+			y: 5.15d
+		}
+		{
+			dependencies: ["464B695A2D02D140"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest24CBB1F09344E26C.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest24CBB1F09344E26C.description2}"
+			]
+			icon: "terramity:spiteful_soul"
+			id: "24CBB1F09344E26C"
+			rewards: [
+				{
+					id: "1BD3EF64DF86A210"
+					item: "terramity:spiteful_soul"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CD7BC000F4F50A9"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest24CBB1F09344E26C.subtitle}"
+			tasks: [{
+				id: "5D5DC29ECCB77DCD"
+				item: "terramity:spiteful_soul"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest24CBB1F09344E26C.title}"
+			x: 3.377709491014201d
+			y: 4.3905215517953025d
+		}
+		{
+			dependencies: ["464B695A2D02D140"]
+			description: ["{ftbquests.chapter.advanced_progression.quest2A564D779FEBD506.description1}"]
+			icon: "terramity:lost_soul"
+			id: "2A564D779FEBD506"
+			rewards: [
+				{
+					id: "4E36A090C927B704"
+					item: "terramity:lost_soul"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "486BD486EE665734"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest2A564D779FEBD506.subtitle}"
+			tasks: [{
+				id: "7647ED3EB8DEF2EC"
+				item: "terramity:lost_soul"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest2A564D779FEBD506.title}"
+			x: 3.377709491014201d
+			y: 5.8905215517953025d
+		}
+		{
+			dependencies: ["24CBB1F09344E26C"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest360E2859648163FE.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest360E2859648163FE.description2}"
+			]
+			icon: "terramity:accursed_soul"
+			id: "360E2859648163FE"
+			rewards: [
+				{
+					id: "1F60E87E1BD4E791"
+					item: "terramity:accursed_soul"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "172F9F046006A634"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest360E2859648163FE.subtitle}"
+			tasks: [{
+				id: "78BC491A49C0F889"
+				item: "terramity:accursed_soul"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest360E2859648163FE.title}"
+			x: 4.877709491014201d
+			y: 4.3905215517953025d
+		}
+		{
+			dependencies: ["2A564D779FEBD506"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest1074DF6BAEC2308C.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest1074DF6BAEC2308C.description2}"
+			]
+			icon: "terramity:warden_soul"
+			id: "1074DF6BAEC2308C"
+			rewards: [
+				{
+					id: "5E27E9FD9A36CD78"
+					item: "terramity:warden_soul"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30B5E322652288F2"
+					table_id: 1534136396462519031L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest1074DF6BAEC2308C.subtitle}"
+			tasks: [{
+				id: "64258193B2EBD1C7"
+				item: "terramity:warden_soul"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest1074DF6BAEC2308C.title}"
+			x: 4.877709491014201d
+			y: 5.8905215517953025d
+		}
+		{
+			dependencies: ["0F67904477CEA3A9"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest271DE32336160320.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest271DE32336160320.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest271DE32336160320.description3}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest271DE32336160320.description4}"
+			]
+			icon: "terramity:pink_fairy_bottle"
+			id: "271DE32336160320"
+			rewards: [
+				{
+					id: "4A401E5DF8C33031"
+					item: "terramity:fairy_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B413253A5ED7E32"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest271DE32336160320.subtitle}"
+			tasks: [{
+				id: "4E5039C67D6EB7A9"
+				item: "terramity:fairy_dust"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest271DE32336160320.title}"
+			x: 4.066049949365713d
+			y: -9.35d
+		}
+		{
+			dependencies: ["271DE32336160320"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest438EBD090995921D.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest438EBD090995921D.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest438EBD090995921D.description3}"
+			]
+			icon: "terramity:pink_fairy_bottle"
+			id: "438EBD090995921D"
+			rewards: [
+				{
+					id: "36B6A89574361FEA"
+					item: "terramity:pink_fairy_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17A8D67F45AC2206"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest438EBD090995921D.subtitle}"
+			tasks: [{
+				id: "698AE04AEA629B93"
+				item: "terramity:pink_fairy_bottle"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest438EBD090995921D.title}"
+			x: 5.566049949365713d
+			y: -10.359532069111303d
+		}
+		{
+			dependencies: ["271DE32336160320"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest170B27E937569F01.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest170B27E937569F01.description2}"
+			]
+			icon: "terramity:blue_fairy_bottle"
+			id: "170B27E937569F01"
+			rewards: [
+				{
+					id: "106898A35255E803"
+					item: "terramity:blue_fairy_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "704BB2249CD8E87B"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest170B27E937569F01.subtitle}"
+			tasks: [{
+				id: "3403C5F355A48882"
+				item: "terramity:blue_fairy_bottle"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest170B27E937569F01.title}"
+			x: 5.566049949365713d
+			y: -8.359532069111303d
+		}
+		{
+			dependencies: ["438EBD090995921D"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest24FE2EF7F19A32A5.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest24FE2EF7F19A32A5.description2}"
+			]
+			icon: "terramity:green_fairy_bottle"
+			id: "24FE2EF7F19A32A5"
+			rewards: [
+				{
+					id: "6214E372698DBD93"
+					item: "terramity:green_fairy_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27C0063F5BA904DA"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest24FE2EF7F19A32A5.subtitle}"
+			tasks: [{
+				id: "5DDDAFB172C5E945"
+				item: "terramity:green_fairy_bottle"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest24FE2EF7F19A32A5.title}"
+			x: 7.066049949365713d
+			y: -9.359532069111303d
+		}
+		{
+			dependencies: ["516A877FEC4701DD"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest2A2E64BB9BFED272.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest2A2E64BB9BFED272.description2}"
+			]
+			icon: "terramity:void_glass"
+			id: "2A2E64BB9BFED272"
+			rewards: [
+				{
+					id: "45113FBF67F0295E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "658A51171D0258C8"
+					table_id: 1583014704848680533L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest2A2E64BB9BFED272.subtitle}"
+			tasks: [{
+				id: "3148AE4BEE71558E"
+				title: "{ftbquests.chapter.advanced_progression.quest2A2E64BB9BFED272.task.3551279947327821198.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest2A2E64BB9BFED272.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A2E64BB9BFED272"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest7E9B1C141439AED1.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest7E9B1C141439AED1.description2}"
+			]
+			icon: "terramity:void_glass"
+			id: "7E9B1C141439AED1"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31E73BC98906E69B"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest7E9B1C141439AED1.subtitle}"
+			tasks: [{
+				id: "4CEF6BE38BD9490E"
+				item: "terramity:void_glass"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest7E9B1C141439AED1.title}"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E9B1C141439AED1"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest5353447E927FB060.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest5353447E927FB060.description2}"
+			]
+			icon: "terramity:prism_solution_bucket"
+			id: "5353447E927FB060"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B3A36984545D105"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest5353447E927FB060.subtitle}"
+			tasks: [{
+				id: "2B863D0A5D1E67B6"
+				item: "terramity:prism_solution_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest5353447E927FB060.title}"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5353447E927FB060"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest4C6F1A539197DE23.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest4C6F1A539197DE23.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest4C6F1A539197DE23.description3}"
+			]
+			icon: "terramity:stygian_blood_bucket"
+			id: "4C6F1A539197DE23"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C84A1F409DD8053"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest4C6F1A539197DE23.subtitle}"
+			tasks: [{
+				id: "2A7A4A07884EAA93"
+				item: "terramity:stygian_blood_bucket"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest4C6F1A539197DE23.title}"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C6F1A539197DE23"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest637F88609310F615.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest637F88609310F615.description2}"
+				""
+				"[\"\",{\"color\":\"#C89A5A\",\"underlined\":true,\"translate\":\"ftbquests.chapter.advanced_progression.quest637F88609310F615.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7B2049B841F6A946\"}}]"
+			]
+			icon: "terramity:bomb_flower_item"
+			id: "637F88609310F615"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7480BE0DA79189D3"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest637F88609310F615.subtitle}"
+			tasks: [{
+				id: "7F41C0A6DEB6008F"
+				item: "terramity:bomb_flower_item"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest637F88609310F615.title}"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A2E64BB9BFED272"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest7088E47A8015ED52.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest7088E47A8015ED52.description2}"
+				"{ftbquests.chapter.advanced_progression.quest7088E47A8015ED52.description3}"
+				"{ftbquests.chapter.advanced_progression.quest7088E47A8015ED52.description4}"
+				"{ftbquests.chapter.advanced_progression.quest7088E47A8015ED52.description5}"
+				"{ftbquests.chapter.advanced_progression.quest7088E47A8015ED52.description6}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest7088E47A8015ED52.description7}"
+			]
 			icon: {
 				Count: 1
-				id: "terramity:red_gnome_hat_helmet"
+				id: "terramity:plumbers_wrench"
 				tag: {
 					Damage: 0
 				}
 			}
-			id: "472B62A519AFB3F2"
+			id: "7088E47A8015ED52"
 			optional: true
 			rewards: [{
-				id: "7342D7CED4D998EE"
+				exclude_from_claim_all: true
+				id: "7CEDBAD39D08068F"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest7088E47A8015ED52.subtitle}"
+			tasks: [{
+				id: "1D3D03CD5F10B219"
 				item: {
 					Count: 1
-					id: "terramity:red_gnome_hat_helmet"
+					id: "terramity:plumbers_wrench"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			size: 0.6d
+			title: "{ftbquests.chapter.advanced_progression.quest7088E47A8015ED52.title}"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7088E47A8015ED52"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest24F317BF2B4FA50F.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest24F317BF2B4FA50F.description2}"
+			]
+			icon: "terramity:warp_whistle"
+			id: "24F317BF2B4FA50F"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70AA8AE9474C082C"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest24F317BF2B4FA50F.subtitle}"
 			tasks: [{
-				consume_items: true
-				count: 2L
-				id: "105D8AE17AFDE86C"
-				item: { Count: 3, id: "terramity:prismatic_jewel" }
+				id: "7B514A449FBA394B"
+				item: "terramity:warp_whistle"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.advanced_progression.quest472B62A519AFB3F2.title}"
-			x: -11.0d
-			y: -8.0d
+			title: "{ftbquests.chapter.advanced_progression.quest24F317BF2B4FA50F.title}"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24F317BF2B4FA50F"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest648B35E72A63ED6F.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest648B35E72A63ED6F.description2}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest648B35E72A63ED6F.description3}"
+			]
+			icon: "terramity:gold_medal"
+			id: "648B35E72A63ED6F"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "769FA5E2A1D1FC3B"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest648B35E72A63ED6F.subtitle}"
+			tasks: [{
+				id: "2A43921FC1BB8F3D"
+				item: "terramity:gold_medal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest648B35E72A63ED6F.title}"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["648B35E72A63ED6F"]
+			description: [
+				"{ftbquests.chapter.advanced_progression.quest49AB800849CD47DB.description1}"
+				""
+				"{ftbquests.chapter.advanced_progression.quest49AB800849CD47DB.description2}"
+			]
+			icon: "terramity:ambrosia"
+			id: "49AB800849CD47DB"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FFA6BC758ADD497"
+				table_id: 1583014704848680533L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.advanced_progression.quest49AB800849CD47DB.subtitle}"
+			tasks: [{
+				id: "1203E5889105D616"
+				item: "terramity:ambrosia"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.advanced_progression.quest49AB800849CD47DB.title}"
+			x: 8.0d
+			y: 1.0d
 		}
 	]
 	title: "{ftbquests.chapter.advanced_progression.title}"

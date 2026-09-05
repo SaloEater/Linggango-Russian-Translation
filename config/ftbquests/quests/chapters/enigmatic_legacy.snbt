@@ -1,11 +1,12 @@
 {
 	autofocus_id: "1DF34C60DDABA0B6"
-	default_hide_dependency_lines: true
-	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	default_min_width: 340
+	default_quest_shape: "square"
 	disable_toast: true
 	filename: "enigmatic_legacy"
 	group: "0361FC25A57730F8"
-	icon: "enigmaticlegacy:twisted_heart"
+	icon: "enigmaticlegacy:enigmatic_amulet"
 	id: "31575DEBB2A21CCD"
 	images: [
 		{
@@ -13,1412 +14,250 @@
 			image: "customtextures:textures/enigmatic_logo.png"
 			rotation: 0.0d
 			width: 8.0d
-			x: -0.5d
-			y: -0.5d
+			x: 0.0d
+			y: -2.6d
 		}
 		{
-			height: 1.0d
-			image: "bloodmagic:models/alchemyarrays/wiparray"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: -2.5d
-		}
-		{
-			click: "a"
-			height: 1.0d
+			alpha: 220
+			click: "#2482696E9E09D728"
+			height: 1.1d
 			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext1"]
-			image: "irons_spellbooks:item/diamond_spell_book"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: 5.0d
-		}
-		{
-			click: "a"
-			height: 1.0d
-			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext2"]
-			image: "terramity:item/empty_ring"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: 4.0d
-		}
-		{
-			height: 1.0d
-			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext3"]
-			image: "born_in_chaos_v1:item/shattered_skull"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.5d
-			y: 4.0d
-		}
-		{
-			click: "a"
-			height: 1.0d
-			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext4"]
-			image: "ars_nouveau:item/allow_scroll"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext5"]
-			image: "mynethersdelight:item/blue_tenderloin_steak"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: 8.5d
-		}
-		{
-			click: "a"
-			height: 1.0d
-			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext6"]
-			image: "kubejs:item/magicvessel"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.5d
-			y: 9.5d
-		}
-		{
-			click: "s"
-			height: 1.0d
-			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext7"]
-			image: "brutality:item/curio/charm/celestial_starboard/celestial_starboard_inventory"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: 14.0d
-		}
-		{
-			click: "a"
-			height: 1.0d
-			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext8"]
-			image: "brutality:item/curio/charm/lollipop_of_eternity/lollipop_of_eternity_inventory"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.5d
-			y: 14.0d
-		}
-		{
-			click: "a"
-			height: 1.0d
-			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext9"]
-			image: "enigmaticaddons:item/primeval_cube"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: 14.0d
-		}
-		{
-			height: 1.0d
-			image: "roughlyenoughitems:textures/gui/arrow_right.png"
-			rotation: -45.0d
-			width: 1.0d
-			x: -1.5d
-			y: 19.0d
-		}
-		{
-			height: 1.0d
-			image: "roughlyenoughitems:textures/gui/arrow_right.png"
-			rotation: -140.0d
-			width: 1.0d
-			x: 0.5d
-			y: 19.0d
-		}
-		{
-			click: "a"
-			height: 1.0d
-			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext10"]
-			image: "quark:textures/emote/custom.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: 1.5d
-		}
-		{
-			click: "1"
-			height: 1.0d
-			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext11"]
 			image: "easy_villagers:textures/gui/arrow_left.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.0d
-			y: 1.5d
+			rotation: -45.0d
+			width: 1.1d
+			x: -1.25d
+			y: 6.5d
 		}
 		{
-			click: "2"
-			height: 1.0d
-			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext12"]
+			alpha: 220
+			click: "#3430F8495290E34C"
+			height: 1.1d
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext2"]
 			image: "easy_villagers:textures/gui/arrow_right.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: 1.5d
+			rotation: 45.0d
+			width: 1.1d
+			x: 1.25d
+			y: 6.5d
+		}
+		{
+			alpha: 70
+			height: 1.6d
+			image: "enigmaticlegacy:item/the_acknowledgment"
+			rotation: -18.0d
+			width: 1.6d
+			x: -4.2d
+			y: 1.2d
+		}
+		{
+			alpha: 70
+			height: 1.6d
+			image: "enigmaticlegacy:item/earth_heart"
+			rotation: 22.0d
+			width: 1.6d
+			x: 4.2d
+			y: 1.2d
+		}
+		{
+			alpha: 60
+			height: 1.5d
+			image: "covenant_of_the_seven:item/pure_heart"
+			rotation: -45.0d
+			width: 1.5d
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			alpha: 60
+			height: 1.5d
+			image: "enigmaticlegacy:item/twisted_heart"
+			rotation: 34.0d
+			width: 1.5d
+			x: 5.5d
+			y: 5.5d
 		}
 		{
 			dev: true
 			height: 1.0d
 			hover: [
-				"ftbquests.chapter.enigmatic_legacy.image.hovertext13"
-				"ftbquests.chapter.enigmatic_legacy.image.hovertext14"
-				"ftbquests.chapter.enigmatic_legacy.image.hovertext15"
-				"ftbquests.chapter.enigmatic_legacy.image.hovertext16"
+				"ftbquests.chapter.enigmatic_legacy.image.hovertext3"
+				"ftbquests.chapter.enigmatic_legacy.image.hovertext4"
+				"ftbquests.chapter.enigmatic_legacy.image.hovertext5"
+				"ftbquests.chapter.enigmatic_legacy.image.hovertext6"
 			]
 			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
 			rotation: 0.0d
 			width: 1.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			alpha: 235
+			click: "#74B48BCBAAAB8006"
+			height: 1.0d
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext7"]
+			image: "enigmaticlegacy:item/iron_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			alpha: 235
+			click: "#7EE5D96E5925CA07"
+			height: 1.0d
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext8"]
+			image: "enigmaticlegacy:item/heaven_scroll"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			alpha: 235
+			click: "#6895F81092608B77"
+			height: 1.0d
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext9"]
+			image: "enigmaticlegacy:item/eye_of_nebula"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			alpha: 235
+			click: "#1758E7C06345B6C3"
+			height: 1.0d
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext10"]
+			image: "enigmaticlegacy:item/mining_charm"
+			rotation: 0.0d
+			width: 1.0d
 			x: -0.5d
-			y: -3.5d
+			y: 11.5d
+		}
+		{
+			alpha: 235
+			click: "#6D10D65B617CD7E8"
+			height: 1.0d
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext11"]
+			image: "enigmaticlegacy:item/etherium_broadsword"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			alpha: 235
+			click: "#6AC08CFA49DD17A6"
+			height: 1.0d
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext12"]
+			image: "enigmaticlegacy:item/the_one_box"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			alpha: 235
+			click: "#3430F8495290E34C"
+			height: 1.0d
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext13"]
+			image: "enigmaticlegacy:item/cursed_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			alpha: 235
+			click: "#2482696E9E09D728"
+			height: 1.0d
+			hover: ["ftbquests.chapter.enigmatic_legacy.image.hovertext14"]
+			image: "covenant_of_the_seven:item/virtue_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "brutality:item/curio/head/fallen_angels_halo/fallen_angels_halo_inventory"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			height: 3.0d
+			image: "placebo:textures/wings/demon.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "terramity:item/archangel_halo"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			height: 3.0d
+			image: "placebo:textures/wings/angel.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 8.5d
 		}
 	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: [
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description1}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description2}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description3}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description4}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description5}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description6}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description7}"
-				""
-				"{@pagebreak}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description8}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description9}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description10}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description11}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description12}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description13}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description14}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description15}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description16}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description17}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description18}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description19}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description20}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description21}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description22}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description23}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description24}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description25}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description26}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description27}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description28}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description29}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description30}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description31}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description32}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description33}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description34}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description35}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description36}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description37}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description38}"
-				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description39}"
-			]
-			hide_dependency_lines: false
-			icon: "enigmaticlegacy:cursed_ring"
-			id: "7C1409F2EE726A20"
-			invisible_until_tasks: 1
-			min_width: 500
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "62FCC68FDA48E08B"
-				table_id: 2501998888776764148L
-				type: "random"
-			}]
-			shape: "gear"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.subtitle}"
-			tasks: [{
-				advancement: "enigmaticlegacy:main/cursed_ring"
-				criterion: ""
-				id: "2B84EF38A06D7173"
-				type: "advancement"
-			}]
-			title: "{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.title}"
-			x: 1.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest6D90E585D2406F72.description1}"]
-			id: "6D90E585D2406F72"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6D90E585D2406F72.subtitle}"
-			tasks: [{
-				id: "6079CB0880B7608F"
-				item: "enigmaticlegacy:thicc_scroll"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest453718D66065CA4A.description1}"]
-			id: "453718D66065CA4A"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest453718D66065CA4A.subtitle}"
-			tasks: [{
-				id: "1C00411329331083"
-				item: "enigmaticlegacy:darkest_scroll"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "4EF80EAF25964BE6"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4EF80EAF25964BE6.subtitle}"
-			tasks: [{
-				id: "4AEB539432E655DF"
-				item: "enigmaticlegacy:heaven_scroll"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 12.0d
-		}
-		{
-			dependencies: [
-				"4EF80EAF25964BE6"
-				"1DF34C60DDABA0B6"
-			]
-			id: "071B31311EAC896B"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest71B31311EAC896B.subtitle}"
-			tasks: [{
-				id: "7748817D95D587F7"
-				item: "enigmaticlegacy:fabulous_scroll"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "18362E8AD6EE9A8C"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest18362E8AD6EE9A8C.subtitle}"
-			tasks: [{
-				id: "5E705F45FEECA425"
-				item: "enigmaticlegacy:escape_scroll"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "1CB5C629D6E2424A"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1CB5C629D6E2424A.subtitle}"
-			tasks: [{
-				id: "71FC854EA40D4E32"
-				item: "enigmaticlegacy:xp_scroll"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["7C1409F2EE726A20"]
-			hide_dependency_lines: false
-			id: "38D6971551A08950"
-			rewards: [{
-				id: "23C690A75C08DFFC"
-				item: "enigmaticlegacy:twisted_heart"
-				type: "item"
-			}]
-			shape: "square"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest38D6971551A08950.subtitle}"
-			tasks: [{
-				id: "5519F75C71F4D908"
-				item: "enigmaticlegacy:twisted_heart"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"453718D66065CA4A"
-				"1DF34C60DDABA0B6"
-			]
-			icon: "enigmaticlegacy:avarice_scroll"
-			id: "3CC6763FA003F3C9"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3CC6763FA003F3C9.subtitle}"
-			tasks: [{
-				id: "30EA6E2D6D4430DF"
-				item: "enigmaticlegacy:avarice_scroll"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["38D6971551A08950"]
-			hide_dependency_lines: false
-			id: "79CAB265AED63D74"
-			rewards: [
-				{
-					id: "357F0D3917B77559"
-					type: "xp"
-					xp: 67
-				}
-				{
-					id: "69E4D3D706A3D43B"
-					item: "enigmaticlegacy:evil_essence"
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest79CAB265AED63D74.subtitle}"
-			tasks: [{
-				id: "1CA42B32C204C158"
-				item: "enigmaticlegacy:cursed_stone"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["696721016FE9651A"]
-			hide_dependency_lines: false
-			icon: "enigmaticaddons:bless_ring"
-			id: "759330FDA1A18091"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1CBBCAF8C7BF8373"
-				table_id: 8699295573854160387L
-				type: "random"
-			}]
-			shape: "hexagon"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest759330FDA1A18091.subtitle}"
-			tasks: [{
-				id: "68B99B3C49AC067B"
-				title: "{ftbquests.chapter.enigmatic_legacy.quest759330FDA1A18091.task.7546233333872330363.title}"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["38D6971551A08950"]
-			hide_dependency_lines: false
-			id: "696721016FE9651A"
-			rewards: [{
-				id: "28A213F5AFF36CBF"
-				item: "enigmaticlegacy:astral_dust"
-				type: "item"
-			}]
-			shape: "square"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest696721016FE9651A.subtitle}"
-			tasks: [{
-				id: "1C3005811F7C185C"
-				item: "enigmaticaddons:bless_stone"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"453718D66065CA4A"
-				"1DF34C60DDABA0B6"
-			]
-			id: "0AA1567557149D5C"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.questAA1567557149D5C.subtitle}"
-			tasks: [{
-				id: "73AF42474FA9063C"
-				item: "enigmaticaddons:night_scroll"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"74D03B0A580FBCEA"
-				"1DF34C60DDABA0B6"
-			]
-			id: "684D08CDB9CD24B2"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest684D08CDB9CD24B2.subtitle}"
-			tasks: [{
-				id: "765EBB8F36745B1A"
-				item: "enigmaticaddons:violence_scroll"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 12.5d
-		}
-		{
-			dependencies: [
-				"453718D66065CA4A"
-				"1DF34C60DDABA0B6"
-			]
-			id: "1D5A7FA7C73BA7AB"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1D5A7FA7C73BA7AB.subtitle}"
-			tasks: [{
-				id: "062DDD7A61E9D782"
-				item: "enigmaticaddons:thunder_scroll"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 12.0d
-		}
-		{
-			dependencies: [
-				"1CB5C629D6E2424A"
-				"1DF34C60DDABA0B6"
-			]
-			id: "172C4ECEC40C15C7"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest172C4ECEC40C15C7.subtitle}"
-			tasks: [{
-				id: "464E4B54D0D2A67B"
-				item: "enigmaticaddons:cursed_xp_scroll"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"453718D66065CA4A"
-				"1DF34C60DDABA0B6"
-			]
-			id: "74D03B0A580FBCEA"
-			shape: "hexagon"
-			tasks: [{
-				id: "4DFC7C820D14CBD4"
-				item: "enigmaticlegacy:cursed_scroll"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: [
-				"{ftbquests.chapter.enigmatic_legacy.quest240C6600ADD40176.description1}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest240C6600ADD40176.description2}"
-			]
-			hide_until_deps_complete: false
-			id: "240C6600ADD40176"
-			shape: "square"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest240C6600ADD40176.subtitle}"
-			tasks: [{
-				id: "42E0614D0A79C105"
-				item: "enigmaticlegacy:forbidden_fruit"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest56E2116333D3CD6B.description1}"]
-			id: "56E2116333D3CD6B"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest56E2116333D3CD6B.subtitle}"
-			tasks: [{
-				id: "7BEBF554E949CDEA"
-				item: "covenant_of_the_seven:ender_blasphemy"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest725627F80E885B74.description1}"]
-			id: "725627F80E885B74"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest725627F80E885B74.subtitle}"
-			tasks: [{
-				id: "1F03F501E06DEA73"
-				item: "covenant_of_the_seven:holy_blasphemy"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest5542D9D0E1E83302.description1}"]
-			id: "5542D9D0E1E83302"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5542D9D0E1E83302.subtitle}"
-			tasks: [{
-				id: "657B66207E08D402"
-				item: "covenant_of_the_seven:evocation_blasphemy"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest5E7DE2B95F3E7A27.description1}"]
-			id: "5E7DE2B95F3E7A27"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5E7DE2B95F3E7A27.subtitle}"
-			tasks: [{
-				id: "0AC0458C001F009F"
-				item: "covenant_of_the_seven:lightning_blasphemy"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest44CF4F7099E64CE6.description1}"]
-			id: "44CF4F7099E64CE6"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest44CF4F7099E64CE6.subtitle}"
-			tasks: [{
-				id: "73B3FBD8804C8D55"
-				item: "covenant_of_the_seven:blood_blasphemy"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest34C57C3A353ABD03.description1}"]
-			id: "34C57C3A353ABD03"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest34C57C3A353ABD03.subtitle}"
-			tasks: [{
-				id: "51CA99BC58E0ED50"
-				item: "covenant_of_the_seven:nature_blasphemy"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest374E257AC1D6E410.description1}"]
-			id: "374E257AC1D6E410"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest374E257AC1D6E410.subtitle}"
-			tasks: [{
-				id: "20D4FDA3EBC93B09"
-				item: "covenant_of_the_seven:ice_blasphemy"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest7F28A25193747690.description1}"]
-			id: "7F28A25193747690"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7F28A25193747690.subtitle}"
-			tasks: [{
-				id: "330B5791FE4023D7"
-				item: "covenant_of_the_seven:fire_blasphemy"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "7A0EBC52E07C8D0F"
-			shape: "diamond"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7A0EBC52E07C8D0F.subtitle}"
-			tasks: [{
-				id: "7C48FF4ECF970046"
-				item: "covenant_of_the_seven:dormant_blasphemy"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["73B4B9E39A9A5152"]
-			hide_dependency_lines: false
-			id: "559B3D44287481DA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6BF1158346E71DF0"
-				table_id: 8699295573854160387L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "299660CA12F4CDF6"
-				item: "covenant_of_the_seven:holy_stone"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "594DE634D568F698"
-			shape: "hexagon"
-			tasks: [{
-				id: "524C8D72217C8856"
-				item: "covenant_of_the_seven:brightest_scroll"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "3B4E460F4C196406"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3B4E460F4C196406.subtitle}"
-			tasks: [{
-				id: "108DCE2EBCC7F871"
-				item: "covenant_of_the_seven:holy_essence"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 18.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "66918E2E73AD841F"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest66918E2E73AD841F.subtitle}"
-			tasks: [{
-				id: "61C1D9F98ED77B69"
-				item: "covenant_of_the_seven:exaltation_ring"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"594DE634D568F698"
-				"1DF34C60DDABA0B6"
-			]
-			id: "73B63202E26F1DD6"
-			shape: "hexagon"
-			tasks: [{
-				id: "2B1F6FF80D80F990"
-				item: "covenant_of_the_seven:divine_scroll"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "581F2A1C0FD00B9F"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest581F2A1C0FD00B9F.subtitle}"
-			tasks: [{
-				id: "651AA491DB41E82F"
-				item: "covenant_of_the_seven:benediction_charm"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "0ED765E7AE95722C"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.questED765E7AE95722C.subtitle}"
-			tasks: [{
-				id: "39D9E01527C3ECF3"
-				item: "covenant_of_the_seven:potioneer_pearl"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "197E8EB199BDFA5A"
-			shape: "square"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest197E8EB199BDFA5A.subtitle}"
-			tasks: [{
-				id: "5CFE1F728D87A974"
-				item: "covenant_of_the_seven:ambrosial_arbor"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: [
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description1}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description2}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description3}"
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description4}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description5}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description6}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description7}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description8}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description9}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description10}"
-				""
-				"{@pagebreak}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description11}"
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description12}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description13}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description14}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description15}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description16}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description17}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description18}"
-			]
-			hide_dependency_lines: false
-			id: "25B57A361188BAB3"
-			min_width: 500
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "198EBB8A0562DAA5"
-				table_id: 2501998888776764148L
-				type: "random"
-			}]
-			shape: "gear"
-			size: 1.0d
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.subtitle}"
-			tasks: [{
-				advancement: "covenant_of_the_seven:ring_of_the_seven_virtues"
-				criterion: ""
-				id: "36AA33D3E98FA95E"
-				type: "advancement"
-			}]
-			title: "{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.title}"
-			x: -2.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "0719EDFC724C0127"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest719EDFC724C0127.subtitle}"
-			tasks: [{
-				id: "53D5F6ACB40CB6C3"
-				item: "covenant_of_the_seven:wind_sacrament"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "738870660D263223"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest738870660D263223.subtitle}"
-			tasks: [{
-				id: "1974EE72855B8C2A"
-				item: "covenant_of_the_seven:geo_sacrament"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "0B28BC1C6577C488"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.questB28BC1C6577C488.subtitle}"
-			tasks: [{
-				id: "543188BA99D0916E"
-				item: "covenant_of_the_seven:aqua_sacrament"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "2F949E516B2AC544"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2F949E516B2AC544.subtitle}"
-			tasks: [{
-				id: "2BE54DE39B5FE458"
-				item: "covenant_of_the_seven:eldritch_sacrament"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "69E8EE8A7882D3CA"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest69E8EE8A7882D3CA.subtitle}"
-			tasks: [{
-				id: "44FC33E9AB60C2D6"
-				item: "covenant_of_the_seven:ender_sacrament"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "773E1AB3E9B6F735"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest773E1AB3E9B6F735.subtitle}"
-			tasks: [{
-				id: "28137C653528B763"
-				item: "covenant_of_the_seven:holy_sacrament"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "56C1527E1CB5EB67"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest56C1527E1CB5EB67.subtitle}"
-			tasks: [{
-				id: "13D017D178DFE4E9"
-				item: "covenant_of_the_seven:evocation_sacrament"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "235D991688DFBE26"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest235D991688DFBE26.subtitle}"
-			tasks: [{
-				id: "4915B9554DF8851A"
-				item: "covenant_of_the_seven:lightning_sacrament"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "5BED52DA71A54D38"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5BED52DA71A54D38.subtitle}"
-			tasks: [{
-				id: "2349A50ABAE3E35B"
-				item: "covenant_of_the_seven:blood_sacrament"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "33B84060D76DAABA"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest33B84060D76DAABA.subtitle}"
-			tasks: [{
-				id: "1E7CB85631BCF9DC"
-				item: "covenant_of_the_seven:nature_sacrament"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "7FC6E9391B087ABF"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7FC6E9391B087ABF.subtitle}"
-			tasks: [{
-				id: "3EC969C43A2F019F"
-				item: "covenant_of_the_seven:ice_sacrament"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "2505A2A7619191CA"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2505A2A7619191CA.subtitle}"
-			tasks: [{
-				id: "189AFD8778875C65"
-				item: "covenant_of_the_seven:fire_sacrament"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "72680109513597DE"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest72680109513597DE.subtitle}"
-			tasks: [{
-				id: "7AAE74F84EFCFE70"
-				item: "covenant_of_the_seven:dormant_sacrament"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest5316C5A4EB6080F4.description1}"]
-			id: "5316C5A4EB6080F4"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5316C5A4EB6080F4.subtitle}"
-			tasks: [{
-				id: "6C2677A8542A62E0"
-				item: "covenant_of_the_seven:wind_blasphemy"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest1805CB2999410A96.description1}"]
-			id: "1805CB2999410A96"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1805CB2999410A96.subtitle}"
-			tasks: [{
-				id: "0821166807C6F4A1"
-				item: "covenant_of_the_seven:geo_blasphemy"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.questC16E843CF8E8A2A.description1}"]
-			id: "0C16E843CF8E8A2A"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.questC16E843CF8E8A2A.subtitle}"
-			tasks: [{
-				id: "255E118AB10055EB"
-				item: "covenant_of_the_seven:aqua_blasphemy"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest2256EFAC2C0928F5.description1}"]
-			id: "2256EFAC2C0928F5"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2256EFAC2C0928F5.subtitle}"
-			tasks: [{
-				id: "7B011F34CA408FBE"
-				item: "covenant_of_the_seven:eldritch_blasphemy"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "222DD8E1BA730F76"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest222DD8E1BA730F76.subtitle}"
-			tasks: [{
-				id: "20C942128C0FEB5F"
-				item: "covenant_of_the_seven:righteous_mirror"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "6251E52D66AA014C"
-			tasks: [{
-				id: "1A6485080D4C46F1"
-				item: "covenant_of_the_seven:the_aeternum"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "0148E8EE617361F9"
-			tasks: [{
-				id: "32E3F3758A3357B0"
-				item: "covenant_of_the_seven:the_just"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "5EF3157D4471721F"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5EF3157D4471721F.subtitle}"
-			tasks: [{
-				id: "2377324EF5171829"
-				item: "covenant_of_the_seven:seraphic_heart"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 16.0d
-		}
-		{
-			dependencies: ["5782089F4989B165"]
-			hide_dependency_lines: false
-			id: "73B4B9E39A9A5152"
-			rewards: [{
-				id: "2122AA31685FBB30"
-				item: "covenant_of_the_seven:pure_heart"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "185EB6BA2E66C94F"
-				item: "covenant_of_the_seven:pure_heart"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "2F35D1ABDCAD56AA"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2F35D1ABDCAD56AA.subtitle}"
-			tasks: [{
-				id: "7CB46AB0E26B9B2D"
-				item: "covenant_of_the_seven:infinity_spirit"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest4C956F782320F662.description1}"]
-			id: "4C956F782320F662"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4C956F782320F662.subtitle}"
-			tasks: [{
-				id: "5E8F93172DC4782A"
-				item: "enigmaticlegacy:curse_transposer"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: [
-				"{ftbquests.chapter.enigmatic_legacy.quest4E2AD2381DF0812B.description1}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest4E2AD2381DF0812B.description2}"
-			]
-			id: "4E2AD2381DF0812B"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4E2AD2381DF0812B.subtitle}"
-			tasks: [{
-				id: "44FF04D36A278240"
-				item: "enigmaticlegacy:the_twist"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "4661EAA8FBF0B944"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4661EAA8FBF0B944.subtitle}"
-			tasks: [{
-				id: "5CE095BDD9BC4897"
-				item: "enigmaticaddons:void_tome"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest65873A02ECE96B9.description1}"]
-			id: "065873A02ECE96B9"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest65873A02ECE96B9.subtitle}"
-			tasks: [{
-				id: "3F35AA702175572C"
-				item: "enigmaticlegacy:enchantment_transposer"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "6289EAE60A0F0184"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6289EAE60A0F0184.subtitle}"
-			tasks: [{
-				id: "00FE6B7B2581C22F"
-				item: "enigmaticaddons:ode_to_living"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: [
-				"{ftbquests.chapter.enigmatic_legacy.quest6BECDF798C694280.description1}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest6BECDF798C694280.description2}"
-			]
-			id: "6BECDF798C694280"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6BECDF798C694280.subtitle}"
-			tasks: [{
-				id: "5855592C7CA99842"
-				item: "enigmaticlegacy:hunter_guidebook"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "4194A6281F3AF5FE"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4194A6281F3AF5FE.subtitle}"
-			tasks: [{
-				id: "0015C35A8A5D41E2"
-				item: "enigmaticlegacy:animal_guidebook"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: [
-				"{ftbquests.chapter.enigmatic_legacy.quest609597A5D62420E5.description1}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest609597A5D62420E5.description2}"
-			]
-			id: "609597A5D62420E5"
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest609597A5D62420E5.subtitle}"
-			tasks: [{
-				id: "7A570560DFCDC247"
-				item: "enigmaticaddons:the_bless"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "19315EDD1D4773D5"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest19315EDD1D4773D5.subtitle}"
-			tasks: [{
-				id: "49717AE7378B355B"
-				item: "enigmaticaddons:bless_amplifier"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: [
-				"{ftbquests.chapter.enigmatic_legacy.quest831FD7840512AAF.description1}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest831FD7840512AAF.description2}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest831FD7840512AAF.description3}"
-				""
-				"{ftbquests.chapter.enigmatic_legacy.quest831FD7840512AAF.description4}"
-			]
-			id: "0831FD7840512AAF"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest831FD7840512AAF.subtitle}"
-			tasks: [{
-				id: "27E3000DE1BE421C"
-				item: "enigmaticaddons:sanguinary_handbook"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "1A587DDB467E7AE0"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1A587DDB467E7AE0.subtitle}"
-			tasks: [{
-				id: "1130C4864AEE8F4D"
-				item: "enigmaticaddons:false_justice"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "609C4C39B3D25D8C"
-			shape: "diamond"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest609C4C39B3D25D8C.subtitle}"
-			tasks: [{
-				id: "5F22421CF73253E9"
-				item: "enigmaticlegacy:iron_ring"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "31D8D91AF9F289D0"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest31D8D91AF9F289D0.subtitle}"
-			tasks: [{
-				id: "37D6A4F01E503160"
-				item: "enigmaticlegacy:golden_ring"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "5AA763A72417F48A"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5AA763A72417F48A.subtitle}"
-			tasks: [{
-				id: "6FBE617E0CDEDB15"
-				item: "enigmaticlegacy:ender_ring"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "1483A802D8EFAEF7"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1483A802D8EFAEF7.subtitle}"
-			tasks: [{
-				id: "55468ED0903C3792"
-				item: "enigmaticlegacy:magnet_ring"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "781B6272347D309E"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest781B6272347D309E.subtitle}"
-			tasks: [{
-				id: "5388679080F4FC76"
-				item: "enigmaticlegacy:super_magnet_ring"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "24D9E56712D86874"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest24D9E56712D86874.subtitle}"
-			tasks: [{
-				id: "4441DB6D82E7E2CA"
-				item: "enigmaticlegacy:desolation_ring"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "1E44EF435BBA4EE0"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1E44EF435BBA4EE0.subtitle}"
-			tasks: [{
-				id: "6E2D55613391DCA0"
-				item: "enigmaticaddons:avarice_ring"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			description: [
-				"{ftbquests.chapter.enigmatic_legacy.quest6BEEE075C859F8A9.description1}"
-				"{ftbquests.chapter.enigmatic_legacy.quest6BEEE075C859F8A9.description2}"
-				"{ftbquests.chapter.enigmatic_legacy.quest6BEEE075C859F8A9.description3}"
-				"{ftbquests.chapter.enigmatic_legacy.quest6BEEE075C859F8A9.description4}"
-			]
-			id: "6BEEE075C859F8A9"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6BEEE075C859F8A9.subtitle}"
-			tasks: [{
-				id: "0B4613ABBC761A0B"
-				item: "enigmaticaddons:earth_promise"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "627BD1C191884874"
-			shape: "square"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest627BD1C191884874.subtitle}"
-			tasks: [{
-				id: "22A3E55184C3283C"
-				item: "enigmaticlegacy:astral_fruit"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "32FB6F35534360F8"
-			shape: "square"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest32FB6F35534360F8.subtitle}"
-			tasks: [{
-				id: "72F4743D6482A26A"
-				item: "enigmaticaddons:ichoroot"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 11.5d
-		}
-		{
 			description: [
 				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description1}"
 				""
 				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description4}"
+				""
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description5}"
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description6}"
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description9}"
+				""
+				"[\"\",{\"color\":\"#D9A5FF\",\"underlined\":true,\"translate\":\"ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"74B48BCBAAAB8006\"}}]"
+				"[\"\",{\"color\":\"#D9A5FF\",\"underlined\":true,\"translate\":\"ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7EE5D96E5925CA07\"}}]"
+				"[\"\",{\"color\":\"#D9A5FF\",\"underlined\":true,\"translate\":\"ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.rich_description3\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6895F81092608B77\"}}]"
+				"[\"\",{\"color\":\"#D9A5FF\",\"underlined\":true,\"translate\":\"ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.rich_description4\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1758E7C06345B6C3\"}}]"
+				"[\"\",{\"color\":\"#D9A5FF\",\"underlined\":true,\"translate\":\"ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.rich_description5\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6D10D65B617CD7E8\"}}]"
+				"[\"\",{\"color\":\"#D9A5FF\",\"underlined\":true,\"translate\":\"ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.rich_description6\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6AC08CFA49DD17A6\"}}]"
+				"[\"\",{\"color\":\"#D9A5FF\",\"underlined\":true,\"translate\":\"ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.rich_description7\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3430F8495290E34C\"}}]"
+				"[\"\",{\"color\":\"#D9A5FF\",\"underlined\":true,\"translate\":\"ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.rich_description8\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2482696E9E09D728\"}}]"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description18}"
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description19}"
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description20}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description21}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description22}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.description23}"
 			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "cofh_core:textures/gui/icons/icon_information.png"
-				}
-			}
-			icon_scale: 1.3d
+			icon: "enigmaticlegacy:enigmatic_amulet"
 			id: "1DF34C60DDABA0B6"
-			shape: "square"
-			size: 1.5d
+			min_width: 380
+			shape: "star"
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.subtitle}"
 			tasks: [{
 				id: "7AC435FF09A6E1C2"
@@ -1426,38 +265,106 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.enigmatic_legacy.quest1DF34C60DDABA0B6.title}"
-			x: -0.5d
-			y: 2.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest5D5CB2E7BFF3D929.description1}"]
-			id: "5D5CB2E7BFF3D929"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5D5CB2E7BFF3D929.subtitle}"
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest1668D3FDB91C6F37.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1668D3FDB91C6F37.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1668D3FDB91C6F37.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1668D3FDB91C6F37.description4}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest1668D3FDB91C6F37.description5}"
+			]
+			id: "1668D3FDB91C6F37"
+			min_width: 330
+			shape: "gear"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1668D3FDB91C6F37.subtitle}"
 			tasks: [{
-				id: "2C27F9FE469FBB01"
-				item: "enigmaticdelicacy:enchantment_duplicator"
+				id: "2C423E6DA7107BC4"
+				item: "enigmaticlegacy:the_acknowledgment"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.5d
+			title: "{ftbquests.chapter.enigmatic_legacy.quest1668D3FDB91C6F37.title}"
+			x: -1.875d
+			y: 1.875d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
-			id: "2855775BA72310E0"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2855775BA72310E0.subtitle}"
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description3}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description4}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description5}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description6}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description7}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description8}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description10}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description11}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description12}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description13}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description14}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description15}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description16}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description17}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description18}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description19}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description20}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description21}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description22}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description23}"
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description24}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description25}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.description26}"
+			]
+			icon: "enigmaticlegacy:enigmatic_eye"
+			id: "6F514839FCB05B75"
+			min_width: 340
+			shape: "gear"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.subtitle}"
 			tasks: [{
-				id: "3C84236F73E3BF3C"
-				item: "enigmaticdelicacy:fading_scroll"
-				type: "item"
+				id: "103ACC5E4C9CEB7C"
+				title: "{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.task.1169471758640409468.title}"
+				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 12.5d
+			title: "{ftbquests.chapter.enigmatic_legacy.quest6F514839FCB05B75.title}"
+			x: 1.875d
+			y: 1.875d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
-			disable_toast: true
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest63886E154F541FF0.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest63886E154F541FF0.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest63886E154F541FF0.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest63886E154F541FF0.description4}"
+			]
+			hide_dependency_lines: true
 			id: "63886E154F541FF0"
+			min_width: 300
+			optional: true
+			shape: "circle"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest63886E154F541FF0.subtitle}"
 			tasks: [{
 				id: "2248F978027998EE"
@@ -1470,13 +377,26 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 17.5d
+			title: "{ftbquests.chapter.enigmatic_legacy.quest63886E154F541FF0.title}"
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
-			disable_toast: true
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest6233FEDA1A71FCBF.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest6233FEDA1A71FCBF.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest6233FEDA1A71FCBF.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest6233FEDA1A71FCBF.description4}"
+			]
+			hide_dependency_lines: true
 			id: "6233FEDA1A71FCBF"
+			min_width: 300
+			optional: true
+			shape: "circle"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6233FEDA1A71FCBF.subtitle}"
 			tasks: [{
 				id: "16F2089824945230"
@@ -1489,13 +409,26 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 17.0d
+			title: "{ftbquests.chapter.enigmatic_legacy.quest6233FEDA1A71FCBF.title}"
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
-			disable_toast: true
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest43A7B26D6EB18BEF.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest43A7B26D6EB18BEF.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest43A7B26D6EB18BEF.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest43A7B26D6EB18BEF.description4}"
+			]
+			hide_dependency_lines: true
 			id: "43A7B26D6EB18BEF"
+			min_width: 300
+			optional: true
+			shape: "circle"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest43A7B26D6EB18BEF.subtitle}"
 			tasks: [{
 				id: "52597BD5589F71B9"
@@ -1508,13 +441,26 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 17.5d
+			title: "{ftbquests.chapter.enigmatic_legacy.quest43A7B26D6EB18BEF.title}"
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
-			disable_toast: true
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest18FE872D6A440319.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest18FE872D6A440319.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest18FE872D6A440319.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest18FE872D6A440319.description4}"
+			]
+			hide_dependency_lines: true
 			id: "18FE872D6A440319"
+			min_width: 300
+			optional: true
+			shape: "circle"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest18FE872D6A440319.subtitle}"
 			tasks: [{
 				id: "4970A8FED376B2CC"
@@ -1527,13 +473,26 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 18.0d
+			title: "{ftbquests.chapter.enigmatic_legacy.quest18FE872D6A440319.title}"
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
-			disable_toast: true
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest4D80E2755365778.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest4D80E2755365778.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest4D80E2755365778.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest4D80E2755365778.description4}"
+			]
+			hide_dependency_lines: true
 			id: "04D80E2755365778"
+			min_width: 300
+			optional: true
+			shape: "circle"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4D80E2755365778.subtitle}"
 			tasks: [{
 				id: "1655707DD4DF50B1"
@@ -1546,13 +505,26 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 17.0d
+			title: "{ftbquests.chapter.enigmatic_legacy.quest4D80E2755365778.title}"
+			x: 1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
-			disable_toast: true
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest5811956FD302521.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5811956FD302521.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5811956FD302521.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5811956FD302521.description4}"
+			]
+			hide_dependency_lines: true
 			id: "05811956FD302521"
+			min_width: 300
+			optional: true
+			shape: "circle"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5811956FD302521.subtitle}"
 			tasks: [{
 				id: "63BC4D24D122E8B3"
@@ -1565,13 +537,26 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 16.0d
+			title: "{ftbquests.chapter.enigmatic_legacy.quest5811956FD302521.title}"
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1DF34C60DDABA0B6"]
-			disable_toast: true
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest63A69C14F6727467.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest63A69C14F6727467.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest63A69C14F6727467.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest63A69C14F6727467.description4}"
+			]
+			hide_dependency_lines: true
 			id: "63A69C14F6727467"
+			min_width: 300
+			optional: true
+			shape: "circle"
 			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest63A69C14F6727467.subtitle}"
 			tasks: [{
 				id: "65B40E10024023F5"
@@ -1584,1054 +569,331 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 17.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "2DC1C0FAAB255199"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2DC1C0FAAB255199.subtitle}"
-			tasks: [{
-				id: "1A72E8AE53590AC0"
-				item: "enigmaticlegacy:enigmatic_eye"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "0E690A6DB91DBCAE"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.questE690A6DB91DBCAE.subtitle}"
-			tasks: [{
-				id: "241FD3CA5F660E75"
-				item: "enigmaticlegacy:mining_charm"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "28656E06CF9CD32D"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest28656E06CF9CD32D.subtitle}"
-			tasks: [{
-				id: "0C91074AE05431E2"
-				item: "enigmaticlegacy:monster_charm"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "09B6409CDDE2D0A9"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest9B6409CDDE2D0A9.subtitle}"
-			tasks: [{
-				id: "0AFC17EEA388115C"
-				item: "enigmaticaddons:forger_gem"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "55C3757651948AA9"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest55C3757651948AA9.subtitle}"
-			tasks: [{
-				id: "6B859FE33372E1B2"
-				item: "enigmaticaddons:hell_blade_charm"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 15.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "20987CA8244275BB"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest20987CA8244275BB.subtitle}"
-			tasks: [{
-				id: "7954E0CC03D03F35"
-				item: "enigmaticlegacy:mega_sponge"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 15.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "5E6801D7411BBA66"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5E6801D7411BBA66.subtitle}"
-			tasks: [{
-				id: "1E3385FAFF0EA81D"
-				item: "enigmaticlegacy:insignia"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "549B3129B6BEB358"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest549B3129B6BEB358.subtitle}"
-			tasks: [{
-				id: "1C8ABE53113916BA"
-				item: "enigmaticlegacy:ascension_amulet"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 17.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "5EDC5F0D31FEF4F7"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5EDC5F0D31FEF4F7.subtitle}"
-			tasks: [{
-				id: "76A5A4D0E671C5BB"
-				item: "enigmaticlegacy:berserk_charm"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 18.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "35B03131AB84BE21"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest35B03131AB84BE21.subtitle}"
-			tasks: [{
-				id: "086ADAA9104B4632"
-				item: "enigmaticlegacy:enchanter_pearl"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 18.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "3FC095DD75A58A36"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3FC095DD75A58A36.subtitle}"
-			tasks: [{
-				id: "3E711D7F0DF311D1"
-				item: "enigmaticaddons:scorched_charm"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 19.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "60AFE6322CC55E93"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest60AFE6322CC55E93.subtitle}"
-			tasks: [{
-				id: "5C0DC10D856D7A5B"
-				item: "enigmaticlegacy:eldritch_amulet"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 18.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "79114D02A5F4E201"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest79114D02A5F4E201.subtitle}"
-			tasks: [{
-				id: "13C4598557065C32"
-				item: "enigmaticdelicacy:weapon_charm"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 18.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "02475C1717B75E13"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2475C1717B75E13.subtitle}"
-			tasks: [{
-				id: "3E8CCD76801B754D"
-				item: "enigmaticdelicacy:hungry_charm"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 17.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "387478A42BF43567"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest387478A42BF43567.subtitle}"
-			tasks: [{
-				id: "4CDE5B168E3C2CCF"
-				item: "enigmaticdelicacy:gluttony_charm"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 17.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "5118A09EF5074B8A"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5118A09EF5074B8A.subtitle}"
-			tasks: [{
-				id: "3CA8B272CFB1018A"
-				item: "enigmaticdelicacy:curse_crystal_pendant"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 17.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "0D24F4EE539256CC"
-			shape: "square"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.questD24F4EE539256CC.subtitle}"
-			tasks: [{
-				id: "6D42FB001C02011D"
-				item: "enigmaticlegacy:cosmic_cake"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "35408CBDA02F0A05"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest35408CBDA02F0A05.subtitle}"
-			tasks: [{
-				id: "550B30AD7042137F"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:lore_fragment"
-					tag: {
-						display: { }
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: 16.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "78F852F9952817A0"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest78F852F9952817A0.subtitle}"
-			tasks: [{
-				id: "2826664017142E55"
-				item: "enigmaticlegacy:void_stone"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "03424A7A15507EBD"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest3424A7A15507EBD.subtitle}"
-			tasks: [{
-				id: "63383E6F26C59B09"
-				item: "enigmaticlegacy:recall_potion"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 17.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "203873B984D7F566"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest203873B984D7F566.subtitle}"
-			tasks: [{
-				id: "7644BE3D888A159B"
-				item: "enigmaticlegacy:extradimensional_eye"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "7D8EE79E04E932A3"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7D8EE79E04E932A3.subtitle}"
-			tasks: [{
-				id: "1A5360E4FDC6FB14"
-				item: "enigmaticlegacy:infinimeal"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 16.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "42A761E574B74D3C"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest42A761E574B74D3C.subtitle}"
-			tasks: [{
-				id: "62660DC4F238DC48"
-				item: {
-					Count: 1
-					id: "enigmaticaddons:extradimensional_scepter"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
+			title: "{ftbquests.chapter.enigmatic_legacy.quest63A69C14F6727467.title}"
 			x: 3.0d
-			y: 16.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "5B91776E989EBB4C"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5B91776E989EBB4C.subtitle}"
-			tasks: [{
-				id: "1298154DB9DD93A4"
-				item: {
-					Count: 1
-					id: "enigmaticaddons:quartz_scepter"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: 17.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "41818BD20DC4C176"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest41818BD20DC4C176.subtitle}"
-			tasks: [{
-				id: "06AB3E2C10150404"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:forbidden_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 17.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "53239CED2D9CC957"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest53239CED2D9CC957.subtitle}"
-			tasks: [{
-				id: "4EE0054F29977C76"
-				item: {
-					Count: 1
-					id: "enigmaticaddons:disaster_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: 18.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "76F550C3F4DA2886"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest76F550C3F4DA2886.subtitle}"
-			tasks: [{
-				id: "2EDA2B0489BEC109"
-				item: "enigmaticlegacy:unholy_grail"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 17.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "1BD146576CE0FDEF"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest1BD146576CE0FDEF.subtitle}"
-			tasks: [{
-				id: "11E3F9552B50FE3B"
-				item: "enigmaticlegacy:lore_inscriber"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 17.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "6855E0D1D14F57B2"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6855E0D1D14F57B2.subtitle}"
-			tasks: [{
-				id: "312A7D229515E1B2"
-				item: "enigmaticaddons:antique_bag"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "7A77A75C1DE40FB4"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7A77A75C1DE40FB4.subtitle}"
-			tasks: [{
-				id: "397491991D032BC0"
-				item: {
-					Count: 1
-					id: "enigmaticaddons:dragon_bow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 17.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "544B33FE3196E35B"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest544B33FE3196E35B.subtitle}"
-			tasks: [{
-				id: "521FA85EC7C2F271"
-				item: "enigmaticlegacy:mending_mixture"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 17.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "35BDB4F583629CCF"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest35BDB4F583629CCF.subtitle}"
-			tasks: [{
-				id: "67C864774F5581B8"
-				item: "enigmaticlegacy:ichor_bottle"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 18.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "58D953EAFE77BB1A"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest58D953EAFE77BB1A.subtitle}"
-			tasks: [{
-				id: "2C55FD4711BE36F0"
-				item: "enigmaticlegacy:soul_compass"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "65F5B2791E81AA6D"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest65F5B2791E81AA6D.subtitle}"
-			tasks: [{
-				id: "43D25BF95A328CD3"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:infernal_shield"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "642C07B8AC31E455"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest642C07B8AC31E455.subtitle}"
-			tasks: [{
-				id: "7962A3B910FC247D"
-				item: {
-					Count: 1
-					id: "enigmaticaddons:evil_dagger"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: 19.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "642242E190E9BFA4"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest642242E190E9BFA4.subtitle}"
-			tasks: [{
-				id: "66BE5C39C3BECBA8"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:ender_slayer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 6.5d
-			y: 17.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "4F2A8781B8A6E7BC"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4F2A8781B8A6E7BC.subtitle}"
-			tasks: [{
-				id: "4F90D521CA6FDEAA"
-				item: "enigmaticlegacy:abyssal_heart"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 17.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "787E1FDD5E126ECE"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest787E1FDD5E126ECE.subtitle}"
-			tasks: [{
-				id: "3A4D49856E62556E"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:eldritch_pan"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: 15.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "393A1814F9362C83"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest393A1814F9362C83.subtitle}"
-			tasks: [{
-				id: "5152956EC23FCA68"
-				item: "enigmaticlegacy:loot_generator"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 19.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "0179C55C8A291154"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest179C55C8A291154.subtitle}"
-			tasks: [{
-				id: "31D4F2AEAB6EA16D"
-				item: "enigmaticlegacy:redemption_potion"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 19.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "4CDE25E68780985F"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4CDE25E68780985F.subtitle}"
-			tasks: [{
-				id: "695B744B4680D5BD"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:deception_amulet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 18.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "4E1098110E3352E3"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4E1098110E3352E3.subtitle}"
-			tasks: [{
-				id: "6206947D1EB0C8B1"
-				item: {
-					Count: 1
-					id: "enigmaticaddons:chaos_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 6.5d
-			y: 18.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "20C95703B97AD05D"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest20C95703B97AD05D.subtitle}"
-			tasks: [{
-				id: "286BEBCBDEADF0E3"
-				item: "enigmaticaddons:primeval_cube"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "524E62112A7D0449"
-			shape: "square"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest524E62112A7D0449.subtitle}"
-			tasks: [{
-				id: "4AA8A4FFBBAA349B"
-				item: "enigmaticaddons:astral_potion"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "64A33C445BE06292"
-			shape: "square"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest64A33C445BE06292.subtitle}"
-			tasks: [{
-				id: "5CC1CE773519F64E"
-				item: "enigmaticlegacy:twisted_potion"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 12.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "28A668350AE84078"
-			shape: "square"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest28A668350AE84078.subtitle}"
-			tasks: [{
-				id: "6E42BB23F627B02E"
-				item: "enigmaticlegacy:astral_potato"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "6B930A43A2D42DEF"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6B930A43A2D42DEF.subtitle}"
-			tasks: [{
-				id: "070052177F7BB485"
-				item: "enigmaticdelicacy:cursed_soul_crystal"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "7710237C57E438B6"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7710237C57E438B6.subtitle}"
-			tasks: [{
-				id: "1B4E0669F6B091C3"
-				item: "enigmaticlegacy:enigmatic_item"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "12839E03F37B480A"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest12839E03F37B480A.subtitle}"
-			tasks: [{
-				id: "7D50169F625EDC2A"
-				item: "enigmaticlegacy:golem_heart"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 20.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "54453A8DEDCD886B"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest54453A8DEDCD886B.subtitle}"
-			tasks: [{
-				id: "0DD91BB0319C5E60"
-				item: "enigmaticlegacy:eye_of_nebula"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 21.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "4C11F417CF8B98B3"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4C11F417CF8B98B3.subtitle}"
-			tasks: [{
-				id: "474D4725D62CA799"
-				item: "enigmaticlegacy:blazing_core"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 21.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "6278C62EC4E816EE"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest6278C62EC4E816EE.subtitle}"
-			tasks: [{
-				id: "7D8CF581C8EE8696"
-				item: "enigmaticlegacy:void_pearl"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 20.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "26061FA07E309955"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest26061FA07E309955.subtitle}"
-			tasks: [{
-				id: "37BC4DB61D708662"
-				item: "enigmaticlegacy:ocean_stone"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 21.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "08B70E3FF0EDDA27"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest8B70E3FF0EDDA27.subtitle}"
-			tasks: [{
-				id: "03DB08F7A0B8FDBF"
-				item: "enigmaticlegacy:angel_blessing"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 21.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "086DC18C20496440"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest86DC18C20496440.subtitle}"
-			tasks: [{
-				id: "0EE72CA2E9420D3A"
-				item: "enigmaticaddons:forgotten_ice"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 18.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "243FCE35AD6A9C5F"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest243FCE35AD6A9C5F.subtitle}"
-			tasks: [{
-				id: "1156FE59E16EEA79"
-				item: "enigmaticaddons:revival_leaf"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "4D379BDFB36EE388"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4D379BDFB36EE388.subtitle}"
-			tasks: [{
-				id: "0904698C8145F329"
-				item: "enigmaticaddons:lost_engine"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 18.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "575F195A181DD2C0"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest575F195A181DD2C0.subtitle}"
-			tasks: [{
-				id: "41704B6F7C3EF0CE"
-				item: "enigmaticaddons:illusion_lantern"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "2E01BE1E79EACCCB"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2E01BE1E79EACCCB.subtitle}"
-			tasks: [{
-				id: "1B4CBA92284C5B03"
-				item: "enigmaticaddons:etherium_core"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 21.5d
-		}
-		{
-			dependencies: [
-				"12839E03F37B480A"
-				"2B49E79ABB521180"
-				"08B70E3FF0EDDA27"
-				"26061FA07E309955"
-				"2934409F297FC35B"
-				"1DF34C60DDABA0B6"
+			dependencies: ["18FE872D6A440319"]
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description3}"
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description4}"
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description5}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description7}"
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description8}"
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description9}"
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description10}"
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description11}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description12}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description13}"
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description14}"
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description15}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description16}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description17}"
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description18}"
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description19}"
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description20}"
+				"{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.description21}"
 			]
-			id: "5870E7A9BE71686E"
-			tasks: [{
-				id: "5E5F3C6E849A2B79"
-				item: "kubejs:broken_cube_piece_1"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 19.5d
-		}
-		{
-			dependencies: [
-				"6278C62EC4E816EE"
-				"7C7ECBDF10FBAD90"
-				"54453A8DEDCD886B"
-				"2E01BE1E79EACCCB"
-				"4C11F417CF8B98B3"
-				"1DF34C60DDABA0B6"
-			]
-			id: "60B08362C4C3943C"
-			tasks: [{
-				id: "5219CBF7B72D1BD6"
-				item: "kubejs:broken_cube_piece_2"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 19.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "7C7ECBDF10FBAD90"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7C7ECBDF10FBAD90.subtitle}"
-			tasks: [{
-				id: "05EF5CA3839FB37C"
-				item: "enigmaticlegacy:abyssal_heart"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 20.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "2934409F297FC35B"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2934409F297FC35B.subtitle}"
-			tasks: [{
-				id: "2FD4BD19BC1E0570"
-				item: "enigmaticaddons:etherium_core"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 21.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "2B49E79ABB521180"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2B49E79ABB521180.subtitle}"
-			tasks: [{
-				id: "122CAF773B05DFA1"
-				item: "enigmaticlegacy:abyssal_heart"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 20.5d
-		}
-		{
-			dependencies: [
-				"243FCE35AD6A9C5F"
-				"4D379BDFB36EE388"
-				"086DC18C20496440"
-				"60B08362C4C3943C"
-				"5870E7A9BE71686E"
-				"1DF34C60DDABA0B6"
-			]
-			description: ["{ftbquests.chapter.enigmatic_legacy.quest450FAC40CF9056BE.description1}"]
-			id: "450FAC40CF9056BE"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest450FAC40CF9056BE.subtitle}"
-			tasks: [{
-				id: "6B8BBD1AB574DC97"
-				item: "enigmaticlegacy:the_cube"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 18.0d
-		}
-		{
-			dependencies: ["25B57A361188BAB3"]
-			hide_dependency_lines: false
-			id: "12A55B549C0DA083"
-			rewards: [{
-				id: "06A0CB3C00C375B5"
-				item: "enigmaticlegacy:earth_heart"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "1AEA6A2562B2AB5F"
-				item: "naturesaura:nature_altar"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["12A55B549C0DA083"]
-			hide_dependency_lines: false
 			id: "5782089F4989B165"
+			min_width: 350
 			rewards: [{
 				id: "1B780E13B0BDC9DD"
 				item: "enigmaticlegacy:earth_heart"
 				type: "item"
 			}]
-			shape: "square"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.subtitle}"
 			tasks: [{
 				id: "20DECD284A73182E"
 				item: "enigmaticlegacy:earth_heart"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.0d
+			title: "{ftbquests.chapter.enigmatic_legacy.quest5782089F4989B165.title}"
+			x: 0.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "14CD90939DDC7470"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest14CD90939DDC7470.subtitle}"
+			dependencies: ["5782089F4989B165"]
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest5E6E81DC51548475.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5E6E81DC51548475.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5E6E81DC51548475.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest5E6E81DC51548475.description4}"
+			]
+			id: "5E6E81DC51548475"
+			min_width: 330
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5E6E81DC51548475.subtitle}"
 			tasks: [{
-				id: "7C3AB20CB821525E"
-				item: "covenant_of_the_seven:serendipity_feast"
+				id: "5E25E09E455F2BC8"
+				item: "enigmaticaddons:earth_heart_fragment"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 15.5d
+			title: "{ftbquests.chapter.enigmatic_legacy.quest5E6E81DC51548475.title}"
+			x: -1.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "0323DE80B83B7249"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest323DE80B83B7249.subtitle}"
+			dependencies: ["5782089F4989B165"]
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description3}"
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description4}"
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description5}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description8}"
+				""
+				"[\"\",{\"color\":\"#FF8A8A\",\"underlined\":true,\"translate\":\"ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3430F8495290E34C\"}}]"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description10}"
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description11}"
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description12}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description13}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description14}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description15}"
+				""
+				"[\"\",{\"color\":\"#FFE9A8\",\"underlined\":true,\"translate\":\"ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2482696E9E09D728\"}}]"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description17}"
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description18}"
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description19}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.description20}"
+			]
+			icon: "enigmaticlegacy:enigmatic_eye"
+			id: "2C3B2E755434DE67"
+			min_width: 360
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.subtitle}"
 			tasks: [{
-				id: "402C11BF61293B90"
-				item: "covenant_of_the_seven:melodious_harmony"
-				type: "item"
+				id: "52B620B27C0A9F29"
+				title: "{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.task.5959987107828768553.title}"
+				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 16.0d
+			title: "{ftbquests.chapter.enigmatic_legacy.quest2C3B2E755434DE67.title}"
+			x: 0.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "0C9D3679760D48F9"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.questC9D3679760D48F9.subtitle}"
-			tasks: [{
-				id: "0D807C21019439CC"
-				item: "covenant_of_the_seven:annointed_handward"
-				type: "item"
+			dependencies: ["2C3B2E755434DE67"]
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description4}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description5}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description8}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description9}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description10}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description11}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description12}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description13}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description14}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description15}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description16}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description17}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description18}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description19}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description20}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description21}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description22}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description23}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description24}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description25}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description26}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description27}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description28}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description29}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description30}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description31}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description32}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description33}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description34}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description35}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description36}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description37}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description38}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description39}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description40}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description41}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description42}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description43}"
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description44}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.description45}"
+			]
+			hide_dependency_lines: false
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "7C1409F2EE726A20"
+			min_width: 420
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62FCC68FDA48E08B"
+				table_id: 2501998888776764148L
+				type: "random"
 			}]
-			x: -7.0d
-			y: 16.0d
+			shape: "gear"
+			size: 1.75d
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.subtitle}"
+			tasks: [{
+				advancement: "enigmaticlegacy:main/cursed_ring"
+				criterion: ""
+				id: "2B84EF38A06D7173"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.enigmatic_legacy.quest7C1409F2EE726A20.title}"
+			x: 2.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "424CD132B689387E"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest424CD132B689387E.subtitle}"
-			tasks: [{
-				id: "1617E519C6EA8762"
-				item: "covenant_of_the_seven:rebirth_egg"
-				type: "item"
+			dependencies: ["2C3B2E755434DE67"]
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description4}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description5}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description8}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description9}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description10}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description11}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description12}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description13}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description14}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description15}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description16}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description17}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description18}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description19}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description20}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description21}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description22}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description23}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description24}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description25}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description26}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description27}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description28}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description29}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description30}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description31}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description32}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description33}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description34}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description35}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description36}"
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description37}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.description38}"
+			]
+			hide_dependency_lines: false
+			icon: "covenant_of_the_seven:virtue_ring"
+			id: "25B57A361188BAB3"
+			min_width: 420
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "198EBB8A0562DAA5"
+				table_id: 2501998888776764148L
+				type: "random"
 			}]
-			x: -4.0d
-			y: 15.0d
+			shape: "gear"
+			size: 1.75d
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.subtitle}"
+			tasks: [{
+				advancement: "covenant_of_the_seven:ring_of_the_seven_virtues"
+				criterion: ""
+				id: "36AA33D3E98FA95E"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.enigmatic_legacy.quest25B57A361188BAB3.title}"
+			x: -2.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "5FACF4DC370F191D"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5FACF4DC370F191D.subtitle}"
+			dependencies: [
+				"7C1409F2EE726A20"
+				"25B57A361188BAB3"
+			]
+			description: [
+				"{ftbquests.chapter.enigmatic_legacy.quest73A1FA8A14EF4237.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest73A1FA8A14EF4237.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest73A1FA8A14EF4237.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest73A1FA8A14EF4237.description4}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest73A1FA8A14EF4237.description5}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest73A1FA8A14EF4237.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_legacy.quest73A1FA8A14EF4237.description7}"
+				"{ftbquests.chapter.enigmatic_legacy.quest73A1FA8A14EF4237.description8}"
+			]
+			hide_dependency_lines: true
+			icon: "enigmaticaddons:broken_ring"
+			id: "73A1FA8A14EF4237"
+			min_width: 340
+			optional: true
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest73A1FA8A14EF4237.subtitle}"
 			tasks: [{
-				id: "48E83B33624C6595"
-				item: "covenant_of_the_seven:mnestia_raiment"
-				type: "item"
+				id: "57B574FF5DEF6EE0"
+				title: "{ftbquests.chapter.enigmatic_legacy.quest73A1FA8A14EF4237.task.6320086292225814240.title}"
+				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "52F9F43E737A777F"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest52F9F43E737A777F.subtitle}"
-			tasks: [{
-				id: "5B8B8A7E77AFA806"
-				item: "covenant_of_the_seven:hallowed_steps"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 19.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "5D728979987BBA27"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest5D728979987BBA27.subtitle}"
-			tasks: [{
-				id: "25646CB0FC0D4203"
-				item: "covenant_of_the_seven:deliverance_albarest"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 19.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "0C34BF60C19E626C"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.questC34BF60C19E626C.subtitle}"
-			tasks: [{
-				id: "6BEA7311C29D64FD"
-				item: "covenant_of_the_seven:all_seeing_eye"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 15.5d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "0B14F71F5D42F3DA"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.questB14F71F5D42F3DA.subtitle}"
-			tasks: [{
-				id: "78B2A822984AAC83"
-				item: "covenant_of_the_seven:broken_mask"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 20.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "4323D874A67BB566"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest4323D874A67BB566.subtitle}"
-			tasks: [{
-				id: "2028B69A5CAE30D4"
-				item: "covenant_of_the_seven:inversion"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 19.0d
-		}
-		{
-			dependencies: ["1DF34C60DDABA0B6"]
-			id: "7327D16EC0A90842"
-			subtitle: "{ftbquests.chapter.enigmatic_legacy.quest7327D16EC0A90842.subtitle}"
-			tasks: [{
-				id: "44F30F3A721A44BF"
-				item: "covenant_of_the_seven:consecration"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 19.0d
+			title: "{ftbquests.chapter.enigmatic_legacy.quest73A1FA8A14EF4237.title}"
+			x: 0.0d
+			y: 8.0d
 		}
 	]
 	title: "{ftbquests.chapter.enigmatic_legacy.title}"

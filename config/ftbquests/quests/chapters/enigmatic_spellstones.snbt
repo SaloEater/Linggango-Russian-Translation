@@ -1,0 +1,545 @@
+{
+	autofocus_id: "2385CE29294FCC4D"
+	default_hide_dependency_lines: false
+	default_min_width: 330
+	default_quest_shape: "square"
+	filename: "enigmatic_spellstones"
+	group: "0361FC25A57730F8"
+	icon: "enigmaticlegacy:eye_of_nebula"
+	id: "6895F81092608B77"
+	images: [
+		{
+			alpha: 60
+			height: 1.7d
+			image: "enigmaticlegacy:item/golem_heart"
+			rotation: -15.0d
+			width: 1.7d
+			x: -6.4d
+			y: 0.6d
+		}
+		{
+			alpha: 60
+			height: 1.7d
+			image: "enigmaticlegacy:item/blazing_core"
+			rotation: 15.0d
+			width: 1.7d
+			x: 6.4d
+			y: 0.6d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: [
+				"ftbquests.chapter.enigmatic_spellstones.image.hovertext1"
+				"ftbquests.chapter.enigmatic_spellstones.image.hovertext2"
+				"ftbquests.chapter.enigmatic_spellstones.image.hovertext3"
+				"ftbquests.chapter.enigmatic_spellstones.image.hovertext4"
+			]
+			image: "fancymenu:textures/buddy/gui/button_close_normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "enigmaticlegacy:item/enchanter_pearl"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 6
+	parent: "31575DEBB2A21CCD"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description3}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description8}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description9}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description10}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description11}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description12}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description13}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description14}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description15}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description16}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.description17}"
+			]
+			icon: "enigmaticlegacy:enigmatic_item"
+			id: "2385CE29294FCC4D"
+			min_width: 350
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.subtitle}"
+			tasks: [{
+				id: "50EEBE3454136602"
+				title: "{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.task.5831807699449505282.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest2385CE29294FCC4D.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2385CE29294FCC4D"]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest8B70E3FF0EDDA27.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest8B70E3FF0EDDA27.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest8B70E3FF0EDDA27.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest8B70E3FF0EDDA27.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest8B70E3FF0EDDA27.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest8B70E3FF0EDDA27.description6}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest8B70E3FF0EDDA27.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest8B70E3FF0EDDA27.description8}"
+			]
+			id: "08B70E3FF0EDDA27"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest8B70E3FF0EDDA27.subtitle}"
+			tasks: [{
+				id: "03DB08F7A0B8FDBF"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest8B70E3FF0EDDA27.title}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2385CE29294FCC4D"]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest12839E03F37B480A.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest12839E03F37B480A.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest12839E03F37B480A.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest12839E03F37B480A.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest12839E03F37B480A.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest12839E03F37B480A.description6}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest12839E03F37B480A.description7}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest12839E03F37B480A.description8}"
+			]
+			id: "12839E03F37B480A"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest12839E03F37B480A.subtitle}"
+			tasks: [{
+				id: "7D50169F625EDC2A"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest12839E03F37B480A.title}"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2385CE29294FCC4D"]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest26061FA07E309955.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest26061FA07E309955.description2}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest26061FA07E309955.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest26061FA07E309955.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest26061FA07E309955.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest26061FA07E309955.description6}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest26061FA07E309955.description7}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest26061FA07E309955.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest26061FA07E309955.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest26061FA07E309955.description10}"
+			]
+			id: "26061FA07E309955"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest26061FA07E309955.subtitle}"
+			tasks: [{
+				id: "37BC4DB61D708662"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest26061FA07E309955.title}"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2385CE29294FCC4D"]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest4C11F417CF8B98B3.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest4C11F417CF8B98B3.description2}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4C11F417CF8B98B3.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4C11F417CF8B98B3.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4C11F417CF8B98B3.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4C11F417CF8B98B3.description6}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4C11F417CF8B98B3.description7}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4C11F417CF8B98B3.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest4C11F417CF8B98B3.description9}"
+			]
+			id: "4C11F417CF8B98B3"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest4C11F417CF8B98B3.subtitle}"
+			tasks: [{
+				id: "474D4725D62CA799"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest4C11F417CF8B98B3.title}"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2385CE29294FCC4D"]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest54453A8DEDCD886B.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest54453A8DEDCD886B.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest54453A8DEDCD886B.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest54453A8DEDCD886B.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest54453A8DEDCD886B.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest54453A8DEDCD886B.description6}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest54453A8DEDCD886B.description7}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest54453A8DEDCD886B.description8}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest54453A8DEDCD886B.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest54453A8DEDCD886B.description10}"
+			]
+			id: "54453A8DEDCD886B"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest54453A8DEDCD886B.subtitle}"
+			tasks: [{
+				id: "0DD91BB0319C5E60"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest54453A8DEDCD886B.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54453A8DEDCD886B"]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.description6}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.description7}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.description8}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.description9}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.description10}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.description11}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.description12}"
+			]
+			id: "6278C62EC4E816EE"
+			min_width: 350
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.subtitle}"
+			tasks: [{
+				id: "7D8CF581C8EE8696"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest6278C62EC4E816EE.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2385CE29294FCC4D"]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest86DC18C20496440.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest86DC18C20496440.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest86DC18C20496440.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest86DC18C20496440.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest86DC18C20496440.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest86DC18C20496440.description6}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest86DC18C20496440.description7}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest86DC18C20496440.description8}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest86DC18C20496440.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest86DC18C20496440.description10}"
+			]
+			id: "086DC18C20496440"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest86DC18C20496440.subtitle}"
+			tasks: [{
+				id: "0EE72CA2E9420D3A"
+				item: "enigmaticaddons:forgotten_ice"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest86DC18C20496440.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12839E03F37B480A"]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.description2}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.description6}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.description7}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.description8}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.description9}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.description10}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.description11}"
+			]
+			id: "4D379BDFB36EE388"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.subtitle}"
+			tasks: [{
+				id: "0904698C8145F329"
+				item: "enigmaticaddons:lost_engine"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest4D379BDFB36EE388.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26061FA07E309955"]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest243FCE35AD6A9C5F.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest243FCE35AD6A9C5F.description2}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest243FCE35AD6A9C5F.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest243FCE35AD6A9C5F.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest243FCE35AD6A9C5F.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest243FCE35AD6A9C5F.description6}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest243FCE35AD6A9C5F.description7}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest243FCE35AD6A9C5F.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest243FCE35AD6A9C5F.description9}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest243FCE35AD6A9C5F.description10}"
+			]
+			id: "243FCE35AD6A9C5F"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest243FCE35AD6A9C5F.subtitle}"
+			tasks: [{
+				id: "1156FE59E16EEA79"
+				item: "enigmaticaddons:revival_leaf"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest243FCE35AD6A9C5F.title}"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C11F417CF8B98B3"]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest575F195A181DD2C0.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest575F195A181DD2C0.description2}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest575F195A181DD2C0.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest575F195A181DD2C0.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest575F195A181DD2C0.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest575F195A181DD2C0.description6}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest575F195A181DD2C0.description7}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest575F195A181DD2C0.description8}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest575F195A181DD2C0.description9}"
+			]
+			id: "575F195A181DD2C0"
+			min_width: 340
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest575F195A181DD2C0.subtitle}"
+			tasks: [{
+				id: "41704B6F7C3EF0CE"
+				item: "enigmaticaddons:illusion_lantern"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest575F195A181DD2C0.title}"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12839E03F37B480A"]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.description6}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.description7}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.description8}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.description9}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.description10}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.description11}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.description12}"
+			]
+			id: "2E01BE1E79EACCCB"
+			min_width: 350
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.subtitle}"
+			tasks: [{
+				id: "1B4CBA92284C5B03"
+				item: "enigmaticaddons:etherium_core"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest2E01BE1E79EACCCB.title}"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2E01BE1E79EACCCB"
+				"4D379BDFB36EE388"
+			]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest5870E7A9BE71686E.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest5870E7A9BE71686E.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest5870E7A9BE71686E.description3}"
+			]
+			id: "5870E7A9BE71686E"
+			min_width: 320
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest5870E7A9BE71686E.subtitle}"
+			tasks: [{
+				id: "5E5F3C6E849A2B79"
+				item: "linggango_tweaks:broken_cube_piece_1"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest5870E7A9BE71686E.title}"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"575F195A181DD2C0"
+				"243FCE35AD6A9C5F"
+			]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest60B08362C4C3943C.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest60B08362C4C3943C.description2}"
+			]
+			id: "60B08362C4C3943C"
+			min_width: 320
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest60B08362C4C3943C.subtitle}"
+			tasks: [{
+				id: "5219CBF7B72D1BD6"
+				item: "linggango_tweaks:broken_cube_piece_2"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest60B08362C4C3943C.title}"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5870E7A9BE71686E"
+				"60B08362C4C3943C"
+			]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description5}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description6}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description7}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description8}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description9}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description10}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description11}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description12}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description13}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description14}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description15}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description16}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description17}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description18}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description19}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description20}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description21}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description22}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.description23}"
+			]
+			id: "450FAC40CF9056BE"
+			min_width: 400
+			shape: "star"
+			size: 1.75d
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.subtitle}"
+			tasks: [{
+				id: "6B8BBD1AB574DC97"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest450FAC40CF9056BE.title}"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["450FAC40CF9056BE"]
+			description: [
+				"{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.description1}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.description2}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.description3}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.description4}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.description5}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.description6}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.description7}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.description8}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.description9}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.description10}"
+				"{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.description11}"
+				""
+				"{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.description12}"
+			]
+			id: "7710237C57E438B6"
+			min_width: 400
+			shape: "star"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.subtitle}"
+			tasks: [{
+				id: "1B4E0669F6B091C3"
+				item: "enigmaticlegacy:enigmatic_item"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.enigmatic_spellstones.quest7710237C57E438B6.title}"
+			x: 0.0d
+			y: 8.5d
+		}
+	]
+	title: "{ftbquests.chapter.enigmatic_spellstones.title}"
+}
