@@ -1,0 +1,20 @@
+{
+  "mezz_config.config.defaultValue": "Значение по умолчанию: %s",
+  "mezz_config.config.description": "Описание: %s",
+  "mezz_config.config.fileWatcher": "Отслеживание файлов",
+  "mezz_config.config.fileWatcher.changeSettlingDelayMilliseconds": "Задержка применения изменений",
+  "mezz_config.config.fileWatcher.changeSettlingDelayMilliseconds.description": "Время ожидания (в миллисекундах) после последнего события файловой системы перед перезагрузкой изменённых файлов конфигурации.",
+  "mezz_config.config.fileWatcher.description": "Управляет автоматическим отслеживанием файлов конфигурации и временем их перезагрузки.",
+  "mezz_config.config.fileWatcher.enabled": "Автоматическое отслеживание файлов",
+  "mezz_config.config.fileWatcher.enabled.description": "Автоматически отслеживать файлы конфигурации и перезагружать их при изменении вне игры.",
+  "mezz_config.config.fileWatcher.missingDirectoryRetryIntervalMilliseconds": "Интервал повторных попыток для отсутствующей директории",
+  "mezz_config.config.fileWatcher.missingDirectoryRetryIntervalMilliseconds.description": "Интервал (в миллисекундах) между попытками начать отслеживание директорий конфигурации, которые ещё не существуют.",
+  "mezz_config.config.logging": "Логирование",
+  "mezz_config.config.logging.description": "Управляет дополнительным диагностическим логированием MezzConfig.",
+  "mezz_config.config.logging.logUntranslatedKeys": "Логировать непереведённые ключи",
+  "mezz_config.config.logging.logUntranslatedKeys.description": "Логировать ключи локализации категорий и значений, отсутствующие в активном языке. По умолчанию включено в среде разработки.",
+  "mezz_config.config.name": "Имя: %s",
+  "mezz_config.config.requiresGameRestart": "Требуется перезапуск игры для применения.",
+  "mezz_config.config.requiresWorldRestart": "Требуется перезапуск мира для применения.",
+  "mezz_config.config.valueValues": "Допустимые значения: %s"
+}

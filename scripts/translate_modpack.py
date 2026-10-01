@@ -776,6 +776,36 @@ class RateLimiter:
             time.sleep(wait)
 
 
+def format_duration(seconds):
+    """Compact duration: 45s, 12m05s, 2h07m."""
+    seconds = int(round(seconds))
+    if seconds < 60:
+        return f'{seconds}s'
+    minutes, secs = divmod(seconds, 60)
+    if minutes < 60:
+        return f'{minutes}m{secs:02d}s'
+    hours, minutes = divmod(minutes, 60)
+    return f'{hours}h{minutes:02d}m'
+
+
+def format_progress(done, total, elapsed):
+    """Progress line from chunk counts alone: done/total, speed, elapsed, time left.
+
+    Speed is chunks finished per wall-clock minute since the run started, so it
+    already includes worker overlap, the request spacing, retries and cooldowns.
+    """
+    percent = 100 * done // total if total else 100
+    per_min = done / elapsed * 60 if elapsed > 0 else 0.0
+    if done >= total:
+        eta = 'done'
+    elif per_min > 0:
+        eta = '~' + format_duration((total - done) / per_min * 60) + ' left'
+    else:
+        eta = 'ETA unknown'
+    return (f'[{done}/{total} chunks · {percent}% · {per_min:.1f} chunks/min · '
+            f'elapsed {format_duration(elapsed)} · {eta}]')
+
+
 def _call_with_retry(fn, rate, retries, backoff_base, label=''):
     """Run fn() honoring the rate limiter, retrying transient errors.
 
@@ -908,6 +938,9 @@ def run_translate(cfg, args):
             return applied
 
     total_translated = 0
+    total_chunks = len(tasks)
+    done_chunks = 0
+    started = time.monotonic()
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {pool.submit(do_task, t): t for t in tasks}
         for fut in concurrent.futures.as_completed(futures):
@@ -916,6 +949,8 @@ def run_translate(cfg, args):
                 total_translated += fut.result()
             except TRANSLATE_ERRORS as e:
                 log(f'{task["label"]}: FAILED ({e})')
+            done_chunks += 1
+            log('  ' + format_progress(done_chunks, total_chunks, time.monotonic() - started))
 
     print(f'\nDone. {total_translated}/{total_keys} keys translated across {len(file_state)} files.')
     if total_translated < total_keys:
