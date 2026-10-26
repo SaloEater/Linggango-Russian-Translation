@@ -1,5 +1,5 @@
 {
-  "name": "Divination Ritual",
+  "name": "Ритуал прорицания",
   "icon": "goety:crystal_ball",
   "category": "goety:rituals",
   "advancement": "goety:goety/get_crystal_ball",
@@ -8,7 +8,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Requirements: $(li)1 Crystal Ball $(li)16 Lit Candles $(li)1 Skeleton Skull"
+      "text": "Требования: $(li)1 хрустальный шар $(li)16 зажжённых свечей $(li)1 череп"
     },
     {
       "type": "patchouli:image",
@@ -16,11 +16,11 @@
         "goety:textures/gui/entries/divination_ritual.png"
       ],
       "border": true,
-      "text": "An example of how the ritual can be placed."
+      "text": "Пример того, как можно провести ритуал."
     },
     {
       "type": "patchouli:text",
-      "text": "The word 'Necromancy' refers to the art of divination through spirits of the dead. Using the power of souls, you are able to perform rituals that can reveal locations of certain areas to you."
+      "text": "Слово «некромантия» относится к искусству гадания с помощью духов умерших. Используя энергию душ, можно совершать ритуалы, раскрывающие местонахождение некоторых структур."
     },
     {
       "type": "goety:ritual",
@@ -45,18 +45,6 @@
     {
       "type": "goety:ritual",
       "recipe": "goety:locate/woodland_mansion"
-    },
-    {
-      "type": "goety:ritual",
-      "recipe": "goety:locate/nether/fortress"
-    },
-    {
-      "type": "goety:ritual",
-      "recipe": "goety:locate/nether/bastion_remnant"
-    },
-    {
-      "type": "goety:ritual",
-      "recipe": "goety:locate/end/end_city"
     }
   ]
 }

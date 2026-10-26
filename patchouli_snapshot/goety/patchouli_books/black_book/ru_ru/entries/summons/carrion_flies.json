@@ -1,15 +1,15 @@
 {
-  "name": "Carrion Flies",
+  "name": "Мухи-падальщики",
   "icon": "minecraft:rotten_flesh",
   "category": "goety:summons",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Some flies, when feeding upon the rotten flesh of the dead, can become enchanted with necrotic energies into becoming larger and ferocious."
+      "text": "Некоторых мух, питающихся гнилой плотью, можно зачаровать некротической энергией, чтобы они становились крупнее и свирепее."
     },
     {
       "type": "patchouli:text",
-      "text": "Upon killing an creature, they spawn giant maggots, potentially more of them if the creature has high enough max health, that share their current lifespan if the have one, that will also turn into a Carrion Fly upon killing a creature. One can call upon a swarm of them through the use of a $(l:focuses/wild/carrion_focus)Carrion Focus$(), or through a ritual which summons one without a limited lifespan."
+      "text": "Убивая существо, они порождают гигантских личинок. Потенциально их может быть больше, если у существа достаточно высокое максимальное здоровье; настолько, что личинки-падальщики тоже вырастут в мух-падальщиков, порождающих новые личинки. Можно вызвать рой мух с помощью $(l:focuses/wild/carrion_focus)фокуса личинок$() или ритуала, который призывает медведя с неограниченным сроком жизни."
     },
     {
       "type": "goety:ritual",
@@ -20,12 +20,8 @@
       "entity": "goety:carrion_fly"
     },
     {
-      "type": "patchouli:entity",
-      "entity": "goety:carrion_maggot"
-    },
-    {
       "type": "patchouli:text",
-      "text": "They can, on harder difficulties, move through walls for some reason. Right-clicking on a loyal Carrion Fly with meat will heal them, though on Carrion Maggots, it will cause them to cocoon before they transform into a Carrion Fly."
+      "text": "На более высоких сложностях они могут по какой-то причине проходить сквозь стены. Нажатие ПКМ по мухе-падальщику мясом исцелит её, а по личинке-падальщику — заставит её свернуться в кокон, чтобы превратиться в муху."
     }
   ]
 }

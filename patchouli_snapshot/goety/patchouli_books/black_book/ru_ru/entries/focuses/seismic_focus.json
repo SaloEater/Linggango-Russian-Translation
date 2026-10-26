@@ -1,0 +1,22 @@
+{
+  "name": "Seismic Focus",
+  "icon": "goetyawaken:seismic_focus",
+  "category": "goety:goetyawaken_focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "With this focus, you can raise a $(thing)Seismic Monolith$() at the spot you are looking at. The Seismic Monolith draws power from the ley lines to charge itself, and once fully charged, releases that power into the earth, creating a ring of seismic waves that spreads along the ground and knocks enemies on the ground off their feet!"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goetyawaken:seismic_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Seismic Monolith will occasionally crack apart from its own violent tremors. Casting with wands of different spell types will cause the monolith to take on different elemental forms, and the seismic waves it creates will also carry the properties of those elements. When the Seismic Monolithis affected by seismic waves of another Seismic Monolith, it absorbs power from them, increasing its charge progress."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetyawaken:seismic_focus": 1
+  }
+}
