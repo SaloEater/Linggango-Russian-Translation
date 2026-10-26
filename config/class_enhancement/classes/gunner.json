@@ -1,0 +1,85 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.gunner.name",
+    "fallback": "Gunner"
+  },
+  "description": {
+    "translate": "class_enhancement.class.gunner.description",
+    "fallback": "A sharpshooter who relies on gunpowder rather than bows."
+  },
+  "icon": "terramity:flintlock_pistol",
+  "color": "#FFCC33",
+  "order": 180,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.gunner.stat.0",
+      "fallback": "§6+5% Width"
+    },
+    {
+      "translate": "class_enhancement.class.gunner.stat.1",
+      "fallback": "§a+50% Gun Damage"
+    },
+    {
+      "translate": "class_enhancement.class.gunner.stat.2",
+      "fallback": "§a+10% Ranged Resistance"
+    },
+    {
+      "translate": "class_enhancement.class.gunner.stat.3",
+      "fallback": "§c-25% Melee Damage"
+    },
+    {
+      "translate": "class_enhancement.class.gunner.stat.4",
+      "fallback": "§c-1 Heart"
+    }
+  ],
+  "attributes": [
+    "linggango_tweaks:gun_damage=5.0:addition",
+    "puffish_attributes:ranged_resistance=0.1:multiply_base",
+    "puffish_attributes:melee_damage=-0.25:multiply_base",
+    "minecraft:generic.max_health=-2.0:addition"
+  ],
+  "main_hand": "terramity:flintlock_pistol=1",
+  "armor": [
+    "minecraft:leather_chestplate=1"
+  ],
+  "items": [
+    "minecraft:iron_nugget=32"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.05 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:explosive_shot",
+    "name": {
+      "translate": "class_enhancement.class.gunner.skill.name",
+      "fallback": "Explosive Shot"
+    },
+    "icon": "terramity:gold_round",
+    "cooldown": "30s",
+    "description": {
+      "translate": "class_enhancement.class.gunner.skill.description",
+      "fallback": "Loads an explosive round for 5s. Your next gun hit deals 20% more and splashes fire damage onto mobs within 3.5 blocks: full damage at the center, half at the edge. Everything hit catches fire."
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.gunner.passive.0.name",
+        "fallback": "Attuned: Fire"
+      },
+      "description": {
+        "translate": "class_enhancement.class.gunner.passive.0.description",
+        "fallback": "Your hits also count as Fire at half strength: +12% against mobs weak to Fire, +25% when boosted, never resisted. Scorch builds 50% faster for you."
+      },
+      "params": {
+        "kind": "fire",
+        "strength": 0.5,
+        "buildup": 1.5
+      }
+    }
+  ]
+}

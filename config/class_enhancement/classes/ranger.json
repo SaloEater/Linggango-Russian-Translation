@@ -1,0 +1,103 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.ranger.name",
+    "fallback": "Pathfinder"
+  },
+  "description": {
+    "translate": "class_enhancement.class.ranger.description",
+    "fallback": "You are a master of ranged combat. Not close."
+  },
+  "color": "#44BB66",
+  "order": 20,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.ranger.stat.0",
+      "fallback": "§6-20% Width"
+    },
+    {
+      "translate": "class_enhancement.class.ranger.stat.1",
+      "fallback": "§a+30% Ranged Damage"
+    },
+    {
+      "translate": "class_enhancement.class.ranger.stat.2",
+      "fallback": "§a+50% Draw Speed"
+    },
+    {
+      "translate": "class_enhancement.class.ranger.stat.3",
+      "fallback": "§a+20% Arrow Velocity"
+    },
+    {
+      "translate": "class_enhancement.class.ranger.stat.4",
+      "fallback": "§a+10% Speed"
+    },
+    {
+      "translate": "class_enhancement.class.ranger.stat.5",
+      "fallback": "§a-15% Roll Cooldown"
+    },
+    {
+      "translate": "class_enhancement.class.ranger.stat.6",
+      "fallback": "§c-30% Melee Damage"
+    },
+    {
+      "translate": "class_enhancement.class.ranger.stat.7",
+      "fallback": "§c-1 Heart"
+    }
+  ],
+  "attributes": [
+    "puffish_attributes:ranged_damage=0.3:multiply_base",
+    "attributeslib:draw_speed=0.5:multiply_base",
+    "attributeslib:arrow_velocity=0.2:multiply_base",
+    "minecraft:generic.movement_speed=0.1:multiply_base",
+    "linggango_tweaks:roll_recharge=0.176:multiply_base",
+    "puffish_attributes:melee_damage=-0.3:multiply_base",
+    "minecraft:generic.max_health=-2.0:addition"
+  ],
+  "main_hand": "minecraft:bow=1",
+  "armor": [
+    "immersive_armors:bone_helmet=1",
+    "immersive_armors:bone_chestplate=1",
+    "immersive_armors:bone_leggings=1",
+    "immersive_armors:bone_boots=1"
+  ],
+  "items": [
+    "minecraft:arrow=64"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 0.8 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:focus",
+    "name": {
+      "translate": "class_enhancement.class.ranger.skill.name",
+      "fallback": "Focus"
+    },
+    "icon": "minecraft:arrow",
+    "stacks": 5,
+    "cooldown": "5s",
+    "description": {
+      "translate": "class_enhancement.class.ranger.skill.description",
+      "fallback": "Arrow hits add a Focus stack, up to 5. Each stack adds 8% arrow damage. Taking damage clears them. Press to spend every stack: your next arrow pierces 3 targets and deals 15% more per stack spent."
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.ranger.passive.0.name",
+        "fallback": "Attuned: Frost"
+      },
+      "description": {
+        "translate": "class_enhancement.class.ranger.passive.0.description",
+        "fallback": "Your hits also count as Frost at half strength: +12% against mobs weak to Frost, +25% when boosted, never resisted. Frostbite builds 50% faster for you."
+      },
+      "params": {
+        "kind": "frost",
+        "strength": 0.5,
+        "buildup": 1.5
+      }
+    }
+  ]
+}

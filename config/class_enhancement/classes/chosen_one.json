@@ -1,0 +1,143 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.chosen_one.name",
+    "fallback": "The Chosen One"
+  },
+  "description": {
+    "translate": "class_enhancement.class.chosen_one.description",
+    "fallback": "Chaos picked you. Hunt what it sends, and take what it drops."
+  },
+  "icon": "minecraft:totem_of_undying",
+  "color": "#B266FF",
+  "order": 260,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.chosen_one.stat.0",
+      "fallback": "§a+10% Max Health"
+    },
+    {
+      "translate": "class_enhancement.class.chosen_one.stat.1",
+      "fallback": "§a+7% Melee Damage"
+    },
+    {
+      "translate": "class_enhancement.class.chosen_one.stat.2",
+      "fallback": "§a+7% Ranged Damage"
+    },
+    {
+      "translate": "class_enhancement.class.chosen_one.stat.3",
+      "fallback": "§a+7% Spell Power"
+    },
+    {
+      "translate": "class_enhancement.class.chosen_one.stat.4",
+      "fallback": "§c-7 Luck"
+    }
+  ],
+  "attributes": [
+    "minecraft:generic.max_health=0.1:multiply_base",
+    "puffish_attributes:melee_damage=0.07:multiply_base",
+    "puffish_attributes:ranged_damage=0.07:multiply_base",
+    "irons_spellbooks:spell_power=0.07:multiply_base",
+    "minecraft:generic.luck=-7.0:addition"
+  ],
+  "main_hand": "minecraft:stone_sword=1",
+  "items": [
+    "minecraft:totem_of_undying=1",
+    "minecraft:bread=5"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:chosen_prey",
+    "name": {
+      "translate": "class_enhancement.class.chosen_one.skill.name",
+      "fallback": "Chosen Prey"
+    },
+    "icon": "minecraft:ender_eye",
+    "cooldown": "60s",
+    "description": {
+      "translate": "class_enhancement.class.chosen_one.skill.description",
+      "fallback": "Marks the highest level mob you can see within 16 blocks for 15s. You deal 77% more damage to it and heal for 7% of the damage you deal to it. Everything else hits you 25% harder while the mark lasts."
+    },
+    "params": {
+      "radius": 16.0,
+      "ticks": 300,
+      "damage": 0.77,
+      "heal": 0.07,
+      "taken": 0.25
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:hostility_hunter",
+      "name": {
+        "translate": "class_enhancement.class.chosen_one.passive.0.name",
+        "fallback": "Hunter"
+      },
+      "icon": "minecraft:iron_sword",
+      "description": {
+        "translate": "class_enhancement.class.chosen_one.passive.0.description",
+        "fallback": "You deal 10% more damage to mobs with a Hostility level, and they drop 50% more Hostility loot when you kill them."
+      },
+      "params": {
+        "damage": 0.1,
+        "loot": 1.5
+      }
+    },
+    {
+      "id": "linggango_tweaks:unshaken",
+      "name": {
+        "translate": "class_enhancement.class.chosen_one.passive.1.name",
+        "fallback": "Unshaken"
+      },
+      "icon": "minecraft:shield",
+      "description": {
+        "translate": "class_enhancement.class.chosen_one.passive.1.description",
+        "fallback": "Hostility traits hit you half as hard: Reflect and Killer Aura deal half damage, harmful effects from Hostility mobs last half as long, and Dementor and Dispel only resist half as much of your damage."
+      },
+      "params": {
+        "trait_damage": 0.5,
+        "effects": 0.5,
+        "legendary": 0.5
+      }
+    },
+    {
+      "id": "linggango_tweaks:marked_by_chaos",
+      "name": {
+        "translate": "class_enhancement.class.chosen_one.passive.2.name",
+        "fallback": "Marked by Chaos"
+      },
+      "icon": "minecraft:wither_skeleton_skull",
+      "drawback": true,
+      "description": {
+        "translate": "class_enhancement.class.chosen_one.passive.2.description",
+        "fallback": "Mobs that spawn near you get 15 extra Hostility levels."
+      },
+      "params": {
+        "levels": 15.0
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.chosen_one.passive.3.name",
+        "fallback": "Attuned: Dark"
+      },
+      "description": {
+        "translate": "class_enhancement.class.chosen_one.passive.3.description",
+        "fallback": "Your hits also count as Dark at half strength: +12% against mobs weak to Dark, +25% when boosted, never resisted. Dread builds 50% faster for you."
+      },
+      "params": {
+        "kind": "dark",
+        "strength": 0.5,
+        "buildup": 1.5
+      }
+    }
+  ],
+  "data": {
+    "requires_difficulty": "chaos"
+  }
+}

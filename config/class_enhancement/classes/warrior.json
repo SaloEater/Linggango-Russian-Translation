@@ -1,0 +1,111 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.warrior.name",
+    "fallback": "Vanguard"
+  },
+  "description": {
+    "translate": "class_enhancement.class.warrior.description",
+    "fallback": "Trained in combat, you are just stronger than the average."
+  },
+  "order": 10,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.warrior.stat.0",
+      "fallback": "§a+25% Melee Damage"
+    },
+    {
+      "translate": "class_enhancement.class.warrior.stat.1",
+      "fallback": "§a+4 Armor"
+    },
+    {
+      "translate": "class_enhancement.class.warrior.stat.2",
+      "fallback": "§a+2 Hearts"
+    },
+    {
+      "translate": "class_enhancement.class.warrior.stat.3",
+      "fallback": "§a+50% Knockback Resistance"
+    },
+    {
+      "translate": "class_enhancement.class.warrior.stat.4",
+      "fallback": "§c-50% Ranged Damage"
+    },
+    {
+      "translate": "class_enhancement.class.warrior.stat.5",
+      "fallback": "§c-100 Max Mana"
+    }
+  ],
+  "attributes": [
+    "puffish_attributes:melee_damage=0.25:multiply_base",
+    "minecraft:generic.armor=4.0:addition",
+    "minecraft:generic.max_health=4.0:addition",
+    "minecraft:generic.knockback_resistance=0.5:addition",
+    "puffish_attributes:ranged_damage=-0.5:multiply_base",
+    "irons_spellbooks:max_mana=-100.0:addition",
+    "ars_nouveau:ars_nouveau.perk.max_mana=-100.0:addition"
+  ],
+  "main_hand": "minecraft:stone_sword=1",
+  "armor": [
+    "immersive_armors:wooden_helmet=1",
+    "immersive_armors:wooden_chestplate=1",
+    "immersive_armors:wooden_leggings=1",
+    "immersive_armors:wooden_boots=1"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:challenge",
+    "name": {
+      "translate": "class_enhancement.class.warrior.skill.name",
+      "fallback": "Challenge"
+    },
+    "icon": "minecraft:goat_horn",
+    "cooldown": "45s",
+    "description": {
+      "translate": "class_enhancement.class.warrior.skill.description",
+      "fallback": "Every hostile mob within 8 blocks turns on you and is Exposed for 6s. Exposed mobs take 20% more damage from players."
+    },
+    "params": {
+      "radius": 8,
+      "exposed_ticks": 120
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:momentum",
+      "name": {
+        "translate": "class_enhancement.class.warrior.passive.0.name",
+        "fallback": "Momentum"
+      },
+      "icon": "minecraft:iron_sword",
+      "description": {
+        "translate": "class_enhancement.class.warrior.passive.0.description",
+        "fallback": "Each melee hit on the same target deals 6% more than the last, up to +30%. Switching targets or not hitting for 3s resets it."
+      },
+      "params": {
+        "per_hit": 0.06,
+        "max": 5,
+        "window": 60
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.warrior.passive.1.name",
+        "fallback": "Attuned: Holy"
+      },
+      "description": {
+        "translate": "class_enhancement.class.warrior.passive.1.description",
+        "fallback": "Your hits also count as Holy at half strength: +12% against mobs weak to Holy, +25% when boosted, never resisted. Judgement builds 50% faster for you."
+      },
+      "params": {
+        "kind": "holy",
+        "strength": 0.5,
+        "buildup": 1.5
+      }
+    }
+  ]
+}

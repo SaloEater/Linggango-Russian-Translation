@@ -1,0 +1,115 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.dragon_rider.name",
+    "fallback": "Dragon Rider"
+  },
+  "description": {
+    "translate": "class_enhancement.class.dragon_rider.description",
+    "fallback": "On foot you are just another fighter. In the saddle, you and your mount fight as one."
+  },
+  "icon": "minecraft:saddle",
+  "color": "#E0632B",
+  "order": 250,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.dragon_rider.stat.0",
+      "fallback": "§a+10% Melee Damage"
+    },
+    {
+      "translate": "class_enhancement.class.dragon_rider.stat.1",
+      "fallback": "§a+10% Ranged Damage"
+    },
+    {
+      "translate": "class_enhancement.class.dragon_rider.stat.2",
+      "fallback": "§c-10% Walking Speed"
+    }
+  ],
+  "attributes": [
+    "puffish_attributes:melee_damage=0.1:multiply_base",
+    "puffish_attributes:ranged_damage=0.1:multiply_base",
+    "minecraft:generic.movement_speed=-0.1:multiply_base"
+  ],
+  "main_hand": "minecraft:stone_sword=1",
+  "items": [
+    "minecraft:saddle=1",
+    "minecraft:lead=2",
+    "minecraft:golden_carrot=4",
+    "minecraft:bread=5"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:charge",
+    "name": {
+      "translate": "class_enhancement.class.dragon_rider.skill.name",
+      "fallback": "Charge"
+    },
+    "icon": "minecraft:blaze_powder",
+    "cooldown": "60s",
+    "description": {
+      "translate": "class_enhancement.class.dragon_rider.skill.description",
+      "fallback": "Only while riding. For 10s your mount moves 25% faster, and both you and your mount hit 25% harder. Those hits set mobs on fire and build Scorch. Afterwards you are winded: 10% more damage taken for 10s."
+    },
+    "params": {
+      "ticks": 200,
+      "damage": 0.25,
+      "speed": 0.25,
+      "scorch": 20.0,
+      "winded_ticks": 200,
+      "winded": 0.1
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:saddle_bond",
+      "name": {
+        "translate": "class_enhancement.class.dragon_rider.passive.0.name",
+        "fallback": "Saddle Bond"
+      },
+      "icon": "minecraft:leather_horse_armor",
+      "description": {
+        "translate": "class_enhancement.class.dragon_rider.passive.0.description",
+        "fallback": "While you ride anything: you take 15% less damage, your mount takes 20% less damage and moves 15% faster. On a Saint's Dragon the mount gets 35% less damage and 30% more speed."
+      },
+      "params": {
+        "reduction": 0.15,
+        "mount_reduction": 0.2,
+        "dragon_mount_reduction": 0.35,
+        "speed": 0.15,
+        "dragon_speed": 0.3
+      }
+    },
+    {
+      "id": "linggango_tweaks:dragon_kin",
+      "name": {
+        "translate": "class_enhancement.class.dragon_rider.passive.1.name",
+        "fallback": "Dragon Kin"
+      },
+      "icon": "minecraft:dragon_breath",
+      "description": {
+        "translate": "class_enhancement.class.dragon_rider.passive.1.description",
+        "fallback": "Wild Saint's Dragons won't attack you unless you hit them first. Mobs going for your mount come for you instead."
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.dragon_rider.passive.2.name",
+        "fallback": "Attuned: Fire"
+      },
+      "description": {
+        "translate": "class_enhancement.class.dragon_rider.passive.2.description",
+        "fallback": "Your hits also count as Fire at half strength: +12% against mobs weak to Fire, +25% when boosted, never resisted. Scorch builds 50% faster for you."
+      },
+      "params": {
+        "kind": "fire",
+        "strength": 0.5,
+        "buildup": 1.5
+      }
+    }
+  ]
+}

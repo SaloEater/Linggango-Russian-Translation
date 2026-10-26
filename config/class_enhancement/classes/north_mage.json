@@ -1,0 +1,112 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.north_mage.name",
+    "fallback": "North Mage"
+  },
+  "description": {
+    "translate": "class_enhancement.class.north_mage.description",
+    "fallback": "You create your own magic; the only thing that can stop you is your own imagination."
+  },
+  "icon": "ars_nouveau:novice_spell_book",
+  "color": "#5599FF",
+  "order": 100,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.north_mage.stat.0",
+      "fallback": "§a+200 Max Mana (Ars)"
+    },
+    {
+      "translate": "class_enhancement.class.north_mage.stat.1",
+      "fallback": "§a+2 Ars Spell Damage"
+    },
+    {
+      "translate": "class_enhancement.class.north_mage.stat.2",
+      "fallback": "§a+2 Summon Damage (Ars)"
+    },
+    {
+      "translate": "class_enhancement.class.north_mage.stat.3",
+      "fallback": "§c-25% Melee Damage"
+    },
+    {
+      "translate": "class_enhancement.class.north_mage.stat.4",
+      "fallback": "§c-1 Heart"
+    }
+  ],
+  "attributes": [
+    "ars_nouveau:ars_nouveau.perk.max_mana=200.0:addition",
+    "irons_spellbooks:max_mana=200.0:addition",
+    "ars_nouveau:ars_nouveau.perk.spell_damage=2.0:addition",
+    "ars_nouveau:ars_elemental.perk.summon_power=2.0:addition",
+    "puffish_attributes:melee_damage=-0.25:multiply_base",
+    "minecraft:generic.max_health=-2.0:addition"
+  ],
+  "main_hand": "ars_nouveau:novice_spell_book=1",
+  "armor": [
+    "ars_nouveau:sorcerer_hood=1",
+    "ars_nouveau:sorcerer_robes=1",
+    "ars_nouveau:sorcerer_leggings=1",
+    "ars_nouveau:sorcerer_boots=1"
+  ],
+  "items": [
+    "minecraft:lapis_lazuli=16",
+    "ars_nouveau:worn_notebook=1",
+    "ars_additions:codex_entry=5"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:mana_surge",
+    "name": {
+      "translate": "class_enhancement.class.north_mage.skill.name",
+      "fallback": "Mana Surge"
+    },
+    "icon": "minecraft:lapis_lazuli",
+    "cooldown": "60s",
+    "description": {
+      "translate": "class_enhancement.class.north_mage.skill.description",
+      "fallback": "For 8s your spells don't use up mana and deal 50% more damage."
+    },
+    "params": {
+      "ticks": 160,
+      "damage": 0.5
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:arcane_shred",
+      "name": {
+        "translate": "class_enhancement.class.north_mage.passive.0.name",
+        "fallback": "Armor Shred"
+      },
+      "icon": "minecraft:amethyst_shard",
+      "description": {
+        "translate": "class_enhancement.class.north_mage.passive.0.description",
+        "fallback": "Your hits treat the target as having 5 less armor."
+      },
+      "params": {
+        "amount": 5.0
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.north_mage.passive.1.name",
+        "fallback": "Attuned: Arcane"
+      },
+      "description": {
+        "translate": "class_enhancement.class.north_mage.passive.1.description",
+        "fallback": "Your hits also count as Arcane at half strength: +12% against mobs weak to Arcane, +25% when boosted, never resisted. Unravel builds 50% faster for you. Spells without a damage type count as Arcane, and your spells build status like weapons do."
+      },
+      "params": {
+        "kind": "arcane",
+        "strength": 0.5,
+        "buildup": 1.5,
+        "spells": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.monk.name",
+    "fallback": "Monk"
+  },
+  "description": {
+    "translate": "class_enhancement.class.monk.description",
+    "fallback": "Your body is the only weapon you need. Peace comes from within."
+  },
+  "icon": "armageddon_mod:stone_pike",
+  "order": 220,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.monk.stat.0",
+      "fallback": "§a+10% Critical Chance"
+    },
+    {
+      "translate": "class_enhancement.class.monk.stat.1",
+      "fallback": "§a+25% Critical Damage"
+    },
+    {
+      "translate": "class_enhancement.class.monk.stat.2",
+      "fallback": "§a+20% Dodge Chance"
+    },
+    {
+      "translate": "class_enhancement.class.monk.stat.3",
+      "fallback": "§a+10% Speed"
+    },
+    {
+      "translate": "class_enhancement.class.monk.stat.4",
+      "fallback": "§a+1 Roll Charge"
+    },
+    {
+      "translate": "class_enhancement.class.monk.stat.5",
+      "fallback": "§a-20% Roll Cooldown"
+    },
+    {
+      "translate": "class_enhancement.class.monk.stat.6",
+      "fallback": "§c-6 Armor"
+    },
+    {
+      "translate": "class_enhancement.class.monk.stat.7",
+      "fallback": "§c-30% Ranged Damage"
+    },
+    {
+      "translate": "class_enhancement.class.monk.stat.8",
+      "fallback": "§c-1 Heart"
+    }
+  ],
+  "attributes": [
+    "attributeslib:crit_chance=0.1:addition",
+    "attributeslib:crit_damage=0.25:multiply_base",
+    "attributeslib:dodge_chance=0.2:addition",
+    "minecraft:generic.movement_speed=0.1:multiply_base",
+    "linggango_tweaks:roll_count=1.0:addition",
+    "linggango_tweaks:roll_recharge=0.25:multiply_base",
+    "minecraft:generic.armor=-6.0:addition",
+    "puffish_attributes:ranged_damage=-0.3:multiply_base",
+    "minecraft:generic.max_health=-2.0:addition"
+  ],
+  "main_hand": "armageddon_mod:stone_pike=1",
+  "items": [
+    "minecraft:cookie=5"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.05 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:flurry",
+    "name": {
+      "translate": "class_enhancement.class.monk.skill.name",
+      "fallback": "Flurry"
+    },
+    "icon": "minecraft:feather",
+    "cooldown": "45s",
+    "description": {
+      "translate": "class_enhancement.class.monk.skill.description",
+      "fallback": "For 5s: +100% attack speed and +20% speed."
+    },
+    "params": {
+      "ticks": 100,
+      "attack_speed": 1.0,
+      "speed": 0.2
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:flowing_stride",
+      "name": {
+        "translate": "class_enhancement.class.monk.passive.0.name",
+        "fallback": "Flowing Stride"
+      },
+      "icon": "minecraft:leather_boots",
+      "description": {
+        "translate": "class_enhancement.class.monk.passive.0.description",
+        "fallback": "After 3s of sprinting you gain Speed II and step up full blocks. After 10s without taking damage you regenerate health."
+      }
+    },
+    {
+      "name": {
+        "translate": "class_enhancement.class.monk.passive.1.name",
+        "fallback": "Double Strike"
+      },
+      "icon": "armageddon_mod:stone_pike",
+      "description": {
+        "translate": "class_enhancement.class.monk.passive.1.description",
+        "fallback": "5% chance for a melee hit to strike twice."
+      }
+    },
+    {
+      "id": "linggango_tweaks:lectern_grants",
+      "name": {
+        "translate": "class_enhancement.class.monk.passive.2.name",
+        "fallback": "Trained Footwork"
+      },
+      "icon": "minecraft:rabbit_foot",
+      "description": {
+        "translate": "class_enhancement.class.monk.passive.2.description",
+        "fallback": "You start with Punish 1 and Fluid 1 at the Study Lectern."
+      },
+      "params": {
+        "roll": {
+          "punish": 1,
+          "fluid": 1
+        }
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.monk.passive.3.name",
+        "fallback": "Attuned: Lightning"
+      },
+      "description": {
+        "translate": "class_enhancement.class.monk.passive.3.description",
+        "fallback": "Your hits also count as Lightning at half strength: +12% against mobs weak to Lightning, +25% when boosted, never resisted. Overcharge builds 50% faster for you."
+      },
+      "params": {
+        "kind": "lightning",
+        "strength": 0.5,
+        "buildup": 1.5
+      }
+    }
+  ]
+}

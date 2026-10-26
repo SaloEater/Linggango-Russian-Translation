@@ -1,0 +1,118 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.vampire.name",
+    "fallback": "Vampire"
+  },
+  "description": {
+    "translate": "class_enhancement.class.vampire.description",
+    "fallback": "Creature of night, evolved into something weaker but now adapted to the sun."
+  },
+  "icon": "minecraft:redstone",
+  "color": "#CC2244",
+  "order": 140,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.vampire.stat.0",
+      "fallback": "§6+10% Height"
+    },
+    {
+      "translate": "class_enhancement.class.vampire.stat.1",
+      "fallback": "§a+10% Life Steal"
+    },
+    {
+      "translate": "class_enhancement.class.vampire.stat.2",
+      "fallback": "§a+50% Jump Height"
+    },
+    {
+      "translate": "class_enhancement.class.vampire.stat.3",
+      "fallback": "§a+3 Hearts"
+    },
+    {
+      "translate": "class_enhancement.class.vampire.stat.4",
+      "fallback": "§a+15% Speed"
+    },
+    {
+      "translate": "class_enhancement.class.vampire.stat.5",
+      "fallback": "§a+25% Blood Spell Power"
+    },
+    {
+      "translate": "class_enhancement.class.vampire.stat.6",
+      "fallback": "§c-25% Fire Spell Power"
+    },
+    {
+      "translate": "class_enhancement.class.vampire.stat.7",
+      "fallback": "§c-100% Fire and Holy Magic Resistance"
+    },
+    {
+      "translate": "class_enhancement.class.vampire.stat.8",
+      "fallback": "§c-25% Healing Received"
+    },
+    {
+      "translate": "class_enhancement.class.vampire.stat.9",
+      "fallback": "§c-20% Swim Speed"
+    }
+  ],
+  "attributes": [
+    "attributeslib:life_steal=0.1:addition",
+    "brutality:jump_height=0.5:multiply_base",
+    "minecraft:generic.max_health=6.0:addition",
+    "minecraft:generic.movement_speed=0.15:multiply_base",
+    "irons_spellbooks:blood_spell_power=0.25:multiply_base",
+    "irons_spellbooks:fire_spell_power=-0.25:multiply_base",
+    "irons_spellbooks:fire_magic_resist=-1.0:addition",
+    "irons_spellbooks:holy_magic_resist=-1.0:addition",
+    "attributeslib:healing_received=-0.25:multiply_base",
+    "forge:swim_speed=-0.2:multiply_base"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.1 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:blood_infusion",
+    "name": {
+      "translate": "class_enhancement.class.vampire.skill.name",
+      "fallback": "Blood Infusion"
+    },
+    "icon": "minecraft:redstone",
+    "cooldown": "2m",
+    "description": {
+      "translate": "class_enhancement.class.vampire.skill.description",
+      "fallback": "Your next 10 hits heal you for 60% of the damage dealt (45% after your healing penalty). Each one adds 100 LP to your Blood Magic network, plus another 100 for every different boss you have defeated."
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:creature_of_the_night",
+      "name": {
+        "translate": "class_enhancement.class.vampire.passive.0.name",
+        "fallback": "Day and Night"
+      },
+      "icon": "minecraft:clock",
+      "description": {
+        "translate": "class_enhancement.class.vampire.passive.0.description",
+        "fallback": "In daylight under open sky: Weakness and -2 hearts. Anywhere else: Regeneration and Speed."
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.vampire.passive.1.name",
+        "fallback": "Attuned: Blood"
+      },
+      "description": {
+        "translate": "class_enhancement.class.vampire.passive.1.description",
+        "fallback": "Your hits also count as Blood at half strength: +12% against mobs weak to Blood, +25% when boosted, never resisted. Hemorrhage builds 50% faster for you. Hemorrhage bursts you cause heal you for 15% of your max health. Your Blood spells build Hemorrhage like weapons do."
+      },
+      "params": {
+        "kind": "blood",
+        "strength": 0.5,
+        "buildup": 1.5,
+        "burst_heal": 0.15,
+        "spells": "own"
+      }
+    }
+  ]
+}

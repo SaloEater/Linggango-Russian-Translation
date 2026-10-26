@@ -1,0 +1,101 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.deflector.name",
+    "fallback": "Deflector"
+  },
+  "description": {
+    "translate": "class_enhancement.class.deflector.description",
+    "fallback": "You gave up the trade of blows. Nothing lands that you do not let land."
+  },
+  "icon": "simplyswords:iron_katana",
+  "order": 200,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.deflector.stat.0",
+      "fallback": "§a1.5x shorter parry cooldown"
+    },
+    {
+      "translate": "class_enhancement.class.deflector.stat.1",
+      "fallback": "§aBare-hand parry from the start"
+    },
+    {
+      "translate": "class_enhancement.class.deflector.stat.2",
+      "fallback": "§aProjectile parry from the start"
+    },
+    {
+      "translate": "class_enhancement.class.deflector.stat.3",
+      "fallback": "§a+5% Speed"
+    },
+    {
+      "translate": "class_enhancement.class.deflector.stat.4",
+      "fallback": "§aDeathblow: finish a staggered enemy under 30% health"
+    },
+    {
+      "translate": "class_enhancement.class.deflector.stat.5",
+      "fallback": "§c-2 Melee Damage"
+    },
+    {
+      "translate": "class_enhancement.class.deflector.stat.6",
+      "fallback": "§c-25% Critical Damage"
+    },
+    {
+      "translate": "class_enhancement.class.deflector.stat.7",
+      "fallback": "§c-2 Hearts"
+    }
+  ],
+  "attributes": [
+    "puffish_attributes:melee_damage=-2.0:addition",
+    "attributeslib:crit_damage=-0.25:multiply_base",
+    "minecraft:generic.max_health=-4.0:addition",
+    "minecraft:generic.movement_speed=0.05:multiply_base"
+  ],
+  "main_hand": "minecraft:stone_sword=1",
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 0.95 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:mikiri",
+    "name": {
+      "translate": "class_enhancement.class.deflector.skill.name",
+      "fallback": "Mikiri"
+    },
+    "cooldown": "4m",
+    "description": {
+      "translate": "class_enhancement.class.deflector.skill.description",
+      "fallback": "Every parry counts as perfect for 6 seconds, and each perfect parry adds 1 second."
+    }
+  },
+  "passives": [
+    {
+      "name": {
+        "translate": "class_enhancement.class.deflector.passive.0.name",
+        "fallback": "Unbinding"
+      },
+      "icon": "minecraft:netherite_chestplate",
+      "description": {
+        "translate": "class_enhancement.class.deflector.passive.0.description",
+        "fallback": "The Study Lectern grants you Ironhand 1 and Deflection 2 for free, and opens a fourth Unbinding rank only you can take, which parries every kind of damage including fall damage, but cuts your max health by 95%."
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.deflector.passive.1.name",
+        "fallback": "Attuned: Dark"
+      },
+      "icon": "minecraft:ink_sac",
+      "description": {
+        "translate": "class_enhancement.class.deflector.passive.1.description",
+        "fallback": "Every parry builds 35 Dark on the attacker, 70 on a perfect parry. At 100 it bursts into Dread: the mob deals 30% less damage, then takes back 25% of the damage it took."
+      },
+      "params": {
+        "kind": "dark",
+        "strength": 0.0,
+        "parry": 35
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.puppeteer.name",
+    "fallback": "Puppeteer"
+  },
+  "description": {
+    "translate": "class_enhancement.class.puppeteer.description",
+    "fallback": "You do not fight. You decide who does, and they never ask why."
+  },
+  "icon": "summonity:leather_whip",
+  "order": 210,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.puppeteer.stat.0",
+      "fallback": "§a+2 Minion Slots"
+    },
+    {
+      "translate": "class_enhancement.class.puppeteer.stat.1",
+      "fallback": "§a+25% Minion Damage"
+    },
+    {
+      "translate": "class_enhancement.class.puppeteer.stat.2",
+      "fallback": "§a+15% Minion Attack Speed"
+    },
+    {
+      "translate": "class_enhancement.class.puppeteer.stat.3",
+      "fallback": "§a+20% Minion Movement Speed"
+    },
+    {
+      "translate": "class_enhancement.class.puppeteer.stat.4",
+      "fallback": "§a+50% Minion Range"
+    },
+    {
+      "translate": "class_enhancement.class.puppeteer.stat.5",
+      "fallback": "§a+25% Summon Damage on every summon you own"
+    },
+    {
+      "translate": "class_enhancement.class.puppeteer.stat.6",
+      "fallback": "§a+25% Whip Range"
+    },
+    {
+      "translate": "class_enhancement.class.puppeteer.stat.7",
+      "fallback": "§c-40% Attack Damage"
+    },
+    {
+      "translate": "class_enhancement.class.puppeteer.stat.8",
+      "fallback": "§c-30% Spell Power"
+    },
+    {
+      "translate": "class_enhancement.class.puppeteer.stat.9",
+      "fallback": "§c-2 Hearts"
+    }
+  ],
+  "attributes": [
+    "summonity:minion_slots=2.0:addition",
+    "summonity:minion_damage=0.25:multiply_base",
+    "summonity:minion_attack_speed=0.15:multiply_base",
+    "summonity:minion_movement_speed=0.2:multiply_base",
+    "summonity:minion_range=0.5:multiply_base",
+    "summonity:whip_range=0.25:multiply_base",
+    "irons_spellbooks:summon_damage=0.25:multiply_base",
+    "minecraft:generic.attack_damage=-0.4:multiply_base",
+    "irons_spellbooks:spell_power=-0.3:multiply_base",
+    "minecraft:generic.max_health=-4.0:addition"
+  ],
+  "main_hand": "summonity:slime_staff=1",
+  "off_hand": "summonity:leather_whip=1",
+  "items": [
+    "minecraft:string=8"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:marionette",
+    "name": {
+      "translate": "class_enhancement.class.puppeteer.skill.name",
+      "fallback": "Marionette"
+    },
+    "cooldown": "3m",
+    "description": {
+      "translate": "class_enhancement.class.puppeteer.skill.description",
+      "fallback": "For 10 seconds your minions get +100% damage and +100% attack speed."
+    }
+  },
+  "passives": [
+    {
+      "name": {
+        "translate": "class_enhancement.class.puppeteer.passive.0.name",
+        "fallback": "Free Hands"
+      },
+      "icon": "minecraft:string",
+      "description": {
+        "translate": "class_enhancement.class.puppeteer.passive.0.description",
+        "fallback": "Your minions never lose damage for what you are holding, so you keep full strength with any weapon in hand."
+      }
+    },
+    {
+      "id": "linggango_tweaks:soul_harvest",
+      "name": {
+        "translate": "class_enhancement.class.puppeteer.passive.1.name",
+        "fallback": "Soul Harvest"
+      },
+      "icon": "minecraft:soul_lantern",
+      "description": {
+        "translate": "class_enhancement.class.puppeteer.passive.1.description",
+        "fallback": "Kills by your minions give you 2 Goety souls."
+      },
+      "params": {
+        "souls": 2
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.puppeteer.passive.2.name",
+        "fallback": "Attuned: Arcane"
+      },
+      "icon": "minecraft:amethyst_shard",
+      "description": {
+        "translate": "class_enhancement.class.puppeteer.passive.2.description",
+        "fallback": "Your hits and your minions' hits count as Arcane at half strength: +12% against mobs weak to Arcane, +25% when boosted, never resisted. Unravel builds 50% faster."
+      },
+      "params": {
+        "kind": "arcane",
+        "strength": 0.5,
+        "buildup": 1.5,
+        "minions": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.machinist.name",
+    "fallback": "Steampunk Machinist"
+  },
+  "description": {
+    "translate": "class_enhancement.class.machinist.description",
+    "fallback": "You see the world as a machine, and you have the wrench to automate it."
+  },
+  "icon": "create:wrench",
+  "color": "#FF8833",
+  "order": 120,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.machinist.stat.0",
+      "fallback": "§a+2 Block Reach"
+    },
+    {
+      "translate": "class_enhancement.class.machinist.stat.1",
+      "fallback": "§a+40% Mining Speed"
+    },
+    {
+      "translate": "class_enhancement.class.machinist.stat.2",
+      "fallback": "§c-20% Melee Damage"
+    },
+    {
+      "translate": "class_enhancement.class.machinist.stat.3",
+      "fallback": "§c-1 Heart"
+    },
+    {
+      "translate": "class_enhancement.class.machinist.stat.4",
+      "fallback": "§cNo Mana"
+    }
+  ],
+  "attributes": [
+    "forge:block_reach=2.0:addition",
+    "puffish_attributes:mining_speed=0.4:multiply_base",
+    "puffish_attributes:melee_damage=-0.2:multiply_base",
+    "minecraft:generic.max_health=-2.0:addition",
+    "irons_spellbooks:max_mana=-1000.0:addition",
+    "ars_nouveau:ars_nouveau.perk.max_mana=-1000.0:addition"
+  ],
+  "main_hand": "create:wrench=1",
+  "armor": [
+    "create:copper_diving_helmet=1",
+    "create:copper_backtank=1",
+    "create:copper_diving_boots=1"
+  ],
+  "items": [
+    "create:andesite_casing=4"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:quick_repair",
+    "name": {
+      "translate": "class_enhancement.class.machinist.skill.name",
+      "fallback": "Field Repair"
+    },
+    "icon": "minecraft:anvil",
+    "cooldown": "5m",
+    "description": {
+      "translate": "class_enhancement.class.machinist.skill.description",
+      "fallback": "Repairs 30% of the max durability of everything you are wearing and holding."
+    },
+    "params": {
+      "repair": 0.3
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.machinist.passive.0.name",
+        "fallback": "Attuned: Lightning"
+      },
+      "description": {
+        "translate": "class_enhancement.class.machinist.passive.0.description",
+        "fallback": "Your hits also count as Lightning at half strength: +12% against mobs weak to Lightning, +25% when boosted, never resisted. Overcharge builds 50% faster for you."
+      },
+      "params": {
+        "kind": "lightning",
+        "strength": 0.5,
+        "buildup": 1.5
+      }
+    }
+  ]
+}

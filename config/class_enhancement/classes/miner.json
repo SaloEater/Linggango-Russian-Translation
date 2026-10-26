@@ -1,0 +1,127 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.miner.name",
+    "fallback": "Miner"
+  },
+  "description": {
+    "translate": "class_enhancement.class.miner.description",
+    "fallback": "You prefer the isolation of the underground, far from the noise of the surface."
+  },
+  "icon": "minecraft:stone_pickaxe",
+  "color": "#CCAA55",
+  "order": 150,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.miner.stat.0",
+      "fallback": "§6-15% Height"
+    },
+    {
+      "translate": "class_enhancement.class.miner.stat.1",
+      "fallback": "§a+100% Mining Speed"
+    },
+    {
+      "translate": "class_enhancement.class.miner.stat.2",
+      "fallback": "§a+50% Fall Damage Reduction"
+    },
+    {
+      "translate": "class_enhancement.class.miner.stat.3",
+      "fallback": "§a+50% Eating Speed"
+    },
+    {
+      "translate": "class_enhancement.class.miner.stat.4",
+      "fallback": "§a+30% Knockback Resistance"
+    },
+    {
+      "translate": "class_enhancement.class.miner.stat.5",
+      "fallback": "§c-100 Max Mana"
+    }
+  ],
+  "attributes": [
+    "puffish_attributes:mining_speed=1.0:multiply_base",
+    "puffish_attributes:fall_reduction=0.5:multiply_base",
+    "puffish_attributes:consuming_speed=0.5:multiply_base",
+    "minecraft:generic.knockback_resistance=0.3:addition",
+    "ars_nouveau:ars_nouveau.perk.max_mana=-100.0:addition",
+    "irons_spellbooks:max_mana=-100.0:addition"
+  ],
+  "main_hand": "minecraft:stone_pickaxe{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}=1",
+  "off_hand": "minecraft:torch=16",
+  "armor": [
+    "quark:forgotten_hat=1"
+  ],
+  "commands": [
+    "scale set pehkui:height 0.85 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:gem_glow",
+    "name": {
+      "translate": "class_enhancement.class.miner.skill.name",
+      "fallback": "Gem Glow"
+    },
+    "icon": "minecraft:amethyst_shard",
+    "description": {
+      "translate": "class_enhancement.class.miner.skill.description",
+      "fallback": "Toggle. A light follows you at your feet."
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:delver",
+      "name": {
+        "translate": "class_enhancement.class.miner.passive.0.name",
+        "fallback": "Delver"
+      },
+      "icon": "minecraft:deepslate",
+      "description": {
+        "translate": "class_enhancement.class.miner.passive.0.description",
+        "fallback": "Underground (no sky above you and below sea level, or anywhere in a dimension with a ceiling): +15% damage and +3 armor. On the surface: -15% damage."
+      },
+      "params": {
+        "underground_damage": 0.15,
+        "underground_armor": 3.0,
+        "surface_damage": -0.15
+      }
+    },
+    {
+      "name": {
+        "translate": "class_enhancement.class.miner.passive.1.name",
+        "fallback": "Prospector"
+      },
+      "icon": "minecraft:raw_gold",
+      "description": {
+        "translate": "class_enhancement.class.miner.passive.1.description",
+        "fallback": "Ores and crops you break drop double 25% of the time and triple 25% of the time. Off when the tool has Silk Touch or Fortune II or higher."
+      }
+    },
+    {
+      "name": {
+        "translate": "class_enhancement.class.miner.passive.2.name",
+        "fallback": "Bare-Handed Mining"
+      },
+      "icon": "minecraft:stone",
+      "description": {
+        "translate": "class_enhancement.class.miner.passive.2.description",
+        "fallback": "Without a pickaxe, your hands break stone-tier blocks like a stone pickaxe."
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.miner.passive.3.name",
+        "fallback": "Attuned: Dark"
+      },
+      "description": {
+        "translate": "class_enhancement.class.miner.passive.3.description",
+        "fallback": "Your hits also count as Dark at half strength: +12% against mobs weak to Dark, +25% when boosted, never resisted. Dread builds 50% faster for you. Dark is boosted in light level 4 or lower."
+      },
+      "params": {
+        "kind": "dark",
+        "strength": 0.5,
+        "buildup": 1.5
+      }
+    }
+  ]
+}

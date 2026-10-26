@@ -1,0 +1,97 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.pack_mule.name",
+    "fallback": "Mule"
+  },
+  "description": {
+    "translate": "class_enhancement.class.pack_mule.description",
+    "fallback": "You can carry a lot. That's bout it!"
+  },
+  "icon": "minecraft:chest",
+  "order": 130,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.pack_mule.stat.0",
+      "fallback": "§6+10% Width"
+    },
+    {
+      "translate": "class_enhancement.class.pack_mule.stat.1",
+      "fallback": "§a12 Inventory Rows"
+    },
+    {
+      "translate": "class_enhancement.class.pack_mule.stat.2",
+      "fallback": "§a+30% Knockback Resistance"
+    },
+    {
+      "translate": "class_enhancement.class.pack_mule.stat.3",
+      "fallback": "§c-5% Speed"
+    },
+    {
+      "translate": "class_enhancement.class.pack_mule.stat.4",
+      "fallback": "§c-1 Heart"
+    },
+    {
+      "translate": "class_enhancement.class.pack_mule.stat.5",
+      "fallback": "§c-100 Max Mana"
+    }
+  ],
+  "attributes": [
+    "linggango_tweaks:inventory_rows=6.0:addition",
+    "minecraft:generic.knockback_resistance=0.3:addition",
+    "minecraft:generic.movement_speed=-0.05:multiply_base",
+    "minecraft:generic.max_health=-2.0:addition",
+    "irons_spellbooks:max_mana=-100.0:addition",
+    "ars_nouveau:ars_nouveau.perk.max_mana=-100.0:addition"
+  ],
+  "items": [
+    "minecraft:chest=1",
+    "minecraft:bread=5"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.1 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:stash",
+    "name": {
+      "translate": "class_enhancement.class.pack_mule.skill.name",
+      "fallback": "Stash"
+    },
+    "icon": "minecraft:ender_chest",
+    "cooldown": "30s",
+    "description": {
+      "translate": "class_enhancement.class.pack_mule.skill.description",
+      "fallback": "Opens your ender chest wherever you are."
+    }
+  },
+  "passives": [
+    {
+      "name": {
+        "translate": "class_enhancement.class.pack_mule.passive.0.name",
+        "fallback": "Big Inventory"
+      },
+      "icon": "minecraft:chest",
+      "description": {
+        "translate": "class_enhancement.class.pack_mule.passive.0.description",
+        "fallback": "Your inventory holds 12 rows instead of 6. Scroll the bar beside it with the wheel or drag it."
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.pack_mule.passive.1.name",
+        "fallback": "Well Supplied"
+      },
+      "icon": "minecraft:glass_bottle",
+      "description": {
+        "translate": "class_enhancement.class.pack_mule.passive.1.description",
+        "fallback": "Imbuements you apply last twice as long: 3 minutes instead of 90 seconds."
+      },
+      "params": {
+        "imbue": 2.0
+      }
+    }
+  ]
+}

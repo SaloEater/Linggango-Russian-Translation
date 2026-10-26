@@ -1,0 +1,105 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.south_mage.name",
+    "fallback": "South Mage"
+  },
+  "description": {
+    "translate": "class_enhancement.class.south_mage.description",
+    "fallback": "Ancient scrolls are your medium; unleash powerful magic with the right knowledge."
+  },
+  "icon": "irons_spellbooks:copper_spell_book",
+  "color": "#BB44FF",
+  "order": 110,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.south_mage.stat.0",
+      "fallback": "§a+30% Spell Power"
+    },
+    {
+      "translate": "class_enhancement.class.south_mage.stat.1",
+      "fallback": "§a+15% Cast Speed"
+    },
+    {
+      "translate": "class_enhancement.class.south_mage.stat.2",
+      "fallback": "§a+150 Max Mana (Iron's)"
+    },
+    {
+      "translate": "class_enhancement.class.south_mage.stat.3",
+      "fallback": "§c-20% Melee Resistance"
+    },
+    {
+      "translate": "class_enhancement.class.south_mage.stat.4",
+      "fallback": "§c-20% Ranged Resistance"
+    },
+    {
+      "translate": "class_enhancement.class.south_mage.stat.5",
+      "fallback": "§c-30% Melee Damage"
+    },
+    {
+      "translate": "class_enhancement.class.south_mage.stat.6",
+      "fallback": "§c-1 Heart"
+    }
+  ],
+  "attributes": [
+    "irons_spellbooks:spell_power=0.3:multiply_base",
+    "irons_spellbooks:cast_time_reduction=0.15:multiply_base",
+    "irons_spellbooks:max_mana=150.0:addition",
+    "puffish_attributes:melee_resistance=-0.2:multiply_base",
+    "puffish_attributes:ranged_resistance=-0.2:multiply_base",
+    "puffish_attributes:melee_damage=-0.3:multiply_base",
+    "minecraft:generic.max_health=-2.0:addition"
+  ],
+  "main_hand": "irons_spellbooks:copper_spell_book{'irons_spellbooks:spell_container':{data:[{id:'gtbcs_geomancy_plus:dripstone_bolt',index:0,level:1},{id:'gtbcs_geomancy_plus:weeping_wall',index:1,level:1},{id:'gtbcs_geomancy_plus:chunker',index:2,level:1}],maxSpells:5,mustEquip:1b,spellWheel:1b}}=1",
+  "armor": [
+    "irons_spellbooks:wandering_magician_helmet=1",
+    "irons_spellbooks:wandering_magician_chestplate=1",
+    "irons_spellbooks:wandering_magician_leggings=1",
+    "irons_spellbooks:wandering_magician_boots=1"
+  ],
+  "items": [
+    "irons_spellbooks:common_ink=2",
+    "irons_spellbooks:graybeard_staff=1"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:limit_break",
+    "name": {
+      "translate": "class_enhancement.class.south_mage.skill.name",
+      "fallback": "Limit Break"
+    },
+    "icon": "minecraft:end_crystal",
+    "cooldown": "5m",
+    "description": {
+      "translate": "class_enhancement.class.south_mage.skill.description",
+      "fallback": "Toggle. +100% spell power. Drains 5% of your max health every second and ends by itself before you drop under 20%."
+    },
+    "params": {
+      "drain": 0.05,
+      "floor": 0.2
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.south_mage.passive.0.name",
+        "fallback": "Attuned: Schools"
+      },
+      "icon": "irons_spellbooks:common_ink",
+      "description": {
+        "translate": "class_enhancement.class.south_mage.passive.0.description",
+        "fallback": "Your spells build the status of their own school, the way weapons do. Every status builds 50% faster for you."
+      },
+      "params": {
+        "kind": "school",
+        "buildup": 1.5,
+        "spells": true
+      }
+    }
+  ]
+}

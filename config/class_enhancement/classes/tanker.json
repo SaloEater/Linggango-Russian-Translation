@@ -1,0 +1,141 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.tanker.name",
+    "fallback": "Ironclad"
+  },
+  "description": {
+    "translate": "class_enhancement.class.tanker.description",
+    "fallback": "You are a walking tank. Once you plant your feet, nothing on earth can move you."
+  },
+  "color": "#4488CC",
+  "order": 30,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.tanker.stat.0",
+      "fallback": "§6+20% Size"
+    },
+    {
+      "translate": "class_enhancement.class.tanker.stat.1",
+      "fallback": "§a+5 Hearts"
+    },
+    {
+      "translate": "class_enhancement.class.tanker.stat.2",
+      "fallback": "§a+6 Armor"
+    },
+    {
+      "translate": "class_enhancement.class.tanker.stat.3",
+      "fallback": "§a+5% Damage Reduction"
+    },
+    {
+      "translate": "class_enhancement.class.tanker.stat.4",
+      "fallback": "§a+10% Healing Received"
+    },
+    {
+      "translate": "class_enhancement.class.tanker.stat.5",
+      "fallback": "§a+50% Knockback Resistance"
+    },
+    {
+      "translate": "class_enhancement.class.tanker.stat.6",
+      "fallback": "§c-25% Speed"
+    },
+    {
+      "translate": "class_enhancement.class.tanker.stat.7",
+      "fallback": "§c-30% Spell Power"
+    },
+    {
+      "translate": "class_enhancement.class.tanker.stat.8",
+      "fallback": "§c-20% Max Mana"
+    }
+  ],
+  "attributes": [
+    "minecraft:generic.max_health=10.0:addition",
+    "minecraft:generic.armor=6.0:addition",
+    "puffish_attributes:resistance=0.05:multiply_base",
+    "attributeslib:healing_received=0.1:multiply_base",
+    "minecraft:generic.knockback_resistance=0.5:addition",
+    "minecraft:generic.movement_speed=-0.25:multiply_base",
+    "irons_spellbooks:spell_power=-0.3:multiply_base",
+    "irons_spellbooks:max_mana=-0.2:multiply_base"
+  ],
+  "main_hand": "minecraft:stone_axe=1",
+  "armor": [
+    "minecraft:chainmail_helmet=1",
+    "minecraft:chainmail_chestplate=1",
+    "minecraft:chainmail_leggings=1",
+    "minecraft:chainmail_boots=1"
+  ],
+  "items": [
+    "minecraft:bread=3"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.2 %player%",
+    "scale set pehkui:width 1.2 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:kinetic_absorber",
+    "name": {
+      "translate": "class_enhancement.class.tanker.skill.name",
+      "fallback": "Kinetic Absorber"
+    },
+    "icon": "minecraft:shield",
+    "cooldown": "2m",
+    "description": {
+      "translate": "class_enhancement.class.tanker.skill.description",
+      "fallback": "For 3s you take no damage, red attacks included. Everything absorbed, up to twice your max health, is added to your next hit."
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:lectern_grants",
+      "name": {
+        "translate": "class_enhancement.class.tanker.passive.0.name",
+        "fallback": "Iron Hide"
+      },
+      "icon": "minecraft:chainmail_chestplate",
+      "description": {
+        "translate": "class_enhancement.class.tanker.passive.0.description",
+        "fallback": "You start with Ironhand 1, Bash 1 and Thick Skin 1 at the Study Lectern. Bare-hand parry works in any full set of armor. Bash closes Thunderclap for you."
+      },
+      "params": {
+        "parry": {
+          "ironhand": 1
+        },
+        "roll": {
+          "bash": 1,
+          "thick_skin": 1
+        },
+        "ironhand_tier": -1
+      }
+    },
+    {
+      "name": {
+        "translate": "class_enhancement.class.tanker.passive.1.name",
+        "fallback": "Second Wind"
+      },
+      "icon": "minecraft:golden_apple",
+      "description": {
+        "translate": "class_enhancement.class.tanker.passive.1.description",
+        "fallback": "Dropping below 2 hearts takes 30s off the skill cooldown. Works once until you heal back above 2 hearts."
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.tanker.passive.2.name",
+        "fallback": "Attuned: Blunt"
+      },
+      "icon": "minecraft:stone_axe",
+      "description": {
+        "translate": "class_enhancement.class.tanker.passive.2.description",
+        "fallback": "Your hits count as Blunt at full strength and always boosted: +50% against mobs weak to Blunt. It never lowers your damage."
+      },
+      "params": {
+        "kind": "blunt",
+        "strength": 1.0,
+        "boosted": true
+      }
+    }
+  ]
+}

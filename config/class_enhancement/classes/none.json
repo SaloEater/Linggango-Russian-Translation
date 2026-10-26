@@ -1,0 +1,25 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.none.name",
+    "fallback": "Civilian"
+  },
+  "description": {
+    "translate": "class_enhancement.class.none.description",
+    "fallback": "You are nobody."
+  },
+  "color": "#B39482",
+  "order": 0,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.none.stat.0",
+      "fallback": "§7No stat changes"
+    }
+  ],
+  "attributes": [],
+  "main_hand": "minecraft:bread=5",
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ]
+}

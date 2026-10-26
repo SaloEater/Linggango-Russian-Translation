@@ -1,0 +1,144 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.saint.name",
+    "fallback": "Saint"
+  },
+  "description": {
+    "translate": "class_enhancement.class.saint.description",
+    "fallback": "The light answers those who give it away. Heal until it overflows, then let it burn."
+  },
+  "icon": "minecraft:golden_apple",
+  "color": "#F2D16B",
+  "order": 240,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.saint.stat.0",
+      "fallback": "§a+25% Holy Spell Power"
+    },
+    {
+      "translate": "class_enhancement.class.saint.stat.1",
+      "fallback": "§a+100 Max Mana (Iron's)"
+    },
+    {
+      "translate": "class_enhancement.class.saint.stat.2",
+      "fallback": "§a+10% Max Health"
+    },
+    {
+      "translate": "class_enhancement.class.saint.stat.3",
+      "fallback": "§c-20% Other Spell Schools"
+    },
+    {
+      "translate": "class_enhancement.class.saint.stat.4",
+      "fallback": "§c-20% Melee Damage"
+    },
+    {
+      "translate": "class_enhancement.class.saint.stat.5",
+      "fallback": "§c-20% Ranged Damage"
+    },
+    {
+      "translate": "class_enhancement.class.saint.stat.6",
+      "fallback": "§c+20% Ice Spell Damage Taken"
+    }
+  ],
+  "attributes": [
+    "irons_spellbooks:holy_spell_power=0.25:multiply_base",
+    "irons_spellbooks:max_mana=100.0:addition",
+    "minecraft:generic.max_health=0.1:multiply_base",
+    "irons_spellbooks:fire_spell_power=-0.2:multiply_base",
+    "irons_spellbooks:ice_spell_power=-0.2:multiply_base",
+    "irons_spellbooks:lightning_spell_power=-0.2:multiply_base",
+    "irons_spellbooks:ender_spell_power=-0.2:multiply_base",
+    "irons_spellbooks:blood_spell_power=-0.2:multiply_base",
+    "irons_spellbooks:evocation_spell_power=-0.2:multiply_base",
+    "irons_spellbooks:nature_spell_power=-0.2:multiply_base",
+    "irons_spellbooks:eldritch_spell_power=-0.2:multiply_base",
+    "puffish_attributes:melee_damage=-0.2:multiply_base",
+    "puffish_attributes:ranged_damage=-0.2:multiply_base",
+    "irons_spellbooks:ice_magic_resist=-0.2:addition"
+  ],
+  "main_hand": "irons_spellbooks:copper_spell_book{'irons_spellbooks:spell_container':{data:[{id:'irons_spellbooks:heal',index:0,level:1},{id:'irons_spellbooks:guiding_bolt',index:1,level:1},{id:'irons_spellbooks:wisp',index:2,level:1}],maxSpells:5,mustEquip:1b,spellWheel:1b}}=1",
+  "items": [
+    "minecraft:golden_apple=2",
+    "irons_spellbooks:common_ink=2",
+    "minecraft:bread=5"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:consecrate",
+    "name": {
+      "translate": "class_enhancement.class.saint.skill.name",
+      "fallback": "Consecrate"
+    },
+    "icon": "minecraft:beacon",
+    "cooldown": "45s",
+    "description": {
+      "translate": "class_enhancement.class.saint.skill.description",
+      "fallback": "Blesses the ground around you for 10s. Every second it heals everyone inside for 5% of their max health and hits every mob inside with Holy damage that scales with your holy spell power. When it fades you are drained: 15% more damage taken for 5s."
+    },
+    "params": {
+      "ticks": 200,
+      "radius": 6.0,
+      "heal": 0.05,
+      "damage": 3.0,
+      "spent_ticks": 100,
+      "spent": 0.15
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:overflow",
+      "name": {
+        "translate": "class_enhancement.class.saint.passive.0.name",
+        "fallback": "Overflow"
+      },
+      "icon": "minecraft:glow_berries",
+      "description": {
+        "translate": "class_enhancement.class.saint.passive.0.description",
+        "fallback": "Healing past your max health isn't wasted. Every half second the extra turns into Holy damage on up to 6 mobs within 6 blocks, scaled by your holy spell power. Double while you wear the Ring of the Seven Virtues."
+      },
+      "params": {
+        "radius": 6.0,
+        "share": 1.0,
+        "virtue_share": 2.0
+      }
+    },
+    {
+      "id": "linggango_tweaks:holy_focus",
+      "name": {
+        "translate": "class_enhancement.class.saint.passive.1.name",
+        "fallback": "Devotion"
+      },
+      "icon": "minecraft:enchanted_book",
+      "description": {
+        "translate": "class_enhancement.class.saint.passive.1.description",
+        "fallback": "Holy spells recharge 25% faster, 40% while you wear the Ring of the Seven Virtues."
+      },
+      "params": {
+        "reduction": 0.25,
+        "virtue_reduction": 0.4
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.saint.passive.2.name",
+        "fallback": "Attuned: Holy"
+      },
+      "description": {
+        "translate": "class_enhancement.class.saint.passive.2.description",
+        "fallback": "Your hits count as Holy at full strength: +25% against mobs weak to Holy, +50% when boosted (daylight under open sky), never resisted. Your spells build status like weapons do, and Judgement builds 50% faster for you."
+      },
+      "params": {
+        "kind": "holy",
+        "strength": 1.0,
+        "buildup": 1.5,
+        "spells": true
+      }
+    }
+  ]
+}

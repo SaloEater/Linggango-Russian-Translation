@@ -1,0 +1,84 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.gambler.name",
+    "fallback": "Gambler"
+  },
+  "description": {
+    "translate": "class_enhancement.class.gambler.description",
+    "fallback": "Will fortune favor you?"
+  },
+  "icon": "minecraft:gold_nugget",
+  "color": "#FFAA22",
+  "order": 170,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.gambler.stat.0",
+      "fallback": "§a+3 Luck"
+    },
+    {
+      "translate": "class_enhancement.class.gambler.stat.1",
+      "fallback": "§a10% chance to deal 2.5x damage"
+    },
+    {
+      "translate": "class_enhancement.class.gambler.stat.2",
+      "fallback": "§a5% chance on hit to Poison, Wither, Weaken, Slow or Blind for 5s"
+    },
+    {
+      "translate": "class_enhancement.class.gambler.stat.3",
+      "fallback": "§c5% chance to take 2x damage"
+    }
+  ],
+  "attributes": [
+    "minecraft:generic.luck=3.0:addition"
+  ],
+  "main_hand": "enigmaticdice:enigmatic_die=5",
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:roll_the_dice",
+    "name": {
+      "translate": "class_enhancement.class.gambler.skill.name",
+      "fallback": "Roll the Dice"
+    },
+    "icon": "minecraft:gold_nugget",
+    "cooldown": "3m",
+    "description": {
+      "translate": "class_enhancement.class.gambler.skill.description",
+      "fallback": "Rolls one of six: repair 25% of your gear, Strength II, Resistance II, Invisibility, Speed III with Jump Boost II, or Regeneration III. 1 in 10 rolls is a jackpot and gives all six."
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:loaded_dice",
+      "name": {
+        "translate": "class_enhancement.class.gambler.passive.0.name",
+        "fallback": "Loaded Dice"
+      },
+      "icon": "minecraft:rabbit_foot",
+      "description": {
+        "translate": "class_enhancement.class.gambler.passive.0.description",
+        "fallback": "Harmful effects have a 25% chance to miss you. Every second there is a 5% chance one of your beneficial effects goes up a level, up to V."
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.gambler.passive.1.name",
+        "fallback": "Attuned: Wild"
+      },
+      "icon": "minecraft:amethyst_shard",
+      "description": {
+        "translate": "class_enhancement.class.gambler.passive.1.description",
+        "fallback": "Each hit also counts as a random element at half strength: +12% against mobs weak to it, +25% when boosted, never resisted."
+      },
+      "params": {
+        "kind": "random",
+        "strength": 0.5
+      }
+    }
+  ]
+}

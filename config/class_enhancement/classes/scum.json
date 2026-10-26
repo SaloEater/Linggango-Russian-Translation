@@ -1,0 +1,114 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.scum.name",
+    "fallback": "§4§lScum"
+  },
+  "description": {
+    "translate": "class_enhancement.class.scum.description",
+    "fallback": "§cThe scum of the earth. Weak, fragile, and nobody sees you coming.§r"
+  },
+  "icon": "minecraft:rotten_flesh",
+  "color": "#778877",
+  "order": 190,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.scum.stat.0",
+      "fallback": "§6-30% Width"
+    },
+    {
+      "translate": "class_enhancement.class.scum.stat.1",
+      "fallback": "§a+500% Sacrifice LP"
+    },
+    {
+      "translate": "class_enhancement.class.scum.stat.2",
+      "fallback": "§a+100% Demon Will"
+    },
+    {
+      "translate": "class_enhancement.class.scum.stat.3",
+      "fallback": "§c-4 Hearts"
+    },
+    {
+      "translate": "class_enhancement.class.scum.stat.4",
+      "fallback": "§c-1 Luck"
+    },
+    {
+      "translate": "class_enhancement.class.scum.stat.5",
+      "fallback": "§c-25% Healing Received"
+    }
+  ],
+  "attributes": [
+    "animus:bonus_self_sacrifice=5.0:addition",
+    "animus:bonus_demon_will=1.0:addition",
+    "minecraft:generic.max_health=-8.0:addition",
+    "minecraft:generic.luck=-1.0:addition",
+    "attributeslib:healing_received=-0.25:multiply_base"
+  ],
+  "main_hand": "minecraft:stick=1",
+  "items": [
+    "minecraft:rotten_flesh=3"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 0.7 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:foul_play",
+    "name": {
+      "translate": "class_enhancement.class.scum.skill.name",
+      "fallback": "Foul Play"
+    },
+    "icon": "minecraft:fermented_spider_eye",
+    "cooldown": "1m",
+    "description": {
+      "translate": "class_enhancement.class.scum.skill.description",
+      "fallback": "Toggle. While active, mobs can't target you. You get 15s of it, refilled after 25s unused. Running it dry starts the cooldown."
+    }
+  },
+  "passives": [
+    {
+      "name": {
+        "translate": "class_enhancement.class.scum.passive.0.name",
+        "fallback": "Cursed Ring Synergy"
+      },
+      "icon": "enigmaticlegacy:cursed_ring",
+      "description": {
+        "translate": "class_enhancement.class.scum.passive.0.description",
+        "fallback": "While you wear the Cursed Ring: 40% less damage taken, 50% more damage dealt, Poison II and Wither II on every hit, mobs are slower to notice you, the ring's armor penalty drops to 30%, +30% spell power and +50% summon damage."
+      }
+    },
+    {
+      "id": "linggango_tweaks:cutthroat",
+      "name": {
+        "translate": "class_enhancement.class.scum.passive.1.name",
+        "fallback": "Cutthroat"
+      },
+      "icon": "minecraft:iron_sword",
+      "description": {
+        "translate": "class_enhancement.class.scum.passive.1.description",
+        "fallback": "Hits on mobs that are not targeting you deal 50% more damage. +1 Looting on every kill."
+      },
+      "params": {
+        "backstab": 0.5,
+        "looting": 1
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.scum.passive.2.name",
+        "fallback": "Attuned: Nature"
+      },
+      "description": {
+        "translate": "class_enhancement.class.scum.passive.2.description",
+        "fallback": "Your hits also count as Nature at half strength: +12% against mobs weak to Nature, +25% when boosted, never resisted. Overgrowth builds 50% faster for you. Nature is boosted on poisoned targets, and the Cursed Ring poisons everything you hit."
+      },
+      "params": {
+        "kind": "nature",
+        "strength": 0.5,
+        "buildup": 1.5
+      }
+    }
+  ]
+}

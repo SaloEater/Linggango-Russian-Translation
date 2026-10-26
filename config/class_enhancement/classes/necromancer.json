@@ -1,0 +1,135 @@
+{
+  "name": {
+    "translate": "class_enhancement.class.necromancer.name",
+    "fallback": "Necromancer"
+  },
+  "description": {
+    "translate": "class_enhancement.class.necromancer.description",
+    "fallback": "The dead are not gone. They are waiting for someone to give them orders."
+  },
+  "icon": "goety:dark_wand",
+  "color": "#6B3FA0",
+  "order": 270,
+  "growth": 0.06,
+  "stats": [
+    {
+      "translate": "class_enhancement.class.necromancer.stat.0",
+      "fallback": "§a+50% Souls Gained"
+    },
+    {
+      "translate": "class_enhancement.class.necromancer.stat.1",
+      "fallback": "§a+15% Goety Spell Cooldown Reduction"
+    },
+    {
+      "translate": "class_enhancement.class.necromancer.stat.2",
+      "fallback": "§a+15% Goety Soul Discount"
+    },
+    {
+      "translate": "class_enhancement.class.necromancer.stat.3",
+      "fallback": "§a+25% Summon Damage on every servant you own"
+    },
+    {
+      "translate": "class_enhancement.class.necromancer.stat.4",
+      "fallback": "§a+Necromancy tab at the Study Lectern"
+    },
+    {
+      "translate": "class_enhancement.class.necromancer.stat.5",
+      "fallback": "§c-20% Attack Damage"
+    },
+    {
+      "translate": "class_enhancement.class.necromancer.stat.6",
+      "fallback": "§c-2 Hearts"
+    },
+    {
+      "translate": "class_enhancement.class.necromancer.stat.7",
+      "fallback": "§c-50% Holy Magic Resistance"
+    }
+  ],
+  "attributes": [
+    "goety_revelation:soul_increase_efficiency=0.5:multiply_base",
+    "goety:cooldown_discount=0.15:addition",
+    "goety:soul_discount=0.15:addition",
+    "irons_spellbooks:summon_damage=0.25:multiply_base",
+    "minecraft:generic.attack_damage=-0.2:multiply_base",
+    "minecraft:generic.max_health=-4.0:addition",
+    "irons_spellbooks:holy_magic_resist=-0.5:addition"
+  ],
+  "main_hand": "goety:dark_wand=1",
+  "off_hand": "composite_material:flint_sword=1",
+  "items": [
+    "goety:ectoplasm=8",
+    "goety:grave_dust=16",
+    "minecraft:bone=16"
+  ],
+  "commands": [
+    "scale set pehkui:height 1.0 %player%",
+    "scale set pehkui:width 1.0 %player%",
+    "scale persist set true %player%"
+  ],
+  "skill": {
+    "id": "linggango_tweaks:raise_the_fallen",
+    "name": {
+      "translate": "class_enhancement.class.necromancer.skill.name",
+      "fallback": "Arise"
+    },
+    "icon": "minecraft:zombie_head",
+    "cooldown": "2m",
+    "description": {
+      "translate": "class_enhancement.class.necromancer.skill.description",
+      "fallback": "Raise up to 3 mobs that died within 16 blocks in the last 30 seconds as servants for 40 seconds. Skeletons come back as skeletons, piglins as zombified piglins, everything else as zombies."
+    }
+  },
+  "passives": [
+    {
+      "id": "linggango_tweaks:soul_harvest",
+      "name": {
+        "translate": "class_enhancement.class.necromancer.passive.0.name",
+        "fallback": "Soul Harvest"
+      },
+      "icon": "minecraft:soul_lantern",
+      "description": {
+        "translate": "class_enhancement.class.necromancer.passive.0.description",
+        "fallback": "Kills by your servants give you 2 Goety souls."
+      },
+      "params": {
+        "souls": 2
+      }
+    },
+    {
+      "id": "linggango_tweaks:lectern_grants",
+      "name": {
+        "translate": "class_enhancement.class.necromancer.passive.1.name",
+        "fallback": "Graveborn"
+      },
+      "icon": "minecraft:wither_rose",
+      "description": {
+        "translate": "class_enhancement.class.necromancer.passive.1.description",
+        "fallback": "You start with Grave Pact 1 and Soul Siphon 1 in the Necromancy tab at the Study Lectern."
+      },
+      "params": {
+        "necromancy": {
+          "grave_pact": 1,
+          "soul_siphon": 1
+        }
+      }
+    },
+    {
+      "id": "linggango_tweaks:attunement",
+      "name": {
+        "translate": "class_enhancement.class.necromancer.passive.2.name",
+        "fallback": "Attuned: Dark"
+      },
+      "icon": "minecraft:wither_skeleton_skull",
+      "description": {
+        "translate": "class_enhancement.class.necromancer.passive.2.description",
+        "fallback": "Your hits and your servants' hits count as Dark at half strength: +12% against mobs weak to Dark, +25% when boosted, never resisted."
+      },
+      "params": {
+        "kind": "dark",
+        "strength": 0.5,
+        "buildup": 1.5,
+        "minions": true
+      }
+    }
+  ]
+}
