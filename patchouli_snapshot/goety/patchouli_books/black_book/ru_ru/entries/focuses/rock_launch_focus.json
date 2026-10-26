@@ -1,0 +1,26 @@
+{
+  "name": "Rock Launch Focus",
+  "icon": "goetyawaken:rock_launch_focus",
+  "category": "goety:goetyawaken_focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "With this focus, you can tear a cluster of rock from the earth with raw force and hurl it at your foes. The damage it deals depends on many factors, including its flight speed, the number of blocks torn loose and the hardness of the rock itself."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goetyawaken:rock_launch_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The rock cluster draws power from its surroundings. In cold biomes or with a $(l:crafts/staff/frost_staff)Frost Staff$(), it freezes those it strikes; in the Nether or with a $(l:crafts/staff/nether_staff)Nether Staff$(), it burns hotter; with a $(l:crafts/staff/necro_staff)Necro Staff$() or in the deep dark, it siphons necrotic power to wither its victims; with a $(l:crafts/staff/storm_staff)Storm Staff$() or during a thunderstorm, it becomes wreathed in lightning, causing its victims to spasm; with a $(l:crafts/staff/wind_staff)Wind Staff$(), it stirs up gale winds, and the shockwave of its detonation hurls targets far away; with a $(l:crafts/staff/wild_staff)Wild Staff$() or in a swamp, it draws on wild venom, poisoning its victims."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Accepts Potency, Velocity, Range, Burning and Radius enchantments. Wearing a $(l:crafts/garment/ring_of_force)Ring of Force$() greatly enhances the speed and efficiency of rock raising."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetyawaken:rock_launch_focus": 1
+  }
+}

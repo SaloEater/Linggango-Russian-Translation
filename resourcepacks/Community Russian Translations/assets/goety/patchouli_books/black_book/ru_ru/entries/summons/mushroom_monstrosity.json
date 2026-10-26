@@ -1,0 +1,48 @@
+{
+  "name": "Мушрумье чудовище",
+  "icon": "goetyawaken:mushroom_monstrosity_spawn_egg",
+  "category": "goety:goetyawaken_summons",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Теперь, когда ты освоил Свитки Доминирования, простое создание Монстра, выкованного из редстоуна, больше не способно удовлетворить твои амбиции. После уничтожения грибного монстра внутри Тюрьмы Хаоса ты был глубоко впечатлён необузданной силой и жестокостью того Прототипа. Мудрость древних теперь кажется такой соблазнительно близкой."
+    },
+    {
+      "type": "text",
+      "text": "Получив схемы, извлечённые из того монстра, и используя силу трёх измерений, ты создал форму, объединяющую материалы из этих измерений с некоторыми... грибами. С этой странной формой ты уже знаешь, что делать дальше."
+    },
+    {
+      "type": "image",
+      "images": [
+        "goetyawaken:textures/gui/mushroom_monstrosity_1.png"
+      ],
+      "border": true,
+      "title": "Соберите первый слой формы",
+      "text": "Разумеется, стекло не требуется."
+    },
+    {
+      "type": "image",
+      "images": [
+        "goetyawaken:textures/gui/mushroom_monstrosity_2.png"
+      ],
+      "border": true,
+      "title": "Соберите второй слой формы",
+      "text": "Разумеется, стекло не требуется."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goetyawaken:mushroom_monstrosity",
+      "text": "Создайте собственный Прототип!"
+    },
+    {
+      "type": "image",
+      "images": [
+        "goetyawaken:textures/gui/mushroom_monstrosity_revive.png"
+      ],
+      "border": true,
+      "title": "Воскрешение",
+      "text": "Твой монстр погиб? Это немалое достижение. Для твоего врага, я имею в виду."
+    }
+  ],
+  "advancement": "goetyawaken:royal_research_completed"
+}

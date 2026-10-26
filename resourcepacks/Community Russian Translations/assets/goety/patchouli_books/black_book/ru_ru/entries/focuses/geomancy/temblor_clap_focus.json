@@ -1,0 +1,19 @@
+{
+  "name": "Хлопок фокуса землетрясения",
+  "icon": "goety:temblor_clap_focus",
+  "category": "goety:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Это заклинание высвобождает ударную волну, которая отбрасывает врагов и оглушает их на несколько секунд. Радиус заклинания увеличивается, если заклинатель находится на земле."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/temblor_clap_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Произнесение с $(l:crafts/staff/geo_staff)Geo Staff$() немного увеличивает радиус."
+    }
+  ]
+}
